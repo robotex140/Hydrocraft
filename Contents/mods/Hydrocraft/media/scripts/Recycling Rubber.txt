@@ -1,0 +1,100 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+	
+/************************ITEMS************************/
+	
+	item HCRubberscrap
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Scrap Rubber,
+        Icon    		=    	HCRubberscrap,
+    }
+
+/************************ITEMS************************/
+	
+/************************RECIPES************************/
+
+recipe Recycle Rubber
+    {
+    OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubbervulcanized,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Chemistry,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+recipe Recycle Rubber
+    {
+    HCRubberball/Basketball,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubber,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Chemistry,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+recipe Recycle Rubber
+    {
+    HCBalloonbox=3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubber,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Chemistry,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+
+recipe Recycle Rubber
+    {
+    HCGardenhose,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=3,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCRubber=3,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Chemistry,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+}

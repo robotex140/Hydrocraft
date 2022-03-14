@@ -1,0 +1,956 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+   item HCGarbagebagbox
+	{
+	Weight             = 0.8,
+	Type			   = Drainable,
+	UseDelta 		   = 0.05,
+	DisplayName		   = Box of Garbage Bags,
+	ReplaceOnDeplete   = HCGarbagebagboxempty,
+	Icon			   = HCGarbagebagbox,
+	}
+
+
+    item HCAlicepack3
+    {
+        Type                    = Container,
+        DisplayName             = Fine Leather Alice Pack,
+        ClothingItem            = HCPackFineAlice,
+        CanBeEquipped           = Back,
+        WeightReduction         =   90,
+        Weight                  =   1,
+        Capacity                =   35,
+        Icon                    =   HCAlicepack3,
+        OpenSound               =   OpenBag,
+        CloseSound              =   CloseBag,
+        PutInSound              =   PutItemInBag,
+        BloodLocation           = Bag,
+        RunSpeedModifier        = 0.94,
+        CanHaveHoles            = false,
+        AttachmentReplacement   = Bag,
+        ReplaceInSecondHand     = HCPackFineAliceLHand holdingbagleft,
+        ReplaceInPrimaryHand    = HCPackFineAliceRHand holdingbagright,
+    }
+
+
+
+    item HCCampingpack
+    {
+        WeightReduction =   82,
+        Weight  =   1,
+        Type    =   Container,
+        Capacity    =   24,
+        DisplayName =   Camping Pack,
+        IconsForTexture = BigHiking_Blue;BigHiking_Green;BigHiking_Red,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_BigHikingBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.95,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_BigHikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_BigHikingBag_RHand holdingbagright,
+   }
+
+    item HCClimbingpack
+    {
+        WeightReduction =   75,
+        Weight  =   0.8,
+        Type    =   Container,
+        Capacity    =   20,
+        DisplayName =   Climbing Pack,
+        IconsForTexture =   Hiking_Blue;Hiking_Green;Hiking_Red,
+        CanBeEquipped = Back,
+        OpenSound   =   OpenBag,
+        CloseSound   =   CloseBag,
+        PutInSound   =   PutItemInBag,
+        ClothingItem = Bag_HikingBag,
+        BloodLocation = Bag,
+        RunSpeedModifier = 0.96,
+        AttachmentReplacement = Bag,
+        ReplaceInSecondHand = Bag_HikingBag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_HikingBag_RHand holdingbagright,
+  }
+
+    item HCPrepperbag
+    {
+        WeightReduction    	=    100,
+        Weight    		    =    0.1,
+        Type    		    =    Container,
+        Capacity    		=    10,
+        DisplayName    		=    Doomsday Prepper Bag,
+        Icon    		    =    HCPrepperbag,
+        CanBeEquipped 		=    Back,
+        OpenSound   		=    OpenBag,
+        CloseSound  		=    CloseBag,
+        PutInSound   		=    PutItemInBag,
+   }
+
+     item HCWheelbarrow
+   {
+	WeightReduction         	= 100,
+	Weight             		    = 20,
+	Type                		= Container,
+	Capacity             		= 200,
+	DisplayName             	= Wheelbarrow,
+	Icon				        = HCWheelbarrow,
+	RequiresEquippedBothHands 	= true,
+    TwoHandWeapon               = TRUE,
+   }
+
+
+     item HCPallettruck
+   {
+	WeightReduction         	= 100,
+	Weight             		    = 15,
+	Type                		= Container,
+	Capacity             		= 190,
+	DisplayName             	= Pallet Truck,
+	Icon				        = HCPallettruck,
+	RequiresEquippedBothHands 	= true,
+    TwoHandWeapon               = TRUE,
+   }
+
+
+     item HCPushcart
+   {
+	WeightReduction         	= 100,
+	Weight             		     = 10,
+	Type                		= Container,
+	Capacity             		= 180,
+	DisplayName             	= Push Cart,
+	Icon				        = HCPushcart,
+	RequiresEquippedBothHands 	= true,
+    TwoHandWeapon               =   TRUE,
+   }
+
+    item HCHanddolly
+   {
+	WeightReduction         	= 100,
+	Weight             		    = 7,
+	Type                		= Container,
+	Capacity             		= 170,
+	DisplayName             	= Hand Dolly,
+	Icon				        = HCHanddolly,
+	RequiresEquippedBothHands 	= true,
+    TwoHandWeapon               = TRUE,
+   }
+
+    item HCForklift
+   {
+	WeightReduction         	= 100,
+	Weight             		    = 20,
+	Type                		= Container,
+	Capacity             		= 200,
+	DisplayName             	= Forklift,
+	Icon				        = HCForklift,
+	RequiresEquippedBothHands 	= true,
+    TwoHandWeapon               = TRUE,
+   }
+
+     item HCShoppingcart
+   {
+	WeightReduction        		= 100,
+	Weight             		    = 6,
+	Type                		= Container,
+	Capacity             		= 160,
+	DisplayName             	= Shopping Cart,
+	Icon				        = HCShoppingcart,
+	RequiresEquippedBothHands 	= true,
+    TwoHandWeapon               = TRUE,
+   }
+
+     item HCToywagon
+   {
+	WeightReduction        		= 100,
+	Weight             		    = 5,
+	Type                		= Container,
+	Capacity             		= 150,
+	DisplayName             	= Toy Wagon,
+	Icon				        = HCToywagon,
+   }
+
+    item HCPaperbag
+    {
+        WeightReduction     = 40,
+        Weight              = 0.1,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Paper Bag,
+        Icon                = HCPaperbag,
+    }
+
+    item HCPaperlunchbag
+    {
+        WeightReduction     = 20,
+        Weight              = 0.1,
+        Type                = Container,
+        Capacity            = 4,
+        DisplayName         = Paper Lunch Bag,
+        Icon                = HCPaperlunchbag,
+    }
+
+   item HCSpiffosorderbag
+    {
+        WeightReduction     = 20,
+        Weight    		    = 0.1,
+        Type                = Container,
+        DisplayName     	= Spiffo's To-Go Order,
+        icon 			    = HCSpiffosorderbag,
+    } 
+
+    item HCFannypackblue
+    {
+        WeightReduction     = 50,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 4,
+        DisplayName         = Fanny Pack,
+        Icon                = HCFannypackblue,
+        CanBeEquipped 	    = Chest,
+    }
+
+    item HCFannypackyellow
+    {
+        WeightReduction     = 50,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 4,
+        DisplayName         = Fanny Pack,
+        Icon                = HCFannypackyellow,
+        CanBeEquipped       = Chest,
+    }
+
+    item HCFannypackred
+    {
+        WeightReduction     = 50,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 4,
+        DisplayName         = Fanny Pack,
+        Icon                = HCFannypackred,
+        CanBeEquipped       = Chest,
+    }
+
+    item HCFannypackgreen
+    {
+        WeightReduction     = 50,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 4,
+        DisplayName         = Fanny Pack,
+        Icon                = HCFannypackgreen,
+        CanBeEquipped       = Chest,
+    }
+    
+    item HCBriefcase
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 10,
+        DisplayName         = Briefcase,
+        Icon                = HCLeatherbriefcase,
+    }
+
+    item HCDuralumincase
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 15,
+        DisplayName         = Duralumin Case,
+        Icon                = HCDuralumincase,
+    }
+
+    item HCMessengerbag
+    {
+        WeightReduction     = 70,
+        Weight              = 0.5,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Messenger Bag,
+        Icon                = HCMessengerbag,
+        CanBeEquipped       = Back,
+    }
+
+    item HCPizzadeliverybag
+    {
+        WeightReduction     = 60,
+        Weight              = 0.5,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Pizza Delivery Bag,
+        Icon                = HCPizzadeliverybag,
+    }
+
+    item HCMailbag
+    {
+        WeightReduction     = 70,
+        Weight              = 0.5,
+        Type                = Container,
+        Capacity            = 12,
+        DisplayName         = Mail Bag,
+        Icon                = HCMailbag,
+        CanBeEquipped       = Back,
+    }
+
+    item HCSatchel
+    {
+        WeightReduction     = 70,
+        Weight              = 0.5,
+        Type                = Container,
+        Capacity            = 6,
+        DisplayName         = Satchel,
+        Icon                = HCSatchel,
+        CanBeEquipped       = Back,
+    }
+
+    item HCClothtotebag
+    {
+        WeightReduction     = 55,
+        Weight              = 0.5,
+        Type                = Container,
+        Capacity            = 12,
+        DisplayName         = Cloth Tote Bag,
+        Icon                = HCClothtotebag,
+    }
+
+    item HCMedicalbag
+    {
+        WeightReduction     = 80,
+        Weight              = 1.5,
+        Type                = Container,
+        Capacity            = 15,
+        DisplayName         = Doctor's Bag,
+        Icon                = HCMedicalbag,
+        Medical             = TRUE,
+        ReplaceInSecondHand = Bag_FirstAidKit_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_FirstAidKit_RHand holdingbagright,
+    }
+
+    item HCMedicalbox
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Medical Box,
+        Icon                = HCMedicalbox,
+    }
+        
+    item HCGolfbag
+    {
+        WeightReduction     = 80,
+        Weight              = 2.0,
+        Type                = Container,
+        Capacity            = 15,
+        DisplayName         = Golf Bag,
+        Icon                = HCGolfbag,
+        CanBeEquipped       = Back,
+    }
+
+    item HCCosmeticcase
+    {
+        WeightReduction     = 60,
+        Weight              = 1.2,
+        Type                = Container,
+        Capacity            = 10,
+        DisplayName         = Cosmetic Case,
+        Icon                = HCCosmeticcase,
+    }
+
+    item HCLunchbox
+    {
+        WeightReduction     = 60,
+        Weight              = 0.5,
+        Type                = Container,
+        Capacity            = 6,
+        DisplayName         = Lunch Box,
+        Icon                = HCLunchbox,
+    }
+
+    item HCSeedbag
+    {
+        WeightReduction     = 60,
+        Weight              = 0.1,
+        Type                = Container,
+        Capacity            = 5,
+        DisplayName         = Seed Bag,
+        Icon                = HCSeedbag,
+    }
+
+    item HCShoebox
+    {
+        WeightReduction     = 10,
+        Weight              = 0.1,
+        Type                = Container,
+        Capacity            = 5,
+        DisplayName         = Shoe Box,
+        Icon                = HCShoebox,
+    }
+
+    item HCToolbox
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Metal Tool Box,
+        Icon                = HCToolbox,
+    }
+
+    item HCWoodentoolbox
+    {
+        WeightReduction     = 60,
+        Weight              = 0.8,
+        Type                = Container,
+        Capacity            = 6,
+        DisplayName         = Wooden Tool Box,
+        Icon                = HCWoodentoolbox,
+    }
+
+    item HCMetalbox
+    {
+        WeightReduction     = 60,
+        Weight              = 0.6,
+        Type                = Container,
+        Capacity            = 4,
+        DisplayName         = Metal Box,
+        Icon                = HCMetalbox,
+    }
+
+    item HCFishingbox
+    {
+        WeightReduction     = 60,
+        Weight              = 0.8,
+        Type                = Container,
+        Capacity            = 6,
+        DisplayName         = Fishing Tackle Box,
+        Icon                = HCFishingbox,
+    }
+
+    item HCFishingbasket
+    {
+        WeightReduction     = 10,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 12,
+        DisplayName         = Fishing Basket,
+        Icon                = HCFishingbasket,
+    }
+
+    item HCWoodencrate
+    {
+        WeightReduction     = 10,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 10,
+        DisplayName         = Wooden Crate,
+        Icon                = HCWoodencrate,
+		
+    }
+
+    item HCToychest
+    {
+        WeightReduction     = 10,
+        Weight              = 2,
+        Type                = Container,
+        Capacity            = 25,
+        DisplayName         = Toy Chest,
+        Icon                = HCToychest,
+	
+    }
+
+    item HCWardrobe
+    {
+        WeightReduction     = 10,
+        Weight              = 10,
+        Type                = Container,
+        Capacity            = 100,
+        DisplayName         = Wardrobe,
+        Icon                = HCWardrobe,
+	
+    }
+
+    item HCPlasticbin
+    {
+        WeightReduction     = 60,
+        Weight              = 0.4,
+        Type                = Container,
+        Capacity            = 20,
+        DisplayName         = Large Plastic Bin,
+        Icon                = HCPlasticbin,
+	
+    }
+
+    item HCPlasticbin2
+    {
+        WeightReduction     = 60,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 10,
+        DisplayName         = Small Plastic Bin,
+        Icon                = HCPlasticbin2,
+    }
+
+    item HCCardboardbox
+    {
+        WeightReduction     = 10,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 20,
+        DisplayName         = Cardboard Box,
+        Icon                = HCCardboardbox,
+	
+    }
+
+    item HCCardboardboxstack
+    {
+        Weight    	     = 0.5,
+        Type    	     = Normal,
+        DisplayName      = Stack of Cardboard Boxes,
+        icon 		     = HCCardboardboxstack,
+	
+    }
+
+    item HCCardboardflat
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Cardboard Flat,
+        icon 			= HCCardboardflat,
+    } 
+
+    item HCLeatherbag
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 16,
+        DisplayName         = Leather Bag,
+        Icon                = HCLeatherbag,
+    }
+
+    item HCSuitcase
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 16,
+        DisplayName         = Suitcase,
+        Icon                = HCSuitcase,
+    }
+
+    item HCLuggage
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 16,
+        DisplayName         = Luggage,
+        Icon                = HCLuggage,
+    }
+
+    item HCLuggage2
+    {
+        WeightReduction     = 60,
+        Weight              = 1.0,
+        Type                = Container,
+        Capacity            = 16,
+        DisplayName         = Roller Luggage,
+        Icon                = HCLuggage2,
+    }
+
+    item HCTrunk
+    {
+        WeightReduction     = 60,
+        Weight              = 2.0,
+        Type                = Container,
+        Capacity            = 32,
+        DisplayName         = Trunk,
+        Icon                = HCTrunk,
+	
+    }
+
+    item HCChest
+    {
+        WeightReduction     		= 60,
+        Weight              		= 4.0,
+        Type                		= Container,
+        Capacity            		= 32,
+        DisplayName         		= Chest,
+        Icon                		= HCChest,
+	RequiresEquippedBothHands 	= true,
+    }
+
+    item HCCooler
+    {
+        WeightReduction     = 60,
+        Weight              = 0.5,
+        Type                = Container,
+        Capacity            = 8,
+        DisplayName         = Cooler,
+        Icon                = HCCooler,
+    }
+
+    item HCIcechest
+    {
+        WeightReduction    		= 60,
+        Weight              		= 1.0,
+        Type                		= Container,
+        Capacity            		= 16,
+        DisplayName         		= Ice Chest,
+        Icon                		= HCIcechest,
+	
+	RequiresEquippedBothHands 	= true,
+    }
+
+    item HCPillowcase
+    {
+        WeightReduction     = 10,
+        Weight              = 0.1,
+        Type                = Container,
+        Capacity            = 10,
+        DisplayName         = Pillowcase,
+        Icon                = HCPillowcase,
+    }
+
+    item HCPillowcasebackpack
+    {
+        Type                    = Container,
+        DisplayName             = Pillowcase Backpack,
+        ClothingItem            = Bag_SurvivorBag,
+        CanBeEquipped           = Back,
+        WeightReduction         = 50,
+        Weight                  = 1,
+        Capacity                = 15,
+        Icon                    = HCPillowcasebackpack,
+        OpenSound               = OpenBag,
+        CloseSound              = CloseBag,
+        PutInSound              = PutItemInBag,
+        BloodLocation           = Bag,
+        RunSpeedModifier        = 0.94,
+        CanHaveHoles            = false,
+        AttachmentReplacement   = Bag,
+        ReplaceInSecondHand     = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand    = Bag_ALICEpack_RHand holdingbagright,
+    }
+
+
+    item HCImprovisedbackpack
+    {
+        Type                    = Container,
+        DisplayName             = Improvised Backpack,
+        ClothingItem            = Bag_SurvivorBag,
+        CanBeEquipped           = Back,
+        WeightReduction         = 65,
+        Weight                  = 0.7,
+        Capacity                = 16,
+        Icon                    = HCImprovisedbackpack,
+        OpenSound               = OpenBag,
+        CloseSound              = CloseBag,
+        PutInSound              = PutItemInBag,
+        BloodLocation           = Bag,
+        RunSpeedModifier        = 0.94,
+        CanHaveHoles            = false,
+        AttachmentReplacement   = Bag,
+        ReplaceInSecondHand     = Bag_ALICEpack_LHand holdingbagleft,
+        ReplaceInPrimaryHand    = Bag_ALICEpack_RHand holdingbagright,
+    }
+
+
+
+
+
+
+
+    item HCImprovisedhandbag
+    {
+        WeightReduction     = 50,
+        Weight              = 0.4,
+        Type                = Container,
+        Capacity            = 12,
+        DisplayName         = Improvised Handbag,
+        Icon                = HCImprovisedhandbag,
+    }
+
+    item HCBindle
+    {
+        WeightReduction     = 40,
+        Weight              = 0.2,
+        Type                = Container,
+        Capacity            = 15,
+        DisplayName         = Bindle,
+        Icon                = HCBindle,
+        CanBeEquipped       = Back,
+    }
+	
+    item HCShoulderpole
+    {
+        WeightReduction     = 65,
+        Weight              = 1.5,
+        Type                = Container,
+        Capacity            = 10,
+        DisplayName         = Shoulder Pole,
+        Icon                = HCShoulderpole,
+        CanBeEquipped       = Back,
+    }
+	
+
+    item HCShipcrate1
+    {
+        WeightReduction     = 10,
+        Weight              = 45.0,
+        Type                = Container,
+        Capacity            = 1350,
+        DisplayName         = Shipping Crate,
+        Icon                = HCShipcrate1,
+	
+    }
+
+    item HCShipcrate2
+    {
+        WeightReduction     = 10,
+        Weight              = 45.0,
+        Type                = Container,
+        Capacity            = 1350,
+        DisplayName         = Shipping Crate,
+        Icon                = HCShipcrate2,
+	
+    }
+
+    item HCShipcrate3
+    {
+        WeightReduction     = 10,
+        Weight              = 50.0,
+        Type                = Container,
+        Capacity            = 1350,
+        DisplayName         = Shipping Crate,
+        Icon                = HCShipcrate3,
+	
+    }
+
+    item HCShipcrate4
+    {
+        WeightReduction     = 10,
+        Weight              = 10.0,
+        Type                = Container,
+        Capacity            = 300,
+        DisplayName         = Shipping Crate,
+        Icon                = HCShipcrate4,
+	
+    }
+
+    item HCShipcrate5
+    {
+        WeightReduction     = 10,
+        Weight              = 10.0,
+        Type                = Container,
+        Capacity            = 300,
+        DisplayName         = Shipping Crate,
+        Icon                = HCShipcrate5,
+	
+    }
+
+    item HCShipcrate6
+    {
+        WeightReduction     = 10,
+        Weight              = 10.0,
+        Type                = Container,
+        Capacity            = 300,
+        DisplayName         = Shipping Crate,
+        Icon                = HCShipcrate6,
+	
+    }
+
+    item HCShipcrate7
+    {
+        WeightReduction     = 10,
+        Weight              = 10.0,
+        Type                = Container,
+        Capacity            = 300,
+        DisplayName         = Shipping Crate,
+        Icon                = HCShipcrate7,
+	
+    }
+
+/************************RECIPES************************/
+
+recipe Take Garbage Bag From Box
+    {
+	HCGarbagebagbox,
+	Result:Garbagebag=1,
+	Time:10,
+    }
+
+recipe Bury Trash
+    {
+    destroy Garbagebag,
+	HCWorkgloves,
+    keep HandShovel,
+    Result:HCWorkgloves,
+    Time:2000,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }	
+
+recipe Bury Trash
+    {
+    destroy Garbagebag,
+	HCWorkgloves,
+    keep Shovel,
+    Result:HCWorkgloves,
+    Time:1000,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }	
+
+recipe Bury Trash
+    {
+    destroy Garbagebag,
+	HCWorkgloves,
+    keep Base.PickAxe,
+    Result:HCWorkgloves,
+    Time:500,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Bury Trash
+    {
+    destroy Garbagebag,
+	HCWorkgloves,
+    HCMiningdrillpowered,
+    Result:HCWorkgloves,
+    Time:250,
+    OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Unpack Stack of Cardboard Boxes
+    {
+    HCCardboardboxstack,
+    Result:HCCardboardbox=12,
+    Time:40.0,
+    }
+
+
+recipe Craft Improvised Backpack using Planks
+	{
+	Sheet/Tarp/HCPillowcase,
+	SheetRope=4,
+	Plank=2,
+	keep Saw/Axe/HuntingKnife/KitchenKnife/FlintKnife,
+	Result:HCImprovisedbackpack,
+	Time:300.0,
+    Category:Engineer,
+	}
+
+recipe Craft Improvised Backpack using Sturdy Sticks
+	{
+	Sheet/Tarp/HCPillowcase,
+	SheetRope=4,
+	WoodenStick=3,
+	Result:HCImprovisedbackpack,
+	Time:300.0,
+    Category:Engineer,
+    OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Craft Improvised Handbag using Planks
+	{
+	Sheet/Tarp/HCPillowcase,
+	SheetRope=2,
+	Plank,
+	keep KitchenKnife/Saw/Axe/HuntingKnife/FlintKnife,
+	Result:HCImprovisedhandbag,
+	Time:200.0,
+    Category:Engineer,
+	}
+
+recipe Craft Improvised Handbag using Sturdy Sticks
+	{
+	Sheet/Tarp/HCPillowcase,
+	SheetRope=2,
+	WoodenStick,
+	Result:HCImprovisedhandbag,
+	Time:200.0,
+    Category:Engineer,
+    OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Craft Sheet Rope
+	{
+	HCPillowcase,
+	Result:RippedSheets=4,
+	Time:75.0,
+	}
+
+recipe Craft Sheet Rope
+	{
+	HCPillowcase,
+	Result:SheetRope,
+	Time:75.0,
+	}
+
+recipe Craft Pillow Case Backpack
+	{
+	HCPillowcase,
+	SheetRope=4,
+	keep Screwdriver/Pencil/Pen/KitchenKnife/HuntingKnife/Base.TentPeg/FlintKnife,
+	Result:HCPillowcasebackpack,
+	Time:125.0,
+    Category:Engineer,
+    OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Craft Bindle using Planks
+	{
+	Sheet/Tarp/HCPillowcase,
+	Plank,
+	keep KitchenKnife/Saw/Axe/HuntingKnife/FlintKnife,
+	Result:HCBindle,
+	Time:200.0,
+    Category:Engineer,
+	}
+
+recipe Craft Bindle using Sturdy Sticks
+	{
+	Sheet/Tarp/HCPillowcase,
+	WoodenStick,
+	Result:HCBindle,
+	Time:200.0,
+    Category:Engineer,
+    OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+recipe Craft Shoulder Pole using Planks
+	{
+	Plank,
+	SheetRope=6,
+	BucketEmpty=2,
+	keep KitchenKnife/Saw/Axe/HuntingKnife/FlintKnife,
+	Result:HCShoulderpole,
+	Time:250.0,
+    Category:Engineer,
+	}
+
+recipe Craft Shoulder Pole using Sturdy Sticks
+	{
+	WoodenStick,
+	SheetRope=6,
+	BucketEmpty=2,
+	Result:HCShoulderpole,
+	Time:250.0,
+    Category:Engineer,
+    OnGiveXP:HCHunger_OnGiveXP,
+	}
+
+}

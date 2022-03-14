@@ -1,0 +1,6 @@
+name=Hydrocraft Build 41 Continued
+poster=poster.png
+id=Hydrocraft
+description=Adds a ton of items and recipes.
+tiledef=hcBuilding 591
+pack=hcBuilding

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>clothing\HCPackFineAliceLHand</m_MaleModel>
+	<m_FemaleModel>clothing\HCPackFineAliceLHand</m_FemaleModel>
+	<m_GUID>0c40a41d-c1c6-4f93-a6b4-3a4e82b71146</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothing/HCPackFineAlice</textureChoices>
+</clothingItem>

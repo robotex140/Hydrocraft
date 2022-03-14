@@ -1,0 +1,444 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCFlagamerican
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	American Flag,
+	Icon			=	HCFlagamerican,
+	
+  	}
+
+item HCFlagnewmexico
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	New Mexico Flag,
+	Icon			=	HCFlagnewmexico,
+	
+  	}
+
+item HCFlagmexican
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Mexican Flag,
+	Icon			=	HCFlagmexican,
+	
+  	}
+
+item HCFlagcanadian
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Canadian Flag,
+	Icon			=	HCFlagcanadian,
+	
+  	}
+
+item HCFlagbritish
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	British Flag,
+	Icon			=	HCFlagbritish,
+	
+  	}
+
+item HCFlagfrench
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	French Flag,
+	Icon			=	HCFlagfrench,
+	
+  	}
+
+item HCFlagitalian
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Italian Flag,
+	Icon			=	HCFlagitalian,
+	
+  	}
+
+item HCFlagdutch
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Dutch Flag,
+	Icon			=	HCFlagdutch,
+	
+  	}
+
+item HCFlaggerman
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	German Flag,
+	Icon			=	HCFlaggerman,
+	
+  	}
+
+item HCFlagczech
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Czech Flag,
+	Icon			=	HCFlagczech,
+	
+  	}
+
+item HCFlagsoviet
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Soviet Union Flag,
+	Icon			=	HCFlagsoviet,
+	
+  	}
+
+item HCFlagnorthkorea
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	North Korean Flag,
+	Icon			=	HCFlagnorthkorea,
+	
+  	}
+
+item HCFlaganarchist
+    	{
+	Weight			=	0.5,
+	Type			=	Normal,
+	DisplayName		=	Archist Flag,
+	Icon			=	HCFlaganarchist,
+	
+  	}
+
+item HCFlagpole
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Flag Pole,
+	Icon			=	HCFlagpole,
+	
+  	}
+
+item HCFlagpoleamerican
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	American Flag on Pole,
+	Icon			=	HCFlagpoleamerican,
+	
+  	}
+
+item HCFlagpolenewmexico
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	New Mexico Flag on Pole,
+	Icon			=	HCFlagpolenewmexico,
+	
+  	}
+
+item HCFlagpolemexican
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Mexican Flag on Pole,
+	Icon			=	HCFlagpolemexican,
+	
+  	}
+
+item HCFlagpolecanadian
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Canadian Flag on Pole,
+	Icon			=	HCFlagpolecanadian,
+	
+  	}
+
+item HCFlagpolebritish
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	British Flag on Pole,
+	Icon			=	HCFlagpolebritish,
+	
+  	}
+
+item HCFlagpolefrench
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	French Flag on Pole,
+	Icon			=	HCFlagpolefrench,
+	
+  	}
+
+item HCFlagpoleitalian
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Italian Flag on Pole,
+	Icon			=	HCFlagpoleitalian,
+	
+  	}
+
+item HCFlagpoledutch
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Dutch Flag Pole,
+	Icon			=	HCFlagpoledutch,
+	
+  	}
+
+item HCFlagpolegerman
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	German Flag on Pole,
+	Icon			=	HCFlagpolegerman,
+	
+  	}
+
+item HCFlagpoleczech
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Czech Flag on Pole,
+	Icon			=	HCFlagpoleczech,
+	
+  	}
+
+item HCFlagpolesoviet
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Soviet Union Flag on Pole,
+	Icon			=	HCFlagpolesoviet,
+	
+  	}
+
+item HCFlagpolenorthkorea
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	North Korean Flag on Pole,
+	Icon			=	HCFlagpolenorthkorea,
+	
+  	}
+
+item HCFlagpoleanarchist
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Anarchist Flag on Pole,
+	Icon			=	HCFlagpoleanarchist,
+	
+  	}
+
+item HCFlagpolepurple
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Purple Team Flag,
+	Icon			=	HCFlagpolepurple,
+	
+  	}
+
+item HCFlagpoleblue
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Blue Team Flag,
+	Icon			=	HCFlagpoleblue,
+	
+  	}
+
+item HCFlagpolegreen
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Green Team Flag,
+	Icon			=	HCFlagpolegreen,
+	
+  	}
+
+item HCFlagpoleyellow
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Yellow Team Flag,
+	Icon			=	HCFlagpoleyellow,
+	
+  	}
+
+
+item HCFlagpoleorange
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Orange Team Flag,
+	Icon			=	HCFlagpoleorange,
+	
+  	}
+
+
+item HCFlagpolered
+    	{
+	Weight			=	2,
+	Type			=	Normal,
+	DisplayName		=	Red Team Flag,
+	Icon			=	HCFlagpolered,
+	
+  	}
+
+/************************RECIPES************************/	
+
+recipe Weld Flag Pole
+    {
+	SkillRequired:MetalWelding=2,
+        HCSteelrod,
+	HCSteelpole,
+	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
+    	HCWeldingset,
+    	keep WeldingMask,
+    	keep HCWorkgloves,
+    	Result:HCFlagpole,
+    	Time:200.0,
+        Category:Welding,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagamerican,
+    	Result:HCFlagpoleamerican,
+    	Time:20.0,
+    	Category:Leisure,
+    }    
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagnewmexico,
+    	Result:HCFlagpolenewmexico,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagmexican,
+    	Result:HCFlagpolemexican,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagcanadian,
+    	Result:HCFlagpolecanadian,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagbritish,
+    	Result:HCFlagpolebritish,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagfrench,
+    	Result:HCFlagpolefrench,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagitalian,
+    	Result:HCFlagpoleitalian,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagdutch,
+    	Result:HCFlagpoledutch,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlaggerman,
+    	Result:HCFlagpolegerman,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagczech,
+    	Result:HCFlagpoleczech,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagsoviet,
+    	Result:HCFlagpolesoviet,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlagnorthkorea,
+    	Result:HCFlagpolenorthkorea,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+recipe Add Flag
+    {
+        HCFlagpole,
+	HCFlaganarchist,
+    	Result:HCFlagpoleanarchist,
+    	Time:20.0,
+    	Category:Leisure,
+    } 
+
+}

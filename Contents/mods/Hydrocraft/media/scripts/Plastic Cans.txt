@@ -1,0 +1,640 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCPlasticcanempty
+	{
+	Weight			=	0.1,
+	CanStoreWater		=	TRUE,
+        Type			=	Drainable,
+	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
+        DisplayName		=	Empty Plastic Can,
+	Icon			=	HCPlasticcanempty,
+	RainFactor 		= 	1,
+	}
+
+item HCPlasticcanammonia
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Ammonia,
+	Icon				=	HCPlasticcanammonia,
+	}
+
+
+
+item HCPlasticcancoppersulfatesolution
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Copper Sulfate Solution,
+	Icon				=	HCPlasticcancoppersulfatesolution,
+	}
+
+item HCPlasticcandetergent
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Liqiud Soap,
+	Icon				=	HCPlasticcandetergent,
+	}
+
+
+
+item HCPlasticcanh2o2
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Hydrogen Peroxide,
+	Icon				=	HCPlasticcanh2o2,
+	}
+
+
+
+item HCPlasticcanlime
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Milk of Lime,
+	Icon				=	HCPlasticcanlime,
+	}
+
+item HCPlasticcanlye
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Lye,
+	Icon				=	HCPlasticcanlye,
+	}
+
+item HCPlasticcanmethanol
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Methanol,
+	Icon				=	HCPlasticcanmethanol,
+	}
+
+item HCPlasticcanmilk
+	{
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Plastic Can With UHTMilk,
+	ThirstChange 			=	-125,
+	HungerChange 			= 	-12.5,
+	DaysTotallyRotten		=	500,
+	DaysFresh 			=	250,
+	ReplaceOnUse		        =	HCPlasticcanempty,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	Icon				=	HCPlasticcanmilk,
+	}
+
+item HCPlasticcanmuriaticacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Muriatic Acid,
+	Icon				=	HCPlasticcanmuriaticacid,
+	}
+
+item HCPlasticcannickelsulfatesolution
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Nickel Sulfate Solution,
+	Icon				=	HCPlasticcannickelsulfatesolution,
+	}
+
+item HCPlasticcannitricacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Nitric Acid,
+	Icon				=	HCPlasticcannitricacid,
+	}
+
+item HCPlasticcanoil
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Oil,
+	Icon				=	HCPlasticcanoil,
+	}
+
+
+
+item HCPlasticcanrose
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Rose Tanning Oil,
+	Icon				=	HCPlasticcanrose,
+	}
+
+item HCPlasticcansulfuricacid
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Sulfuric Acid,
+	Icon				=	HCPlasticcansulfuricacid,
+	}
+
+item HCPlasticcantan
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Tannin,
+	Icon				=	HCPlasticcantan,
+	}
+
+item HCPlasticcanvegoil
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Vegetable Oil,
+	Icon				=	HCPlasticcanvegoil,
+	}
+
+
+
+item HCAmmoniacanempty
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+	
+        DisplayName		=	Empty Ammonia Can,
+	Icon			=	HCAmmoniacanempty,
+	}
+
+item HCAmmoniacanfull
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCAmmoniacanempty,
+
+	DisplayName			=	Ammonia,
+	Icon				=	HCAmmoniacanfull,
+	}
+
+item HCh2o2canempty
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+	
+        DisplayName		=	Empty Hydrogen Peroxide Can,
+	Icon			=	HCh2o2canempty,
+	}
+
+item HCh2o2can
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCh2o2canempty,
+
+	DisplayName			=	Hydrogen Peroxide,
+	Icon				=	HCh2o2can,
+	}
+
+item HCSulfuricacidcanempty
+	{
+	Weight			=	0.1,
+        Type			=	Normal,
+	
+        DisplayName		=	Empty Sulfuric Acid Can,
+	Icon			=	HCSulfuricacidcanempty,
+	}
+
+item HCSulfuricacidcan
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCSulfuricacidcanempty,
+
+	DisplayName			=	Sulfuric Acid,
+	Icon				=	HCSulfuricacidcan,
+	}
+
+item HCPlasticcangrape
+	{
+	Weight				=	2.5,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,
+	HungerChange			=	-45,	
+	UnhappyChange			=	-25,
+	ThirstChange			=	-175,
+	DisplayName			=	Plastic Can With Grape Juice,
+	ReplaceOnUse		        =	HCPlasticcanempty,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	Icon				=	HCPlasticcangrape,
+	}
+
+item HCPlasticcanhoney
+	{
+	Weight				=	2.5,
+        Type			        =	Food,
+	UseDelta		        =       0.2,
+	BoredomChange			=	-25,
+	UnhappyChange			=	-28,
+	HungerChange			=	-105,
+	ReplaceOnUse		        =	HCPlasticcanempty,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	DisplayName			=	Plastic Can With Honey,
+	Icon				=	HCPlasticcanhoney,
+	}
+
+item HCPlasticcanmilk
+	{
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Plastic Can With UHTMilk,
+	ThirstChange 			=	-125,
+	HungerChange 			= 	-12.5,
+	DaysTotallyRotten		=	500,
+	DaysFresh 			=	250,
+	ReplaceOnUse		        =	HCPlasticcanempty,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	Icon				=	HCPlasticcanmilk,
+	}
+
+item HCPlasticcanpoison
+	{
+	Weight				=	2.5,
+	Type			        =	Food,
+	DisplayName			=	Plastic Can With Insecticide,
+        Poison                          =       true,
+	PoisonDetectionLevel 	        =       1,
+	PoisonPower 		        =       100,
+	ReplaceOnUse		        =	HCPlasticcanempty,
+	ReplaceOnDeplete	        =	HCPlasticcanempty,
+
+	Icon				=	HCPlasticcanpoison,
+	}
+
+item HCPlasticcanwater
+	{
+	IsWaterSource		=	TRUE,
+	Weight			    =	2.5,
+	CanStoreWater		=	TRUE,
+    Type    			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta	      	=	0.07,
+	DisplayName	       	=	Plastic Can With Water,
+	ReplaceOnDeplete	=	HCPlasticcanempty,
+	ReplaceOnUseOn		=	WaterSource-HCPlasticcanwater,
+	Icon		     	=	HCPlasticcanwater,
+	RainFactor 	       	= 	1,
+	}
+
+
+/************************RECIPES************************/
+
+
+recipe Recycle Plastic Can
+    {
+    	HCPlasticcanempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+    	Result:HCPlastic=5,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Ammonia Can
+    {
+    	HCAmmoniacanempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+        OnCreate:recipe_hclabelammonia,
+    	Result:HCPlastic=5,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Clean Empty Ammonia Can
+    {
+    	HCAmmoniacanempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
+    	Result:HCPlasticcanempty,
+        OnCreate:recipe_hclabelammonia,
+    	Time:50,
+    	Category:Chemistry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Hydrogen Peroxide Can
+    {
+    	HCh2o2canempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+        OnCreate:recipe_hclabelh2o2,
+    	Result:HCPlastic=5,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Clean Empty Liquid Soap Can
+    {
+    	HCh2o2canempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
+    	Result:HCPlasticcanempty,
+        OnCreate:recipe_hclabelh2o2,
+    	Time:50,
+    	Category:Chemistry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Sulfuric Acid Can
+    {
+    	HCSulfuricacidcanempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+    	Result:HCPlastic=5,
+        OnCreate:recipe_hclabelsulfuricacid,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Clean Empty Liquid Soap Can
+    {
+    	HCSulfuricacidcanempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
+    	Result:HCPlasticcanempty,
+        OnCreate:recipe_hclabelsulfuricacid,
+    	Time:50,
+    	Category:Chemistry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+
+recipe Fill Empty Plastic Can With Grape Juice
+    {
+    	destroy HCWoodenbucketgrape,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcangrape,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+	Category:Cooking,
+    }
+
+
+
+recipe Fill Empty Plastic Can With Grape Juice
+    {
+    	HCDetergentgrape=4,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcangrape,
+    	Time:50,
+	Category:Cooking,
+    }
+
+recipe Fill Empty Plastic Can With Hydrogen Peroxide
+    {
+    	HCBeakerh2o2=2,
+        keep HCRubberglove,
+    	HCPlasticcanempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcanh2o2,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Chemistry,
+    }
+
+
+
+recipe Fill Empty Plastic Can With Hydrogen Peroxide
+    {
+    	HCDetergenth2o2=4,
+        keep HCRubberglove,
+    	HCPlasticcanempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcanh2o2,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Empty Labeled Can With Hydrogen Peroxide
+    {
+    	HCBeakerh2o2=2,
+        keep HCRubberglove,
+    	HCh2o2canempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCh2o2can,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Chemistry,
+    }
+
+
+
+recipe Fill Empty Labeled Can With Hydrogen Peroxide
+    {
+    	HCDetergenth2o2=4,
+        keep HCRubberglove,
+    	HCh2o2canempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCh2o2can,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Empty Labeled Can With Hydrogen Peroxide
+    {
+    	HCh2o2can=4,
+        keep HCRubberglove,
+    	HCh2o2canempty,
+        keep HCSafetyglasses,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCh2o2can,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+
+recipe Fill Empty Plastic Can With Muriatic Acid
+    {
+    	HCBeakermuriaticacid=2,
+    	HCPlasticcanempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcanmuriaticacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Chemistry,
+    }
+
+recipe Fill Empty Plastic Can With Muriatic Acid
+    {
+    	HCDetergentmuriaticacid=4,
+    	HCPlasticcanempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcanmuriaticacid,
+    	Time:50,
+        Category:Chemistry,
+    }
+
+recipe Fill Empty Plastic Can With Nickel Sulfate Solution
+    {
+    	HCBeakernickelsulfatesolution=2,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcannickelsulfatesolution,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+    	Category:Chemistry,
+    }
+
+recipe Fill Empty Plastic Can With Nickelsulfate Solution
+    {
+    	HCDetergentnickelsulfatesolution=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcannickelsulfatesolution,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Empty Plastic Can With Nitric Acid
+    {
+    	HCBeakernitricacid=2,
+    	HCPlasticcanempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcannitricacid,
+    	Time:50,
+        OnCreate:recipe_hcget2beakers,
+        Category:Chemistry,
+    }
+
+
+
+recipe Fill Empty Plastic Can With Nitric Acid
+    {
+    	HCDetergentnitricacid=4,
+    	HCPlasticcanempty,
+        keep HCRubberglove,
+        keep HCGasmask/HCHazmat,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcannitricacid,
+    	Time:50,
+        Category:Chemistry,
+    }
+
+recipe Fill Empty Sulfuric Acid Can With Sulfuric Acid
+    {
+    	HCSulfuricacidbarrelbluefull=4,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	HCSulfuricacidcanempty,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCSulfuricacidcan,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+
+
+
+recipe Fill Empty Plastic Can With Vegetable Oil
+    {
+    	destroy HCWoodenbucketvegoil,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcanvegoil,
+    	Time:50,
+        OnCreate:recipe_hcgetwoodenbucket,
+        Category:Cooking,
+    }
+
+recipe Fill Empty Plastic Can With Vegetable Oil
+    {
+    	HCDetergentvegoil=4,
+    	HCPlasticcanempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPlasticcanvegoil,
+    	Time:50,
+        Category:Cooking,
+    }
+}
+
+

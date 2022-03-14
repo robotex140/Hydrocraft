@@ -1,0 +1,37 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+
+item HCBrassscrap
+    {
+        Weight    		=    	0.1,
+        Type    		=    	Normal,
+        DisplayName    		=    	Scrap Brass,
+        Icon    		=    	HCBrassscrap,
+    }
+	
+
+	
+recipe Recycle Brass
+    {
+    	SkillRequired:MetalWelding=7,
+    	HCBrasssheet,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	HCIngotmold,
+    	keep Tongs,
+    	keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    	keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    	CanBeDoneFromFloor:true,
+    	Result:HCBrassingot,
+    	NeedToBeLearn:true,
+    	Time:1000,
+    	Category:Smithing,
+    	OnCreate:getBurned,
+    	OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+}

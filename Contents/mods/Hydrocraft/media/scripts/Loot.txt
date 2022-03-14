@@ -1,0 +1,190 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBoxart
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Art Supplies,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+item HCBoxelectronic
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Electronic Equipment,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+item HCBoxgarden
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Garden Equipment,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+item HCBoxholiday
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Holiday Supplies,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+item HCBoxlab
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Lab Equipment,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+item HCBoxoffice
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Office Supplies,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+item HCBoxpet
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Pet Equipment,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+item HCBoxphoto
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Photography Equipment,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+
+item HCBoxtoy
+    {
+        Weight              	= 1,
+        Type			= Normal,
+        DisplayName         	= Box of Toys,
+        Icon                	= HCCardboardboxsealed,
+	
+    }
+
+/************************RECIPES************************/
+
+
+recipe Open Box
+    {
+    HCBoxart,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootart,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxelectronic,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootelectronic,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxgarden,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootgarden,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxholiday,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootholiday,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxlab,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootlab,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxoffice,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootoffice,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxpet,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootpet,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxphoto,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hclootphoto,
+        Category:Loot,
+    }
+
+recipe Open Box
+    {
+    HCBoxtoy,
+    keep Scalpel/HCBoxcutter/HCScalpelimprovised/HCStraightrazor,
+    Result:HCCardboardbox,
+        Time:50,
+        OnCreate:recipe_hcloottoy,
+        Category:Loot,
+    }
+
+
+}
+
+
+

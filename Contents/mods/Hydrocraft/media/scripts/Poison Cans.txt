@@ -1,0 +1,110 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCPoisonempty
+	{
+	Weight			=	0.1,
+	CanStoreWater	=	TRUE,
+    Type			=	Drainable,
+	ReplaceOnUseOn	=	WaterSource-HCPoisonwater,
+    DisplayName		=	Empty Insecticide Can,
+	Icon			=	HCPoisonempty,
+	RainFactor 		= 	1,
+	}
+
+item HCPoison
+	{
+	Weight				=	2.5,
+    Type			    =	Drainable,
+	UseDelta		    =       0.25,
+	ReplaceOnDeplete	=	HCPoisonempty,
+	DisplayName			=	Insecticide,
+	Icon				=	HCPoison,
+	}
+
+item HCPoisondetergent
+	{
+	Weight				=	2.5,
+        Type			        =	Drainable,
+	UseDelta		        =       0.25,
+	ReplaceOnDeplete	        =	HCPoisonempty,
+
+	DisplayName			=	Insecticide Can With Liqiud Soap,
+	Icon				=	HCPoisondetergent,
+	}
+
+
+item HCPoisonwater
+	{
+	IsWaterSource		=	TRUE,
+	Weight			    =	2.5,
+	CanStoreWater		=	TRUE,
+    Type			    =	Drainable,
+	UseWhileEquipped    =	FALSE,
+	UseDelta		    =	0.07,
+	DisplayName		    =	Inscticide Can With Water,
+	ReplaceOnDeplete	=	HCPoisonempty,
+	ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
+	Icon			    =	HCPoisonwater,
+	RainFactor 		    = 	1,
+	}
+
+
+/************************RECIPES************************/
+
+recipe Clean Empty Insecticide Can
+    {
+    	HCPoisonempty,
+        keep Sponge/HCLoofah/HCSponge/RippedSheets,
+        Water,
+	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
+    	Result:HCPlasticcanempty,
+        OnCreate:recipe_hclabelpoison,
+    	Time:50,
+    	Category:Chemistry,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Recycle Insecticide Can
+    {
+    	HCPoisonempty,
+        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+    	Result:HCPlastic=5,
+        OnCreate:recipe_hclabelpoison,
+    	Time:50,
+    	Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Fill Empty Insecticide Can With Liquid Soap
+    {
+    	HCDetergent=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisondetergent,
+    	Time:50,
+        Category:Chemistry,
+    }
+
+recipe Fill Empty Insecticide Can With Liquid Soap
+    {
+    	HCPlasticcandetergent=4,
+    	HCPoisonempty,
+        keep HCFunnel/HCGlassfunnel,
+    	Result:HCPoisondetergent,
+    	Time:50,
+        Category:Chemistry,
+    }
+
+}
+
+

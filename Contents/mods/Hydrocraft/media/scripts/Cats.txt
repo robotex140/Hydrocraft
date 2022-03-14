@@ -1,0 +1,320 @@
+module Hydrocraft
+{
+	imports
+	{
+		Base
+	}
+/************************ITEMS************************/
+item HCCatpoop
+	{
+		Weight    		= 0.1,
+		Type    		= Normal,
+		DisplayName         	= Cat Poop,
+		icon 			= HCCatpoop,
+	}
+item HCCatmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatmale,
+	
+	}
+item HCCatfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatfemale,
+	
+	}
+item HCCatdead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatdead,
+	
+	}
+item HCCatblackmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatblackmale,
+	
+	}
+item HCCatblackfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatblackfemale,
+	
+	}
+item HCCatblackdead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatblackdead,
+	
+	}
+item HCCatbluemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatbluemale,
+	
+	}
+item HCCatbluefemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatbluefemale,
+	
+	}
+item HCCatbluedead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatbluedead,
+	
+	}
+item HCCatbrownmale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatbrownmale,
+	
+	}
+item HCCatbrownfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatbrownfemale,
+	
+	}
+item HCCatbrowndead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatbrowndead,
+	
+	}
+item HCCatcreammale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatcreammale,
+	
+	}
+item HCCatcreamfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatcreamfemale,
+	
+	}
+item HCCatcreamdead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatcreamdead,
+	
+	}
+item HCCatgingermale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatgingermale,
+	
+	}
+item HCCatgingerfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatgingerfemale,
+	
+	}
+item HCCatgingerdead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatgingerdead,
+	
+	}
+item HCCatsilvermale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Male),
+	Icon				=	HCCatsilvermale,
+	
+	}
+item HCCatsilverfemale
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Cat (Female),
+	Icon				=	HCCatsilverfemale,
+	
+	}
+item HCCatsilverdead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatsilverdead,
+	
+	}
+item HCCatwhitemale
+	{
+	Weight 				= 	1,
+	Type                = 	Container,
+	Capacity            = 	0,
+	DisplayName 		= 	Cat (Male),
+	Icon				=	HCCatwhitemale,
+	
+	}
+item HCCatwhitefemale
+	{
+	Weight 				= 	1,
+	Type                = 	Container,
+	Capacity            = 	0,
+	DisplayName 		= 	Cat (Female),
+	Icon				=	HCCatwhitefemale,
+	
+	}
+item HCCatwhitedead
+	{
+	Weight 				= 	1,
+	Type                		= 	Container,
+	Capacity             		= 	0,
+	DisplayName 			= 	Dead Cat,
+	Icon				=	HCCatwhitedead,
+	
+	}
+/************************RECIPES************************/
+recipe Search for Stray Cats
+	{
+	HCBinoculars,
+		CatToy,
+		HCCatnip,
+		Result:HCBinoculars,
+		Time:50.0,
+		Category:Ranching,
+		OnCreate:HCCatCall,
+		OnGiveXP:HCHunger_OnGiveXP,
+	}
+recipe Feed Cat
+	{
+	keep HCDogbowl,
+	Water,
+	HCCatfoodopen/TunaTinOpen/MeatPatty/HCSmallgamesteak/Smallanimalmeat/Smallbirdmeat/Chicken/HCDuckmeat/HCGoosemeat/HCTurkeymeat/FishFillet/Salmon,
+		keep HCCatmale/HCCatfemale/HCCatblackmale/HCCatblackfemale/HCCatbluemale/HCCatbluefemale/HCCatbluemale/HCCatbluefemale/HCCatbrownmale/HCCatbrownfemale/HCCatcreammale/HCCatcreamfemale/HCCatgingermale/HCCatgingerfemale/HCCatsilvermale/HCCatsilverfemale/Hydrocraft.HCCatwhitemale/HCCatwhitefemale,
+		CanBeDoneFromFloor:true,
+		Result:HCCatpoop,
+		Time:15.0,
+		Category:Ranching,
+		OnCreate:HC_ToyStatModifier,
+		OnGiveXP:HCHunger_OnGiveXP,
+	}
+recipe Kill Cat
+	{
+	HCCatmale/HCCatfemale,
+		Result:HCCatdead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+recipe Kill Cat
+	{
+	HCCatblackmale/HCCatblackfemale,
+		Result:HCCatblackdead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+recipe Kill Cat
+	{
+	HCCatbluemale/HCCatbluefemale,
+		Result:HCCatbluedead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+recipe Kill Cat
+	{
+	HCCatbrownmale/HCCatbrownfemale,
+		Result:HCCatbrowndead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+recipe Kill Cat
+	{
+	HCCatcreammale/HCCatcreamfemale,
+		Result:HCCatcreamdead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+recipe Kill Cat
+	{
+	HCCatgingermale/HCCatgingerfemale,
+		Result:HCCatgingerdead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+recipe Kill Cat
+	{
+	HCCatsilvermale/HCCatsilverfemale,
+		Result:HCCatsilverdead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+recipe Kill Cat
+	{
+	Hydrocraft.HCCatwhitemale/HCCatwhitefemale,
+		Result:HCCatwhitedead,
+		Time:15.0,
+		Category:Death,
+		CanBeDoneFromFloor:true,
+	}
+}

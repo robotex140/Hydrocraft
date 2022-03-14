@@ -1,0 +1,551 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCSoupbouillon
+	{
+	Weight				=	0.5,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.25,
+	DisplayName			=	Soup Bouillon,
+	Icon				=	HCSoupbuillon,
+        Spice   			=   	true,
+        EvolvedRecipe 			= 	Soup:2;Stew:2,
+	}	
+
+	
+	item HCChilipot
+	{
+		HungerChange		=	-50,
+		Weight				=	4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		UnhappyChange		=	-20,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Pot of Chili,
+		ReplaceOnUse		=	Pot,
+		Icon				=	PotFull,
+		BoredomChange		=	-20,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=  	NoExplicit,
+		Carbohydrates 		= 	92,
+		Proteins 			= 	260,
+		Lipids 				= 	196,
+		Calories 			= 	3140,
+	}
+
+	item HCChilibowl
+	{
+		HungerChange		=	-35,
+		Weight				=	1,
+		Type				=	Food,
+		UnhappyChange		=	-5,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	90,
+		MinutesToBurn		=	140,
+		DisplayName			=	Bowl of Fresh Chili,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCChilibowl,
+		BoredomChange		=	-5,
+		DaysTotallyRotten	=	7,
+		DaysFresh 			= 	3,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	23,
+		Proteins 			= 	65,
+		Lipids 				= 	49,
+		Calories 			= 	785,
+		EvolvedRecipe 		= 	Soup:15;Stew:15;Sandwich:5;Burger:5;Salad:5,	
+	}
+
+	item HCBrothbowl
+	{
+		HungerChange		=	-5,
+		Weight				=	1,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	40,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bowl of Broth,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCSoupbowl,
+		BoredomChange		=	-5,
+		UnhappyChange		=	-5,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			= 	2,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	4.5,
+		Proteins 			= 	1,
+		Lipids 				= 	0.5,
+		Calories 			= 	25,
+	}
+	
+item HCShroomsoup
+	{
+	HungerChange			=	-40,
+	Weight				=	4,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	UnhappyChange			=	-20,
+	MinutesToCook			=	40,
+	MinutesToBurn			=	60,
+	DisplayName			=	Pot of Mushroom Soup,
+	ReplaceOnUse			=	Pot,
+	Icon				=	PotFull,
+	BoredomChange			=	-20,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			= 	2,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	76.4,
+        Proteins 			= 	39.6,
+        Lipids 				= 	74,
+        Calories 			= 	1060,
+	}
+
+	item HCShroomsoupbowl
+	{
+		HungerChange			=	-20,
+		Weight				=	1,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		MinutesToCook			=	40,
+		MinutesToBurn			=	60,
+		DisplayName			=	Bowl of Mushroom Soup,
+		ReplaceOnUse			=	Bowl,
+		Icon				=	HCSoupbowl,
+		BoredomChange			=	-5,
+		UnhappyChange			=	-5,
+		DaysTotallyRotten		=	5,
+		DaysFresh 			= 	2,
+		CustomContextMenu 		= 	Eat,
+		FoodType    			=   	NoExplicit,
+		Carbohydrates 			= 	19.1,
+		Proteins 			= 	4.8,
+		Lipids 				= 	18.5,
+		Calories 			= 	265,
+	}
+	
+item HCNoodlesoup
+	{
+	HungerChange			=	-30,
+	Weight				=	4,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	UnhappyChange			=	-20,
+	MinutesToCook			=	40,
+	MinutesToBurn			=	60,
+	DisplayName			=	Pot of Noodle Soup,
+	ReplaceOnUse			=	Pot,
+	Icon				=	PotFull,
+	BoredomChange			=	-20,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			= 	2,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	138,
+        Proteins 			= 	9.9,
+        Lipids 				= 	1.8,
+        Calories 			= 	660,
+	}
+	
+item HCNoodlesoupbowl
+	{
+	HungerChange			=	-15,
+	Weight				=	1,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	40,
+	MinutesToBurn			=	60,
+	DisplayName			=	Bowl of Noodle Soup,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCSoupbowl,
+	BoredomChange			=	-5,
+	UnhappyChange			=	-5,
+	DaysTotallyRotten		=	5,
+	DaysFresh 			= 	2,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	34.5,
+        Proteins 			= 	14,
+        Lipids 				= 	4,
+        Calories 			= 	165,
+	}
+
+item HCRamenflatchicken
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName     	= Chicken Ramen Flat,
+        icon 			= HCRamenflatchicken,
+    }
+  
+item HCRamenflatbeef
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName     	= Chicken Ramen Flat,
+        icon 			= HCRamenflatbeef,
+    }
+  
+item HCRamenflatshrimp
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName     	= Shrimp Ramen Flat,
+        icon 			= HCRamenflatshrimp,
+    }
+  
+item HCRamenflatcheese
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName    		= Cheese Ramen Flat,
+        icon 			= HCRamenflatcheese,
+    } 
+
+item HCRamenchicken
+	{
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Chicken Ramen,
+	Icon				=	HCRamenchicken,
+	Carbohydrates 			= 	52,
+        Proteins 			= 	10,
+        Lipids 				= 	14,
+        Calories 			= 	380,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+
+item HCRamennoodlebowlchicken
+	{
+	HungerChange			=	-20,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-2,
+	DisplayName			=	Chicken Ramen Noodles,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCRamennoodlebowl,
+	BoredomChange			=	-2,
+	DaysTotallyRotten		=	2,
+	DaysFresh 			= 	1,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	15,
+	MinutesToBurn			=	30,
+	Carbohydrates 			= 	23,
+    	Proteins 			= 	65,
+    	Lipids 				= 	49,
+    	Calories 			= 	785,
+	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+	}
+
+item HCRamenbeef
+	{
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Beef Ramen,
+	Icon				=	HCRamenbeef,
+	Carbohydrates 			= 	52,
+        Proteins 			= 	10,
+        Lipids 				= 	14,
+        Calories 			= 	380,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+	
+	
+item HCRamennoodlebowlbeef
+	{
+	HungerChange			=	-20,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-2,
+	DisplayName			=	Beef Ramen Noodles,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCRamennoodlebowl,
+	BoredomChange			=	-2,
+	DaysTotallyRotten		=	2,
+	DaysFresh 			= 	1,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	15,
+	MinutesToBurn			=	30,
+	Carbohydrates 			= 	23,
+    	Proteins 			= 	65,
+    	Lipids 				= 	49,
+    	Calories 			= 	785,
+	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+	}
+
+item HCRamenshrimp
+	{
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Shrimp Ramen,
+	Icon				=	HCRamenshrimp,
+	Carbohydrates 			= 	52,
+        Proteins 			= 	10,
+        Lipids 				= 	14,
+        Calories 			= 	380,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+	
+item HCRamennoodlebowlshrimp
+	{
+	HungerChange			=	-20,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-2,
+	DisplayName			=	Shrimp Ramen Noodles,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCRamennoodlebowl,
+	BoredomChange			=	-2,
+	DaysTotallyRotten		=	2,
+	DaysFresh 			= 	1,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	15,
+	MinutesToBurn			=	30,
+	Carbohydrates 			= 	23,
+    	Proteins 			= 	65,
+    	Lipids 				= 	49,
+    	Calories 			= 	785,
+	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+	}
+
+item HCRamencheese
+	{
+	Weight				=	0.2,
+	Type				=	Food,
+	DisplayName			=	Cheese Ramen,
+	Icon				=	HCRamencheese,
+	Carbohydrates 			= 	52,
+        Proteins 			= 	10,
+        Lipids 				= 	14,
+        Calories 			= 	380,
+        Packaged 			= 	TRUE,
+	CantBeFrozen			=	TRUE,
+	}
+	
+item HCRamennoodlebowlcheese
+	{
+	HungerChange			=	-20,
+	Weight				=	1,
+	Type				=	Food,
+	UnhappyChange			=	-2,
+	DisplayName			=	Cheese Ramen Noodles,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCRamennoodlebowl,
+	BoredomChange			=	-2,
+	DaysTotallyRotten		=	2,
+	DaysFresh 			= 	1,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	15,
+	MinutesToBurn			=	30,
+	Carbohydrates 			= 	23,
+    	Proteins 			= 	65,
+    	Lipids 				= 	49,
+    	Calories 			= 	785,
+	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+	}
+
+/************************RECIPES************************/
+   
+	
+recipe Make Bowl of Broth
+	{
+		destroy Bowl/WaterBowl,
+		Water,
+		HCSoupbouillon,
+		Result:HCBrothbowl,
+		Time:40.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Make Pot of Mushroom Soup
+	{
+		destroy WaterPot,
+		HCSoupbouillon,
+		HCBunchofshrooms,
+		Result:HCShroomsoup,
+		Time:75.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Fill Mushroom Soup into Bowls
+	{
+		Bowl=4,
+		HCShroomsoup,
+		Result:HCShroomsoupbowl=4,
+		Time:50.0,
+		Category:Cooking,
+    		OnCreate:recipe_hcpot,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+	
+recipe Make Pot of Noodle Soup
+	{
+		destroy WaterPot,
+		HCSoupbouillon,
+		Carrots/Broccoli/Cabbage/HCBunchofshrooms/HCChinesecabbage/HCCabbagered/HCCabbagewhite/HCPeapod,
+		Pasta,
+		Result:HCNoodlesoup,
+		Time:75.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Fill Noodle Soup into Bowls
+	{
+		Bowl=4,
+		HCNoodlesoup,
+		Result:HCNoodlesoupbowl=4,
+		Time:50.0,
+		Category:Cooking,
+    		OnCreate:recipe_hcpot,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Unbox Chicken Ramen Flat
+	{
+		HCRamenflatchicken,
+		Result:HCRamenchicken=8,
+		OnCreate:recipe_unboxramenflat,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Unbox Beef Ramen Flat
+	{
+		HCRamenflatbeef,
+		Result:HCRamenbeef=8,
+		OnCreate:recipe_unboxramenflat,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Unbox Shrimp Ramen Flat
+	{
+		HCRamenflatshrimp,
+		Result:HCRamenshrimp=8,
+		OnCreate:recipe_unboxramenflat,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Unbox Cheese Ramen Flat
+	{
+		HCRamenflatcheese,
+		Result:HCRamencheese=8,
+		OnCreate:recipe_unboxramenflat,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Open Chicken Ramen
+	{
+		HCRamenchicken,
+		Result:Ramen,
+		OnCreate:recipe_openchickenramen,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Prepare Chicken Ramen in Bowl
+	{
+		Ramen,
+		Water=2,
+		HCRamenchickenflavor,
+		Bowl,
+		Result:HCRamennoodlebowlchicken,
+		Time:25.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Open Beef Ramen
+	{
+		HCRamenbeef,
+		Result:Ramen,
+		OnCreate:recipe_openbeeframen,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Prepare Beef Ramen in Bowl
+	{
+		Ramen,
+		Water=2,
+		HCRamenbeefflavor,
+		Bowl,
+		Result:HCRamennoodlebowlbeef,
+		Time:25.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Open Shrimp Ramen
+	{
+		HCRamenshrimp,
+		Result:Ramen,
+		OnCreate:recipe_openshrimpramen,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Prepare Shrimp Ramen in Bowl
+	{
+		Ramen,
+		Water=2,
+		HCRamenshrimpflavor,
+		Bowl,
+		Result:HCRamennoodlebowlshrimp,
+		Time:25.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Open Cheese Ramen
+	{
+		HCRamencheese,
+		Result:Ramen,
+		OnCreate:recipe_opencheeseramen,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Prepare Cheese Ramen in Bowl
+	{
+		Ramen,
+		Water=2,
+		HCRamencheeseflavor,
+		Bowl,
+		Result:HCRamennoodlebowlcheese,
+		Time:25.0,
+		Category:Cooking,
+    		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+}

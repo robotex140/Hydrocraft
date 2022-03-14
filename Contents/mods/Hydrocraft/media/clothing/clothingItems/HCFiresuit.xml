@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>clothing\HCFiresuit</m_MaleModel>
+	<m_FemaleModel>clothing\HCFiresuit</m_FemaleModel>
+	<m_GUID>6b9416a3-8075-43e4-8568-3720b15485dd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>0</m_Masks>
+	<m_Masks>1</m_Masks>
+	<m_Masks>2</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>4</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>6</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>8</m_Masks>
+	<m_Masks>9</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<textureChoices>clothing\HCFiresuit</textureChoices>
+</clothingItem>

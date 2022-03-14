@@ -1,0 +1,3694 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCOJ
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Orange Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCOJ,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	5.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	360,
+        CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	}
+
+item HCCranberryjug
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Cranberry Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCOJ,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	0,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	110,
+        CantBeFrozen 			= 	TRUE,
+	Packaged			=	TRUE,
+	}
+	
+item HCLemonade1
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Homemade Lemonade,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	Pop_water,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	0.8,
+        Lipids 				= 	0,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCLemonade2
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Homemade Lemonade,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	WaterBottle_Full,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	0.8,
+        Lipids 				= 	0,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottleapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Apple Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottleapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	88,
+        Proteins 			= 	0.8,
+        Lipids 				= 	0.8,
+        Calories 			= 	368,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottlecarrotjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Carrot Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlecarrotjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	74.4,
+        Proteins 			= 	8,
+        Lipids 				= 	1.6,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottlegrapejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Grape Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlegrapejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	120,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	496,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottlelemonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Lemon Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlelemonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	55.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	1.6,
+        Calories 			= 	210,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottleorangejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Orange Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottleorangejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	5.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	360,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottlelimejuice
+	{
+	HungerChange 			= 	-15,
+	Weight 				= 	0.8,
+	Type 				= 	Food,
+	UseWhileEquipped 		= 	FALSE,
+	UnhappyChange 			= 	-10,
+	ThirstChange 			= 	-70,
+	DisplayName 			= 	Lime Juice,
+	ReplaceOnUse 			= 	PopBottleEmpty,
+	Icon 				= 	HCPopbottlelimejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	67.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	200,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCPopbottlestrawberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Strawberry Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlestrawberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	59.2,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	232,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottletomatojuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Tomato Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottletomatojuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	32.8,
+        Proteins 			= 	6.4,
+        Lipids 				= 	0,
+        Calories 			= 	168,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCPopbottlewatermelonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Watermelon Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlewatermelonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	60.8,
+        Proteins 			= 	4.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	240,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottlepineapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Pineapple Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlepineapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	104,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCPopbottleblueberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blueberry Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottleblueberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	112,
+        Proteins 			= 	5.6,
+        Lipids 				= 	2.4,
+        Calories 			= 	456,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCPopbottleblackberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blackberry Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottleblackberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCPopbottlewildberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Wild Berry Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlewildberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCPopbottlecherryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Cherry Juice,
+	ReplaceOnUse			=	PopBottleEmpty,
+	Icon				=	HCPopbottlecherryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	128,
+        Proteins 			= 	8.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	504,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottleapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Apple Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottleapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	88,
+        Proteins 			= 	0.8,
+        Lipids 				= 	0.8,
+        Calories 			= 	368,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottlecarrotjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Carrot Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlecarrotjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	74.4,
+        Proteins 			= 	8,
+        Lipids 				= 	1.6,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottlegrapejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Grape Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlegrapejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	120,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	496,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottlelemonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Lemon Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlelemonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	55.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	1.6,
+        Calories 			= 	176,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottleorangejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Orange Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottleorangejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	5.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	360,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottlelimejuice
+	{
+	HungerChange 			= 	-15,
+	Weight 				= 	0.8,
+	Type 				= 	Food,
+	UseWhileEquipped 		= 	FALSE,
+	UnhappyChange 			= 	-10,
+	ThirstChange 			= 	-70,
+	DisplayName 			= 	Lime Juice,
+	ReplaceOnUse 			= 	WaterBottleEmpty,
+	Icon 				= 	HCWaterbottlelimejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	67.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	200,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCWaterbottlestrawberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Strawberry Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlestrawberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	59.2,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	232,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottletomatojuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Tomato Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottletomatojuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	32.8,
+        Proteins 			= 	6.4,
+        Lipids 				= 	0,
+        Calories 			= 	168,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCWaterbottlewatermelonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Watermelon Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlewatermelonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	60.8,
+        Proteins 			= 	4.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	240,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottlepineapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Pineapple Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlepineapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	104,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCWaterbottleblueberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blueberry Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottleblueberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	112,
+        Proteins 			= 	5.6,
+        Lipids 				= 	2.4,
+        Calories 			= 	456,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWaterbottleblackberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blackberry Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottleblackberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCWaterbottlewildberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Wild Berry Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlewildberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCWaterbottlecherryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Cherry Juice,
+	ReplaceOnUse			=	WaterBottleEmpty,
+	Icon				=	HCWaterbottlecherryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	128,
+        Proteins 			= 	8.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	504,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCRemouladeapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Apple Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladeapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	88,
+        Proteins 			= 	0.8,
+        Lipids 				= 	0.8,
+        Calories 			= 	368,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladecarrotjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Carrot Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladecarrotjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	74.4,
+        Proteins 			= 	8,
+        Lipids 				= 	1.6,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladegrapejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Grape Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladegrapejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	120,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	496,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladelemonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Lemon Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladelemonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	55.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	1.6,
+        Calories 			= 	176,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladeorangejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Orange Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladeorangejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	5.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	360,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladelimejuice
+	{
+	HungerChange 			= 	-15,
+	Weight 				= 	0.8,
+	Type 				= 	Food,
+	UseWhileEquipped 		= 	FALSE,
+	UnhappyChange 			= 	-10,
+	ThirstChange 			= 	-70,
+	DisplayName 			= 	Lime Juice,
+	ReplaceOnUse 			= 	Base.RemouladeEmpty,
+	Icon 				= 	HCRemouladelimejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	67.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	200,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCRemouladestrawberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Strawberry Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladestrawberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	59.2,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	232,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladetomatojuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Tomato Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladetomatojuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	32.8,
+        Proteins 			= 	6.4,
+        Lipids 				= 	0,
+        Calories 			= 	168,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCRemouladewatermelonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Watermelon Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladewatermelonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	60.8,
+        Proteins 			= 	4.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	240,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladepineapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Pineapple Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladepineapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	104,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCRemouladeblueberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blueberry Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladeblueberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	112,
+        Proteins 			= 	5.6,
+        Lipids 				= 	2.4,
+        Calories 			= 	456,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCRemouladeblackberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blackberry Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladeblackberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCRemouladewildberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Wild Berry Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladewildberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCRemouladecherryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Cherry Juice,
+	ReplaceOnUse			=	Base.RemouladeEmpty,
+	Icon				=	HCRemouladecherryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	128,
+        Proteins 			= 	8.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	504,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaiseapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Apple Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaiseapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	88,
+        Proteins 			= 	0.8,
+        Lipids 				= 	0.8,
+        Calories 			= 	368,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaisecarrotjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Carrot Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisecarrotjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	74.4,
+        Proteins 			= 	8,
+        Lipids 				= 	1.6,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaisegrapejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Grape Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisegrapejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	120,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	496,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaiselemonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Lemon Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaiselemonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	55.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	1.6,
+        Calories 			= 	176,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaiseorangejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Orange Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaiseorangejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	5.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	360,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaiselimejuice
+	{
+	HungerChange 			= 	-15,
+	Weight 				= 	0.8,
+	Type 				= 	Food,
+	UseWhileEquipped 		= 	FALSE,
+	UnhappyChange 			= 	-10,
+	ThirstChange 			= 	-70,
+	DisplayName 			= 	Lime Juice,
+	ReplaceOnUse 			= 	Base.MayonnaiseEmpty,
+	Icon 				= 	HCMayonnaiselimejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	67.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	200,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCMayonnaisestrawberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Strawberry Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisestrawberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	59.2,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	232,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaisetomatojuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Tomato Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisetomatojuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	32.8,
+        Proteins 			= 	6.4,
+        Lipids 				= 	0,
+        Calories 			= 	168,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCMayonnaisewatermelonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Watermelon Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisewatermelonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	60.8,
+        Proteins 			= 	4.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	240,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaisepineapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Pineapple Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisepineapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	104,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCMayonnaiseblueberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blueberry Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaiseblueberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	112,
+        Proteins 			= 	5.6,
+        Lipids 				= 	2.4,
+        Calories 			= 	456,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCMayonnaiseblackberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blackberry Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaiseblackberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCMayonnaisewildberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Wild Berry Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisewildberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCMayonnaisecherryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Cherry Juice,
+	ReplaceOnUse			=	Base.MayonnaiseEmpty,
+	Icon				=	HCMayonnaisecherryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	128,
+        Proteins 			= 	8.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	504,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeyapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Apple Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeyapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	88,
+        Proteins 			= 	0.8,
+        Lipids 				= 	0.8,
+        Calories 			= 	368,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeycarrotjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Carrot Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeycarrotjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	74.4,
+        Proteins 			= 	8,
+        Lipids 				= 	1.6,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeygrapejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Grape Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeygrapejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	120,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	496,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeylemonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Lemon Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeylemonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	55.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	1.6,
+        Calories 			= 	176,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeyorangejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Orange Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeyorangejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	80,
+        Proteins 			= 	5.6,
+        Lipids 				= 	1.6,
+        Calories 			= 	360,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeylimejuice
+	{
+	HungerChange 			= 	-15,
+	Weight 				= 	0.8,
+	Type 				= 	Food,
+	UseWhileEquipped 		= 	FALSE,
+	UnhappyChange 			= 	-10,
+	ThirstChange 			= 	-70,
+	DisplayName 			= 	Lime Juice,
+	ReplaceOnUse 			= 	WhiskeyEmpty,
+	Icon 				= 	HCWhiskeylimejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	67.2,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	200,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCWhiskeystrawberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Strawberry Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeystrawberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	59.2,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	232,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeytomatojuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Tomato Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeytomatojuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	32.8,
+        Proteins 			= 	6.4,
+        Lipids 				= 	0,
+        Calories 			= 	168,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCWhiskeywatermelonjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Watermelon Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeywatermelonjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	60.8,
+        Proteins 			= 	4.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	240,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeypineapplejuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Pineapple Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeypineapplejuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	104,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0.8,
+        Calories 			= 	320,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCWhiskeyblueberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blueberry Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeyblueberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	112,
+        Proteins 			= 	5.6,
+        Lipids 				= 	2.4,
+        Calories 			= 	456,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCWhiskeyblackberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Blackberry Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeyblackberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCWhiskeywildberryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Wild Berry Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeywildberryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	62.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	4.8,
+        Calories 			= 	304,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCWhiskeycherryjuice
+	{
+	HungerChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-10,
+	ThirstChange			=	-70,
+	DisplayName			=	Cherry Juice,
+	ReplaceOnUse			=	WhiskeyEmpty,
+	Icon				=	HCWhiskeycherryjuice,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	128,
+        Proteins 			= 	8.8,
+        Lipids 				= 	1.6,
+        Calories 			= 	504,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmugapplejuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Apple Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	44,
+        Proteins 			= 	0.4,
+        Lipids 				= 	0.4,
+        Calories 			= 	184,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmugcarrotjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Carrot Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	37.2,
+        Proteins 			= 	4,
+        Lipids 				= 	0.8,
+        Calories 			= 	160,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmuggrapejuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Grape Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	60,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	248,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmuglemonjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Lemon Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	27.6,
+        Proteins 			= 	1.6,
+        Lipids 				= 	0.8,
+        Calories 			= 	88,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmugorangejuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Orange Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	40,
+        Proteins 			= 	2.8,
+        Lipids 				= 	0.8,
+        Calories 			= 	180,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmuglimejuice
+	{
+	HungerChange 			= 	-7,
+	Weight 				= 	0.4,
+	Type 				= 	Food,
+	UseWhileEquipped 		= 	FALSE,
+	UnhappyChange 			= 	-5,
+	ThirstChange 			= 	-35,
+	DisplayName 			= 	Lime Juice,
+	ReplaceOnUse 			= 	Mugl,
+	Icon 				= 	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	33.6,
+        Proteins 			= 	1.6,
+        Lipids 				= 	0.4,
+        Calories 			= 	100,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCClingmugstrawberryjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Strawberry Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	29.6,
+        Proteins 			= 	0,
+        Lipids 				= 	0,
+        Calories 			= 	116,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmugtomatojuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Tomato Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	16.4,
+        Proteins 			= 	3.2,
+        Lipids 				= 	0,
+        Calories 			= 	84,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCClingmugwatermelonjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Watermelon Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	30.4,
+        Proteins 			= 	2.4,
+        Lipids 				= 	0.8,
+        Calories 			= 	120,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmugpineapplejuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Pineapple Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	52,
+        Proteins 			= 	1.6,
+        Lipids 				= 	0.4,
+        Calories 			= 	160,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCClingmugblueberryjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Blueberry Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	56,
+        Proteins 			= 	2.8,
+        Lipids 				= 	1.2,
+        Calories 			= 	228,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCClingmugblackberryjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Blackberry Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	31.2,
+        Proteins 			= 	1.2,
+        Lipids 				= 	2.4,
+        Calories 			= 	152,
+        CantBeFrozen 			= 	TRUE,
+	}			
+
+item HCClingmugwildberryjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Wild Berry Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	31.2,
+        Proteins 			= 	1.2,
+        Lipids 				= 	2.4,
+        Calories 			= 	152,
+        CantBeFrozen 			= 	TRUE,
+	}
+			
+item HCClingmugcherryjuice
+	{
+	HungerChange			=	-7,
+	Weight				=	0.4,
+	Type				=	Food,
+	UseWhileEquipped		=	FALSE,	
+	UnhappyChange			=	-5,
+	ThirstChange			=	-35,
+	DisplayName			=	Cherry Juice,
+	ReplaceOnUse			=	Mugl,
+	Icon				=	HCClingmug,
+	CustomContextMenu 		= 	Drink,
+	FoodType			=	NoExplicit,
+       	Carbohydrates 			= 	64,
+        Proteins 			= 	4.4,
+        Lipids 				= 	0.8,
+        Calories 			= 	252,
+        CantBeFrozen 			= 	TRUE,
+	}
+
+item HCJuiceboxpinklemonaid
+	{
+		HungerChange		=	-2,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-13,
+		DisplayName		=	Pink Lemonaid Juice Box,
+		ReplaceOnUse		=	HCEmptyjuiceboxpinklemonaid,
+		Icon			=	HCJuiceboxpinklemonaid,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       		Carbohydrates 		= 	14.8,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	58,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCJuiceboxcherry
+	{
+		HungerChange		=	-2,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-13,
+		DisplayName		=	Cherry Juice Box,
+		ReplaceOnUse		=	HCEmptyjuiceboxcherry,
+		Icon			=	HCJuiceboxcherry,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       		Carbohydrates 		= 	32,
+        	Proteins 		= 	2.2,
+        	Lipids 			= 	0.4,
+        	Calories 		= 	126,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCJuiceboxorange
+	{
+		HungerChange		=	-2,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-13,
+		DisplayName		=	Orange Juice Box,
+		ReplaceOnUse		=	HCEmptyjuiceboxorange,
+		Icon			=	HCJuiceboxorange,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       		Carbohydrates 		= 	20,
+        	Proteins 		= 	1.4,
+        	Lipids 			= 	0.4,
+        	Calories 		= 	90,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCJuiceboxlemonaid
+	{
+		HungerChange		=	-2,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-13,
+		DisplayName		=	Lemonaid Juice Box,
+		ReplaceOnUse		=	HCEmptyjuiceboxlemonaid,
+		Icon			=	HCJuiceboxlemonaid,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       		Carbohydrates 		= 	20,
+        	Proteins 		= 	0.2,
+        	Lipids 			= 	0,
+        	Calories 		= 	80,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCJuiceboxapple
+	{
+		HungerChange		=	-2,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-13,
+		DisplayName		=	Apple Juice Box,
+		ReplaceOnUse		=	HCEmptyjuiceboxapple,
+		Icon			=	HCJuiceboxapple,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       		Carbohydrates 		= 	22,
+        	Proteins 		= 	0.2,
+        	Lipids 			= 	0.2,
+        	Calories 		= 	92,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCJuiceboxgrape
+	{
+		HungerChange		=	-2,
+		Weight			=	0.2,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-13,
+		DisplayName		=	Grape Juice Box,
+		ReplaceOnUse		=	HCEmptyjuiceboxgrape,
+		Icon			=	HCJuiceboxgrape,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       		Carbohydrates 		= 	30,
+        	Proteins 		= 	0,
+        	Lipids 			= 	0,
+        	Calories 		= 	124,
+        	CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+	}
+
+item HCEmptyjuiceboxpinklemonaid
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Juice Box,
+		Icon				=	HCEmptyjuiceboxpinklemonaid,
+		DisplayCategory 	        =       Trash,
+	}         
+
+item HCEmptyjuiceboxcherry
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Juice Box,
+		Icon				=	HCEmptyjuiceboxcherry,
+		DisplayCategory 	        =       Trash,
+	}     
+
+item HCEmptyjuiceboxorange
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Juice Box,
+		Icon				=	HCEmptyjuiceboxorange,
+		DisplayCategory 	        =       Trash,
+	}     
+
+item HCEmptyjuiceboxlemonaid
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Juice Box,
+		Icon				=	HCEmptyjuiceboxlemonaid,
+		DisplayCategory 	        =       Trash,
+	}     
+
+item HCEmptyjuiceboxapple
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Juice Box,
+		Icon				=	HCEmptyjuiceboxapple,
+		DisplayCategory 	        =       Trash,
+	}     
+
+item HCEmptyjuiceboxbluerazzberry
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Juice Box,
+		Icon				=	HCEmptyjuiceboxbluerazzberry,
+		DisplayCategory 	        =       Trash,
+	}     
+
+item HCEmptyjuiceboxgrape
+	{
+		Weight				=	0.1,
+		Type				=	Normal,
+		DisplayName			=	Empty Juice Box,
+		Icon				=	HCEmptyjuiceboxgrape,
+		DisplayCategory 	        =       Trash,
+	}     
+ 
+/************************RECIPES************************/
+  
+
+recipe Make Bottle of Juice
+	{
+		SkillRequired:Cooking=2,
+		HCLemonjuicebowl/HCLemonjuicebottle,
+		Sugar,
+		Water=2,
+		destroy PopBottleEmpty,
+		Result:HCLemonade1,
+    		
+		Time:70.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		HCLemonjuicebowl/HCLemonjuicebottle,
+		Sugar,
+		Water=2,
+		destroy WaterBottleEmpty/WaterBottleFull,
+		Result:HCLemonade2,
+    		
+		Time:70.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Apple=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottleapplejuice,
+		
+		Time:70.0,
+		OnTest:MakeAppleJuice_CheckIfFresh,
+		Category:Cooking,		
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       	SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Carrots=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlecarrotjuice,
+    	
+		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       	SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Grapes=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlegrapejuice,
+    	
+		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Lemon=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlelemonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       	SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Orange=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottleorangejuice,
+    		
+		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		HCLime=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlelimejuice,
+    		
+		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Strewberrie=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlestrawberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Tomato=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottletomatojuice,
+    		
+		Time:70.0,
+		OnTest:MakeTomatoJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Watermelon,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonFullJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		WatermelonSliced=5,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSliceJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		WatermelonSmashed=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSmashedJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Pineapple,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlepineapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakePineappleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		BerryBlue=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottleblueberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlueJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		BerryBlack=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottleblackberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlackJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		BerryGeneric1=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric1Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		BerryGeneric2=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric2Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		BerryGeneric3=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric3Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		BerryGeneric4=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric4Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		BerryGeneric5=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric5Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy PopBottleEmpty,
+		Cherry=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCPopbottlecherryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCherryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Apple=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottleapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakeAppleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Carrots=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlecarrotjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Grapes=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlegrapejuice,
+    		
+		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Lemon=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlelemonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Orange=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottleorangejuice,
+    		
+		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		HCLime=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlelimejuice,
+    		
+		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Strewberrie=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlestrawberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Tomato=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottletomatojuice,
+    		
+		Time:70.0,
+		OnTest:MakeTomatoJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Watermelon,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonFullJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		WatermelonSliced=5,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSliceJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		WatermelonSmashed=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSmashedJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Pineapple,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlepineapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakePineappleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		BerryBlue=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottleblueberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlueJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		BerryBlack=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottleblackberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlackJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		BerryGeneric1=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric1Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		BerryGeneric2=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric2Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		BerryGeneric3=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric3Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		BerryGeneric4=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric4Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		BerryGeneric5=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric5Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WaterBottleEmpty,
+		Cherry=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWaterbottlecherryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCherryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Apple=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladeapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakeAppleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Carrots=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladecarrotjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Grapes=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladegrapejuice,
+    		
+		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Lemon=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladelemonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Orange=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladeorangejuice,
+    		
+		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		HCLime=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladelimejuice,
+    		
+		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Strewberrie=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladestrawberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Tomato=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladetomatojuice,
+    		
+		Time:70.0,
+		OnTest:MakeTomatoJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Watermelon,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonFullJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		WatermelonSliced=5,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSliceJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		WatermelonSmashed=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSmashedJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Pineapple,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladepineapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakePineappleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		BerryBlue=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladeblueberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlueJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		BerryBlack=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladeblackberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlackJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		BerryGeneric1=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric1Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		BerryGeneric2=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric2Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		BerryGeneric3=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric3Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		BerryGeneric4=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric4Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		BerryGeneric5=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric5Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.RemouladeEmpty,
+		Cherry=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCRemouladecherryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCherryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Apple=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaiseapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakeAppleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Carrots=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisecarrotjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Grapes=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisegrapejuice,
+    		
+		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Lemon=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaiselemonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Orange=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaiseorangejuice,
+    		
+		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		HCLime=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaiselimejuice,
+    		
+		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Strewberrie=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisestrawberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Tomato=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisetomatojuice,
+    		
+		Time:70.0,
+		OnTest:MakeTomatoJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Watermelon,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonFullJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		WatermelonSliced=5,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSliceJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		WatermelonSmashed=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSmashedJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Pineapple,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisepineapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakePineappleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		BerryBlue=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaiseblueberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlueJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		BerryBlack=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaiseblackberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlackJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		BerryGeneric1=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric1Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		BerryGeneric2=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric2Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		BerryGeneric3=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric3Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		BerryGeneric4=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric4Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		BerryGeneric5=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisewildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric5Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Base.MayonnaiseEmpty,
+		Cherry=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCMayonnaisecherryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCherryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Apple=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeyapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakeAppleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Carrots=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeycarrotjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Grapes=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeygrapejuice,
+    		
+		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Lemon=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeylemonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Orange=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeyorangejuice,
+    		
+		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		HCLime=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeylimejuice,
+    		
+		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Strewberrie=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeystrawberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Tomato=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeytomatojuice,
+    		
+		Time:70.0,
+		OnTest:MakeTomatoJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Watermelon,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonFullJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		WatermelonSliced=5,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSliceJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		WatermelonSmashed=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSmashedJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Pineapple,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeypineapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakePineappleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		BerryBlue=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeyblueberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlueJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		BerryBlack=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeyblackberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlackJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		BerryGeneric1=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric1Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		BerryGeneric2=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric2Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		BerryGeneric3=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric3Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		BerryGeneric4=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric4Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		BerryGeneric5=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeywildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric5Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Bottle of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy WhiskeyEmpty,
+		Cherry=8,
+		keep HCJuicer/HCJuicer2,
+		Result:HCWhiskeycherryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCherryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Apple=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugapplejuice,
+    		
+		Time:70.0,
+		OnTest:MakeAppleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Carrots=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugcarrotjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCarrotJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Grapes=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmuggrapejuice,
+    		
+		Time:70.0,
+		OnTest:MakeGrapeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Lemon=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmuglemonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeLemonJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Orange=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugorangejuice,
+    		
+		Time:70.0,
+		OnTest:MakeOrangeJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		HCLime=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmuglimejuice,
+    		
+		Time:70.0,
+		OnTest:MakeLimeJuice_CheckIfFresh,
+		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Strewberrie=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugstrawberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeStrawberryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Tomato=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugtomatojuice,
+    		
+		Time:70.0,
+		OnTest:MakeTomatoJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl=2,
+		HCSaranwrap,
+		Watermelon,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwatermelonjuice=2,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonFullJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		WatermelonSliced=2,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSliceJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		WatermelonSmashed,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwatermelonjuice,
+    		
+		Time:70.0,
+		OnTest:MakeWatermelonSmashedJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl=2,
+		HCSaranwrap,
+		Pineapple,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugpineapplejuice=2,
+    		
+		Time:70.0,
+		OnTest:MakePineappleJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		BerryBlue=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugblueberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlueJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		BerryBlack=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugblackberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryBlackJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		BerryGeneric1=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric1Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}			
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		BerryGeneric2=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric2Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		BerryGeneric3=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric3Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		BerryGeneric4=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric4Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		BerryGeneric5=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugwildberryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeBerryGeneric5Juice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mug of Juice
+	{
+       		SkillRequired:Cooking=2,
+		destroy Mugl,
+		HCSaranwrap,
+		Cherry=4,
+		keep HCJuicer/HCJuicer2,
+		Result:HCClingmugcherryjuice,
+    		
+		Time:70.0,
+		OnTest:MakeCherryJuice_CheckIfFresh,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+}

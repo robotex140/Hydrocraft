@@ -1,0 +1,8 @@
+version=1
+title=HydroCraft Continued
+description=test description
+description=
+description=The first world has a single 300x300-tile cell.
+description=The second world adds cells all around the first world.
+tags=
+visibility=public

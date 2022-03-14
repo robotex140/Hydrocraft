@@ -1,0 +1,423 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, camping
+
+    }
+
+/************************ITEMS************************/
+
+
+/************************WEAPONS************************/
+
+
+    item HCCombatknife
+	{
+		MaxRange	=	0.9,
+		WeaponSprite	=	HuntingKnife,
+		MinAngle	=	0.65,
+		Type	=	Weapon,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	10,
+		Weight	=	0.5,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	20,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Stab,
+		DisplayName	=	Combat Knife,
+		MinRange	=	0.61,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	HuntingKnife,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   BreakMetalItem,
+        MetalValue = 30,
+        CriticalChance	=	70,
+        CritDmgMultiplier = 5,
+        MinDamage	=	0.8,
+        MaxDamage	=	1.8,
+	 	WeaponLength = 0.25,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	BladeHit,
+        ImpactSound	=	BladeHit,
+		HitSound	=	BladeHit,
+		AttachmentType = Knife,
+        Tags = CutPlant,
+    }
+
+	item HCKnifesteel
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn			=	20,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Steel Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifesteel,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        BreakSound  					=   	BreakMetalItem,
+        TreeDamage  					=   	1,
+        EnduranceMod 					= 	0.5,
+        AttachmentType = Knife,
+	}
+
+	item HCKnifeiron
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.6,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Iron Knife,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCKnifeiron,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        BreakSound  					=   	BreakMetalItem,
+        TreeDamage  					=   	1,
+        EnduranceMod 					= 	0.5,
+        AttachmentType 				= Knife,
+	}
+
+
+    item HCDaggersteel
+	{
+		MaxRange					=	0.9,
+		WeaponSprite				=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime			=	2,
+		KnockBackOnNoDeath			=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn	=	20,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax				=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon			=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight				=	1.7,
+		DisplayName					=	Steel Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 				= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod				=	0,
+		SplatBloodOnNoDeath			=	TRUE,
+		Icon						=	HCDaggersteel,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        TreeDamage  				= 	2,
+        EnduranceMod 				= 	0.5,
+        AttachmentType 				= Knife,
+	}
+
+    item HCDaggeriron
+	{
+		MaxRange					=	0.9,
+		WeaponSprite					=	Knife,
+		MinAngle					=	0,
+		Type						=	Weapon,
+		MinimumSwingTime				=	2,
+		KnockBackOnNoDeath				=	FALSE,
+		SwingAmountBeforeImpact				=	0.02,
+		Categories					=	SmallBlade,
+		ConditionLowerChanceOneIn			=	15,
+		Weight						=	0.3,
+		SplatNumber					=	0,
+		PushBackMod					=	0.3,
+		MaxDamage					=	0.7,
+		SubCategory					=	Stab,
+		AimingMod					=	0.8,
+		ConditionMax					=	10,
+		MaxHitCount					=	1,
+		IsAimedHandWeapon				=	TRUE,
+		DoorDamage					=	1,
+		SwingAnim					=	Stab,
+		WeaponWeight					=	1.7,
+		DisplayName					=	Iron Dagger,
+		MinRange					=	0.61,
+		CloseKillMove 					= 	Jaw_Stab,
+		SwingTime					=	2,
+		MinDamage					=	0.3,
+		KnockdownMod					=	0,
+		SplatBloodOnNoDeath				=	TRUE,
+		Icon						=	HCDaggeriron,
+		RunAnim						=	Run_Weapon2,
+        IdleAnim					=	Idle_Weapon2,
+        TreeDamage  					=   	2,
+        EnduranceMod 					= 	0.5,
+        AttachmentType 				= Knife,
+	}
+
+
+	item HCConanSword	
+	{
+		DisplayName					=	Conan Sword,
+		Type						=	Weapon,
+		SubCategory					=	Swinging,
+		Categories					=	LongBlade,
+		WeaponSprite				=	Hydrocraft.HCConanSword,
+		SwingAnim					=	Bat,
+		AimingMod					=	1,
+		RunAnim						=	Run_Weapon2,
+		IdleAnim					=	Idle_Weapon2,
+		Icon						=	HCLongswordsteel,
+		HitFloorSound				=	KatanaHit,
+		ImpactSound					=	KatanaHit,
+		DoorHitSound 				= 	KatanaHit,
+		HitSound					= 	KatanaHit,
+		SwingSound 					= 	KatanaSwing,
+		Weight						=	1,
+		WeaponWeight				=	1,
+		MaxRange					=	2,
+		MinRange					=	0.5,
+		MaxDamage					=	5,
+		MinDamage					=	2,
+		CriticalChance				=	50,
+		DoorDamage					=	10,
+		MaxHitCount					=	3,
+		PushBackMod					=	0.75,
+		KnockBackOnNoDeath			=	TRUE,
+		KnockdownMod				=	2.25,
+		ConditionLowerChanceOneIn	=	10,
+		ConditionMax				=	50,
+		SplatNumber					=	8,
+		SplatSize					=	2,
+		SplatBloodOnNoDeath			=	TRUE,
+		SwingTime					=	1,
+		MinimumSwingTime			=	3,
+		SwingAmountBeforeImpact		=	0.02,
+		HitAngleMod					=	-30,
+		MinAngle					=	0.2,
+		TwoHandWeapon 				= 	TRUE,
+		BreakSound  				=   KatanaBreak, --updated, copied from Base.Katana
+		TreeDamage  				=   10,
+		AttachmentType 				= 	BigBlade,
+		DisplayCategory				=	Weapon,  --new, copied from Base.Katana
+		BaseSpeed					=	1,  --new, copied from Base.Katana
+		WeaponLength				=	0.4,  --new, copied from Base.Katana
+		DamageCategory				=	Slash,  --new, copied from Base.Katana
+		DamageMakeHole				=	TRUE,  --new, copied from Base.Katana
+		CritDmgMultiplier			=	6,  --new, copied from Base.Katana
+	}
+
+
+
+/************************RECIPES************************/	
+
+recipe Tape Hedgetrimmer Blade
+	{
+		HCHedgetrimmerblade,
+    	DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,
+    	CanBeDoneFromFloor:true,
+	   	Result:Machete,
+	   	Time:150.0,
+       	Category:Survivalist,
+    	OnGiveXP:HCNoXp_OnGiveXP,
+	}
+
+
+recipe Make Steel Knife
+	{
+		SkillRequired:Maintenance=1,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifesteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Knife
+	{
+		SkillRequired:Maintenance=1,
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCKnifeiron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+
+
+recipe Make Steel Dagger
+	{
+		SkillRequired:Maintenance=2,
+	   	HCSteelingot,
+    		keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggersteel,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+recipe Make Iron Dagger
+	{
+		SkillRequired:Maintenance=2,
+	   	HCIroningot,
+    		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
+    		keep Tongs,
+    		keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil2/HCAnvillead2,
+    		CanBeDoneFromFloor:true,
+	   	Result:HCDaggeriron,
+	   	Time:150.0,
+       		Category:Smithing,
+    		OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+
+
+recipe Make Conan Sword
+	{
+		SkillRequired:Maintenance=4,
+	   	HCSteelingot=3,
+    	keep HCSmithyhammersteel/HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	   	Result:HCConanSword,
+	   	Time:150.0,
+       	Category:Smithing,
+    	OnGiveXP:HCWelding_OnGiveXP,
+	}
+
+
+
+
+
+
+/************************FIXING************************/
+
+fixing Fix Kitchen Knife
+    {
+       		Require : KitchenKnife,
+
+		Fixer : HCGluejar=2,
+		Fixer : HCMaskingtape=2,
+		Fixer : HCPackingtape=2,
+		Fixer : HCElectrictape=2,
+		Fixer : HCRubbercement=2,
+		Fixer : HCSuperglue,
+		Fixer : HCHotgluegunfull=2,
+    }
+
+	fixing Fix Steel Knife
+    {
+		Require : HCKnifesteel,
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Knife
+    {
+		Require : HCKnifeiron,
+		Fixer : HCIroningot,
+    }
+
+
+	fixing Fix Steel Dagger
+    {
+		Require : HCDaggersteel,
+		Fixer : HCSteelingot,
+    }
+
+	fixing Fix Iron Dagger
+    {
+		Require : HCDaggeriron,
+		Fixer : HCIroningot,
+    }
+
+
+
+	fixing Fix Conan Sword
+    {
+		Require : HCConanSword,
+		Fixer : HCSteelingot,
+    }
+
+
+
+
+
+
+}

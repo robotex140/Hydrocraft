@@ -1,0 +1,32 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************RECIPES************************/
+
+
+recipe Recycle Gold
+    {
+    SkillRequired:MetalWelding=3,
+    Locket=2,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGoldingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+}

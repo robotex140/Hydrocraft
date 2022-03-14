@@ -1,0 +1,27 @@
+Farming_ES = {
+  -- vegetables name (tipo de semilla)
+    Farming_Bean = "Frijoles",
+    Farming_BellPepper = "Pimientos",
+    Farming_Corn = "Maíz",
+    Farming_Eggplant = "Berenjena",
+    Farming_Grape = "Uva",
+    Farming_Leek = "Puerro",
+    Farming_Lettuce = "Lechuga",
+    Farming_Onion = "Cebolla",
+    Farming_Pea = "Guisante",
+    Farming_Peanut = "Cacahuetes",
+    Farming_Pumpkin = "Calabaza",
+    Farming_Watermelon = "Sandía",
+    Farming_Zucchini = "Calabacín",
+    Farming_Wheat = "Trigo",
+    Farming_Hemp = "cáñamo",
+    Farming_Grapes = "Uvas",
+    Farming_Flax = "Lino",
+    Farming_Sunflower = "Girasoles",
+    Farming_CoffeeBeans = "Granos de café",
+    Farming_SoyBeans = "Frijoles de soja",
+    Farming_Mulberries = "Moras",
+    Farming_Fruitasseed ="Puedes usar una fruta como semilla.",
+    Farming_Frozen ="La planta se congela y no recibe agua.",
+}
+

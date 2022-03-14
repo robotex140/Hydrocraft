@@ -1,0 +1,110 @@
+module Hydrocraft {
+
+model HCAA12Shotgun
+{
+  mesh = Weapons/HCAA12Shotgun,
+}
+
+
+model HCShotgunSilencer
+  {
+    mesh = Weapons/HCShotgunSilencer,
+  }
+
+
+model HCUziSilencer
+  {
+    mesh = Weapons/HCUziSilencer,
+  }
+
+
+model HCUzi
+  {
+    mesh = Weapons/HCUzi,
+  }
+
+
+model HCHomemadebattrimmer
+{
+  mesh = Weapons/HCHomemadebattrimmer,
+}
+
+model HCQuarterstaffGrip
+{
+  mesh = Weapons/HCQuarterstaffGrip,
+}
+
+model HCQuarterstaff
+{
+  mesh = Weapons/HCQuarterStaff,
+}
+
+
+model HCQuarterstaffBarbedWire
+{
+  mesh = Weapons/HCQuarterstaffBarbedWire,
+}
+
+model HCSpikedmacesteel
+  {
+    mesh = weapons/HCSpikedmacesteel,
+    texture = weapons/HCSteelWeapons01,
+  }
+
+model HCSpikedmaceCopper
+  {
+    mesh = weapons/HCSpikedmaceCopper,
+    texture = weapons/HCBronzeCopperWeapons01,
+  }
+
+model HCSpikedmaceBronce
+  {
+    mesh = weapons/HCSpikedmaceBronce,
+    texture = weapons/HCBronzeCopperWeapons01,
+  }
+
+model HCSpikedmaceSmall
+  {
+    mesh = weapons/HCSpikedmaceSmall,
+    texture = weapons/HCBronzeCopperWeapons01,
+  }
+
+model HCShortswordsteel
+  {
+    mesh = weapons/HCShortswordsteel,
+    texture = weapons/HCSteelWeapons01,
+  }
+
+model HCConanSword
+  {
+    mesh = weapons/HCConanSword,
+    texture = weapons/HCSteelWeapons01,
+  }
+
+
+model HCSpearsteel
+  {
+    mesh = weapons/HCSpearsteel,
+    texture = weapons/HCSteelWeapons01,
+  }
+
+
+model HCSkullsplitter
+  {
+    mesh = weapons/HCSkullsplitter,
+    texture = weapons/HCSteelWeapons01,
+  }
+
+model HCWardog
+  {
+    mesh = weapons/HCWardog,
+    texture = weapons/HCWardog,
+  }
+
+
+
+
+
+
+
+}

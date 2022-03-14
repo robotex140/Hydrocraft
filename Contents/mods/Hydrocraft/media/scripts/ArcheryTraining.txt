@@ -1,0 +1,20 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+
+	recipe Train Archery
+    {
+		HCArrow=5,
+		keep HCLongbow/HCLongbowMag,
+		keep HCHaytarget,
+        CanBeDoneFromFloor:true,
+		Result:HCArrow=4,
+		Category:Hunting,
+        Time:2500,
+        OnGiveXP:HCTrainArcheryTarget_Trainingxp1,
+    }
+	
+}

@@ -1,0 +1,121 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCRubberglove
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Rubber Gloves,
+        icon 			= HCRubberglove,
+    } 
+
+item HCGoogles
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName     = Googles,
+        icon 			= HCGoogles,
+    } 
+
+
+item HCGasmask
+    {
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	    = Gasmask,
+        Icon    	        = HCGasmask,
+    }
+
+item HCImprovisedgasmask
+    {
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	    = Improvised Gasmask,
+        Icon    	        = HCImprovisedgasmask,
+    }
+
+
+item HCHazmat
+    {
+        Weight    	        = 1.3,
+        Type    	        = Normal,
+        DisplayName    	    = Hazmat Suit,
+        Icon    	        = HCHazmat,
+    }
+
+item HCImprovisedhazmat
+    {
+        Weight    	        = 1.3,
+        Type    	        = Normal,
+        DisplayName    	    = Improvised Hazmat Suit,
+        Icon    	        = HCImprovisedhazmat,
+    }
+
+
+
+item HCBootcombat
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Combat Boots,
+		Icon		=	HCBootcombat,
+		ConditionLowerChanceOneIn = 90000,
+        ConditionMax	=	10,
+        Insulation  	=  	1.0,
+	}
+
+
+item HCBootriot
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Riot Boots,
+		Icon		=	HCBootriot,
+		ConditionLowerChanceOneIn = 90000,
+        ConditionMax	=	10,
+        Insulation  	=  	1.0,
+	}
+
+
+
+/************************RECIPES************************/
+    
+
+recipe Wear Glasses
+    {
+    	Glasses,
+    	Result:Glasses,
+    	Time:15,
+    	OnCreate:WearGlassesRecipe,
+       	Category:Health,
+    }	
+
+
+recipe Make Improvised Gasmask
+    {             
+         HCWaterbottlecutoff,
+         Glue/HCSuperglue/HCRubbercement/HCHotgluegunfull/HCGluejar,
+         HCSponge/Sponge,
+         RubberBand=4,
+         DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,
+         keep KitchenKnife/HuntingKnife/Scissors/Scalpel/HCJackknife/HCScalpelimprovised,
+         NeedToBeLearn:true,               
+         Result:HCImprovisedgasmask,
+	 Time:300.0,
+         Category:Engineer,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+}

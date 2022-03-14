@@ -1,0 +1,2105 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+
+/************************ITEMS************************/
+
+item HCPigeonmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pigeon (Male),
+	Icon				=	HCPigeonmale,
+	}
+
+item HCPigeonfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pigeon (Female),
+	Icon				=	HCPigeonfemale,
+	}
+
+item HCPigeondead
+	{
+      	Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+      	DaysFresh			=	2,
+        MinutesToCook			=	20,
+      	FoodType    			=   	Game,
+	Weight 				= 	0.2,
+	DisplayName 			= 	Dead Pigeon,
+	Icon				=	HCPigeondead,
+	Carbohydrates 			= 	0,
+    Proteins 			= 	36,
+    Lipids 				= 	15,
+    Calories 			= 	284,
+    HungerChange		=	-15,
+	}
+
+item HCDuckmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Duck (Male),
+	Icon				=	HCDuckmale,
+	
+	}
+
+item HCDuckfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Duck (Female),
+	Icon				=	HCDuckfemale,
+	
+	}
+
+item HCDuckdead
+	{
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	4,
+        MinutesToBurn			=	70,
+        DaysFresh			=	2,
+        MinutesToCook			=	20,
+        FoodType    			=   	Game,
+	Weight 				= 	0.2,
+	DisplayName 			= 	Dead Duck,
+	Icon				=	HCDuckdead,
+	Carbohydrates 			= 	0,
+    Proteins 			= 	34,
+    Lipids 				= 	30,
+    Calories 			= 	422,
+    HungerChange		=	-35,
+	
+	}
+
+item HCHamstermale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hamster (Male),
+	Icon				=	HCHamstermale,
+	}
+
+item HCHamsterfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hamster (Female),
+	Icon				=	HCHamsterfemale,
+	}
+
+item HCHamstermalehungry
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Hamster (Male),
+	Icon				=	HCHamstermale,
+ 	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCHamsterfemalehungry
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Hamster (Female),
+	Icon				=	HCHamsterfemale,
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCHamsterdead
+	{
+    Type				=	Food,
+    DangerousUncooked	=	TRUE,
+    DaysTotallyRotten	=	4,
+    DaysFresh			=	2,
+	Weight 				= 	0.1,
+	DisplayName 		= 	Dead Hamster,
+	FoodType    		=   Meat,
+	HungerChange		=	-10,
+	Carbohydrates 		= 	0,
+    Proteins 			= 	22,
+    Lipids 				= 	2.3,
+    Calories 			= 	114,
+	Icon				=	HCHamstermaledead,
+	}
+
+item HCRabbitmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Rabbit (Male),
+	Icon				=	HCRabbitmale,
+	}
+
+item HCRabbitfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Rabbit (Female),
+	Icon				=	HCRabbitfemale,
+	}
+
+item HCRabbitmalehungry
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Rabbit (Male),
+	Icon				=	HCRabbitmale,
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCRabbitfemalehungry
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Rabbit (Female),
+	Icon				=	HCRabbitfemale,
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCRabbithutch
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Empty Rabbit Hutch,
+        icon 			= HCRabbithutch,
+	
+    }
+
+item HCRabbithutchhungry
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Hutch with Hungry Rabbits,
+        icon 			= HCRabbithutchfull,
+	
+    }
+
+item HCRabbithutchtired
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Hutch with Tired Rabbits,
+        icon 			= HCRabbithutchfull,
+	
+    }
+
+item HCRabbithutchfull
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Hutch with Rabbits,
+        icon 			= HCRabbithutchfull,
+	
+    }
+
+item HCChickenmale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Chicken (Male),
+	Icon				=	HCChickenmale,
+	
+	}
+
+item HCChickenfemale
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Chicken (Female),
+	Icon				=	HCChickenfemale,
+	
+	}
+
+item HCChickenmalehungry
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Chicken (Male),
+	Icon				=	HCChickenmale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCChickenfemalehungry
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Chicken (Female),
+	Icon				=	HCChickenfemale,
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCChickendead
+	{
+	Type				=	Food,
+	DangerousUncooked	=	TRUE,
+	DaysTotallyRotten	=	4,
+	MinutesToBurn		=	60,
+	DaysFresh			=	2,
+	MinutesToCook		=	30,
+	FoodType    		=   Meat,
+	Weight 				= 	0.3,
+	DisplayName 		= 	Dead Chicken,
+	Icon				=	HCChickendead,
+    Carbohydrates 		= 0,
+    Proteins 			= 18,
+    Lipids 				= 9,
+    Calories 			= 150,
+	HungerChange	=	-35,
+    BadInMicrowave = true,
+    GoodHot = true,
+    BadCold = true,
+	}
+
+item HCChickendead2
+	{
+	Type				=	Food,
+	DangerousUncooked		=	TRUE,
+	DaysTotallyRotten		=	4,
+	MinutesToBurn			=	60,
+	DaysFresh			=	2,
+	MinutesToCook			=	30,
+	FoodType    			=   	Meat,
+	Weight 				= 	0.3,
+	DisplayName 			= 	Dead Chicken,
+	Icon				=	HCChickendead2,
+    Carbohydrates 		= 0,
+    Proteins 			= 18,
+    Lipids 				= 9,
+    Calories 			= 150,
+	HungerChange		=	-35,
+	}
+
+item HCChickenmalebaby
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Chicken (Male),
+	Icon				=	HCChickenbaby,
+	
+	}
+
+item HCChickenfemalebaby
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Chicken (Female),
+	Icon				=	HCChickenbaby,
+	
+	}
+
+item HCCoop
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Empty Chicken Coop,
+        icon 			= HCCoop,
+		
+    }
+
+item HCCoophungry
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Coop with Hungry Chickens,
+        icon 			= HCCoopfull,
+		
+    }
+
+item HCCoopfull
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Coop with Chickens,
+        icon 			= HCCoopfull,
+		
+    }
+
+item HCCooptired
+    {
+        Weight    		= 20,
+        Type    		= Normal,
+        DisplayName         	= Coop with Tired Chickens,
+        icon 			= HCCoopfull,
+		
+    }
+
+item HCPigmale
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pig (Male),
+	Icon				=	HCPigmale,
+	
+	}
+
+item HCPigfemale
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Pig (Female),
+	Icon				=	HCPigfemale,
+	
+	}
+
+item HCPigmalehungry
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Pig (Male),
+	Icon				=	HCPigmale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCPigfemalehungry
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Pig (Female),
+	Icon				=	HCPigfemale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCPigmaletired
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Pig (Male),
+	Icon				=	HCPigmale,
+	
+	}
+
+item HCPigfemaletired
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Pig (Female),
+	Icon				=	HCPigfemale,
+	
+	}
+
+item HCPigdead
+	{
+	HungerChange			=	-1,
+        Weight				=	6,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Pig,
+	Icon				=	HCPigdead,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	840,
+        Lipids 				= 	2100,
+        Calories 			= 	22560,
+	
+	}
+
+item HCPigmalebaby
+	{
+	Weight 				= 	2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Pig (Male),
+	Icon				=	HCPigbaby,
+	
+	}
+
+item HCPigfemalebaby
+	{
+	Weight 				= 	2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Pig (Female),
+	Icon				=	HCPigbaby,
+	
+	}
+
+item HCSheepmale
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Sheep (Male),
+	Icon				=	HCSheepmale,
+	
+	}
+
+item HCSheepfemale
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Sheep (Female),
+	Icon				=	HCSheepfemale,
+	
+	}
+
+item HCSheepmalehungry
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Sheep (Male),
+	Icon				=	HCSheepmale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCSheepfemalehungry
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Sheep (Female),
+	Icon				=	HCSheepfemale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCSheepmaletired
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Sheep (Male),
+	Icon				=	HCSheepmale,
+	
+	}
+
+item HCSheepfemaletired
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Sheep (Female),
+	Icon				=	HCSheepfemale,
+	
+	}
+
+item HCSheepdead
+	{
+        Weight				=	4,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Sheep,
+	Icon				=	HCSheepdead,
+	
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	750,
+        Lipids 				= 	630,
+        Calories 			= 	8820,
+	}
+
+item HCSheepmalebaby
+	{
+	Weight 				= 	2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Sheep (Male),
+	Icon				=	HCSheepbaby,
+	
+	}
+
+item HCSheepfemalebaby
+	{
+	Weight 				= 	2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Sheep (Female),
+	Icon				=	HCSheepbaby,
+	
+	}
+
+item HCSheepmalesheared
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Sheared Sheep (Male),
+	Icon				=	HCSheepmalesheared,
+	
+	}
+
+item HCSheepfemalesheared
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Sheared Sheep (Female),
+	Icon				=	HCSheepfemalesheared,
+	
+	}
+
+item HCGoatmale
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Goat (Male),
+	Icon				=	HCGoatmale,
+	
+	}
+
+item HCGoatfemale
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Goat (Female),
+	Icon				=	HCGoatfemale,
+	
+	}
+
+item HCGoatmalehungry
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Goat (Male),
+	Icon				=	HCGoatmale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCGoatfemalehungry
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Goat (Female),
+	Icon				=	HCGoatfemale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCGoatmaletired
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Goat (Male),
+	Icon				=	HCGoatmale,
+	
+	}
+
+item HCGoatfemaletired
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Lactating Goat (Female),
+	Icon				=	HCGoatfemale,
+	
+	}
+
+item HCGoatdead
+	{
+        Weight				=	4,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Goat,
+	Icon				=	HCGoatdead,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	840,
+        Lipids 				= 	69,
+        Calories 			= 	4360,
+	
+	}
+
+item HCGoatdead2
+	{
+        Weight				=	4,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Goat,
+	Icon				=	HCGoatdead2,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	840,
+        Lipids 				= 	69,
+        Calories 			= 	4360,
+	
+	}
+
+item HCGoatmalebaby
+	{
+	Weight 				= 	2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Goat (Male),
+	Icon				=	HCGoatbaby,
+	
+	}
+
+item HCGoatfemalebaby
+	{
+	Weight 				= 	2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Goat (Female),
+	Icon				=	HCGoatbaby,
+	
+	}
+
+item HCGoatmalesheared
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Sheared Goat (Male),
+	Icon				=	HCGoatmale,
+	
+	}
+
+item HCGoatfemalesheared
+	{
+	Weight 				= 	4,
+	Type 				= 	Normal,
+	DisplayName 			= 	Sheared Goat (Female),
+	Icon				=	HCGoatfemale,
+	
+	}
+
+item HCCowmale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Cow (Male),
+	Icon				=	HCCowmale,
+	
+	}
+
+item HCCowfemale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Cow (Female),
+	Icon				=	HCCowfemale,
+	
+	}
+
+item HCCowmalehungry
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Cow (Male),
+	Icon				=	HCCowmale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCCowfemalehungry
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Cow (Female),
+	Icon				=	HCCowfemale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCCowmaletired
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Cow (Male),
+	Icon				=	HCCowmale,
+	
+	}
+
+item HCCowfemaletired
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Lactating Cow (Female),
+	Icon				=	HCCowfemale,
+	
+	}
+
+item HCCowdead
+	{
+        Weight				=	12,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Cow,
+	Icon				=	HCCowdead,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	2280,
+        Lipids 				= 	1560,
+        Calories 			= 	23760,
+	
+	}
+
+item HCCowdead2
+	{
+        Weight				=	12,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Cow,
+	Icon				=	HCCowdead2,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	2280,
+        Lipids 				= 	1560,
+        Calories 			= 	23760,
+	
+	}
+
+item HCCowmalebaby
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Cow (Male),
+	Icon				=	HCCowmalebaby,
+	
+	}
+
+item HCCowfemalebaby
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Cow (Female),
+	Icon				=	HCCowfemalebaby,
+	
+	}
+
+item HCDonkeymale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Donkey (Male),
+	Icon				=	HCDonkeymale,
+	
+	}
+
+item HCDonkeyfemale
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Donkey (Female),
+	Icon				=	HCDonkeyfemale,
+	
+	}
+
+item HCDonkeymalehungry
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Donkey (Male),
+	Icon				=	HCDonkeymale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCDonkeyfemalehungry
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Donkey (Female),
+	Icon				=	HCDonkeyfemale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCDonkeymaletired
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Donkey (Male),
+	Icon				=	HCDonkeymale,
+	
+	}
+
+item HCDonkeyfemaletired
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Donkey (Female),
+	Icon				=	HCDonkeyfemale,
+	
+	}
+
+item HCDonkeydead
+	{
+        Weight				=	12,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Donkey,
+	Icon				=	HCDonkeydead,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	2280,
+        Lipids 				= 	1560,
+        Calories 			= 	23760,
+	
+	}
+
+item HCDonkeymalebaby
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Donkey (Male),
+	Icon				=	HCDonkeymalebaby,
+	
+	}
+
+item HCDonkeyfemalebaby
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Donkey (Female),
+	Icon				=	HCDonkeyfemalebaby,
+	
+	}
+
+item HCDonkeymalepack
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCDonkeymalepack,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+    Weight						= 0,
+    Type	      				= Container,
+	Capacity             		= 70,
+	DisplayName             	= Pack Donkey (Male),
+	Icon						= HCDonkeymalepack,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,	
+   }
+
+item HCDonkeyfemalepack
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCDonkeyfemalepack,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+	Weight             			= 0,
+	Type                		= Container,
+	Capacity             		= 70,
+	DisplayName             	= Pack Donkey (Female),
+	Icon						= HCDonkeyfemalepack,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,		
+   }
+
+item HCHorsemale
+	{
+	Weight 				= 	15,
+	Type 				= 	Normal,
+	DisplayName 			= 	Horse (Male),
+	Icon				=	HCHorsemale,
+	
+	}
+
+item HCHorsefemale
+	{
+	Weight 				= 	15,
+	Type 				= 	Normal,
+	DisplayName 			= 	Horse (Female),
+	Icon				=	HCHorsefemale,
+	
+	}
+
+item HCHorsemalehungry
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Horse (Male),
+	Icon				=	HCHorsemale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCHorsefemalehungry
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Hungry Horse (Female),
+	Icon				=	HCHorsefemale,
+	
+	Tooltip 			= 	Tooltip_HCFeedme,
+	}
+
+item HCHorsemaletired
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Horse (Male),
+	Icon				=	HCHorsemale,
+	
+	}
+
+item HCHorsefemaletired
+	{
+	Weight 				= 	12,
+	Type 				= 	Normal,
+	DisplayName 			= 	Tired Horse (Female),
+	Icon				=	HCHorsefemale,
+	
+	}
+
+item HCHorsedead
+	{
+        Weight				=	12,
+        Type				=	Food,
+        DangerousUncooked		=	TRUE,
+        DaysTotallyRotten		=	12,
+        DaysFresh			=	8,
+	DisplayName 			= 	Dead Horse,
+	Icon				=	HCHorsedead,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	0,
+        Proteins 			= 	2280,
+        Lipids 				= 	1560,
+        Calories 			= 	23760,
+	
+	}
+
+item HCHorsemalebaby
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Horse (Male),
+	Icon				=	HCHorsemalebaby,
+	
+	}
+
+item HCHorsefemalebaby
+	{
+	Weight 				= 	6,
+	Type 				= 	Normal,
+	DisplayName 			= 	Baby Horse (Female),
+	Icon				=	HCHorsefemalebaby,
+	
+	}
+
+
+item HCHorsemalesaddle
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCHorsemalesaddle,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+    Weight						= 0,
+    Type	      				= Container,
+    Capacity					= 100,
+	DisplayName             	= Pack Horse with Saddle (Male),
+	Icon						= HCHorsemalesaddle,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,
+   }
+
+
+item HCHorsefemalesaddle
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCHorsefemalesaddle,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+    Weight						= 0,
+    Type	      				= Container,
+    Capacity					= 100,
+	DisplayName             	= Pack Horse with Saddle (Female),
+	Icon						= HCHorsefemalesaddle,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,
+   }
+
+item HCWagonhorsemale
+   {
+	WeightReduction         	= 	100,
+	Weight             			= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	300,
+	DisplayName             	= 	Wagon with Horses,
+	Icon						= 	HCWagonhorsemale,
+   }  
+  
+item HCWagoncoveredhorsemale
+   {
+	WeightReduction         	= 	100,
+	Weight             			= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Covered Wagon with Horses,
+	Icon						= 	HCWagoncoveredhorsemale,
+   }
+
+item HCWagonhorsefemale
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Wagon with Horses,
+	Icon				= 	HCWagonhorsefemale,
+   }  
+  
+item HCWagoncoveredhorsefemale
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Covered Wagon with Horses,
+	Icon				= 	HCWagoncoveredhorsefemale,
+   }
+
+item HCHamsterpoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Hamster Poop,
+        icon 			= HCHamsterpoop,
+    }
+
+item HCRabbitpoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Rabbit Poop,
+        icon 			= HCRabbitpoop,
+    }
+
+item HCChickenpoop
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Chicken Poop,
+        icon 			= HCChickenpoop,
+    }
+
+item HCSheeppoop
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Sheep Poop,
+        icon 			= HCSheeppoop,
+    }
+
+item HCSheeppoopferal
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Feral Sheep Poop,
+        icon 			= HCSheeppoop,
+    }
+
+item HCGoatpoop
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Goat Poop,
+        icon 			= HCGoatpoop,
+    }
+
+item HCGoatpoopferal
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Feral Goat Poop,
+        icon 			= HCGoatpoop,
+    }
+
+item HCPigpoop
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Pig Poop,
+        icon 			= HCPigpoop,
+    }
+
+item HCPigpoopferal
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Feral Pig Poop,
+        icon 			= HCPigpoop,
+    }
+
+item HCCowpoop
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Cow Poop,
+        icon 			= HCCowpoop,
+    }
+
+item HCCowpoopferal
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Feral Cow Poop,
+        icon 			= HCCowpoop,
+    }
+
+item HCDonkeypoop
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Donkey Poop,
+        icon 			= HCDonkeypoop,
+    }
+
+item HCDonkeypoopferal
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Feral Donkey Poop,
+        icon 			= HCDonkeypoop,
+    }
+
+item HCHorsepoop
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Horse Poop,
+        icon 			= HCHorsepoop,
+    }
+
+item HCHorsepoopferal
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Feral Horse Poop,
+        icon 			= HCHorsepoop,
+    }
+
+item HCWoodenbucketmilk
+    {
+        HungerChange	    = -40,
+        Weight    			= 4.0,
+        Type    			= Food,
+        ThirstChange    	= -100,
+        DisplayName    		= Wooden Bucket with Milk,
+        Icon    			= HCWoodenbucketmilk,
+        DaysFresh           = 4,
+        DaysTotallyRotten   = 7,
+        CustomContextMenu   = Drink,
+        CustomEatSound      = DrinkingFromBottle,
+        FoodType    		= NoExplicit,
+        Carbohydrates 		= 52,
+        Proteins 			= 32,
+        Lipids 				= 10,
+        Calories 			= 440,
+        CantBeFrozen 		= TRUE,
+        ReplaceOnUse 		= HCWoodenbucket,
+    }
+
+
+/************************RECIPES************************/
+
+recipe Track Lost Pigs
+    {
+	SkillRequired:Trapping=4,
+	keep HCBinoculars,
+    	keep HCCorgimale/HCCorgifemale/HCBordercolliemale/HCBordercolliefemale/HCColliemale/HCColliefemale/HCGermanshepherdmale/HCGermanshepherdfemale/HCHeelermale/HCHeelerfemale/HCRottweilermale/HCRottweilerfemale/HCBernesemale/HCBernesefemale,
+    	Rope,
+	HCPigpoopferal,
+	Result:HCBinoculars,
+    CanBeDoneFromFloor:true,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:getPig,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Track Lost Sheep
+    {
+	SkillRequired:Trapping=3,
+	keep HCBinoculars,
+    	keep HCCorgimale/HCCorgifemale/HCBordercolliemale/HCBordercolliefemale/HCColliemale/HCColliefemale/HCGermanshepherdmale/HCGermanshepherdfemale/HCHeelermale/HCHeelerfemale/HCRottweilermale/HCRottweilerfemale/HCBernesemale/HCBernesefemale,
+    	Rope,
+	HCSheeppoopferal,
+	Result:HCBinoculars,
+    CanBeDoneFromFloor:true,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:getSheep,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Track Lost Goats
+    {
+	SkillRequired:Trapping=3,
+	keep HCBinoculars,
+    	keep HCCorgimale/HCCorgifemale/HCBordercolliemale/HCBordercolliefemale/HCColliemale/HCColliefemale/HCGermanshepherdmale/HCGermanshepherdfemale/HCHeelermale/HCHeelerfemale/HCRottweilermale/HCRottweilerfemale/HCBernesemale/HCBernesefemale,
+    	Rope,
+	HCGoatpoopferal,
+	Result:HCBinoculars,
+    CanBeDoneFromFloor:true,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:getGoat,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Track Lost Cows
+    {
+	SkillRequired:Trapping=2,
+	keep HCBinoculars,
+    	keep HCCorgimale/HCCorgifemale/HCBordercolliemale/HCBordercolliefemale/HCColliemale/HCColliefemale/HCGermanshepherdmale/HCGermanshepherdfemale/HCHeelermale/HCHeelerfemale/HCRottweilermale/HCRottweilerfemale/HCBernesemale/HCBernesefemale,
+    	Rope,
+	HCCowpoopferal,
+	Result:HCBinoculars,
+    CanBeDoneFromFloor:true,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:getCow,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Track Lost Donkeys
+    {
+	SkillRequired:Trapping=5,
+	keep HCBinoculars,
+    	keep HCCorgimale/HCCorgifemale/HCBordercolliemale/HCBordercolliefemale/HCColliemale/HCColliefemale/HCGermanshepherdmale/HCGermanshepherdfemale/HCHeelermale/HCHeelerfemale/HCRottweilermale/HCRottweilerfemale/HCBernesemale/HCBernesefemale,
+    	Rope,
+	HCDonkeypoopferal,
+	Result:HCBinoculars,
+    CanBeDoneFromFloor:true,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:getDonkey,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Track Lost Horses
+    {
+	SkillRequired:Trapping=5,
+	keep HCBinoculars,
+    	keep HCCorgimale/HCCorgifemale/HCBordercolliemale/HCBordercolliefemale/HCColliemale/HCColliefemale/HCGermanshepherdmale/HCGermanshepherdfemale/HCHeelermale/HCHeelerfemale/HCRottweilermale/HCRottweilerfemale/HCBernesemale/HCBernesefemale,
+    	Rope,
+	HCHorsepoopferal,
+	Result:HCBinoculars,
+	CanBeDoneFromFloor:true,
+    	Time:50.0,
+    	Category:Ranching,
+    	OnCreate:getHorse,
+    	RemoveResultItem:true,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Kill Hamster
+    {
+    	HCHamstermale/HCHamsterfemale/HCHamstermalehungry/HCHamsterfemalehungry,
+    	Result:HCHamsterdead,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Rabbit
+    {
+    	destroy HCRabbitmale/HCRabbitfemale/HCRabbitmalehungry/HCRabbitfemalehungry,
+    	Result:DeadRabbit,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Chicken
+    {
+    	HCChickenmale/HCChickenmalehungry,
+    	Result:HCChickendead,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Chicken
+    {
+    	HCChickenfemale/HCChickenfemalehungry,
+    	Result:HCChickendead2,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Pigeon
+    {
+    	HCPigeonmale/HCPigeonfemale,
+    	Result:HCPigeondead,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Duck
+    {
+    	HCDuckmale/HCDuckfemale,
+    	Result:HCDuckdead,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Sheep
+    {
+    	HCSheepmale/HCSheepfemale/HCSheepmalehungry/HCSheepfemalehungry/HCSheepmaletired/HCSheepfemaletired/HCSheepmalesheared/HCSheepfemalesheared,
+    	Result:HCSheepdead,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Goat
+    {
+    	HCGoatmale/HCGoatmalehungry/HCGoatmaletired/HCGoatmalesheared,
+    	Result:HCGoatdead,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Goat
+    {
+    	HCGoatfemale/HCGoatfemalehungry/HCGoatfemaletired/HCGoatfemalesheared,
+    	Result:HCGoatdead2,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Pig
+    {
+    	HCPigmale/HCPigfemale/HCPigmalehungry/HCPigfemalehungry/HCPigmaletired/HCPigfemaletired,
+    	Result:HCPigdead,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Cow
+    {
+    	HCCowmale/HCCowmalehungry/HCCowmaletired,
+    	Result:HCCowdead,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Cow
+    {
+    	HCCowfemale/HCCowfemalehungry/HCCowfemaletired,
+    	Result:HCCowdead2,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Donkey
+    {
+    	HCDonkeymale/HCDonkeymalehungry/HCDonkeymaletired/HCDonkeyfemale/HCDonkeyfemalehungry/HCDonkeyfemaletired,
+    	Result:HCDonkeydead,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Death,
+    }
+
+recipe Kill Horse
+    {
+    	HCHorsemale/HCHorsemalehungry/HCHorsemaletired/HCHorsefemale/HCHorsefemalehungry/HCHorsefemaletired,
+    	Result:HCHorsedead,
+    	CanBeDoneFromFloor:true,
+    	Time:15.0,
+    	Category:Ranching,
+    }
+ 
+recipe Feed Hamster
+    {
+    	HCHamstermalehungry,
+	HCRodentfood/HCRodentfood2/Carrots/Cabbage/Corn/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHamstermale,
+    	OnCreate:recipe_hchamsterpoop,
+    	Time:15.0,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Hamster
+    {
+    HCHamsterfemalehungry,
+	HCRodentfood/HCRodentfood2/Carrots/Cabbage/Corn/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    CanBeDoneFromFloor:true,
+    Result:HCHamsterfemale,
+    OnCreate:recipe_hchamsterpoop,
+    Time:15.0,
+    Category:Ranching,
+    OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Rabbit
+    {
+    	HCRabbitmalehungry,
+	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRabbitmale,
+    	OnCreate:recipe_hcrabbitpoop,
+    	Time:15.0,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Rabbit
+    {
+    	HCRabbitfemalehungry,
+	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRabbitfemale,
+    	OnCreate:recipe_hcrabbitpoop,
+    	Time:15.0,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Fill Rabbit Hutch Food
+    {
+    	HCRabbithutchhungry,
+		Corn/HCCornred/HCCornblue/HCCornwhite,
+		Cabbage/HCCabbagered/HCCabbagewhite/HCChinesecabbage,
+		Potato/Tomato/BellPepper/Lettuce/Carrots/Banana/Peach,
+		HCGrass/HCStraw,
+		Water=10,
+    	CanBeDoneFromFloor:true,
+    	Result:HCRabbithutchfull,
+    	Time:100.0,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Chicken
+    {
+    	HCChickenmalehungry,
+		Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
+		Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCChickenmale,
+    	OnCreate:recipe_hcchickenpoop,
+    	Time:15.0,
+    	Sound:bock,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Chicken
+    {
+    	HCChickenfemalehungry,
+	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite/HCBirdfoodbox/HCBirdfoodbag,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCChickenfemale,
+    	OnCreate:recipe_hcchickenpoop,
+    	Time:15.0,
+    	Sound:bock,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Fill Chicken Coop Food
+    {
+    	HCCoophungry/HCCoopfull,
+		Corn/HCCornred/HCCornblue/HCCornwhite/Popcorn/Cereal/BreadSlices/HCBirdfoodbox/HCBirdfoodbag,
+		Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada,
+		Water=10,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCoopfull,
+    	OnCreate:recipe_hcchickenpoop,
+    	Time:100.0,
+    	Sound:bock,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Pig
+    {
+    	HCPigmalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPigmale,
+    	OnCreate:recipe_hcpigpoop,
+    	Time:15.0,
+    	Sound:oink,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Pig
+    {
+    	HCPigfemalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPigfemale,
+    	OnCreate:recipe_hcpigpoop,
+    	Time:15.0,
+    	Sound:oink,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Sheep
+    {
+    	HCSheepmalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSheepmale,
+    	OnCreate:recipe_hcsheeppoop,
+    	Time:15.0,
+    	Sound:baa,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Sheep
+    {
+    	HCSheepfemalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSheepfemale,
+    	OnCreate:recipe_hcsheeppoop,
+    	Time:15.0,
+    	Sound:baa,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Goat
+    {
+    	HCGoatmalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGoatmale,
+    	OnCreate:recipe_hcgoatpoop,
+    	Time:15.0,
+    	Sound:meeh,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Goat
+    {
+    	HCGoatfemalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGoatfemale,
+    	OnCreate:recipe_hcgoatpoop,
+    	Time:15.0,
+    	Sound:meeh,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Cow
+    {
+    	HCCowmalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCowmale,
+    	OnCreate:recipe_hccowpoop,
+    	Time:15.0,
+    	Sound:moo,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Cow
+    {
+    	HCCowfemalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCowfemale,
+    	OnCreate:recipe_hccowpoop,
+    	Time:15.0,
+    	Sound:moo,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Donkey
+    {
+    	HCDonkeymalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDonkeymale,
+    	OnCreate:recipe_hcdonkeypoop,
+    	Time:15.0,
+    	Sound:heehaw,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Donkey
+    {
+    	HCDonkeyfemalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDonkeyfemale,
+    	OnCreate:recipe_hcdonkeypoop,
+    	Time:15.0,
+    	Sound:heehaw,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Horse
+    {
+    	HCHorsemalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHorsemale,
+    	OnCreate:recipe_hchorsepoop,
+    	Time:15.0,
+    	Sound:neigh,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Feed Horse
+    {
+    	HCHorsefemalehungry,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHorsefemale,
+    	OnCreate:recipe_hchorsepoop,
+    	Time:15.0,
+    	Sound:neigh,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveBitXP,
+    }
+
+recipe Put Rabbits in Hutch
+    {
+	HCRabbithutch,
+    	HCRabbitmale,
+	HCRabbitfemale,
+    	CanBeDoneFromFloor:true,
+   	Result:HCRabbithutchhungry,
+    	Time:100,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Breed Rabbits
+    {
+	HCRabbithutchfull,
+	Carrots/Cabbage/Potato/Tomato/Corn/BellPepper/Lettuce/Banana/Peach/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	Result:HCRabbithutchtired,
+    	CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Category:Ranching,
+	OnCreate:HCRabbitGet,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Put Chickens in Coop
+    {
+	HCCoop,
+	HCChickenmale,
+	HCChickenfemale,
+    	CanBeDoneFromFloor:true,
+   	Result:HCCoophungry,
+    	Time:100,
+    	Sound:bock,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Breed Pigs
+    {
+    	HCPigmale,
+    	HCPigfemale,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCPigfemaletired,
+    	OnCreate:getPigBaby,
+    	Time:2000.0,
+       	NeedToBeLearn:true,
+    	Sound:oink,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Breed Sheep
+    {
+    	HCSheepmale,
+	HCSheepfemale,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSheepfemaletired,
+    	OnCreate:getSheepBaby,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Sound:baa,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Breed Goats
+    {
+    	HCGoatmale,
+	HCGoatfemale,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCGoatfemaletired,
+    	OnCreate:getGoatBaby,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Sound:meeh,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Breed Cows
+    {
+    	HCCowfemale,
+	HCCowmale,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCowfemaletired,
+	OnCreate:getCowBaby,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Sound:moo,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Breed Donkeys
+    {
+    	HCDonkeymale,
+	HCDonkeyfemale,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCDonkeyfemaletired,
+    	OnCreate:getDonkeyBaby,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Sound:heehaw,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Breed Horses
+    {
+    	HCHorsemale,
+	HCHorsefemale,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCHorsefemaletired,
+    	OnCreate:getHorseBaby,
+       	NeedToBeLearn:true,
+    	Time:2000.0,
+    	Sound:neigh,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Milk Cow
+    {
+    	HCCowfemaletired,
+    	HCWoodenbucket,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWoodenbucketmilk,
+    	OnCreate:recipe_hccowmilk,
+    	Time:15.0,
+    	Sound:moo,
+    	Category:Ranching,
+    	OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Milk Goat
+    {
+    HCGoatfemaletired,
+    HCWoodenbucket,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    CanBeDoneFromFloor:true,
+    Result:HCWoodenbucketmilk,
+    OnCreate:recipe_hcgoatmilk,
+    Time:15.0,
+    Sound:meeh,
+    Category:Ranching,
+    OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Shear Sheep
+    {
+    HCSheepmale,
+    keep HCShears,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    Result:HCWool,
+    CanBeDoneFromFloor:true,
+    Time:15.0,
+    Sound:baa,
+    Category:Ranching,
+    OnCreate:recipe_hcsheepmalesheared,
+    OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Shear Sheep
+    {
+    HCSheepfemale,
+    keep HCShears,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    Result:HCWool,
+    CanBeDoneFromFloor:true,
+    Time:15.0,
+    Sound:baa,
+    Category:Ranching,
+    OnCreate:recipe_hcsheepfemalesheared,
+    OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Sheer Goat
+    {
+    HCGoatmale,
+    keep HCShears,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    CanBeDoneFromFloor:true,
+    Result:HCWool,
+    CanBeDoneFromFloor:true,
+    Time:15.0,
+    Sound:meeh,
+    Category:Ranching,
+    OnCreate:recipe_hcgoatmalesheared,
+    OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Sheer Goat
+    {
+    HCGoatfemale,
+    keep HCShears,
+	Apple/Carrots/Cabbage/Corn/Lettuce/HCGrass/HCStraw/HCChinesecabbage/HCCornred/HCCornblue/HCCornwhite/HCCabbagered/HCCabbagewhite,
+	Water,
+    CanBeDoneFromFloor:true,
+    Result:HCWool,
+    Time:15.0,
+    Sound:meeh,
+    Category:Ranching,
+    OnCreate:recipe_hcgoatfemalesheared,
+    OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Harvest Eggs
+    {
+	HCCoopfull,
+	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite,
+	Water,
+    CanBeDoneFromFloor:true,
+   	Result:Egg,
+    OnCreate:recipe_hcchickencoop,
+    Time:100,
+    Sound:bock,
+    Category:Ranching,
+    OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Harvest Chicken Eggs
+    {
+	HCCoopfull,
+	Corn/Popcorn/Cereal/BreadSlices/Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCBeetlegrub/HCMolecricket/HCCicada/HCCornred/HCCornblue/HCCornwhite,
+	Water,
+    CanBeDoneFromFloor:true,
+   	Result:HCChickenegg,
+    OnCreate:recipe_hcchickencoop,
+    Time:100,
+    Sound:bock,
+    Category:Ranching,
+    OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Incubate Egg
+    {
+	HCChickenegg,
+	keep HCStraw,
+   	Result:HCChickenegg,
+    Time:2000.0,
+    Category:Ranching,
+    OnCreate:getChicken,
+    RemoveResultItem:true,
+    OnGiveXP:HCTrapping_OnGiveXP,
+    }
+
+recipe Attach Bags to Donkey
+    {
+	HCAlicepack3=2,
+	Rope,
+	HCDonkeymale,
+    Result:HCDonkeymalepack,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+	OnCreate:HCEmptyContainerOnRecipe,
+    Category:Ranching,
+    }
+
+	recipe Remove Bags from Donkey
+    {
+	HCDonkeymalepack,
+	Result:HCDonkeymale,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+    Category:Ranching,
+    OnCreate:HCRemoveDonkeyPack,
+    }
+
+	recipe Attach Bags to Donkey
+    {
+	HCAlicepack3=2,
+    Rope,
+	HCDonkeyfemale,
+	Result:HCDonkeyfemalepack,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+	OnCreate:HCEmptyContainerOnRecipe,
+    Category:Ranching,
+    }
+
+	recipe Remove Bags from Donkey
+    {
+	HCDonkeyfemalepack,
+    Result:HCDonkeyfemale,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+    Category:Ranching,
+    OnCreate:HCRemoveDonkeyPack,
+    }
+
+recipe Attach Saddle to Horse
+    {
+	HCHorsesaddle,
+	HCHorsemale,
+    Result:HCHorsemalesaddle,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+    Category:Ranching,
+    }
+
+recipe Remove Saddle from Horse
+    {
+	HCHorsemalesaddle,
+    Result:HCHorsemale,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+    Category:Ranching,
+    OnCreate:HCRemoveHorseSaddle,
+    }
+
+recipe Attach Saddle to Horse
+    {
+	HCHorsesaddle,
+	HCHorsefemale,
+    Result:HCHorsefemalesaddle,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+    Category:Ranching,
+    }
+
+recipe Remove Saddle from Horse
+    {
+	HCHorsefemalesaddle,
+    Result:HCHorsefemale,
+    CanBeDoneFromFloor:true,
+    Time:50.0,
+    Category:Ranching,
+    OnCreate:HCRemoveHorseSaddle,
+    }
+
+recipe Add Horses to Wagon
+    {
+	HCWagon,
+	HCHorsemale=2,
+	HCHorsecollar=2,
+	HCRopethick=4,
+	CanBeDoneFromFloor:true,
+	Result:HCWagonhorsemale,
+	SkillRequired:Woodwork=10,
+	Time:250,
+	Category:Carpentry,
+    }
+
+recipe Add Horses to Wagon
+    {
+	HCWagon,
+	HCHorsefemale=2,
+	HCHorsecollar=2,
+	HCRopethick=4,
+	CanBeDoneFromFloor:true,
+	Result:HCWagonhorsefemale,
+	SkillRequired:Woodwork=10,
+	Time:250,
+	Category:Carpentry,
+    }
+
+recipe Add Horses to Covered Wagon
+    {
+	HCWagoncovered,
+	HCHorsemale=2,
+	HCHorsecollar=2,
+	HCRopethick=4,
+	CanBeDoneFromFloor:true,
+	Result:HCWagoncoveredhorsemale,
+	SkillRequired:Woodwork=10,
+	Time:250,
+	Category:Carpentry,
+    }
+recipe Add Horses to Covered Wagon
+    {
+	HCWagoncovered,
+	HCHorsefemale=2,
+	HCHorsecollar=2,
+	HCRopethick=4,
+	CanBeDoneFromFloor:true,
+	Result:HCWagoncoveredhorsefemale,
+	SkillRequired:Woodwork=10,
+	Time:250,
+	Category:Carpentry,
+    }
+	
+	recipe Empty Wooden Bucket with Milk
+    {
+	destroy HCWoodenbucketmilk,
+	Result:HCWoodenbucket,
+	Time:50,
+	Category:Ranching,
+    }
+}
