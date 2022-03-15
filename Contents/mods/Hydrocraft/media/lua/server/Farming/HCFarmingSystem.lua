@@ -214,16 +214,17 @@ if sq then
 		for y = y-1,y+1 do
 
 			aaa = getCell():getGridSquare(x,y,z)
-			objs = aaa:getObjects()
-
-			if objs:size() > 1 then
-				for i = 0, objs:size()-1 do
-  					barrel = objs:get(i)
-  					--print (i .. ":" .. barrel:getWaterAmount())
-  					if barrel:getWaterAmount() > 0 then return barrel
-  					end -- has water
-				end -- tile loop
-			end -- obj size?
+			if aaa ~= nil then
+				objs = aaa:getObjects()
+				if objs:size() > 1 then
+					for i = 0, objs:size()-1 do
+						barrel = objs:get(i)
+						--print (i .. ":" .. barrel:getWaterAmount())
+						if barrel:getWaterAmount() > 0 then return barrel
+						end -- has water
+					end -- tile loop
+				end -- obj size?
+			end
 		end -- loopy
 	end -- loopx
 end -- sq is valid?
