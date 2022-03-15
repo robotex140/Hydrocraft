@@ -1,8 +1,19 @@
-version=1
-title=HydroCraft Continued
-description=test description
+version=1.1
+id=2778991696
+title=HydroCraft b41 Continued
+description=[h1]Latest Hydrocraft mod for b41[/h1]
 description=
-description=The first world has a single 300x300-tile cell.
-description=The second world adds cells all around the first world.
-tags=
-visibility=public
+description=Hydrocraft is a mod based around crafting and filling in the empty world of zomboid with more stuff. It is inspired by survival crafting games like Haven and Hearth. This mod is currently the latest and the one that is being updated.
+description=
+description=There are 2 other main hydrocraft mods. One is the b40 version made by Hydromancerx and is no longer being updated. The other one is by David Hasihoff on steam. This was the [b]previous[/b] version of hydrocraft for b41, but is now no longer updated. I am now taking over with some help to continue fixing and improving Hydrocraft as a whole.
+description=
+description=
+description=If you need any help, feel free to come to this [url=https://discord.gg/YPTmpqacCE]discord[/url] to ask questions in the questions channel.
+description=
+description=We also now have a public [url=https://github.com/robotex140/Hydrocraft]github[/url] if you want to contribute or make bug reports and the like
+
+Workshop ID: 2778991696
+Mod ID: Hydrocraft
+
+tags=Build 41;Building;Clothing/Armor;Food;Items;Literature;Multiplayer;Weapons
+visibility=private
