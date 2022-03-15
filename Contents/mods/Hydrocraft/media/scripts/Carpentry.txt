@@ -1578,12 +1578,95 @@ recipe Make Wooden Pallet
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
+
+    recipe Make Two-Log Stack
+    {
+        Log=2,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks2,
+        Time:60.0,
+		override:true,
+        CanBeDoneFromFloor:true,
+        Category:Carpentry,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+    }
+
+    recipe Make Three-Log Stack
+    {
+        Log=3,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks3,
+        Time:60.0,
+		override:true,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+    }
+
+    recipe Make Four-Log Stack
+    {
+        Log=4,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks4,
+        Time:60.0,
+		override:true,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+    }
+
+    recipe Unstack Logs
+    {
+        LogStacks2,
+        Result:Log=2,
+        Time:60.0,
+		override:true,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.SplitLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogRemoveFromStack,
+    }
+
+    recipe Unstack Logs
+    {
+        LogStacks3,
+        Result:Log=3,
+        Time:60.0,
+		override:true,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.SplitLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogRemoveFromStack,
+    }
+
+    recipe Unstack Logs
+    {
+        LogStacks4,
+        Result:Log=4,
+        Time:60.0,
+		override:true,
+        CanBeDoneFromFloor:true,
+        OnCreate:Recipe.OnCreate.SplitLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogRemoveFromStack,
+    }
+
 recipe Pack Lumber Stack
     {
         Plank=12,
         Rope,
         Result:HCLumberstack,
         Time:40.0,
+        CanBeDoneFromFloor:true,
         Category:Carpentry,
     OnGiveXP:HCNoExpGain,
     }
@@ -1593,6 +1676,7 @@ recipe Unpack Lumber Stack
         HCLumberstack,
         Result:Plank=12,
         Time:40.0,
+        CanBeDoneFromFloor:true,
         Category:Carpentry,
         OnCreate:recipe_hcrope,
     OnGiveXP:HCNoExpGain,
@@ -1605,6 +1689,7 @@ recipe Pack Pallet of Lumber
     HCWoodenpallet,
         Result:HCLumberbox,
         Time:20.0,
+        CanBeDoneFromFloor:true,
         Category:Carpentry,
     }
 
@@ -1613,6 +1698,7 @@ recipe Unpack Pallet of Logs
         HCLogbox,
         Result:LogStacks4=3,
         Time:20.0,
+        CanBeDoneFromFloor:true,
         Category:Carpentry,
         OnCreate:recipe_hcpallet,
     }
@@ -1625,6 +1711,7 @@ recipe Pack Pallet of Logs
         CanBeDoneFromFloor:true,
         Result:HCLogbox,
         Time:20.0,
+        CanBeDoneFromFloor:true,
         Category:Carpentry,
     }
 
@@ -1633,6 +1720,7 @@ recipe Unpack Pallet of Lumber
         HCLumberbox,
         Result:HCLumberstack=3,
         Time:20.0,
+        CanBeDoneFromFloor:true,
         Category:Carpentry,
         OnCreate:recipe_hcpallet,
     }
