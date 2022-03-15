@@ -563,7 +563,7 @@ item HCFreshham
 
 item HCZedsteak
 	{
-		HungerChange		=	-5,
+		HungerChange		=	-15,
                 UnhappyChange	        =	50,
                 StressChange            =       50,
         	ReduceInfectionPower    = 	5,
