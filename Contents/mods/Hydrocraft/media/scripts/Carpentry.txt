@@ -1,3 +1,48 @@
+module Base
+{
+	recipe Make Two-Log Stack
+    {
+        Log=2,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks2,
+        Time:60.0,
+        Category:Carpentry,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+        CanBeDoneFromFloor:true,
+        Override:true,
+    }
+
+    recipe Make Three-Log Stack
+    {
+        Log=3,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks3,
+        Time:60.0,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+        CanBeDoneFromFloor:true,
+        Override:true,
+    }
+
+    recipe Make Four-Log Stack
+    {
+        Log=4,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks4,
+        Time:60.0,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+        CanBeDoneFromFloor:true,
+        Override:true,
+    }
+}
+
 module Hydrocraft
 {
     imports
@@ -1403,13 +1448,6 @@ recipe Make Wood Planks
     OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-
-
-
-
-
-
-
 recipe Make Churn
     {
     WoodenStick,
@@ -1576,31 +1614,6 @@ recipe Make Wooden Pallet
         Time:50,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-    recipe Make Four-Log Stack on the Floor
-    {
-        Log=4,
-        [Recipe.GetItemTypes.CraftLogStack]=2,
-        Result:LogStacks4,
-        Time:60.0,
-        CanBeDoneFromFloor:true,
-        OnCreate:Recipe.OnCreate.CreateLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogAddToStack,
-    }
-
-    recipe Unstack Logs on the Floor
-    {
-        LogStacks4,
-        Result:Log=4,
-        Time:60.0,
-        CanBeDoneFromFloor:true,
-        OnCreate:Recipe.OnCreate.SplitLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogRemoveFromStack,
     }
 
 recipe Pack Lumber Stack
