@@ -1,4 +1,4 @@
-version=1.1
+version=1.2
 id=2778991696
 title=HydroCraft b41 Continued
 description=[h1]Latest Hydrocraft mod for b41[/h1]
@@ -16,4 +16,4 @@ Workshop ID: 2778991696
 Mod ID: Hydrocraft
 
 tags=Build 41;Building;Clothing/Armor;Food;Items;Literature;Multiplayer;Weapons
-visibility=private
+visibility=public
