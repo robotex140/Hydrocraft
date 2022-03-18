@@ -626,28 +626,6 @@ module Hydrocraft
         Icon                = HCPillowcase,
     }
 
-    item HCPillowcasebackpack
-    {
-        Type                    = Container,
-        DisplayName             = Pillowcase Backpack,
-        ClothingItem            = Bag_SurvivorBag,
-        CanBeEquipped           = Back,
-        WeightReduction         = 50,
-        Weight                  = 1,
-        Capacity                = 15,
-        Icon                    = HCPillowcasebackpack,
-        OpenSound               = OpenBag,
-        CloseSound              = CloseBag,
-        PutInSound              = PutItemInBag,
-        BloodLocation           = Bag,
-        RunSpeedModifier        = 0.94,
-        CanHaveHoles            = false,
-        AttachmentReplacement   = Bag,
-        ReplaceInSecondHand     = Bag_ALICEpack_LHand holdingbagleft,
-        ReplaceInPrimaryHand    = Bag_ALICEpack_RHand holdingbagright,
-    }
-
-
     item HCImprovisedbackpack
     {
         Type                    = Container,
@@ -882,31 +860,6 @@ recipe Craft Improvised Handbag using Sturdy Sticks
 	WoodenStick,
 	Result:HCImprovisedhandbag,
 	Time:200.0,
-    Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
-	}
-
-recipe Craft Sheet Rope
-	{
-	HCPillowcase,
-	Result:RippedSheets=4,
-	Time:75.0,
-	}
-
-recipe Craft Sheet Rope
-	{
-	HCPillowcase,
-	Result:SheetRope,
-	Time:75.0,
-	}
-
-recipe Craft Pillow Case Backpack
-	{
-	HCPillowcase,
-	SheetRope=4,
-	keep Screwdriver/Pencil/Pen/KitchenKnife/HuntingKnife/Base.TentPeg/FlintKnife,
-	Result:HCPillowcasebackpack,
-	Time:125.0,
     Category:Engineer,
     OnGiveXP:HCHunger_OnGiveXP,
 	}
