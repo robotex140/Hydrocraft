@@ -1,3 +1,48 @@
+module Base
+{
+	recipe Make Two-Log Stack
+    {
+        Log=2,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks2,
+        Time:60.0,
+        Category:Carpentry,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+        CanBeDoneFromFloor:true,
+        Override:true,
+    }
+
+    recipe Make Three-Log Stack
+    {
+        Log=3,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks3,
+        Time:60.0,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+        CanBeDoneFromFloor:true,
+        Override:true,
+    }
+
+    recipe Make Four-Log Stack
+    {
+        Log=4,
+        [Recipe.GetItemTypes.CraftLogStack]=2,
+        Result:LogStacks4,
+        Time:60.0,
+        OnCreate:Recipe.OnCreate.CreateLogStack,
+        Category:Carpentry,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Sound:LogAddToStack,
+        CanBeDoneFromFloor:true,
+        Override:true,
+    }
+}
+
 module Hydrocraft
 {
     imports
@@ -1403,13 +1448,6 @@ recipe Make Wood Planks
     OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-
-
-
-
-
-
-
 recipe Make Churn
     {
     WoodenStick,
@@ -1578,88 +1616,6 @@ recipe Make Wooden Pallet
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-
-    recipe Make Two-Log Stack
-    {
-        Log=2,
-        [Recipe.GetItemTypes.CraftLogStack]=2,
-        Result:LogStacks2,
-        Time:60.0,
-		override:true,
-        CanBeDoneFromFloor:true,
-        Category:Carpentry,
-        OnCreate:Recipe.OnCreate.CreateLogStack,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogAddToStack,
-    }
-
-    recipe Make Three-Log Stack
-    {
-        Log=3,
-        [Recipe.GetItemTypes.CraftLogStack]=2,
-        Result:LogStacks3,
-        Time:60.0,
-		override:true,
-        CanBeDoneFromFloor:true,
-        OnCreate:Recipe.OnCreate.CreateLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogAddToStack,
-    }
-
-    recipe Make Four-Log Stack
-    {
-        Log=4,
-        [Recipe.GetItemTypes.CraftLogStack]=2,
-        Result:LogStacks4,
-        Time:60.0,
-		override:true,
-        CanBeDoneFromFloor:true,
-        OnCreate:Recipe.OnCreate.CreateLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogAddToStack,
-    }
-
-    recipe Unstack Logs
-    {
-        LogStacks2,
-        Result:Log=2,
-        Time:60.0,
-		override:true,
-        CanBeDoneFromFloor:true,
-        OnCreate:Recipe.OnCreate.SplitLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogRemoveFromStack,
-    }
-
-    recipe Unstack Logs
-    {
-        LogStacks3,
-        Result:Log=3,
-        Time:60.0,
-		override:true,
-        CanBeDoneFromFloor:true,
-        OnCreate:Recipe.OnCreate.SplitLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogRemoveFromStack,
-    }
-
-    recipe Unstack Logs
-    {
-        LogStacks4,
-        Result:Log=4,
-        Time:60.0,
-		override:true,
-        CanBeDoneFromFloor:true,
-        OnCreate:Recipe.OnCreate.SplitLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogRemoveFromStack,
-    }
-
 recipe Pack Lumber Stack
     {
         Plank=12,
@@ -1668,7 +1624,7 @@ recipe Pack Lumber Stack
         Time:40.0,
         CanBeDoneFromFloor:true,
         Category:Carpentry,
-    OnGiveXP:HCNoExpGain,
+		OnGiveXP:HCNoExpGain,
     }
 
 recipe Unpack Lumber Stack
