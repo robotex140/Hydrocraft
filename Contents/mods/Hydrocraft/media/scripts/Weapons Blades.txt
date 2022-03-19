@@ -256,17 +256,18 @@ module Hydrocraft
 		HitAngleMod					=	-30,
 		MinAngle					=	0.2,
 		TwoHandWeapon 				= 	TRUE,
-		BreakSound  				=   KatanaBreak, --updated, copied from Base.Katana
+		BreakSound  				=   KatanaBreak,
 		TreeDamage  				=   10,
 		AttachmentType 				= 	BigBlade,
-		DisplayCategory				=	Weapon,  --new, copied from Base.Katana
-		BaseSpeed					=	1,  --new, copied from Base.Katana
-		WeaponLength				=	0.4,  --new, copied from Base.Katana
-		DamageCategory				=	Slash,  --new, copied from Base.Katana
-		DamageMakeHole				=	TRUE,  --new, copied from Base.Katana
-		CritDmgMultiplier			=	6,  --new, copied from Base.Katana
+		DisplayCategory				=	Weapon,
+		BaseSpeed					=	1,
+		WeaponLength				=	0.4,
+		DamageCategory				=	Slash,
+		DamageMakeHole				=	TRUE,
+		CritDmgMultiplier			=	6,
 	}
 
+/************************ BreakSound =  KatanaBreak, copied from Base.Katana DisplayCategory=	Weapon,  --new, copied from Base.Katana, BaseSpeed =	1,  --new, copied from Base.Katana, WeaponLength =	0.4,  --new, copied from Base.Katana, 	DamageCategory	=	Slash, --new, copied from Base.Katana, 	DamageMakeHole	=	TRUE,  --new, copied from Base.Katana, CritDmgMultiplier	=	6,  --new, copied from Base.Katana************************/	
 
 
 /************************RECIPES************************/	

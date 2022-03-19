@@ -1124,7 +1124,6 @@ recipe Stitch Hardened Leather Gloves
             SkillRequired:Tailoring=2,
             HCLeatherhard=2,
             HCLeather=1,
-            keep HCBoneneedle,
             keep HCTailoringbench2,
             Thread=2,
             CanBeDoneFromFloor:true,

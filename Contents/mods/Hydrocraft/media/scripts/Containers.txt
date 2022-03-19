@@ -909,20 +909,6 @@ recipe Craft Improvised Handbag using Sturdy Sticks
     OnGiveXP:HCHunger_OnGiveXP,
 	}
 
-recipe Craft Sheet Rope
-	{
-	HCPillowcase,
-	Result:RippedSheets=4,
-	Time:75.0,
-	}
-
-recipe Craft Sheet Rope
-	{
-	HCPillowcase,
-	Result:SheetRope,
-	Time:75.0,
-	}
-
 recipe Craft Bindle using Planks
 	{
 	Sheet/Tarp/HCPillowcase,

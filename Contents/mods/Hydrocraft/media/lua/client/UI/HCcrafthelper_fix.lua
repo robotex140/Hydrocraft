@@ -19,32 +19,30 @@ HCOntest_furni_references = {
     ['HCNearKiln'] = 'Hydrocraft.HCKiln',
     ['HCNearGrindstone'] = 'Hydrocraft.HCGrindstone'}
 
-
-require "UI/craftHelper41RecipePanel"
-
-local old_set_recipe = craftHelper41RecipePanel.setRecipe;
-
-function craftHelper41RecipePanel:setRecipe(recipe)
-    -- Do all of original set recipe stuff, then add in the extra HC stuff 
-    old_set_recipe(self, recipe)
-    newItem = self.newItem
-    local lua_test = recipe:getLuaTest()
-    if lua_test ~= nil and HCOntest_references[lua_test] ~= nil then
-
-        local sourceInList = {};
-        sourceInList.items = {}
-        local itemInList = {};
-        itemInList.count = 1;
-        local furniitem = InventoryItemFactory.CreateItem(HCOntest_furni_references[lua_test]);
-        itemInList.texture = furniitem:getTex();
-        itemInList.name = HCOntest_references[lua_test];
-        table.insert(sourceInList.items, itemInList);
-        table.insert(newItem.sources, sourceInList);
+if getActivatedMods():contains("CraftHelper41") then
+    require "UI/craftHelper41RecipePanel"
+    local old_set_recipe = craftHelper41RecipePanel.setRecipe;
+    function craftHelper41RecipePanel:setRecipe(recipe)
+        -- Do all of original set recipe stuff, then add in the extra HC stuff 
+        old_set_recipe(self, recipe)
+        newItem = self.newItem
+        local lua_test = recipe:getLuaTest()
+        if lua_test ~= nil and HCOntest_references[lua_test] ~= nil then
+    
+            local sourceInList = {};
+            sourceInList.items = {}
+            local itemInList = {};
+            itemInList.count = 1;
+            local furniitem = InventoryItemFactory.CreateItem(HCOntest_furni_references[lua_test]);
+            itemInList.texture = furniitem:getTex();
+            itemInList.name = HCOntest_references[lua_test];
+            table.insert(sourceInList.items, itemInList);
+            table.insert(newItem.sources, sourceInList);
+        end
+        self.recipe = recipe;
+        self.newItem = newItem;
+        self:refreshIngredientPanel();
     end
-
-    self.recipe = recipe;
-    self.newItem = newItem;
-    self:refreshIngredientPanel();
 end
 
 require "ISUI/ISCraftingUI"
