@@ -87,11 +87,10 @@ function HCHuntSmallGame(items, result, player)
 			local animal = ZombRand(11);
 			if animal == 0 then
 				player:getInventory():AddItem("Base.DeadRabbit");
-				local babys = ZombRand(1);
+				local babys = ZombRand(2);
 				if babys == 0 then 
 					player:getInventory():AddItem("Hydrocraft.HCRabbitfemalehungry");
-				end
-				if babys == 1 then 
+				else 
 					player:getInventory():AddItem("Hydrocraft.HCRabbitmalehungry");	
 				end
 			elseif animal == 1 then
