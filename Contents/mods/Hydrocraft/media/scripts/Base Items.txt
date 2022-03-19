@@ -11,6 +11,7 @@ module Base
     Icon                    = MagazineWelding1,
     TeachedRecipes          = Make Metal Walls;Make Metal Roof,
     ReplaceOnUse            = MetalworkMag1,
+	DisplayCategory          =   LitR,
     }
 
     item MetalworkMag2
@@ -21,6 +22,7 @@ module Base
     Icon                    = MagazineWelding2,
     TeachedRecipes          = Make Metal Containers,
     ReplaceOnUse            = MetalworkMag2,
+	DisplayCategory          =   LitR,
     }
 
     item MetalworkMag3
@@ -31,6 +33,7 @@ module Base
     Icon                    = MagazineWelding3,
     TeachedRecipes          = Make Metal Fences,
     ReplaceOnUse            = MetalworkMag3,
+	DisplayCategory          =   LitR,
     }
 
     item MetalworkMag4
@@ -41,6 +44,7 @@ module Base
     Icon                    = MagazineWelding3,
     TeachedRecipes          = Make Metal Sheet,
     ReplaceOnUse            = MetalworkMag4,
+	DisplayCategory          =   LitR,
     }
 
     item SmithingMag1
@@ -51,6 +55,7 @@ module Base
     Icon                    = MagazineBlacksmith1,
     TeachedRecipes          = Make Ball Peen Hammer,
     ReplaceOnUse            = SmithingMag1,
+	DisplayCategory          =   LitR,
     }
 
     item SmithingMag2
@@ -61,6 +66,7 @@ module Base
     Icon                    = MagazineBlacksmith2,
     TeachedRecipes          = Make Iron Tongs,
     ReplaceOnUse            = SmithingMag2,
+	DisplayCategory          =   LitR,
     }
 
     item SmithingMag3
@@ -71,6 +77,7 @@ module Base
     Icon                    = MagazineBlacksmith3,
     TeachedRecipes          = Sheet Metal,
     ReplaceOnUse            = SmithingMag3,
+	DisplayCategory          =   LitR,
     }
 
     item SmithingMag4
@@ -81,6 +88,7 @@ module Base
     Icon                    = MagazineBlacksmith4,
     TeachedRecipes          = Make Metal Drum,
     ReplaceOnUse            = SmithingMag4,
+	DisplayCategory          =   LitR,
     }
 
 
@@ -108,6 +116,7 @@ module Base
         	FoodType            	=       Meat,
         	EvolvedRecipeName 	= 	Canned Corned Beef,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcornedbeefempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedBologneseOpen
@@ -128,6 +137,7 @@ module Base
         	Packaged 		= 	TRUE,
         	EvolvedRecipeName 	= 	Canned Bolognese,
 		ReplaceOnUse		=	Hydrocraft.HCTincan,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedCarrotsOpen
@@ -148,6 +158,7 @@ module Base
         	FoodType    		= 	Vegetables,
         	EvolvedRecipeName 	= 	Canned Carrots,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcarrotsempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedCornOpen
@@ -168,6 +179,7 @@ module Base
         	FoodType    		= 	Vegetables,
         	EvolvedRecipeName 	= 	Canned Corn,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcornempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedMushroomSoupOpen
@@ -185,6 +197,7 @@ module Base
         	Calories 		= 	160,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCCannedmushroomsoupempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedPeasOpen
@@ -205,6 +218,7 @@ module Base
         	FoodType    		= 	Vegetables,
         	EvolvedRecipeName 	= 	Canned Peas,
 		ReplaceOnUse		=	Hydrocraft.HCCannedpeasempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedPotatoOpen
@@ -225,6 +239,7 @@ module Base
         	FoodType    		= 	Vegetables,
         	EvolvedRecipeName 	= 	Canned Potato,
 		ReplaceOnUse		=	Hydrocraft.HCCannedpotatoempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedSardinesOpen
@@ -245,6 +260,7 @@ module Base
         	FoodType    		= 	Fish,
         	EvolvedRecipeName 	= 	Canned Sardines,
 		ReplaceOnUse		=	Hydrocraft.HCCannedsardinesempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedTomatoOpen
@@ -265,6 +281,7 @@ module Base
         	FoodType    		= 	Vegetables,
         	EvolvedRecipeName 	= 	Canned Tomato,
 		ReplaceOnUse		=	Hydrocraft.HCCannedtomatoempty,
+		DisplayCategory          =   FoodP,
     }
 
 	item OpenBeans
@@ -283,6 +300,7 @@ module Base
         	Calories 		= 	170,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCBeansempty,
+		DisplayCategory          =   FoodP,
 	}
 
 	item TinnedSoupOpen
@@ -302,6 +320,7 @@ module Base
         	Calories 		= 	125,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCTinnedsoupempty,
+		DisplayCategory          =   FoodP,
 	}
 
 	item TunaTinOpen
@@ -321,6 +340,7 @@ module Base
         	Calories 		= 	370,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCTunatinempty,
+		DisplayCategory          =   FoodP,
 	}
 
 	item DogfoodOpen
@@ -339,6 +359,7 @@ module Base
         	Calories 		= 	498,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCDogfoodempty,
+		DisplayCategory          =   FoodP,
 	}
 
     item CannedChiliOpen
@@ -359,6 +380,7 @@ module Base
         	FoodType 		= 	Meat,
         	EvolvedRecipeName 	= 	Canned Chili,
 		ReplaceOnUse		=	Hydrocraft.HCCannedchiliempty,
+		DisplayCategory          =   FoodP,
     }
 
     item CannedBologneseOpen
@@ -379,6 +401,7 @@ module Base
         	Packaged 		= 	TRUE,
         	EvolvedRecipeName 	= 	Canned Bolognese,
 		ReplaceOnUse		=	Hydrocraft.HCCannedbologneseempty,
+		DisplayCategory          =   FoodP,
     }
 
 	item Crisps
@@ -395,6 +418,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrispstrash,
+		DisplayCategory          =   FoodN,
 	}
 
 	item Crisps2
@@ -411,6 +435,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps2trash,
+		DisplayCategory          =   FoodN,
 	}
 
 	item Crisps3
@@ -427,6 +452,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps3trash,
+		DisplayCategory          =   FoodN,
 	}
 
 	item Crisps4
@@ -443,6 +469,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps4trash,
+		DisplayCategory          =   FoodN,
 	}
 
     	item Salt
@@ -459,6 +486,7 @@ module Base
 		EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
 		CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCSaltshakerempty,
+		DisplayCategory          =   FoodS,
 	}
 
 	item Chocolate
@@ -477,6 +505,7 @@ module Base
         	Calories 		= 	850,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCChocolatetrash,
+		DisplayCategory          =   FoodN,
 	}
 
     item MintCandy
@@ -492,6 +521,7 @@ module Base
         	Lipids 			= 	0,
         	Calories 		= 	60,
 		ReplaceOnUse	=	Hydrocraft.HCMintcandytrash,
+		DisplayCategory          =   FoodN,
     	}
 
 	item PeanutButter
@@ -511,6 +541,7 @@ module Base
         Calories 		= 	2660,
         Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCJar,
+		DisplayCategory          =   FoodN,
 	}
 
     item Peanuts
@@ -527,6 +558,7 @@ module Base
         Lipids = 13.96,
         Calories = 161,
         CantBeFrozen = TRUE,
+		DisplayCategory          =   FoodN,
     }
 
 
@@ -544,6 +576,7 @@ module Base
         Lipids = 18,
         Calories = 180,
         CantBeFrozen = TRUE,
+		DisplayCategory          =   FoodN,
     }
 
 	item Pop
@@ -565,6 +598,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPoptrash,
+		DisplayCategory          =   FoodB,
 	}
 
 	item Pop2
@@ -586,6 +620,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPop2trash,
+		DisplayCategory          =   FoodB,
 	}
 
 	item Pop3
@@ -607,6 +642,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPop3trash,
+		DisplayCategory          =   FoodB,
 	}
 
 
@@ -619,6 +655,7 @@ module Base
         	Icon			=	Vinegar,
         	Weight			=	0.3,
 		ReplaceOnUse	=	Hydrocraft.HCVinegarempty,
+		DisplayCategory          =   Cooking,
     	}
 
 
@@ -639,6 +676,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCMustardempty,
+		DisplayCategory          =   FoodS,
 	}
 
     item Ketchup
@@ -658,6 +696,7 @@ module Base
         	Packaged 		= 	TRUE,
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCKetchupempty,
+		DisplayCategory          =   FoodS,
 	}
 
 
@@ -680,6 +719,7 @@ module Base
         	Calories 		= 	670,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCTVDinnerempty,
+		DisplayCategory          =   FoodN,
 	}
 
 	item Icecream
@@ -700,6 +740,7 @@ module Base
         	ReplaceOnRotten 	= 	IcecreamMelted,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCIcecreamempty,
+		DisplayCategory          =   FoodP,
 	}
 
 	item IcecreamMelted
@@ -715,6 +756,7 @@ module Base
         	Calories 		= 	1680,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCIcecreamempty,
+		DisplayCategory          =   FoodN,
 	}
 
 	item Milk
@@ -740,6 +782,7 @@ module Base
         CantBeFrozen = TRUE,
         StaticModel = MilkCarton,
 		ReplaceOnUse	=	Hydrocraft.HCMilkempty,
+		DisplayCategory          =   FoodP,
 	}
 
     item Tofu
@@ -759,6 +802,7 @@ module Base
         Calories            = 90,
         Packaged            = TRUE,
         ReplaceOnUse        = Hydrocraft.HCJar,
+		DisplayCategory          =   FoodP,
     }
 
 
@@ -777,6 +821,7 @@ module Base
         	Calories 		= 	30,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCYoghurtempty,
+		DisplayCategory          =   FoodP,
     	}
 
 
@@ -791,6 +836,7 @@ module Base
 		DisplayName      =	Flour,
 		Icon             =	Flour,
 		ReplaceOnDeplete  =	Hydrocraft.HCFlourempty,
+		DisplayCategory          =   Cooking,
 	}
 
     	item Rice
@@ -808,6 +854,7 @@ module Base
         	Calories 		= 	2880,
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCRiceempty,
+		DisplayCategory          =   Cooking,
     	}
 
 	item Sugar
@@ -819,6 +866,7 @@ module Base
 		DisplayName		=	Sugar,
 		Icon			=	Sugar,
 		ReplaceOnUse	=	Hydrocraft.HCSugarempty,
+		DisplayCategory          =   Cooking,
 	}
 
 /************************Misc************************/
@@ -832,6 +880,7 @@ module Base
        		UseDelta		=	0.25,
         	UseWhileEquipped	=	false,
 		ReplaceOnDeplete	=	EmptySandbag,
+		DisplayCategory          =   SurFarm,
     	}
 
     item PropaneTank
@@ -846,6 +895,7 @@ module Base
         ScaleWorldIcon = 2.0,
         WeightEmpty = 5.0,
         ReplaceOnDeplete    =   Hydrocraft.HCPropanetankempty,
+		DisplayCategory          =   Fuel,
     }
 
 	item Lighter
@@ -860,6 +910,7 @@ module Base
 		ActivatedItem		=	TRUE,
 		Icon			=	Lighter,
 		ReplaceOnDeplete	=	Hydrocraft.HCLighterempty,
+		DisplayCategory          =   Fuel,
 	}
 
 	item Battery
@@ -871,6 +922,7 @@ module Base
 		DisplayName		=	Battery,
 		Icon			=	HCBattery,
 		ReplaceOnDeplete	=	Hydrocraft.HCBatterydead,
+		DisplayCategory          =   CraftElec,
 	}
 
     	item Glue
@@ -882,6 +934,7 @@ module Base
         	DisplayName		=	Glue,
         	Icon			=	Glue,
 		ReplaceOnDeplete	=	Hydrocraft.HCGlueempty,
+		DisplayCategory          =   CraftCarp,
     	}
 
     	item Woodglue
@@ -893,6 +946,7 @@ module Base
         	DisplayName		=	Wood Glue,
         	Icon			=	Woodglue,
 		ReplaceOnDeplete	=	Hydrocraft.HCWoodglueempty,
+		DisplayCategory          =   CraftCarp,
     	}
 
 	item Scotchtape
@@ -903,6 +957,7 @@ module Base
         	DisplayName		=	Adhesive Tape,
         	Icon			=	Scotchtape,
 		ReplaceOnDeplete	=	Hydrocraft.HCScotchtapeempty,
+		DisplayCategory          =   Craft,
     	}
 
 
@@ -923,6 +978,7 @@ module Base
 		StaticModel = Cigarette,
 		EatType = Cigarettes,
 		CustomEatSound = HC_LightUp,
+		DisplayCategory          =   Drugs,
 	}
 
 /************************Paint Cans************************/
@@ -936,6 +992,7 @@ module Base
 		DisplayName		   =	Pink Paint,
 		Icon			   =	Paint_Pink,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
   	item PaintRed
@@ -948,6 +1005,7 @@ module Base
 		Icon			   =	Paint_Red,
 		Tooltip 		    = 	Tooltip_Paint,
         ReplaceOnDeplete 		= 	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintOrange
@@ -959,6 +1017,7 @@ module Base
 		DisplayName		   =	Orange Paint,
 		Icon			   =	Paint_Orange,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintBrown
@@ -970,6 +1029,7 @@ module Base
 		DisplayName		   =	Brown Paint,
 		Icon			   =	Paint_Brown,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 
@@ -982,6 +1042,7 @@ module Base
 		DisplayName		   =	Light Brown Paint,
 		Icon			   =	Paint_LightBrown,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintYellow
@@ -993,6 +1054,7 @@ module Base
 		DisplayName		 =	Yellow Paint,
 		Icon			   =	Paint_Yellow,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintGreen
@@ -1004,6 +1066,7 @@ module Base
 		DisplayName		   =	Green Paint,
 		Icon			   =	Paint_Green,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintTurquoise
@@ -1015,6 +1078,7 @@ module Base
 		DisplayName		   =	Turquoise Paint,
 		Icon			    =	Paint_Turquoise,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintCyan
@@ -1026,6 +1090,7 @@ module Base
 		DisplayName		   =	Cyan Paint,
 		Icon			   =	Paint_Cyan,
 		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintLightBlue
@@ -1037,6 +1102,7 @@ module Base
 		DisplayName		   =	Light Blue Paint,
 		Icon			   =	Paint_LightBlue,
 		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintBlue
@@ -1048,6 +1114,7 @@ module Base
 		DisplayName		   =	Blue Paint,
 		Icon			   =	Paint_Blue,
 		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintPurple
@@ -1059,6 +1126,7 @@ module Base
 		DisplayName		    =	Purple Paint,
 		Icon			    =	Paint_Purple,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintBlack
@@ -1071,6 +1139,7 @@ module Base
        	Icon			  =	Paint_Black,
         Tooltip 		  = Tooltip_Paint,
         ReplaceOnDeplete  = Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
     	}
 
 	item PaintGrey
@@ -1082,6 +1151,7 @@ module Base
 		DisplayName		    =	Grey Paint,
 		Icon			    =	Paint_Grey,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 
 	item PaintWhite
@@ -1093,6 +1163,7 @@ module Base
 		DisplayName		    =	White Paint,
 		Icon			    =	Paint_White,
 		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
 	}
 	
 /************************METAL SHEETS************************/
@@ -1104,6 +1175,7 @@ module Base
         DisplayName	=	Small Aluminum Sheet,
         Icon	=	HCMetalboard,
         MetalValue = 20,
+		DisplayCategory          =   CraftMetal,
     }
 	
 	item SheetMetal
@@ -1113,6 +1185,7 @@ module Base
         DisplayName	=	Aluminum Sheet,
         Icon	=	SheetMetal,
         MetalValue = 80,
+		DisplayCategory          =   CraftMetal,
     }
 
 /************************PIPES************************/
@@ -1123,6 +1196,7 @@ module Base
         Type	=	Normal,
         DisplayName	=	PVC Pipe,
         Icon	=	HCPVCpipe,
+		DisplayCategory          =   CraftMisc,
     }
 	
 	item MetalPipe
@@ -1132,6 +1206,7 @@ module Base
         DisplayName	= Aluminum Pipe,
         Icon = MetalTube,
         MetalValue = 30,
+		DisplayCategory          =   CraftMetal,
     }
 	
 	/************************PIPES************************/
@@ -1153,6 +1228,7 @@ module Base
         Lipids 				= 	0,
         Calories 			= 	2,
         Packaged 			= 	TRUE,
+		DisplayCategory          =   FoodB,
     }
 	
 
@@ -1161,7 +1237,7 @@ module Base
 
    item Pistol
     {
-        DisplayCategory = Weapon,
+        DisplayCategory = WepFire,
 		ImpactSound	=	null,
 		MaxRange	=	7,
 		WeaponSprite	=	Handgun03,
@@ -1244,7 +1320,7 @@ module Base
 
     item Pistol2
     {
-        DisplayCategory = Weapon,
+        DisplayCategory = WepFire,
         ImpactSound	=	null,
         MaxRange	=	8,
         WeaponSprite	=	Handgun02,
@@ -1327,7 +1403,7 @@ module Base
 
     item Pistol3
     {
-        DisplayCategory = Weapon,
+        DisplayCategory = WepFire,
         ImpactSound	=	null,
         MaxRange	=	10,
         WeaponSprite	=	Handgun,
@@ -1410,7 +1486,7 @@ module Base
 
     item Revolver
     {
-        DisplayCategory = Weapon,
+        DisplayCategory = WepFire,
         ImpactSound	=	null,
         MaxRange	=	9,
         WeaponSprite	=	Revolver,
@@ -1491,7 +1567,7 @@ module Base
 
     item Revolver_Long
     {
-        DisplayCategory = Weapon,
+        DisplayCategory = WepFire,
         ImpactSound	=	null,
         MaxRange	=	11,
         WeaponSprite	=	Revolver_Long,
@@ -1572,7 +1648,7 @@ module Base
 
     item Revolver_Short
     {
-        DisplayCategory = Weapon,
+        DisplayCategory = WepFire,
         ImpactSound	=	null,
         MaxRange	=	6,
         WeaponSprite	=	Revolver_Short,
@@ -1651,7 +1727,7 @@ module Base
 
     item Shotgun
     {
-        DisplayCategory = Weapon,
+        DisplayCategory = WepFire,
 		ImpactSound	=	null,
 		MaxRange	=	7,
 		RangeFalloff	=	TRUE,
@@ -1743,6 +1819,7 @@ module Base
         Tooltip = Tooltip_RedDot,
         StaticModel = RedDot,
         MetalValue = 15,
+        DisplayCategory = WepPart,
     }
 
     item GunLight
@@ -1757,6 +1834,7 @@ module Base
         PartType = Canon,
         StaticModel = GunLight,
         MetalValue = 15,
+        DisplayCategory = WepPart,
     }
 
 
@@ -1772,6 +1850,7 @@ module Base
         PartType = Scope,
         Tooltip = Tooltip_IronSight,
         MetalValue = 15,
+        DisplayCategory = WepPart,
     }
 
 
@@ -1793,6 +1872,7 @@ module Base
         StaticModel = PillBottle,
         Medical = TRUE,
         ReplaceOnUse    =   Hydrocraft.HCPillbox,
+        DisplayCategory = Drugs,
     }
 
 

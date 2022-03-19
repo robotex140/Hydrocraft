@@ -7,13 +7,13 @@ module Hydrocraft
     }
 
 /************************ITEMS************************/
-
 item HCHoneybee
 	{
 	Weight 				= 	0.1,
 	Type 				= 	Normal,
 	DisplayName 			= 	Honeybee,
 	Icon				=	HCHoneybee,
+	DisplayCategory          =   SurApi,
 	}
 
 item HCQueenbee
@@ -22,6 +22,7 @@ item HCQueenbee
 	Type 				= 	Normal,
 	DisplayName 			= 	Queen Honeybee,
 	Icon				=	HCQueenbee,
+	DisplayCategory          =   SurApi,
 	}
 
 item HCBeekeeperhat
@@ -30,6 +31,7 @@ item HCBeekeeperhat
 	Type 				= 	Normal,
 	DisplayName 			= 	Beekeeper Hat,
 	Icon				=	HCBeekeeperhat,
+	DisplayCategory          =   SurApi,
 	}
 
 item HCBeesmokerempty
@@ -38,6 +40,7 @@ item HCBeesmokerempty
 	Type 				= 	Normal,
 	DisplayName 			= 	Empty Bee Smoker,
 	Icon				=	HCBeesmoker,
+	DisplayCategory          =   SurApi,
 	}
 
 item HCBeesmokerfull
@@ -49,6 +52,7 @@ item HCBeesmokerfull
 	DisplayName 		= 	Bee Smoker,
 	ReplaceOnDeplete	=	HCBeesmokerempty,
 	Icon				=	HCBeesmoker,
+	DisplayCategory          =   SurApi,
 	}
 
 item HCHoney
@@ -66,6 +70,7 @@ item HCHoney
         Lipids 				= 	0,
         Calories 			= 	3040,
 	Packaged 			= 	TRUE,	
+	DisplayCategory          =   FoodN,
 	}
 
 item HCJarhoney
@@ -83,6 +88,7 @@ item HCJarhoney
         Proteins 			= 	3,
         Lipids 				= 	0,
         Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCDryinghoney
@@ -105,6 +111,7 @@ item HCDryinghoney
         Calories 			= 	3040,
 	ReplaceOnUse			=	BakingTray,
 	ReplaceOnCooked			= 	Hydrocraft.HCDriedhoney,
+	DisplayCategory          =   FoodP,
 	}	
 
 item HCDriedhoney
@@ -122,6 +129,7 @@ item HCDriedhoney
         Proteins 			= 	3,
         Lipids 				= 	0,
         Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCHoneypowder
@@ -138,6 +146,7 @@ item HCHoneypowder
         Proteins 			= 	3,
         Lipids 				= 	0,
         Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
 	}
 
 
@@ -147,7 +156,7 @@ item HCWoodenbuckethoney
         Type    			= Normal,
         DisplayName         		= Wooden Bucket with Honey,
         icon 				= HCWoodenbuckethoney,
-	
+		DisplayCategory          =   SurApi,
     }
 
 
@@ -157,6 +166,7 @@ item HCHoneycomb
 	Type 				= Normal,
 	DisplayName 			= Honeycomb,
 	Icon				= HCHoneycomb,
+	DisplayCategory          =   SurApi,
 	}
 
 
@@ -166,6 +176,7 @@ item HCBeehive
 	Type 				= Normal,
 	DisplayName 			= Wild Beehive,
 	Icon				= HCBeehive,
+	DisplayCategory          =   SurApi,
 	}
 
 item HCBeehive3
@@ -174,6 +185,7 @@ item HCBeehive3
         Type            		= Normal,
         DisplayName     		= Inactive Beehive,
         Icon            		= HCBeehive3,
+		DisplayCategory          =   SurApi,
         
     }
 
@@ -182,8 +194,8 @@ item HCBeehive3b
         Weight                  = 1000,
         Type                    = Normal,
         DisplayName             = Inactive Beehive (Stage 3),
-        Icon                    = HCBeehive3,
- 
+        Icon                    = HCBeehive3
+		DisplayCategory          =   SurApi,
     }
 
 
@@ -194,7 +206,7 @@ item HCBeehive3Active
         Type            		= Normal,
         DisplayName     		= Beehive (Stage 3),
         Icon            		= HCBeehive3Active,
-        
+		DisplayCategory          =   SurApi,
     }
 
 item HCBeehive3bActive
@@ -203,7 +215,7 @@ item HCBeehive3bActive
         Type                    = Normal,
         DisplayName             = Beehive Anchored,
         Icon                    = HCBeehive3Active,
-        
+		DisplayCategory          =   SurApi,
     }
 
 
@@ -213,7 +225,7 @@ item HCBeehive3full
         Type            		= Normal,
         DisplayName     		= Beehive with Honey (Stage 3),
         Icon            		= HCBeehive3full,
-        
+		DisplayCategory          =   SurApi,
     }
 
 
@@ -223,7 +235,7 @@ item HCBeehive3bfull
         Type                    = Normal,
         DisplayName             = Beehive with Honey (Stage 3),
         Icon                    = HCBeehive3full,
-        
+		DisplayCategory          =   SurApi,
     }
 		
 /************************RECIPES************************/

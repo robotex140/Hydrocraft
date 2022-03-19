@@ -15,6 +15,7 @@ item HCBinoculars
 	Type			=	Normal,
         DisplayName         	= 	Binoculars,
         icon 			= 	HCBinoculars,
+		DisplayCategory          =   SurHunt,
     	}
 
 item HCCompass
@@ -23,6 +24,7 @@ item HCCompass
         Type    		= 	Normal,
         DisplayName         	= 	Compass,
         icon 			= 	HCCompass,
+		DisplayCategory          =   SurCamp,
     	}
 
 item HCMap
@@ -31,6 +33,7 @@ item HCMap
         Type    		= 	Normal,
         DisplayName         	= 	Map,
         icon 			= 	HCMap,
+		DisplayCategory          =   SurCamp,
     	}
 
 item HCGPS
@@ -39,6 +42,7 @@ item HCGPS
         Type    		= 	Normal,
         DisplayName         	= 	GPS,
         icon 			= 	HCGPS,
+		DisplayCategory          =   SurCamp,
     	}
 
 item HCCanteen
@@ -51,6 +55,7 @@ item HCCanteen
         icon 			= 	HCCanteen,
 	RainFactor 		= 	1,
 	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   Container,
     	}
 
 item HCCanteenfull
@@ -68,6 +73,7 @@ item HCCanteenfull
 	Icon			=	HCCanteenfull,
 	RainFactor 		= 	1,
 	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   FoodB,
     	}
 
 item HCStrappedcanteen
@@ -80,6 +86,7 @@ item HCStrappedcanteen
         icon 			= 	HCStrappedcanteen,
 	RainFactor 		= 	1,
 	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   Container,
     	}
 
 item HCStrappedcanteenfull
@@ -97,6 +104,7 @@ item HCStrappedcanteenfull
 	Icon			=	HCStrappedcanteen,
 	RainFactor 		= 	1,
 	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory          =   FoodB,
     	}
 
 item HCMagnesiumstriker
@@ -107,6 +115,7 @@ item HCMagnesiumstriker
 	UseWhileEquipped	=	FALSE,
 	DisplayName		=	Magnesium Striker,
 	Icon			=	HCMagnesiumstriker,
+		DisplayCategory          =   Fuel,
 	}
 
 item HCPurifyingtablets
@@ -115,6 +124,7 @@ item HCPurifyingtablets
         Type    		= 	Normal,
 	DisplayName		= 	Water Purifying Tablets,
 	Icon	        	= 	HCPurifyingtablets,
+		DisplayCategory          =   SurCamp,
     	}
 
 item HCPurifyingtabletsbox
@@ -123,6 +133,7 @@ item HCPurifyingtabletsbox
         Type    		= 	Normal,
 	DisplayName		= 	Box of Water Purifying Tablets,
 	Icon	        	= 	HCPurifyingtabletsbox,
+		DisplayCategory          =   SurCamp,
     	}
 
 item HCRaftrubber
@@ -131,6 +142,7 @@ item HCRaftrubber
 	Type 				= 	Normal,
 	DisplayName 			= 	Rubber Raft,
 	Icon				=	HCRaftrubber,
+		DisplayCategory          =   SurCamp,
 	
 	}
 
@@ -140,6 +152,7 @@ item HCSpaceblanket
         Type    		= 	Normal,
         DisplayName         	= 	Space Blanket,
         icon 			= 	HCSpaceblanket,
+		DisplayCategory          =   SurCamp,
     	}
 
 /************************WEAPONS************************/
@@ -180,6 +193,7 @@ item HCSpaceblanket
         TreeDamage  			=   	2,
         EnduranceMod 			= 	0.5,
         AttachmentType      = Knife,
+		DisplayCategory          =   WepMelee,
 	}
 
     item HCPaddlewood
@@ -215,6 +229,7 @@ item HCSpaceblanket
 		KnockdownMod		=	2,
         KnockBackOnNoDeath	=	TRUE,
         AttachmentType      = Knife,
+		DisplayCategory          =   WepMelee,
 	}
 
     item HCPaddlemetal
@@ -249,6 +264,7 @@ item HCSpaceblanket
 		BreakSound  			=   	BreakMetalItem,
 		KnockdownMod			=	2,
         	KnockBackOnNoDeath		=	TRUE,
+		DisplayCategory          =   WepMelee,
 	}
 
 /************************RECIPES************************/

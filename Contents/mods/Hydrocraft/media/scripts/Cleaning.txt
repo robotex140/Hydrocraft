@@ -15,6 +15,7 @@ item HCFeatherduster
         Type    		= Normal,
         DisplayName         	= Feather Duster,
         icon 			= HCFeatherduster,
+		DisplayCategory	= Cleaning,
     }
 
 item HCShopvac
@@ -23,6 +24,7 @@ item HCShopvac
         Type    		= Normal,
         DisplayName         	= Shop Vac,
         icon 			= HCShopvac,
+		DisplayCategory	= Cleaning,
     }
 
 
@@ -32,6 +34,7 @@ item HCVacuum
         Type    		= Normal,
         DisplayName         	= Vacuum Cleaner,
         icon 			= HCVacuum,
+		DisplayCategory	= Cleaning,
     }
 
 item HCVac
@@ -40,6 +43,7 @@ item HCVac
         Type    		= Normal,
         DisplayName         	= Vacuum Cleaner,
         icon 			= HCVac,
+		DisplayCategory	= Cleaning,
     }
 
 item HCHandvac
@@ -48,6 +52,7 @@ item HCHandvac
         Type    		= Normal,
         DisplayName         	= Hand Vacuum,
         icon 			= HCHandvac,
+		DisplayCategory	= Cleaning,
     }
 
 item HCDustpan
@@ -56,6 +61,7 @@ item HCDustpan
         Type    		= Normal,
         DisplayName         	= Dust Pan,
         icon 			= HCDustpan,
+		DisplayCategory	= Cleaning,
     }
 
 item HCCleanerall
@@ -66,6 +72,7 @@ item HCCleanerall
 	UseDelta		= 0.25,
         DisplayName         	= All Purpose Cleaner,
         icon 			= HCCleanerall,
+		DisplayCategory	= Cleaning,
     }
 
 item HCCleanerfabric
@@ -76,6 +83,7 @@ item HCCleanerfabric
 	UseDelta		= 0.25,
         DisplayName         	= Fabric Cleaner,
         icon 			= HCCleanerfabric,
+		DisplayCategory	= Cleaning,
     }
 
 item HCWindowcleaner
@@ -86,6 +94,7 @@ item HCWindowcleaner
 	UseDelta		= 0.25,
         DisplayName         	= Window Cleaner,
         icon 			= HCWindowcleaner,
+		DisplayCategory	= Cleaning,
     }
 
 item HCFabricsoftener
@@ -96,6 +105,7 @@ item HCFabricsoftener
 	UseDelta		= 0.25,
         DisplayName         	= Fabric Softener,
         icon 			= HCFabricsoftener,
+		DisplayCategory	= Cleaning,
     }
 
 item HCCleanser
@@ -106,6 +116,7 @@ item HCCleanser
 	UseDelta		= 0.25,
         DisplayName         	= Cleanser,
         icon 			= HCCleanser,
+		DisplayCategory	= Useless,
     }
 
 item HCAmmonia
@@ -116,6 +127,7 @@ item HCAmmonia
 	UseDelta		= 0.25,
         DisplayName         	= Bottle of Ammonia,
         icon 			= HCAmmonia,
+		DisplayCategory	= CraftChem,
     }
 
 item HCWashboard
@@ -124,6 +136,7 @@ item HCWashboard
         Type    		= Normal,
         DisplayName         	= Washboard,
         icon 			= HCWashboard,
+		DisplayCategory	= Cleaning,
     }
 
 item HCMothballs
@@ -132,6 +145,7 @@ item HCMothballs
         Type    		= Normal,
         DisplayName         	= Mothballs,
         icon 			= HCMothballs,
+		DisplayCategory	= Useless,
     }
 
 item HCMothballsbox
@@ -140,6 +154,7 @@ item HCMothballsbox
         Type    		= Normal,
         DisplayName         	= Box of Mothballs,
         icon 			= HCMothballsbox,
+		DisplayCategory	= Useless,
     }
 
 /************************WEAPONS************************/
@@ -179,6 +194,7 @@ item HCBroom
       TwoHandWeapon             =     TRUE,
             BreakSound             =       BreakWoodItem,
         TreeDamage             =       1,
+		DisplayCategory	= WepMelee,
     }
 
 item HCPushbroom
@@ -216,6 +232,7 @@ item HCPushbroom
       TwoHandWeapon             =     TRUE,
             BreakSound             =       BreakWoodItem,
         TreeDamage             =       1,
+		DisplayCategory	= WepMelee,
     }
 */
 

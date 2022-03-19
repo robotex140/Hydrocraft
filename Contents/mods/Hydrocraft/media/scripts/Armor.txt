@@ -25,6 +25,7 @@ item HCHardhat
         DisplayName         	= Hard Hat,
         icon 			= HCHardhat,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     }
 
 item HCHelmbike
@@ -34,6 +35,7 @@ item HCHelmbike
 	DisplayName		= Bike Helmet,
 	Icon			= HCHelmbike,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCHelmfootball
@@ -43,6 +45,7 @@ item HCHelmfootball
 	DisplayName		= Football Helmet,
 	Icon			= HCHelmfootball,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCHockeymask
@@ -52,6 +55,7 @@ item HCHockeymask
         DisplayName         	= Hockey Mask,
         icon 			= HCHockeymask,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     }
 
 item HCHelmmotorcycle
@@ -61,6 +65,7 @@ item HCHelmmotorcycle
 	DisplayName		= Motorcycle Helmet,
 	Icon			= HCHelmmotorcycle,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCHelmkevlar
@@ -70,6 +75,7 @@ item HCHelmkevlar
 	DisplayName		= Kevlar Helmet,
 	Icon			= HCHelmkevlar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCHelmswat
@@ -79,6 +85,7 @@ item HCHelmswat
         DisplayName         	= SWAT Helmet,
         icon 			= HCHelmswat,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmriot
@@ -88,6 +95,7 @@ item HCHelmriot
         DisplayName         	= Riot Helmet,
         icon 			= HCHelmriot,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmsamurai
@@ -97,6 +105,7 @@ item HCHelmsamurai
         DisplayName         	= Samurai Helmet,
         icon 			= HCHelmsamurai,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmsteel
@@ -106,6 +115,7 @@ item HCHelmsteel
         DisplayName         	= Steel Helmet,
         icon 			= HCHelmsteel,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmiron
@@ -115,6 +125,7 @@ item HCHelmiron
         DisplayName         	= Iron Helmet,
         icon 			= HCHelmiron,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmbronze
@@ -124,6 +135,7 @@ item HCHelmbronze
         DisplayName         	= Bronze Helmet,
         icon 			= HCHelmbronze,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmcopper
@@ -133,6 +145,7 @@ item HCHelmcopper
         DisplayName         	= Copper Helmet,
         icon 			= HCHelmcopper,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmcookingpot
@@ -142,6 +155,7 @@ item HCHelmcookingpot
         DisplayName         	= Cooking Pot Helmet,
         icon 			= HCHelmcookingpot,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCHelmbucket
@@ -151,6 +165,7 @@ item HCHelmbucket
 	DisplayName		= Bucket Helmet,
 	Icon			= HCHelmbucket,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 
@@ -163,6 +178,7 @@ item HCOvenmitts
         DisplayName         	= Oven Mitts,
         icon 			= HCOvenmitts,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothN,
     	}
 
 item HCWorkgloves
@@ -179,6 +195,7 @@ item HCWorkgloves
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
+		DisplayCategory          =   ClothP,
     }
 
 item HCGardengloves
@@ -188,6 +205,7 @@ item HCGardengloves
         DisplayName         	= Garden Gloves,
         icon 			= HCGardengloves,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGlovekevlar
@@ -197,6 +215,7 @@ item HCGlovekevlar
         DisplayName         	= Kevlar Gloves,
         icon 			= HCGlovekevlar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGloveriot
@@ -206,6 +225,7 @@ item HCGloveriot
         DisplayName         	= Riot Gloves,
         icon 			= HCGloveriot,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGlovechainmail
@@ -215,6 +235,7 @@ item HCGlovechainmail
         DisplayName         	= Chainmail Gloves,
         icon 			= HCGlovechainmail,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGlovesteel
@@ -224,6 +245,7 @@ item HCGlovesteel
         DisplayName         	= Steel Gauntlets,
         icon 			= HCGlovesteel,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGloveiron
@@ -233,6 +255,7 @@ item HCGloveiron
         DisplayName         	= Iron Gauntlets,
         icon 			= HCGloveiron,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGlovebronze
@@ -242,6 +265,7 @@ item HCGlovebronze
         DisplayName         	= Bronze Gauntlets,
         icon 			= HCGlovebronze,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGlovecopper
@@ -251,6 +275,7 @@ item HCGlovecopper
         DisplayName         	= Bronze Gauntlets,
         icon 			= HCGlovebronze,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGlovestuddedleather
@@ -260,6 +285,7 @@ item HCGlovestuddedleather
         DisplayName         	= Studded Leather Gloves,
         icon 			= HCGlovestuddedleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCGlovesHardLeather
@@ -276,6 +302,7 @@ item HCGlovesHardLeather
         Insulation = 0.5,
         WindResistance = 0.5,
         FabricType = Leather,
+		DisplayCategory          =   ClothP,
     }
 
 item HCGlovecord
@@ -285,6 +312,7 @@ item HCGlovecord
         DisplayName         	= Cord Gloves,
         icon 			= HCGlovecord,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 /************************Arm Armor************************/
@@ -296,6 +324,7 @@ item HCArmarmorkevlar
         DisplayName    = Kevlar Arm Guards,
         icon 			= HCArmarmorkevlar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorswat
@@ -305,6 +334,7 @@ item HCArmarmorswat
         DisplayName         	= SWAT Arm Guards,
         icon 			= HCArmarmorswat,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorriot
@@ -314,6 +344,7 @@ item HCArmarmorriot
         DisplayName         	= Riot Arm Guards,
         icon 			= HCArmarmorriot,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorpaintball
@@ -323,6 +354,7 @@ item HCArmarmorpaintball
         DisplayName         	= Paintball Arm Guards,
         icon 			= HCArmarmorpaintball,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorsamurai
@@ -332,6 +364,7 @@ item HCArmarmorsamurai
         DisplayName         	= Samurai Arm Guards,
         icon 			= HCArmarmorsamurai,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorlamellar
@@ -341,6 +374,7 @@ item HCArmarmorlamellar
         DisplayName         	= Lamellar Arm Guards,
         icon 			= HCArmarmorlamellar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorsteel
@@ -350,6 +384,7 @@ item HCArmarmorsteel
         DisplayName         	= Steel Arm Guards,
         icon 			= HCArmarmorsteel,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmoriron
@@ -359,6 +394,7 @@ item HCArmarmoriron
         DisplayName         	= Iron Arm Guards,
         icon 			= HCArmarmoriron,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorbronze
@@ -368,6 +404,7 @@ item HCArmarmorbronze
         DisplayName         	= Bronze Arm Guards,
         icon 			= HCArmarmorbronze,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorcopper
@@ -377,6 +414,7 @@ item HCArmarmorcopper
         DisplayName         	= Copper Arm Guards,
         icon 			= HCArmarmorcopper,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 
@@ -387,6 +425,7 @@ item HCArmarmorstuddedleather
         DisplayName         	= Studded Leather Arm Guards,
         icon 			= HCArmarmorstuddedleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorhardenedleather
@@ -396,6 +435,7 @@ item HCArmarmorhardenedleather
         DisplayName         	= Hardened Leather Arm Guards,
         icon 			= HCArmarmorhardenedleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorleather
@@ -405,6 +445,7 @@ item HCArmarmorleather
         DisplayName         	= Leather Arm Guards,
         icon 			= HCArmarmorleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorhide
@@ -414,6 +455,7 @@ item HCArmarmorhide
         DisplayName         	= Hide Arm Guards,
         icon 			= HCArmarmorhide,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorpadded
@@ -423,6 +465,7 @@ item HCArmarmorpadded
         DisplayName         	= Padded Arm Guards,
         icon 			= HCArmarmorpadded,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorbone
@@ -432,6 +475,7 @@ item HCArmarmorbone
         DisplayName         	= Bone Arm Guards,
         icon 			= HCArmarmorbone,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorbamboo
@@ -441,6 +485,7 @@ item HCArmarmorbamboo
         DisplayName         	= Bamboo Arm Guards,
         icon 			= HCArmarmorbamboo,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorlog
@@ -450,6 +495,7 @@ item HCArmarmorlog
         DisplayName         	= Log Arm Guards,
         icon 			= HCArmarmorlog,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmortire
@@ -459,6 +505,7 @@ item HCArmarmortire
         DisplayName         	= Tire Arm Guards,
         icon 			= HCArmarmortire,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmarmorbubblewrap
@@ -468,6 +515,7 @@ item HCArmarmorbubblewrap
         DisplayName         	= Bubble Wrap Arm Guards,
         icon 			= HCArmarmorbubblewrap,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 /************************Torso Armor************************/
@@ -479,6 +527,7 @@ item HCArmormilitaryjacket
 	DisplayName		= Military Jacket,
 	Icon			= HCArmormilitaryjacket,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCArmorlightjacket
@@ -488,6 +537,7 @@ item HCArmorlightjacket
 	DisplayName		= Light Jacket,
 	Icon			= HCArmorlightjacket,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCArmorleatherjacket
@@ -497,6 +547,7 @@ item HCArmorleatherjacket
 	DisplayName		= Leather Jacket,
 	Icon			= HCArmorleatherjacket,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCArmorkevlar
@@ -506,6 +557,7 @@ item HCArmorkevlar
         DisplayName         	= Kevlar Armor,
         icon 			= HCArmorkevlar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 
@@ -516,6 +568,7 @@ item HCArmorswat
         DisplayName         	= SWAT Armor,
         icon 			= HCArmorswat,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorriot
@@ -525,6 +578,7 @@ item HCArmorriot
         DisplayName         	= Riot Armor,
         icon 			= HCArmorriot,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorparamedic
@@ -534,6 +588,7 @@ item HCArmorparamedic
         DisplayName         	= Paramedic Armor,
         icon 			= HCArmorparamedic,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorpaintball
@@ -543,6 +598,7 @@ item HCArmorpaintball
         DisplayName         	= Paintball Armor,
         icon 			= HCArmorpaintball,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorsamurai
@@ -552,6 +608,7 @@ item HCArmorsamurai
         DisplayName         	= Samurai Armor,
         icon 			= HCArmorsamurai,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorlamelar
@@ -561,6 +618,7 @@ item HCArmorlamelar
         DisplayName         	= Lamelar Armor,
         icon 			= HCArmorlamelar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorchainmail
@@ -570,6 +628,7 @@ item HCArmorchainmail
         DisplayName         	= Chainmail Armor,
         icon 			= HCArmorchainmail,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 
@@ -580,6 +639,7 @@ item HCArmorscalemail
         DisplayName         	= Scalemail Armor,
         icon 			= HCArmorscalemail,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorsteel
@@ -589,6 +649,7 @@ item HCArmorsteel
         DisplayName         	= Steel Armor,
         icon 			= HCArmorsteel,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 
@@ -599,6 +660,7 @@ item HCArmoriron
         DisplayName         	= Iron Armor,
         icon 			= HCArmoriron,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 
@@ -609,6 +671,7 @@ item HCArmorbronze
         DisplayName         	= Bronze Armor,
         icon 			= HCArmorbronze,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorcopper
@@ -618,6 +681,7 @@ item HCArmorcopper
         DisplayName         	= Copper Armor,
         icon 			= HCArmorcopper,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorstuddedleather
@@ -627,6 +691,7 @@ item HCArmorstuddedleather
         DisplayName         	= Studded Leather Armor,
         icon 			= HCArmorstuddedleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorhardenedleather
@@ -636,6 +701,7 @@ item HCArmorhardenedleather
         DisplayName         	= Hardened Leather Armor,
         icon 			= HCArmorhardenedleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorleather
@@ -645,6 +711,7 @@ item HCArmorleather
         DisplayName         	= Leather Armor,
         icon 			= HCArmorleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorhide
@@ -654,6 +721,7 @@ item HCArmorhide
         DisplayName         	= Hide Armor,
         icon 			= HCArmorhide,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorpadded
@@ -663,6 +731,7 @@ item HCArmorpadded
         DisplayName         	= Padded Armor,
         icon 			= HCArmorpadded,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 
@@ -673,6 +742,7 @@ item HCArmorbone
         DisplayName         	= Bone Armor,
         icon 			= HCArmorbone,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorbamboo
@@ -682,6 +752,7 @@ item HCArmorbamboo
         DisplayName         	= Bamboo Armor,
         icon 			= HCArmorbamboo,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorlog
@@ -691,6 +762,7 @@ item HCArmorlog
         DisplayName         	= Log Armor,
         icon 			= HCArmorlog,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmortire
@@ -700,6 +772,7 @@ item HCArmortire
         DisplayName         	= Tire Armor,
         icon 			= HCArmortire,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorphonebooks
@@ -709,6 +782,7 @@ item HCArmorphonebooks
         DisplayName         	= Phone Book Armor,
         icon 			= HCArmorphonebooks,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCArmorbubblewrap
@@ -718,6 +792,7 @@ item HCArmorbubblewrap
         DisplayName         	= Bubble Wrap Armor,
         icon 			= HCArmorbubblewrap,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 /************************Leg Armor************************/
@@ -729,6 +804,7 @@ item HCJeans
 	DisplayName		= Thick Jeans,
 	Icon			= HCJeans,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 item HCLegarmorkevlar
@@ -738,6 +814,7 @@ item HCLegarmorkevlar
         DisplayName         	= Kevlar Leg Guards,
         icon 			= HCLegarmorkevlar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorswat
@@ -747,6 +824,7 @@ item HCLegarmorswat
         DisplayName         	= Swat Leg Guards,
         icon 			= HCLegarmorswat,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorriot
@@ -756,6 +834,7 @@ item HCLegarmorriot
         DisplayName         	= Riot Leg Guards,
         icon 			= HCLegarmorriot,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorpaintball
@@ -765,6 +844,7 @@ item HCLegarmorpaintball
         DisplayName         	= Paintball Leg Guards,
         icon 			= HCLegarmorpaintball,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorsamurai
@@ -774,6 +854,7 @@ item HCLegarmorsamurai
         DisplayName         	= Samurai Leg Guards,
         icon 			= HCLegarmorsamurai,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorlamelar
@@ -783,6 +864,7 @@ item HCLegarmorlamelar
         DisplayName         	= Lamelar Leg Guards,
         icon 			= HCLegarmorlamelar,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorchainmail
@@ -792,6 +874,7 @@ item HCLegarmorchainmail
         DisplayName         	= Chainmail Leg Guards,
         icon 			= HCLegarmorchainmail,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorscalemail
@@ -801,6 +884,7 @@ item HCLegarmorscalemail
         DisplayName         	= Scalemail Leg Guards,
         icon 			= HCLegarmorscalemail,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorsteel
@@ -810,6 +894,7 @@ item HCLegarmorsteel
         DisplayName         	= Steel Leg Guards,
         icon 			= HCLegarmorsteel,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmoriron
@@ -819,6 +904,7 @@ item HCLegarmoriron
         DisplayName         	= Iron Leg Guards,
         icon 			= HCLegarmoriron,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorbronze
@@ -828,6 +914,7 @@ item HCLegarmorbronze
         DisplayName         	= Bronze Leg Guards,
         icon 			= HCLegarmorbronze,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorcopper
@@ -837,6 +924,7 @@ item HCLegarmorcopper
         DisplayName         	= Copper Leg Guards,
         icon 			= HCLegarmorcopper,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorstuddedleather
@@ -846,6 +934,7 @@ item HCLegarmorstuddedleather
         DisplayName         	= Studded Leather Leg Guards,
         icon 			= HCLegarmorstuddedleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorhardenedleather
@@ -855,6 +944,7 @@ item HCLegarmorhardenedleather
         DisplayName         	= Hardened Leather Leg Guards,
         icon 			= HCLegarmorhardenedleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorleather
@@ -864,6 +954,7 @@ item HCLegarmorleather
         DisplayName         	= Leather Leg Guards,
         icon 			= HCLegarmorleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorhide
@@ -873,6 +964,7 @@ item HCLegarmorhide
         DisplayName         	= Hide Leg Guards,
         icon 			= HCLegarmorhide,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorpadded
@@ -882,6 +974,7 @@ item HCLegarmorpadded
         DisplayName         	= Padded Leg Guards,
         icon 			= HCLegarmorpadded,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorbone
@@ -891,6 +984,7 @@ item HCLegarmorbone
         DisplayName         	= Bone Leg Guards,
         icon 			= HCLegarmorbone,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorlog
@@ -900,6 +994,7 @@ item HCLegarmorlog
         DisplayName         	= Log Leg Guards,
         icon 			= HCLegarmorlog,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmortire
@@ -909,6 +1004,7 @@ item HCLegarmortire
         DisplayName         	= Tire Leg Guards,
         icon 			= HCLegarmortire,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCLegarmorbubblewrap
@@ -918,6 +1014,7 @@ item HCLegarmorbubblewrap
         DisplayName         	= Bubble Wrap Leg Guards,
         icon 			= HCLegarmorbubblewrap,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 /************************Boots************************/
@@ -929,6 +1026,7 @@ item HCBootsteel
         DisplayName         	= Steel Greaves,
         icon 			= HCBootsteel,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
     	}
 
 item HCBootleather
@@ -938,6 +1036,7 @@ item HCBootleather
 	DisplayName		= Leather Greaves,
 	Icon			= HCBootleather,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   ClothP,
 	}
 
 /************************Shields************************/
@@ -949,6 +1048,7 @@ item HCShieldriot
         DisplayName         	= Riot Shield,
         icon 			= HCShieldriot,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
     	}
 
 item HCShieldsteel
@@ -958,6 +1058,7 @@ item HCShieldsteel
         DisplayName         	= Steel Shield,
         icon 			= HCShieldsteel,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
     	}
 
 
@@ -968,6 +1069,7 @@ item HCShieldiron
         DisplayName         	= Iron Shield,
         icon 			= HCShieldiron,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
     	}
 
 
@@ -978,6 +1080,7 @@ item HCShieldbronze
         DisplayName         	= Bronze Shield,
         icon 			= HCShieldbronze,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
     	}
 
 item HCShieldcopper
@@ -987,6 +1090,7 @@ item HCShieldcopper
         DisplayName         	= Copper Shield,
         icon 			= HCShieldcopper,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
     	}
 
 
@@ -997,6 +1101,7 @@ item HCShieldwood
         DisplayName         	= Wooden Shield,
         icon 			= HCShieldwood,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
     	}
 
 
@@ -1007,6 +1112,7 @@ item HCShieldtrashcanlid
         DisplayName         	= Trashcan Lid,
         icon 			= HCShieldtrashcanlid,
 	Tooltip 		= Tooltip_HCArmor,
+		DisplayCategory          =   WepShield,
     	}
 
 /************************RECIPES************************/

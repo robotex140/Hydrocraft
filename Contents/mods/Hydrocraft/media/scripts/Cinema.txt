@@ -15,6 +15,7 @@ item HCCinematicket
         Type			=	Normal,
         DisplayName		=	Cinema Ticket,
 	Icon			=	HCCinematicket,
+	DisplayCategory          =   Useless,
 	}
 
 item HCMovieroll
@@ -23,6 +24,7 @@ item HCMovieroll
         Type			=	Normal,
         DisplayName		=	Movie Film Roll,
 	Icon			=	HCMovieroll,
+	DisplayCategory          =   Useless,
 	}
 
 item HCFilmcan
@@ -31,6 +33,7 @@ item HCFilmcan
         Type			=	Normal,
         DisplayName		=	Movie Film Can,
 	Icon			=	HCFilmcan,
+	DisplayCategory          =   CraftMisc,
 	}
 
 item HCProjector
@@ -39,7 +42,7 @@ item HCProjector
         Type			=	Normal,
         DisplayName		=	Movie Projector,
 	Icon			=	HCProjector,
-	
+	DisplayCategory          =   CraftElec,
 	}
 
 item HC3Dglasses
@@ -48,6 +51,7 @@ item HC3Dglasses
         Type			=	Normal,
         DisplayName		=	3D Glasses,
 	Icon			=	HC3Dglasses,
+	DisplayCategory          =   Useless,
 	}
 
 /************************RECIPES************************/

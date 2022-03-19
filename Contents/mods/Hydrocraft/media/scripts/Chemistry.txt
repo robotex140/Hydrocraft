@@ -16,6 +16,7 @@ item HCGunPowder
     DisplayName         =   Jar of Gunpowder,
     ReplaceOnDeplete    =   HCJar,
     Icon                =   GunpowderJar,
+	DisplayCategory          =   CraftAmmo,
     }
 
 
@@ -25,6 +26,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Charcoal Powder,
         icon            = HCCharcoalpowder,
+		DisplayCategory	= CraftChem,
     } 
 
     item HCGraphitepowder
@@ -33,6 +35,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Graphite Powder,
         icon            = HCGraphitepowder,
+		DisplayCategory	= CraftChem,
     } 
 
     item HCSaltpowder
@@ -41,6 +44,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Salt Powder,
         icon            = HCSaltpowder,
+		DisplayCategory	= CraftMine,
     } 
 
     item HCSaltpeterpowder
@@ -49,6 +53,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Saltpeter Powder,
         icon            = HCSaltpeterpowder,
+		DisplayCategory	= CraftMine,
     }  
 
     item HCSulphurpowder
@@ -57,6 +62,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Sulphur Powder,
         icon            = HCSulphurpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCCopperpowder
@@ -65,6 +71,7 @@ item HCCopperpowder
         Type            = Normal,
         DisplayName     = Copper Powder,
         icon            = HCCopperpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCTinpowder
@@ -73,6 +80,7 @@ item HCTinpowder
         Type            = Normal,
         DisplayName     = Tin Powder,
         icon            = HCTinpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCLeadpowder
@@ -81,6 +89,7 @@ item HCLeadpowder
         Type            = Normal,
         DisplayName     = Lead Powder,
         icon            = HCLeadpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCIronpowder
@@ -89,6 +98,7 @@ item HCIronpowder
         Type            = Normal,
         DisplayName     = Iron Powder,
         icon            = HCIronpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMagnetitepowder
@@ -97,6 +107,7 @@ item HCMagnetitepowder
         Type            = Normal,
         DisplayName     = Magnetite Powder,
         icon            = HCMagnetitepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMeteoritepowder
@@ -105,6 +116,7 @@ item HCMeteoritepowder
         Type            = Normal,
         DisplayName     = Meteorite Powder,
         icon            = HCMeteoritepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCSilverpowder
@@ -113,6 +125,7 @@ item HCSilverpowder
         Type            = Normal,
         DisplayName             = Silver Powder,
         icon            = HCSilverpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCGoldpowder
@@ -121,6 +134,7 @@ item HCGoldpowder
         Type            = Normal,
         DisplayName             = Gold Powder,
         icon            = HCGoldpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCAluminumpowder
@@ -129,6 +143,7 @@ item HCAluminumpowder
         Type            = Normal,
         DisplayName             = Aluminum Powder,
         icon            = HCAluminumpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCZincpowder
@@ -137,6 +152,7 @@ item HCZincpowder
         Type            = Normal,
         DisplayName             = Zinc Powder,
         icon            = HCZincpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCNickelpowder
@@ -145,6 +161,7 @@ item HCNickelpowder
         Type            = Normal,
         DisplayName             = Nickel Powder,
         icon            = HCNickelpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCCobaltpowder
@@ -153,6 +170,7 @@ item HCCobaltpowder
         Type            = Normal,
         DisplayName             = Cobalt Powder,
         icon            = HCCobaltpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCChromepowder
@@ -161,6 +179,7 @@ item HCChromepowder
         Type            = Normal,
         DisplayName             = Chrome Powder,
         icon            = HCChromepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCTungstenpowder
@@ -169,6 +188,7 @@ item HCTungstenpowder
         Type            = Normal,
         DisplayName             = Tungsten Powder,
         icon            = HCTungstenpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCTitaniumpowder
@@ -177,6 +197,7 @@ item HCTitaniumpowder
         Type            = Normal,
         DisplayName             = Titanium Powder,
         icon            = HCTitaniumpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCPhosphoruspowder
@@ -185,6 +206,7 @@ item HCPhosphoruspowder
         Type            = Normal,
         DisplayName             = Phosphorus Powder,
         icon            = HCPhosphoruspowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCLithiumpowder
@@ -193,6 +215,7 @@ item HCLithiumpowder
         Type            = Normal,
         DisplayName             = Lithium Powder,
         icon            = HCLithiumpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCChalkpowder
@@ -201,6 +224,7 @@ item HCChalkpowder
         Type            = Normal,
         DisplayName             = Chalk Powder,
         icon            = HCChalkpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCFeldsparpowder
@@ -209,6 +233,7 @@ item HCFeldsparpowder
         Type            = Normal,
         DisplayName             = Feldspar Powder,
         icon            = HCFeldsparpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCAlbitepowder
@@ -217,6 +242,7 @@ item HCAlbitepowder
         Type            = Normal,
         DisplayName             = Albite Powder,
         icon            = HCAlbitepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCObsidianpowder
@@ -225,6 +251,7 @@ item HCObsidianpowder
         Type            = Normal,
         DisplayName             = Obsidian Powder,
         icon            = HCObsidianpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCLapislazulipowder
@@ -233,6 +260,7 @@ item HCLapislazulipowder
         Type            = Normal,
         DisplayName             = Lapis Lazuli Powder,
         icon            = HCLapislazulipowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCAzuritepowder
@@ -241,6 +269,7 @@ item HCAzuritepowder
         Type            = Normal,
         DisplayName             = Azurite Powder,
         icon            = HCAzuritepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCJadepowder
@@ -249,6 +278,7 @@ item HCJadepowder
         Type            = Normal,
         DisplayName             = Jade Powder,
         icon            = HCJadepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMalachitepowder
@@ -257,6 +287,7 @@ item HCMalachitepowder
         Type            = Normal,
         DisplayName             = Malachite Powder,
         icon            = HCMalachitepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMarblepowder
@@ -265,6 +296,7 @@ item HCMarblepowder
     Type            = Normal,
     DisplayName     = Marble Powder,
     Icon            = HCMarblepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCCalcitepowder
@@ -273,6 +305,7 @@ item HCCalcitepowder
     Type            = Normal,
     DisplayName     = Calcite Powder,
     Icon            = HCCalcitepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMagnesiumpowder
@@ -281,6 +314,7 @@ item HCMagnesiumpowder
     Type            = Normal,
     DisplayName     = Magnesium Powder,
     Icon            = HCMagnesiumpowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCGypsumpowder
@@ -289,6 +323,7 @@ item HCGypsumpowder
         Type            = Normal,
         DisplayName             = Gypsum Powder,
         icon            = HCGypsumpowder,
+		DisplayCategory	= CraftMine,
     } 
 
 item HCDiatomitepowder
@@ -297,6 +332,7 @@ item HCDiatomitepowder
         Type            = Normal,
         DisplayName             = Diatomite Powder,
         icon            = HCDiatomitepowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCTronapowder
@@ -305,6 +341,7 @@ item HCTronapowder
     Type            = Normal,
     DisplayName     = Trona Powder,
     Icon            = HCTronapowder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCSilveriodidepowder
@@ -313,6 +350,7 @@ item HCSilveriodidepowder
     Type            =   Normal,
     DisplayName     =   Silver Iodide Powder,
     Icon            =   HCSilveriodidepowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumhydroxidpowder
@@ -321,6 +359,7 @@ item HCCalciumhydroxidpowder
     Type            =   Normal,
     DisplayName     =   Calcium Hydroxide Powder,
     Icon            =   HCCalciumhydroxidpowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumoxidpowder
@@ -329,6 +368,7 @@ item HCCalciumoxidpowder
     Type            =   Normal,
     DisplayName     =   Calcium Oxide Powder,
     Icon            =   HCCalciumoxidpowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumcarbonatpowder
@@ -337,6 +377,7 @@ item HCCalciumcarbonatpowder
     Type            =   Normal,
     DisplayName     =   Calcium Carbonate Powder,
     Icon            =   HCCalciumcarbonatpowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCCopperoxidepowder
@@ -345,6 +386,7 @@ item HCCopperoxidepowder
     Type            =   Normal,
     DisplayName     =   Copper Oxide Powder,
     Icon            =   HCCopperoxidepowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCCoppersulfatepowder
@@ -353,6 +395,7 @@ item HCCoppersulfatepowder
     Type            =   Normal,
     DisplayName     =   Copper Sulfate Powder,
     Icon            =   HCCoppersulfatepowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCNickelsulfatepowder
@@ -361,6 +404,7 @@ item HCNickelsulfatepowder
     Type            =   Normal,
     DisplayName     =   Nickel Sulfate Powder,
     Icon            =   HCNickelsulfatepowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCSodiumcarbonatpowder
@@ -369,6 +413,7 @@ item HCSodiumcarbonatpowder
     Type            =   Normal,
     DisplayName     =   Sodium Carbonate Powder,
     Icon            =   HCSodiumcarbonatpowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCSodiumhydroxidepowder
@@ -377,6 +422,7 @@ item HCSodiumhydroxidepowder
     Type            =   Normal,
     DisplayName     =   Sodium Hydroxide Powder,
     Icon            =   HCSodiumhydroxidepowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCSodiumsulfatpowder
@@ -385,6 +431,7 @@ item HCSodiumsulfatpowder
     Type            =   Normal,
     DisplayName     =   Sodium Sulfate Powder,
     Icon            =   HCSodiumsulfatpowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCEphedrinepowder
@@ -393,6 +440,7 @@ item HCEphedrinepowder
         Type            = Normal,
         DisplayName             = Ephedrine Powder,
         icon            = HCEphedrinepowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumchloridepowder
@@ -401,6 +449,7 @@ item HCCalciumchloridepowder
     Type            =   Normal,
     DisplayName     =   Calcium Chloride Powder,
     Icon            =   HCCalciumchloridepowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCThermite
@@ -409,6 +458,7 @@ item HCThermite
         Type            = Normal,
         DisplayName             = Thermite,
         icon            = HCThermite,
+		DisplayCategory	= CraftChem,
     }
 
 item HCKAS
@@ -419,6 +469,7 @@ item HCKAS
         DisplayName     = KAS 27 Fertilizer,
         UseDelta        = 0.25,
         UseWhileEquipped    = false,
+		DisplayCategory	= SurFarm,
     }
 
 item HCAmmonalwet
@@ -427,6 +478,7 @@ item HCAmmonalwet
         Type            = Normal,
         DisplayName             = Wet Ammonal Bag,
         icon            = HCAmmonalwet,
+		DisplayCategory	= CraftChem,
     }
 
 item HCAmmonaltray
@@ -435,6 +487,7 @@ item HCAmmonaltray
         Type            = Normal,
         DisplayName             = Ammonal Tray,
         icon            = HCAmmonaltray,
+		DisplayCategory	= CraftChem,
     }
 
 item HCAmmonaldry
@@ -443,6 +496,7 @@ item HCAmmonaldry
         Type            = Food,
         DisplayName             = Dry Ammonal,
         icon            = HCAmmonaldry,
+		DisplayCategory	= CraftChem,
     }
 
 item HCAmmonal
@@ -451,6 +505,7 @@ item HCAmmonal
         Type            = Normal,
         DisplayName             = Ammonal Bag,
         icon            = HCAmmonal,
+		DisplayCategory	= CraftChem,
     }
 
 item HCWoodenbucketlye
@@ -459,6 +514,7 @@ item HCWoodenbucketlye
         Type            = Normal,
         DisplayName             = Wooden Bucket with Lye,
         icon            = HCWoodenbucketlye,
+		DisplayCategory	= CraftChem,
     }
 
 item HCNitricacid
@@ -475,6 +531,7 @@ item HCGlycerin
         Type                = Normal,
         DisplayName                 = Glycerin,
         icon                = HCGlycerin,
+		DisplayCategory	= CraftChem,
     }
 
 item HCChemicalbottlesodiumhydroxide
@@ -483,6 +540,7 @@ item HCChemicalbottlesodiumhydroxide
     Type                =   Normal,
     DisplayName         =   Chemical Plastic Bottle With Sodium Hydroxide,
     Icon                =   HCChemicalbottlesodiumhydroxide,
+		DisplayCategory	= CraftChem,
     }
 
 item HCAcidbathempty
@@ -491,6 +549,7 @@ item HCAcidbathempty
     Type            =   Normal,
     DisplayName     =   Acid Bath Empty,
     Icon            =   HCAcidbathempty,
+		DisplayCategory	= CraftChem,
     }
 
 item HCAcidbathmuriaticacid
@@ -499,6 +558,7 @@ item HCAcidbathmuriaticacid
     Type            =   Normal,
     DisplayName     =   Acid Bath Muriatic Acid,
     Icon            =   HCAcidbathmuriaticacid,
+		DisplayCategory	= CraftChem,
     }
 
 item HCWaterbottlestarterfluid
@@ -507,6 +567,7 @@ item HCWaterbottlestarterfluid
         Type            =   Normal,
         DisplayName     =   Conical Flask With Starter Fluid and Water,
     Icon            =   HCWaterbottlestarterfluid,
+		DisplayCategory	= CraftChem,
     }
 
 item HCWaterbottlestarterfluidmixed
@@ -518,6 +579,7 @@ item HCWaterbottlestarterfluidmixed
     ReplaceOnDeplete    =   HCGlasswaterbottle,
     DisplayName         =   Waterflask With Starter Fluid,
     Icon                =   HCWaterbottlestarterfluid,
+		DisplayCategory	= CraftChem,
     }
 
 item HCSolidfuelbox
@@ -526,6 +588,7 @@ item HCSolidfuelbox
         Type                = Normal,
         DisplayName                 = Box of Solid Fuel Cubes,
         icon                = HCSolidfuelbox,
+		DisplayCategory	= Fuel,
     }
 
 item HCSolidfuelcubes
@@ -535,6 +598,7 @@ item HCSolidfuelcubes
     UseDelta            = 0.125,
         DisplayName                 = Solid Fuel Cubes,
         icon                = HCSolidfuelcubes,
+		DisplayCategory	= Fuel,
     }
 
 item HCSolidfuelcube
@@ -543,6 +607,7 @@ item HCSolidfuelcube
         Type                = Normal,
         DisplayName                 = Solid Fuel Cube,
         icon                = HCSolidfuelcube,
+		DisplayCategory	= Fuel,
     }
 
 item HCHexapowder
@@ -551,6 +616,7 @@ item HCHexapowder
         Type                = Normal,
         DisplayName                 = Hexamethylentetramin Powder,
         icon                = HCHexapowder,
+		DisplayCategory	= CraftChem,
     }
 
 item HCCitricacid
@@ -560,6 +626,7 @@ item HCCitricacid
     UseDelta            = 0.125,
         DisplayName                 = Citric Acid,
         icon                = HCCitricacid,
+		DisplayCategory	= CraftChem,
     }
 
 item HCGlassgastrap
@@ -568,6 +635,7 @@ item HCGlassgastrap
     Type            =   Normal,
     DisplayName     =   Glass Baloon and Waterbeaker,
     Icon            =   HCGlassgastrap,
+		DisplayCategory	= CraftChem,
     }
 
 item HCGlassgassalt
@@ -576,6 +644,7 @@ item HCGlassgassalt
     Type            =   Normal,
     DisplayName     =   Glass Balloon and Waterbeaker with Salt,
     Icon            =   HCGlassgassalt,
+		DisplayCategory	= CraftChem,
     }
 
 item HCGlassgassaltsulfuric
@@ -584,6 +653,7 @@ item HCGlassgassaltsulfuric
     Type            =   Normal,
     DisplayName     =   Glass Balloon and Waterbeaker with Salt and Sulfuric Acid,
     Icon            =   HCGlassgassaltsulfuric,
+		DisplayCategory	= CraftChem,
     }
 
 /************************WEAPONS************************/
@@ -607,6 +677,7 @@ item HCHmtdcrystals
         ExplosionPower          =       40,
         ExplosionRange          =       2,
         ExplosionSound          =       SmallExplosion,
+		DisplayCategory	= WepBomb,
     }
 
 item HCGlasstubehmtd
@@ -628,6 +699,7 @@ item HCGlasstubehmtd
         ExplosionPower          =       40,
         ExplosionRange          =       2,
         ExplosionSound          =       SmallExplosion,
+		DisplayCategory	= WepBomb,
     }
 
 /************************RECIPES************************/

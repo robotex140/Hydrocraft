@@ -12,24 +12,27 @@ item HCBatterysmall
     {
         Weight    		= 0.4,
         Type    		= Normal,
-        DisplayName         	= Small Battery,
+        DisplayName		= Small Battery,
         icon 			= HCBatterysmall,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterysmallpack
     {
         Weight    		= 1,
         Type    		= Normal,
-        DisplayName    		= Small Battery Package,
+        DisplayName		= Small Battery Package,
         icon 			= HCBatterysmallpack,
+		DisplayCategory	= CraftElec,
     }
 
 item HCBatterysmalldead
     {
         Weight    		= 0.4,
         Type    		= Normal,
-        DisplayName         	= Dead Small Battery,
+        DisplayName		= Dead Small Battery,
         icon 			= HCBatterysmalldead,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterysmallcase
@@ -38,6 +41,7 @@ item HCBatterysmallcase
         Type    		= Normal,
         DisplayName         	= Small Battery Case,
         icon 			= HCBatterysmallcase,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterysixpack
@@ -46,6 +50,7 @@ item HCBatterysixpack
         Type    		= Normal,
         DisplayName     	= Battery Package,
         icon 			= HCBatterysixpack,
+		DisplayCategory	= CraftElec,
     }
 
 item HCBatterydead
@@ -54,6 +59,7 @@ item HCBatterydead
         Type    		= Normal,
         DisplayName         	= Dead Battery,
         icon 			= HCBatterydead,
+		DisplayCategory	= CraftElec,
     }
 
 item HCBatterycase
@@ -62,6 +68,7 @@ item HCBatterycase
         Type    		= Normal,
         DisplayName         	= Battery Case,
         icon 			= HCBatterycase,
+		DisplayCategory	= CraftElec,
     }
 
 item HCBatterypackmedium
@@ -70,6 +77,7 @@ item HCBatterypackmedium
         Type    		= Normal,
         DisplayName     	= Pack of Medium Batteries,
         icon 			= HCBatterypackmedium,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterymedium
@@ -78,6 +86,7 @@ item HCBatterymedium
         Type    		= Normal,
         DisplayName         	= Medium Battery,
         icon 			= HCBatterymedium,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterymediumdead
@@ -86,6 +95,7 @@ item HCBatterymediumdead
         Type    		= Normal,
         DisplayName         	= Dead Medium Battery,
         icon 			= HCBatterymediumdead,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterymediumcase
@@ -94,6 +104,7 @@ item HCBatterymediumcase
         Type    		= Normal,
         DisplayName         	= Medium Battery Case,
         icon 			= HCBatterymediumcase,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterylarge
@@ -102,6 +113,7 @@ item HCBatterylarge
         Type    		= Normal,
         DisplayName         	= Large Battery,
         icon 			= HCBatterylarge,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterylargedead
@@ -110,6 +122,7 @@ item HCBatterylargedead
         Type    		= Normal,
         DisplayName         	= Dead Large Battery,
         icon 			= HCBatterylargedead,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterypacklarge
@@ -118,6 +131,7 @@ item HCBatterypacklarge
         Type    		= Normal,
         DisplayName     	= Pack of Large Batteries,
         icon 			= HCBatterypacklarge,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatterylargecase
@@ -126,6 +140,7 @@ item HCBatterylargecase
         Type    		= Normal,
         DisplayName         	= Large Battery Case,
         icon 			= HCBatterylargecase,
+		DisplayCategory	= CraftElec,
     } 
 
 
@@ -135,6 +150,7 @@ item HCBatteryhuge
         Type    		= Normal,
         DisplayName         	= Huge Battery,
         icon 			= HCBatteryhuge,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatteryhugedead
@@ -143,6 +159,7 @@ item HCBatteryhugedead
         Type    		= Normal,
         DisplayName         	= Dead Huge Battery,
         icon 			= HCBatteryhugedead,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBatteryhugecase
@@ -151,6 +168,7 @@ item HCBatteryhugecase
         Type    		= Normal,
         DisplayName         	= Huge Battery Case,
         icon 			= HCBatteryhugecase,
+		DisplayCategory	= CraftElec,
     }
 
 item HCBattery9volt
@@ -159,6 +177,7 @@ item HCBattery9volt
         Type    		= Normal,
         DisplayName         	= 9 Volt Battery,
         icon 			= HCBattery9volt,
+		DisplayCategory	= CraftElec,
     } 
 
 item HCBattery9voltdead
@@ -167,6 +186,7 @@ item HCBattery9voltdead
         Type    		= Normal,
         DisplayName         	= Dead 9 Volt Battery,
         icon 			= HCBattery9volt,
+		DisplayCategory	= CraftElec,
     } 
 
 

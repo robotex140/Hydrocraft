@@ -14,6 +14,7 @@ item HCGlassbottleempty
         Type			        =	Normal,
 	DisplayName			=	Empty Glass Bottle,
 	Icon				=	HCGlassbottleempty,
+		DisplayCategory	=   Container,
 	}
 
 item HCGlassbottleethanolempty
@@ -22,6 +23,7 @@ item HCGlassbottleethanolempty
     Type			        =	Normal,
 	DisplayName			=	Empty Ethanol Bottle,
 	Icon				=	HCGlassbottleethanol,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleethanol
@@ -32,6 +34,7 @@ item HCGlassbottleethanol
 	ReplaceOnDeplete	=	HCGlassbottleethanolempty,
 	DisplayName			=	Ethanol,
 	Icon				=	HCGlassbottleethanol,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleammoniaempty
@@ -40,6 +43,7 @@ item HCGlassbottleammoniaempty
     Type			        =	Normal,
 	DisplayName			=	Empty Ammonia Bottle,
 	Icon				=	HCGlassbottleammonia,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleammonia
@@ -50,6 +54,7 @@ item HCGlassbottleammonia
 	ReplaceOnDeplete	=	HCGlassbottleammoniaempty,
 	DisplayName			=	Ammonia,
 	Icon				=	HCGlassbottleammonia,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleselfmadeetherempty
@@ -58,6 +63,7 @@ item HCGlassbottleselfmadeetherempty
         Type			        =	Normal,
 	DisplayName			=	Empty Homemade Ether Bottle,
 	Icon				=	HCGlassbottleselfmadeether,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleselfmadeether
@@ -68,6 +74,7 @@ item HCGlassbottleselfmadeether
 	ReplaceOnDeplete	=	HCGlassbottleselfmadeetherempty,
 	DisplayName			=	Selfmade Ether,
 	Icon				=	HCGlassbottleselfmadeether,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleh2o2empty
@@ -76,6 +83,7 @@ item HCGlassbottleh2o2empty
         Type			        =	Normal,
 	DisplayName			=	Empty Hydrogen Peroxide Bottle,
 	Icon				=	HCGlassbottleh2o2,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleh2o2
@@ -86,6 +94,7 @@ item HCGlassbottleh2o2
 	ReplaceOnDeplete	=	HCGlassbottleh2o2empty,
 	DisplayName			=	Hydrogen Peroxide,
 	Icon				=	HCGlassbottleh2o2,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottlemethylaminempty
@@ -94,6 +103,7 @@ item HCGlassbottlemethylaminempty
         Type			        =	Normal,
 	DisplayName			=	Empty Methylamin Bottle,
 	Icon				=	HCGlassbottlemethylamin,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottlemethylamin
@@ -104,6 +114,7 @@ item HCGlassbottlemethylamin
 	ReplaceOnDeplete	=	HCGlassbottlemethylaminempty,
 	DisplayName			=	Methylamin,
 	Icon				=	HCGlassbottlemethylamin,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottlephenylempty
@@ -112,6 +123,7 @@ item HCGlassbottlephenylempty
         Type			        =	Normal,
 	DisplayName			=	Empty Phenylacetic Acid Bottle,
 	Icon				=	HCGlassbottlephenyl,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottlephenyl
@@ -122,6 +134,7 @@ item HCGlassbottlephenyl
 	ReplaceOnDeplete	= HCGlassbottlephenylempty,
 	DisplayName			= Phenylacetic Acid,
 	Icon				= HCGlassbottlephenyl,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottlesulfuricacidempty
@@ -130,6 +143,7 @@ item HCGlassbottlesulfuricacidempty
         Type			        =	Normal,
 	DisplayName			=	Empty Sulfuric Acid Bottle,
 	Icon				=	HCGlassbottlesulfuricacid,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottlesulfuricacid
@@ -140,6 +154,7 @@ item HCGlassbottlesulfuricacid
 	ReplaceOnDeplete	=	HCGlassbottlesulfuricacidempty,
 	DisplayName			=	Sulfuric Acid,
 	Icon				=	HCGlassbottlesulfuricacid,
+		DisplayCategory	=   CraftChem,
 	}
 
 
@@ -149,6 +164,7 @@ item HCGlassbottlepotassiumpermanganateempty
         Type			        =	Normal,
 	DisplayName			=	Empty Potassiumper Manganate Bottle,
 	Icon				=	HCGlassbottlepotassiumpermanganate,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottlepotassiumpermanganate
@@ -159,6 +175,7 @@ item HCGlassbottlepotassiumpermanganate
 	ReplaceOnDeplete	=	HCGlassbottlepotassiumpermanganateempty,
 	DisplayName			=	Potassium Permanganate,
 	Icon				=	HCGlassbottlepotassiumpermanganate,
+		DisplayCategory	=   CraftChem,
 	}
 
 /************************RECIPES************************/

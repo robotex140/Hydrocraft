@@ -14,6 +14,7 @@ item HCPropanetankempty
 	Type				=	Normal,
 	DisplayName			=	Empty Propane Tank,
 	Icon				=	PropaneTank,
+	DisplayCategory	=   CraftChem,
 	
 	}
 
@@ -23,6 +24,7 @@ item HCBiogas
         Type    			= 	Normal,
         DisplayName         		= 	Biogas Tank,
         icon 				= 	HCBiogas,
+	DisplayCategory	=   CraftChem,
     }
 
 /************************RECIPES************************/	

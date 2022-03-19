@@ -17,6 +17,7 @@ item HCBlueprintpoatocannon
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Potato Cannon,
         ReplaceOnUse    	=   	HCBlueprintpoatocannon,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintflamethrower
@@ -27,6 +28,7 @@ item HCBlueprintflamethrower
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Flamethrower;Load Flamethrower,
         ReplaceOnUse    	=   	HCBlueprintflamethrower,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintrocketlauncher
@@ -37,6 +39,7 @@ item HCBlueprintrocketlauncher
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Rocket Launcher;Load Rocket Launcher,
         ReplaceOnUse    	=   	HCBlueprintrocketlauncher,
+		DisplayCategory          =   LitR,
     }
 */
 
@@ -50,6 +53,7 @@ item HCBlueprintducttapefletching
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Duct Tape Fletching,
         ReplaceOnUse    	=   	HCBlueprintducttapefletching,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintbonearrowhead
@@ -60,6 +64,7 @@ item HCBlueprintbonearrowhead
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Bone Arrowhead,
         ReplaceOnUse    	=   	HCBlueprintbonearrowhead,
+		DisplayCategory          =   LitR,
     }
 
 
@@ -71,6 +76,7 @@ item HCBlueprintfishingrod
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Fishing Rod;Fix Fishing Rod,
         ReplaceOnUse    	=   	HCBlueprintfishingrod,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintfishingnet
@@ -81,6 +87,7 @@ item HCBlueprintfishingnet
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Fishing Net;Get Wire Back,
         ReplaceOnUse    	=   	HCBlueprintfishingnet,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprinttrapcrate
@@ -91,6 +98,7 @@ item HCBlueprinttrapcrate
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Wooden Cage Trap,
         ReplaceOnUse    	=   	HCBlueprinttrapcrate,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprinttrapstick
@@ -101,6 +109,7 @@ item HCBlueprinttrapstick
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Stick Trap,
         ReplaceOnUse    	=   	HCBlueprinttrapstick,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprinttrapsnare
@@ -111,6 +120,7 @@ item HCBlueprinttrapsnare
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Snare Trap,
         ReplaceOnUse    	=   	HCBlueprinttrapsnare,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprinttrapbox
@@ -121,6 +131,7 @@ item HCBlueprinttrapbox
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Trap Box,
         ReplaceOnUse    	=   	HCBlueprinttrapbox,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprinttrapcage
@@ -131,6 +142,7 @@ item HCBlueprinttrapcage
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Cage Trap,
         ReplaceOnUse    	=   	HCBlueprinttrapcage,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintmousetrap
@@ -141,6 +153,7 @@ item HCBlueprintmousetrap
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Mousetrap,
         ReplaceOnUse    	=   	HCBlueprintmousetrap,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintnailtrap
@@ -151,6 +164,7 @@ item HCBlueprintnailtrap
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Spike Trap;Add Nails to Spike Trap;Set Nail Trap,
         ReplaceOnUse    	=   	HCBlueprintnailtrap,
+		DisplayCategory          =   LitR,
     }
 
 
@@ -162,6 +176,7 @@ item HCBlueprintantibiotics
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Make Penicillin,
          ReplaceOnUse    	=   	HCBlueprintantibiotics,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintpainkillers
@@ -172,6 +187,7 @@ item HCBlueprintpainkillers
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Make Willow Bark Tea;Extract Acetylsalicylic Acid,
          ReplaceOnUse    	=   	HCBlueprintpainkillers,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintantidepression
@@ -182,6 +198,7 @@ item HCBlueprintantidepression
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Prepare Valerian;Dry Valerian;Make Anti-Depression Pills,
          ReplaceOnUse    	=   	HCBlueprintantidepression,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintproflab
@@ -192,6 +209,7 @@ item HCBlueprintproflab
          Icon			=	HCBlueprint,
          TeachedRecipes 	=   	Build Professional Lab,
          ReplaceOnUse    	=   	HCBlueprintproflab,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintmeth
@@ -202,6 +220,7 @@ item HCBlueprintmeth
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Make Homemade Crystal Meth;Research Blue Meth,
          ReplaceOnUse    	=   	HCBlueprintmeth,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintbluemeth
@@ -212,6 +231,7 @@ item HCBlueprintbluemeth
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Cook Blue Meth,
          ReplaceOnUse    	=   	HCBlueprintbluemeth,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintinjections
@@ -222,6 +242,7 @@ item HCBlueprintinjections
          Icon			=	HCMedicalresearch,
          TeachedRecipes =   Take Blood from Zombie;Inject Yourself with Zombie Blood;Draw Up Syringe With Morphine,
          ReplaceOnUse   =   HCBlueprintinjections,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintskinanimal
@@ -232,6 +253,7 @@ item HCBlueprintskinanimal
         Icon			=	HCBlueprint,
         TeachedRecipes 	=   Skin Animal,
         ReplaceOnUse    =   HCBlueprintskinanimal,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintopium
@@ -242,6 +264,7 @@ item HCBlueprintopium
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	= Dry Poppy Flower;Rip Poppy Capsules;Knead Raw Opium;Cook Raw Opium;Ferment Opium Powder;Make Morphine Hydrochloride Solution;Add Water To Morphine Hydrochloride;Add Ammonia To Morphine Hydrochloride Solution;Add Ammonia To Morphine Hydrochloride Solution,
          ReplaceOnUse    	=   	HCBlueprintopium,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintether
@@ -252,6 +275,7 @@ item HCBlueprintether
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	= Seperate Ether;Put Ether in Beaker;Soak Ripped Sheet with Selfmade Ether,
          ReplaceOnUse    	= HCBlueprintether,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintsolarpark
@@ -262,6 +286,7 @@ item HCBlueprintsolarpark
          Icon			=	HCBlueprint,
          TeachedRecipes  	=   	Build Battery Array;Build Solar Panel;Build Solar Park;Recharge Battery;Upgrade to Solar Generator;Plugin Solar Generator;Unplug Solar Generator,
          ReplaceOnUse    	=   	HCBlueprintsolarpark,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprinthmtd
@@ -272,6 +297,7 @@ item HCBlueprinthmtd
          Icon			=	HCChemicalresearch,
          TeachedRecipes 	=   	Make Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide;Add Hexamethylentetramin to Beaker with Hydrogen Peroxide;Cool Beaker with Hydrogen Peroxide and Hexamethylentetramin;Add Citric Acid to Beaker with Hydrogen Peroxide and Hexamethylentetramin;Cool Beaker with Hydrogen Peroxide Hexamethylentetramin and Citric Acid;Filtrate HMTD Crystals;Dry HMTD Crystals,
          ReplaceOnUse    	=   	HCBlueprinthmtd,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintHerbalMed
@@ -282,6 +308,7 @@ item HCBlueprintHerbalMed
          Icon           =   HCChemicalresearch,
          TeachedRecipes     =  Create Ginseng Extract;Create Lemongrass Extract,
          ReplaceOnUse       =       HCBlueprintHerbalMed,
+		DisplayCategory          =   LitR,
     }
 
 
@@ -295,6 +322,7 @@ item HCBlueprintammonal
          Icon			=	HCChemicalresearch,
          TeachedRecipes 	=   	Make Ammonal;Dry Ammonal;Fill Ammonal in Bag,
          ReplaceOnUse    	=   	HCBlueprintammonal,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintjackalope
@@ -305,6 +333,7 @@ item HCBlueprintjackalope
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Taxidermy Jackalope,
         ReplaceOnUse    	=   	HCBlueprintjackalope,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintsteampot
@@ -315,6 +344,7 @@ item HCBlueprintsteampot
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Craft Steam Pressure Pot,
         ReplaceOnUse    	=   	HCBlueprintsteampot,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintcarbon
@@ -325,6 +355,7 @@ item HCBlueprintcarbon
          Icon			=	HCChemicalresearch,
          TeachedRecipes 	=   	Make Carbon Powder;Make Carbon Nanorings;Make Carbon Nanochains;Make Carbon Nanofiber,
          ReplaceOnUse    	=   	HCBlueprintcarbon,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintbetablocker
@@ -335,6 +366,7 @@ item HCBlueprintbetablocker
          Icon			=	HCMedicalresearch,
          TeachedRecipes 	=   	Prepare Hawthorn Fruit;Dry Hawthorn Fruit;Make Beta Blocker Pills,
          ReplaceOnUse    	=   	HCBlueprintbetablocker,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintcomposter2
@@ -345,6 +377,7 @@ item HCBlueprintcomposter2
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Build Spirulina Composter;Harvest Spirulina Composter,
         ReplaceOnUse    	=   	HCBlueprintcomposter2,
+		DisplayCategory          =   LitR,
     }
 
 
@@ -356,6 +389,7 @@ item HCBlueprintcomputermouse
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Mouse,
         ReplaceOnUse    	=   	HCBlueprintcomputermouse,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintcomputerkeyboard
@@ -366,6 +400,7 @@ item HCBlueprintcomputerkeyboard
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Keyboard,
         ReplaceOnUse    	=   	HCBlueprintcomputerkeyboard,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintcomputermonitor
@@ -376,6 +411,7 @@ item HCBlueprintcomputermonitor
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Monitor,
         ReplaceOnUse    	=   	HCBlueprintcomputermonitor,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintextractworkingcpu
@@ -386,6 +422,7 @@ item HCBlueprintextractworkingcpu
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Extract Working CPU,
         ReplaceOnUse    	=   	HCBlueprintextractworkingcpu,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintmakecomputerpsu
@@ -396,6 +433,7 @@ item HCBlueprintmakecomputerpsu
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer PSU,
         ReplaceOnUse    	=   	HCBlueprintmakecomputerpsu,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintmakecomputerfan
@@ -406,6 +444,7 @@ item HCBlueprintmakecomputerfan
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Fan,
         ReplaceOnUse    	=   	HCBlueprintmakecomputerfan,
+		DisplayCategory          =   LitR,
     }
 
 item HCBlueprintmakecomputertower
@@ -416,6 +455,7 @@ item HCBlueprintmakecomputertower
         Icon			=	HCBlueprint,
         TeachedRecipes 		=   	Make Computer Tower,
         ReplaceOnUse    	=   	HCBlueprintmakecomputertower,
+		DisplayCategory          =   LitR,
     }
 
 item HCPlanIronMine
@@ -426,6 +466,7 @@ item HCPlanIronMine
         Icon            =   HCBlueprint,
         TeachedRecipes  =   Expand Mine to Iron Mine,
         ReplaceOnUse    =   HCPlanIronMine,
+		DisplayCategory          =   LitR,
     }
 
 item HCPlanCoalMine
@@ -436,6 +477,7 @@ item HCPlanCoalMine
         Icon            =   HCBlueprint,
         TeachedRecipes  =   Expand Mine to Coal Mine,
         ReplaceOnUse    =   HCPlanCoalMine,
+		DisplayCategory          =   LitR,
     }
 
 item HCAdvFitPlan
@@ -446,6 +488,7 @@ item HCAdvFitPlan
         Icon            =   HCBlueprint,
         TeachedRecipes  =   Exercise hard with Punching Bag;Exercise hard with Weights;Exercise hard on Treadmill,
         ReplaceOnUse    =   HCAdvFitPlan,
+		DisplayCategory          =   LitR,
     }
 
 
@@ -457,6 +500,7 @@ item HCCookbookMethanol
         Icon            =   HCCookbook,
         TeachedRecipes  =   Prepare Barrel of Lemon Mash;Distill Methanol,
         ReplaceOnUse    =   HCCookbookMethanol,
+		DisplayCategory          =   LitR,
     }
 
 item HCknittingTextBook
@@ -467,6 +511,7 @@ item HCknittingTextBook
         Icon            =   HCCookbook,
         TeachedRecipes  =   Knit Long Wool Socks;Knit Scarf;Knit Balaclava;Knit Wool Sweater;Knit Thick Wool Sweater,
         ReplaceOnUse    =   HCknittingTextBook,
+		DisplayCategory          =   LitR,
     }
 
 
@@ -478,6 +523,7 @@ item HCSilkworkingTextbook
         Icon            =   HCCookbook,
         TeachedRecipes  =   Make Long Silk Undies,
         ReplaceOnUse    =   HCSilkworkingTextbook,
+		DisplayCategory          =   LitR,
     }
 
 

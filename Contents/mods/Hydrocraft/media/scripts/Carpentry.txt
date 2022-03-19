@@ -12,6 +12,7 @@ module Base
         Sound:LogAddToStack,
         CanBeDoneFromFloor:true,
         Override:true,
+		DisplayCategory	= CraftCarp,
     }
 
     recipe Make Three-Log Stack
@@ -26,6 +27,7 @@ module Base
         Sound:LogAddToStack,
         CanBeDoneFromFloor:true,
         Override:true,
+		DisplayCategory	= CraftCarp,
     }
 
     recipe Make Four-Log Stack
@@ -40,6 +42,7 @@ module Base
         Sound:LogAddToStack,
         CanBeDoneFromFloor:true,
         Override:true,
+		DisplayCategory	= CraftCarp,
     }
 }
 
@@ -59,7 +62,7 @@ item HCLogstack1
         Type            = Normal,
         DisplayName             = Log Pile,
         icon            = HCLogstack1,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCLogstack2
@@ -68,7 +71,7 @@ item HCLogstack2
         Type            = Normal,
         DisplayName             = Log Pile,
         icon            = HCLogstack2,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCLogstack3
@@ -77,7 +80,7 @@ item HCLogstack3
         Type            = Normal,
         DisplayName             = Log Pile,
         icon            = HCLogstack3,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCLogstack4
@@ -86,7 +89,7 @@ item HCLogstack4
         Type            = Normal,
         DisplayName             = Log Stack,
         icon            = HCLogstack4,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCSawdust
@@ -95,6 +98,7 @@ item HCSawdust
         Type                = Normal,
         DisplayName                 = Sawdust,
         icon                = HCSawdust,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodbeam
@@ -103,6 +107,7 @@ item HCWoodbeam
         Type            = Normal,
         DisplayName             = Wood Beam,
         icon            = HCWoodbeam,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodsheet
@@ -111,6 +116,7 @@ item HCWoodsheet
         Type            = Normal,
         DisplayName             = Wood Sheet,
         icon            = HCWoodsheet,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCCurvedshaftsmall
@@ -119,6 +125,7 @@ item HCCurvedshaftsmall
         Type            = Normal,
         DisplayName             = Small Curved Shaft,
         icon            = HCCurvedshaftsmall,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCTongswood
@@ -127,6 +134,7 @@ item HCTongswood
         Type            = Normal,
         DisplayName             = Wooden Tongs,
         icon            = HCTongswood,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodblock
@@ -135,6 +143,7 @@ item HCWoodblock
         Type            = Normal,
         DisplayName             = Wood Block,
         icon            = HCWoodblock,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodwheel
@@ -143,6 +152,7 @@ item HCWoodwheel
         Type            = Normal,
         DisplayName             = Wooden Wheel,
         icon            = HCWoodwheel,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCStampmillwheel
@@ -151,7 +161,7 @@ item HCStampmillwheel
         Type            = Normal,
         DisplayName             = Stamp Mill Wheel,
         icon            = HCStampmillwheel,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWorkbench
@@ -162,7 +172,7 @@ item HCWorkbench
     Capacity                = 50,
         DisplayName             = Workbench,
         icon            = HCWorkbench,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCTablewood
@@ -171,7 +181,7 @@ item HCTablewood
         Type            = Normal,
         DisplayName             = Wood Table,
         icon            = HCTablewood,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCCarpenterbench
@@ -182,7 +192,7 @@ item HCCarpenterbench
     Capacity                = 50,
         DisplayName             = Carpenter Bench,
         icon            = HCCarpenterbench,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCSawbuck
@@ -191,6 +201,7 @@ item HCSawbuck
         Type            = Normal,
         DisplayName             = Sawbuck,
         icon            = HCSawbuck,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCPlankbarrier
@@ -199,7 +210,7 @@ item HCPlankbarrier
         Type            = Normal,
         DisplayName             = Plank Barrier,
         icon            = HCPlankbarrier,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCChurn
@@ -208,7 +219,7 @@ item HCChurn
         Type            = Normal,
         DisplayName             = Churn,
         icon            = HCChurn,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodenbarrel
@@ -217,7 +228,7 @@ item HCWoodenbarrel
         Type            = Normal,
         DisplayName             = Wooden Barrel,
         icon            = HCWinebarrel,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCVat
@@ -228,7 +239,7 @@ item HCVat
         DisplayName             = Wooden Vat,
     ReplaceOnUseOn      = WaterSource-HCVatwater,
         icon            = HCVat,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 1,
     }
 
@@ -244,7 +255,7 @@ item HCVatwater
     ReplaceOnDeplete    =   HCVat,
     ReplaceOnUseOn      =   WaterSource-HCVatwater,
     Icon            =   HCVatwater,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      =   1,
     }
 
@@ -257,6 +268,7 @@ item HCWoodenbucket
     ReplaceOnUseOn  = WaterSource-HCWoodenbucketwater,
     icon            = HCWoodenbucket,
     RainFactor      = 1,
+		DisplayCategory	= CraftCarp,
     }
 
 
@@ -273,21 +285,8 @@ item HCWoodenbucketwater
     ReplaceOnUseOn      =   WaterSource-HCWoodenbucketwater,
     Icon                =   HCWoodenbucketwater,
     RainFactor          =   1,
+		DisplayCategory	= CraftCarp,
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 item HCWoodenring
     {
@@ -295,12 +294,8 @@ item HCWoodenring
         Type            = Normal,
         DisplayName             = Wooden Ring,
         icon            = HCWoodenring,
+		DisplayCategory	= CraftCarp,
     }
-
-
-
-
-
 
 item HCWashtub
     {
@@ -310,7 +305,7 @@ item HCWashtub
         DisplayName             = Wooden Washtub,
     ReplaceOnUseOn      = WaterSource-HCWashtubfull,
         icon            = HCWashtub,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 1,
     }
 
@@ -325,7 +320,7 @@ item HCWashtubfull
     ReplaceOnDeplete    =   HCWashtub,
     ReplaceOnUseOn      =   WaterSource-HCWashtubfull,
     Icon            =   HCWashtubfull,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      =   1,
     }
 
@@ -337,7 +332,7 @@ item HCTrough
         DisplayName             = Wooden Trough,
     ReplaceOnUseOn      = WaterSource-HCTroughfull,
         icon            = HCTrough,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 1,
     }
 
@@ -353,7 +348,7 @@ item HCTroughfull
     ReplaceOnDeplete    =   HCTrough,
     ReplaceOnUseOn      =   WaterSource-HCTroughfull,
     Icon            =   HCTroughfull,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      =   1,
     }
 
@@ -363,6 +358,7 @@ item HCTroughvegoil
         Type            =   Normal,
     DisplayName     =   Wooden Trough with Vegetable Oil,
     Icon            =   HCTroughvegoil,
+		DisplayCategory	= CraftCarp,
     
     }
 
@@ -372,7 +368,7 @@ item HCLumberstack
         Type            = Normal,
         DisplayName             = Lumber Stack,
         icon            = HCLumberstack,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCLumberbox
@@ -381,7 +377,7 @@ item HCLumberbox
         Type            = Normal,
         DisplayName             = Pallet of Lumber,
         icon            = HCLumberbox,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodenpallet
@@ -390,7 +386,7 @@ item HCWoodenpallet
         Type            = Normal,
         DisplayName             = Wooden Pallet,
         icon            = HCWoodenpallet,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCLogbox
@@ -399,7 +395,7 @@ item HCLogbox
         Type            = Normal,
         DisplayName             = Pallet of Logs,
         icon            = HCLogbox,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodwheel
@@ -408,6 +404,7 @@ item HCWoodwheel
         Type            = Normal,
         DisplayName             = Wooden Wheel,
         icon            = HCWoodwheel,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodenwheelbarrow
@@ -418,7 +415,7 @@ item HCWoodenwheelbarrow
     Capacity                = 200,
     DisplayName             = Wooden Wheelbarrow,
     Icon            = HCWoodenwheelbarrow,
-    
+		DisplayCategory	= Container,
     RequiresEquippedBothHands = true,
     }
 
@@ -428,6 +425,7 @@ item HCWoodshingles
         Type            = Normal,
         DisplayName             = Wood Shingles,
         icon            = HCWoodshingles,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCCoffin
@@ -436,7 +434,7 @@ item HCCoffin
         Type            = Normal,
         DisplayName             = Empty Coffin,
         icon            = HCCoffin,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCCoffinfull
@@ -445,7 +443,7 @@ item HCCoffinfull
         Type            = Normal,
         DisplayName             = Full Coffin,
         icon            = HCCoffin,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodenladder
@@ -454,7 +452,7 @@ item HCWoodenladder
         Type            = Normal,
         DisplayName             = Wooden Ladder,
         icon            = HCWoodenladder,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCSpinningwheel
@@ -463,7 +461,7 @@ item HCSpinningwheel
         Type            = Normal,
         DisplayName             = Spinning Wheel,
         icon            = HCSpinningwheel,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCLoom
@@ -472,7 +470,7 @@ item HCLoom
         Type            = Normal,
         DisplayName             = Primitive Loom,
         icon            = HCLoom,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCLoomfloor
@@ -481,7 +479,7 @@ item HCLoomfloor
         Type            = Normal,
         DisplayName             = Floor Loom,
         icon            = HCLoomfloor,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCTablelog
@@ -490,7 +488,7 @@ item HCTablelog
     Type            = Normal,
     DisplayName         = Log Table,
     Icon            = HCTablelog,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCHuntingblind
@@ -501,7 +499,7 @@ item HCHuntingblind
         Capacity                = 100,
         DisplayName             = Hunting Blind,
         icon            = HCHuntingblind,
-    
+		DisplayCategory	= SurHunt,
     }
 
 item HCHuntingblind2
@@ -512,7 +510,7 @@ item HCHuntingblind2
         Capacity                = 100,
         DisplayName             = Hunting Blind,
         icon            = HCHuntingblind,
-    
+		DisplayCategory	= SurHunt,
     }
 
 
@@ -522,7 +520,7 @@ item HCWindmill
         Type            = Normal,
         DisplayName             = Wooden Windmill,
         icon            = HCWindmill,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWindmillblade
@@ -531,7 +529,7 @@ item HCWindmillblade
         Type            = Normal,
         DisplayName             = Windmill Blade,
         icon            = HCWindmillblade,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWatertower
@@ -542,7 +540,7 @@ item HCWatertower
         DisplayName             = Water Tower,
     ReplaceOnUseOn      = WaterSource-HCWatertowerfull,
         icon            = HCWatertower,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 0.01,
     }
 
@@ -559,7 +557,7 @@ item HCWatertowerfull
     ReplaceOnDeplete    =   HCWatertower,
     ReplaceOnUseOn      =   WaterSource-HCWatertowerfull,
     Icon            =   HCWatertower,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      =   0.01,
     }
 
@@ -571,7 +569,7 @@ item HCWatertower2
         DisplayName             = Double Water Tower,
     ReplaceOnUseOn      = WaterSource-HCWatertowerfull2,
         icon            = HCWatertower2,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 0.01,
     }
 
@@ -588,7 +586,7 @@ item HCWatertowerfull2
     ReplaceOnDeplete    =   HCWatertower2,
     ReplaceOnUseOn      =   WaterSource-HCWatertowerfull2,
     Icon            =   HCWatertower2,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      =   0.01,
     }
 
@@ -598,7 +596,7 @@ item HCWaterpump
         Type            = Normal,
         DisplayName             = Water Pump,
         icon            = HCWaterpump,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCWaterpump2
@@ -607,7 +605,7 @@ item HCWaterpump2
         Type            = Normal,
         DisplayName             = Water Pump,
         icon            = HCWaterpump,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 
@@ -617,7 +615,7 @@ item HCClothesline
         Type            = Normal,
         DisplayName             = Clothes Line,
         icon            = HCClothesline,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCClothesline2
@@ -626,7 +624,7 @@ item HCClothesline2
         Type            = Normal,
         DisplayName             = Double Clothes Line,
         icon            = HCClothesline2,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCShower
@@ -637,7 +635,7 @@ item HCShower
         DisplayName             = Empty Makeshift Shower,
         icon            = HCShower,
         ReplaceOnUseOn      = WaterSource-HCShowerfull,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 1,
     }
 
@@ -652,7 +650,7 @@ item HCShowerfull
     UseDelta        = 0.25,
     ReplaceOnDeplete    = HCShower,
         icon            = HCShowerfull,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 1,
     }
 
@@ -664,7 +662,7 @@ item HCShowersink
         DisplayName             = Empty Makeshift Shower and Sink,
         icon            = HCShowersink,
         ReplaceOnUseOn      = WaterSource-HCShowersinkfull,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 1,
     }
 
@@ -679,7 +677,7 @@ item HCShowersinkfull
     UseDelta        = 0.125,
     ReplaceOnDeplete    = HCShowersink,
         icon            = HCShowersinkfull,
-    
+		DisplayCategory	= CraftCarp,
     RainFactor      = 1,
     }
 
@@ -689,6 +687,7 @@ item HCScarecrowstand
         Type            = Normal,
         DisplayName             = Scarecrow Stand,
         icon            = HCScarecrowstand,
+		DisplayCategory	= CraftCarp,
     
     }
 
@@ -698,7 +697,7 @@ item HCScarecrow
         Type            = Normal,
         DisplayName             = Scarecrow,
         icon            = HCScarecrow,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCScarecrow2
@@ -707,7 +706,7 @@ item HCScarecrow2
         Type            = Normal,
         DisplayName             = Scarecrow,
         icon            = HCScarecrow2,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCScarezed
@@ -716,7 +715,7 @@ item HCScarezed
         Type            = Normal,
         DisplayName             = Corpse Scarecrow,
         icon            = HCScarezed,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCScarezed2
@@ -725,7 +724,7 @@ item HCScarezed2
         Type            = Normal,
         DisplayName             = Corpse Scarecrow,
         icon            = HCScarezed2,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCHaytarget
@@ -734,7 +733,7 @@ item HCHaytarget
         Type            = Normal,
         DisplayName             = Archery Target,
         icon            = HCHaytarget,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCBirdcall
@@ -743,6 +742,7 @@ item HCBirdcall
     Type                =   Normal,
     DisplayName             =   Bird Call,
     Icon                =   HCBirdcall,
+		DisplayCategory	= SurHunt,
     }
 
 item HCDuckcall
@@ -751,6 +751,7 @@ item HCDuckcall
     Type                =   Normal,
     DisplayName             =   Duck Call,
     Icon                =   HCDuckcall,
+		DisplayCategory	= SurHunt,
     }
 
 
@@ -760,7 +761,7 @@ item HCWagonwheel
         Type            = Normal,
         DisplayName             = Wagon Wheel,
         icon            = HCWagonwheel,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCYoke
@@ -769,7 +770,7 @@ item HCYoke
         Type            = Normal,
         DisplayName             = Yoke,
         icon            = HCYoke,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 
@@ -781,6 +782,7 @@ item HCWagon
     Capacity                    =   200,
     DisplayName                 =   Wagon,
     Icon                        =   HCWagon,
+	DisplayCategory				=	Container,
    }
 
 item HCWagoncovered
@@ -791,6 +793,7 @@ item HCWagoncovered
     Capacity                    =   300,
     DisplayName                 =   Covered Wagon,
     Icon                        =   HCWagoncovered,
+	DisplayCategory				=	Container,
    }
 
 item HCWagonoxen
@@ -801,6 +804,7 @@ item HCWagonoxen
     Capacity                    =   300,
     DisplayName                 =   Wagon with Oxen,
     Icon                        =   HCWagonoxen,
+	DisplayCategory				=	Container,
     }
 
 item HCWagoncoveredoxen
@@ -811,6 +815,7 @@ item HCWagoncoveredoxen
     Capacity                    =   300,
     DisplayName                 =   Covered Wagon with Oxen,
     Icon                        =   HCWagoncoveredoxen,
+	DisplayCategory				=	Container,
    }
 
 item HCIBC
@@ -822,6 +827,7 @@ item HCIBC
     icon            = HCIBC,
     ReplaceOnUseOn  = WaterSource-HCIBCfull,
     RainFactor      = 0.2,
+	DisplayCategory	= Container,
     }
 
 item HCIBCfull
@@ -835,7 +841,8 @@ item HCIBCfull
     UseDelta            = 0.0125,
     ReplaceOnDeplete    = HCIBC,
     icon                = HCIBC,
-    RainFactor      = 0.2,
+    RainFactor      	= 0.2,
+	DisplayCategory		= Container,
     }
     
 item HCIBCstorage
@@ -847,6 +854,7 @@ item HCIBCstorage
     icon            = HCIBCtower,
     ReplaceOnUseOn  = WaterSource-HCIBCstoragefull,
     RainFactor      = 0.2,
+	DisplayCategory	= Container,
     }
 
 item HCIBCstoragefull
@@ -861,6 +869,7 @@ item HCIBCstoragefull
     ReplaceOnDeplete    = HCIBCstorage,
     icon                = HCIBCtower,
     RainFactor          = 0.2,
+	DisplayCategory		= Container,
     }   
     
 item HCIBCtower
@@ -871,7 +880,7 @@ item HCIBCtower
         DisplayName     = Empty IBC Tower,
         icon            = HCIBCtower2,
         ReplaceOnUseOn  = WaterSource-HCIBCtowerfull,
-    
+	DisplayCategory		= Container,
     RainFactor      = 0.2,
     }
 
@@ -886,7 +895,7 @@ item HCIBCtowerfull
     UseDelta        = 0.00625,
     ReplaceOnDeplete    = HCIBCtower,
         icon            = HCIBCtower2,
-    
+	DisplayCategory		= Container,
     RainFactor      = 0.2,
     }
 
@@ -896,7 +905,7 @@ item HCVendingstand
         Type            = Normal,
         DisplayName             = Vending Stand,
         icon            = HCVendingstand,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCVendingstand2
@@ -905,7 +914,7 @@ item HCVendingstand2
         Type            = Normal,
         DisplayName             = Vending Stand,
         icon            = HCVendingstand2,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCFoldingsign
@@ -916,7 +925,7 @@ item HCFoldingsign
             Icon        =   HCFoldingsign,
             CanBeWrite      =       true,
             PageToWrite     =       1,
-        
+		DisplayCategory	= CraftCarp,
         }
 
 item HCFoldingsignchalkboard
@@ -927,7 +936,7 @@ item HCFoldingsignchalkboard
             Icon        =   HCFoldingsignchalkboard,
             CanBeWrite      =       true,
             PageToWrite     =       1,
-        
+		DisplayCategory	= CraftCarp,
         }
 
 item HCThresher
@@ -936,7 +945,7 @@ item HCThresher
         Type            = Normal,
         DisplayName             = Thresher,
         icon            = HCThresher,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 item HCThreshermech
@@ -945,7 +954,7 @@ item HCThreshermech
         Type            = Normal,
         DisplayName             = Mechanical Thresher,
         icon            = HCThreshermech,
-    
+		DisplayCategory	= CraftCarp,
     }
 
 /************************WEAPONS************************/
@@ -982,6 +991,7 @@ item HCPlankoil
         IdleAnim            =   Idle_Weapon2,
         BreakSound              =       BreakWoodItem,
         TreeDamage              =       0,
+		DisplayCategory		= WepMelee,
     }
 
 /************************RECIPES************************/

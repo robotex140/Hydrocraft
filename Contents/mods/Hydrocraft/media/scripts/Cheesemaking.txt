@@ -14,7 +14,7 @@ item HCCheeserack
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack,
 	Icon			= HCCheeserack,
-	
+		DisplayCategory	= CookRef,
 	}
 
 item HCCheeserackfull
@@ -23,6 +23,7 @@ item HCCheeserackfull
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Cheese,
 	Icon			= HCCheeserackfull,
+		DisplayCategory	= CookRef,
 	
 	}
 
@@ -32,6 +33,7 @@ item HCCheeserackaged
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Aged Cheese,
 	Icon			= HCCheeserackaged,
+		DisplayCategory	= CookRef,
 	
 	}
 
@@ -41,7 +43,7 @@ item HCCheeserackfullcheddar
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Cheddar Cheese,
 	Icon			= HCCheeserackfullcheddar,
-	
+		DisplayCategory	= CookRef,
 	}
 
 item HCCheeserackagedcheddar
@@ -50,7 +52,7 @@ item HCCheeserackagedcheddar
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Aged Cheddar Cheese,
 	Icon			= HCCheeserackagedcheddar,
-	
+		DisplayCategory	= CookRef,
 	}
 
 
@@ -60,7 +62,7 @@ item HCCheeserackfullcheddarwaxed
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Waxed Cheddar Cheese,
 	Icon			= HCCheeserackfullcheddarwaxed,
-	
+		DisplayCategory	= CookRef,
 	}
 
 item HCCheeserackagedcheddarwaxed
@@ -69,7 +71,7 @@ item HCCheeserackagedcheddarwaxed
 	Type 			= Normal,
 	DisplayName 		= Cheese Rack with Aged Waxed Cheddar Cheese,
 	Icon			= HCCheeserackagedcheddarwaxed,
-	
+		DisplayCategory	= CookRef,
 	}
 
 
@@ -81,6 +83,7 @@ item HCRennet
 	ReplaceOnDeplete	= HCClayjarsmall,
     DisplayName         = Jar of Rennet,
     icon 			    = HCRennet,
+		DisplayCategory	= CookRef,
     }
 
 item HCVatcheese
@@ -89,7 +92,7 @@ item HCVatcheese
         Type    		= Normal,
         DisplayName     = Cheese Vat,
         icon 			= HCVatcheese,
-	
+		DisplayCategory	= CookRef,
     }
 
 item HCCheesetray
@@ -98,6 +101,7 @@ item HCCheesetray
         Type    		= Normal,
         DisplayName     = Cheese Tray,
         icon 			= HCCheesetray,
+		DisplayCategory	= CookRef,
     }
 
 item HCCheesetrayfull
@@ -106,6 +110,7 @@ item HCCheesetrayfull
         Type    		= Normal,
         DisplayName     = Full Cheese Tray,
         icon 			= HCCheesetrayfull,
+		DisplayCategory	= CookRef,
     }
 
 item HCCheesecurd
@@ -115,6 +120,7 @@ item HCCheesecurd
 		DaysTotallyRotten	=	10,
 		DisplayName		=	Cheese Curd,
 		Icon			=	HCCheesecurd,
+		DisplayCategory	= CookRef,
 	}
 
 item HCCheesewheel
@@ -131,6 +137,7 @@ item HCCheesewheel
         Proteins 		= 	300,
         Lipids 			= 	324,
         Calories 		= 	4272,
+		DisplayCategory	= FoodP,
 	}
 
 item HCCheesecloth
@@ -139,6 +146,7 @@ item HCCheesecloth
         Type    		= Normal,
         DisplayName     = Cheese Cloth,
         icon 			= HCCheesecloth,
+		DisplayCategory	= CookRef,
     }
 
 item HCPotcheeseclothwrappedwax
@@ -147,6 +155,7 @@ item HCPotcheeseclothwrappedwax
         Type    		= Normal,
         DisplayName     = Pot with Cheese Cloth-Wrapped Beeswax,
         icon 			= HCPotcheeseclothwrappedwax,
+		DisplayCategory	= CookRef,
 	
     }
 
@@ -156,6 +165,7 @@ item HCPotrefinedwax
         Type    		= Normal,
         DisplayName     = Pot with Refined Beeswax,
         icon 			= HCPotrefinedwax,
+		DisplayCategory	= CookRef,
 	
     }
 
@@ -165,6 +175,7 @@ item HCRefinedbeeswax
         Type                    = Normal,
         DisplayName             = Refined Beeswax,
         icon                    = HCRefinedbeeswax,
+		DisplayCategory	= CookRef,
     }
 
 item HCPotmeltedrefinedwax
@@ -173,7 +184,7 @@ item HCPotmeltedrefinedwax
         Type    		= Normal,
         DisplayName     = Pot of Melted Refined Beeswax,
         icon 			= HCPotmeltedrefinedwax,
-	
+		DisplayCategory	= CookRef,
     }
 
 item HCCurdkneaded
@@ -183,7 +194,7 @@ item HCCurdkneaded
 		DaysTotallyRotten	=	10,
 		DisplayName		=	Kneaded Cheese Curd,
 		Icon			=	HCCheesecurdkneaded,
-
+		DisplayCategory	= CookRef,
 	}
 
 item HCCurdcubed
@@ -193,7 +204,7 @@ item HCCurdcubed
 		DaysTotallyRotten	=	10,
 		DisplayName		=	Cubed Cheese Curd,
 		Icon			=	HCCheesecurdcubed,
-
+		DisplayCategory	= CookRef,
 	}
 
 item HCCheddarcheesetrayfull
@@ -202,6 +213,7 @@ item HCCheddarcheesetrayfull
         Type                    = Normal,
         DisplayName             = Full Cheddar Cheese Tray,
         icon                    = HCCheesetrayfull,
+		DisplayCategory	= CookRef,
         }
 
 item HCCheddarwheelunaged
@@ -218,6 +230,7 @@ item HCCheddarwheelunaged
         Proteins 		= 	300,
         Lipids 			= 	396,
         Calories 		= 	4824,
+		DisplayCategory	= FoodP,
 	}
 
 item HCCheddarwheelwaxed
@@ -234,6 +247,7 @@ item HCCheddarwheelwaxed
         Proteins 		= 	300,
         Lipids 			= 	396,
         Calories 		= 	4824,
+		DisplayCategory	= FoodP,
 	}
 
 item HCCheddarwheelaged
@@ -250,6 +264,7 @@ item HCCheddarwheelaged
         Proteins 		= 	300,
         Lipids 			= 	396,
         Calories 		= 	4824,
+		DisplayCategory	= FoodP,
 	}
 
 item HCCheddar
@@ -269,6 +284,7 @@ item HCCheddar
         Lipids 			= 	66,
         Calories 		= 	402,
         EvolvedRecipe           =       Burger:6;Salad:6;Sandwich:6,
+		DisplayCategory	= FoodP,
 	}
 
 item HCCreamcheeseculture
@@ -282,6 +298,7 @@ item HCCreamcheeseculture
 	DaysFresh 			=	7,
 	FoodType			= 	NoExplicit,
 	Icon				=	HCWoodenbucketmilk,
+		DisplayCategory	= FoodP,
     }
 	
 item HCCreamcheese
@@ -296,6 +313,7 @@ item HCCreamcheese
 	Icon				=	HCCreamcheese,
 	ReplaceOnUse			=	Bowl,
         EvolvedRecipe         	 	=       Sandwich:4,
+		DisplayCategory	= FoodP,
     }
 
 
@@ -311,6 +329,7 @@ item HCSmokedsalmoncreamcheese
 	Icon				=	HCSmokedsalmoncreamcheese,
 	ReplaceOnUse			=	Bowl,
         EvolvedRecipe         	 	=       Sandwich:5,
+		DisplayCategory	= FoodP,
     }
 
 
@@ -324,6 +343,7 @@ item HCSmokedsalmoncreamcheesesandwich
 	DaysFresh 			=	4,
 	FoodType			= 	NoExplicit,
 	Icon				=	HCSmokedsalmoncreamcheesesandwich,
+		DisplayCategory	= FoodP,
     }
 		
 /************************RECIPES************************/
