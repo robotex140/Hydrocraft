@@ -1027,7 +1027,8 @@ recipe Make Huge Ingot Mold
 
 recipe Make Leaf Spring Mold
     {
-    HCRedclay=2,
+    HCRedclay,
+    HCGreyclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1072,26 +1073,9 @@ recipe Make Arrow Head Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-
-recipe Make Leaf Spring Mold
+recipe Make Ring Mold
     {
-    HCGreyclay=2,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCLeafSpringMold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1104,24 +1088,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Fishhook Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCRingmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1134,24 +1103,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Nail Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCFishhookmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1164,24 +1118,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Screw Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCNailmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1194,24 +1133,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Gear Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCScrewmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1224,24 +1148,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Bung Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCGearmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1254,24 +1163,10 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Anvil Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCBungmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay=10,
+    HCGreyclay=5,
+    HCRedclay=5,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1284,9 +1179,10 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Giant Magnet Mold
     {
-    HCRedclay=10,
+    HCGreyclay=5,
+    HCRedclay=5,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1299,39 +1195,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Bullet Casing Mold
     {
-    HCGreyclay=10,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCGiantmagnetmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCRedclay=10,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCAnvilmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1344,24 +1210,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Bullet Tip Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCBulletcasingmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1374,24 +1225,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Buckshot Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCBullettipmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1404,24 +1240,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Block Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCBuckshotmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Make Clay Mold
-    {
-    HCGreyclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1434,39 +1255,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+	recipe Make Pipe Mold
     {
-    HCRedclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCBlockmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-	
-	recipe Make Clay Mold
-    {
-    HCGreyclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCPipemold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-	
-recipe Make Clay Mold
-    {
-    HCRedclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1479,24 +1270,9 @@ recipe Make Clay Mold
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Clay Mold
+recipe Make Bar Mold
     {
-    HCGreyclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCBarmold,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-	
-recipe Make Clay Mold
-    {
-    HCRedclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,

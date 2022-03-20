@@ -812,7 +812,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Pottery Textbook,
 		Icon		=	HCBookpottery,
-		TeachedRecipes  =   	Make Bone Clay;Make Kiln;Make Clay Pot;Make Clay Flowerpot;Make Clay Jar;Make Small Clay Jar;Make Clay Mug;Make Clay Teapot;Make Clay Cauldron;Make Clay Urn;Make Large Clay Urn;Make Clay Smoking Pipe;Make Clay Pipe;Make Clay Mold;Make Porcelain Teacup;Make Porcelain Saucer;Make Porcelain Teapot;Make Porcelain Plate;Make Porcelain Platter;Make Porcelain Vase;Make Spindle Head;Make Clay Oil Lamp;Make Leaf Spring Mold;Make Bolt Mold;Make Arrow Head Mold;Make Ingot Mold;Make Huge Ingot Mold,
+		TeachedRecipes  =   	Make Bone Clay;Make Kiln;Make Clay Pot;Make Clay Flowerpot;Make Clay Jar;Make Small Clay Jar;Make Clay Mug;Make Clay Teapot;Make Clay Cauldron;Make Clay Urn;Make Large Clay Urn;Make Clay Smoking Pipe;Make Clay Pipe;Make Ring Mold;Make Bar Mold;Make Nail Mold;Make Screw Mold;Make Fishhook Mold;Make Gear Mold;Make Bung Mold;Make Giant Magnet Mold;Make Bullet Casing Mold;Make Bullet Tip Mold;Make Anvil Mold;Make Buckshot Mold;Make Block Mold;Make Pipe Mold;Make Porcelain Teacup;Make Porcelain Saucer;Make Porcelain Teapot;Make Porcelain Plate;Make Porcelain Platter;Make Porcelain Vase;Make Spindle Head;Make Clay Oil Lamp;Make Leaf Spring Mold;Make Bolt Mold;Make Arrow Head Mold;Make Ingot Mold;Make Huge Ingot Mold,
         ReplaceOnUse    =   	HCBookpottery,
 	}
 
