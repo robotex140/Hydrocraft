@@ -15,6 +15,7 @@ item HCEyedropperammonia
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Ammonia,
         icon 			= 	HCEyedropperammonia,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppercalciumchloridesolution
@@ -23,6 +24,7 @@ item HCEyedroppercalciumchloridesolution
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Calciumchloride Solution,
         icon 			= 	HCEyedroppercalciumchloridesolution,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedropperh2o2
@@ -31,6 +33,7 @@ item HCEyedropperh2o2
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With H2O2,
         icon 			= 	HCEyedropperh2o2,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppermercuricoxide
@@ -39,6 +42,7 @@ item HCEyedroppermercuricoxide
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Mercuricoxide,
         icon 			= 	HCEyedroppermercuricoxide,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppermethylamin
@@ -47,6 +51,7 @@ item HCEyedroppermethylamin
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Methylamin,
         icon 			= 	HCEyedroppermethylamin,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppermorphinhydrochloridsolution
@@ -55,6 +60,7 @@ item HCEyedroppermorphinhydrochloridsolution
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Morphinhydrochlorid Solution,
         icon 			= 	HCEyedroppermorphinhydrochloridsolution,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppermuriaticacid
@@ -63,6 +69,7 @@ item HCEyedroppermuriaticacid
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Muriatic Acid,
         icon 			= 	HCEyedroppermuriaticacid,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedropperpotassiumpermanganate
@@ -71,6 +78,7 @@ item HCEyedropperpotassiumpermanganate
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Potassium Permanganate,
         icon 			= 	HCEyedropperpotassiumpermanganate,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedropperphenyl
@@ -79,6 +87,7 @@ item HCEyedropperphenyl
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Phenylacetic Acid,
         icon 			= 	HCEyedropperphenyl,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppersodiumhydroxidesolution
@@ -87,6 +96,7 @@ item HCEyedroppersodiumhydroxidesolution
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Sodiumhydroxide Solution,
         icon 			= 	HCEyedroppersodiumhydroxidesolution,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppersulfuricacid
@@ -95,6 +105,7 @@ item HCEyedroppersulfuricacid
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Sulfuric Acid,
         icon 			= 	HCEyedroppersulfuricacid,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedroppertronasulution
@@ -103,6 +114,7 @@ item HCEyedroppertronasulution
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Trona Solution,
         icon 			= 	HCEyedroppertronasulution,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedropperwater
@@ -111,6 +123,7 @@ item HCEyedropperwater
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Water,
         icon 			= 	HCEyedropperwater,
+	DisplayCategory			= CraftChem,
     }
 
 item HCEyedropperether
@@ -119,6 +132,7 @@ item HCEyedropperether
 	Type			= 	Normal,
         DisplayName         	= 	Eyedropper With Ether,
         icon 			= 	HCEyedropperether,
+	DisplayCategory			= CraftChem,
     }
 
 /************************RECIPES************************/	

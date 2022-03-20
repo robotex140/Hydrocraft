@@ -27,6 +27,7 @@ module Hydrocraft
 		Proteins 			= 	8.7,
 		Lipids 				= 	11.1,
 		Calories 			= 	264,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCHashbrowns
@@ -47,6 +48,7 @@ module Hydrocraft
 		Proteins 			= 	9,
 		Lipids 				= 	39,
 		Calories 			= 	795,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCPotatopancakes
@@ -68,6 +70,7 @@ module Hydrocraft
 		Proteins 			= 	12.2,
 		Lipids 				= 	30,
 		Calories 			= 	536,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCMashedpotatosplain
@@ -89,6 +92,7 @@ module Hydrocraft
 		Proteins 			= 	5.7,
 		Lipids 				= 	0.3,
 		Calories 			= 	261,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCMashedpotatoscreamy
@@ -112,6 +116,7 @@ module Hydrocraft
         Proteins 			= 	5.7,
         Lipids 				= 	12.6,
         Calories 			= 	339,
+		DisplayCategory		=	FoodP,
 	}	
 
 	item HCMashedpotatosplainbowl
@@ -129,6 +134,7 @@ module Hydrocraft
         Proteins 			= 	2.85,
         Lipids 				= 	0.15,
         Calories 			= 	130.5, 	
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCMashedpotatoscreamybowl
@@ -148,6 +154,7 @@ module Hydrocraft
 		Proteins 			= 	2.85,
 		Lipids 				= 	6.3,
 		Calories 			= 	169.5, 	
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCFries
@@ -169,6 +176,7 @@ module Hydrocraft
 		Proteins 			= 	7,
 		Lipids 				= 	28,
 		Calories 			= 	578,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCSpiffoscheesefries
@@ -188,6 +196,7 @@ module Hydrocraft
 		Proteins 			= 	7,
 		Lipids 				= 	28,
 		Calories 			= 	578,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCPotatoflour
@@ -199,6 +208,7 @@ module Hydrocraft
 		DisplayName			=	Bag of Potato Flour,
 		ReplaceOnDeplete	=	HCZipperbag,
 		Icon				=	HCPotatoflour,
+		DisplayCategory		=	Cooking,
 	}
 	
 	item HCPotatomush
@@ -222,6 +232,7 @@ module Hydrocraft
 		Proteins 			= 	16.6,
 		Lipids 				= 	0.8,
 		Calories 			= 	708,
+		DisplayCategory		=	FoodP,
 	}
 
 /************************RECIPES************************/

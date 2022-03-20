@@ -14,6 +14,7 @@ item HCHerbtable
 	Type 			= Normal,
 	DisplayName 		= Herbalist Table,
 	Icon			= HCHerbtable,
+	DisplayCategory          =   SurFor,
 	
 	}
 
@@ -23,6 +24,7 @@ item HCPollen
         Type            	= Normal,
         DisplayName     	= Pollen,
         Icon            	= HCPollen,
+	DisplayCategory          =   SurFor,
         
     }
 
@@ -32,6 +34,7 @@ item HCHops
         Type    		= Normal,
         DisplayName         	= Hops,
         icon 			= HCHops,
+	DisplayCategory          =   SurFor,
     } 
 
 item HCTeafresh
@@ -40,6 +43,7 @@ item HCTeafresh
         Type    		= Normal,
         DisplayName         	= Fresh Tea Leaves,
         icon 			= HCTeafresh,
+	DisplayCategory          =   SurFor,
     }  
 
 item HCTeagreen
@@ -48,6 +52,7 @@ item HCTeagreen
         Type    		= Normal,
         DisplayName         	= Green Tea Leaves,
         icon 			= HCTeagreen,
+	DisplayCategory          =   SurFor,
     }  
 
 item HCTeablack
@@ -56,6 +61,7 @@ item HCTeablack
         Type    		= Normal,
         DisplayName         	= Black Tea Leaves,
         icon 			= HCTeablack,
+	DisplayCategory          =   SurFor,
     }  
 
 item HCCorncobpipe
@@ -64,6 +70,7 @@ item HCCorncobpipe
         Type    		= Normal,
         DisplayName         	= Corn Cob Pipe,
         icon 			= HCCorncobpipe,
+	DisplayCategory          =   SurFor,
     }
 
 item HCMulberryleaf
@@ -72,6 +79,7 @@ item HCMulberryleaf
         Type    		= Normal,
         DisplayName         	= Mulberry Leaf,
         icon 			= HCMulberryleaf,
+	DisplayCategory          =   SurFor,
     } 
 
 item HCMulberry
@@ -88,6 +96,7 @@ item HCMulberry
         Proteins 			= 	4,
         Lipids 				= 	0.4,
         Calories 			= 	70,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCCamomiledry
@@ -96,6 +105,7 @@ item HCCamomiledry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Camomile,
         icon 			= 	HCCamomiledry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCCamomileteamug
@@ -117,6 +127,7 @@ item HCCamomileteamug
         Lipids 				= 	0,
         Calories 			= 	10,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodB,
 }
 
 item HCCamomileteaclaymug
@@ -138,6 +149,7 @@ item HCCamomileteaclaymug
         Lipids 				= 	0,
         Calories 			= 	10,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodB,
 }
 
 item HCNettlesdry
@@ -146,6 +158,7 @@ item HCNettlesdry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Nettles,
         icon 			= 	HCNettlesdry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCNettleteamug
@@ -168,6 +181,7 @@ item HCNettleteamug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCNettleteaclaymug
@@ -190,6 +204,7 @@ item HCNettleteaclaymug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCThistledry
@@ -198,6 +213,7 @@ item HCThistledry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Thistle,
         icon 			= 	HCThistledry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCThistleteamug
@@ -217,6 +233,7 @@ item HCThistleteamug
         Lipids 				= 	0,
         Calories 			= 	10,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodB,
 }
 
 item HCThistleteaclaymug
@@ -236,6 +253,7 @@ item HCThistleteaclaymug
         Lipids 				= 	0,
         Calories 			= 	10,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodB,
 }
 
 item HCSkullcapdry
@@ -244,6 +262,7 @@ item HCSkullcapdry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Skullcap,
         icon 			= 	HCSkullcapdry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCSkullcapteamug
@@ -267,6 +286,7 @@ item HCSkullcapteamug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCSkullcapteaclaymug
@@ -290,6 +310,7 @@ item HCSkullcapteaclaymug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDaisydry
@@ -298,6 +319,7 @@ item HCDaisydry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Daisy,
         icon 			= 	HCDaisydry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCDaisyteamug
@@ -318,6 +340,7 @@ item HCDaisyteamug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDaisyteaclaymug
@@ -338,6 +361,7 @@ item HCDaisyteaclaymug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCAnemomedry
@@ -346,6 +370,7 @@ item HCAnemomedry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Anemone,
         icon 			= 	HCAnemomedry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCAnemometeamug
@@ -365,6 +390,7 @@ item HCAnemometeamug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCAnemometeaclaymug
@@ -384,6 +410,7 @@ item HCAnemometeaclaymug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCCamelliadry
@@ -392,6 +419,7 @@ item HCCamelliadry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Camellia,
         icon 			= 	HCCamelliadry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCCamelliateamug
@@ -412,6 +440,7 @@ item HCCamelliateamug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCCamelliateaclaymug
@@ -432,6 +461,7 @@ item HCCamelliateaclaymug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 
@@ -441,6 +471,7 @@ item HCChilipepperstem
         Type    		= 	Normal,
         DisplayName         	= 	Chili Pepper Stem,
         icon 			= 	HCChilipepperstem,
+	DisplayCategory          =   SurFor,
     }
 
 item HCChilipepperdry
@@ -449,6 +480,7 @@ item HCChilipepperdry
         Type    		= Normal,
         DisplayName         	= Dried Chili Peppers,
         icon 			= HCChilipepperdry,
+	DisplayCategory          =   SurFor,
     } 
 
 item HCRiceraw
@@ -461,6 +493,7 @@ item HCRiceraw
 	Icon			= 	HCRiceraw,
 
 	Weight			= 	0.1,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -474,6 +507,7 @@ item HCChaffrice
 	Icon			= 	HCChaffrice,
 
 	Weight			= 	0.1,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -487,6 +521,7 @@ item HCChaff
 	Icon			= 	HCChaff,
 
 	Weight			= 	0.1,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -500,6 +535,7 @@ item HCBran
 	Icon			= 	HCBran,
 
 	Weight			= 	0.1,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -513,6 +549,7 @@ item HCCob
 	Icon			= 	HCCob,
 
 	Weight			= 	0.1,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -527,6 +564,7 @@ item HCHusk
 	Icon			= 	HCHusk,
 
 	Weight			= 	0.1,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -540,6 +578,7 @@ item HCBamboo
 	Icon			= 	HCBamboo,
 
 	Weight			= 	1.0,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -553,6 +592,7 @@ item HCBamboogutter
 	Icon			= 	HCBamboogutter,
 
 	Weight			= 	0.5,
+	DisplayCategory          =   SurFor,
 
 	}
 
@@ -562,6 +602,7 @@ item HCGarlicdry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Garlic,
         icon 			= 	HCGarlicdry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCOniondry
@@ -570,6 +611,7 @@ item HCOniondry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Onion,
         icon 			= 	HCOniondry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCJuniperberrydry
@@ -578,6 +620,7 @@ item HCJuniperberrydry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Juniper Berry,
         icon 			= 	HCJuniperberrydry,
+	DisplayCategory          =   SurFor,
     }
 
 item HCLavenderdry
@@ -586,6 +629,7 @@ item HCLavenderdry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Lavender,
         icon 			= 	HCLavenderdry,
+	DisplayCategory          =   SurFor,
     }
 
 
@@ -605,6 +649,7 @@ item HCGinsengExtract
         Calories            = 0.1,
         ReplaceOnUse        = Hydrocraft.HCGlasstesttubecork,
         CustomEatSound      = DrinkingFromBottle,
+	DisplayCategory          =   Drug,
     }
 
 
@@ -624,6 +669,7 @@ item HCLemongrassExtract
         Calories            = 0.1,
         ReplaceOnUse        = Hydrocraft.HCGlasstesttubecork,
         CustomEatSound      = DrinkingFromBottle,
+	DisplayCategory          =   Drug,
     }
 
 

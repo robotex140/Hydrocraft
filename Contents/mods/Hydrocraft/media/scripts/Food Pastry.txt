@@ -24,6 +24,7 @@ item HCHoneybundough
         Proteins 			= 	25.6,
         Lipids 				= 	92,
         Calories 			= 	1612,
+		DisplayCategory		= FoodP,
 	}
 
 item HCHoneybuntray
@@ -47,6 +48,7 @@ item HCHoneybuntray
         Proteins 			= 	25.6,
         Lipids 				= 	92,
         Calories 			= 	1612,
+		DisplayCategory		= FoodP,
 	}
 
 item HCHoneybun
@@ -68,6 +70,7 @@ item HCHoneybun
         Proteins 			= 	6.4,
         Lipids 				= 	23,
         Calories 			= 	403,
+		DisplayCategory		= FoodP,
 	}
 
 item HCCupcakebatter
@@ -91,6 +94,7 @@ item HCCupcakebatter
         	Proteins 		= 	12.9,
         	Lipids 			= 	22.2,
         	Calories 		= 	1830,
+		DisplayCategory		= FoodP,
     }
 
 item HCCupcakeshomemadepan
@@ -114,6 +118,7 @@ item HCCupcakeshomemadepan
         	Proteins 		= 	12.9,
         	Lipids 			= 	22.2,
         	Calories 		= 	1830,
+		DisplayCategory		= FoodP,
 	}
 
 item HCFrosting
@@ -129,6 +134,7 @@ item HCFrosting
         Proteins 			= 	0.4,
         Lipids 				= 	0.5,
         Calories 			= 	341,
+		DisplayCategory		= FoodN,
 	}
 
 item HCCupcake
@@ -151,6 +157,7 @@ item HCCupcake
         Proteins 			= 	2.15,
         Lipids 				= 	3.7,
         Calories 			= 	305,
+		DisplayCategory		= FoodP,
 	}
 
 item HCCupcakefrosted
@@ -173,6 +180,7 @@ item HCCupcakefrosted
         Proteins 			= 	2.15,
         Lipids 				= 	8.7,
         Calories 			= 	355,
+		DisplayCategory		= FoodP,
 	}
 
 item HCFruitcakebatter
@@ -181,6 +189,7 @@ item HCFruitcakebatter
 	Type				=	Food,
 	DisplayName			=	Fruit Cake Batter,
 	Icon				=	HCFruitcakebatter,
+		DisplayCategory		= Cooking,
     	}
 
 	item HCFruitcakepan
@@ -204,6 +213,7 @@ item HCFruitcakebatter
 	Proteins 			= 	50.24,
 	Lipids 				= 	25.82,
 	Calories 			= 	675,
+		DisplayCategory		= FoodP,
 	}
 
 	item HCFruitcake
@@ -225,6 +235,7 @@ item HCFruitcakebatter
 	Proteins 			= 	50.24,
 	Lipids 				= 	25.82,
 	Calories 			= 	675,
+		DisplayCategory		= FoodP,
 	}
 
 item HCFruitcakeslices
@@ -243,6 +254,7 @@ item HCFruitcakeslices
 	Proteins 			= 	16.74,
 	Lipids 				= 	8.6,
 	Calories 			= 	225,
+		DisplayCategory		= FoodP,
     	}
 
 /************************RECIPES************************/

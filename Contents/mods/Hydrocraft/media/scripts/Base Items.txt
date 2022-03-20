@@ -718,7 +718,7 @@ module Base
         	Lipids 			= 	25,
         	Calories 		= 	670,
         	Packaged 		= 	TRUE,
-		ReplaceOnUse	=	Hydrocraft.HCTVDinnerempty,
+		ReplaceOnUse	=	Hydrocraft.HCTVDinnerpackage,
 		DisplayCategory          =   FoodN,
 	}
 

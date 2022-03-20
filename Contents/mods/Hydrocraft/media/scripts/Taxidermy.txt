@@ -15,6 +15,7 @@ item HCAnimalglasseye
         Type    	= Normal,
         DisplayName     = Glass Animal Eye,
         icon 		= HCAnimalglasseye,
+		DisplayCategory	= Misc,
     }
 
 item HCArmaturesmallanimalwood
@@ -23,6 +24,7 @@ item HCArmaturesmallanimalwood
         Type    	= Normal,
         DisplayName     = Wooden Small Animal Armature,
         icon 		= HCArmaturesmallanimalwood,
+		DisplayCategory	= Misc,
     }
 
 item HCArmaturesmallanimalstraw
@@ -31,6 +33,7 @@ item HCArmaturesmallanimalstraw
         Type    	= Normal,
         DisplayName     = Straw Small AnimalArmature,
         icon 		= HCArmaturesmallanimalstraw,
+		DisplayCategory	= Misc,
     }
 
 item HCArmaturesmallanimalclay
@@ -39,6 +42,7 @@ item HCArmaturesmallanimalclay
         Type    	= Normal,
         DisplayName     = Clay Small Animal Armature,
         icon 		= HCArmaturesmallanimalclay,
+		DisplayCategory	= Misc,
     }
 
 item HCTaxidermymouse
@@ -47,6 +51,7 @@ item HCTaxidermymouse
         Type    	= Normal,
         DisplayName     = Taxidermy Mouse,
         icon 		= HCTaxidermymouse,
+		DisplayCategory	= Misc,
     }
 
 item HCArmaturemediumanimalwood
@@ -55,6 +60,7 @@ item HCArmaturemediumanimalwood
         Type    	= Normal,
         DisplayName     = Wooden Medium Animal Armature,
         icon 		= HCArmaturemediumanimalwood,
+		DisplayCategory	= Misc,
     }
 
 item HCArmaturemediumanimalstraw
@@ -63,6 +69,7 @@ item HCArmaturemediumanimalstraw
         Type    	= Normal,
         DisplayName     = Straw Medium Animal Armature,
         icon 		= HCArmaturemediumanimalstraw,
+		DisplayCategory	= Misc,
     }
 
 item HCArmaturemediumanimalclay
@@ -71,6 +78,7 @@ item HCArmaturemediumanimalclay
         Type    	= Normal,
         DisplayName    	= Clay Medium Animal Armature,
         icon 		= HCArmaturemediumanimalclay,
+		DisplayCategory	= Misc,
     }
 
 item HCTaxidermyrabbit
@@ -79,6 +87,7 @@ item HCTaxidermyrabbit
         Type    	= Normal,
         DisplayName     = Taxidermy Rabbit,
         icon 		= HCTaxidermyrabbit,
+		DisplayCategory	= Misc,
     }
 
 item HCTaxidermyjackalope
@@ -87,6 +96,7 @@ item HCTaxidermyjackalope
         Type    	= Normal,
         DisplayName     = Taxidermy Jackalope,
         icon 		= HCTaxidermyjackalope,
+		DisplayCategory	= Misc,
     }
 
 item HCTaxidermyworkbench
@@ -97,6 +107,7 @@ item HCTaxidermyworkbench
 	Capacity             	= 50,
         DisplayName         	= Taxidermy Workbench,
         icon 			= HCTaxidermyworkbench,
+		DisplayCategory	= Misc,
 	
     }
 

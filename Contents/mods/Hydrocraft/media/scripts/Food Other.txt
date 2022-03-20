@@ -25,6 +25,7 @@ item HCCornonthecob
         Proteins 			= 	6.2,
         Lipids 				= 	4.7,
         Calories 			= 	212,
+		DisplayCategory		= FoodP,
 	}
 
 item HCLeftovers1
@@ -41,6 +42,7 @@ item HCLeftovers1
         Proteins 			= 	25.5,
         Lipids 				= 	4.5,
         Calories 			= 	650,
+		DisplayCategory		= FoodP,
 	}
 
 item HCLeftovers2
@@ -58,6 +60,7 @@ item HCLeftovers2
         Proteins 			= 	29.6,
         Lipids 				= 	24,
         Calories 			= 	258,
+		DisplayCategory		= FoodP,
 	}
 
 item HCCottoncandy
@@ -74,6 +77,7 @@ item HCCottoncandy
         Lipids 				= 	0.2,
         Calories 			= 	394,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPretzel
@@ -89,6 +93,7 @@ item HCPretzel
         Proteins 			= 	10,
         Lipids 				= 	2.9,
         Calories 			= 	384,
+		DisplayCategory		= FoodN,
 	}
 		
 /************************RECIPES************************/

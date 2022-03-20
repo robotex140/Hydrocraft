@@ -15,6 +15,7 @@ item HCComputerdesktop
         Type    		= Normal,
         DisplayName         	= Desktop Computer,
         icon 			= HCComputerdesktop,
+		DisplayCategory = CraftElec,
 	
     }
 
@@ -24,6 +25,7 @@ item HCFloppy
         Type    		= Normal,
         DisplayName         	= Floppy Disk,
         icon 			= HCFloppy,
+		DisplayCategory = Misc,
     }
 
 item HCFloppyevosim
@@ -32,6 +34,7 @@ item HCFloppyevosim
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Evolution Simulator,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 item HCFloppygesture
@@ -40,6 +43,7 @@ item HCFloppygesture
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Gesture Recognition Software,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 item HCFloppyvoice
@@ -48,6 +52,7 @@ item HCFloppyvoice
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Voice Recognition Software,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 item HCFloppygraphics
@@ -56,6 +61,7 @@ item HCFloppygraphics
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Graphics Software,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 item HCFloppywriting
@@ -64,6 +70,7 @@ item HCFloppywriting
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Writing Software,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 item HCFloppyweb
@@ -72,6 +79,7 @@ item HCFloppyweb
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Web Browser Software,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 item HCFloppyaudio
@@ -80,6 +88,7 @@ item HCFloppyaudio
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Audio Software,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 item HCFloppyemail
@@ -88,6 +97,7 @@ item HCFloppyemail
         Type    		= Normal,
         DisplayName         	= Floppy Disk with Email Software,
         icon 			= HCFloppyfull,
+		DisplayCategory = Misc,
     }
 
 /************************RECIPES************************/	

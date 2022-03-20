@@ -21,6 +21,7 @@ item HCCereal2
         Calories 			= 	2560,
         Packaged 			= 	TRUE,
 	ReplaceOnDeplete		=	Hydrocraft.HCCereal2trash,
+	DisplayCategory          =   FoodN,
 	}
 	
 item HCCereal3
@@ -36,6 +37,7 @@ item HCCereal3
         Calories 			= 	2360,
         Packaged 			= 	TRUE,
 	ReplaceOnDeplete	=	Hydrocraft.HCCereal3trash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBowlofcereal
@@ -57,6 +59,7 @@ item HCBowlofcereal
         Lipids 				= 	2,
         Calories 			= 	255,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodP,
 	}
 	
 item HCFriedegg
@@ -79,6 +82,7 @@ item HCFriedegg
         Lipids 				= 	15,
         Calories 			= 	196,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodP,
 }
 
 item HCScrambledegg
@@ -101,6 +105,7 @@ item HCScrambledegg
         Lipids 				= 	7,
         Calories 			= 	91,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodP,
 }
 
 item HCScrambledeggcheese
@@ -123,6 +128,7 @@ item HCScrambledeggcheese
         Lipids 				= 	28,
         Calories 			= 	34,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodP,
 }
 
 item HCOmelet
@@ -145,6 +151,7 @@ item HCOmelet
         Lipids 				= 	28,
         Calories 			= 	34,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodP,
 }
 
 item HCOmeletveg
@@ -167,6 +174,7 @@ item HCOmeletveg
         Lipids 				= 	28,
         Calories 			= 	64,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodP,
 }
 
 item HCHardboiledegg
@@ -190,6 +198,7 @@ item HCHardboiledegg
         Lipids 				= 	11,
         Calories 			= 	155,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodP,
 	}
 
 	

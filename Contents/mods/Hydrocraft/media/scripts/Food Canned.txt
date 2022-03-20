@@ -14,6 +14,7 @@ item HCCannedfoodstash
         Type				= 	Normal,
         DisplayName         		= 	Box of Canned Goods,
         Icon                		= 	HCCannedfoodstash,
+	DisplayCategory          =   FoodC,
     }
 
 item HCCannedapple
@@ -28,6 +29,7 @@ item HCCannedapple
         Calories 			= 	536,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedpear
@@ -42,6 +44,7 @@ item HCCannedpear
         Calories 			= 	592,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedpeach
@@ -56,6 +59,7 @@ item HCCannedpeach
         Calories 			= 	576,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedgreenbeans
@@ -70,6 +74,7 @@ item HCCannedgreenbeans
         Calories 			= 	296,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedshrooms
@@ -84,6 +89,7 @@ item HCCannedshrooms
         Calories 			= 	200,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedpumpkin
@@ -98,6 +104,7 @@ item HCCannedpumpkin
         Calories 			= 	272,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedspam
@@ -112,6 +119,7 @@ item HCCannedspam
         Calories 			= 	1260,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedcranberries
@@ -126,6 +134,7 @@ item HCCannedcranberries
         Calories 			= 	704,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedpineapple
@@ -140,6 +149,7 @@ item HCCannedpineapple
         Calories 			= 	624,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedrefriedbeans
@@ -154,6 +164,7 @@ item HCCannedrefriedbeans
         Calories 			= 	664,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedcreamofchicken
@@ -168,6 +179,7 @@ item HCCannedcreamofchicken
         Calories 			= 	384,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
     	}
 
 item HCCannedsoupclassic
@@ -181,6 +193,7 @@ item HCCannedsoupclassic
         Calories 			= 	150,
         DisplayName			=	Canned Soup Classic,
         Icon				=	HCCannedsoupclassic,
+	DisplayCategory          =   FoodC,
     }
 item HCCanbangedup
 	{
@@ -194,6 +207,7 @@ item HCCanbangedup
         Calories 			= 	664,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedcheesesauce
@@ -208,6 +222,7 @@ item HCCannedcheesesauce
     	Calories 			= 	320,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedchickenbreast
@@ -222,6 +237,7 @@ item HCCannedchickenbreast
     	Calories 			= 	320,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedfruitcocktail
@@ -236,6 +252,7 @@ item HCCannedfruitcocktail
     	Calories 			= 	210,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedgovermentbeef
@@ -250,6 +267,7 @@ item HCCannedgovermentbeef
     	Calories 			= 	730,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedgovermentbread
@@ -278,6 +296,7 @@ item HCCannedgovermentchicken
     	Calories 			= 	829,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedgovermentpork
@@ -292,6 +311,7 @@ item HCCannedgovermentpork
     	Calories 			= 	642,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedmacncheese
@@ -306,6 +326,7 @@ item HCCannedmacncheese
     	Calories 			= 	690,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedpiefillingapple
@@ -320,6 +341,7 @@ item HCCannedpiefillingapple
     	Calories 			= 	595,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedpiefillingcherry
@@ -334,6 +356,7 @@ item HCCannedpiefillingcherry
     	Calories 			= 	684,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedpiefillingblueberry
@@ -348,6 +371,7 @@ item HCCannedpiefillingblueberry
     	Calories 			= 	684,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedravioli
@@ -362,6 +386,7 @@ item HCCannedravioli
     	Calories 			= 	180,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedspaghettirings
@@ -376,6 +401,7 @@ item HCCannedspaghettirings
     	Calories 			= 	180,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCCannedappleopen
@@ -397,6 +423,7 @@ item HCCannedappleopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Apple,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedpearopen
@@ -418,6 +445,7 @@ item HCCannedpearopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pear,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedpeachopen
@@ -439,6 +467,7 @@ item HCCannedpeachopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Peach,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedgreenbeansopen
@@ -460,6 +489,7 @@ item HCCannedgreenbeansopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Green Beans,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedshroomsopen
@@ -481,6 +511,7 @@ item HCCannedshroomsopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Mushrooms,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedpumpkinopen
@@ -502,6 +533,7 @@ item HCCannedpumpkinopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pumpkin,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedspamopen
@@ -523,6 +555,7 @@ item HCCannedspamopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Spam,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedcranberriesopen
@@ -544,6 +577,7 @@ item HCCannedcranberriesopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Cranberries,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedpineappleopen
@@ -565,6 +599,7 @@ item HCCannedpineappleopen
     Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     EvolvedRecipeName 		= 	Canned Pineapple,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedrefriedbeansopen
@@ -586,6 +621,7 @@ item HCCannedrefriedbeansopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Refried Beans,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedcreamofchickenopen
@@ -606,6 +642,7 @@ item HCCannedcreamofchickenopen
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Cream of Chicken,
+	DisplayCategory          =   FoodP,
     	}
 
 item HCCannedsoupclassicopen
@@ -627,6 +664,7 @@ item HCCannedsoupclassicopen
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCCannedsoupclassicempty,
         EvolvedRecipeName 		= 	Canned Classic Soup,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCanbangedupopen
@@ -649,6 +687,7 @@ item HCCanbangedupopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Shit,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedcheesesauceopen
@@ -671,6 +710,7 @@ item HCCannedcheesesauceopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Cheese,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedchickenbreastopen
@@ -692,6 +732,7 @@ item HCCannedchickenbreastopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Chicken,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedfruitcocktailopen
@@ -713,6 +754,7 @@ item HCCannedfruitcocktailopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedgovermentbeefopen
@@ -734,6 +776,7 @@ item HCCannedgovermentbeefopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedgovermentbreadopen
@@ -755,6 +798,7 @@ item HCCannedgovermentbreadopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Bread,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedgovermentchickenopen
@@ -776,6 +820,7 @@ item HCCannedgovermentchickenopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedgovermentporkopen
@@ -797,6 +842,7 @@ item HCCannedgovermentporkopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedmacncheeseopen
@@ -818,6 +864,7 @@ item HCCannedmacncheeseopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Pasta,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedpiefillingappleopen
@@ -839,6 +886,7 @@ item HCCannedpiefillingappleopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedpiefillingcherryopen
@@ -860,6 +908,7 @@ item HCCannedpiefillingcherryopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedpiefillingblueberryopen
@@ -881,6 +930,7 @@ item HCCannedpiefillingblueberryopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedravioliopen
@@ -902,6 +952,7 @@ item HCCannedravioliopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Pasta,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCannedspaghettiringsopen
@@ -923,6 +974,7 @@ item HCCannedspaghettiringsopen
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
    	 EvolvedRecipeName 		= 	Canned Pasta,
+	DisplayCategory          =   FoodP,
 	}
 
 /************************RECIPES************************/

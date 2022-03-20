@@ -15,6 +15,7 @@ item HCTomatocherryseeds
 	DisplayName		= 	Tomatocherry Seeds,
 	Icon			= 	HCTomatocherryseeds,
 	Weight			= 	0.009,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCTomatocherryseedspacket
@@ -23,6 +24,7 @@ item HCTomatocherryseedspacket
 	DisplayName		= 	Tomatocherry Packet,
 	Icon			= 	HCTomatocherryseedspacket,
 	Weight			= 	0.1,
+		DisplayCategory	= SurFarm,
 	}
     recipe Put Tomatocherry Seeds in Packet
     {
@@ -47,6 +49,7 @@ item HCSquashsummerseeds
 	DisplayName		= 	Squashsummer Seeds,
 	Icon			= 	HCSquashsummerseeds,
 	Weight			= 	0.009,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCSquashsummerseedspacket
@@ -55,6 +58,7 @@ item HCSquashsummerseedspacket
 	DisplayName		= 	Squashsummer Packet,
 	Icon			= 	HCSquashsummerseedspacket,
 	Weight			= 	0.1,
+		DisplayCategory	= SurFarm,
 	}
     recipe Put Squashsummer Seeds in Packet
     {
@@ -79,6 +83,7 @@ item HCJalapenoseeds
 	DisplayName		= 	Jalapeno Seeds,
 	Icon			= 	HCChiligreenseeds,
 	Weight			= 	0.009,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCJalapenoseedspacket
@@ -87,6 +92,7 @@ item HCJalapenoseedspacket
 	DisplayName		= 	Jalapeno Packet,
 	Icon			= 	HCChiligreenseedspacket,
 	Weight			= 	0.1,
+		DisplayCategory	= SurFarm,
 	}
     recipe Put Jalapeno Seeds in Packet
     {
@@ -110,6 +116,7 @@ item HCCauliflowerseeds
         Type    		= Normal,
         DisplayName         	= Cauliflower Seeds,
         icon 			= HCCauliflowerseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCCauliflowerseedspacket
 	{
@@ -117,6 +124,7 @@ item HCCauliflowerseedspacket
 	DisplayName		= Cauliflower Seeds Packet,
 	Icon			= HCCauliflowerseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
     recipe Put Cauliflower Seeds in Packet
@@ -141,6 +149,7 @@ item HCPersimmonseeds
         Type    		= Normal,
         DisplayName         	= Persimmon Seeds,
         icon 			= HCPersimmonseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCPersimmonseedspacket
 	{
@@ -148,6 +157,7 @@ item HCPersimmonseedspacket
 	DisplayName		= Persimmon Seeds Packet,
 	Icon			= HCPersimmonseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
     recipe Put Persimmon Seeds in Packet
@@ -172,6 +182,7 @@ item HCPlumseeds
         Type    		= Normal,
         DisplayName         	= Plum Seeds,
         icon 			= HCPlumseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCPlumseedspacket
 	{
@@ -179,6 +190,7 @@ item HCPlumseedspacket
 	DisplayName		= Plum Seeds Packet,
 	Icon			= HCPlumseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
     recipe Put Plum Seeds in Packet
@@ -203,6 +215,7 @@ item HCKiwiseeds
         Type    		= Normal,
         DisplayName         	= Kiwi Seeds,
         icon 			= HCKiwiseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCKiwiseedspacket
 	{
@@ -210,6 +223,7 @@ item HCKiwiseedspacket
 	DisplayName		= Kiwi Seeds Packet,
 	Icon			= HCKiwiseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
     recipe Put Kiwi Seeds in Packet
@@ -234,6 +248,7 @@ item HCFigseeds
         Type    		= Normal,
         DisplayName         	= Fig Seeds,
         icon 			= HCFigseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCFigseedspacket
 	{
@@ -241,6 +256,7 @@ item HCFigseedspacket
 	DisplayName		= Fig Seeds Packet,
 	Icon			= HCFigseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
     recipe Put Fig Seeds in Packet
@@ -266,6 +282,7 @@ item HCDateseeds
         Type    		= Normal,
         DisplayName         	= Date Seeds,
         icon 			= HCDateseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCDateseedspacket
 	{
@@ -273,6 +290,7 @@ item HCDateseedspacket
 	DisplayName		= Date Seeds Packet,
 	Icon			= HCDateseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
     recipe Put Date Seeds in Packet
@@ -298,6 +316,7 @@ item HCGrapesgreenseeds
         Type    		= Normal,
         DisplayName         	= Grape green Seeds,
         icon 			= HCGrapesgreenseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCGrapesgreenseedspacket
 	{
@@ -305,6 +324,7 @@ item HCGrapesgreenseedspacket
 	DisplayName		= Grapesgreen Seeds Packet,
 	Icon			= HCGrapesgreenseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
     recipe Put Grapes Green Seeds in Packet
@@ -329,6 +349,7 @@ item HCLimeseeds
         Type    		= Normal,
         DisplayName         	= Lime Seeds,
         icon 			= HCLimeseeds,
+		DisplayCategory	= SurFarm,
     } 
 item HCLimeseedspacket
 	{
@@ -336,6 +357,7 @@ item HCLimeseedspacket
 	DisplayName		= Lime Seeds Packet,
 	Icon			= HCLimeseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 	
     recipe Put Lime Seeds in Packet
@@ -360,6 +382,7 @@ item HCWheat
 	DisplayName		= Wheat,
 	Icon			= HCwheat,
 	Weight			= 0.009,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCWheatseedpacket
@@ -368,6 +391,7 @@ item HCWheatseedpacket
 	DisplayName		= Wheat Seeds Packet,
 	Icon			= HCwheatseedpacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	} 
 	
     recipe Put Wheat in Packet

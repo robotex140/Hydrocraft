@@ -23,6 +23,7 @@ module Hydrocraft
 		Lipids 				= 	68,
 		Calories 			= 	1416,
 		ReplaceOnUse			= 	Hydrocraft.HCCookieschocolatechipbagtrash,
+	DisplayCategory          =   FoodN,
 	}
 
 	item HCCookiesmintbag
@@ -40,6 +41,7 @@ module Hydrocraft
 		Lipids 				= 	68,
 		Calories 			= 	1416,
 		ReplaceOnUse			= 	Hydrocraft.HCCookiesmintbagtrash,
+	DisplayCategory          =   FoodN,
 	}
 
 	item HCCookiesbrowniebag
@@ -57,6 +59,7 @@ module Hydrocraft
 		Lipids 				= 	68,
 		Calories 			= 	1416,
 		ReplaceOnUse			= 	Hydrocraft.HCCookiesbrowniebagtrash,
+	DisplayCategory          =   FoodN,
 	}
 
 	item HCCookiedough
@@ -75,6 +78,7 @@ module Hydrocraft
 		Proteins 			= 	2.4,
 		Lipids 				= 	15,
 		Calories 			= 	300,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCHomemadecookie
@@ -96,6 +100,7 @@ module Hydrocraft
 		Proteins 			= 	0.4,
 		Lipids 				= 	2.5,
 		Calories 			= 	50,
+	DisplayCategory          =   FoodP,
 	}
 	
 	item HCHomemadecookietray
@@ -119,6 +124,7 @@ module Hydrocraft
 		Proteins 			= 	2.4,
 		Lipids 				= 	15,
 		Calories 			= 	300,
+	DisplayCategory          =   FoodP,
 	}
 	
 	item HCChipcookie
@@ -140,6 +146,7 @@ module Hydrocraft
 		Proteins 			= 	0.6,
 		Lipids 				= 	2.7,
 		Calories 			= 	59,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCChipcookietray
@@ -163,6 +170,7 @@ module Hydrocraft
 		Proteins 			= 	3.6,
 		Lipids 				= 	16.2,
 		Calories 			= 	354,
+	DisplayCategory          =   FoodP,
 	}
 	
 	item HCCookiewhite
@@ -184,6 +192,7 @@ module Hydrocraft
 		Proteins 			= 	0.6,
 		Lipids 				= 	2.7,
 		Calories 			= 	59,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCCookiewhitetray
@@ -207,6 +216,7 @@ module Hydrocraft
 		Proteins 			= 	3.6,
 		Lipids 				= 	16.2,
 		Calories 			= 	354,
+	DisplayCategory          =   FoodP,
 	}
 	
 	item HCCookiepeanutbutter
@@ -228,6 +238,7 @@ module Hydrocraft
 		Proteins 			= 	1.6,
 		Lipids 				= 	2.8,
 		Calories 			= 	75,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCCookiepeanutbuttertray
@@ -251,6 +262,7 @@ module Hydrocraft
 		Proteins 			= 	9.6,
 		Lipids 				= 	16.8,
 		Calories 			= 	450,
+	DisplayCategory          =   FoodP,
 	}	
 	
 	item HCChocolatecookie
@@ -272,6 +284,7 @@ module Hydrocraft
 		Proteins 			= 	0.6,
 		Lipids 				= 	2.7,
 		Calories 			= 	59,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCChocolatecookietray
@@ -295,6 +308,7 @@ module Hydrocraft
 		Proteins 			= 	3.6,
 		Lipids 				= 	16.2,
 		Calories 			= 	354,
+	DisplayCategory          =   FoodP,
 	}
 	
 	item HCDoublechocolatecookie
@@ -316,6 +330,7 @@ module Hydrocraft
 		Proteins 			= 	1.6,
 		Lipids 				= 	2.8,
 		Calories 			= 	75,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoublechocolatecookietray
@@ -339,6 +354,7 @@ module Hydrocraft
 		Proteins 			= 	9.6,
 		Lipids 				= 	16.8,
 		Calories 			= 	450,
+	DisplayCategory          =   FoodP,
 	}
 	
 	item HCGingerbreadman
@@ -360,6 +376,7 @@ module Hydrocraft
 		Proteins 			= 	0.5,
 		Lipids 				= 	1.3,
 		Calories 			= 	44.4,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCGingerbreadmantray
@@ -383,6 +400,7 @@ module Hydrocraft
 		Proteins 			= 	3,
 		Lipids 				= 	7.8,
 		Calories 			= 	266.4,
+	DisplayCategory          =   FoodP,
 	}
 	
 	item HCChristmascookie
@@ -403,6 +421,7 @@ module Hydrocraft
 		Proteins 			= 	10,
 		Lipids 				= 	20,
 		Calories 			= 	460,
+	DisplayCategory          =   FoodN,
     }	
 
 	item HCChristmascookietray
@@ -425,6 +444,7 @@ module Hydrocraft
 		Proteins 			= 	30,
 		Lipids 				= 	60,
 		Calories 			= 	1380,
+	DisplayCategory          =   FoodN,
 	}
 
 	item HCFrostedchristmascookie
@@ -445,6 +465,7 @@ module Hydrocraft
 		Proteins 			= 	10,
 		Lipids 				= 	20,
 		Calories 			= 	540,
+	DisplayCategory          =   FoodN,
     }
 		
 	item HCFrostedchristmascookietray
@@ -467,6 +488,7 @@ module Hydrocraft
 		Proteins 			= 	30,
 		Lipids 				= 	60,
 		Calories 			= 	1620,
+	DisplayCategory          =   FoodN,
     }
 		
 	item HCFortunecookie
@@ -475,6 +497,7 @@ module Hydrocraft
 		Type   				= Normal,
 		DisplayName         		= Fortune Cookie,
 		icon 				= HCFortunecookie,
+	DisplayCategory          =   FoodN,
 	}
 
 	item HCFortunecookiebroken
@@ -492,6 +515,7 @@ module Hydrocraft
 		Proteins 			= 	0.3,
 		Lipids 				= 	0.2,
 		Calories 			= 	30,
+	DisplayCategory          =   FoodN,
 	}
 
 	item HCFortune
@@ -500,6 +524,7 @@ module Hydrocraft
 		Type   				= Normal,
 		DisplayName         		= Paper Fortune,
 		icon 				= HCFortune,
+	DisplayCategory          =   Useless,
 	}
 
 	item HCCookiecutter
@@ -508,6 +533,7 @@ module Hydrocraft
 		Type 			= Normal,
 		DisplayName 		= Cookiecutter,
 		Icon 			= HCCookiecutter,
+	DisplayCategory          =   Cooking,
 	}
 	
 /************************RECIPES************************/

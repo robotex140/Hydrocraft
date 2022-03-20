@@ -27,6 +27,7 @@ item HCHerring
         Proteins 			= 	36,
         Lipids 				= 	18,
         Calories 			= 	316,
+		DisplayCategory		=	FoodP,
 	}
 		
 item HCFriedherring
@@ -48,6 +49,7 @@ item HCFriedherring
         Proteins 			= 	42,
         Lipids 				= 	36,
         Calories 			= 	500,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCCrab
@@ -70,6 +72,7 @@ item HCFriedherring
 		Proteins 			= 	54,
 		Lipids 				= 	2.1,
 		Calories 			= 	249,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCCrabpot
@@ -93,6 +96,7 @@ item HCFriedherring
 		Proteins 			= 	54,
 		Lipids 				= 	2.1,
 		Calories 			= 	249,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCCrayfish
@@ -115,6 +119,7 @@ item HCCrayfish
         Proteins 			= 	32,
         Lipids 				= 	2,
         Calories 			= 	154,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCCrayfishpot
@@ -138,6 +143,7 @@ item HCCrayfish
         Proteins 			= 	32,
         Lipids 				= 	2,
         Calories 			= 	154, 
+		DisplayCategory		=	FoodP,
 	}
 
 item HCMusselpot
@@ -160,6 +166,7 @@ item HCMusselpot
         Proteins 			= 	20,
         Lipids 				= 	3.8,
         Calories 			= 	146, 
+		DisplayCategory		=	FoodP,
 	}
 
 item HCMussel
@@ -183,6 +190,7 @@ item HCMussel
 		Proteins 			= 	20,
 		Lipids 				= 	3.8,
 		Calories 			= 	146,
+		DisplayCategory		=	FoodP,
 	}
 
 
@@ -208,6 +216,7 @@ item HCMussel
         Proteins 			= 4,
         Lipids 				= 1,
         Calories 			= 24,
+		DisplayCategory		=	FoodP,
     }
 
     item HCBream
@@ -228,6 +237,7 @@ item HCMussel
         Proteins 			= 37.4,
         Lipids 				= 8.5,
         Calories 			= 229,
+		DisplayCategory		=	FoodP,
     }
 
     item HCEel
@@ -248,6 +258,7 @@ item HCMussel
         Proteins 			= 38,
         Lipids 				= 24,
         Calories 			= 375,
+		DisplayCategory		=	FoodP,
     }
 
     item HCMackerel
@@ -268,6 +279,7 @@ item HCMussel
         Proteins 			= 25,
         Lipids 				= 34,
         Calories 			= 415,
+		DisplayCategory		=	FoodP,
     }
 
     item HCMackerelpike
@@ -288,6 +300,7 @@ item HCMussel
         Proteins 			= 38,
         Lipids 				= 1.4,
         Calories 			= 174,
+		DisplayCategory		=	FoodP,
     }
 
     item HCPrawn
@@ -308,6 +321,7 @@ item HCMussel
         Proteins 			= 1.21,
         Lipids 				= 0.1,
         Calories 			= 6,
+		DisplayCategory		=	FoodP,
     }
 
     item HCRedsnapper
@@ -328,6 +342,7 @@ item HCMussel
         Proteins 			= 44,
         Lipids 				= 3,
         Calories 			= 218,
+		DisplayCategory		=	FoodP,
     }
 
     item HCSeabass
@@ -348,6 +363,7 @@ item HCMussel
         Proteins 			= 20.9,
         Lipids 				= 2.3,
         Calories 			= 110,
+		DisplayCategory		=	FoodP,
     }
 
     item HCSmelt
@@ -368,6 +384,7 @@ item HCMussel
         Proteins 			= 15,
         Lipids 				= 2,
         Calories 			= 82,
+		DisplayCategory		=	FoodP,
     }
 
     item HCSnowcrab
@@ -388,6 +405,7 @@ item HCMussel
         Proteins 			= 26,
         Lipids 				= 2,
         Calories 			= 130,
+		DisplayCategory		=	FoodP,
     }
 
     item HCSquid
@@ -408,6 +426,7 @@ item HCMussel
         Proteins 			= 15,
         Lipids 				= 6,
         Calories 			= 149,
+		DisplayCategory		=	FoodP,
     }
 
     item HCTuna
@@ -428,6 +447,7 @@ item HCMussel
         Proteins 			= 25,
         Lipids 				= 5,
         Calories 			= 157,
+		DisplayCategory		=	FoodP,
     }
 
     item HCWrasse
@@ -448,6 +468,7 @@ item HCMussel
         Proteins 			= 30,
         Lipids 				= 0,
         Calories 			= 191.2,
+		DisplayCategory		=	FoodP,
     }
 
     item HCAsp
@@ -468,6 +489,7 @@ item HCMussel
         Proteins 			= 18,
         Lipids 				= 6,
         Calories 			= 124,
+		DisplayCategory		=	FoodP,
     }
 
     item HCBrill
@@ -488,6 +510,7 @@ item HCMussel
         Proteins 			= 19,
         Lipids 				= 5,
         Calories 			= 129,
+		DisplayCategory		=	FoodP,
     }
 
     item HCBurbot
@@ -508,6 +531,7 @@ item HCMussel
         Proteins 			= 22,
         Lipids 				= 1,
         Calories 			= 104,
+		DisplayCategory		=	FoodP,
     }
 
     item HCCarp
@@ -528,6 +552,7 @@ item HCMussel
         Proteins 			= 39,
         Lipids 				= 12,
         Calories 			= 277,
+		DisplayCategory		=	FoodP,
     }
 
     item HCChub
@@ -548,6 +573,7 @@ item HCMussel
         Proteins 			= 52.24,
         Lipids 				= 35.46,
         Calories 			= 100,
+		DisplayCategory		=	FoodP,
     }
 
     item HCGrayling
@@ -568,6 +594,7 @@ item HCMussel
         Proteins 			= 40,
         Lipids 				= 27,
         Calories 			= 412,
+		DisplayCategory		=	FoodP,
     }
 
     item HCLavaret
@@ -588,6 +615,7 @@ item HCMussel
         Proteins 			= 38,
         Lipids 				= 12,
         Calories 			= 265,
+		DisplayCategory		=	FoodP,
     }
 
     item HCPlaice
@@ -608,6 +636,7 @@ item HCMussel
         Proteins 			= 25.69,
         Lipids 				= 1.62,
         Calories 			= 124,
+		DisplayCategory		=	FoodP,
     }
 
     item HCRoach
@@ -628,6 +657,7 @@ item HCMussel
         Proteins 			= 11.63,
         Lipids 				= 0.55,
         Calories 			= 55,
+		DisplayCategory		=	FoodP,
     }
 
     item HCRuffe
@@ -648,6 +678,7 @@ item HCMussel
         Proteins 			= 11.63,
         Lipids 				= 0.55,
         Calories 			= 55,
+		DisplayCategory		=	FoodP,
     }
 
     item HCSalmon
@@ -668,6 +699,7 @@ item HCMussel
         Proteins 			= 40,
         Lipids 				= 27,
         Calories 			= 412,
+		DisplayCategory		=	FoodP,
     }
 
     item HCSilverbream
@@ -688,6 +720,7 @@ item HCMussel
         Proteins 			= 35,
         Lipids 				= 2,
         Calories 			= 160,
+		DisplayCategory		=	FoodP,
     }
 
     item HCTench
@@ -708,6 +741,7 @@ item HCMussel
         Proteins 			= 39,
         Lipids 				= 12,
         Calories 			= 277,
+		DisplayCategory		=	FoodP,
     }
 
     item HCZander
@@ -728,6 +762,7 @@ item HCMussel
         Proteins 			= 11.16,
         Lipids 				= 0.57,
         Calories 			= 52,
+		DisplayCategory		=	FoodP,
     }
 
 item HCWoodenbucketfishoil
@@ -736,7 +771,7 @@ item HCWoodenbucketfishoil
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Fish Oil,
         icon 			= HCWoodenbucketfishoil,
-	
+		DisplayCategory		=	Cooking,
     }
 
 item HCFishoil
@@ -747,6 +782,7 @@ item HCFishoil
 	DisplayName 			= 	Jar of Fish Oil,
 	Icon 				    = 	HCFishoil,
 	ReplaceOnDeplete		=	HCJar,
+		DisplayCategory		=	Cooking,
 	}
 		
 /************************RECIPES************************/

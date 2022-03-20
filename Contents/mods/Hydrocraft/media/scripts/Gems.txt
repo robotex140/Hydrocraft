@@ -14,6 +14,7 @@ item HCGemcutter
         Type    		= Normal,
         DisplayName         	= Gem Cutter Wheel,
         icon 			= HCGemcutter,
+		DisplayCategory	= CraftGem,
 	
     }
 
@@ -23,7 +24,7 @@ item HCJade
         Type    		= Normal,
         DisplayName         	= Jade,
         icon 			= HCJade,
-	DisplayCategory 	= Mineral,
+		DisplayCategory 	= Mineral,
     } 
 
 item HCJadecut
@@ -32,6 +33,7 @@ item HCJadecut
         Type    		= Normal,
         DisplayName         	= Cut Jade,
         icon 			= HCJadecut,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCQuartz
@@ -49,6 +51,7 @@ item HCQuartzcut
         Type    		= Normal,
         DisplayName         	= Cut Quartz Crystal,
         icon 			= HCQuartzcut,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCQuartzblue
@@ -66,6 +69,7 @@ item HCQuartzbluecut
         Type    		= Normal,
         DisplayName         	= Cut Blue Quartz Crystal,
         icon 			= HCQuartzbluecut,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCQuartzrose
@@ -83,6 +87,7 @@ item HCQuartzrosecut
         Type    		= Normal,
         DisplayName         	= Cut Rose Quartz Crystal,
         icon 			= HCQuartzrosecut,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCQuartzsmokey
@@ -100,6 +105,7 @@ item HCQuartzsmokeycut
         Type    		= Normal,
         DisplayName         	= Cut Smokey Quartz Crystal,
         icon 			= HCQuartzsmokeycut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCQuartzcitrine
@@ -117,6 +123,7 @@ item HCQuartzcitrinecut
         Type    		= Normal,
         DisplayName         	= Cut Citrine Quartz Crystal,
         icon 			= HCQuartzcitrinecut,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCAmethyst
@@ -134,6 +141,7 @@ item HCAmethystcut
         Type    		= Normal,
         DisplayName         	= Cut Amethyst,
         icon 			= HCAmethystcut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCAzurite
@@ -143,6 +151,7 @@ item HCAzurite
         DisplayName         	= Azurite,
         icon 			= HCAzurite,
 	DisplayCategory 	= Mineral,
+		DisplayCategory	= CraftGem,
     }
 
 item HCAzuritecut
@@ -151,6 +160,7 @@ item HCAzuritecut
         Type    		= Normal,
         DisplayName         	= Cut Azurite,
         icon 			= HCAzuritecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCDiamond
@@ -168,6 +178,7 @@ item HCDiamondcut
         Type    		= Normal,
         DisplayName         	= Cut Diamond,
         icon 			= HCDiamondcut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCEmerald
@@ -185,6 +196,7 @@ item HCEmeraldcut
         Type    		= Normal,
         DisplayName         	= Cut Emerald,
         icon 			= HCEmeraldcut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCFireagate
@@ -202,6 +214,7 @@ item HCFireagatecut
         Type    		= Normal,
         DisplayName         	= Cut Fire Agate,
         icon 			= HCFireagatecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCGarnet
@@ -219,6 +232,7 @@ item HCGarnetcut
         Type    		= Normal,
         DisplayName         	= Cut Garnet,
         icon 			= HCGarnetcut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCLapislazuli
@@ -236,6 +250,7 @@ item HCMalachite
         Type    		= Normal,
         DisplayName         	= Malachite,
         icon 			= HCMalachite,
+		DisplayCategory	= CraftGem,
     }
 
 item HCLapislazulicut
@@ -253,6 +268,7 @@ item HCMalachitecut
         Type    		= Normal,
         DisplayName         	= Cut Malachite,
         icon 			= HCMalachitecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCOlivine
@@ -270,6 +286,7 @@ item HCOlivinecut
         Type    		= Normal,
         DisplayName         	= Cut Olivine,
         icon 			= HCOlivinecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRhodonite
@@ -287,6 +304,7 @@ item HCRhodonitecut
         Type    		= Normal,
         DisplayName         	= Cut Rhodonite,
         icon 			= HCRhodonitecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRuby
@@ -304,6 +322,7 @@ item HCRubycut
         Type    		= Normal,
         DisplayName         	= Cut Ruby,
         icon 			= HCRubycut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCSapphire
@@ -321,6 +340,7 @@ item HCSapphirecut
         Type    		= Normal,
         DisplayName         	= Cut Sapphire,
         icon 			= HCSapphirecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCTopaz
@@ -338,6 +358,7 @@ item HCTopazcut
         Type    		= Normal,
         DisplayName         	= Cut Topaz,
         icon 			= HCTopazcut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCTurquoise
@@ -355,6 +376,7 @@ item HCTurquoisecut
         Type    		= Normal,
         DisplayName         	= Cut Turquoise,
         icon 			= HCTurquoisecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCAmazonite
@@ -372,6 +394,7 @@ item HCAmazonitecut
         Type    		= Normal,
         DisplayName         	= Cut Amazonite,
         icon 			= HCAmazonitecut,
+		DisplayCategory	= CraftGem,
     }
 
 item HCLepidolite

@@ -15,6 +15,7 @@ item HCFinewoodfloor
 	WorldObjectSprite 	= floors_interior_tilesandwood_01_45,
 	DisplayName		= Finewood Floor,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetpurple
@@ -24,6 +25,7 @@ item HCCarpetpurple
 	WorldObjectSprite 	= floors_interior_carpet_01_6,
 	DisplayName		= Violet Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetblue
@@ -33,6 +35,7 @@ item HCCarpetblue
 	WorldObjectSprite 	= floors_interior_carpet_01_0,
 	DisplayName		= Blue Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetgreen
@@ -42,6 +45,7 @@ item HCCarpetgreen
 	WorldObjectSprite 	= floors_interior_carpet_01_5,
 	DisplayName		= Green Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetyellow
@@ -51,6 +55,7 @@ item HCCarpetyellow
 	WorldObjectSprite 	= floors_interior_carpet_01_10,
 	DisplayName		= Yellow Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetorange
@@ -60,6 +65,7 @@ item HCCarpetorange
 	WorldObjectSprite 	= floors_interior_carpet_01_12,
 	DisplayName		= Orange Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetred
@@ -69,6 +75,7 @@ item HCCarpetred
 	WorldObjectSprite 	= floors_interior_carpet_01_9,
 	DisplayName		= Red Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetwhite
@@ -78,6 +85,7 @@ item HCCarpetwhite
 	WorldObjectSprite 	= floors_interior_carpet_01_11,
 	DisplayName		= White Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 item HCCarpetblack
@@ -87,6 +95,7 @@ item HCCarpetblack
 	WorldObjectSprite 	= floors_interior_carpet_01_2,
 	DisplayName		= Black Carpet,
 	Icon			= default,
+	DisplayCategory          =   Tile,
 	}
 
 
@@ -98,6 +107,7 @@ item HCNewfloor
     WorldObjectSprite   = roofs_01_54,
     DisplayName     = Black Carpet,
     Icon            = default,
+	DisplayCategory          =   Tile,
     }
 
 

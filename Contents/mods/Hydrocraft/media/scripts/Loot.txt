@@ -14,6 +14,7 @@ item HCBoxart
         Type			= Normal,
         DisplayName         	= Box of Art Supplies,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -23,6 +24,7 @@ item HCBoxelectronic
         Type			= Normal,
         DisplayName         	= Box of Electronic Equipment,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -32,6 +34,7 @@ item HCBoxgarden
         Type			= Normal,
         DisplayName         	= Box of Garden Equipment,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -41,6 +44,7 @@ item HCBoxholiday
         Type			= Normal,
         DisplayName         	= Box of Holiday Supplies,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -50,6 +54,7 @@ item HCBoxlab
         Type			= Normal,
         DisplayName         	= Box of Lab Equipment,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -59,6 +64,7 @@ item HCBoxoffice
         Type			= Normal,
         DisplayName         	= Box of Office Supplies,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -68,6 +74,7 @@ item HCBoxpet
         Type			= Normal,
         DisplayName         	= Box of Pet Equipment,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -77,6 +84,7 @@ item HCBoxphoto
         Type			= Normal,
         DisplayName         	= Box of Photography Equipment,
         Icon                	= HCCardboardboxsealed,
+	DisplayCategory          =   CraftMisc,
 	
     }
 
@@ -87,7 +95,7 @@ item HCBoxtoy
         Type			= Normal,
         DisplayName         	= Box of Toys,
         Icon                	= HCCardboardboxsealed,
-	
+	DisplayCategory          =   CraftMisc,
     }
 
 /************************RECIPES************************/

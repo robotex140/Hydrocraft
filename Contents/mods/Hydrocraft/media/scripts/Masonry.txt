@@ -15,6 +15,7 @@ item HCGreybrick
         Type    		= Normal,
         DisplayName         	= Grey Brick,
         icon 			= HCGreybrick,
+		DisplayCategory	= CraftMas,		
     }
 
 item HCGreybrickbox
@@ -23,7 +24,7 @@ item HCGreybrickbox
         Type   			= Normal,
         DisplayName         	= Pallet of Grey Bricks,
         icon 			= HCGreybrickbox,
-	
+		DisplayCategory	= CraftMas,		
     }
 
 item HCRedbrick
@@ -32,6 +33,7 @@ item HCRedbrick
         Type    		= Normal,
         DisplayName         	= Red Brick,
         icon 			= HCRedbrick,
+		DisplayCategory	= CraftMas,		
     }
 
 item HCRedbrickbox
@@ -40,6 +42,7 @@ item HCRedbrickbox
         Type   			= Normal,
         DisplayName         	= Pallet of Red Bricks,
         icon 			= HCRedbrickbox,
+		DisplayCategory	= CraftMas,		
 	
     }
 
@@ -49,6 +52,7 @@ item HCRefractorybrick
         Type    		= Normal,
         DisplayName         	= Refractory Brick,
         icon 			= HCRefractorybrick,
+		DisplayCategory	= CraftMas,		
     }
 
 item HCConcreteingot
@@ -57,6 +61,7 @@ item HCConcreteingot
         Type    		= Normal,
         DisplayName         	= Concrete Ingot,
         icon 			= HCConcreteingot,
+		DisplayCategory	= CraftMas,		
     }
 
 item HCConcreteblock
@@ -65,6 +70,7 @@ item HCConcreteblock
         Type    		= Normal,
         DisplayName         	= Concrete Block,
         icon 			= HCConcreteblock,
+		DisplayCategory	= CraftMas,		
     }
 
 item HCHempcreteblock
@@ -73,6 +79,7 @@ item HCHempcreteblock
         Type    		= Normal,
         DisplayName         	= Hempcrete Block,
         icon 			= HCHempcreteblock,
+		DisplayCategory	= CraftMas,		
     }
 
 item HCLeadcreteblock
@@ -81,6 +88,7 @@ item HCLeadcreteblock
         Type    		= Normal,
         DisplayName         	= Leadcrete Block,
         icon 			= HCLeadcreteblock,
+		DisplayCategory	= CraftMas,		
     }
 
 /************************RECIPES************************/

@@ -14,6 +14,7 @@ item HCHelicopterL
 	Capacity             	= 1000,
         DisplayName         	= Helicopter,
         icon 			= HCHelicopterL,
+	DisplayCategory          =   Misc,
     }
 
 item HCHelicopterR
@@ -23,6 +24,7 @@ item HCHelicopterR
 	Capacity             	= 1000,
         DisplayName         	= Helicopter,
         icon 			= HCHelicopterR,
+	DisplayCategory          =   Misc,
     }
 
 item HCTicketBF
@@ -31,6 +33,7 @@ item HCTicketBF
         Type			=	Normal,
         DisplayName		=	Ticket to Bedford Falls,
 	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
 	}
 
 item HCTicketCR
@@ -39,6 +42,7 @@ item HCTicketCR
         Type			=	Normal,
         DisplayName		=	Ticket to Crossroads,
 	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
 	}
 
 item HCTicketND
@@ -47,6 +51,7 @@ item HCTicketND
         Type			=	Normal,
         DisplayName		=	Ticket to New Denver,
 	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
 	}
 
 item HCTicketVS
@@ -55,6 +60,7 @@ item HCTicketVS
         Type			=	Normal,
         DisplayName		=	Ticket to Valley Station,
 	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
 	}
 
 item HCTicketOR
@@ -63,6 +69,7 @@ item HCTicketOR
         Type			=	Normal,
         DisplayName		=	Ticket Over the River,
 	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
 	}
 
 item HCTicketMI
@@ -71,6 +78,7 @@ item HCTicketMI
         Type			=	Normal,
         DisplayName		=	Ticket Over to Midway Island,
 	Icon			=	HCCinematicket,
+	DisplayCategory          =   Misc,
 	}
 
 /************************RECIPES************************/

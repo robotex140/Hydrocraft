@@ -15,6 +15,7 @@ item HCLabelempty
         Type			=	Normal,
         DisplayName		=	Empty Label,
 	Icon			=	HCLabelempty,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelammonia
@@ -23,6 +24,7 @@ item HCLabelammonia
         Type			=	Normal,
         DisplayName		=	Ammonia Label,
 	Icon			=	HCLabelammonia,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabeldetergent
@@ -31,6 +33,7 @@ item HCLabeldetergent
         Type			=	Normal,
         DisplayName		=	Liquid Soap Label,
 	Icon			=	HCLabeldetergent,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelmethylamin
@@ -39,6 +42,7 @@ item HCLabelmethylamin
         Type			=	Normal,
         DisplayName		=	Methylamin Label,
 	Icon			=	HCLabelmethylamin,
+		DisplayCategory          =   CraftChem,
 	}
 item HCLabelh2o2
 	{
@@ -46,6 +50,7 @@ item HCLabelh2o2
         Type			=	Normal,
         DisplayName		=	Hydrogen Peroxide Label,
 	Icon			=	HCLabelh2o2,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelphenylaceticacid
@@ -54,6 +59,7 @@ item HCLabelphenylaceticacid
         Type			=	Normal,
         DisplayName		=	Phenylacetic Acid Label,
 	Icon			=	HCLabelphenylaceticacid,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelpoison
@@ -62,6 +68,7 @@ item HCLabelpoison
         Type			=	Normal,
         DisplayName		=	Insecticide Label,
 	Icon			=	HCLabelpoison,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelsulfuricacid
@@ -70,6 +77,7 @@ item HCLabelsulfuricacid
         Type			=	Normal,
         DisplayName		=	Sulfuric Acid Label,
 	Icon			=	HCLabelsulfuricacid,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelselfmadeether
@@ -78,6 +86,7 @@ item HCLabelselfmadeether
         Type			=	Normal,
         DisplayName		=	Homemade Ether Label,
 	Icon			=	HCLabelselfmadeether,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelAgar
@@ -86,6 +95,7 @@ item HCLabelAgar
         Type            =   Normal,
         DisplayName     =   Homemade Agar Label,
     Icon            =   HCLabelselfmadeether,
+		DisplayCategory          =   CraftChem,
     }
 
 
@@ -95,6 +105,7 @@ item HCLabelgasoline
         Type			=	Normal,
         DisplayName		=	Gasoline Label,
 	Icon			=	HCLabelgasoline,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCLabelpotassiumpermanganate
@@ -103,6 +114,7 @@ item HCLabelpotassiumpermanganate
         Type			=	Normal,
         DisplayName		=	Potassiumper Manganate Label,
 	Icon			=	HCLabelpotassiumpermanganate,
+		DisplayCategory          =   CraftChem,
 	}
 
 /************************RECIPES************************/

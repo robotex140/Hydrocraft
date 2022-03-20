@@ -16,6 +16,7 @@ item HCBoxinggloves
         DisplayName         = Boxing Gloves,
     UseWhileEquipped    = true,
         icon            = HCBoxinggloves,
+	DisplayCategory          =   Fitness,		
     }
 
 item HCPunchingstand
@@ -24,6 +25,7 @@ item HCPunchingstand
         Type            = Normal,
         DisplayName             = Punching Bag Stand,
         icon            = HCPunchingstand,
+	DisplayCategory          =   Fitness,	
     
     }
 
@@ -33,6 +35,7 @@ item HCPunchingbag
     Type            = Normal,
         DisplayName             = Punching Bag,
         icon            = HCPunchingbag,
+	DisplayCategory          =   Fitness,	
     
     }   
 
@@ -42,6 +45,7 @@ item HCGymtowel
         Type            = Normal,
     DisplayName     = Gym Towel,
     Icon            = HCGymtowel,
+	DisplayCategory          =   Fitness,	
      }
     
 item HCWeights
@@ -50,6 +54,7 @@ item HCWeights
         Type            = Normal,
         DisplayName         = Weight Bench,
         icon            = HCWeights,
+	DisplayCategory          =   Fitness,	
     
     }
 
@@ -59,6 +64,7 @@ item HCTredmill
     Type                =   Normal,
     DisplayName         =   Treadmill,
     Icon                =   HCTredmill,
+	DisplayCategory          =   Fitness,	
     }
 
 item HCTredmillgenerator
@@ -67,6 +73,7 @@ item HCTredmillgenerator
     Type                =   Normal,
     DisplayName         =   Treadmill with Generator,
     Icon                =   HCTredmillgenerator,
+	DisplayCategory          =   Fitness,	
     }
 
 /************************RECIPES************************/

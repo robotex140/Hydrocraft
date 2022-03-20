@@ -47,6 +47,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCHomemadebatcrudenails
@@ -85,6 +86,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatcrudebarbedwire
@@ -123,6 +125,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatcrudescrews
@@ -161,6 +164,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatcrudetentpegs
@@ -199,6 +203,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatcrudewrench
@@ -237,6 +242,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatcrudecutter
@@ -275,6 +281,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatcrudetrimmer
@@ -313,6 +320,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebat
@@ -351,6 +359,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatnails
@@ -389,6 +398,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatbarbedwire
@@ -427,6 +437,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatscrews
@@ -465,6 +476,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebattentpegs
@@ -503,6 +515,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatwrench
@@ -541,6 +554,7 @@ module Hydrocraft
 		BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebatcutter
@@ -579,6 +593,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadebattrimmer
@@ -617,6 +632,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCBaseballbatbarbedwire
@@ -655,6 +671,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCBaseballbatscrews
@@ -693,6 +710,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCBaseballbattentpegs
@@ -731,6 +749,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCBaseballbatwrench
@@ -769,6 +788,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCBaseballbatcutter
@@ -807,6 +827,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCBaseballbattrimmer
@@ -845,6 +866,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCGnomestick
@@ -883,6 +905,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrude
@@ -918,6 +941,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrudenails
@@ -953,6 +977,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrudebarbedwire
@@ -988,6 +1013,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrudescrews
@@ -1023,6 +1049,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrudetentpegs
@@ -1058,6 +1085,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrudewrench
@@ -1093,6 +1121,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrudecutter
@@ -1128,6 +1157,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcrudetrimmer
@@ -1163,6 +1193,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclub
@@ -1198,6 +1229,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubnails
@@ -1233,6 +1265,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubbarbedwire
@@ -1268,6 +1301,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubscrews
@@ -1303,6 +1337,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubtentpegs
@@ -1338,6 +1373,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubwrench
@@ -1373,6 +1409,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubcutter
@@ -1408,6 +1445,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCHomemadeclubtrimmer
@@ -1443,6 +1481,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclub
@@ -1478,6 +1517,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclubnails
@@ -1513,6 +1553,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclubbarbedwire
@@ -1548,6 +1589,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclubscrews
@@ -1583,6 +1625,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclubtentpegs
@@ -1618,6 +1661,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclubwrench
@@ -1653,6 +1697,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   1,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclubcutter
@@ -1688,6 +1733,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCMasterclubtrimmer
@@ -1723,6 +1769,7 @@ module Hydrocraft
 		BreakSound  =   BreakWoodItem,
         TreeDamage  =   10,
         AttachmentType = Shovel,
+		DisplayCategory	= WepMelee,
 	}
 
 /************************RECIPES************************/	

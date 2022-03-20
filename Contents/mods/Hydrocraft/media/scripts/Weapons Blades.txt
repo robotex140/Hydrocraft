@@ -58,6 +58,7 @@ module Hydrocraft
 		HitSound	=	BladeHit,
 		AttachmentType = Knife,
         Tags = CutPlant,
+		DisplayCategory	= WepMelee,
     }
 
 	item HCKnifesteel
@@ -97,6 +98,7 @@ module Hydrocraft
         TreeDamage  					=   	1,
         EnduranceMod 					= 	0.5,
         AttachmentType = Knife,
+		DisplayCategory	= WepMelee,
 	}
 
 	item HCKnifeiron
@@ -136,6 +138,7 @@ module Hydrocraft
         TreeDamage  					=   	1,
         EnduranceMod 					= 	0.5,
         AttachmentType 				= Knife,
+		DisplayCategory	= WepMelee,
 	}
 
 
@@ -175,6 +178,7 @@ module Hydrocraft
         TreeDamage  				= 	2,
         EnduranceMod 				= 	0.5,
         AttachmentType 				= Knife,
+		DisplayCategory				= WepMelee,
 	}
 
     item HCDaggeriron
@@ -213,6 +217,7 @@ module Hydrocraft
         TreeDamage  					=   	2,
         EnduranceMod 					= 	0.5,
         AttachmentType 				= Knife,
+		DisplayCategory				= WepMelee,
 	}
 
 
@@ -259,12 +264,12 @@ module Hydrocraft
 		BreakSound  				=   KatanaBreak,
 		TreeDamage  				=   10,
 		AttachmentType 				= 	BigBlade,
-		DisplayCategory				=	Weapon,
 		BaseSpeed					=	1,
 		WeaponLength				=	0.4,
 		DamageCategory				=	Slash,
 		DamageMakeHole				=	TRUE,
 		CritDmgMultiplier			=	6,
+		DisplayCategory				= WepMelee,
 	}
 
 /************************ BreakSound =  KatanaBreak, copied from Base.Katana DisplayCategory=	Weapon,  --new, copied from Base.Katana, BaseSpeed =	1,  --new, copied from Base.Katana, WeaponLength =	0.4,  --new, copied from Base.Katana, 	DamageCategory	=	Slash, --new, copied from Base.Katana, 	DamageMakeHole	=	TRUE,  --new, copied from Base.Katana, CritDmgMultiplier	=	6,  --new, copied from Base.Katana************************/	

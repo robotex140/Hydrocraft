@@ -14,6 +14,7 @@ item HCSaltshakerempty
         	Type    		= 	Normal,
         	DisplayName         	= 	Empty Salt Shaker,
         	icon 			= 	HCSaltshakerempty,
+		DisplayCategory		=	Cooking,
     }
 
 item HCCuringsalt
@@ -29,6 +30,7 @@ item HCCuringsalt
 		DisplayName		=	Curing Salt,
 		ReplaceOnDeplete 	= 	HCCuringsaltempty,
 		Icon			=	HCCuringsalt,
+		DisplayCategory		=	Cooking,
 	}
 	
 item HCCuringsaltempty
@@ -37,6 +39,7 @@ item HCCuringsaltempty
 		Type			=	Normal,
 		DisplayName		=	Empty Curing Salt Bag,
 		Icon			=	HCCuringsaltempty,
+		DisplayCategory		=	Cooking,
 	}
 	
 item HCSaltedfishfillet
@@ -57,6 +60,7 @@ item HCSaltedfishfillet
         	Proteins 		= 	46,
         	Lipids 			= 	1.8,
         	Calories 		= 	216,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSaltedham
@@ -77,6 +81,7 @@ item HCSaltedham
         	Proteins 		= 	35.1,
         	Lipids 			= 	23.4,
         	Calories 		= 	468,
+		DisplayCategory		=	FoodP,
 	}
 
 	
@@ -98,6 +103,7 @@ item HCSaltedmutton
         	Proteins 		= 	99,
         	Lipids 			= 	33,
         	Calories 		= 	702,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSaltedpork
@@ -118,6 +124,7 @@ item HCSaltedpork
         	Proteins 		= 	63,
         	Lipids 			= 	27,
         	Calories 		= 	450,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedbeef
@@ -138,6 +145,7 @@ item HCSaltedbeef
        		Proteins 		= 	78.2,
        		Lipids 			= 	21.4,
         	Calories 		= 	525,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedcheval
@@ -158,6 +166,7 @@ item HCSaltedcheval
        		Proteins 		= 	97,
        		Lipids 			= 	21,
         	Calories 		= 	603,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSaltedrabbit
@@ -178,6 +187,7 @@ item HCSaltedrabbit
        		Proteins 		= 	44,
        		Lipids 			= 	4.6,
         	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSaltedsalmon
@@ -198,6 +208,7 @@ item HCSaltedsalmon
         	Proteins 		= 	63.1,
         	Lipids 			= 	13.3,
         	Calories 		= 	381,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSaltedsmallanimalmeat
@@ -218,6 +229,7 @@ item HCSaltedsmallanimalmeat
         	Proteins 		= 	44,
         	Lipids 			= 	2.6,
         	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSaltedsmallbirdmeat
@@ -238,6 +250,7 @@ item HCSaltedsmallbirdmeat
         	Proteins 		= 	22,
         	Lipids 			= 	1.3,
         	Calories 		= 	134,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedduck
@@ -258,6 +271,7 @@ item HCSaltedduck
         	Proteins 		= 	69,
        	 	Lipids 			= 	33,
         	Calories 		= 	603,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedgoose
@@ -278,6 +292,7 @@ item HCSaltedgoose
         	Proteins 		= 	87,
         	Lipids 			= 	39,
         	Calories 		= 	714,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedturkey
@@ -298,6 +313,7 @@ item HCSaltedturkey
       	 	Proteins 		= 	69,
       	 	Lipids 			= 	5.7,
       	  	Calories 		= 	336,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedvenison
@@ -318,6 +334,7 @@ item HCSaltedvenison
       	 	Proteins 		= 	90,
       	 	Lipids 			= 	9.6,
       	  	Calories 		= 	474,
+		DisplayCategory		=	FoodP,
 	}	
 
 item HCSaltedbear
@@ -338,6 +355,7 @@ item HCSaltedbear
       	 	Proteins 		= 	60,
       	 	Lipids 			= 	24.9,
       	  	Calories 		= 	483,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedcougar
@@ -358,6 +376,7 @@ item HCSaltedcougar
       	 	Proteins 		= 	60,
       	 	Lipids 			= 	24.9,
       	  	Calories 		= 	483,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSaltedsmallgame
@@ -378,6 +397,7 @@ item HCSaltedsmallgame
        		Proteins 		= 	44,
        		Lipids 			= 	4.6,
         	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
 	}
 	
 /************************RECIPES************************/

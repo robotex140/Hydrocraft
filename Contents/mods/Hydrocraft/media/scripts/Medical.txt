@@ -14,6 +14,7 @@ item HCMedicalrecord
         Type    		= Normal,
         DisplayName         	= Medical Record,
         icon 			= HCMedicalrecord,
+		DisplayCategory	= Useless,
     }
 
 item HCMedicallab
@@ -22,6 +23,7 @@ item HCMedicallab
 	Type            = Normal,
     DisplayName     = Medical Lab,
     icon 			= HCMedicallab,
+		DisplayCategory	= Medical,
 	}
 
 item HCMedicallab2
@@ -32,6 +34,7 @@ item HCMedicallab2
     WeightReduction     = 0,
     DisplayName     = Medical Lab,
     icon            = HCMedicallab,
+		DisplayCategory	= Medical,
     }
 
 item HCStethoscope
@@ -40,6 +43,7 @@ item HCStethoscope
         Type    		= Normal,
         DisplayName     = Stethoscope,
         icon 			= HCStethoscope,
+		DisplayCategory	= Medical,
     }  
 
 item HCOtoscope
@@ -48,6 +52,7 @@ item HCOtoscope
         Type    		= Normal,
         DisplayName         	= Otoscope,
         icon 			= HCOtoscope,
+		DisplayCategory	= Medical,
     }  
 
 item HCHeadmirror
@@ -56,6 +61,7 @@ item HCHeadmirror
         Type    		= Normal,
         DisplayName         	= Head Mirror,
         icon 			= HCHeadmirror,
+		DisplayCategory	= Medical,
     } 
 
 item HCSphygmomanometer
@@ -64,6 +70,7 @@ item HCSphygmomanometer
         Type    		= Normal,
         DisplayName         	= Sphygmomanometer,
         icon 			= HCSphygmomanometer,
+		DisplayCategory	= Medical,
     } 
 
 item HCThermometer
@@ -72,6 +79,7 @@ item HCThermometer
         Type    		= Normal,
         DisplayName         	= Thermometer,
         icon 			= HCThermometer,
+		DisplayCategory	= Medical,
     } 
 
 item HCManometer
@@ -80,6 +88,7 @@ item HCManometer
         Type    		= Normal,
         DisplayName         	= Manometer,
         icon 			= HCManometer,
+		DisplayCategory	= Medical,
     } 
 
 item HCArmsling
@@ -88,6 +97,7 @@ item HCArmsling
         Type    		= Normal,
         DisplayName         	= Arm Sling,
         icon 			= HCArmsling,
+		DisplayCategory	= Useless,
     } 
 
 item HCBonesaw
@@ -96,6 +106,7 @@ item HCBonesaw
         Type    		= Normal,
         DisplayName         	= Bone Saw,
         icon 			= HCBonesaw,
+		DisplayCategory	= Medical,
     } 
 
 item HCGiglisaw
@@ -104,6 +115,7 @@ item HCGiglisaw
         Type       		= Normal,
         DisplayName          	= Gigli Saw,
         Icon               	= HCGiglisaw,
+		DisplayCategory	= Medical,
     }
 
 item HCTonguedepressor
@@ -112,6 +124,7 @@ item HCTonguedepressor
         Type    		= Normal,
         DisplayName     	= Tongue Depressor,
         icon 			= HCTonguedepressor,
+		DisplayCategory	= Useless,
     } 
 
 item HCWheelchair
@@ -120,6 +133,7 @@ item HCWheelchair
         Type    		= Normal,
         DisplayName     	= Wheelchair,
         icon 			= HCWheelchair,
+		DisplayCategory	= Medical,
 	
     } 
 
@@ -129,7 +143,7 @@ item HCGlovebox
         Type    		= Normal,
         DisplayName     	= Glove Box,
         icon 			= HCGlovebox,
-	
+		DisplayCategory	= Medical,
     } 
 
 item HCHearingaid
@@ -138,6 +152,7 @@ item HCHearingaid
         Type    		= Normal,
         DisplayName         	= Hearing Aid,
         icon 			= HCHearingaid,
+		DisplayCategory	= Medical,
     }
 
 item HCGlasseye
@@ -146,6 +161,7 @@ item HCGlasseye
         Type    		= Normal,
         DisplayName         	= Glass Eye,
         icon 			= HCGlasseye,
+		DisplayCategory	= Useless,
     }
 
 item HCProstheticleg
@@ -154,6 +170,7 @@ item HCProstheticleg
         Type    		= Normal,
         DisplayName         	= Prosthetic Leg,
         icon 			= HCProstheticleg,
+		DisplayCategory	= Useless,
     }
 
 item HCEyepatch
@@ -162,6 +179,7 @@ item HCEyepatch
         Type    		= Normal,
         DisplayName         	= Eye Patch,
         icon 			= HCEyepatch,
+		DisplayCategory	= Useless,
     }
 
 item HCSyringeempty
@@ -170,6 +188,7 @@ item HCSyringeempty
         Type    		= Normal,
         DisplayName     	= Syringe,
         icon 			= HCSyringeempty,
+		DisplayCategory	= Medical,
     } 
 
 item HCSyringeblood
@@ -178,6 +197,7 @@ item HCSyringeblood
         Type    		= Normal,
         DisplayName     	= Syringe with Human Blood,
         icon 			= HCSyringeblood,
+		DisplayCategory	= Medical,
     } 
 
 item HCSyringezombie
@@ -186,6 +206,7 @@ item HCSyringezombie
         Type    		= Normal,
         DisplayName     	= Syringe with Zombie Blood,
         icon 			= HCSyringeblood,
+		DisplayCategory	= Medical,
     } 
 
 item HCHomedisinfectant
@@ -199,6 +220,7 @@ item HCHomedisinfectant
         Weight			    = 0.3,
         AlcoholPower        = 3,
         Tooltip			    = Tooltip_UseOnHealthPanel,
+		DisplayCategory	= Medical,
     }
 
 item HCSmellingsalts	
@@ -213,6 +235,7 @@ item HCSmellingsalts
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltscork,
 	CustomContextMenu 	= 	Sniff,
+		DisplayCategory	= Drug,
 	}
 
 item HCSmellingsalts2	
@@ -227,6 +250,7 @@ item HCSmellingsalts2
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltsbung,
 	CustomContextMenu 	= 	Sniff,
+		DisplayCategory	= Drug,
 	}
 
 item HCPillbox
@@ -235,6 +259,7 @@ item HCPillbox
 	Type	            = 	Normal,
 	DisplayName			= 	Empty Pill Box,
 	Icon				= 	HCPillbox,
+		DisplayCategory	= Medical,
 	}
 
 item HCAdrenalin
@@ -249,6 +274,7 @@ item HCAdrenalin
 	CustomContextMenu 		= Drink,
 	CustomEatSound 			= DrinkingFromBottle,
 	ReplaceOnUse			= HCEyedropperbottle,
+		DisplayCategory	= Drug,
     }
 
 item HCAdrenalinbox
@@ -257,6 +283,7 @@ item HCAdrenalinbox
 	Type	                        = 	Normal,
 	DisplayName			= 	Box of Adrenalin,
 	Icon				= 	HCAdrenalinbox,
+		DisplayCategory	= Drug,
 	}
 
 item HCAdrenalinbottle
@@ -266,6 +293,7 @@ item HCAdrenalinbottle
 	UseDelta 			= 0.2,
 	DisplayName 			= Bottle of Adrenalin,
 	Icon				= HCAdrenalinbottle,
+		DisplayCategory	= Drug,
     }
 
 item HCSyringeadrenalin
@@ -279,6 +307,7 @@ item HCSyringeadrenalin
         ReplaceOnUse	        	= HCSyringeempty,    
         Icon				= HCSyringeadrenalin,
 	CustomContextMenu 		= Inject,
+		DisplayCategory	= Drug,
     }
 
 item HCEthersheet
@@ -297,6 +326,7 @@ item HCEthersheet
     DisplayName         	= Ripped Sheet with Ether,
     icon 			        = HCEthersheet,
 	Alcoholic		        = TRUE,
+		DisplayCategory	= Drug,
     }
 
 item HCValeriantray
@@ -307,6 +337,7 @@ item HCValeriantray
     ReplaceOnUse   	 	= BakingTray,
 	DisplayName		    = Tray With Valerian,
 	Icon	        	= HCValeriantray,
+		DisplayCategory	= CraftChem,
     }
 
 item HCValeriandry
@@ -317,6 +348,7 @@ item HCValeriandry
     ReplaceOnUse    	= BakingTray,
 	DisplayName	       	= Tray With Dry Valerian,
 	Icon	        	= HCValeriantray,
+		DisplayCategory	= CraftChem,
     }
 
 item HCAntideppills
@@ -325,6 +357,7 @@ item HCAntideppills
     Type    		= Normal,
 	DisplayName		= Bottle of Anti-Depression Pills,
 	Icon	        = HCAntideppills,
+		DisplayCategory	= Drug,
     }
 
 item HCAntideppill
@@ -338,6 +371,7 @@ item HCAntideppill
 	DisplayName		    = Anti-Depression Pills,
 	Icon	        	= HCAntideppill,
 	Tooltip 		    = Tooltip_PillsAntidepressant,
+		DisplayCategory	= Drug,
     }
 
 item HCHawthornfruittray
@@ -348,6 +382,7 @@ item HCHawthornfruittray
     ReplaceOnUse   	 	= BakingTray,
 	DisplayName         = Tray with Hawthorn Fruit,
 	Icon	        	= HCHawthornfruittray,
+		DisplayCategory	= Drug,
     }
 
 item HCHawthornfruitdry
@@ -358,6 +393,7 @@ item HCHawthornfruitdry
     ReplaceOnUse    	= BakingTray,
 	DisplayName		    = Tray With Dry Hawthorn Fruit,
 	Icon	        	= HCHawthornfruittray,
+		DisplayCategory	= Drug,
     }
 
 item HCEphedrinebox
@@ -366,6 +402,7 @@ item HCEphedrinebox
     Type    	       	= Normal,
 	DisplayName		    = Box of Ephedrine,
 	Icon	        	= HCEphedrinebox,
+		DisplayCategory	= Drug,
     }
 
 item HCEphedrine
@@ -378,6 +415,7 @@ item HCEphedrine
 	Icon	        	= HCEphedrine,
     PainReduction 	    = 5,
 	FatigueChange		= -5,
+		DisplayCategory	= Drug,
     }
 
 item HCCaffeinebox
@@ -386,6 +424,7 @@ item HCCaffeinebox
     Type    		= Normal,
 	DisplayName		= Box of Caffeine Pills,
 	Icon	        = HCCaffeinebox,
+		DisplayCategory	= Drug,
     }
 
 item HCCaffeinepills
@@ -399,6 +438,7 @@ item HCCaffeinepills
 	FatigueChange		= -15,
 	UnhappyChange		= 5,
 	StressChange		= 5,
+		DisplayCategory	= Drug,
     }
 
 item HCWillowbarktea
@@ -408,6 +448,7 @@ item HCWillowbarktea
     DisplayName     = Willow Bark Tea,
     icon 			= HCWillowbarktea,
 	ReplaceOnUse	= HCJar,
+		DisplayCategory	= Medical,
     } 
 
 item HCCoughsyrup
@@ -422,6 +463,7 @@ item HCCoughsyrup
 	FatigueChange		= 20,
 	FluReduction		= 20,
 	ReduceInfectionPower= 10,
+		DisplayCategory	= Medical,
     }
 
 item HCInhaler
@@ -430,6 +472,7 @@ item HCInhaler
 	Type	            = Normal,
 	DisplayName			= Inhaler,
 	Icon				= HCInhaler,
+		DisplayCategory	= Useless,
 	}
 
 item HCEyedropperbottle
@@ -438,6 +481,7 @@ item HCEyedropperbottle
 	Type	            = Normal,
 	DisplayName			= Empty Eyedropper Bottle,
 	Icon				= HCEyedropperbottle,
+		DisplayCategory	= Useless,
 	}
 
 item HCEyedropperbottleiodine
@@ -448,6 +492,7 @@ item HCEyedropperbottleiodine
 	DisplayName 		= Bottle of Iodine,
 	ReplaceOnDeplete	= HCEyedropperbottle,
 	Icon				= HCEyedropperbottleiodine,
+		DisplayCategory	= Useless,
     }
 
 item HCEyedropperbottleeardrops
@@ -458,6 +503,7 @@ item HCEyedropperbottleeardrops
 	DisplayName 		= Bottle of Ear Drops,
 	ReplaceOnDeplete	= HCEyedropperbottle,
 	Icon				= HCEyedropperbottleeardrops,
+		DisplayCategory	= Useless,
     }
 
 item HCEyedropperbottleyedrops
@@ -468,6 +514,7 @@ item HCEyedropperbottleyedrops
 	DisplayName 		= Bottle of Eye Drops,
 	ReplaceOnDeplete	= HCEyedropperbottle,
 	Icon				= HCEyedropperbottleeyedrops,
+		DisplayCategory	= Useless,
     }
 
 item HCBirthcontrolpills
@@ -477,6 +524,7 @@ item HCBirthcontrolpills
 	UseDelta 			= 0.2,
 	DisplayName 		= Birth Control Pills,
 	Icon				= HCBirthcontrolpills,
+		DisplayCategory	= Useless,
     }
 
 item HCErectiledysfunctionpills
@@ -486,6 +534,7 @@ item HCErectiledysfunctionpills
 	UseDelta 			= 0.2,
 	DisplayName 		= Erectile Dysfunction Pills,
 	Icon				= HCErectiledysfunctionpills,
+		DisplayCategory	= Useless,
     }
 
 item HCGauze
@@ -494,6 +543,7 @@ item HCGauze
 	DisplayName		=	Gauze,
 	Icon			=	HCGauze,
 	Weight			=	0.1,
+		DisplayCategory	= Medical,
      }
 
 item HCDissectiontable
@@ -502,7 +552,7 @@ item HCDissectiontable
         Type   			= Normal,
         DisplayName     = Dissection Table,
         icon 			= HCDissectiontable,
-		
+		DisplayCategory	= Medical,
     }
 
 item HCDissectiontablebody
@@ -511,7 +561,7 @@ item HCDissectiontablebody
         Type   			= Normal,
         DisplayName     = Dissection Table with Corpse,
         icon 			= HCDissectiontablebody,
-		
+		DisplayCategory	= Medical,
     }
 
 item HCDissectiontabledissected
@@ -520,7 +570,7 @@ item HCDissectiontabledissected
         Type   			= Normal,
         DisplayName     = Dissection Table with Dissected Corpse,
         icon 			= HCDissectiontabledissected,
-		
+		DisplayCategory	= Medical,
     }
 
 item HCDissectiontablebloody
@@ -529,7 +579,7 @@ item HCDissectiontablebloody
         Type   			= Normal,
         DisplayName     = Bloody Dissection Table,
         icon 			= HCDissectiontablebloody,
-		
+		DisplayCategory	= Medical,
     }
 
 item HCZedbrain
@@ -538,6 +588,7 @@ item HCZedbrain
         Type    		= Normal,
         DisplayName     = Zombie Brain,
         icon 			= HCZedbrain,
+		DisplayCategory	= CraftCom,
     }
 
 item HCZedheart
@@ -546,6 +597,7 @@ item HCZedheart
         Type    		= Normal,
         DisplayName     = Zombie Heart,
         icon 			= HCZedheart,
+		DisplayCategory	= CraftCom,
     }
 
 item HCZedlung
@@ -554,6 +606,7 @@ item HCZedlung
         Type    		= Normal,
         DisplayName     = Zombie Lung,
         icon 			= HCZedlung,
+		DisplayCategory	= CraftCom,
     }
 
 item HCZedkidney
@@ -562,6 +615,7 @@ item HCZedkidney
         Type    		= Normal,
         DisplayName     = Zombie Kidney,
         icon 			= HCZedkidney,
+		DisplayCategory	= CraftCom,
     }
 
 item HCZedliver
@@ -570,6 +624,7 @@ item HCZedliver
         Type    		= Normal,
         DisplayName         	= Zombie Liver,
         icon 			= HCZedliver,
+		DisplayCategory	= CraftCom,
     }
 
 item HCZedpancreas
@@ -578,6 +633,7 @@ item HCZedpancreas
         Type    		= Normal,
         DisplayName     = Zombie Pancreas,
         icon 			= HCZedpancreas,
+		DisplayCategory	= CraftCom,
     }
 
 item HCZedintestines
@@ -586,6 +642,7 @@ item HCZedintestines
         Type    		= Normal,
         DisplayName     = Zombie Intestines,
         icon 			= HCZedintestines,
+		DisplayCategory	= CraftCom,
     }
 
 item HCMedicalskeletonbox
@@ -594,6 +651,7 @@ item HCMedicalskeletonbox
         Type    		= Normal,
         DisplayName     = Box with Medical Skeleton,
         icon 			= HCMedicalskeletonbox,
+		DisplayCategory	= Medical,
     }  
 
 item HCMedicalskeletonparts
@@ -602,6 +660,7 @@ item HCMedicalskeletonparts
         Type    		= Normal,
         DisplayName     = Medical Skeleton Parts,
         icon 			= HCMedicalskeletonparts,
+		DisplayCategory	= Medical,
     }  
 
 item HCMedicalskeletonholderparts
@@ -610,6 +669,7 @@ item HCMedicalskeletonholderparts
         Type    		= Normal,
         DisplayName     = Medical Skeleton Holder Parts,
         icon 			= HCMedicalskeletonholderparts,
+		DisplayCategory	= Medical,
     }  
 
 item HCMedicalskeletonholder
@@ -618,6 +678,7 @@ item HCMedicalskeletonholder
         Type    		= Normal,
         DisplayName     = Medical Skeleton Holder,
     	icon 			= HCMedicalskeletonholder,
+		DisplayCategory	= Medical,
     }  
 
 item HCMedicalskeletonhooked
@@ -626,6 +687,7 @@ item HCMedicalskeletonhooked
     Type    		= Normal,
     DisplayName     = Medical Skeleton,
 	icon 			= HCMedicalskeletonhooked,
+		DisplayCategory	= Medical,
     }  
 
 item HCSteampot
@@ -634,6 +696,7 @@ item HCSteampot
     Type    		= Normal,
     DisplayName     = Steam Pressure Pot,
     icon 			= HCSteampot,
+		DisplayCategory	= Misc,
     } 
 
 item HCBodybag
@@ -644,6 +707,7 @@ item HCBodybag
     Capacity            	= 10,
     DisplayName         	= Body Bag,
     Icon                	= HCBodybag,
+		DisplayCategory	= Container,
     }
 
 item HCBandageherb
@@ -659,6 +723,7 @@ item HCBandageherb
     CanBandage		   = true,
     BandagePower       = 6,
     Tooltip 		   = Tooltip_AlcoholBandage,
+		DisplayCategory	= Bandage,
     }
 
 item HCRagherb
@@ -674,6 +739,7 @@ item HCRagherb
     CanBandage		   = true,
     BandagePower       = 4,
     Tooltip 		   = Tooltip_AlcoholBandage,
+		DisplayCategory	= Bandage,
     }
 
 item HCMenstrualpadherb
@@ -689,6 +755,7 @@ item HCMenstrualpadherb
         CanBandage		   = true,
         BandagePower       = 4,
         Tooltip 		   = Tooltip_AlcoholBandage,
+		DisplayCategory	= Bandage,
     }
 
 item HCDiaperherb
@@ -704,6 +771,7 @@ item HCDiaperherb
     CanBandage		   = true,
     BandagePower       = 4,
     Tooltip 		   = Tooltip_AlcoholBandage,
+		DisplayCategory	= Bandage,
     }
 
 item HCCottonballspp
@@ -715,6 +783,7 @@ item HCCottonballspp
     Icon			   = HCCottonBallspp,
     Weight			   = 0.1,
     AlcoholPower       = 3,
+		DisplayCategory	= Medical,
     }
 
 item HCBandagepp
@@ -727,6 +796,7 @@ item HCBandagepp
     ReplaceOnUse    = BandageDirty,
     Icon			= HCBandagepp,
     BandagePower    = 4,
+		DisplayCategory	= Bandage,
     }
 
 item HCRagpp
@@ -739,6 +809,7 @@ item HCRagpp
     ReplaceOnUse    = RippedSheetsDirty,
     Icon			= HCRagpp,
     BandagePower    = 2,
+		DisplayCategory	= Bandage,
     }
 
 

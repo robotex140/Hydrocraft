@@ -27,6 +27,7 @@ item HCFreshpasta
         Proteins 			= 	10,
         Lipids 				= 	4,
         Calories 			= 	260,
+		DisplayCategory		= FoodP,
 	}
 
 item HCLasagna
@@ -50,6 +51,7 @@ item HCLasagna
 		Proteins 			= 	216,
 		Lipids 				= 	214,
 		Calories 			= 	3700,
+		DisplayCategory		= FoodP,
 	}
 
 item HCPastafettuccine
@@ -66,6 +68,7 @@ item HCPastafettuccine
         Lipids 				= 	16,
         Calories 			= 	3360,
         Packaged 			= 	TRUE,
+		DisplayCategory		= FoodN,
     	}
 
 item HCPastamacaroni
@@ -82,6 +85,7 @@ item HCPastamacaroni
         Lipids 				= 	16,
         Calories 			= 	3360,
         Packaged 			= 	TRUE,
+		DisplayCategory		= FoodN,
     	}
 
 item HCPastarotini
@@ -98,6 +102,7 @@ item HCPastarotini
         Lipids 				= 	16,
         Calories 			= 	3360,
         Packaged 			= 	TRUE,
+		DisplayCategory		= FoodN,
     	}
 
 /************************RECIPES************************/

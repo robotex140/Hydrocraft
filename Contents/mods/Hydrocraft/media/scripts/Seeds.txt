@@ -16,6 +16,7 @@ item HCMysteryseedspacket
 	DisplayName		= Packet Of Unknown Seeds,
 	Icon			= HCMysteryseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	} 
 
 item HCCandleberryseeds
@@ -24,6 +25,7 @@ item HCCandleberryseeds
 	DisplayName		= Candleberry Seeds,
 	Icon			= HCBeanseeds,
 	Weight			= 0.009,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCCandleberryseedspacket
@@ -33,6 +35,7 @@ item HCCandleberryseedspacket
 	DisplayName		= Candleberry Seeds Packet,
 	Icon			= HCGrapeseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	} 
 
 
@@ -45,6 +48,7 @@ item HCBeanseeds
 	DisplayName		= Bean Seeds,
 	Icon			= HCBeanseeds,
 	Weight			= 0.009,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCBeanseedspacket
@@ -55,6 +59,7 @@ item HCBeanseedspacket
 	DisplayName		= Bean Seeds Packet,
 	Icon			= HCBeanseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	} 
 
 
@@ -64,6 +69,7 @@ item HCPumpkinseeds
         Type    		= Normal,
         DisplayName         	= Pumpkin Seeds,
         icon 			= HCPumpkinseeds,
+		DisplayCategory	= SurFarm,
     }  
 
 item HCPumpkinseedspacket
@@ -72,6 +78,7 @@ item HCPumpkinseedspacket
 	DisplayName		= Pumpkin Seeds Packet,
 	Icon			= HCPumpkinseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCTeaseeds
@@ -80,6 +87,7 @@ item HCTeaseeds
         Type    		= Normal,
         DisplayName         	= Tea Seeds,
         icon 			= HCTeaseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCTeaseedspacket
@@ -88,6 +96,7 @@ item HCTeaseedspacket
 	DisplayName		= Tea Seeds Packet,
 	Icon			= HCTeaseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCHempseeds
@@ -96,6 +105,7 @@ item HCHempseeds
         Type    		= Normal,
         DisplayName         	= Hemp Seeds,
         icon 			= HCHempseeds,
+		DisplayCategory	= SurFarm,
     }  
 
 item HCHempseedspacket
@@ -104,6 +114,7 @@ item HCHempseedspacket
 	DisplayName		= Hemp Seeds Packet,
 	Icon			= HCHempseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCTobaccoseeds
@@ -112,6 +123,7 @@ item HCTobaccoseeds
         Type    		= Normal,
         DisplayName         	= Tobacco Seeds,
         icon 			= HCTobaccoseeds,
+		DisplayCategory	= SurFarm,
     }  
 
 item HCTobaccoseedspacket
@@ -120,6 +132,7 @@ item HCTobaccoseedspacket
 	DisplayName		= Tobacco Seeds Packet,
 	Icon			= HCTobaccoseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCJuteseeds
@@ -128,6 +141,7 @@ item HCJuteseeds
         Type    		= Normal,
         DisplayName         	= Jute Seeds,
         icon 			= HCJuteseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCJuteseedspacket
@@ -136,6 +150,7 @@ item HCJuteseedspacket
 	DisplayName		= Jute Seeds Packet,
 	Icon			= HCJuteseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCAppleseedspacket
@@ -144,6 +159,7 @@ item HCAppleseedspacket
 	DisplayName		= Apple Seeds Packet,
 	Icon			= HCAppleseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCAppleseeds
@@ -152,6 +168,7 @@ item HCAppleseeds
         Type    		= Normal,
         DisplayName         	= Apple Seeds,
         icon 			= HCAppleseeds,
+		DisplayCategory	= SurFarm,
     }  
 
 item HCBananaseedspacket
@@ -160,6 +177,7 @@ item HCBananaseedspacket
 	DisplayName		= Banana Seeds Packet,
 	Icon			= HCBananaseedspacket,
 	Weight			= 0.1
+		DisplayCategory	= SurFarm,
 	}
 
 item HCBananaseeds
@@ -168,6 +186,7 @@ item HCBananaseeds
         Type    		= Normal,
         DisplayName         	= Banana Seeds,
         icon 			= HCBananaseeds,
+		DisplayCategory	= SurFarm,
     }  
 
 item HCBlackberryseedspacket
@@ -176,6 +195,7 @@ item HCBlackberryseedspacket
 	DisplayName		= Blackberry Seeds Packet,
 	Icon			= HCBlackberryseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCBlackberryseeds
@@ -184,6 +204,7 @@ item HCBlackberryseeds
         Type    		= Normal,
         DisplayName         	= Blackberry Seeds,
         icon 			= HCBlackberryseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCBlueberryseedspacket
@@ -192,6 +213,7 @@ item HCBlueberryseedspacket
 	DisplayName		= Blueberry Seeds Packet,
 	Icon			= HCBlueberryseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCBlueberryseeds
@@ -200,6 +222,7 @@ item HCBlueberryseeds
         Type    		= Normal,
         DisplayName         	= Blueberry Seeds,
         icon 			= HCBlueberryseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCGrapeseedspacket
@@ -208,6 +231,7 @@ item HCGrapeseedspacket
 	DisplayName		= Grape Seeds Packet,
 	Icon			= HCGrapeseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCGrapeseeds
@@ -216,6 +240,7 @@ item HCGrapeseeds
         Type    		= Normal,
         DisplayName         	= Grape Seeds,
         icon 			= HCGrapeseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCLemonseedspacket
@@ -224,6 +249,7 @@ item HCLemonseedspacket
 	DisplayName		= Lemon Seeds Packet,
 	Icon			= HCLemonseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCLemonseeds
@@ -232,6 +258,7 @@ item HCLemonseeds
         Type    		= Normal,
         DisplayName         	= Lemon Seeds,
         icon 			= HCLemonseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCOrangeseedspacket
@@ -240,6 +267,7 @@ item HCOrangeseedspacket
 	DisplayName		= Orange Seeds Packet,
 	Icon			= HCOrangeseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCOrangeseeds
@@ -248,6 +276,7 @@ item HCOrangeseeds
         Type    		= Normal,
         DisplayName         	= Orange Seeds,
         icon 			= HCOrangeseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCPeachseedspacket
@@ -256,6 +285,7 @@ item HCPeachseedspacket
 	DisplayName		= Peach Seeds Packet,
 	Icon			= HCPeachseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCPeachseeds
@@ -264,6 +294,7 @@ item HCPeachseeds
         Type    		= Normal,
         DisplayName         	= Peach Seeds,
         icon 			= HCPeachseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCWatermelonseedspacket
@@ -272,6 +303,7 @@ item HCWatermelonseedspacket
 	DisplayName		= Watermelon Seeds Packet,
 	Icon			= HCWatermelonseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCWatermelonseeds
@@ -280,6 +312,7 @@ item HCWatermelonseeds
         Type    		= Normal,
         DisplayName         	= Watermelon Seeds,
         icon 			= HCWatermelonseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCBellpeppergreenseedspacket
@@ -288,6 +321,7 @@ item HCBellpeppergreenseedspacket
 	DisplayName		= Green Bell Pepper Seeds Packet,
 	Icon			= HCBellpeppergreenseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCBellpeppergreenseeds
@@ -296,6 +330,7 @@ item HCBellpeppergreenseeds
         Type    		= Normal,
         DisplayName         	= Green Bell Pepper Seeds,
         icon 			= HCBellpeppergreenseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCBellpepperredseedspacket
@@ -304,6 +339,7 @@ item HCBellpepperredseedspacket
 	DisplayName		= Red Bell Pepper Seeds Packet,
 	Icon			= HCBellpepperredseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCBellpepperredseeds
@@ -312,6 +348,7 @@ item HCBellpepperredseeds
         Type    		= Normal,
         DisplayName         	= Red Bell Pepper Seeds,
         icon 			= HCBellpepperredseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCBellpepperyellowseedspacket
@@ -320,6 +357,7 @@ item HCBellpepperyellowseedspacket
 	DisplayName		= Yellow Bell Pepper Seeds Packet,
 	Icon			= HCBellpepperyellowseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCBellpepperyellowseeds
@@ -328,6 +366,7 @@ item HCBellpepperyellowseeds
         Type    		= Normal,
         DisplayName         	= Yellow Bell Pepper Seeds,
         icon 			= HCBellpepperyellowseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCCornseedspacket
@@ -336,6 +375,7 @@ item HCCornseedspacket
 	DisplayName		= Corn Seeds Packet,
 	Icon			= HCCornseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCCornseeds
@@ -344,6 +384,7 @@ item HCCornseeds
         Type    		= Normal,
         DisplayName         	= Corn Seeds,
         icon 			= HCCornseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCEggplantseedspacket
@@ -352,6 +393,7 @@ item HCEggplantseedspacket
 	DisplayName		= Eggplant Seeds Packet,
 	Icon			= HCEggplantseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCEggplantseeds
@@ -360,6 +402,7 @@ item HCEggplantseeds
         Type    		= Normal,
         DisplayName         	= Eggplant Seeds,
         icon 			= HCEggplantseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCLeekseedspacket
@@ -368,6 +411,7 @@ item HCLeekseedspacket
 	DisplayName		= Leek Seeds Packet,
 	Icon			= HCLeekseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCLeekseeds
@@ -376,6 +420,7 @@ item HCLeekseeds
         Type    		= Normal,
         DisplayName         	= Leek Seeds,
         icon 			= HCLeekseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCLettuceseedspacket
@@ -384,6 +429,7 @@ item HCLettuceseedspacket
 	DisplayName		= Lettuce Seeds Packet,
 	Icon			= HCLettuceseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCLettuceseeds
@@ -392,6 +438,7 @@ item HCLettuceseeds
         Type    		= Normal,
         DisplayName         	= Lettuce Seeds,
         icon 			= HCLettuceseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCOnionseedspacket
@@ -400,6 +447,7 @@ item HCOnionseedspacket
 	DisplayName		= Onion Seeds Packet,
 	Icon			= HCOnionseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCOnionseeds
@@ -408,6 +456,7 @@ item HCOnionseeds
         Type    		= Normal,
         DisplayName         	= Onion Seeds,
         icon 			= HCOnionseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCPeaseedspacket
@@ -416,6 +465,7 @@ item HCPeaseedspacket
 	DisplayName		= Pea Seeds Packet,
 	Icon			= HCPeaseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCPeaseeds
@@ -424,6 +474,7 @@ item HCPeaseeds
         Type    		= Normal,
         DisplayName         	= Pea Seeds,
         icon 			= HCPeaseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCPeanutseedspacket
@@ -432,6 +483,7 @@ item HCPeanutseedspacket
 	DisplayName		= Peanut Seeds Packet,
 	Icon			= HCPeanutseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCPeanutseeds
@@ -440,6 +492,7 @@ item HCPeanutseeds
         Type    		= Normal,
         DisplayName         	= Peanut Seeds,
         icon 			= HCPeanutseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCAvacadoseedspacket
@@ -448,6 +501,7 @@ item HCAvacadoseedspacket
 	DisplayName		= Avacado Seeds Packet,
 	Icon			= HCAvacadoseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCAvacadoseeds
@@ -456,6 +510,7 @@ item HCAvacadoseeds
         Type    		= Normal,
         DisplayName         	= Avacado Seeds,
         icon 			= HCAvacadoseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCPearseedspacket
@@ -464,6 +519,7 @@ item HCPearseedspacket
 	DisplayName		= Pear Seeds Packet,
 	Icon			= HCPearseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCPearseeds
@@ -472,6 +528,7 @@ item HCPearseeds
         Type    		= Normal,
         DisplayName         	= Pear Seeds,
         icon 			= HCPearseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCCherryseedspacket
@@ -480,6 +537,7 @@ item HCCherryseedspacket
 	DisplayName		= Cherry Seeds Packet,
 	Icon			= HCCherryseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCCherryseeds
@@ -488,6 +546,7 @@ item HCCherryseeds
         Type    		= Normal,
         DisplayName         	= Cherry Seeds,
         icon 			= HCCherryseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCPineappleseedspacket
@@ -496,6 +555,7 @@ item HCPineappleseedspacket
 	DisplayName		= Pineapple Seeds Packet,
 	Icon			= HCPineappleseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCPineappleseeds
@@ -504,6 +564,7 @@ item HCPineappleseeds
         Type    		= Normal,
         DisplayName         	= Pineapple Seeds,
         icon 			= HCPineappleseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCZucchiniseedspacket
@@ -512,6 +573,7 @@ item HCZucchiniseedspacket
 	DisplayName		= Zucchini Seeds Packet,
 	Icon			= HCZucchiniseedspacket,
 	Weight			= 0.1,
+		DisplayCategory	= SurFarm,
 	}
 
 item HCZucchiniseeds
@@ -520,6 +582,7 @@ item HCZucchiniseeds
         Type    		= Normal,
         DisplayName         	= Zucchini Seeds,
         icon 			= HCZucchiniseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCChinesecabbageseedspacket
@@ -527,6 +590,7 @@ item HCChinesecabbageseedspacket
 	Type			= Normal,
 	DisplayName		= Chinese Cabbage Seeds Packet,
 	Icon			= HCChinesecabbageseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -536,6 +600,7 @@ item HCChinesecabbageseeds
         Type    		= Normal,
         DisplayName         	= Chinese Cabbage Seeds,
         icon 			= HCChinesecabbageseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCCucumberseedspacket
@@ -543,6 +608,7 @@ item HCCucumberseedspacket
 	Type			= Normal,
 	DisplayName		= Cucumber Seeds Packet,
 	Icon			= HCCucumberseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -552,6 +618,7 @@ item HCCucumberseeds
         Type    		= Normal,
         DisplayName         	= Cucumber Seeds,
         icon 			= HCCucumberseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCGingerseedspacket
@@ -559,6 +626,7 @@ item HCGingerseedspacket
 	Type			= Normal,
 	DisplayName		= Ginger Seeds Packet,
 	Icon			= HCGingerseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -568,6 +636,7 @@ item HCGingerseeds
         Type    		= Normal,
         DisplayName         	= Ginger Seeds,
         icon 			= HCGingerseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCGarlicseedspacket
@@ -575,6 +644,7 @@ item HCGarlicseedspacket
 	Type			= Normal,
 	DisplayName		= Garlic Seeds Packet,
 	Icon			= HCGarlicseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -584,6 +654,7 @@ item HCGarlicseeds
         Type    		= Normal,
         DisplayName         	= Garlic Seeds,
         icon 			= HCGarlicseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCOniongreenseedspacket
@@ -591,6 +662,7 @@ item HCOniongreenseedspacket
 	Type			= Normal,
 	DisplayName		= Green Onion Seeds Packet,
 	Icon			= HCOniongreenseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -600,6 +672,7 @@ item HCOniongreenseeds
         Type    		= Normal,
         DisplayName         	= Green Onion Seeds,
         icon 			= HCOniongreenseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCPotatosweetseedspacket
@@ -607,6 +680,7 @@ item HCPotatosweetseedspacket
 	Type			= Normal,
 	DisplayName		= Sweet Potato Seeds Packet,
 	Icon			= HCPotatosweetseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -616,6 +690,7 @@ item HCPotatosweetseeds
         Type    		= Normal,
         DisplayName         	= Sweet Potato Seeds,
         icon 			= HCPotatosweetseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCPumpkinlargeseedspacket
@@ -623,6 +698,7 @@ item HCPumpkinlargeseedspacket
 	Type			= Normal,
 	DisplayName		= Large Pumpkin Seeds Packet,
 	Icon			= HCPumpkinlargeseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -632,6 +708,7 @@ item HCPumpkinlargeseeds
         Type    		= Normal,
         DisplayName         	= Large Pumpkin Seeds,
         icon 			= HCPumpkinlargeseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCPumpkinwhiteseedspacket
@@ -639,6 +716,7 @@ item HCPumpkinwhiteseedspacket
 	Type			= Normal,
 	DisplayName		= White Pumpkin Seeds Packet,
 	Icon			= HCPumpkinlargeseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -648,6 +726,7 @@ item HCPumpkinwhiteseeds
         Type    		= Normal,
         DisplayName         	= White Pumpkin Seeds,
         icon 			= HCPumpkinwhiteseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCPumpkingreenseedspacket
@@ -655,6 +734,7 @@ item HCPumpkingreenseedspacket
 	Type			= Normal,
 	DisplayName		= Green Pumpkin Seeds Packet,
 	Icon			= HCPumpkingreenseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -664,6 +744,7 @@ item HCPumpkingreenseeds
         Type    		= Normal,
         DisplayName         	= Green Pumpkin Seeds,
         icon 			= HCPumpkingreenseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCPumpkinbuskinseedspacket
@@ -671,6 +752,7 @@ item HCPumpkinbuskinseedspacket
 	Type			= Normal,
 	DisplayName		= Buskin Pumpkin Packet,
 	Icon			= HCPumpkinbuskinseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -680,6 +762,7 @@ item HCPumpkinbuskinseeds
         Type    		= Normal,
         DisplayName         	= Buskin Pumpkin Seeds,
         icon 			= HCPumpkinbuskinseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCCornwhiteseedspacket
@@ -687,6 +770,7 @@ item HCCornwhiteseedspacket
 	Type			= Normal,
 	DisplayName		= White Corn Seeds Packet,
 	Icon			= HCCornwhiteseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -696,6 +780,7 @@ item HCCornwhiteseeds
         Type    		= Normal,
         DisplayName         	= White Corn Seeds,
         icon 			= HCCornwhiteseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCCornredseedspacket
@@ -703,6 +788,7 @@ item HCCornredseedspacket
 	Type			= Normal,
 	DisplayName		= Red Corn Seeds Packet,
 	Icon			= HCCornredseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -712,6 +798,7 @@ item HCCornredseeds
         Type    		= Normal,
         DisplayName         	= Red Corn Seeds,
         icon 			= HCCornredseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCCornblueseedspacket
@@ -719,6 +806,7 @@ item HCCornblueseedspacket
 	Type			= Normal,
 	DisplayName		= Blue Corn Seeds Packet,
 	Icon			= HCCornblueseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -728,6 +816,7 @@ item HCCornblueseeds
         Type    		= Normal,
         DisplayName         	= Blue Corn Seeds,
         icon 			= HCCornblueseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCApricotseedspacket
@@ -735,6 +824,7 @@ item HCApricotseedspacket
 	Type			= Normal,
 	DisplayName		= Apricot Seeds Packet,
 	Icon			= HCApricotseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -744,6 +834,7 @@ item HCApricotseeds
         Type    		= Normal,
         DisplayName         	= Apricot Seeds,
         icon 			= HCApricotseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCColewortseedspacket
@@ -751,6 +842,7 @@ item HCColewortseedspacket
 	Type			= Normal,
 	DisplayName		= Colewort Seeds Packet,
 	Icon			= HCColewortseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -760,6 +852,7 @@ item HCColewortseeds
         Type    		= Normal,
         DisplayName         	= Colewort Seeds,
         icon 			= HCColewortseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCCottonseedspacket
@@ -767,6 +860,7 @@ item HCCottonseedspacket
 	Type			= Normal,
 	DisplayName		= Cotton Seeds Packet,
 	Icon			= HCCottonseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -776,6 +870,7 @@ item HCCottonseeds
         Type    		= Normal,
         DisplayName         	= Cotton Seeds,
         icon 			= HCCottonseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCCabbageredseedspacket
@@ -783,6 +878,7 @@ item HCCabbageredseedspacket
 	Type			= Normal,
 	DisplayName		= Red Cabbage Seeds Packet,
 	Icon			= HCCabbageredseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -792,6 +888,7 @@ item HCCabbageredseeds
         Type    		= Normal,
         DisplayName         	= Red Cabbage Seeds,
         icon 			= HCCabbageredseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCCabbagewhiteseedspacket
@@ -799,6 +896,7 @@ item HCCabbagewhiteseedspacket
 	Type			= Normal,
 	DisplayName		= White Cabbage Seeds Packet,
 	Icon			= HCCabbagewhiteseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -808,6 +906,7 @@ item HCCabbagewhiteseeds
         Type    		= Normal,
         DisplayName         	= White Cabbage Seeds,
         icon 			= HCCabbagewhiteseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCPotatoredseedspacket
@@ -815,6 +914,7 @@ item HCPotatoredseedspacket
 	Type			= Normal,
 	DisplayName		= Red Potato Seeds Packet,
 	Icon			= HCPotatoredseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -824,6 +924,7 @@ item HCPotatoredseeds
         Type    		= Normal,
         DisplayName         	= Red Potato Seeds,
         icon 			= HCPotatoredseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCPotatogoldenseedspacket
@@ -831,6 +932,7 @@ item HCPotatogoldenseedspacket
 	Type			= Normal,
 	DisplayName		= Golden Potato Seeds Packet,
 	Icon			= HCPotatogoldenseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1,
 	}
 
@@ -840,6 +942,7 @@ item HCPotatogoldenseeds
         Type    		= Normal,
         DisplayName         	= Golden Potato Seeds,
         icon 			= HCPotatogoldenseeds,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCChilipepperseeds
@@ -848,6 +951,7 @@ item HCChilipepperseeds
         Type    		= Normal,
         DisplayName         	= Chili Pepper Seeds,
         icon 			= HCChilipepperseeds,
+		DisplayCategory	= SurFarm,
     }  
 
 item HCChilipepperseedspacket
@@ -855,6 +959,7 @@ item HCChilipepperseedspacket
 	Type			= Normal,
 	DisplayName		= Chili Pepper Seeds Packet,
 	Icon			= HCChilipepperseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 0.1
 	}
 
@@ -872,6 +977,7 @@ item HCPoppyseeds
         Type    		        = Normal,
         DisplayName     	        = Poppy Seeds,
         Icon   		 	        = HCPoppyseeds,
+		DisplayCategory	= SurFarm,
     }
 
 item HCCactusseeds
@@ -882,6 +988,7 @@ item HCCactusseeds
 	DisplayName		= 	Cactus Seeds,
 
 	Icon			= 	HCCactusseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -896,6 +1003,7 @@ item HCCactusseedspacket
 	DisplayName		= 	Cactus Seeds Packet,
 
 	Icon			= 	HCCactusseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	} 
@@ -908,6 +1016,7 @@ item HCAgaveblueseeds
 	DisplayName		= 	Blue Agave Seeds,
 
 	Icon			= 	HCAgaveblueseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -922,6 +1031,7 @@ item HCAgaveblueseedspacket
 	DisplayName		= 	Blue Agave Packet,
 
 	Icon			= 	HCAgaveblueseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -934,6 +1044,7 @@ item HCPricklypearseeds
 	DisplayName		= 	Prickly Pear Seeds,
 
 	Icon			= 	HCPricklypearseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -948,6 +1059,7 @@ item HCPricklypearseedspacket
 	DisplayName		= 	Prickly Pear Seeds Packet,
 
 	Icon			= 	HCPricklypearseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	} 
@@ -960,6 +1072,7 @@ item HCChiligreenseeds
 	DisplayName		= 	Green Chili Seeds,
 
 	Icon			= 	HCChiligreenseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -974,6 +1087,7 @@ item HCChiligreenseedspacket
 	DisplayName		= 	Green Chili Packet,
 
 	Icon			= 	HCChiligreenseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -986,6 +1100,7 @@ item HCTomatilloseeds
 	DisplayName		= 	Tomatillo Seeds,
 
 	Icon			= 	HCTomatilloseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1000,6 +1115,7 @@ item HCTomatilloseedspacket
 	DisplayName		= 	Tomatillo Packet,
 
 	Icon			= 	HCTomatilloseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1012,6 +1128,7 @@ item HCRiceseeds
 	DisplayName		= 	Rice Seeds,
 
 	Icon			= 	HCRiceseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1026,6 +1143,7 @@ item HCRiceseedspacket
 	DisplayName		= 	Rice Packet,
 
 	Icon			= 	HCRiceseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1038,6 +1156,7 @@ item HCRubbertreeseeds
 	DisplayName		= 	Rubber Tree Seeds,
 
 	Icon			= 	HCRubbertreeseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1052,6 +1171,7 @@ item HCRubbertreeseedspacket
 	DisplayName		= 	Rubber Tree Packet,
 
 	Icon			= 	HCRubbertreeseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1064,6 +1184,7 @@ item HCSpirulinaseeds
 	DisplayName		= 	Spirulina Seeds,
 
 	Icon			= 	HCSpirulinaseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1078,6 +1199,7 @@ item HCSpirulinaseedspacket
 	DisplayName		= 	Spirulina Packet,
 
 	Icon			= 	HCSpirulinaseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1087,6 +1209,7 @@ item HCBasilseeds
 	Type			= 	Normal,
 	DisplayName		= 	Basil Seeds,
 	Icon			= 	HCBasilseeds,
+		DisplayCategory	= SurFarm,
 	Weight			= 	0.009,
 	}
 
@@ -1096,6 +1219,7 @@ item HCBasilseedspacket
 	Type			=  	Normal,
 	DisplayName		= 	Basil Packet,
 	Icon			= 	HCBasilseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 	0.1,
 	}
 
@@ -1104,6 +1228,7 @@ item HCOreganoseeds
 	Type			= 	Normal,
 	DisplayName		= 	Oregano Seeds,
 	Icon			= 	HCBasilseeds,
+		DisplayCategory	= SurFarm,
 	Weight			= 	0.009,
 	}
 
@@ -1113,6 +1238,7 @@ item HCOreganoseedspacket
 	Type			=  	Normal,
 	DisplayName		= 	Oregano Packet,
 	Icon			= 	HCBasilseedspacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 	0.1,
 	}
 
@@ -1126,6 +1252,7 @@ item HCAsparagusseeds
 	DisplayName		= 	Asparagus Seeds,
 
 	Icon			= 	HCAsparagusseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1140,6 +1267,7 @@ item HCAsparagusseedspacket
 	DisplayName		= 	Asparagus Packet,
 
 	Icon			= 	HCAsparagusseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1152,6 +1280,7 @@ item HCArtichokesseeds
 	DisplayName		= 	Artichoke Seeds,
 
 	Icon			= 	HCArtichokesseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1166,6 +1295,7 @@ item HCArtichokesseedspacket
 	DisplayName		= 	Artichoke Packet,
 
 	Icon			= 	HCArtichokesseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1178,6 +1308,7 @@ item HCAlfalfaseeds
 	DisplayName		= 	Alfalfa Seeds,
 
 	Icon			= 	HCAlfalfaseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1192,6 +1323,7 @@ item HCAlfalfaseedspacket
 	DisplayName		= 	Alfalfa Packet,
 
 	Icon			= 	HCAlfalfaseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1204,6 +1336,7 @@ item HCBambooseeds
 	DisplayName		= 	Bamboo Seeds,
 
 	Icon			= 	HCBambooseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1218,6 +1351,7 @@ item HCBambooseedspacket
 	DisplayName		= 	Bamboo Packet,
 
 	Icon			= 	HCBambooseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1230,6 +1364,7 @@ item HCMulberryseeds
 	DisplayName		= 	Mulberry Seeds,
 
 	Icon			= 	HCMulberryseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1244,6 +1379,7 @@ item HCMulberryseedspacket
 	DisplayName		= 	Mulberry Packet,
 
 	Icon			= 	HCMulberryseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1256,6 +1392,7 @@ item HCCeleryseeds
 	DisplayName		= 	Celery Seeds,
 
 	Icon			= 	HCCeleryseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1270,6 +1407,7 @@ item HCCeleryseedspacket
 	DisplayName		= 	Celery Packet,
 
 	Icon			= 	HCCeleryseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1282,6 +1420,7 @@ item HCSpinachseeds
 	DisplayName		= 	Spinach Seeds,
 
 	Icon			= 	HCSpinachseeds,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.009,
 
@@ -1296,6 +1435,7 @@ item HCSpinachseedspacket
 	DisplayName		= 	Spinach Packet,
 
 	Icon			= 	HCSpinachseedspacket,
+		DisplayCategory	= SurFarm,
 
 	Weight			= 	0.1,
 	}
@@ -1307,6 +1447,7 @@ item HCFlaxseeds
 	Type			=  	Normal,
 	DisplayName		= 	Flax Seeds,
 	Icon			= 	HCBasilseeds,
+		DisplayCategory	= SurFarm,
 	Weight			= 	0.009,
 	}
 
@@ -1316,6 +1457,7 @@ item HCFlaxseedseedpacket
 	Type			=  	Normal,
 	DisplayName		= 	Flaxseed package,
 	Icon			= 	HCFlaxseedpacket,
+		DisplayCategory	= SurFarm,
 	Weight			= 	0.1,
 	}
 

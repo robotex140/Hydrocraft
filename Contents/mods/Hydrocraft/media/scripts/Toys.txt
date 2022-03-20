@@ -14,6 +14,7 @@ item HCMagic8ball
         Type    		= Normal,
         DisplayName         	= Magic 8 Ball,
         icon 			= HCMagic8ball,
+			DisplayCategory	= Toy,
     }
 
 item HCPacifier
@@ -22,6 +23,7 @@ item HCPacifier
         Type    		= Normal,
         DisplayName         	= Pacifier,
         icon 			= HCPacifier,
+			DisplayCategory	= Toy,
     }
 
 item HCBabyteether
@@ -30,6 +32,7 @@ item HCBabyteether
         Type    		= Normal,
         DisplayName         	= Baby Teether,
         icon 			= HCBabyteether,
+			DisplayCategory	= Toy,
     }
 
 item HCBabyrattle
@@ -38,6 +41,7 @@ item HCBabyrattle
         Type    		= Normal,
         DisplayName         	= Baby Rattle,
         icon 			= HCBabyrattle,
+			DisplayCategory	= Toy,
     }
 
 item HCBabybottle
@@ -46,6 +50,7 @@ item HCBabybottle
         Type    		= Normal,
         DisplayName         	= Baby Bottle,
         icon 			= HCBabybottle,
+			DisplayCategory	= Toy,
     }
 
 item HCBabybib1
@@ -54,6 +59,7 @@ item HCBabybib1
         Type    		= Normal,
         DisplayName         	= Baby Bib,
         icon 			= HCBabybib1,
+			DisplayCategory	= Toy,
     }
 
 item HCBabybib2
@@ -62,6 +68,7 @@ item HCBabybib2
         Type    		= Normal,
         DisplayName         	= Baby Bib,
         icon 			= HCBabybib2,
+			DisplayCategory	= Toy,
     }
 
 item HCCrayonbox
@@ -70,6 +77,7 @@ item HCCrayonbox
         Type    		= Normal,
         DisplayName         	= Box of Crayons,
         icon 			= HCCrayonbox,
+			DisplayCategory	= Toy,
     }
 
 item HCChalk
@@ -78,6 +86,7 @@ item HCChalk
         Type    		= Normal,
         DisplayName         	= Chalk,
         icon 			= HCChalk,
+			DisplayCategory	= Toy,
     }
 
 item HCChalkbox
@@ -86,6 +95,7 @@ item HCChalkbox
         Type    		= Normal,
         DisplayName         	= Box of Chalk,
         icon 			= HCChalkbox,
+			DisplayCategory	= Toy,
     }
 
 item HCChalkeraser
@@ -94,6 +104,7 @@ item HCChalkeraser
         Type    		= Normal,
         DisplayName         	= Chalk Eraser,
         icon 			= HCChalkeraser,
+			DisplayCategory	= Toy,
     }
 
 item HCToybubbles
@@ -104,6 +115,7 @@ item HCToybubbles
         UseWhileEquipped	= FALSE,
         DisplayName		= Bubbles,
         Icon			= HCToybubbles,
+			DisplayCategory	= Toy,
     }
 
 item HCToyclay
@@ -114,6 +126,7 @@ item HCToyclay
         UseWhileEquipped	= FALSE,
         DisplayName		= Claydoh,
         Icon			= HCToyclay,
+			DisplayCategory	= Toy,
     }
 
 item HCCueball
@@ -122,6 +135,7 @@ item HCCueball
 	Type			=	Normal,
 	DisplayName		=	Cue Ball,
 	Icon			=	HCCueball,
+			DisplayCategory	= Toy,
    }
 
 item HCGlassmarbles
@@ -130,6 +144,7 @@ item HCGlassmarbles
 	Type			=	Normal,
 	DisplayName		=	Glass Marbles,
 	Icon			=	HCGlassmarbles,
+			DisplayCategory	= Toy,
    }
 
 item HCBirdie
@@ -138,6 +153,7 @@ item HCBirdie
 	Type			=	Normal,
 	DisplayName		=	Birdie,
 	Icon			=	HCBirdie,
+			DisplayCategory	= Toy,
    }
 
 item HCRubberball
@@ -146,6 +162,7 @@ item HCRubberball
 	Type			=	Normal,
 	DisplayName		=	Rubber Ball,
 	Icon			=	HCRubberball,
+			DisplayCategory	= Toy,
    }
 
 item HCKickball
@@ -154,6 +171,7 @@ item HCKickball
 	Type			=	Normal,
 	DisplayName		=	Kickball,
 	Icon			=	HCKickball,
+			DisplayCategory	= Toy,
    }
 
 item HCSoftball
@@ -162,6 +180,7 @@ item HCSoftball
 	Type			=	Normal,
 	DisplayName		=	Softball,
 	Icon			=	HCSoftball,
+			DisplayCategory	= Toy,
    }
 
 item HCBaseballglove
@@ -170,6 +189,7 @@ item HCBaseballglove
 	Type			=	Normal,
 	DisplayName		=	Baseball Glove,
 	Icon			=	HCBaseballglove,
+			DisplayCategory	= Toy,
    }
 
 item HCWiffleball
@@ -178,6 +198,7 @@ item HCWiffleball
 	Type			=	Normal,
 	DisplayName		=	Wiffle Ball,
 	Icon			=	HCWiffleball,
+			DisplayCategory	= Toy,
    }
 
 item HCBowlingball
@@ -186,6 +207,7 @@ item HCBowlingball
 	Type			=	Normal,
 	DisplayName		=	Bowling Ball,
 	Icon			=	HCBowlingball,
+			DisplayCategory	= Toy,
    }
 
 item HCBowlingpin
@@ -194,6 +216,7 @@ item HCBowlingpin
 	Type			=	Normal,
 	DisplayName		=	Bowling Pin,
 	Icon			=	HCBowlingpin,
+			DisplayCategory	= Toy,
    }
 
 item HCVolleyball
@@ -202,6 +225,7 @@ item HCVolleyball
 	Type			=	Normal,
 	DisplayName		=	Volleyball,
 	Icon			=	HCVolleyball,
+			DisplayCategory	= Toy,
    }
 
 item HCTennisballcontainerfull
@@ -210,6 +234,7 @@ item HCTennisballcontainerfull
         Type    		= Normal,
         DisplayName         	= Full Tennis Ball Container,
         icon 			= HCTennisballcontainerfull,
+			DisplayCategory	= Toy,
     }
 
 item HCTennisballcontainer
@@ -218,6 +243,7 @@ item HCTennisballcontainer
         Type    		= Normal,
         DisplayName         	= Empty Tennis Ball Container,
         icon 			= HCTennisballcontainer,
+			DisplayCategory	= Toy,
     }
 
 item HCEmptyballoon
@@ -228,6 +254,7 @@ item HCEmptyballoon
         DisplayName         	= Empty Balloon,
 	ReplaceOnUseOn		= WaterSource-HCWaterballoon,
         icon 			= HCEmptyballoon,
+			DisplayCategory	= Toy,
     }
 
 item HCWaterballoon
@@ -242,6 +269,7 @@ item HCWaterballoon
 	ReplaceOnDeplete	= HCEmptyballoon,
 	ReplaceOnUseOn		= WaterSource-HCWaterballoon,
 	Icon			= HCWaterballoon,
+			DisplayCategory	= Toy,
     }
 
 item HCBalloonbox
@@ -250,6 +278,7 @@ item HCBalloonbox
         Type    		= Normal,
         DisplayName         	= Box of Balloons,
         icon 			= HCBalloonbox,
+			DisplayCategory	= Toy,
     }
 
 item HCToycar
@@ -655,7 +684,7 @@ item HCPinata
 	Type	        	=	Normal,
 	DisplayName		=	Pinata,
 	Icon	        	=	HCPinata,
-	
+			DisplayCategory	= Toy,
 	}
 
 item HCPinatabroken
@@ -664,6 +693,7 @@ item HCPinatabroken
 	Type	        	=	Normal,
 	DisplayName		=	Broken Pinata,
 	Icon	        	=	HCPinatabroken,
+			DisplayCategory	= Toy,
 	
 	}
 
@@ -836,6 +866,7 @@ item HCCardgame1
         	TwoHandWeapon 			= 	TRUE,
         	TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.6,
+			DisplayCategory	= WepMelee,
 	}
 
 
@@ -877,6 +908,7 @@ item HCCardgame1
         BaseSpeed = 1,
         WeaponLength = 0.5,
         AttachmentType = Shovel,
+			DisplayCategory	= WepMelee,
     }
 
 
@@ -923,6 +955,7 @@ item HCCardgame1
         	TwoHandWeapon 			= 	TRUE,
 		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
+			DisplayCategory	= WepMelee,
 	}
 
 	item HCToysaber
@@ -960,6 +993,7 @@ item HCCardgame1
         	TwoHandWeapon 			= 	TRUE,
 		BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
+			DisplayCategory	= WepMelee,
 	}
 
 /************************RECIPES************************/

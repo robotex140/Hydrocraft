@@ -244,7 +244,7 @@ item HCDiaper
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Tooltip 		= Tooltip_UseOnHealthPanel,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCDiaperAlcohol
@@ -258,7 +258,7 @@ item HCDiaperAlcohol
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Tooltip 		= Tooltip_AlcoholBandage,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCDiaperDirty
@@ -270,7 +270,7 @@ item HCDiaperDirty
 	CanBandage		= TRUE,
 	BandagePower    	= 0,
         Alcoholic		= TRUE,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCDiaperpack
@@ -279,7 +279,7 @@ item HCDiaperpack
         Type    		= Normal,
         DisplayName         	= Pack of Diapers,
         icon 			= HCDiaperpack,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpad
@@ -292,7 +292,7 @@ item HCMenstrualpad
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Tooltip 		= Tooltip_UseOnHealthPanel,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpadAlcohol
@@ -305,7 +305,7 @@ item HCMenstrualpadAlcohol
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Alcoholic		= TRUE,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpadDirty
@@ -316,7 +316,7 @@ item HCMenstrualpadDirty
         icon 			= HCMenstrualpadDirty,
 	CanBandage		= TRUE,
 	BandagePower    	= 0,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpadbox
@@ -325,7 +325,7 @@ item HCMenstrualpadbox
         Type    		= Normal,
         DisplayName         	= Box of Menstrual Pads,
         icon 			= HCMenstrualpadbox,
-	DisplayCategory          =   Medical,
+	DisplayCategory          =   Bandage,
     }
 
 item HCTampon

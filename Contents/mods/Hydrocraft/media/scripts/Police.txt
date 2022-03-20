@@ -15,6 +15,7 @@ item HCHandcuffs
         Type			=	Normal,
         DisplayName		=	Handcuffs,
 	Icon			=	HCHandcuffs,
+		DisplayCategory		=   Useless,
 	}
 
 item HCPolicebadge
@@ -23,6 +24,7 @@ item HCPolicebadge
         Type			=	Normal,
         DisplayName		=	Police Badge,
 	Icon			=	HCPolicebadge,
+		DisplayCategory		=   Useless,
 	}
 
 

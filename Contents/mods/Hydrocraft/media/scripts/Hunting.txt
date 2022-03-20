@@ -14,6 +14,7 @@ item HCToad
 	Type 				= 	Normal,
 	DisplayName 			= 	Toad,
 	Icon				=	HCToad,
+	DisplayCategory          =   Animal,
 	}
 
 item HCTadpole
@@ -34,6 +35,7 @@ item HCTadpole
         Proteins 			= 5,
         Lipids 				= 0,
         Calories 			= 15,
+	DisplayCategory          =   Animal,
     }
 
 item HCNewt
@@ -42,6 +44,7 @@ item HCNewt
 	Type 				= 	Normal,
 	DisplayName 			= 	Newt,
 	Icon				=	HCNewt,
+	DisplayCategory          =   Animal,
 	}
 
 item HCSalamander
@@ -50,6 +53,7 @@ item HCSalamander
 	Type 				= 	Normal,
 	DisplayName 			= 	Salamander,
 	Icon				=	HCSalamander,
+	DisplayCategory          =   Animal,
 	}
 
 item HCPondturtle
@@ -58,6 +62,7 @@ item HCPondturtle
 	Type 				= 	Normal,
 	DisplayName 			= 	Pond Turtle,
 	Icon				=	HCPondturtle,
+	DisplayCategory          =   Animal,
 	}
 
 item HCSnappingturtle
@@ -66,6 +71,7 @@ item HCSnappingturtle
 	Type 				= 	Normal,
 	DisplayName 			= 	Snapping Turtle,
 	Icon				=	HCSnappingturtle,
+	DisplayCategory          =   Animal,
 	}
 
 item HCSparrowdead
@@ -78,7 +84,7 @@ item HCSparrowdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Sparrow,
 	Icon				=	HCSparrowdead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCardinaldead
@@ -91,7 +97,7 @@ item HCCardinaldead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Cardinal,
 	Icon				=	HCCardinaldead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCBluejaydead
@@ -104,7 +110,7 @@ item HCBluejaydead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Bluejay,
 	Icon				=	HCBluejaydead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCMagpiedead
@@ -116,8 +122,8 @@ item HCMagpiedead
         DaysFresh			=	2,
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Magpie,
-	Icon				=	HCMagpiedead,
-	
+	Icon				=	HCMagpiedead
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCrowdead
@@ -130,7 +136,7 @@ item HCCrowdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Crow,
 	Icon				=	HCCrowdead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCootmale
@@ -139,7 +145,7 @@ item HCCootmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Coot (Male),
 	Icon				=	HCCootmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCootfemale
@@ -148,7 +154,7 @@ item HCCootfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Coot (Female),
 	Icon				=	HCCootfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCootdead
@@ -161,7 +167,7 @@ item HCCootdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Coot,
 	Icon				=	HCCootdead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCBlackduckmale
@@ -170,6 +176,7 @@ item HCBlackduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Duck (Male),
 	Icon				=	HCBlackduckmale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -179,7 +186,7 @@ item HCBlackduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Duck (Female),
 	Icon				=	HCBlackduckfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCBlackduckdead
@@ -192,7 +199,7 @@ item HCBlackduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Black Duck,
 	Icon				=	HCBlackduckdead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCBlackduckdead2
@@ -201,7 +208,7 @@ item HCBlackduckdead2
 	Type 				= 	Normal,
 	DisplayName 			= 	Dead Black Duck,
 	Icon				=	HCBlackduckdead2,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCanvasbackduckmale
@@ -210,7 +217,7 @@ item HCCanvasbackduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Canvasback Duck (Male),
 	Icon				=	HCCanvasbackduckmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCanvasbackduckfemale
@@ -219,7 +226,7 @@ item HCCanvasbackduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Canvasback Duck (Female),
 	Icon				=	HCCanvasbackduckfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCanvasbackduckdead
@@ -232,7 +239,7 @@ item HCCanvasbackduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Canvasback Duck,
 	Icon				=	HCCanvasbackduckdead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCanvasbackduckdead2
@@ -245,7 +252,7 @@ item HCCanvasbackduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Canvasback Duck,
 	Icon				=	HCCanvasbackduckdead2,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCMallardmale
@@ -254,7 +261,7 @@ item HCMallardmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Mallard (Male),
 	Icon				=	HCMallardmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCMallardfemale
@@ -262,8 +269,8 @@ item HCMallardfemale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Mallard (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCMallardfemale,
-	
 	}
 
 item HCMallarddead
@@ -276,7 +283,7 @@ item HCMallarddead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Mallard,
 	Icon				=	HCMallarddead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCPintailduckmale
@@ -285,7 +292,7 @@ item HCPintailduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pintail Duck (Male),
 	Icon				=	HCPintailduckmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCPintailduckfemale
@@ -293,8 +300,8 @@ item HCPintailduckfemale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Pintail Duck (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCPintailduckfemale,
-	
 	}
 
 item HCPintailduckdead
@@ -307,7 +314,7 @@ item HCPintailduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Pintail Duck,
 	Icon				=	HCPintailduckdead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCPintailduckdead2
@@ -320,7 +327,7 @@ item HCPintailduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Pintail Duck,
 	Icon				=	HCPintailduckdead2,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCRedheadduckmale
@@ -329,7 +336,7 @@ item HCRedheadduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Redhead Duck (Male),
 	Icon				=	HCRedheadduckmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCRedheadduckfemale
@@ -337,8 +344,8 @@ item HCRedheadduckfemale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Redhead Duck (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCRedheadduckfemale,
-	
 	}
 
 item HCRedheadduckdead
@@ -351,7 +358,7 @@ item HCRedheadduckdead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Redhead Duck,
 	Icon				=	HCRedheadduckdead,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCRedheadduckdead2
@@ -364,7 +371,7 @@ item HCRedheadduckdead2
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Redhead Duck,
 	Icon				=	HCRedheadduckdead2,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCScaupduckmale
@@ -373,7 +380,7 @@ item HCScaupduckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Scaup Duck (Male),
 	Icon				=	HCScaupduckmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCScaupduckfemale
@@ -382,7 +389,7 @@ item HCScaupduckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Scaup Duck (Female),
 	Icon				=	HCScaupduckfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCScaupduckdead
@@ -400,6 +407,7 @@ item HCScaupduckdead
     Lipids 				= 	33,
     Calories 			= 	603,
     HungerChange		=	-30,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCScaupduckdead2
@@ -417,6 +425,7 @@ item HCScaupduckdead2
     Lipids 				= 	33,
     Calories 			= 	603,
     HungerChange		=	-30,	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCWoodduckmale
@@ -424,6 +433,7 @@ item HCWoodduckmale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Wood Duck (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCWoodduckmale,
 	}
 
@@ -432,6 +442,7 @@ item HCWoodduckfemale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Wood Duck (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCWoodduckfemale,
 	}
 
@@ -450,6 +461,7 @@ item HCWoodduckdead
     Lipids 				= 	33,
     Calories 			= 	603,
     HungerChange		=	-30,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCWoodduckdead2
@@ -467,6 +479,7 @@ item HCWoodduckdead2
     Lipids 				= 	33,
     Calories 			= 	603,
     HungerChange		=	-30,	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCSnowgoosemale
@@ -474,6 +487,7 @@ item HCSnowgoosemale
 	Weight 				= 	0.4,
 	Type 				= 	Normal,
 	DisplayName 			= 	Snow Goose (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCSnowgoosemale,
 	
 	}
@@ -483,6 +497,7 @@ item HCSnowgoosefemale
 	Weight 				= 	0.4,
 	Type 				= 	Normal,
 	DisplayName 			= 	Snow Goose (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCSnowgoosefemale,
 	
 	}
@@ -502,6 +517,7 @@ item HCSnowgoosedead
     Lipids 				= 	39,
     Calories 			= 	714,
     HungerChange		=	-35,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCanadiangoosemale
@@ -509,6 +525,7 @@ item HCCanadiangoosemale
 	Weight 				= 	0.4,
 	Type 				= 	Normal,
 	DisplayName 			= 	Canadian Goose (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCCanadiangoosemale,
 	
 	}
@@ -518,6 +535,7 @@ item HCCanadiangoosefemale
 	Weight 				= 	0.4,
 	Type 				= 	Normal,
 	DisplayName 			= 	Canadian Goose (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCCanadiangoosefemale,
 	
 	}
@@ -538,6 +556,7 @@ item HCCanadiangoosedead
     Lipids 				= 	39,
     Calories 			= 	714,
     HungerChange		=	-35,	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCQuailmale
@@ -545,6 +564,7 @@ item HCQuailmale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Quail (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCQuailmale,
 	
 	}
@@ -554,6 +574,7 @@ item HCQuailfemale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Quail (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCQuailfemale,
 	
 	}
@@ -573,6 +594,7 @@ item HCQuaildead
     Lipids 				= 8.25,
     Calories 			= 261,
     HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCGrousemale
@@ -580,6 +602,7 @@ item HCGrousemale
 	Weight 				= 	0.2,
 	Type 				= 	Normal,
 	DisplayName 			= 	Grouse (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCGrousemale,
 	
 	}
@@ -589,11 +612,13 @@ item HCGrousefemale
 	Weight 			= 	0.2,
 	Type 			= 	Normal,
 	DisplayName 	= 	Grouse (Female),
+	DisplayCategory          =   Animal,
 	Icon			=	HCGrousefemale,
     Proteins		= 84.8,
     Lipids 			= 15,
     Calories 		= 480,
     HungerChange	=	-32,	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCGrousedead
@@ -611,6 +636,7 @@ item HCGrousedead
     Lipids 			= 9,
     Calories 		= 150,
     HungerChange	= -35,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCTurkeymale
@@ -618,6 +644,7 @@ item HCTurkeymale
 	Weight 				= 	0.5,
 	Type 				= 	Normal,
 	DisplayName 			= 	Turkey (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCTurkeymale,
 	
 	}
@@ -627,6 +654,7 @@ item HCTurkeyfemale
 	Weight 				= 	0.5,
 	Type 				= 	Normal,
 	DisplayName 		= 	Turkey (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCTurkeyfemale,
 	
 	}
@@ -646,6 +674,7 @@ item HCTurkeydead
     Lipids 				= 	5.7,
     Calories 			= 	336,
     HungerChange		=	-30,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCMuskratmale
@@ -653,6 +682,7 @@ item HCMuskratmale
 	Weight 				= 	0.3,
 	Type 				= 	Normal,
 	DisplayName 		= 	Muskrat (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCMuskratmale,
 	}
 
@@ -661,6 +691,7 @@ item HCMuskratfemale
 	Weight 				= 	0.3,
 	Type 				= 	Normal,
 	DisplayName 		= 	Muskrat (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCMuskratfemale,
 	
 	}
@@ -680,6 +711,7 @@ item HCMuskratdead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCGroundhogmale
@@ -687,6 +719,7 @@ item HCGroundhogmale
 	Weight 				= 	0.4,
 	Type 				= 	Normal,
 	DisplayName 		= 	Groundhog (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCGroundhogmale,
 	}
 
@@ -695,6 +728,7 @@ item HCGroundhogfemale
 	Weight 				= 	0.4,
 	Type 				= 	Normal,
 	DisplayName 			= 	Groundhog (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCGroundhogfemale,
 	}
 
@@ -713,6 +747,7 @@ item HCGroundhogdead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCNutriamale
@@ -720,6 +755,7 @@ item HCNutriamale
 	Weight 				= 	0.5,
 	Type 				= 	Normal,
 	DisplayName 			= 	Nutria (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCNutriamale,
 	
 	}
@@ -729,6 +765,7 @@ item HCNutriafemale
 	Weight 				= 	0.5,
 	Type 				= 	Normal,
 	DisplayName 			= 	Nutria (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCNutriafemale,
 	
 	}
@@ -748,6 +785,7 @@ item HCNutriadead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCBeavermale
@@ -755,6 +793,7 @@ item HCBeavermale
 	Weight 				= 	0.6,
 	Type 				= 	Normal,
 	DisplayName 		= 	Beaver (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBeavermale,
 	
 	}
@@ -764,6 +803,7 @@ item HCBeaverfemale
 	Weight 				= 	0.6,
 	Type 				= 	Normal,
 	DisplayName 		= 	Beaver (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBeaverfemale,
 	
 	}
@@ -783,6 +823,7 @@ item HCBeaverdead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCPorcupinemale
@@ -790,6 +831,7 @@ item HCPorcupinemale
 	Weight 				= 	0.6,
 	Type 				= 	Normal,
 	DisplayName 			= 	Porcupine (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCPorcupinemale,
 	
 	}
@@ -799,6 +841,7 @@ item HCPorcupinefemale
 	Weight 				= 	0.6,
 	Type 				= 	Normal,
 	DisplayName 			= 	Porcupine (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCPorcupinefemale,
 	
 	}
@@ -813,6 +856,7 @@ item HCPorcupinedead
     FoodType    		=   	Game,
 	DisplayName 		= 	Dead Porcupine,
 	Icon				=	HCPorcupinedead,
+	DisplayCategory          =   AnimalDead,
 	
 	}
 
@@ -821,6 +865,7 @@ item HCArmadillomale
 	Weight 				= 	0.8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Armadillo (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCArmadillomale,
 	
 	}
@@ -830,6 +875,7 @@ item HCArmadillofemale
 	Weight 				= 	0.8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Armadillo (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCArmadillofemale,
 	
 	}
@@ -849,7 +895,7 @@ item HCArmadillodead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCOpossummale
@@ -857,6 +903,7 @@ item HCOpossummale
 	Weight 				= 	0.5,
 	Type 				= 	Normal,
 	DisplayName 			= 	Opossum (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCOpossummale,
 	
 	}
@@ -866,6 +913,7 @@ item HCOpossumfemale
 	Weight 				= 	0.5,
 	Type 				= 	Normal,
 	DisplayName 			= 	Opossum (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCOpossumfemale,
 	
 	}
@@ -885,6 +933,7 @@ item HCOpossumdead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCFoxmale
@@ -892,6 +941,7 @@ item HCFoxmale
 	Weight 				= 	0.8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Fox (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCFoxmale,
 	}
 
@@ -900,6 +950,7 @@ item HCFoxfemale
 	Weight 				= 	0.8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Fox (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCFoxfemale,
 	
 	}
@@ -919,6 +970,7 @@ item HCFoxdead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCSkunkmale
@@ -926,6 +978,7 @@ item HCSkunkmale
 	Weight 				= 	0.8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Skunk (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCSkunkmale,
 	
 	}
@@ -935,6 +988,7 @@ item HCSkunkfemale
 	Weight 				= 	0.8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Skunk (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCSkunkfemale,
 	
 	}
@@ -954,6 +1008,7 @@ item HCSkunkdead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCRaccoonmale
@@ -961,6 +1016,7 @@ item HCRaccoonmale
 	Weight 				= 	1,
 	Type 				= 	Normal,
 	DisplayName 			= 	Raccoon (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCRaccoonmale,
 	
 	}
@@ -970,6 +1026,7 @@ item HCRaccoonfemale
 	Weight 				= 	1,
 	Type 				= 	Normal,
 	DisplayName 			= 	Raccoon (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCRaccoonfemale,
 	
 	}
@@ -989,6 +1046,7 @@ item HCRaccoondead
     Lipids 				= 7.25,
     Calories 			= 201,
 	HungerChange		= -15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCBoarmale
@@ -996,6 +1054,7 @@ item HCBoarmale
 	Weight 				= 	8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Boar (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBoarmale,
 	
 	}
@@ -1005,6 +1064,7 @@ item HCBoarfemale
 	Weight 				= 	8,
 	Type 				= 	Normal,
 	DisplayName 			= 	Boar (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBoarfemale,
 	
 	}
@@ -1019,6 +1079,7 @@ item HCBoardead
     FoodType    			=   	Game,
 	DisplayName 			= 	Dead Boar,
 	Icon				=	HCBoardead,
+	DisplayCategory          =   AnimalDead,
 		}
 
 item HCDeermale
@@ -1026,6 +1087,7 @@ item HCDeermale
 	Weight 				= 	10,
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCDeermale,
 	}
 
@@ -1034,6 +1096,7 @@ item HCDeerfemale
 	Weight 				= 	10,
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCDeerfemale,
 	}
 
@@ -1047,6 +1110,7 @@ item HCDeerdead
     FoodType    			=   	Game,
 	DisplayName 			= 	Dead Deer,
 	Icon				=	HCDeerdead,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCDeerdead2
@@ -1059,6 +1123,7 @@ item HCDeerdead2
     FoodType    			=   	Game,
 	DisplayName 			= 	Dead Deer,
 	Icon				=	HCDeerdead2,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCBearmale
@@ -1066,6 +1131,7 @@ item HCBearmale
 	Weight 				= 	12,
 	Type 				= 	Normal,
 	DisplayName 			= 	Grizzly Bear (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBearmale,
 	
 	}
@@ -1075,6 +1141,7 @@ item HCBearfemale
 	Weight 				= 	12,
 	Type 				= 	Normal,
 	DisplayName 			= 	Grizzly Bear (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBearfemale,
 	
 	}
@@ -1096,6 +1163,7 @@ item HCBlackbearmale
 	Weight 				= 	12,
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Bear (Male),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBlackbearmale,
 	
 	}
@@ -1105,6 +1173,7 @@ item HCBlackbearfemale
 	Weight 				= 	12,
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Bear (Female),
+	DisplayCategory          =   Animal,
 	Icon				=	HCBlackbearfemale,
 	
 	}
@@ -1119,6 +1188,7 @@ item HCBlackbeardead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Black Bear,
 	Icon				=	HCBlackbeardead,
+	DisplayCategory          =   AnimalDead,
 	
 	}
 
@@ -1132,6 +1202,7 @@ item HCCougardead
         FoodType    			=   	Game,
 	DisplayName 			= 	Dead Cougar,
 	Icon				=	HCCougardead,
+	DisplayCategory          =   AnimalDead,
 	
 	}
 
@@ -1141,6 +1212,7 @@ item HCDeerantlers
         Type    		= Normal,
         DisplayName         	= Deer Antlers,
         icon 			= HCDeerantlers,
+	DisplayCategory          =   SurHunt,
     }
 
 item HCSmallgamepoop
@@ -1149,6 +1221,7 @@ item HCSmallgamepoop
         Type    		= Normal,
         DisplayName         	= Small Game Poop,
         icon 			= HCSmallgamepoop,
+	DisplayCategory          =   AnimalPoop,
     }
 
 item HCBoarpoop
@@ -1157,6 +1230,7 @@ item HCBoarpoop
         Type    		= Normal,
         DisplayName         	= Boar Poop,
         icon 			= HCBoarpoop,
+	DisplayCategory          =   AnimalPoop,
     }
 
 item HCDeerpoop
@@ -1165,6 +1239,7 @@ item HCDeerpoop
         Type    		= Normal,
         DisplayName         	= Deer Poop,
         icon 			= HCDeerpoop,
+	DisplayCategory          =   AnimalPoop,
     }
 
 item HCBearpoop
@@ -1173,6 +1248,7 @@ item HCBearpoop
         Type    		= Normal,
         DisplayName         	= Bear Poop,
         icon 			= HCBearpoop,
+	DisplayCategory          =   AnimalPoop,
     }
 
 item HCCougarpoop
@@ -1181,6 +1257,7 @@ item HCCougarpoop
         Type    		= Normal,
         DisplayName         	= Cougar Poop,
         icon 			= HCCougarpoop,
+	DisplayCategory          =   AnimalPoop,
     }
 		
 /************************RECIPES************************/

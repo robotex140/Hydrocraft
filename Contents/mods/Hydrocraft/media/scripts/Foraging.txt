@@ -25,6 +25,7 @@ item HCCrabapple
         Proteins 		= 	0.47,
         Lipids 			= 	0.31,
         Calories 		= 	95,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCWildcarrot
@@ -43,6 +44,7 @@ item HCWildcarrot
         Proteins 		= 	0.57,
         Lipids 			= 	0.15,
         Calories 		= 	25,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCCandleberry
@@ -60,6 +62,7 @@ item HCCandleberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCHuckleberry
@@ -77,6 +80,7 @@ item HCHuckleberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCCranberry
@@ -94,6 +98,7 @@ item HCCranberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCSeaberry
@@ -111,6 +116,7 @@ item HCSeaberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCBlackcurrant
@@ -128,6 +134,7 @@ item HCBlackcurrant
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCRedcurrant
@@ -145,6 +152,7 @@ item HCRedcurrant
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCArrowwoodberry
@@ -162,6 +170,7 @@ item HCArrowwoodberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCRaspberry
@@ -179,6 +188,7 @@ item HCRaspberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCElderberry
@@ -200,6 +210,7 @@ item HCElderberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCHolly
@@ -216,6 +227,7 @@ item HCHolly
         PoisonPower 		= 	5,
         UseForPoison 		= 	1,
 	UnhappyChange		=	50,
+	DisplayCategory          =   FoodP,
     }
 
 item HCBlackthornberry
@@ -233,6 +245,7 @@ item HCBlackthornberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCCrampbarkberry
@@ -250,6 +263,7 @@ item HCCrampbarkberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCCrowberry
@@ -267,6 +281,7 @@ item HCCrowberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCGooseberry
@@ -284,6 +299,7 @@ item HCGooseberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCHawthornfruit 
@@ -301,6 +317,7 @@ item HCHawthornfruit
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJuniperberry
@@ -311,6 +328,7 @@ item HCJuniperberry
         DaysFresh		=	6,
 	DisplayName		=	Juniper Berry,
 	Icon			=	HCJuniperberry,
+	DisplayCategory          =   FoodP,
     }
 
 item HCSumacberry
@@ -328,6 +346,7 @@ item HCSumacberry
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCGrass
@@ -343,6 +362,7 @@ item HCGrass
         Proteins 		= 	0,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodN,
     }
 
 item HCFlax
@@ -351,6 +371,7 @@ item HCFlax
         Type    		= 	Normal,
         DisplayName         	= 	Flax,
         icon 			= 	HCFlax,
+	DisplayCategory          =   SurFor,
     }
 
 item HCReeds
@@ -359,6 +380,7 @@ item HCReeds
         Type    		= 	Normal,
         DisplayName         	= 	Reeds,
         icon 			= 	HCReeds,
+	DisplayCategory          =   SurFor,
     }
 
 item HCDuckweed
@@ -367,6 +389,7 @@ item HCDuckweed
         Type    		= 	Normal,
         DisplayName         	= 	Duckweed,
         icon 			= 	HCDuckweed,
+	DisplayCategory          =   SurFor,
     }
 
 item HCMandrake
@@ -375,6 +398,7 @@ item HCMandrake
         Type    		= 	Normal,
         DisplayName         	= 	Mandrake Root,
         icon 			= 	HCMandrake,
+	DisplayCategory          =   SurFor,
     }
 
 item HCMilkweedroot
@@ -383,6 +407,7 @@ item HCMilkweedroot
         Type    		= 	Normal,
         DisplayName         	= 	Milkweed Root,
         icon 			= 	HCMilkweedroot,
+	DisplayCategory          =   SurFor,
     }
 
 item HCLotusroot
@@ -399,6 +424,7 @@ item HCLotusroot
         Proteins 		= 	1.4,
         Lipids 			= 	0.1,
         Calories 		= 	59,
+	DisplayCategory          =   FoodN,
     }
 
 item HCClover
@@ -415,6 +441,7 @@ item HCClover
         Proteins 		= 	4,
         Lipids 			= 	0,
         Calories 		= 	70,
+	DisplayCategory          =   FoodP,
     }
 
 item HCLotusleaf
@@ -423,6 +450,7 @@ item HCLotusleaf
         Type    		= 	Normal,
         DisplayName         	= 	Lotus Leaf,
         icon 			= 	HCLotusleaf,
+	DisplayCategory          =   SurFor,
     }
 
 item HCWaterlilyleaf
@@ -431,6 +459,7 @@ item HCWaterlilyleaf
         Type    		= 	Normal,
         DisplayName         	= 	Water Lily Leaf,
         icon 			= 	HCWaterlilyleaf,
+	DisplayCategory          =   SurFor,
     }
 
 item HCHyacinthleaf
@@ -439,6 +468,7 @@ item HCHyacinthleaf
         Type    		= 	Normal,
         DisplayName         	= 	Water Hyacinth Leaf,
         icon 			= 	HCHyacinthleaf,
+		DisplayCategory	=   SurFor,
     }
 
 item HCNettles
@@ -447,6 +477,7 @@ item HCNettles
         Type    		= 	Normal,
         DisplayName         	= 	Nettles,
         icon 			= 	HCNettles,
+		DisplayCategory	=   SurFor,
     }
 
 item HCThistle
@@ -455,6 +486,7 @@ item HCThistle
         Type    		= 	Normal,
         DisplayName         	= 	Thistle,
         icon 			= 	HCThistle,
+		DisplayCategory	=   SurFor,
     }
 
 item HCAlfalfa
@@ -463,6 +495,7 @@ item HCAlfalfa
         Type    		= 	Normal,
         DisplayName         	= 	Alfalfa,
         icon 			= 	HCAlfalfa,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBelladonna
@@ -471,6 +504,7 @@ item HCBelladonna
         Type    		= 	Normal,
         DisplayName         	= 	Belladonna,
         icon 			= 	HCBelladonna,
+		DisplayCategory	=   SurFor,
     }
 
 item HCCatnip
@@ -479,6 +513,7 @@ item HCCatnip
         Type    		= 	Normal,
         DisplayName         	= 	Catnip,
         icon 			= 	HCCatnip,
+		DisplayCategory	=   SurFor,
     }
 
 item HCSoapgrass
@@ -487,6 +522,7 @@ item HCSoapgrass
         Type    		= 	Normal,
         DisplayName         	= 	Soap Grass,
         icon 			= 	HCSoapgrass,
+		DisplayCategory	=   SurFor,
     }
 
 item HCChicory
@@ -504,6 +540,7 @@ item HCChicory
         Proteins 			= 		0.3,
         Lipids 				= 		0.1,
         Calories 			=		3,
+	DisplayCategory          =   FoodP,
     }
 
 item HCKvann
@@ -521,6 +558,7 @@ item HCKvann
         Proteins 			= 		0.3,
         Lipids 				= 		0.1,
         Calories 			=		3,
+	DisplayCategory          =   FoodP,
     }
 
 item HCWolfsbane
@@ -529,6 +567,7 @@ item HCWolfsbane
         Type    		= 	Normal,
         DisplayName         	= 	Wolfsbane,
         icon 			= 	HCWolfsbane,
+		DisplayCategory	=   SurFor,
     }
 
 item HCValerian
@@ -537,6 +576,7 @@ item HCValerian
         Type    		= 	Normal,
         DisplayName         	= 	Valerian,
         icon 			= 	HCValerian,
+		DisplayCategory	=   SurFor,
     } 
 
 item HCRosebud
@@ -545,6 +585,7 @@ item HCRosebud
         Type    		= 	Normal,
         DisplayName         	= 	Rosebud,
         icon 			= 	HCRosebud,
+		DisplayCategory	=   SurFor,
     }
 
 item HCSunflower
@@ -553,6 +594,7 @@ item HCSunflower
         Type    		= 	Normal,
         DisplayName         	= 	Sunflower,
         icon 			= 	HCSunflower,
+		DisplayCategory	=   SurFor,
     }
 
 item HCCamomile
@@ -561,6 +603,7 @@ item HCCamomile
         Type    		= 	Normal,
         DisplayName         	= 	Camomile,
         icon 			= 	HCCamomile,
+		DisplayCategory	=   SurFor,
     }
 
 item HCLavender
@@ -569,6 +612,7 @@ item HCLavender
         Type    		= 	Normal,
         DisplayName         	= 	Lavender,
         icon 			= 	HCLavender,
+		DisplayCategory	=   SurFor,
     }
 
 item HCFlaxflower
@@ -577,6 +621,7 @@ item HCFlaxflower
         Type    		= 	Normal,
         DisplayName         	= 	Flax Flower,
         icon 			= 	HCFlaxflower,
+		DisplayCategory	=   SurFor,
     }
 
 item HCDaisy
@@ -585,6 +630,7 @@ item HCDaisy
         Type    		= 	Normal,
         DisplayName         	= 	Daisy,
         icon 			= 	HCDaisy,
+		DisplayCategory	=   SurFor,
     }
 
 item HCIris
@@ -593,6 +639,7 @@ item HCIris
         Type    		= 	Normal,
         DisplayName         	= 	Iris,
         icon 			= 	HCIris,
+		DisplayCategory	=   SurFor,
     }
 
 item HCSkullcap
@@ -601,6 +648,7 @@ item HCSkullcap
         Type    		= 	Normal,
         DisplayName         	= 	Skullcap,
         icon 			= 	HCSkullcap,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBluebell
@@ -609,6 +657,7 @@ item HCBluebell
         Type    		= 	Normal,
         DisplayName         	= 	Bluebell,
         icon 			= 	HCBluebell,
+		DisplayCategory	=   SurFor,
     }
 
 item HCLotusflower
@@ -617,6 +666,7 @@ item HCLotusflower
         Type    		= 	Normal,
         DisplayName         	= 	Lotus Flower,
         icon 			= 	HCLotusflower,
+		DisplayCategory	=   SurFor,
     }
 
 item HCHyacinthflower
@@ -625,6 +675,7 @@ item HCHyacinthflower
         Type    		= 	Normal,
         DisplayName         	= 	Water Hyacinth Flower,
         icon 			= 	HCHyacinthflower,
+		DisplayCategory	=   SurFor,
     }
 
 item HCWaterlilyflower
@@ -633,6 +684,7 @@ item HCWaterlilyflower
         Type    		= 	Normal,
         DisplayName         	= 	Water Lily Flower,
         icon 			= 	HCWaterlilyflower,
+		DisplayCategory	=   SurFor,
     }
 
 item HCVenusflytrap
@@ -641,6 +693,7 @@ item HCVenusflytrap
         Type    		= 	Normal,
         DisplayName         	= 	Venus Flytrap,
         icon 			= 	HCVenusflytrap,
+		DisplayCategory	=   SurFor,
     }
 
 item HCAnemome
@@ -649,6 +702,7 @@ item HCAnemome
         Type    		= 	Normal,
         DisplayName         	= 	Anemone,
         icon 			= 	HCAnemome,
+		DisplayCategory	=   SurFor,
     }
 
 item HCCamellia
@@ -657,6 +711,7 @@ item HCCamellia
         Type    		= 	Normal,
         DisplayName         	= 	Camellia,
         icon 			= 	HCCamellia,
+		DisplayCategory	=   SurFor,
     }
 
 item HCRhododendron
@@ -673,6 +728,7 @@ item HCDaffodil
         Type    		= 	Normal,
         DisplayName         	= 	Daffodil,
         icon 			= 	HCDaffodil,
+		DisplayCategory	=   SurFor,
     }
 
 item HCTulip
@@ -681,6 +737,7 @@ item HCTulip
         Type    		= 	Normal,
         DisplayName         	= 	Tulip,
         icon 			= 	HCTulip,
+		DisplayCategory	=   SurFor,
     }
 
 item HCMorningglory
@@ -689,6 +746,7 @@ item HCMorningglory
         Type    		= 	Normal,
         DisplayName         	= 	Morning Glory,
         icon 			= 	HCMorningglory,
+		DisplayCategory	=   SurFor,
     }
 
 item HCCalily
@@ -697,6 +755,7 @@ item HCCalily
         Type    		= 	Normal,
         DisplayName         	= 	Calily,
         icon 			= 	HCCalily,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBleedingheart
@@ -705,6 +764,7 @@ item HCBleedingheart
         Type    		= 	Normal,
         DisplayName         	= 	Bleeding Heart,
         icon 			= 	HCBleedingheart,
+		DisplayCategory	=   SurFor,
     }
 
 item HCPansy
@@ -713,6 +773,7 @@ item HCPansy
         Type    		= 	Normal,
         DisplayName         	= 	Pansy,
         icon 			= 	HCPansy,
+		DisplayCategory	=   SurFor,
     }
 
 item HCTetterwort
@@ -721,6 +782,7 @@ item HCTetterwort
         Type    		= 	Normal,
         DisplayName         	= 	Tetterwort,
         icon 			= 	HCTetterwort,
+		DisplayCategory	=   SurFor,
     }
 
 item HCDogwood
@@ -729,6 +791,7 @@ item HCDogwood
         Type    		= 	Normal,
         DisplayName         	= 	Dogwood,
         icon 			= 	HCDogwood,
+		DisplayCategory	=   SurFor,
     }
 
 item HCMagnolia
@@ -737,6 +800,7 @@ item HCMagnolia
         Type    		= 	Normal,
         DisplayName         	= 	Magnolia,
         icon 			= 	HCMagnolia,
+		DisplayCategory	=   SurFor,
     }
 
 item HCSpeedwell
@@ -745,6 +809,7 @@ item HCSpeedwell
         Type    		= 	Normal,
         DisplayName         	= 	Speedwell,
         icon 			= 	HCSpeedwell,
+		DisplayCategory	=   SurFor,
     }
 
 item HCColumbine
@@ -753,6 +818,7 @@ item HCColumbine
         Type    		= 	Normal,
         DisplayName         	= 	Columbine,
         icon 			= 	HCColumbine,
+		DisplayCategory	=   SurFor,
     }
 
 item HCCinquefoils
@@ -761,6 +827,7 @@ item HCCinquefoils
         Type    		= 	Normal,
         DisplayName         	= 	Cinquefoils,
         icon 			= 	HCCinquefoils,
+		DisplayCategory	=   SurFor,
     }
 
 item HCStrelitzia
@@ -769,6 +836,7 @@ item HCStrelitzia
         Type    		= 	Normal,
         DisplayName         	= 	Strelitzia,
         icon 			= 	HCStrelitzia,
+		DisplayCategory	=   SurFor,
     }
 
 item HCMazus
@@ -777,6 +845,7 @@ item HCMazus
         Type    		= 	Normal,
         DisplayName         	= 	Mazus,
         icon 			= 	HCMazus,
+		DisplayCategory	=   SurFor,
     }
 
 item HCCarnation
@@ -785,6 +854,7 @@ item HCCarnation
         Type    		= 	Normal,
         DisplayName         	= 	Carnation,
         icon 			= 	HCCarnation,
+		DisplayCategory	=   SurFor,
     }
 
 item HCChrysanthemum
@@ -793,6 +863,7 @@ item HCChrysanthemum
         Type    		= 	Normal,
         DisplayName         	= 	Chrysanthemum,
         icon 			= 	HCChrysanthemum,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBluedaisy
@@ -801,6 +872,7 @@ item HCBluedaisy
         Type    		= 	Normal,
         DisplayName         	= 	Blue Daisy,
         icon 			= 	HCBluedaisy,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBark
@@ -817,6 +889,7 @@ item HCBark
         Lipids 			= 	0,
         Calories 		= 	70,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodN,
     }
 
 item HCBirchbark
@@ -833,6 +906,7 @@ item HCBirchbark
         Lipids 			= 	0,
         Calories 		= 	70,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodN,
     }
 
 item HCWillowbark
@@ -841,6 +915,7 @@ item HCWillowbark
         Type    		= 	Normal,
         DisplayName         	= 	Willow Bark,
         icon 			= 	HCWillowbark,
+		DisplayCategory	=   SurFor,
     } 
 
 item HCAcorn
@@ -849,6 +924,7 @@ item HCAcorn
         Type    		=    	Normal,
         DisplayName         	= 	Acorn,
         icon 			= 	HCAcorn,
+		DisplayCategory	=   SurFor,
      }
 
 item HCBirchcatkin
@@ -857,6 +933,7 @@ item HCBirchcatkin
         Type    		= 	Normal,
         DisplayName         	= 	Birch Catkin,
         icon 			= 	HCBirchcatkin,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBeechnut
@@ -877,6 +954,7 @@ item HCBeechnut
         Proteins 		= 	6.2,
         Lipids 			= 	50,
         Calories 		= 	576,
+	DisplayCategory          =   FoodP,
     }
 
 item HCFircone
@@ -885,6 +963,7 @@ item HCFircone
         Type    		= 	Normal,
         DisplayName         	= 	Fir Cone,
         icon 			= 	HCFircone,
+		DisplayCategory	=   SurFor,
     }
 
 item HCPinenuts
@@ -905,6 +984,7 @@ item HCPinenuts
         Proteins 		= 	14,
         Lipids 			= 	68,
         Calories 		= 	673,
+	DisplayCategory          =   FoodP,
     }
 
 item HCChestnut
@@ -913,6 +993,7 @@ item HCChestnut
         Type    		= 	Normal,
         DisplayName         	= 	Chestnut,
         icon 			= 	HCChestnut,
+		DisplayCategory	=   SurFor,
     }
 
 item HCChestnut2
@@ -933,6 +1014,7 @@ item HCChestnut2
         Proteins 		= 	4.5,
         Lipids 			= 	1.2,
         Calories 		= 	239,
+	DisplayCategory          =   FoodP,
     }
 
 item HCHickorynuts
@@ -941,6 +1023,7 @@ item HCHickorynuts
         Type    		= 	Normal,
         DisplayName         	= 	Hickory Nuts,
         icon 			= 	HCHickorynuts,
+		DisplayCategory	=   SurFor,
     }
 
 item HCHickorynuts2
@@ -961,6 +1044,7 @@ item HCHickorynuts2
         Proteins 		= 	13,
         Lipids 			= 	64,
         Calories 		= 	657,
+	DisplayCategory          =   FoodP,
     }
 
 item HCHickoryleaves
@@ -969,6 +1053,7 @@ item HCHickoryleaves
         Type    		= 	Normal,
         DisplayName         	= 	Hickory Leaves,
         icon 			= 	HCHickoryleaves,
+		DisplayCategory	=   SurFor,
     }
 
 item HCOakleaves
@@ -977,6 +1062,7 @@ item HCOakleaves
         Type    		= 	Normal,
         DisplayName         	= 	Oak Leaves,
         icon 			= 	HCOakleaves,
+		DisplayCategory	=   SurFor,
     }
 
 item HCMapleleaf
@@ -985,6 +1071,7 @@ item HCMapleleaf
         Type    		= 	Normal,
         DisplayName         	= 	Maple Leaf,
         icon 			= 	HCMapleleaf,
+		DisplayCategory	=   SurFor,
     }
 
 item HCFern
@@ -993,6 +1080,7 @@ item HCFern
         Type    		= 	Normal,
         DisplayName         	= 	Fern Leaves,
         icon 			= 	HCFern,
+		DisplayCategory	=   SurFor,
     }
 
 item HCFiddleheadfern
@@ -1008,6 +1096,7 @@ item HCFiddleheadfern
         Proteins 		= 	4.6,
         Lipids 			= 	0.4,
         Calories 		= 	34,
+	DisplayCategory          =   FoodN,
     }
 
 item HCWillowbranch
@@ -1016,6 +1105,7 @@ item HCWillowbranch
         Type    		= 	Normal,
         DisplayName         	= 	Willow Branch,
         icon 			= 	HCWillowbranch,
+		DisplayCategory	=   SurFor,
     }
 
 item HCAlderbough
@@ -1024,6 +1114,7 @@ item HCAlderbough
         Type    		= 	Normal,
         DisplayName         	= 	Alder Bough,
         icon 			= 	HCAlderbough,
+		DisplayCategory	=   SurFor,
     }
 
 item HCElmbough
@@ -1032,6 +1123,7 @@ item HCElmbough
         Type    		= 	Normal,
         DisplayName         	= 	Elm Bough,
         icon 			= 	HCElmbough,
+		DisplayCategory	=   SurFor,
     }
 
 item HCSprucebough
@@ -1040,6 +1132,7 @@ item HCSprucebough
         Type    		= 	Normal,
         DisplayName         	= 	Spruce Bough,
         icon 			= 	HCSprucebough,
+		DisplayCategory	=   SurFor,
     }
 
 item HCYewbough
@@ -1048,6 +1141,7 @@ item HCYewbough
         Type    		= 	Normal,
         DisplayName         	= 	Yew Bough,
         icon 			= 	HCYewbough,
+		DisplayCategory	=   SurFor,
     }
 
 item HCPinebough
@@ -1056,6 +1150,7 @@ item HCPinebough
         Type    		= 	Normal,
         DisplayName         	= 	Pine Bough,
         icon 			= 	HCPinebough,
+		DisplayCategory	=   SurFor,
     }
 
 item HCFirbough
@@ -1064,6 +1159,7 @@ item HCFirbough
         Type    		= 	Normal,
         DisplayName         	= 	Fir Bough,
         icon 			= 	HCFirbough,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBlackfeathers
@@ -1072,6 +1168,7 @@ item HCBlackfeathers
         Type    		= 	Normal,
         DisplayName         	= 	Black Feather,
         icon 			= 	HCBlackfeathers,
+		DisplayCategory	=   SurFor,
     }
 
 item HCWhitefeathers
@@ -1080,6 +1177,7 @@ item HCWhitefeathers
         Type    		= 	Normal,
         DisplayName         	= 	White Feather,
         icon 			= 	HCWhitefeathers,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBrownfeathers
@@ -1088,6 +1186,7 @@ item HCBrownfeathers
         Type    		= 	Normal,
         DisplayName         	= 	Brown Feather,
         icon 			= 	HCBrownfeathers,
+		DisplayCategory	=   SurFor,
     }
 
 item HCStripedfeather
@@ -1096,6 +1195,7 @@ item HCStripedfeather
         Type    		= 	Normal,
         DisplayName         	= 	Striped Feather,
         icon 			= 	HCStripedfeather,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBluejayfeather
@@ -1104,6 +1204,7 @@ item HCBluejayfeather
         Type    		= 	Normal,
         DisplayName         	= 	Blue Jay Feather,
         icon 			= 	HCBluejayfeather,
+		DisplayCategory	=   SurFor,
     }
 
 item HCRedfeather
@@ -1112,6 +1213,7 @@ item HCRedfeather
         Type    		= 	Normal,
         DisplayName         	= 	Red Feather,
         icon 			= 	HCRedfeather,
+		DisplayCategory	=   SurFor,
     }
 
 item HCGooseegg
@@ -1120,6 +1222,7 @@ item HCGooseegg
         Type    		= 	Normal,
         DisplayName         	= 	Goose Egg,
         icon 			= 	HCGooseegg,
+		DisplayCategory	=   SurFor,
     }
 
 item HCTurkeyegg
@@ -1128,6 +1231,7 @@ item HCTurkeyegg
         Type    		= 	Normal,
         DisplayName         	= 	Turkey Egg,
         icon 			= 	HCTurkeyegg,
+		DisplayCategory	=   SurFor,
     }
 
 item HCChickenegg
@@ -1136,6 +1240,7 @@ item HCChickenegg
         Type    		= 	Normal,
         DisplayName         	= 	Chicken Egg,
         icon 			= 	HCChickenegg,
+		DisplayCategory	=   SurFor,
     }
 
 item HCSparrowegg
@@ -1161,6 +1266,7 @@ item HCSparrowegg
         Lipids 			= 	15,
         Calories 		= 	196,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodP,
     }
 
 item HCBirdnest
@@ -1169,6 +1275,7 @@ item HCBirdnest
         Type    		= 	Normal,
         DisplayName         	= 	Bird Nest,
         icon 			= 	HCBirdnest,
+		DisplayCategory	=   SurFor,
     }
 
 item HCBirdnesteggs
@@ -1177,6 +1284,7 @@ item HCBirdnesteggs
         Type    		= 	Normal,
         DisplayName         	= 	Bird Nest with Eggs,
         icon 			= 	HCBirdnesteggs,
+		DisplayCategory	=   SurFor,
     }
 
 item HCStonearrowhead
@@ -1185,6 +1293,7 @@ item HCStonearrowhead
         Type    		= 	Normal,
         DisplayName         	= 	Stone Arrowhead,
         icon 			= 	HCStonearrowhead,
+		DisplayCategory	=   SurFor,
     }
 
     item HCTwigbundle
@@ -1193,6 +1302,7 @@ item HCStonearrowhead
 		Type		=	Normal,
 		DisplayName	=	Bundle of Twigs,
 		Icon		=	HCTwigbundle,
+		DisplayCategory	=   CraftCarp,
 	}
 
 /************************RECIPES************************/

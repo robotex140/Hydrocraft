@@ -23,6 +23,7 @@ item HCGreyclaybag
         Type    		= Normal,
         DisplayName         	= Bag of Grey Clay,
         icon 			= HCGreyclaybag,
+	DisplayCategory 	= Mineral,
     }
 
 item HCRedclay
@@ -40,6 +41,7 @@ item HCRedclaybag
         Type    		= Normal,
         DisplayName         	= Bag of Red Clay,
         icon 			= HCRedclaybag,
+	DisplayCategory 	= Mineral,
     }
 
 item HCBoneclay
@@ -57,6 +59,7 @@ item HCBoneclaybag
         Type    		= Normal,
         DisplayName         	= Bag of Bone Clay,
         icon 			= HCBoneclaybag,
+	DisplayCategory 	= Mineral,
     }
 
 item HCKiln
@@ -65,6 +68,7 @@ item HCKiln
         Type    		= Normal,
         DisplayName         	= Kiln,
         icon 			= HCKiln,
+		DisplayCategory = CraftMet,
 	
     }
 
@@ -76,6 +80,7 @@ item HCIngotmold
 	UseDelta 		= 0.25,
     DisplayName     = Ingot Mold,
     icon 			= HCIngotmold,
+		DisplayCategory = CraftMet,
     }
 
 
@@ -86,6 +91,7 @@ item HCIngotmoldHuge
     UseDelta        = 0.2,
     DisplayName     = Huge Ingot Mold,
     icon            = HCAnvilmold,
+		DisplayCategory = CraftMet,
     }
 
 
@@ -96,6 +102,7 @@ item HCRingmold
 	UseDelta 		= 0.25,
         DisplayName         	= Ring Mold,
         icon 			= HCNailmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCFishhookmold
@@ -105,6 +112,7 @@ item HCFishhookmold
 	UseDelta 		= 0.25,
         DisplayName         	= Fishhook Mold,
         icon 			= HCNailmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCNailmold
@@ -114,6 +122,7 @@ item HCNailmold
 	UseDelta 		= 0.25,
         DisplayName         	= Nail Mold,
         icon 			= HCNailmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCScrewmold
@@ -123,6 +132,7 @@ item HCScrewmold
 	UseDelta 		= 0.25,
         DisplayName         	= Screw Mold,
         icon 			= HCScrewmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCGearmold
@@ -132,6 +142,7 @@ item HCGearmold
 	UseDelta 		= 0.25,
         DisplayName         	= Gear Mold,
         icon 			= HCNailmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCBlockmold
@@ -141,6 +152,7 @@ item HCBlockmold
 	UseDelta 		= 0.25,
         DisplayName         	= Block Mold,
         icon 			= HCIngotmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCBungmold
@@ -150,6 +162,7 @@ item HCBungmold
 	UseDelta 		= 0.25,
         DisplayName         	= Bung Mold,
         icon 			= HCIngotmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCAnvilmold
@@ -159,6 +172,7 @@ item HCAnvilmold
 	UseDelta 		= 0.25,
         DisplayName         	= Anvil Mold,
         icon 			= HCAnvilmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCGiantmagnetmold
@@ -168,6 +182,7 @@ item HCGiantmagnetmold
 	UseDelta 		= 0.25,
         DisplayName         	= Giant Magnet Mold,
         icon 			= HCGiantmagnetmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCBulletcasingmold
@@ -177,6 +192,7 @@ item HCBulletcasingmold
 	UseDelta 		= 0.25,
         DisplayName         	= Bullet Casing Mold,
         icon 			= HCBulletcasingmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCBullettipmold
@@ -186,6 +202,7 @@ item HCBullettipmold
 	UseDelta 		= 0.25,
         DisplayName         	= Bullet Tip Mold,
         icon 			= HCBullettipmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCBuckshotmold
@@ -195,6 +212,7 @@ item HCBuckshotmold
 	UseDelta 		= 0.25,
     DisplayName     = Buckshot Mold,
     icon 			= HCBuckshotmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCBowBoltMold
@@ -204,6 +222,7 @@ item HCBowBoltMold
     UseDelta        = 0.1,
     DisplayName     = Bolt Mold,
     icon            = HCNailmold,
+		DisplayCategory = CraftMet,
     }
 
 item HCArrowheadMold
@@ -213,6 +232,7 @@ item HCArrowheadMold
     UseDelta        = 0.1,
     DisplayName     = Arrow Head Mold,
     icon            = HCNailmold,
+		DisplayCategory = CraftMet,
     }
 
 
@@ -223,6 +243,7 @@ item HCLeafSpringMold
     Type            = Normal,
     DisplayName     = Leaf Spring Mold,
     icon            = HCScrewmold,
+		DisplayCategory = CraftMet,
     }
 
 
@@ -233,6 +254,7 @@ item HCClaypot
         Type    		= Normal,
         DisplayName         	= Clay Pot,
         icon 			= HCClaypot,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayflowerpot
@@ -241,6 +263,7 @@ item HCClayflowerpot
         Type    		= Normal,
         DisplayName         	= Clay Flowerpot,
         icon 			= HCClayflowerpot,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayjar
@@ -249,6 +272,7 @@ item HCClayjar
         Type    		= Normal,
         DisplayName         	= Clay Jar,
         icon 			= HCClayjar,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayjarsmall
@@ -257,6 +281,7 @@ item HCClayjarsmall
         Type    		= Normal,
         DisplayName         	= Small Clay Jar,
         icon 			= HCClayjarsmall,
+		DisplayCategory = CraftMas,
     }
 
 item HCClaypipesmoking
@@ -265,6 +290,7 @@ item HCClaypipesmoking
         Type    		= Normal,
         DisplayName         	= Clay Smoking Pipe,
         icon 			= HCClaypipesmoking,
+		DisplayCategory = CraftMas,
     }
 
 item HCClaypipe
@@ -273,6 +299,7 @@ item HCClaypipe
         Type    		= Normal,
         DisplayName         	= Clay Pipe,
         icon 			= HCClaypipe,
+		DisplayCategory = CraftMas,
     }
 
 item HCClaycauldron
@@ -285,6 +312,7 @@ item HCClaycauldron
     RainFactor      = 1,
     Tooltip         = Tooltip_item_RainFromGround,
     icon 			= HCClaycauldron,
+		DisplayCategory = CraftMas,
     }
 
 item HCClaycauldronfull
@@ -301,6 +329,7 @@ item HCClaycauldronfull
 	Icon               = HCClaycauldronfull,
 	IsCookable         = TRUE,
 	RainFactor         = 1,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayurn
@@ -311,6 +340,7 @@ item HCClayurn
         Capacity            	= 20,
         DisplayName         	= Clay Urn,
         icon 			= HCClayurn,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayurnlarge
@@ -321,6 +351,7 @@ item HCClayurnlarge
         Capacity            	= 40,
         DisplayName         	= Large Clay Urn,
         icon 			= HCClayurnlarge,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayteapot
@@ -332,6 +363,7 @@ item HCClayteapot
 	ReplaceOnUseOn		= WaterSource-HCClayteapotfull,
         icon 			= HCClayteapot,
 	RainFactor 		= 1,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayteapotfull
@@ -348,6 +380,7 @@ item HCClayteapotfull
 	Icon			=	HCClayteapot,
 	IsCookable		=	TRUE,
 	RainFactor 		= 	1,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayoillamp
@@ -357,6 +390,7 @@ item HCClayoillamp
         Type    		= Normal,
         DisplayName         	= Clay Oil Lamp,
         icon 			= HCClayoillamp,
+		DisplayCategory = CraftMas,
     }
 
 item HCClayoillamplit
@@ -371,6 +405,7 @@ item HCClayoillamplit
 	DisplayName		    =	Lit Clay Oil Lamp,
 	ActivatedItem	    =	TRUE,
 	Icon			    =	HCClayoillamplit,
+		DisplayCategory = LightSource,
     }
 
 item HCClaymug
@@ -382,6 +417,7 @@ item HCClaymug
 	ReplaceOnUseOn		= WaterSource-HCClaymugfull,
         icon 			= HCClaymug,
 	RainFactor 		= 0.2,
+		DisplayCategory = CraftMas,
     }
 
 item HCClaymugfull
@@ -397,6 +433,7 @@ item HCClaymugfull
 	ReplaceOnUseOn		=	WaterSource-HCClaymugfull,
 	Icon			=	HCClaymug,
 	RainFactor 		= 	0.2,
+		DisplayCategory = CraftMas,
     }
 
 item HCClaytablet
@@ -405,6 +442,7 @@ item HCClaytablet
         Type    		= Normal,
         DisplayName         	= Clay Tablet,
         icon 			= HCClaytablet,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainteapot
@@ -416,6 +454,7 @@ item HCPorcelainteapot
 	ReplaceOnUseOn		= WaterSource-HCPorcelainteapotfull,
         icon 			= HCPorcelainteapot,
 	RainFactor 		= 1,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainteapotfull
@@ -432,6 +471,7 @@ item HCPorcelainteapotfull
 	Icon			=	HCPorcelainteapot,
 	IsCookable		=	TRUE,
 	RainFactor 		= 	1,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainteacup
@@ -443,6 +483,7 @@ item HCPorcelainteacup
 	ReplaceOnUseOn		= WaterSource-HCPorcelainteacupfull,
         icon 			= HCPorcelainteacup,
 	RainFactor 		= 0.2,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainteacupfull
@@ -458,6 +499,7 @@ item HCPorcelainteacupfull
 	ReplaceOnUseOn		=	WaterSource-HCPorcelainteacupfull,
 	Icon			=	HCPorcelainteacup,
 	RainFactor 		= 	0.2,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainsaucer
@@ -466,6 +508,7 @@ item HCPorcelainsaucer
         Type    		= Normal,
         DisplayName         	= Porcelain Saucer,
         icon 			= HCPorcelainsaucer,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainsaucerstack
@@ -474,6 +517,7 @@ item HCPorcelainsaucerstack
         Type    		= Normal,
         DisplayName         	= Stack of Porcelain Saucers,
         icon 			= HCPorcelainsaucerstack,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainteacupsaucer
@@ -485,6 +529,7 @@ item HCPorcelainteacupsaucer
 	ReplaceOnUseOn		= WaterSource-HCPorcelainteacupsaucerfull,
         icon 			= HCPorcelainteacupsaucer,
 	RainFactor 		= 0.2,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainteacupsaucerfull
@@ -500,6 +545,7 @@ item HCPorcelainteacupsaucerfull
 	ReplaceOnUseOn		=	WaterSource-HCPorcelainteacupsaucerfull,
 	Icon			=	HCPorcelainteacupsaucer,
 	RainFactor 		= 	0.2,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainplate
@@ -508,6 +554,7 @@ item HCPorcelainplate
         Type    		= Normal,
         DisplayName         	= Porcelain Plate,
         icon 			= HCPorcelainplate,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainplatestack
@@ -516,6 +563,7 @@ item HCPorcelainplatestack
         Type    		= Normal,
         DisplayName         	= Stack of Porcelain Plates,
         icon 			= HCPorcelainplatestack,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainplatter
@@ -524,6 +572,7 @@ item HCPorcelainplatter
         Type    		= Normal,
         DisplayName         	= Porcelain Platter,
         icon 			= HCPorcelainplatter,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainbowl
@@ -532,6 +581,7 @@ item HCPorcelainbowl
         Type    		= Normal,
         DisplayName         	= Porcelain Bowl,
         icon 			= HCPorcelainbowl,
+		DisplayCategory = CraftMas,
     }
 
 item HCPorcelainvase
@@ -540,6 +590,7 @@ item HCPorcelainvase
         Type    		= Normal,
         DisplayName         	= Porcelain vase,
         icon 			= HCPorcelainvase,
+		DisplayCategory = CraftMas,
     }
 	
 	item HCPipemold
@@ -549,6 +600,7 @@ item HCPorcelainvase
 	UseDelta 		= 0.25,
     DisplayName         	= Pipe Mold,
     icon 			= HCPipemold,
+		DisplayCategory = CraftMet,
     }
 
 	item HCBarmold
@@ -558,6 +610,7 @@ item HCPorcelainvase
 	UseDelta 		= 0.25,
     DisplayName         	= Bar Mold,
     icon 			= HCBarmold,
+		DisplayCategory = CraftMet,
     }
 
 /************************RECIPES************************/

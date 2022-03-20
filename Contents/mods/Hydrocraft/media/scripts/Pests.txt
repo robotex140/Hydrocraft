@@ -15,6 +15,7 @@ item HCRatpoison
         Type    			= Normal,
         DisplayName         		= Rat Poison,
         icon 				= HCRatpoison,
+		DisplayCategory		=   Useless,
     }
 
 item HCRatpoisonbox
@@ -23,6 +24,7 @@ item HCRatpoisonbox
         Type    			= Normal,
         DisplayName         		= Box of Rat Poison,
         icon 				= HCRatpoisonbox,
+		DisplayCategory		=   Useless,
     }
 
 item HCBugspraycan
@@ -32,6 +34,7 @@ item HCBugspraycan
 	UseDelta			= 0.25,
         DisplayName         		= Can of Bug Spray,
         icon 				= HCBugspraycan,
+		DisplayCategory		=   SurFarm,
     }
 
 item HCBugsprayer
@@ -42,6 +45,7 @@ item HCBugsprayer
         DisplayName         		= Bug Sprayer,
         icon 				= HCBugsprayer,
 	ReplaceOnDeplete		= HCBugsprayerempty,
+		DisplayCategory		=   SurFarm,
     }
 
 item HCBugsprayerempty
@@ -50,6 +54,7 @@ item HCBugsprayerempty
         Type    			= Normal,
         DisplayName         		= Empty Bug Sprayer,
         icon 				= HCBugsprayer,
+		DisplayCategory		=   SurFarm,
     }
 
 /************************RECIPES************************/	

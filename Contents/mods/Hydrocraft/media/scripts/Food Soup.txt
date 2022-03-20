@@ -19,6 +19,7 @@ item HCSoupbouillon
 	Icon				=	HCSoupbuillon,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:2;Stew:2,
+		DisplayCategory		=	FoodS,
 	}	
 
 	
@@ -43,6 +44,7 @@ item HCSoupbouillon
 		Proteins 			= 	260,
 		Lipids 				= 	196,
 		Calories 			= 	3140,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCChilibowl
@@ -66,7 +68,8 @@ item HCSoupbouillon
 		Proteins 			= 	65,
 		Lipids 				= 	49,
 		Calories 			= 	785,
-		EvolvedRecipe 		= 	Soup:15;Stew:15;Sandwich:5;Burger:5;Salad:5,	
+		EvolvedRecipe 		= 	Soup:15;Stew:15;Sandwich:5;Burger:5;Salad:5,
+		DisplayCategory		=	FoodP,	
 	}
 
 	item HCBrothbowl
@@ -90,6 +93,7 @@ item HCSoupbouillon
 		Proteins 			= 	1,
 		Lipids 				= 	0.5,
 		Calories 			= 	25,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCShroomsoup
@@ -113,6 +117,7 @@ item HCShroomsoup
         Proteins 			= 	39.6,
         Lipids 				= 	74,
         Calories 			= 	1060,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCShroomsoupbowl
@@ -136,6 +141,7 @@ item HCShroomsoup
 		Proteins 			= 	4.8,
 		Lipids 				= 	18.5,
 		Calories 			= 	265,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCNoodlesoup
@@ -159,6 +165,7 @@ item HCNoodlesoup
         Proteins 			= 	9.9,
         Lipids 				= 	1.8,
         Calories 			= 	660,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCNoodlesoupbowl
@@ -182,6 +189,7 @@ item HCNoodlesoupbowl
         Proteins 			= 	14,
         Lipids 				= 	4,
         Calories 			= 	165,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCRamenflatchicken
@@ -190,6 +198,7 @@ item HCRamenflatchicken
         Type    		= Normal,
         DisplayName     	= Chicken Ramen Flat,
         icon 			= HCRamenflatchicken,
+		DisplayCategory		=	FoodN,
     }
   
 item HCRamenflatbeef
@@ -198,6 +207,7 @@ item HCRamenflatbeef
         Type    		= Normal,
         DisplayName     	= Chicken Ramen Flat,
         icon 			= HCRamenflatbeef,
+		DisplayCategory		=	FoodN,
     }
   
 item HCRamenflatshrimp
@@ -206,6 +216,7 @@ item HCRamenflatshrimp
         Type    		= Normal,
         DisplayName     	= Shrimp Ramen Flat,
         icon 			= HCRamenflatshrimp,
+		DisplayCategory		=	FoodN,
     }
   
 item HCRamenflatcheese
@@ -214,6 +225,7 @@ item HCRamenflatcheese
         Type    		= Normal,
         DisplayName    		= Cheese Ramen Flat,
         icon 			= HCRamenflatcheese,
+		DisplayCategory		=	FoodN,
     } 
 
 item HCRamenchicken
@@ -228,6 +240,7 @@ item HCRamenchicken
         Calories 			= 	380,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCRamennoodlebowlchicken
@@ -252,6 +265,7 @@ item HCRamennoodlebowlchicken
     	Lipids 				= 	49,
     	Calories 			= 	785,
 	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+		DisplayCategory		=	FoodP,
 	}
 
 item HCRamenbeef
@@ -266,6 +280,7 @@ item HCRamenbeef
         Calories 			= 	380,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 	
 	
@@ -291,6 +306,7 @@ item HCRamennoodlebowlbeef
     	Lipids 				= 	49,
     	Calories 			= 	785,
 	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+		DisplayCategory		=	FoodP,
 	}
 
 item HCRamenshrimp
@@ -305,6 +321,7 @@ item HCRamenshrimp
         Calories 			= 	380,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 	
 item HCRamennoodlebowlshrimp
@@ -329,6 +346,7 @@ item HCRamennoodlebowlshrimp
     	Lipids 				= 	49,
     	Calories 			= 	785,
 	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+		DisplayCategory		=	FoodP,
 	}
 
 item HCRamencheese
@@ -343,6 +361,7 @@ item HCRamencheese
         Calories 			= 	380,
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 	
 item HCRamennoodlebowlcheese
@@ -367,6 +386,7 @@ item HCRamennoodlebowlcheese
     	Lipids 				= 	49,
     	Calories 			= 	785,
 	EvolvedRecipe 			= 	Soup:20;Stew:20;Sandwich:5;Burger:5;Salad:5,	
+		DisplayCategory		=	FoodP,
 	}
 
 /************************RECIPES************************/

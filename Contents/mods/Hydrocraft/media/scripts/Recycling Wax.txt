@@ -14,6 +14,7 @@ item HCWaxrecycled
         Type    		=    	Normal,
         DisplayName    		=    	Recyled Wax,
         Icon    		=    	HCWaxrecycled,
+		DisplayCategory = SurApi,
     }
 
 /************************RECIPES************************/

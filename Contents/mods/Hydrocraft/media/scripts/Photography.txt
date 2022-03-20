@@ -15,6 +15,7 @@ item HCCamera
         Type    		= Normal,
         DisplayName         	= Camera,
         icon 			= HCCamera,
+		DisplayCategory		=   CraftMisc,
     }
 
 
@@ -24,6 +25,7 @@ item HCFilmcanister
         Type    		= Normal,
         DisplayName         	= Film Canister,
         icon 			= HCFilmcanister,
+		DisplayCategory		=   CraftMisc,
     }
 
 
@@ -33,6 +35,7 @@ item HCFilmroll
         Type    		= Normal,
         DisplayName         	= Roll of Film,
         icon 			= HCFilmroll,
+		DisplayCategory		=   CraftMisc,
     }
 
 item HCPhotodevloper
@@ -41,6 +44,7 @@ item HCPhotodevloper
         Type    		= Normal,
         DisplayName         	= Film Devloper,
         icon 			= HCPhotodevloper,
+		DisplayCategory		=   CraftMisc,
     }
 
 item HCPhotofixer
@@ -49,6 +53,7 @@ item HCPhotofixer
         Type    		= Normal,
         DisplayName         	= Film Fixer,
         icon 			= HCPhotofixer,
+		DisplayCategory		=   CraftMisc,
     }
 
 item HCPhotolacquer
@@ -59,6 +64,7 @@ item HCPhotolacquer
 	UseDelta		= 	0.25,
         DisplayName         	= 	Photo Lacquer,
         icon 			= 	HCPhotolacquer,
+		DisplayCategory		=   CraftMisc,
     }
 
 item HCFlashlightbulbred
@@ -67,6 +73,7 @@ item HCFlashlightbulbred
         Type			=	Normal,
         DisplayName		=	Red Flashlight Bulb,
         Icon			=	HCFlashlightbulbred,
+		DisplayCategory		=   CraftMisc,
     }
 
 item HCPhotobench
@@ -77,6 +84,7 @@ item HCPhotobench
 	Capacity             	= 50,
         DisplayName         	= Photography Workbench,
         icon 			= HCPhotobench,
+		DisplayCategory		=   CraftMisc,
 	
     }
 

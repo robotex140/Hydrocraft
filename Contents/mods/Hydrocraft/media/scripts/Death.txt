@@ -16,6 +16,7 @@ item HCSuicidenote
         Icon			=	HCSuicidenote,
         TeachedRecipes 		=   	Kill Yourself;Hang Yourself;Shoot Yourself in the Head;Shoot Yourself in the Leg;Stab Yourself;Slit Your Wrist;Suffocate Yourself;Drink Poison;Add Poison to Inventory Food;Light Yourself on Fire;Scratch Yourself with Zombies Hand,
         ReplaceOnUse    	=   	HCSuicidenote,
+		DisplayCategory =   Misc,
     }
 
 /************************WEAPONS************************/

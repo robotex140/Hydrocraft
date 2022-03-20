@@ -14,6 +14,7 @@ item HCPoppyflower
     Type    		        = Normal,
     DisplayName    	        = Poppy Flower,
     Icon   		 	        = HCPoppyflower,
+	DisplayCategory			= CraftChem,
     }
 
 item HCPoppycapsule
@@ -22,6 +23,7 @@ item HCPoppycapsule
     Type    		        = Normal,
     DisplayName     	    = Poppy Capsule,
     Icon   		 	        = HCPoppycapsule,
+	DisplayCategory			= CraftChem,
     }
 
 item HCPoppycapsuleripped
@@ -30,6 +32,7 @@ item HCPoppycapsuleripped
     Type    		        = Normal,
 	DisplayName	            = Ripped Poppy Capsule,
 	Icon	                = HCPoppycapsuleripped,
+	DisplayCategory			= CraftChem,
 	}
 
 item HCRawopium
@@ -38,6 +41,7 @@ item HCRawopium
     Type    		        = Normal,
 	DisplayName	            = Kneaded Raw Opium,
 	Icon	                = HCRawopium,
+	DisplayCategory			= CraftChem,
 	}
 
 item HCOpiumpowder
@@ -57,6 +61,7 @@ item HCOpiumpowder
 	Alcoholic			   = TRUE,
 	CustomContextMenu 	   = Sniff,
     CustomEatSound         = HC_Sniff,
+	DisplayCategory			= Drugs,
     }
 
 item HCJaropium
@@ -65,6 +70,7 @@ item HCJaropium
     Type                   = Normal,
     DisplayName	           = Jar With Fermented Opium,
     Icon	               = HCJaropium,
+	DisplayCategory			= CraftChem,
 	}
 
 item HCPureopium
@@ -73,6 +79,7 @@ item HCPureopium
     Type    		       = Normal,
     DisplayName     	   = Pure Opium,
     Icon   		 	       = HCPureopium,
+	DisplayCategory			= CraftChem,
     }
 
 item HCPipeopiumpure
@@ -90,6 +97,7 @@ item HCPipeopiumpure
 	Alcoholic			       = TRUE,
 	CustomContextMenu 		   = Smoke,
 	CustomEatSound             = HC_LightUp, 
+	DisplayCategory			= Drugs,
     }
 
 item HCCorncobpipeopiumpure
@@ -107,6 +115,7 @@ item HCCorncobpipeopiumpure
 	Alcoholic			       = TRUE,
 	CustomContextMenu 		   = Smoke,
 	CustomEatSound             = HC_LightUp, 
+	DisplayCategory			= Drugs,
     }
 
 item HCSyringeheroin
@@ -130,6 +139,7 @@ item HCSyringeheroin
 	RequireInHandOrInventory   = Belt,
 	Alcoholic			       = TRUE,
 	CustomContextMenu 		   = Inject,
+	DisplayCategory			= Drugs,
     }
 
 item HCSyringemorphin
@@ -150,6 +160,7 @@ item HCSyringemorphin
     Icon				        = HCSyringemorphin,
 	Alcoholic			        = TRUE,
 	CustomContextMenu 		    = Inject,
+	DisplayCategory			= Drugs,
     }
 
 item HCBeakermorphinhydrochloridsolution
@@ -166,6 +177,7 @@ item HCBeakermorphinhydrochloridsolution
     PoisonDetectionLevel    = 1,
     PoisonPower             = 8,
     UseForPoison            = 1,
+	DisplayCategory			= Drugs,
 	}
 
 item HCBeakermorphinhydrochlorid
@@ -174,6 +186,7 @@ item HCBeakermorphinhydrochlorid
 	Type			=	Normal,
 	DisplayName		=	Beaker with Morphine Hydrochlorid,
 	Icon			=	HCBeakermorphinhydrochlorid,
+	DisplayCategory			= CraftChem,
 	}
 
 item HCBeakermorphinhydrochloridsolution02
@@ -182,6 +195,7 @@ item HCBeakermorphinhydrochloridsolution02
 	Type			=	Normal,
 	DisplayName		=	Beaker with Morphine Hydrochlorid Solution,
 	Icon			=	HCBeakermorphinhydrochloridsolution,
+	DisplayCategory			= CraftChem,
 	}
 
 item HCTesttubemorphinrubber
@@ -192,6 +206,7 @@ item HCTesttubemorphinrubber
 	DisplayName        = Testtube with Morphine,
 	Icon               = HCTesttubemorphinrubber,
 	ReplaceOnDeplete   = HCGlasstesttuberubberbung
+	DisplayCategory			= CraftChem,
 	}
 
 
@@ -203,6 +218,7 @@ item HCTesttubemorphincork
 	DisplayName		   =	Testtube with Morphine,
 	Icon			   =	HCTesttubemorphincork,
 	ReplaceOnDeplete   =   HCGlasstesttubecork,
+	DisplayCategory			= CraftChem,
 	}
 
 /************************RECIPES************************/

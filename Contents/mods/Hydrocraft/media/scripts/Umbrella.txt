@@ -15,6 +15,7 @@ item UmbrellaOpen
         Type    = Normal,
         DisplayName         = Open Umbrella,
         icon = SB_UmbrellaOpen,
+		DisplayCategory	= ClothA,
     }
 	
 
@@ -53,6 +54,7 @@ item UmbrellaOpen
         IdleAnim	=	Idle_Weapon2,
         BreakSound  =   BreakWoodItem,
         TreeDamage  =   0,
+		DisplayCategory	= WepMelee,
     }
 
 

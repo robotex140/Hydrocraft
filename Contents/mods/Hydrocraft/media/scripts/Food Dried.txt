@@ -23,6 +23,7 @@ item HCSlicedapple
         Proteins			= 	0.3,
         Lipids 				= 	0.2,
         Calories 			= 	52,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCSlicedorange
@@ -41,6 +42,7 @@ item HCSlicedorange
         Proteins			= 	0.9,
         Lipids 				= 	0.2,
         Calories 			= 	49,
+		DisplayCategory		=   FoodP,
 	}	
 
 item HCSlicedlemon
@@ -59,6 +61,7 @@ item HCSlicedlemon
         Proteins			= 	1.5,
         Lipids 				= 	0.3,
         Calories 			= 	47,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCSlicedlime
@@ -77,6 +80,7 @@ item HCSlicedlime
         Proteins			= 	0.7,
         Lipids 				= 	0.2,
         Calories 			= 	30,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCLemonjuicebottle
@@ -86,6 +90,7 @@ item HCLemonjuicebottle
 	UseDelta 			= 	0.25,
 	DisplayName			=	Bottle of Lemon Juice,
 	Icon				=	HCLemonjuicebottle,
+		DisplayCategory		=   FoodS,
 	}
 
 item HCLemonjuicebowl
@@ -104,6 +109,7 @@ item HCLemonjuicebowl
         Proteins			= 	0.4,
         Lipids 				= 	0.2,
         Calories 			= 	22,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCLimejuicebottle
@@ -113,6 +119,7 @@ item HCLimejuicebottle
 	UseDelta 			= 	0.25,
 	DisplayName			=	Bottle of Lime Juice,
 	Icon				=	HCLimejuicebottle,
+		DisplayCategory		=   FoodS,
 	}	
 
 item HCLimejuicebowl
@@ -131,6 +138,7 @@ item HCLimejuicebowl
         Proteins			= 	0.4,
         Lipids 				= 	0.1,
         Calories 			= 	25,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCDriedappletray
@@ -152,6 +160,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.3,
 		Lipids 				= 	0.2,
 		Calories 			= 	52,
+		DisplayCategory		=   FoodP,
 	}
 
 	item HCDriedapple
@@ -169,6 +178,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.3,
 		Lipids 				= 	0.2,
 		Calories 			= 	52,
+		DisplayCategory		=   FoodN,
 	}
 	
 	item HCDriedapplebag
@@ -186,6 +196,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.3,
 		Lipids 				= 	0.2,
 		Calories 			= 	52,
+		DisplayCategory		=   FoodN,
 	}
 	
 	item HCDriedpeachtray
@@ -207,6 +218,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.3,
 		Calories 			= 	39,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedpeach
@@ -224,6 +236,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.3,
 		Calories 			= 	39,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedpeachbag
@@ -241,6 +254,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.3,
 		Calories 			= 	39,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCDriedorangetray
@@ -263,6 +277,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.2,
 		Calories 			= 	49,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedorange
@@ -282,6 +297,7 @@ item HCLimejuicebowl
         Proteins			= 	0.9,
 		Lipids 				= 	0.2,
 		Calories 			= 	49,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedorangebag
@@ -301,6 +317,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.2,
 		Calories 			= 	49,
+		DisplayCategory		=   FoodN,
 	}	
 
 	item HCDriedlemontray
@@ -322,6 +339,7 @@ item HCLimejuicebowl
 		Proteins			= 	1.5,
 		Lipids 				= 	0.3,
 		Calories 			= 	47,
+		DisplayCategory		=   FoodP,
 	}
 
 	item HCDriedlemon
@@ -338,6 +356,7 @@ item HCLimejuicebowl
 		Proteins			= 	1.5,
 		Lipids 				= 	0.3,
 		Calories 			= 	47,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCDriedlemonbag
@@ -355,6 +374,7 @@ item HCLimejuicebowl
 		Proteins			= 	1.5,
 		Lipids 				= 	0.3,
 		Calories 			= 	47,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCDriedlimetray
@@ -376,6 +396,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.2,
 		Calories 			= 	30,
+		DisplayCategory		=   FoodP,
 	}
 
 	item HCDriedlime
@@ -392,6 +413,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.2,
 		Calories 			= 	30,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCDriedlimebag
@@ -409,6 +431,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.2,
 		Calories 			= 	30,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCDriedbananachipstray
@@ -430,6 +453,7 @@ item HCLimejuicebowl
 		Proteins			= 	1.1,
 		Lipids 				= 	0.1,
 		Calories 			= 	89,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedbananachips
@@ -447,6 +471,7 @@ item HCLimejuicebowl
 		Proteins			= 	1.1,
 		Lipids 				= 	0.1,
 		Calories 			= 	89,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedbananachipsbag
@@ -464,6 +489,7 @@ item HCLimejuicebowl
 		Proteins			= 	1.1,
 		Lipids 				= 	0.1,
 		Calories 			= 	89,
+		DisplayCategory		=   FoodN,
 	}
 	
 	item HCDriedstrawberrytray
@@ -485,6 +511,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.3,
 		Calories 			= 	32,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedstrawberryslices
@@ -502,6 +529,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.3,
 		Calories 			= 	32,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedstrawberryslicesbag
@@ -519,6 +547,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.3,
 		Calories 			= 	32,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCDriedberriestray
@@ -540,6 +569,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.3,
 		Calories 			= 	57,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedberries
@@ -557,6 +587,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.3,
 		Calories 			= 	57,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedberriesbag
@@ -574,6 +605,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.7,
 		Lipids 				= 	0.3,
 		Calories 			= 	57,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedtomatotray
@@ -595,6 +627,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.2,
 		Calories 			= 	18,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedtomato
@@ -612,6 +645,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.2,
 		Calories 			= 	18,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedtomatobag
@@ -629,6 +663,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.9,
 		Lipids 				= 	0.2,
 		Calories 			= 	18,
+		DisplayCategory		=   FoodN,
 	}	
 
 	item HCDriedpumpkinseedstray
@@ -650,6 +685,7 @@ item HCLimejuicebowl
 		Proteins			= 	3,
 		Lipids 				= 	4.9,
 		Calories 			= 	56,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedpumpkinseeds
@@ -667,6 +703,7 @@ item HCLimejuicebowl
 		Proteins			= 	3,
 		Lipids 				= 	4.9,
 		Calories 			= 	56,
+		DisplayCategory		=   FoodN,
 	}	
 
 	item HCDriedpumpkinseedsbag
@@ -684,6 +721,7 @@ item HCLimejuicebowl
 		Proteins			= 	3,
 		Lipids 				= 	4.9,
 		Calories 			= 	56,
+		DisplayCategory		=   FoodN,
 	}	
 
 	item HCDriedrasinstray
@@ -705,6 +743,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.6,
 		Lipids 				= 	0.4,
 		Calories 			= 	67,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedrasins
@@ -722,6 +761,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.6,
 		Lipids 				= 	0.4,
 		Calories 			= 	67,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedrasinsbag
@@ -739,6 +779,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.6,
 		Lipids 				= 	0.4,
 		Calories 			= 	67,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCDriedcrasinstray
@@ -760,6 +801,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.5,
 		Lipids 				= 	0.1,
 		Calories 			= 	46,
+		DisplayCategory		=   FoodP,
 	}	
 
 	item HCDriedcrasins
@@ -777,6 +819,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.5,
 		Lipids 				= 	0.1,
 		Calories 			= 	46,
+		DisplayCategory		=   FoodN,
 	}	
 	
 	item HCDriedcrasinsbag
@@ -794,6 +837,7 @@ item HCLimejuicebowl
 		Proteins			= 	0.5,
 		Lipids 				= 	0.1,
 		Calories 			= 	46,
+		DisplayCategory		=   FoodN,
 	}
 
     item HCDriedfruittray
@@ -813,6 +857,7 @@ item HCLimejuicebowl
 		Proteins 			= 	2,
 		Lipids 				= 	0,
 		Calories 			= 	168,
+		DisplayCategory		=   FoodP,
     }	
 
     item HCDriedfruit
@@ -832,6 +877,7 @@ item HCLimejuicebowl
 		Proteins 			= 	0,
 		Lipids 				= 	0,
 		Calories 			= 	80,
+		DisplayCategory		=   FoodN,
     }
 
     item HCDriedfruit
@@ -847,6 +893,7 @@ item HCLimejuicebowl
 		Proteins 			= 	0,
 		Lipids 				= 	0,
 		Calories 			= 	80,
+		DisplayCategory		=   FoodN,
     }
 
 /************************RECIPES************************/

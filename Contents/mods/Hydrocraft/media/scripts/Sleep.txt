@@ -15,6 +15,7 @@ item HCSleepingbag
         Type    		= Normal,
         DisplayName         	= Sleeping Bag in Bag,
         icon 			= HCSleepingbag,
+		DisplayCategory	= SurCamp,
     }
 
 item HCSleepingbagsleepin
@@ -25,6 +26,7 @@ item HCSleepingbagsleepin
         icon 			= HCSleepingbagsleepin,
 	
 	Tooltip 		= Tooltip_HCSleep,
+		DisplayCategory	= SurCamp,
     }
 
 item HCSleepingbag2
@@ -33,6 +35,7 @@ item HCSleepingbag2
         Type    		= Normal,
         DisplayName         	= Sleeping Bag in Bag,
         icon 			= HCSleepingbag2,
+		DisplayCategory	= SurCamp,
     }
 
 item HCSleepingbag2sleepin
@@ -43,6 +46,7 @@ item HCSleepingbag2sleepin
         icon 			= HCSleepingbag2sleepin,
 	
 	Tooltip 		= Tooltip_HCSleep,
+		DisplayCategory	= SurCamp,
     }
 
 item HCSleepingbag3
@@ -51,6 +55,7 @@ item HCSleepingbag3
         Type    		= Normal,
         DisplayName         	= Sleeping Bag in Bag,
         icon 			= HCSleepingbag3,
+		DisplayCategory	= SurCamp,
     }
 
 item HCSleepingbag3sleepin
@@ -59,7 +64,7 @@ item HCSleepingbag3sleepin
         Type    		= Normal,
         DisplayName         	= Sleeping Bag,
         icon 			= HCSleepingbag3sleepin,
-	
+		DisplayCategory	= SurCamp,
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -69,7 +74,7 @@ item HCForestbedsleepin
         Type    		= Normal,
         DisplayName         	= Forest Bed,
         icon 			= HCForestbedsleepin,
-	
+		DisplayCategory	= SurCamp,
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -79,6 +84,7 @@ item HCTentkit
         Type    		= Normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit,
+		DisplayCategory	= SurCamp,
     }
 
 item HCTentsleepin
@@ -89,7 +95,7 @@ item HCTentsleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent,
-	
+		DisplayCategory	= SurCamp,
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -99,6 +105,7 @@ item HCTentkit2
         Type    		= Normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit2,
+		DisplayCategory	= SurCamp,
     }
 
 item HCTent2sleepin
@@ -109,7 +116,7 @@ item HCTent2sleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent2,
-	
+		DisplayCategory	= SurCamp,
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -119,6 +126,7 @@ item HCTentkit3
         Type    		= Normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit3,
+		DisplayCategory	= SurCamp,
     }
 
 item HCTent3sleepin
@@ -129,7 +137,7 @@ item HCTent3sleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent3,
-	
+		DisplayCategory	= SurCamp,
 	Tooltip 		= Tooltip_HCSleep,
     }
 
@@ -139,6 +147,7 @@ item HCTentkit4
         Type    		= Normal,
         DisplayName         	= Dome Tent Kit,
         icon 			= HCTentkit4,
+		DisplayCategory	= SurCamp,
     }
 
 item HCTent4sleepin
@@ -149,7 +158,7 @@ item HCTent4sleepin
         Capacity            	= 50,
         DisplayName         	= Dome Tent,
         icon 			= HCTent4,
-	
+		DisplayCategory	= SurCamp,
 	Tooltip 		= Tooltip_HCSleep,
     }
 

@@ -28,6 +28,7 @@ module Hydrocraft
 		Proteins 			= 	1,
 		Lipids 				= 	0,
 		Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCVanillapudding
@@ -50,6 +51,7 @@ module Hydrocraft
 		Proteins 			= 	1,
 		Lipids 				= 	0,
 		Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 	item HCPuddingcupempty
@@ -58,6 +60,7 @@ module Hydrocraft
 		Type    			= 	Normal,
 		DisplayName     	=	Empty Pudding Cup,
 		icon 				= 	HCPuddingcupempty,
+		DisplayCategory		=   Useless,
     }
 
 	item HCJellopacketapple
@@ -74,6 +77,7 @@ module Hydrocraft
 		Lipids 				= 0,
 		Calories 			= 280,
 		Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 
 item HCJellopacketblueberry
@@ -90,6 +94,7 @@ item HCJellopacketblueberry
     	Lipids 				= 0,
     	Calories 			= 280,
     	Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 
 item HCJellopacketcherry
@@ -106,6 +111,7 @@ item HCJellopacketcherry
     	Lipids 				= 0,
     	Calories 			= 280,
     	Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 
 item HCJellopacketlemon
@@ -122,6 +128,7 @@ item HCJellopacketlemon
     	Lipids 				= 0,
     	Calories 			= 280,
     	Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 item HCJellopacketlime
 {
@@ -137,6 +144,7 @@ item HCJellopacketlime
     	Lipids 				= 0,
     	Calories 			= 280,
     	Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 
 item HCJellopacketorange
@@ -153,6 +161,7 @@ item HCJellopacketorange
     Lipids 				= 0,
     Calories 			= 280,
     Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 item HCJellopacketstrawberry
 {
@@ -168,6 +177,7 @@ item HCJellopacketstrawberry
     Lipids 				= 0,
     Calories 			= 280,
     Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 item HCJellopacketwatermelon
 {
@@ -183,6 +193,7 @@ item HCJellopacketwatermelon
     Lipids 				= 0,
     Calories 			= 280,
     Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 }
 
 	item HCJellopacketchocolate
@@ -199,6 +210,7 @@ item HCJellopacketwatermelon
     	Lipids 				= 0,
     	Calories 			= 568,
     	Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 	}
 
 	item HCJellopacketvanilla
@@ -215,6 +227,7 @@ item HCJellopacketwatermelon
 		Lipids 				= 0,
 		Calories 			= 568,
 		Packaged 			= TRUE,
+		DisplayCategory		=   FoodN,
 	}
 	
 	item HCJellochocolateprep
@@ -242,6 +255,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 8,
 		Lipids 				= 0,
 		Calories 			= 568,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJellovanillaprep
@@ -269,6 +283,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	8,
 		Lipids 				= 	0,
 		Calories 			= 	568,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJellochocolatebowl
@@ -290,6 +305,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	2,
 		Lipids 				= 	0,
 		Calories 			= 	142,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJellovanillabowl
@@ -311,6 +327,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	2,
 		Lipids 				= 	0,
 		Calories 			= 	142,
+		DisplayCategory		=   FoodP,
 	}
 
 	item HCJelloappleprep
@@ -338,6 +355,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	4,
 		Lipids 				= 	0,
 		Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 		
 	item HCJelloapple1hot
@@ -359,6 +377,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	4,
 		Lipids 				= 	0,
 		Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJelloapple1cold
@@ -380,6 +399,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	4,
 		Lipids 				= 	0,
 		Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJelloapple1
@@ -400,6 +420,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	4,
 		Lipids 				= 	0,
 		Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJelloapplecubes
@@ -420,6 +441,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	1,
 		Lipids 				= 	0,
 		Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 	item HCJelloapplebowl
@@ -440,6 +462,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	2,
 		Lipids 				= 	2,
 		Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJelloblueberryprep
@@ -467,6 +490,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	4,
 		Lipids 				= 	0,
 		Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 	item HCJelloblueberry1hot
@@ -488,6 +512,7 @@ item HCJellopacketwatermelon
 		Proteins 			= 	4,
 		Lipids 				= 	0,
 		Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJelloblueberry1cold
@@ -509,6 +534,7 @@ item HCJelloblueberry1cold
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJelloblueberry1
@@ -529,6 +555,7 @@ item HCJelloblueberry1
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJelloblueberrycubes
@@ -549,6 +576,7 @@ item HCJelloblueberrycubes
         Proteins 			= 	1,
         Lipids 				= 	0,
         Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJelloblueberrybowl
@@ -569,6 +597,7 @@ item HCJelloblueberrybowl
         Proteins 			= 	2,
         Lipids 				= 	2,
         Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJellocherryprep
@@ -596,6 +625,7 @@ item HCJellocherryprep
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellocherry1hot
@@ -617,6 +647,7 @@ item HCJellocherry1hot
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellocherry1cold
@@ -638,6 +669,7 @@ item HCJellocherry1cold
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellocherry1
@@ -658,6 +690,7 @@ item HCJellocherry1
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellocherrycubes
@@ -678,6 +711,7 @@ item HCJellocherrycubes
         Proteins 			= 	1,
         Lipids 				= 	0,
         Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJellocherrybowl
@@ -698,6 +732,7 @@ item HCJellocherrybowl
         Proteins 			= 	2,
         Lipids 				= 	2,
         Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}	
 
 item HCJellolemonprep
@@ -725,6 +760,7 @@ item HCJellolemonprep
 		Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolemon1hot
@@ -746,6 +782,7 @@ item HCJellolemon1hot
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolemon1cold
@@ -767,6 +804,7 @@ item HCJellolemon1cold
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolemon1
@@ -787,6 +825,7 @@ item HCJellolemon1
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolemoncubes
@@ -807,6 +846,7 @@ item HCJellolemoncubes
         Proteins 			= 	1,
         Lipids 				= 	0,
         Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJellolemonbowl
@@ -827,6 +867,7 @@ item HCJellolemonbowl
         Proteins 			= 	2,
         Lipids 				= 	2,
         Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}
 	
 
@@ -855,6 +896,7 @@ item HCJelloorangeprep
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJelloorange1hot
@@ -876,6 +918,7 @@ item HCJelloorange1hot
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJelloorange1cold
@@ -897,6 +940,7 @@ item HCJelloorange1cold
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJelloorange1
@@ -917,6 +961,7 @@ item HCJelloorange1
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJelloorangecubes
@@ -937,6 +982,7 @@ item HCJelloorangecubes
         Proteins 			= 	1,
         Lipids 				= 	0,
         Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJelloorangebowl
@@ -957,6 +1003,7 @@ item HCJelloorangebowl
         Proteins 			= 	2,
         Lipids 				= 	2,
         Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}
 	
 
@@ -985,6 +1032,7 @@ item HCJellolimeprep
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolime1hot
@@ -1006,6 +1054,7 @@ item HCJellolime1hot
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolime1cold
@@ -1027,6 +1076,7 @@ item HCJellolime1cold
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolime1
@@ -1047,6 +1097,7 @@ item HCJellolime1
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellolimecubes
@@ -1067,6 +1118,7 @@ item HCJellolimecubes
         Proteins 			= 	1,
         Lipids 				= 	0,
         Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJellolimebowl
@@ -1087,6 +1139,7 @@ item HCJellolimebowl
         Proteins 			= 	2,
         Lipids 				= 	2,
         Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}
 	
 
@@ -1115,6 +1168,7 @@ item HCJellowatermelonprep
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellowatermelon1hot
@@ -1136,6 +1190,7 @@ item HCJellowatermelon1hot
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellowatermelon1cold
@@ -1157,6 +1212,7 @@ item HCJellowatermelon1cold
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellowatermelon1
@@ -1177,6 +1233,7 @@ item HCJellowatermelon1
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellowatermeloncubes
@@ -1197,6 +1254,7 @@ item HCJellowatermeloncubes
         Proteins 			= 	1,
         Lipids 				= 	0,
         Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJellowatermelonbowl
@@ -1217,6 +1275,7 @@ item HCJellowatermelonbowl
         Proteins 			= 	2,
         Lipids 				= 	2,
         Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}
 	
 
@@ -1245,6 +1304,7 @@ item HCJellostrawberryprep
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJellostrawberry1hot
@@ -1266,6 +1326,7 @@ item HCJellostrawberry1hot
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellostrawberry1cold
@@ -1287,6 +1348,7 @@ item HCJellostrawberry1cold
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellostrawberry1
@@ -1307,6 +1369,7 @@ item HCJellostrawberry1
         Proteins 			= 	4,
         Lipids 				= 	0,
         Calories 			= 	280,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJellostrawberrycubes
@@ -1327,6 +1390,7 @@ item HCJellostrawberrycubes
         Proteins 			= 	1,
         Lipids 				= 	0,
         Calories 			= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJellostrawberrybowl
@@ -1347,6 +1411,7 @@ item HCJellostrawberrybowl
         Proteins 			= 	2,
         Lipids 				= 	2,
         Calories 			= 	156,
+		DisplayCategory		=   FoodP,
 	}
 	
 /************************RECIPES************************/

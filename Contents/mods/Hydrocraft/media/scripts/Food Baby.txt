@@ -14,6 +14,7 @@ item HCBabyfoodjar
         Type   			= Normal,
         DisplayName         	= Baby Food Jar,
         icon 			= HCBabyfoodjar,
+	DisplayCategory          =   Useless,
     }
 
 /************************FRUIT************************/
@@ -33,6 +34,7 @@ item HCBabyfoodapplesauce
         Proteins			= 	0.17,
         Lipids 				= 	0.17,
         Calories 			= 	66,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodapricots
@@ -50,6 +52,7 @@ item HCBabyfoodapricots
         Proteins			= 	0.51,
         Lipids 				= 	0,
         Calories 			= 	105,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodbananas
@@ -67,6 +70,7 @@ item HCBabyfoodbananas
         Proteins			= 	0.68,
         Lipids 				= 	0.26,
         Calories 			= 	105,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodpeach
@@ -84,6 +88,7 @@ item HCBabyfoodpeach
         Proteins			= 	0.14,
         Lipids 				= 	0.06,
         Calories 			= 	14,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodpear
@@ -101,6 +106,7 @@ item HCBabyfoodpear
         Proteins			= 	0,
         Lipids 				= 	0,
         Calories 			= 	70,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodplums
@@ -118,6 +124,7 @@ item HCBabyfoodplums
         Proteins			= 	0.17,
         Lipids 				= 	0,
         Calories 			= 	122,
+	DisplayCategory          =   FoodN,
 	}
 
 /************************VEGETABLES************************/
@@ -137,6 +144,7 @@ item HCBabyfoodcarrot
         Proteins			= 	0.23,
         Lipids 				= 	0.04,
         Calories 			= 	9,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodcreamcorn
@@ -154,6 +162,7 @@ item HCBabyfoodcreamcorn
         Proteins			= 	2.38,
         Lipids 				= 	0.68,
         Calories 			= 	104,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodgreenbeans
@@ -171,6 +180,7 @@ item HCBabyfoodgreenbeans
         Proteins			= 	2.12,
         Lipids 				= 	0.17,
         Calories 			= 	42,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodsquash
@@ -188,6 +198,7 @@ item HCBabyfoodsquash
         Proteins			= 	0.23,
         Lipids 				= 	0.06,
         Calories 			= 	7,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodsweerpotato
@@ -205,6 +216,7 @@ item HCBabyfoodsweerpotato
         Proteins			= 	1.97,
         Lipids 				= 	0.17,
         Calories 			= 	99,
+	DisplayCategory          =   FoodN,
 	}
 
 /************************MEAT************************/
@@ -224,6 +236,7 @@ item HCBabyfoodbeef
         Proteins			= 	9.98,
         Lipids 				= 	3.66,
         Calories 			= 	75,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodchicken
@@ -241,6 +254,7 @@ item HCBabyfoodchicken
         Proteins			= 	9.41,
         Lipids 				= 	4.86,
         Calories 			= 	86,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodlamb
@@ -258,6 +272,7 @@ item HCBabyfoodlamb
         Proteins			= 	10.01,
         Lipids 				= 	3.34,
         Calories 			= 	73,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCBabyfoodturkey
@@ -275,6 +290,7 @@ item HCBabyfoodturkey
         Proteins			= 	10.54,
         Lipids 				= 	4.58,
         Calories 			= 	87,
+	DisplayCategory          =   FoodN,
 	}
 
 /************************RECIPES************************/

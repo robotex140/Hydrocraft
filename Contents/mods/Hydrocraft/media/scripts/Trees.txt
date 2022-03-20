@@ -14,6 +14,7 @@ item HCResin
         Type   			= Normal,
         DisplayName         	= Resin,
         icon 			= HCResin,
+		DisplayCategory	= SurFarm,
     }
 
 item HCSoil
@@ -22,6 +23,7 @@ item HCSoil
         Type   			= Normal,
         DisplayName         	= Fertile Soil,
         icon 			= HCSoil,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -31,6 +33,7 @@ item HCFir1
         Type   			= Normal,
         DisplayName         	= Fir Sprout,
         icon 			= HCFir1,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -40,6 +43,7 @@ item HCFir2
         Type   			= Normal,
         DisplayName         	= Fir Sapling,
         icon 			= HCFir2,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -49,6 +53,7 @@ item HCFir3
         Type   			= Normal,
         DisplayName         	= Young Fir Tree,
         icon 			= HCFir3,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -58,6 +63,7 @@ item HCFir4
         Type   			= Normal,
         DisplayName         	= Adult Fir Tree,
         icon 			= HCFir4,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -67,6 +73,7 @@ item HCFir5
         Type   			= Normal,
         DisplayName         	= Elder Fir Tree,
         icon 			= HCFir5,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -76,6 +83,7 @@ item HCFir6
         Type   			= Normal,
         DisplayName         	= Ancient Fir Tree,
         icon 			= HCFir6,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -85,6 +93,7 @@ item HCFirstump
         Type   			= Normal,
         DisplayName         	= Fir Tree Stump,
         icon 			= HCFirstump,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -94,6 +103,7 @@ item HCOak1
         Type   			= Normal,
         DisplayName         	= Oak Sprout,
         icon 			= HCOak1,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -103,6 +113,7 @@ item HCOak2
         Type   			= Normal,
         DisplayName         	= Oak Sapling,
         icon 			= HCOak2,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -112,6 +123,7 @@ item HCOak3
         Type   			= Normal,
         DisplayName         	= Young Oak Tree,
         icon 			= HCOak3,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -121,6 +133,7 @@ item HCOak4
         Type   			= Normal,
         DisplayName         	= Adult Oak Tree,
         icon 			= HCOak4,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -130,6 +143,7 @@ item HCOak5
         Type   			= Normal,
         DisplayName         	= Elder Oak Tree,
         icon 			= HCOak5,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -139,6 +153,7 @@ item HCOak6
         Type   			= Normal,
         DisplayName         	= Ancient Oak Tree,
         icon 			= HCOak6,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -148,6 +163,7 @@ item HCOakstump
         Type   			= Normal,
         DisplayName         	= Oak Tree Stump,
         icon 			= HCOakstump,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -157,6 +173,7 @@ item HCBirch1
         Type   			= Normal,
         DisplayName         	= Birch Sprout,
         icon 			= HCBirch1,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -166,6 +183,7 @@ item HCBirch2
         Type   			= Normal,
         DisplayName         	= Birch Sapling,
         icon 			= HCBirch2,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -175,6 +193,7 @@ item HCBirch3
         Type   			= Normal,
         DisplayName         	= Young Birch Tree,
         icon 			= HCBirch3,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -184,6 +203,7 @@ item HCBirch4
         Type   			= Normal,
         DisplayName         	= Adult Birch Tree,
         icon 			= HCBirch4,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -193,6 +213,7 @@ item HCBirch5
         Type   			= Normal,
         DisplayName         	= Elder Birch Tree,
         icon 			= HCBirch5,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -202,6 +223,7 @@ item HCBirch6
         Type   			= Normal,
         DisplayName         	= Ancient Birch Tree,
         icon 			= HCBirch6,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -211,6 +233,7 @@ item HCBirchstump
         Type   			= Normal,
         DisplayName         	= Birch Tree Stump,
         icon 			= HCBirchstump,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -220,6 +243,7 @@ item HCOakLog
         Type    =   Normal,
         DisplayName =  Oak Log,
         Icon    =   Logs,
+		DisplayCategory	= SurFarm,
     }
 
 

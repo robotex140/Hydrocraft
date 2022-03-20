@@ -14,6 +14,7 @@ item HCLeafSpring
         Type            = Normal,
         DisplayName     = Leaf spring,
         icon            = HCLeafSpring,
+		DisplayCategory		=	CraftMet,
     }
 
 
@@ -24,6 +25,7 @@ item HCMetalsheetbox
         Type   			= Normal,
         DisplayName         	= Pallet of Aluminum Sheets,
         icon 			= HCMetalsheetbox,
+		DisplayCategory		=	CraftMet,
 	}
 
 item HCCrank
@@ -32,6 +34,7 @@ item HCCrank
 	Type				=	Normal,
 	DisplayName			=	Steel Crank,
 	Icon				=	HCCrank,
+		DisplayCategory		=	CraftMet,
 	}
 
 item HCCrankiron
@@ -40,6 +43,7 @@ item HCCrankiron
 	Type				=	Normal,
 	DisplayName			=	Iron Crank,
 	Icon				=	HCCrankiron,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCLever
@@ -48,6 +52,7 @@ item HCLever
 	Type				=	Normal,
 	DisplayName			=	Lever,
 	Icon				=	HCLever,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCCopperrod
@@ -56,6 +61,7 @@ item HCCopperrod
 	Type				=	Normal,
 	DisplayName			=	Copper Rod,
 	Icon				=	HCCopperrod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTinrod
@@ -64,6 +70,7 @@ item HCTinrod
 	Type				=	Normal,
 	DisplayName			=	Tin Rod,
 	Icon				=	HCTinrod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCBronzerod
@@ -72,6 +79,7 @@ item HCBronzerod
 	Type				=	Normal,
 	DisplayName			=	Bronze Rod,
 	Icon				=	HCBronzerod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCIronrod
@@ -80,6 +88,7 @@ item HCIronrod
 	Type				=	Normal,
 	DisplayName			=	Iron Rod,
 	Icon				=	HCIronrod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCInvarrod
@@ -88,6 +97,7 @@ item HCInvarrod
 	Type				=	Normal,
 	DisplayName			=	Invar Rod,
 	Icon				=	HCInvarrod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCLeadrod
@@ -96,6 +106,7 @@ item HCLeadrod
 	Type				=	Normal,
 	DisplayName			=	Lead Rod,
 	Icon				=	HCLeadrod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCSteelrod
@@ -104,6 +115,7 @@ item HCSteelrod
 	Type				=	Normal,
 	DisplayName			=	Steel Rod,
 	Icon				=	HCSteelrod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTitaniumrod
@@ -112,6 +124,7 @@ item HCTitaniumrod
 	Type				=	Normal,
 	DisplayName			=	Titanium Rod,
 	Icon				=	HCTitaniumrod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCGraphiterod
@@ -120,6 +133,7 @@ item HCGraphiterod
 	Type				=	Normal,
 	DisplayName			=	Graphite Rod,
 	Icon				=	HCGraphiterod,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCIronpole
@@ -128,6 +142,7 @@ item HCIronpole
         Type    		        = Normal,
 	DisplayName			= Iron Pole,
 	Icon				= HCIronpole,
+	DisplayCategory		=	CraftMet,
     } 
  
 item HCSteelpole
@@ -136,6 +151,7 @@ item HCSteelpole
         Type    		        = Normal,
 	DisplayName			= Steel Pole,
 	Icon				= HCSteelpole,
+	DisplayCategory		=	CraftMet,
     } 
 
 item HCMetalringiron
@@ -144,6 +160,7 @@ item HCMetalringiron
 	Type				=	Normal,
 	DisplayName			=	Large Iron Ring,
 	Icon				=	HCMetalringiron,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCMetalring
@@ -152,6 +169,7 @@ item HCMetalring
 	Type				=	Normal,
 	DisplayName			=	Large Steel Ring,
 	Icon				=	HCMetalring,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCSteelbeam
@@ -160,6 +178,7 @@ item HCSteelbeam
 	Type				=	Normal,
 	DisplayName			=	Steel Beam,
 	Icon				=	HCSteelbeam,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCCopperboard
@@ -168,6 +187,7 @@ item HCCopperboard
 	Type				=	Normal,
 	DisplayName			=	Small Copper Sheet,
 	Icon				=	HCCopperboard,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCCoppersheet
@@ -176,6 +196,7 @@ item HCCoppersheet
 	Type				=	Normal,
 	DisplayName			=	Copper Sheet,
 	Icon				=	HCCoppersheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCCoppersheetlarge
@@ -184,6 +205,7 @@ item HCCoppersheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Copper Sheet,
 	Icon				=	HCCoppersheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTinboard
@@ -192,6 +214,7 @@ item HCTinboard
 	Type				=	Normal,
 	DisplayName			=	Small Tin Sheet,
 	Icon				=	HCTinboard,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTinsheet
@@ -200,6 +223,7 @@ item HCTinsheet
 	Type				=	Normal,
 	DisplayName			=	Tin Sheet,
 	Icon				=	HCTinsheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTinsheetlarge
@@ -208,6 +232,7 @@ item HCTinsheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Tin Sheet,
 	Icon				=	HCTinsheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCBronzeboard
@@ -216,6 +241,7 @@ item HCBronzeboard
 	Type				=	Normal,
 	DisplayName			=	Small Bronze Sheet,
 	Icon				=	HCBronzeboard,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCBronzesheet
@@ -224,6 +250,7 @@ item HCBronzesheet
 	Type				=	Normal,
 	DisplayName			=	Bronze Sheet,
 	Icon				=	HCBronzesheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCBronzesheetlarge
@@ -232,6 +259,7 @@ item HCBronzesheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Bronze Sheet,
 	Icon				=	HCBronzesheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCSilversheet
@@ -240,6 +268,7 @@ item HCSilversheet
 	Type				=	Normal,
 	DisplayName			=	Silver Sheet,
 	Icon				=	HCSilversheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCSilversheetlarge
@@ -248,6 +277,7 @@ item HCSilversheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Silver Sheet,
 	Icon				=	HCSilversheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCIronboard
@@ -256,6 +286,7 @@ item HCIronboard
 	Type				=	Normal,
 	DisplayName			=	Small Iron Sheet,
 	Icon				=	HCIronboard,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCIronsheet
@@ -264,6 +295,7 @@ item HCIronsheet
 	Type				=	Normal,
 	DisplayName			=	Iron Sheet,
 	Icon				=	HCIronsheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCIronsheetlarge
@@ -272,6 +304,7 @@ item HCIronsheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Iron Sheet,
 	Icon				=	HCIronsheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCLeadboard
@@ -280,6 +313,7 @@ item HCLeadboard
 	Type				=	Normal,
 	DisplayName			=	Small Lead Sheet,
 	Icon				=	HCLeadboard,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCLeadsheet
@@ -288,6 +322,7 @@ item HCLeadsheet
 	Type				=	Normal,
 	DisplayName			=	Lead Sheet,
 	Icon				=	HCLeadsheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCLeadsheetlarge
@@ -296,6 +331,7 @@ item HCLeadsheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Lead Sheet,
 	Icon				=	HCLeadsheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCSteelboard
@@ -304,6 +340,7 @@ item HCSteelboard
 	Type				=	Normal,
 	DisplayName			=	Small Steel Sheet,
 	Icon				=	HCSteelboard,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCSteelsheet
@@ -312,6 +349,7 @@ item HCSteelsheet
 	Type				=	Normal,
 	DisplayName			=	Steel Sheet,
 	Icon				=	HCSteelsheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCSteelsheetlarge
@@ -320,6 +358,7 @@ item HCSteelsheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Steel Sheet,
 	Icon				=	HCSteelsheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 	item HCLargesheetmetal
@@ -328,6 +367,7 @@ item HCSteelsheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Aluminum Sheet,
 	Icon				=	HCLargesheetmetal,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTitaniumboard
@@ -336,6 +376,7 @@ item HCTitaniumboard
 	Type				=	Normal,
 	DisplayName			=	Small Titanium Sheet,
 	Icon				=	HCTitaniumboard,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTitaniumsheet
@@ -344,6 +385,7 @@ item HCTitaniumsheet
 	Type				=	Normal,
 	DisplayName			=	Titanium Sheet,
 	Icon				=	HCTitaniumsheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCTitaniumsheetlarge
@@ -352,6 +394,7 @@ item HCTitaniumsheetlarge
 	Type				=	Normal,
 	DisplayName			=	Large Titanium Sheet,
 	Icon				=	HCTitaniumsheetlarge,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCCopperpipe
@@ -360,6 +403,7 @@ item HCCopperpipe
         Type 			= 	Normal,
         DisplayName 		= 	Copper Pipe,
         Icon 			= 	HCCopperpipe,
+	DisplayCategory		=	CraftMet,
     }
 
 item HCPipefridge
@@ -368,6 +412,7 @@ item HCPipefridge
         Type 			= 	Normal,
         DisplayName 		= 	Copper Cooling Rack,
         Icon 			= 	HCPipefridge,
+	DisplayCategory		=	CraftMet,
     }
 
 item HCCopperpipebox
@@ -376,6 +421,7 @@ item HCCopperpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Pipes,
         Icon 			= 	HCCopperpipebox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -385,6 +431,7 @@ item HCSteelpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Pipes,
         Icon 			= 	HCSteelpipebox,
+	DisplayCategory		=	CraftMet,
 	
     }
 	
@@ -394,6 +441,7 @@ item HCSteelpipebox
 	Type				=	Normal,
 	DisplayName			=	Brass Sheet,
 	Icon				=	HCBrasssheet,
+	DisplayCategory		=	CraftMet,
 	}
 
 item HCMetalbarbox
@@ -402,6 +450,7 @@ item HCMetalbarbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Metal Bars,
         Icon 			= 	HCMetalbarbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -411,6 +460,7 @@ item HCMetalpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Aluminum Pipes,
         Icon 			= 	HCAluminumpipebox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -420,6 +470,7 @@ item HCAluminumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Aluminum Ingots,
         Icon 			= 	HCAluminumingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 	
@@ -429,6 +480,7 @@ item HCBrassingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Brass Ingots,
         Icon 			= 	HCBrassingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -438,6 +490,7 @@ item HCBronzeingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Bronze Ingots,
         Icon 			= 	HCBronzeingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -447,6 +500,7 @@ item HCConcreteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Concrete Ingots,
         Icon 			= 	HCConcreteingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -456,6 +510,7 @@ item HCConstantaningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Constantan Ingots,
         Icon 			= 	HCConstantaningotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -465,6 +520,7 @@ item HCCopperingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Ingots,
         Icon 			= 	HCCopperingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -474,6 +530,7 @@ item HCElectrumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Electrum Ingots,
         Icon 			= 	HCElectrumingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -483,6 +540,7 @@ item HCGlassingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Glass Ingots,
         Icon 			= 	HCGlassingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -492,6 +550,7 @@ item HCGoldingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Gold Ingots,
         Icon 			= 	HCGoldingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -501,6 +560,7 @@ item HCGraphiteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Graphite Ingots,
         Icon 			= 	HCGraphiteingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -510,6 +570,7 @@ item HCIroningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Iron Ingots,
         Icon 			= 	HCIroningotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -519,6 +580,7 @@ item HCLeadingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Lead Ingots,
         Icon 			= 	HCLeadingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -528,6 +590,7 @@ item HCMagnetiteingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Magnetite Ingots,
         Icon 			= 	HCMagnetiteingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -537,6 +600,7 @@ item HCNickelingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Nickel Ingots,
         Icon 			= 	HCNickelingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -546,6 +610,7 @@ item HCPewteringotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Pewter Ingots,
         Icon 			= 	HCPewteringotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -555,6 +620,7 @@ item HCSilveringotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Silver Ingots,
         Icon 			= 	HCSilveringotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -564,6 +630,7 @@ item HCSteelingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Ingots,
         Icon 			= 	HCSteelingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }	
 	
@@ -573,6 +640,7 @@ item HCTiningotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Tin Ingots,
         Icon 			= 	HCTiningotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -582,6 +650,7 @@ item HCTitaniumingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Titanium Ingots,
         Icon 			= 	HCTitaniumingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -591,6 +660,7 @@ item HCZincingotbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Zinc Ingots,
         Icon 			= 	HCZincingotbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 
@@ -600,6 +670,7 @@ item HCCoppersheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Copper Sheets,
         Icon 			= 	HCCoppersheetbox,
+	DisplayCategory		=	CraftMet,
 	
     }	
 	
@@ -609,6 +680,7 @@ item HCIronsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Iron Sheets,
         Icon 			= 	HCIronsheetbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 	
@@ -618,6 +690,7 @@ item HCRubbersheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Rubber Sheets,
         Icon 			= 	HCRubbersheetbox,
+	DisplayCategory		=	CraftMet,
 	
     }
 		
@@ -627,6 +700,7 @@ item HCSteelsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Steel Sheets,
         Icon 			= 	HCSteelsheetbox,
+	DisplayCategory		=	CraftMet,
 	
     }		
 	
@@ -636,6 +710,7 @@ item HCTinsheetbox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of Tin Sheets,
         Icon 			= 	HCTinsheetbox,
+	DisplayCategory		=	CraftMet,
 	
     }		
 
@@ -673,6 +748,7 @@ item HCTinsheetbox
 		RunAnim				=	Run_Weapon2,
 		BreakSound  			=   	BreakMetalItem,
 		TreeDamage  			=   	1,
+	DisplayCategory		=	CraftMet,
 	}
 
 /************************RECIPES************************/

@@ -15,6 +15,7 @@ item HCFirefighterhelmet
         Type    		= Normal,
         DisplayName         	= Firefighter Hat,
         icon 			= HCFirefighterhelmet,
+	DisplayCategory          =   ClothP,
     }
 
 item HCFirefighterjacket
@@ -23,6 +24,7 @@ item HCFirefighterjacket
         Type    	        = Normal,
         DisplayName    	        = Firefighter Jacket,
         Icon    	        = HCFirefighterjacket,
+	DisplayCategory          =   ClothP,
     }
 
 item HCFiresuit
@@ -38,6 +40,7 @@ item HCFiresuit
         BiteDefense = 1,
         Insulation = 0.9,
         WindResistance = 0.9,
+		DisplayCategory = ClothP,
     }
 
 item HCFirehose
@@ -46,6 +49,7 @@ item HCFirehose
         Type			=	Normal,
         DisplayName		=	Fire Hose,
 	Icon			=	HCFirehose,
+	DisplayCategory          =   CraftMisc,
 	}
 
 item HCFirehosenozzle
@@ -54,6 +58,7 @@ item HCFirehosenozzle
         Type			=	Normal,
         DisplayName		=	Fire Hose Nozzle,
 	Icon			=	HCFirehosenozzle,
+	DisplayCategory          =   CraftMisc,
 	}
 
 /************************WEAPONS************************/

@@ -27,6 +27,7 @@ item HCWineglassfull
         Lipids 			= 	0,
         Calories 		= 	170,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCWineglassfull2
@@ -48,6 +49,7 @@ item HCWineglassfull2
         Lipids 			= 	0,
         Calories 		= 	170,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
  
 item HCWoodenbucketgrape
@@ -56,6 +58,7 @@ item HCWoodenbucketgrape
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Grape Juice,
         icon 			= HCWoodenbucketgrape,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -65,6 +68,7 @@ item HCWoodenbucketgrapegreen
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with White Grape Juice,
         icon 			= HCWoodenbucketgrapegreen,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -74,6 +78,7 @@ item HCBarrelgrape
         Type    		= Normal,
         DisplayName         	= Barrel of Red Grape Juice,
         icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -83,6 +88,7 @@ item HCBarrelgrapegreen
         Type    		= Normal,
         DisplayName         	= Barrel of White Grape Juice,
         icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -92,6 +98,7 @@ item HCBarrelwine
         Type    		= Normal,
         DisplayName         	= Barrel of Red Wine,
         icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -101,6 +108,7 @@ item HCBarrelwinewhite
         Type    		= Normal,
         DisplayName         	= Barrel of White Wine,
         icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -110,6 +118,7 @@ item HCBarrelvinegar
         Type    		= Normal,
         DisplayName         	= Barrel of vinegar,
         icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -128,6 +137,7 @@ item HCPotofhoneybrew
 	ReplaceOnCooked			=	Hydrocraft.HCPotofhoneybrewcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Honey Brew,
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofhoneybrewcooked
@@ -140,6 +150,7 @@ item HCPotofhoneybrewcooked
 	DisplayName			=	Pot of Cooked Honey Brew,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCBarrelhoney
@@ -149,6 +160,7 @@ item HCBarrelhoney
         DisplayName         		= 	Barrel of Brewed Honey,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
 	}
 
@@ -159,6 +171,7 @@ item HCBarrelmead
         DisplayName         		= 	Barrel of Mead,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
 	}
 
@@ -177,6 +190,7 @@ item HCPotofricemash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofricemashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Rice Mash,
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofricemashcooked
@@ -189,6 +203,7 @@ item HCPotofricemashcooked
 	DisplayName			=	Pot of Cooked Rice Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCBarrelrice
@@ -198,6 +213,7 @@ item HCBarrelrice
         DisplayName         		= 	Barrel of Rice Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
 	}
 
@@ -208,6 +224,7 @@ item HCBarrelsake
         DisplayName         		= 	Barrel of Sake,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
 	}
 

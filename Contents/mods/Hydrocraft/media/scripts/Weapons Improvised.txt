@@ -48,6 +48,7 @@ item HCScalpelimprovised
         	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory		=	WepMelee,
 	}
 
 item HCRazorgloves
@@ -85,6 +86,7 @@ item HCRazorgloves
         	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory		=	WepMelee,
 	}
 
 item HCToothbrushshiv
@@ -122,6 +124,7 @@ item HCToothbrushshiv
         	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory		=	WepMelee,
 	}
 
 /************************RECIPES************************/	

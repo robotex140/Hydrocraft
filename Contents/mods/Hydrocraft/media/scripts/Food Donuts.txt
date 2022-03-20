@@ -25,6 +25,7 @@ module Hydrocraft
         	Proteins 		= 	6.2,
         	Lipids 			= 	36,
         	Calories 		= 	824,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCCruller2
@@ -43,6 +44,7 @@ module Hydrocraft
         	Proteins 		= 	6.2,
         	Lipids 			= 	36,
         	Calories 		= 	824,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCCruller3
@@ -61,6 +63,7 @@ module Hydrocraft
         	Proteins 		= 	6.2,
         	Lipids 			= 	36,
         	Calories 		= 	824,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutcake
@@ -79,6 +82,7 @@ module Hydrocraft
         	Proteins 		= 	10.4,
         	Lipids 			= 	46,
         	Calories 		= 	852,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutchocolate
@@ -97,6 +101,7 @@ module Hydrocraft
         	Proteins 		= 	9,
         	Lipids 			= 	40,
         	Calories 		= 	834,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutchocolate2
@@ -115,6 +120,7 @@ module Hydrocraft
         	Proteins 		= 	9,
         	Lipids 			= 	40,
         	Calories 		= 	834,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutcinnamon
@@ -133,6 +139,7 @@ module Hydrocraft
         	Proteins 		= 	10.6,
         	Lipids 			= 	50,
         	Calories 		= 	868,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutfilled
@@ -151,6 +158,7 @@ module Hydrocraft
         	Proteins 		= 	11.8,
         	Lipids 			= 	38,
         	Calories 		= 	680,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutfilled2
@@ -169,6 +177,7 @@ module Hydrocraft
         	Proteins 		= 	12.8,
         	Lipids 			= 	50,
         	Calories 		= 	722,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutfilled3
@@ -187,6 +196,7 @@ module Hydrocraft
         	Proteins 		= 	11.8,
         	Lipids 			= 	38,
         	Calories 		= 	680,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutglazed
@@ -205,6 +215,7 @@ module Hydrocraft
         	Proteins 		= 	10.4,
         	Lipids 			= 	46,
         	Calories 		= 	852,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutmaple
@@ -223,6 +234,7 @@ module Hydrocraft
         	Proteins 		= 	10.4,
         	Lipids 			= 	46,
         	Calories 		= 	852,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutoldfashioned
@@ -241,6 +253,7 @@ module Hydrocraft
         	Proteins 		= 	10.4,
         	Lipids 			= 	46,
         	Calories 		= 	852,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutpink
@@ -259,6 +272,7 @@ module Hydrocraft
         	Proteins 		= 	9.8,
         	Lipids 			= 	50,
         	Calories 		= 	904,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutplain
@@ -277,6 +291,7 @@ module Hydrocraft
         	Proteins 		= 	10.6,
         	Lipids 			= 	50,
         	Calories 		= 	868,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutpowdered
@@ -295,6 +310,7 @@ module Hydrocraft
         	Proteins 		= 	10.6,
         	Lipids 			= 	50,
         	Calories 		= 	868,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnutsprinkle
@@ -313,6 +329,7 @@ module Hydrocraft
         	Proteins 		= 	10.6,
         	Lipids 			= 	50,
         	Calories 		= 	868,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnuttwist
@@ -331,6 +348,7 @@ module Hydrocraft
         	Proteins 		= 	12.8,
         	Lipids 			= 	46,
         	Calories 		= 	806,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnuttwist2
@@ -349,6 +367,7 @@ module Hydrocraft
         	Proteins 		= 	12.8,
         	Lipids 			= 	46,
         	Calories 		= 	806,
+	DisplayCategory          =   FoodP,
 	}
 
 	item HCDoughnuttwist3
@@ -367,6 +386,7 @@ module Hydrocraft
         	Proteins 		= 	12.8,
         	Lipids 			= 	46,
         	Calories 		= 	806,
+	DisplayCategory          =   FoodP,
 	}
 	
 /************************RECIPES************************/

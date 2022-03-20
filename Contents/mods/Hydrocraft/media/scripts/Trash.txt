@@ -14,6 +14,7 @@ item HCRustyshards
         Type    		= Normal,
         DisplayName         	= Rusty Shards,
         icon 			= HCRustyshards,
+		DisplayCategory	= Trash,
     }  
 
 item HCCrispstrash
@@ -394,6 +395,7 @@ item HCTincanwater
 		Icon					=	HCTincanwater,
 		RainFactor 				= 	1,
 		Tooltip 				= 	Tooltip_item_RainFromGround,
+		DisplayCategory	= Trash,
 	}
 
 item HCCannedcornedbeefempty
@@ -1126,6 +1128,7 @@ item HCScotchtapeempty
 		Icon 		= HCERFBtrash,
 		Weight 		= 0.1,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 
 item HCMREempty
@@ -1134,6 +1137,7 @@ item HCMREempty
 		Icon 		= HCMREtrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 
 item HCMREsidetrash
@@ -1142,6 +1146,7 @@ item HCMREsidetrash
 		Icon 		= HCMREsidetrash,
 		Weight 		= 0.1,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 	
 
@@ -1151,6 +1156,7 @@ item HCMREcrackerstrash
 		Icon 		= HCMREcrackerstrash,
 		Weight 		= 0.1,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 	
 item HCMREmealprepedtrash
@@ -1159,6 +1165,7 @@ item HCMREmealprepedtrash
 		Icon 		= HCMREmealprepedtrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 
 	}
@@ -1168,6 +1175,7 @@ item HCMREmealsideprepedtrash
 		Icon 		= HCMREmealsideprepedtrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 
 	
@@ -1177,6 +1185,7 @@ item HCCandybar1trash
 		Icon 		= HCCandybarsnackerstrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 
 item HCCandybar2trash
@@ -1185,6 +1194,7 @@ item HCCandybar2trash
 		Icon 		= HCCandybarcoconuttrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 	
 item HCCandybar3trash
@@ -1193,6 +1203,7 @@ item HCCandybar3trash
 		Icon 		= HCCandybarpeanutbuttertrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 	
 item HCCandybar4trash
@@ -1201,6 +1212,7 @@ item HCCandybar4trash
 		Icon 		= HCCandybarzedtrash,
 		Weight 		= 0.01,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 
 item HCCheesecrackerstrash
@@ -1209,6 +1221,7 @@ item HCCheesecrackerstrash
 		Icon 		= HCCheesecrackerstrash,
 		Weight 		= 0.1,
 		Type 		= Normal,
+		DisplayCategory	= Trash,
 	}
 
 /************************RECIPES************************/

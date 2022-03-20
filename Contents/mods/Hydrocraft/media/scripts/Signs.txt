@@ -14,6 +14,7 @@ item HCSignkeepout
 	Type			=	Normal,
 	DisplayName		=	Keep Out Sign,
 	Icon			=	HCSignkeepout,
+	DisplayCategory          =   Useless,
 	
   	}
 
@@ -23,7 +24,7 @@ item HCSignbiohazard
 	Type			=	Normal,
 	DisplayName		=	Biohazard Sign,
 	Icon			=	HCSignbiohazard,
-	
+	DisplayCategory          =   Useless,
   	}
 
 /************************RECIPES************************/	

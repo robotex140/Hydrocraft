@@ -14,6 +14,7 @@ item HCBowdrillbow
         Type    		= Normal,
         DisplayName         	= Bow Drill Bow,
         icon 			= HCBowdrillbow,
+		DisplayCategory	= Tool,
     }
 
 item HCBowdrill
@@ -24,6 +25,7 @@ item HCBowdrill
 	DisplayName		=	Fire Bow Drill,
 	ReplaceOnDeplete	=	HCBowdrillbow,
 	Icon			=	HCBowdrill,
+		DisplayCategory	= Tool,
     }
 
 item HCBowdrillflint
@@ -34,6 +36,7 @@ item HCBowdrillflint
 	DisplayName		=	Flint Tipped Bow Drill,
 	ReplaceOnDeplete	=	HCBowdrillbow,
 	Icon			=	HCBowdrillflint,
+		DisplayCategory	= Tool,
     }
 
 item HCDrillhand
@@ -43,6 +46,7 @@ item HCDrillhand
 	UseDelta		=	0.125,
 	DisplayName		=	Hand Drill,
 	Icon			=	HCDrillhand,
+		DisplayCategory	= Tool,
     }
 
 item HCDrillcordless
@@ -51,6 +55,7 @@ item HCDrillcordless
         Type    		= Normal,
         DisplayName         	= Cordless Drill,
         icon 			= HCDrillcordless,
+		DisplayCategory	= Tool,
     }
 
 item HCDrillcordlesspowered
@@ -61,6 +66,7 @@ item HCDrillcordlesspowered
 	DisplayName			=	Cordless Drill with Power,
 	ReplaceOnDeplete	=	HCDrillcordlessdead,
 	Icon				=	HCDrillcordlesspowered,
+		DisplayCategory	= Tool,
     }
 
 item HCDrillcordlessdead
@@ -69,6 +75,7 @@ item HCDrillcordlessdead
         Type    		= Normal,
         DisplayName         	= Dead Cordless Drill,
         icon 			= HCDrillcordlessdead,
+		DisplayCategory	= Tool,
     }
 
 item HCFunnel
@@ -77,6 +84,7 @@ item HCFunnel
         Type    		= Normal,
         DisplayName         	= Funnel,
         icon 			= HCFunnel,
+		DisplayCategory	= Tool,
     }
 
 item HCMasontrowel
@@ -85,6 +93,7 @@ item HCMasontrowel
         Type    		= Normal,
         DisplayName         	= Mason Trowel,
         icon 			= HCMasontrowel,
+		DisplayCategory	= Tool,
     }
 
 item HCPliers
@@ -93,6 +102,7 @@ item HCPliers
         Type    		= Normal,
         DisplayName         	= Pliers,
         icon 			= HCPliers,
+		DisplayCategory	= Tool,
     }
 
 item HCPipebender
@@ -101,6 +111,7 @@ item HCPipebender
 	Type			=	Normal,
 	DisplayName		=	Pipe Bender,
 	Icon			=	HCPipebender,
+		DisplayCategory	= Tool,
 	}
 
 item HCGlasscutter
@@ -109,6 +120,7 @@ item HCGlasscutter
 	Type			=	Normal,
 	DisplayName		=	Glass Cutter,
 	Icon			=	HCGlasscutter,
+		DisplayCategory	= Tool,
 	}
 
 item HCAuger
@@ -117,6 +129,7 @@ item HCAuger
         Type    		= Normal,
         DisplayName         	= Auger,
         icon 			= HCAuger,
+		DisplayCategory	= Tool,
     }
 
 item HCWeldinghose
@@ -125,6 +138,7 @@ item HCWeldinghose
         Type    		= Normal,
         DisplayName         	= Welding Hose,
         icon 			= HCWeldinghose,
+		DisplayCategory	= CraftMetal,
     }
 
 item HCWeldingtank
@@ -133,6 +147,7 @@ item HCWeldingtank
         Type    		= Normal,
         DisplayName         	= Welding Gas Tank,
         icon 			= HCWeldingtank,
+		DisplayCategory	= CraftMetal,
     }
 
 item HCWeldingtankempty
@@ -141,6 +156,7 @@ item HCWeldingtankempty
         Type    		= Normal,
         DisplayName         	= Empty Welding Gas Tank,
         icon 			= HCWeldingtank,
+		DisplayCategory	= CraftMetal,
     }
 
 item HCWeldingsetempty
@@ -149,6 +165,7 @@ item HCWeldingsetempty
         Type    		= Normal,
         DisplayName         	= Welding Torch and Empty Gas Tank,
         icon 			= HCWeldingsetempty,
+		DisplayCategory	= CraftMetal,
     }
 
 item HCWeldingset
@@ -160,6 +177,7 @@ item HCWeldingset
 	ReplaceOnDeplete		=	HCWeldingsetempty,
 	Icon				=	HCWeldingset,
 	UseWhileEquipped    		=    	FALSE,
+		DisplayCategory	= CraftMetal,
     }
 
 item HCWeldingsetempty
@@ -168,6 +186,7 @@ item HCWeldingsetempty
         Type    		= Normal,
         DisplayName         	= Welding Torch and Empty Gas Tank,
         icon 			= HCWeldingsetempty,
+		DisplayCategory	= CraftMetal,
     }
 
 item HCBackscratcher
@@ -176,6 +195,7 @@ item HCBackscratcher
         Type    		= Normal,
         DisplayName         	= Backscratcher,
         icon 			= HCBackscratcher,
+		DisplayCategory	= Misc,
     }
 
 item HCShoehorn
@@ -184,6 +204,7 @@ item HCShoehorn
         Type    		= Normal,
         DisplayName         	= Shoehorn,
         icon 			= HCShoehorn,
+		DisplayCategory	= Misc,
     }
 
 item HCFlyswatter
@@ -192,6 +213,7 @@ item HCFlyswatter
         Type    		= Normal,
         DisplayName         	= Flyswatter,
         icon 			= HCFlyswatter,
+		DisplayCategory	= Misc,
     }
 
 item HCMeasuringtape
@@ -200,6 +222,7 @@ item HCMeasuringtape
         Type    		= Normal,
         DisplayName         	= Measuring Tape,
         icon 			= HCMeasuringtape,
+		DisplayCategory	= Craft,
     }
 
 item HCBungeecord
@@ -208,6 +231,7 @@ item HCBungeecord
         Type    		= Normal,
         DisplayName         	= Bungee Cord,
         icon 			= HCBungeecord,
+		DisplayCategory	= Misc,
     }
 
 item HCSafetyglasses
@@ -216,6 +240,7 @@ item HCSafetyglasses
         Type    		= Normal,
         DisplayName         	= Safety Glasses,
         icon 			= HCSafetyglasses,
+		DisplayCategory	= Craft,
     }
 
 item HCChildsafetyscissors
@@ -224,6 +249,7 @@ item HCChildsafetyscissors
         Type    		= Normal,
         DisplayName         	= Child Safety Scissors,
         icon 			= HCChildsafetyscissors,
+		DisplayCategory	= Craft,
     }
 
 item HCHotgluegun
@@ -232,6 +258,7 @@ item HCHotgluegun
         Type    		= Normal,
         DisplayName         	= Hot Glue Gun,
         icon 			= HCHotgluegun,
+		DisplayCategory	= Craft,
     }
 
 item HCHotgluegunfull
@@ -243,6 +270,7 @@ item HCHotgluegunfull
 	ReplaceOnDeplete		=	HCHotgluegun,
 	Icon				=	HCHotgluegunfull,
 	UseWhileEquipped    		=    	FALSE,
+		DisplayCategory	= Craft,
     }
 
 item HCHotgluestick
@@ -251,6 +279,7 @@ item HCHotgluestick
         Type    		= Normal,
         DisplayName         	= Hot Glue Sticks,
         icon 			= HCHotgluestick,
+		DisplayCategory	= Craft,
     }
 
 item HCHotgluestickbox
@@ -259,6 +288,7 @@ item HCHotgluestickbox
         Type    		= Normal,
         DisplayName         	= Box of Hot Glue Sticks,
         icon 			= HCHotgluestickbox,
+		DisplayCategory	= Craft,
     }
 
 item HCBolt
@@ -267,6 +297,7 @@ item HCBolt
         Type    		= Normal,
         DisplayName         	= Bolt,
         icon 			= HCBolt,
+		DisplayCategory	= Craft,
     }
 
 item HCBoltbox
@@ -275,6 +306,7 @@ item HCBoltbox
         Type    		= Normal,
         DisplayName         	= Box of Bolts,
         icon 			= HCBoltbox,
+		DisplayCategory	= Craft,
     }
 
 item HCNut
@@ -283,6 +315,7 @@ item HCNut
         Type    		= Normal,
         DisplayName         	= Nut,
         icon 			= HCNut,
+		DisplayCategory	= Craft,
     }
 
 item HCNutbox
@@ -291,6 +324,7 @@ item HCNutbox
         Type    		= Normal,
         DisplayName         	= Box of Nuts,
         icon 			= HCNutbox,
+		DisplayCategory	= Craft,
     }
 
 item HCNutnbolt
@@ -299,6 +333,7 @@ item HCNutnbolt
         Type    		= Normal,
         DisplayName         	= Nut and Bolt,
         icon 			= HCNutnbolt,
+		DisplayCategory	= Craft,
     }
 
 item HCFuelcanister
@@ -306,7 +341,7 @@ item HCFuelcanister
         Weight    		= 1,
         Type    		= Normal,
         DisplayName         	= Fuel Canister,
-        icon 			= HCFuelcanister,
+        icon 			= Useless,
     }
 	
 item HCNailgunammobox
@@ -315,6 +350,7 @@ item HCNailgunammobox
         Type 			= Normal,
         DisplayName 		= Box of Nail Gun Nails,
 	icon 			= HCNailgunammobox,
+		DisplayCategory	= Craft,
     }
 
 item HCFramesquare
@@ -323,6 +359,7 @@ item HCFramesquare
         Type    		= Normal,
         DisplayName         	= Frame Square,
         icon 			= HCFramesquare,
+		DisplayCategory	= Craft,
     }
 
 item HCPortableminingmachine
@@ -331,6 +368,7 @@ item HCPortableminingmachine
         Type    		= Normal,
         DisplayName         	= Portable Mining Machine,
         icon 			= HCPortableminingmachine,
+		DisplayCategory	= CraftMine,
     }
 
 item HCPortableminingmachinepowered
@@ -341,6 +379,7 @@ item HCPortableminingmachinepowered
 	DisplayName			=	Portable Mining Machine with Power,
 	ReplaceOnDeplete		=	HCPortableminingmachinedead,
 	Icon				=	HCPortableminingmachinepowered,
+		DisplayCategory	= CraftMine,
     }
 
 item HCPortableminingmachinedead
@@ -349,6 +388,7 @@ item HCPortableminingmachinedead
         Type    		= Normal,
         DisplayName         	= Dead Portable Mining Machine,
         icon 			= HCPortableminingmachinedead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCDrillhead
@@ -357,6 +397,7 @@ item HCDrillhead
         Type    		= Normal,
         DisplayName         	= Drill Head,
         icon 			= HCDrillhead,
+		DisplayCategory	= CraftMine,
     }
 
 
@@ -366,6 +407,7 @@ item HCMiningdrill
         Type    		= Normal,
         DisplayName         	= Mining Drill,
         icon 			= HCMiningdrill,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMiningdrillpowered
@@ -376,6 +418,7 @@ item HCMiningdrillpowered
 	DisplayName			=	Mining Drill with Power,
 	ReplaceOnDeplete		=	HCMiningdrilldead,
 	Icon				=	HCMiningdrillpowered,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMiningdrilldead
@@ -384,6 +427,7 @@ item HCMiningdrilldead
         Type    		= Normal,
         DisplayName         	= Dead Mining Drill,
         icon 			= HCMiningdrilldead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCGrinderhead
@@ -392,6 +436,7 @@ item HCGrinderhead
         Type    		= Normal,
         DisplayName         	= Grinder Head,
         icon 			= HCGrinderhead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMininggrinder
@@ -400,6 +445,7 @@ item HCMininggrinder
         Type    		= Normal,
         DisplayName         	= Mining Grinder,
         icon 			= HCMininggrinder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMininggrinderpowered
@@ -410,6 +456,7 @@ item HCMininggrinderpowered
 	DisplayName			=	Mining Grinder with Power,
 	ReplaceOnDeplete		=	HCMininggrinderdead,
 	Icon				=	HCMininggrinderpowered,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMininggrinderdead
@@ -418,6 +465,7 @@ item HCMininggrinderdead
         Type    		= Normal,
         DisplayName         	= Dead Mining Grinder,
         icon 			= HCMininggrinderdead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCChiselhead
@@ -426,6 +474,7 @@ item HCChiselhead
         Type    		= Normal,
         DisplayName         	= Chisel Head,
         icon 			= HCChiselhead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMiningchisel
@@ -434,6 +483,7 @@ item HCMiningchisel
         Type    		= Normal,
         DisplayName         	= Mining Chisel,
         icon 			= HCMininggrinder,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMiningchiselpowered
@@ -444,6 +494,7 @@ item HCMiningchiselpowered
 	DisplayName			=	Mining Chisel with Power,
 	ReplaceOnDeplete		=	HCMiningchiseldead,
 	Icon				=	HCMiningchiselpowered,
+		DisplayCategory	= CraftMine,
     }
 
 item HCMiningchiseldead
@@ -452,6 +503,7 @@ item HCMiningchiseldead
         Type    		= Normal,
         DisplayName         	= Dead Mining Chisel,
         icon 			= HCMiningchiseldead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCSawcircularblade
@@ -460,6 +512,7 @@ item HCSawcircularblade
 	Type			=	Normal,
 	DisplayName		=	Circular Saw Blade,
 	Icon			=	HCSawcircularblade,
+		DisplayCategory	= Craft,
 	}
 
 item HCIcesaw
@@ -468,6 +521,7 @@ item HCIcesaw
 	Type			=	Normal,
 	DisplayName		=	Ice Saw,
 	Icon			=	HCIcesaw,
+		DisplayCategory	= Craft,
 	}
 
 item HCSawmetal
@@ -476,6 +530,7 @@ item HCSawmetal
 	Type			=	Normal,
 	DisplayName		=	Metal Saw,
 	Icon			=	HCSawmetal,
+		DisplayCategory	= CraftMetal,
 	}
 
 item HCSawlumber
@@ -484,6 +539,7 @@ item HCSawlumber
 	Type			=	Normal,
 	DisplayName		=	Lumber Saw,
 	Icon			=	HCSawlumber,
+		DisplayCategory	= CraftCarp,
 	}
 
 item HCElectricmultitooloff
@@ -492,6 +548,7 @@ item HCElectricmultitooloff
         Type    		= Normal,
         DisplayName         	= Electric Multitool,
         icon 			= HCElectricmultitooloff,
+		DisplayCategory	= Craft,
     }
 
 item HCElectricmultitoolpowered
@@ -502,6 +559,7 @@ item HCElectricmultitoolpowered
 	DisplayName			=	Powered Electric Multitool,
 	ReplaceOnDeplete	=	HCElectricmultitooldead,
 	Icon				=	HCElectricmultitooloff,
+		DisplayCategory	= Craft,
     }
 
 item HCElectricmultitooldead
@@ -510,6 +568,7 @@ item HCElectricmultitooldead
         Type    		= Normal,
         DisplayName         	= Dead Electric Multitool,
         icon 			= HCElectricmultitooloff,
+		DisplayCategory	= Craft,
     }
 
 item HCElectricmultitoolsawoff
@@ -518,6 +577,7 @@ item HCElectricmultitoolsawoff
         Type    		= Normal,
         DisplayName         	= Multitool With Saw,
         icon 			= HCElectricmultitoolsawoff,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCElectricmultitoolsawpowered
@@ -528,6 +588,7 @@ item HCElectricmultitoolsawpowered
 	DisplayName			=	Powered Multitool With Saw,
 	ReplaceOnDeplete		=	HCElectricmultitoolsawdead,
 	Icon				=	HCElectricmultitoolsawpowered,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCElectricmultitoolsawdead
@@ -536,6 +597,7 @@ item HCElectricmultitoolsawdead
         Type    		= Normal,
         DisplayName         	= Dead Multitool Saw,
         icon 			= HCElectricmultitoolsawdead,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCElectricmultitooldrilloff
@@ -544,6 +606,7 @@ item HCElectricmultitooldrilloff
         Type    		= Normal,
         DisplayName         	= Multitool With Drill,
         icon 			= HCElectricmultitooldrilloff,
+		DisplayCategory	= CraftMine,
     }
 
 item HCElectricmultitooldrillpowered
@@ -554,6 +617,7 @@ item HCElectricmultitooldrillpowered
 	DisplayName			=	Powered Multitool With Drill,
 	ReplaceOnDeplete		=	HCElectricmultitooldrilldead,
 	Icon				=	HCElectricmultitooldrillpowered,
+		DisplayCategory	= CraftMine,
     }
 
 item HCElectricmultitooldrilldead
@@ -562,6 +626,7 @@ item HCElectricmultitooldrilldead
         Type    		= Normal,
         DisplayName         	= Dead Multitool Drill,
         icon 			= HCElectricmultitooldrilldead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCElectricmultitooldrillhead
@@ -570,6 +635,7 @@ item HCElectricmultitooldrillhead
         Type    		= Normal,
         DisplayName         	= Multitool Drill Head,
         icon 			= HCElectricmultitooldrillhead,
+		DisplayCategory	= CraftMine,
     }
 
 item HCElectricmultitoolsaw
@@ -578,6 +644,7 @@ item HCElectricmultitoolsaw
         Type    		= Normal,
         DisplayName         	= Multitool Saw,
         icon 			= HCElectricmultitoolsaw,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCHandpump
@@ -586,6 +653,7 @@ item HCHandpump
         Type    		= Normal,
         DisplayName     	= Hand Powered Pump,
         icon 			= HCHandpump,
+		DisplayCategory	= Craft,
     } 
 
 item HCStepladder
@@ -594,7 +662,7 @@ item HCStepladder
         Type    		= Normal,
         DisplayName         	= Step Ladder,
         icon 			= HCStepladder,
-	
+		DisplayCategory	= Craft,
     }
 
 item HCScissorlift
@@ -603,6 +671,7 @@ item HCScissorlift
         Type    		= Normal,
         DisplayName         	= Scissor Lift,
         icon 			= HCScissorlift,
+		DisplayCategory	= CraftElec,
 	
     }
 
@@ -613,7 +682,7 @@ item HCScissorlift
         Count        		=    10,
         Weight        		=    0.01,
         Type        		=    Normal,
-        DisplayCategory    	=    Ammo,
+        DisplayCategory    	=    Craft,
         DisplayName    		=    Nail Gun Ammo,
         Icon        		=    HCNailgunammo,
     }
@@ -636,6 +705,7 @@ item HCScissorlift
         Type        		=    Normal,
         DisplayName    		=    Nail Gun,
         Icon       	 	=    HCNailgun,
+		DisplayCategory	= Craft,
     }
 
 /*
@@ -728,6 +798,7 @@ item HCScissorlift
 		RunAnim				=	Run_Weapon2,
 		BreakSound  			=   BreakMetalItem,
 		TreeDamage  			=   1,
+		DisplayCategory	= Tool,
 	}
 
 	/*
@@ -801,6 +872,7 @@ item HCScissorlift
       		TwoHandWeapon             	=    TRUE,
             	BreakSound             		=    BreakWoodItem,
         	TreeDamage             		=    1,
+			DisplayCategory	= WepMelee,
     	}
 
 /*
@@ -880,7 +952,7 @@ item HCScissorlift
         	TwoHandWeapon 					= 	TRUE,
         	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	125,
-        
+			DisplayCategory	= Tool,
     }
     
     item ChainSawNoGas
@@ -919,6 +991,7 @@ item HCScissorlift
         	TwoHandWeapon 					= 	TRUE,
         	BreakSound  					=   	BreakMetalItem,
         	TreeDamage  					=   	3,
+			DisplayCategory	= Tool,
     }
 
 /************************RECIPES************************/

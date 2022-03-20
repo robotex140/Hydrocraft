@@ -15,6 +15,7 @@ item HCMinehole
         Type    		= Normal,
         DisplayName     = Mine Hole,
         icon 			= HCMinehole,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -24,7 +25,7 @@ item HCMineholeB
         Type    		= Normal,
         DisplayName     = Mine Hole,
         icon 			= HCMinehole,
-	
+		DisplayCategory	= CraftMine,		
     }
 
 item HCMinehole2
@@ -33,7 +34,7 @@ item HCMinehole2
         Type    		= Normal,
         DisplayName     = Mine Hole with Pully,
         icon 			= HCMinehole2,
-	
+		DisplayCategory	= CraftMine,		
     }
 
 item HCMinehole2B
@@ -42,7 +43,7 @@ item HCMinehole2B
         Type    		= Normal,
         DisplayName     = Mine Hole with Pully,
         icon 			= HCMinehole2,
-	
+		DisplayCategory	= CraftMine,		
     }
 
 item HCIronMine
@@ -51,6 +52,7 @@ item HCIronMine
         Type            = Normal,
         DisplayName     = Iron Mine,
         icon            = HCMinehole2,
+		DisplayCategory	= CraftMine,		
     }
 
 item HCIronMineB
@@ -59,6 +61,7 @@ item HCIronMineB
         Type            = Normal,
         DisplayName     = Iron Mine,
         icon            = HCMinehole2,
+		DisplayCategory	= CraftMine,		
     }
 
 item HCCoalMine
@@ -67,6 +70,7 @@ item HCCoalMine
         Type            = Normal,
         DisplayName     = Coal Mine,
         icon            = HCMinehole2,
+		DisplayCategory	= CraftMine,		
     }
 
 item HCCoalMineB
@@ -75,6 +79,7 @@ item HCCoalMineB
         Type            = Normal,
         DisplayName     = Coal Mine,
         icon            = HCMinehole2,
+		DisplayCategory	= CraftMine,		
     }
 
 
@@ -85,6 +90,7 @@ item HCDarkmine
         Type    		= Normal,
         DisplayName     = Dark Mine,
         icon 			= HCDarkmine,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -94,6 +100,7 @@ item HCDarkmineB
         Type    		= Normal,
         DisplayName     = Dark Mine,
         icon 			= HCDarkmine,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -103,6 +110,7 @@ item HCDarkmine2
         Type    		= Normal,
         DisplayName     = Dark Mine with Pully,
         icon 			= HCDarkmine2,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -112,6 +120,7 @@ item HCDarkmine2B
         Type    		= Normal,
         DisplayName     = Dark Mine with Pully,
         icon 			= HCDarkmine2,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -121,6 +130,7 @@ item HCDarkmine3
         Type    		= Normal,
         DisplayName     = Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -131,6 +141,7 @@ item HCDarkmine3B
         Type            = Container,
         DisplayName     = Dark Mine with Steam Pully,
         icon 			= HCDarkmine3,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -143,6 +154,7 @@ item HCMinecart
 	DisplayName             = Mine Cart,
 	Icon				   = HCMinecart,
 	RequiresEquippedBothHands 	= true,
+		DisplayCategory	= Container,		
    }
 
 item HCQuarrystone
@@ -151,6 +163,7 @@ item HCQuarrystone
         Type    		= Normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -160,6 +173,7 @@ item HCQuarrystone2
         Type    		= Normal,
         DisplayName         	= Stone Quarry,
         icon 			= HCQuarrystone,
+		DisplayCategory	= CraftMine,		
 	
     }
 
@@ -169,6 +183,7 @@ item HCDirt
     	Type        	= Normal,
     	DisplayName    	= Dirt,
     	icon        	= HCDirt,
+		DisplayCategory	= CraftMine,		
     }
 
 item HCCoal

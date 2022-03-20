@@ -18,6 +18,7 @@ item HCFishingkitline
 	DisplayName 			= 	Fishing Kit,
 	ReplaceOnDeplete		=	HCFishingkitbroken,
 	Icon 				= 	HCFishingkit,
+		DisplayCategory =   SurFish,
 	}
 
 item HCFishingkitbroken
@@ -26,6 +27,7 @@ item HCFishingkitbroken
         Type    			= 	Normal,
         DisplayName         		= 	Fishing Kit with Broken Line,
         icon 				= 	HCFishingkit,
+		DisplayCategory =   SurFish,
     }
 
 item HCLurewoodfish
@@ -35,6 +37,7 @@ item HCLurewoodfish
         Icon		=	HCLurewoodfish,
         Weight		=	0.1,
         FishingLure	=	true,
+		DisplayCategory =   SurFish,
     }
 
 item HCLurefeatherfly
@@ -44,6 +47,7 @@ item HCLurefeatherfly
         Icon		=	HCLurefeatherfly,
         Weight		=	0.1,
         FishingLure	=	true,
+		DisplayCategory =   SurFish,
     }
 
 item HCLurepinecone
@@ -53,6 +57,7 @@ item HCLurepinecone
         Icon		=	HCLurepinecone,
         Weight		=	0.1,
         FishingLure	=	true,
+		DisplayCategory =   SurFish,
     }
 
 item HCLurebirchbark
@@ -62,6 +67,7 @@ item HCLurebirchbark
         Icon		=	HCLurebirchbark,
         Weight		=	0.1,
         FishingLure	=	true,
+		DisplayCategory =   SurFish,
     }
 
 item HCLurestick
@@ -71,6 +77,7 @@ item HCLurestick
         Icon		=	HCLurestick,
         Weight		=	0.1,
         FishingLure	=	true,
+		DisplayCategory =   SurFish,
     }
 
 item HCLuregarland
@@ -80,6 +87,7 @@ item HCLuregarland
         Icon		=	HCLuregarland,
         Weight		=	0.1,
         FishingLure	=	true,
+		DisplayCategory =   SurFish,
     }
 
 item HCFishhookbone
@@ -88,6 +96,7 @@ item HCFishhookbone
         DisplayName	=	Bone Fishhook,
         Icon		=	HCFishhookbone,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCFishhookcopper
@@ -96,6 +105,7 @@ item HCFishhookcopper
         DisplayName	=	Copper Fishhook,
         Icon		=	HCFishhookcopper,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCFishhooktin
@@ -104,6 +114,7 @@ item HCFishhooktin
         DisplayName	=	Tin Fishhook,
         Icon		=	HCFishhooktitanium,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 
@@ -113,6 +124,7 @@ item HCFishhookbronze
         DisplayName	=	Bronze Fishhook,
         Icon		=	HCFishhookbronze,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 
@@ -122,6 +134,7 @@ item HCFishhookiron
         DisplayName	=	Iron Fishhook,
         Icon		=	HCFishhookiron,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCFishhooksteel
@@ -130,6 +143,7 @@ item HCFishhooksteel
         DisplayName	=	Steel Fishhook,
         Icon		=	HCFishhooksteel,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCFishhookaluminum
@@ -138,6 +152,7 @@ item HCFishhookaluminum
         DisplayName	=	Aluminum Fishhook,
         Icon		=	HCFishhookaluminum,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCFishhooktitanium
@@ -146,6 +161,7 @@ item HCFishhooktitanium
         DisplayName	=	Titanium Fishhook,
         Icon		=	HCFishhooktitanium,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCEggbass
@@ -154,6 +170,7 @@ item HCEggbass
         DisplayName	=	Bass Roe,
         Icon		=	HCEggbass,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCEggcatfish
@@ -162,6 +179,7 @@ item HCEggcatfish
         DisplayName	=	Catfish Roe,
         Icon		=	HCEggcatfish,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 
@@ -171,6 +189,7 @@ item HCEggcrappie
         DisplayName	=	Crappie Roe,
         Icon		=	HCEggcrappie,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 
@@ -180,6 +199,7 @@ item HCEggpanfish
         DisplayName	=	Pan Fish Roe,
         Icon		=	HCEggpanfish,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCEggperch
@@ -188,6 +208,7 @@ item HCEggperch
         DisplayName	=	Pearch Roe,
         Icon		=	HCEggperch,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCEggpike
@@ -196,6 +217,7 @@ item HCEggpike
         DisplayName	=	Pike Roe,
         Icon		=	HCEggpike,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCEggtrout
@@ -204,6 +226,7 @@ item HCEggtrout
         DisplayName	=	Trout Roe,
         Icon		=	HCEggtrout,
         Weight		=	0.01,
+		DisplayCategory =   SurFish,
     }
 
 item HCPondholedirt
@@ -212,7 +235,7 @@ item HCPondholedirt
         Type    		= Normal,
         DisplayName         	= Dirt Pond Hole,
         icon 			= HCPondholedirt,
-	
+		DisplayCategory =   SurFish,
     }
 
 item HCPondholecement
@@ -221,6 +244,7 @@ item HCPondholecement
         Type    		= Normal,
         DisplayName         	= Cement Pond Hole,
         icon 			= HCPondholecement,
+		DisplayCategory =   SurFish,
 	
     }
 
@@ -230,7 +254,7 @@ item HCPond
         Type    		= Normal,
         DisplayName         	= Pond Hole with Water,
         icon 			= HCPond,
-	
+		DisplayCategory =   SurFish,
     }
 
 item HCPond2
@@ -239,7 +263,7 @@ item HCPond2
         Type    		= Normal,
         DisplayName         	= Pond,
         icon 			= HCPond2,
-	
+		DisplayCategory =   SurFish,
     }
 
 item HCPond3
@@ -248,7 +272,7 @@ item HCPond3
         Type    		= Normal,
         DisplayName         	= Pond,
         icon 			= HCPond2,
-	
+		DisplayCategory =   SurFish,
     }
 
 /************************RECIPES************************/

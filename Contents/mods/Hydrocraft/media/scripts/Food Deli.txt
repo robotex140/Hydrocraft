@@ -24,6 +24,7 @@ item HCSlicedtomato
         Proteins 			= 	0.32,
         Lipids 				= 	0.05,
         Calories 			= 	3.5,
+	DisplayCategory          =   FoodP,
 	}
 		
 item HCSlicedonion
@@ -41,6 +42,7 @@ item HCSlicedonion
     Proteins 			= 	0.38,
     Lipids 				= 	0.04,
     Calories 			= 	8,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCSalami
@@ -56,6 +58,7 @@ item HCSalami
         Proteins 			= 	88,
         Lipids 				= 	148,
         Calories 			= 	1700,
+	DisplayCategory          =   FoodN,
 	}	
 	
 item HCSlicedsalami
@@ -71,6 +74,7 @@ item HCSlicedsalami
         Proteins 			= 	22,
         Lipids 				= 	37,
         Calories 			= 	425,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCPeanutjellysandwich
@@ -88,6 +92,7 @@ item HCPeanutjellysandwich
         Proteins 			= 	8,
         Lipids 				= 	22,
         Calories 			= 	484,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCJellysandwich
@@ -105,6 +110,7 @@ item HCJellysandwich
         Proteins 			= 	4,
         Lipids 				= 	11,
         Calories 			= 	250,
+	DisplayCategory          =   FoodP,
 	}
 	
 item HCSpiffoburger
@@ -124,6 +130,7 @@ item HCSpiffoburger
     	Proteins 			= 	26,
     	Lipids 				= 	37.8,
    	Calories 			= 	480,
+	DisplayCategory          =   FoodP,
 	}
 
 /************************RECIPES************************/

@@ -14,6 +14,7 @@ item HCTailoringbench
     Type               = Normal,
     DisplayName         = Tailor's Workbench,
     icon                = HCTailoringbench,
+		DisplayCategory	= CraftTailor,
     
     }
 
@@ -25,6 +26,7 @@ item HCTailoringbench2
     WeightReduction     = 0,
     DisplayName         = Tailor's Workbench,
     icon                = HCTailoringbench,
+		DisplayCategory	= CraftTailor,
     }
 
 
@@ -34,6 +36,7 @@ item HCSpindle
         Type    	=    Normal,
         DisplayName    	=    Spindle,
         Icon    	=    HCSpindle,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCSpindlehead
@@ -42,6 +45,7 @@ item HCSpindlehead
         Type    	=    Normal,
         DisplayName    	=    Spindle Head,
         Icon    	=    HCSpindlehead,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCRopethin
@@ -50,6 +54,7 @@ item HCRopethin
         Type    	=    Normal,
         DisplayName    	=    Thin Rope,
         Icon    	=    HCRopethin,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCRopethick
@@ -58,6 +63,7 @@ item HCRopethick
         Type    	=    Normal,
         DisplayName    	=    Thick Rope,
         Icon    	=    HCRopethick,
+		DisplayCategory	= Craft,
     }
 
 item HCBarkstrip
@@ -66,6 +72,7 @@ item HCBarkstrip
         Type    	=    Normal,
         DisplayName    	=    Bark Strip,
         Icon    	=    HCBarkstrip,
+		DisplayCategory	= Craft,
     }
 
 item HCStraw
@@ -74,6 +81,7 @@ item HCStraw
         Type    		= Normal,
         DisplayName         	= Straw,
         icon 			= HCStraw,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCStrawbale
@@ -82,6 +90,7 @@ item HCStrawbale
         Type    		= Normal,
         DisplayName         	= Bale of Straw,
         icon 			= HCStrawbale,
+		DisplayCategory	= CraftTailor,
 	
     }
 
@@ -91,6 +100,7 @@ item HCHaystack
         Type    		= Normal,
         DisplayName         	= Haystack,
         icon 			= HCHaystack,
+		DisplayCategory	= CraftTailor,
 	
     }
 
@@ -100,6 +110,7 @@ item HCStrawhat
         Type    		= Normal,
         DisplayName         	= Straw Hat,
         icon 			= HCStrawhat,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCJutestems
@@ -108,6 +119,7 @@ item HCJutestems
         Type    		= Normal,
         DisplayName         	= Fresh Jute Stems,
         icon 			= HCJutestems,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCJutestemswet
@@ -116,6 +128,7 @@ item HCJutestemswet
         Type    		= Normal,
         DisplayName         	= Wet Jute Stems,
         icon 			= HCJutestemswet,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCJutestemsdry
@@ -124,6 +137,7 @@ item HCJutestemsdry
         Type    		= Normal,
         DisplayName         	= Dry Jute Stems,
         icon 			= HCJutestemsdry,
+		DisplayCategory	= CraftTailor,
     }
 
 
@@ -133,6 +147,7 @@ item HCJutefibers
         Type    		= Normal,
         DisplayName         	= Jute Fibers,
         icon 			= HCJutefibers,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCBurlapcloth
@@ -141,6 +156,7 @@ item HCBurlapcloth
         Type    		= Normal,
         DisplayName         	= Burlap Cloth,
         icon 			= HCBurlapcloth,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCCottonraw
@@ -149,6 +165,7 @@ item HCCottonraw
         Type    		= Normal,
         DisplayName         	= Raw Cotton,
         icon 			= HCCottonraw,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCCottongin
@@ -157,6 +174,7 @@ item HCCottongin
         Type    		= Normal,
         DisplayName         	= Cotton Gin,
         icon 			= HCCottongin,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCCotton
@@ -165,6 +183,7 @@ item HCCotton
         Type    		= Normal,
         DisplayName         	= Cotton,
         icon 			= HCCotton,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCCottonthread
@@ -173,6 +192,7 @@ item HCCottonthread
         Type    		= Normal,
         DisplayName         	= Cotton Thread,
         icon 			= HCCottonthread,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCCottoncloth
@@ -181,6 +201,7 @@ item HCCottoncloth
         Type    		= Normal,
         DisplayName         	= Cotton Cloth,
         icon 			= HCCottoncloth,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCPlantfibers
@@ -189,6 +210,7 @@ item HCPlantfibers
         Type    		= Normal,
         DisplayName         	= Plant Fibers,
         icon 			= HCPlantfibers,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCLinenthread
@@ -197,6 +219,7 @@ item HCLinenthread
         Type    		= Normal,
         DisplayName         	= Linen Thread,
         icon 			= HCLinenthread,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCLinencloth
@@ -205,6 +228,7 @@ item HCLinencloth
         Type    		= Normal,
         DisplayName         	= Linen Cloth,
         icon 			= HCLinencloth,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCWool
@@ -213,6 +237,7 @@ item HCWool
         Type    		= Normal,
         DisplayName         	= Wool,
         icon 			= HCWool,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarn
@@ -221,6 +246,7 @@ item HCYarn
         Type    		= Normal,
         DisplayName         	= Yarn,
         icon 			= HCYarn,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarnpurple
@@ -229,6 +255,7 @@ item HCYarnpurple
         Type    		= Normal,
         DisplayName         	= Purple Yarn,
         icon 			= HCYarnpurple,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarnblue
@@ -237,6 +264,7 @@ item HCYarnblue
         Type    		= Normal,
         DisplayName         	= Blue Yarn,
         icon 			= HCYarnblue,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarngreen
@@ -245,6 +273,7 @@ item HCYarngreen
         Type    		= Normal,
         DisplayName         	= Green Yarn,
         icon 			= HCYarngreen,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarnyellow
@@ -253,6 +282,7 @@ item HCYarnyellow
         Type    		= Normal,
         DisplayName         	= Yellow Yarn,
         icon 			= HCYarnyellow,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarnorange
@@ -261,6 +291,7 @@ item HCYarnorange
         Type    		= Normal,
         DisplayName         	= Orange Yarn,
         icon 			= HCYarnorange,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarnred
@@ -269,6 +300,7 @@ item HCYarnred
         Type    		= Normal,
         DisplayName         	= Red Yarn,
         icon 			= HCYarnred,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCYarnblack
@@ -277,6 +309,7 @@ item HCYarnblack
         Type    		= Normal,
         DisplayName         	= Black Yarn,
         icon 			= HCYarnblack,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCWoolcloth
@@ -285,6 +318,7 @@ item HCWoolcloth
         Type    	=    Normal,
         DisplayName    	=    Wool Cloth,
         Icon    	=    HCWoolcloth.png,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCCloth
@@ -293,6 +327,7 @@ item HCCloth
         Type    	=    Normal,
         DisplayName    	=    Cloth,
         Icon    	=    HCCloth.png,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCSilkfiber
@@ -301,6 +336,7 @@ item HCSilkfiber
         Type    		= Normal,
         DisplayName         	= Silk Filament,
         icon 			= HCSilkfiber,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCSilkthread
@@ -309,6 +345,7 @@ item HCSilkthread
         Type    		= Normal,
         DisplayName         	= Silk Thread,
         icon 			= HCSilkthread,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCSilkcloth
@@ -317,6 +354,7 @@ item HCSilkcloth
         Type    		= Normal,
         DisplayName         	= Silk Cloth,
         icon 			= HCSilkcloth,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCReedmat
@@ -325,6 +363,7 @@ item HCReedmat
         Type    		= Normal,
         DisplayName         	= Reed Mat,
         icon 			= HCReedmat,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCReedmatdry
@@ -333,6 +372,7 @@ item HCReedmatdry
         Type    		= Normal,
         DisplayName         	= Dried Reed Mat,
         icon 			= HCReedmatdry,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCNyloncloth
@@ -341,6 +381,7 @@ item HCNyloncloth
         Type    		= Normal,
         DisplayName         	= Nylon Cloth,
         icon 			= HCNyloncloth,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCZipper
@@ -349,6 +390,7 @@ item HCZipper
         Type    		= Normal,
         DisplayName         	= Zipper,
         icon 			= HCZipper,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCSafetypin
@@ -357,6 +399,7 @@ item HCSafetypin
         Type        = Normal,
         DisplayName     = Safety Pin,
         icon        = HCSafetypin,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCSewingpin
@@ -365,6 +408,7 @@ item HCSewingpin
         Type        = Normal,
         DisplayName     = Sewing Pin,
         icon        = HCSewingpin,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCSewingpinbox
@@ -373,6 +417,7 @@ item HCSewingpinbox
         Type        = Normal,
         DisplayName     = Box of Sewing Pins,
         icon        = HCSewingpinbox,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCPincushion
@@ -381,6 +426,7 @@ item HCPincushion
         Type        = Normal,
         DisplayName     = Pin Cushion,
         icon        = HCPincushion,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCPincushionfull
@@ -389,6 +435,7 @@ item HCPincushionfull
         Type        = Normal,
         DisplayName     = Pin Cushion with Pins,
         icon        = HCPincushionfull,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCThimble
@@ -397,6 +444,7 @@ item HCThimble
         Type        = Normal,
         DisplayName     = Thimble,
         icon        = HCThimble,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCPlastichanger
@@ -405,6 +453,7 @@ item HCPlastichanger
         Type        = Normal,
         DisplayName     = Plastic Hanger,
         icon        = HCPlastichanger,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCWirehanger
@@ -413,6 +462,7 @@ item HCWirehanger
         Type        = Normal,
         DisplayName     = Wire Hanger,
         icon        = HCWirehanger,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCWoodhanger
@@ -421,6 +471,7 @@ item HCWoodhanger
         Type        = Normal,
         DisplayName     = Wood Hanger,
         icon        = HCWoodhanger,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCMittens
@@ -429,6 +480,7 @@ item HCMittens
         Type        = Normal,
         DisplayName     = Mittens,
         icon        = HCMittens,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCHydroshirt
@@ -445,6 +497,7 @@ item HCHydroshirt
         BiteDefense = 50,
         ScratchDefense = 50,
         FabricType = Cotton,
+		DisplayCategory	= ClothP,
     }
 
 
@@ -462,6 +515,7 @@ item HCLinenshirt
         BiteDefense = 10,
         ScratchDefense = 20,
         FabricType = Cotton,
+		DisplayCategory	= ClothP,
     }
 
 item HCLinenshirtWired
@@ -478,6 +532,7 @@ item HCLinenshirtWired
         BiteDefense = 30,
         ScratchDefense = 50,
         weight = 4,
+		DisplayCategory	= ClothP,
     }
 
 item HCLinenshirtAlu
@@ -494,6 +549,7 @@ item HCLinenshirtAlu
         BiteDefense = 20,
         ScratchDefense = 30,
         weight = 2,
+		DisplayCategory	= ClothP,
     }
 
 item HCLinenpants
@@ -508,6 +564,7 @@ item HCLinenpants
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		DisplayCategory	= ClothP,
     }
 
 
@@ -525,6 +582,7 @@ item HCLinenpantsAlu
         BiteDefense = 20,
         ScratchDefense = 30,
         weight = 2,
+		DisplayCategory	= ClothP,
     }
 
 
@@ -542,6 +600,7 @@ item HCLinenpantsWired
         Insulation = 0.25,
         WindResistance = 0.15,
         FabricType = Cotton,
+		DisplayCategory	= ClothP,
     }
 
 
@@ -620,6 +679,7 @@ item HCClothespin
         Type        =    Normal,
         DisplayName     =    Clothespin,
         Icon        =    HCClothespin.png,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCClothespinbox
@@ -628,6 +688,7 @@ item HCClothespinbox
         Type        =    Normal,
         DisplayName     =    Box of Clothespins,
         Icon        =    HCClothespinbox.png,
+		DisplayCategory	= CraftTailor,
     }
 
 item HCClotheslinefull
@@ -636,7 +697,7 @@ item HCClotheslinefull
         Type            = Normal,
         DisplayName             = Clothes Line with Clothes,
         icon            = HCClotheslinefull,
-    
+		DisplayCategory	= CraftTailor,
     }
 
 item HCClotheslinefull2
@@ -645,7 +706,7 @@ item HCClotheslinefull2
         Type            = Normal,
         DisplayName             = Double Clothes Line with Clothes,
         icon            = HCClotheslinefull2,
-    
+		DisplayCategory	= CraftTailor,
     }
 
 item HCBathtoweldirty
@@ -654,6 +715,7 @@ item HCBathtoweldirty
         Type            = Normal,
         DisplayName         = Dirty Bath Towel,
         icon            = HCBathtoweldirty,
+		DisplayCategory	= CraftTailor,
     }
 
 
@@ -668,6 +730,7 @@ item HCSocksWoolAnkle
         Insulation = 0.15,
         WindResistance = 0.1,
         Weight = 0.1,
+		DisplayCategory	= ClothN,
     }
 item HCSocksWoolLong
     {
@@ -680,6 +743,7 @@ item HCSocksWoolLong
         Insulation = 0.55,
         WindResistance = 0.65,
         Weight = 0.1,
+		DisplayCategory	= ClothN,
     }
 
 item HCSweaterWoolThick
@@ -695,6 +759,7 @@ item HCSweaterWoolThick
         WindResistance = 0.5,
         WaterResistance = 0.5,
         FabricType = Cotton,
+		DisplayCategory	= ClothP,
     }
 
 item HCSweaterWool
@@ -710,6 +775,7 @@ item HCSweaterWool
         WindResistance = 0.5,
         WaterResistance = 0.5,
         FabricType = Cotton,
+		DisplayCategory	= ClothP,
     }
 
 
@@ -724,6 +790,7 @@ item HCSilkUndiesWarm
         Icon = Longjohns,
         Insulation = 0.5,
         WindResistance = 0.3,
+		DisplayCategory	= ClothN,
     }
 
 item HCBoneButton
@@ -732,6 +799,7 @@ item HCBoneButton
         Weight      = 0.05,
         DisplayName = Bone Button,
         Icon = HCBoneButton,
+		DisplayCategory	= CraftTailor,
     }
 
 

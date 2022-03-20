@@ -27,6 +27,7 @@ item HCDuckmeat
         Proteins 			= 	69,
        	Lipids 				= 	33,
         Calories 			= 	603,
+		DisplayCategory 	        =       FoodP,
     }
 
 item HCGoosemeat
@@ -48,6 +49,7 @@ item HCGoosemeat
         Proteins 			= 	87,
         Lipids 				= 	39,
         Calories 			= 	714,
+		DisplayCategory 	        =       FoodP,
     }
 
 item HCTurkeymeat
@@ -69,6 +71,7 @@ item HCTurkeymeat
       	Proteins 			= 	69,
       	Lipids 				= 	5.7,
       	Calories 			= 	336,
+		DisplayCategory 	        =       FoodP,
     }
 
 item HCDogmeat
@@ -80,7 +83,7 @@ item HCDogmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCCatmeat
@@ -92,7 +95,7 @@ item HCCatmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCSheepmeat
@@ -104,7 +107,7 @@ item HCSheepmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCGoatmeat
@@ -116,7 +119,7 @@ item HCGoatmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCPigmeat
@@ -128,7 +131,7 @@ item HCPigmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCCowmeat
@@ -140,7 +143,7 @@ item HCCowmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCCowmeat2
@@ -152,7 +155,7 @@ item HCCowmeat2
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCDonkeymeat
@@ -164,7 +167,7 @@ item HCDonkeymeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 item HCHorsemeat
@@ -176,7 +179,7 @@ item HCHorsemeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
     }
 
 
@@ -189,7 +192,7 @@ item HCNutriameat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -202,7 +205,7 @@ item HCBeavermeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -215,7 +218,7 @@ item HCPorcupinemeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -228,7 +231,7 @@ item HCArmadillomeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -241,7 +244,7 @@ item HCFoxmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -254,7 +257,7 @@ item HCRaccoonmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -267,7 +270,7 @@ item HCOpossummeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -281,7 +284,7 @@ item HCSkunkmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -294,7 +297,7 @@ item HCBoarmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -307,7 +310,7 @@ item HCDeermeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -320,7 +323,7 @@ item HCDeermeat2
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -333,7 +336,7 @@ item HCBlackbearmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -346,7 +349,7 @@ item HCBearmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -359,7 +362,7 @@ item HCCougarmeat
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	12,
         DaysFresh			=	8,
-	
+		DisplayCategory 	        =       AnimalDead,
         FoodType    			=   	Game,
     }
 
@@ -390,7 +393,7 @@ item HCZedmeat
        	Lipids 			= 	476.3,
         Calories 		= 	7700,
         DaysFresh			=	1,
-	
+		DisplayCategory 	        =       FoodP,
     }
 
 item HCZedmeatheadless
@@ -416,6 +419,7 @@ item HCZedmeatheadless
         MinutesToBurn			=	250,
         MinutesToCook			=	150,
         DaysFresh			=	1,
+		DisplayCategory 	        =       FoodP,
 	
     }
 
@@ -425,6 +429,7 @@ item HCZedhead
 	Type 				= 	Normal,
 	DisplayName 			= 	Head,
 	Icon				=	HCZedhead,
+		DisplayCategory 	        =       Misc,
 	}
 
 item HCIntestines
@@ -433,6 +438,7 @@ item HCIntestines
 	Type 				= 	Normal,
 	DisplayName 			= 	Intestines,
 	Icon				=	HCIntestines,
+		DisplayCategory 	        =       Cooking,
 	}
 
 item HCCheval
@@ -454,6 +460,7 @@ item HCCheval
         	Proteins 		= 	97,
        		Lipids 			= 	21,
         	Calories 		= 	603,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCSmallgamesteak
@@ -475,6 +482,7 @@ item HCSmallgamesteak
         	Proteins 		= 	44,
        		Lipids 			= 	5.4,
         	Calories 		= 	232,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCVenison
@@ -496,6 +504,7 @@ item HCVenison
         	Proteins 		= 	66,
        		Lipids 			= 	8.1,
         	Calories 		= 	348,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCBearsteak
@@ -517,6 +526,7 @@ item HCBearsteak
         	Proteins 		= 	60,
        		Lipids 			= 	24.9,
         	Calories 		= 	483,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCCougarsteak
@@ -538,6 +548,7 @@ item HCCougarsteak
         	Proteins 		= 	60,
        		Lipids 			= 	24.9,
         	Calories 		= 	483,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCFreshham
@@ -559,6 +570,7 @@ item HCFreshham
         	Proteins 		= 	53.1,
        		Lipids 			= 	28.8,
         	Calories 		= 	486,
+		DisplayCategory 	        =       FoodP,
      }
 
 item HCZedsteak
@@ -588,6 +600,7 @@ item HCZedsteak
     		PoisonPower 		= 	40,
     		UseForPoison 		= 	15,
                 CustomEatSound 		= 	PZ_Eating,
+		DisplayCategory 	        =       FoodP,
         }
 
 item HCTurduckhen
@@ -609,6 +622,7 @@ item HCTurduckhen
         Proteins 			= 	189,
        	Lipids 				= 	135,
         Calories 			= 	2070,
+		DisplayCategory 	        =       FoodP,
     }
 
 item HCChristmashamcasserole
@@ -628,6 +642,7 @@ item HCChristmashamcasserole
 	    Proteins 			= 	125,
 	    Lipids 			= 	90,
 	    Calories 			= 	1790,
+		DisplayCategory 	        =       FoodP,
     }
 	
 /************************RECIPES************************/

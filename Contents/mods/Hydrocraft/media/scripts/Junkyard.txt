@@ -13,6 +13,7 @@ item HCJunk
         Type    		= Normal,
         DisplayName         	= Junk,
         icon 			= HCJunk,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCJunkyardsmallempty
@@ -22,6 +23,7 @@ item HCJunkyardsmallempty
         
         DisplayName         		= Small Empty Junkyard,
         icon 				= HCJunkyardsmallempty,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCJunkyardsmallfull
@@ -31,6 +33,7 @@ item HCJunkyardsmallfull
         
         DisplayName         		= Small Full Junkyard,
         icon 				= HCJunkyardsmallfull,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCJunkyardmediumempty
@@ -40,6 +43,7 @@ item HCJunkyardmediumempty
         
         DisplayName         		= Medium Empty Junkyard,
         icon 				= HCJunkyardmediumempty,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCJunkyardmediumfull
@@ -49,6 +53,7 @@ item HCJunkyardmediumfull
         
         DisplayName         		= Medium Full Junkyard,
         icon 				= HCJunkyardmediumfull,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCJunkyardlargeempty
@@ -59,6 +64,7 @@ item HCJunkyardlargeempty
         
         DisplayName         		= Large Empty Junkyard,
         icon 				= HCJunkyardlargeempty,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCJunkyardlargefull
@@ -67,6 +73,7 @@ item HCJunkyardlargefull
   Weight           = 30,
   DisplayName      = Large Full Junkyard,
   icon 			  	   = HCJunkyardlargefull,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCJunkyardlargefull2
@@ -77,6 +84,7 @@ item HCJunkyardlargefull2
   Capacity         = 500,
   DisplayName      = Large Full Junkyard,
   icon             = HCJunkyardlargefull,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCMagnetgiant
@@ -85,6 +93,7 @@ item HCMagnetgiant
         Type    			= Normal,
         DisplayName         		= Giant Magnet,
         icon 				= HCMagnetgiant,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCSled
@@ -96,6 +105,7 @@ item HCSled
 	DisplayName	       		=	Makeshift Sled,
 	Icon	               		=	HCSled,
 	RequiresEquippedBothHands 	= 	true,
+		DisplayCategory          =   Container,
 	}
 
 item HCDetector
@@ -104,6 +114,7 @@ item HCDetector
 	Type				=	Normal,
 	DisplayName			=	Metal Detector,
 	Icon				=	HCDetector,
+		DisplayCategory          =   CraftRec,
 	}
 
 item HCDetectorpowered
@@ -115,6 +126,7 @@ item HCDetectorpowered
 	DisplayName 			= 	Metal Detector with Power,
 	ReplaceOnDeplete		=	HCDetectordead,
 	Icon 				= 	HCDetectorpowered,
+		DisplayCategory          =   CraftRec,
 	}
 
 item HCDetectordead
@@ -123,6 +135,7 @@ item HCDetectordead
         Type    			= 	Normal,
         DisplayName         		= 	Metal Detector with Dead Battery,
         icon 				= 	HCDetector,
+		DisplayCategory          =   CraftRec,
     }
 
 item HCTrashsmall
@@ -131,6 +144,7 @@ item HCTrashsmall
 	Type				=	Normal,
 	DisplayName			=	Small Bag with Trash,
 	Icon				=	HCTrashsmall,
+		DisplayCategory          =   CraftRec,
         
 	}
 
@@ -140,6 +154,7 @@ item HCTrashmedium
 	Type				=	Normal,
 	DisplayName			=	Medium Box With Trash,
 	Icon				=	HCTrashmedium,
+		DisplayCategory          =   CraftRec,
         
 	}
 
@@ -149,6 +164,7 @@ item HCTrashlarge
 	Type				=	Normal,
 	DisplayName			=	Large Box With Trash,
 	Icon				=	HCTrashlarge,
+		DisplayCategory          =   CraftRec,
         
 	}
 
@@ -158,6 +174,7 @@ item HCJunkmicro
         Type    			=       Normal,
         DisplayName         		=       Broken Microwave,
         icon 				=       HCJunkmicro,
+		DisplayCategory          =   CraftRec,
 
         }
 
@@ -167,6 +184,7 @@ item HCJunktv
 	Type				=	Normal,
 	DisplayName			=	Broken TV,
 	Icon				=	HCJunktv,
+		DisplayCategory          =   CraftRec,
 
 	}
 
@@ -176,6 +194,7 @@ item HCJunkfridge
 	Type				=	Normal,
 	DisplayName			=	Broken Fridge,
 	Icon				=	HCJunkfridge,
+		DisplayCategory          =   CraftRec,
 
 	}
 
@@ -185,6 +204,7 @@ item HCJunkwash
 	Type				=	Normal,
 	DisplayName			=	Broken Washing Machine,
 	Icon				=	HCJunkwash,
+		DisplayCategory          =   CraftRec,
 
 	}
 
@@ -194,6 +214,7 @@ item HCJunkdryer
 	Type				=	Normal,
 	DisplayName			=	Broken Drying Machine,
 	Icon				=	HCJunkdryer,
+		DisplayCategory          =   CraftRec,
 
 	}
 
@@ -204,6 +225,7 @@ item HCJunkbicycle
 	Type				=	Normal,
 	DisplayName			=	Broken Bicycle,
 	Icon				=	HCJunkbicycle,
+		DisplayCategory          =   CraftRec,
 
 	}
 
@@ -213,6 +235,7 @@ item HCDynamo
 	Type				=	Normal,
 	DisplayName			=	Dynamo,
 	Icon				=	HCDynamo,
+		DisplayCategory          =   CraftRec,
 	}
 
 item HCJunktredmill
@@ -221,6 +244,7 @@ item HCJunktredmill
 	Type				=	Normal,
 	DisplayName			=	Broken Tredmill,
 	Icon				=	HCJunktredmill,
+		DisplayCategory          =   CraftRec,
 
 	}
 
@@ -230,6 +254,7 @@ item HCRadiator2
         Type    			= Normal,
         DisplayName         		= Broken Radiator,
         icon 				= HCRadiator2,
+		DisplayCategory          =   CraftRec,
         
     }
 
@@ -239,6 +264,7 @@ item HCBedsprings
         Type    			= Normal,
         DisplayName         		= Rusty Bed Springs,
         icon 				= HCBedsprings,
+		DisplayCategory          =   CraftRec,
         
     }
 
@@ -248,6 +274,7 @@ item HCWaterheater
         Type    			= Normal,
         DisplayName         		= Water Heater,
         icon 				= HCWaterheater,
+		DisplayCategory          =   CraftRec,
         
     }
 
@@ -287,6 +314,7 @@ item HCWaterheater
 		Icon						=	HCChain,
 		RunAnim						=	Run_Weapon2,
         	BreakSound  					=   	BreakMetalItem,
+		DisplayCategory          =   CraftRec,
 	}
 
 /************************RECIPES************************/

@@ -11,6 +11,7 @@ item HCGroomingbrush
 		Type    			= 	Normal,
 		DisplayName         		= 	Grooming Brush,
 		icon 				= 	HCGroomingbrush,
+		DisplayCategory		=   AnimalMisc,
 		}
 
 item HCHorsesaddle
@@ -21,6 +22,7 @@ item HCHorsesaddle
 	Capacity             	= 	100,
 	DisplayName				=	Horse Saddle,
 	Icon					=	HCHorsesaddle,
+		DisplayCategory		=   AnimalMisc,
 	}
 
 item HCHorsecollar
@@ -29,6 +31,7 @@ item HCHorsecollar
 		Type				=	Normal,
 		DisplayName			=	Horse Collar,
 		Icon				=	HCHorsecollar,
+		DisplayCategory		=   AnimalMisc,
 	
 	}
 item HCPetcone
@@ -37,6 +40,7 @@ item HCPetcone
 		Type    			= 	Normal,
 		DisplayName         		= 	Pet Cone,
 		icon 				= 	HCPetcone,
+		DisplayCategory		=   AnimalMisc,
 		}
 item HCPooperscooper
 		{
@@ -44,6 +48,7 @@ item HCPooperscooper
 		Type    			= 	Normal,
 		DisplayName         		= 	Pooper Scooper,
 		icon 				= 	HCPooperscooper,
+		DisplayCategory		=   AnimalMisc,
 		}
 item HCDogropetoy
 		{
@@ -51,6 +56,7 @@ item HCDogropetoy
 		Type    			= 	Normal,
 		DisplayName         		= 	Dog Rope Toy,
 		icon 				= 	HCDogropetoy,
+		DisplayCategory		=   AnimalMisc,
 		}
 item HCAnimalcage
 	{
@@ -59,6 +65,7 @@ item HCAnimalcage
 		Capacity    		= 2,
 		DisplayName         	= Medium Animal Cage,
 		icon 			= HCAnimalcage,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCBirdcage
 	{
@@ -67,6 +74,7 @@ item HCBirdcage
 		Capacity    		= 2,
 		DisplayName         	= Bird Cage,
 		icon 			= HCBirdcage,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCAnimalcagesmall
 	{
@@ -75,6 +83,7 @@ item HCAnimalcagesmall
 		Capacity    		= 1,
 		DisplayName         	= Small Animal Cage,
 		icon 			= HCAnimalcagesmall,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCHamsterwheel
 	{
@@ -82,6 +91,7 @@ item HCHamsterwheel
 		Type    		= Normal,
 		DisplayName         	= Hamster Wheel,
 		icon 			= HCHamsterwheel,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCRodentfood
 	{
@@ -91,6 +101,7 @@ item HCRodentfood
 	UseDelta		= 0.25,
 		DisplayName         	= Can of Rodent Food,
 		icon 			= HCRodentfood,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCRodentfood2
 	{
@@ -100,6 +111,7 @@ item HCRodentfood2
 	UseDelta		= 0.25,
 		DisplayName         	= Box of Rodent Food,
 		icon 			= HCRodentfood2,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCBirdfeeder
 		{
@@ -107,6 +119,7 @@ item HCBirdfeeder
 		Type    			= 	Normal,
 		DisplayName         		= 	Bird Feeder,
 		icon 				= 	HCBirdfeeder,
+		DisplayCategory		=   AnimalMisc,
 		}
 item HCBirdfoodbox
 	{
@@ -116,6 +129,7 @@ item HCBirdfoodbox
 	UseDelta		= 0.25,
 		DisplayName         	= Box of Bird Food,
 		icon 			= HCBirdfoodbox,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCBirdfoodbag
 	{
@@ -125,6 +139,7 @@ item HCBirdfoodbag
 	UseDelta		= 0.25,
 		DisplayName         	= Bag of Bird Food,
 		icon 			= HCBirdfoodbag,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCDogbowl
 	{
@@ -132,6 +147,7 @@ item HCDogbowl
 		Type    		= Normal,
 		DisplayName         	= Pet Bowl,
 		icon 			= HCDogbowl,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCDogbiscuit
 	{
@@ -139,6 +155,7 @@ item HCDogbiscuit
 		Type    		= Normal,
 		DisplayName         	= Dog Biscuit,
 		icon 			= HCDogbiscuit,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCDogkibble
 	{
@@ -148,6 +165,7 @@ item HCDogkibble
 	UseDelta		= 0.15,
 		DisplayName         	= Bag of Dog Kibble,
 		icon 			= HCDogkibble,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCFishfood
 	{
@@ -157,6 +175,7 @@ item HCFishfood
 	UseDelta		= 0.25,
 	DisplayName         	= Box of Fish Food,
 	icon 			= HCFishfood,
+		DisplayCategory		=   AnimalMisc,
 	}
 
 item HCFishfood2
@@ -167,6 +186,7 @@ item HCFishfood2
 	UseDelta		= 0.25,
 	DisplayName         	= Can of Fish Food,
 	icon 			= HCFishfood2,
+		DisplayCategory		=   AnimalMisc,
 	}
 
 item HCFishbowl
@@ -178,6 +198,7 @@ item HCFishbowl
 	ReplaceOnUseOn		= 	WaterSource-HCFishbowlfull,
 	icon 			= 	HCFishbowl,
 	RainFactor 		= 	1,
+		DisplayCategory		=   AnimalMisc,
 	}
 
 item HCFishbowlfull
@@ -193,6 +214,7 @@ item HCFishbowlfull
 	ReplaceOnUseOn		=	WaterSource-HCFishbowlfull,
 	Icon				=	HCFishbowlfull,
 	RainFactor 			= 	1,
+		DisplayCategory		=   AnimalMisc,
 
 	}
 item HCFishtank
@@ -204,6 +226,7 @@ item HCFishtank
 	ReplaceOnUseOn		= 	WaterSource-HCFishtankfull,
 	icon 				= 	HCFishtank,
 	RainFactor 			= 	1,
+		DisplayCategory		=   AnimalMisc,
 	}
 
 item HCFishtankfull
@@ -219,6 +242,7 @@ item HCFishtankfull
 	ReplaceOnUseOn		=	WaterSource-HCFishtankfull,
 	Icon				=	HCFishtankfull,
 	RainFactor 			= 	1,
+		DisplayCategory		=   AnimalMisc,
 	}
 
 item HCZedtank
@@ -227,6 +251,7 @@ item HCZedtank
 	Type			=	Normal,
 	DisplayName		=	Fish Tank with Head,
 	Icon			=	HCZedtank,
+		DisplayCategory		=   AnimalMisc,
 	
 	}
 item HCCatlitter
@@ -237,6 +262,7 @@ item HCCatlitter
 	UseDelta		= 0.25,
 		DisplayName         	= Bag of Kitty Litter,
 		icon 			= HCCatlitter,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCCatfood
 	{
@@ -249,6 +275,7 @@ item HCCatfood
 		Lipids 			= 	34,
 		Calories 		= 	370,
 		Packaged 		= 	TRUE,
+		DisplayCategory		=   FoodC,
 	}
 item HCCatfoodopen
 	{
@@ -267,6 +294,7 @@ item HCCatfoodopen
 		Calories 		= 	370,
 		Packaged 		= 	TRUE,
 		ReplaceOnUse    	=   	TinCanEmpty,
+		DisplayCategory		=   FoodP,
 	}
 item HCDogwhistle
 	{
@@ -274,6 +302,7 @@ item HCDogwhistle
 	Type 				= 	Normal,
 	DisplayName 			= 	Dog Whistle,
 	Icon				=	HCDogwhistle,
+		DisplayCategory		=   AnimalMisc,
 	}
 item HCShears
 	{
@@ -281,6 +310,7 @@ item HCShears
 		Type    		= Normal,
 		DisplayName         	= Shears,
 		icon 			= HCShears,
+		DisplayCategory		=   AnimalMisc,
 	}
 /************************RECIPES************************/
 recipe Put Head in Fish Tank

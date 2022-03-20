@@ -14,6 +14,7 @@ item HCAxehandle
         Type    		= Normal,
         DisplayName         	= Axe Handle,
         icon 			= HCAxehandle,
+		DisplayCategory	= CraftCarp,
     }
 
 item HCAxehead
@@ -22,6 +23,7 @@ item HCAxehead
         Type    		= Normal,
         DisplayName         	= Axe Head,
         icon 			= HCAxehead,
+		DisplayCategory	= CraftMet,
     }
 
 item HCAxeheadworn
@@ -30,6 +32,7 @@ item HCAxeheadworn
         Type    		= Normal,
         DisplayName         	= Worn Axe Head,
         icon 			= HCAxehead,
+		DisplayCategory	= CraftMet,
     }
 
 item HCAxeheadblunt
@@ -38,6 +41,7 @@ item HCAxeheadblunt
         Type    		= Normal,
         DisplayName         	= Blunt Axe Head,
         icon 			= HCAxehead,
+		DisplayCategory	= CraftMet,
     }
 
 /************************WEAPONS************************/
@@ -80,6 +84,7 @@ item HCAxeheadblunt
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
         AttachmentType 					= BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCMakeshiftaxe
@@ -119,6 +124,7 @@ item HCAxeheadblunt
         BreakSound  		=   	BreakWoodItem,
         TreeDamage  		=   	30,
         AttachmentType 		= BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCMakeshiftaxeworn
@@ -158,6 +164,7 @@ item HCAxeheadblunt
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	25,
         AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCMakeshiftaxeblunt
@@ -197,6 +204,7 @@ item HCAxeheadblunt
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
         AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 	
 	item HCSurvivalaxe
@@ -237,6 +245,7 @@ item HCAxeheadblunt
         TreeDamage  				=   	25,
         AttachmentType 				= Knife,
         Tags 						= ChopTree;CutPlant,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCHatchetsteel
@@ -276,6 +285,7 @@ item HCAxeheadblunt
         BreakSound  					=   	BreakWoodItem,
         TreeDamage  					=   	25,
         AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCHatchetiron
@@ -315,6 +325,7 @@ item HCAxeheadblunt
         BreakSound  					=   	BreakWoodItem,
         TreeDamage  					=   	25,
         AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 
 
@@ -357,6 +368,7 @@ item HCAxeheadblunt
         TreeDamage  				=   35,
 		RequiresEquippedBothHands 	= 	true,
 		AttachmentType 				= 	BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCBattleaxeiron
@@ -397,6 +409,7 @@ item HCAxeheadblunt
         	TreeDamage  					=   	35,
 		RequiresEquippedBothHands 			= 	true,
 		AttachmentType 			= BigWeapon,
+		DisplayCategory          =   WepMelee,
 	}
 
 

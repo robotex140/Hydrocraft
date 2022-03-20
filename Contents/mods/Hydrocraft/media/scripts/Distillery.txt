@@ -28,6 +28,7 @@ item HCPotofpotatomash
         Proteins 			= 	6.3,
         Lipids 				= 	0.3,
         Calories 			= 	231,
+	DisplayCategory          =   FoodP,
 }
 
 item HCPotofpotatomashcooked
@@ -45,6 +46,7 @@ item HCPotofpotatomashcooked
         Proteins 			= 	6.3,
         Lipids 				= 	0.3,
         Calories 			= 	231, 	
+	DisplayCategory          =   FoodP,
 }
 
 item HCBarrelpotato
@@ -54,7 +56,7 @@ item HCBarrelpotato
         DisplayName         	= Barrel of Potato Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCBarrelLemon
@@ -64,7 +66,7 @@ item HCBarrelLemon
     DisplayName         	= Barrel of Lemon Mash,
     ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
     icon 			= HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCBarrelLemonFermented
@@ -74,7 +76,7 @@ item HCBarrelLemonFermented
     DisplayName         	= Barrel of fermented Lemon,
     ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
     icon 			= HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 
@@ -86,7 +88,7 @@ item HCDistillery
         Type    		= Normal,
         DisplayName         	= Distillery,
         icon 			= HCDistillery,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 
@@ -98,6 +100,7 @@ item HCDistillery2
         WeightReduction     = 0,
         DisplayName         = Distillery,
         icon 				= HCDistillery,
+	DisplayCategory          =   CraftDist,
 
 	}
 
@@ -108,6 +111,7 @@ item HCCoppercooler
         Type 			= 	Normal,
         DisplayName 		= 	Copper Cooler,
         Icon 			= 	HCCoppercooler,
+	DisplayCategory          =   CraftDist,
     }
 
 item HCCoppermashpot
@@ -116,6 +120,7 @@ item HCCoppermashpot
         Type 			= 	Normal,
         DisplayName 		= 	Copper Mashpot,
         Icon 			= 	HCCoppermashpot,
+	DisplayCategory          =   CraftDist,
     }
 
 item HCVodka
@@ -138,6 +143,7 @@ item HCVodka
         Lipids 			= 	0,
         Calories 		= 	2310,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCMethanol
@@ -148,6 +154,7 @@ item HCMethanol
 	DisplayName			=	Methanol,
 	ReplaceOnDeplete	=	WhiskeyEmpty,
 	Icon	        	=	HCMethanol,
+	DisplayCategory          =   CraftDist,
 	}
 
 
@@ -157,7 +164,7 @@ item HCAgavebluecut
 	Type	        	=	Normal,
 	DisplayName		=	Cut Blue Agave,
 	Icon	        	=	HCAgavebluecut,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofblueagavemash
@@ -175,6 +182,7 @@ item HCPotofblueagavemash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofblueagavemashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Blue Agave Mash,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCPotofblueagavemashcooked
@@ -187,6 +195,7 @@ item HCPotofblueagavemashcooked
 	DisplayName			=	Pot of Cooked Blue Agave Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBarrelblueagave
@@ -196,7 +205,7 @@ item HCBarrelblueagave
         DisplayName         		= 	Barrel of Blue Agave Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofapplemash
@@ -214,6 +223,7 @@ item HCPotofapplemash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofapplemashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Apple Mash,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCPotofapplemashcooked
@@ -226,6 +236,7 @@ item HCPotofapplemashcooked
 	DisplayName			=	Pot of Cooked Apple Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBarrelapple
@@ -235,7 +246,7 @@ item HCBarrelapple
         DisplayName         		= 	Barrel of Apple Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofpeachmash
@@ -253,6 +264,7 @@ item HCPotofpeachmash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofpeachmashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Peach Mash,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCPotofpeachmashcooked
@@ -265,6 +277,7 @@ item HCPotofpeachmashcooked
 	DisplayName			=	Pot of Cooked Peach Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBarrelpeach
@@ -274,7 +287,7 @@ item HCBarrelpeach
         DisplayName         		= 	Barrel of Peach Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofpumpkinmash
@@ -292,6 +305,7 @@ item HCPotofpumpkinmash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofpumpkinmashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Pumpkin Mash,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCPotofpumpkinmashcooked
@@ -304,6 +318,7 @@ item HCPotofpumpkinmashcooked
 	DisplayName			=	Pot of Cooked Pumpkin Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot, 	
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBarrelpumpkin
@@ -313,7 +328,7 @@ item HCBarrelpumpkin
         DisplayName         		= 	Barrel of Pumpkin Mash,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofjunipermash
@@ -331,6 +346,7 @@ item HCPotofjunipermash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofjunipermashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Juniper Berry Mash,
+	DisplayCategory          =   FoodP,
 	}
 
 
@@ -344,6 +360,7 @@ item HCPotofjunipermashcooked
 	DisplayName			=	Pot of Heated Juniper Berry Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBarreljuniper
@@ -353,7 +370,7 @@ item HCBarreljuniper
         DisplayName         	= Barrel of Juniper Berry Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
-	
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCPotofflourmash
@@ -371,6 +388,7 @@ item HCPotofflourmash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofflourmashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Flour Mash,
+	DisplayCategory          =   FoodP,
 	}
 
 
@@ -384,6 +402,7 @@ item HCPotofflourmashcooked
 	DisplayName			=	Pot of Heated Flour Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBarrelflour
@@ -393,6 +412,7 @@ item HCBarrelflour
         DisplayName         	= Barrel of Flour Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
+	DisplayCategory          =   CraftDist,
 	
 	}
 
@@ -411,6 +431,7 @@ item HCPotofcornmash
 	ReplaceOnCooked			=	Hydrocraft.HCPotofcornmashcooked,
 	ReplaceOnUse			=	Pot, 
 	DisplayName			=	Pot of Corn Mash,
+	DisplayCategory          =   FoodP,
 	}
 
 
@@ -424,6 +445,7 @@ item HCPotofcornmashcooked
 	DisplayName			=	Pot of Heated Corn Mash,
 	Icon				=	PotFull,
 	ReplaceOnUse			=	Pot,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBarrelcorn
@@ -432,8 +454,8 @@ item HCBarrelcorn
 	Type 			= Normal,
         DisplayName         	= Barrel of Corn Mash,
         ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
-        icon 			= HCWinebarrel,
-	
+        icon 			= HCWinebarrel
+	DisplayCategory          =   CraftDist,
 	}
 
 

@@ -15,6 +15,7 @@ item HCSmoker
         DisplayName         	= Smoker,
         
         icon 			= HCSmoker,
+		DisplayCategory		=	Cooking,
     }
 
 item HCSmokerfull
@@ -23,7 +24,7 @@ item HCSmokerfull
 	Type				=	Normal,
 	DisplayName			=	Smoker with Fuel,
 	Icon				=	HCSmokerfull,
-		
+		DisplayCategory		=	Cooking,
 	}
 
 item HCSmokerfull2
@@ -32,7 +33,7 @@ item HCSmokerfull2
 	Type				=	Normal,
 	DisplayName			=	Smoker with Fuel,
 	Icon				=	HCSmokerfull,
-		
+		DisplayCategory		=	Cooking,
 	}
 
 item HCSmokedfishfillet
@@ -52,6 +53,7 @@ item HCSmokedfishfillet
         Proteins 			= 	46,
         Lipids 				= 	1.8,
         Calories 			= 	216,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedham
@@ -71,6 +73,7 @@ item HCSmokedham
         	Proteins 		= 	35.1,
         	Lipids 			= 	23.4,
         	Calories 		= 	468,
+		DisplayCategory		=	FoodP,
 	}
 
 	
@@ -91,6 +94,7 @@ item HCSmokedmutton
         	Proteins 		= 	99,
         	Lipids 			= 	33,
         	Calories 		= 	702,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSmokedpork
@@ -110,6 +114,7 @@ item HCSmokedpork
         	Proteins 		= 	63,
         	Lipids 			= 	27,
         	Calories 		= 	450,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedbeef
@@ -129,6 +134,7 @@ item HCSmokedbeef
        		Proteins 		= 	78.2,
        		Lipids 			= 	21.4,
         	Calories 		= 	525,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedcheval
@@ -148,6 +154,7 @@ item HCSmokedcheval
        		Proteins 		= 	97,
        		Lipids 			= 	21,
         	Calories 		= 	603,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSmokedrabbit
@@ -167,6 +174,7 @@ item HCSmokedrabbit
        		Proteins 		= 	44,
        		Lipids 			= 	4.6,
         	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSmokedsalmon
@@ -186,6 +194,7 @@ item HCSmokedsalmon
         	Proteins 		= 	63.1,
         	Lipids 			= 	13.3,
         	Calories 		= 	381,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedfrogmeat
@@ -205,6 +214,7 @@ item HCSmokedfrogmeat
         	Proteins 		= 	16,
         	Lipids 			= 	1.3,
         	Calories 		= 	110,
+		DisplayCategory		=	FoodP,
 	}
 	
 item HCSmokedsmallanimalmeat
@@ -224,6 +234,7 @@ item HCSmokedsmallanimalmeat
         	Proteins 		= 	44,
         	Lipids 			= 	2.6,
         	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedsmallbirdmeat
@@ -243,6 +254,7 @@ item HCSmokedsmallbirdmeat
         	Proteins 		= 	22,
         	Lipids 			= 	1.3,
         	Calories 		= 	134,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedchicken
@@ -262,6 +274,7 @@ item HCSmokedchicken
        		Proteins 		= 	54,
        		Lipids 			= 	30,
         	Calories 		= 	495,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedduck
@@ -281,6 +294,7 @@ item HCSmokedduck
         	Proteins 		= 	69,
        	 	Lipids 			= 	33,
         	Calories 		= 	603,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedgoose
@@ -300,6 +314,7 @@ item HCSmokedgoose
         	Proteins 		= 	87,
         	Lipids 			= 	39,
         	Calories 		= 	714,
+		DisplayCategory		=	FoodP,
 	}
 
 
@@ -320,6 +335,7 @@ item HCSmokedturkey
       	 	Proteins 		= 	69,
       	 	Lipids 			= 	5.7,
       	  	Calories 		= 	336,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedvenison
@@ -339,6 +355,7 @@ item HCSmokedvenison
       	 	Proteins 		= 	90,
       	 	Lipids 			= 	9.6,
       	  	Calories 		= 	474,
+		DisplayCategory		=	FoodP,
 	}
 	
 
@@ -359,6 +376,7 @@ item HCSmokedbear
       	 	Proteins 		= 	60,
       	 	Lipids 			= 	24.9,
       	  	Calories 		= 	483,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedcougar
@@ -378,6 +396,7 @@ item HCSmokedcougar
       	 	Proteins 		= 	60,
       	 	Lipids 			= 	24.9,
       	  	Calories 		= 	483,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedsmallgame
@@ -397,6 +416,7 @@ item HCSmokedsmallgame
        		Proteins 		= 	44,
        		Lipids 			= 	4.6,
         	Calories 		= 	228,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedtofu
@@ -416,6 +436,7 @@ item HCSmokedtofu
        		Proteins 		= 	34,
        		Lipids 			= 	17.4,
         	Calories 		= 	288,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedcheesewheel
@@ -435,6 +456,7 @@ item HCSmokedcheesewheel
        		Proteins 		= 	296.3,
        		Lipids 			= 	169.3,
         	Calories 		= 	2963,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCSmokedcheese
@@ -454,6 +476,7 @@ item HCSmokedcheese
        		Proteins 		= 	49.4,
        		Lipids 			= 	28.2,
         	Calories 		= 	493.8,
+		DisplayCategory		=	FoodP,
 	}
 
 

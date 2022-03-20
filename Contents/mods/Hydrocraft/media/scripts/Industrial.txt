@@ -14,6 +14,7 @@ item HCPully
         Type    		= Normal,
         DisplayName         	= Steel Pulley,
         icon 			= HCPully,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCPullyiron
@@ -22,6 +23,7 @@ item HCPullyiron
         Type    		= Normal,
         DisplayName         	= Iron Pulley,
         icon 			= HCPullyiron,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCPullywood
@@ -30,6 +32,7 @@ item HCPullywood
         Type    		= Normal,
         DisplayName         	= Wood Pulley,
         icon 			= HCPullywood,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCValve
@@ -38,6 +41,7 @@ item HCValve
         Type    		= Normal,
         DisplayName         	= Valve,
         icon 			= HCValve,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGearcopper
@@ -46,6 +50,7 @@ item HCGearcopper
         Type    			= Normal,
         DisplayName	        	= Copper Gear,
         Icon	            		= HCGearcopper,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGeartin
@@ -54,6 +59,7 @@ item HCGeartin
         Type    			= Normal,
         DisplayName	        	= Tin Gear,
         Icon	            		= HCGeartin,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGearbronze
@@ -62,6 +68,7 @@ item HCGearbronze
         Type    			= Normal,
         DisplayName	        	= Bronze Gear,
         Icon	            		= HCGearbronze,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGeariron
@@ -70,6 +77,7 @@ item HCGeariron
         Type    			= Normal,
         DisplayName	        	= Iron Gear,
         Icon	            		= HCGeariron,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGearinvar
@@ -78,6 +86,7 @@ item HCGearinvar
         Type    			= Normal,
         DisplayName	        	= Invar Gear,
         Icon	            		= HCGearinvar,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGearlead
@@ -86,6 +95,7 @@ item HCGearlead
         Type    			= Normal,
         DisplayName	        	= Lead Gear,
         Icon	            		= HCGearlead,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGearsteel
@@ -94,6 +104,7 @@ item HCGearsteel
         Type    			= Normal,
         DisplayName	        	= Steel Gear,
         Icon	            		= HCGearsteel,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCGeartitanium
@@ -102,6 +113,7 @@ item HCGeartitanium
         Type    			= Normal,
         DisplayName	        	= Titanium Gear,
         Icon	            		= HCGeartitanium,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCRollingmillsmall
@@ -110,6 +122,7 @@ item HCRollingmillsmall
         Type    			= Normal,
         DisplayName         		= Small Rolling Mill,
         icon 				= HCRollingmillsmall,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWirecopper
@@ -120,6 +133,7 @@ item HCWirecopper
         Icon	            		= HCWirecopper,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWirelead
@@ -130,6 +144,7 @@ item HCWirelead
         Icon	            		= HCWirelead,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWiresteel
@@ -140,6 +155,7 @@ item HCWiresteel
         Icon	            		= HCWiresteel,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWireconcertina
@@ -150,6 +166,7 @@ item HCWireconcertina
         Icon	            		= HCWireconcertina,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWireconstantan 
@@ -160,6 +177,7 @@ item HCWireconstantan
         Icon	            		= HCWireconstantan,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWirezinc
@@ -170,6 +188,7 @@ item HCWirezinc
         Icon	            		= HCWirezinc,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWirealuminum
@@ -180,6 +199,7 @@ item HCWirealuminum
         Icon	            		= HCWirealuminum,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCWirethermocouple
@@ -190,6 +210,7 @@ item HCWirethermocouple
         icon 				= HCWirethermocouple,
         UseWhileEquipped		= FALSE,
         UseDelta	        	= 0.2,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCThermocouple
@@ -198,6 +219,7 @@ item HCThermocouple
         Type    			= Normal,
         DisplayName         		= Thermocouple,
         icon 				= HCThermocouple,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCConstantanheatingcoil 
@@ -206,6 +228,7 @@ item HCConstantanheatingcoil
         Type    			= Normal,
         DisplayName	        	= Constantan Heating Coil,
         Icon	            		= HCConstantanheatingcoil,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCNichromeheatingcoil
@@ -214,6 +237,7 @@ item HCNichromeheatingcoil
         Type    			= Normal,
         DisplayName	        	= Nichrome Heating Coil,
         Icon	            		= HCNichromeheatingcoil,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCKanthalheatingcoil
@@ -222,6 +246,7 @@ item HCKanthalheatingcoil
         Type    			= Normal,
         DisplayName	        	= Kanthal Heating Coil,
         Icon	            		= HCKanthalheatingcoil,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCCoil
@@ -230,6 +255,7 @@ item HCCoil
         Type    			= Normal,
         DisplayName         		= Coil,
         icon 				= HCThermocouple,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCFurnaceiron
@@ -239,6 +265,7 @@ item HCFurnaceiron
         DisplayName         		= Iron Furnace,
         
         icon 				= HCFurnaceiron,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCSteamengine
@@ -248,6 +275,7 @@ item HCSteamengine
         DisplayName         		= Steam Engine,
         
         icon 				= HCSteamengine,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCSteamboiler
@@ -257,6 +285,7 @@ item HCSteamboiler
         DisplayName         		= Steam Boiler,
         
         icon 				= HCSteamboiler,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCSteammachine
@@ -266,6 +295,7 @@ item HCSteammachine
         DisplayName         		= Steam Machine,
         
         icon 				= HCSteammachine,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCTriphammer
@@ -275,6 +305,7 @@ item HCTriphammer
         DisplayName         		= Trip Hammer,
         
         icon 				= HCTriphammer,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCTriphammer2
@@ -284,6 +315,7 @@ item HCTriphammer2
         DisplayName                 = Trip Hammer,
         
         icon                = HCTriphammer,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCSteamhammer
@@ -293,6 +325,7 @@ item HCSteamhammer
         DisplayName         		= Steam Hammer,
         
         icon 				= HCSteamhammer,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCSteamhammer2
@@ -303,6 +336,7 @@ item HCSteamhammer2
         WeightReduction     = 0,
         DisplayName         = Steam Hammer,
         icon 				= HCSteamhammer,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCFurnace
@@ -311,6 +345,7 @@ item HCFurnace
         Type    			= 	Normal,
         DisplayName         		= 	Industrial Furnace,
         icon 				= 	HCFurnace,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCFurnace2
@@ -321,6 +356,7 @@ item HCFurnace2
         WeightReduction     = 0,
         DisplayName         = 	Industrial Furnace,
         icon 				= 	HCFurnace,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCFurnacearc
@@ -329,6 +365,7 @@ item HCFurnacearc
         Type    			= 	Normal,
         DisplayName         = 	Arc Furnace,
         icon 				= 	HCFurnacearc,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCFurnacearc2
@@ -339,6 +376,7 @@ item HCFurnacearc2
         WeightReduction     = 0,
         DisplayName         = 	Arc Furnace,
         icon 				= 	HCFurnacearc,
+		DisplayCategory          =   CraftInd,
     }
 
 
@@ -348,6 +386,7 @@ item HCMetalcasing
         Type    		= Normal,
         DisplayName     	= Metal Casing,
         icon 			= HCMetalcasing,
+		DisplayCategory          =   CraftInd,
         
     } 
 
@@ -357,6 +396,7 @@ item HCDuct
         Type    		= Normal,
         DisplayName     	= Metal Duct,
         icon 			= HCDuct,
+		DisplayCategory          =   CraftInd,
         
     } 
 
@@ -366,6 +406,7 @@ item HCDuctfan
         Type    		= Normal,
         DisplayName     	= Duct Fan,
         icon 			= HCDuctfan,
+		DisplayCategory          =   CraftInd,
         
     } 
 
@@ -375,6 +416,7 @@ item HCFanbladesteel
         Type    		= Normal,
         DisplayName     	= Steel Fan Blade,
         icon 			= HCFanbladesteel,
+		DisplayCategory          =   CraftInd,
     } 
 
 item HCGiglisawhandle
@@ -383,6 +425,7 @@ item HCGiglisawhandle
         Type       		= Normal,
         DisplayName          	= Gigli Saw Handle,
         Icon               	= HCGiglisawhandle,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCSelfmadeheater
@@ -391,6 +434,7 @@ item HCSelfmadeheater
 	Type			=	Normal,
 	DisplayName		=	Homemade Heating Plate,
 	Icon			=	HCSelfmadeheater,
+		DisplayCategory          =   CraftInd,
 	}
 
 item HCMetalwheeliron
@@ -399,6 +443,7 @@ item HCMetalwheeliron
     	Type        	= Normal,
     	DisplayName    	= Iron Wheel,
     	icon        	= HCMetalwheeliron,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCMetalwheel
@@ -407,6 +452,7 @@ item HCMetalwheel
     	Type        	= Normal,
     	DisplayName    	= Steel Wheel,
     	icon        	= HCMetalwheel,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCConveyorbelt
@@ -415,7 +461,7 @@ item HCConveyorbelt
         Type    			= Normal,
         DisplayName         		= Conveyor Belt,
         icon 				= HCConveyorbelt,
-        
+		DisplayCategory          =   CraftInd,
     }
 
 item HCPiston
@@ -424,6 +470,7 @@ item HCPiston
         Type    		= Normal,
         DisplayName         	= Electric Piston,
         icon 			= HCPiston,
+		DisplayCategory          =   CraftInd,
     }
 
 item HCMacerator
@@ -432,6 +479,7 @@ item HCMacerator
         Type    		= Normal,
         DisplayName     	= Macerator,
         icon 			= HCMacerator,
+		DisplayCategory          =   CraftInd,
         
     } 
 
@@ -441,6 +489,7 @@ item HCIndustrialpress
         Type    		= Normal,
         DisplayName     	= Industrial Press,
         icon 			= HCIndustrialpress,
+		DisplayCategory          =   CraftInd,
         
     } 
 

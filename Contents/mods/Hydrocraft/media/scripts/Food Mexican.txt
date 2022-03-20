@@ -24,6 +24,7 @@ item HCTacosaucebottle
         Proteins 			= 	0,
         Lipids 				= 	0,
         Calories 			= 	250,
+		DisplayCategory 	        =       FoodS,
 	}
 
 item HCTacosaucebowl
@@ -45,6 +46,7 @@ item HCTacosaucebowl
         Proteins 			= 	0,
         Lipids 				= 	0,
         Calories 			= 	250,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCGuacamolejar
@@ -65,6 +67,7 @@ item HCGuacamolejar
         Lipids 				= 	45,
         Calories 			= 	555,
 	Packaged			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCGuacamolebowl
@@ -86,6 +89,7 @@ item HCGuacamolebowl
         Proteins 			= 	10,
         Lipids 				= 	45,
         Calories 			= 	555,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCSalsajar
@@ -106,6 +110,7 @@ item HCSalsajar
         Lipids 				= 	1,
         Calories 			= 	145,
 	Packaged			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCSalsabowl
@@ -127,6 +132,7 @@ item HCSalsabowl
         Proteins 			= 	7.5,
         Lipids 				= 	1,
         Calories 			= 	145,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCNachojar
@@ -147,6 +153,7 @@ item HCNachojar
         Lipids 				= 	90,
         Calories 			= 	980,
 	Packaged			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCNachobowl
@@ -168,6 +175,7 @@ item HCNachobowl
         Proteins 			= 	20,
         Lipids 				= 	90,
         Calories 			= 	980,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCSourcream
@@ -188,6 +196,7 @@ item HCSourcream
         Lipids 				= 	55,
         Calories 			= 	680,
 	Packaged			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 item HCTortillacornbag
@@ -202,6 +211,7 @@ item HCTortillacornbag
         Lipids 				= 	20,
         Calories 			= 	1040,
 	Packaged			=	TRUE,
+		DisplayCategory 	        =       FoodN,
 	}
 
 item HCTortillaflourbag
@@ -216,6 +226,7 @@ item HCTortillaflourbag
         Lipids 				= 	20,
         Calories 			= 	1040,
 	Packaged			=	TRUE,
+		DisplayCategory 	        =       Cooking,
 	}
 
 item HCTortillacorn
@@ -232,6 +243,7 @@ item HCTortillacorn
         Proteins 			= 	1,
         Lipids 				= 	1,
         Calories 			= 	52,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTortillaflour
@@ -248,6 +260,7 @@ item HCTortillaflour
         Proteins 			= 	1,
         Lipids 				= 	1,
         Calories 			= 	52,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCQuesadilla
@@ -266,6 +279,7 @@ item HCQuesadilla
     Proteins 			= 	33,
     Lipids 				= 	47,
     Calories 			= 	754,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCBurrito
@@ -288,6 +302,7 @@ item HCBurrito
         Proteins 			= 	14,
         Lipids 				= 	11,
         Calories 			= 	379,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCBurritogrande
@@ -310,6 +325,7 @@ item HCBurritogrande
         Proteins 			= 	28,
         Lipids 				= 	22,
         Calories 			= 	758,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTaquito
@@ -333,6 +349,7 @@ item HCTaquito
         Proteins 			= 	9.2,
         Lipids 				= 	13,
         Calories 			= 	284,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTacocorn
@@ -356,6 +373,7 @@ item HCTacocorn
         Proteins 			= 	12,
         Lipids 				= 	10,
         Calories 			= 	217,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTacocorngrande
@@ -378,6 +396,7 @@ item HCTacocorngrande
         Proteins 			= 	24,
         Lipids 				= 	20,
         Calories 			= 	434,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTacoflour
@@ -401,6 +420,7 @@ item HCTacoflour
         Proteins 			= 	12,
         Lipids 				= 	10,
         Calories 			= 	217,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTacoflourgrande
@@ -423,6 +443,7 @@ item HCTacoflourgrande
         Proteins 			= 	24,
         Lipids 				= 	20,
         Calories 			= 	434,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTacofish
@@ -446,6 +467,7 @@ item HCTacofish
         Proteins 			= 	11,
         Lipids 				= 	16,
         Calories 			= 	300,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCTacocornedbeef
@@ -468,6 +490,7 @@ item HCTacocornedbeef
         Proteins 			= 	12,
         Lipids 				= 	11,
         Calories 			= 	221,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCEnchilada
@@ -491,6 +514,7 @@ item HCEnchilada
         Proteins 			= 	15,
         Lipids 				= 	25,
         Calories 			= 	374,
+		DisplayCategory 	        =       FoodP,
 	}
 
 	item HCTortillachipsbag
@@ -508,6 +532,7 @@ item HCEnchilada
         Calories 			= 	519,
 	Packaged			=	TRUE,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCSalsagreenjar
@@ -528,6 +553,7 @@ item HCSalsagreenjar
         Lipids 				= 	8,
         Calories 			= 	235,
 	Packaged			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCNachos
@@ -548,6 +574,7 @@ item HCNachos
         Lipids 				= 	19,
         Calories 			= 	346,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCNachosgrande
@@ -568,6 +595,7 @@ item HCNachosgrande
         Lipids 				= 	38,
         Calories 			= 	692,
 	CantBeFrozen			=	TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCStuffedbellpeppergreen
@@ -590,6 +618,7 @@ item HCStuffedbellpeppergreen
         Proteins 			= 	24,
         Lipids 				= 	24,
         Calories 			= 	418,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCStuffedbellpepperred
@@ -612,6 +641,7 @@ item HCStuffedbellpepperred
         Proteins 			= 	24,
         Lipids 				= 	24,
         Calories 			= 	418,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCStuffedbellpepperyellow
@@ -634,6 +664,7 @@ item HCStuffedbellpepperyellow
         Proteins 			= 	24,
         Lipids 				= 	24,
         Calories 			= 	418,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCStuffedeggplant
@@ -656,6 +687,7 @@ item HCStuffedeggplant
         Proteins 			= 	9,
         Lipids 				= 	21,
         Calories 			= 	324,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCStuffedsquash
@@ -678,6 +710,7 @@ item HCStuffedsquash
         Proteins 			= 	18,
         Lipids 				= 	28,
         Calories 			= 	580,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 /************************RECIPES************************/
