@@ -17,7 +17,7 @@ for i=0, items:size()-1 do
     print (items:get(i):getType())
     if (items:get(i):getType() == "Cereal") then seeds= {'Hydrocraft.HCWheat','Hydrocraft.HCFlaxseeds'};
     elseif (items:get(i):getType() == "Popcorn") then seeds={'Hydrocraft.HCCornseeds','Hydrocraft.HCCornredseeds','Hydrocraft.HCCornblueseeds'};
-    elseif (items:get(i):getType() == "HCHerbs") then seeds={'Hydrocraft.HCBasilseeds','Hydrocraft.HCOrangeseeds'};
+    elseif (items:get(i):getType() == "HCHerbs") then seeds={'Hydrocraft.HCBasilseeds','Hydrocraft.HCOreganoseeds'};
 end 
 end 
 
