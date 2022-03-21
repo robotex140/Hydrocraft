@@ -187,7 +187,7 @@ item HCNanofiber
 item HCPlanktreated
 	{
 		MaxRange			=	2,
-		WeaponSprite			=	WoodPlank,
+		WeaponSprite			=	Plank,
 		MinAngle			=	0.2,
 		Type				=	Weapon,
 		MinimumSwingTime		=	4,
@@ -216,6 +216,7 @@ item HCPlanktreated
         	IdleAnim			=	Idle_Weapon2,
         	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	0,
+		TwoHandWeapon = TRUE,
 	}
 
 /************************RECIPES************************/
