@@ -6,7 +6,7 @@ HCSleepKey = "sleepin"; -- any item containing this string in the codename can b
 
 HCRestKey = HCSleepKey; --"restin"; 
 
-require 'Camping/camping'
+--require 'Camping/camping'
 require "TimedActions/ISBaseTimedAction"
 HCSleep = {};
 
