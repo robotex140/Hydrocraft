@@ -1,7 +1,8 @@
 IGUI_EN = {
 	IGUI_ItemCat_Toy = "Toy",
 	IGUI_ItemCat_Trash = "Trash",
-	IGUI_ItemCat_Money = "Money",		
+	IGUI_ItemCat_Money = "Money",	
+	IGUI_ItemCat_Mineral = "Mineral",		
 	IGUI_ItemCat_Useless = "Useless",
 	IGUI_ItemCat_AnimalEnc = "Animals - Enclosure",
 	IGUI_ItemCat_AnimalDead = "Animals - Carcass",
@@ -32,7 +33,6 @@ IGUI_EN = {
 	IGUI_ItemCat_SurBug = "Survival - Bug Catching",
 	IGUI_ItemCat_SurHunt = "Survival - Hunting",
 	-- <End> Beta Categories
-	IGUI_ItemCat_Mineral = "Mineral",	
 	IGUI_ItemCat_Appear = "Appearance",
 	IGUI_ItemCat_Cleaning = "Cleaning",
 	IGUI_ItemCat_ClothA = "Clothing - Accessory",

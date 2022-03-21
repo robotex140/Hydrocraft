@@ -41,7 +41,7 @@ item HCPoisondetergent
 
 	DisplayName			=	Insecticide Can With Liqiud Soap,
 	Icon				=	HCPoisondetergent,
-		DisplayCategory		=   SurFarm,
+		DisplayCategory		=   Cleaning,
 	}
 
 

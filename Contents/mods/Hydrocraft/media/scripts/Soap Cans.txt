@@ -31,7 +31,7 @@ item HCDetergent
 
 	DisplayName			=	Liquid Soap,
 	Icon				=	HCDetergent,
-		DisplayCategory	= CraftChem,
+		DisplayCategory	= Cleaning,
 	}
 
 item HCDetergentammonia

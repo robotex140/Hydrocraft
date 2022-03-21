@@ -55,7 +55,7 @@ item HCCanteen
         icon 			= 	HCCanteen,
 	RainFactor 		= 	1,
 	Tooltip = Tooltip_item_RainFromGround,
-		DisplayCategory          =   Container,
+		DisplayCategory          =   WaterContainer,
     	}
 
 item HCCanteenfull
@@ -86,7 +86,7 @@ item HCStrappedcanteen
         icon 			= 	HCStrappedcanteen,
 	RainFactor 		= 	1,
 	Tooltip = Tooltip_item_RainFromGround,
-		DisplayCategory          =   Container,
+		DisplayCategory          =   WaterContainer,
     	}
 
 item HCStrappedcanteenfull
@@ -115,7 +115,7 @@ item HCMagnesiumstriker
 	UseWhileEquipped	=	FALSE,
 	DisplayName		=	Magnesium Striker,
 	Icon			=	HCMagnesiumstriker,
-		DisplayCategory          =   Fuel,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCPurifyingtablets

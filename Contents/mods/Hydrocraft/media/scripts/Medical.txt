@@ -88,7 +88,7 @@ item HCManometer
         Type    		= Normal,
         DisplayName         	= Manometer,
         icon 			= HCManometer,
-		DisplayCategory	= Medical,
+		DisplayCategory	= CraftInd,
     } 
 
 item HCArmsling

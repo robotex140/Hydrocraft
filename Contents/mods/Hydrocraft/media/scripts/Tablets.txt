@@ -26,7 +26,7 @@ item HCTabletskinanimal
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Skin Animal,
         ReplaceOnUse    	=   	HCTabletskinanimal,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 item HCTabletButcherCarcass
@@ -37,7 +37,7 @@ item HCTabletButcherCarcass
         Icon            =   HCClaytabletwritten,
         TeachedRecipes      =  Butcher Carcass,
         ReplaceOnUse        =  HCTabletButcherCarcass,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 
@@ -49,7 +49,7 @@ item HCTabletberries
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=  Make Bunch of Berries,
         ReplaceOnUse    	=  HCTabletberries,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 item HCTabletshrooms
@@ -60,7 +60,7 @@ item HCTabletshrooms
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Bunch of Mushrooms,
         ReplaceOnUse    	=   	HCTabletshrooms,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 item HCTabletbirchbarkbasket
@@ -71,7 +71,7 @@ item HCTabletbirchbarkbasket
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Birch Bark Basket,
         ReplaceOnUse    	=   	HCTabletbirchbarkbasket,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 item HCTabletwickerbasket
@@ -82,7 +82,7 @@ item HCTabletwickerbasket
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Wicker Basket,
         ReplaceOnUse    	=   	HCTabletwickerbasket,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 item HCTabletstrawbasket
@@ -93,7 +93,7 @@ item HCTabletstrawbasket
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Straw Basket,
         ReplaceOnUse    	=   	HCTabletstrawbasket,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 item HCTabletsticktrap
@@ -104,7 +104,7 @@ item HCTabletsticktrap
         Icon			=	HCClaytabletwritten,
         TeachedRecipes 		=   	Make Stick Trap,
         ReplaceOnUse    	=   	HCTabletsticktrap,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 
@@ -116,7 +116,7 @@ item HCTabletBoneNeedles
         Icon            =   HCClaytabletwritten,
         TeachedRecipes      = Carve Knitting Needles;Craft Bone Needle,
         ReplaceOnUse        =  HCTabletBoneNeedles,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 item HCTabletDryingFrame
@@ -127,7 +127,7 @@ item HCTabletDryingFrame
         Icon            = HCClaytabletwritten,
         TeachedRecipes  = Make Drying Frame;Dry Hide,
         ReplaceOnUse    = HCTabletDryingFrame,
-		DisplayCategory	= CraftMas,
+		DisplayCategory	= LitR,
     }
 
 

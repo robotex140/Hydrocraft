@@ -227,7 +227,7 @@ module Hydrocraft
 		Icon		=	HCBookentomology,
 		TeachedRecipes  =   	Catch Bugs;Make Bug Net;Assemble Ant Farm;Feed Ants;Feed Caterpillar,
         	ReplaceOnUse    =   	HCBookentomology,
-		DisplayCategory	=   LitE,
+		DisplayCategory	=   LitR,
 	}
 
 

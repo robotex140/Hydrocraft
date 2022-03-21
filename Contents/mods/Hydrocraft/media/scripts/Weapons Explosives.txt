@@ -14,7 +14,7 @@ item HCMk1capsule
         Type    		= Normal,
         DisplayName         	= Detonator Capsule MK1,
         icon 			= HCMk1capsule,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCMk1capsuleparts
@@ -32,7 +32,7 @@ item HCDetonatormk2off
         Type    		= Normal,
         DisplayName         	= Detonator MK2 Off,
         icon 			= HCDetonatormk2off,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCDetonatormk3off
@@ -41,7 +41,7 @@ item HCDetonatormk3off
         Type    		= Normal,
         DisplayName         	= Detonator MK3 Off,
         icon 			= HCDetonatormk3off,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCDynamitenk2off
@@ -50,7 +50,7 @@ item HCDynamitenk2off
         Type    		= Normal,
         DisplayName         	= Dynamite MK2 Off,
         icon 			= HCDetonatormk2off,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCDynamitenk3off
@@ -59,7 +59,7 @@ item HCDynamitenk3off
         Type    		= Normal,
         DisplayName         	= Dynamite MK3 Off,
         icon 			= HCDynamitemk3off,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCThermitebombmk2off
@@ -68,7 +68,7 @@ item HCThermitebombmk2off
         Type    		= Normal,
         DisplayName         	= Thermite Bomb MK2 Off,
         icon 			= HCThermitebombmk2off,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCThermitebombmk3off
@@ -77,7 +77,7 @@ item HCThermitebombmk3off
         Type    		= Normal,
         DisplayName         	= Thermite Bomb MK3 Off,
         icon 			= HCThermitebombmk3off,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCDetonatorrubberbungcabels
@@ -86,7 +86,7 @@ item HCDetonatorrubberbungcabels
         Type    		= Normal,
         DisplayName         	= Rubber Bung with Cables,
         icon 			= HCDetonatorrubberbungcabels,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 item HCAmmonalbomboff
@@ -95,7 +95,7 @@ item HCAmmonalbomboff
         Type    		= Normal,
         DisplayName         	= Ammonal Bomb Off,
         icon 			= HCAmmonalbomboff,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 	
 	item HCDetonatormk3hmtdoff
@@ -104,7 +104,7 @@ item HCAmmonalbomboff
         Type    		= Normal,
         DisplayName     = Detonator MK3 with HMTD Off,
         icon 			= HCDetonatormk3hmtdoff,
-		DisplayCategory	= CraftAmmo,
+		DisplayCategory	= WepBomb,
     }
 
 

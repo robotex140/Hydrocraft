@@ -121,7 +121,7 @@ item HCPostholedigger
         Type    			= Normal,
         DisplayName         		= Post Hole Digger,
         icon 				= HCPostholedigger,
-	DisplayCategory          =   Craft,
+	DisplayCategory          =   CraftRec,
     }
 
 item HCLooper

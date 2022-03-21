@@ -14,7 +14,7 @@ item HCWaterbottlenapalm
         Type    		= Normal,
         DisplayName         	= Bottle of Napalm,
         icon 			= HCWaterbottlenapalm,
-			DisplayCategory		=	CraftAmmo,
+			DisplayCategory		=	WepBomb,
     }
 
 item HCNapalmbombmk2off
@@ -23,7 +23,7 @@ item HCNapalmbombmk2off
         Type    		= Normal,
         DisplayName         	= Napalm Bomb MK2 Off,
         icon 			= HCNapalmbombmk2off,
-			DisplayCategory		=	CraftAmmo,
+			DisplayCategory		=	WepBomb,
     }
 
 item HCNapalmbombmk3off
@@ -32,7 +32,7 @@ item HCNapalmbombmk3off
         Type    		= Normal,
         DisplayName         	= Napalm Bomb MK3 Off,
         icon 			= HCNapalmbombmk3off,
-			DisplayCategory		=	CraftAmmo,
+			DisplayCategory		=	WepBomb,
     }
 
 item HCSoapshards

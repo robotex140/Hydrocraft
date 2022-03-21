@@ -23,7 +23,7 @@ item HCRamenchickenflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
-	DisplayCategory          =   FoodN,
+	DisplayCategory          =   FoodS,
 	}
 
 item HCRamenbeefflavor
@@ -39,7 +39,7 @@ item HCRamenbeefflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
-	DisplayCategory          =   FoodN,
+	DisplayCategory          =   FoodS,
 	}	
 	
 item HCRamenshrimpflavor
@@ -55,7 +55,7 @@ item HCRamenshrimpflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
-	DisplayCategory          =   FoodN,
+	DisplayCategory          =   FoodS,
 	}
 	
 item HCRamencheeseflavor
@@ -71,7 +71,7 @@ item HCRamencheeseflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
-	DisplayCategory          =   FoodN,
+	DisplayCategory          =   FoodS,
 	}
 
 item HCCookingoil

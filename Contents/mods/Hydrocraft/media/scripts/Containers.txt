@@ -540,7 +540,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Small Plastic Bin,
         Icon                = HCPlasticbin2,
-		DisplayCategory	= Container,
+		DisplayCategory		= CraftChem,
     }
 
     item HCCardboardbox

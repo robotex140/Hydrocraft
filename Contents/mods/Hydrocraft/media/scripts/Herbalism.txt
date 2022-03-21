@@ -24,7 +24,7 @@ item HCPollen
         Type            	= Normal,
         DisplayName     	= Pollen,
         Icon            	= HCPollen,
-	DisplayCategory          =   SurFor,
+	DisplayCategory          =   SurApi,
         
     }
 
@@ -158,7 +158,7 @@ item HCNettlesdry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Nettles,
         icon 			= 	HCNettlesdry,
-	DisplayCategory          =   SurFor,
+	DisplayCategory          =   Medical,
     }
 
 item HCNettleteamug
@@ -181,7 +181,7 @@ item HCNettleteamug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
-	DisplayCategory          =   FoodB,
+	DisplayCategory          =   Medical,
 	}
 
 item HCNettleteaclaymug
@@ -204,7 +204,7 @@ item HCNettleteaclaymug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
-	DisplayCategory          =   FoodB,
+	DisplayCategory          =   Medical,
 	}
 
 item HCThistledry
@@ -319,7 +319,7 @@ item HCDaisydry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Daisy,
         icon 			= 	HCDaisydry,
-	DisplayCategory          =   SurFor,
+	DisplayCategory          =   Medical,
     }
 
 item HCDaisyteamug
@@ -340,7 +340,7 @@ item HCDaisyteamug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
-	DisplayCategory          =   FoodB,
+	DisplayCategory          =   Medical,
 	}
 
 item HCDaisyteaclaymug
@@ -361,7 +361,7 @@ item HCDaisyteaclaymug
         Lipids 			= 	0,
         Calories 		= 	10,
 	CantBeFrozen		=	TRUE,
-	DisplayCategory          =   FoodB,
+	DisplayCategory          =   Medical,
 	}
 
 item HCAnemomedry
@@ -493,7 +493,7 @@ item HCRiceraw
 	Icon			= 	HCRiceraw,
 
 	Weight			= 	0.1,
-	DisplayCategory          =   SurFor,
+	DisplayCategory          =   CookRef,
 
 	}
 
@@ -507,7 +507,7 @@ item HCChaffrice
 	Icon			= 	HCChaffrice,
 
 	Weight			= 	0.1,
-	DisplayCategory          =   SurFor,
+	DisplayCategory          =   CookRef,
 
 	}
 
@@ -611,7 +611,7 @@ item HCOniondry
         Type    		= 	Normal,
         DisplayName         	= 	Dried Onion,
         icon 			= 	HCOniondry,
-	DisplayCategory          =   SurFor,
+	DisplayCategory          =   CookRef,
     }
 
 item HCJuniperberrydry

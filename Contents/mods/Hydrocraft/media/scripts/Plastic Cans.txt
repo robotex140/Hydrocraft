@@ -56,7 +56,7 @@ item HCPlasticcandetergent
 
 	DisplayName			=	Plastic Can With Liqiud Soap,
 	Icon				=	HCPlasticcandetergent,
-		DisplayCategory		=   CraftChem,
+		DisplayCategory		=   Cleaning,
 	}
 
 

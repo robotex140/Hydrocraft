@@ -62,7 +62,7 @@ item HCGlasswaterbottle
 	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
 	Icon			=	HCGlasswaterbottle,
 	RainFactor 		= 	1,
-		DisplayCategory          =   FoodB,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCGlassflaskbuchner
@@ -482,7 +482,7 @@ item HCWashbottlefull
 	ReplaceOnUseOn		=	WaterSource-HCWashbottlefull,
 	Icon			=	HCWashbottlefull,
 	RainFactor 		= 	1,
-		DisplayCategory          =   FoodB,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCMagnifyglass

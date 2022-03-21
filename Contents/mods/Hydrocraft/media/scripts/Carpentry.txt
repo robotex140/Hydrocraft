@@ -131,7 +131,7 @@ item HCTongswood
         Type            = Normal,
         DisplayName             = Wooden Tongs,
         icon            = HCTongswood,
-		DisplayCategory	= CraftCarp,
+		DisplayCategory	= CraftMet,
     }
 
 item HCWoodblock
@@ -302,7 +302,7 @@ item HCWashtub
         DisplayName             = Wooden Washtub,
     ReplaceOnUseOn      = WaterSource-HCWashtubfull,
         icon            = HCWashtub,
-		DisplayCategory	= CraftCarp,
+		DisplayCategory	= CraftChem,
     RainFactor      = 1,
     }
 
@@ -317,7 +317,7 @@ item HCWashtubfull
     ReplaceOnDeplete    =   HCWashtub,
     ReplaceOnUseOn      =   WaterSource-HCWashtubfull,
     Icon            =   HCWashtubfull,
-		DisplayCategory	= CraftCarp,
+		DisplayCategory	= CraftChem,
     RainFactor      =   1,
     }
 
@@ -824,7 +824,7 @@ item HCIBC
     icon            = HCIBC,
     ReplaceOnUseOn  = WaterSource-HCIBCfull,
     RainFactor      = 0.2,
-	DisplayCategory	= Container,
+	DisplayCategory	= WaterContainer,
     }
 
 item HCIBCfull
@@ -839,7 +839,7 @@ item HCIBCfull
     ReplaceOnDeplete    = HCIBC,
     icon                = HCIBC,
     RainFactor      	= 0.2,
-	DisplayCategory		= Container,
+	DisplayCategory		= WaterContainer,
     }
     
 item HCIBCstorage
@@ -851,7 +851,7 @@ item HCIBCstorage
     icon            = HCIBCtower,
     ReplaceOnUseOn  = WaterSource-HCIBCstoragefull,
     RainFactor      = 0.2,
-	DisplayCategory	= Container,
+	DisplayCategory	= WaterContainer,
     }
 
 item HCIBCstoragefull
@@ -866,7 +866,7 @@ item HCIBCstoragefull
     ReplaceOnDeplete    = HCIBCstorage,
     icon                = HCIBCtower,
     RainFactor          = 0.2,
-	DisplayCategory		= Container,
+	DisplayCategory		= WaterContainer,
     }   
     
 item HCIBCtower
@@ -877,7 +877,7 @@ item HCIBCtower
         DisplayName     = Empty IBC Tower,
         icon            = HCIBCtower2,
         ReplaceOnUseOn  = WaterSource-HCIBCtowerfull,
-	DisplayCategory		= Container,
+	DisplayCategory		= WaterContainer,
     RainFactor      = 0.2,
     }
 
@@ -892,7 +892,7 @@ item HCIBCtowerfull
     UseDelta        = 0.00625,
     ReplaceOnDeplete    = HCIBCtower,
         icon            = HCIBCtower2,
-	DisplayCategory		= Container,
+	DisplayCategory		= WaterContainer,
     RainFactor      = 0.2,
     }
 
@@ -942,7 +942,7 @@ item HCThresher
         Type            = Normal,
         DisplayName             = Thresher,
         icon            = HCThresher,
-		DisplayCategory	= CraftCarp,
+		DisplayCategory	= CookRef,
     }
 
 item HCThreshermech
@@ -951,7 +951,7 @@ item HCThreshermech
         Type            = Normal,
         DisplayName             = Mechanical Thresher,
         icon            = HCThreshermech,
-		DisplayCategory	= CraftCarp,
+		DisplayCategory	= CookRef,
     }
 
 /************************WEAPONS************************/

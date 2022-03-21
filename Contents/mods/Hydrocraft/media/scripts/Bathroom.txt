@@ -46,7 +46,7 @@ item HCHaircolorblack
 	UseDelta		= 0.25,
         DisplayName         	= Box of Black Hair Color,
         icon 			= HCHaircolorblack,
-	DisplayCategory          =   Useless,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorblond
@@ -57,7 +57,7 @@ item HCHaircolorblond
 	UseDelta		= 0.25,
         DisplayName         	= Box of Blonde Hair Color,
         icon 			= HCHaircolorblond,
-	DisplayCategory          =   CraftChem,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorbrunette
@@ -68,7 +68,7 @@ item HCHaircolorbrunette
 	UseDelta		= 0.25,
         DisplayName         	= Box of Brunette Hair Color,
         icon 			= HCHaircolorbrunette,
-	DisplayCategory          =   Useless,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorpink
@@ -79,7 +79,7 @@ item HCHaircolorpink
 	UseDelta		= 0.25,
         DisplayName         	= Box of Pink Hair Color,
         icon 			= HCHaircolorpink,
-	DisplayCategory          =   Useless,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorred
@@ -90,7 +90,7 @@ item HCHaircolorred
 	UseDelta		= 0.25,
         DisplayName         	= Box of Red Hair Color,
         icon 			= HCHaircolorred,
-	DisplayCategory          =   Useless,
+	DisplayCategory          =   Appear,
     }
 
 item HCHairdryer

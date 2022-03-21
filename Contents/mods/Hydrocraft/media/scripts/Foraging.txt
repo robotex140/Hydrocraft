@@ -371,7 +371,7 @@ item HCFlax
         Type    		= 	Normal,
         DisplayName         	= 	Flax,
         icon 			= 	HCFlax,
-	DisplayCategory          =   SurFor,
+	DisplayCategory          =   CraftTailor,
     }
 
 item HCReeds
@@ -477,7 +477,7 @@ item HCNettles
         Type    		= 	Normal,
         DisplayName         	= 	Nettles,
         icon 			= 	HCNettles,
-		DisplayCategory	=   SurFor,
+		DisplayCategory	=   Medical,
     }
 
 item HCThistle
@@ -612,7 +612,7 @@ item HCLavender
         Type    		= 	Normal,
         DisplayName         	= 	Lavender,
         icon 			= 	HCLavender,
-		DisplayCategory	=   SurFor,
+		DisplayCategory	=   Medical,
     }
 
 item HCFlaxflower

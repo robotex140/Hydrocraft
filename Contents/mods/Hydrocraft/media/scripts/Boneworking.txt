@@ -353,7 +353,7 @@ item HCFishhookbone
         Type    		= Normal,
         DisplayName         	= Bone Fishhook,
         icon 			= HCFishhookbone,
-		DisplayCategory          =   SurFarm,
+		DisplayCategory          =   SurFish,
     } 
 
  item HCGluejar

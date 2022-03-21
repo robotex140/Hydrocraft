@@ -14,7 +14,7 @@ item HCGlassbottleempty
         Type			        =	Normal,
 	DisplayName			=	Empty Glass Bottle,
 	Icon				=	HCGlassbottleempty,
-		DisplayCategory	=   Container,
+		DisplayCategory	=   CraftChem,
 	}
 
 item HCGlassbottleethanolempty

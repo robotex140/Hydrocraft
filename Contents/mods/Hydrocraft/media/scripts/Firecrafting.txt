@@ -14,7 +14,7 @@ item HCTorch
 	        Type		       =	Normal,
 	        DisplayName	       =	Torch,
 	        Icon		       =	HCTorch,
-	DisplayCategory          =   SurCamp,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCTorchlit
@@ -28,7 +28,7 @@ item HCTorchlit
 		DisplayName	       =	Torch,
 		ActivatedItem	       =	FALSE,
 		Icon	               =	HCTorchlit,
-	DisplayCategory          =   SurCamp,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCOillamp
@@ -37,7 +37,7 @@ item HCOillamp
 	        Type		       =	Normal,
 	        DisplayName	       =	Oil Lamp,
 	        Icon		       =	HCOillamp,
-	DisplayCategory          =   SurCamp,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCOillamplit
@@ -52,7 +52,7 @@ item HCOillamplit
 		DisplayName	       =	Oil Lamp,
 		ActivatedItem	       =	FALSE,
 		Icon	               =	HCOillamplit,
-	DisplayCategory          =   SurCamp,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCTarsticks

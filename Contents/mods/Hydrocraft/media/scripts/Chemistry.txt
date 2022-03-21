@@ -44,7 +44,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Salt Powder,
         icon            = HCSaltpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CookRef,
     } 
 
     item HCSaltpeterpowder
@@ -53,7 +53,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Saltpeter Powder,
         icon            = HCSaltpeterpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CookRef,
     }  
 
     item HCSulphurpowder
@@ -62,7 +62,7 @@ item HCGunPowder
         Type            = Normal,
         DisplayName     = Sulphur Powder,
         icon            = HCSulphurpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftAmmo,
     }
 
 item HCCopperpowder
@@ -71,7 +71,7 @@ item HCCopperpowder
         Type            = Normal,
         DisplayName     = Copper Powder,
         icon            = HCCopperpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCTinpowder
@@ -80,7 +80,7 @@ item HCTinpowder
         Type            = Normal,
         DisplayName     = Tin Powder,
         icon            = HCTinpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCLeadpowder
@@ -89,7 +89,7 @@ item HCLeadpowder
         Type            = Normal,
         DisplayName     = Lead Powder,
         icon            = HCLeadpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCIronpowder
@@ -98,7 +98,7 @@ item HCIronpowder
         Type            = Normal,
         DisplayName     = Iron Powder,
         icon            = HCIronpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCMagnetitepowder
@@ -107,7 +107,7 @@ item HCMagnetitepowder
         Type            = Normal,
         DisplayName     = Magnetite Powder,
         icon            = HCMagnetitepowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCMeteoritepowder
@@ -116,7 +116,7 @@ item HCMeteoritepowder
         Type            = Normal,
         DisplayName     = Meteorite Powder,
         icon            = HCMeteoritepowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCSilverpowder
@@ -125,7 +125,7 @@ item HCSilverpowder
         Type            = Normal,
         DisplayName             = Silver Powder,
         icon            = HCSilverpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCGoldpowder
@@ -134,7 +134,7 @@ item HCGoldpowder
         Type            = Normal,
         DisplayName             = Gold Powder,
         icon            = HCGoldpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCAluminumpowder
@@ -143,7 +143,7 @@ item HCAluminumpowder
         Type            = Normal,
         DisplayName             = Aluminum Powder,
         icon            = HCAluminumpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCZincpowder
@@ -152,7 +152,7 @@ item HCZincpowder
         Type            = Normal,
         DisplayName             = Zinc Powder,
         icon            = HCZincpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCNickelpowder
@@ -161,7 +161,7 @@ item HCNickelpowder
         Type            = Normal,
         DisplayName             = Nickel Powder,
         icon            = HCNickelpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCCobaltpowder
@@ -170,7 +170,7 @@ item HCCobaltpowder
         Type            = Normal,
         DisplayName             = Cobalt Powder,
         icon            = HCCobaltpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCChromepowder
@@ -179,7 +179,7 @@ item HCChromepowder
         Type            = Normal,
         DisplayName             = Chrome Powder,
         icon            = HCChromepowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCTungstenpowder
@@ -188,7 +188,7 @@ item HCTungstenpowder
         Type            = Normal,
         DisplayName             = Tungsten Powder,
         icon            = HCTungstenpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCTitaniumpowder
@@ -197,7 +197,7 @@ item HCTitaniumpowder
         Type            = Normal,
         DisplayName             = Titanium Powder,
         icon            = HCTitaniumpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCPhosphoruspowder
@@ -206,7 +206,7 @@ item HCPhosphoruspowder
         Type            = Normal,
         DisplayName             = Phosphorus Powder,
         icon            = HCPhosphoruspowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftChem,
     }
 
 item HCLithiumpowder
@@ -215,7 +215,7 @@ item HCLithiumpowder
         Type            = Normal,
         DisplayName             = Lithium Powder,
         icon            = HCLithiumpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCChalkpowder
@@ -224,7 +224,7 @@ item HCChalkpowder
         Type            = Normal,
         DisplayName             = Chalk Powder,
         icon            = HCChalkpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMas,
     }
 
 item HCFeldsparpowder
@@ -233,7 +233,7 @@ item HCFeldsparpowder
         Type            = Normal,
         DisplayName             = Feldspar Powder,
         icon            = HCFeldsparpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCAlbitepowder
@@ -287,7 +287,7 @@ item HCMalachitepowder
         Type            = Normal,
         DisplayName             = Malachite Powder,
         icon            = HCMalachitepowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCMarblepowder
@@ -314,7 +314,7 @@ item HCMagnesiumpowder
     Type            = Normal,
     DisplayName     = Magnesium Powder,
     Icon            = HCMagnesiumpowder,
-		DisplayCategory	= CraftMine,
+		DisplayCategory	= CraftMet,
     }
 
 item HCGypsumpowder

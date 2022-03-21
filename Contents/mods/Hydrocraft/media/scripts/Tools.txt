@@ -341,7 +341,8 @@ item HCFuelcanister
         Weight    		= 1,
         Type    		= Normal,
         DisplayName         	= Fuel Canister,
-        icon 			= Useless,
+        icon 			= HCFuelcanister,
+		DisplayCategory = Useless,
     }
 	
 item HCNailgunammobox

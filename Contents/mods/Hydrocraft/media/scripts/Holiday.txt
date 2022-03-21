@@ -118,7 +118,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Lights,
         	Icon 			= HCXmaslights,
-			DisplayCategory	=   Crafting,
+			DisplayCategory	=   CraftElec,
 	}
 
 	item HCXmasgift

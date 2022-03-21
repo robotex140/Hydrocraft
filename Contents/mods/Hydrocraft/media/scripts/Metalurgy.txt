@@ -396,7 +396,7 @@ item HCBulletcasings
         Type    		= Normal,
         DisplayName         	= Bullet Casings,
         icon 			= HCBulletcasings,
-		DisplayCategory		= CraftMet,
+		DisplayCategory		= CraftAmmo,
     }
 
 item HCBullettips

@@ -382,7 +382,7 @@ item HCWheat
 	DisplayName		= Wheat,
 	Icon			= HCwheat,
 	Weight			= 0.009,
-		DisplayCategory	= SurFarm,
+		DisplayCategory	= CookRef,
 	}
 
 item HCWheatseedpacket
