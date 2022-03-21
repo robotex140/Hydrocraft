@@ -951,7 +951,7 @@ item HCDobermanmalewarSpiked
 item HCDobermanfemalewar
 	{
 		MaxRange				=	15,
-		WeaponSprite			=	Dog,
+		WeaponSprite			=	Hydrocraft.HCWardog,
 		MinAngle				=	0,
 		Type					=	Weapon,
 		MinimumSwingTime		=	3,
