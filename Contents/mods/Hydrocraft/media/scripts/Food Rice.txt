@@ -20,6 +20,7 @@ module Hydrocraft
         Calories 			= 	2880,
         Packaged 			= 	TRUE,
 	ReplaceOnDeplete		=	Hydrocraft.HCRiceempty,
+		DisplayCategory		=	FoodN,
     }
 
 item HCFriedrice
@@ -41,7 +42,8 @@ item HCFriedrice
         Proteins 			= 	14.1,
         Lipids 				= 	6.9,
         Calories 			= 	489,
-	EvolvedRecipe 			= 	Soup:15;Stew:15;Stir fry:15,	 	
+	EvolvedRecipe 			= 	Soup:15;Stew:15;Stir fry:15,
+		DisplayCategory		=	FoodP,	 	
 	}
 
 	item HCRiceandbeanspot
@@ -65,6 +67,7 @@ item HCFriedrice
 		Proteins 			= 	122,
 		Lipids 				= 	76,
 		Calories 			= 	2060,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCRiceandbeansbowl
@@ -88,7 +91,8 @@ item HCFriedrice
 		Proteins 			= 	30.5,
 		Lipids 				= 	19,
 		Calories 			= 	515,
-		EvolvedRecipe 		= 	Soup:20;Stew:20;Stir fry:20,	
+		EvolvedRecipe 		= 	Soup:20;Stew:20;Stir fry:20,
+		DisplayCategory		=	FoodP,	
 	}
 	
 	item HCRicepuddingpot
@@ -112,6 +116,7 @@ item HCFriedrice
 		Proteins 			= 	64,
 		Lipids 				= 	74,
 		Calories 			= 	2920,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCRicepuddingbowl
@@ -135,6 +140,7 @@ item HCFriedrice
 		Proteins 			= 	16,
 		Lipids 				= 	18.5,
 		Calories 			= 	730,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCRisotto
@@ -159,6 +165,7 @@ item HCRisotto
         Proteins 			= 	39,
         Lipids 				= 	6.5,
         Calories 			= 	1740,
+		DisplayCategory		=	FoodP,
 	}
 	
 /************************RECIPES************************/

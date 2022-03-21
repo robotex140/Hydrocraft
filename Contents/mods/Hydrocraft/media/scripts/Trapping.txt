@@ -24,6 +24,7 @@ item HCSteelspring
 	Type				=	Normal,
 	DisplayName			=	Steel Spring,
 	Icon				=	HCSteelspring,
+			DisplayCategory	= CraftMetal,
 	}
 
 item PropaneTrap
@@ -32,6 +33,7 @@ item PropaneTrap
         Type    			= 	Normal,
         DisplayName         		= 	Set Propane Trap,
         icon 				= 	Propanetrap,
+			DisplayCategory	= SurTrap,
 	
     }
 
@@ -41,6 +43,7 @@ item PropaneTrapCloses
         Type    			= 	Normal,
         DisplayName         		= 	Exloded Propane Trap,
         icon 				= 	Propanetrap,
+			DisplayCategory	= SurTrap,
 	
     }
 
@@ -50,6 +53,7 @@ item BearTrap
         Type    			= 	Normal,
         DisplayName         		= 	Set Bear Trap,
         icon 				= 	Beartrap,
+			DisplayCategory	= SurTrap,
     }
 
 item BearTrapClosed
@@ -58,6 +62,7 @@ item BearTrapClosed
         Type    			= 	Normal,
         DisplayName         		= 	Closed Bear Trap,
         icon 				= 	Beartrapclosed,
+			DisplayCategory	= SurTrap,
     }
 
 item SpikeTrap
@@ -66,6 +71,7 @@ item SpikeTrap
         Type    			= 	Normal,
         DisplayName         		= 	Set Nail Trap,
         icon 				= 	Spiketrap,
+			DisplayCategory	= SurTrap,
     }
 
 item SpikeTrapClosed
@@ -74,6 +80,7 @@ item SpikeTrapClosed
         Type    			= 	Normal,
         DisplayName         		= 	Broken Nail Trap,
         icon 				= 	Spiketrapclosed,
+			DisplayCategory	= SurTrap,
     }
 
 
@@ -99,6 +106,7 @@ item spanishRider
         PhysicsObject   =   PipeBomb,
         ExplosionPower  =   90,
         ExplosionRange  =   7,
+			DisplayCategory	= WepMelee,
     }
 
 

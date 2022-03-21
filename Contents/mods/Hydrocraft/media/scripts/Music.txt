@@ -15,6 +15,7 @@ item HCBooksheetmusic
         Type    		= Normal,
         DisplayName         	= Book of Sheet Music,
         icon 			= HCBooksheetmusic,
+		DisplayCategory	= LitE,
     }
 
 item HCNotebooksheetmusic
@@ -23,6 +24,7 @@ item HCNotebooksheetmusic
         Type    		= Normal,
         DisplayName         	= Notebook of Sheet Music,
         icon 			= HCNotebooksheetmusic,
+		DisplayCategory	= LitE,
     }
 
 item HCPapersheetmusic
@@ -31,6 +33,7 @@ item HCPapersheetmusic
         Type    		= Normal,
         DisplayName         	= Sheet Music,
         icon 			= HCPapersheetmusic,
+		DisplayCategory	= LitE,
     }
 
 
@@ -40,6 +43,7 @@ item HCVinylrecord1
         Type    		= Normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord1,
+		DisplayCategory	= Toy,
     }
 
 item HCVinylrecord2
@@ -48,6 +52,7 @@ item HCVinylrecord2
         Type    		= Normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord2,
+		DisplayCategory	= Toy,
     }
 
 item HCVinylrecord3
@@ -56,6 +61,7 @@ item HCVinylrecord3
         Type    		= Normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord3,
+		DisplayCategory	= Toy,
     }
 
 item HCVinylrecord4
@@ -64,6 +70,7 @@ item HCVinylrecord4
         Type    		= Normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord4,
+		DisplayCategory	= Toy,
     }
 
 item HCVinylrecord5
@@ -72,6 +79,7 @@ item HCVinylrecord5
         Type    		= Normal,
         DisplayName         	= Vinyl Record,
         icon 			= HCVinylrecord5,
+		DisplayCategory	= Toy,
     }
 
 item HCPhonograph
@@ -80,6 +88,7 @@ item HCPhonograph
         Type    		= Normal,
         DisplayName         	= Phonograph,
         icon 			= HCPhonograph,
+		DisplayCategory	= Toy,
     }
 
 item HCDVD
@@ -88,6 +97,7 @@ item HCDVD
         Type    		= Normal,
         DisplayName         	= DVD,
         icon 			= HCDVD,
+		DisplayCategory	= Useless,
     }
 
 item HCDVDCase
@@ -96,6 +106,7 @@ item HCDVDCase
         Type    		= Normal,
         DisplayName         	= Empty DVD Case,
         icon 			= HCDVDCase,
+		DisplayCategory	= Useless,
     }
 
 item HCDVDPlayer
@@ -104,6 +115,7 @@ item HCDVDPlayer
         Type    		= Normal,
         DisplayName         	= DVD Player,
         icon 			= HCDVDPlayer,
+		DisplayCategory	= Useless,
     }
 
 item HCCDcase
@@ -112,6 +124,7 @@ item HCCDcase
         Type    		= Normal,
         DisplayName         	= Empty CD Case,
         icon 			= HCCDcase,
+		DisplayCategory	= Useless,
     }
 
 item HCCDcasefull
@@ -120,6 +133,7 @@ item HCCDcasefull
         Type    		= Normal,
         DisplayName         	= CD Case with CD,
         icon 			= HCCDcasefull,
+		DisplayCategory	= Useless,
     }
 
 item HCHarmonica
@@ -128,6 +142,7 @@ item HCHarmonica
 	Type			=	Normal,
 	DisplayName		=	Harmonica,
 	Icon			=	HCHarmonica,
+		DisplayCategory	= Toy,
    }
 
 item HCViolin
@@ -136,6 +151,7 @@ item HCViolin
 	Type			=	Normal,
 	DisplayName		=	Violin,
 	Icon			=	HCViolin,
+	DisplayCategory	= 	Toy,
    }
 
 item HCHarp
@@ -144,6 +160,7 @@ item HCHarp
 	Type			=	Normal,
 	DisplayName		=	Harp,
 	Icon			=	HCHarp,
+	DisplayCategory	= 	Toy,
    }
 
 item HCUkulele
@@ -152,6 +169,7 @@ item HCUkulele
 	Type			=	Normal,
 	DisplayName		=	Ukulele,
 	Icon			=	HCUkulele,
+	DisplayCategory	= 	Toy,
    }
 
 item HCBanjo
@@ -160,6 +178,7 @@ item HCBanjo
 	Type			=	Normal,
 	DisplayName		=	Banjo,
 	Icon			=	HCBanjo,
+	DisplayCategory	= 	Toy,
    }
 
 item HCGuitar
@@ -168,7 +187,7 @@ item HCGuitar
 	Type			=	Normal,
 	DisplayName		=	Guitar,
 	Icon			=	HCGuitar,
-	
+	DisplayCategory	= 	Toy,
    }
 
 item HCElectricguitar
@@ -177,7 +196,7 @@ item HCElectricguitar
 	Type			=	Normal,
 	DisplayName		=	Electric Guitar,
 	Icon			=	HCElectricguitar,
-	
+	DisplayCategory	= 	CraftElec,
    }
 
 item HCElectricguitarbass
@@ -186,6 +205,7 @@ item HCElectricguitarbass
 	Type			=	Normal,
 	DisplayName		=	Electric Bass Guitar,
 	Icon			=	HCElectricguitarbass,
+	DisplayCategory	= 	CraftElec,
 	
    }
 
@@ -195,6 +215,7 @@ item HCGuitarpick
 	Type			=	Normal,
 	DisplayName		=	Guitar Pick,
 	Icon			=	HCGuitarpick,
+	DisplayCategory	= 	Useless,
    }
 
 item HCAmp
@@ -203,7 +224,7 @@ item HCAmp
 	Type			=	Normal,
 	DisplayName		=	Amp,
 	Icon			=	HCAmp,
-	
+	DisplayCategory	= 	CraftElec,
    }
 
 item HCGuitarcase
@@ -214,6 +235,7 @@ item HCGuitarcase
         Capacity            	= 	10,
         DisplayName         	= 	Guitar Case,
         Icon                	= 	HCGuitarcase,
+	DisplayCategory	= 	Container,
 	
     }
 
@@ -223,6 +245,7 @@ item HCKazoo
 	Type			=	Normal,
 	DisplayName		=	Kazoo,
 	Icon			=	HCKazoo,
+	DisplayCategory	= 	Toy,
    }
 
 item HCFlute
@@ -231,6 +254,7 @@ item HCFlute
 	Type			=	Normal,
 	DisplayName		=	Flute,
 	Icon			=	HCFlute,
+	DisplayCategory	= 	Toy,
    }
 
 item HCFlutewood
@@ -239,6 +263,7 @@ item HCFlutewood
 	Type			=	Normal,
 	DisplayName		=	Wood Flute,
 	Icon			=	HCFlutewood,
+	DisplayCategory	= 	Toy,
    }
 
 item HCClarinet
@@ -247,6 +272,7 @@ item HCClarinet
 	Type			=	Normal,
 	DisplayName		=	Clarinet,
 	Icon			=	HCClarinet,
+	DisplayCategory	= 	Toy,
    }
 
 item HCSax
@@ -255,6 +281,7 @@ item HCSax
 	Type			=	Normal,
 	DisplayName		=	Saxophone,
 	Icon			=	HCSax,
+	DisplayCategory	= 	Toy,
    }
 
 item HCTrumpet
@@ -263,6 +290,7 @@ item HCTrumpet
 	Type			=	Normal,
 	DisplayName		=	Trumpet,
 	Icon			=	HCTrumpet,
+	DisplayCategory	= 	Toy,
    }
 
 item HCTrombone
@@ -271,6 +299,7 @@ item HCTrombone
 	Type			=	Normal,
 	DisplayName		=	Trombone,
 	Icon			=	HCTrombone,
+	DisplayCategory	= 	Toy,
    }
 
 item HCDrumsticks
@@ -279,6 +308,7 @@ item HCDrumsticks
 	Type			=	Normal,
 	DisplayName		=	Drum Sticks,
 	Icon			=	HCDrumsticks,
+	DisplayCategory	= 	Toy,
    }
 
 item HCDrumkit
@@ -287,6 +317,7 @@ item HCDrumkit
 	Type			=	Normal,
 	DisplayName		=	Drum Kit,
 	Icon			=	HCDrumkit,
+	DisplayCategory	= 	Toy,
 	
    }
 
@@ -296,6 +327,7 @@ item HCDrum
 	Type			=	Normal,
 	DisplayName		=	Drum,
 	Icon			=	HCDrum,
+	DisplayCategory	= 	Toy,
    }
 
 item HCMaracas
@@ -304,6 +336,7 @@ item HCMaracas
 	Type			=	Normal,
 	DisplayName		=	Maracas,
 	Icon			=	HCMaracas,
+	DisplayCategory	= 	Toy,
   	}
 
 item HCCowbell
@@ -312,6 +345,7 @@ item HCCowbell
 	Type			=	Normal,
 	DisplayName		=	Cow Bell,
 	Icon			=	HCCowbell,
+	DisplayCategory	= 	Toy,
    }
 
 item HCPiano
@@ -320,6 +354,7 @@ item HCPiano
 	Type			=	Normal,
 	DisplayName		=	Piano,
 	Icon			=	HCPiano,
+	DisplayCategory	= 	Toy,
 	
    }
 
@@ -329,6 +364,7 @@ item HCPianogrand
 	Type			=	Normal,
 	DisplayName		=	Grand Piano,
 	Icon			=	HCPianogrand,
+	DisplayCategory	= 	Toy,
 	
    }
 

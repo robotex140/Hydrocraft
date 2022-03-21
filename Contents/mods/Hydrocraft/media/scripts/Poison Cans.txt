@@ -18,6 +18,7 @@ item HCPoisonempty
     DisplayName		=	Empty Insecticide Can,
 	Icon			=	HCPoisonempty,
 	RainFactor 		= 	1,
+		DisplayCategory		=   SurFarm,
 	}
 
 item HCPoison
@@ -28,6 +29,7 @@ item HCPoison
 	ReplaceOnDeplete	=	HCPoisonempty,
 	DisplayName			=	Insecticide,
 	Icon				=	HCPoison,
+		DisplayCategory		=   SurFarm,
 	}
 
 item HCPoisondetergent
@@ -39,6 +41,7 @@ item HCPoisondetergent
 
 	DisplayName			=	Insecticide Can With Liqiud Soap,
 	Icon				=	HCPoisondetergent,
+		DisplayCategory		=   Cleaning,
 	}
 
 
@@ -55,6 +58,7 @@ item HCPoisonwater
 	ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
 	Icon			    =	HCPoisonwater,
 	RainFactor 		    = 	1,
+		DisplayCategory		=   SurFarm,
 	}
 
 

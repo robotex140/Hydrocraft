@@ -18,6 +18,7 @@ module Hydrocraft
 		StressChange	=	-100,
 		Icon		=	HCAdultmagazine,
 		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
 	}
 
 	item HCAdultmagazine2
@@ -29,6 +30,7 @@ module Hydrocraft
 		StressChange	=	-100,
 		Icon		=	HCAdultmagazine2,
 		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
 	}
 
 	item HCAdultmagazine3
@@ -40,6 +42,7 @@ module Hydrocraft
 		StressChange	=	-100,
 		Icon		=	HCAdultmagazine3,
 		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
 	}
 
 	item HCAdultmagazine4
@@ -51,6 +54,7 @@ module Hydrocraft
 		StressChange	=	-100,
 		Icon		=	HCAdultmagazine4,
 		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
 	}
 
 	item HCAdultmagazine5
@@ -62,6 +66,7 @@ module Hydrocraft
 		StressChange	=	-100,
 		Icon		=	HCAdultmagazine5,
 		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
 	}
 
 	item HCAdultmagazine6
@@ -73,6 +78,7 @@ module Hydrocraft
 		StressChange	=	-100,
 		Icon		=	HCAdultmagazine6,
 		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
 	}
 
 	item HCMagazinemetalworking1
@@ -83,6 +89,7 @@ module Hydrocraft
 		Icon			= HCMagazinemetalworking1,
 		TeachedRecipes  = Make Small Sheet Of Metal;Make Sheet Of Metal;Make Large Sheet Of Metal,
         ReplaceOnUse    = HCMagazinemetalworking1,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinemetalworking2
@@ -93,6 +100,7 @@ module Hydrocraft
 		Icon			= HCMagazinemetalworking2,
 		TeachedRecipes  = Make Metal Pipe,                                         
         ReplaceOnUse    = HCMagazinemetalworking2,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinemetalworking3
@@ -103,6 +111,7 @@ module Hydrocraft
 		Icon			= HCMagazinemetalworking3,
 		TeachedRecipes  = Make Steel Beam;Make Steel Pole,
         ReplaceOnUse    = HCMagazinemetalworking3,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinemetalworking4
@@ -113,6 +122,7 @@ module Hydrocraft
 		Icon			= HCMagazinemetalworking4,
 		TeachedRecipes  = Make Sterling Silver Knife;Make Sterling Silver Fork;Make Sterling Silver Spoon,
         ReplaceOnUse    = HCMagazinemetalworking4,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinemetalworking5
@@ -123,6 +133,7 @@ module Hydrocraft
 		Icon			= HCMagazinemetalworking5,
 		TeachedRecipes  = Craft Pickaxe;Make Steel Hammer;Make Steel Saw;Make Lumber Saw;Make Iron Hand Drill;Make Steel Saw;Make Steel Hammer;Make Screws;Make Gigli Saw Handle,
         ReplaceOnUse    = HCMagazinemetalworking5,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinemetalworking6
@@ -133,6 +144,7 @@ module Hydrocraft
 		Icon			= HCMagazinemetalworking6,
 		TeachedRecipes  = Make Gears,
         ReplaceOnUse    = HCMagazinemetalworking6,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinemetalworking7
@@ -143,6 +155,7 @@ module Hydrocraft
 		Icon			= HCMagazinemetalworking7,
 		TeachedRecipes  = Make Iron Trowel;Make Steel Shears;Make Iron Spade;Make Steel Rake;Make Steel Pruning Shears,
         ReplaceOnUse    = HCMagazinemetalworking7,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinefarming1
@@ -153,6 +166,7 @@ module Hydrocraft
 		Icon			= HCMagazinefarming1,
 		TeachedRecipes  = Build Trellis Kit,
         ReplaceOnUse    = HCMagazinefarming1,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazineelectronics01
@@ -163,6 +177,7 @@ module Hydrocraft
 		Icon		=	HCMagazineelectronics01,
 		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make Moving Sensor;Put Sensor In Case,
         	ReplaceOnUse    =   	HCMagazineelectronics01,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazineelectronics02
@@ -173,6 +188,7 @@ module Hydrocraft
 		Icon		=	HCMagazineelectronics02,
 		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Remote;Put Remote In Case,
         	ReplaceOnUse    =   	HCMagazineelectronics02,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazineelectronics03
@@ -183,6 +199,7 @@ module Hydrocraft
 		Icon		=	HCMagazineelectronics03,
 		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Receiver;Put Receiver In Case,
         	ReplaceOnUse    =   	HCMagazineelectronics03,
+		DisplayCategory = LitR,
 	}
 
 	item HCMagazinespopularmachines01
@@ -193,6 +210,7 @@ module Hydrocraft
 		Icon		=	HCMagazinespopularmachines01,
 		TeachedRecipes  =   	Build Battery Array;Build Selfmade Solar Panel;Build Solar Park;Recharge Battery,
         	ReplaceOnUse    =   	HCMagazinespopularmachines01,
+		DisplayCategory = LitR,
 	}
 
     	item HCMagazinexmas
@@ -203,6 +221,7 @@ module Hydrocraft
 	    Icon		=	HCMagazinexmas,
 	    TeachedRecipes  	=   	Make Fruit Cake Batter;Make Christmas Cookies;Make Frosted Christmas Cookies;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham,
 	    ReplaceOnUse    	=   	HCMagazinexmas,
+		DisplayCategory = LitR,
     	}
 
 	item HCSportsmagazine
@@ -215,6 +234,7 @@ module Hydrocraft
 		Icon		=	HCSportsmagazine,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCSportsmagazine,
+		DisplayCategory = LitE,
 	}
 
 	item HCSportsmagazine2
@@ -227,6 +247,7 @@ module Hydrocraft
 		Icon		=	HCSportsmagazine2,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCSportsmagazine2,
+		DisplayCategory = LitE,
 	}
 
 /************************RECIPES************************/	

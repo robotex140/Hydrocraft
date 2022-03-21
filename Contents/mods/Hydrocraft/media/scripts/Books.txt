@@ -17,6 +17,7 @@ module Hydrocraft
 		StressChange	=	-40,
 		Icon		=	Book,
 		BoredomChange	=	-50,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookcover
@@ -25,6 +26,7 @@ module Hydrocraft
         	Type    	= 	Normal,
         	DisplayName     = 	Book Cover,
         	icon 		= 	HCBookcover,
+		DisplayCategory	=   Useless,
     	}
 
 	item HCBookmark
@@ -33,6 +35,7 @@ module Hydrocraft
         	Type    	= 	Normal,
         	DisplayName     = 	Bookmark,
         	icon 		= 	HCBookmark,
+		DisplayCategory	=   Useless,
     	}
 
 	item HCPassport
@@ -43,6 +46,7 @@ module Hydrocraft
         	Icon		=	HCPassport,
         	CanBeWrite  	=   	true,
         	PageToWrite 	=   	10,
+		DisplayCategory	=   LitW,
     	}
 
 	item HCBookphone
@@ -53,6 +57,7 @@ module Hydrocraft
 		Icon		=	HCBookphone,
 		BoredomChange	=	50,
         	ReplaceOnUse    =   	HCBookphone,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookalgebra
@@ -65,6 +70,7 @@ module Hydrocraft
 		Icon		=	HCBookalgebra,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookalgebra,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookastronomy
@@ -75,6 +81,7 @@ module Hydrocraft
 		Icon		=	HCBookastronomy,
 		TeachedRecipes  =   	Assemble Telescope;Disassemble Telescope;Gaze Through Telescope;Build Star Chart Board;View Star Chart Board,
         	ReplaceOnUse    =   	HCBookastronomy,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookalmanac
@@ -87,6 +94,7 @@ module Hydrocraft
 		Icon		=	HCBookalmanac,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookalmanac,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookamericanhistory
@@ -99,6 +107,7 @@ module Hydrocraft
 		Icon		=	HCBookamericanhistory,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookamericanhistory,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookanimalhusbandry
@@ -109,6 +118,7 @@ module Hydrocraft
 		Icon		=	HCBookanimalhusbandry,
 		TeachedRecipes  =   	Breed Rabbits;Breed Pigs;Breed Sheep;Breed Goats;Breed Cows;Breed Donkeys;Breed Horses,
         	ReplaceOnUse    =   	HCBookanimalhusbandry,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbedtime
@@ -121,6 +131,7 @@ module Hydrocraft
 		Icon		=	HCBookbedtime,
 		BoredomChange	=	-15,
         	ReplaceOnUse    =   	HCBookbedtime,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookcalculus
@@ -133,6 +144,7 @@ module Hydrocraft
 		Icon		=	HCBookcalculus,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookcalculus,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookceltic
@@ -143,6 +155,7 @@ module Hydrocraft
 		Icon		=	HCBookceltic,
 		TeachedRecipes  =   	Make Rune Stone,
         	ReplaceOnUse    =   	HCBookceltic,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookchemistry
@@ -153,6 +166,7 @@ module Hydrocraft
 		Icon		=	HCBookchemistry,
 		TeachedRecipes  =   	Use Centrifiuge;Use Electrolyzer;Make Saltpeter Powder;Make Salt Powder;Make Sulphur Powder;Make Meteorite Powder;Make Phosphorus Powder;Make Marble Powder;Make Diatomite Powder;Make Ephedrin Powder;Make Beaker of Ammonia;Make Albite Powder;Make Feldspar Powder;Make Methylamin;Add Salt to Glass Balloon;Add Sulfuric Acid to Glass Balloon with Salt;Make Muriatic Acid;Make Mercuric Oxide;Make Acid Bath;Make Beaker of Potassium Permanganate,
         	ReplaceOnUse    =   	HCBookchemistry,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookboneworking
@@ -163,6 +177,7 @@ module Hydrocraft
 		Icon		=	HCBookboneworking,
 		TeachedRecipes  =   	Carve Bone Buttons;Harvest Bones;Cut Open Bone;Make Bone Powder;Make Shell Powder;Dry Gelatin;Make Bone Ash;Make Gelatin;Make Glue;Make Wood Glue;Make Super Glue;Make Smelling Salts;Craft Bone Shiv;Craft Bone Dice;Craft Bone Needle;Craft Bone Fishhook,
         ReplaceOnUse    =   	HCBookboneworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookdictionary
@@ -175,6 +190,7 @@ module Hydrocraft
 		Icon		=	HCBookdictionary,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookdictionary,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookencyclopedia
@@ -187,6 +203,7 @@ module Hydrocraft
 		Icon		=	HCBookencyclopedia,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookencyclopedia,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookenglish
@@ -199,6 +216,7 @@ module Hydrocraft
 		Icon		=	HCBookenglish,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookenglish,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookentomology
@@ -209,6 +227,7 @@ module Hydrocraft
 		Icon		=	HCBookentomology,
 		TeachedRecipes  =   	Catch Bugs;Make Bug Net;Assemble Ant Farm;Feed Ants;Feed Caterpillar,
         	ReplaceOnUse    =   	HCBookentomology,
+		DisplayCategory	=   LitR,
 	}
 
 
@@ -222,6 +241,7 @@ module Hydrocraft
 		Icon		=	HCBookfairytale,
 		BoredomChange	=	-15,
         	ReplaceOnUse    =   	HCBookfairytale,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookfrench
@@ -234,6 +254,7 @@ module Hydrocraft
 		Icon		=	HCBookfrench,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookfrench,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookgenealogy
@@ -246,6 +267,7 @@ module Hydrocraft
 		Icon		=	HCBookgenealogy,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookgenealogy,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookgeometry
@@ -258,6 +280,7 @@ module Hydrocraft
 		Icon		=	HCBookgeometry,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookgeometry,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookgerman
@@ -270,6 +293,7 @@ module Hydrocraft
 		Icon		=	HCBookgerman,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookgerman,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookitalian
@@ -282,6 +306,7 @@ module Hydrocraft
 		Icon		=	HCBookitalian,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookitalian,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookmath
@@ -294,6 +319,7 @@ module Hydrocraft
 		Icon		=	HCBookmath,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookmath,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookmedical
@@ -304,6 +330,7 @@ module Hydrocraft
 		Icon		=	HCBookmedical,
 		TeachedRecipes  =  Make Medical Lab;Make Crutch;Take Blood from Yourself;Research Injections;Soak in Potassium Permanganate,
         ReplaceOnUse    =  HCBookmedical,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookmusic
@@ -314,6 +341,7 @@ module Hydrocraft
 		Icon		=	HCBookmusic,
 		TeachedRecipes  = Play Music;Read Music;Write Music;Carve Wooden Flute,
         ReplaceOnUse    =   	HCBookmusic,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookpaleontology
@@ -326,6 +354,7 @@ module Hydrocraft
 		Icon		=	HCBookpaleontology,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookpaleontology,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookpoetry
@@ -338,6 +367,7 @@ module Hydrocraft
 		Icon		=	HCBookpoetry,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookpoetry,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookscrap
@@ -350,6 +380,7 @@ module Hydrocraft
 		Icon		=	HCBookscrap,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookscrap,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookspanish
@@ -362,6 +393,7 @@ module Hydrocraft
 		Icon		=	HCBookspanish,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookspanish,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookthesaurus
@@ -374,6 +406,7 @@ module Hydrocraft
 		Icon		=	HCBookthesaurus,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookthesaurus,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBooktreeguide
@@ -384,6 +417,7 @@ module Hydrocraft
 		Icon		=	HCBooktreeguide,
 		TeachedRecipes  =   	Plant Fir Cone;Plant Acorn;Plant Birch Catkin;Cut Fir Tree;Cut Oak Tree;Cut Birch Tree,
         	ReplaceOnUse    =   	HCBooktreeguide,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookstrigonometry
@@ -396,6 +430,7 @@ module Hydrocraft
 		Icon		=	HCBooktrigonometry,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookstrigonometry,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookvet
@@ -406,6 +441,7 @@ module Hydrocraft
 		Icon		=	HCBookvet,
 		TeachedRecipes  =   	Heal Dog,
         ReplaceOnUse    =   	HCBookvet,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookworldhistory
@@ -418,6 +454,7 @@ module Hydrocraft
 		Icon		=	HCBookworldhistory,
 		BoredomChange	=	-5,
         ReplaceOnUse    =   	HCBookworldhistory,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookanatomy
@@ -428,6 +465,7 @@ module Hydrocraft
 		Icon			=	HCBookanatomy,
 		TeachedRecipes  =   Harvest Bones;Remove Skull;Remove Head;Skin Corpse;Dissect Corpse;Clean Dissection Table,
         ReplaceOnUse    =   HCBookanatomy,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookarthistory
@@ -438,6 +476,7 @@ module Hydrocraft
 		Icon		=	HCBookarthistory,
 		TeachedRecipes  =   	Paint on Canvas;Dye Yarn,
         	ReplaceOnUse    =   	HCBookarthistory,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbible
@@ -450,6 +489,7 @@ module Hydrocraft
 		Icon		=	HCBookbible,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookbible,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookbirdgude
@@ -460,6 +500,7 @@ module Hydrocraft
 		Icon		=	HCBookbirdgude,
 		TeachedRecipes  =   	Carve Wooden Bird Call;Carve Wooden Duck Call;Remove Eggs from Nest,
         	ReplaceOnUse    =   	HCBookbirdgude,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbiology
@@ -472,6 +513,7 @@ module Hydrocraft
 		Icon		=	HCBookbiology,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookbiology,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookcommunications
@@ -484,6 +526,7 @@ module Hydrocraft
 		Icon		=	HCBookcommunications,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookcommunications,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookeconomics
@@ -494,6 +537,7 @@ module Hydrocraft
 		Icon		=	HCBookeconomics,
 		TeachedRecipes  =   	Make Coin Press;Press Coin,
         	ReplaceOnUse    =   	HCBookeconomics,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookfishguide
@@ -504,6 +548,7 @@ module Hydrocraft
 		Icon		=	HCBookfishguide,
 		TeachedRecipes  =   	Make Fishhooks;Make Fishing Kit;Repair Fishing Kit;Make Lure;Fish in Pond with Lure;Fish in Pond with Bait;Spear Fish in Pond,
         	ReplaceOnUse    =   	HCBookfishguide,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookflowerguide
@@ -514,6 +559,7 @@ module Hydrocraft
 		Icon		=	HCBookflowerguide,
 		TeachedRecipes  =   	Gather Flora,
         	ReplaceOnUse    =   	HCBookflowerguide,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookgeology
@@ -524,6 +570,7 @@ module Hydrocraft
 		Icon		=	HCBookgeology,
 		TeachedRecipes  =   	Sift Dirt;Dig Mine;Upgrade Mine;Mine;Upgrade to Dark Mine;Upgrade Dark Mine;Add Steam Machine to Dark Mine;Make Mining Hat;Dig Quarry;Mine Iron;Mine Coal;Mine Stone,
         	ReplaceOnUse    =   	HCBookgeology,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookgemcutting
@@ -534,6 +581,7 @@ module Hydrocraft
 		Icon		=	HCBookgemcutting,
 		TeachedRecipes  =   	Make Gem Cutter Wheel;Cut Gem;Make Jade Powder;Make Malachite Powder;Make Obsidian Powder;Make Azurite Powder;Make Lapis Lazuli Powder,
         	ReplaceOnUse    =   	HCBookgemcutting,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookjewelry
@@ -544,6 +592,7 @@ module Hydrocraft
 		Icon		=	HCBookjewelry,
 		TeachedRecipes  =   	Make Ring;Set Gem in Ring,
         	ReplaceOnUse    =   	HCBookjewelry,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookgreekmyths
@@ -556,6 +605,7 @@ module Hydrocraft
 		Icon		=	HCBookgreekmyths,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookgreekmyths,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookhealth
@@ -568,6 +618,7 @@ module Hydrocraft
 		Icon		=	HCBookhealth,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookhealth,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBooklaw
@@ -580,6 +631,7 @@ module Hydrocraft
 		Icon		=	HCBooklaw,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBooklaw,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookliterature
@@ -592,6 +644,7 @@ module Hydrocraft
 		Icon		=	HCBookliterature,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookliterature,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookmammalguide
@@ -602,6 +655,7 @@ module Hydrocraft
 		Icon		=	HCBookmammalguide,
 		TeachedRecipes  =   	Gather Dung,
         	ReplaceOnUse    =   	HCBookmammalguide,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooknorsemyths
@@ -614,6 +668,7 @@ module Hydrocraft
 		Icon		=	HCBooknorsemyths,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBooknorsemyths,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookoceanography
@@ -624,6 +679,7 @@ module Hydrocraft
 		Icon		=	HCBookoceanography,
         	TeachedRecipes  = 	Grow Spirulina in Tank;Harvest Spirulina;Dig Fish Pond;Fill Pond Hole with Cement;Fill Pond Hole with Water;Decorate Pond,
         	ReplaceOnUse    =   	HCBookoceanography,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookphilosophy
@@ -636,6 +692,7 @@ module Hydrocraft
 		Icon		=	HCBookphilosophy,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookphilosophy,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookphysics
@@ -648,6 +705,7 @@ module Hydrocraft
 		Icon		=	HCBookphysics,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookphysics,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookpoliticalscience
@@ -660,6 +718,7 @@ module Hydrocraft
 		Icon		=	HCBookpoliticalscience,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookpoliticalscience,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookreptileguide
@@ -672,6 +731,7 @@ module Hydrocraft
 		Icon		=	HCBookreptileguide,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookreptileguide,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookrobotics
@@ -684,6 +744,7 @@ module Hydrocraft
 		Icon		=	HCBookrobotics,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookrobotics,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookscience
@@ -694,6 +755,7 @@ module Hydrocraft
 		Icon		=	HCBookscience,
         	TeachedRecipes  = 	Make Laboratory;Research Professional Lab,
         	ReplaceOnUse    =   	HCBookscience,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooksociology
@@ -706,6 +768,7 @@ module Hydrocraft
 		Icon		=	HCBooksociology,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBooksociology,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookworldatlas
@@ -718,6 +781,7 @@ module Hydrocraft
 		Icon		=	HCBookworldatlas,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookworldatlas,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookamphibianguide
@@ -730,6 +794,7 @@ module Hydrocraft
 		Icon		=	HCBookamphibianguide,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookamphibianguide,
+		DisplayCategory	=   LitE,
 	}
 
     	item HCBookapiculture
@@ -740,6 +805,7 @@ module Hydrocraft
         	Icon		=	HCBookapiculture,
             TeachedRecipes  = Harvest Wild Beehive;Build Beehive;Fill Bee Smoker with Fuel;Feed Beehive;Harvest Honeycomb;Process Honeycomb;Make Bee Smoker;Make Beekeeper Hat;Prepare Cheese Cloth-Wrapped Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax,
             ReplaceOnUse    =   	HCBookapiculture,
+		DisplayCategory	=   LitR,
     	}
     
 
@@ -751,6 +817,7 @@ module Hydrocraft
 		Icon		=	HCBookplumbing,
         	ReplaceOnUse    =   	HCBookplumbing,
 		TeachedRecipes  =   	Build Water Tower;Build Double Water Tower;Make Water Pump;Make Pipe Bender;Make Valve,
+		DisplayCategory	=   LitR,
 	}
 
 
@@ -762,6 +829,7 @@ module Hydrocraft
 		Icon		=	HCBookelectricity,
 		TeachedRecipes  =   	Upgrade To Steam Charger;Make Thermocouple;Make Electronics Workbench;Make Copper Cable;Make Coil;Make Solder;Make Circut Chip;Loot Electronic Parts;Make Lamp;Make Electric Motor;Make Small Electric Motor;Make Control Panel;Make Selfmade Heater,
         	ReplaceOnUse    =   	HCBookelectrical,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookcomputerprograming
@@ -772,6 +840,7 @@ module Hydrocraft
 		Icon		=	HCBookcomputerprograming,
 		TeachedRecipes  =   	Make Desktop Computer;Write Computer Program,
         	ReplaceOnUse    =   	HCBookcomputerprograming,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbattery
@@ -782,6 +851,7 @@ module Hydrocraft
 		Icon		=	HCBookbattery,
 		TeachedRecipes  =   	Recycle Battery;Recharge Battery;Make Battery Case;Make Battery,
         ReplaceOnUse    =   	HCBookbattery,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookanthropology
@@ -794,6 +864,7 @@ module Hydrocraft
 		Icon		=	HCBookanthropology,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookanthropology,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookarchery
@@ -804,6 +875,7 @@ module Hydrocraft
 		Icon		=	HCBookarchery,
 		TeachedRecipes  =   	Make Longbow;Make Arrow;Make Crossbow;Make Bolt;Upgrade Longbow;Make Longbow Mag;Make Metal Arrowhead;Shoot Target,
         	ReplaceOnUse    =   	HCBookarchery,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookpottery
@@ -814,6 +886,7 @@ module Hydrocraft
 		Icon		=	HCBookpottery,
 		TeachedRecipes  =   	Make Bone Clay;Make Kiln;Make Clay Pot;Make Clay Flowerpot;Make Clay Jar;Make Small Clay Jar;Make Clay Mug;Make Clay Teapot;Make Clay Cauldron;Make Clay Urn;Make Large Clay Urn;Make Clay Smoking Pipe;Make Clay Pipe;Make Ring Mold;Make Bar Mold;Make Nail Mold;Make Screw Mold;Make Fishhook Mold;Make Gear Mold;Make Bung Mold;Make Giant Magnet Mold;Make Bullet Casing Mold;Make Bullet Tip Mold;Make Anvil Mold;Make Buckshot Mold;Make Block Mold;Make Pipe Mold;Make Porcelain Teacup;Make Porcelain Saucer;Make Porcelain Teapot;Make Porcelain Plate;Make Porcelain Platter;Make Porcelain Vase;Make Spindle Head;Make Clay Oil Lamp;Make Leaf Spring Mold;Make Bolt Mold;Make Arrow Head Mold;Make Ingot Mold;Make Huge Ingot Mold,
         ReplaceOnUse    =   	HCBookpottery,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookglassworking
@@ -824,6 +897,7 @@ module Hydrocraft
 		Icon		=	HCBookglassworking,
 		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Glassware,
         ReplaceOnUse    =   	HCBookglassworking,
+		DisplayCategory	=   LitR,
 	}
 	item HCBookcopperworking
 	{
@@ -833,6 +907,7 @@ module Hydrocraft
 		Icon		=	HCBookcopperworking,
 		TeachedRecipes  =   	Make Copper Ingot;Recycle Copper;Make Copper Rod;Make Copper Powder;Make Copper Circuit Board,
         	ReplaceOnUse    =   	HCBookcopperworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooktinworking
@@ -843,6 +918,7 @@ module Hydrocraft
 		Icon		=	HCBooktinworking,
 		TeachedRecipes  =   	Make Tin Ingot;Recycle Tin;Make Tin Rod;Make Tin Powder,
         	ReplaceOnUse    =   	HCBooktinworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbronzeworking
@@ -853,6 +929,7 @@ module Hydrocraft
 		Icon		=	HCBookbronzeworking,
 		TeachedRecipes  =   	Make Bronze Ingot;Make Brass Ingot;Recycle Bronze;Recycle Brass;Make Bronze Rod;Make Bronze Candle Holder;Make Oil Lamp;Make Brass Bullet Casings;,
         	ReplaceOnUse    =   	HCBookbronzeworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookalloys
@@ -863,6 +940,7 @@ module Hydrocraft
 		Icon		=	HCBookalloys,
 		TeachedRecipes  =   	Make Constantan Ingot;Make Pewter Ingot;Make Sterling Silver Ingot;Make Electrum Ingot;Make Rose Gold Ingot;Make White Gold Ingot;Make Invar Ingot;Make Nichrome Ingot;Make Kanthal Ingot;Make Constantan Ingot;Make Duralumin Ingot;Recycle Electrum;Make Invar Rod,
         	ReplaceOnUse    =   	HCBookalloys,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookmetalurgy
@@ -873,6 +951,7 @@ module Hydrocraft
 		Icon		=	HCBookmetalurgy,
 		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Zinc Ingot;Make Chrome Ingot;Make Tungsten Ingot;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
         	ReplaceOnUse    =   	HCBookmetalurgy,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookironworking
@@ -883,6 +962,7 @@ module Hydrocraft
 		Icon		=	HCBookironworking,
 		TeachedRecipes  =   	Make Iron Ingot;Make Iron Ingots;Make Iron Anvil;Make Nails;Recycle Iron;Make Iron Rod;Make Iron Pole;Make Iron Cauldron;Make Iron Powder,
         	ReplaceOnUse    =   	HCBookironworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookleadworking
@@ -893,6 +973,7 @@ module Hydrocraft
 		Icon			=	HCBookleadworking,
 		TeachedRecipes  =   Make Lead Ingot;Recycle Lead;Make Lead Rod;Make Lead Buckshot;Make Lead Bullet Tips;Make Lead Anvil;Make Lead Powder,
         ReplaceOnUse    =   HCBookleadworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooksteelworking
@@ -903,6 +984,7 @@ module Hydrocraft
 		Icon			=	HCBooksteelworking,
 		TeachedRecipes  =   Make Steel Ingot;Make Steel Ingots;Recycle Steel;Recycle Spring Steel;Make Steel Rod;Make Leaf Spring,
         ReplaceOnUse    =   HCBooksteelworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookcoalworking
@@ -913,6 +995,7 @@ module Hydrocraft
 		Icon		=	HCBookcoalworking,
 		TeachedRecipes  =   	Make Charcoal Powder;Make Graphite Powder;Make Coke;Make Graphite Ingot;Make Graphite Rod;Make Tar Sticks;Distill Lighter Fluid;Distill Creosote Oil;Treat Wood Plank,
         ReplaceOnUse    =   	HCBookcoalworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooksilverworking
@@ -923,6 +1006,7 @@ module Hydrocraft
 		Icon			=	HCBooksilverworking,
 		TeachedRecipes  =   Make Silver Ingot;Recycle Silver;Make Silver Powder,
         ReplaceOnUse    =   HCBooksilverworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookgoldworking
@@ -933,6 +1017,7 @@ module Hydrocraft
 		Icon			=	HCBookgoldworking,
 		TeachedRecipes  =   Make Gold Ingot;Recycle Gold;Make Gold Powder,
         ReplaceOnUse    =   HCBookgoldworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookaluminumworking
@@ -943,6 +1028,7 @@ module Hydrocraft
 		Icon			=	HCBookaluminumworking,
 		TeachedRecipes  =   Make Aluminum Ingot;Recycle Aluminum;Make Aluminum Tent Peg;Make Aluminum Powder;Make Aluminum Foil,
         ReplaceOnUse    =   HCBookaluminumworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooktitaniumworking
@@ -953,6 +1039,7 @@ module Hydrocraft
 		Icon			=	HCBooktitaniumworking,
 		TeachedRecipes  =   Make Titanium Ingot;Make Titanium Rod;Make Titanium Powder,
         ReplaceOnUse    =   HCBooktitaniumworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooklithiumworking
@@ -963,6 +1050,7 @@ module Hydrocraft
 		Icon		=	HCBooklithiumworking,
 		TeachedRecipes  =   	Make Lithium Ingot;Recycle Lithium;Make Lithium Powder,
         	ReplaceOnUse    =   	HCBooklithiumworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookrubberworking
@@ -973,6 +1061,7 @@ module Hydrocraft
 		Icon		=	HCBookrubberworking,
 		TeachedRecipes  =   	Make Rubber;Recycle Rubber;Make Vulcanized Rubber;Make Rubber Sheet;Make Rubber Hose;Make Rubber Bungs;Make Sap Catcher;Add Sap Catchers to Rubber Tree;Make Rubber Cement,
         	ReplaceOnUse    =   	HCBookrubberworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookcandlemaking
@@ -983,6 +1072,7 @@ module Hydrocraft
 		Icon		=	HCBookcandlemaking,
 		TeachedRecipes  =   	Make Wax Candle;Make Tallow Candle;Make Candleberry Wax;Recycle Wax;Prepare Cheese Cloth-wrapped Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax;Make Tallow,
         	ReplaceOnUse    =   	HCBookcandlemaking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooksoapmaking
@@ -993,6 +1083,7 @@ module Hydrocraft
 		Icon		=	HCBooksoapmaking,
 		TeachedRecipes  =   	Make Tallow;Make Homemade Soap,
         	ReplaceOnUse    =   	HCBooksoapmaking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbasketry
@@ -1003,6 +1094,7 @@ module Hydrocraft
 		Icon		=	HCBookbasketry,
 		TeachedRecipes  =   	Make Wicker Basket;Make Birch Bark Basket;Make Straw Basket;Make Fishing Basket;Weave Reed Mat;Dry Reed Mat;Make Netting,
         	ReplaceOnUse    =   	HCBookbasketry,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookmasonry
@@ -1013,6 +1105,7 @@ module Hydrocraft
 		Icon		=	HCBookmasonry,
 		TeachedRecipes  =   	Make Grey Bricks;Make Red Bricks;Make Mortar;Construct Brick Pillar;Make Smelter;Make Blast Furnace;Upgrade to Blast Furnace;Make Concrete Ingot;Make Concrete Powder;Make Concrete;Make Plaster;Make Plaster Powder;Make Gypsum Powder;Make Concrete Block;Make Hempcrete Block;Make Refractory Brick;Make Leadcrete Block,
         	ReplaceOnUse    =   	HCBookmasonry,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookstoneworking
@@ -1023,6 +1116,7 @@ module Hydrocraft
 		Icon		=	HCBookstoneworking,
 		TeachedRecipes  =   	Make Gravel;Make Sand;Make Mortar;Construct Stone Pillar;Make Stone Anvil;Make Tombstone;Construct Tar Kiln;Construct Well;Construct Cellar;Make Stone Wheel;Construct Oil Press;Construct Grindstone;Make Stone Arrowhead;Build Stamp Mill;Upgrade Stamp Mill;Make Obelisk,
         	ReplaceOnUse    =   	HCBookstoneworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookhunting
@@ -1033,6 +1127,7 @@ module Hydrocraft
 		Icon		=	HCBookhunting,
 		TeachedRecipes  =   	Hunt Animals;Kill Animal;Skin Animal;Butcher Carcass;Make Drying Frame;Dry Fur;Dry Hide;Cut Dry Fur;Cut Hide Straps;Open Bear Trap;Set Bear Trap;Build Hunting Blind,
         	ReplaceOnUse    =   	HCBookhunting,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookleatherworking
@@ -1043,6 +1138,7 @@ module Hydrocraft
 		Icon		=	HCBookleatherworking,
 		TeachedRecipes  =  Make Leather;Cut Leather;Make Hardened Leather;Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Bellows;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Seed Bag;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Leather Sand Bag;Stitch Boxing Gloves;Make Camo Leather;Stitch Green Camo Leather Jacket;Stitch Leather Pants;Stitch Hardened Leather Pants,
         ReplaceOnUse    =   	HCBookleatherworking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooktailoring
@@ -1053,6 +1149,7 @@ module Hydrocraft
 		Icon		=	HCBooktailoring,
 		TeachedRecipes  =   	Stitch Linen Shirt;Make Netting;Make Spindle;Make Work Gloves;Stitch Linen Pants;Make Gym Towel;Make Bag;Recycle Bag;Recycle Sack;Stitch Garden Apron;Make Tailor's Workbench;Knit Wool Socks,
         ReplaceOnUse    =   	HCBooktailoring,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookhatter
@@ -1063,6 +1160,7 @@ module Hydrocraft
 		Icon		=	HCBookhatter,
 		TeachedRecipes  =  Make Straw Hat,
         ReplaceOnUse    =   	HCBookhatter,
+		DisplayCategory	=   LitR,
 	}
 
 
@@ -1074,6 +1172,7 @@ module Hydrocraft
 		Icon		=	HCBookcobbling,
 		TeachedRecipes  =   	Make Leather Boots,
         ReplaceOnUse    =   	HCBookcobbling,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookarmorcrafting
@@ -1084,6 +1183,7 @@ module Hydrocraft
 		Icon			=	HCBookarmorcrafting,
 		TeachedRecipes  =   Reinforce Shirt;Reinforce Pants;Stitch Cow Fur Jacket;Stitch Hardened Leather Gloves;Make Leather Gloves;Make War Dog Armor;Make Spiked War Dog Armor;Attach Armor to Dog;Remove Armor from Wardog,
         ReplaceOnUse    =   HCBookarmorcrafting,
+		DisplayCategory	=   LitR,
 	}
 
     	item HCBookherbalism
@@ -1094,6 +1194,7 @@ module Hydrocraft
         	Icon		=	HCBookherbalism,
         	TeachedRecipes  =  Harvest Flax;Add Herbal Medicine;Make Bunch of Berries;Dry Leaves;Dry Herbs;Dry Flower;Dry Spice;Dry Berry;Make Herbal Tea;Make Teabag;Grind Tobacco;Roll Cigar;Cure Hemp Bud;Soak Fresh Jute Stems;Dry Jute Stems;Make Mild Poison;Make Strong Poison;Extract Seed from Raw Rice;Thresh Rice;Shuck Corn;Harvest Pollen;Harvest Pollen Considered;Gather Seeds,
         	ReplaceOnUse    =   	HCBookherbalism,
+		DisplayCategory	=   LitR,
     	}
 
 	item HCBooksericulture
@@ -1104,6 +1205,7 @@ module Hydrocraft
 		Icon		=	HCBooksericulture,
 		TeachedRecipes  =   	Breed Silkmoths;Feed Silkworm;Harvest Silk;Cook Empty Silk Cocoon,
         	ReplaceOnUse    =   	HCBooksericulture,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookfungiguide
@@ -1114,6 +1216,7 @@ module Hydrocraft
 		Icon		=	HCBookfungiguide,
 		TeachedRecipes  =   	Make Bunch of Mushrooms,
         	ReplaceOnUse    =   	HCBookfungiguide,
+		DisplayCategory	=   LitR,
 	}
 
 
@@ -1125,6 +1228,7 @@ module Hydrocraft
 		Icon		=	HCBookpharmacology,
 		TeachedRecipes  =   	Research Painkillers;Research Anti-Depression Medication;Research Antibiotics;Research Crystal Meth;Research Opium;Research Beta Blocker Medication,
         	ReplaceOnUse    =   	HCBookpharmacology,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookwelding
@@ -1135,6 +1239,7 @@ module Hydrocraft
 		Icon		=	HCBookwelding,
 		TeachedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Cut Sheet Of Metal;Make Large Sheet Of Metal;Make Metal Pipe;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Metal Wheels;Make Pulley;Make Mine Cart;Make Chain;Make Large Metal Ring,
         ReplaceOnUse    =   	HCBookwelding,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookwire
@@ -1145,6 +1250,7 @@ module Hydrocraft
 		Icon			=	HCBookwire,
 		TeachedRecipes  =   Make Welding Rods;Make Copper Wire;Make Lead Wire;Make Iron Wire;Make Steel Wire;Make Electrum Wire;Make Constantan Wire;Make Aluminum Wire;Make Zinc Wire;Make Thermocouple Wire;Make Constantan Heating Coil;Make Nichrome Heating Coil;Make Kanthal Heating Coil;Make Barbed Wire;Make Razor Wire,
         ReplaceOnUse    =   HCBookwire,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookmagnets
@@ -1155,6 +1261,7 @@ module Hydrocraft
 		Icon		=	HCBookmagnets,
 		TeachedRecipes  =   	Make Magnetite Ingot;Make Giant Magnet;Search Junk with Giant Magnet;Make Magnetite Powder,
         	ReplaceOnUse    =   	HCBookmagnets,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookindustrial
@@ -1165,6 +1272,7 @@ module Hydrocraft
 		Icon		=	HCBookindustrial,
 		TeachedRecipes  =   	Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Gears;Make Small Sheet Of Metal;Make Sheet Of Metal;Make Crank;Make Lever;Make Small Rolling Mill;Make Conveyor Belt;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct,
         ReplaceOnUse    =   	HCBookindustrial,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookgunsmithing
@@ -1175,6 +1283,7 @@ module Hydrocraft
 		Icon		=	HCBookgunsmithing,
 		TeachedRecipes  =	Make Gunpowder;Make 9mm Bullets;Make .223 Bullets;Make .308 Bullets;Make Shotgun Shells,
         ReplaceOnUse    =   	HCBookgunsmithing,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookrocketry
@@ -1185,6 +1294,7 @@ module Hydrocraft
 		Icon		=	HCBookrocketry,
 		TeachedRecipes  =   	Craft Rocket,
         	ReplaceOnUse    =   	HCBookrocketry,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookjunk
@@ -1195,6 +1305,7 @@ module Hydrocraft
 		Icon		=	HCBookjunk,
 		TeachedRecipes  =   	Dismantle Fridge;Dismantle TV;Dismantle Washing Machine;Dismantle Drying Machine;Dismantle Microwave;Dismantle Tredmill;Fix Microwave;Fix Fridge;Fix Washing Machine;Fix Drying Machine;Make Copper Cooling Rack,
         	ReplaceOnUse    =   	HCBookjunk,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookauto
@@ -1205,6 +1316,7 @@ module Hydrocraft
 		Icon		=	HCBookauto,
 		TeachedRecipes  =   	Dismantle Auto Parts,
         	ReplaceOnUse    =   	HCBookauto,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbicycle
@@ -1215,6 +1327,7 @@ module Hydrocraft
 		Icon		=	HCBookbicycle,
 		TeachedRecipes  =   	Repair Bicycle;Dismantle Bicycle;Attach Baskets to Bicycle,
         	ReplaceOnUse    =   	HCBookbicycle,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookanarchist
@@ -1225,6 +1338,7 @@ module Hydrocraft
 		Icon		= 	HCBookanarchist,
 		TeachedRecipes  = 	Add Private Notes to Anarchist Cookbook;Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Electric Clamp;Find Seeds;Make Crossbow Scope,
         	ReplaceOnUse    = 	HCBookanarchist,
+		DisplayCategory	=   LitR,
     	}
 
 	item HCBookanarchisthmtd
@@ -1235,6 +1349,7 @@ module Hydrocraft
 		Icon		= 	HCBookanarchistpn01,
 		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Electric Clamp;Make Crossbow Scope,
         	ReplaceOnUse    = 	HCBookanarchisthmtd,
+		DisplayCategory	=   LitR,
     	}
 
 	item HCBookanarchistammonal
@@ -1245,6 +1360,7 @@ module Hydrocraft
 		Icon		= 	HCBookanarchistpn01,
 		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Ammonal;Dry Ammonal;Cook Ammonal;Fill Ammonal in Bag;Make Electric Clamp;Make Crossbow Scope,
         	ReplaceOnUse    = 	HCBookanarchistammonal,
+		DisplayCategory	=   LitR,
     	}
 
 	item HCBookanarchistpn02
@@ -1255,6 +1371,7 @@ module Hydrocraft
 		Icon		= 	HCBookanarchistpn02,
 		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Ammonal;Dry Ammonal;Fill Ammonal in Bag;Make Ammonal Bomb;Make Electric Clamp,
         	ReplaceOnUse    = 	HCBookanarchistpn02,
+		DisplayCategory	=   LitR,
     	}
 
 	item HCBookrussian
@@ -1267,6 +1384,7 @@ module Hydrocraft
 		Icon		=	HCBookrussian,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookrussian,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookkorean
@@ -1279,6 +1397,7 @@ module Hydrocraft
 		Icon		=	HCBookkorean,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookkorean,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookjapanese
@@ -1291,6 +1410,7 @@ module Hydrocraft
 		Icon		=	HCBookjapanese,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookjapanese,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookchinese
@@ -1303,6 +1423,7 @@ module Hydrocraft
 		Icon		=	HCBookchinese,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookchinese,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookportuguise
@@ -1315,6 +1436,7 @@ module Hydrocraft
 		Icon		=	HCBookportuguise,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookportuguise,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookhindi
@@ -1327,6 +1449,7 @@ module Hydrocraft
 		Icon		=	HCBookhindi,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookhindi,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookarabic
@@ -1339,6 +1462,7 @@ module Hydrocraft
 		Icon		=	HCBookarabic,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookarabic,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookgreek
@@ -1351,6 +1475,7 @@ module Hydrocraft
 		Icon		=	HCBookgreek,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookgreek,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookfinnish
@@ -1363,6 +1488,7 @@ module Hydrocraft
 		Icon		=	HCBookfinnish,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookfinnish,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookhebrew
@@ -1375,6 +1501,7 @@ module Hydrocraft
 		Icon		=	HCBookhebrew,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookhebrew,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookpolish
@@ -1387,6 +1514,7 @@ module Hydrocraft
 		Icon		=	HCBookpolish,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookpolish,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookzulu
@@ -1399,6 +1527,7 @@ module Hydrocraft
 		Icon		=	HCBookzulu,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookzulu,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookegyptian
@@ -1411,6 +1540,7 @@ module Hydrocraft
 		Icon		=	HCBookegyptian,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookegyptian,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookczech
@@ -1423,6 +1553,7 @@ module Hydrocraft
 		Icon		=	HCBookczech,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookczech,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookdutch
@@ -1435,6 +1566,7 @@ module Hydrocraft
 		Icon		=	HCBookdutch,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookdutch,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookkoran
@@ -1447,6 +1579,7 @@ module Hydrocraft
 		Icon		=	HCBookkoran,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookkoran,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBooktora
@@ -1459,6 +1592,7 @@ module Hydrocraft
 		Icon		=	HCBooktora,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBooktora,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBooklocksmithing
@@ -1469,6 +1603,7 @@ module Hydrocraft
 		Icon		=	HCBooklocksmithing,
 		TeachedRecipes  =   	Make Bronze Doorknob;Make Iron Hinge;Make Steel Padlock;Make Titanium Hinge;Make Metal Safe;Make Metal Combination Safe,
         	ReplaceOnUse    =   	HCBooklocksmithing,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookmicrobiology
@@ -1479,6 +1614,7 @@ module Hydrocraft
 		Icon		=	HCBookmicrobiology,
 		TeachedRecipes  =   	Look Through Microscope;Prepare Petri Dish;Make Homemade Agar;Prepare Agar;Clean Petri Dish,
         	ReplaceOnUse    =   	HCBookmicrobiology,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookgardening
@@ -1489,6 +1625,7 @@ module Hydrocraft
 		Icon		=	HCBookgardening,
 		TeachedRecipes  =   	Make Gardening Workbench;Plant Crop;Harvest Crop;Make Fertile Soil;Build Planter;Fill Clay Pot with Dirt;Build Scarecrow Stand;Attatch Scarecrow;Attatch Corpse Scarecrow;Make Mildew Cure;Make Flies Cure;Build Trellis Kit;Build Compost Bin;Make Compost;Fill Bag With Compost;Fill Bag With Rice Hull Charcoal;Build Composter,
         	ReplaceOnUse    =   	HCBookgardening,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooksculpting
@@ -1499,6 +1636,7 @@ module Hydrocraft
 		Icon		=	HCBooksculpting,
 		TeachedRecipes  =   	Make Marble Statue;Make Marble Pedestal;Carve Venus Figurine,
         	ReplaceOnUse    =   	HCBooksculpting,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookastrology
@@ -1511,6 +1649,7 @@ module Hydrocraft
 		Icon		=	HCBookastrology,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookastrology,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookcalligraphy
@@ -1523,6 +1662,7 @@ module Hydrocraft
 		Icon		=	HCBookcalligraphy,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookcalligraphy,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookarcheology
@@ -1535,6 +1675,7 @@ module Hydrocraft
 		Icon		=	HCBookarcheology,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookarcheology,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookradio
@@ -1547,6 +1688,7 @@ module Hydrocraft
 		Icon		=	HCBookradio,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookradio,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookecology
@@ -1559,6 +1701,7 @@ module Hydrocraft
 		Icon		=	HCBookecology,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBookecology,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookorganicchemistry
@@ -1569,6 +1712,7 @@ module Hydrocraft
 		Icon		=	HCBookorganicchemistry,
 		TeachedRecipes  =   	Make Bioplastic;Build Biogas Collector;Make Biogas,
         	ReplaceOnUse    =   	HCBookorganicchemistry,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooksailing
@@ -1581,6 +1725,7 @@ module Hydrocraft
 		Icon		=	HCBooksailing,
 		BoredomChange	=	-5,
         	ReplaceOnUse    =   	HCBooksailing,
+		DisplayCategory	=   LitE,
 	}
 
 	item HCBookexplosives
@@ -1591,6 +1736,7 @@ module Hydrocraft
 		Icon		=	HCBookexplosives,
 		TeachedRecipes  =   	Make Gunpowder;Make Thermite;Make Glycerin;Make Dynamite;Craft Propane Bomb Trap;Set Propane Bomb Trap,
         	ReplaceOnUse    =   	HCBookexplosives,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookbiodiesel
@@ -1601,6 +1747,7 @@ module Hydrocraft
 		Icon		=	HCBookbiodiesel,
 		TeachedRecipes  =   	Cook Pot of Vegtable Oil;Make Methoxide;Make Raw Biodiesel;Remove Glycerin;Wash Biodiesel;Store Biodiesel;Add Gasoline to Biodiesel,
         	ReplaceOnUse    =   	HCBookbiodiesel,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookdistillery
@@ -1611,6 +1758,7 @@ module Hydrocraft
 		Icon		=	HCBookdistillery,
 		TeachedRecipes  =   	Make Copper Cooler;Make Copper Mashpot;Build Distillery;Distill Fish Oil,
         	ReplaceOnUse    =   	HCBookdistillery,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookphotography
@@ -1621,6 +1769,7 @@ module Hydrocraft
 		Icon		=	HCBookphotography,
 		TeachedRecipes  =   	Make Photography Workbench,
         	ReplaceOnUse    =   	HCBookphotography,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookmycology
@@ -1631,6 +1780,7 @@ module Hydrocraft
 		Icon		=	HCBookmycology,
 		TeachedRecipes  =   	Examine Biowaste;Cultivate Penicillium;Cultivate Aspergillus;Cultivate Yeast;Cultivate Slime Mold;Extract Yeast,
         	ReplaceOnUse    =   	HCBookmycology,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooktaxidermy
@@ -1641,6 +1791,7 @@ module Hydrocraft
 		Icon		=	HCBooktaxidermy,
 		TeachedRecipes  =   	Make Taxidermy Workbench;Create Glass Animal Eyes;Craft Small Animal Armature;Attach Straw to Small Animal Armature;Craft Medium Animal Armature;Attach Straw to Medium Animal Armature;Craft Taxidermy Mouse;Craft Taxidermy Rabbit,
         	ReplaceOnUse    =   	HCBooktaxidermy,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookcryptozoology
@@ -1650,6 +1801,7 @@ module Hydrocraft
 		DisplayName	=	Cryptozoology Textbook,
 		Icon		=	HCBookcryptozoology,
         	ReplaceOnUse    =   	HCBookcryptozoology,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookpapermaking
@@ -1660,6 +1812,7 @@ module Hydrocraft
 		Icon		=	HCBookpapermaking,
 		TeachedRecipes  =   	Make Rag Ball;Make Pulp;Make Netting;Make Paper Screen;Put Pulp onto Paper Screen;Dry Pulp;Remove Paper Screen,
         	ReplaceOnUse    =   	HCBookpapermaking,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBooktoys
@@ -1670,6 +1823,7 @@ module Hydrocraft
 		Icon		=	HCBooktoys,
 		TeachedRecipes  =  Build Toy Wagon;Carve Toy Horse;Make Straw Doll;Make Leather Ball;Create Glass Marbles,
         	ReplaceOnUse    =   	HCBooktoys,
+		DisplayCategory	=   LitR,
 	}
 
 	item HCBookplastics
@@ -1679,6 +1833,7 @@ module Hydrocraft
 		DisplayName	=	Plastics Textbook,
 		Icon		=	HCBookplastics,
         ReplaceOnUse    =   	HCBookplastics,
+		DisplayCategory	=   LitR,
 	}
 
 /************************RECIPES************************/	

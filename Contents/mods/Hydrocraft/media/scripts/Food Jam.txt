@@ -24,6 +24,7 @@ item HCJamgrape
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamapple
@@ -42,6 +43,7 @@ item HCJamapple
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamorange
@@ -60,6 +62,7 @@ item HCJamorange
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJampeach
@@ -78,6 +81,7 @@ item HCJampeach
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJampear
@@ -96,6 +100,7 @@ item HCJampear
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamwatermelon
@@ -114,6 +119,7 @@ item HCJamwatermelon
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJampineapple
@@ -132,6 +138,7 @@ item HCJampineapple
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamcherry
@@ -150,6 +157,7 @@ item HCJamcherry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamstrawberry
@@ -168,6 +176,7 @@ item HCJamstrawberry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamblueberry
@@ -186,6 +195,7 @@ item HCJamblueberry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamblackberry
@@ -204,6 +214,7 @@ item HCJamblackberry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamwildberry
@@ -222,6 +233,7 @@ item HCJamwildberry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamhuckleberry
@@ -240,6 +252,7 @@ item HCJamhuckleberry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamcranberry
@@ -258,6 +271,7 @@ item HCJamcranberry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamraspberry
@@ -276,6 +290,7 @@ item HCJamraspberry
         Proteins 			= 	2,
         Lipids 				= 	0.5,
         Calories 			= 	1390,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamstarter
@@ -292,6 +307,7 @@ item HCJamstarter
         Proteins 			= 	0,
         Lipids 				= 	0,
         Calories 			= 	125,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJamgrapepot
@@ -316,6 +332,7 @@ item HCJamgrapepot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamapplepot
@@ -340,6 +357,7 @@ item HCJamapplepot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamorangepot
@@ -364,6 +382,7 @@ item HCJamorangepot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJampeachpot
@@ -387,6 +406,7 @@ item HCJampeachpot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJampearpot
@@ -411,6 +431,7 @@ item HCJampearpot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamwatermelonpot
@@ -435,6 +456,7 @@ item HCJamwatermelonpot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJampineapplepot
@@ -459,6 +481,7 @@ item HCJampineapplepot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamcherrypot
@@ -483,6 +506,7 @@ item HCJamcherrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamstrawberrypot
@@ -507,6 +531,7 @@ item HCJamstrawberrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamblueberrypot
@@ -531,6 +556,7 @@ item HCJamblueberrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamblackberrypot
@@ -555,6 +581,7 @@ item HCJamblackberrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamwildberrypot
@@ -579,6 +606,7 @@ item HCJamwildberrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamhuckleberrypot
@@ -603,6 +631,7 @@ item HCJamhuckleberrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamcranberrypot
@@ -627,6 +656,7 @@ item HCJamcranberrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJamraspberrypot
@@ -651,6 +681,7 @@ item HCJamraspberrypot
         Proteins 			= 	4,
         Lipids 				= 	1,
         Calories 			= 	2780,
+		DisplayCategory		=   FoodP,
 	}
 
 /************************RECIPES************************/

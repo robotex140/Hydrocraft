@@ -44,6 +44,7 @@ item HCSmithyhammertitanium
         BreakSound  			=   	BreakMetalItem,
         TreeDamage  			=   	1,
         AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
 	}
 
 item HCSmithyhammersteel
@@ -79,6 +80,7 @@ item HCSmithyhammersteel
         BreakSound  			=   	BreakMetalItem,
         TreeDamage  			=   	1,
         AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
 	}
 
 item HCSmithyhammeriron
@@ -114,6 +116,7 @@ item HCSmithyhammeriron
         BreakSound  			=   	BreakMetalItem,
         TreeDamage  			=   	1,
         AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
 	}
 
 item HCSmithyhammerbronze
@@ -149,6 +152,7 @@ item HCSmithyhammerbronze
         BreakSound  			=   	BreakMetalItem,
         TreeDamage  			=   	1,
         AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
 	}
 
 item HCSmithyhammercopper
@@ -184,6 +188,7 @@ item HCSmithyhammercopper
         BreakSound  			=   	BreakMetalItem,
         TreeDamage  			=   	1,
         AttachmentType = Hammer,
+		DisplayCategory		=	Tool,
 	}
 
 item HCWarhammersteel
@@ -223,6 +228,7 @@ item HCWarhammersteel
        	TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true
 		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 item HCWarhammeriron
@@ -262,6 +268,7 @@ item HCWarhammeriron
        	TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true,
 		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 item HCWarhammerbronze
@@ -301,6 +308,7 @@ item HCWarhammerbronze
        	TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true,
 		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 item HCWarhammercopper
@@ -340,6 +348,7 @@ item HCWarhammercopper
        	TreeDamage  			=   	10,
 		RequiresEquippedBothHands 	= 	true,
 		AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCSpikedmacesteel
@@ -381,6 +390,7 @@ item HCWarhammercopper
         BreakSound  				= BreakMetalItem,
         TreeDamage  				= 10,
         AttachmentType 				= Shovel,
+		DisplayCategory		=	WepMelee,
 
 
 
@@ -425,6 +435,7 @@ item HCWarhammercopper
         BreakSound  					= BreakMetalItem,
         TreeDamage  					= 10,
         AttachmentType 					= Shovel,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCSpikedmacebronze
@@ -465,6 +476,7 @@ item HCWarhammercopper
         BreakSound  				= 	BreakMetalItem,
         TreeDamage  				= 	10,
         AttachmentType 				= 	Hammer,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCSpikedmacecopper
@@ -505,6 +517,7 @@ item HCWarhammercopper
         BreakSound  				= 	BreakMetalItem,
         TreeDamage  				= 	10,
         AttachmentType 				= 	Hammer,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCSpikedflailsteel
@@ -543,6 +556,7 @@ item HCWarhammercopper
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	1,
         AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 
@@ -582,6 +596,7 @@ item HCWarhammercopper
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	1,
         AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCSpikedflailbronze
@@ -620,6 +635,7 @@ item HCWarhammercopper
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	1,
         AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCSpikedflailcopper
@@ -658,6 +674,7 @@ item HCWarhammercopper
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	1,
         AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 
@@ -697,6 +714,7 @@ item HCWarhammercopper
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	1,
         AttachmentType 		= BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 /************************RECIPES************************/	

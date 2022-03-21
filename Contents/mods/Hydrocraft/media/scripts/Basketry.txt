@@ -16,6 +16,7 @@ module Hydrocraft
         Capacity            = 6,
         DisplayName         = Wicker Basket,
         Icon                = HCWickerbasket,
+		DisplayCategory		= Container,
     }
 
     item HCBirchbarkbasket
@@ -26,6 +27,7 @@ module Hydrocraft
         Capacity            = 9,
         DisplayName         = Birch Bark Basket,
         Icon                = HCBirchbarkbasket,
+		DisplayCategory		= Container,
     }
 
     item HCStrawbasket
@@ -36,6 +38,7 @@ module Hydrocraft
         Capacity            = 16,
         DisplayName         = Straw Basket,
         Icon                = HCStrawbasket,
+		DisplayCategory		= Container,
     }
 
     item HCBirchbarkcup
@@ -46,6 +49,7 @@ module Hydrocraft
         Capacity            = 9,
         DisplayName         = Birch Bark Cup,
         Icon                = HCBirchbarkcup,
+		DisplayCategory		= Container,
     }
 
 item HCBirchbarkcup
@@ -58,6 +62,7 @@ item HCBirchbarkcup
         icon 			= HCBirchbarkcup,
 	RainFactor 		= 0.2,
 	Tooltip = Tooltip_item_RainFromGround,
+		DisplayCategory		= Container,
     }
 
 item HCBirchbarkcupfull
@@ -75,6 +80,7 @@ item HCBirchbarkcupfull
 	Icon			=	HCBirchbarkcup,
 	RainFactor 		= 	0.2,
 	Tooltip = Tooltip_item_RainFromGround,
+	DisplayCategory		= FoodB,
     }
 
 /************************RECIPES************************/

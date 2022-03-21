@@ -25,6 +25,7 @@ item HCUHTmilk
     Calories 			= 	460,
 	CantBeFrozen 		= 	TRUE,
 	Packaged 			= 	TRUE,
+	DisplayCategory          =   FoodP,
     }
 
 item HCSoymilk
@@ -50,6 +51,7 @@ item HCSoymilk
 	CustomContextMenu   =   Drink,
     CustomEatSound      =   DrinkingFromBottle,
 	ReplaceOnUse		=	WhiskeyEmpty,
+	DisplayCategory          =   FoodP,
     }
 
 
@@ -65,6 +67,7 @@ item HCEvaporatedmilk
     Calories 			= 	536,
     Packaged 			= 	TRUE,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodN,
 	}
 
 	
@@ -87,6 +90,7 @@ item HCEvaporatedmilkopen
     Packaged 			= 	TRUE,
 	CantBeFrozen		=	TRUE,
     EvolvedRecipeName 	= 	Creamy,
+	DisplayCategory          =   FoodC,
 	}
 
 item HCMilkjug
@@ -111,6 +115,7 @@ item HCMilkjug
     CantBeFrozen 			= 	TRUE,
 	ReplaceOnDeplete		=	Hydrocraft.HCMilkjugempty,
 	ReplaceOnUse			=	Hydrocraft.HCMilkjugempty,	
+	DisplayCategory          =   FoodP,
     	}
 
 item HCMilkjugwater
@@ -127,6 +132,7 @@ item HCMilkjugwater
 	Icon				=	HCMilkjugwater,
 	RainFactor 			= 	0.2,
 	Tooltip 			= 	Tooltip_item_RainFromGround,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCMilkjugchocolate
@@ -151,6 +157,7 @@ item HCMilkjugchocolate
         CantBeFrozen 			= 	TRUE,
 	ReplaceOnDeplete		=	Hydrocraft.HCMilkjugchocolateempty,
 	ReplaceOnUse			=	Hydrocraft.HCMilkjugchocolateempty,	
+	DisplayCategory          =   FoodP,
     	}
 
 item HCMilkjugchocolatewater
@@ -167,6 +174,7 @@ item HCMilkjugchocolatewater
 	Icon				=	HCMilkjugchocolatewater,
 	RainFactor 			= 	0.2,
 	Tooltip 			= 	Tooltip_item_RainFromGround,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCCream
@@ -186,6 +194,7 @@ item HCCream
     Lipids 				= 	11,
     Calories 			= 	136,
     Packaged 			= 	TRUE,
+	DisplayCategory          =   FoodP,
     }
 
 	item HCWhippedcreamcan
@@ -208,6 +217,7 @@ item HCCream
 		Proteins 			= 	12,
 		Lipids 				= 	81,
 		Calories 			= 	949,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCWhippedcreamcanRotten
@@ -216,6 +226,7 @@ item HCWhippedcreamcanRotten
 		Type			 = Normal,
 		DisplayName		 = Can of Rotten Whipped Cream,
 		Icon			 = HCWhippedcreamcan,
+	DisplayCategory          =   Useless,
 	}
 
 item HCWhippedcreamcanempty
@@ -224,6 +235,7 @@ item HCWhippedcreamcanempty
 		Type			 = Normal,
 		DisplayName		 = Empty Can of Whipped Cream,
 		Icon			 = HCWhippedcreamcan,
+	DisplayCategory          =   Useless,
 	}
 
 item HCWoodenbucketheatedmilk
@@ -232,6 +244,7 @@ item HCWoodenbucketheatedmilk
 	DisplayName			=	Wooden Bucket with Heated Milk,
 	Weight				=	4,
 	Icon				=	HCWoodenbucketheatedmilk,
+	DisplayCategory          =   CookRef,
     }
 
 item HCWoodenbucketfermentedmilk
@@ -240,6 +253,7 @@ item HCWoodenbucketfermentedmilk
 	DisplayName			=	Wooden Bucket with Fermented Milk,
 	Weight				=	4,
 	Icon				=	HCWoodenbucketfermentedmilk,
+	DisplayCategory          =   CookRef,
     }
 
 item HCJarhomemadeyogurt
@@ -260,6 +274,7 @@ item HCJarhomemadeyogurt
         Proteins 			= 	35,
         Lipids 				= 	33,
         Calories 			= 	610,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtstrawberries
@@ -280,6 +295,7 @@ item HCJarhomemadeyogurtstrawberries
         Proteins 			= 	35.7,
         Lipids 				= 	33.3,
         Calories 			= 	642,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtcranberries
@@ -301,6 +317,7 @@ item HCJarhomemadeyogurtcranberries
         Proteins 			= 	35.5,
         Lipids 				= 	33.1,
         Calories 			= 	656,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtraspberries
@@ -322,6 +339,7 @@ item HCJarhomemadeyogurtraspberries
         Proteins 			= 	36.2,
         Lipids 				= 	33.7,
         Calories 			= 	662,
+	DisplayCategory          =   FoodP,
     }
 
 
@@ -344,6 +362,7 @@ item HCJarhomemadeyogurtblueberries
         Proteins 			= 	35.7,
         Lipids 				= 	33.3,
         Calories 			= 	667,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtcitrusfruit
@@ -365,6 +384,7 @@ item HCJarhomemadeyogurtcitrusfruit
         Proteins 			= 	35.7,
         Lipids 				= 	33.2,
         Calories 			= 	640,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtapple
@@ -386,6 +406,7 @@ item HCJarhomemadeyogurtapple
         Proteins 			= 	35.3,
         Lipids 				= 	33.2,
         Calories 			= 	662,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtstracciatella
@@ -407,6 +428,7 @@ item HCJarhomemadeyogurtstracciatella
         Proteins 			= 	50.6,
         Lipids 				= 	119,
         Calories 			= 	1806,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadetzatziki
@@ -427,6 +449,7 @@ item HCJarhomemadetzatziki
         Proteins 			= 	37.1,
         Lipids 				= 	33.3,
         Calories 			= 	655,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtpear
@@ -447,6 +470,7 @@ item HCJarhomemadeyogurtpear
         Proteins 			= 	35.8,
         Lipids 				= 	33.2,
         Calories 			= 	724,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtbanana
@@ -467,6 +491,7 @@ item HCJarhomemadeyogurtbanana
         Proteins 			= 	36.29,
         Lipids 				= 	33.39,
         Calories 			= 	715,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtcherry
@@ -487,6 +512,7 @@ item HCJarhomemadeyogurtcherry
         Proteins 			= 	35.1,
         Lipids 				= 	33,
         Calories 			= 	624,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtpineapple
@@ -507,6 +533,7 @@ item HCJarhomemadeyogurtpineapple
         Proteins 			= 	39.89,
         Lipids 				= 	34.09,
         Calories 			= 	992,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtpeach
@@ -527,6 +554,7 @@ item HCJarhomemadeyogurtpeach
         Proteins 			= 	36.36,
         Lipids 				= 	33.38,
         Calories 			= 	668,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtcurrant
@@ -547,6 +575,7 @@ item HCJarhomemadeyogurtcurrant
         Proteins 			= 	51,
         Lipids 				= 	33,
         Calories 			= 	750,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtgrape
@@ -567,6 +596,7 @@ item HCJarhomemadeyogurtgrape
         Proteins 			= 	35.58,
         Lipids 				= 	33.32,
         Calories 			= 	610.62,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtwatermelon
@@ -587,6 +617,7 @@ item HCJarhomemadeyogurtwatermelon
         Proteins 			= 	39.2,
         Lipids 				= 	34.4,
         Calories 			= 	920,
+	DisplayCategory          =   FoodP,
     }
 
 item HCJarhomemadeyogurtlemon
@@ -607,6 +638,7 @@ item HCJarhomemadeyogurtlemon
         Proteins 			= 	40,
         Lipids 				= 	43,
         Calories 			= 	727,
+	DisplayCategory          =   FoodP,
     }
 
 	

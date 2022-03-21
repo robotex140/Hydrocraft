@@ -22,6 +22,7 @@ item HCChocolateshavings
     Lipids 				= 	86,
     Calories 			= 	1196,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodN,
     }
 
 item HCChocolatewhite
@@ -40,6 +41,7 @@ item HCChocolatewhite
 	CantBeFrozen 		= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse		=	HCChocolatewhitetrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCChocolatedark
@@ -58,6 +60,7 @@ item HCChocolatedark
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCChocolatedarktrash,
+	DisplayCategory          =   FoodN,
 	}
 	
 item HCTrailmix
@@ -76,6 +79,7 @@ item HCTrailmix
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCTrailmixtrash,
+	DisplayCategory          =   FoodN,
 	}
 	
 item HCEnergybar	
@@ -94,6 +98,7 @@ item HCEnergybar
         Calories 			= 	772,
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCGum
@@ -106,6 +111,7 @@ item HCGum
     DisplayName         = 	Pack of Chewing Gum,
     icon 				= 	HCGum,
 	ReplaceOnDeplete	=	HCGumtrash,
+	DisplayCategory          =   FoodN,
     	}
 
 item HCGumstick
@@ -124,6 +130,7 @@ item HCGumstick
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCGumsticktrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCGum2
@@ -135,6 +142,7 @@ item HCGum2
     DisplayName         = 	Pack of Chewing Gum,
     icon 				= 	HCGum2,
 	ReplaceOnDeplete	= 	HCGum2trash,
+	DisplayCategory          =   FoodN,
     	}
 
 item HCGumstick2
@@ -153,6 +161,7 @@ item HCGumstick2
 	CantBeFrozen 		= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse		=	HCGumsticktrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCGum3
@@ -164,6 +173,7 @@ item HCGum3
     DisplayName         = 	Pack of Chewing Gum,
     icon 				= 	HCGum3,
 	ReplaceOnDeplete	= 	HCGum2trash,
+	DisplayCategory          =   FoodN,
     	}
 
 item HCGumstick3
@@ -182,6 +192,7 @@ item HCGumstick3
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCGumsticktrash,
+	DisplayCategory          =   FoodN,
 	}
 
 	item HCCandycorn
@@ -200,6 +211,7 @@ item HCGumstick3
 		CantBeFrozen 		= 	TRUE,
 		Packaged			=	TRUE,
 		ReplaceOnUse		=	HCCandycorntrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCCandymnm
@@ -218,6 +230,7 @@ item HCCandymnm
 	CantBeFrozen		= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse		=	HCCandymnmtrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCCandyrainbow
@@ -236,6 +249,7 @@ item HCCandyrainbow
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCCandyrainbowtrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCGummybears
@@ -254,6 +268,7 @@ item HCGummybears
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCGummybearstrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCGummyworms
@@ -272,6 +287,7 @@ item HCGummyworms
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCGummywormstrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCJellybeans
@@ -290,6 +306,7 @@ item HCJellybeans
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCJellybeanstrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCTaffy
@@ -308,6 +325,7 @@ item HCTaffy
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCTaffytrash,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCCandycherry
@@ -324,6 +342,7 @@ item HCCandycherry
         Lipids 				= 	0,
         Calories 			= 	70,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCCandyapple
@@ -340,6 +359,7 @@ item HCCandyapple
         Lipids 				= 	0,
         Calories 			= 	70,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCCandymixed
@@ -357,6 +377,7 @@ item HCCandymixed
         Lipids 				= 	59.1,
         Calories 			= 	2025,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodN,
 	}
 
 item HCFruitleather
@@ -374,6 +395,7 @@ item HCFruitleather
         Calories 			= 	50,
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
+	DisplayCategory          =   FoodN,
 	}
 
 /************************RECIPES************************/

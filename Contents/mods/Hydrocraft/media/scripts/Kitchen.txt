@@ -14,6 +14,7 @@ item HCSaladtongs
         Type    			= Normal,
         DisplayName         		= Salad Tongs,
         icon 				= HCSaladtongs,
+		DisplayCategory          =   Useless,
     }
 
 item HCChopsticks
@@ -22,6 +23,7 @@ item HCChopsticks
         Type    			= Normal,
         DisplayName         		= Chopsticks,
         icon 				= HCChopsticks,
+		DisplayCategory          =   Cooking,
     }
 
 item HCWhisk
@@ -30,6 +32,7 @@ item HCWhisk
         Type    			= Normal,
         DisplayName         		= Whisk,
         icon 				= HCWhisk,
+		DisplayCategory          =   Cooking,
     }
 
 item HCCookingapron
@@ -38,6 +41,7 @@ item HCCookingapron
         Type    			=    Normal,
         DisplayName    			=    Cooking Apron,
         Icon    			=    HCCookingapron,
+		DisplayCategory          =   Useless,
     }
 
 item HCWaxpaper
@@ -46,6 +50,7 @@ item HCWaxpaper
         Type    			=    Normal,
         DisplayName    			=    Wax Paper,
         Icon    			=    HCWaxpaper,
+		DisplayCategory          =   Useless,
     }
 
 item HCPapertowelwet
@@ -54,6 +59,7 @@ item HCPapertowelwet
 	DisplayName			=	Wet Paper Towel,
 	Icon				=	HCPapertowelwet,
 	Weight				=	0.3,
+		DisplayCategory          =   Useless,
     }
   
 item HCPapertowel
@@ -65,6 +71,7 @@ item HCPapertowel
 	Icon				=	HCPapertowel,
         UseDelta			=	0.1,
 	ReplaceOnDeplete		=	HCPapertowelwet,
+		DisplayCategory          =   Misc,
     }
 
 item HCPapertowelroll
@@ -73,6 +80,7 @@ item HCPapertowelroll
         Type          			=   Normal,
         DisplayName    			=   Roll of Paper Towels,
         Icon    			=   HCPapertowelroll,
+		DisplayCategory          =   Misc,
     }
 
 item HCNapkin
@@ -81,6 +89,7 @@ item HCNapkin
         Type          			=   Normal,
         DisplayName    			=   Napkin,
         Icon    			=   HCNapkin,
+		DisplayCategory          =   Misc,
     }
 
 
@@ -90,6 +99,7 @@ item HCNapkindirty
         Type          			=   Normal,
         DisplayName    			=   Dirty Napkin,
         Icon    			=   HCNapkindirty,
+		DisplayCategory          =   Misc,
     }
 
 item HCNapkinstack
@@ -98,6 +108,7 @@ item HCNapkinstack
         Type          			=   Normal,
         DisplayName    			=   Stack of Napkins,
         Icon    			=   HCNapkinstack,
+		DisplayCategory          =   Misc,
     }
 
 item HCNapkinholder
@@ -106,6 +117,7 @@ item HCNapkinholder
         Type          			=   Normal,
         DisplayName    			=   Napkin Holder,
         Icon    			=   HCNapkinstack,
+		DisplayCategory          =   Misc,
     }
 
 item HCNapkinholderfull
@@ -114,6 +126,7 @@ item HCNapkinholderfull
         Type          			=   Normal,
         DisplayName    			=   Full Napkin Holder,
         Icon    			=   HCNapkinholderfull,
+		DisplayCategory          =   Misc,
     }
 
 item HCPlasticstraw
@@ -122,6 +135,7 @@ item HCPlasticstraw
         Type          			=   Normal,
         DisplayName    			=   Plastic Straw,
         Icon    			=   HCPlasticstraw,
+		DisplayCategory          =   Useless,
     }
 
 item HCCoffeefilterdry
@@ -130,6 +144,7 @@ item HCCoffeefilterdry
         Type    			= Normal,
         DisplayName         		= Dry Coffee Filter,
         icon 				= HCCoffeefilterdry,
+		DisplayCategory          =   Crafting,
     }
 	
 	item HCCoffeefilterbox
@@ -138,6 +153,7 @@ item HCCoffeefilterdry
         Type    			= Normal,
         DisplayName         = Coffee Filter Box,
         icon 				= HCCoffeefilterbox,
+		DisplayCategory          =   Crafting,
     }
 
 item HCCoffeefilterwet
@@ -146,6 +162,7 @@ item HCCoffeefilterwet
         Type    			= Normal,
         DisplayName         		= Wet Coffee Filter,
         icon 				= HCCoffeefilterwet,
+		DisplayCategory          =   Crafting,
     }
 
 item HCCoffeefilterpapertowel
@@ -154,6 +171,7 @@ item HCCoffeefilterpapertowel
         Type    			= Normal,
         DisplayName         		= Drying Coffee Filter,
         icon 				= HCCoffeefilterpapertowel,
+		DisplayCategory          =   Crafting,
     }
 
 item HCThermos
@@ -165,6 +183,7 @@ item HCThermos
 	ReplaceOnUseOn			= WaterSource-HCThermosfull,
         icon 				= HCThermos,
 	RainFactor 			= 1,
+		DisplayCategory          =   Crafting,
     }
 
 item HCThermosfull
@@ -180,6 +199,7 @@ item HCThermosfull
 	ReplaceOnUseOn			=	WaterSource-HCThermosfull,
 	Icon				=	HCThermos,
 	RainFactor 			= 	1,
+		DisplayCategory          =   FoodB,
     }
 
 item HCAlestien
@@ -191,6 +211,7 @@ item HCAlestien
 	ReplaceOnUseOn		= WaterSource-HCAlestienfull,
         icon 			= HCAlestien,
 	RainFactor 		= 0.2,
+		DisplayCategory          =   Crafting,
     }
 
 item HCAlestienfull
@@ -206,6 +227,7 @@ item HCAlestienfull
 	ReplaceOnUseOn		=	WaterSource-HCAlestienfull,
 	Icon			=	HCAlestien,
 	RainFactor 		= 	0.2,
+		DisplayCategory          =   FoodB,
     }
 
 item HCCookiejar
@@ -214,6 +236,7 @@ item HCCookiejar
         Type    			= Normal,
         DisplayName         		= Cookie Jar,
         icon 				= HCCookiejar,
+		DisplayCategory          =   Cooking,
     }
 
 item HCCookiemold
@@ -223,6 +246,7 @@ item HCCookiemold
 	DisplayName			=	Cookie Mold,
 	Icon				=	HCCookiemold,
         MetalValue 			= 	5,
+		DisplayCategory          =   Cooking,
     }
 
 item HCBottleopener
@@ -231,6 +255,7 @@ item HCBottleopener
         Type    			= Normal,
         DisplayName         		= Bottle Opener,
         icon 				= HCBottleopener,
+		DisplayCategory          =   Crafting,
     }
 
 item HCCheesegrater
@@ -239,6 +264,7 @@ item HCCheesegrater
         Type    			= Normal,
         DisplayName         		= Cheese Grater,
         icon 				= HCCheesegrater,
+		DisplayCategory          =   Cooking,
     }
 
 item HCEggbeater
@@ -247,6 +273,7 @@ item HCEggbeater
         Type    			= Normal,
         DisplayName         		= Egg Beater,
         icon 				= HCEggbeater,
+		DisplayCategory          =   Cooking,
     }
 
 item HCColander
@@ -255,6 +282,7 @@ item HCColander
         Type    			= Normal,
         DisplayName         		= Colander,
         icon 				= HCColander,
+		DisplayCategory          =   CraftMine,
     }
 
 item HCSieve
@@ -263,6 +291,7 @@ item HCSieve
         Type    			= Normal,
         DisplayName         		= Sieve,
         icon 				= HCSieve,
+		DisplayCategory          =   Cooking,
     }
 
 item HCJuicer
@@ -271,6 +300,7 @@ item HCJuicer
         Type    			= Normal,
         DisplayName         		= Juicer,
         icon 				= HCJuicer,
+		DisplayCategory          =   Cooking,
     }
 
 item HCJuicer2
@@ -279,6 +309,7 @@ item HCJuicer2
         Type    			= Normal,
         DisplayName         		= Mechanical Juicer,
         icon 				= HCJuicer2,
+		DisplayCategory          =   Cooking,
     }
 
 item HCMeatgrinder
@@ -287,6 +318,7 @@ item HCMeatgrinder
         Type    			= Normal,
         DisplayName         		= Meat Grinder,
         icon 				= HCMeatgrinder,
+		DisplayCategory          =   Cooking,
     }
 
 item HCIcecreamscoop
@@ -295,6 +327,7 @@ item HCIcecreamscoop
         Type    			= Normal,
         DisplayName         		= Ice Cream Scoop,
         icon 				= HCIcecreamscoop,
+		DisplayCategory          =   Cooking,
     }
 
 item HCLadle
@@ -303,6 +336,7 @@ item HCLadle
         Type    			= Normal,
         DisplayName         		= Ladle,
         icon 				= HCLadle,
+		DisplayCategory          =   Cooking,
     }
 
 item HCPizzacutter
@@ -311,6 +345,7 @@ item HCPizzacutter
         Type    			= Normal,
         DisplayName         		= Pizza Cutter,
         icon 				= HCPizzacutter,
+		DisplayCategory          =   Cooking,
     }
 
 item HCPizzastone
@@ -319,6 +354,7 @@ item HCPizzastone
         Type    			= Normal,
         DisplayName     		= Pizza Stone,
         icon 				= HCPizzastone,
+		DisplayCategory          =   Cooking,
     }
 
 item HCSaranwrap
@@ -329,6 +365,7 @@ item HCSaranwrap
 	UseDelta 			= 0.05,
 	DisplayName			= Cling Wrap,
 	Icon 				= HCSaranwrap,
+		DisplayCategory          =   Cooking,
     }
 
 item HCTablespoon
@@ -337,6 +374,7 @@ item HCTablespoon
         Type    			= Normal,
         DisplayName         		= Table Spoon,
         icon 				= HCTablespoon,
+		DisplayCategory          =   Cooking,
     }
 
 item HCTeaspoon
@@ -345,6 +383,7 @@ item HCTeaspoon
         Type    			= Normal,
         DisplayName         		= Teaspoon,
         icon 				= HCTeaspoon,
+		DisplayCategory          =   Cooking,
     }
 
 item HCPlasticspoonbox
@@ -353,6 +392,7 @@ item HCPlasticspoonbox
         Type    			= Normal,
         DisplayName         		= Box of Plastic Spoons,
         icon 				= HCPlasticspoonbox,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticforkbox
@@ -361,6 +401,7 @@ item HCPlasticforkbox
         Type    			= Normal,
         DisplayName         		= Box of Plastic Forks,
         icon 				= HCPlasticforkbox,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticknifebox
@@ -369,6 +410,7 @@ item HCPlasticknifebox
         Type    			= Normal,
         DisplayName         		= Box of Plastic Knives,
         icon 				= HCPlasticknifebox,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticcoffeespoon
@@ -377,6 +419,7 @@ item HCPlasticcoffeespoon
         Type    			= Normal,
         DisplayName         		= Plastic Coffee Spoon,
         icon 				= HCPlasticcoffeespoon,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticplate
@@ -385,6 +428,7 @@ item HCPlasticplate
         Type    			= Normal,
         DisplayName         		= Plastic Plate,
         icon 				= HCPlasticplate,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticplate2
@@ -393,6 +437,7 @@ item HCPlasticplate2
         Type    			= Normal,
         DisplayName         		= Plastic Plate,
         icon 				= HCPlasticplate2,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticplatestack
@@ -401,6 +446,7 @@ item HCPlasticplatestack
         Type    			= Normal,
         DisplayName         		= Stack of Plastic Plates,
         icon 				= HCPlasticplatestack,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticplatestack2
@@ -409,6 +455,7 @@ item HCPlasticplatestack2
         Type    			= Normal,
         DisplayName         		= Stack of Plastic Plates,
         icon 				= HCPlasticplatestack2,
+		DisplayCategory          =   Useless,
     }
 
 item HCPlasticcup
@@ -420,6 +467,7 @@ item HCPlasticcup
 	ReplaceOnUseOn		= WaterSource-HCPlasticcupfull,
         icon 			= HCPlasticcup,
 	RainFactor 		= 0.2,
+		DisplayCategory          =   Misc,
     }
 
 item HCPlasticcupfull
@@ -435,6 +483,7 @@ item HCPlasticcupfull
 	ReplaceOnUseOn		=	WaterSource-HCPlasticcupfull,
 	Icon			=	HCPlasticcup,
 	RainFactor 		= 	0.2,
+		DisplayCategory          =   FoodB,
     }
 
 item HCPlasticcupstack
@@ -443,6 +492,7 @@ item HCPlasticcupstack
         Type    			= Normal,
         DisplayName         		= Stack of Plastic Cups,
         icon 				= HCPlasticcupstack,
+		DisplayCategory          =   Misc,
     }
 
 item HCStyrofoamcup
@@ -454,6 +504,7 @@ item HCStyrofoamcup
 	ReplaceOnUseOn		= WaterSource-HCStyrofoamcupfull,
         icon 			= HCStyrofoamcup,
 	RainFactor 		= 0.2,
+		DisplayCategory          =   Misc,
     }
 
 item HCStyrofoamcupfull
@@ -469,6 +520,7 @@ item HCStyrofoamcupfull
 	ReplaceOnUseOn		=	WaterSource-HCStyrofoamcupfull,
 	Icon			=	HCStyrofoamcup,
 	RainFactor 		= 	0.2,
+		DisplayCategory          =   FoodB,
     }
 
 item HCStyrofoamcupstack
@@ -477,6 +529,7 @@ item HCStyrofoamcupstack
         Type    			= Normal,
         DisplayName         		= Stack of Styrofoam Cups,
         icon 				= HCStyrofoamcupstack,
+		DisplayCategory          =   Misc,
     }
 
 item HCTray
@@ -485,6 +538,7 @@ item HCTray
         Type    			= Normal,
         DisplayName         		= Plastic Tray,
         icon 				= HCTray,
+		DisplayCategory          =   Useless,
     }
 
 item HCTray2
@@ -493,6 +547,7 @@ item HCTray2
         Type    			= Normal,
         DisplayName         		= Metal Tray,
         icon 				= HCTray2,
+		DisplayCategory          =   Useless,
     }
 
 item HCToaster
@@ -501,6 +556,7 @@ item HCToaster
         Type    			= Normal,
         DisplayName         		= Toaster,
         icon 				= HCToaster,
+		DisplayCategory          =   Cooking,
     }
 
 item HCChefhat
@@ -509,6 +565,7 @@ item HCChefhat
         Type    			= Normal,
         DisplayName         		= Chef Hat,
         icon 				= HCChefhat,
+		DisplayCategory          =   Useless,
     }
 
 item HCNutcracker
@@ -517,6 +574,7 @@ item HCNutcracker
         Type    			= Normal,
         DisplayName         		= Nut Cracker,
         icon 				= HCNutcracker,
+		DisplayCategory          =   Cooking,
     }
 
 item HCPotatopeeler
@@ -525,6 +583,7 @@ item HCPotatopeeler
         Type    			= Normal,
         DisplayName        		= Potato Peeler,
         icon 				= HCPotatopeeler,
+		DisplayCategory          =   Cooking,
     }
 
 item HCPotatomasher
@@ -533,6 +592,7 @@ item HCPotatomasher
         Type    			= Normal,
         DisplayName         		= Potato Masher,
         icon 				= HCPotatomasher,
+		DisplayCategory          =   Cooking,
     }
 
 item HCSpatula
@@ -541,6 +601,7 @@ item HCSpatula
         Type    			= Normal,
         DisplayName         		= Spatula,
         icon 				= HCSpatula,
+		DisplayCategory          =   Cooking,
     }
 
 item HCWoodenspatula
@@ -549,6 +610,7 @@ item HCWoodenspatula
         Type    			= Normal,
         DisplayName        		= Wooden Spatula,
         icon 				= HCWoodenspatula,
+		DisplayCategory          =   Cooking,
     }
 
 item HCFloursieve
@@ -557,6 +619,7 @@ item HCFloursieve
         Type    			= Normal,
         DisplayName         		= Flour Sieve,
         icon 				= HCFloursieve,
+		DisplayCategory          =   Cooking,
     }
 
 item HCScale
@@ -565,6 +628,7 @@ item HCScale
         Type    			= Normal,
         DisplayName         		= Scale,
         icon 				= HCScale,
+		DisplayCategory          =   Cooking,
     }
 
 item HCMuffinpan
@@ -573,6 +637,7 @@ item HCMuffinpan
         Type    			= Normal,
         DisplayName         		= Muffin Pan,
         icon 				= HCMuffinpan,
+		DisplayCategory          =   Cooking,
     }
 
 item HCBreadpan
@@ -581,6 +646,7 @@ item HCBreadpan
         Type    			= Normal,
         DisplayName         		= Bread Pan,
         icon 				= HCBreadpan,
+		DisplayCategory          =   Cooking,
     }
 
 item HCBlender
@@ -589,6 +655,7 @@ item HCBlender
         Type    			= Normal,
         DisplayName         		= Blender,
         icon 				= HCBlender,
+		DisplayCategory          =   Cooking,
     }
 
 item HCBlenderpowered
@@ -600,6 +667,7 @@ item HCBlenderpowered
 	DisplayName 		= 	Blender with Power,
 	ReplaceOnDeplete	=	HCBlenderdead,
 	Icon 				= 	HCBlenderpowered,
+		DisplayCategory          =   Cooking,
 	}
 
 item HCBlenderdead
@@ -608,6 +676,7 @@ item HCBlenderdead
         Type    			= Normal,
         DisplayName         = Blender with Dead Battery,
         icon 				= HCBlenderdead,
+		DisplayCategory          =   Cooking,
     }
 
 item HCCuttingboard
@@ -616,6 +685,7 @@ item HCCuttingboard
         Type    			= Normal,
         DisplayName         		= Cutting Board,
         icon 				= HCCuttingboard,
+		DisplayCategory          =   Cooking,
     }
 
 item HCMeasuringcup
@@ -624,6 +694,7 @@ item HCMeasuringcup
         Type    			= Normal,
         DisplayName         		= Measuring Cup,
         icon 				= HCMeasuringcup,
+		DisplayCategory          =   Cooking,
     }
 
 item HCGlassshortempty
@@ -632,6 +703,7 @@ item HCGlassshortempty
 	Type 				= Normal,
 	DisplayName 			= Empty Short Glass,
 	Icon 				= HCGlassshortempty,
+		DisplayCategory          =   CraftDist,
     	}
 
 item HCGlasstallempty
@@ -640,6 +712,7 @@ item HCGlasstallempty
 	Type 				= Normal,
 	DisplayName 			= Empty Tall Glass,
 	Icon 				= HCGlasstallempty,
+		DisplayCategory          =   CraftDist,
 	}
 
 item HCMargaritaglassempty
@@ -648,6 +721,7 @@ item HCMargaritaglassempty
 	Type 				= Normal,
 	DisplayName 			= Empty Margarita Glass,
 	Icon 				= HCMargaritaglassempty,
+		DisplayCategory          =   CraftDist,
 	}
 
 item HCCocktailglassempty
@@ -656,6 +730,7 @@ item HCCocktailglassempty
 	Type 				= Normal,
 	DisplayName 			= Empty Cocktail Glass,
 	Icon 				= HCCocktailglassempty,
+		DisplayCategory          =   CraftDist,
 	}
 
 item HCCocktailshaker
@@ -664,6 +739,7 @@ item HCCocktailshaker
 	Type 				= Normal,
 	DisplayName 			= Cocktail Shaker,
 	Icon 				= HCCocktailshaker,
+		DisplayCategory          =   CraftDist,
 	}
 
 item HCDutchoven
@@ -672,6 +748,7 @@ item HCDutchoven
         Type    			= Normal,
         DisplayName         		= Dutch Oven,
         icon 				= HCDutchoven,
+		DisplayCategory          =   Misc,
     }
 
 item HCWok
@@ -680,6 +757,7 @@ item HCWok
         Type    			= Normal,
         DisplayName         		= Wok,
         icon 				= HCWok,
+		DisplayCategory          =   Cooking,
     }
 
 item HCRicecooker
@@ -688,6 +766,7 @@ item HCRicecooker
         Type    			= Normal,
         DisplayName         		= Rice Cooker,
         icon 				= HCRicecooker,
+		DisplayCategory          =   Cooking,
     }
 
 item HCRicecookerpowered
@@ -699,6 +778,7 @@ item HCRicecookerpowered
 	DisplayName 			= 	Rice Cooker with Power,
 	ReplaceOnDeplete		=	HCRicecookerdead,
 	Icon 				= 	HCRicecookerpowered,
+		DisplayCategory          =   Cooking,
 	}
 
 item HCRicecookerdead
@@ -707,6 +787,7 @@ item HCRicecookerdead
         Type    			= Normal,
         DisplayName         		= Rice Cooker with Dead Battery,
         icon 				= HCRicecookerdead,
+		DisplayCategory          =   Cooking,
     }
 
 item HCZipperbag
@@ -718,6 +799,7 @@ item HCZipperbag
         icon 				= HCZipperbag,
         RainFactor          = 1,
         CanStoreWater       = TRUE,
+		DisplayCategory          =   Cooking,
     }
 
 item HCZipperbagfull
@@ -733,6 +815,7 @@ item HCZipperbagfull
     ReplaceOnUseOn      = WaterSource-HCZipperbag,
     Icon                = HCZipperbagfull,
     RainFactor          = 1,
+		DisplayCategory          =   Cooking,
 	}
 
 
@@ -742,6 +825,7 @@ item HCZipperbagbox
         Type    			= Normal,
         DisplayName         		= Box of Zipper Bags,
         icon 				= HCZipperbagbox,
+		DisplayCategory          =   Cooking,
     }
 
 item HCMenu
@@ -750,6 +834,7 @@ item HCMenu
         Type    			=    Normal,
         DisplayName    			=    Menu,
         Icon    			=    HCMenu,
+		DisplayCategory          =   Useless,
     }
 
 item HCKettlecopper
@@ -761,6 +846,7 @@ item HCKettlecopper
 	ReplaceOnUseOn		= WaterSource-HCKettlecopperfull,
         icon 			= HCKettlecopper,
 	RainFactor 		= 1,
+		DisplayCategory          =   Cooking,
     }
 
 item HCKettlecopperfull
@@ -777,6 +863,7 @@ item HCKettlecopperfull
 	Icon			=	HCKettlecopper,
 	IsCookable		=	TRUE,
 	RainFactor 		= 	1,
+		DisplayCategory          =   FoodB,
     }
 
 item HCMugcopper
@@ -788,6 +875,7 @@ item HCMugcopper
 	ReplaceOnUseOn		= WaterSource-HCMugcopperfull,
         icon 			= HCMugcopper,
 	RainFactor 		= 0.2,
+		DisplayCategory          =   Cooking,
     }
 
 item HCMugcopperfull
@@ -803,6 +891,7 @@ item HCMugcopperfull
 	ReplaceOnUseOn		=	WaterSource-HCMugcopperfull,
 	Icon			=	HCMugcopper,
 	RainFactor 		= 	0.2,
+		DisplayCategory          =   FoodB,
     }
 
 item HCPyrexdish
@@ -811,6 +900,7 @@ item HCPyrexdish
 	Type			=	Normal,
 	DisplayName		=	Pyrex Dish,
 	Icon			=	HCPyrexdish,
+		DisplayCategory          =   Useless,
 	}
 
 item HCJellomold1
@@ -819,6 +909,7 @@ item HCJellomold1
         Type    		= 	Normal,
         DisplayName     	=	Rounded Jello Mold,
         icon 			= 	HCJellomold1,
+		DisplayCategory          =   Cooking,
     }
 
 /************************WEAPONS************************/
@@ -853,6 +944,7 @@ item HCJellomold1
 		Icon				=	HCPlasticfork,
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
+		DisplayCategory          =   Useless,
 	}
 
 	item HCPlasticspoon
@@ -885,6 +977,7 @@ item HCJellomold1
 		Icon				=	HCPlasticspoon,
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
+		DisplayCategory          =   Useless,
 	}
 
 	item HCPlasticknife
@@ -917,6 +1010,7 @@ item HCJellomold1
 		Icon				=	HCPlasticknife,
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
+		DisplayCategory          =   Useless,
 	}
 
 	item HCSpork
@@ -949,6 +1043,7 @@ item HCJellomold1
 		Icon				=	HCSpork,
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCSteakknife
@@ -988,6 +1083,7 @@ item HCJellomold1
         TreeDamage  			=   	1,
         EnduranceMod 			= 	0.5,
         AttachmentType       = Knife,
+		DisplayCategory          =   WepMelee,
 	}
 	
 
@@ -1022,6 +1118,7 @@ item HCJellomold1
 		Icon	=	HCWoodenspoon,
 		TreeDamage  =   0,
 		EnduranceMod = 0.5,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCWoodenfork
@@ -1054,6 +1151,7 @@ item HCJellomold1
 		Icon	=	HCWoodenfork,
 		TreeDamage  =   0,
 		EnduranceMod = 0.5,
+		DisplayCategory          =   WepMelee,
 	}
 
 
@@ -1088,6 +1186,7 @@ item HCJellomold1
 		Icon				=	HCSterlingsilverfork,
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCSterlingsilverspoon
@@ -1120,6 +1219,7 @@ item HCJellomold1
 		Icon				=	HCSterlingsilverspoon,
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
+		DisplayCategory          =   WepMelee,
 	}
 
 	item HCSterlingsilverknife
@@ -1152,6 +1252,7 @@ item HCJellomold1
 		Icon				=	HCSterlingsilverknife,
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
+		DisplayCategory          =   WepMelee,
 	}
 
 

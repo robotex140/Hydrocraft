@@ -15,6 +15,7 @@ item HCToothpasteopen
         DisplayName     	= Opened Tooth Paste,
         icon 			= HCToothpasteopen,
 	UseDelta		= 0.1,
+	DisplayCategory          =   Misc,
     } 
 
 item HCFloss
@@ -23,6 +24,7 @@ item HCFloss
         Type    		= Normal,
         DisplayName         	= Floss,
         icon 			= HCFloss,
+	DisplayCategory          =   Misc,
     }
 
 item HCHairgel
@@ -33,6 +35,7 @@ item HCHairgel
 	UseDelta		= 0.25,
         DisplayName         	= Hairgel,
         icon 			= HCHairgel,
+	DisplayCategory          =   Useless,
     }
 
 item HCHaircolorblack
@@ -43,6 +46,7 @@ item HCHaircolorblack
 	UseDelta		= 0.25,
         DisplayName         	= Box of Black Hair Color,
         icon 			= HCHaircolorblack,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorblond
@@ -53,6 +57,7 @@ item HCHaircolorblond
 	UseDelta		= 0.25,
         DisplayName         	= Box of Blonde Hair Color,
         icon 			= HCHaircolorblond,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorbrunette
@@ -63,6 +68,7 @@ item HCHaircolorbrunette
 	UseDelta		= 0.25,
         DisplayName         	= Box of Brunette Hair Color,
         icon 			= HCHaircolorbrunette,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorpink
@@ -73,6 +79,7 @@ item HCHaircolorpink
 	UseDelta		= 0.25,
         DisplayName         	= Box of Pink Hair Color,
         icon 			= HCHaircolorpink,
+	DisplayCategory          =   Appear,
     }
 
 item HCHaircolorred
@@ -83,6 +90,7 @@ item HCHaircolorred
 	UseDelta		= 0.25,
         DisplayName         	= Box of Red Hair Color,
         icon 			= HCHaircolorred,
+	DisplayCategory          =   Appear,
     }
 
 item HCHairdryer
@@ -91,6 +99,7 @@ item HCHairdryer
         Type    		= Normal,
         DisplayName         	= Hairdryer,
         icon 			= HCHairdryer,
+		DisplayCategory = CraftElec,
     }
 
 item HCElectrictoothbrush
@@ -99,6 +108,7 @@ item HCElectrictoothbrush
         Type    		= Normal,
         DisplayName         	= Electric Toothbrush,
         icon 			= HCElectrictoothbrush,
+		DisplayCategory = CraftElec,
     }
 
 item HCElectrictoothbrushpowered
@@ -110,6 +120,7 @@ item HCElectrictoothbrushpowered
 	DisplayName 			= 	Electric Toothbrush with Power,
 	ReplaceOnDeplete		=	HCElectrictoothbrushdead,
 	Icon 				= 	HCElectrictoothbrush,
+	DisplayCategory          =   Misc,
 	}
 
 item HCElectrictoothbrushdead
@@ -118,6 +129,7 @@ item HCElectrictoothbrushdead
         Type    			= Normal,
         DisplayName         		= Electric Toothbrush with Dead Battery,
         icon 				= HCElectrictoothbrush,
+	DisplayCategory          =   Misc,
     }
 
 item HCElectricrazor
@@ -126,6 +138,7 @@ item HCElectricrazor
         Type    		= Normal,
         DisplayName         	= Electric Razor,
         icon 			= HCElectricrazor,
+		DisplayCategory = CraftElec,
     }
 
 item HCElectricrazorpowered
@@ -137,6 +150,7 @@ item HCElectricrazorpowered
 	DisplayName 			= 	Electric Razon with Power,
 	ReplaceOnDeplete		=	HCElectricrazordead,
 	Icon 				= 	HCElectricrazor,
+	DisplayCategory          =   Misc,
 	}
 
 item HCElectricrazordead
@@ -145,6 +159,7 @@ item HCElectricrazordead
         Type    			= Normal,
         DisplayName         		= Electric Razor with Dead Battery,
         icon 				= HCElectricrazor,
+	DisplayCategory          =   Misc,
     }
 
 item HCQtip
@@ -153,6 +168,7 @@ item HCQtip
         Type    		=    Normal,
         DisplayName    		=    Cotton Swab,
         Icon    		=    HCQtip.png,
+	DisplayCategory          =   Useless,
     }
 
 item HCQtipbox
@@ -161,6 +177,7 @@ item HCQtipbox
         Type    		=    Normal,
         DisplayName    		=    Box of Cotton Swabs,
         Icon    		=    HCQtipbox.png,
+	DisplayCategory          =   Useless,
     }
 
 item HCWashclothwet
@@ -169,6 +186,7 @@ item HCWashclothwet
 	DisplayName		=	Wet Washcloth,
 	Icon			=	HCWashclothwet,
 	Weight			=	0.4,
+	DisplayCategory          =   Useless,
     }
   
 item HCWashcloth
@@ -180,6 +198,7 @@ item HCWashcloth
 	Icon			=	HCWashcloth,
         UseDelta		=	0.1,
 	ReplaceOnDeplete	=	HCWashclothwet,
+	DisplayCategory          =   Useless,
     }
 
 item HCChapstick
@@ -190,6 +209,7 @@ item HCChapstick
 	UseDelta		= 0.25,
         DisplayName         	= Chapstick,
         icon 			= HCChapstick,
+	DisplayCategory          =   Useless,
     }
 
 item HCDeodorantstick
@@ -200,6 +220,7 @@ item HCDeodorantstick
 	UseDelta		= 0.25,
         DisplayName         	= Deodorant Stick,
         icon 			= HCDeodorantstick,
+	DisplayCategory          =   Useless,
     }
 
 item HCDeodorantspray
@@ -210,6 +231,7 @@ item HCDeodorantspray
 	UseDelta		= 0.25,
         DisplayName         	= Deodorant Spray,
         icon 			= HCDeodorantspray,
+	DisplayCategory          =   Useless,
     }
 
 item HCDiaper
@@ -222,6 +244,7 @@ item HCDiaper
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Tooltip 		= Tooltip_UseOnHealthPanel,
+	DisplayCategory          =   Bandage,
     }
 
 item HCDiaperAlcohol
@@ -235,6 +258,7 @@ item HCDiaperAlcohol
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Tooltip 		= Tooltip_AlcoholBandage,
+	DisplayCategory          =   Bandage,
     }
 
 item HCDiaperDirty
@@ -246,6 +270,7 @@ item HCDiaperDirty
 	CanBandage		= TRUE,
 	BandagePower    	= 0,
         Alcoholic		= TRUE,
+	DisplayCategory          =   Bandage,
     }
 
 item HCDiaperpack
@@ -254,6 +279,7 @@ item HCDiaperpack
         Type    		= Normal,
         DisplayName         	= Pack of Diapers,
         icon 			= HCDiaperpack,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpad
@@ -266,6 +292,7 @@ item HCMenstrualpad
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Tooltip 		= Tooltip_UseOnHealthPanel,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpadAlcohol
@@ -278,6 +305,7 @@ item HCMenstrualpadAlcohol
 	CanBandage		= TRUE,
 	BandagePower    	= 2,
         Alcoholic		= TRUE,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpadDirty
@@ -288,6 +316,7 @@ item HCMenstrualpadDirty
         icon 			= HCMenstrualpadDirty,
 	CanBandage		= TRUE,
 	BandagePower    	= 0,
+	DisplayCategory          =   Bandage,
     }
 
 item HCMenstrualpadbox
@@ -296,6 +325,7 @@ item HCMenstrualpadbox
         Type    		= Normal,
         DisplayName         	= Box of Menstrual Pads,
         icon 			= HCMenstrualpadbox,
+	DisplayCategory          =   Bandage,
     }
 
 item HCTampon
@@ -304,6 +334,7 @@ item HCTampon
         Type    		= Normal,
         DisplayName         	= Tampon,
         icon 			= HCTampon,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCTamponbox
@@ -312,6 +343,7 @@ item HCTamponbox
         Type    		= Normal,
         DisplayName         	= Box of Tampons,
         icon 			= HCTamponbox,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCTissuebox
@@ -320,6 +352,7 @@ item HCTissuebox
         Type    		= Normal,
         DisplayName         	= Box of Tissues,
         icon 			= HCTissuebox,
+	DisplayCategory          =   Medical,
     }
 
 item HCBabywipes
@@ -328,6 +361,7 @@ item HCBabywipes
         Type    		= Normal,
         DisplayName         	= Baby Wipes,
         icon 			= HCBabywipes,
+	DisplayCategory          =   Useless,
     }
 
 item HCBodybrush
@@ -336,6 +370,7 @@ item HCBodybrush
         Type    		= Normal,
         DisplayName         	= Body Brush,
         icon 			= HCBodybrush,
+	DisplayCategory          =   Useless,
     }
 
 item HCHairconditioner
@@ -346,6 +381,7 @@ item HCHairconditioner
 	UseDelta		= 0.25,
         DisplayName         	= Hair Conditioner,
         icon 			= HCHairconditioner,
+	DisplayCategory          =   Useless,
     }
 
 item HCHandsoap
@@ -356,6 +392,7 @@ item HCHandsoap
 	UseDelta		= 0.25,
         DisplayName         	= Hand Soap,
         icon 			= HCHandsoap,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCLoofah
@@ -364,6 +401,7 @@ item HCLoofah
         Type    		= Normal,
         DisplayName         	= Loofah,
         icon 			= HCLoofah,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCMouthwash
@@ -381,6 +419,7 @@ item HCMouthwash
 	AlcoholPower 		= 1,
 	CustomContextMenu 	= Drink,
 	CustomEatSound 		= DrinkingFromBottle,
+	DisplayCategory          =   FoodB,
     }
 
 item HCMouthwash2
@@ -398,6 +437,7 @@ item HCMouthwash2
 	AlcoholPower 		= 1,
 	CustomContextMenu 	= Drink,
 	CustomEatSound 		= DrinkingFromBottle,
+	DisplayCategory          =   FoodB,
 }
 
 item HCNailclipper
@@ -406,6 +446,7 @@ item HCNailclipper
         Type    		= Normal,
         DisplayName         	= Nail Clipper,
         icon 			= HCNailclipper,
+	DisplayCategory          =   Junk,
     }
 
 item HCPumice
@@ -414,6 +455,7 @@ item HCPumice
         Type    		= Normal,
         DisplayName         	= Pumice Stone,
         icon 			= HCPumice,
+	DisplayCategory          =   Useless,
     }
 
 item HCShampoo
@@ -424,6 +466,7 @@ item HCShampoo
 	UseDelta		= 0.25,
         DisplayName         	= Shampoo,
         icon 			= HCShampoo,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCShavingcream
@@ -434,6 +477,7 @@ item HCShavingcream
 	UseDelta		= 0.25,
         DisplayName         	= Shaving Cream,
         icon 			= HCShavingcream,
+	DisplayCategory          =   Useless,
     }
 
 item HCNailpolishremover
@@ -444,6 +488,7 @@ item HCNailpolishremover
 	UseDelta		= 0.25,
         DisplayName         	= Nail Polish Remover,
         icon 			= HCNailpolishremover,
+	DisplayCategory          =   Useless,
     }
 
 item HCSponge
@@ -452,6 +497,7 @@ item HCSponge
         Type    		= Normal,
         DisplayName         	= Bath Sponge,
         icon 			= HCSponge,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCStylingfoam
@@ -462,6 +508,7 @@ item HCStylingfoam
 	UseDelta		= 0.25,
         DisplayName         	= Styling Foam,
         icon 			= HCStylingfoam,
+	DisplayCategory          =   Useless,
     }
 
 item HCPlunger
@@ -470,6 +517,7 @@ item HCPlunger
         Type    		= Normal,
         DisplayName         	= Plunger,
         icon 			= HCPlunger,
+	DisplayCategory          =   Useless,
     }
 
 item HCToiletbrush
@@ -478,6 +526,7 @@ item HCToiletbrush
         Type    		= Normal,
         DisplayName         	= Toilet Brush,
         icon 			= HCToiletbrush,
+	DisplayCategory          =   Useless,
     }
 
 item HCDraincleaner
@@ -488,6 +537,7 @@ item HCDraincleaner
 	UseDelta		= 0.25,
         DisplayName         	= Drain Cleaner,
         icon 			= HCDraincleaner,
+	DisplayCategory          =   Useless,
     }
 
 item HCToiletcleaner
@@ -498,6 +548,7 @@ item HCToiletcleaner
 	UseDelta		= 0.25,
         DisplayName         	= Toilet Cleaner,
         icon 			= HCToiletcleaner,
+	DisplayCategory          =   Useless,
     }
 
 item HCToiletpaperpack
@@ -506,6 +557,7 @@ item HCToiletpaperpack
         Type    		= Normal,
         DisplayName         	= Toiletpaper Pack,
         icon 			= HCToiletpaperpack,
+	DisplayCategory          =   Medical,
     }
 
 item HCToothcleaner
@@ -514,6 +566,7 @@ item HCToothcleaner
         Type    		= Normal,
         DisplayName         	= Tooth Cleaner,
         icon 			= HCToothcleaner,
+	DisplayCategory          =   Useless,
     }
 
 item HCDentures
@@ -522,6 +575,7 @@ item HCDentures
         Type    		= Normal,
         DisplayName         	= Dentures,
         icon 			= HCDentures,
+	DisplayCategory          =   Useless,
     }
 
 item HCShavingbrush
@@ -530,6 +584,7 @@ item HCShavingbrush
         Type    		= Normal,
         DisplayName         	= Shaving Brush,
         icon 			= HCShavingbrush,
+	DisplayCategory          =   Useless,
     }
 
 item HCSanitizingjar
@@ -538,6 +593,7 @@ item HCSanitizingjar
         Type    		= Normal,
         DisplayName         	= Sanitizing Jar,
         icon 			= HCSanitizingjar,
+		DisplayCategory = Useless,
     }
 
 item HCRazorblade
@@ -546,6 +602,7 @@ item HCRazorblade
         Type    		= Normal,
         DisplayName         	= Razor Blade,
         icon 			= HCRazorblade,
+		DisplayCategory = Craft,
     }
 
 item HCRazorbladebox
@@ -554,6 +611,7 @@ item HCRazorbladebox
         Type    		= Normal,
         DisplayName         	= Box of Razor Blade,
         icon 			= HCRazorbladebox,
+		DisplayCategory = Craft,
     }
 
 item HCHandmirror
@@ -562,6 +620,7 @@ item HCHandmirror
         Type    		= Normal,
         DisplayName         	= Hand Mirror,
         icon 			= HCHandmirror,
+		DisplayCategory = Useless,
     }
 
 item HCBathroomscale
@@ -570,6 +629,7 @@ item HCBathroomscale
         Type    		= Normal,
         DisplayName         	= Bathroom Scale,
         icon 			= HCBathroomscale,
+		DisplayCategory = Useless,
     }
 
 item HCClothhamper
@@ -581,6 +641,7 @@ item HCClothhamper
         DisplayName    		=    	Clothing Hamper,
         Icon    		=    	HCClothhamper,
         CanBeEquipped 		=    	False,
+		DisplayCategory = Container,
 	
    }
 
@@ -588,6 +649,7 @@ item HCClothhamper
 
 item HCStraightrazor
 	{
+		DisplayCategory = WepMelee,
 		MaxRange			=	0.7,
 		WeaponSprite			=	Knife,
 		MinAngle			=	0,

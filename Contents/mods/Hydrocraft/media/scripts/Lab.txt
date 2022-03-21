@@ -14,6 +14,7 @@ item HCMagnet
 	Type			=	Normal,
 	DisplayName		=	Magnet,
 	Icon			=	HCMagnet,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCChemicalbottleempty
@@ -22,6 +23,7 @@ item HCChemicalbottleempty
 	Type			=	Normal,
 	DisplayName		=	Empty Chemical Plastic Bottle,
 	Icon			=	HCChemicalbottleempty,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCPlasticcanempty
@@ -30,6 +32,7 @@ item HCPlasticcanempty
 	Type			=	Normal,
 	DisplayName		=	Empty Plastic Can,
 	Icon			=	HCPlasticcanempty,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCGlassflask
@@ -41,6 +44,7 @@ item HCGlassflask
 	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
         icon 			= 	HCGlassflask,
 	RainFactor 		= 	1,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCGlasswaterbottle
@@ -58,6 +62,7 @@ item HCGlasswaterbottle
 	ReplaceOnUseOn		=	WaterSource-HCGlasswaterbottle,
 	Icon			=	HCGlasswaterbottle,
 	RainFactor 		= 	1,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCGlassflaskbuchner
@@ -66,6 +71,7 @@ item HCGlassflaskbuchner
         Type    		= Normal,
         DisplayName         	= Glass Buchner Flask,
         icon 			= HCGlassflaskbuchner,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlassflaskflorence
@@ -74,6 +80,7 @@ item HCGlassflaskflorence
         Type    		= Normal,
         DisplayName         	= Glass Florence Flask,
         icon 			= HCGlassflaskflorence,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlassflaskretort
@@ -82,6 +89,7 @@ item HCGlassflaskretort
         Type    		= Normal,
         DisplayName         	= Glass Retort Flask,
         icon 			= HCGlassflaskretort,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlassbeaker
@@ -93,6 +101,7 @@ item HCGlassbeaker
 	ReplaceOnUseOn		=	WaterSource-HCBeakerwater,
         icon 			= 	HCGlassbeaker,
 	RainFactor 		= 	1,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCGlassgraduatedcylinder
@@ -101,6 +110,7 @@ item HCGlassgraduatedcylinder
         Type    		= Normal,
         DisplayName         	= Glass Graduated Cylinder,
         icon 			= HCGlassgraduatedcylinder,
+		DisplayCategory          =   CraftChem,
     }  
 
 item HCEyedropper
@@ -109,6 +119,7 @@ item HCEyedropper
         Type    		= Normal,
         DisplayName         	= Eye Dropper,
         icon 			= HCEyedropper,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasstesttube
@@ -117,6 +128,7 @@ item HCGlasstesttube
         Type    		= Normal,
         DisplayName         	= Glass Test Tube,
         icon 			= HCGlasstesttube,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCTesttubebox
@@ -125,6 +137,7 @@ item HCTesttubebox
         Type    		= Normal,
         DisplayName         	= Box of Glass Test Tubes,
         icon 			= HCTesttubebox,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCCork
@@ -133,6 +146,7 @@ item HCCork
         Type    		= Normal,
         DisplayName         	= Cork,
         icon 			= HCCork,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCCorkbox
@@ -141,6 +155,7 @@ item HCCorkbox
         Type    		= Normal,
         DisplayName         	= Box of Corks,
         icon 			= HCCorkbox,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCCorkhole
@@ -149,6 +164,7 @@ item HCCorkhole
         Type    		= Normal,
         DisplayName         	= Cork with Hole,
         icon 			= HCCorkhole,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCRubberbung
@@ -157,6 +173,7 @@ item HCRubberbung
         Type    		= Normal,
         DisplayName         	= Rubber Bung,
         icon 			= HCRubberbung,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCRubberbungbox
@@ -165,6 +182,7 @@ item HCRubberbungbox
         Type    		= Normal,
         DisplayName         	= Box of Rubber Bungs,
         icon 			= HCRubberbungbox,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCRubberbunghole
@@ -173,6 +191,7 @@ item HCRubberbunghole
         Type    		= Normal,
         DisplayName         	= Rubber Bung with Hole,
         icon 			= HCRubberbunghole,
+		DisplayCategory          =   CraftChem,
     } 
 
 
@@ -182,6 +201,7 @@ item HCGlasstesttubecork
         Type    		= Normal,
         DisplayName         	= Glass Test Tube with Cork,
         icon 			= HCGlasstesttubecork,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasstesttubecorkhole
@@ -190,6 +210,7 @@ item HCGlasstesttubecorkhole
         Type    		= Normal,
         DisplayName         	= Glass Test Tube with Cork with Hole,
         icon 			= HCGlasstesttubecorkhole,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasstesttuberubberbung
@@ -198,6 +219,7 @@ item HCGlasstesttuberubberbung
         Type    		= Normal,
         DisplayName         	= Glass Test Tube with Rubber Bung,
         icon 			= HCGlasstesttuberubberbung,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasstesttuberubberbunghole
@@ -206,6 +228,7 @@ item HCGlasstesttuberubberbunghole
         Type    		= Normal,
         DisplayName         	= Glass Test Tube with Rubber Bung with Hole,
         icon 			= HCGlasstesttuberubberbunghole,
+		DisplayCategory          =   CraftChem,
     } 
 
 
@@ -215,6 +238,7 @@ item HCTesttuberack
         Type    		= Normal,
         DisplayName         	= Test Tube Rack,
         icon 			= HCTesttuberack,
+		DisplayCategory          =   CraftChem,
     }  
 
 item HCTesttuberackcorks
@@ -223,6 +247,7 @@ item HCTesttuberackcorks
         Type    		= Normal,
         DisplayName         	= Test Tube Rack with Glass Test Tubes with Corks,
         icon 			= HCTesttuberackcorks,
+		DisplayCategory          =   CraftChem,
     }  
 
 item HCTesttuberackbungs
@@ -231,6 +256,7 @@ item HCTesttuberackbungs
         Type    		= Normal,
         DisplayName         	= Test Tube Rack with Glass Test Tubes with Rubber Bungs,
         icon 			= HCTesttuberackbungs,
+		DisplayCategory          =   CraftChem,
     }  
 
 item HCTesttubeholder
@@ -239,6 +265,7 @@ item HCTesttubeholder
         Type    		= Normal,
         DisplayName         	= Testtube Holder,
         icon 			= HCTesttubeholder,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCForeceps
@@ -247,6 +274,7 @@ item HCForeceps
         Type    		= Normal,
         DisplayName         	= Forceps,
         icon 			= HCForeceps,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCPinchclamp
@@ -255,6 +283,7 @@ item HCPinchclamp
         Type    		= Normal,
         DisplayName         	= Pinch Clamp,
         icon 			= HCPinchclamp,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCUtilityclamp
@@ -263,6 +292,7 @@ item HCUtilityclamp
         Type    		= Normal,
         DisplayName         	= Utility Clamp,
         icon 			= HCUtilityclamp,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCRingclamp
@@ -271,6 +301,7 @@ item HCRingclamp
         Type    		= Normal,
         DisplayName         	= Ring Clamp,
         icon 			= HCRingclamp,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCRingstand
@@ -279,6 +310,7 @@ item HCRingstand
         Type    		= Normal,
         DisplayName         	= Ring Stand,
         icon 			= HCRingstand,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCRingstandclamp
@@ -287,6 +319,7 @@ item HCRingstandclamp
         Type    		= Normal,
         DisplayName         	= Ring Stand with Clamp,
         icon 			= HCRingstandclamp,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCWiregauze
@@ -295,6 +328,7 @@ item HCWiregauze
         Type    		= Normal,
         DisplayName         	= Wire Gauze,
         icon 			= HCWiregauze,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCRubberhose
@@ -303,6 +337,7 @@ item HCRubberhose
         Type    		= Normal,
         DisplayName         	= Rubber Hose,
         icon 			= HCRubberhose,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCBunsenburner
@@ -311,6 +346,7 @@ item HCBunsenburner
         Type    		= Normal,
         DisplayName         	= Bunsen Burner,
         icon 			= HCBunsenburner,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCTesttubebrush
@@ -319,6 +355,7 @@ item HCTesttubebrush
         Type    		= Normal,
         DisplayName         	= Test Tube Brush,
         icon 			= HCTesttubebrush,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCTesttubebrushbox
@@ -327,6 +364,7 @@ item HCTesttubebrushbox
         Type    		= Normal,
         DisplayName         	= Box of Test Tube Brushes,
         icon 			= HCTesttubebrushbox,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlassfunnel
@@ -335,6 +373,7 @@ item HCGlassfunnel
         Type    		= Normal,
         DisplayName         	= Glass Funnel,
         icon 			= HCGlassfunnel,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasscooler
@@ -343,6 +382,7 @@ item HCGlasscooler
         Type    		= Normal,
         DisplayName         	= Glass Cooler,
         icon 			= HCGlasscooler,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasspipe
@@ -351,6 +391,7 @@ item HCGlasspipe
         Type    		= Normal,
         DisplayName         	= Glass Pipe,
         icon 			= HCGlasspipe,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasspipebox
@@ -359,6 +400,7 @@ item HCGlasspipebox
         Type    		= Normal,
         DisplayName         	= Box of Glass Pipes,
         icon 			= HCGlasspipebox,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasspipeelbow
@@ -367,6 +409,7 @@ item HCGlasspipeelbow
         Type    		= Normal,
         DisplayName         	= Glass Elbow Pipe,
         icon 			= HCGlasspipeelbow,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlasspipeelbowbox
@@ -375,6 +418,7 @@ item HCGlasspipeelbowbox
         Type    		= Normal,
         DisplayName         	= Box of Glass Elbow Pipe,
         icon 			= HCGlasspipeelbowbox,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlassburette
@@ -383,6 +427,7 @@ item HCGlassburette
         Type    		= Normal,
         DisplayName         	= Glass Burette,
         icon 			= HCGlassburette,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCGlassballoon
@@ -391,6 +436,7 @@ item HCGlassballoon
 	Type			=	Normal,
 	DisplayName		=	Large Glass Balloon,
 	Icon			=	HCGlassballoon,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCGlassconnector
@@ -399,6 +445,7 @@ item HCGlassconnector
 	Type			=	Normal,
 	DisplayName		=	Glass Connector,
 	Icon			=	HCGlassconnector,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCGlassballoonconnector
@@ -407,6 +454,7 @@ item HCGlassballoonconnector
 	Type			=	Normal,
 	DisplayName		=	Large Glass Balloon with Connector,
 	Icon			=	HCGlassballoon,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCWashbottle
@@ -418,6 +466,7 @@ item HCWashbottle
 	ReplaceOnUseOn		= WaterSource-HCWashbottlefull,
         icon 			= HCWashbottle,
 	RainFactor 		= 1,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCWashbottlefull
@@ -433,6 +482,7 @@ item HCWashbottlefull
 	ReplaceOnUseOn		=	WaterSource-HCWashbottlefull,
 	Icon			=	HCWashbottlefull,
 	RainFactor 		= 	1,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCMagnifyglass
@@ -441,6 +491,7 @@ item HCMagnifyglass
         Type    		= Normal,
         DisplayName         	= Magnifying Glass,
         icon 			= HCMagnifyglass,
+		DisplayCategory          =   Craft,
     } 
 
 item HCProtractor
@@ -449,6 +500,7 @@ item HCProtractor
         Type    		= Normal,
         DisplayName         	= Protractor,
         icon 			= HCProtractor,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCLatexgloves
@@ -457,6 +509,7 @@ item HCLatexgloves
         Type    		= Normal,
         DisplayName         	= Latex Gloves,
         icon 			= HCLatexgloves,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCHydrogentank
@@ -465,6 +518,7 @@ item HCHydrogentank
         Type    		= Normal,
         DisplayName         	= Hydrogen Tank,
         icon 			= HCHydrogentank,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCHydrogentankempty
@@ -473,6 +527,7 @@ item HCHydrogentankempty
         Type    		= Normal,
         DisplayName         	= Empty Hydrogen Tank,
         icon 			= HCHydrogentank,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCHeliumtank
@@ -481,6 +536,7 @@ item HCHeliumtank
         Type    		= Normal,
         DisplayName         	= Helium Tank,
         icon 			= HCHeliumtank,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCHeliumtankempty
@@ -489,6 +545,7 @@ item HCHeliumtankempty
         Type    		= Normal,
         DisplayName         	= Empty Helium Tank,
         icon 			= HCHeliumtank,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCOxygentank
@@ -497,6 +554,7 @@ item HCOxygentank
         Type    		= Normal,
         DisplayName         	= Oxygen Tank,
         icon 			= HCOxygentank,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCOxygentankempty
@@ -505,6 +563,7 @@ item HCOxygentankempty
         Type    		= Normal,
         DisplayName         	= Empty Oxygen Tank,
         icon 			= HCOxygentank,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCHclgastank
@@ -513,6 +572,7 @@ item HCHclgastank
         Type            	= Normal,
         DisplayName             = Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCHclgastankempty
@@ -521,6 +581,7 @@ item HCHclgastankempty
         Type            	= Normal,
         DisplayName             = Empty Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCTankfridge
@@ -529,6 +590,7 @@ item HCTankfridge
         Type            	= Normal,
         DisplayName             = Tank of Refrigerant,
         icon             	= HCTankfridge,
+		DisplayCategory          =   CraftChem,
     }
 
 item HCTankfridgeempty
@@ -537,6 +599,7 @@ item HCTankfridgeempty
         Type            	= Normal,
         DisplayName             = Empty Tank of Refrigerant,
         icon             	= HCTankfridge,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCPlasmaglobe
@@ -545,6 +608,7 @@ item HCPlasmaglobe
 	Type			=	Normal,
 	DisplayName		=	Plasma Globe,
 	Icon			=	HCPlasmaglobe,
+		DisplayCategory          =   CraftChem,
 	}
 
 item HCTeslamachine
@@ -552,7 +616,7 @@ item HCTeslamachine
         Weight    		= 2,
         Type    		= Normal,
         DisplayName     	= Van de Graaff Generator,
-        
+		DisplayCategory          =   CraftChem,
         icon 			= HCTeslamachine,
     } 
 
@@ -563,7 +627,7 @@ item HCLab
 	Type                	= Normal,
     DisplayName         	= Laboratory,
     icon 			= HCLab,
-	
+		DisplayCategory          =   CraftChem,
     }
 
 item HCLab2
@@ -574,7 +638,7 @@ item HCLab2
         WeightReduction     = 0,
         DisplayName         = Laboratory,
         icon                = HCLab,
-    
+		DisplayCategory          =   CraftChem,
     }
 
 
@@ -585,6 +649,7 @@ item HCLabbig
         Type    		= Normal,
         DisplayName     = Professional Lab,
         icon 			= HCLabbig,
+		DisplayCategory          =   CraftChem,
     } 
 
 item HCLabbig2
@@ -594,6 +659,7 @@ item HCLabbig2
         Capacity        = 200,
         DisplayName     = Professional Lab,
         icon            = HCLabbig,
+		DisplayCategory          =   CraftChem,
     } 
 
 	
@@ -603,6 +669,7 @@ item HCLabbig2
         Type    		= Normal,
         DisplayName         	= Rubber Belt,
         icon 			= HCRubberbelt,
+		DisplayCategory          =   CraftChem,
     } 
 
 

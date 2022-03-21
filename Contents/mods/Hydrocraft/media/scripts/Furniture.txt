@@ -15,6 +15,7 @@ item HCWindowswood
 	WorldObjectSprite 	= fixtures_windows_01_1,
 	DisplayName		= Wooden Windows,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCMicrowave
@@ -24,6 +25,7 @@ item HCMicrowave
 	WorldObjectSprite 	= appliances_cooking_01_25,
 	DisplayName		= Microwave,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCMinifridge
@@ -33,6 +35,7 @@ item HCMinifridge
 	WorldObjectSprite 	= appliances_refrigeration_01_24,
 	DisplayName		= Mini Fridge,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCWashingmachine
@@ -42,6 +45,7 @@ item HCWashingmachine
 	WorldObjectSprite 	= appliances_laundry_01_5,
 	DisplayName		= Washing Machine,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCDryingmachine
@@ -51,6 +55,7 @@ item HCDryingmachine
 	WorldObjectSprite 	= appliances_laundry_01_1,
 	DisplayName		= Drying Machine,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCTelevision
@@ -60,6 +65,7 @@ item HCTelevision
 	WorldObjectSprite 	= appliances_television_01_5,
 	DisplayName		= Television,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCPedestalmarble
@@ -69,6 +75,7 @@ item HCPedestalmarble
 	WorldObjectSprite 	= location_shop_mall_01_64,
 	DisplayName		= Marble Pedestal,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCStatuemarble1
@@ -78,6 +85,7 @@ item HCStatuemarble1
 	WorldObjectSprite 	= location_shop_mall_01_65,
 	DisplayName		= Marble Statue,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCStatuemarble2
@@ -87,6 +95,7 @@ item HCStatuemarble2
 	WorldObjectSprite 	= location_shop_mall_01_66,
 	DisplayName		= Marble Statue,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCStatuemarble3
@@ -96,6 +105,7 @@ item HCStatuemarble3
 	WorldObjectSprite 	= location_shop_mall_01_67,
 	DisplayName		= Marble Statue,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCStatuemarble4
@@ -105,6 +115,7 @@ item HCStatuemarble4
 	WorldObjectSprite 	= location_shop_mall_01_68,
 	DisplayName		= Marble Statue,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCStatuemarble5
@@ -114,6 +125,7 @@ item HCStatuemarble5
 	WorldObjectSprite 	= location_shop_mall_01_69,
 	DisplayName		= Marble Statue,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCStatuemarble6
@@ -123,6 +135,7 @@ item HCStatuemarble6
 	WorldObjectSprite 	= location_shop_mall_01_70,
 	DisplayName		= Marble Statue,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCPainting1
@@ -132,6 +145,7 @@ item HCPainting1
 	WorldObjectSprite 	= walls_decoration_01_46,
 	DisplayName		= Painting,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCPainting2
@@ -141,6 +155,7 @@ item HCPainting2
 	WorldObjectSprite 	= walls_decoration_01_48,
 	DisplayName		= Painting,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCPainting3
@@ -150,6 +165,7 @@ item HCPainting3
 	WorldObjectSprite 	= walls_decoration_01_35,
 	DisplayName		= Painting,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCPainting4
@@ -159,6 +175,7 @@ item HCPainting4
 	WorldObjectSprite 	= walls_decoration_01_56,
 	DisplayName		= Painting,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCPainting5
@@ -168,6 +185,7 @@ item HCPainting5
 	WorldObjectSprite 	= walls_decoration_01_50,
 	DisplayName		= Painting,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 item HCLamp1
@@ -177,6 +195,7 @@ item HCLamp1
 	WorldObjectSprite 	= lighting_indoor_01_35,
 	DisplayName		= Lamp,
 	Icon			= default,
+	DisplayCategory = Furniture,
 	}
 
 /************************RECIPES************************/

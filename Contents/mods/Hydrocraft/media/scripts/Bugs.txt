@@ -14,6 +14,7 @@ item HCBugnet
         Type    		= 	Normal,
         DisplayName         	= 	Bug Net,
         icon 			= 	HCBugnet,
+		DisplayCategory	=   SurBug,
     } 
 
 item HCBugjar
@@ -22,6 +23,7 @@ item HCBugjar
         Type    		= 	Normal,
         DisplayName         	= 	Bug Jar,
         icon 			= 	HCBugjar,
+		DisplayCategory	=   SurBug,
     } 
 
 item HCJarfireflies
@@ -36,6 +38,7 @@ item HCJarfireflies
 	DisplayName		=	Jar of Fireflies,
 	ActivatedItem		=	TRUE,
 	Icon			=	HCJarfireflies,
+		DisplayCategory	=   SurBug,
 	}
 
 item HCBeetle
@@ -45,6 +48,7 @@ item HCBeetle
         DisplayName         	= 	Beetle,
         icon 			= 	HCBeetle,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCBollweevil
@@ -53,6 +57,7 @@ item HCBollweevil
         Type    		= 	Normal,
         DisplayName         	= 	Bollweevil,
         icon 			= 	HCBollweevil,
+		DisplayCategory	=   SurBug,
     }
 
 item HCLadybug
@@ -61,6 +66,7 @@ item HCLadybug
         Type    		= 	Normal,
         DisplayName         	= 	Ladybug,
         icon 			= 	HCLadybug,
+		DisplayCategory	=   SurBug,
     }
 
 item HCDragonfly
@@ -70,6 +76,7 @@ item HCDragonfly
         DisplayName         	= 	Dragonfly,
         icon 			= 	HCDragonfly,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCGardenspider
@@ -78,6 +85,7 @@ item HCGardenspider
         Type    		= 	Normal,
         DisplayName         	= 	Garden Spider,
         icon 			= 	HCGardenspider,
+		DisplayCategory	=   SurBug,
     }
 
 item HCCaterpillar
@@ -87,6 +95,7 @@ item HCCaterpillar
         DisplayName         	= 	Caterpillar,
         icon 			= 	HCCaterpillar,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 
@@ -97,6 +106,7 @@ item HCCaterpillar2
         DisplayName         	= 	Poison Caterpillar,
         icon 			= 	HCCaterpillar2,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCBumblebee
@@ -105,6 +115,7 @@ item HCBumblebee
         Type    		= 	Normal,
         DisplayName         	= 	Bumblebee,
         icon 			= 	HCBumblebee,
+		DisplayCategory	=   SurBug,
     }
 
 item HCCicada
@@ -114,6 +125,7 @@ item HCCicada
         DisplayName         	= 	Cicada,
         icon 			= 	HCCicada,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCRedant
@@ -122,6 +134,7 @@ item HCRedant
         Type    		= 	Normal,
         DisplayName         	= 	Red Ant,
         icon 			= 	HCRedant,
+		DisplayCategory	=   SurBug,
     }
 
 item HCBlackant
@@ -130,6 +143,7 @@ item HCBlackant
         Type    		= 	Normal,
         DisplayName         	= 	Black Ant,
         icon 			= 	HCBlackant,
+		DisplayCategory	=   SurBug,
     }
 
 item HCPillbug
@@ -139,6 +153,7 @@ item HCPillbug
         DisplayName         	= 	Pillbug,
         icon 			= 	HCPillbug,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCFirefly
@@ -148,6 +163,7 @@ item HCFirefly
         DisplayName         	= 	Firefly,
         icon 			= 	HCFirefly,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCTermite
@@ -163,6 +179,7 @@ item HCTermite
         Proteins 		= 	3.6,
         Lipids 			= 	1.32,
         Calories 		= 	20,
+		DisplayCategory	=   SurBug,
     }
 
 item HCYellowjacket
@@ -171,6 +188,7 @@ item HCYellowjacket
         Type    		= 	Normal,
         DisplayName         	= 	Yellow Jacket,
         icon 			= 	HCYellowjacket,
+		DisplayCategory	=   ClothM,
     }
 
 item HCButterfly
@@ -179,6 +197,7 @@ item HCButterfly
         Type    		= 	Normal,
         DisplayName         	= 	Blue Butterfly,
         icon 			= 	HCButterfly,
+		DisplayCategory	=   SurBug,
     }
 
 item HCMonarch
@@ -187,6 +206,7 @@ item HCMonarch
         Type    		= 	Normal,
         DisplayName         	= 	Monarch Butterfly,
         icon 			= 	HCMonarch,
+		DisplayCategory	=   SurBug,
     }
 
 item HCChrysalis
@@ -195,6 +215,7 @@ item HCChrysalis
         Type    		= 	Normal,
         DisplayName         	= 	Chrysalis,
         icon 			= 	HCChrysalis,
+		DisplayCategory	=   SurBug,
     }
 
 item HCChrysalis2
@@ -203,6 +224,7 @@ item HCChrysalis2
         Type    		= 	Normal,
         DisplayName         	= 	Chrysalis,
         icon 			= 	HCChrysalis2,
+		DisplayCategory	=   SurBug,
     }
 
 item HCMolecricket
@@ -219,6 +241,7 @@ item HCMolecricket
         Proteins 		= 	3.6,
         Lipids 			= 	1.32,
         Calories 		= 	20,
+		DisplayCategory	=   SurFish,
     }
 
 item HCBlackwidow
@@ -227,6 +250,7 @@ item HCBlackwidow
         Type    		= 	Normal,
         DisplayName         	= 	Black Widow Spider,
         icon 			= 	HCBlackwidow,
+		DisplayCategory	=   SurBug,
     }
 
 item HCHousespider
@@ -235,6 +259,7 @@ item HCHousespider
         Type    		= 	Normal,
         DisplayName         	= 	House Spider,
         icon 			= 	HCHousespider,
+		DisplayCategory	=   SurBug,
     }
 
 item HCHousefly
@@ -244,6 +269,7 @@ item HCHousefly
         DisplayName         	= 	House Fly,
         icon 			= 	HCHousefly,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCSilkegg
@@ -252,6 +278,7 @@ item HCSilkegg
         Type    		= 	Normal,
         DisplayName         	= 	Silkworm Egg,
         icon 			= 	HCSilkegg,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSilkwom
@@ -261,6 +288,7 @@ item HCSilkwom
         DisplayName         	= 	Silkworm,
         icon 			= 	HCSilkwom,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSilkcocoon
@@ -269,6 +297,7 @@ item HCSilkcocoon
         Type    		= 	Normal,
         DisplayName         	= 	Silk Cocoon,
         icon 			= 	HCSilkcocoon,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSilkcocoon2
@@ -277,6 +306,7 @@ item HCSilkcocoon2
         Type    		= 	Normal,
         DisplayName         	= 	Mature Silk Cocoon,
         icon 			= 	HCSilkcocoon2,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSilkcocoonempty
@@ -285,6 +315,7 @@ item HCSilkcocoonempty
         Type    		= 	Normal,
         DisplayName         	= 	Empty Silk Cocoon,
         icon 			= 	HCSilkcocoonempty,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSilkmothmale
@@ -294,6 +325,7 @@ item HCSilkmothmale
         DisplayName         	= 	Silkmoth (Male),
         icon 			= 	HCSilkmoth,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSilkmothfemale
@@ -303,6 +335,7 @@ item HCSilkmothfemale
         DisplayName         	= 	Silkmoth (Female),
         icon 			= 	HCSilkmoth,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSnail
@@ -311,6 +344,7 @@ item HCSnail
         Type    		= 	Normal,
         DisplayName         	= 	Snail,
         icon 			= 	HCSnail,
+		DisplayCategory	=   SurBug,
     }
 
 item HCSlug
@@ -319,6 +353,7 @@ item HCSlug
         Type    		= 	Normal,
         DisplayName         	= 	Slug,
         icon 			= 	HCSlug,
+		DisplayCategory	=   SurBug,
     }
 
 item HCLeech
@@ -328,6 +363,7 @@ item HCLeech
         DisplayName         	= 	Leech,
         icon 			= 	HCLeech,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCLeechbloated
@@ -337,6 +373,7 @@ item HCLeechbloated
         DisplayName         	= 	Bloated Leech,
         icon 			= 	HCLeechbloated,
         FishingLure     	=   	true,
+		DisplayCategory	=   SurFish,
     }
 
 item HCMaggot
@@ -353,6 +390,7 @@ item HCMaggot
         Proteins 		= 	3.6,
         Lipids 			= 	1.32,
         Calories 		= 	20,
+		DisplayCategory	=   SurFish,
     }
 
  item HCBugmash
@@ -377,6 +415,7 @@ item HCMaggot
         DaysTotallyRotten   		= 4,
 
         EvolvedRecipe       		= Soup:5;Stew:5;Stir fry:5;Burger:5;,
+		DisplayCategory				= FoodP,
     }
 
 item HCBeetlegrub
@@ -396,6 +435,7 @@ item HCBeetlegrub
         Proteins 		= 	3.6,
         Lipids 			= 	1.32,
         Calories 		= 	20,
+		DisplayCategory				= FoodN,
     }
 
 item HCBeetlegrubcooked
@@ -413,6 +453,7 @@ item HCBeetlegrubcooked
         Proteins 		= 	3.6,
         Lipids 			= 	1.32,
         Calories 		= 	20,
+		DisplayCategory	= FoodP,
     }
 
 item HCSnailcooked
@@ -433,6 +474,7 @@ item HCSnailcooked
         Proteins 			= 	17.1,
         Lipids 				= 	4.44,
         Calories 			= 	250,
+		DisplayCategory		= FoodP,
 	}
 
 item HCSlugcooked
@@ -454,6 +496,7 @@ item HCSlugcooked
     Proteins 			= 	3.6,
     Lipids 				= 	1.32,
     Calories 			= 	20,
+		DisplayCategory		= FoodP,
 	}
 
 item HCAntfarm
@@ -462,6 +505,7 @@ item HCAntfarm
         Type    		= Normal,
         DisplayName         	= Empty Ant Farm,
         icon 			= HCAntfarm,
+		DisplayCategory	=   SurBug,
     }
 
 item HCAntfarmblack
@@ -470,6 +514,7 @@ item HCAntfarmblack
         Type    		= Normal,
         DisplayName         	= Black Ant Farm,
         icon 			= HCAntfarm2,
+		DisplayCategory	=   SurBug,
     }
 
 item HCAntfarmred
@@ -478,6 +523,7 @@ item HCAntfarmred
         Type    		= Normal,
         DisplayName         	= Red Ant Farm,
         icon 			= HCAntfarm2,
+		DisplayCategory	=   SurBug,
     }
 
 /************************RECIPES************************/

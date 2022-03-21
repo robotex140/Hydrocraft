@@ -15,6 +15,7 @@ item HCRubber
         Type    		=    	Normal,
         DisplayName    		=    	Rubber,
         Icon    		=    	HCRubber,
+		DisplayCategory	= CraftInd,
     }
 
 item HCRubbervulcanized
@@ -23,6 +24,7 @@ item HCRubbervulcanized
         Type    		=    	Normal,
         DisplayName    		=    	Vulcanized Rubber,
         Icon    		=    	HCRubbervulcanized,
+		DisplayCategory	= CraftInd,
     }
 
 item HCRubbersheet
@@ -31,6 +33,7 @@ item HCRubbersheet
         Type    		=    	Normal,
         DisplayName    		=    	Rubber Sheet,
         Icon    		=    	HCRubbersheet,
+		DisplayCategory	= CraftInd,
     }
 
 item HCSapcatcher
@@ -43,6 +46,7 @@ item HCSapcatcher
 	Icon			= 	HCSapcatcher,
 
 	Weight			= 	1.5,
+		DisplayCategory	= CraftInd,
 
 	}
 
@@ -55,6 +59,7 @@ item HCPottedrubbertree2
         DisplayName 		= Potted Rubber Tree with Sap Catchers,
 	ReplaceOnDeplete	= HCPlanter,
         icon        		= HCPottedrubbertree2,
+		DisplayCategory	= SurFarm,
 	
     }
 
@@ -66,6 +71,7 @@ item HCWoodenbucketrubber
 	ReplaceOnDeplete	= HCWoodenbucket,
         DisplayName         	= Wooden Bucket with Rubber,
         icon 			= HCWoodenbucketrubber,
+		DisplayCategory	= CraftInd,
 	
     }
 

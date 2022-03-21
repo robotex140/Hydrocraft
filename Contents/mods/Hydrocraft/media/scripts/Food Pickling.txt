@@ -25,6 +25,7 @@ item HCPickledtomatoes
         Proteins 			= 	9,
         Lipids 				= 	2,
         Calories 			= 	180,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledradish
@@ -43,6 +44,7 @@ item HCPickledradish
         Proteins 			= 	7,
         Lipids 				= 	1,
         Calories 			= 	160,
+		DisplayCategory		= FoodN,
 	}
 	
 item HCPickledbroccoli
@@ -61,6 +63,7 @@ item HCPickledbroccoli
         Proteins 			= 	28,
         Lipids 				= 	4,
         Calories 			= 	340,
+		DisplayCategory		= FoodN,
 	}	
 
 item HCPickledeggplant
@@ -79,6 +82,7 @@ item HCPickledeggplant
         Proteins 			= 	10,
         Lipids 				= 	2,
         Calories 			= 	250,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledcarrots
@@ -97,6 +101,7 @@ item HCPickledcarrots
         Proteins 			= 	9,
         Lipids 				= 	2,
         Calories 			= 	410,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledbellpepperred
@@ -115,6 +120,7 @@ item HCPickledbellpepperred
         Proteins 			= 	10,
         Lipids 				= 	3,
         Calories 			= 	310,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledbellpepperyellow
@@ -133,6 +139,7 @@ item HCPickledbellpepperyellow
         Proteins 			= 	10,
         Lipids 				= 	2,
         Calories 			= 	270,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledbellpeppergreen
@@ -151,6 +158,7 @@ item HCPickledbellpeppergreen
         Proteins 			= 	9,
         Lipids 				= 	2,
         Calories 			= 	200,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledginger
@@ -169,6 +177,7 @@ item HCPickledginger
         Proteins 			= 	9,
         Lipids 				= 	4,
         Calories 			= 	400,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledgarlic
@@ -187,6 +196,7 @@ item HCPickledgarlic
         Proteins 			= 	32,
         Lipids 				= 	2.5,
         Calories 			= 	475,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledonion
@@ -205,6 +215,7 @@ item HCPickledonion
         Proteins 			= 	11,
         Lipids 				= 	1,
         Calories 			= 	400,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledoniongreen
@@ -223,6 +234,7 @@ item HCPickledoniongreen
         Proteins 			= 	18,
         Lipids 				= 	2,
         Calories 			= 	320,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledcucumbers
@@ -241,6 +253,7 @@ item HCPickledcucumbers
         Proteins 			= 	7,
         Lipids 				= 	1,
         Calories 			= 	150,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledchinesecabbage
@@ -259,6 +272,7 @@ item HCPickledchinesecabbage
         Proteins 			= 	15,
         Lipids 				= 	2,
         Calories 			= 	130,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledartichoke
@@ -277,6 +291,7 @@ item HCPickledartichoke
         Proteins 			= 	0,
         Lipids 				= 	4,
         Calories 			= 	53,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledzucchini
@@ -295,6 +310,7 @@ item HCPickledzucchini
         Proteins 			= 	1.79,
         Lipids 				= 	0.41,
         Calories 			= 	63,
+		DisplayCategory		= FoodN,
 	}
 		
 item HCSauerkraut
@@ -313,6 +329,7 @@ item HCSauerkraut
         Proteins 			= 	13,
         Lipids 				= 	1,
         Calories 			= 	250,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledeggs
@@ -331,6 +348,7 @@ item HCPickledeggs
         Proteins 			= 	55,
         Lipids 				= 	41,
         Calories 			= 	411,
+		DisplayCategory		= FoodN,
 	}
 
 item HCPickledherring
@@ -349,6 +367,7 @@ item HCPickledherring
         Proteins 			= 	90,
         Lipids 				= 	45,
         Calories 			= 	713,
+		DisplayCategory		= FoodN,
 	}
 	
 item HCSpicypaste
@@ -368,6 +387,7 @@ item HCSpicypaste
         Proteins 			= 	1.3,
         Lipids 				= 	0.2,
         Calories 			= 	95,
+		DisplayCategory		= FoodP,
 	}
 	
 item HCKimchi
@@ -386,6 +406,7 @@ item HCKimchi
         Proteins 			= 	13,
         Lipids 				= 	1,
         Calories 			= 	250,
+		DisplayCategory		= FoodN,
 	}
 
 item HCJarpickles
@@ -394,6 +415,7 @@ item HCJarpickles
 	Type				=	Normal,
 	DisplayName			=	Jar of Pickles,
 	Icon				=	HCJarpickles,
+		DisplayCategory		= FoodN,
 	}
 
 /************************RECIPES************************/

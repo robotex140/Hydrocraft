@@ -15,6 +15,7 @@ item HCBonepowder
         Type    		= Normal,
         DisplayName         	= Bone Powder,
         icon 			= HCBonepowder,
+		DisplayCategory          =   CraftBone,
     }
 
 item HCMusselshell
@@ -23,6 +24,7 @@ item HCMusselshell
         Type    		= Normal,
         DisplayName         	= Mussel Shell,
         icon 			= HCMusselshell,
+		DisplayCategory          =   CraftBone,
     }
 
 item HCShellpowder
@@ -31,6 +33,7 @@ item HCShellpowder
         Type    		= Normal,
         DisplayName         	= Shell Powder,
         icon 			= HCShellpowder,
+		DisplayCategory          =   CraftBone,
     }
 
 item HCGelatin
@@ -39,6 +42,7 @@ item HCGelatin
         Type    		= Normal,
         DisplayName         	= Gelatin,
         icon 			= HCGelatin,
+		DisplayCategory          =   CraftBone,
     }
 
 item HCGelatinpowder
@@ -47,6 +51,7 @@ item HCGelatinpowder
         Type    		= Normal,
         DisplayName         	= Gelatin Powder,
         icon 			= HCGelatinpowder,
+		DisplayCategory          =   CraftBone,
     }
 
 item HCBone
@@ -55,6 +60,7 @@ item HCBone
         Type    		= Normal,
         DisplayName         	= Bone,
         icon 			= HCBone,
+		DisplayCategory          =   CraftBone,
     } 
 
 item HCWishbone
@@ -63,6 +69,7 @@ item HCWishbone
         Type    		= Normal,
         DisplayName         	= Wishbone,
         icon 			= HCWishbone,
+		DisplayCategory          =   CraftBone,
     } 
 
 item HCBonemarrow
@@ -84,6 +91,7 @@ item HCBonemarrow
         Proteins 			= 	7,
        	Lipids 				= 	84,
         Calories 			= 	786,
+		DisplayCategory          =   FoodN,
     } 
 
 item HCBoneash
@@ -92,6 +100,7 @@ item HCBoneash
         Type    		= Normal,
         DisplayName         	= Bone Ash,
         icon 			= HCBoneash,
+		DisplayCategory          =   CraftBone,
     } 
 
 item HCZombiebones
@@ -100,6 +109,7 @@ item HCZombiebones
         Type    		= Normal,
         DisplayName         	= Zombie Bones,
         icon 			= HCZombiebones,
+		DisplayCategory          =   CraftBone,
     } 
 
 item HCDogbones
@@ -108,6 +118,7 @@ item HCDogbones
         Type    		= Normal,
         DisplayName         	= Dog bones,
         icon 			= HCDogbones,
+		DisplayCategory          =   CraftBone,
     }
 
 item HCCatbones
@@ -116,6 +127,7 @@ item HCCatbones
         Type    		= Normal,
         DisplayName         	= Cat bones,
         icon 			= HCCatbones,
+		DisplayCategory          =   CraftBone,
     }
 
 item HCSheepbones
@@ -124,7 +136,7 @@ item HCSheepbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheep Skeleton,
 	Icon				=	HCSheepbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCGoatbones
@@ -133,7 +145,7 @@ item HCGoatbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Goat Skeleton,
 	Icon				=	HCGoatbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCGoathorn
@@ -142,6 +154,7 @@ item HCGoathorn
         Type    			= 	Normal,
         DisplayName         		= 	Goat Horn,
         icon 				= 	HCGoathorn,
+		DisplayCategory          =   CraftBone,
     } 
 
 item HCPigbones
@@ -150,7 +163,7 @@ item HCPigbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Pig Skeleton,
 	Icon				=	HCPigbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCCowbones
@@ -159,7 +172,7 @@ item HCCowbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow Skeleton,
 	Icon				=	HCCowbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCCowbones2
@@ -168,7 +181,7 @@ item HCCowbones2
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow Skeleton,
 	Icon				=	HCCowbones2,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCDonkeybones
@@ -177,7 +190,7 @@ item HCDonkeybones
 	Type 				= 	Normal,
 	DisplayName 			= 	Donkey Skeleton,
 	Icon				=	HCDonkeybones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCHorsebones
@@ -186,7 +199,7 @@ item HCHorsebones
 	Type 				= 	Normal,
 	DisplayName 			= 	Horse Skeleton,
 	Icon				=	HCHorsebones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCFoxbones
@@ -195,7 +208,7 @@ item HCFoxbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Fox Skeleton,
 	Icon				=	HCFoxbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCRaccoonbones
@@ -204,7 +217,7 @@ item HCRaccoonbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Raccoon Skeleton,
 	Icon				=	HCRaccoonbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCBoarbones
@@ -213,7 +226,7 @@ item HCBoarbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Boar Skeleton,
 	Icon				=	HCBoarbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCBoartusk
@@ -222,6 +235,7 @@ item HCBoartusk
         Type    			= 	Normal,
         DisplayName         		= 	Boar Tusk,
         icon 				= 	HCBoartusk,
+		DisplayCategory          =   CraftBone,
     } 
 
 item HCDeerbones
@@ -230,7 +244,7 @@ item HCDeerbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer Skeleton,
 	Icon				=	HCDeerbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCDeerbones2
@@ -239,7 +253,7 @@ item HCDeerbones2
 	Type 				= 	Normal,
 	DisplayName 			= 	Deer Skeleton,
 	Icon				=	HCDeerbones2,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCDeerantlers
@@ -248,6 +262,7 @@ item HCDeerantlers
         Type    			= 	Normal,
         DisplayName         		= 	Deer Antlers,
         icon 				= 	HCDeerantlers,
+		DisplayCategory          =   CraftBone,
     } 
 
 item HCBearbones
@@ -256,7 +271,7 @@ item HCBearbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Grizzly Bear Skeleton,
 	Icon				=	HCBearbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCBlackbearbones
@@ -265,7 +280,7 @@ item HCBlackbearbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Black Bear Skeleton,
 	Icon				=	HCBlackbearbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCCougarbones
@@ -274,7 +289,7 @@ item HCCougarbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Cougar Skeleton,
 	Icon				=	HCCougarbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCZedbones
@@ -283,7 +298,7 @@ item HCZedbones
 	Type 				= 	Normal,
 	DisplayName 			= 	Skeleton,
 	Icon				=	HCZedbones,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCZedbonesheadless
@@ -292,7 +307,7 @@ item HCZedbonesheadless
 	Type 				= 	Normal,
 	DisplayName 			= 	Headless Skeleton,
 	Icon				=	HCZedbonesheadless,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCZedskull
@@ -301,6 +316,7 @@ item HCZedskull
 	Type 				= 	Normal,
 	DisplayName 			= 	Skull,
 	Icon				=	HCZedskull,
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCSkullpile
@@ -309,7 +325,7 @@ item HCSkullpile
 	Type 				= 	Normal,
 	DisplayName 			= 	Skull Pile,
 	Icon				=	HCSkullpile,
-	
+		DisplayCategory          =   CraftBone,
 	}
 
 item HCDicebone
@@ -318,6 +334,7 @@ item HCDicebone
         Type    		= Normal,
         DisplayName         	= Bone Dice,
         icon 			= HCDicebone,
+		DisplayCategory          =   Toy,
     } 
 
 item HCBoneneedle
@@ -326,6 +343,7 @@ item HCBoneneedle
         Type    		= Normal,
         DisplayName         	= Bone Needle,
         icon 			= HCBoneneedle,
+		DisplayCategory          =   CraftTailor,
     } 
 
 
@@ -335,6 +353,7 @@ item HCFishhookbone
         Type    		= Normal,
         DisplayName         	= Bone Fishhook,
         icon 			= HCFishhookbone,
+		DisplayCategory          =   SurFish,
     } 
 
  item HCGluejar
@@ -346,6 +365,7 @@ item HCFishhookbone
         DisplayName		=	Jar of Glue,
         Icon			=	HCClayjarsmall,
 	ReplaceOnDeplete	=	Hydrocraft.HCClayjarsmall,
+		DisplayCategory          =   CraftCarp,
     	}
 
 item HCWoodgluejar
@@ -357,6 +377,7 @@ item HCWoodgluejar
         DisplayName		=	Jar of Wood Glue,
         Icon			=	HCClayjarsmall,
 	ReplaceOnDeplete	=	Hydrocraft.HCClayjarsmall,
+		DisplayCategory          =   CraftCarp,
     	}
 
 /************************WEAPONS************************/
@@ -397,6 +418,7 @@ item HCWoodgluejar
         	BreakSound  			=   	BreakWoodItem,
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory          =   WepMelee,
 	}
 
 /************************RECIPES************************/

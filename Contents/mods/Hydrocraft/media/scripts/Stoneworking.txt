@@ -14,7 +14,7 @@ item HCStonepilebox
         Type   			= Normal,
         DisplayName         	= Pallet of Stones,
         icon 			= HCStonepilebox,
-	
+		DisplayCategory	= CraftMas,
     }
 
 item HCMortar
@@ -23,6 +23,7 @@ item HCMortar
         Type    		= Normal,
         DisplayName         	= Mortar,
         icon 			= HCMortar,
+		DisplayCategory	= CraftMas,
     } 
 
 item HCSawstone
@@ -32,6 +33,7 @@ item HCSawstone
 	UseDelta 		= 0.25,
         DisplayName         	= Stone Saw,
         icon 			= HCSawstone,
+		DisplayCategory	= Tool,
     }
 
 item HCChisel
@@ -40,6 +42,7 @@ item HCChisel
         Type    		= Normal,
         DisplayName         	= Hand Chisel,
         icon 			= HCChisel,
+		DisplayCategory	= Tool,
     }
 
 item HCTombstone
@@ -47,8 +50,8 @@ item HCTombstone
         Weight    		= 10,
         Type    		= Normal,
         DisplayName         	= Tombstone,
-        icon 			= HCTombstone,
-	
+        icon 			= HCTombstone
+		DisplayCategory	= CraftMas,
     } 
 
 item HCGrave
@@ -57,7 +60,7 @@ item HCGrave
         Type    		= Normal,
         DisplayName         	= Grave,
         icon 			= HCGrave,
-	
+		DisplayCategory	= CraftMas,
     } 
 
 item HCRunestone
@@ -66,7 +69,7 @@ item HCRunestone
         Type    		= Normal,
         DisplayName         	= Rune Stone,
         icon 			= HCRunestone,
-	
+		DisplayCategory	= CraftMas,
     } 
 
 item HCObelisk
@@ -75,7 +78,7 @@ item HCObelisk
         Type    		= Normal,
         DisplayName         	= Obelisk,
         icon 			= HCObelisk,
-	
+		DisplayCategory	= CraftMas,
     } 
 
 item HCTarkiln
@@ -84,7 +87,7 @@ item HCTarkiln
         Type    		= Normal,
         DisplayName         	= Tar Kiln,
         icon 			= HCTarkiln,
-	
+		DisplayCategory	= CraftMas,
     }
 
 item HCWell
@@ -95,7 +98,7 @@ item HCWell
         DisplayName         	= Empty Well,
 	ReplaceOnUseOn		= WaterSource-HCWellfull,
         icon 			= HCWell,
-	
+		DisplayCategory	= CraftMas,
 	RainFactor 		= 0.01,
     }
 
@@ -111,7 +114,7 @@ item HCWellfull
 	ReplaceOnDeplete	=	HCWell,
 	ReplaceOnUseOn		=	WaterSource-HCWellfull,
 	Icon			=	HCWell,
-	
+		DisplayCategory	= CraftMas,
 	RainFactor 		= 	0.01,
     }
 
@@ -121,7 +124,7 @@ item HCOilpress
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-		
+		DisplayCategory	= CraftMas,
     } 
 
 item HCOilpress2
@@ -130,7 +133,7 @@ item HCOilpress2
         Type    		= Normal,
         DisplayName         	= Oil Press,
         icon 			= HCOilpress,
-		
+		DisplayCategory	= CraftMas,
     } 
 
 item HCStonewheel
@@ -139,7 +142,7 @@ item HCStonewheel
         Type    		= Normal,
         DisplayName         	= Stone Wheel,
         icon 			= HCStonewheel,
-		
+		DisplayCategory	= CraftMas,
     } 
 
 item HCGrindstone
@@ -147,8 +150,8 @@ item HCGrindstone
         Weight    		= 20,
         Type    		= Normal,
         DisplayName     = Grindstone,
-        icon 			= HCGrindstone,
-		
+        icon 			= HCGrindstone
+		DisplayCategory	= CraftMas,
     } 
 
 item HCStampmill
@@ -156,7 +159,7 @@ item HCStampmill
         Weight    		= 20,
         Type    		= Normal,
         DisplayName     = Stamp Mill,
-        
+		DisplayCategory	= CraftMas,
         icon 			= HCStampmill,
     }
 
@@ -165,7 +168,7 @@ item HCStampmillcrank
         Weight    		= 20,
         Type    		= Normal,
         DisplayName         	= Stamp Mill with Crank,
-        
+		DisplayCategory	= CraftMas,
         icon 			= HCStampmillcrank,
     }
 
@@ -175,6 +178,7 @@ item HCStampmillsteam
         Type    		= Normal,
         DisplayName     = Stamp Mill with Steam Machine,
         icon 			= HCStampmillsteam,
+		DisplayCategory	= CraftMas,
     }
 
 item HCStampmillgen
@@ -182,7 +186,7 @@ item HCStampmillgen
         Weight    		= 20,
         Type    		= Normal,
         DisplayName      = Stamp Mill with Generator,
-        
+		DisplayCategory	= CraftMas,
         icon 			= HCStampmillgen,
     }
 
@@ -195,6 +199,7 @@ item HCWoodenbucketgravel
 	DisplayName		=	Wooden Bucket with Gravel,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketgravel,
+		DisplayCategory	= CraftMas,
 	
 	}
 
@@ -207,6 +212,7 @@ item HCWoodenbucketsand
 	DisplayName		=	Wooden Bucket with Sand,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketsand,
+		DisplayCategory	= CraftMas,
 	
 	}
 
@@ -219,6 +225,7 @@ item HCWoodenbucketconcrete
 	DisplayName		=	Wooden Bucket with Concrete,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketconcrete,
+		DisplayCategory	= CraftMas,
 	
 	}
 
@@ -230,6 +237,7 @@ item HCCellar
     DisplayName         		= Cellar,
     icon 				        = HCCellar,
 	RequiresEquippedBothHands 	= true,
+		DisplayCategory	= Furniture,
     }
 
 
@@ -239,6 +247,7 @@ item HCAnvilstone
         Type    		= Normal,
         DisplayName     = Stone Anvil,
         icon 			= HCAnvilstone,
+		DisplayCategory	= CraftMet,
     }
 
 item HCAnvilstone2
@@ -249,6 +258,7 @@ item HCAnvilstone2
         WeightReduction     = 0,
         DisplayName         = Stone Anvil,
         icon            = HCAnvilstone,
+		DisplayCategory	= CraftMet,
 	
     }
 
@@ -258,6 +268,7 @@ item HCVenus
         Type    		= Normal,
         DisplayName         	= Venus Figurine,
         icon 			= HCVenus,
+		DisplayCategory	= Furniture,
     }
 
 /************************RECIPES************************/

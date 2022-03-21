@@ -14,7 +14,7 @@ item HCFlagamerican
 	Type			=	Normal,
 	DisplayName		=	American Flag,
 	Icon			=	HCFlagamerican,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagnewmexico
@@ -23,7 +23,7 @@ item HCFlagnewmexico
 	Type			=	Normal,
 	DisplayName		=	New Mexico Flag,
 	Icon			=	HCFlagnewmexico,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagmexican
@@ -32,7 +32,7 @@ item HCFlagmexican
 	Type			=	Normal,
 	DisplayName		=	Mexican Flag,
 	Icon			=	HCFlagmexican,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagcanadian
@@ -41,7 +41,7 @@ item HCFlagcanadian
 	Type			=	Normal,
 	DisplayName		=	Canadian Flag,
 	Icon			=	HCFlagcanadian,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagbritish
@@ -50,7 +50,7 @@ item HCFlagbritish
 	Type			=	Normal,
 	DisplayName		=	British Flag,
 	Icon			=	HCFlagbritish,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagfrench
@@ -59,7 +59,7 @@ item HCFlagfrench
 	Type			=	Normal,
 	DisplayName		=	French Flag,
 	Icon			=	HCFlagfrench,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagitalian
@@ -68,7 +68,7 @@ item HCFlagitalian
 	Type			=	Normal,
 	DisplayName		=	Italian Flag,
 	Icon			=	HCFlagitalian,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagdutch
@@ -77,7 +77,7 @@ item HCFlagdutch
 	Type			=	Normal,
 	DisplayName		=	Dutch Flag,
 	Icon			=	HCFlagdutch,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlaggerman
@@ -86,6 +86,7 @@ item HCFlaggerman
 	Type			=	Normal,
 	DisplayName		=	German Flag,
 	Icon			=	HCFlaggerman,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -95,6 +96,7 @@ item HCFlagczech
 	Type			=	Normal,
 	DisplayName		=	Czech Flag,
 	Icon			=	HCFlagczech,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -104,6 +106,7 @@ item HCFlagsoviet
 	Type			=	Normal,
 	DisplayName		=	Soviet Union Flag,
 	Icon			=	HCFlagsoviet,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -113,6 +116,7 @@ item HCFlagnorthkorea
 	Type			=	Normal,
 	DisplayName		=	North Korean Flag,
 	Icon			=	HCFlagnorthkorea,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -122,6 +126,7 @@ item HCFlaganarchist
 	Type			=	Normal,
 	DisplayName		=	Archist Flag,
 	Icon			=	HCFlaganarchist,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -131,6 +136,7 @@ item HCFlagpole
 	Type			=	Normal,
 	DisplayName		=	Flag Pole,
 	Icon			=	HCFlagpole,
+	DisplayCategory          =   CraftMisc,
 	
   	}
 
@@ -140,6 +146,7 @@ item HCFlagpoleamerican
 	Type			=	Normal,
 	DisplayName		=	American Flag on Pole,
 	Icon			=	HCFlagpoleamerican,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -149,6 +156,7 @@ item HCFlagpolenewmexico
 	Type			=	Normal,
 	DisplayName		=	New Mexico Flag on Pole,
 	Icon			=	HCFlagpolenewmexico,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -158,6 +166,7 @@ item HCFlagpolemexican
 	Type			=	Normal,
 	DisplayName		=	Mexican Flag on Pole,
 	Icon			=	HCFlagpolemexican,
+	DisplayCategory          =   Misc,
 	
   	}
 
@@ -167,7 +176,7 @@ item HCFlagpolecanadian
 	Type			=	Normal,
 	DisplayName		=	Canadian Flag on Pole,
 	Icon			=	HCFlagpolecanadian,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpolebritish
@@ -176,7 +185,7 @@ item HCFlagpolebritish
 	Type			=	Normal,
 	DisplayName		=	British Flag on Pole,
 	Icon			=	HCFlagpolebritish,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpolefrench
@@ -185,7 +194,7 @@ item HCFlagpolefrench
 	Type			=	Normal,
 	DisplayName		=	French Flag on Pole,
 	Icon			=	HCFlagpolefrench,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpoleitalian
@@ -194,7 +203,7 @@ item HCFlagpoleitalian
 	Type			=	Normal,
 	DisplayName		=	Italian Flag on Pole,
 	Icon			=	HCFlagpoleitalian,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpoledutch
@@ -203,7 +212,7 @@ item HCFlagpoledutch
 	Type			=	Normal,
 	DisplayName		=	Dutch Flag Pole,
 	Icon			=	HCFlagpoledutch,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpolegerman
@@ -212,7 +221,7 @@ item HCFlagpolegerman
 	Type			=	Normal,
 	DisplayName		=	German Flag on Pole,
 	Icon			=	HCFlagpolegerman,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpoleczech
@@ -221,7 +230,7 @@ item HCFlagpoleczech
 	Type			=	Normal,
 	DisplayName		=	Czech Flag on Pole,
 	Icon			=	HCFlagpoleczech,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpolesoviet
@@ -230,7 +239,7 @@ item HCFlagpolesoviet
 	Type			=	Normal,
 	DisplayName		=	Soviet Union Flag on Pole,
 	Icon			=	HCFlagpolesoviet,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpolenorthkorea
@@ -239,7 +248,7 @@ item HCFlagpolenorthkorea
 	Type			=	Normal,
 	DisplayName		=	North Korean Flag on Pole,
 	Icon			=	HCFlagpolenorthkorea,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpoleanarchist
@@ -248,7 +257,7 @@ item HCFlagpoleanarchist
 	Type			=	Normal,
 	DisplayName		=	Anarchist Flag on Pole,
 	Icon			=	HCFlagpoleanarchist,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpolepurple
@@ -257,7 +266,7 @@ item HCFlagpolepurple
 	Type			=	Normal,
 	DisplayName		=	Purple Team Flag,
 	Icon			=	HCFlagpolepurple,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpoleblue
@@ -266,7 +275,7 @@ item HCFlagpoleblue
 	Type			=	Normal,
 	DisplayName		=	Blue Team Flag,
 	Icon			=	HCFlagpoleblue,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpolegreen
@@ -275,7 +284,7 @@ item HCFlagpolegreen
 	Type			=	Normal,
 	DisplayName		=	Green Team Flag,
 	Icon			=	HCFlagpolegreen,
-	
+	DisplayCategory          =   Misc,
   	}
 
 item HCFlagpoleyellow
@@ -284,7 +293,7 @@ item HCFlagpoleyellow
 	Type			=	Normal,
 	DisplayName		=	Yellow Team Flag,
 	Icon			=	HCFlagpoleyellow,
-	
+	DisplayCategory          =   Misc,
   	}
 
 
@@ -294,7 +303,7 @@ item HCFlagpoleorange
 	Type			=	Normal,
 	DisplayName		=	Orange Team Flag,
 	Icon			=	HCFlagpoleorange,
-	
+	DisplayCategory          =   Misc,
   	}
 
 
@@ -304,7 +313,7 @@ item HCFlagpolered
 	Type			=	Normal,
 	DisplayName		=	Red Team Flag,
 	Icon			=	HCFlagpolered,
-	
+	DisplayCategory          =   Misc,
   	}
 
 /************************RECIPES************************/	

@@ -14,6 +14,7 @@ item HCWaterbottlenapalm
         Type    		= Normal,
         DisplayName         	= Bottle of Napalm,
         icon 			= HCWaterbottlenapalm,
+			DisplayCategory		=	WepBomb,
     }
 
 item HCNapalmbombmk2off
@@ -22,6 +23,7 @@ item HCNapalmbombmk2off
         Type    		= Normal,
         DisplayName         	= Napalm Bomb MK2 Off,
         icon 			= HCNapalmbombmk2off,
+			DisplayCategory		=	WepBomb,
     }
 
 item HCNapalmbombmk3off
@@ -30,6 +32,7 @@ item HCNapalmbombmk3off
         Type    		= Normal,
         DisplayName         	= Napalm Bomb MK3 Off,
         icon 			= HCNapalmbombmk3off,
+			DisplayCategory		=	WepBomb,
     }
 
 item HCSoapshards
@@ -38,6 +41,7 @@ item HCSoapshards
         Type    		= Normal,
         DisplayName         	= Soap Shards,
         icon 			= HCSoapshards,
+			DisplayCategory		=	CraftAmmo,
     }  
 
 item HCPotsoap
@@ -54,6 +58,7 @@ item HCPotsoap
         Poison                  = true,
 	PoisonDetectionLevel 	= 3,
 	PoisonPower 		= 50,
+			DisplayCategory		=	CraftAmmo,
     }
 
 item HCPotmoltensoap
@@ -62,6 +67,7 @@ item HCPotmoltensoap
         Type    		= Normal,
         DisplayName         	= Pot with Molten Soap,
         icon 			= HCPotmoltensoap,
+			DisplayCategory		=	CraftAmmo,
     }
 
 item HCPotnapalm
@@ -70,6 +76,7 @@ item HCPotnapalm
         Type    		= Normal,
         DisplayName         	= Pot with Napalm,
         icon 			= HCPotnapalm,
+			DisplayCategory		=	CraftAmmo,
     }
 
 /************************WEAPONS************************/
@@ -97,6 +104,7 @@ item HCPotnapalm
         	ExplosionSound  		=   	BigExplosion,
 		Icon				=	HCNapalmbombmk1,
 		Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
 	}
 
 	item HCNapalmbombmk2on  
@@ -122,6 +130,7 @@ item HCPotnapalm
         	FireRange  			=   	6,
         	ExplosionSound  		=   	BigExplosion,
         	Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
     	}
 
 
@@ -148,6 +157,7 @@ item HCPotnapalm
         	FireRange  			=   	6,
         	ExplosionSound  		=   	BigExplosion,
 			Tooltip 			= 	Tooltip_Trap,
+			DisplayCategory		=	WepBomb,
     	}
 
 /************************RECIPES************************/

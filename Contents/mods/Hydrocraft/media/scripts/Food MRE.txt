@@ -22,6 +22,7 @@ item HCMRE
 		Calories 			= 1210,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodN,
 	}
 	
 item HCMREmeal
@@ -41,6 +42,7 @@ item HCMREmeal
 		Calories 			= 500,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodN,
 	}
 
 	
@@ -61,6 +63,7 @@ item HCMREmealside
 		Calories 			= 300,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodN,
 	}
 
 
@@ -83,6 +86,7 @@ item HCMREmealprepedA
 		Calories 			= 220,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 item HCMREmealprepedB
@@ -102,6 +106,7 @@ item HCMREmealprepedB
 		Calories 			= 380,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 item HCMREmealprepedC
@@ -121,6 +126,7 @@ item HCMREmealprepedC
 		Calories 			= 170,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 	
@@ -141,6 +147,7 @@ item HCMREmealprepedD
 		Calories 			= 110,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCMREmealprepedE
@@ -160,6 +167,7 @@ item HCMREmealprepedE
 		Calories 			= 233,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 item HCMREmealprepedF
@@ -179,6 +187,7 @@ item HCMREmealprepedF
 		Calories 			= 368,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 item HCMREmealprepedG
@@ -198,6 +207,7 @@ item HCMREmealprepedG
 		Calories 			= 230,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCMREmealprepedH
@@ -217,6 +227,7 @@ item HCMREmealprepedH
 		Calories 			= 361,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 item HCMREmealprepedI
@@ -236,6 +247,7 @@ item HCMREmealprepedI
 		Calories 			= 336,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}	
 
 item HCMREmealprepedJ
@@ -255,6 +267,7 @@ item HCMREmealprepedJ
 		Calories 			= 660,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 	
 item HCMREmealprepedK
@@ -274,6 +287,7 @@ item HCMREmealprepedK
 		Calories 			= 227,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory 	        =       FoodP,
 	}
 
 /**Extended*Side*Meals**/
@@ -294,6 +308,7 @@ item HCMREmealsideprepedA
 		Calories 			= 130,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}
 item HCMREmealsideprepedB
 	{
@@ -312,6 +327,7 @@ item HCMREmealsideprepedB
 		Calories 			= 120,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}
 
 item HCMREmealsideprepedC
@@ -331,6 +347,7 @@ item HCMREmealsideprepedC
 		Calories 			= 200,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}	
 	
 item HCMREmealsideprepedD
@@ -350,6 +367,7 @@ item HCMREmealsideprepedD
 		Calories 			= 475,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}	
 
 item HCMREmealsideprepedE
@@ -369,6 +387,7 @@ item HCMREmealsideprepedE
 		Calories 			= 350,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}
 item HCMREmealsideprepedF
 	{
@@ -387,6 +406,7 @@ item HCMREmealsideprepedF
 		Calories 			= 290,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}
 
 item HCMREmealsideprepedG
@@ -406,6 +426,7 @@ item HCMREmealsideprepedG
 		Calories 			= 251,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}	
 	
 item HCMREmealsideprepedH
@@ -425,6 +446,7 @@ item HCMREmealsideprepedH
 		Calories 			= 160,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodP,
 	}
 
 /**END*SEGMENT**/	
@@ -445,6 +467,7 @@ item HCMREcrackers
 		Calories 			= 170,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE,
+		DisplayCategory		= FoodN,
 	}
 item HCMREbread
 	{
@@ -461,6 +484,7 @@ item HCMREbread
 		Calories 			= 180,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE, 
+		DisplayCategory		= FoodN,
 	}
 item HCMREpoundcake
 	{
@@ -477,6 +501,7 @@ item HCMREpoundcake
 		Calories 			= 280,
 		Packaged 			= TRUE,
 		CantBeFrozen 		= TRUE, 
+		DisplayCategory		= FoodN,
 	}
 
 item HCMREFRH
@@ -485,6 +510,7 @@ item HCMREFRH
 		Icon 				= HCMREFRH,
 		Weight 				= 0.1,
 		Type 				= Normal,
+		DisplayCategory		= Cooking,
 	}
 	
 item HCMREbox
@@ -492,6 +518,7 @@ item HCMREbox
 		Weight			=	2,
 		Icon			=	HCMREbox,
 		DisplayName		=	Box of MREs,
+		DisplayCategory		= FoodN,
 	}
 
 item HCMREpalletsmall
@@ -500,6 +527,7 @@ item HCMREpalletsmall
         Type   			= Normal,
         DisplayName     = Small Pallet of MREs,
         icon 			= HCMREpalletsmall,
+		DisplayCategory		= FoodN,
 		
     }
 
@@ -509,7 +537,7 @@ item HCMREpalletmedium
         Type   			= Normal,
         DisplayName     = Medium Pallet of MREs,
         icon 			= HCMREpalletmedium,
-		
+		DisplayCategory		= FoodN,
     }
 
 item HCMREpalletlarge
@@ -518,7 +546,7 @@ item HCMREpalletlarge
         Type   			= Normal,
         DisplayName     = Large Pallet of MREs,
         icon 			= HCMREpalletlarge,
-		
+		DisplayCategory		= FoodN,
     }
 	
 /******RECIPES*****/

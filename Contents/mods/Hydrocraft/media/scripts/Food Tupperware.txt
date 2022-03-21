@@ -17,6 +17,7 @@ item HCLargetup
 	ReplaceOnUseOn			= WaterSource-HCLargetupwater,
         icon 				= HCLargetup,
 	RainFactor 			= 1,
+	DisplayCategory          =   Cooking,
     }
 
 item HCLargetupfood
@@ -30,6 +31,7 @@ item HCLargetupfood
 	Icon				=	HCLargetupfood,
 	ReplaceOnUse			=	HCLargetup,
 	DaysFresh			=	15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCLargetuplid
@@ -38,6 +40,7 @@ item HCLargetuplid
         Type    			= Normal,
         DisplayName         		= Large Tupperware Lid,
         icon 				= HCLargetuplid,
+	DisplayCategory          =   Cooking,
     }
 
 item HCLargetupbowl
@@ -46,6 +49,7 @@ item HCLargetupbowl
         Type    			= Normal,
         DisplayName         		= Large Tupperware Container without Lid,
         icon 				= HCLargetupbowl,
+	DisplayCategory          =   Cooking,
     }
 
 item HCLargetupwater
@@ -61,6 +65,7 @@ item HCLargetupwater
 	ReplaceOnUseOn			=	WaterSource-HCLargetupwater,
 	Icon				=	HCLargetupwater,
 	RainFactor 			= 	1,
+	DisplayCategory          =   FoodB,
     }
 
 item HCMediumtup
@@ -72,6 +77,7 @@ item HCMediumtup
 	ReplaceOnUseOn			= WaterSource-HCMediumtupwater,
         icon 				= HCMediumtup,
 	RainFactor 			= 1,
+	DisplayCategory          =   Cooking,
     }
 
 item HCMediumtupfood
@@ -85,6 +91,7 @@ item HCMediumtupfood
 	Icon				=	HCMediumtupfood,
 	ReplaceOnUse			=	HCMediumtup,
 	DaysFresh			=	15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCMediumtuplid
@@ -93,6 +100,7 @@ item HCMediumtuplid
         Type    			= Normal,
         DisplayName         		= Medium Tupperware Lid,
         icon 				= HCMediumtuplid,
+	DisplayCategory          =   Cooking,
     }
 
 item HCMediumtupbowl
@@ -101,6 +109,7 @@ item HCMediumtupbowl
         Type    			= Normal,
         DisplayName         		= Medium Tupperware Container without Lid,
         icon 				= HCMediumtupbowl,
+	DisplayCategory          =   Cooking,
     }
 
 item HCMediumtupwater
@@ -116,6 +125,7 @@ item HCMediumtupwater
 	ReplaceOnUseOn			=	WaterSource-HCMediumtupwater,
 	Icon				=	HCMediumtupwater,
 	RainFactor 			= 	1,
+	DisplayCategory          =   FoodB,
     }
 
 item HCSmalltup
@@ -127,6 +137,7 @@ item HCSmalltup
 	ReplaceOnUseOn			= WaterSource-HCSmalltupwater,
         icon 				= HCSmalltup,
 	RainFactor 			= 0.2,
+	DisplayCategory          =   Cooking,
     }
 
 item HCSmalltupfood
@@ -140,6 +151,7 @@ item HCSmalltupfood
 	Icon				=	HCSmalltupfood,
 	ReplaceOnUse			=	HCSmalltup,
 	DaysFresh			=	15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCSmalltuplid
@@ -148,6 +160,7 @@ item HCSmalltuplid
         Type    			= Normal,
         DisplayName         		= Small Tupperware Lid,
         icon 				= HCSmalltuplid,
+	DisplayCategory          =   Cooking,
     }
 
 item HCSmalltupbowl
@@ -156,6 +169,7 @@ item HCSmalltupbowl
         Type    			= Normal,
         DisplayName         		= Small Tupperware Container without Lid,
         icon 				= HCSmalltupbowl,
+	DisplayCategory          =   Cooking,
     }
 
 item HCSmalltupwater
@@ -171,6 +185,7 @@ item HCSmalltupwater
 	ReplaceOnUseOn			=	WaterSource-HCSmalltupwater,
 	Icon				=	HCSmalltupwater,
 	RainFactor 			= 	0.2,
+	DisplayCategory          =   FoodB,
     }
 
 

@@ -29,6 +29,7 @@ item HCSausagefrog
         Proteins 			= 	32,
         Lipids 				= 	2.6,
         Calories 			= 	220,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagebird
@@ -52,6 +53,7 @@ item HCSausagebird
         Proteins 			= 	44,
         Lipids 				= 	2.6,
         Calories 			= 	268,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagechicken
@@ -75,6 +77,7 @@ item HCSausagechicken
        	Proteins 			= 	54,
        	Lipids 				= 	30,
         Calories 			= 	495,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausageduck
@@ -98,6 +101,7 @@ item HCSausageduck
         Proteins 			= 	69,
         Lipids 				= 	33,
         Calories 			= 	603,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagegoose
@@ -121,6 +125,7 @@ item HCSausagegoose
         Proteins 			= 	87,
         Lipids 				= 	39,
         Calories 			= 	714,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausageturkey
@@ -144,6 +149,7 @@ item HCSausageturkey
       	Proteins 			= 	69,
       	Lipids 				= 	5.7,
       	Calories 			= 	336,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagevermin
@@ -167,6 +173,7 @@ item HCSausagevermin
       	Proteins 			= 	88,
       	Lipids 				= 	5.2,
       	Calories 			= 	456,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagerabbit
@@ -190,6 +197,7 @@ item HCSausagerabbit
       	Proteins 			= 	88,
       	Lipids 				= 	5.2,
       	Calories 			= 	456,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagesmallgame
@@ -213,6 +221,7 @@ item HCSausagesmallgame
       	Proteins 			= 	88,
       	Lipids 				= 	5.2,
       	Calories 			= 	456,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagedeer
@@ -236,6 +245,7 @@ item HCSausagedeer
       	Proteins 			= 	90,
       	Lipids 				= 	9.6,
       	Calories 			= 	474,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagebear
@@ -259,6 +269,7 @@ item HCSausagebear
       	Proteins 			= 	60,
       	Lipids 				= 	24.9,
       	Calories 			= 	483,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagecougar
@@ -282,6 +293,7 @@ item HCSausagecougar
       	Proteins 			= 	60,
       	Lipids 				= 	24.9,
       	Calories 			= 	483,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagemutton
@@ -305,6 +317,7 @@ item HCSausagemutton
       	Proteins 			= 	99,
       	Lipids 				= 	33,
       	Calories 			= 	702,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagepork
@@ -328,6 +341,7 @@ item HCSausagepork
       	Proteins 			= 	63,
       	Lipids 				= 	27,
       	Calories 			= 	450,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagebeef
@@ -351,6 +365,7 @@ item HCSausagebeef
       	Proteins 			= 	78.2,
       	Lipids 				= 	21.4,
       	Calories 			= 	525,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagecheval
@@ -374,6 +389,7 @@ item HCSausagecheval
       	Proteins 			= 	97,
       	Lipids 				= 	21,
       	Calories 			= 	603,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausageitalian
@@ -397,6 +413,7 @@ item HCSausageitalian
       	Proteins 			= 	63,
       	Lipids 				= 	27,
       	Calories 			= 	450,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSausagehot
@@ -420,6 +437,7 @@ item HCSausagehot
       	Proteins 			= 	63,
       	Lipids 				= 	27,
       	Calories 			= 	450,
+		DisplayCategory		=	FoodP,
     }
 	
 /************************RECIPES************************/

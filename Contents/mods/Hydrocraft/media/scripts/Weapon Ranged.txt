@@ -13,6 +13,7 @@ module Hydrocraft
         	Icon        	=    	HCDucttapefletching,
         	Type        	=    	Normal,
         	Weight        	=    	0.1,
+			DisplayCategory	=		CraftAmmo,
     	}
 
 	item HCBonearrowhead
@@ -21,6 +22,7 @@ module Hydrocraft
         	Icon        	=    	HCBonearrowhead,
         	Type        	=    	Normal,
         	Weight        	=    	0.1,
+			DisplayCategory	=		CraftAmmo,
     	}
 
 /************************WEAPONS************************/
@@ -35,6 +37,7 @@ module Hydrocraft
         MaxAmmo = 30,
         AmmoType = Base.Bullets9mm,
         StaticModel = GunMagazine,
+		DisplayCategory	= WepAmmoMag,
     }
 
 item HCUziSilencer
@@ -49,6 +52,7 @@ item HCUziSilencer
         MountOn = Pistol; Pistol2; Pistol3; Revolver; Revolver_Short; Revolver_Long; Hydrocraft.HCUzi,
         PartType = Canon,
         Tooltip = Tooltip_Silencer,
+		DisplayCategory	= WepPart,
     }
 
 
@@ -132,6 +136,7 @@ item HCUziSilencer
         ModelWeaponPart = GunLight GunLight gunlight gunlight,
         ModelWeaponPart = IronSight IronSight scope scope,
         ModelWeaponPart = Laser Laser laser laser,
+		DisplayCategory	= WepFire,
     }
 
 item HCMagAA12
@@ -145,6 +150,7 @@ item HCMagAA12
     AmmoType        =   Base.ShotgunShells,
     StaticModel     =   GunMagazine,
     MetalValue      =   10,
+		DisplayCategory	= WepAmmoMag,
     }
 
 item HCAA12
@@ -219,6 +225,7 @@ item HCAA12
     FireMode        =   Auto,
     FireModePossibilities   =   Auto/Single,
     ModelWeaponPart     =   Hydrocraft.HCShotgunSilencer gunlight gunlight gunlight,
+		DisplayCategory	= WepFire,
     }
 
 
@@ -234,6 +241,7 @@ item HCShotgunSilencer
         MountOn = Hydrocraft.HCAA12; Shotgun,
         PartType = Canon,
         Tooltip = Tooltip_Silencer,
+		DisplayCategory	= WepPart,
     }
 
 
@@ -254,6 +262,7 @@ item HCMetalArrowhead
         Type            =   Normal,
         DisplayName             =   Metal Arrowhead,
         icon            =   HCBonearrowhead,
+			DisplayCategory	=		CraftAmmo,
     }
 
 
@@ -278,6 +287,7 @@ item HCMetalArrowhead
         MaxAmmo = 15,
         AmmoType = Hydrocraft.HCArrow,
         StaticModel = GunMagazine,
+		DisplayCategory	= WepAmmoMag,
     }
 
     item HCLongbowMag
@@ -346,7 +356,8 @@ item HCMetalArrowhead
         RackAfterShoot = TRUE,
         JamGunChance = 0,
         AttachmentType = Rifle,
-        MaxAmmo = 15
+        MaxAmmo = 15,
+		DisplayCategory	= WepBow,
     }
 
 
@@ -417,7 +428,8 @@ item HCCrossbow
         RackAfterShoot = FALSE,
         JamGunChance = 0,
         AttachmentType = Rifle,
-        MaxAmmo = 1
+        MaxAmmo = 1,
+		DisplayCategory	= WepBow,
     }
 
     item x2CrossbowScope
@@ -433,6 +445,7 @@ item HCCrossbow
         PartType = Scope,
         Tooltip = Tooltip_Scope,
         MetalValue = 22,
+		DisplayCategory	= WepPart,
     }
 
     item x4CrossbowScope
@@ -448,6 +461,7 @@ item HCCrossbow
         PartType = Scope,
         Tooltip = Tooltip_Scope,
         MetalValue = 22,
+		DisplayCategory	= WepPart,
     }
 
 	item HCLongbow
@@ -516,6 +530,7 @@ item HCCrossbow
         JamGunChance = 0,
         AttachmentType = Rifle,
         MaxAmmo = 1
+		DisplayCategory	= WepBow,
     }
 
 

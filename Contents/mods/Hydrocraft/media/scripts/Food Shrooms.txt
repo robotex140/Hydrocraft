@@ -24,6 +24,7 @@ item HCBunchofshrooms
         Proteins 			= 		9.9,
         Lipids 				= 		1.8,
         Calories 			= 		210,
+		DisplayCategory		=	FoodP,
 	}
 
    item HCPortobello
@@ -42,6 +43,7 @@ item HCBunchofshrooms
         Proteins 			= 		2.36,
         Lipids 				= 		0.32,
         Calories 			= 		38,
+		DisplayCategory		=	FoodP,
    }
 
    item HCShiitake
@@ -60,6 +62,7 @@ item HCBunchofshrooms
         Proteins 			= 		2.36,
         Lipids 				= 		0.32,
         Calories 			= 		38,
+		DisplayCategory		=	FoodP,
    }
 
    item HCBlewitshroom
@@ -78,6 +81,7 @@ item HCBunchofshrooms
         Proteins 			= 		2.36,
         Lipids 				= 		0.32,
         Calories 			= 		38,
+		DisplayCategory		=	FoodP,
    }
 
    item HCLobstershroom
@@ -96,6 +100,7 @@ item HCBunchofshrooms
         Proteins 			= 		2.36,
         Lipids 				= 		0.32,
         Calories 			= 		38,
+		DisplayCategory		=	FoodP,
    }
 
    item HCWitchshatshroom
@@ -118,6 +123,7 @@ item HCBunchofshrooms
         Proteins 			= 		2.36,
         Lipids 				= 		0.32,
         Calories 			= 		38,
+		DisplayCategory		=	FoodP,
    }
 
    item HCYellowmorelshroom
@@ -140,6 +146,7 @@ item HCBunchofshrooms
         Proteins 			= 		2.36,
         Lipids 				= 		0.32,
         Calories 			= 		38,
+		DisplayCategory		=	FoodP,
    }
 
    item HCChantrelle
@@ -158,6 +165,7 @@ item HCBunchofshrooms
         Proteins 			= 		2.36,
         Lipids 				= 		0.32,
         Calories 			= 		38,
+		DisplayCategory		=	FoodP,
    }
 
 

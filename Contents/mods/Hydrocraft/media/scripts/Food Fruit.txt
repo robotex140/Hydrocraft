@@ -24,6 +24,7 @@ item HCPear
         	Lipids 			= 	0.2,
         	Calories 		= 	114,
 		ReplaceOnUse		=	Hydrocraft.HCPearseeds,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCLime
@@ -41,6 +42,7 @@ item HCLime
         	Proteins		= 	1.4,
         	Lipids 			= 	0.4,
         	Calories 		= 	60,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCGrapesgreen
@@ -58,6 +60,7 @@ item HCGrapesgreen
         	Proteins		= 	1.2,
         	Lipids 			= 	0.8,
         	Calories 		= 	134,
+		DisplayCategory		=   FoodP,
     	}
 
 item HCBunchofberries
@@ -76,6 +79,7 @@ item HCBunchofberries
         Proteins			= 	12,
         Lipids 				= 	1.2,
         Calories 			= 	240,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCCactusfruit
@@ -84,6 +88,8 @@ item HCCactusfruit
         ThirstChange			=	-15,
 	Weight	        		=	0.2,
 	Type	        		=	Food,
+	DaysFresh 			=	10,
+	DaysTotallyRotten 		=	20,
 	DisplayName			=	Cactus Fruit,
 	Icon	        		=	HCCactusfruit,
 	CustomContextMenu 		= 	Eat,
@@ -93,6 +99,7 @@ item HCCactusfruit
         Lipids 				= 	5,
         Calories 			= 	167,
 	ReplaceOnUse			=	Hydrocraft.HCCactusseeds,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPricklypearfruit
@@ -130,6 +137,7 @@ item HCApricot
         	Lipids 			= 	0.6,
         	Calories 		= 	79,
 		ReplaceOnUse		=	Hydrocraft.HCApricotseeds,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCDates
@@ -147,6 +155,7 @@ item HCDates
         	Proteins		= 	0,
         	Lipids 			= 	0,
         	Calories 		= 	66,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCFigs
@@ -164,6 +173,7 @@ item HCFigs
         	Proteins		= 	0,
         	Lipids 			= 	0,
         	Calories 		= 	47,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCKiwi
@@ -181,6 +191,7 @@ item HCKiwi
         	Proteins		= 	2,
         	Lipids 			= 	1,
         	Calories 		= 	85,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPlum
@@ -198,6 +209,7 @@ item HCPlum
         	Proteins		= 	0,
         	Lipids 			= 	0,
         	Calories 		= 	70,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPersimmon
@@ -215,6 +227,7 @@ item HCPersimmon
         	Proteins		= 	0,
         	Lipids 			= 	0,
         	Calories 		= 	360,
+		DisplayCategory		=   FoodP,
 	}
 
 /************************RECIPES************************/

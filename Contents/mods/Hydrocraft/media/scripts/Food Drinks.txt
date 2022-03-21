@@ -28,6 +28,7 @@ module Hydrocraft
 		CustomContextMenu 	= 	Drink,
 		CustomEatSound 		= 	DrinkingFromBottle,
 		ReplaceOnUse		=	HCCanteen,
+		DisplayCategory		=   FoodB,
 	}
 
 
@@ -51,6 +52,7 @@ module Hydrocraft
 		CustomContextMenu 	= 	Drink,
 		CustomEatSound 		= 	DrinkingFromBottle,
 		ReplaceOnUse		=	Hydrocraft.HCEnergydrinktrash,
+		DisplayCategory		=   FoodB,
 	}
 
 	item HCEnergydrink2
@@ -73,6 +75,7 @@ module Hydrocraft
 		CustomContextMenu 	= 	Drink,
 		CustomEatSound 		= 	DrinkingFromBottle,
 		ReplaceOnUse		= 	Hydrocraft.HCEnergydrink2trash,
+		DisplayCategory		=   FoodB,
 	}
 	
 		
@@ -95,6 +98,7 @@ module Hydrocraft
         Calories 		= 	336,
         CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCCoffeelarge
@@ -115,6 +119,7 @@ module Hydrocraft
         Calories 			= 	2,
         Packaged 			= 	TRUE,
         ReplaceOnUse		=	Hydrocraft.HCJar,
+		DisplayCategory		=   FoodB,
     }
 
 
@@ -126,6 +131,7 @@ module Hydrocraft
         DisplayName	=	Sack of roasted Coffee,
         Icon	=	Sandbag,
 		ReplaceOnDeplete	=	EmptySandbag,
+		DisplayCategory		=   CookRef,
     }
 
 
@@ -137,6 +143,7 @@ module Hydrocraft
 		UseDelta			=	0.2,
 		DisplayName			=	Cocoa Powder,
 		Icon				=	HCCoco,
+		DisplayCategory		=   CookRef,
 	}
 	
 	item HCCococup
@@ -157,6 +164,7 @@ module Hydrocraft
         Lipids 				= 	45,
         Calories 			= 	1200,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 
 	item HCCococup2
@@ -177,6 +185,7 @@ module Hydrocraft
         Lipids 				= 	45,
         Calories 			= 	1200,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCCoffeeblack
@@ -201,6 +210,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	3,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCCoffeeblacksugar
@@ -225,6 +235,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	3,
         CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 		
 	item HCCoffeeblacksugarmilk
@@ -249,6 +260,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	3,
         CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCCoffeeblack2
@@ -273,6 +285,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	3,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCCoffeeblack2sugar
@@ -297,6 +310,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	3,
         CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCCoffeeblack2sugarmilk
@@ -321,6 +335,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	3,
         CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}	
 
 	item HCKettlecoffee
@@ -346,6 +361,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	10,
         CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCThermoscoffee
@@ -367,6 +383,7 @@ module Hydrocraft
 		Lipids 				= 	0,
 		Calories 			= 	10,
 		CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCThermoscoffeesugar
@@ -388,6 +405,7 @@ module Hydrocraft
 		Lipids 				= 	0,
 		Calories 			= 	10,
 		CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 	item HCThermoscoffeesugarmilk
@@ -409,6 +427,7 @@ module Hydrocraft
 		Lipids 				= 	0,
 		Calories 			= 	10,
 		CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
 	}
 	
 /************************RECIPES************************/

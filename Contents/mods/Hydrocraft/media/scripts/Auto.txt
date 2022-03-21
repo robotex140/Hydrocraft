@@ -14,6 +14,7 @@ item HCDriverslicense
         Type			= Normal,
         DisplayName		= Drivers License,
         Icon			= HCDriverslicense,
+		DisplayCategory = Useless,
     }
 
 item HCHubcap
@@ -22,6 +23,7 @@ item HCHubcap
         Type    		= Normal,
         DisplayName         	= Hubcap,
         icon 			= HCHubcap,
+		DisplayCategory = Junk,
     }
 
 item HCAirfreshener
@@ -30,6 +32,7 @@ item HCAirfreshener
         Type    		= Normal,
         DisplayName         	= Air Freshener,
         icon 			= HCAirfreshener,
+		DisplayCategory = Useless,
     }
 
 item HCMotoroil
@@ -40,6 +43,7 @@ item HCMotoroil
 	UseDelta		= 0.25,
         DisplayName         	= Motor Oil,
         icon 			= HCMotoroil,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCSparkplug
@@ -48,22 +52,25 @@ item HCSparkplug
         Type    		= Normal,
         DisplayName         	= Spark Plug,
         icon 			= HCSparkplug,
+		DisplayCategory = Useless,
     }
 
 item HCAirfilter
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Air Filter,
+        DisplayName		= Air Filter,
         icon 			= HCAirfilter,
+		DisplayCategory = Junk,
     }
 
 item HCBreakpads
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Brake Pads,
+        DisplayName		= Brake Pads,
         icon 			= HCBreakpads,
+		DisplayCategory = Junk,
     }
 
 item HCCamshaft
@@ -72,6 +79,7 @@ item HCCamshaft
         Type    		= Normal,
         DisplayName         	= Camshaft,
         icon 			= HCCamshaft,
+		DisplayCategory = Junk,
     }
 
 item HCClutch
@@ -80,6 +88,7 @@ item HCClutch
         Type    		= Normal,
         DisplayName         	= Clutch,
         icon 			= HCClutch,
+		DisplayCategory = Junk,
     }
 
 item HCDrumbreak
@@ -88,6 +97,7 @@ item HCDrumbreak
         Type    		= Normal,
         DisplayName         	= Drum Brake,
         icon 			= HCDrumbreak,
+		DisplayCategory = Junk,
     }
 
 item HCFanbelt
@@ -96,6 +106,7 @@ item HCFanbelt
         Type    		= Normal,
         DisplayName         	= Fan Belt,
         icon 			= HCFanbelt,
+		DisplayCategory = Useless,
     }
 
 item HCLicenceplate
@@ -104,6 +115,7 @@ item HCLicenceplate
         Type    		= Normal,
         DisplayName         	= Licence Plate,
         icon 			= HCLicenceplate,
+		DisplayCategory = Useless,
     }
 
 item HCOilfilter
@@ -112,6 +124,7 @@ item HCOilfilter
         Type    		= Normal,
         DisplayName         	= Oil Filter,
         icon 			= HCOilfilter,
+		DisplayCategory = Useless,
     }
 
 item HCRadiator
@@ -120,6 +133,7 @@ item HCRadiator
         Type    		= Normal,
         DisplayName         	= Radiator,
         icon 			= HCRadiator,
+		DisplayCategory = Junk,
     }
 
 item HCRotor
@@ -128,6 +142,7 @@ item HCRotor
         Type    		= Normal,
         DisplayName         	= Rotor,
         icon 			= HCRotor,
+		DisplayCategory = Junk,
     }
 
 item HCWiper
@@ -136,6 +151,7 @@ item HCWiper
         Type    		= Normal,
         DisplayName         	= Wiper,
         icon 			= HCWiper,
+		DisplayCategory = Junk,
     }
 
 item HCStarterfluidempty
@@ -144,6 +160,7 @@ item HCStarterfluidempty
 	Type			= 	Normal,
         DisplayName         	= 	Empty Starter Fluid,
         icon 			= 	HCStarterfluid,
+		DisplayCategory = Useless,
     }
 
 item HCStarterfluid
@@ -155,6 +172,7 @@ item HCStarterfluid
     DisplayName     	= 	Starter Fluid,
 	ReplaceOnDeplete	=	HCStarterfluidempty,
     icon 			    = 	HCStarterfluid,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCCarbattery
@@ -163,6 +181,7 @@ item HCCarbattery
         Type    		        = Normal,
 	DisplayName			= Car Battery with Clamps,
 	Icon				= HCCarbattery,
+	DisplayCategory          =   CraftElec,
     }
 
 item HCJeepLeft
@@ -172,7 +191,6 @@ item HCJeepLeft
 	Capacity             	= 500,
         DisplayName         	= Jeep,
         icon 			= HCJeepLeft,
-	
     }
 
 item HCJeepLeftDirty
@@ -471,7 +489,7 @@ item HCBicycle
 	Capacity             		= 4,
 	DisplayName             	= Bicycle,
 	Icon				= HCBicycle,
-	
+	DisplayCategory          =   Container,
 	RequiresEquippedBothHands 	= true,
 	}
 
@@ -483,7 +501,7 @@ item HCBicycle2
 	Capacity             		= 32,
 	DisplayName             	= Bicycle with Baskets,
 	Icon				= HCBicycle2,
-	
+	DisplayCategory          =   Container,
 	RequiresEquippedBothHands 	= true,
 	}
 
@@ -495,7 +513,7 @@ item HCMotorcycle
 	Capacity             		= 4,
 	DisplayName             	= Motorcycle,
 	Icon				= HCMotorcycle,
-	
+	DisplayCategory          =   Container,
 	RequiresEquippedBothHands 	= true,
 	}
 
@@ -505,6 +523,7 @@ item HCBicyclepump
         Type    		= Normal,
         DisplayName         	= Bicycle Pump,
         icon 			= HCBicyclepump,
+		DisplayCategory          =   CraftMisc,
     }
 
 item HCBicyclewheel
@@ -513,6 +532,7 @@ item HCBicyclewheel
         Type    		= Normal,
         DisplayName         	= Bicycle Wheel,
         icon 			= HCBicyclewheel,
+		DisplayCategory          =   CraftMisc,
     }
 
 /************************RECIPES************************/	

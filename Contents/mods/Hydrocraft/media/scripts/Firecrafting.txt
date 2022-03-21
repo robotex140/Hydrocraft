@@ -14,6 +14,7 @@ item HCTorch
 	        Type		       =	Normal,
 	        DisplayName	       =	Torch,
 	        Icon		       =	HCTorch,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCTorchlit
@@ -27,6 +28,7 @@ item HCTorchlit
 		DisplayName	       =	Torch,
 		ActivatedItem	       =	FALSE,
 		Icon	               =	HCTorchlit,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCOillamp
@@ -35,6 +37,7 @@ item HCOillamp
 	        Type		       =	Normal,
 	        DisplayName	       =	Oil Lamp,
 	        Icon		       =	HCOillamp,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCOillamplit
@@ -49,6 +52,7 @@ item HCOillamplit
 		DisplayName	       =	Oil Lamp,
 		ActivatedItem	       =	FALSE,
 		Icon	               =	HCOillamplit,
+	DisplayCategory          =   LightSource,
 	}
 
 item HCTarsticks
@@ -57,6 +61,7 @@ item HCTarsticks
 		Type			=	Normal,
 		DisplayName		=	Tar Sticks,
 		Icon			=	HCTarsticks,
+	DisplayCategory          =   CraftChem,
 	}
 
 item HCTar
@@ -66,6 +71,7 @@ item HCTar
         UseDelta	        = 0.2,
         DisplayName         	= Tar,
         icon 			= HCTar,
+	DisplayCategory          =   CraftChem,
     } 
 
 item HCTarmug
@@ -76,6 +82,7 @@ item HCTarmug
         ReplaceOnDeplete        = Mugl,
         DisplayName         	= Mug of Tar,
         icon 			= HCTarmug,
+	DisplayCategory          =   CraftChem,
     } 
 
 item HCTarbucket
@@ -86,6 +93,7 @@ item HCTarbucket
         ReplaceOnDeplete        = BucketEmpty,
         DisplayName         	= Bucket of Tar,
         icon 			= HCTarbucket,
+	DisplayCategory          =   CraftChem,
     } 
 
 item HCWoodenbuckettar
@@ -94,7 +102,7 @@ item HCWoodenbuckettar
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Tar,
         icon 			= HCWoodenbuckettar,
-	
+	DisplayCategory          =   CraftChem,
     }
 
 item HCWoodenbucketcreosote
@@ -103,7 +111,7 @@ item HCWoodenbucketcreosote
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Creosote Oil,
         icon 			= HCWoodenbucketcreosote,
-	
+	DisplayCategory          =   CraftChem,
     }
 
 item HCCoke
@@ -112,6 +120,7 @@ item HCCoke
         Type    		= Normal,
         DisplayName         	= Coke,
         icon 			= HCCoke,
+	DisplayCategory          =   Fuel,
     }
 
 item HCMomigalite
@@ -120,6 +129,7 @@ item HCMomigalite
         Type    		= Normal,
         DisplayName         	= Momigalite,
         icon 			= HCMomigalite,
+	DisplayCategory          =   CraftChem,
     } 
 
 item HCKuntan
@@ -132,6 +142,7 @@ item HCKuntan
 	Icon			= HCKuntan,
 
 	Weight			= 0.1,
+	DisplayCategory          =   Fuel,
 
 	}
 
@@ -141,6 +152,7 @@ item HCCarbonpowder
         Type    		= Normal,
         DisplayName         	= Carbon Powder,
         icon 			= HCCarbonpowder,
+	DisplayCategory          =   CraftChem,
     }
 
 item HCNanorings
@@ -149,6 +161,7 @@ item HCNanorings
         Type    		= Normal,
         DisplayName         	= Carbon Nanorings,
         icon 			= HCCarbonpowder,
+	DisplayCategory          =   CraftChem,
     } 
 
 item HCNanochains
@@ -157,6 +170,7 @@ item HCNanochains
         Type    		= Normal,
         DisplayName         	= Carbon Nanochains,
         icon 			= HCCarbonpowder,
+	DisplayCategory          =   CraftChem,
     } 
 
 item HCNanofiber
@@ -165,6 +179,7 @@ item HCNanofiber
         Type    		= Normal,
         DisplayName         	= Carbon Nanofiber,
         icon 			= HCCarbonpowder,
+	DisplayCategory          =   CraftChem,
     } 
 
 /************************WEAPONS************************/

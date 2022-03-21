@@ -22,6 +22,7 @@ module Hydrocraft
 		Proteins 			= 	10,
 		Lipids 				= 	3.3,
 		Calories 			= 	336.5,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCGratedcheese
@@ -39,6 +40,7 @@ item HCGratedcheese
         Proteins 		= 	50,
         Lipids 			= 	66,
         Calories 		= 	402,
+		DisplayCategory		=	FoodP,
 }
 
 item HCGratedcheddar
@@ -56,6 +58,7 @@ item HCGratedcheddar
         Proteins 		= 	50,
         Lipids 			= 	66,
         Calories 		= 	402,
+		DisplayCategory		=	FoodP,
 }
 	
 	item HCTomatosaucepot
@@ -77,6 +80,7 @@ item HCGratedcheddar
 		Proteins 			= 	1.2,
 		Lipids 				= 	4.8,
 		Calories 			= 	96,
+		DisplayCategory		=	FoodP,
 	}
 	
 	item HCTomatosaucebowl
@@ -98,6 +102,7 @@ item HCGratedcheddar
 		Proteins 			= 	0.6,
 		Lipids 				= 	2.4,
 		Calories 			= 	48,
+		DisplayCategory		=	FoodP,
 	}
 
 
@@ -122,6 +127,7 @@ item HCGratedcheddar
 		Proteins 			= 	10.6,
 		Lipids 				= 	5.7,
 		Calories 			= 	384.5,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCSimplepizza
@@ -144,6 +150,7 @@ item HCGratedcheddar
 		Proteins 			= 	60.6,
 		Lipids 				= 	71.7,
 		Calories 			= 	786.5,
+		DisplayCategory		=	FoodP,
 	}
 
 	item HCTastypizza
@@ -166,6 +173,7 @@ item HCGratedcheddar
 		Proteins 			= 	125.5,
 		Lipids 				= 	85.4,
 		Calories 			= 	1207.5,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCBoringpizzaslice
@@ -188,6 +196,7 @@ item HCBoringpizzaslice
 		Proteins 			= 	2.7,
 		Lipids 				= 	1.4,
 		Calories 			= 	96.1,
+		DisplayCategory		=	FoodP,
     }
 
 item HCSimplepizzaslice
@@ -210,6 +219,7 @@ item HCSimplepizzaslice
         Proteins 			= 	15.2,
         Lipids 				= 	17.9,
         Calories 			= 	196.6,
+		DisplayCategory		=	FoodP,
 	}
 
 item HCTastypizzaslice
@@ -232,6 +242,7 @@ item HCTastypizzaslice
         Proteins 			= 	31.4,
         Lipids 				= 	21.35,
         Calories 			= 	301.9,
+		DisplayCategory		=	FoodP,
 	}
 
 

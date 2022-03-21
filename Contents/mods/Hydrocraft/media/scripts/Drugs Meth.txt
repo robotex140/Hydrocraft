@@ -25,6 +25,7 @@ item HCCrystalmeth
         DisplayName		= Homemade Crystal Meth,                                                    
         ReplaceOnUse	        = HCZipperbag,    
         Icon			= HCCrystalmeth,
+		DisplayCategory	= Drugs,
     }
 
 item HCBluemethtray
@@ -33,6 +34,7 @@ item HCBluemethtray
         Type    		= Normal,
         DisplayName     	= Bakingtray with Blue Meth,
         icon 			= HCBluemethtray,
+		DisplayCategory	= CraftChem,
     } 
 
 item HCBluemeth
@@ -52,6 +54,7 @@ item HCBluemeth
         DisplayName		= Blue Meth,                                                                             
 	ReplaceOnUse	        = HCZipperbag,                                                                              
 	Icon			= HCBluemeth,
+		DisplayCategory	= Drugs,
      }
 
 /************************RECIPES************************/

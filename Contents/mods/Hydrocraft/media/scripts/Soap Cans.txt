@@ -19,6 +19,7 @@ item HCDetergentempty
         DisplayName		=	Empty Liquid Soap Can,
 	Icon			=	HCDetergentempty,
 	RainFactor 		= 	1,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergent
@@ -30,6 +31,7 @@ item HCDetergent
 
 	DisplayName			=	Liquid Soap,
 	Icon				=	HCDetergent,
+		DisplayCategory	= Cleaning,
 	}
 
 item HCDetergentammonia
@@ -41,6 +43,7 @@ item HCDetergentammonia
 
 	DisplayName			=	Liquid Soap Can With Ammonia,
 	Icon				=	HCDetergentammonia,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentbiodiesel
@@ -52,6 +55,7 @@ item HCDetergentbiodiesel
 
 	DisplayName			=	Liquid Soap Can With Biodiesel,
 	Icon				=	HCDetergentbiodiesel,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentcoppersulfatesolution
@@ -63,6 +67,7 @@ item HCDetergentcoppersulfatesolution
 
 	DisplayName			=	Liquid Soap Can With Copper Sulfate Solution,
 	Icon				=	HCDetergentcoppersulfatesolution,
+		DisplayCategory	= CraftChem,
 	}
 
 
@@ -76,6 +81,7 @@ item HCDetergenth2o2
 
 	DisplayName			=	Liquid Soap Can With Hydrogen Peroxide,
 	Icon				=	HCDetergenth2o2,
+		DisplayCategory	= CraftChem,
 	}
 
 
@@ -89,6 +95,7 @@ item HCDetergentlime
 
 	DisplayName			=	Liquid Soap Can With Milk of Lime,
 	Icon				=	HCDetergentlime,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentlye
@@ -100,6 +107,7 @@ item HCDetergentlye
 
 	DisplayName			=	Liquid Soap Can With Lye,
 	Icon				=	HCDetergentlye,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentmethanol
@@ -111,6 +119,7 @@ item HCDetergentmethanol
 
 	DisplayName			=	Liquid Soap Can With Methanol,
 	Icon				=	HCDetergentmethanol,
+		DisplayCategory	= CraftChem,
 	}
 
 
@@ -124,6 +133,7 @@ item HCDetergentmuriaticacid
 
 	DisplayName			=	Liquid Soap Can With Muriatic Acid,
 	Icon				=	HCDetergentmuriaticacid,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentnickelsulfatesolution
@@ -135,6 +145,7 @@ item HCDetergentnickelsulfatesolution
 
 	DisplayName			=	Liquid Soap Can With Nickel Sulfate Solution,
 	Icon				=	HCDetergentnickelsulfatesolution,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentnitricacid
@@ -146,6 +157,7 @@ item HCDetergentnitricacid
 
 	DisplayName			=	Liquid Soap Can With Nitric Acid,
 	Icon				=	HCDetergentnitricacid,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentoil
@@ -157,6 +169,7 @@ item HCDetergentoil
 
 	DisplayName			=	Liquid Soap Can With Oil,
 	Icon				=	HCDetergentoil,
+		DisplayCategory	= CraftChem,
 	}
 
 
@@ -170,6 +183,7 @@ item HCDetergentrose
 
 	DisplayName			=	Liquid Soap Can With Rose Tanning Oil,
 	Icon				=	HCDetergentrose,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentsulfuricacid
@@ -181,6 +195,7 @@ item HCDetergentsulfuricacid
 
 	DisplayName			=	Liquid Soap Can With Sulfuric Acid,
 	Icon				=	HCDetergentsulfuricacid,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergenttan
@@ -192,6 +207,7 @@ item HCDetergenttan
 
 	DisplayName			=	Liquid Soap Can With Tannin,
 	Icon				=	HCDetergenttan,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentvegoil
@@ -203,6 +219,7 @@ item HCDetergentvegoil
 
 	DisplayName			=	Liquid Soap Can With Vegetable Oil,
 	Icon				=	HCDetergentvegoil,
+		DisplayCategory	= CraftChem,
 	}
 
 item HCDetergentgrape
@@ -218,6 +235,7 @@ item HCDetergentgrape
 	ReplaceOnDeplete	        =	HCDetergentempty,
 
 	Icon				=	HCDetergentgrape,
+		DisplayCategory	= FoodB,
 	}
 
 item HCDetergenthoney
@@ -233,6 +251,7 @@ item HCDetergenthoney
 
 	DisplayName			=	Liquid Soap Can With Honey,
 	Icon				=	HCDetergenthoney,
+		DisplayCategory	= FoodB,
 	}
 
 item HCDetergentmilk
@@ -248,6 +267,7 @@ item HCDetergentmilk
 	ReplaceOnUse		        =	HCDetergentempty,
 
 	Icon				=	HCDetergentmilk,
+		DisplayCategory	= FoodP,
 	}
 
 item HCDetergentpoison
@@ -260,7 +280,7 @@ item HCDetergentpoison
 	PoisonPower 		        =       100,
 	ReplaceOnUse		        =	HCDetergentempty,
 	ReplaceOnDeplete	        =	HCDetergentempty,
-
+		DisplayCategory	= CraftChem,
 	Icon				=	HCDetergentpoison,
 	}
 
@@ -277,6 +297,7 @@ item HCDetergentwater
 	ReplaceOnUseOn		=	WaterSource-HCDetergentwater,
 	Icon			    =	HCDetergentwater,
 	RainFactor 		    = 	1,
+		DisplayCategory	= FoodB,
 	}
 
 

@@ -15,6 +15,7 @@ item HCPencilsharpener
         Type    		= Normal,
         DisplayName         	= Pencil Sharpener,
         icon 			= HCPencilsharpener,
+		DisplayCategory	= Useless,
     }
 
 item HCPencilbox
@@ -23,6 +24,7 @@ item HCPencilbox
         Type    		= Normal,
         DisplayName         	= Box of Pencils,
         icon 			= HCPencilbox,
+		DisplayCategory	= LitW,
     }
 
 item HCPenbox
@@ -31,6 +33,7 @@ item HCPenbox
         Type    		= Normal,
         DisplayName         	= Box of Pens,
         icon 			= HCPenbox,
+		DisplayCategory	= LitW,
     }
 
 item HCStaples
@@ -39,6 +42,7 @@ item HCStaples
         Type    		= Normal,
         DisplayName         	= Staples,
         icon 			= HCStaples,
+		DisplayCategory	= Craft,
     }
 
 item HCStaplesbox
@@ -47,6 +51,7 @@ item HCStaplesbox
         Type    		= Normal,
         DisplayName         	= Box of Staples,
         icon 			= HCStaplesbox,
+		DisplayCategory	= Craft,
     }
 
 item HCStapler
@@ -55,6 +60,7 @@ item HCStapler
         Type    		= Normal,
         DisplayName     	= Empty Stapler,
         icon 			= HCStapler,
+		DisplayCategory	= Craft,
     }
 
 item HCStaplerfull
@@ -65,6 +71,7 @@ item HCStaplerfull
 	DisplayName		=	Stapler,
 	ReplaceOnDeplete	=	HCStapler,
 	Icon			=	HCStapler,
+		DisplayCategory	= Craft,
     }
 
 item HCStaplegun
@@ -73,6 +80,7 @@ item HCStaplegun
         Type    		= Normal,
         DisplayName     	= Empty Staple Gun,
         icon 			= HCStaplegun,
+		DisplayCategory	= Craft,
     }
 
 item HCStaplegunfull
@@ -83,6 +91,7 @@ item HCStaplegunfull
 	DisplayName		=	Staple Gun,
 	ReplaceOnDeplete	=	HCStaplegun,
 	Icon			=	HCStaplegun,
+		DisplayCategory	= Craft,
     }
 
 item HCPostit
@@ -93,6 +102,7 @@ item HCPostit
         Icon			= HCPostit,
         CanBeWrite  		= true,
         PageToWrite 		= 1,
+		DisplayCategory	= LitW,
     	}
 
 item HCPostitpad
@@ -101,6 +111,7 @@ item HCPostitpad
         Type    		= Normal,
         DisplayName         	= Pad of Post-It Notes,
         icon 			= HCPostitpad,
+		DisplayCategory	= LitW,
     }
 
 item HCRubberbandbox
@@ -109,6 +120,7 @@ item HCRubberbandbox
         Type    		= Normal,
         DisplayName         	= Box of Rubberbands,
         icon 			= HCRubberbandbox,
+		DisplayCategory	= Misc,
     }
 
 item HCAbacus
@@ -117,6 +129,7 @@ item HCAbacus
         Type    		= Normal,
         DisplayName         	= Abacus,
         icon 			= HCAbacus,
+		DisplayCategory	= Useless,
     }
 
 item HCTypewriter
@@ -125,6 +138,7 @@ item HCTypewriter
         Type    		= Normal,
         DisplayName         	= Typewriter,
         icon 			= HCTypewriter,
+		DisplayCategory	= Useless,
     }
 
 item HCBinderclip
@@ -133,6 +147,7 @@ item HCBinderclip
         Type    		= Normal,
         DisplayName         	= Binder Clip,
         icon 			= HCBinderclip,
+		DisplayCategory	= Useless,
     }
 
 item HCBookend
@@ -141,6 +156,7 @@ item HCBookend
         Type    		= Normal,
         DisplayName         	= Bookend,
         icon 			= HCBookend,
+		DisplayCategory	= Useless,
     }
 
 item HCClipboard
@@ -149,6 +165,7 @@ item HCClipboard
         Type    		= Normal,
         DisplayName         	= Clipboard,
         icon 			= HCClipboard,
+		DisplayCategory	= Useless,
     }
 
 item HCWhiteout
@@ -157,6 +174,7 @@ item HCWhiteout
         Type    		= Normal,
         DisplayName         	= Whiteout,
         icon 			= HCWhiteout,
+		DisplayCategory	= Useless,
     }
 
 item HCThumbtack
@@ -165,6 +183,7 @@ item HCThumbtack
         Type    		= Normal,
         DisplayName         	= Thumbtack,
         icon 			= HCThumbtack,
+		DisplayCategory	= Misc,
     }
 
 item HCHighlighter
@@ -173,6 +192,7 @@ item HCHighlighter
         Type    		= Normal,
         DisplayName         	= Highlighter,
         icon 			= HCHighlighter,
+		DisplayCategory	= Useless,
     }
 
 item HCRuler
@@ -181,6 +201,7 @@ item HCRuler
         Type    		= Normal,
         DisplayName         	= Ruler,
         icon 			= HCRuler,
+		DisplayCategory	= Misc,
     }
 
 item HCStapleremover
@@ -189,6 +210,7 @@ item HCStapleremover
         Type    		= Normal,
         DisplayName         	= Staple Remover,
         icon 			= HCStapleremover,
+		DisplayCategory	= Useless,
     }
 
 item HCTriangle
@@ -197,6 +219,7 @@ item HCTriangle
         Type    		= Normal,
         DisplayName         	= Triangle,
         icon 			= HCTriangle,
+		DisplayCategory	= Useless,
     }
 
 
@@ -206,6 +229,7 @@ item HCStamp
         Type    		= Normal,
         DisplayName         	= Rubber Stamp,
         icon 			= HCStamp,
+		DisplayCategory	= Misc,
     }
 
 item HCFolder
@@ -214,6 +238,7 @@ item HCFolder
         Type    		= Normal,
         DisplayName         	= Folder,
         icon 			= HCFolder,
+		DisplayCategory	= Useless,
     }
 
 item HCFolder2
@@ -222,6 +247,7 @@ item HCFolder2
         Type    		= Normal,
         DisplayName         	= Folder,
         icon 			= HCFolder2,
+		DisplayCategory	= Useless,
     }
 
 item HCManilaenvelope
@@ -230,6 +256,7 @@ item HCManilaenvelope
         Type    		= Normal,
         DisplayName         	= Manila Envelope,
         icon 			= HCManilaenvelope,
+		DisplayCategory	= Useless,
     }
 
 item HCManilaenvelope2
@@ -238,6 +265,7 @@ item HCManilaenvelope2
         Type    		= Normal,
         DisplayName         	= Manila Envelope,
         icon 			= HCManilaenvelope2,
+		DisplayCategory	= Useless,
     }
 
 item HCCertificate
@@ -246,6 +274,7 @@ item HCCertificate
         Type    		= Normal,
         DisplayName         	= Certificate,
         icon 			= HCCertificate,
+		DisplayCategory	= Useless,
     }
 
 item HCGlobe
@@ -254,6 +283,7 @@ item HCGlobe
         Type    		= Normal,
         DisplayName         	= Globe,
         icon 			= HCGlobe,
+		DisplayCategory	= Useless,
     }
 
 item HCShipinbottle
@@ -262,6 +292,7 @@ item HCShipinbottle
         Type    		= Normal,
         DisplayName         	= Ship in a Bottle,
         icon 			= HCShipinbottle,
+		DisplayCategory	= Useless,
     }
 
 item HCDucttapepack 
@@ -270,6 +301,7 @@ item HCDucttapepack
         Type    		= Normal,
         DisplayName     	= Duct Tape Package,
         icon 			= HCDucttapepack,
+		DisplayCategory	= Craft,
     }
 
 item HCElectrictape
@@ -280,6 +312,7 @@ item HCElectrictape
         UseWhileEquipped	= FALSE,
         DisplayName		= Electric Tape,
         Icon			= HCElectrictape,
+		DisplayCategory	= Craft,
     }
 
 item HCElectricaltapepack
@@ -288,6 +321,7 @@ item HCElectricaltapepack
         Type    		= Normal,
         DisplayName     	= Electrical Tape Package,
         icon 			= HCElectricaltapepack,
+		DisplayCategory	= Craft,
     }
 
 item HCMaskingtape
@@ -298,6 +332,7 @@ item HCMaskingtape
         UseWhileEquipped	= FALSE,
         DisplayName		= Masking Tape,
         Icon			= HCMaskingtape,
+		DisplayCategory	= Craft,
     }
 
 item HCPackingtape
@@ -308,6 +343,7 @@ item HCPackingtape
         UseWhileEquipped	= FALSE,
         DisplayName		= Packing Tape,
         Icon			= HCPackingtape,
+		DisplayCategory	= Craft,
     }
 
 item HCGluepack
@@ -316,6 +352,7 @@ item HCGluepack
         Type    		= Normal,
         DisplayName     	= Glue Package,
         icon 			= HCGluepack,
+		DisplayCategory	= Craft,
     }
 
 item HCWoodgluepack
@@ -324,6 +361,7 @@ item HCWoodgluepack
         Type    		= Normal,
         DisplayName     	= Wood Glue Package,
         icon 			= HCWoodgluepack,
+		DisplayCategory	= Craft,
     }
 	
 item HCSuperglue
@@ -334,6 +372,7 @@ item HCSuperglue
         DisplayName		= Super Glue,
         Icon			= HCSuperglue,
         Weight			= 0.1,
+		DisplayCategory	= Craft,
     }
 
 item HCRubbercement
@@ -344,6 +383,7 @@ item HCRubbercement
         DisplayName		= Rubber Cement,
         Icon			= HCRubbercement,
         Weight			= 0.1,
+		DisplayCategory	= Craft,
     }
 
 /************************RECIPES************************/

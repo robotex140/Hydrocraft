@@ -15,6 +15,7 @@ item HCHempbudfresh
         Type    		= Normal,
         DisplayName         	= Fresh Hemp Bud,
         icon 			= HCHempbudfresh,
+		DisplayCategory	= SurFarm,
     }  
 
 item HCHempbudcured
@@ -23,6 +24,7 @@ item HCHempbudcured
         Type    		= Normal,
         DisplayName         	= Cured Hemp Bud,
         icon 			= HCHempbudcured,
+		DisplayCategory	= SurFarm,
     } 
 
 item HCBongempty
@@ -31,6 +33,7 @@ item HCBongempty
         Type    		= Normal,
         DisplayName         	= Glass Bong,
         icon 			= HCBongempty,
+		DisplayCategory	= Drugs,
     }
 
 item HCBongfull
@@ -48,6 +51,7 @@ item HCBongfull
 	CustomContextMenu 		= 	Smoke,
 	CantBeFrozen 			= 	TRUE, 
 	CustomEatSound = HC_bong_hemp,
+		DisplayCategory	= Drugs,
     }
 
 item HCBongdirty
@@ -56,6 +60,7 @@ item HCBongdirty
         Type    		= Normal,
         DisplayName         	= Dirty Glass Bong,
         icon 			= HCBongdirty,
+		DisplayCategory	= Drugs,
     }
 
 item HCBongacrylicempty
@@ -64,6 +69,7 @@ item HCBongacrylicempty
         Type    		= Normal,
         DisplayName         	= Acrylic Bong,
         icon 			= HCBongacrylicempty,
+		DisplayCategory	= Drugs,
     }
 
 item HCBongacrylicfull
@@ -81,6 +87,7 @@ item HCBongacrylicfull
 	CustomContextMenu 		= 	Smoke,
 	CantBeFrozen 			= 	TRUE, 
 	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
     }
 
 item HCBongacrylicdirty
@@ -89,6 +96,7 @@ item HCBongacrylicdirty
         Type    		= Normal,
         DisplayName         	= Dirty Acrylic Bong,
         icon 			= HCBongacrylicdirty,
+		DisplayCategory	= Drugs,
     }
 
 item HCPipehemp
@@ -106,6 +114,7 @@ item HCPipehemp
 	CustomContextMenu 		= 	Smoke,
 	CantBeFrozen 			= 	TRUE, 
 	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
     }
 
 item HCCorncobpipehemp
@@ -123,6 +132,7 @@ item HCCorncobpipehemp
 	CustomContextMenu 		= 	Smoke,
 	CantBeFrozen 			= 	TRUE, 
 	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
     }
 
 

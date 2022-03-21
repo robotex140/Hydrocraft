@@ -15,6 +15,7 @@ item HCCandleberrywax
         Type    		= 	Normal,
         DisplayName         	= 	Candleberry Wax,
         icon 			= 	HCCandleberrywax,
+		DisplayCategory          =   SurFarm,		
     }   
 
 item HCBeeswax
@@ -23,6 +24,7 @@ item HCBeeswax
         Type    		= 	Normal,
         DisplayName         	= 	Beeswax,
         icon 			= 	HCBeeswax,
+		DisplayCategory          =   SurApi,
     }   
 
 item HCCandletallow
@@ -31,6 +33,7 @@ item HCCandletallow
 	Type			=	Normal,
 	DisplayName		=	Tallow Candle,
 	Icon			=	HCCandletallow,
+	DisplayCategory =   CraftMisc,
     }
 
 item HCCandletallowlit
@@ -44,6 +47,7 @@ item HCCandletallowlit
 	DisplayName		=	Lit Tallow Candle,
 	ActivatedItem		=	TRUE,
 	Icon			=	HCCandletallowlit,
+	DisplayCategory =   CraftMisc,
     }
 
 item HCCandleholder
@@ -52,6 +56,7 @@ item HCCandleholder
 	Type			=	Normal,
 	DisplayName		=	Candle Holder,
 	Icon			=	HCCandleholder,
+	DisplayCategory =   CraftMisc,
     }
 
 item HCCandleholder2
@@ -60,6 +65,7 @@ item HCCandleholder2
 	Type			=	Normal,
 	DisplayName		=	Candle in Holder,
 	Icon			=	HCCandleholder2,
+	DisplayCategory =   CraftMisc,
     }
 
 item HCCandleholder3
@@ -74,6 +80,7 @@ item HCCandleholder3
 	ActivatedItem		=	TRUE,
 	Icon			=	HCCandleholder3,
 	ReplaceOnDeplete	=	Hydrocraft.HCCandleholder,
+	DisplayCategory =   CraftMisc,
     }
 
 item HCMininghat
@@ -84,6 +91,7 @@ item HCMininghat
 	ReplaceOnDeplete		= HCHardhat,
   DisplayName         = Candle Mining Hat,
   icon 			          = HCMininghat,
+  DisplayCategory =   ClothP,
   }
 
 item HCMininghatlamp
@@ -92,6 +100,7 @@ item HCMininghatlamp
   Type			= Normal,
   DisplayName         	= Flashlight Mining Hat,
   icon 			= HCMininghat2,
+  DisplayCategory =   ClothP,
   }
 
 item HCMininghatlamppowered
@@ -102,6 +111,7 @@ item HCMininghatlamppowered
 	  ReplaceOnDeplete	= HCMininghatlampdead,
     DisplayName       = Flashlight Mining Hat with Power,
     icon 			        = HCMininghat2,
+  DisplayCategory =   ClothP,
     }
 
 item HCMininghatlampdead
@@ -110,6 +120,7 @@ item HCMininghatlampdead
         Type			= Normal,
         DisplayName         	= Flashlight Mining Hat with Dead Battery,
         icon 			= HCMininghat2,
+  DisplayCategory =   ClothP,
     }
 
 /************************RECIPES************************/

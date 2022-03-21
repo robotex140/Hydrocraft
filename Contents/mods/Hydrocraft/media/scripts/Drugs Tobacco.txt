@@ -14,7 +14,7 @@ item HCCigarettebutt
         Type    			= Normal,
         DisplayName        	= Cigarette Butt,
         icon 				= HCCigarettebutt,
-		
+		DisplayCategory		= Useless,
     }
 
 item HCCigarettecarton
@@ -23,6 +23,7 @@ item HCCigarettecarton
         Type    		= Normal,
         DisplayName     	= Cigarette Carton,
         icon 			= HCCigarettecarton,
+		DisplayCategory	= Drugs,
     }
 
 item HCCigarettepack
@@ -31,6 +32,7 @@ item HCCigarettepack
         Type    		= Normal,
         DisplayName     	= Cigarette Pack,
         icon 			= HCCigarettepack,
+		DisplayCategory	= Drugs,
     }
 
 item HCCigarettecartonlights
@@ -39,6 +41,7 @@ item HCCigarettecartonlights
         Type    		= Normal,
         DisplayName     	= Light Cigarette Carton,
         icon 			= HCCigarettecartonlights,
+		DisplayCategory	= Drugs,
     }
 item HCCigarettepacklights
     {
@@ -46,6 +49,7 @@ item HCCigarettepacklights
         Type    		= Normal,
         DisplayName     	= Light Cigarette Pack,
         icon 			= HCCigarettepacklights,
+		DisplayCategory	= Drugs,
     }
 item HCCigaretteslights
 	{
@@ -63,6 +67,7 @@ item HCCigaretteslights
 		ReplaceOnUse			= Hydrocraft.HCCigarettebutt,
 		StaticModel = Cigarette,
 		CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
 	}
 
 item HCCigarettecartonmenthol
@@ -71,6 +76,7 @@ item HCCigarettecartonmenthol
         Type    		= Normal,
         DisplayName     	= Menthol Cigarette Carton,
         icon 			= HCCigarettecartonlights,
+		DisplayCategory	= Drugs,
     }
 item HCCigarettepackmenthol
     {
@@ -78,6 +84,7 @@ item HCCigarettepackmenthol
         Type    		= Normal,
         DisplayName     	= Menthol Cigarette Pack,
         icon 			= HCCigarettepackmenthol,
+		DisplayCategory	= Drugs,
     }
 item HCCigarettesmenthol
 	{
@@ -95,6 +102,7 @@ item HCCigarettesmenthol
 		ReplaceOnUse	= Hydrocraft.HCCigarettebutt,
 		StaticModel = Cigarette,
 		CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
 }
 
 item HCTobaccoleaffresh
@@ -103,6 +111,7 @@ item HCTobaccoleaffresh
         Type    		= Normal,
         DisplayName         	= Fresh Tobacco Leaves,
         icon 			= HCTobaccoleaffresh,
+	DisplayCategory			= CraftChem,
     }  
 
 item HCTobaccoleafdry
@@ -111,6 +120,7 @@ item HCTobaccoleafdry
         Type    		= Normal,
         DisplayName         	= Dried Tobacco Leaves,
         icon 			= HCTobaccoleafdry,
+	DisplayCategory			= CraftChem,
     } 
 
 item HCTobacco
@@ -119,6 +129,7 @@ item HCTobacco
         Type    		= Normal,
         DisplayName         	= Tobacco,
         icon 			= HCTobacco,
+	DisplayCategory			= CraftChem,
     } 
 
 item HCCigarbox
@@ -129,6 +140,7 @@ item HCCigarbox
         Capacity            	= 1,
         DisplayName         	= Cigar Box,
         icon 			= HCCigarbox,
+		DisplayCategory	= Drugs,
     } 
 
 item HCCigar
@@ -146,6 +158,7 @@ item HCCigar
 	OnEat 				= 	OnEat_Cigarettes,
 	StaticModel = Cigarette,
 	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
 	}
 
 item HCCigarhandrolled
@@ -164,6 +177,7 @@ item HCCigarhandrolled
 	OnEat 				= 	OnEat_Cigarettes,
 	StaticModel = Cigarette,
 	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
     }
 
 item HCPipetobacco
@@ -181,6 +195,7 @@ item HCPipetobacco
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
 	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
     }
 
 item HCCorncobpipetobacco
@@ -198,6 +213,7 @@ item HCCorncobpipetobacco
 	CantBeFrozen 			= 	TRUE,
 	OnEat 				= 	OnEat_Cigarettes,
 	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
     }
 
 /************************RECIPES************************/

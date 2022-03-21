@@ -14,6 +14,7 @@ item HCPopsiclestick
         Type    		= 	Normal,
         DisplayName         	= 	Popsicle Stick,
         icon 			= 	HCPopsiclestick,
+		DisplayCategory		=   Useless,
     }
 
 item HCIcecreamsandwich
@@ -33,6 +34,7 @@ item HCIcecreamsandwich
         Calories 			= 	237,
         ReplaceOnRotten 		= 	HCIcecreamsandwichmelted,
         Packaged 			= 	TRUE,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCIcecreamsandwichmelted
@@ -48,6 +50,7 @@ item HCIcecreamsandwichmelted
         Lipids 				= 	8.6,
         Calories 			= 	237,
         Packaged 			= 	TRUE,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCIcecreamsoft
@@ -67,6 +70,7 @@ item HCIcecreamsoft
         Calories 			= 	222,
         ReplaceOnRotten 		= 	HCIcecreamsoftmelted,
         Packaged 			=	TRUE,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCIcecreamsoftmelted
@@ -82,6 +86,7 @@ item HCIcecreamsoftmelted
         Lipids 				= 	13,
         Calories 			= 	222,
         Packaged 			= 	TRUE,
+		DisplayCategory		=   FoodN,
 	}
 
 
@@ -103,6 +108,7 @@ item HCPopsicle1
         ReplaceOnRotten 		= 	HCPopsicle1melted,
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPopsicle1melted
@@ -119,6 +125,7 @@ item HCPopsicle1melted
         Calories 			= 	81,
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCPopsicle2
@@ -139,6 +146,7 @@ item HCPopsicle2
         ReplaceOnRotten 		= 	HCPopsicle2melted,
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPopsicle2melted
@@ -155,6 +163,7 @@ item HCPopsicle2melted
         Calories 			= 	81,
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodN,
 	}
 
 
@@ -176,6 +185,7 @@ item HCPopsicle3
         ReplaceOnRotten 		= 	HCPopsicle3melted,
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPopsicle3melted
@@ -192,6 +202,7 @@ item HCPopsicle3melted
         Calories 			= 	81,
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCPopsicle4
@@ -212,6 +223,7 @@ item HCPopsicle4
         ReplaceOnRotten 		= 	HCPopsicle4melted,
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPopsicle4melted
@@ -228,6 +240,7 @@ item HCPopsicle4melted
         Calories 			= 	81,
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCPopsicle5
@@ -248,6 +261,7 @@ item HCPopsicle5
         ReplaceOnRotten 		= 	HCPopsicle5melted,
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPopsicle5melted
@@ -264,6 +278,7 @@ item HCPopsicle5melted
         Calories 			= 	81,
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCPopsicle6
@@ -284,6 +299,7 @@ item HCPopsicle6
         ReplaceOnRotten 		= 	HCPopsicle6melted,
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPopsicle6melted
@@ -300,6 +316,7 @@ item HCPopsicle6melted
         Calories 			= 	81,
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCPopsicle7
@@ -320,6 +337,7 @@ item HCPopsicle7
         ReplaceOnRotten 		= 	HCPopsicle7melted,
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCPopsicle7melted
@@ -336,6 +354,7 @@ item HCPopsicle7melted
         Calories 			= 	81,
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
+		DisplayCategory		=   FoodN,
 	}
 
 

@@ -13,6 +13,7 @@ item HCPigeonmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pigeon (Male),
 	Icon				=	HCPigeonmale,
+	DisplayCategory          =   Animal,
 	}
 
 item HCPigeonfemale
@@ -21,6 +22,7 @@ item HCPigeonfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pigeon (Female),
 	Icon				=	HCPigeonfemale,
+	DisplayCategory          =   Animal,
 	}
 
 item HCPigeondead
@@ -40,6 +42,7 @@ item HCPigeondead
     Lipids 				= 	15,
     Calories 			= 	284,
     HungerChange		=	-15,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCDuckmale
@@ -48,7 +51,7 @@ item HCDuckmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Duck (Male),
 	Icon				=	HCDuckmale,
-	
+	DisplayCategory          =   Animal,	
 	}
 
 item HCDuckfemale
@@ -57,7 +60,7 @@ item HCDuckfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Duck (Female),
 	Icon				=	HCDuckfemale,
-	
+	DisplayCategory          =   Animal,	
 	}
 
 item HCDuckdead
@@ -77,7 +80,7 @@ item HCDuckdead
     Lipids 				= 	30,
     Calories 			= 	422,
     HungerChange		=	-35,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCHamstermale
@@ -86,6 +89,7 @@ item HCHamstermale
 	Type 				= 	Normal,
 	DisplayName 			= 	Hamster (Male),
 	Icon				=	HCHamstermale,
+	DisplayCategory          =   Animal,
 	}
 
 item HCHamsterfemale
@@ -94,6 +98,7 @@ item HCHamsterfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Hamster (Female),
 	Icon				=	HCHamsterfemale,
+	DisplayCategory          =   Animal,
 	}
 
 item HCHamstermalehungry
@@ -103,6 +108,7 @@ item HCHamstermalehungry
 	DisplayName 			= 	Hungry Hamster (Male),
 	Icon				=	HCHamstermale,
  	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCHamsterfemalehungry
@@ -112,6 +118,7 @@ item HCHamsterfemalehungry
 	DisplayName 			= 	Hungry Hamster (Female),
 	Icon				=	HCHamsterfemale,
 	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCHamsterdead
@@ -129,6 +136,7 @@ item HCHamsterdead
     Lipids 				= 	2.3,
     Calories 			= 	114,
 	Icon				=	HCHamstermaledead,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCRabbitmale
@@ -137,6 +145,7 @@ item HCRabbitmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Rabbit (Male),
 	Icon				=	HCRabbitmale,
+	DisplayCategory          =   Animal,
 	}
 
 item HCRabbitfemale
@@ -145,6 +154,7 @@ item HCRabbitfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Rabbit (Female),
 	Icon				=	HCRabbitfemale,
+	DisplayCategory          =   Animal,
 	}
 
 item HCRabbitmalehungry
@@ -154,6 +164,7 @@ item HCRabbitmalehungry
 	DisplayName 			= 	Hungry Rabbit (Male),
 	Icon				=	HCRabbitmale,
 	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCRabbitfemalehungry
@@ -163,6 +174,7 @@ item HCRabbitfemalehungry
 	DisplayName 			= 	Hungry Rabbit (Female),
 	Icon				=	HCRabbitfemale,
 	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCRabbithutch
@@ -171,6 +183,7 @@ item HCRabbithutch
         Type    		= Normal,
         DisplayName         	= Empty Rabbit Hutch,
         icon 			= HCRabbithutch,
+	DisplayCategory          =   AnimalEnc,
 	
     }
 
@@ -180,6 +193,7 @@ item HCRabbithutchhungry
         Type    		= Normal,
         DisplayName         	= Hutch with Hungry Rabbits,
         icon 			= HCRabbithutchfull,
+	DisplayCategory          =   AnimalEnc,
 	
     }
 
@@ -189,6 +203,7 @@ item HCRabbithutchtired
         Type    		= Normal,
         DisplayName         	= Hutch with Tired Rabbits,
         icon 			= HCRabbithutchfull,
+	DisplayCategory          =   AnimalEnc,
 	
     }
 
@@ -198,6 +213,7 @@ item HCRabbithutchfull
         Type    		= Normal,
         DisplayName         	= Hutch with Rabbits,
         icon 			= HCRabbithutchfull,
+	DisplayCategory          =   AnimalEnc,
 	
     }
 
@@ -207,6 +223,7 @@ item HCChickenmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Chicken (Male),
 	Icon				=	HCChickenmale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -216,6 +233,7 @@ item HCChickenfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Chicken (Female),
 	Icon				=	HCChickenfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -227,6 +245,7 @@ item HCChickenmalehungry
 	Icon				=	HCChickenmale,
 	
 	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCChickenfemalehungry
@@ -236,6 +255,7 @@ item HCChickenfemalehungry
 	DisplayName 			= 	Hungry Chicken (Female),
 	Icon				=	HCChickenfemale,
 	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCChickendead
@@ -258,6 +278,7 @@ item HCChickendead
     BadInMicrowave = true,
     GoodHot = true,
     BadCold = true,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCChickendead2
@@ -277,6 +298,7 @@ item HCChickendead2
     Lipids 				= 9,
     Calories 			= 150,
 	HungerChange		=	-35,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCChickenmalebaby
@@ -285,6 +307,7 @@ item HCChickenmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Chicken (Male),
 	Icon				=	HCChickenbaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -294,6 +317,7 @@ item HCChickenfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Chicken (Female),
 	Icon				=	HCChickenbaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -303,6 +327,7 @@ item HCCoop
         Type    		= Normal,
         DisplayName         	= Empty Chicken Coop,
         icon 			= HCCoop,
+	DisplayCategory          =   AnimalEnc,
 		
     }
 
@@ -312,6 +337,7 @@ item HCCoophungry
         Type    		= Normal,
         DisplayName         	= Coop with Hungry Chickens,
         icon 			= HCCoopfull,
+	DisplayCategory          =   AnimalEnc,
 		
     }
 
@@ -321,6 +347,7 @@ item HCCoopfull
         Type    		= Normal,
         DisplayName         	= Coop with Chickens,
         icon 			= HCCoopfull,
+	DisplayCategory          =   AnimalEnc,
 		
     }
 
@@ -330,6 +357,7 @@ item HCCooptired
         Type    		= Normal,
         DisplayName         	= Coop with Tired Chickens,
         icon 			= HCCoopfull,
+	DisplayCategory          =   AnimalEnc,
 		
     }
 
@@ -339,6 +367,7 @@ item HCPigmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pig (Male),
 	Icon				=	HCPigmale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -348,6 +377,7 @@ item HCPigfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Pig (Female),
 	Icon				=	HCPigfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -359,6 +389,7 @@ item HCPigmalehungry
 	Icon				=	HCPigmale,
 	
 	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCPigfemalehungry
@@ -369,6 +400,7 @@ item HCPigfemalehungry
 	Icon				=	HCPigfemale,
 	
 	Tooltip 			= 	Tooltip_HCFeedme,
+	DisplayCategory          =   Animal,
 	}
 
 item HCPigmaletired
@@ -377,6 +409,7 @@ item HCPigmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Pig (Male),
 	Icon				=	HCPigmale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -386,6 +419,7 @@ item HCPigfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Pig (Female),
 	Icon				=	HCPigfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -404,6 +438,7 @@ item HCPigdead
         Proteins 			= 	840,
         Lipids 				= 	2100,
         Calories 			= 	22560,
+	DisplayCategory          =   AnimalDead,
 	
 	}
 
@@ -413,6 +448,7 @@ item HCPigmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Pig (Male),
 	Icon				=	HCPigbaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -422,6 +458,7 @@ item HCPigfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Pig (Female),
 	Icon				=	HCPigbaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -431,6 +468,7 @@ item HCSheepmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheep (Male),
 	Icon				=	HCSheepmale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -440,6 +478,7 @@ item HCSheepfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheep (Female),
 	Icon				=	HCSheepfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -449,6 +488,7 @@ item HCSheepmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Sheep (Male),
 	Icon				=	HCSheepmale,
+	DisplayCategory          =   Animal,
 	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
@@ -459,6 +499,7 @@ item HCSheepfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Sheep (Female),
 	Icon				=	HCSheepfemale,
+	DisplayCategory          =   Animal,
 	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
@@ -469,6 +510,7 @@ item HCSheepmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Sheep (Male),
 	Icon				=	HCSheepmale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -478,6 +520,7 @@ item HCSheepfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Sheep (Female),
 	Icon				=	HCSheepfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -496,6 +539,7 @@ item HCSheepdead
         Proteins 			= 	750,
         Lipids 				= 	630,
         Calories 			= 	8820,
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCSheepmalebaby
@@ -504,6 +548,7 @@ item HCSheepmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Sheep (Male),
 	Icon				=	HCSheepbaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -513,6 +558,7 @@ item HCSheepfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Sheep (Female),
 	Icon				=	HCSheepbaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -522,6 +568,7 @@ item HCSheepmalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Sheep (Male),
 	Icon				=	HCSheepmalesheared,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -531,6 +578,7 @@ item HCSheepfemalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Sheep (Female),
 	Icon				=	HCSheepfemalesheared,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -540,6 +588,7 @@ item HCGoatmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Goat (Male),
 	Icon				=	HCGoatmale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -549,6 +598,7 @@ item HCGoatfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Goat (Female),
 	Icon				=	HCGoatfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -558,6 +608,7 @@ item HCGoatmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Goat (Male),
 	Icon				=	HCGoatmale,
+	DisplayCategory          =   Animal,
 	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
@@ -568,7 +619,7 @@ item HCGoatfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Goat (Female),
 	Icon				=	HCGoatfemale,
-	
+	DisplayCategory          =   Animal,
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -578,7 +629,7 @@ item HCGoatmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Goat (Male),
 	Icon				=	HCGoatmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCGoatfemaletired
@@ -587,7 +638,7 @@ item HCGoatfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Lactating Goat (Female),
 	Icon				=	HCGoatfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCGoatdead
@@ -604,6 +655,7 @@ item HCGoatdead
         Proteins 			= 	840,
         Lipids 				= 	69,
         Calories 			= 	4360,
+	DisplayCategory          =   AnimalDead,
 	
 	}
 
@@ -621,6 +673,7 @@ item HCGoatdead2
         Proteins 			= 	840,
         Lipids 				= 	69,
         Calories 			= 	4360,
+	DisplayCategory          =   AnimalDead,
 	
 	}
 
@@ -630,7 +683,7 @@ item HCGoatmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Goat (Male),
 	Icon				=	HCGoatbaby,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCGoatfemalebaby
@@ -639,7 +692,7 @@ item HCGoatfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Goat (Female),
 	Icon				=	HCGoatbaby,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCGoatmalesheared
@@ -648,7 +701,7 @@ item HCGoatmalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Goat (Male),
 	Icon				=	HCGoatmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCGoatfemalesheared
@@ -657,7 +710,7 @@ item HCGoatfemalesheared
 	Type 				= 	Normal,
 	DisplayName 			= 	Sheared Goat (Female),
 	Icon				=	HCGoatfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCowmale
@@ -666,7 +719,7 @@ item HCCowmale
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow (Male),
 	Icon				=	HCCowmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCowfemale
@@ -675,7 +728,7 @@ item HCCowfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Cow (Female),
 	Icon				=	HCCowfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCowmalehungry
@@ -684,7 +737,7 @@ item HCCowmalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Cow (Male),
 	Icon				=	HCCowmale,
-	
+	DisplayCategory          =   Animal,
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -694,7 +747,7 @@ item HCCowfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Cow (Female),
 	Icon				=	HCCowfemale,
-	
+	DisplayCategory          =   Animal,
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -704,7 +757,7 @@ item HCCowmaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Cow (Male),
 	Icon				=	HCCowmale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCowfemaletired
@@ -713,7 +766,7 @@ item HCCowfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Lactating Cow (Female),
 	Icon				=	HCCowfemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCowdead
@@ -730,7 +783,7 @@ item HCCowdead
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCowdead2
@@ -747,7 +800,7 @@ item HCCowdead2
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCCowmalebaby
@@ -756,7 +809,7 @@ item HCCowmalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Cow (Male),
 	Icon				=	HCCowmalebaby,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCCowfemalebaby
@@ -765,6 +818,7 @@ item HCCowfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Cow (Female),
 	Icon				=	HCCowfemalebaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -774,6 +828,7 @@ item HCDonkeymale
 	Type 				= 	Normal,
 	DisplayName 			= 	Donkey (Male),
 	Icon				=	HCDonkeymale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -783,6 +838,7 @@ item HCDonkeyfemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Donkey (Female),
 	Icon				=	HCDonkeyfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -792,7 +848,7 @@ item HCDonkeymalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Donkey (Male),
 	Icon				=	HCDonkeymale,
-	
+	DisplayCategory          =   Animal,	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -802,7 +858,7 @@ item HCDonkeyfemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Donkey (Female),
 	Icon				=	HCDonkeyfemale,
-	
+	DisplayCategory          =   Animal,	
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -812,6 +868,7 @@ item HCDonkeymaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Donkey (Male),
 	Icon				=	HCDonkeymale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -821,6 +878,7 @@ item HCDonkeyfemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Donkey (Female),
 	Icon				=	HCDonkeyfemale,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -838,7 +896,7 @@ item HCDonkeydead
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCDonkeymalebaby
@@ -847,6 +905,7 @@ item HCDonkeymalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Donkey (Male),
 	Icon				=	HCDonkeymalebaby,
+	DisplayCategory          =   Animal,
 	
 	}
 
@@ -856,40 +915,9 @@ item HCDonkeyfemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Donkey (Female),
 	Icon				=	HCDonkeyfemalebaby,
+	DisplayCategory          =   Animal,
 	
 	}
-
-item HCDonkeymalepack
-   {
-    WeightReduction				= 100,
-    ClothingItemExtra 			= HCDonkeymalepack,
-    ClothingItemExtraOption 	= FannyPack_WearBack,
-    Weight						= 0,
-    Type	      				= Container,
-	Capacity             		= 70,
-	DisplayName             	= Pack Donkey (Male),
-	Icon						= HCDonkeymalepack,
-    BodyLocation 				= FannyPackFront,
-    ClothingItem 				= HCPackHorse,
-    CanBeEquipped 				= FannyPackFront,
-    RunSpeedModifier 			= 0.97,	
-   }
-
-item HCDonkeyfemalepack
-   {
-    WeightReduction				= 100,
-    ClothingItemExtra 			= HCDonkeyfemalepack,
-    ClothingItemExtraOption 	= FannyPack_WearBack,
-	Weight             			= 0,
-	Type                		= Container,
-	Capacity             		= 70,
-	DisplayName             	= Pack Donkey (Female),
-	Icon						= HCDonkeyfemalepack,
-    BodyLocation 				= FannyPackFront,
-    ClothingItem 				= HCPackHorse,
-    CanBeEquipped 				= FannyPackFront,
-    RunSpeedModifier 			= 0.97,		
-   }
 
 item HCHorsemale
 	{
@@ -897,7 +925,7 @@ item HCHorsemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Horse (Male),
 	Icon				=	HCHorsemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCHorsefemale
@@ -906,7 +934,7 @@ item HCHorsefemale
 	Type 				= 	Normal,
 	DisplayName 			= 	Horse (Female),
 	Icon				=	HCHorsefemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCHorsemalehungry
@@ -915,7 +943,7 @@ item HCHorsemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Horse (Male),
 	Icon				=	HCHorsemale,
-	
+	DisplayCategory          =   Animal,
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -925,7 +953,7 @@ item HCHorsefemalehungry
 	Type 				= 	Normal,
 	DisplayName 			= 	Hungry Horse (Female),
 	Icon				=	HCHorsefemale,
-	
+	DisplayCategory          =   Animal,
 	Tooltip 			= 	Tooltip_HCFeedme,
 	}
 
@@ -935,7 +963,7 @@ item HCHorsemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Horse (Male),
 	Icon				=	HCHorsemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCHorsefemaletired
@@ -944,7 +972,7 @@ item HCHorsefemaletired
 	Type 				= 	Normal,
 	DisplayName 			= 	Tired Horse (Female),
 	Icon				=	HCHorsefemale,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCHorsedead
@@ -961,7 +989,7 @@ item HCHorsedead
         Proteins 			= 	2280,
         Lipids 				= 	1560,
         Calories 			= 	23760,
-	
+	DisplayCategory          =   AnimalDead,
 	}
 
 item HCHorsemalebaby
@@ -970,7 +998,7 @@ item HCHorsemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Horse (Male),
 	Icon				=	HCHorsemalebaby,
-	
+	DisplayCategory          =   Animal,
 	}
 
 item HCHorsefemalebaby
@@ -979,82 +1007,8 @@ item HCHorsefemalebaby
 	Type 				= 	Normal,
 	DisplayName 			= 	Baby Horse (Female),
 	Icon				=	HCHorsefemalebaby,
-	
+	DisplayCategory          =   Animal,
 	}
-
-
-item HCHorsemalesaddle
-   {
-    WeightReduction				= 100,
-    ClothingItemExtra 			= HCHorsemalesaddle,
-    ClothingItemExtraOption 	= FannyPack_WearBack,
-    Weight						= 0,
-    Type	      				= Container,
-    Capacity					= 100,
-	DisplayName             	= Pack Horse with Saddle (Male),
-	Icon						= HCHorsemalesaddle,
-    BodyLocation 				= FannyPackFront,
-    ClothingItem 				= HCPackHorse,
-    CanBeEquipped 				= FannyPackFront,
-    RunSpeedModifier 			= 0.97,
-   }
-
-
-item HCHorsefemalesaddle
-   {
-    WeightReduction				= 100,
-    ClothingItemExtra 			= HCHorsefemalesaddle,
-    ClothingItemExtraOption 	= FannyPack_WearBack,
-    Weight						= 0,
-    Type	      				= Container,
-    Capacity					= 100,
-	DisplayName             	= Pack Horse with Saddle (Female),
-	Icon						= HCHorsefemalesaddle,
-    BodyLocation 				= FannyPackFront,
-    ClothingItem 				= HCPackHorse,
-    CanBeEquipped 				= FannyPackFront,
-    RunSpeedModifier 			= 0.97,
-   }
-
-item HCWagonhorsemale
-   {
-	WeightReduction         	= 	100,
-	Weight             			= 	0,
-	Type                		= 	Container,
-	Capacity             		= 	300,
-	DisplayName             	= 	Wagon with Horses,
-	Icon						= 	HCWagonhorsemale,
-   }  
-  
-item HCWagoncoveredhorsemale
-   {
-	WeightReduction         	= 	100,
-	Weight             			= 	0,
-	Type                		= 	Container,
-	Capacity             		= 	400,
-	DisplayName             	= 	Covered Wagon with Horses,
-	Icon						= 	HCWagoncoveredhorsemale,
-   }
-
-item HCWagonhorsefemale
-   {
-	WeightReduction         	= 	100,
-	Weight             		= 	0,
-	Type                		= 	Container,
-	Capacity             		= 	400,
-	DisplayName             	= 	Wagon with Horses,
-	Icon				= 	HCWagonhorsefemale,
-   }  
-  
-item HCWagoncoveredhorsefemale
-   {
-	WeightReduction         	= 	100,
-	Weight             		= 	0,
-	Type                		= 	Container,
-	Capacity             		= 	400,
-	DisplayName             	= 	Covered Wagon with Horses,
-	Icon				= 	HCWagoncoveredhorsefemale,
-   }
 
 item HCHamsterpoop
     {
@@ -1062,6 +1016,7 @@ item HCHamsterpoop
         Type    		= Normal,
         DisplayName         	= Hamster Poop,
         icon 			= HCHamsterpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCRabbitpoop
@@ -1070,6 +1025,7 @@ item HCRabbitpoop
         Type    		= Normal,
         DisplayName         	= Rabbit Poop,
         icon 			= HCRabbitpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCChickenpoop
@@ -1078,6 +1034,7 @@ item HCChickenpoop
         Type    		= Normal,
         DisplayName         	= Chicken Poop,
         icon 			= HCChickenpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCSheeppoop
@@ -1086,6 +1043,7 @@ item HCSheeppoop
         Type    		= Normal,
         DisplayName         	= Sheep Poop,
         icon 			= HCSheeppoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCSheeppoopferal
@@ -1094,6 +1052,7 @@ item HCSheeppoopferal
         Type    		= Normal,
         DisplayName         	= Feral Sheep Poop,
         icon 			= HCSheeppoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCGoatpoop
@@ -1102,6 +1061,7 @@ item HCGoatpoop
         Type    		= Normal,
         DisplayName         	= Goat Poop,
         icon 			= HCGoatpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCGoatpoopferal
@@ -1110,6 +1070,7 @@ item HCGoatpoopferal
         Type    		= Normal,
         DisplayName         	= Feral Goat Poop,
         icon 			= HCGoatpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCPigpoop
@@ -1118,6 +1079,7 @@ item HCPigpoop
         Type    		= Normal,
         DisplayName         	= Pig Poop,
         icon 			= HCPigpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCPigpoopferal
@@ -1126,6 +1088,7 @@ item HCPigpoopferal
         Type    		= Normal,
         DisplayName         	= Feral Pig Poop,
         icon 			= HCPigpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCCowpoop
@@ -1134,6 +1097,7 @@ item HCCowpoop
         Type    		= Normal,
         DisplayName         	= Cow Poop,
         icon 			= HCCowpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCCowpoopferal
@@ -1142,6 +1106,7 @@ item HCCowpoopferal
         Type    		= Normal,
         DisplayName         	= Feral Cow Poop,
         icon 			= HCCowpoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCDonkeypoop
@@ -1150,6 +1115,7 @@ item HCDonkeypoop
         Type    		= Normal,
         DisplayName         	= Donkey Poop,
         icon 			= HCDonkeypoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCDonkeypoopferal
@@ -1158,6 +1124,7 @@ item HCDonkeypoopferal
         Type    		= Normal,
         DisplayName         	= Feral Donkey Poop,
         icon 			= HCDonkeypoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCHorsepoop
@@ -1166,6 +1133,7 @@ item HCHorsepoop
         Type    		= Normal,
         DisplayName         	= Horse Poop,
         icon 			= HCHorsepoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCHorsepoopferal
@@ -1174,6 +1142,7 @@ item HCHorsepoopferal
         Type    		= Normal,
         DisplayName         	= Feral Horse Poop,
         icon 			= HCHorsepoop,
+		DisplayCategory          =   AnimalPoop,
     }
 
 item HCWoodenbucketmilk
@@ -1195,8 +1164,123 @@ item HCWoodenbucketmilk
         Calories 			= 440,
         CantBeFrozen 		= TRUE,
         ReplaceOnUse 		= HCWoodenbucket,
+		DisplayCategory          =   Cooking,
     }
 
+/**Container**/
+
+item HCDonkeymalepack
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCDonkeymalepack,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+    Weight						= 0,
+    Type	      				= Container,
+	Capacity             		= 70,
+	DisplayName             	= Pack Donkey (Male),
+	Icon						= HCDonkeymalepack,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,	
+    DisplayCategory          =   Container,
+   }
+
+item HCDonkeyfemalepack
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCDonkeyfemalepack,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+	Weight             			= 0,
+	Type                		= Container,
+	Capacity             		= 70,
+	DisplayName             	= Pack Donkey (Female),
+	Icon						= HCDonkeyfemalepack,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,		
+    DisplayCategory          =   Container,
+   }
+
+item HCHorsemalesaddle
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCHorsemalesaddle,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+    Weight						= 0,
+    Type	      				= Container,
+    Capacity					= 100,
+	DisplayName             	= Pack Horse with Saddle (Male),
+	Icon						= HCHorsemalesaddle,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,
+    DisplayCategory          =   Container,
+   }
+
+
+item HCHorsefemalesaddle
+   {
+    WeightReduction				= 100,
+    ClothingItemExtra 			= HCHorsefemalesaddle,
+    ClothingItemExtraOption 	= FannyPack_WearBack,
+    Weight						= 0,
+    Type	      				= Container,
+    Capacity					= 100,
+	DisplayName             	= Pack Horse with Saddle (Female),
+	Icon						= HCHorsefemalesaddle,
+    BodyLocation 				= FannyPackFront,
+    ClothingItem 				= HCPackHorse,
+    CanBeEquipped 				= FannyPackFront,
+    RunSpeedModifier 			= 0.97,
+    DisplayCategory          =   Container,
+   }
+   
+item HCWagonhorsemale
+   {
+	WeightReduction         	= 	100,
+	Weight             			= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	300,
+	DisplayName             	= 	Wagon with Horses,
+	Icon						= 	HCWagonhorsemale,
+    DisplayCategory          =   Container,
+   }  
+  
+item HCWagoncoveredhorsemale
+   {
+	WeightReduction         	= 	100,
+	Weight             			= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Covered Wagon with Horses,
+	Icon						= 	HCWagoncoveredhorsemale,
+    DisplayCategory          =   Container,
+   }
+
+item HCWagonhorsefemale
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Wagon with Horses,
+	Icon				= 	HCWagonhorsefemale,
+    DisplayCategory          =   Container,
+   }  
+  
+item HCWagoncoveredhorsefemale
+   {
+	WeightReduction         	= 	100,
+	Weight             		= 	0,
+	Type                		= 	Container,
+	Capacity             		= 	400,
+	DisplayName             	= 	Covered Wagon with Horses,
+	Icon				= 	HCWagoncoveredhorsefemale,
+    DisplayCategory          =   Container,
+   }
 
 /************************RECIPES************************/
 

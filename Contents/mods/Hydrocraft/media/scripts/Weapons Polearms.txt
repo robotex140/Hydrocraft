@@ -49,6 +49,7 @@ module Hydrocraft
         TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCHalberdiron
@@ -89,6 +90,7 @@ module Hydrocraft
         TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCHalberdbronze
@@ -129,6 +131,7 @@ module Hydrocraft
         TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCHalberdcopper
@@ -169,6 +172,7 @@ module Hydrocraft
         TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
     item HCSpearsteel
@@ -211,6 +215,7 @@ module Hydrocraft
         ImpactSound =   BladeHit,
         HitSound    =   BladeHit,
         AttachmentType = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
 
@@ -250,6 +255,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
      item HCSpearbronze
@@ -286,6 +292,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
      item HCSpearcopper
@@ -322,6 +329,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
      item HCSpearobsidian
@@ -358,6 +366,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
 
@@ -395,6 +404,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
 
@@ -432,6 +442,7 @@ module Hydrocraft
         BreakSound  				=   BreakWoodItem,
         TreeDamage  				=   0,
         AttachmentType              =   BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
    item HCQuarterstaffGrip
@@ -468,6 +479,7 @@ module Hydrocraft
         BreakSound                  =   BreakWoodItem,
         TreeDamage                  =   0,
         AttachmentType              =   BigBlade,
+		DisplayCategory		=	WepMelee,
     }
 
 
@@ -505,6 +517,7 @@ module Hydrocraft
         BreakSound                  =   BreakWoodItem,
         TreeDamage                  =   0,
         AttachmentType              =   BigBlade,
+		DisplayCategory		=	WepMelee,
     }
 
 
@@ -545,6 +558,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
      item HCTridentsteel
@@ -581,6 +595,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
      item HCTridentiron
@@ -617,6 +632,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
      item HCTridentbronze
@@ -653,6 +669,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
      item HCTridentcopper
@@ -689,6 +706,7 @@ module Hydrocraft
         	TreeDamage  					=   	0,
         	TwoHandWeapon 					= 	TRUE,
             AttachmentType              = Shovel,
+		DisplayCategory		=	WepMelee,
     }
 
 	item HCScythesteel
@@ -729,6 +747,7 @@ module Hydrocraft
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCScytheiron
@@ -769,6 +788,7 @@ module Hydrocraft
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCScythebronze
@@ -809,6 +829,7 @@ module Hydrocraft
         	TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 	item HCScythecopper
@@ -849,6 +870,7 @@ module Hydrocraft
         TreeDamage  					=   	25,
 		RequiresEquippedBothHands 			= 	true,
         AttachmentType              = BigBlade,
+		DisplayCategory		=	WepMelee,
 	}
 
 /************************RECIPES************************/	

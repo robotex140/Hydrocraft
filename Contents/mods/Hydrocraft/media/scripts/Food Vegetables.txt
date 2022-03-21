@@ -23,6 +23,7 @@ item HCBeans
     Proteins 			= 	5.4,
     Lipids 				= 	0.6,
     Calories 			= 	93,
+	DisplayCategory          =   FoodP,
    }
 
 
@@ -40,6 +41,7 @@ item HCCoffeeBeans
     Proteins 			= 	5.4,
     Lipids 				= 	0.6,
     Calories 			= 	5,
+	DisplayCategory          =   FoodP,
    }
 
 
@@ -59,6 +61,7 @@ item HCSoyBeans
     Lipids 				= 	20,
     Calories 			= 	120,
     EvolvedRecipe 		=	Soup:10;Stew:10;Stir fry:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	DisplayCategory          =   FoodP,
    }
 
 
@@ -77,6 +80,7 @@ item HCSoyBeans
         Proteins 			= 		16.2,
         Lipids 				= 		1.2,
         Calories 			=		243,
+	DisplayCategory          =   FoodP,
    }
 
    item HCSweetpotato
@@ -95,6 +99,7 @@ item HCSoyBeans
         Proteins 			= 		4.8,
         Lipids 				= 		0.3,
         Calories 			=		258,
+	DisplayCategory          =   FoodP,
    }
 
    item HCChinesecabbage
@@ -113,6 +118,7 @@ item HCSoyBeans
         Proteins 			= 		4.5,
         Lipids 				= 		0.6,
         Calories 			=		39,
+	DisplayCategory          =   FoodP,
     }
 
     item HCCucumber
@@ -132,6 +138,7 @@ item HCSoyBeans
         Lipids 				= 		0.3,
         Calories 			=		45,
 	ReplaceOnUse			=		Hydrocraft.HCCucumberseeds,
+	DisplayCategory          =   FoodP,
     }
 
     item HCCauliflower
@@ -149,6 +156,7 @@ item HCSoyBeans
         Proteins 			= 		5.7,
         Lipids 				= 		0.9,
         Calories 			=		75,
+	DisplayCategory          =   FoodP,
     }
 
     item HCBellpeppergreen
@@ -167,6 +175,7 @@ item HCSoyBeans
         Lipids 				= 		0.4,
         Calories 			=		40,
 	ReplaceOnUse			=		Hydrocraft.HCBellpeppergreenseeds,
+	DisplayCategory          =   FoodP,
      }
 
     item HCBellpepperyellow
@@ -185,6 +194,7 @@ item HCSoyBeans
         Lipids 				= 		0.4,
         Calories 			=		54,
 	ReplaceOnUse			=		Hydrocraft.HCBellpepperyellowseeds,
+	DisplayCategory          =   FoodP,
      }
 
      item HCOniongreen
@@ -202,6 +212,7 @@ item HCSoyBeans
         Proteins 			= 		3.6,
         Lipids 				= 		0.4,
         Calories 			=		64,
+	DisplayCategory          =   FoodP,
      }
 
      item HCGarlic
@@ -219,6 +230,7 @@ item HCSoyBeans
         Proteins 			= 		12.8,
         Lipids 				= 		1,
         Calories 			=		298,
+	DisplayCategory          =   FoodP,
      }
 
    item HCGinger
@@ -236,6 +248,7 @@ item HCSoyBeans
         Proteins 			= 		3.6,
         Lipids 				= 		0.4,
         Calories 			=		160,
+	DisplayCategory          =   FoodP,
    }
 
    item HCPumpkin
@@ -254,6 +267,7 @@ item HCSoyBeans
         Proteins 			= 		9,
         Lipids 				= 		0.9,
         Calories 			=		234,
+	DisplayCategory          =   FoodP,
    }
 
    item HCPumpkinflesh
@@ -271,6 +285,7 @@ item HCSoyBeans
         Proteins 			= 		1,
         Lipids 				= 		0.1,
         Calories 			=		26,
+	DisplayCategory          =   FoodP,
    }
 
    item HCPumpkingreen
@@ -290,6 +305,7 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkingreenseeds,
+	DisplayCategory          =   FoodP,
    }
 
    item HCPumpkinwhite
@@ -309,6 +325,7 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkinwhiteseeds,
+	DisplayCategory          =   FoodP,
    }
 
    item HCPumpkinlarge
@@ -328,6 +345,7 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkinlargeseeds,
+	DisplayCategory          =   FoodP,
    }
 
    item HCPumpkinbuskin
@@ -347,6 +365,7 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkinbuskinseeds,
+	DisplayCategory          =   FoodP,
    }
 
     item HCCornred
@@ -364,6 +383,7 @@ item HCSoyBeans
         Proteins 			= 		6.4,
         Lipids 				= 		2.4,
         Calories 			=		172,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCCornblue
@@ -381,6 +401,7 @@ item HCSoyBeans
         Proteins 			= 		6.4,
         Lipids 				= 		2.4,
         Calories 			=		172,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCCornwhite
@@ -398,6 +419,7 @@ item HCSoyBeans
         Proteins 			= 		6.4,
         Lipids 				= 		2.4,
         Calories 			=		172,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCCabbagered
@@ -416,6 +438,7 @@ item HCSoyBeans
         Proteins 			= 		2.8,
         Lipids 				= 		0.4,
         Calories 			=		62,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCCabbagewhite
@@ -434,6 +457,7 @@ item HCSoyBeans
         Proteins 			= 		2.8,
         Lipids 				= 		0.4,
         Calories 			=		62,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCPotatogolden
@@ -451,6 +475,7 @@ item HCSoyBeans
         Proteins 			= 		5.1,
         Lipids 				= 		0.3,
         Calories 			=		207,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCPotatored
@@ -468,6 +493,7 @@ item HCSoyBeans
         Proteins 			= 		5.7,
         Lipids 				= 		0.3,
         Calories 			=		210,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCChilipepper
@@ -486,6 +512,7 @@ item HCSoyBeans
         Lipids 				= 		0.8,
         Calories 			=		80,
 	ReplaceOnUse			=		Hydrocraft.HCChilipepperseeds,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCChilipeppercut
@@ -503,6 +530,7 @@ item HCSoyBeans
         Proteins 			= 		1.9,
         Lipids 				= 		0.4,
         Calories 			=		40,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCChiligreen
@@ -522,6 +550,7 @@ item HCChiligreen
         Lipids 				= 		0.8,
         Calories 			=		80,
 	ReplaceOnUse			=		Hydrocraft.HCChiligreenseeds,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCTomatillo
@@ -541,6 +570,7 @@ item HCTomatillo
         Lipids 				= 		0.3,
         Calories 			=		11,
 	ReplaceOnUse			=		Hydrocraft.HCTomatilloseeds,
+	DisplayCategory          =   FoodP,
 	}
 
    item HCColewort
@@ -558,6 +588,7 @@ item HCTomatillo
         Proteins 			= 		0.3,
         Lipids 				= 		0.1,
         Calories 			=		3,
+	DisplayCategory          =   FoodP,
     }
 
    item HCArtichoke
@@ -575,6 +606,7 @@ item HCTomatillo
         Proteins 			= 		4.2,
         Lipids 				= 		0.2,
         Calories 			=		60,
+	DisplayCategory          =   FoodP,
     }
 
    item HCSpirulinafresh
@@ -595,6 +627,7 @@ item HCTomatillo
 		Proteins 			= 		4,
 		Lipids 				= 		0.5,
 		Calories 			=		20,
+	DisplayCategory          =   FoodP,
     }
 
    item HCAlgaePowder
@@ -609,6 +642,7 @@ item HCTomatillo
 		Proteins 			= 		4,
 		Lipids 				= 		0.5,
 		Calories 			=		20,
+	DisplayCategory          =   FoodN,
     }
 
    item HCBeet
@@ -627,6 +661,7 @@ item HCTomatillo
         Proteins 			= 		2.2,
         Lipids 				= 		0.2,
         Calories 			=		59,
+	DisplayCategory          =   FoodP,
    }
 
    item HCBasilleaf
@@ -645,6 +680,7 @@ item HCTomatillo
         Proteins 			= 		0.2,
         Lipids 				= 		0,
         Calories 			=		1,
+	DisplayCategory          =   FoodP,
     }
 
    item HCOreganoleaf
@@ -663,6 +699,7 @@ item HCTomatillo
     Proteins 			= 		0.2,
     Lipids 				= 		0,
     Calories 			=		1,
+	DisplayCategory          =   FoodP,
     }
 
    item HCAsparagus
@@ -680,6 +717,7 @@ item HCTomatillo
         Proteins 			= 		0.4,
         Lipids 				= 		0,
         Calories 			=		3,
+	DisplayCategory          =   FoodP,
     }
 
     item HCJalapeno
@@ -698,6 +736,7 @@ item HCTomatillo
         Proteins 			= 		0.8,
         Lipids 				= 		0.3,
         Calories 			=		26,
+	DisplayCategory          =   FoodP,
 	}
 
     item HCSquashsummer
@@ -716,6 +755,7 @@ item HCTomatillo
         Proteins 			= 		2.4,
         Lipids 				= 		0.4,
         Calories 			=		32,
+	DisplayCategory          =   FoodP,
     }
 
    item HCBeetsugar
@@ -734,6 +774,7 @@ item HCTomatillo
         Proteins 			= 		1,
         Lipids 				= 		0,
         Calories 			=		35,
+	DisplayCategory          =   FoodP,
    }
 
    item HCCelery
@@ -751,6 +792,7 @@ item HCTomatillo
         Proteins 			= 		0.3,
         Lipids 				= 		0.1,
         Calories 			=		6,
+	DisplayCategory          =   FoodP,
     }
 
    item HCTomatocherry
@@ -769,6 +811,7 @@ item HCTomatillo
         Proteins 			= 		0,
         Lipids 				= 		1,
         Calories 			=		18,
+	DisplayCategory          =   FoodP,
 	}
 
    item HCSpinach
@@ -787,6 +830,7 @@ item HCTomatillo
         Proteins 			= 		0.9,
         Lipids 				= 		0.1,
         Calories 			=		7,
+	DisplayCategory          =   FoodP,
     }
 
 /************************RECIPES************************/

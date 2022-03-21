@@ -146,6 +146,7 @@ item HCCoinpress
         Type    		= Normal,
         DisplayName         	= Coin Press,
         icon 			= HCCoinpress,
+		DisplayCategory		= CraftInd,
     }
 
 item HCCoincopper
@@ -181,6 +182,7 @@ item HCPiggybank
         Type    		= Normal,
         DisplayName         	= Piggy Bank,
         icon 			= HCPiggybank,
+		DisplayCategory		= Misc,
     }
 
 item HCPiggybankopen

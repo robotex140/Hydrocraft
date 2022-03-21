@@ -14,6 +14,7 @@ item HCPaintbrush
         Type    		= Normal,
         DisplayName         	= Paintbrush,
         icon 			= HCPaintbrush,
+		DisplayCategory	= Paint,
     }
 
 item HCPainterpalette
@@ -22,6 +23,7 @@ item HCPainterpalette
         Type    		= Normal,
         DisplayName         	= Painter Palette,
         icon 			= HCPainterpalette,
+		DisplayCategory	= Paint,
     }
 
 item HCInkroller
@@ -30,6 +32,7 @@ item HCInkroller
 	Type			=	Normal,
 	DisplayName		=	ink Roller,
 	Icon			=	HCInkroller,
+		DisplayCategory	= Paint,
 	}
 
 item HCCanvas
@@ -38,6 +41,7 @@ item HCCanvas
         Type    		= Normal,
         DisplayName         	= Canvas,
         icon 			= HCCanvas,
+		DisplayCategory	= Paint,
 	
     }
 
@@ -47,6 +51,7 @@ item HCEasel
         Type    		= Normal,
         DisplayName         	= Easel,
         icon 			= HCEasel,
+		DisplayCategory	= Paint,
 	
     }
 
@@ -58,6 +63,7 @@ item HCTurpentine
 	UseDelta		= 0.25,
         DisplayName         	= Turpentine,
         icon 			= HCTurpentine,
+		DisplayCategory	= Paint,
     }
 
 item HCWhitepigment
@@ -67,6 +73,7 @@ item HCWhitepigment
 	UseDelta		= 0.125,
         DisplayName         	= White Pigment,
         icon 			= HCWhitepigment,
+		DisplayCategory	= Paint,
     }
 
 item HCBrownpigment
@@ -76,6 +83,7 @@ item HCBrownpigment
 	UseDelta		= 0.125,
         DisplayName         	= Brown Pigment,
         icon 			= HCBrownpigment,
+		DisplayCategory	= Paint,
     }
 
 item HCYellowpigment
@@ -85,6 +93,7 @@ item HCYellowpigment
 	UseDelta		= 0.125,
         DisplayName         	= Yellow Pigment,
         icon 			= HCYellowpigment,
+		DisplayCategory	= Paint,
     }  
 
 item HCRedpigment
@@ -94,6 +103,7 @@ item HCRedpigment
 	UseDelta		= 0.125,
         DisplayName         	= Red Pigment,
         icon 			= HCRedpigment,
+		DisplayCategory	= Paint,
     }  
 
 item HCGreenpigment
@@ -103,6 +113,7 @@ item HCGreenpigment
 	UseDelta		= 0.125,
         DisplayName         	= Green Pigment,
         icon 			= HCGreenpigment,
+		DisplayCategory	= Paint,
     }  
 
 item HCBluepigment
@@ -112,6 +123,7 @@ item HCBluepigment
 	UseDelta		= 0.125,
         DisplayName         	= Blue Pigment,
         icon 			= HCBluepigment,
+		DisplayCategory	= Paint,
     }  
 
 item HCPaintcan
@@ -120,6 +132,7 @@ item HCPaintcan
         Type    		= Normal,
         DisplayName         	= Empty Paint Can,
         icon 			= HCPaintcan,
+		DisplayCategory	= Paint,
     }  
 
 item HCJarpaintwhite
@@ -130,6 +143,7 @@ item HCJarpaintwhite
         DisplayName         	= Jar of White Paint,
         icon 			= HCJarpaintwhite,
 	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
     }
 
 item HCJarpaintyellow
@@ -140,6 +154,7 @@ item HCJarpaintyellow
         DisplayName         	= Jar of Yellow Paint,
         icon 			= HCJarpaintyellow,
 	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
     }
 
 item HCJarpaintred
@@ -150,6 +165,7 @@ item HCJarpaintred
         DisplayName         	= Jar of Red Paint,
         icon 			= HCJarpaintred,
 	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
     }
 
 item HCJarpaintblue
@@ -160,6 +176,7 @@ item HCJarpaintblue
         DisplayName         	= Jar of Blue Paint,
         icon 			= HCJarpaintblue,
 	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
     }
 
 item HCJarpaintblack
@@ -170,6 +187,7 @@ item HCJarpaintblack
         DisplayName         	= Jar of Black Paint,
         icon 			= HCJarpaintblack,
 	ReplaceOnDeplete	= HCJar,
+		DisplayCategory	= Paint,
     }
 
 /************************RECIPES************************/

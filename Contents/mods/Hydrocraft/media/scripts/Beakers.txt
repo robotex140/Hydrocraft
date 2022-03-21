@@ -22,6 +22,7 @@ item HCBeakerwater
 	Icon			=	HCBeakerwater,
 	IsCookable		=	TRUE,
 	RainFactor 		= 	1,
+	DisplayCategory	=   CraftChem,
     	}
 
 item HCBeakerwaterhot
@@ -30,6 +31,7 @@ item HCBeakerwaterhot
 	Type			        =	Normal,
 	DisplayName			=	Beaker With Hot Water,
 	Icon				=	HCBeakerwaterhot,
+	DisplayCategory	=   CraftChem,
 	}
 
 item HCBeakerammonia
@@ -38,6 +40,7 @@ item HCBeakerammonia
         Type    		= Normal,
         DisplayName         	= Beaker with Ammonia,
         icon 			= HCBeakerammonia,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakertronasolution
@@ -46,6 +49,7 @@ item HCBeakertronasolution
 	Type			=	Normal,
 	DisplayName		=	Beaker With Trona Solution,
 	Icon			=	HCBeakertronasolution,
+	DisplayCategory	=   CraftChem,
 	}
 
 item HCBeakerwatercalciumoxid
@@ -54,6 +58,7 @@ item HCBeakerwatercalciumoxid
 	Type			=	Normal,
 	DisplayName		=	Beaker With Calcium Oxide And Water,
 	Icon			=	HCBeakerwatercalciumoxid,
+	DisplayCategory	=   CraftChem,
 	}
 
 item HCBeakermuriaticacid
@@ -62,6 +67,7 @@ item HCBeakermuriaticacid
 	Type			=	Normal,
 	DisplayName		=	Beaker With Muriatic Acid,
 	Icon			=	HCBeakermuriaticacid,
+	DisplayCategory	=   CraftChem,
 	}
 
 item HCBeakersodiumhydroxidesolution
@@ -70,6 +76,7 @@ item HCBeakersodiumhydroxidesolution
 	Type			        =	Normal,
 	DisplayName			=	Sodium Hydroxide Soultion,
 	Icon				=	HCBeakersodiumhydroxidesolution,
+	DisplayCategory	=   CraftChem,
 	}
 
 item HCBeakercalciumchloridesolution
@@ -78,6 +85,7 @@ item HCBeakercalciumchloridesolution
 	Type			        =	Normal,
 	DisplayName			=	Calcium Chloride Soultion,
 	Icon				=	HCBeakercalciumchloridesolution,
+	DisplayCategory	=   CraftChem,
 	}
 
 item HCBeakermethylamin
@@ -86,6 +94,7 @@ item HCBeakermethylamin
         Type            		=    Normal,
         DisplayName        		=    Beaker With Methylamin,
         Icon            		=    HCBeakermethylamin,
+		DisplayCategory	=   CraftChem,
     }
 
  
@@ -95,6 +104,7 @@ item HCBeakersulfuricacid
         Type            		=    Normal,
         DisplayName        		=    Beaker With Sulfuric Acid,
         Icon            		=    HCBeakersulfuricacid,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerphenyl
@@ -103,6 +113,7 @@ item HCBeakerphenyl
         Type            		=    Normal,
         DisplayName        		=    Beaker With Phenylacetic Acid,
         Icon            		=    HCBeakerphenyl,
+	DisplayCategory	=   CraftChem,
     } 
 
 item HCBeakerh2o2
@@ -111,6 +122,7 @@ item HCBeakerh2o2
         Type    			= Normal,
         DisplayName         		= Beaker With Hydrogen Peroxide,
         icon 				= HCBeakerh2o2,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerh2o2cooled
@@ -119,6 +131,7 @@ item HCBeakerh2o2cooled
         Type    			= Normal,
         DisplayName         		= Cold Beaker With Hydrogen Peroxide,
         icon 				= HCBeakerh2o2cooled,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerh2o2hexa
@@ -127,6 +140,7 @@ item HCBeakerh2o2hexa
         Type    			= Normal,
         DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin,
         icon 				= HCBeakerh2o2hexa,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerh2o2hexacooled
@@ -135,6 +149,7 @@ item HCBeakerh2o2hexacooled
         Type    			= Normal,
         DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin,
         icon 				= HCBeakerh2o2hexacooled,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerh2o2hexacitricacid
@@ -143,6 +158,7 @@ item HCBeakerh2o2hexacitricacid
         Type    			= Normal,
         DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
         icon 				= HCBeakerh2o2hexa,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerh2o2hexacitricacidcooled
@@ -151,6 +167,7 @@ item HCBeakerh2o2hexacitricacidcooled
         Type    			= Normal,
         DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
         icon 				= HCBeakerh2o2hexacitricacidcooled,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerhmtd
@@ -159,6 +176,7 @@ item HCBeakerhmtd
         Type    			= Normal,
         DisplayName         		= Beaker With HMTD Foam,
         icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakercoppersulfatesolution
@@ -167,6 +185,7 @@ item HCBeakercoppersulfatesolution
         Type    			= Normal,
         DisplayName         		= Beaker With Coppersulfate solution,
         icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakernickelsulfatesolution
@@ -175,6 +194,7 @@ item HCBeakernickelsulfatesolution
         Type    			= Normal,
         DisplayName         		= Beaker With Nickel Sulfate solution,
         icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakernitricacid
@@ -183,6 +203,7 @@ item HCBeakernitricacid
         Type    			= Normal,
         DisplayName         		= Beaker With Nitric Acid,
         icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakermercuricoxide
@@ -191,6 +212,7 @@ item HCBeakermercuricoxide
         Type    			= Normal,
         DisplayName         		= Beaker With Mercuric Oxide,
         icon 				= HCBeakermercuricoxide,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerpotassiumpermanganate
@@ -199,6 +221,7 @@ item HCBeakerpotassiumpermanganate
         Type    			= Normal,
         DisplayName         		= Beaker With Potassium Permanganate,
         icon 				= HCBeakerpotassiumpermanganate,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerammoniahalf
@@ -210,6 +233,7 @@ item HCBeakerammoniahalf
         DisplayName         	= 	Beaker With Ammonia,
 	ReplaceOnDeplete	=	HCBeakerammonia,
         icon 			= 	HCBeakerammoniahalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakercalciumchloridesolutionhalf
@@ -221,6 +245,7 @@ item HCBeakercalciumchloridesolutionhalf
         DisplayName         	= 	Beaker With Calciumchloride Solution,
 	ReplaceOnDeplete	=	HCBeakercalciumchloridesolution,
         icon 			= 	HCBeakercalciumchloridesolutionhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerh2o2half
@@ -232,6 +257,7 @@ item HCBeakerh2o2half
         DisplayName         	= 	Beaker With H2O2,
 	ReplaceOnDeplete	=	HCBeakerh2o2,
         icon 			= 	HCBeakerh2o2half,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakermercuricoxidehalf
@@ -243,6 +269,7 @@ item HCBeakermercuricoxidehalf
         DisplayName         	= 	Beaker With Mercuricoxide,
 	ReplaceOnDeplete	=	HCBeakermercuricoxide,
         icon 			= 	HCBeakermercuricoxidehalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakermethylaminhalf
@@ -254,6 +281,7 @@ item HCBeakermethylaminhalf
         DisplayName         	= 	Beaker With Methylamin,
 	ReplaceOnDeplete	=	HCBeakermethylamin,
         icon 			= 	HCBeakermethylaminhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakermorphinhydrochloridsolutionhalf
@@ -265,6 +293,7 @@ item HCBeakermorphinhydrochloridsolutionhalf
         DisplayName         	= 	Beaker With Morphinhydrochlorid Solution,
 	ReplaceOnDeplete	=	HCBeakermorphinhydrochloridsolution,
         icon 			= 	HCBeakermorphinhydrochloridsolutionhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakermuriaticacidhalf
@@ -276,6 +305,7 @@ item HCBeakermuriaticacidhalf
         DisplayName         	= 	Beaker With Muriatic Acid,
 	ReplaceOnDeplete	=	HCBeakermuriaticacid,
         icon 			= 	HCBeakermuriaticacidhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerphenylhalf
@@ -287,6 +317,7 @@ item HCBeakerphenylhalf
         DisplayName         	= 	Beaker With Phenylacetic Acid,
 	ReplaceOnDeplete	=	HCBeakerphenyl,
         icon 			= 	HCBeakerphenylhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerselfmadeether
@@ -295,6 +326,7 @@ item HCBeakerselfmadeether
 	Type			= 	Normal,
         DisplayName         	= 	Beaker With Ether,
         icon 			= 	HCBeakerselfmadeether,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakersodiumhydroxidesolutionhalf
@@ -306,6 +338,7 @@ item HCBeakersodiumhydroxidesolutionhalf
         DisplayName         	= 	Beaker With Sodiumhydroxide Solution,
 	ReplaceOnDeplete	=	HCBeakersodiumhydroxidesolution,
         icon 			= 	HCBeakersodiumhydroxidesolutionhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakersulfuricacidhalf
@@ -317,6 +350,7 @@ item HCBeakersulfuricacidhalf
         DisplayName         	= 	Beaker With Sulfuric Acid,
 	ReplaceOnDeplete	=	HCBeakersulfuricacid,
         icon 			= 	HCBeakersulfuricacidhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakertronasolutionhalf
@@ -328,6 +362,7 @@ item HCBeakertronasolutionhalf
         DisplayName         	= 	Beaker With Trona Solution,
 	ReplaceOnDeplete	=	HCBeakertronasolution,
         icon 			= 	HCBeakertronasolutionhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerwaterhalf
@@ -339,6 +374,7 @@ item HCBeakerwaterhalf
         DisplayName         	= 	Beaker With Water,
 	ReplaceOnDeplete	=	HCBeakerwater,
         icon 			= 	HCBeakerwaterhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerselfmadeetherhalf
@@ -350,6 +386,7 @@ item HCBeakerselfmadeetherhalf
         DisplayName         	= 	Beaker With Ether,
 	ReplaceOnDeplete	=	HCBeakerselfmadeether,
         icon 			= 	HCBeakerselfmadeetherhalf,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCBeakerpotassiumpermanganatehalf
@@ -361,6 +398,7 @@ item HCBeakerpotassiumpermanganatehalf
         DisplayName         	= 	Beaker With Potassium Permanganate,
 	ReplaceOnDeplete	=	HCBeakerpotassiumpermanganate,
         icon 			= 	HCBeakerpotassiumpermanganatehalf,
+	DisplayCategory	=   CraftChem,
     }
 
 /************************RECIPES************************/

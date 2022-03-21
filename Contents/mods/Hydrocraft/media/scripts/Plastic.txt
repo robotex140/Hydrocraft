@@ -14,6 +14,7 @@ item HCPlastic
         Type    		=    	Normal,
         DisplayName    		=    	Plastic,
         Icon    		=    	HCPlastic,
+		DisplayCategory		=   Craft,
     }
 
 item HCBioplastic
@@ -22,6 +23,7 @@ item HCBioplastic
         Type    		= Normal,
 	DisplayName		= Bioplastic,
 	Icon			= HCBioplastic,
+		DisplayCategory		=   Craft,
 	}
 
 item HCSelfmadeplasticcase
@@ -30,6 +32,7 @@ item HCSelfmadeplasticcase
 	Type			=	Normal,
 	DisplayName		=	Homemade Plastic Case,
 	Icon			=	HCSelfmadeplasticcase,
+		DisplayCategory		=   Craft,
 	}
 
 /************************RECIPES************************/	

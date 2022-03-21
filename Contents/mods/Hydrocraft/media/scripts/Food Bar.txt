@@ -27,6 +27,7 @@ item HCDrinkglassshortgin
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCDrinkglasstallgin
@@ -48,6 +49,7 @@ item HCDrinkglasstallgin
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCDrinkcocktailglassgin
@@ -69,6 +71,7 @@ item HCDrinkcocktailglassgin
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}		
 
 item HCDrinkglassshortwhiskey
@@ -90,6 +93,7 @@ item HCDrinkglassshortwhiskey
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCDrinkglasstallwhiskey
@@ -111,6 +115,7 @@ item HCDrinkglasstallwhiskey
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}	
 	
 item HCDrinkcocktailglasswhiskey
@@ -132,6 +137,7 @@ item HCDrinkcocktailglasswhiskey
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}	
 
 item HCDrinkglassshortrum
@@ -153,6 +159,7 @@ item HCDrinkglassshortrum
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCDrinkglasstallrum
@@ -174,6 +181,7 @@ item HCDrinkglasstallrum
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}	
 	
 item HCDrinkcocktailglassrum
@@ -195,6 +203,7 @@ item HCDrinkcocktailglassrum
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}	
 
 	item HCDrinkglassshortvodka
@@ -216,6 +225,7 @@ item HCDrinkcocktailglassrum
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCDrinkglasstallvodka
 	{
@@ -236,6 +246,7 @@ item HCDrinkglasstallvodka
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCDrinkcocktailglassvodka
 	{
@@ -256,6 +267,7 @@ item HCDrinkcocktailglassvodka
         Lipids 			= 	0,
         Calories 		= 	395,
         CantBeFrozen 	= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}		
 
 item HCBloodymarymixer
@@ -277,6 +289,7 @@ item HCBloodymarymixer
         Calories 		= 	400,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCLemonmixer
@@ -298,6 +311,7 @@ item HCLemonmixer
         Calories 		= 	550,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCLimemixer
@@ -319,6 +333,7 @@ item HCLimemixer
         Calories 		= 	550,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCCoffeeirish
@@ -342,6 +357,7 @@ item HCCoffeeirish
         Lipids 				= 	13.2,
         Calories 			= 	261,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCCoffeeirish2
@@ -365,6 +381,7 @@ item HCCoffeeirish2
         Lipids 				= 	13.2,
         Calories 			= 	261,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 	
 item HCWhiskey1
@@ -388,6 +405,7 @@ item HCWhiskey1
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCWhiskey2
@@ -411,6 +429,7 @@ item HCWhiskey2
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCWhiskey3
@@ -434,6 +453,7 @@ item HCWhiskey3
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCWhiskey4
@@ -457,6 +477,7 @@ item HCWhiskey4
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCWhiskeycorn
@@ -480,6 +501,7 @@ item HCWhiskeycorn
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBourbon1
@@ -503,6 +525,7 @@ item HCBourbon1
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBourbon2
@@ -526,6 +549,7 @@ item HCBourbon2
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCScotch1
@@ -549,6 +573,7 @@ item HCScotch1
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCRum1
@@ -572,6 +597,7 @@ item HCRum1
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCGin1
@@ -595,6 +621,7 @@ item HCGin1
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCGin2
@@ -618,6 +645,7 @@ item HCGin2
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCGin3
@@ -641,6 +669,7 @@ item HCGin3
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCVodka1
@@ -664,6 +693,7 @@ item HCVodka1
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCVodka2
@@ -687,6 +717,7 @@ item HCVodka2
         Calories 		= 	2142,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer1
@@ -710,6 +741,7 @@ item HCBeer1
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer2
@@ -733,6 +765,7 @@ item HCBeer2
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer3
@@ -756,6 +789,7 @@ item HCBeer3
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer4
@@ -779,6 +813,7 @@ item HCBeer4
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer5
@@ -802,6 +837,7 @@ item HCBeer5
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer6
@@ -825,6 +861,7 @@ item HCBeer6
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer7
@@ -848,6 +885,7 @@ item HCBeer7
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeer8
@@ -871,6 +909,7 @@ item HCBeer8
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan1
@@ -894,6 +933,7 @@ item HCBeercan1
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan2
@@ -917,6 +957,7 @@ item HCBeercan2
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan3
@@ -940,6 +981,7 @@ item HCBeercan3
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan4
@@ -963,6 +1005,7 @@ item HCBeercan4
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan5
@@ -986,6 +1029,7 @@ item HCBeercan5
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan6
@@ -1009,6 +1053,7 @@ item HCBeercan6
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan7
@@ -1032,6 +1077,7 @@ item HCBeercan7
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan8
@@ -1055,6 +1101,7 @@ item HCBeercan8
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan9
@@ -1078,6 +1125,7 @@ item HCBeercan9
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBeercan10
@@ -1101,6 +1149,7 @@ item HCBeercan10
         Calories 		= 	215,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCBitters
@@ -1111,6 +1160,7 @@ item HCBitters
         UseDelta		=	0.025,
 	ReplaceOnDeplete	=	WineEmpty2,
 	Icon	        	= 	HCBitters,
+	DisplayCategory          =   CraftDist,
         }
 
 item HCTriplesec
@@ -1121,6 +1171,7 @@ item HCTriplesec
         UseDelta		=	0.025,
 	ReplaceOnDeplete	=	WhiskeyEmpty,
 	Icon	        	= 	HCTriplesec,
+	DisplayCategory          =   CraftDist,
         }
 
 item HCVermouth
@@ -1131,6 +1182,7 @@ item HCVermouth
         UseDelta		=	0.025,
 	ReplaceOnDeplete	=	WineEmpty,
 	Icon	        	= 	HCVermouth,
+	DisplayCategory          =   CraftDist,
         }
 
 item HCAbsinth
@@ -1154,6 +1206,7 @@ item HCAbsinth
         Calories 		= 	82,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCHerballiqueur
@@ -1177,6 +1230,7 @@ item HCHerballiqueur
         Calories 		= 	103,
         CantBeFrozen 		= 	TRUE,
 	Packaged		=	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkoldfashioned
@@ -1201,6 +1255,7 @@ item HCDrinkoldfashioned
         Lipids 			= 	0,
         Calories 		= 	431,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkmartini
@@ -1225,6 +1280,7 @@ item HCDrinkmartini
         Lipids 			= 	0,
         Calories 		= 	428,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkmanhattan
@@ -1249,6 +1305,7 @@ item HCDrinkmanhattan
         Lipids 			= 	0,
         Calories 		= 	428,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkdaquiri
@@ -1273,6 +1330,7 @@ item HCDrinkdaquiri
         Lipids 			= 	0,
         Calories 		= 	431,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkbloodymary
@@ -1297,6 +1355,7 @@ item HCDrinkbloodymary
         Lipids 			= 	0,
         Calories 		= 	429,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkwhiskeysour
@@ -1321,6 +1380,7 @@ item HCDrinkwhiskeysour
         Lipids 			= 	0,
         Calories 		= 	434,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkmaitai
@@ -1345,6 +1405,7 @@ item HCDrinkmaitai
         Lipids 			= 	0,
         Calories 		= 	434,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkcosmo
@@ -1369,6 +1430,7 @@ item HCDrinkcosmo
         Lipids 			= 	0,
         Calories 		= 	428,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinktomcollins
@@ -1393,6 +1455,7 @@ item HCDrinktomcollins
         Lipids 			= 	0,
         Calories 		= 	434,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinklongisland
@@ -1417,6 +1480,7 @@ item HCDrinklongisland
         Lipids 			= 	0,
         Calories 		= 	443,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkgimlet
@@ -1441,6 +1505,7 @@ item HCDrinkgimlet
         Lipids 			= 	0,
         Calories 		= 	434,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkplanterspunch
@@ -1465,6 +1530,7 @@ item HCDrinkplanterspunch
         Lipids 			= 	0,
         Calories 		= 	439,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkwhiskeyandcoke
@@ -1489,6 +1555,7 @@ item HCDrinkwhiskeyandcoke
         Lipids 			= 	0,
         Calories 		= 	485,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCTequila
@@ -1512,6 +1579,7 @@ item HCTequila
         Lipids 			= 	0,
         Calories 		= 	96,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCMezcal
@@ -1535,6 +1603,7 @@ item HCMezcal
         Lipids 			= 	0,
         Calories 		= 	104,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCMezcalemptyworm
@@ -1543,6 +1612,7 @@ item HCMezcalemptyworm
 	Type	        	=	Normal,
 	DisplayName		=	Empty Mezcal Bottle with Worm,
 	Icon	        	=	HCMezcalemptyworm,
+	DisplayCategory          =   CraftDist,
 	}
 
 item HCMezcalworm
@@ -1563,6 +1633,7 @@ item HCMezcalworm
         Proteins 		= 	3.6,
         Lipids 			= 	1.32,
         Calories 		= 	20,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCDrinkmargarita
@@ -1586,6 +1657,7 @@ item HCDrinkmargarita
         Lipids 			= 	0,
         Calories 		= 	280,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCSake
@@ -1609,6 +1681,7 @@ item HCSake
         Lipids 			= 	0,
         Calories 		= 	39,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCApplejack
@@ -1632,6 +1705,7 @@ item HCApplejack
         Lipids 			= 	0,
         Calories 		= 	69,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 
@@ -1656,6 +1730,7 @@ item HCPeachschnapps
         Lipids 			= 	0,
         Calories 		= 	63,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCFlip
@@ -1679,6 +1754,7 @@ item HCFlip
         Lipids 			= 	0,
         Calories 		= 	69,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCMead
@@ -1702,6 +1778,7 @@ item HCMead
         Lipids 			= 	0,
         Calories 		= 	356,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCMead2
@@ -1725,6 +1802,7 @@ item HCMead2
         Lipids 			= 	0,
         Calories 		= 	356,
         CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodB,
 	}
 
 item HCAguaardiente 
@@ -1745,6 +1823,7 @@ item HCAguaardiente
 	 Lipids 		= 	0,
 	 Carbohydrates 		= 	537,
          Packaged 		= 	TRUE,
+	DisplayCategory          =   FoodB,
     }
 
 item HCEggnogpot 
@@ -1769,6 +1848,7 @@ item HCEggnogpot
 	Proteins 		= 	21,
 	Lipids 			= 	40,
 	Calories 		= 	1004,
+	DisplayCategory          =   FoodP,
     }
 
 item HCEggnogmug 
@@ -1793,6 +1873,7 @@ item HCEggnogmug
 	Proteins 		= 	6,
 	Lipids 			= 	8,
 	Calories 		= 	200.8,
+	DisplayCategory          =   FoodP,
     }
 
 item HCWhiskeyeggnogbottle 
@@ -1817,6 +1898,7 @@ item HCWhiskeyeggnogbottle
 	Proteins 		= 	10,
 	Lipids 			= 	20,
 	Calories 		= 	502,
+	DisplayCategory          =   FoodP,
     }
 
 item HCColademonopot 
@@ -1841,6 +1923,7 @@ item HCColademonopot
 	Proteins 		= 	21,
 	Lipids 			= 	40,
 	Calories 		= 	1084,
+	DisplayCategory          =   FoodP,
     }
 
 item HCColademonomug 
@@ -1865,6 +1948,7 @@ item HCColademonomug
 	Proteins 		= 	6,
 	Lipids 			= 	8,
 	Calories 		= 	220.8,
+	DisplayCategory          =   FoodP,
     }
 
 item HCWhiskeycolademonobottle 
@@ -1889,6 +1973,7 @@ item HCWhiskeycolademonobottle
 	Proteins 		= 	10,
 	Lipids 			= 	20,
 	Calories 		= 	542,
+	DisplayCategory          =   FoodP,
     }
 	
 /****BEER*SIX*PACKS*START****/
@@ -1899,6 +1984,7 @@ item HCBeercan1pack
 		Weight 				= 1,
 		Icon 				= HCBeercan1pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan2pack
 	{
@@ -1907,6 +1993,7 @@ item HCBeercan2pack
 		Weight 				= 1,
 		Icon 				= HCBeercan2pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan3pack
 	{
@@ -1915,6 +2002,7 @@ item HCBeercan3pack
 		Weight 				= 1,
 		Icon 				= HCBeercan3pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan4pack
 	{
@@ -1923,6 +2011,7 @@ item HCBeercan4pack
 		Weight 				= 1,
 		Icon 				= HCBeercan4pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan5pack
 	{
@@ -1931,6 +2020,7 @@ item HCBeercan5pack
 		Weight 				= 1,
 		Icon 				= HCBeercan5pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan6pack
 	{
@@ -1939,6 +2029,7 @@ item HCBeercan6pack
 		Weight 				= 1,
 		Icon 				= HCBeercan6pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan7pack
 	{
@@ -1947,6 +2038,7 @@ item HCBeercan7pack
 		Weight 				= 1,
 		Icon 				= HCBeercan7pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan8pack
 	{
@@ -1955,6 +2047,7 @@ item HCBeercan8pack
 		Weight 				= 1,
 		Icon 				= HCBeercan8pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan9pack
 	{
@@ -1963,6 +2056,7 @@ item HCBeercan9pack
 		Weight 				= 1,
 		Icon 				= HCBeercan9pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 item HCBeercan10pack
 	{
@@ -1971,6 +2065,7 @@ item HCBeercan10pack
 		Weight 				= 1,
 		Icon 				= HCBeercan10pack,
 		CantBeFrozen 		= TRUE,
+	DisplayCategory          =   FoodB,
 	}
 /****BEER*SIX*PACKS*END******/
 

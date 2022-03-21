@@ -22,6 +22,7 @@ item HCPumpkinseedsnack
         Calories 			= 	892,
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCSunflowerseedsnack
@@ -39,6 +40,7 @@ item HCSunflowerseedsnack
         Calories 			= 	1164,
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCPeanutsnack
@@ -56,6 +58,7 @@ item HCPeanutsnack
         Calories 			= 	170,
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCCrisps5
@@ -72,6 +75,7 @@ item HCCrisps5
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
 	ReplaceOnUse			= 	Hydrocraft.HCCrisps5trash,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCCrisps6
@@ -88,6 +92,7 @@ item HCCrisps6
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
 	ReplaceOnUse			= 	Hydrocraft.HCCrisps6trash,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCCrisps7
@@ -104,6 +109,7 @@ item HCCrisps7
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
 	ReplaceOnUse			= 	Hydrocraft.HCCrisps7trash,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCCrisps8
@@ -120,6 +126,7 @@ item HCCrisps8
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
 	ReplaceOnUse			= 	Hydrocraft.HCCrisps8trash,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCCrisps9
@@ -136,6 +143,7 @@ item HCCrisps9
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
 	ReplaceOnUse			= 	Hydrocraft.HCCrisps9trash,
+		DisplayCategory		=	FoodN,
 	}
 
 item HCSnacktartsred
@@ -151,6 +159,7 @@ item HCSnacktartsred
         Calories 			= 	400,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 	
 item HCSnacktartsblue
@@ -166,6 +175,7 @@ item HCSnacktartsblue
         Calories 			= 	400,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 	
 item HCSnacktartsbluebox
@@ -180,6 +190,7 @@ item HCSnacktartsbluebox
         Calories 			= 	1600,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 	
 item HCSnacktartsredbox
@@ -194,6 +205,7 @@ item HCSnacktartsredbox
         Calories 			= 	1600,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=	FoodN,
 	}
 	
 /************************RECIPES************************/

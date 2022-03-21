@@ -14,6 +14,7 @@ item HCLeather
         Type   			=    Normal,
         DisplayName   		=    Leather,
         Icon    		=    HCLeather,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCLeatherCamo
@@ -22,6 +23,7 @@ item HCLeatherCamo
         Type   			=    Normal,
         DisplayName   	=    Camo Leather,
         Icon    		=    HCLeatherCamo,
+		DisplayCategory          =   CraftTailor,
     }
 
 
@@ -31,6 +33,7 @@ item HCLeatherfine
         Type   			=    Normal,
         DisplayName   		=    Fine Leather,
         Icon    		=    HCLeatherfine,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCLeatherstripfine
@@ -39,6 +42,7 @@ item HCLeatherstripfine
         Type   			=    Normal,
         DisplayName   		=    Fine Leather Strip,
         Icon    		=    HCLeatherstripfine,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCLeatherhard
@@ -47,6 +51,7 @@ item HCLeatherhard
         Type   			=    Normal,
         DisplayName   		=    Hardened Leather,
         Icon    		=    HCLeatherhard,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCLeatherstriphard
@@ -55,6 +60,7 @@ item HCLeatherstriphard
         Type   			=    Normal,
         DisplayName   		=    Hard Leather Strip,
         Icon    		=    HCLeatherstriphard,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCBeltbuckle
@@ -63,6 +69,7 @@ item HCBeltbuckle
         Type    		= Normal,
         DisplayName         	= Belt Buckle,
         icon 			= HCBeltbuckle,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCBlacksmithapron
@@ -82,6 +89,7 @@ item HCBlacksmithapron
         Insulation = 0.2,
         WindResistance = 0.1,
         WaterResistance = 0.2,
+		DisplayCategory          =   ClothP,
     }
 
 item HCAnimalfur
@@ -90,6 +98,7 @@ item HCAnimalfur
         	DisplayName 	= 	Raw Fur,
         	Weight 		= 	0.1,
 		Icon		=	HCAnimalfur,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawrabbit
@@ -98,6 +107,7 @@ item HCHiderawrabbit
         	DisplayName 	= 	Raw Rabbit Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawrabbit,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawsquirrel
@@ -106,6 +116,7 @@ item HCHiderawsquirrel
         DisplayName 	= 	Raw Squirrel Hide,
         Weight 		= 	0.1,
 		Icon		=	HCHiderawsquirrel,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawgroundhog
@@ -114,6 +125,7 @@ item HCHiderawgroundhog
         DisplayName 	= 	Raw Groundhog Hide,
         Weight 		= 	0.1,
 		Icon		=	HCHiderawgroundhog,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawmuskrat
@@ -122,6 +134,7 @@ item HCHiderawmuskrat
         	DisplayName 	= 	Raw Muskrat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawmuskrat,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawnutria
@@ -130,6 +143,7 @@ item HCHiderawnutria
         	DisplayName 	= 	Raw Nutria Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawnutria,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawbeaver
@@ -138,6 +152,7 @@ item HCHiderawbeaver
         	DisplayName 	= 	Raw Beaver Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbeaver,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCPorcupinequills
@@ -146,6 +161,7 @@ item HCPorcupinequills
         	DisplayName 	= 	Porcupine Quills,
         	Weight 		= 	0.2,
 		Icon		=	HCPorcupinequills,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawarmadillo
@@ -154,6 +170,7 @@ item HCHiderawarmadillo
         	DisplayName 	= 	Raw Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawarmadillo,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawfox
@@ -162,6 +179,7 @@ item HCHiderawfox
         	DisplayName 	= 	Raw Fox Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawfox,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawopossum
@@ -170,6 +188,7 @@ item HCHiderawopossum
         	DisplayName 	= 	Raw Opossum Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawopossum,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawskunk
@@ -178,6 +197,7 @@ item HCHiderawskunk
         	DisplayName 	= 	Raw Skunk Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawskunk,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawraccoon
@@ -186,6 +206,7 @@ item HCHiderawraccoon
         	DisplayName 	= 	Raw Raccoon Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawraccoon,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHiderawboar
@@ -194,6 +215,7 @@ item HCHiderawboar
         	DisplayName 	= 	Raw Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawboar,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -203,6 +225,7 @@ item HCHiderawdeer
         	DisplayName 	= 	Raw Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawdeer,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -212,6 +235,7 @@ item HCHiderawbearblack
         	DisplayName 	= 	Raw Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbearblack,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -221,6 +245,7 @@ item HCHiderawbear
         	DisplayName 	= 	Raw Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbear,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -230,6 +255,7 @@ item HCHiderawcougar
         	DisplayName 	= 	Raw Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawcougar,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -239,6 +265,7 @@ item HCHiderawdog
         Type    		= Normal,
         DisplayName    		= Raw Dog hide,
         icon 			= HCHiderawrabbit,
+		DisplayCategory          =   CraftTailor,
     }
 item HCHiderawcat
     {
@@ -246,6 +273,7 @@ item HCHiderawcat
         Type    		= Normal,
         DisplayName     	= Raw Cat hide,
         icon 			= HCHiderawrabbit,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCHiderawsheep
@@ -254,6 +282,7 @@ item HCHiderawsheep
         	DisplayName 	= 	Raw Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawsheep,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -263,6 +292,7 @@ item HCHiderawgoat
         	DisplayName 	= 	Raw Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawgoat,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -272,6 +302,7 @@ item HCHiderawpig
         	DisplayName 	= 	Raw Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawpig,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -281,6 +312,7 @@ item HCHiderawcow
         	DisplayName 	= 	Raw Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawcow,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -290,6 +322,7 @@ item HCHiderawbull
         	DisplayName 	= 	Raw Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawbull,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -299,6 +332,7 @@ item HCHiderawdonkey
         	DisplayName 	= 	Raw Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawdonkey,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -308,6 +342,7 @@ item HCHiderawhorse
         	DisplayName 	= 	Raw Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHiderawhorse,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -317,6 +352,7 @@ item HCHidestrap
         	DisplayName 	= 	Hide Strap,
         	Weight 		= 	0.05,
 		Icon		=	HCHidestrap,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCAnimalfurdried
@@ -325,6 +361,7 @@ item HCAnimalfurdried
         	DisplayName 	= 	Dried Fur,
         	Weight 		= 	0.1,
 		Icon		=	HCAnimalfurdried,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedrabbit
@@ -333,6 +370,7 @@ item HCHidedriedrabbit
         	DisplayName 	= 	Dried Rabbit Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedrabbit,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedsquirrel
@@ -341,6 +379,7 @@ item HCHidedriedsquirrel
         	DisplayName 	= 	Dried Squirrel Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedsquirrel,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedgroundhog
@@ -349,6 +388,7 @@ item HCHidedriedgroundhog
         	DisplayName 	= 	Dried Groundhog Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedgroundhog,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedmuskrat
@@ -357,6 +397,7 @@ item HCHidedriedmuskrat
         	DisplayName 	= 	Dried Muskrat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedmuskrat,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriednutria
@@ -365,6 +406,7 @@ item HCHidedriednutria
         	DisplayName 	= 	Dried Nutria Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriednutria,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedbeaver
@@ -373,6 +415,7 @@ item HCHidedriedbeaver
         	DisplayName 	= 	Dried Beaver Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbeaver,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedarmadillo
@@ -381,6 +424,7 @@ item HCHidedriedarmadillo
         	DisplayName 	= 	Dried Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedarmadillo,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedfox
@@ -389,6 +433,7 @@ item HCHidedriedfox
         	DisplayName 	= 	Dried Fox Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedfox,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedopossum
@@ -397,6 +442,7 @@ item HCHidedriedopossum
         	DisplayName 	= 	Dried Opossum Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedopossum,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedskunk
@@ -405,6 +451,7 @@ item HCHidedriedskunk
         	DisplayName 	= 	Dried Skunk Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedskunk,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedraccoon
@@ -413,6 +460,7 @@ item HCHidedriedraccoon
         	DisplayName 	= 	Dried Raccoon Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedraccoon,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidedriedboar
@@ -421,6 +469,7 @@ item HCHidedriedboar
         	DisplayName 	= 	Dried Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedboar,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -430,6 +479,7 @@ item HCHidedrieddeer
         	DisplayName 	= 	Dried Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedrieddeer,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -439,6 +489,7 @@ item HCHidedriedbearblack
         	DisplayName 	= 	Dried Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbearblack,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -448,6 +499,7 @@ item HCHidedriedbear
         	DisplayName 	= 	Dried Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbear,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -457,6 +509,7 @@ item HCHidedriedcougar
         	DisplayName 	= 	Dried Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedcougar,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -466,6 +519,7 @@ item HCHidedrieddog
         	DisplayName 	= 	Dried Dog Hide,
         	Weight 		= 	0.3,
 		Icon		=	HCHidedriedrabbit,
+		DisplayCategory          =   CraftTailor,
 	}
 item HCHidedriedcat
 	{
@@ -473,6 +527,7 @@ item HCHidedriedcat
         	DisplayName 	= 	Dried Cat Hide,
         	Weight 		= 	0.3,
 		Icon		=	HCHidedriedrabbit,
+		DisplayCategory          =   CraftTailor,
 	}
 
 
@@ -482,6 +537,7 @@ item HCHidedriedsheep
         	DisplayName 	= 	Dried Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedsheep,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -491,6 +547,7 @@ item HCHidedriedgoat
         	DisplayName 	= 	Dried Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedgoat,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -500,6 +557,7 @@ item HCHidedriedpig
         	DisplayName 	= 	Dried Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedpig,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -509,6 +567,7 @@ item HCHidedriedcow
         	DisplayName 	= 	Dried Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedcow,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -518,6 +577,7 @@ item HCHidedriedbull
         	DisplayName 	= 	Dried Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedbull,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -527,6 +587,7 @@ item HCHidedrieddonkey
         	DisplayName 	= 	Dried Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedrieddonkey,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -536,7 +597,7 @@ item HCHidedriedhorse
         	DisplayName 	= 	Dried Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidedriedhorse,
-		
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCAnimalfurlime
@@ -545,6 +606,7 @@ item HCAnimalfurlime
         	DisplayName 	= 	Limed Fur,
         	Weight 		= 	0.1,
 		Icon		=	HCAnimalfurlime,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedrabbit
@@ -553,6 +615,7 @@ item HCHidelimedrabbit
         	DisplayName 	= 	Limed Rabbit Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedrabbit,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedsquirrel
@@ -561,6 +624,7 @@ item HCHidelimedsquirrel
         	DisplayName 	= 	Limed Squirrel Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedsquirrel,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedgroundhog
@@ -569,6 +633,7 @@ item HCHidelimedgroundhog
         	DisplayName 	= 	Limed Groundhog Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedgroundhog,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedmuskrat
@@ -577,6 +642,7 @@ item HCHidelimedmuskrat
         	DisplayName 	= 	Limed Muskrat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedmuskrat,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimednutria
@@ -585,6 +651,7 @@ item HCHidelimednutria
         	DisplayName 	= 	Limed Nutria Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimednutria,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedbeaver
@@ -593,6 +660,7 @@ item HCHidelimedbeaver
         	DisplayName 	= 	Limed Beaver Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbeaver,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedarmadillo
@@ -601,6 +669,7 @@ item HCHidelimedarmadillo
         	DisplayName 	= 	Limed Armadillo Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedarmadillo,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedfox
@@ -609,6 +678,7 @@ item HCHidelimedfox
         	DisplayName 	= 	Limed Fox Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedfox,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedopossum
@@ -617,6 +687,7 @@ item HCHidelimedopossum
         	DisplayName 	= 	Limed Opossum Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedopossum,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedskunk
@@ -625,6 +696,7 @@ item HCHidelimedskunk
         	DisplayName 	= 	Limed Skunk Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedskunk,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedraccoon
@@ -633,6 +705,7 @@ item HCHidelimedraccoon
         	DisplayName 	= 	Limed Raccoon Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedraccoon,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedboar
@@ -641,6 +714,7 @@ item HCHidelimedboar
         	DisplayName 	= 	Limed Boar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedboar,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -650,6 +724,7 @@ item HCHidelimeddeer
         	DisplayName 	= 	Limed Deer Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimeddeer,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -659,6 +734,7 @@ item HCHidelimedbearblack
         	DisplayName 	= 	Limed Black Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbearblack,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -668,6 +744,7 @@ item HCHidelimedbear
         	DisplayName 	= 	Limed Grizzly Bear Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbear,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -677,6 +754,7 @@ item HCHidelimedcougar
         	DisplayName 	= 	Limed Cougar Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedcougar,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -686,6 +764,7 @@ item HCHidelimeddog
         	DisplayName 	= 	Limed Dog Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedrabbit,
+		DisplayCategory          =   CraftTailor,
 	}
 item HCHidelimedcat
 	{
@@ -693,6 +772,7 @@ item HCHidelimedcat
         	DisplayName 	= 	Limed Cat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedrabbit,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCHidelimedsheep
@@ -701,6 +781,7 @@ item HCHidelimedsheep
         	DisplayName 	= 	Limed Sheep Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedsheep,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -710,6 +791,7 @@ item HCHidelimedgoat
         	DisplayName 	= 	Limed Goat Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedgoat,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -719,6 +801,7 @@ item HCHidelimedpig
         	DisplayName 	= 	Limed Pig Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedpig,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -728,6 +811,7 @@ item HCHidelimedcow
         	DisplayName 	= 	Limed Cow Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedcow,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -737,6 +821,7 @@ item HCHidelimedbull
         	DisplayName 	= 	Limed Bull Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedbull,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -746,6 +831,7 @@ item HCHidelimeddonkey
         	DisplayName 	= 	Limed Donkey Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimeddonkey,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -755,6 +841,7 @@ item HCHidelimedhorse
         	DisplayName 	= 	Limed Horse Hide,
         	Weight 		= 	0.1,
 		Icon		=	HCHidelimedhorse,
+		DisplayCategory          =   CraftTailor,
 		
 	}
 
@@ -762,6 +849,7 @@ item HCZedskin
 	{
 		Type 		= 	Normal,
         	DisplayName 	= 	Raw Skin,
+		DisplayCategory          =   CraftTailor,
         	Weight 		= 	0.1,
 		Icon		=	HCZedskin,
 	}
@@ -772,6 +860,7 @@ item HCZedskindried
         	DisplayName 	= 	Dried Skin,
         	Weight 		= 	0.1,
 		Icon		=	HCZedskindried,
+		DisplayCategory          =   CraftTailor,
 	}
 
 item HCFoxhat
@@ -780,6 +869,7 @@ item HCFoxhat
         Type    		= Normal,
         DisplayName         	= Fox Hat,
         icon 			= HCFoxhat,
+		DisplayCategory          =   CraftTailor,
     }
 
 /* 
@@ -790,6 +880,7 @@ item HCRaccoonhat
         Type    		= Normal,
         DisplayName         	= Raccoon Hat,
         icon 			= HCRaccoonhat,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCCloakbearblack
@@ -805,6 +896,7 @@ item HCCloakbearblack
 		ConditionLowerChanceOneIn = 20,
         	ConditionMax	=	10,
         	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
 	}
 
 
@@ -821,6 +913,7 @@ item HCCloakbear
 		ConditionLowerChanceOneIn = 20,
         	ConditionMax	=	10,
         	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
 	}
 
 item HCFurcoat
@@ -836,6 +929,7 @@ item HCFurcoat
 		ConditionLowerChanceOneIn = 20,
         	ConditionMax	=	10,
         	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
 	}
 	
 item HCFurpants
@@ -851,6 +945,7 @@ item HCFurpants
 		ConditionLowerChanceOneIn = 20,
         	ConditionMax	=	10,
         	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
 	}
 
 item HCTrapperjacket
@@ -866,6 +961,7 @@ item HCTrapperjacket
 		ConditionLowerChanceOneIn = 30,
         	ConditionMax	=	10,
         	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
 	}
 
 
@@ -880,6 +976,7 @@ item HCLeatherboots
 		ConditionLowerChanceOneIn = 9000,
         	ConditionMax	=	10,
         	Insulation  	=  	1,
+		DisplayCategory          =   ClothN,
 	}
 
 
@@ -904,6 +1001,7 @@ item HCLeatherboots
         FabricType = Leather,
         WaterResistance = 0.45,
         Weight = 2,
+		DisplayCategory          =   ClothP,
     }
 
 item HCJAcketCowFur
@@ -924,6 +1022,7 @@ item HCJAcketCowFur
         FabricType = Leather,
         WaterResistance = 0.7,
         Weight = 1.5,
+		DisplayCategory          =   ClothP,
     }
 
 	item HCLeatherpants
@@ -942,6 +1041,7 @@ item HCJAcketCowFur
         WaterResistance = 0.7, 
         FabricType = Leather,
         RunSpeedModifier = 0.9,
+		DisplayCategory          =   ClothP,
     }
 
 	item HCLeatherpantsHard
@@ -960,6 +1060,7 @@ item HCJAcketCowFur
         WaterResistance = 0.8, 
         FabricType = Leather,
         RunSpeedModifier = 0.8,
+		DisplayCategory          =   ClothP,
     }
 
 
@@ -969,6 +1070,7 @@ item HCDryingframe
         Type    		= Normal,
         DisplayName         	= Drying Frame,
         icon 			= HCDryingframe,
+		DisplayCategory          =   CraftTailor,
 	
     }
 
@@ -980,7 +1082,7 @@ item HCWoodenbuckettan
         ReplaceOnDeplete    = HCWoodenbucket,
         DisplayName     	= Wooden Bucket with Tannin,
         icon 				= HCWoodenbuckettan,
-	
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCWoodenbucketrose
@@ -991,7 +1093,7 @@ item HCWoodenbucketrose
         ReplaceOnDeplete    = HCWoodenbucket,
         DisplayName     	= Wooden Bucket with Rose Tanning Oil,
         icon 				= HCWoodenbucketrose,
-	
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCWoodenbucketlime
@@ -1002,7 +1104,7 @@ item HCWoodenbucketlime
         ReplaceOnDeplete    = HCWoodenbucket,
         DisplayName     	= Wooden Bucket with Milk of Lime,
         icon 				= HCWoodenbucketlime,
-	
+		DisplayCategory          =   CraftTailor,
     }
 
 
@@ -1016,6 +1118,7 @@ item HCWaterflask
 	ReplaceOnUseOn		=	WaterSource-HCWaterflaskfull,
         icon 			= 	HCWaterflask,
 	RainFactor 		= 	1,
+		DisplayCategory          =   Container,
     }
 
 item HCWaterflaskfull
@@ -1031,6 +1134,7 @@ item HCWaterflaskfull
 	ReplaceOnUseOn		=	WaterSource-HCWaterflaskfull,
 	Icon			=	HCWaterflask,
 	RainFactor 		= 	1,
+		DisplayCategory          =   FoodB,
     }
 
 item HCWardogarmor
@@ -1039,6 +1143,7 @@ item HCWardogarmor
         Type    		=    Normal,
         DisplayName    		=    War Dog Armor,
         Icon    		=    HCWardogarmor,
+		DisplayCategory          =   CraftTailor,
     }
 
 item HCWardogarmorSpiked
@@ -1047,6 +1152,7 @@ item HCWardogarmorSpiked
         Type    		= Normal,
         DisplayName    	= Spiked War Dog Armor,
         Icon    		= HCWardogarmorSpiked,
+		DisplayCategory          =   CraftTailor,
     }
 
 
@@ -1056,6 +1162,7 @@ item HCLeatherball
 	Type			=	Normal,
 	DisplayName		=	Leather Ball,
 	Icon			=	HCLeatherball,
+		DisplayCategory          =   Toy,
    }
 
 
@@ -1065,6 +1172,7 @@ item HCLeatherSandbag
 	Type			=	Normal,
 	DisplayName		=	Leather Sand bag,
 	Icon			=	HCLeatherSandbag,
+		DisplayCategory          =   CraftTailor,
    }
 
 

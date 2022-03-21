@@ -31,6 +31,7 @@ item HCMeatCubes
     GoodHot 			= true,
     BadCold 			= false,
 	EvolvedRecipe 		= Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+	DisplayCategory          =   FoodP,
     }
 
 
@@ -52,6 +53,7 @@ item HCBBQsaucebowl
         Proteins 		= 	4,
         Lipids 			= 	3,
         Calories 		= 	210,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBBQsteak
@@ -75,6 +77,7 @@ item HCBBQsteak
         Lipids 				= 	21.4,
         Calories 			= 	525,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 	
 item HCBBQsalmon
@@ -98,6 +101,7 @@ item HCBBQsalmon
         Lipids 				= 	13.3,
         Calories 			= 	381,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 	
 item HCBBQchicken
@@ -121,6 +125,7 @@ item HCBBQchicken
         Lipids 				= 	10.9,
         Calories 			= 	432,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBBQsmallbird
@@ -144,6 +149,7 @@ item HCBBQsmallbird
         Lipids 				= 	16.2,
         Calories 			= 	286,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBBQduck
@@ -167,6 +173,7 @@ item HCBBQduck
         Lipids 				= 	33,
         Calories 			= 	603,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBBQgoose
@@ -190,6 +197,7 @@ item HCBBQgoose
         Lipids 				= 	39,
         Calories 			= 	714,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBBQturkey
@@ -213,6 +221,7 @@ item HCBBQturkey
         Lipids 				= 	5.7,
         Calories 			= 	336,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 	
 item HCBBQrat
@@ -235,6 +244,7 @@ item HCBBQrat
         Lipids 				= 	12.6,
         Calories 			= 	309,
         EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCBBQshroom
@@ -258,6 +268,7 @@ item HCBBQshroom
         Lipids 				= 	1.8,
         Calories 			= 	210,
 	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCShroomstick
@@ -280,6 +291,7 @@ item HCShroomstick
         Proteins 			= 	9.9,
         Lipids 				= 	1.8,
         Calories 			= 	210,
+	DisplayCategory          =   FoodP,
 	}
 	
 item HCGrilledeggplant
@@ -297,6 +309,7 @@ item HCGrilledeggplant
 	DaysFresh			=	3,
 	DaysTotallyRotten		=	7,
 	FoodType    			=   	Vegetables,
+	DisplayCategory          =   FoodP,
 	Carbohydrates 			= 	26.1,
         Proteins 			= 	2.4,
         Lipids 				= 	5,
@@ -320,6 +333,7 @@ item HCFriedfroglegs
 	DaysFresh			=	4,
 	DaysTotallyRotten		=	8,
 	FoodType    			=   	Meat,
+	DisplayCategory          =   FoodP,
 	Carbohydrates 			= 	0,
     Proteins 			= 	32,
     Lipids 				= 	2.6,
@@ -347,6 +361,7 @@ item HCShishkebab
     Proteins 			= 	21.6,
     Lipids 				= 	9.8,
     Calories 			= 	230,
+	DisplayCategory          =   FoodP,
 	}
 
 item HCTastySandwich
@@ -371,6 +386,7 @@ item HCTastySandwich
  	Icon				=	Sandwich,
 	DaysFresh			=	3,
 	StaticModel 		= 	Sandwich,
+	DisplayCategory          =   FoodP,
 	}
 
 

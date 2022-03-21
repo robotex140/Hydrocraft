@@ -3,7 +3,6 @@ module Hydrocraft
     imports
     {
         Base
-
     }
 
 /************************ITEMS************************/
@@ -14,8 +13,8 @@ item HCBarrelmetalempty
         Weight    		= 4,
         Type	                = Container,
         Capacity	        = 27,
-        DisplayName     	= Empty Metal Barrel,
-        
+        DisplayName     	= Empty Metal Barrel
+		DisplayCategory          =   Container,
         icon 			= HCBarrelmetal,
     } 
 
@@ -25,7 +24,7 @@ item HCBarrelblueempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Empty Blue Barrel,
-        
+		DisplayCategory          =   Container,
         icon 			= HCBarrelblue,
     } 
 
@@ -37,6 +36,7 @@ item HCBarrelmetalammonia
     DisplayName     = Metal Barrel with Ammonia,
     icon 			= HCBarrelmetal,
 	ReplaceOnDeplete	= HCMetalbarrelempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCAmmoniabarrelempty
@@ -45,7 +45,7 @@ item HCAmmoniabarrelempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Empty Ammonia Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon 			= HCAmmoniabarrelmetal,
     } 
 
@@ -57,6 +57,7 @@ item HCAmmoniabarrelfull
     DisplayName     	= Metal Barrel with Ammonia,
     icon 			    = HCAmmoniabarrelmetal,
 	ReplaceOnDeplete	= HCAmmoniabarrelmetalempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCAmmoniabarrelblueempty
@@ -65,7 +66,7 @@ item HCAmmoniabarrelblueempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Blue Empty Ammonia Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon 			= HCAmmoniabarrelblue,
     } 
 
@@ -77,6 +78,7 @@ item HCAmmoniabarrelbluefull
     DisplayName     	= Blue Barrel with Ammonia,
     icon 			    = HCAmmoniabarrelblue,
 	ReplaceOnDeplete	= HCAmmoniabarrelblueempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCBarrelmetalmethylamin
@@ -86,6 +88,7 @@ item HCBarrelmetalmethylamin
     DisplayName         = Metal Barrel with Methylamin,
     icon 		     	= HCBarrelmetal,
 	ReplaceOnDeplete	= HCMetalbarrelempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCMethylaminbarrelempty
@@ -94,7 +97,7 @@ item HCMethylaminbarrelempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Empty Methylamin Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon 			= HCMethylaminbarrelmetal,
     } 
 
@@ -106,6 +109,7 @@ item HCMethylaminbarrelfull
     DisplayName     	= Metal Barrel with Methylamin,
     icon 			    = HCMethylaminbarrelmetal,
 	ReplaceOnDeplete	= HCMethylaminbarrelmetalempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCMethylaminbarrelblueempty
@@ -114,7 +118,7 @@ item HCMethylaminbarrelblueempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Blue Empty Methylamin Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon 			= HCMethylaminbarrelblue,
     } 
 
@@ -126,6 +130,7 @@ item HCMethylaminbarrelbluefull
     DisplayName         = Blue Barrel with Methylamin,
     icon 			    = HCMethylaminbarrelblue,
 	ReplaceOnDeplete    = HCMethylaminbarrelblueempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCBarrelmetalphenyl
@@ -136,6 +141,7 @@ item HCBarrelmetalphenyl
     DisplayName         = Metal Barrel with Phenylacetic Acid,
     icon 			    = HCBarrelmetal,
 	ReplaceOnDeplete	= HCMetalbarrelempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCPhenylbarrelempty
@@ -144,7 +150,7 @@ item HCPhenylbarrelempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Empty Phenylacetic Acid Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon 			= HCPhenylbarrelmetal,
     } 
 
@@ -156,6 +162,7 @@ item HCPhenylbarrelfull
     DisplayName         = Metal Barrel with Phenylacetic Acid,
     icon 			    = HCPhenylbarrelmetal,
 	ReplaceOnDeplete	= HCPhenylbarrelmetalempty,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCPhenylbarrelblueempty
@@ -165,6 +172,7 @@ item HCPhenylbarrelblueempty
     Capacity	        = 27,
     DisplayName     	= Blue Empty Phenylacetic Acid Barrel,
     icon 			= HCPhenylbarrelblue,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCPhenylbarrelbluefull
@@ -175,6 +183,7 @@ item HCPhenylbarrelbluefull
     DisplayName     	= Blue Barrel with Phenylacetic Acid,
     icon     			= HCPhenylbarrelblue,
 	ReplaceOnDeplete	= HCPhenylbarrelblueempty,
+	DisplayCategory		= CraftChem,
     } 
 
 item HCBarrelmetalsulfuricacid
@@ -185,6 +194,7 @@ item HCBarrelmetalsulfuricacid
     DisplayName     	= Metal Barrel with Phenylacetic Acid,
     icon 			    = HCBarrelmetal,
 	ReplaceOnDeplete	= HCMetalbarrelempty,
+	DisplayCategory		= CraftChem,
     } 
 
 item HCSulfuricacidbarrelempty
@@ -193,7 +203,7 @@ item HCSulfuricacidbarrelempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Empty Phenylacetic Acid Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon 			= HCSulfuricacidbarrelmetal,
     } 
 
@@ -205,6 +215,7 @@ item HCSulfuricacidbarrelfull
     DisplayName     	= Metal Barrel with Sulfuric Acid,
     icon 		     	= HCSulfuricacidbarrelmetal,
 	ReplaceOnDeplete	= HCSulfuricacidbarrelempty,
+	DisplayCategory		= CraftChem,
     } 
 
 item HCSulfuricacidbarrelblueempty
@@ -213,7 +224,7 @@ item HCSulfuricacidbarrelblueempty
         Type	                = Container,
         Capacity	        = 27,
         DisplayName     	= Blue Empty Sulfuric Acid Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon 			= HCSulfuricacidbarrelblue,
     } 
 
@@ -225,6 +236,7 @@ item HCSulfuricacidbarrelbluefull
     DisplayName         = Blue Barrel with Sulfuric Acid,
     icon 			    = HCSulfuricacidbarrelblue,
 	ReplaceOnDeplete	= HCSulfuricacidbarrelblueempty,
+	DisplayCategory		= CraftChem,
     } 
 
 
@@ -234,6 +246,7 @@ item HCBluebarreltoxicwaste
     Type    		= Normal,
     DisplayName     	= Toxic Waste,
     icon 			= HCBarrelbluetoxicwaste,
+	DisplayCategory	= CraftChem,
     } 
 
 item HCBluebarreltoxicwastesealed
@@ -241,7 +254,7 @@ item HCBluebarreltoxicwastesealed
         Weight    		= 20,
         Type    		= Normal,
         DisplayName     	= Sealed Toxic Waste,
-        
+		DisplayCategory	= Useless,
         icon 			= HCToxicwaste,
     } 
 
@@ -253,6 +266,7 @@ item HCBarrelmetalgasoline
     DisplayName         = Metal Barrel with Gasoline,
     icon             	= HCBarrelmetal,
     ReplaceOnDeplete    = HCMetalbarrelempty,
+	DisplayCategory		= CraftChem,
     }
 
 item HCGasolinebarrelempty
@@ -261,7 +275,7 @@ item HCGasolinebarrelempty
         Type                    = Container,
         Capacity            	= 27,
         DisplayName         	= Empty Gasoline Barrel,
-        
+		DisplayCategory	= CraftChem,
         icon             	= HCGasolinebarrelmetal,
     }
 
@@ -269,9 +283,9 @@ item HCGasolinebarrelfull
     {
         Weight            	= 10,
         Type    		= Drainable,
-	UseDelta		= 0.05,
+		UseDelta		= 0.05,
         DisplayName         	= Metal Barrel with Gasoline,
-        
+		DisplayCategory	= CraftChem,
         icon             	= HCGasolinebarrelmetal,
     	ReplaceOnDeplete    	= HCGasolinebarrelempty,
     } 

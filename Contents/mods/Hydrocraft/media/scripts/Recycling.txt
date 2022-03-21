@@ -14,6 +14,7 @@ item HCStyrofoamball
         Type    		=    	Normal,
         DisplayName    		=    	Styrofoam Ball,
         Icon    		=    	HCStyrofoamball,
+		DisplayCategory = Useless,
     }
 
 item HCStyrofoamblock
@@ -22,6 +23,7 @@ item HCStyrofoamblock
         Type    		=    	Normal,
         DisplayName    		=    	Styrofoam Block,
         Icon    		=    	HCStyrofoamblock,
+		DisplayCategory = Useless,
     }
 
 item HCWaterbottleclean
@@ -30,6 +32,7 @@ item HCWaterbottleclean
 	Type			=	Normal,
 	DisplayName		=	Clean Plastic Bottle,
 	Icon			=	HCWaterbottleclean,
+		DisplayCategory = Craft,
 	}
 
 item HCWaterbottlecutoff
@@ -38,6 +41,7 @@ item HCWaterbottlecutoff
 	Type			=	Normal,
 	DisplayName		=	Cut Off Plastic Bottle,
 	Icon			=	HCWaterbottlecutoff,
+		DisplayCategory = Craft,
 	}
 
  item HCTrashbottle
@@ -46,6 +50,7 @@ item HCWaterbottlecutoff
         Type                    =    	Normal,
         DisplayName       	=    	Empty Plastic Bottle,
         Icon                    =    	HCTrashbottle,
+		DisplayCategory = Craft,
     }
 
 item HCPVCpipebox
@@ -54,6 +59,7 @@ item HCPVCpipebox
         Type 			= 	Normal,
         DisplayName 		= 	Pallet of PVC Pipes,
         Icon 			= 	HCPVCpipebox,
+		DisplayCategory = Craft,
 	
     }
 
@@ -63,6 +69,7 @@ item HCChickenwire
         Type 			= 	Normal,
         DisplayName 		= 	Chicken Wire,
         Icon 			= 	HCChickenwire,
+		DisplayCategory = Craft,
     }
 
 /************************RECIPES************************/

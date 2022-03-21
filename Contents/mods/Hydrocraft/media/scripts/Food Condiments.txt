@@ -23,6 +23,7 @@ item HCRamenchickenflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodS,
 	}
 
 item HCRamenbeefflavor
@@ -38,6 +39,7 @@ item HCRamenbeefflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodS,
 	}	
 	
 item HCRamenshrimpflavor
@@ -53,6 +55,7 @@ item HCRamenshrimpflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodS,
 	}
 	
 item HCRamencheeseflavor
@@ -68,6 +71,7 @@ item HCRamencheeseflavor
 	UnhappyChange			=	20,
 	EvolvedRecipe 			= 	Soup:2;Stew:2;Pie:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2,
 	CantBeFrozen 			= 	TRUE,
+	DisplayCategory          =   FoodS,
 	}
 
 item HCCookingoil
@@ -78,6 +82,7 @@ item HCCookingoil
 	UseDelta 			= 	0.1,
 	DisplayName 			= 	Cooking Oil,
 	Icon 				= 	HCCookingoil,
+	DisplayCategory          =   Cooking,
 	}
 
 item HCCornsyrup
@@ -87,6 +92,7 @@ item HCCornsyrup
 	UseDelta 			= 	0.1,
 	DisplayName 			= 	Corn Syrup,
 	Icon 				= 	HCCornsyrup,
+	DisplayCategory          =   Cooking,
 	}
 
 item HCRelish
@@ -105,6 +111,7 @@ item HCRelish
     Calories 			= 	20,
     Packaged 			= 	TRUE,
     CantBeFrozen 			= 	TRUE,
+	DisplayCategory		= 	FoodS,
 	}
 
 
@@ -124,6 +131,7 @@ item HCMayojapan
     Calories 			= 	667,
     Packaged 			= 	TRUE,
     CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCHoneymustard
@@ -142,6 +150,7 @@ item HCHoneymustard
     Calories 			= 	31.1,
     Packaged 			= 	TRUE,
     CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCDressingbluecheese
@@ -160,6 +169,7 @@ item HCDressingbluecheese
         Calories 			= 	20,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 
@@ -179,6 +189,7 @@ item HCDressingcaesar
         Calories 			= 	94,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCDressingfrench
@@ -197,6 +208,7 @@ item HCDressingfrench
         Calories 			= 	73,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 
@@ -216,6 +228,7 @@ item HCDressingitalian
         Calories 			= 	35,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCDressingranch
@@ -234,6 +247,7 @@ item HCDressingranch
         Calories 			= 	145,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCDressingrussian
@@ -252,6 +266,7 @@ item HCDressingrussian
         Calories 			= 	107,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCDressianisland
@@ -270,6 +285,7 @@ item HCDressianisland
         Calories 			= 	111,
         Packaged 			= 	TRUE,
         CantBeFrozen 			= 	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCParmesan
@@ -283,6 +299,7 @@ item HCParmesan
 	HungerChange			=	-10,
 	UnhappyChange			=	30,
 	Packaged			=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSoysauce
@@ -298,6 +315,7 @@ item HCSoysauce
 	UnhappyChange		=	30,
 	Packaged			=	TRUE,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCBBQsauce
@@ -312,6 +330,7 @@ item HCBBQsauce
 	UnhappyChange		=	30,
 	Packaged			=	TRUE,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCGarlicpowder
@@ -327,6 +346,7 @@ item HCGarlicpowder
 	ThirstChange		=	10,
 	UnhappyChange		=	30,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCHerbs
@@ -341,6 +361,7 @@ item HCHerbs
 	HungerChange		=	-10,
 	UnhappyChange		=	30,
 	CantBeFrozen		=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCHotsauce
@@ -355,6 +376,7 @@ item HCHotsauce
 	HungerChange			=	-10,
 	UnhappyChange			=	30,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSriracha
@@ -369,6 +391,7 @@ item HCSriracha
 	HungerChange			=	-10,
 	UnhappyChange			=	30,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCChilipowder
@@ -385,6 +408,7 @@ item HCChilipowder
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
     }
 
 item HCKetchup
@@ -399,6 +423,7 @@ item HCKetchup
 	HungerChange			=	-10,
 	UnhappyChange			=	30,
 	CantBeFrozen			=	TRUE,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSugarcubes
@@ -408,6 +433,7 @@ item HCSugarcubes
 	DisplayName 			= 	Sugar Cubes,
 	UseDelta 			= 	0.2,
 	Icon 				= 	HCSugarcubes,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCookingoiljar
@@ -418,6 +444,7 @@ item HCCookingoiljar
 	DisplayName 			= 	Jar of Cooking Oil,
 	Icon 					= 	HCCookingoiljar,
 	ReplaceOnDeplete		=	HCJar,
+	DisplayCategory 				= 	Cooking,
 	}
 
 item HCSpicejar
@@ -426,6 +453,7 @@ item HCSpicejar
         Type   				= 	Normal,
         DisplayName         		= 	Empty Spice Jar,
         icon 				= 	HCSpicejar,
+	DisplayCategory			= 	Cooking,
     }
 
 item HCArrowroot
@@ -442,6 +470,7 @@ item HCArrowroot
 	ReplaceOnUse		=	HCSpicejar,
     Spice   			=   	true,
     EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCBasil
@@ -458,6 +487,7 @@ item HCBasil
 	ReplaceOnUse		=	HCSpicejar,
     Spice   			=   true,
     EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCBayleaves
@@ -474,6 +504,7 @@ item HCBayleaves
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCaraway
@@ -490,6 +521,7 @@ item HCCaraway
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCardamom
@@ -506,6 +538,7 @@ item HCCardamom
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCeleryseed
@@ -522,6 +555,7 @@ item HCCeleryseed
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCilantro
@@ -538,6 +572,7 @@ item HCCilantro
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCinnamon
@@ -554,6 +589,7 @@ item HCCinnamon
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCChevril
@@ -570,6 +606,7 @@ item HCChevril
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCloves
@@ -586,6 +623,7 @@ item HCCloves
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCreamoftartar
@@ -602,6 +640,7 @@ item HCCreamoftartar
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCoriander
@@ -618,6 +657,7 @@ item HCCoriander
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCumin
@@ -634,6 +674,7 @@ item HCCumin
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCurry
@@ -650,6 +691,7 @@ item HCCurry
 	ReplaceOnUse		=	HCSpicejar,
     Spice   			=   	true,
     EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 
@@ -667,6 +709,7 @@ item HCDill
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCGroundepazote
@@ -683,6 +726,7 @@ item HCGroundepazote
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 		= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCGroundfennel
@@ -699,6 +743,7 @@ item HCGroundfennel
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCGrainsofparadise
@@ -715,6 +760,7 @@ item HCGrainsofparadise
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCGroundginger
@@ -731,6 +777,7 @@ item HCGroundginger
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCGroundjuniper
@@ -747,6 +794,7 @@ item HCGroundjuniper
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCLemonpepper
@@ -763,6 +811,7 @@ item HCLemonpepper
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCMarjoram
@@ -779,6 +828,7 @@ item HCMarjoram
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCMullingspice
@@ -795,6 +845,7 @@ item HCMullingspice
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCMustardpowder
@@ -811,6 +862,7 @@ item HCMustardpowder
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCNutmeg
@@ -827,6 +879,7 @@ item HCNutmeg
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCOnionpowder
@@ -843,6 +896,7 @@ item HCOnionpowder
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCOregano
@@ -859,6 +913,7 @@ item HCOregano
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCPaprika
@@ -875,6 +930,7 @@ item HCPaprika
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCParsleyflakes
@@ -891,6 +947,7 @@ item HCParsleyflakes
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCWhitepepper
@@ -907,6 +964,7 @@ item HCWhitepepper
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCPeppermint
@@ -923,6 +981,7 @@ item HCPeppermint
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCPicklingspice
@@ -939,6 +998,7 @@ item HCPicklingspice
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCPoppyseedsJar
@@ -955,6 +1015,7 @@ item HCPoppyseedsJar
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCPumpkinspice
@@ -971,6 +1032,7 @@ item HCPumpkinspice
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCRosemary
@@ -987,6 +1049,7 @@ item HCRosemary
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSage
@@ -1003,6 +1066,7 @@ item HCSage
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSaffron
@@ -1019,6 +1083,7 @@ item HCSaffron
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSavory
@@ -1035,6 +1100,7 @@ item HCSavory
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSteakseasoning
@@ -1051,6 +1117,7 @@ item HCSteakseasoning
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCCajunseasoning
@@ -1067,6 +1134,7 @@ item HCCajunseasoning
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCFishseasoning
@@ -1083,6 +1151,7 @@ item HCFishseasoning
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCChickenseasoning
@@ -1099,6 +1168,7 @@ item HCChickenseasoning
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSesameseeds
@@ -1115,6 +1185,7 @@ item HCSesameseeds
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCMesquitesmoke
@@ -1131,6 +1202,7 @@ item HCMesquitesmoke
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCHickorysmoke
@@ -1147,6 +1219,7 @@ item HCHickorysmoke
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSpearmint
@@ -1163,6 +1236,7 @@ item HCSpearmint
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCStaranise
@@ -1179,6 +1253,7 @@ item HCStaranise
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCSumac
@@ -1195,6 +1270,7 @@ item HCSumac
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCTarragon
@@ -1211,6 +1287,7 @@ item HCTarragon
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCTurmeric
@@ -1227,6 +1304,7 @@ item HCTurmeric
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCThyme
@@ -1243,6 +1321,7 @@ item HCThyme
 	ReplaceOnUse		=	HCSpicejar,
         Spice   			=   	true,
         EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCWasabi
@@ -1259,6 +1338,7 @@ item HCWasabi
 	ReplaceOnUse		=	HCSpicejar,
     Spice   			=   	true,
     EvolvedRecipe 			= 	Soup:1;Stew:1;Pie:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1,
+	DisplayCategory	= 	FoodS,
 	}
 
 item HCPeanutbutter
@@ -1278,6 +1358,7 @@ item HCPeanutbutter
         Calories 		= 	2660,
         Packaged 		= 	TRUE,
 		ReplaceOnUse	=	HCJar,
+	DisplayCategory	= 	FoodN,
 	}
 
 item HCAlfredosauce
@@ -1296,6 +1377,7 @@ item HCAlfredosauce
         Packaged 		= 	TRUE,
         CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	HCJar,
+	DisplayCategory	= 	FoodS,
 	}
 
 

@@ -15,7 +15,7 @@ item HCTelescope
         Type    		= Normal,
         DisplayName         	= Telescope,
         icon 			= HCTelescope,
-	
+		DisplayCategory          =   Toy,	
     }
 
 item HCTelescopescope
@@ -24,7 +24,7 @@ item HCTelescopescope
         Type    		= Normal,
         DisplayName         	= Telescope Scope,
         icon 			= HCTelescopescope,
-	
+		DisplayCategory          =   CraftMisc,	
     }
 
 item HCTelescopetripod
@@ -33,7 +33,7 @@ item HCTelescopetripod
         Type    		= Normal,
         DisplayName         	= Telescope Tripod,
         icon 			= HCTelescopetripod,
-	
+		DisplayCategory          =   CraftMisc,	
     }
 
 
@@ -43,7 +43,7 @@ item HCTelescopebox
         Type    		= Normal,
         DisplayName         	= Telescope in Box,
         icon 			= HCTelescopebox,
-	
+		DisplayCategory          =   CraftMisc,	
     }
 
 item HCStarchart
@@ -52,6 +52,7 @@ item HCStarchart
         Type    		= Normal,
         DisplayName         	= Star Chart,
         icon 			= HCStarchart,
+		DisplayCategory          =   CraftMisc,	
     }
 
 item HCStarchartboard
@@ -60,7 +61,7 @@ item HCStarchartboard
         Type    		= Normal,
         DisplayName         	= Star Chart Board,
         icon 			= HCStarchartboard,
-	
+		DisplayCategory          =   Toy,	
     }
 
 /************************RECIPES************************/	

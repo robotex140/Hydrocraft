@@ -14,6 +14,7 @@ item HCWoodenbucketvegoil
         Type    		= Normal,
         DisplayName         	= Wooden Bucket with Vegetable Oil,
         icon 			= HCWoodenbucketvegoil,
+	DisplayCategory	=   CraftChem,
 	
     }
 
@@ -23,6 +24,7 @@ item HCPotvegoil
         Type    		= Normal,
         DisplayName         	= Pot of Uncooked Vegetable Oil,
         icon 			= HCPotvegoil,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCPotvegoilcooked
@@ -31,6 +33,7 @@ item HCPotvegoilcooked
         Type    		= Normal,
         DisplayName         	= Pot of Cooked Vegetable Oil,
         icon 			= HCPotvegoilcooked,
+	DisplayCategory	=   CraftChem,
     }
 
 item HCWashtubmethoxide
@@ -39,6 +42,7 @@ item HCWashtubmethoxide
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Methoxide,
         icon 			= HCWashtubmethoxide,
+	DisplayCategory	=   CraftChem,
 	
     }
 
@@ -48,6 +52,7 @@ item HCWashtubrawbiodiesel
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Raw Biodiesel,
         icon 			= HCWashtubrawbiodiesel,
+	DisplayCategory	=   CraftChem,
 	
     }
 
@@ -57,6 +62,7 @@ item HCWashtubunwashedbiodiesel
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Unwashed Biodiesel,
         icon 			= HCWashtubunwashedbiodiesel,
+	DisplayCategory	=   CraftChem,
 	
     }
 
@@ -66,6 +72,7 @@ item HCWashtubwashedbiodiesel
         Type    		= Normal,
         DisplayName         	= Wooden Washtub with Washed Biodiesel,
         icon 			= HCWashtubwashedbiodiesel,
+	DisplayCategory	=   CraftChem,
 	
     }
 
@@ -75,6 +82,7 @@ item HCBiodieselcan
         Type    		= Normal,
 	DisplayName		= Biodiesel Can,
 	Icon			= HCBiodieselcan,
+	DisplayCategory	=   Fuel,
 	}
 
 /************************RECIPES************************/	

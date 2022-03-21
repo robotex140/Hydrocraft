@@ -16,6 +16,7 @@ module Hydrocraft
 	DisplayName		   = Box of Garbage Bags,
 	ReplaceOnDeplete   = HCGarbagebagboxempty,
 	Icon			   = HCGarbagebagbox,
+	DisplayCategory	= Craft,
 	}
 
 
@@ -38,6 +39,7 @@ module Hydrocraft
         AttachmentReplacement   = Bag,
         ReplaceInSecondHand     = HCPackFineAliceLHand holdingbagleft,
         ReplaceInPrimaryHand    = HCPackFineAliceRHand holdingbagright,
+		DisplayCategory	= Container,
     }
 
 
@@ -60,6 +62,7 @@ module Hydrocraft
         AttachmentReplacement = Bag,
         ReplaceInSecondHand = Bag_BigHikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_BigHikingBag_RHand holdingbagright,
+		DisplayCategory	= Container,
    }
 
     item HCClimbingpack
@@ -80,6 +83,7 @@ module Hydrocraft
         AttachmentReplacement = Bag,
         ReplaceInSecondHand = Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_HikingBag_RHand holdingbagright,
+		DisplayCategory	= Container,
   }
 
     item HCPrepperbag
@@ -94,6 +98,7 @@ module Hydrocraft
         OpenSound   		=    OpenBag,
         CloseSound  		=    CloseBag,
         PutInSound   		=    PutItemInBag,
+		DisplayCategory	= Container,
    }
 
      item HCWheelbarrow
@@ -106,6 +111,7 @@ module Hydrocraft
 	Icon				        = HCWheelbarrow,
 	RequiresEquippedBothHands 	= true,
     TwoHandWeapon               = TRUE,
+		DisplayCategory	= Container,
    }
 
 
@@ -119,6 +125,7 @@ module Hydrocraft
 	Icon				        = HCPallettruck,
 	RequiresEquippedBothHands 	= true,
     TwoHandWeapon               = TRUE,
+		DisplayCategory	= Container,
    }
 
 
@@ -132,6 +139,7 @@ module Hydrocraft
 	Icon				        = HCPushcart,
 	RequiresEquippedBothHands 	= true,
     TwoHandWeapon               =   TRUE,
+		DisplayCategory	= Container,
    }
 
     item HCHanddolly
@@ -144,6 +152,7 @@ module Hydrocraft
 	Icon				        = HCHanddolly,
 	RequiresEquippedBothHands 	= true,
     TwoHandWeapon               = TRUE,
+		DisplayCategory	= Container,
    }
 
     item HCForklift
@@ -156,6 +165,7 @@ module Hydrocraft
 	Icon				        = HCForklift,
 	RequiresEquippedBothHands 	= true,
     TwoHandWeapon               = TRUE,
+		DisplayCategory	= Container,
    }
 
      item HCShoppingcart
@@ -168,6 +178,7 @@ module Hydrocraft
 	Icon				        = HCShoppingcart,
 	RequiresEquippedBothHands 	= true,
     TwoHandWeapon               = TRUE,
+		DisplayCategory	= Container,
    }
 
      item HCToywagon
@@ -178,6 +189,7 @@ module Hydrocraft
 	Capacity             		= 150,
 	DisplayName             	= Toy Wagon,
 	Icon				        = HCToywagon,
+		DisplayCategory	= Container,
    }
 
     item HCPaperbag
@@ -188,6 +200,7 @@ module Hydrocraft
         Capacity            = 8,
         DisplayName         = Paper Bag,
         Icon                = HCPaperbag,
+		DisplayCategory	= Container,
     }
 
     item HCPaperlunchbag
@@ -198,6 +211,7 @@ module Hydrocraft
         Capacity            = 4,
         DisplayName         = Paper Lunch Bag,
         Icon                = HCPaperlunchbag,
+		DisplayCategory	= Container,
     }
 
    item HCSpiffosorderbag
@@ -207,6 +221,7 @@ module Hydrocraft
         Type                = Container,
         DisplayName     	= Spiffo's To-Go Order,
         icon 			    = HCSpiffosorderbag,
+		DisplayCategory	= Container,
     } 
 
     item HCFannypackblue
@@ -218,6 +233,7 @@ module Hydrocraft
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackblue,
         CanBeEquipped 	    = Chest,
+		DisplayCategory	= Container,
     }
 
     item HCFannypackyellow
@@ -229,6 +245,7 @@ module Hydrocraft
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackyellow,
         CanBeEquipped       = Chest,
+		DisplayCategory	= Container,
     }
 
     item HCFannypackred
@@ -240,6 +257,7 @@ module Hydrocraft
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackred,
         CanBeEquipped       = Chest,
+		DisplayCategory	= Container,
     }
 
     item HCFannypackgreen
@@ -251,6 +269,7 @@ module Hydrocraft
         DisplayName         = Fanny Pack,
         Icon                = HCFannypackgreen,
         CanBeEquipped       = Chest,
+		DisplayCategory	= Container,
     }
     
     item HCBriefcase
@@ -261,6 +280,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Briefcase,
         Icon                = HCLeatherbriefcase,
+		DisplayCategory	= Container,
     }
 
     item HCDuralumincase
@@ -271,6 +291,7 @@ module Hydrocraft
         Capacity            = 15,
         DisplayName         = Duralumin Case,
         Icon                = HCDuralumincase,
+		DisplayCategory	= Container,
     }
 
     item HCMessengerbag
@@ -282,6 +303,7 @@ module Hydrocraft
         DisplayName         = Messenger Bag,
         Icon                = HCMessengerbag,
         CanBeEquipped       = Back,
+		DisplayCategory	= Container,
     }
 
     item HCPizzadeliverybag
@@ -292,6 +314,7 @@ module Hydrocraft
         Capacity            = 8,
         DisplayName         = Pizza Delivery Bag,
         Icon                = HCPizzadeliverybag,
+		DisplayCategory	= Container,
     }
 
     item HCMailbag
@@ -303,6 +326,7 @@ module Hydrocraft
         DisplayName         = Mail Bag,
         Icon                = HCMailbag,
         CanBeEquipped       = Back,
+		DisplayCategory	= Container,
     }
 
     item HCSatchel
@@ -314,6 +338,7 @@ module Hydrocraft
         DisplayName         = Satchel,
         Icon                = HCSatchel,
         CanBeEquipped       = Back,
+		DisplayCategory	= Container,
     }
 
     item HCClothtotebag
@@ -324,6 +349,7 @@ module Hydrocraft
         Capacity            = 12,
         DisplayName         = Cloth Tote Bag,
         Icon                = HCClothtotebag,
+		DisplayCategory	= Container,
     }
 
     item HCMedicalbag
@@ -337,6 +363,7 @@ module Hydrocraft
         Medical             = TRUE,
         ReplaceInSecondHand = Bag_FirstAidKit_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_FirstAidKit_RHand holdingbagright,
+		DisplayCategory	= Container,
     }
 
     item HCMedicalbox
@@ -347,6 +374,7 @@ module Hydrocraft
         Capacity            = 8,
         DisplayName         = Medical Box,
         Icon                = HCMedicalbox,
+		DisplayCategory	= Container,
     }
         
     item HCGolfbag
@@ -358,6 +386,7 @@ module Hydrocraft
         DisplayName         = Golf Bag,
         Icon                = HCGolfbag,
         CanBeEquipped       = Back,
+		DisplayCategory	= Container,
     }
 
     item HCCosmeticcase
@@ -368,6 +397,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Cosmetic Case,
         Icon                = HCCosmeticcase,
+		DisplayCategory	= Container,
     }
 
     item HCLunchbox
@@ -378,6 +408,7 @@ module Hydrocraft
         Capacity            = 6,
         DisplayName         = Lunch Box,
         Icon                = HCLunchbox,
+		DisplayCategory	= Container,
     }
 
     item HCSeedbag
@@ -388,6 +419,7 @@ module Hydrocraft
         Capacity            = 5,
         DisplayName         = Seed Bag,
         Icon                = HCSeedbag,
+		DisplayCategory	= Container,
     }
 
     item HCShoebox
@@ -398,6 +430,7 @@ module Hydrocraft
         Capacity            = 5,
         DisplayName         = Shoe Box,
         Icon                = HCShoebox,
+		DisplayCategory	= Container,
     }
 
     item HCToolbox
@@ -408,6 +441,7 @@ module Hydrocraft
         Capacity            = 8,
         DisplayName         = Metal Tool Box,
         Icon                = HCToolbox,
+		DisplayCategory	= Container,
     }
 
     item HCWoodentoolbox
@@ -418,6 +452,7 @@ module Hydrocraft
         Capacity            = 6,
         DisplayName         = Wooden Tool Box,
         Icon                = HCWoodentoolbox,
+		DisplayCategory	= Container,
     }
 
     item HCMetalbox
@@ -428,6 +463,7 @@ module Hydrocraft
         Capacity            = 4,
         DisplayName         = Metal Box,
         Icon                = HCMetalbox,
+		DisplayCategory	= Container,
     }
 
     item HCFishingbox
@@ -438,6 +474,7 @@ module Hydrocraft
         Capacity            = 6,
         DisplayName         = Fishing Tackle Box,
         Icon                = HCFishingbox,
+		DisplayCategory	= Container,
     }
 
     item HCFishingbasket
@@ -448,6 +485,7 @@ module Hydrocraft
         Capacity            = 12,
         DisplayName         = Fishing Basket,
         Icon                = HCFishingbasket,
+		DisplayCategory	= Container,
     }
 
     item HCWoodencrate
@@ -458,7 +496,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Wooden Crate,
         Icon                = HCWoodencrate,
-		
+		DisplayCategory	= Container,
     }
 
     item HCToychest
@@ -469,7 +507,7 @@ module Hydrocraft
         Capacity            = 25,
         DisplayName         = Toy Chest,
         Icon                = HCToychest,
-	
+		DisplayCategory	= Container,
     }
 
     item HCWardrobe
@@ -480,7 +518,7 @@ module Hydrocraft
         Capacity            = 100,
         DisplayName         = Wardrobe,
         Icon                = HCWardrobe,
-	
+		DisplayCategory	= Container,
     }
 
     item HCPlasticbin
@@ -491,7 +529,7 @@ module Hydrocraft
         Capacity            = 20,
         DisplayName         = Large Plastic Bin,
         Icon                = HCPlasticbin,
-	
+		DisplayCategory	= Container,
     }
 
     item HCPlasticbin2
@@ -502,6 +540,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Small Plastic Bin,
         Icon                = HCPlasticbin2,
+		DisplayCategory		= CraftChem,
     }
 
     item HCCardboardbox
@@ -512,7 +551,7 @@ module Hydrocraft
         Capacity            = 20,
         DisplayName         = Cardboard Box,
         Icon                = HCCardboardbox,
-	
+		DisplayCategory	= Container,
     }
 
     item HCCardboardboxstack
@@ -521,7 +560,7 @@ module Hydrocraft
         Type    	     = Normal,
         DisplayName      = Stack of Cardboard Boxes,
         icon 		     = HCCardboardboxstack,
-	
+		DisplayCategory	= Container,
     }
 
     item HCCardboardflat
@@ -530,6 +569,7 @@ module Hydrocraft
         Type    		= Normal,
         DisplayName     = Cardboard Flat,
         icon 			= HCCardboardflat,
+		DisplayCategory	= Useless,
     } 
 
     item HCLeatherbag
@@ -540,6 +580,7 @@ module Hydrocraft
         Capacity            = 16,
         DisplayName         = Leather Bag,
         Icon                = HCLeatherbag,
+		DisplayCategory	= Container,
     }
 
     item HCSuitcase
@@ -550,6 +591,7 @@ module Hydrocraft
         Capacity            = 16,
         DisplayName         = Suitcase,
         Icon                = HCSuitcase,
+		DisplayCategory	= Container,
     }
 
     item HCLuggage
@@ -560,6 +602,7 @@ module Hydrocraft
         Capacity            = 16,
         DisplayName         = Luggage,
         Icon                = HCLuggage,
+		DisplayCategory	= Container,
     }
 
     item HCLuggage2
@@ -570,6 +613,7 @@ module Hydrocraft
         Capacity            = 16,
         DisplayName         = Roller Luggage,
         Icon                = HCLuggage2,
+		DisplayCategory	= Container,
     }
 
     item HCTrunk
@@ -580,7 +624,7 @@ module Hydrocraft
         Capacity            = 32,
         DisplayName         = Trunk,
         Icon                = HCTrunk,
-	
+		DisplayCategory	= Container,
     }
 
     item HCChest
@@ -592,6 +636,7 @@ module Hydrocraft
         DisplayName         		= Chest,
         Icon                		= HCChest,
 	RequiresEquippedBothHands 	= true,
+		DisplayCategory	= Container,
     }
 
     item HCCooler
@@ -602,6 +647,7 @@ module Hydrocraft
         Capacity            = 8,
         DisplayName         = Cooler,
         Icon                = HCCooler,
+		DisplayCategory	= Container,
     }
 
     item HCIcechest
@@ -612,7 +658,7 @@ module Hydrocraft
         Capacity            		= 16,
         DisplayName         		= Ice Chest,
         Icon                		= HCIcechest,
-	
+		DisplayCategory	= Container,
 	RequiresEquippedBothHands 	= true,
     }
 
@@ -624,6 +670,7 @@ module Hydrocraft
         Capacity            = 10,
         DisplayName         = Pillowcase,
         Icon                = HCPillowcase,
+		DisplayCategory	= Container,
     }
 
     item HCImprovisedbackpack
@@ -645,13 +692,8 @@ module Hydrocraft
         AttachmentReplacement   = Bag,
         ReplaceInSecondHand     = Bag_ALICEpack_LHand holdingbagleft,
         ReplaceInPrimaryHand    = Bag_ALICEpack_RHand holdingbagright,
+		DisplayCategory	= Container,
     }
-
-
-
-
-
-
 
     item HCImprovisedhandbag
     {
@@ -661,6 +703,7 @@ module Hydrocraft
         Capacity            = 12,
         DisplayName         = Improvised Handbag,
         Icon                = HCImprovisedhandbag,
+		DisplayCategory	= Container,
     }
 
     item HCBindle
@@ -672,6 +715,7 @@ module Hydrocraft
         DisplayName         = Bindle,
         Icon                = HCBindle,
         CanBeEquipped       = Back,
+		DisplayCategory	= Container,
     }
 	
     item HCShoulderpole
@@ -683,6 +727,7 @@ module Hydrocraft
         DisplayName         = Shoulder Pole,
         Icon                = HCShoulderpole,
         CanBeEquipped       = Back,
+		DisplayCategory	= Container,
     }
 	
 
@@ -694,7 +739,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate1,
-	
+		DisplayCategory	= Container,
     }
 
     item HCShipcrate2
@@ -705,7 +750,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate2,
-	
+		DisplayCategory	= Container,
     }
 
     item HCShipcrate3
@@ -716,7 +761,7 @@ module Hydrocraft
         Capacity            = 1350,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate3,
-	
+		DisplayCategory	= Container,
     }
 
     item HCShipcrate4
@@ -727,7 +772,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate4,
-	
+		DisplayCategory	= Container,
     }
 
     item HCShipcrate5
@@ -738,7 +783,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate5,
-	
+		DisplayCategory	= Container,
     }
 
     item HCShipcrate6
@@ -749,7 +794,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate6,
-	
+		DisplayCategory	= Container,
     }
 
     item HCShipcrate7
@@ -760,7 +805,7 @@ module Hydrocraft
         Capacity            = 300,
         DisplayName         = Shipping Crate,
         Icon                = HCShipcrate7,
-	
+		DisplayCategory	= Container,
     }
 
 /************************RECIPES************************/

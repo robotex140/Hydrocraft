@@ -15,6 +15,7 @@ item HCLard
         Type    		= Normal,
         DisplayName         	= Lard,
         icon 			= HCLard,
+		DisplayCategory	= CraftChem,
     }   
 
 item HCTallow
@@ -23,6 +24,7 @@ item HCTallow
         Type    		= Normal,
         DisplayName         	= Tallow,
         icon 			= HCTallow,
+		DisplayCategory	= CraftChem,
     }   
 
 item HCSoap
@@ -34,6 +36,7 @@ item HCSoap
         DisplayName         	= Homemade Soap,
         icon 			= HCSoap,
         cantBeConsolided    	= TRUE,
+		DisplayCategory	= Cleaning,
     }   
 
 /************************RECIPES************************/

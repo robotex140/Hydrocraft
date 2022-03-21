@@ -15,6 +15,7 @@ item HCEnvelope
         Type    		= Normal,
         DisplayName         	= Envelope,
         icon 			= HCEnvelope,
+		DisplayCategory		=   Useless,
     }
 
 item HCPostagestamp
@@ -23,6 +24,7 @@ item HCPostagestamp
         Type    		= Normal,
         DisplayName         	= Postage Stamp,
         icon 			= HCPostagestamp,
+		DisplayCategory		=   Useless,
     }
 
 item HCSealedletter
@@ -31,6 +33,7 @@ item HCSealedletter
         Type    		= Normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter,
+		DisplayCategory		=   Useless,
     }
 
 item HCSealedletter2
@@ -39,6 +42,7 @@ item HCSealedletter2
         Type    		= Normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter2,
+		DisplayCategory		=   Useless,
     }
 
 item HCSealedletter3
@@ -47,6 +51,7 @@ item HCSealedletter3
         Type    		= Normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter3,
+		DisplayCategory		=   Useless,
     }
 
 item HCSealedletter4
@@ -55,6 +60,7 @@ item HCSealedletter4
         Type    		= Normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter4,
+		DisplayCategory		=   Useless,
     }
 
 item HCSealedletter5
@@ -63,6 +69,7 @@ item HCSealedletter5
         Type    		= Normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter5,
+		DisplayCategory		=   Useless,
     }
 
 
@@ -72,6 +79,7 @@ item HCSealedletter6
         Type    		= Normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter6,
+		DisplayCategory		=   Useless,
     }
 
 item HCSealedletter7
@@ -80,6 +88,7 @@ item HCSealedletter7
         Type    		= Normal,
         DisplayName         	= Sealed Letter,
         icon 			= HCSealedletter7,
+		DisplayCategory		=   Useless,
     }
 
 item HCBubblewrap
@@ -88,6 +97,7 @@ item HCBubblewrap
         Type    		= Normal,
         DisplayName         	= Bubble Wrap,
         icon 			= HCBubblewrap,
+		DisplayCategory		=   Toy,
     }
 
 item HCPostcard1
@@ -98,6 +108,7 @@ item HCPostcard1
         Icon			=	HCPostcard1,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 item HCPostcard2
@@ -108,6 +119,7 @@ item HCPostcard2
         Icon			=	HCPostcard2,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 item HCPostcard3
@@ -118,6 +130,7 @@ item HCPostcard3
         Icon			=	HCPostcard3,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 item HCPostcard4
@@ -128,6 +141,7 @@ item HCPostcard4
         Icon			=	HCPostcard4,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 item HCPostcard5
@@ -138,6 +152,7 @@ item HCPostcard5
         Icon			=	HCPostcard5,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 item HCPostcard6
@@ -148,6 +163,7 @@ item HCPostcard6
         Icon			=	HCPostcard6,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 item HCPostcard7
@@ -158,6 +174,7 @@ item HCPostcard7
         Icon			=	HCPostcard7,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 item HCPostcard8
@@ -168,6 +185,7 @@ item HCPostcard8
         Icon			=	HCPostcard8,
         CanBeWrite  		=   	true,
         PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
     	}
 
 /************************RECIPES************************/	
@@ -208,6 +226,7 @@ item HCBoxcutter
        	 	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory		=   WepMelee,
 	}
     
 

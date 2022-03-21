@@ -1,4 +1,4 @@
-module Hydrocraft
+ module Hydrocraft
 {
     imports
     {
@@ -14,6 +14,7 @@ item HCLavalamp
         Type    		=    	Normal,
         DisplayName    		=    	Lava Lamp,
         Icon    		=    	HCLavalamp,
+		DisplayCategory          =   LightSource,
     }
 
 item HCLampshade
@@ -22,6 +23,7 @@ item HCLampshade
         Type    		=	Normal,
         DisplayName    		=    	Lamp Shade,
         Icon    		=    	HCLampshade,
+		DisplayCategory          =   Misc,
     }
 
 item HCRoadflare
@@ -30,6 +32,7 @@ item HCRoadflare
         Type    		=    Normal,
         DisplayName    		=    Road Flare,
         Icon   		 	=    HCRoadflare,
+		DisplayCategory          =   LightSource,
     }
 
 item HCRoadflareon
@@ -44,6 +47,7 @@ item HCRoadflareon
 		DisplayName	=	Road Flare,
 		ActivatedItem	=	TRUE,
 		Icon		=	HCRoadflareon,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCLaserpointer
@@ -52,6 +56,7 @@ item HCLaserpointer
         Type    =    Normal,
         DisplayName    =    Laser Pointer,
         Icon    =    HCLaserpointer,
+		DisplayCategory          =   LightSource,
     }
 
 
@@ -67,6 +72,7 @@ item HCLaserpointeron
 		DisplayName	=	Laser Pointer,
 		ActivatedItem	=	TRUE,
 		Icon	=	HCLaserpointeron,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCGlowstickred
@@ -75,6 +81,7 @@ item HCGlowstickred
         Type    =    Normal,
         DisplayName    =    Red Glowstick,
         Icon    =    HCGlowstickred,
+		DisplayCategory          =   LightSource,
     }
 
 
@@ -90,6 +97,7 @@ item HCGlowstickredon
 		DisplayName	=	Red Glowstick,
 		ActivatedItem	=	TRUE,
 		Icon	=	HCGlowstickredon,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCGlowstickblue
@@ -98,6 +106,7 @@ item HCGlowstickblue
         Type    =    Normal,
         DisplayName    =    Blue Glowstick,
         Icon    =    HCGlowstickblue,
+		DisplayCategory          =   LightSource,
     }
 
 
@@ -113,6 +122,7 @@ item HCGlowstickblueon
 		DisplayName	=	Blue Glowstick,
 		ActivatedItem	=	TRUE,
 		Icon	=	HCGlowstickblueon,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCGlowstickgreen
@@ -121,6 +131,7 @@ item HCGlowstickgreen
         Type    =    Normal,
         DisplayName    =    Green Glowstick,
         Icon    =    HCGlowstickgreen,
+		DisplayCategory          =   LightSource,
     }
 
 
@@ -136,6 +147,7 @@ item HCGlowstickgreenon
 		DisplayName	=	Green Glowstick,
 		ActivatedItem	=	TRUE,
 		Icon	=	HCGlowstickgreenon,
+		DisplayCategory          =   LightSource,
 	}
 
 
@@ -147,6 +159,7 @@ item HCLighterfluid
 		UseDelta		= 	0.25,
         	DisplayName         	= 	Lighter Fluid,
         	icon 			= 	HCLighterfluid,
+		DisplayCategory          =   Fuel,
     }
 
 item HCLighterempty
@@ -155,6 +168,7 @@ item HCLighterempty
 		Type			=	Normal,
 		DisplayName		=	Empty Lighter,
 		Icon			=	Lighter,
+		DisplayCategory          =   Fuel,
 	}
 
 item HCFlashlightoff
@@ -163,6 +177,7 @@ item HCFlashlightoff
         Type    		=    Normal,
         DisplayName    		=    Small Flashlight,
         Icon   		 	=    HCFlashlightoff,
+		DisplayCategory          =   LightSource,
     }
 
 
@@ -172,6 +187,7 @@ item HCFlashlightdead
         Type    		=    Normal,
         DisplayName    		=    Dead Small Flashlight,
         Icon   		 	=    HCFlashlightoff,
+		DisplayCategory          =   LightSource,
     }
 
 item HCFlashlighton
@@ -186,6 +202,7 @@ item HCFlashlighton
 		DisplayName		    =	Small Flashlight with Power,
 		ActivatedItem		=	TRUE,
 		Icon			    =	HCFlashlighton,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCFlashlightmk1off
@@ -194,6 +211,7 @@ item HCFlashlightmk1off
         Type    		=    Normal,
         DisplayName    	=    Small Homemade Flashlight,
         Icon   		 	=    HCFlashlightmk1off,
+		DisplayCategory          =   LightSource,
     }
 
 
@@ -203,6 +221,7 @@ item HCFlashlightmk1dead
         Type    		=    Normal,
         DisplayName    		=    Dead Small Homemade Flashlight,
         Icon   		 	=    HCFlashlightmk1off,
+		DisplayCategory          =   LightSource,
     }
 
 item HCFlashlightmk1on
@@ -217,6 +236,7 @@ item HCFlashlightmk1on
 		DisplayName		=	Small Homemade Flashlight with Power,
 		ActivatedItem		=	TRUE,
 		Icon	        	=	HCFlashlightmk1on,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCDynamoflashlightoff
@@ -225,6 +245,7 @@ item HCDynamoflashlightoff
         Type    		=    Normal,
         DisplayName    		=    Dynamo Flashlight,
         Icon   		 	=    HCDynamoflashlightoff,
+		DisplayCategory          =   LightSource,
     }
 
 item HCDynamoflashlightdead
@@ -233,6 +254,7 @@ item HCDynamoflashlightdead
         Type    		=    Normal,
         DisplayName    		=    Dead Dynamo Flashlight,
         Icon   		 	=    HCDynamoflashlightoff,
+		DisplayCategory          =   LightSource,
     }
 
 item HCDynamoflashlighton
@@ -253,6 +275,7 @@ item HCDynamoflashlighton
         primaryAnimMask     = HoldingTorchRight,
         secondaryAnimMask   = HoldingTorchLeft,
         ReplaceOnDeplete    = HCDynamoflashlightdead,
+		DisplayCategory          =   LightSource,
 	}
 
 item HCFlorescentlightbox
@@ -261,6 +284,7 @@ item HCFlorescentlightbox
         Type    		= Normal,
         DisplayName     = Florescent Light Tube Box,
         icon 			= HCFlorescentlightbox,
+		DisplayCategory          =   Misc,
     }
 
 	
@@ -270,6 +294,7 @@ item HCFlorescentlightbulb
         Type    		= Normal,
         DisplayName     = Florescent Light Tube,
         icon 			= HCFlorescentlightbulb,
+		DisplayCategory          =   Misc,
     }
 
 /************************RECIPES************************/

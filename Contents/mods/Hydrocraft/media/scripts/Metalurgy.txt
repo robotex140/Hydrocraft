@@ -15,6 +15,7 @@ item HCSmelter
         Type                = Normal,
         DisplayName         = Smelter,
         icon                = HCSmelter,
+		DisplayCategory		= CraftMet,
     }
 
 item HCSmelter2
@@ -25,6 +26,7 @@ item HCSmelter2
         WeightReduction     = 0,
         DisplayName         = Smelter,
         icon 			    = HCSmelter,	
+		DisplayCategory		= CraftMet,
     }
 
 
@@ -34,6 +36,7 @@ item HCBlastfurnace
         Type                = Normal,
         DisplayName         = Blast Furnace,
         icon 			    = HCBlastfurnace,
+		DisplayCategory		= CraftMet,
 	
     }
 
@@ -45,6 +48,7 @@ item HCBlastfurnace2
         WeightReduction     = 0,
         DisplayName         = Blast Furnace,
         icon                = HCBlastfurnace,
+		DisplayCategory		= CraftMet,
 	
     }
 
@@ -54,6 +58,7 @@ item HCCopperingot
         Type    		= Normal,
         DisplayName         	= Copper Ingot,
         icon 			= HCCopperingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCTiningot
@@ -62,6 +67,7 @@ item HCTiningot
         Type    		= Normal,
         DisplayName         	= Tin Ingot,
         icon 			= HCTiningot,
+		DisplayCategory		= CraftMet,
     }     
 
 item HCBronzeingot
@@ -70,6 +76,7 @@ item HCBronzeingot
         Type    		= Normal,
         DisplayName         	= Bronze Ingot,
         icon 			= HCBronzeingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCIroningot
@@ -78,6 +85,7 @@ item HCIroningot
         Type    		= Normal,
         DisplayName         	= Iron Ingot,
         icon 			= HCIroningot,
+		DisplayCategory		= CraftMet,
     }     
 
 item HCInvaringot
@@ -86,6 +94,7 @@ item HCInvaringot
         Type    		= Normal,
         DisplayName         	= Invar Ingot,
         icon 			= HCInvaringot,
+		DisplayCategory		= CraftMet,
     } 
 
 item HCMagnetiteingot
@@ -94,6 +103,7 @@ item HCMagnetiteingot
         Type    		= Normal,
         DisplayName         	= Magnetite Ingot,
         icon 			= HCMagnetiteingot,
+		DisplayCategory		= CraftMet,
     } 
 
 item HCSteelingot
@@ -102,6 +112,7 @@ item HCSteelingot
         Type    		= Normal,
         DisplayName         	= Steel Ingot,
         icon 			= HCSteelingot,
+		DisplayCategory		= CraftMet,
     }    
 
 item HCSSpringSteelIngot
@@ -110,6 +121,7 @@ item HCSSpringSteelIngot
         Type            = Normal,
         DisplayName             = Spring Steel Ingot,
         icon            = HCSteelingot,
+		DisplayCategory		= CraftMet,
     }  
 
 
@@ -119,6 +131,7 @@ item HCLeadingot
         Type    		= Normal,
         DisplayName         	= Lead Ingot,
         icon 			= HCLeadingot,
+		DisplayCategory		= CraftMet,
     }     
 
   
@@ -129,6 +142,7 @@ item HCPewteringot
         Type    		= Normal,
         DisplayName     = Pewter Ingot,
         icon 			= HCPewteringot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCAluminumingot
@@ -137,6 +151,7 @@ item HCAluminumingot
         Type    		= Normal,
         DisplayName     = Aluminum Ingot,
         icon 			= HCAluminumingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCDuraluminingot
@@ -145,6 +160,7 @@ item HCDuraluminingot
         Type    		= Normal,
         DisplayName     = Duralumin Ingot,
         icon 			= HCDuraluminingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCSilveringot
@@ -153,6 +169,7 @@ item HCSilveringot
         Type    		= Normal,
         DisplayName         	= Silver Ingot,
         icon 			= HCSilveringot,
+		DisplayCategory		= CraftMet,
     }     
 
 item HCSterlingsilveringot
@@ -161,6 +178,7 @@ item HCSterlingsilveringot
         Type    		= Normal,
         DisplayName         	= Sterling Silver Ingot,
         icon 			= HCSterlingsilveringot,
+		DisplayCategory		= CraftMet,
     } 
 
 item HCGoldingot
@@ -169,6 +187,7 @@ item HCGoldingot
         Type    		= Normal,
         DisplayName         	= Gold Ingot,
         icon 			= HCGoldingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCRosegoldingot
@@ -177,6 +196,7 @@ item HCRosegoldingot
         Type    		= Normal,
         DisplayName         	= Rose Gold Ingot,
         icon 			= HCRosegoldingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCElectrumingot
@@ -185,6 +205,7 @@ item HCElectrumingot
         Type    		= Normal,
         DisplayName         	= Electrum Ingot,
         icon 			= HCElectrumingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCLithiumingot
@@ -193,6 +214,7 @@ item HCLithiumingot
         Type    		= Normal,
         DisplayName         	= Lithium Ingot,
         icon 			= HCLithiumingot,
+		DisplayCategory		= CraftMet,
     } 
 
 item HCZincingot
@@ -201,6 +223,7 @@ item HCZincingot
         Type    		= Normal,
         DisplayName         	= Zinc Ingot,
         icon 			= HCZincingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCBrassingot
@@ -209,6 +232,7 @@ item HCBrassingot
         Type    		= Normal,
         DisplayName         	= Brass Ingot,
         icon 			= HCBrassingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCNickelingot
@@ -217,6 +241,7 @@ item HCNickelingot
         Type    		= Normal,
         DisplayName         	= Nickel Ingot,
         icon 			= HCNickelingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCWhitegoldingot
@@ -225,6 +250,7 @@ item HCWhitegoldingot
         Type    		= Normal,
         DisplayName         	= White Gold Ingot,
         icon 			= HCWhitegoldingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCConstantaningot
@@ -233,6 +259,7 @@ item HCConstantaningot
         Type    		= Normal,
         DisplayName         	= Constantan Ingot,
         icon 			= HCConstantaningot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCChromeingot
@@ -241,6 +268,7 @@ item HCChromeingot
         Type    		= Normal,
         DisplayName         	= Chrome Ingot,
         icon 			= HCChromeingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCNichromeingot
@@ -249,6 +277,7 @@ item HCNichromeingot
         Type    		= Normal,
         DisplayName         	= Nichrome Ingot,
         icon 			= HCNichromeingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCKanthalingot
@@ -257,6 +286,7 @@ item HCKanthalingot
         Type    		= Normal,
         DisplayName         	= Kanthal Ingot,
         icon 			= HCKanthalingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCTungsteningot
@@ -265,6 +295,7 @@ item HCTungsteningot
         Type    		= Normal,
         DisplayName         	= Tungsten Ingot,
         icon 			= HCTungsteningot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCTitaniumingot
@@ -273,6 +304,7 @@ item HCTitaniumingot
         Type    		= Normal,
         DisplayName         	= Titanium Ingot,
         icon 			= HCTitaniumingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCGraphiteingot
@@ -281,6 +313,7 @@ item HCGraphiteingot
         Type    		= Normal,
         DisplayName         	= Graphite Ingot,
         icon 			= HCGraphiteingot,
+		DisplayCategory		= CraftMet,
     }
 
 item HCAnvil
@@ -289,6 +322,7 @@ item HCAnvil
         Type    		= Normal,
         DisplayName         	= Iron Anvil,
         icon 			= HCAnvil,
+		DisplayCategory		= CraftMet,
 	
     }
 
@@ -300,6 +334,7 @@ item HCAnvil2
         WeightReduction     = 0,
         DisplayName         	= Iron Anvil,
         icon 			= HCAnvil,
+		DisplayCategory		= CraftMet,
 	
     }
 
@@ -309,6 +344,7 @@ item HCAnvillead
         Type    		= Normal,
         DisplayName         	= Lead Anvil,
         icon 			= HCAnvillead,
+		DisplayCategory		= CraftMet,
 	
     }
 
@@ -320,6 +356,7 @@ item HCAnvillead2
         WeightReduction     = 0,
         DisplayName         	= Lead Anvil,
         icon 			= HCAnvillead,
+		DisplayCategory		= CraftMet,
 	
     }
 
@@ -333,6 +370,7 @@ item HCCauldroniron
     RainFactor      = 1,
     Tooltip         = Tooltip_item_RainFromGround,
     icon 			= HCCauldroniron,
+		DisplayCategory		= CraftMet,
     }
 
 item HCCauldronironfull
@@ -349,6 +387,7 @@ item HCCauldronironfull
 	Icon			=	HCCauldronironfull,
 	IsCookable		=	TRUE,
 	RainFactor 		= 	1,
+		DisplayCategory		= CraftMet,
     }
 
 item HCBulletcasings
@@ -357,6 +396,7 @@ item HCBulletcasings
         Type    		= Normal,
         DisplayName         	= Bullet Casings,
         icon 			= HCBulletcasings,
+		DisplayCategory		= CraftAmmo,
     }
 
 item HCBullettips
@@ -365,6 +405,7 @@ item HCBullettips
         Type    		= Normal,
         DisplayName         	= Bullet Tips,
         icon 			= HCBullettips,
+		DisplayCategory		= CraftAmmo,
     }
 
 item HCBuckshot
@@ -373,6 +414,7 @@ item HCBuckshot
         Type    		= Normal,
         DisplayName         	= Buckshot,
         icon 			= HCBuckshot,
+		DisplayCategory		= CraftAmmo,
     }
 
 item HCCannonball
@@ -381,6 +423,7 @@ item HCCannonball
         Type    		= Normal,
         DisplayName         	= Cannon Ball,
         icon 			= HCCannonball,
+		DisplayCategory		= CraftAmmo,
     }
 
 /************************RECIPES************************/	

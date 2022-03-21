@@ -11,6 +11,7 @@ item HCCatpoop
 		Type    		= Normal,
 		DisplayName         	= Cat Poop,
 		icon 			= HCCatpoop,
+		DisplayCategory	= AnimalPoop,
 	}
 item HCCatmale
 	{
@@ -19,7 +20,7 @@ item HCCatmale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatmale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatfemale
 	{
@@ -28,7 +29,7 @@ item HCCatfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatfemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatdead
 	{
@@ -37,7 +38,7 @@ item HCCatdead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatdead,
-	
+	DisplayCategory		= AnimalDead,
 	}
 item HCCatblackmale
 	{
@@ -46,7 +47,7 @@ item HCCatblackmale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatblackmale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatblackfemale
 	{
@@ -55,7 +56,7 @@ item HCCatblackfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatblackfemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatblackdead
 	{
@@ -64,7 +65,7 @@ item HCCatblackdead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatblackdead,
-	
+	DisplayCategory		= AnimalDead,
 	}
 item HCCatbluemale
 	{
@@ -73,7 +74,7 @@ item HCCatbluemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatbluemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatbluefemale
 	{
@@ -82,7 +83,7 @@ item HCCatbluefemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatbluefemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatbluedead
 	{
@@ -91,7 +92,7 @@ item HCCatbluedead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatbluedead,
-	
+	DisplayCategory		= AnimalDead,
 	}
 item HCCatbrownmale
 	{
@@ -100,7 +101,7 @@ item HCCatbrownmale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatbrownmale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatbrownfemale
 	{
@@ -109,7 +110,7 @@ item HCCatbrownfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatbrownfemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatbrowndead
 	{
@@ -118,7 +119,7 @@ item HCCatbrowndead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatbrowndead,
-	
+	DisplayCategory		= AnimalDead,
 	}
 item HCCatcreammale
 	{
@@ -127,7 +128,7 @@ item HCCatcreammale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatcreammale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatcreamfemale
 	{
@@ -136,7 +137,7 @@ item HCCatcreamfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatcreamfemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatcreamdead
 	{
@@ -145,7 +146,7 @@ item HCCatcreamdead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatcreamdead,
-	
+	DisplayCategory		= AnimalDead,
 	}
 item HCCatgingermale
 	{
@@ -154,7 +155,7 @@ item HCCatgingermale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatgingermale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatgingerfemale
 	{
@@ -163,7 +164,7 @@ item HCCatgingerfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatgingerfemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatgingerdead
 	{
@@ -172,6 +173,7 @@ item HCCatgingerdead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatgingerdead,
+	DisplayCategory		= AnimalDead,
 	
 	}
 item HCCatsilvermale
@@ -181,7 +183,7 @@ item HCCatsilvermale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Male),
 	Icon				=	HCCatsilvermale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatsilverfemale
 	{
@@ -190,7 +192,7 @@ item HCCatsilverfemale
 	Capacity             		= 	0,
 	DisplayName 			= 	Cat (Female),
 	Icon				=	HCCatsilverfemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatsilverdead
 	{
@@ -199,6 +201,7 @@ item HCCatsilverdead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatsilverdead,
+	DisplayCategory		= AnimalDead,
 	
 	}
 item HCCatwhitemale
@@ -208,7 +211,7 @@ item HCCatwhitemale
 	Capacity            = 	0,
 	DisplayName 		= 	Cat (Male),
 	Icon				=	HCCatwhitemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatwhitefemale
 	{
@@ -217,7 +220,7 @@ item HCCatwhitefemale
 	Capacity            = 	0,
 	DisplayName 		= 	Cat (Female),
 	Icon				=	HCCatwhitefemale,
-	
+	DisplayCategory		= Animal,
 	}
 item HCCatwhitedead
 	{
@@ -226,7 +229,7 @@ item HCCatwhitedead
 	Capacity             		= 	0,
 	DisplayName 			= 	Dead Cat,
 	Icon				=	HCCatwhitedead,
-	
+	DisplayCategory		= AnimalDead,
 	}
 /************************RECIPES************************/
 recipe Search for Stray Cats

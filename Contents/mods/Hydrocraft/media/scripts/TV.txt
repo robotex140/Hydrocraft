@@ -15,6 +15,7 @@ item HCVHStape1
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape1,
+		DisplayCategory	= LitV,
     }
 
 item HCVHStape2
@@ -23,6 +24,7 @@ item HCVHStape2
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape2,
+		DisplayCategory	= LitV,
     }
 
 item HCVHStape3
@@ -31,6 +33,7 @@ item HCVHStape3
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape3,
+		DisplayCategory	= LitV,
     }
 
 item HCVHStape4
@@ -39,6 +42,7 @@ item HCVHStape4
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape4,
+		DisplayCategory	= LitV,
     }
 
 item HCVHStape5
@@ -47,6 +51,7 @@ item HCVHStape5
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape5,
+		DisplayCategory	= LitV,
     }
 
 

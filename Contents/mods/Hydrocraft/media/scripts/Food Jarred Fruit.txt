@@ -14,6 +14,7 @@ item HCJar
         Type   			= Normal,
         DisplayName         	= Jar with Lid,
         icon 			= HCJar,
+		DisplayCategory		=   Cooking,
     }
 
 
@@ -32,6 +33,7 @@ item HCJarredmelon
         Proteins			= 	4.2,
         Lipids 				= 	1.4,
         Calories 			= 	310,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJarredmelonpot
@@ -55,6 +57,7 @@ item HCJarredmelonpot
         Proteins			= 	8.4,
         Lipids 				= 	2.8,
         Calories 			= 	620,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJarredapples
@@ -72,6 +75,7 @@ item HCJarredapples
         Proteins			= 	1.4,
         Lipids 				= 	2.8,
         Calories 			= 	469,
+		DisplayCategory		=   FoodN,
 	}
 	
 item HCJarredapplesauce
@@ -89,6 +93,7 @@ item HCJarredapplesauce
         Proteins			= 	1.4,
         Lipids 				= 	2.8,
         Calories 			= 	469,
+		DisplayCategory		=   FoodN,
 	}	
 
 item HCJarredapplepot
@@ -112,6 +117,7 @@ item HCJarredapplepot
         Proteins			= 	2.8,
         Lipids 				= 	5.6,
         Calories 			= 	938,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJarredapplesaucepot
@@ -135,6 +141,7 @@ item HCJarredapplesaucepot
         Proteins			= 	2.8,
         Lipids 				= 	5.6,
         Calories 			= 	938,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJarredpeach
@@ -152,6 +159,7 @@ item HCJarredpeach
         Proteins			= 	3.5,
         Lipids 				= 	1.4,
         Calories 			= 	504,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJarredpeachpot
@@ -175,6 +183,7 @@ item HCJarredpeachpot
         Proteins			= 	7,
         Lipids 				= 	2.8,
         Calories 			= 	1008,
+		DisplayCategory		=   FoodP,
 	}
 	
 item HCJarredorange
@@ -192,6 +201,7 @@ item HCJarredorange
         Proteins			= 	2.1,
         Lipids 				= 	0,
         Calories 			= 	546,
+		DisplayCategory		=   FoodN,
 	}
 	
 item HCJarredorangepot
@@ -215,6 +225,7 @@ item HCJarredorangepot
         Proteins			= 	4.2,
         Lipids 				= 	0,
         Calories 			= 	1092,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJarredlemon
@@ -232,6 +243,7 @@ item HCJarredlemon
         Proteins			= 	2.8,
         Lipids 				= 	1.4,
         Calories 			= 	332,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJarredlemonpot
@@ -255,6 +267,7 @@ item HCJarredlemonpot
         Proteins			= 	5.6,
         Lipids 				= 	2.8,
         Calories 			= 	664,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJarredlime
@@ -272,6 +285,7 @@ item HCJarredlime
         Proteins			= 	2.8,
         Lipids 				= 	1.4,
         Calories 			= 	332,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCJarredlimepot
@@ -295,6 +309,7 @@ item HCJarredlimepot
         Proteins			= 	5.6,
         Lipids 				= 	2.8,
         Calories 			= 	664,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJarredgrapes
@@ -312,6 +327,7 @@ item HCJarredgrapes
         Proteins			= 	3.5,
         Lipids 				= 	0.7,
         Calories 			= 	532,
+		DisplayCategory		=   FoodN,
 	}
 	
 item HCJarredgrapespot
@@ -335,6 +351,7 @@ item HCJarredgrapespot
         Proteins			= 	7,
         Lipids 				= 	1.4,
         Calories 			= 	1064,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCJarredberries
@@ -352,6 +369,7 @@ item HCJarredberries
         Proteins			= 	4.2,
         Lipids 				= 	2.1,
         Calories 			= 	544,
+		DisplayCategory		=   FoodN,
 	}
 	
 item HCJarredberriespot
@@ -375,6 +393,7 @@ item HCJarredberriespot
         Proteins			= 	8.4,
         Lipids 				= 	4.2,
         Calories 			= 	1088,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCCurdlemon
@@ -392,6 +411,7 @@ item HCCurdlemon
         Proteins			= 	0,
         Lipids 				= 	28,
         Calories 			= 	1064,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCCurdlime
@@ -409,6 +429,7 @@ item HCCurdlime
         Proteins			= 	0,
         Lipids 				= 	28,
         Calories 			= 	1064,
+		DisplayCategory		=   FoodN,
 	}
 
 item HCCurdlemonpot
@@ -432,6 +453,7 @@ item HCCurdlemonpot
         Proteins			= 	0,
         Lipids 				= 	56,
         Calories 			= 	2128,
+		DisplayCategory		=   FoodP,
 	}
 
 item HCCurdlimepot
@@ -455,6 +477,7 @@ item HCCurdlimepot
         Proteins			= 	0,
         Lipids 				= 	56,
         Calories 			= 	2128,
+		DisplayCategory		=   FoodP,
 	}
 
 /************************RECIPES************************/

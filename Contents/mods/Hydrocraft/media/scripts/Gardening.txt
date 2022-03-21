@@ -18,6 +18,7 @@ item HCGardenbench
 	Capacity             	= 50,
     DisplayName         	= Gardening Workbench,
     icon 			= HCGardenbench,
+	DisplayCategory          =   SurFarm,
     }
 
 
@@ -27,6 +28,7 @@ item HCPlanter
     Type        	= Normal,
     DisplayName    	= Planter,
     icon        	= HCPlanter,
+	DisplayCategory          =   SurFarm,
     }
 
 item HCClayflowerpotwithdirt
@@ -35,6 +37,7 @@ item HCClayflowerpotwithdirt
         Type    	= Normal,
         DisplayName 	= Clay Flowerpot with Dirt,
         icon 		= HCClayflowerpotwithdirt,
+	DisplayCategory          =   SurFarm,
     }
 
 item HCGardenhose
@@ -45,6 +48,7 @@ item HCGardenhose
         icon 				= HCGardenhose,
 	UseDelta 			= 0.1,
 	UseWhileEquipped 		= false,
+	DisplayCategory          =   SurFarm,
 	}
 
 item HCSpirulinatank
@@ -53,6 +57,7 @@ item HCSpirulinatank
 	Type			=	Normal,
 	DisplayName		=	Fish Tank with Spirulina,
 	Icon			=	HCSpirulinatank,
+	DisplayCategory          =   SurFarm,
     }
 
 
@@ -62,6 +67,7 @@ item HCGardenapron
         Type    			= Normal,
         DisplayName         		= Garden Apron,
         icon 				= HCGardenapron,
+	DisplayCategory          =   SurFarm,
     }
 
 item HCGardengnome
@@ -70,6 +76,7 @@ item HCGardengnome
         Type    			= Normal,
         DisplayName         		= Garden Gnome,
         icon 				= HCGardengnome,
+	DisplayCategory          =   Misc,
     }
 
 item HCWindchimes
@@ -78,6 +85,7 @@ item HCWindchimes
         Type    			= Normal,
         DisplayName         		= Wind Chimes,
         icon 				= HCWindchimes,
+	DisplayCategory          =   Misc,
     }
 
 item HCHandcultivator
@@ -86,6 +94,7 @@ item HCHandcultivator
         Type    			= Normal,
         DisplayName         		= Hand Cultivator,
         icon 				= HCHandcultivator,
+	DisplayCategory          =   SurFarm,
     }
 
 item HCHedgetrimmerblade
@@ -94,6 +103,7 @@ item HCHedgetrimmerblade
         Type    			= Normal,
         DisplayName         		= Hedge Trimmer Blade,
         icon 				= HCHedgetrimmerblade,
+	DisplayCategory          =   Craft,
     }
 
 item HCHedgecutterblade
@@ -102,6 +112,7 @@ item HCHedgecutterblade
         Type    			= Normal,
         DisplayName         		= Hedge Cutter Blade,
         icon 				= HCHedgecutterblade,
+	DisplayCategory          =   Craft,
     }
 
 item HCPostholedigger
@@ -110,6 +121,7 @@ item HCPostholedigger
         Type    			= Normal,
         DisplayName         		= Post Hole Digger,
         icon 				= HCPostholedigger,
+	DisplayCategory          =   CraftRec,
     }
 
 item HCLooper
@@ -118,6 +130,7 @@ item HCLooper
         Type    			= Normal,
         DisplayName         		= Looper,
         icon 				= HCLooper,
+	DisplayCategory          =   Craft,
     }
 
 item HCWeedwacker
@@ -126,6 +139,7 @@ item HCWeedwacker
         Type    			= Normal,
         DisplayName         		= Weed Wacker,
         icon 				= HCWeedwacker,
+	DisplayCategory          =   CraftElec,
     }
 
 item HCLawnmower
@@ -134,6 +148,7 @@ item HCLawnmower
         Type    			= Normal,
         DisplayName         		= Lawnmower,
         icon 				= HCLawnmower,
+	DisplayCategory          =   CraftElec,
     }
 
 item TrellisKit
@@ -142,6 +157,7 @@ item TrellisKit
 	DisplayName			= Trellis Kit,
 	Icon				= HCTrelliskit,
 	Weight				= 0.5,
+	DisplayCategory          =   SurFarm,
 	}
 
 	item HCHedgetrimmer
@@ -180,6 +196,7 @@ item TrellisKit
         TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakMetalItem,
         TreeDamage  			=   	10,
+		DisplayCategory			=   WepMelee,
 	}
 
     item HCHedgecutter
@@ -217,6 +234,7 @@ item TrellisKit
         	IdleAnim			=	Idle_Weapon2,
         	TreeDamage  			=   	10,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory			=   WepMelee,
 	}
 
     item HCPruningsheers
@@ -254,6 +272,7 @@ item TrellisKit
         	IdleAnim					=	Idle_Weapon2,
         	TreeDamage  					=   	10,
         	EnduranceMod 					= 	0.5,
+		DisplayCategory			=   WepMelee,
 	}
 
 
@@ -454,6 +473,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
     DisplayName 		= Potted Rubber Tree,
     icon        		= HCPottedrubbertree,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -464,7 +484,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Apple Tree,
         icon        		= HCPottedappletree,
-	
+		DisplayCategory			=   SurFarm,
     }
 
     item HCPottedbananatree
@@ -474,7 +494,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Banana Tree,
         icon        		= HCPottedbananatree,
-	
+		DisplayCategory			=   SurFarm,
     }
 
     item HCPottedblackberrybush
@@ -484,6 +504,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blackberry Bush,
         icon        		= HCPottedblackberrybush,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -494,6 +515,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blueberry Bush,
         icon        		= HCPottedblueberrybush,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -505,6 +527,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Orange Tree,
         icon        		= HCPottedorangetree,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -515,6 +538,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Peach Tree,
         icon        		= HCPottedpeachtree,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -525,6 +549,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Strawberry Bush,
         icon        		= HCPottedstrawberrybush,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -535,6 +560,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Watermelon,
         icon        		= HCPottedwatermelon,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -545,6 +571,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Bell Pepper,
         icon        		= HCPottedbellpepper,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -555,6 +582,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Broccoli,
         icon        		= HCPottedbroccoli,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -565,6 +593,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cabbage,
         icon        		= HCPottedcabbage,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -575,6 +604,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Carrots,
         icon        		= HCPottedcarrots,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -585,6 +615,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Corn Stalk,
         icon        		= HCPottedcorn,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -595,6 +626,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Eggplant,
         icon        		= HCPottedeggplant,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -605,6 +637,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Leek,
         icon        		= HCPottedleek,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -615,6 +648,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Lettuce,
         icon        		= HCPottedlettuce,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -625,6 +659,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Onion,
         icon        		= HCPottedonion,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -635,6 +670,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pea Plant,
         icon        		= HCPottedpeaplant,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -645,6 +681,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Potato,
         icon        		= HCPottedpotato,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -656,6 +693,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pumpkin,
         icon        		= HCPottedpumpkin,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -666,6 +704,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Radish,
         icon        		= HCPottedradish,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -676,6 +715,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tomato,
         icon        		= HCPottedtomato,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -686,6 +726,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Peanut Plant,
         icon        		= HCPottedpeanutplant,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -696,6 +737,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Avocado Tree,
         icon        		= HCPottedavocadotree,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -706,6 +748,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cherry Tree,
         icon        		= HCPottedcherrytree,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -716,6 +759,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pear Tree,
         icon        		= HCPottedpeartree,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -726,6 +770,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Pineapple,
         icon        		= HCPottedpineapple,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -736,6 +781,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Zucchini,
         icon        		= HCPottedzucchini,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -746,6 +792,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tea Tree,
         icon        		= HCPottedtea,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -756,6 +803,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Hemp Plant,
         icon        		= HCPottedhemp,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -766,6 +814,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tobacco Plant,
         icon        		= HCPottedtobacco,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -776,6 +825,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Chinese Cabbage,
         icon        		= HCPottedchinesecabbage,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -786,6 +836,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cucumber,
         icon        		= HCPottedcucumber,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -796,6 +847,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Ginger,
         icon        		= HCPottedginger,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -806,6 +858,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Garlic,
         icon        		= HCPottedgarlic,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -816,6 +869,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Onion,
         icon        		= HCPottedoniongreen,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -826,6 +880,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Sweet Potato,
         icon        		= HCPottedsweetpotato,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -836,6 +891,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Jute Plant,
         icon        		= HCPottedjute,
+		DisplayCategory			=   SurFarm,
 		
     }
 
@@ -846,6 +902,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Pumpkin,
         icon        		= HCPottedpumpkingreen,
+		DisplayCategory			=   SurFarm,
 		
     }
 
@@ -856,6 +913,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted White Pumpkin,
         icon        		= HCPottedpumpkinwhite,
+		DisplayCategory			=   SurFarm,
 		
     }
 
@@ -866,6 +924,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Large Pumpkin,
         icon        		= HCPottedpumpkinlarge,
+		DisplayCategory			=   SurFarm,
 		
     }
 
@@ -876,6 +935,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Buskin Pumpkin,
         icon        		= HCPottedpumpkinbuskin,
+		DisplayCategory			=   SurFarm,
 		
     }
 
@@ -887,6 +947,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted White Corn,
         icon        		= HCPottedcornwhite,
+		DisplayCategory			=   SurFarm,
 		
     }
 
@@ -897,6 +958,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Red Corn,
         icon        		= HCPottedcornred,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -907,6 +969,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blue Corn,
         icon        		= HCPottedcornblue,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -917,6 +980,7 @@ recipe Make Straw Hat
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Chili Pepper Plant,
         icon        		= HCPottedchilipepperplant,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -927,6 +991,7 @@ item HCPottedpoppy
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Poppy,
         icon        		= HCPottedpoppy,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -937,6 +1002,7 @@ item HCPottedcactus
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cactus,
         Icon        		= HCPottedcactus,
+		DisplayCategory			=   SurFarm,
 	
     	}
 
@@ -947,6 +1013,7 @@ item HCPottedagaveblue
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Blue Agave,
         Icon        		= HCPottedagaveblue,
+		DisplayCategory			=   SurFarm,
 	
     	}
 
@@ -957,6 +1024,7 @@ item HCPottedpricklypearcactus
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Prickly Pear Cactus,
         Icon        		= HCPottedpricklypearcactus,
+		DisplayCategory			=   SurFarm,
 	
     	}
 
@@ -967,6 +1035,7 @@ item HCPottedchiligreen
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Green Chili,
         Icon        		= HCPottedchilipepperplant,
+		DisplayCategory			=   SurFarm,
 	
     	}
 
@@ -977,6 +1046,7 @@ item HCPottedtomatilloplant
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Tomatillo Plant,
         Icon        		= HCPottedtomatilloplant,
+		DisplayCategory			=   SurFarm,
 	
     	}
 
@@ -987,6 +1057,7 @@ item HCPottedcottonplant
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Cotton Plant,
         icon        		= HCPottedcottonplant,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -997,6 +1068,7 @@ item HCPottedrice
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Rice,
         icon        		= HCPottedrice,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1007,6 +1079,7 @@ item HCPottedshiitake
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Shiitake Mushrooms,
         icon        		= HCPottedshiitake,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1017,6 +1090,7 @@ item HCPottedportobello
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Portobello Mushrooms,
         icon        		= HCPottedportobello,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1027,6 +1101,7 @@ item HCPottedcolewort
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Colewort,
         icon        		= HCPottedcolewort,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1037,6 +1112,7 @@ item HCPottedrubbertree
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Rubber Tree,
         icon        		= HCPottedrubbertree,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1046,6 +1122,7 @@ item HCSpirulinatank
 	Type			=	Normal,
 	DisplayName		=	Fish Tank with Spirulina,
 	Icon			=	HCSpirulinatank,
+		DisplayCategory			=   SurFarm,
     }
 
 item HCPottedbasil
@@ -1055,6 +1132,7 @@ item HCPottedbasil
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Basil,
         icon        		= HCPottedbasil,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1065,6 +1143,7 @@ item HCPottedalfalfa
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Alfalfa,
         icon        		= HCPottedalfalfa,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1076,6 +1155,7 @@ item HCPottedoregano
     UseWhileEquipped    = FALSE,
     DisplayName         = Potted Oregano,
     icon                = HCPottedalfalfa,
+		DisplayCategory			=   SurFarm,
     }
 
 
@@ -1086,6 +1166,7 @@ item HCPottedbamboo
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Bamboo,
         icon        		= HCPottedbamboo,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1096,6 +1177,7 @@ item HCPottedasparagus
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Asparagus,
         icon        		= HCPottedasparagus,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1106,6 +1188,7 @@ item HCPottedartichokes
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Artichokes,
         icon        		= HCPottedartichokes,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1116,6 +1199,7 @@ item HCPottedbeets
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Beets,
         icon        		= HCPottedbeets,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1126,6 +1210,7 @@ item HCPottedmulberry
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Mulberry,
         icon        		= HCPottedmulberry,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1136,6 +1221,7 @@ item HCPottedapricot
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Apricot,
         icon        		= HCPottedapricot,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1146,6 +1232,7 @@ item HCPottedcelery
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Celery,
         icon        		= HCPottedcelery,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1156,6 +1243,7 @@ item HCPottedspinach
 	UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Spinach,
         icon        		= HCPottedspinach,
+		DisplayCategory			=   SurFarm,
 	
     }
 
@@ -1169,6 +1257,7 @@ item HCPottedspinach
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Cherry Tomato,
         icon                = HCPottedtomato,
+		DisplayCategory			=   SurFarm,
     
     }
     item HCPottedTomatocherrysmall
@@ -1178,6 +1267,7 @@ item HCPottedspinach
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Cherry Tomato,
         icon                = HCPottedtomatosmall,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedTomatocherrysmalldead
@@ -1187,6 +1277,7 @@ item HCPottedspinach
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Cherry Tomato,
         icon                = HCPottedtomatosmalldead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedTomatocherrysmalldry
@@ -1196,6 +1287,7 @@ item HCPottedspinach
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Cherry Tomato,
         icon                = HCPottedtomatosmall,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedTomatocherrydry
@@ -1205,6 +1297,7 @@ item HCPottedspinach
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Cherry Tomato,
         icon                = HCPottedtomato,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedTomatocherrydead
@@ -1214,6 +1307,7 @@ item HCPottedspinach
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Cherry Tomato,
         icon                = HCPottedtomatodead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedTomatocherryready
@@ -1223,6 +1317,7 @@ item HCPottedspinach
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Cherry Tomato,
         icon                = HCPottedtomatoready,
+		DisplayCategory			=   SurFarm,
         
     }
 
@@ -1233,6 +1328,7 @@ item HCPottedBeetsugar
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Sugar Beet,
         icon                = HCPottedbeets,
+		DisplayCategory			=   SurFarm,
     
     }
 item HCPottedBeetsugarsmall
@@ -1242,6 +1338,7 @@ item HCPottedBeetsugarsmall
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Sugar Beet,
         icon                = HCPottedbeetssmall,
+		DisplayCategory			=   SurFarm,
         
     }
 item HCPottedBeetsugarsmalldead
@@ -1251,6 +1348,7 @@ item HCPottedBeetsugarsmalldead
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Sugar Beet,
         icon                = HCPottedbeetssmalldead,
+		DisplayCategory			=   SurFarm,
         
     }
 item HCPottedBeetsugarsmalldry
@@ -1260,6 +1358,7 @@ item HCPottedBeetsugarsmalldry
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Sugar Beet,
         icon                = HCPottedbeetssmall,
+		DisplayCategory			=   SurFarm,
         
     }
 item HCPottedBeetsugardry
@@ -1269,6 +1368,7 @@ item HCPottedBeetsugardry
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Sugar Beet,
         icon                = HCPottedbeets,
+		DisplayCategory			=   SurFarm,
         
     }
 item HCPottedBeetsugardead
@@ -1278,6 +1378,7 @@ item HCPottedBeetsugardead
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Sugar Beet,
         icon                = HCPottedbeetsdead,
+		DisplayCategory			=   SurFarm,
         
     }
 item HCPottedBeetsugarready
@@ -1287,6 +1388,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Sugar Beet,
         icon                = HCPottedbeets,
+		DisplayCategory			=   SurFarm,
     }
 
 
@@ -1297,6 +1399,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Potted Summer Squash,
         icon                = HCPottedSquashsummer,
+		DisplayCategory			=   SurFarm,
     }
 
     item HCPottedSquashsummersmall
@@ -1306,6 +1409,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Summer Squash,
         icon                = HCPottedSquashsummersmall,
+		DisplayCategory			=   SurFarm,
     }
 
     item HCPottedSquashsummersmalldead
@@ -1315,6 +1419,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Summer Squash,
         icon                = HCPottedSquashsummersmalldead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedSquashsummersmalldry
@@ -1324,6 +1429,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Summer Squash,
         icon                = HCPottedSquashsummersmall,
+		DisplayCategory			=   SurFarm,
         
     }
     
@@ -1334,6 +1440,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Summer Squash,
         icon                = HCPottedSquashsummer,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedSquashsummerdead
@@ -1343,6 +1450,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Summer Squash,
         icon                = HCPottedSquashsummerdead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedSquashsummerready
@@ -1352,6 +1460,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Summer Squash,
         icon                = HCPottedSquashsummerready,
+		DisplayCategory			=   SurFarm,
     }
 
    item HCPottedPotatored
@@ -1361,6 +1470,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Red Potato,
         icon                = HCPottedpotato,
+		DisplayCategory			=   SurFarm,
     
     }
 
@@ -1371,6 +1481,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Red Potato,
         icon                = HCPottedpotatosmall,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatoredsmalldead
@@ -1380,6 +1491,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Red Potato,
         icon                = HCPottedpotatosmalldead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatoredsmalldry
@@ -1389,6 +1501,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Red Potato,
         icon                = HCPottedpotatosmall,
+		DisplayCategory			=   SurFarm,
         
     }
     
@@ -1399,6 +1512,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Red Potato,
         icon                = HCPottedpotato,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatoreddead
@@ -1408,6 +1522,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Red Potato,
         icon                = HCPottedpotatodead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatoredready
@@ -1417,6 +1532,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Red Potato,
         icon                = HCPottedpotatoready,
+		DisplayCategory			=   SurFarm,
     }
 
 
@@ -1427,6 +1543,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Golden Potatoes,
         icon                = HCPottedpotato,
+		DisplayCategory			=   SurFarm,
     
     }
 
@@ -1437,6 +1554,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Golden Potatoes,
         icon                = HCPottedpotatosmall,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatogoldensmalldead
@@ -1446,6 +1564,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Golden Potatoes,
         icon                = HCPottedpotatosmalldead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatogoldensmalldry
@@ -1455,6 +1574,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Golden Potatoes,
         icon                = HCPottedpotatosmall,
+		DisplayCategory			=   SurFarm,
         
     }
     
@@ -1465,6 +1585,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Golden Potatoes,
         icon                = HCPottedpotato,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatogoldendead
@@ -1474,6 +1595,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Golden Potatoes,
         icon                = HCPottedpotatodead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedPotatogoldenready
@@ -1483,6 +1605,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Golden Potatoes,
         icon                = HCPottedpotato,
+		DisplayCategory			=   SurFarm,
     }
 
     item HCPottedCabbagewhite
@@ -1492,6 +1615,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted White Cabbage,
         icon                = HCPottedCabbagewhite,
+		DisplayCategory			=   SurFarm,
     
     }
 
@@ -1502,6 +1626,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted White Cabbage,
         icon                = HCPottedCabbagewhitesmall,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedCabbagewhitesmalldead
@@ -1511,6 +1636,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted White Cabbage,
         icon                = HCPottedCabbagewhitesmalldead,
+		DisplayCategory			=   SurFarm,
         
     }
     item HCPottedCabbagewhitesmalldry
@@ -1520,6 +1646,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted White Cabbage,
         icon                = HCPottedCabbagewhitesmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1530,6 +1657,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted White Cabbage,
         icon                = HCPottedCabbagewhite,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCabbagewhitedead
@@ -1539,6 +1667,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted White Cabbage,
         icon                = HCPottedCabbagewhitedead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCabbagewhiteready
@@ -1548,6 +1677,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted White Cabbage,
         icon                = HCPottedCabbagewhiteready,
+		DisplayCategory		= SurFarm,
     }
 
    item HCPottedCabbagered
@@ -1557,6 +1687,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Red Cabbage,
         icon                = HCPottedCabbagered,
+		DisplayCategory		= SurFarm,
     
     }
 
@@ -1567,6 +1698,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Red Cabbage,
         icon                = HCPottedCabbageredsmall,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCabbageredsmalldead
@@ -1576,6 +1708,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Red Cabbage,
         icon                = HCPottedCabbageredsmalldead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCabbageredsmalldry
@@ -1585,6 +1718,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Red Cabbage,
         icon                = HCPottedCabbageredsmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1595,6 +1729,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Red Cabbage,
         icon                = HCPottedCabbagered,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCabbagereddead
@@ -1604,6 +1739,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Red Cabbage,
         icon                = HCPottedCabbagereddead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCabbageredready
@@ -1613,6 +1749,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Red Cabbage,
         icon                = HCPottedCabbageredready,
+		DisplayCategory		= SurFarm,
     }
 
     item HCPottedBellpepperyellow
@@ -1622,6 +1759,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Yellow Bell Pepper,
         icon                = HCPottedbellpepper,
+		DisplayCategory		= SurFarm,
     
     }
 
@@ -1632,6 +1770,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Yellow Bell Pepper,
         icon                = HCPottedbellpeppersmall,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpepperyellowsmalldead
@@ -1641,6 +1780,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Yellow Bell Pepper,
         icon                = HCPottedbellpeppersmalldead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpepperyellowsmalldry
@@ -1650,6 +1790,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Yellow Bell Pepper,
         icon                = HCPottedbellpeppersmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1660,6 +1801,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Yellow Bell Pepper,
         icon                = HCPottedbellpepper,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpepperyellowdead
@@ -1669,6 +1811,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Yellow Bell Pepper,
         icon                = HCPottedbellpepperdead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpepperyellowready
@@ -1678,6 +1821,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Yellow Bell Pepper,
         icon                = HCPottedBellpepperyellowready,
+		DisplayCategory		= SurFarm,
     }
 
     item HCPottedBellpeppergreen
@@ -1687,6 +1831,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Green Bell Pepper,
         icon                = HCPottedbellpepper,
+		DisplayCategory		= SurFarm,
     
     }
 
@@ -1697,6 +1842,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Green Bell Pepper,
         icon                = HCPottedbellpeppersmall,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpeppergreensmalldead
@@ -1706,6 +1852,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Green Bell Pepper,
         icon                = HCPottedbellpeppersmalldead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpeppergreensmalldry
@@ -1715,6 +1862,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Green Bell Pepper,
         icon                = HCPottedbellpeppersmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1725,6 +1873,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Green Bell Pepper,
         icon                = HCPottedbellpepper,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpeppergreendead
@@ -1734,6 +1883,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Green Bell Pepper,
         icon                = HCPottedbellpepperdead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBellpeppergreenready
@@ -1743,6 +1893,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Green Bell Pepper,
         icon                = HCPottedBellpeppergreenready,
+		DisplayCategory		= SurFarm,
     }
 
     item HCPottedCauliflower
@@ -1752,6 +1903,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Cauliflower,
         icon                = HCPottedCauliflower,
+		DisplayCategory		= SurFarm,
     
     }
 
@@ -1762,6 +1914,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Cauliflower,
         icon                = HCPottedCauliflowersmall,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCauliflowersmalldead
@@ -1771,6 +1924,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Cauliflower,
         icon                = HCPottedCauliflowersmalldead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCauliflowersmalldry
@@ -1780,6 +1934,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Cauliflower,
         icon                = HCPottedCauliflowersmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1790,6 +1945,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Cauliflower,
         icon                = HCPottedCauliflower,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCauliflowerdead
@@ -1799,6 +1955,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Cauliflower,
         icon                = HCPottedCauliflowerdead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedCauliflowerready
@@ -1808,6 +1965,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Cauliflower,
         icon                = HCPottedCauliflowerready,
+		DisplayCategory		= SurFarm,
     }
 
    item HCPottedBeans
@@ -1817,6 +1975,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Beans,
         icon                = HCPottedBeans,
+		DisplayCategory		= SurFarm,
     
     }
 
@@ -1827,6 +1986,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Beans,
         icon                = HCPottedBeanssmall,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBeanssmalldead
@@ -1836,6 +1996,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Beans,
         icon                = HCPottedBeanssmalldead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBeanssmalldry
@@ -1845,6 +2006,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Beans,
         icon                = HCPottedBeanssmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1855,6 +2017,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Beans,
         icon                = HCPottedBeans,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBeansdead
@@ -1864,6 +2027,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Beans,
         icon                = HCPottedBeansdead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedBeansready
@@ -1873,6 +2037,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Beans,
         icon                = HCPottedBeansready,
+		DisplayCategory		= SurFarm,
     }
 
     item HCPottedPersimmon
@@ -1882,6 +2047,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Persimmon,
         icon                = HCPottedPersimmon,
+		DisplayCategory		= SurFarm,
     
     }
 
@@ -1892,6 +2058,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Persimmon,
         icon                = HCPottedPersimmonsmall,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedPersimmonsmalldead
@@ -1901,6 +2068,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Persimmon,
         icon                = HCPottedPersimmonsmalldead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedPersimmonsmalldry
@@ -1910,6 +2078,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Persimmon,
         icon                = HCPottedPersimmonsmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1920,6 +2089,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Potted Persimmon,
         icon                = HCPottedPersimmon,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedPersimmondead
@@ -1929,6 +2099,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Potted Persimmon,
         icon                = HCPottedPersimmondead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedPersimmonready
@@ -1938,6 +2109,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Ready Potted Persimmon,
         icon                = HCPottedPersimmonready,
+		DisplayCategory		= SurFarm,
     }
 
     item HCPottedPlum
@@ -1947,6 +2119,7 @@ item HCPottedBeetsugarready
     UseWhileEquipped    = FALSE,
         DisplayName         = Potted Plum,
         icon                = HCPottedPlum,
+		DisplayCategory		= SurFarm,
     
     }
     
@@ -1957,6 +2130,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Small Potted Plum,
         icon                = HCPottedPlumsmall,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedPlumsmalldead
@@ -1966,6 +2140,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dead Small Potted Plum,
         icon                = HCPottedPlumsmalldead,
+		DisplayCategory		= SurFarm,
         
     }
     item HCPottedPlumsmalldry
@@ -1975,6 +2150,7 @@ item HCPottedBeetsugarready
         UseWhileEquipped    = FALSE,
         DisplayName         = Dry Small Potted Plum,
         icon                = HCPottedPlumsmall,
+		DisplayCategory		= SurFarm,
         
     }
     
@@ -1983,6 +2159,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Plum,
         icon                = HCPottedPlum,
         
@@ -1992,6 +2169,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Plum,
         icon                = HCPottedPlumdead,
         
@@ -2001,6 +2179,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Plum,
         icon                = HCPottedPlumready,
     }
@@ -2010,6 +2189,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
     UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Kiwi,
         icon                = HCPottedKiwi,
     
@@ -2020,6 +2200,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Kiwi,
         icon                = HCPottedKiwismall,
         
@@ -2029,6 +2210,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Kiwi,
         icon                = HCPottedKiwismalldead,
         
@@ -2038,6 +2220,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Kiwi,
         icon                = HCPottedKiwismall,
         
@@ -2048,6 +2231,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Kiwi,
         icon                = HCPottedKiwi,
         
@@ -2057,6 +2241,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Kiwi,
         icon                = HCPottedKiwidead,
         
@@ -2066,6 +2251,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Kiwi,
         icon                = HCPottedKiwiready,
     }
@@ -2075,6 +2261,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
     UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Fig,
         icon                = HCPottedFig,
     
@@ -2085,6 +2272,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Fig,
         icon                = HCPottedFigsmall,
         
@@ -2094,6 +2282,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Fig,
         icon                = HCPottedFigsmalldead,
         
@@ -2103,6 +2292,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Fig,
         icon                = HCPottedFigsmall,
         
@@ -2113,6 +2303,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Fig,
         icon                = HCPottedFig,
         
@@ -2122,6 +2313,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Fig,
         icon                = HCPottedFigdead,
         
@@ -2131,6 +2323,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Fig,
         icon                = HCPottedFigready,
     }
@@ -2140,6 +2333,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
     UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Date,
         icon                = HCPottedDate,
     
@@ -2150,6 +2344,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Date,
         icon                = HCPottedDatesmall,
         
@@ -2159,6 +2354,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Date,
         icon                = HCPottedDatesmalldead,
         
@@ -2168,6 +2364,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Date,
         icon                = HCPottedDatesmall,
         
@@ -2178,6 +2375,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Date,
         icon                = HCPottedDate,
         
@@ -2187,6 +2385,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Date,
         icon                = HCPottedDatedead,
         
@@ -2196,6 +2395,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Date,
         icon                = HCPottedDateready,
     }
@@ -2206,6 +2406,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
     UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Lime Tree,
         icon                = HCPottedlimetree,
     
@@ -2216,6 +2417,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Lime Tree,
         icon                = HCPottedlimetreesmall,
         
@@ -2225,6 +2427,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Lime Tree,
         icon                = HCPottedlimetreesmalldead,
         
@@ -2234,6 +2437,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Lime Tree,
         icon                = HCPottedlimetreesmall,
         
@@ -2244,6 +2448,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Lime Tree,
         icon                = HCPottedlimetree,
         
@@ -2253,6 +2458,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Lime Tree,
         icon                = HCPottedlimetreedead,
         
@@ -2262,6 +2468,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Lime Tree,
         icon                = HCPottedlimetreeready,
     }
@@ -2271,6 +2478,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Wheat,
         icon                = HCPottedwheatsmall,
         
@@ -2280,6 +2488,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Wheat,
         icon                = HCPottedwheatsmalldead,
         
@@ -2290,6 +2499,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Wheat,
         icon                = HCPottedwheatsmall,
         
@@ -2299,6 +2509,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Wheat,
         icon                = HCPottedwheat,
         
@@ -2308,6 +2519,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Wheat,
         icon                = HCPottedwheat,
         
@@ -2317,6 +2529,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Wheat,
         icon                = HCPottedwheatdead,
         
@@ -2326,6 +2539,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Wheat,
         icon                = HCPottedwheat,
     }
@@ -2335,6 +2549,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Apple Tree,
         icon                = HCPottedappletreesmall,
         
@@ -2344,6 +2559,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Apple Tree,
         icon                = HCPottedappletreesmalldead,
         
@@ -2353,6 +2569,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Apple Tree,
         icon                = HCPottedappletreesmall,
         
@@ -2363,6 +2580,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Apple Tree,
         icon                = HCPottedappletree,
         
@@ -2372,6 +2590,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Apple Tree,
         icon                = HCPottedappletreedead,
         
@@ -2381,6 +2600,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Apple Tree,
         icon                = HCPottedappletreeready,
     }
@@ -2390,6 +2610,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Banana Tree,
         icon                = HCPottedbananatreesmall,
         
@@ -2399,6 +2620,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Banana Tree,
         icon                = HCPottedbananatreesmalldead,
         
@@ -2408,6 +2630,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Banana Tree,
         icon                = HCPottedbananatreesmall,
         
@@ -2417,6 +2640,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Banana Tree,
         icon                = HCPottedbananatree,
         
@@ -2426,6 +2650,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Banana Tree,
         icon                = HCPottedbananatreedead,
         
@@ -2435,6 +2660,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Banana Tree,
         icon                = HCPottedbananatreeready,
     }
@@ -2444,6 +2670,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blackberry Bush,
         icon                = HCPottedblackberrybushsmall,
         
@@ -2453,6 +2680,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blackberry Bush,
         icon                = HCPottedblackberrybushsmalldead,
         
@@ -2462,6 +2690,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blackberry Bush,
         icon                = HCPottedblackberrybushsmall,
         
@@ -2472,6 +2701,7 @@ item HCPottedBeetsugarready
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blackberry Bush,
         icon                = HCPottedblackberrybush,
         
@@ -2481,6 +2711,7 @@ item HCPottedBeetsugarready
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blackberry Bush,
         icon                = HCPottedblackberrybushdead,
         
@@ -2500,6 +2731,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blueberry Bush,
         icon                = HCPottedblueberrybushsmall,
         }
@@ -2509,6 +2741,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blueberry Bush,
         icon                = HCPottedblueberrybushsmalldead,
         
@@ -2518,6 +2751,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blueberry Bush,
         icon                = HCPottedblueberrybushsmall,
         
@@ -2528,6 +2762,7 @@ item HCPottedBeetsugarready
         Weight              = 15,
         Type                = Normal,
     UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blueberry Bush,
         icon                = HCPottedblueberrybush,
     
@@ -2537,6 +2772,7 @@ item HCPottedBeetsugarready
         Weight              = 15,
         Type                = Normal,
     UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blueberry Bush,
         icon                = HCPottedblueberrybushdead,
     
@@ -2556,6 +2792,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Mulberry,
         icon                = HCPottedGeneric,
     }
@@ -2565,6 +2802,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Candleberry Tree,
         icon                = HCPottedGeneric,
     }
@@ -2586,6 +2824,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Orange Tree,
         icon                = HCPottedorangetreesmall,
         
@@ -2596,6 +2835,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Orange Tree,
         icon                = HCPottedorangetreesmalldead,
         
@@ -2605,6 +2845,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Orange Tree,
         icon                = HCPottedorangetreesmall,
         
@@ -2615,6 +2856,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Orange Tree,
         icon                = HCPottedorangetree,
         
@@ -2624,6 +2866,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Orange Tree,
         icon                = HCPottedorangetreedead,
         
@@ -2633,6 +2876,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Orange Tree,
         icon                = HCPottedorangetreeready,
     }
@@ -2642,6 +2886,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Peach Tree,
         icon                = HCPottedpeachtreesmall,
         
@@ -2651,6 +2896,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Peach Tree,
         icon                = HCPottedpeachtreesmalldead,
         
@@ -2660,6 +2906,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Peach Tree,
         icon                = HCPottedpeachtreesmall,
         
@@ -2670,6 +2917,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Peach Tree,
         icon                = HCPottedpeachtree,
         
@@ -2679,6 +2927,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Peach Tree,
         icon                = HCPottedpeachtreedead,
         
@@ -2688,6 +2937,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Peach Tree,
         icon                = HCPottedpeachtreeready,
    }
@@ -2697,6 +2947,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Strawberry Bush,
         icon                = HCPottedstrawberrybushsmall,
         
@@ -2706,6 +2957,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Strawberry Bush,
         icon                = HCPottedstrawberrybushsmalldead,
         
@@ -2715,6 +2967,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Strawberry Bush,
         icon                = HCPottedstrawberrybushsmall,
         
@@ -2725,6 +2978,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Strawberry Bush,
         icon                = HCPottedstrawberrybush,
         
@@ -2734,6 +2988,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Strawberry Bush,
         icon                = HCPottedstrawberrybushdead,
         
@@ -2743,6 +2998,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Strawberry Bush,
         icon                = HCPottedstrawberrybushready,
     }
@@ -2752,6 +3008,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Watermelon,
         icon                = HCPottedwatermelonsmall,
         
@@ -2761,6 +3018,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Watermelon,
         icon                = HCPottedwatermelonsmalldead,
         
@@ -2770,6 +3028,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Watermelon,
         icon                = HCPottedwatermelonsmall,
         
@@ -2780,6 +3039,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Watermelon,
         icon                = HCPottedwatermelon,
         
@@ -2789,6 +3049,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Watermelon,
         icon                = HCPottedwatermelondead,
         
@@ -2798,6 +3059,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Watermelon,
         icon                = HCPottedwatermelon,
     }
@@ -2807,6 +3069,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Bell Pepper,
         icon                = HCPottedbellpeppersmall,
         
@@ -2816,6 +3079,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Bell Pepper,
         icon                = HCPottedbellpeppersmalldead,
         
@@ -2825,6 +3089,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Bell Pepper,
         icon                = HCPottedbellpeppersmall,
         
@@ -2835,6 +3100,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Bell Pepper,
         icon                = HCPottedbellpepper,
         
@@ -2844,6 +3110,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Bell Pepper,
         icon                = HCPottedbellpepperdead,
         
@@ -2853,6 +3120,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Bell Pepper,
         icon                = HCPottedbellpepperready,
     }
@@ -2862,6 +3130,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Broccoli,
         icon                = HCPottedbroccolismall,
         
@@ -2871,6 +3140,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Broccoli,
         icon                = HCPottedbroccolismalldead,
         
@@ -2880,6 +3150,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Broccoli,
         icon                = HCPottedbroccolismall,
         
@@ -2890,6 +3161,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Broccoli,
         icon                = HCPottedbroccoli,
         
@@ -2899,6 +3171,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Broccoli,
         icon                = HCPottedbroccolidead,
         
@@ -2908,6 +3181,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Broccoli,
         icon                = HCPottedbroccoli,
     }
@@ -2917,6 +3191,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cabbage,
         icon                = HCPottedcabbagesmall,
         
@@ -2926,6 +3201,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cabbage,
         icon                = HCPottedcabbagesmalldead,
         
@@ -2935,6 +3211,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cabbage,
         icon                = HCPottedcabbagesmall,
         
@@ -2945,6 +3222,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cabbage,
         icon                = HCPottedcabbage,
         
@@ -2954,6 +3232,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cabbage,
         icon                = HCPottedcabbagedead,
         
@@ -2963,6 +3242,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cabbage,
         icon                = HCPottedcabbage,
     }
@@ -2972,6 +3252,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Carrots,
         icon                = HCPottedcarrotssmall,
         
@@ -2981,6 +3262,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Carrots,
         icon                = HCPottedcarrotssmalldead,
         
@@ -2990,6 +3272,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Carrots,
         icon                = HCPottedcarrotssmall,
         
@@ -2999,6 +3282,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Carrots,
         icon                = HCPottedcarrots,
         
@@ -3008,6 +3292,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Carrots,
         icon                = HCPottedcarrotsdead,
         
@@ -3017,6 +3302,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Carrots,
         icon                = HCPottedcarrots,
     }
@@ -3026,6 +3312,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Corn Stalk,
         icon                = HCPottedcornsmall,
         
@@ -3035,6 +3322,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Corn Stalk,
         icon                = HCPottedcornsmalldead,
         
@@ -3044,6 +3332,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Corn Stalk,
         icon                = HCPottedcornsmall,
         
@@ -3053,6 +3342,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Corn Stalk,
         icon                = HCPottedcorn,
         
@@ -3062,6 +3352,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Corn Stalk,
         icon                = HCPottedcorndead,
         
@@ -3071,6 +3362,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Corn Stalk,
         icon                = HCPottedcornstalk,
     }
@@ -3080,6 +3372,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Eggplant,
         icon                = HCPottedeggplantsmall,
         
@@ -3089,6 +3382,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Eggplant,
         icon                = HCPottedeggplantsmalldead,
         
@@ -3098,6 +3392,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Eggplant,
         icon                = HCPottedeggplantsmall,
         
@@ -3107,6 +3402,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Eggplant,
         icon                = HCPottedeggplant,
         
@@ -3116,6 +3412,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Eggplant,
         icon                = HCPottedeggplantdead,
         
@@ -3125,6 +3422,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Eggplant,
         icon                = HCPottedeggplantready,
     }
@@ -3134,6 +3432,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Leek,
         icon                = HCPottedleeksmall,
         
@@ -3143,6 +3442,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Leek,
         icon                = HCPottedleeksmalldead,
         
@@ -3152,6 +3452,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Leek,
         icon                = HCPottedleeksmall,
         
@@ -3161,6 +3462,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Leek,
         icon                = HCPottedleek,
         
@@ -3170,6 +3472,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Leek,
         icon                = HCPottedleekdead,
         
@@ -3179,6 +3482,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Leek,
         icon                = HCPottedleekready,
     }
@@ -3188,6 +3492,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Lettuce,
         icon                = HCPottedlettucesmall,
         
@@ -3197,6 +3502,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Lettuce,
         icon                = HCPottedlettucesmalldead,
         
@@ -3206,6 +3512,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Lettuce,
         icon                = HCPottedlettucesmall,
         
@@ -3215,6 +3522,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Lettuce,
         icon                = HCPottedlettuce,
         
@@ -3224,6 +3532,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Lettuce,
         icon                = HCPottedlettucedead,
         
@@ -3233,6 +3542,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Lettuce,
         icon                = HCPottedlettuce,
     }
@@ -3242,6 +3552,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Onion,
         icon                = HCPottedonionsmall,
         
@@ -3251,6 +3562,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Onion,
         icon                = HCPottedonionsmalldead,
         
@@ -3260,6 +3572,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Onion,
         icon                = HCPottedonionsmall,
         
@@ -3269,6 +3582,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Onion,
         icon                = HCPottedonion,
         
@@ -3278,6 +3592,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Onion,
         icon                = HCPottedoniondead,
         
@@ -3287,6 +3602,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Onion,
         icon                = HCPottedonion,
     }
@@ -3296,6 +3612,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pea Plant,
         icon                = HCPottedpeaplantsmall,
         
@@ -3305,6 +3622,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pea Plant,
         icon                = HCPottedpeaplantsmalldead,
         
@@ -3314,6 +3632,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pea Plant,
         icon                = HCPottedpeaplantsmalldry,
         
@@ -3323,6 +3642,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pea Plant,
         icon                = HCPottedpeaplant,
         
@@ -3332,6 +3652,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pea Plant,
         icon                = HCPottedpeaplantdead,
         
@@ -3341,6 +3662,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pea Plant,
         icon                = HCPottedpeaplant,
     }
@@ -3350,6 +3672,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Potato,
         icon                = HCPottedpotatosmall,
         
@@ -3359,6 +3682,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Potato,
         icon                = HCPottedpotatosmalldead,
         
@@ -3368,6 +3692,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Potato,
         icon                = HCPottedpotatosmall,
         
@@ -3377,6 +3702,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Potato,
         icon                = HCPottedpotato,
         
@@ -3386,6 +3712,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Potato,
         icon                = HCPottedpotatodead,
         
@@ -3395,6 +3722,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Potato,
         icon                = HCPottedpotato,
     }
@@ -3404,6 +3732,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pumpkin,
         icon                = HCPottedpumpkinsmall,
         
@@ -3413,6 +3742,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pumpkin,
         icon                = HCPottedpumpkinsmalldead,
         
@@ -3422,6 +3752,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pumpkin,
         icon                = HCPottedpumpkinsmall,
         
@@ -3431,6 +3762,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pumpkin,
         icon                = HCPottedpumpkin,
         
@@ -3440,6 +3772,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pumpkin,
         icon                = HCPottedpumpkindead,
         
@@ -3449,6 +3782,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pumpkin,
         icon                = HCPottedpumpkin,
     }
@@ -3458,6 +3792,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Radish,
         icon                = HCPottedradishsmall,
         
@@ -3467,6 +3802,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Radish,
         icon                = HCPottedradishsmalldead,
         
@@ -3476,6 +3812,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Radish,
         icon                = HCPottedradishsmall,
         
@@ -3485,6 +3822,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Radish,
         icon                = HCPottedradish,
         
@@ -3494,6 +3832,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Radish,
         icon                = HCPottedradishdead,
         
@@ -3503,6 +3842,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Radish,
         icon                = HCPottedradishready,
     }
@@ -3512,6 +3852,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tomato,
         icon                = HCPottedtomatosmall,
         
@@ -3521,6 +3862,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tomato,
         icon                = HCPottedtomatosmalldead,
         
@@ -3530,6 +3872,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tomato,
         icon                = HCPottedtomatosmall,
         
@@ -3539,6 +3882,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tomato,
         icon                = HCPottedtomato,
         
@@ -3548,6 +3892,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tomato,
         icon                = HCPottedtomatodead,
         
@@ -3557,6 +3902,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tomato,
         icon                = HCPottedtomatoready,
     }
@@ -3566,6 +3912,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Peanut Plant,
         icon                = HCPottedpeanutplantsmall,
         
@@ -3575,6 +3922,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Peanut Plant,
         icon                = HCPottedpeanutplantsmalldead,
         
@@ -3584,6 +3932,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Peanut Plant,
         icon                = HCPottedpeanutplantsmalldead,
         
@@ -3593,6 +3942,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Peanut Plant,
         icon                = HCPottedpeanutplantdead,
         
@@ -3602,6 +3952,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Peanut Plant,
         icon                = HCPottedpeanutplantdead,
         
@@ -3611,6 +3962,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Peanut Plant,
         icon                = HCPottedpeanutplant,
     }
@@ -3620,6 +3972,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Avocado Tree,
         icon                = HCPottedavocadotreesmall,
         
@@ -3629,6 +3982,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Avocado Tree,
         icon                = HCPottedavocadotreesmalldead,
         
@@ -3638,6 +3992,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Avocado Tree,
         icon                = HCPottedavocadotreesmall,
         
@@ -3647,6 +4002,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Avocado Tree,
         icon                = HCPottedavocadotree,
         
@@ -3656,6 +4012,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Avocado Tree,
         icon                = HCPottedavocadotreedead,
         
@@ -3665,6 +4022,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Avocado Tree,
         icon                = HCPottedavocadotreeready,
     }
@@ -3674,6 +4032,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cherry Tree,
         icon                = HCPottedcherrytreesmall,
         
@@ -3683,6 +4042,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cherry Tree,
         icon                = HCPottedcherrytreesmalldead,
         
@@ -3692,6 +4052,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cherry Tree,
         icon                = HCPottedcherrytreesmall,
         
@@ -3701,6 +4062,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cherry Tree,
         icon                = HCPottedcherrytree,
         
@@ -3710,6 +4072,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cherry Tree,
         icon                = HCPottedcherrytreedead,
         
@@ -3719,6 +4082,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cherry Tree,
         icon                = HCPottedcherrytreeready,
     }
@@ -3728,6 +4092,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pear Tree,
         icon                = HCPottedpeartreesmall,
         
@@ -3737,6 +4102,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pear Tree,
         icon                = HCPottedpeartreesmalldead,
         
@@ -3746,6 +4112,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pear Tree,
         icon                = HCPottedpeartreesmall,
         
@@ -3755,6 +4122,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pear Tree,
         icon                = HCPottedpeartree,
         
@@ -3764,6 +4132,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pear Tree,
         icon                = HCPottedpeartreedead,
         
@@ -3773,6 +4142,7 @@ item HCPottedBeetsugarready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pear Tree,
         icon                = HCPottedpeartreeready,
     }
@@ -3782,6 +4152,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Pineapple,
         icon                = HCPottedpineapplesmall,
         
@@ -3791,6 +4162,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Pineapple,
         icon                = HCPottedpineapplesmalldead,
         
@@ -3800,6 +4172,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Pineapple,
         icon                = HCPottedpineapplesmall,
         
@@ -3809,6 +4182,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Pineapple,
         icon                = HCPottedpineapple,
         
@@ -3818,6 +4192,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Pineapple,
         icon                = HCPottedpineappledead,
         
@@ -3827,6 +4202,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Pineapple,
         icon                = HCPottedpineappleready,
     }
@@ -3835,6 +4211,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Zucchini,
         icon                = HCPottedzucchinismall,
         
@@ -3844,6 +4221,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Zucchini,
         icon                = HCPottedzucchinismalldead,
         
@@ -3853,6 +4231,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Zucchini,
         icon                = HCPottedzucchinismall,
         
@@ -3862,6 +4241,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Zucchini,
         icon                = HCPottedzucchini,
         
@@ -3871,6 +4251,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Zucchini,
         icon                = HCPottedzucchinidead,
         
@@ -3880,6 +4261,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Zucchini,
         icon                = HCPottedzucchini,
     }
@@ -3889,6 +4271,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tea Tree,
         icon                = HCPottedteasmall,
         
@@ -3898,6 +4281,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tea Tree,
         icon                = HCPottedteasmalldead,
         
@@ -3907,6 +4291,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tea Tree,
         icon                = HCPottedteasmall,
         
@@ -3916,6 +4301,7 @@ item HCPottedBeetsugarready
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tea Tree,
         icon                = HCPottedtea,
         
@@ -3925,6 +4311,7 @@ item HCPottedBeetsugarready
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tea Tree,
         icon                = HCPottedteadead,
         
@@ -3934,6 +4321,7 @@ item HCPottedBeetsugarready
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tea Tree,
         icon                = HCPottedtea,
     }
@@ -3943,6 +4331,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Hemp Plant,
         icon                = HCPottedhempsmall,
         
@@ -3952,6 +4341,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Hemp Plant,
         icon                = HCPottedhempsmalldead,
         
@@ -3961,6 +4351,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Hemp Plant,
         icon                = HCPottedhempsmall,
         
@@ -3970,6 +4361,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Hemp Plant,
         icon                = HCPottedhemp,
         
@@ -3979,6 +4371,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Hemp Plant,
         icon                = HCPottedhempdead,
         
@@ -3988,6 +4381,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Hemp Plant,
         icon                = HCPottedhemp,
     }
@@ -3997,6 +4391,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tobacco Plant,
         icon                = HCPottedtobaccosmall,
         
@@ -4006,6 +4401,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tobacco Plant,
         icon                = HCPottedtobaccosmalldead,
         
@@ -4015,6 +4411,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tobacco Plant,
         icon                = HCPottedtobaccosmall,
         
@@ -4024,6 +4421,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tobacco Plant,
         icon                = HCPottedtobacco,
         
@@ -4033,6 +4431,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tobacco Plant,
         icon                = HCPottedtobaccodead,
         
@@ -4042,6 +4441,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tobacco Plant,
         icon                = HCPottedtobacco,
     }
@@ -4051,6 +4451,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Chinese Cabbage,
         icon                = HCPottedchinesecabbagesmall,
         
@@ -4060,6 +4461,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Chinese Cabbage,
         icon                = HCPottedchinesecabbagesmalldead,
         
@@ -4069,6 +4471,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Chinese Cabbage,
         icon                = HCPottedchinesecabbagesmall,
         
@@ -4078,6 +4481,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Chinese Cabbage,
         icon                = HCPottedchinesecabbage,
         
@@ -4087,6 +4491,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Chinese Cabbage,
         icon                = HCPottedchinesecabbagedead,
         
@@ -4096,6 +4501,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Chinese Cabbage,
         icon                = HCPottedchinesecabbage,
     }
@@ -4104,6 +4510,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cucumber,
         icon                = HCPottedcucumbersmall,
         
@@ -4113,6 +4520,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cucumber,
         icon                = HCPottedcucumbersmalldead,
         
@@ -4122,6 +4530,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cucumber,
         icon                = HCPottedcucumbersmall,
         
@@ -4131,6 +4540,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cucumber,
         icon                = HCPottedcucumber,
         
@@ -4140,6 +4550,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cucumber,
         icon                = HCPottedcucumberdead,
         
@@ -4149,6 +4560,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cucumber,
         icon                = HCPottedcucumber,
     }
@@ -4158,6 +4570,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Ginger,
         icon                = HCPottedgingersmall,
         
@@ -4167,6 +4580,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Ginger,
         icon                = HCPottedgingersmalldead,
         
@@ -4176,6 +4590,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Ginger,
         icon                = HCPottedgingersmall,
         
@@ -4185,6 +4600,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Ginger,
         icon                = HCPottedginger,
         
@@ -4194,6 +4610,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Ginger,
         icon                = HCPottedgingerdead,
         
@@ -4203,6 +4620,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Ginger,
         icon                = HCPottedgingerready,
     }
@@ -4212,6 +4630,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Garlic,
         icon                = HCPottedgarlicsmall,
         
@@ -4221,6 +4640,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Garlic,
         icon                = HCPottedgarlicsmalldead,
         
@@ -4230,6 +4650,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Garlic,
         icon                = HCPottedgarlicsmall,
         
@@ -4239,6 +4660,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Garlic,
         icon                = HCPottedgarlic,
         
@@ -4248,6 +4670,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Garlic,
         icon                = HCPottedgarlicdead,
         
@@ -4257,6 +4680,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Garlic,
         icon                = HCPottedgarlic,
     }
@@ -4266,6 +4690,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Green Onion,
         icon                = HCPottedoniongreensmall,
         
@@ -4275,6 +4700,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Green Onion,
         icon                = HCPottedoniongreensmalldead,
         
@@ -4284,6 +4710,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Green Onion,
         icon                = HCPottedoniongreensmall,
         
@@ -4293,6 +4720,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Green Onion,
         icon                = HCPottedoniongreen,
         
@@ -4302,6 +4730,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Green Onion,
         icon                = HCPottedoniongreendead,
         
@@ -4311,6 +4740,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Green Onion,
         icon                = HCPottedoniongreen,
     }
@@ -4320,6 +4750,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Sweet Potato,
         icon                = HCPottedsweetpotatosmall,
         
@@ -4329,6 +4760,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Sweet Potato,
         icon                = HCPottedsweetpotatosmalldead,
         
@@ -4338,6 +4770,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Sweet Potato,
         icon                = HCPottedsweetpotatosmall,
         
@@ -4347,6 +4780,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Sweet Potato,
         icon                = HCPottedsweetpotato,
         
@@ -4356,6 +4790,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Sweet Potato,
         icon                = HCPottedsweetpotatodead,
         
@@ -4365,6 +4800,7 @@ item HCPottedBeetsugarready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Sweet Potato,
         icon                = HCPottedsweetpotato,
     }
@@ -4374,6 +4810,7 @@ item HCPottedjutesmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Jute Plant,
         icon                = HCPottedjutesmall,
         
@@ -4383,6 +4820,7 @@ item HCPottedjutesmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Jute Plant,
         icon                = HCPottedjutesmalldead,
         
@@ -4392,6 +4830,7 @@ item HCPottedjutesmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Jute Plant,
         icon                = HCPottedjutesmall,
         
@@ -4401,6 +4840,7 @@ item HCPottedjutedry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Jute Plant,
         icon                = HCPottedjute,
         
@@ -4410,6 +4850,7 @@ item HCPottedjutedead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Jute Plant,
         icon                = HCPottedjutedead,
         
@@ -4419,6 +4860,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Jute Plant,
         icon                = HCPottedjute,
     }
@@ -4428,6 +4870,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Green Pumpkin,
         icon                = HCPottedpumpkingreensmall,
         
@@ -4437,6 +4880,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Green Pumpkin,
         icon                = HCPottedpumpkingreensmalldead,
         
@@ -4446,6 +4890,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Green Pumpkin,
         icon                = HCPottedpumpkingreensmall,
         
@@ -4455,6 +4900,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Green Pumpkin,
         icon                = HCPottedpumpkingreen,
         
@@ -4464,6 +4910,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Green Pumpkin,
         icon                = HCPottedpumpkingreendead,
         
@@ -4473,6 +4920,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Green Pumpkin,
         icon                = HCPottedpumpkingreen,
     }
@@ -4482,6 +4930,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted White Pumpkin,
         icon                = HCPottedpumpkinwhitesmall,
         
@@ -4491,6 +4940,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted White Pumpkin,
         icon                = HCPottedpumpkinwhitesmalldead,
         
@@ -4500,6 +4950,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted White Pumpkin,
         icon                = HCPottedpumpkinwhitesmall,
         
@@ -4509,6 +4960,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted White Pumpkin,
         icon                = HCPottedpumpkinwhite,
         
@@ -4518,6 +4970,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted White Pumpkin,
         icon                = HCPottedpumpkinwhitedead,
         
@@ -4527,6 +4980,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted White Pumpkin,
         icon                = HCPottedpumpkinwhite,
     }
@@ -4536,6 +4990,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Large Pumpkin,
         icon                = HCPottedpumpkinlargesmall,
         
@@ -4545,6 +5000,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Large Pumpkin,
         icon                = HCPottedpumpkinlargesmalldead,
         
@@ -4554,6 +5010,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Large Pumpkin,
         icon                = HCPottedpumpkinlargesmall,
         
@@ -4563,6 +5020,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Large Pumpkin,
         icon                = HCPottedpumpkinlarge,
         
@@ -4572,6 +5030,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Large Pumpkin,
         icon                = HCPottedpumpkinlargedead,
         
@@ -4581,6 +5040,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Large Pumpkin,
         icon                = HCPottedpumpkinlarge,
     }
@@ -4590,6 +5050,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Buskin Pumpkin,
         icon                = HCPottedpumpkinbuskinsmall,
         
@@ -4599,6 +5060,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Buskin Pumpkin,
         icon                = HCPottedpumpkinbuskinsmalldead,
         
@@ -4608,6 +5070,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Buskin Pumpkin,
         icon                = HCPottedpumpkinbuskinasmall,
         
@@ -4617,6 +5080,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Buskin Pumpkin,
         icon                = HCPottedpumpkinbuskin,
         
@@ -4626,6 +5090,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Buskin Pumpkin,
         icon                = HCPottedpumpkinbuskindead,
         
@@ -4635,6 +5100,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Buskin Pumpkin,
         icon                = HCPottedpumpkinbuskin,
     }
@@ -4645,6 +5111,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted White Corn,
         icon                = HCPottedcornsmall,
         
@@ -4654,6 +5121,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted White Corn,
         icon                = HCPottedcornsmalldead,
         
@@ -4663,6 +5131,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted White Corn,
         icon                = HCPottedcornsmall,
         
@@ -4672,6 +5141,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted White Corn,
         icon                = HCPottedcornwhite,
         
@@ -4681,6 +5151,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted White Corn,
         icon                = HCPottedcorndead,
         
@@ -4690,6 +5161,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted White Corn,
         icon                = HCPottedcornwhite,
     }
@@ -4699,6 +5171,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Red Corn,
         icon                = HCPottedcornsmall,
         
@@ -4708,6 +5181,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Red Corn,
         icon                = HCPottedcornsmalldead,
         
@@ -4717,6 +5191,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Red Corn,
         icon                = HCPottedcornsmall,
         
@@ -4726,6 +5201,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Red Corn,
         icon                = HCPottedcornred,
         
@@ -4735,6 +5211,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Red Corn,
         icon                = HCPottedcorndead,
         
@@ -4744,6 +5221,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Red Corn,
         icon                = HCPottedcornred,
     }
@@ -4753,6 +5231,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blue Corn,
         icon                = HCPottedcornsmall,
         
@@ -4762,6 +5241,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blue Corn,
         icon                = HCPottedcornsmalldead,
         
@@ -4771,6 +5251,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blue Corn,
         icon                = HCPottedcornsmall,
         
@@ -4780,6 +5261,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blue Corn,
         icon                = HCPottedcornblue,
         
@@ -4789,6 +5271,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blue Corn,
         icon                = HCPottedcorndead,
         
@@ -4798,6 +5281,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Blue Corn,
         icon                = HCPottedcornblue,
     }
@@ -4807,6 +5291,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Chili Pepper Plant,
         icon                = HCPottedchilipepperplantsmall,
         
@@ -4816,6 +5301,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Chili Pepper Plant,
         icon                = HCPottedchilipepperplantsmalldead,
         
@@ -4825,6 +5311,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Chili Pepper Plant,
         icon                = HCPottedchilipepperplantsmall,
         
@@ -4834,6 +5321,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Chili Pepper Plant,
         icon                = HCPottedchilipepperplant,
         
@@ -4843,6 +5331,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Chili Pepper Plant,
         icon                = HCPottedchilipepperplantdead,
         
@@ -4852,6 +5341,7 @@ item HCPottedjuteready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Chili Pepper Plant,
         icon                = HCPottedchilipepperplantready,
     }
@@ -4861,6 +5351,7 @@ item HCPottedpoppysmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Poppy,
         icon                = HCPottedpoppysmall,
         
@@ -4870,6 +5361,7 @@ item HCPottedpoppysmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Poppy,
         icon                = HCPottedpoppysmalldead,
         
@@ -4879,6 +5371,7 @@ item HCPottedpoppysmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Poppy,
         icon                = HCPottedpoppysmall,
         
@@ -4888,6 +5381,7 @@ item HCPottedpoppydry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Poppy,
         icon                = HCPottedpoppy,
         
@@ -4897,6 +5391,7 @@ item HCPottedpoppydead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Poppy,
         icon                = HCPottedpoppydead,
         
@@ -4906,6 +5401,7 @@ item HCPottedpoppyready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Poppy,
         icon                = HCPottedpoppyready,
     }
@@ -4915,6 +5411,7 @@ item HCPottedcactussmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cactus,
         Icon                = HCPottedcactussmall,
         
@@ -4924,6 +5421,7 @@ item HCPottedcactussmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cactus,
         Icon                = HCPottedcactussmalldead,
         
@@ -4933,6 +5431,7 @@ item HCPottedcactussmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cactus,
         Icon                = HCPottedcactussmall,
         
@@ -4942,6 +5441,7 @@ item HCPottedcactusdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cactus,
         Icon                = HCPottedcactus,
         
@@ -4951,6 +5451,7 @@ item HCPottedcactusdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cactus,
         Icon                = HCPottedcactus,
         
@@ -4960,6 +5461,7 @@ item HCPottedcactusready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cactus,
         Icon                = HCPottedcactus,
     }
@@ -4969,6 +5471,7 @@ item HCPottedagavebluesmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Blue Agave,
         Icon                = HCPottedagavebluesmall,
         
@@ -4978,6 +5481,7 @@ item HCPottedagavebluesmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Blue Agave,
         Icon                = HCPottedagavebluesmalldead,
         
@@ -4987,6 +5491,7 @@ item HCPottedagavebluesmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Blue Agave,
         Icon                = HCPottedagavebluesmall,
         
@@ -4996,6 +5501,7 @@ item HCPottedagavebluedry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Blue Agave,
         Icon                = HCPottedagaveblue,
         
@@ -5005,6 +5511,7 @@ item HCPottedagavebluedead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Blue Agave,
         Icon                = HCPottedagavebluedead,
         
@@ -5014,6 +5521,7 @@ item HCPottedagaveblueready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Blue Agave,
         Icon                = HCPottedagaveblue,
     }
@@ -5023,6 +5531,7 @@ item HCPottedpricklypearcactussmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Prickly Pear Cactus,
         Icon                = HCPottedpricklypearcactussmall,
         
@@ -5032,6 +5541,7 @@ item HCPottedpricklypearcactussmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Prickly Pear Cactus,
         Icon                = HCPottedpricklypearcactussmalldead,
         
@@ -5041,6 +5551,7 @@ item HCPottedpricklypearcactussmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Prickly Pear Cactus,
         Icon                = HCPottedpricklypearcactussmall,
         
@@ -5050,6 +5561,7 @@ item HCPottedpricklypearcactusdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Prickly Pear Cactus,
         Icon                = HCPottedpricklypearcactus,
         
@@ -5059,6 +5571,7 @@ item HCPottedpricklypearcactusdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Prickly Pear Cactus,
         Icon                = HCPottedpricklypearcactusdead,
         
@@ -5068,6 +5581,7 @@ item HCPottedpricklypearcactusready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Prickly Pear Cactus,
         Icon                = HCPottedpricklypearcactus,
     }
@@ -5077,6 +5591,7 @@ item HCPottedJalapeno
         Weight              = 5,
         Type                = Normal,
     UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Jalapeno,
         Icon                = HCPottedchilipepperplant,
     
@@ -5086,6 +5601,7 @@ item HCPottedJalapenosmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Jalapeno,
         Icon                = HCPottedchilipepperplantsmall,
         
@@ -5095,6 +5611,7 @@ item HCPottedJalapenosmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Jalapeno,
         Icon                = HCPottedchilipepperplantsmalldead,
         
@@ -5104,6 +5621,7 @@ item HCPottedJalapenosmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Jalapeno,
         Icon                = HCPottedchilipepperplantsmall,
         
@@ -5113,6 +5631,7 @@ item HCPottedJalapenodry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Jalapeno,
         Icon                = HCPottedchilipepperplant,
         
@@ -5122,6 +5641,7 @@ item HCPottedJalapenodead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Jalapeno,
         Icon                = HCPottedchilipepperplantdead,
         
@@ -5131,6 +5651,7 @@ item HCPottedJalapenoready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Jalapeno,
         Icon                = HCPottedchiligreen,
     }
@@ -5141,6 +5662,7 @@ item HCPottedchiligreensmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Green Chili,
         Icon                = HCPottedchilipepperplantsmall,
         
@@ -5150,6 +5672,7 @@ item HCPottedchiligreensmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Green Chili,
         Icon                = HCPottedchilipepperplantsmalldead,
         
@@ -5159,6 +5682,7 @@ item HCPottedchiligreensmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Green Chili,
         Icon                = HCPottedchilipepperplantsmall,
         
@@ -5168,6 +5692,7 @@ item HCPottedchiligreendry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Green Chili,
         Icon                = HCPottedchilipepperplant,
         
@@ -5177,6 +5702,7 @@ item HCPottedchiligreendead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Green Chili,
         Icon                = HCPottedchilipepperplantdead,
         
@@ -5186,6 +5712,7 @@ item HCPottedchiligreenready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Green Chili,
         Icon                = HCPottedchiligreen,
     }
@@ -5195,6 +5722,7 @@ item HCPottedtomatilloplantsmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Tomatillo Plant,
         Icon                = HCPottedtomatilloplantsmall,
         
@@ -5204,6 +5732,7 @@ item HCPottedtomatilloplantsmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Tomatillo Plant,
         Icon                = HCPottedtomatilloplantsmalldead,
         
@@ -5213,6 +5742,7 @@ item HCPottedtomatilloplantsmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Tomatillo Plant,
         Icon                = HCPottedtomatilloplantsmall,
         
@@ -5222,6 +5752,7 @@ item HCPottedtomatilloplantdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Tomatillo Plant,
         Icon                = HCPottedtomatilloplant,
         
@@ -5231,6 +5762,7 @@ item HCPottedtomatilloplantdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Tomatillo Plant,
         Icon                = HCPottedtomatilloplantdead,
         
@@ -5240,6 +5772,7 @@ item HCPottedtomatilloplantready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Tomatillo Plant,
         Icon                = HCPottedtomatilloplant,
     }
@@ -5249,6 +5782,7 @@ item HCPottedcottonplantsmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Cotton Plant,
         icon                = HCPottedcottonplantsmall,
         
@@ -5258,6 +5792,7 @@ item HCPottedcottonplantsmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Cotton Plant,
         icon                = HCPottedcottonplantsmalldead,
         
@@ -5267,6 +5802,7 @@ item HCPottedcottonplantsmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Cotton Plant,
         icon                = HCPottedcottonplantsmall,
         
@@ -5276,6 +5812,7 @@ item HCPottedcottonplantdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Cotton Plant,
         icon                = HCPottedcottonplant,
         
@@ -5285,6 +5822,7 @@ item HCPottedcottonplantdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Cotton Plant,
         icon                = HCPottedcottonplantdead,
         
@@ -5294,6 +5832,7 @@ item HCPottedcottonplantready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Cotton Plant,
         icon                = HCPottedcottonplantready,
     }
@@ -5303,6 +5842,7 @@ item HCPottedricesmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Rice,
         icon                = HCPottedricesmall,
         
@@ -5312,6 +5852,7 @@ item HCPottedricesmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Rice,
         icon                = HCPottedricesmalldead,
         
@@ -5321,6 +5862,7 @@ item HCPottedricesmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Rice,
         icon                = HCPottedricesmalldry,
         
@@ -5330,6 +5872,7 @@ item HCPottedricedry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Rice,
         icon                = HCPottedricedry,
         
@@ -5339,6 +5882,7 @@ item HCPottedricedead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Rice,
         icon                = HCPottedricedead,
         
@@ -5348,6 +5892,7 @@ item HCPottedriceready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Rice,
         icon                = HCPottedrice,
     }
@@ -5357,6 +5902,7 @@ item HCPottedshiitakesmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Shiitake Mushrooms,
         icon                = HCPottedshiitakesmall,
         
@@ -5366,6 +5912,7 @@ item HCPottedshiitakesmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Shiitake Mushrooms,
         icon                = HCPottedshiitakesmalldead,
         
@@ -5375,6 +5922,7 @@ item HCPottedshiitakesmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Shiitake Mushrooms,
         icon                = HCPottedshiitakesmall,
         
@@ -5384,6 +5932,7 @@ item HCPottedshiitakedry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Shiitake Mushrooms,
         icon                = HCPottedshiitake,
         
@@ -5393,6 +5942,7 @@ item HCPottedshiitakedead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Shiitake Mushrooms,
         icon                = HCPottedshiitakedead,
         
@@ -5402,6 +5952,7 @@ item HCPottedshiitakeready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Shiitake Mushrooms,
         icon                = HCPottedshiitake,
     }
@@ -5411,6 +5962,7 @@ item HCPottedportobellosmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Portobello Mushrooms,
         icon                = HCPottedportobellosmall,
         
@@ -5420,6 +5972,7 @@ item HCPottedportobellosmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Portobello Mushrooms,
         icon                = HCPottedportobellosmalldead,
         
@@ -5429,6 +5982,7 @@ item HCPottedportobellosmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Portobello Mushrooms,
         icon                = HCPottedportobellosmall,
         
@@ -5438,6 +5992,7 @@ item HCPottedportobellodry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Portobello Mushrooms,
         icon                = HCPottedportobello,
         
@@ -5447,6 +6002,7 @@ item HCPottedportobellodead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Portobello Mushrooms,
         icon                = HCPottedportobellodead,
         
@@ -5456,6 +6012,7 @@ item HCPottedportobelloready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Portobello Mushrooms,
         icon                = HCPottedportobello,
     }
@@ -5465,6 +6022,7 @@ item HCPottedcolewortsmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Colewort,
         icon                = HCPottedcolewortsmall,
         
@@ -5474,6 +6032,7 @@ item HCPottedcolewortsmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Colewort,
         icon                = HCPottedcolewortsmalldead,
         
@@ -5483,6 +6042,7 @@ item HCPottedcolewortsmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Colewort,
         icon                = HCPottedcolewortsmall,
         
@@ -5492,6 +6052,7 @@ item HCPottedcolewortdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Colewort,
         icon                = HCPottedcolewort,
         
@@ -5501,6 +6062,7 @@ item HCPottedcolewortdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Colewort,
         icon                = HCPottedcolewortdead,
         
@@ -5510,6 +6072,7 @@ item HCPottedcolewortready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Colewort,
         icon                = HCPottedcolewort,
     }
@@ -5519,6 +6082,7 @@ item HCPottedrubbertreesmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Rubber Tree,
         icon                = HCPottedrubbertreesmall,
         
@@ -5528,6 +6092,7 @@ item HCPottedrubbertreesmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Rubber Tree,
         icon                = HCPottedrubbertreesmalldead,
         
@@ -5537,6 +6102,7 @@ item HCPottedrubbertreesmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Rubber Tree,
         icon                = HCPottedrubbertreesmall,
         
@@ -5546,6 +6112,7 @@ item HCPottedrubbertreedry
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Rubber Tree,
         icon                = HCPottedrubbertree,
         
@@ -5555,6 +6122,7 @@ item HCPottedrubbertreedead
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Rubber Tree,
         icon                = HCPottedrubbertreedead,
         
@@ -5564,6 +6132,7 @@ item HCPottedrubbertreeready
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Rubber Tree,
         icon                = HCPottedrubbertree,
         
@@ -5574,6 +6143,7 @@ item HCPottedrubbertree2
     Type            = Drainable,
     UseWhileEquipped    = FALSE,
     UseDelta        = 1.0,
+		DisplayCategory		= SurFarm,
         DisplayName         = Potted Rubber Tree with Sap Catchers,
     ReplaceOnDeplete    = HCPlanter,
         icon                = HCPottedrubbertree2,
@@ -5584,6 +6154,7 @@ item HCPottedrubbertreedry2
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Rubber Tree with Sap Catchers,
         icon                = HCPottedrubbertree,
         
@@ -5593,6 +6164,7 @@ item HCPottedrubbertreedead2
         Weight              = 25,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Rubber Tree with Sap Catchers,
         icon                = HCPottedrubbertreedead2,
 
@@ -5603,6 +6175,7 @@ item HCPottedbasilsmall
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Basil,
         icon                = HCPottedbasilsmall,
         
@@ -5612,6 +6185,7 @@ item HCPottedbasilsmalldead
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Basil,
         icon                = HCPottedbasilsmalldead,
         
@@ -5621,6 +6195,7 @@ item HCPottedbasilsmalldry
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Basil,
         icon                = HCPottedbasilsmall,
         
@@ -5630,6 +6205,7 @@ item HCPottedbasildry
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Basil,
         icon                = HCPottedbasil,
         
@@ -5639,6 +6215,7 @@ item HCPottedbasildead
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Basil,
         icon                = HCPottedbasil,
         
@@ -5648,6 +6225,7 @@ item HCPottedbasilready
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Basil,
         icon                = HCPottedbasil,
     }
@@ -5658,6 +6236,7 @@ item HCPottedoreganosmall
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Oregano,
         icon                = HCPottedalfalfasmall,
         
@@ -5667,6 +6246,7 @@ item HCPottedoreganosmalldead
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Oregano,
         icon                = HCPottedalfalfasmalldead,
        
@@ -5676,6 +6256,7 @@ item HCPottedoreganosmalldry
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Oregano,
         icon                = HCPottedalfalfasmall,
     }
@@ -5685,6 +6266,7 @@ item HCPottedoreganodry
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Basil,
         icon                = HCPottedalfalfasmall,
     }     
@@ -5694,6 +6276,7 @@ item HCPottedoreganoready
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Oregano,
         icon                = HCPottedalfalfa,
     }
@@ -5703,6 +6286,7 @@ item HCPottedalfalfasmall
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Alfalfa,
         icon                = HCPottedalfalfasmall,
         
@@ -5712,6 +6296,7 @@ item HCPottedalfalfasmalldead
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Alfalfa,
         icon                = HCPottedalfalfasmalldead,
         
@@ -5721,6 +6306,7 @@ item HCPottedalfalfasmalldry
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Alfalfa,
         icon                = HCPottedalfalfasmall,
         
@@ -5730,6 +6316,7 @@ item HCPottedalfalfadry
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Alfalfa,
         icon                = HCPottedalfalfa,
         
@@ -5739,6 +6326,7 @@ item HCPottedalfalfadead
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Alfalfa,
         icon                = HCPottedalfalfadead,
         
@@ -5748,6 +6336,7 @@ item HCPottedalfalfaready
         Weight              = 1,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Alfalfa,
         icon                = HCPottedalfalfa,
     }
@@ -5757,6 +6346,7 @@ item HCPottedbamboosmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Bamboo,
         icon                = HCPottedbamboosmall,
         
@@ -5766,6 +6356,7 @@ item HCPottedbamboosmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Bamboo,
         icon                = HCPottedbamboosmalldead,
         
@@ -5775,6 +6366,7 @@ item HCPottedbamboosmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Bamboo,
         icon                = HCPottedbamboosmall,
         
@@ -5784,6 +6376,7 @@ item HCPottedbamboodry
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Bamboo,
         icon                = HCPottedbamboo,
         
@@ -5793,6 +6386,7 @@ item HCPottedbamboodead
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Bamboo,
         icon                = HCPottedbamboodead,
         
@@ -5802,6 +6396,7 @@ item HCPottedbambooready
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Bamboo,
         icon                = HCPottedbamboo,
     }
@@ -5811,6 +6406,7 @@ item HCPottedasparagussmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Asparagus,
         icon                = HCPottedasparagus,
         
@@ -5820,6 +6416,7 @@ item HCPottedasparagussmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Asparagus,
         icon                = HCPottedasparagusdead,
         
@@ -5829,6 +6426,7 @@ item HCPottedasparagussmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Dry Potted Asparagus,
         icon                = HCPottedasparagus,
         
@@ -5838,6 +6436,7 @@ item HCPottedasparagusdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Asparagus,
         icon                = HCPottedasparagus,
         
@@ -5847,6 +6446,7 @@ item HCPottedasparagusdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Asparagus,
         icon                = HCPottedasparagusdead,
         
@@ -5856,6 +6456,7 @@ item HCPottedasparagusready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Asparagus,
         icon                = HCPottedasparagus,
     }
@@ -5865,6 +6466,7 @@ item HCPottedartichokessmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Artichokes,
         icon                = HCPottedartichokessmall,
         
@@ -5874,6 +6476,7 @@ item HCPottedartichokessmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Artichokes,
         icon                = HCPottedartichokessmalldead,
         
@@ -5883,6 +6486,7 @@ item HCPottedartichokessmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Artichokes,
         icon                = HCPottedartichokessmall,
         
@@ -5892,6 +6496,7 @@ item HCPottedartichokesdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Artichokes,
         icon                = HCPottedartichokes,
         
@@ -5901,6 +6506,7 @@ item HCPottedartichokesdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Artichokes,
         icon                = HCPottedartichokesdead,
         
@@ -5910,6 +6516,7 @@ item HCPottedartichokesready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Artichokes,
         icon                = HCPottedartichokes,
     }
@@ -5920,6 +6527,7 @@ item HCPottedbeetssmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Beets,
         icon                = HCPottedbeetssmall,
         
@@ -5929,6 +6537,7 @@ item HCPottedbeetssmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Beets,
         icon                = HCPottedbeetssmalldead,
         
@@ -5938,6 +6547,7 @@ item HCPottedbeetssmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Beets,
         icon                = HCPottedbeetssmall,
         
@@ -5947,6 +6557,7 @@ item HCPottedbeetsdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Beets,
         icon                = HCPottedbeets,
         
@@ -5956,6 +6567,7 @@ item HCPottedbeetsdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Beets,
         icon                = HCPottedbeetsdead,
         
@@ -5965,6 +6577,7 @@ item HCPottedbeetsready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Beets,
         icon                = HCPottedbeets,
     }
@@ -5976,6 +6589,7 @@ item HCPottedapricotsmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Apricot,
         icon                = HCPottedapricotsmall,
         
@@ -5985,6 +6599,7 @@ item HCPottedapricotsmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Apricot,
         icon                = HCPottedapricotsmalldead,
         
@@ -5994,6 +6609,7 @@ item HCPottedapricotsmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Apricot,
         icon                = HCPottedapricotsmall,
         
@@ -6003,6 +6619,7 @@ item HCPottedapricotdry
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Apricot,
         icon                = HCPottedapricot,
         
@@ -6012,6 +6629,7 @@ item HCPottedapricotdead
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Apricot,
         icon                = HCPottedapricotdead,
         
@@ -6021,6 +6639,7 @@ item HCPottedapricotready
         Weight              = 15,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Apricot,
         icon                = HCPottedapricotready,
     }
@@ -6030,6 +6649,7 @@ item HCPottedcelerysmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Celery,
         icon                = HCPottedcelerysmall,
         
@@ -6039,6 +6659,7 @@ item HCPottedcelerysmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Celery,
         icon                = HCPottedcelerysmalldead,
         
@@ -6048,6 +6669,7 @@ item HCPottedcelerysmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Celery,
         icon                = HCPottedcelerysmall,
         
@@ -6057,6 +6679,7 @@ item HCPottedcelerydry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Celery,
         icon                = HCPottedcelery,
         
@@ -6066,6 +6689,7 @@ item HCPottedcelerydead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Celery,
         icon                = HCPottedcelerydead,
         
@@ -6075,6 +6699,7 @@ item HCPottedceleryready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Ready Potted Celery,
         icon                = HCPottedcelery,
     }
@@ -6084,6 +6709,7 @@ item HCPottedspinachsmall
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Small Potted Spinach,
         icon                = HCPottedspinachsmall,
         
@@ -6093,6 +6719,7 @@ item HCPottedspinachsmalldead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Small Potted Spinach,
         icon                = HCPottedspinachsmalldead,
         
@@ -6102,6 +6729,7 @@ item HCPottedspinachsmalldry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Small Potted Spinach,
         icon                = HCPottedspinachsmall,
         
@@ -6111,6 +6739,7 @@ item HCPottedspinachdry
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dry Potted Spinach,
         icon                = HCPottedspinach,
       
@@ -6120,6 +6749,7 @@ item HCPottedspinachdead
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = Dead Potted Spinach,
         icon                = HCPottedspinachdead,
         
@@ -6129,6 +6759,7 @@ item HCPottedspinachready
         Weight              = 5,
         Type                = Normal,
         UseWhileEquipped    = FALSE,
+		DisplayCategory		= SurFarm,
         DisplayName         = ReadyPotted Spinach,
         icon                = HCPottedspinach,
     }

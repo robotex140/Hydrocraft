@@ -16,6 +16,7 @@ item HCTesttubepoisonmild
         DisplayName         	= Test Tube with Mild Poison,
         icon 			= HCTesttubepoisonmild,
 	ReplaceOnDeplete	= HCGlasstesttubecork,
+		DisplayCategory		=   CraftChem,
     }
 
 item HCTesttubepoisonstrong
@@ -26,6 +27,7 @@ item HCTesttubepoisonstrong
         DisplayName         	= Test Tube with Strong Poison,
         icon 			= HCTesttubepoisonstrong,
 	ReplaceOnDeplete	= HCGlasstesttubecork,
+		DisplayCategory		=   CraftChem,
     }
 
 /************************RECIPES************************/	

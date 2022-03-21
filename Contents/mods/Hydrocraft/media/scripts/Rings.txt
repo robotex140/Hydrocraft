@@ -14,6 +14,7 @@ item HCRingcopper
         Type    		= Normal,
         DisplayName         	= Copper Ring,
         icon 			= HCRingcopper,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingiron
@@ -22,6 +23,7 @@ item HCRingiron
         Type    		= Normal,
         DisplayName         	= Iron Ring,
         icon 			= HCRingiron,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsteel
@@ -30,6 +32,7 @@ item HCRingsteel
         Type    		= Normal,
         DisplayName         	= Steel Ring,
         icon 			= HCRingsteel,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilver
@@ -38,6 +41,7 @@ item HCRingsilver
         Type    		= Normal,
         DisplayName         	= Silver Ring,
         icon 			= HCRingsilver,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilverjade
@@ -46,6 +50,7 @@ item HCRingsilverjade
         Type    		= Normal,
         DisplayName         	= Silver Ring with Jade,
         icon 			= HCRingsilverjade,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilverquartz
@@ -54,6 +59,7 @@ item HCRingsilverquartz
         Type    		= Normal,
         DisplayName         	= Silver Ring with Quartz Crystal,
         icon 			= HCRingsilverquartz,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilverquartzblue
@@ -62,6 +68,7 @@ item HCRingsilverquartzblue
         Type    		= Normal,
         DisplayName         	= Silver Ring with Blue Quartz Crystal,
         icon 			= HCRingsilverquartzblue,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilverquartzrose
@@ -70,6 +77,7 @@ item HCRingsilverquartzrose
         Type    		= Normal,
         DisplayName         	= Silver Ring with Rose Quartz Crystal,
         icon 			= HCRingsilverquartzrose,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilverquartzsmokey
@@ -78,6 +86,7 @@ item HCRingsilverquartzsmokey
         Type    		= Normal,
         DisplayName         	= Silver Ring with Smokey Quartz Crystal,
         icon 			= HCRingsilverquartzsmokey,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilverquartzcitrine
@@ -86,6 +95,7 @@ item HCRingsilverquartzcitrine
         Type    		= Normal,
         DisplayName         	= Silver Ring with Citrine Quartz Crystal,
         icon 			= HCRingsilverquartzcitrine,
+		DisplayCategory	= CraftGem,
     } 
 
 item HCRingsilveramethyst
@@ -94,6 +104,7 @@ item HCRingsilveramethyst
         Type    		= Normal,
         DisplayName         	= Silver Ring with Amethyst,
         icon 			= HCRingsilveramethyst,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverazurite
@@ -102,6 +113,7 @@ item HCRingsilverazurite
         Type    		= Normal,
         DisplayName         	= Silver Ring with Azurite,
         icon 			= HCRingsilverazurite,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverdiamond
@@ -110,6 +122,7 @@ item HCRingsilverdiamond
         Type    		= Normal,
         DisplayName         	= Silver Ring with Diamond,
         icon 			= HCRingsilverdiamond,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilveremerald
@@ -118,6 +131,7 @@ item HCRingsilveremerald
         Type    		= Normal,
         DisplayName         	= Silver Ring with Emerald,
         icon 			= HCRingsilveremerald,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverfireagate
@@ -126,6 +140,7 @@ item HCRingsilverfireagate
         Type    		= Normal,
         DisplayName         	= Silver Ring with Fire Agate,
         icon 			= HCRingsilverfireagate,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilvergarnet
@@ -134,6 +149,7 @@ item HCRingsilvergarnet
         Type    		= Normal,
         DisplayName         	= Silver Ring with Garnet,
         icon 			= HCRingsilvergarnet,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverlapislazuli
@@ -142,6 +158,7 @@ item HCRingsilverlapislazuli
         Type    		= Normal,
         DisplayName         	= Silver Ring with Lapis Lazuli,
         icon 			= HCRingsilverlapislazuli,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilvermalachite
@@ -150,6 +167,7 @@ item HCRingsilvermalachite
         Type    		= Normal,
         DisplayName         	= Silver Ring with Malachite,
         icon 			= HCRingsilvermalachite,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverolivine
@@ -158,6 +176,7 @@ item HCRingsilverolivine
         Type    		= Normal,
         DisplayName         	= Silver Ring with Olivine,
         icon 			= HCRingsilverolivine,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverrhodonite
@@ -166,6 +185,7 @@ item HCRingsilverrhodonite
         Type    		= Normal,
         DisplayName         	= Silver Ring with Rhodonite,
         icon 			= HCRingsilverrhodonite,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverruby
@@ -174,6 +194,7 @@ item HCRingsilverruby
         Type    		= Normal,
         DisplayName         	= Silver Ring with Ruby,
         icon 			= HCRingsilverruby,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilversapphire
@@ -182,6 +203,7 @@ item HCRingsilversapphire
         Type    		= Normal,
         DisplayName         	= Silver Ring with Sapphire,
         icon 			= HCRingsilversapphire,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilvertopaz
@@ -190,6 +212,7 @@ item HCRingsilvertopaz
         Type    		= Normal,
         DisplayName         	= Silver Ring with Topaz,
         icon 			= HCRingsilvertopaz,
+		DisplayCategory	= CraftGem,
     }
 
 item HCRingsilverturquoise
@@ -198,6 +221,7 @@ item HCRingsilverturquoise
         Type    		= Normal,
         DisplayName         	= Silver Ring with Turquoise,
         icon 			= HCRingsilverturquoise,
+		DisplayCategory	= CraftGem,
     }
 
 /************************RECIPES************************/	

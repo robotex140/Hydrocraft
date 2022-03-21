@@ -8,6 +8,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Santa Hat,
         	Icon 			= HCSantahat,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCOrnamentblue
@@ -16,6 +17,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Blue Ornament,
         	Icon 			= HCOrnamentblue,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCOrnamentgreen
@@ -24,6 +26,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Green Ornament,
         	Icon 			= HCOrnamentgreen,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCOrnamentpurple
@@ -32,6 +35,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Purple Ornament,
         	Icon 			= HCOrnamentpurple,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCOrnamentred
@@ -40,6 +44,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Red Ornament,
         	Icon 			= HCOrnamentred,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCOrnamentsilver
@@ -48,6 +53,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Silver Ornament,
         	Icon 			= HCOrnamentsilver,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCOrnamentyellow
@@ -56,6 +62,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Yellow Ornament,
         	Icon 			= HCOrnamentyellow,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCStargold
@@ -64,6 +71,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Gold Star,
         	Icon 			= HCStargold,
+			DisplayCategory	=   Misc,
 	}
 
     	item HCStocking
@@ -74,6 +82,7 @@ module Hydrocraft
         Capacity            = 8,
         DisplayName         = Christmas Stocking,
         Icon                = HCStocking,
+			DisplayCategory	=   Container,
     }
 
 	item HCSnowglobe
@@ -82,6 +91,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Snow Globe,
         	Icon 			= HCSnowglobe,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCwreath
@@ -90,6 +100,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Wreath,
         	Icon 			= HCwreath,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCGarland
@@ -98,6 +109,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Garland,
         	Icon 			= HCGarland,
+			DisplayCategory	=   Crafting,
 	}
 
 	item HCXmaslights
@@ -106,6 +118,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Lights,
         	Icon 			= HCXmaslights,
+			DisplayCategory	=   CraftElec,
 	}
 
 	item HCXmasgift
@@ -114,6 +127,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Gift,
         	Icon 			= HCXmasgift,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -123,6 +137,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -132,6 +147,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree2,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -141,6 +157,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree3,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -150,6 +167,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Christmas Tree,
         	Icon 			= HCXmastree4,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -161,6 +179,7 @@ module Hydrocraft
        	 	Capacity            	= 6,
         	DisplayName         	= Candy Bucket,
         	Icon                	= HCCandybucket,
+			DisplayCategory	=   Container,
     }
 
 	item HCWitchhat
@@ -169,6 +188,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Witch Hat,
         	Icon 			= HCWitchhat,
+			DisplayCategory	=   Misc,
 	}
 
 	item HCJackolantern
@@ -177,6 +197,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Jack-O-Lantern,
         	Icon 			= HCJackolantern,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -191,6 +212,7 @@ module Hydrocraft
 		DisplayName		=	Lit Jack-O-Lantern,
 		ActivatedItem		=	TRUE,
 		Icon			=	HCJackolanternon,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -200,6 +222,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= White Jack-O-Lantern,
         	Icon 			= HCJackolanternwhite,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -214,6 +237,7 @@ module Hydrocraft
 		DisplayName		=	Lit White Jack-O-Lantern,
 		ActivatedItem		=	TRUE,
 		Icon			=	HCJackolanternwhiteon,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -223,6 +247,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Green Jack-O-Lantern,
         	Icon 			= HCJackolanterngreen,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -237,6 +262,7 @@ module Hydrocraft
 		DisplayName		=	Lit Green Jack-O-Lantern,
 		ActivatedItem		=	TRUE,
 		Icon			=	HCJackolanterngreenon,
+			DisplayCategory	=   Misc,
 		
 	}
 
@@ -246,7 +272,7 @@ module Hydrocraft
         	Type 			= Normal,
         	DisplayName 		= Head on a Pike,
         	Icon 			= HCPikehead,
-		
+			DisplayCategory	=   Misc,
 	}
 
 /************************WEAPONS************************/
@@ -287,6 +313,7 @@ module Hydrocraft
         	BreakSound  			=   	BreakMetalItem,
         	TreeDamage  			=   	1,
         	EnduranceMod 			= 	0.5,
+			DisplayCategory	=   WepMelee,
 	}
 
 /************************RECIPES************************/

@@ -14,6 +14,7 @@ item HCPoppack1
         Type    		= Normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack1,
+		DisplayCategory		=	FoodB,
     }
 
 item HCPoppack2
@@ -22,6 +23,7 @@ item HCPoppack2
         Type    		= Normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack2,
+		DisplayCategory		=	FoodB,
     }
 
 item HCPoppack3
@@ -30,6 +32,7 @@ item HCPoppack3
         Type    		= Normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack3,
+		DisplayCategory		=	FoodB,
     }
 
 item HCPoppack6
@@ -38,6 +41,7 @@ item HCPoppack6
         Type    		= Normal,
         DisplayName         	= Pack of Pop,
         icon 			= HCPoppack6,
+		DisplayCategory		=	FoodB,
     }
 
 item HCPop4
@@ -58,6 +62,7 @@ item HCPop4
     Calories 		= 	140,
     Packaged 		= 	TRUE,
     CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCPop5
@@ -78,6 +83,7 @@ item HCPop5
         Calories 		= 	140,
         Packaged 		= 	TRUE,
         CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCPop6
@@ -98,6 +104,7 @@ item HCPop6
         Calories 		= 	140,
         Packaged 		= 	TRUE,
         CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 	
 item HCSodacherry
@@ -119,6 +126,7 @@ item HCSodacherry
         	Calories 		= 	328,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodacola
@@ -141,6 +149,7 @@ item HCSodacola
         	Calories 		= 	304,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodacream
@@ -162,6 +171,7 @@ item HCSodacream
         	Calories 		= 	408,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodadrpepper
@@ -184,6 +194,7 @@ item HCSodadrpepper
         	Calories 		= 	338,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodagingerale
@@ -205,6 +216,7 @@ item HCSodagingerale
         	Calories 		= 	272,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodagrape
@@ -226,6 +238,7 @@ item HCSodagrape
         	Calories 		= 	344,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodagrapefruit
@@ -247,6 +260,7 @@ item HCSodagrapefruit
         	Calories 		= 	406,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodalemonlime
@@ -268,6 +282,7 @@ item HCSodalemonlime
         	Calories 		= 	328,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodapineapple
@@ -289,6 +304,7 @@ item HCSodapineapple
         	Calories 		= 	335,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 item HCSodarootbeer
@@ -310,6 +326,7 @@ item HCSodarootbeer
         	Calories 		= 	331,
         	CantBeFrozen 		= 	TRUE,
 		Packaged		=	TRUE,
+		DisplayCategory		=	FoodB,
 	}
 
 /************************RECIPES************************/

@@ -14,7 +14,7 @@ item HCElectornicsbench
 	Type                = Normal,
     DisplayName         = Electronics Workbench,
     icon                = HCElectornicsbench,
-	
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectornicsbench2
@@ -25,7 +25,7 @@ item HCElectornicsbench2
     WeightReduction     = 0,
     DisplayName         = Electronics Workbench,
     icon                = HCElectornicsbench,
-    
+	DisplayCategory			= CraftElec,
     }
 
 item HCCalculator
@@ -34,6 +34,7 @@ item HCCalculator
         Type    		= Normal,
         DisplayName         	= Calculator,
         icon 			= HCCalculator,
+	DisplayCategory			= CraftElec,
     }  
 
 item HCSolarcell
@@ -42,6 +43,7 @@ item HCSolarcell
         Type    		= Normal,
         DisplayName         	= Solar Cell,
         icon 			= HCSolarcell,
+	DisplayCategory			= CraftElec,
     }  
 
 item HCElectonicscale
@@ -50,6 +52,7 @@ item HCElectonicscale
         Type    			= Normal,
         DisplayName         		= Electronic Scale,
         icon 				= HCElectronicscale,
+	DisplayCategory			= CraftElec,
     }
 
 item HCRadioantenna
@@ -58,7 +61,7 @@ item HCRadioantenna
         Type    		= Normal,
         DisplayName         	= Radio Antenna,
         icon 			= HCRadioantenna,
-	
+	DisplayCategory			= CraftElec,
     }
 
 item HCMag
@@ -67,6 +70,7 @@ item HCMag
         Type    	= Normal,
         DisplayName     = Magnetron,
         icon 		= HCMag,
+	DisplayCategory			= CraftElec,
     }
 
 item HCPowercord
@@ -75,6 +79,7 @@ item HCPowercord
         Type    			= Normal,
         DisplayName         		= Powercord,
         icon 				= HCPowercord,
+	DisplayCategory			= CraftElec,
     }
 
 item HCControlpanel
@@ -82,7 +87,7 @@ item HCControlpanel
         Weight    			= 10,
         Type    			= Normal,
         DisplayName         		= Control Panel,
-        
+	DisplayCategory			= CraftElec,
         icon 				= HCControlpanel,
     }
 
@@ -92,6 +97,7 @@ item HCSteamCharger
         Type    			= Normal,
         DisplayName        	= Steam Charger,
         icon 				= HCSteamCharger,
+	DisplayCategory			= CraftElec,
     }
 
 
@@ -103,6 +109,7 @@ item HCSteamCharger2
         WeightReduction     = 0,
         DisplayName         = Steam Charger,
         icon                = HCSteamCharger2,
+	DisplayCategory			= CraftElec,
     }
 
 
@@ -112,6 +119,7 @@ item HCCashregister
         Type    			= Normal,
         DisplayName         		= Cash Register,
         icon 				= HCCashregister,
+	DisplayCategory			= CraftElec,
     }  
 
 item HCFaxmachine
@@ -120,6 +128,7 @@ item HCFaxmachine
         Type    			= Normal,
         DisplayName         		= Fax Machine,
         icon 				= HCFaxmachine,
+	DisplayCategory			= CraftElec,
     } 
 
 item HCCopymachine
@@ -128,7 +137,7 @@ item HCCopymachine
         Type    			= Normal,
         DisplayName         		= Copy Machine,
         icon 				= HCCopymachine,
-        
+	DisplayCategory			= Useless,
     } 
 
 item HCPrinter
@@ -137,6 +146,7 @@ item HCPrinter
         Type    			= Normal,
         DisplayName         		= Printer,
         icon 				= HCPrinter,
+	DisplayCategory			= CraftElec,
     }
 
 item HCJoystick
@@ -145,6 +155,7 @@ item HCJoystick
         Type    			= Normal,
         DisplayName         		= Joystick,
         icon 				= HCJoystick,
+	DisplayCategory			= CraftElec,
     }
 
 item HCRouter
@@ -153,6 +164,7 @@ item HCRouter
         Type    			= Normal,
         DisplayName         		= Router,
         icon 				= HCRouter,
+	DisplayCategory			= CraftElec,
     }
 
 item HCScaner
@@ -161,6 +173,7 @@ item HCScaner
         Type    			= Normal,
         DisplayName         		= Scanner,
         icon 				= HCScaner,
+	DisplayCategory			= CraftElec,
     }
 
 item HCComputermonitor
@@ -169,6 +182,7 @@ item HCComputermonitor
         Type    			= Normal,
         DisplayName         		= Computer Monitor,
         icon 				= HCComputermonitor,
+	DisplayCategory			= CraftElec,
     }
 
 item HCComputer
@@ -177,6 +191,7 @@ item HCComputer
         Type    			= Normal,
         DisplayName         		= Computer,
         icon 				= HCComputer,
+	DisplayCategory			= CraftElec,
     }
 
 item HCComputerkeyboard
@@ -185,6 +200,7 @@ item HCComputerkeyboard
         Type    			= Normal,
         DisplayName         		= Computer Keyboard,
         icon 				= HCComputerkeyboard,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectricclamp
@@ -193,6 +209,7 @@ item HCElectricclamp
         Type    			= Normal,
         DisplayName         		= Electric Clamp,
         icon 				= HCElectricclamp,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCablecopper
@@ -201,6 +218,7 @@ item HCCablecopper
         Type    			= Normal,
         DisplayName         		= Copper Cable,
         icon 				= HCCablecopper,
+	DisplayCategory			= CraftElec,
     }
 
 item HCComputermouse
@@ -209,6 +227,7 @@ item HCComputermouse
         Type    			= Normal,
         DisplayName         		= Computer Mouse,
         icon 				= HCComputermouse,
+	DisplayCategory			= CraftElec,
     }
 
 item HCMousepad
@@ -217,6 +236,7 @@ item HCMousepad
         Type    			= Normal,
         DisplayName         		= Mouse Pad,
         icon 				= HCMousepad,
+	DisplayCategory			= CraftElec,
     }
 
 item HCComputerfan
@@ -225,6 +245,7 @@ item HCComputerfan
         Type    			= Normal,
         DisplayName         		= Computer Fan,
         icon 				= HCComputerfan,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCircutchip
@@ -233,6 +254,7 @@ item HCCircutchip
         Type    			= Normal,
         DisplayName         		= Circut Chip,
         icon 				= HCCircutchip,
+	DisplayCategory			= CraftElec,
     }
 
 item HCSolder
@@ -243,6 +265,7 @@ item HCSolder
 	UseDelta			=	0.1,
 	DisplayName 			= 	Solder,
 	Icon 				= 	HCSolder,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCSoldergun
@@ -251,6 +274,7 @@ item HCSoldergun
 	Type				=	Normal,
 	DisplayName			=	Solder Gun,
 	Icon				=	HCSoldergun,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCSoldergunpowered
@@ -262,6 +286,7 @@ item HCSoldergunpowered
 	DisplayName 			= 	Solder Gun with Power,
 	ReplaceOnDeplete		=	HCSoldergundead,
 	Icon 				= 	HCSoldergunpowered,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCSoldergundead
@@ -270,6 +295,7 @@ item HCSoldergundead
         Type    			= 	Normal,
         DisplayName         		= 	Solder Gun with Dead Battery,
         icon 				= 	HCSoldergun,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCabletangle
@@ -278,6 +304,7 @@ item HCCabletangle
         Type    		= Normal,
         DisplayName         	= Tangled Cables,
         icon 			= HCCabletangle,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCircuitboarduseless
@@ -286,6 +313,7 @@ item HCCircuitboarduseless
         Type    		= Normal,
         DisplayName         	= Useless Circuit Board,
         icon 			= HCCircuitboarduseless,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectronicpartsbroken
@@ -297,6 +325,7 @@ item HCElectronicpartsbroken
 	DisplayName			=	Broken Electronic Parts,
 	ReplaceOnDeplete		=	HCCircuitboardpieces,
 	Icon				=	HCElectronicpartsbroken,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCircuitboardpieces
@@ -305,6 +334,7 @@ item HCCircuitboardpieces
         Type    		= Normal,
         DisplayName         	= Empty Circuitboard Pieces,
         icon 			= HCCircuitboardpieces,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectronicparts01
@@ -313,6 +343,7 @@ item HCElectronicparts01
         Type    		= Normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts01,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectronicparts02
@@ -321,6 +352,7 @@ item HCElectronicparts02
         Type    		= Normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts02,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectronicparts03
@@ -329,6 +361,7 @@ item HCElectronicparts03
         Type    		= Normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts03,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectronicparts04
@@ -337,6 +370,7 @@ item HCElectronicparts04
         Type    		= Normal,
         DisplayName         	= Small Electronic Parts,
         icon 			= HCElectronicparts04,
+	DisplayCategory			= CraftElec,
     }
 
 item HCPlatinemovingsensor
@@ -345,6 +379,7 @@ item HCPlatinemovingsensor
         Type    		=    Normal,
         DisplayName    		=    Moving Sensor Platine,
         Icon   		 	=    HCPlatinemovingsensor,
+	DisplayCategory			= CraftElec,
     }
 
 item HCPlatineirremote
@@ -353,6 +388,7 @@ item HCPlatineirremote
         Type    		=    Normal,
         DisplayName    		=    IR Remote Platine,
         Icon   		 	=    HCPlatineirremote,
+	DisplayCategory			= CraftElec,
     }
 
 item HCPlatineirreceiver
@@ -361,6 +397,7 @@ item HCPlatineirreceiver
         Type    		=    Normal,
         DisplayName    		=    IR Receiver Platine,
         Icon   		 	=    HCPlatineirreceiver,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCircuitboardcopperside
@@ -369,6 +406,7 @@ item HCCircuitboardcopperside
 	Type			=	Normal,
 	DisplayName		=	Copper Circuit Board,
 	Icon			=	HCCircuitboardcopperside,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitboardcoppersidephotolacquer
@@ -377,6 +415,7 @@ item HCCircuitboardcoppersidephotolacquer
 	Type			=	Normal,
 	DisplayName		=	Circuit Board With Photo Lacquer,
 	Icon			=	HCCircuitboardcoppersidephotolacquer,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitprint
@@ -385,6 +424,7 @@ item HCCircuitprint
 	Type			=	Normal,
 	DisplayName		=	Circuit Print,
 	Icon			=	HCCircuitprint,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitboardprinted
@@ -393,6 +433,7 @@ item HCCircuitboardprinted
 	Type			=	Normal,
 	DisplayName		=	Printet Circuit Board,
 	Icon			=	HCCircuitboardprinted,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitboarddeveloped
@@ -401,6 +442,7 @@ item HCCircuitboarddeveloped
 	Type			=	Normal,
 	DisplayName		=	Developed Circuit Board,
 	Icon			=	HCCircuitboardcopperside,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitboardwashed01
@@ -409,6 +451,7 @@ item HCCircuitboardwashed01
 	Type			=	Normal,
 	DisplayName		=	Washed Circuit Board,
 	Icon			=	HCCircuitboardwashed01,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitboardwashed02
@@ -417,6 +460,7 @@ item HCCircuitboardwashed02
 	Type			=	Normal,
 	DisplayName		=	Re-Washed Circuit Board,
 	Icon			=	HCCircuitboardwashed02,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitboarddrilled
@@ -425,6 +469,7 @@ item HCCircuitboarddrilled
 	Type			=	Normal,
 	DisplayName		=	Circuit Board With Holes,
 	Icon			=	HCCircuitboarddrilled,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCCircuitboardempty
@@ -433,6 +478,7 @@ item HCCircuitboardempty
 	Type			=	Normal,
 	DisplayName		=	Empty Circuit Board,
 	Icon			=	HCCircuitboardempty,
+	DisplayCategory			= CraftElec,
 	}
 
 item HCDisplay
@@ -441,6 +487,7 @@ item HCDisplay
         Type    		= Normal,
         DisplayName         	= Display,
         icon 			= HCDisplay,
+	DisplayCategory			= CraftElec,
     }
 
 item HCSwitch
@@ -449,6 +496,7 @@ item HCSwitch
         Type    		= Normal,
         DisplayName         	= Switch,
         icon 			= HCSwitch,
+	DisplayCategory			= CraftElec,
     }
 
 item HCLedred
@@ -457,6 +505,7 @@ item HCLedred
         Type    		= Normal,
         DisplayName         	= Red LED,
         icon 			= HCLedred,
+	DisplayCategory			= CraftElec,
     }
 
 item HCLedgreen
@@ -465,6 +514,7 @@ item HCLedgreen
         Type    		= Normal,
         DisplayName         	= Green LED,
         icon 			= HCLedgreen,
+	DisplayCategory			= CraftElec,
     }
 
 item HCLedyellow
@@ -473,6 +523,7 @@ item HCLedyellow
         Type    		= Normal,
         DisplayName         	= Yellow LED,
         icon 			= HCLedyellow,
+	DisplayCategory			= CraftElec,
     }
 
 item HCLedblue
@@ -481,6 +532,7 @@ item HCLedblue
         Type    		= Normal,
         DisplayName         	= Blue LED,
         icon 			= HCLedblue,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCapacitor01
@@ -489,6 +541,7 @@ item HCCapacitor01
         Type    		= Normal,
         DisplayName         	= Capacitor,
         icon 			= HCCapacitor01,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCapacitor02
@@ -497,6 +550,7 @@ item HCCapacitor02
         Type    		= Normal,
         DisplayName         	= Capacitor,
         icon 			= HCCapacitor02,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCeramicoscillator
@@ -505,6 +559,7 @@ item HCCeramicoscillator
         Type    		= Normal,
         DisplayName         	= Ceramic Oscillator,
         icon 			= HCCeramicoscillator,
+	DisplayCategory			= CraftElec,
     }
 
 item HCColoredwire
@@ -513,6 +568,7 @@ item HCColoredwire
         Type    		= Normal,
         DisplayName         	= Colored Wire,
         icon 			= HCColoredwire,
+	DisplayCategory			= CraftElec,
     }
 
 item HCComputerfandismantled
@@ -521,6 +577,7 @@ item HCComputerfandismantled
         Type    		= Normal,
         DisplayName         	= Dismantled Computer Fan,
         icon 			= HCComputerfandismantled,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCoppercablered
@@ -529,6 +586,7 @@ item HCCoppercablered
         Type    		= Normal,
         DisplayName         	= Red Copper Cable,
         icon 			= HCCoppercablered,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCoppercablestriped
@@ -537,6 +595,7 @@ item HCCoppercablestriped
         Type    		= Normal,
         DisplayName         	= Striped Copper Cable,
         icon 			= HCCoppercablestriped,
+	DisplayCategory			= CraftElec,
     }
 
 item HCDiode
@@ -545,6 +604,7 @@ item HCDiode
         Type    		= Normal,
         DisplayName         	= Diode,
         icon 			= HCDiode,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectromotor
@@ -553,6 +613,7 @@ item HCElectromotor
         Type    		= Normal,
         DisplayName         	= Large Electromotor,
         icon 			= HCElectromotor,
+	DisplayCategory			= CraftElec,
     }
 
 item HCElectromotorsmall
@@ -561,6 +622,7 @@ item HCElectromotorsmall
         Type    		= Normal,
         DisplayName         	= Small Electromotor,
         icon 			= HCElectromotorsmall,
+	DisplayCategory			= CraftElec,
     }
 
 item HCFuse
@@ -569,6 +631,7 @@ item HCFuse
         Type    		= Normal,
         DisplayName         	= Fuse,
         icon 			= HCFuse,
+	DisplayCategory			= CraftElec,
     }
 
 item HCGlowlamp
@@ -577,6 +640,7 @@ item HCGlowlamp
         Type    		= Normal,
         DisplayName         	= Glowlamp,
         icon 			= HCGlowlamp,
+	DisplayCategory			= CraftElec,
     }
 
 item HCVacuumtube
@@ -585,6 +649,7 @@ item HCVacuumtube
         Type    		= Normal,
         DisplayName         	= Vacuum Tube,
         icon 			= HCVacuumtube,
+	DisplayCategory			= CraftElec,
     }
 
 item HCHeatelement
@@ -593,6 +658,7 @@ item HCHeatelement
         Type    		= Normal,
         DisplayName         	= Heat Element,
         icon 			= HCHeatelement,
+	DisplayCategory			= CraftElec,
     }
 
 item HCInduktor
@@ -601,6 +667,7 @@ item HCInduktor
         Type    		= Normal,
         DisplayName         	= Inductor,
         icon 			= HCInduktor,
+	DisplayCategory			= CraftElec,
     }
 
 item HCIREmitter
@@ -609,6 +676,7 @@ item HCIREmitter
         Type    		= Normal,
         DisplayName         	= IR Emitter,
         icon 			= HCIREmitter,
+	DisplayCategory			= CraftElec,
     }
 
 item HCIRReceiver
@@ -617,6 +685,7 @@ item HCIRReceiver
         Type    		= Normal,
         DisplayName         	= IR Receiver,
         icon 			= HCIRReceiver,
+	DisplayCategory			= CraftElec,
     }
 
 item HCLDR
@@ -625,6 +694,7 @@ item HCLDR
         Type    		= Normal,
         DisplayName         	= LDR,
         icon 			= HCLDR,
+	DisplayCategory			= CraftElec,
     }
 
 item HCPoti
@@ -633,6 +703,7 @@ item HCPoti
         Type    		= Normal,
         DisplayName         	= Poti,
         icon 			= HCPoti,
+	DisplayCategory			= CraftElec,
     }
 
 item HCReceiverIC
@@ -641,6 +712,7 @@ item HCReceiverIC
         Type    		= Normal,
         DisplayName         	= Receiver IC,
         icon 			= HCReceiverIC,
+	DisplayCategory			= CraftElec,
     }
 
 item HCIRDecoder
@@ -649,6 +721,7 @@ item HCIRDecoder
         Type    		= Normal,
         DisplayName         	= IR Decoder,
         icon 			= HCReceiverIC,
+	DisplayCategory			= CraftElec,
     }
 
 item HCIREncoder
@@ -657,6 +730,7 @@ item HCIREncoder
         Type    		= Normal,
         DisplayName         	= IR Encoder,
         icon 			= HCReceiverIC,
+	DisplayCategory			= CraftElec,
     }
 
 item HCResistor
@@ -665,6 +739,7 @@ item HCResistor
         Type    		= Normal,
         DisplayName         	= Resistor,
         icon 			= HCResistor,
+	DisplayCategory			= CraftElec,
     }
 
 item HCResistorbox
@@ -673,6 +748,7 @@ item HCResistorbox
         Type    		= Normal,
         DisplayName         	= Box of Resistors,
         icon 			= HCResistorbox,
+	DisplayCategory			= CraftElec,
     }
 
 item HCTerminalstrip
@@ -681,6 +757,7 @@ item HCTerminalstrip
         Type    		= Normal,
         DisplayName         	= Terminal Strip,
         icon 			= HCTerminalstrip,
+	DisplayCategory			= CraftElec,
     }
 
 item HCTransistor
@@ -689,6 +766,7 @@ item HCTransistor
         Type    		= Normal,
         DisplayName         	= Transistor,
         icon 			= HCTransistor,
+	DisplayCategory			= CraftElec,
     }
 
 item HCWashingmachinepump
@@ -697,6 +775,7 @@ item HCWashingmachinepump
         Type    		= Normal,
         DisplayName         	= Washingmachine Pump,
         icon 			= HCWashingmachinepump,
+	DisplayCategory			= CraftElec,
     }
 
 item HCCPU
@@ -705,6 +784,7 @@ item HCCPU
         Type			=	Normal,
         DisplayName		=	CPU,
        	Icon			=	HCCPU,
+	DisplayCategory			= CraftElec,
     }
 
 item HCComputerPSU
@@ -713,6 +793,7 @@ item HCComputerPSU
         Type			=	Normal,
         DisplayName		=	Computer PSU,
        	Icon			=	HCPSU,
+	DisplayCategory			= CraftElec,
     }
 	
 	item HCCopymachineGen
@@ -721,6 +802,7 @@ item HCComputerPSU
         Type                = Normal,
         DisplayName                 = Copy Machine With Generator,
         icon                 = HCCopymachineGen,
+	DisplayCategory			= Useless,
     }
 
 /************************RECIPES************************/

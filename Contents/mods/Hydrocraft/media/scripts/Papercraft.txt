@@ -14,6 +14,7 @@ item HCPapercrane
         Type    		= Normal,
         DisplayName         	= Paper Crane,
         icon 			= HCPapercrane,
+		DisplayCategory	= Toy,		
     }
 
 item HCPaperairplane
@@ -22,6 +23,7 @@ item HCPaperairplane
         Type    		= Normal,
         DisplayName         	= Airplane,
         icon 			= HCPaperairplane,
+		DisplayCategory	= Toy,		
     }
 
 item HCRagball
@@ -30,6 +32,7 @@ item HCRagball
         Type    	=    Normal,
         DisplayName    	=    Rag Ball,
         Icon    	=    HCRagball,
+		DisplayCategory	= Toy,		
     }
 
 item HCPulp
@@ -38,6 +41,7 @@ item HCPulp
         Type    	=    Normal,
         DisplayName    	=    Pulp,
         Icon    	=    HCPulp,
+		DisplayCategory	= CraftMisc,		
     }
 
 item HCNetting
@@ -46,6 +50,7 @@ item HCNetting
         Type    	=    Normal,
         DisplayName    	=    Netting,
         Icon    	=    HCNetting,
+		DisplayCategory	= CraftMisc,	
     }
 
 item HCPaperscreen
@@ -54,6 +59,7 @@ item HCPaperscreen
         Type    	=    Normal,
         DisplayName    	=    Paper Screen,
         Icon    	=    HCPaperscreen,
+		DisplayCategory	= CraftMisc,	
     }
 
 item HCPaperscreenwet
@@ -62,6 +68,7 @@ item HCPaperscreenwet
         Type    	=    Normal,
         DisplayName    	=    Wet Paper Screen,
         Icon    	=    HCPaperscreenwet,
+		DisplayCategory	= CraftMisc,	
     }
 
 item HCPaperscreendry
@@ -70,6 +77,7 @@ item HCPaperscreendry
         Type    	=    Normal,
         DisplayName    	=    Dry Paper Screen,
         Icon    	=    HCPaperscreendry,
+		DisplayCategory	= CraftMisc,	
     }
 	
 	item HCQuill
@@ -79,6 +87,7 @@ item HCPaperscreendry
 	UseDelta 		= 1.00,
         DisplayName         	= Quill,
         icon 			= HCQuill,
+		DisplayCategory	= CraftMisc,	
     }
 
 item HCBlackink
@@ -89,6 +98,7 @@ item HCBlackink
         DisplayName         	= Ink Well,
         icon 			= HCInkwell1,
 	ReplaceOnDeplete    = HCBlackink0,
+		DisplayCategory	= CraftMisc,	
     }
 	
 item HCBlackink0
@@ -97,6 +107,7 @@ item HCBlackink0
 	Type 			= Normal,
         DisplayName         	= Empty Ink Well,
         icon 			= HCInkwell0,
+		DisplayCategory	= CraftMisc,	
     }
 
 /************************RECIPES************************/

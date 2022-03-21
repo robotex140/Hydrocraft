@@ -15,6 +15,7 @@ item HCDeskbell
         Type			=	Normal,
         DisplayName		=	Desk Bell,
 	Icon			=	HCDeskbell,
+			DisplayCategory	=   Misc,
 	}
 
 /************************RECIPES************************/

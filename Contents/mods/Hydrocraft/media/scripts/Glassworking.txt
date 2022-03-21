@@ -14,6 +14,7 @@ item HCGlassshards
         Type    		= Normal,
         DisplayName         	= Glass Shards,
         icon 			= HCGlassshards,
+		DisplayCategory	= CraftInd,
     }   
 
 item HCGlassingot
@@ -22,6 +23,7 @@ item HCGlassingot
         Type    		= Normal,
         DisplayName         	= Glass Ingot,
         icon 			= HCGlassingot,
+		DisplayCategory	= CraftInd,
     }   
 
 item HCIronblowpipe
@@ -30,6 +32,7 @@ item HCIronblowpipe
         Type    		= Normal,
         DisplayName         	= Iron Blowpipe,
         icon 			= HCIronblowpipe,
+		DisplayCategory	= CraftInd,
     }
 
 item HCGlasspane
@@ -38,6 +41,7 @@ item HCGlasspane
         Type    		= Normal,
         DisplayName         	= Glass Pane,
         icon 			= HCGlasspane,
+		DisplayCategory	= CraftInd,
     } 
 
 item HCGlasspanelarge
@@ -46,6 +50,7 @@ item HCGlasspanelarge
         Type    		= Normal,
         DisplayName         	= Large Glass Pane,
         icon 			= HCGlasspanelarge,
+		DisplayCategory	= CraftInd,
     } 
 
 item HCMicroscopeslide
@@ -54,6 +59,7 @@ item HCMicroscopeslide
         Type    		= Normal,
         DisplayName     	= Microscope Slide,
         icon 			= HCMicroscopeslide,
+		DisplayCategory	= CraftInd,
     } 
 
 item HCWineglass
@@ -62,6 +68,7 @@ item HCWineglass
         Type    		= Normal,
         DisplayName         	= Wine Glass,
         icon 			= HCWineglass,
+		DisplayCategory	= CraftDist,
     }   
 
 item HCBeerglass
@@ -70,6 +77,7 @@ item HCBeerglass
         Type    		= Normal,
         DisplayName         	= Beer Glass,
         icon 			= HCBeerglass,
+		DisplayCategory	= CraftDist,
     } 
 
 item HCGlassjug
@@ -81,6 +89,7 @@ item HCGlassjug
 	ReplaceOnUseOn		= 	WaterSource-HCGlassjugfull,
         icon 			= 	HCGlassjug,
 	RainFactor 		= 	1,
+		DisplayCategory	= CraftDist,
     	}
 
 item HCGlassjugfull
@@ -96,6 +105,7 @@ item HCGlassjugfull
 	ReplaceOnUseOn		=	WaterSource-HCGlassjugfull,
 	Icon			=	HCGlassjugfull,
 	RainFactor 		= 	1,
+		DisplayCategory	= FoodB,
     	}
 
 item HCFiberglass
@@ -104,9 +114,10 @@ item HCFiberglass
         Type    		= Normal,
         DisplayName         	= Fiberglass,
         icon 			= HCFiberglass,
+		DisplayCategory	= CraftInd,
     }
 
-/************************RECIPES************************/
+/************************WEAPONS************************/
 
 item HCBrokenbottle
 	{
@@ -144,6 +155,7 @@ item HCBrokenbottle
         	BreakSound  			=   	PZ_BreakBottle,
         	TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory	= WepMelee,
 	}
 
 item HCBrokenbottle2
@@ -182,6 +194,7 @@ item HCBrokenbottle2
         	BreakSound  			=   	PZ_BreakBottle,
         	TreeDamage  			=   	0,
         	EnduranceMod 			= 	0.5,
+		DisplayCategory	= WepMelee,
 	}
 
 /************************RECIPES************************/
