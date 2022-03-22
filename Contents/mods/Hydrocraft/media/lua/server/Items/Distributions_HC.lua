@@ -137,11 +137,11 @@ local zombie_items = {
         "Base.BandageDirty", 0.2,
         "Base.Headphones", 0.2,
 }
-setDistributionRolls( "all", "inventoryfemale", 3 )
-setDistributionRolls( "all", "inventorymale", 3 )
+--setDistributionRolls( "all", "inventoryfemale", 3 )
+--setDistributionRolls( "all", "inventorymale", 3 )
 
-insertItemListsInDistribution( "all", "inventorymale", { zombie_items } );
-insertItemListsInDistribution( "all", "inventoryfemale", { zombie_items } );
+--insertItemListsInDistribution( "all", "inventorymale", { zombie_items } );
+--insertItemListsInDistribution( "all", "inventoryfemale", { zombie_items } );
 -------------------------------
 -- Fridge Inventory Spawning --
 -------------------------------
