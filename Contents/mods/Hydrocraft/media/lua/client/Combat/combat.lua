@@ -2,23 +2,24 @@ local MOD_ID = "HydroCombat";
 
 
 local function HydroCombatOnHitZombie(zombie,player,bodyType,weapon)
-if player:getPrimaryHandItem() then
+	local weaponName = ""
+	if(weapon ~= nil) then
+		weaponName = weapon:getType()
+	else
+		weaponName = "This should never happen, but if it does weaponName still needs some text in it" -- :D
+	end
 
-local gun=player:getPrimaryHandItem():getType();
-
-if gun=="HCCrossbow" or gun=="HCLongbow" or gun=="HCLongbowMag" then
-if ZombRand(5) > 1 then
-
-if gun=="HCCrossbow" then zombie:addItemToSpawnAtDeath(InventoryItemFactory.CreateItem("Hydrocraft.HCXbowbolt"));
+	local getArrowBack = (ZombRand(5) > 1) --60% chance of getting the arrow back
+	if(not getArrowBack) then
+		return
+	end
+	
+	if(weaponName == "HCLongbow" or weaponName == "HCLongbowMag") then
+		zombie:addItemToSpawnAtDeath(InventoryItemFactory.CreateItem("Hydrocraft.HCArrow"))
+	elseif(weaponName == "HCCrossbow") then
+		zombie:addItemToSpawnAtDeath(InventoryItemFactory.CreateItem("Hydrocraft.HCXbowbolt"))
+	end
 end
-
-if gun=="HCLongbow" or gun=="HCLongbowMag" then zombie:addItemToSpawnAtDeath(InventoryItemFactory.CreateItem("Hydrocraft.HCArrow"));
-end
-
-end --rand
-end --is bolt or arrow?
-end --has prim Handitem?
-end -- end function
 
 
 Events.OnHitZombie.Add(HydroCombatOnHitZombie);
