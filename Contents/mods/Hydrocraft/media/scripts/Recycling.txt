@@ -151,16 +151,6 @@ recipe Recycle Wooden Crate
 	OnGiveXP:HCNoExpGain,
     }
 
-recipe Recycle Wooden Beehive
-    {
-    	HCBeehive1,
-    	keep Hammer,
-    	Result:Plank=2,
-    	Time:100,
-    	Category:Carpentry,
-    	OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
 recipe Recycle Pillow
     {
     keep KitchenKnife/HuntingKnife/Scissors/Scalpel/HCJackknife/FlintKnife,
