@@ -1415,7 +1415,7 @@ recipe Skin Animal
 recipe Skin Animal
     {
         keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
-        HCBeaglemale/HCBeaglefemale/HCBernesedead/HCBordercolliedead/HCBoxerdead/HCColliedead/HCCorgidead/HCDachshunddead/HCDobermandead/HCGermanshepherddead/HCGreatdanedead/HCGoldendead/HCHeelerdead/HCHuskydead/HCIrishsetterdead/HCLabradordead/HCPitbulldead/HCRottweilerdead/HCShibainudead,
+        HCBeagledead/HCBernesedead/HCBordercolliedead/HCBoxerdead/HCColliedead/HCCorgidead/HCDachshunddead/HCDobermandead/HCGermanshepherddead/HCGreatdanedead/HCGoldendead/HCHeelerdead/HCHuskydead/HCIrishsetterdead/HCLabradordead/HCPitbulldead/HCRottweilerdead/HCShibainudead,
         CanBeDoneFromFloor:true,
         Result:HCDogmeat,
     	NeedToBeLearn:true,
