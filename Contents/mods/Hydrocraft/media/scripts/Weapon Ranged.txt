@@ -529,7 +529,7 @@ item HCCrossbow
 		RackAfterShoot = FALSE,
         JamGunChance = 0,
         AttachmentType = Rifle,
-        MaxAmmo = 1
+        MaxAmmo = 1,
 		DisplayCategory	= WepBow,
     }
 
