@@ -176,7 +176,7 @@ item HCBananaseedspacket
 	Type			= Normal,
 	DisplayName		= Banana Seeds Packet,
 	Icon			= HCBananaseedspacket,
-	Weight			= 0.1
+	Weight			= 0.1,
 		DisplayCategory	= SurFarm,
 	}
 
