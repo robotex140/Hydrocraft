@@ -95,10 +95,8 @@ item HCBarrelgrapegreen
 item HCBarrelwine
     {
         Weight    		= 20,
-        Type    		= Drainable,
-		UseDelta	        =	0.07,
+        Type    		= Normal,
         DisplayName         	= Barrel of Red Wine,
-        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
 	DisplayCategory          =   CraftDist,
 	
@@ -107,10 +105,8 @@ item HCBarrelwine
 item HCBarrelwinewhite
     {
         Weight    		= 20,
-        Type    		= Drainable,
-		UseDelta	        =	0.25,
+        Type    		= Normal,
         DisplayName         	= Barrel of White Wine,
-        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 			= HCWinebarrel,
 	DisplayCategory          =   CraftDist,
 	
@@ -119,12 +115,10 @@ item HCBarrelwinewhite
 item HCBarrelvinegar
     {
         Weight    		= 20,
-        Type    		= Drainable,
-		UseDelta	        =	0.05,
+        Type    		= Normal,
         DisplayName         	= Barrel of vinegar,
         icon 			= HCWinebarrel,
-        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
-		DisplayCategory          =   CraftDist,
+	DisplayCategory          =   CraftDist,
 	
     }
 
@@ -173,8 +167,7 @@ item HCBarrelhoney
 item HCBarrelmead
 	{
         Weight    			= 	20,
-        Type    		= Drainable,
-		UseDelta	        =	0.05,
+	Type 				= 	Normal,
         DisplayName         		= 	Barrel of Mead,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
@@ -227,9 +220,7 @@ item HCBarrelrice
 item HCBarrelsake
 	{
         Weight    			= 	20,
-        Type    		= Drainable,
-		UseDelta	        =	0.05,
-        ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
+	Type 				= 	Normal,
         DisplayName         		= 	Barrel of Sake,
         ReplaceOnDeplete        	= 	Hydrocraft.HCWoodenbarrel,
         icon 				= 	HCWinebarrel,
@@ -317,11 +308,12 @@ recipe Fill Bottles with Wine
     {
        	SkillRequired:Cooking=5,
 	HCBarrelwine,
-	WineEmpty,
-   	Result:Wine2,
+	WineEmpty=20,
+   	Result:Wine2=20,
 	NeedToBeLearn:true,
     	Time:50,
 	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
     	OnGiveXP:HCCooking_OnGiveXP,	
     }    
 
@@ -329,11 +321,12 @@ recipe Fill Bottles with Wine
     {
        	SkillRequired:Cooking=5,
 	HCBarrelwinewhite,
-	WineEmpty,
-   	Result:Wine,
+	WineEmpty=20,
+   	Result:Wine=20,
 	NeedToBeLearn:true,
     	Time:50,
 	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
     	OnGiveXP:HCCooking_OnGiveXP,	
     } 
 
@@ -341,11 +334,12 @@ recipe Fill Bottles with Vinegar
     {
        	SkillRequired:Cooking=5,
 	HCBarrelvinegar,
-	WhiskeyEmpty/HCVinegarempty,
+	WhiskeyEmpty=20/HCVinegarempty=20,
 	NeedToBeLearn:true,
-   	Result:Vinegar,
+   	Result:Vinegar=20,
     	Time:50,
 	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
     	OnGiveXP:HCCooking_OnGiveXP,	
     }
 
@@ -409,12 +403,13 @@ recipe Make Bottle of Mead
 	{
        	SkillRequired:Cooking=6,
 	HCBarrelmead,
-	WhiskeyEmpty,
+	WhiskeyEmpty=20,
     	CanBeDoneFromFloor:true,
-	Result:HCMead,
+	Result:HCMead=20,
 	Time:5000.0,
 	NeedToBeLearn:true,
 	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
     	OnGiveXP:HCCooking_OnGiveXP,	
 	}
 
@@ -449,12 +444,13 @@ recipe Make Bottle of Sake
 	{
        	SkillRequired:Cooking=6,
 	HCBarrelsake,
-	WhiskeyEmpty,
+	WhiskeyEmpty=20,
     	CanBeDoneFromFloor:true,
-	Result:HCSake,
+	Result:HCSake=20,
 	Time:5000.0,
 	NeedToBeLearn:true,
 	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
     	OnGiveXP:HCCooking_OnGiveXP,	
 	}
 	
