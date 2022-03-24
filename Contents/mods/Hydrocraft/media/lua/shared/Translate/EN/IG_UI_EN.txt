@@ -17,6 +17,7 @@ IGUI_EN = {
 	IGUI_ItemCat_CraftRec = "Crafting - Recycle",
 	IGUI_ItemCat_CraftMet = "Crafting - Metalurgy",
 	IGUI_ItemCat_CraftMas = "Crafting - Masonry",
+	IGUI_ItemCat_CraftRef = "Crafting - Refillable",
 	IGUI_ItemCat_CookRef = "Cooking - Refining",
 	IGUI_ItemCat_FoodS = "Food - Seasoning",
 	IGUI_ItemCat_FoodC = "Food - Canned",
