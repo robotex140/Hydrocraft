@@ -188,7 +188,7 @@ item HCYellowjacket
         Type    		= 	Normal,
         DisplayName         	= 	Yellow Jacket,
         icon 			= 	HCYellowjacket,
-		DisplayCategory	=   ClothM,
+		DisplayCategory	=   SurBug,
     }
 
 item HCButterfly
