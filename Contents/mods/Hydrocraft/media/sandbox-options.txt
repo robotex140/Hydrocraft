@@ -1,0 +1,8 @@
+VERSION = 1,
+option Hydrocraft.SpawnHydrocraftGuns
+{
+	type = boolean,
+	default = true,
+	page = Hydrocraft,
+	translation = Spawn_Hydrocraft_Guns,
+}
