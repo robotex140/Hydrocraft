@@ -100,6 +100,7 @@ local function OnLoadSpawnOnZeds()
 	LOOT["Hydrocraft.HCHearingaid"] = 0.2
 	LOOT["Hydrocraft.HCGlasseye"] = 0.2
 	LOOT["Hydrocraft.HCProstheticleg"] = 0.2
+	LOOT["Base.Belt2"] = 0.2
 
 	-- Food --
 	LOOT["Hydrocraft.HCTrailmix"] = 0.1
