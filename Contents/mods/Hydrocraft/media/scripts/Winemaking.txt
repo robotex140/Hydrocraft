@@ -330,11 +330,23 @@ recipe Fill Bottles with Wine
     	OnGiveXP:HCCooking_OnGiveXP,	
     } 
 
-recipe Fill Bottles with Vinegar
+recipe Fill Vinegar Bottles with Vinegar
     {
        	SkillRequired:Cooking=5,
 	HCBarrelvinegar,
-	WhiskeyEmpty=20/HCVinegarempty=20,
+	HCVinegarempty=20,
+	NeedToBeLearn:true,
+   	Result:Vinegar=20,
+    	Time:50,
+	Category:Cooking,
+    	OnCreate:recipe_hcwoodenbarrel,
+    	OnGiveXP:HCCooking_OnGiveXP,	
+    }
+recipe Fill Whiskey Bottles with Vinegar
+    {
+       	SkillRequired:Cooking=5,
+	HCBarrelvinegar,
+	WhiskeyEmpty=20,
 	NeedToBeLearn:true,
    	Result:Vinegar=20,
     	Time:50,
