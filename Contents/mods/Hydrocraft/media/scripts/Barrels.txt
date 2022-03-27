@@ -13,7 +13,7 @@ item HCBarrelmetalempty
         Weight    		= 4,
         Type	                = Container,
         Capacity	        = 27,
-        DisplayName     	= Empty Metal Barrel
+        DisplayName     	= Empty Metal Barrel,
 		DisplayCategory          =   Container,
         icon 			= HCBarrelmetal,
     } 
