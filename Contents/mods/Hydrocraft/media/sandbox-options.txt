@@ -6,3 +6,11 @@ option Hydrocraft.SpawnHydrocraftGuns
 	page = Hydrocraft,
 	translation = Spawn_Hydrocraft_Guns,
 }
+
+option Hydrocraft.SpawnBookCovers
+{
+	type = boolean,
+	default = true,
+	page = Hydrocraft,
+	translation = Spawn_Book_Covers,
+}

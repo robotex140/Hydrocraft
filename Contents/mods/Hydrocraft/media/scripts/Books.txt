@@ -1836,12 +1836,21 @@ module Hydrocraft
 		DisplayCategory	=   LitR,
 	}
 
+	item Nothing_Random_Book
+	{
+		Weight = 0,
+		Type = Normal,
+		DisplayName = Random Book,
+		Icon = Book,	
+	}	
+	
 /************************RECIPES************************/	
 
 recipe Remove Book Cover
     {
     Book/HCBook,
-    Result:HCBookcover,
+    Result:Nothing_Random_Book,
+	RemoveResultItem:true,
     Time:100,
     OnCreate:HCRandombook,
     }
