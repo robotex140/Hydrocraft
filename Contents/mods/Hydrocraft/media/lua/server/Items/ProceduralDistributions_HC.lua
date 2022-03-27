@@ -903,7 +903,7 @@ local kitchen_canned_food_items = {
         "Hydrocraft.HCJarredgrapes", 4,
         "Hydrocraft.HCJarredberries", 4,
 };
-insertItemListsInProcDistribution( "KitchenCannedFood",  {  kitchen_canned_food_items}   );
+--insertItemListsInProcDistribution( "KitchenCannedFood",  {  kitchen_canned_food_items}   );
 
 -- KitchenDryFood
 local kitchen_dry_food_items = {
