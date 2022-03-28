@@ -14,3 +14,13 @@ option Hydrocraft.SpawnBookCovers
 	page = Hydrocraft,
 	translation = Spawn_Book_Covers,
 }
+
+option Hydrocraft.Test
+{
+	type = enum,
+	default = 1,
+	numValues = 4,
+	valueTranslation = {how=1, does=2, this=3, work=4}
+	page = Hydrocraft,
+	translation = Test,
+}
