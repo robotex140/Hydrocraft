@@ -941,7 +941,7 @@ item HCKetchupempty
 		Type				=	Normal,
 		DisplayName			=	Empty Ketchup Bottle,
 		Icon				=	HCKetchupempty,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
 	}
 
 item HCPeanutbutterjarempty
@@ -950,7 +950,7 @@ item HCPeanutbutterjarempty
 		Type				=	Normal,
 		DisplayName			=	Peanut Butter Jar,
 		Icon				=	HCPeanutbutterjarempty,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
 	}
 
 item HCUHTmilkempty
@@ -959,7 +959,7 @@ item HCUHTmilkempty
         	Type                    	=    	Normal,
        	 	DisplayName        		=    	Empty UHT Milkpackage,
         	Icon                    	=    	HCUHTmilkempty,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
     }
 
 item HCMilkempty
@@ -968,7 +968,7 @@ item HCMilkempty
 		Type				=	Normal,
 		DisplayName			=	Empty Milk Carton,
 		Icon				=	HCMilkempty,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
 	}
 
 item HCMilkjugempty
@@ -1066,7 +1066,7 @@ item HCFlourempty
         	Icon				=	HCFlourempty,
         	Weight				=	0.15,
 		Type				=	Normal,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
     	}
 
 item HCRiceempty
@@ -1075,7 +1075,7 @@ item HCRiceempty
         	Icon				=	HCRiceempty,
         	Weight				=	0.15,
 		Type				=	Normal,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
     	}
 
 item HCSugarempty
@@ -1084,7 +1084,7 @@ item HCSugarempty
         	Icon				=	HCSugarempty,
         	Weight				=	0.05,
 		Type				=	Normal,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
     	}
 
 item HCVinegarempty
@@ -1093,7 +1093,7 @@ item HCVinegarempty
         	Icon				=	HCVinegarempty,
         	Weight				=	0.1,
 		Type				=	Normal,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
     	}
 
 item HCGlueempty
@@ -1102,7 +1102,7 @@ item HCGlueempty
         	Icon				=	HCGlueempty,
         	Weight				=	0.05,
 		Type				=	Normal,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
     	}
 item HCWoodglueempty
     	{
@@ -1110,7 +1110,7 @@ item HCWoodglueempty
         	Icon				=	HCWoodglueempty,
         	Weight				=	0.05,
 		Type				=	Normal,
-		DisplayCategory 		= 	Trash,
+		DisplayCategory 		= 	CraftRef,
     	}
 
 item HCScotchtapeempty

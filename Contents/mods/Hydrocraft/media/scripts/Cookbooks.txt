@@ -183,7 +183,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Viticulture Textbook,
 		Icon		=	HCCookbook,
-		TeachedRecipes  =   	Prepare Wine Barrels;Fill Bottles with Wine;Fill Bottles with Vinegar;Prepare Pot of Honey Brew;Fill Barrel with Honey Brew;Make Bottle of Mead;Prepare Pot of Rice Mash;Fill Barrel with Rice Mash;Make Bottle of Sake,
+		TeachedRecipes  =   	Prepare Wine Barrels;Fill Bottles with Wine;Fill Vinegar Bottles with Vinegar;Fill Whiskey Bottles with Vinegar;Prepare Pot of Honey Brew;Fill Barrel with Honey Brew;Make Bottle of Mead;Prepare Pot of Rice Mash;Fill Barrel with Rice Mash;Make Bottle of Sake,
         	ReplaceOnUse    =   	HCBookwinemaking,
 		DisplayCategory =   LitR,
 	}
