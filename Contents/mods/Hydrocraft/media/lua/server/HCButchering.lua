@@ -412,6 +412,10 @@ function HydrocraftButchering_ButcherSmallAnimal(items, result, player)
 	local animal, knife = HydrocraftButchering_SplitItems(items)
 	local fullType = animal:getFullType()
 
+	if(animal:getCategory() ~= "Food") then
+		animal = InventoryItemFactory:CreateItem("Base.PorkChop") --some generic meat, with an age / rotten value to copy., fullType already taken.
+	end
+	
 	--some give generic items, like all the big animals
 	-- vary rewards based on weight?
 	--some give an edible / cookable (rabbit, chicken, turkey).
