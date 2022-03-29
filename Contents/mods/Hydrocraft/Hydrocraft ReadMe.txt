@@ -2,7 +2,7 @@ Hydrocraft Build 41 Continued(Use at your OWN RISK!)
 
 Credits
 
-Coders - arrukus, BrokenMnemonic, Daantje, DemolitionDerby, Flamester, Hydromancerx, IanSchot, JackMods, Man_In_The_Purple_Hat, Minnigin, MisterInSayne, New Wise Man, UngratefulDead, Yossitaru, YuriNikolai, Hasilein, Hugo_Qwerty, Robotex140, The Semen Demon
+Coders - arrukus, BrokenMnemonic, Daantje, DemolitionDerby, Flamester, Hydromancerx, IanSchot, JackMods, Man_In_The_Purple_Hat, Minnigin, MisterInSayne, New Wise Man, UngratefulDead, Yossitaru, YuriNikolai, Hasilein, Hugo_Qwerty, Robotex140, The Semen Demon, BananaLumps
 
 Artists - Atoxwarrior, Batura, billwa, Crowborn, Cyrrent Eiledoll, DeadlyStr1ke, Filthy Mollie, fluffe9911, Fuji, Hydromancerx, IanSchot, Kaltag, Kittysong, Leliana, Man_In_The_Purple_Hat, Minnigin, New Wise Man, Nitengal, ORMtnMan, Rampage132003, Rhodix, Scyoni, Sparrow, StalkerCZ, Svarog, UngratefulDead, WolfeClaw, YuriNikolai, Zombadger
 
@@ -38,6 +38,7 @@ Included Parts from the following Mods
 - Not Enough Bags By RoboMat
 - Player Traps Mod By Nolan at Aggressive Gaming
 - Potato Cannon By Proxy_Codex
+- Push From Ground By BananaLumps
 - Random Sprites By Svarog
 - Recycling By Ramibuk
 - Safe Storage Mod By Nolan at Aggressive Gaming
