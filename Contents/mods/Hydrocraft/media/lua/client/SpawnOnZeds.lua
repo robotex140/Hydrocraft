@@ -95,11 +95,11 @@ local function OnLoadSpawnOnZeds()
 
 	-- Clothes --
 	LOOT["Hydrocraft.HCWorkgloves"] = 0.2
-	LOOT["Hydrocraft.HCDentures"] = 0.2
-	LOOT["Hydrocraft.HCEyepatch"] = 0.2
+	--LOOT["Hydrocraft.HCDentures"] = 0.2
+	--LOOT["Hydrocraft.HCEyepatch"] = 0.2
 	LOOT["Hydrocraft.HCHearingaid"] = 0.2
-	LOOT["Hydrocraft.HCGlasseye"] = 0.2
-	LOOT["Hydrocraft.HCProstheticleg"] = 0.2
+	--LOOT["Hydrocraft.HCGlasseye"] = 0.2
+	--LOOT["Hydrocraft.HCProstheticleg"] = 0.2
 	LOOT["Base.Belt2"] = 0.2
 
 	-- Food --
