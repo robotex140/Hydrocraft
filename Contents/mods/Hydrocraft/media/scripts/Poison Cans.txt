@@ -11,54 +11,53 @@ module Hydrocraft
 
 item HCPoisonempty
 	{
-	Weight			=	0.1,
-	CanStoreWater	=	TRUE,
-    Type			=	Drainable,
-	ReplaceOnUseOn	=	WaterSource-HCPoisonwater,
-    DisplayName		=	Empty Insecticide Can,
-	Icon			=	HCPoisonempty,
-	RainFactor 		= 	1,
-		DisplayCategory		=   SurFarm,
+        Weight			    =	0.1,
+        CanStoreWater	    =	TRUE,
+        Type			    =	Drainable,
+        ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
+        DisplayName		    =	Empty Insecticide Can,
+        Icon			    =	HCPoisonempty,
+        RainFactor 		    = 	1,
+        DisplayCategory		=   SurFarm,
 	}
 
 item HCPoison
 	{
-	Weight				=	2.5,
-    Type			    =	Drainable,
-	UseDelta		    =       0.25,
-	ReplaceOnDeplete	=	HCPoisonempty,
-	DisplayName			=	Insecticide,
-	Icon				=	HCPoison,
-		DisplayCategory		=   SurFarm,
+        Weight				=	2.5,
+        Type			    =	Drainable,
+        UseDelta		    =       0.25,
+        ReplaceOnDeplete	=	HCPoisonempty,
+        DisplayName			=	Insecticide,
+        Icon				=	HCPoison,
+        DisplayCategory		=   SurFarm,
 	}
 
 item HCPoisondetergent
 	{
-	Weight				=	2.5,
-        Type			        =	Drainable,
-	UseDelta		        =       0.25,
-	ReplaceOnDeplete	        =	HCPoisonempty,
-
-	DisplayName			=	Insecticide Can With Liqiud Soap,
-	Icon				=	HCPoisondetergent,
-		DisplayCategory		=   Cleaning,
+        Weight				=	2.5,
+        Type			    =	Drainable,
+        UseDelta		    =   0.25,
+        ReplaceOnDeplete	=	HCPoisonempty,
+        DisplayName			=	Insecticide Can With Liqiud Soap,
+        Icon				=	HCPoisondetergent,
+        DisplayCategory		=   Cleaning,
 	}
 
 
 item HCPoisonwater
 	{
-	IsWaterSource		=	TRUE,
-	Weight			    =	2.5,
-	CanStoreWater		=	TRUE,
-    Type			    =	Drainable,
-	UseWhileEquipped    =	FALSE,
-	UseDelta		    =	0.07,
-	DisplayName		    =	Inscticide Can With Water,
-	ReplaceOnDeplete	=	HCPoisonempty,
-	ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
-	Icon			    =	HCPoisonwater,
-	RainFactor 		    = 	1,
-		DisplayCategory		=   SurFarm,
+        IsWaterSource		=	TRUE,
+        Weight			    =	2.5,
+        CanStoreWater		=	TRUE,
+        Type			    =	Drainable,
+        UseWhileEquipped    =	FALSE,
+        UseDelta		    =	0.07,
+        DisplayName		    =	Inscticide Can With Water,
+        ReplaceOnDeplete	=	HCPoisonempty,
+        ReplaceOnUseOn	    =	WaterSource-HCPoisonwater,
+        Icon			    =	HCPoisonwater,
+        RainFactor 		    = 	1,
+        DisplayCategory		=   SurFarm,
 	}
 
 
@@ -69,7 +68,7 @@ recipe Clean Empty Insecticide Can
     	HCPoisonempty,
         keep Sponge/HCLoofah/HCSponge/RippedSheets,
         Water,
-	Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
+	    Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
     	Result:HCPlasticcanempty,
         OnCreate:recipe_hclabelpoison,
     	Time:50,
@@ -110,5 +109,3 @@ recipe Fill Empty Insecticide Can With Liquid Soap
     }
 
 }
-
-
