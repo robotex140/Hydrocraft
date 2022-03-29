@@ -62,7 +62,7 @@ item HCBluemeth
 recipe Make Homemade Crystal Meth 
     {
        	SkillRequired:Doctor=5,        
-        keep HCLab,
+        keep HCLab2,
         keep HCGasmask/HCImprovisedgasmask,
         keep HCLatexgloves/HCRubberglove,
         HCLithiumpowder,

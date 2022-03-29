@@ -1225,7 +1225,7 @@ recipe Soak Ripped Sheet with Selfmade Ether
     {
     	HCBeakerselfmadeetherhalf,
         RippedSheets,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
     	Result:HCEthersheet,
@@ -1238,7 +1238,7 @@ recipe Soak in Potassium Permanganate
     {
     	HCBeakerpotassiumpermanganatehalf,
         Bandage,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
     	Result:HCBandagepp,
@@ -1251,7 +1251,7 @@ recipe Soak in Potassium Permanganate
     {
     	HCBeakerpotassiumpermanganatehalf,
         RippedSheets,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
     	Result:HCRagpp,
@@ -1264,7 +1264,7 @@ recipe Soak in Potassium Permanganate
     {
     	HCBeakerpotassiumpermanganatehalf,
         CottonBalls,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
     	Result:HCCottonballspp,
