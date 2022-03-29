@@ -26,7 +26,7 @@ item HCAluminumscrap
 recipe Recycle Aluminum
     {
     SkillRequired:MetalWelding=6,
-    TentPeg/HCAluminiumbat/Extinguisher/HCWeldingtankempty/SheetMetal,
+    TentPeg/HCAluminiumbat/HCWeldingtankempty/SheetMetal,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
@@ -61,6 +61,26 @@ recipe Recycle Aluminum
     OnCreate:getBurned,
     OnGiveXP:HCWelding_OnGiveXP,
     }
+
+
+recipe Recycle Aluminum
+    {
+    SkillRequired:MetalWelding=6,
+    destroy Extinguisher,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCAluminumingot,
+    NeedToBeLearn:true,
+    Time:1000,\
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }  
 
 recipe Recycle Aluminum
     {
