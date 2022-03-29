@@ -57,7 +57,7 @@ item HCLogstack1
     {
         Weight          = 1000.0,
         Type            = Normal,
-        DisplayName             = Log Pile,
+        DisplayName     = Log Pile,
         icon            = HCLogstack1,
 		DisplayCategory	= CraftCarp,
     }
@@ -66,7 +66,7 @@ item HCLogstack2
     {
         Weight          = 1000.0,
         Type            = Normal,
-        DisplayName             = Log Pile,
+        DisplayName     = Log Pile,
         icon            = HCLogstack2,
 		DisplayCategory	= CraftCarp,
     }
@@ -75,7 +75,7 @@ item HCLogstack3
     {
         Weight          = 1000.0,
         Type            = Normal,
-        DisplayName             = Log Pile,
+        DisplayName     = Log Pile,
         icon            = HCLogstack3,
 		DisplayCategory	= CraftCarp,
     }
@@ -84,17 +84,17 @@ item HCLogstack4
     {
         Weight          = 1000.0,
         Type            = Normal,
-        DisplayName             = Log Stack,
+        DisplayName     = Log Stack,
         icon            = HCLogstack4,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCSawdust
     {
-        Weight              = 0.01,
-        Type                = Normal,
-        DisplayName                 = Sawdust,
-        icon                = HCSawdust,
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Sawdust,
+        icon            = HCSawdust,
 		DisplayCategory	= CraftCarp,
     }
 
@@ -102,7 +102,7 @@ item HCWoodbeam
     {
         Weight          = 8,
         Type            = Normal,
-        DisplayName             = Wood Beam,
+        DisplayName     = Wood Beam,
         icon            = HCWoodbeam,
 		DisplayCategory	= CraftCarp,
     }
@@ -111,7 +111,7 @@ item HCWoodsheet
     {
         Weight          = 4,
         Type            = Normal,
-        DisplayName             = Wood Sheet,
+        DisplayName     = Wood Sheet,
         icon            = HCWoodsheet,
 		DisplayCategory	= CraftCarp,
     }
@@ -120,7 +120,7 @@ item HCCurvedshaftsmall
     {
         Weight          = 0.2,
         Type            = Normal,
-        DisplayName             = Small Curved Shaft,
+        DisplayName     = Small Curved Shaft,
         icon            = HCCurvedshaftsmall,
 		DisplayCategory	= CraftCarp,
     }
@@ -129,7 +129,7 @@ item HCTongswood
     {
         Weight          = 0.2,
         Type            = Normal,
-        DisplayName             = Wooden Tongs,
+        DisplayName     = Wooden Tongs,
         icon            = HCTongswood,
 		DisplayCategory	= CraftMet,
     }
@@ -138,7 +138,7 @@ item HCWoodblock
     {
         Weight          = 1.0,
         Type            = Normal,
-        DisplayName             = Wood Block,
+        DisplayName     = Wood Block,
         icon            = HCWoodblock,
 		DisplayCategory	= CraftCarp,
     }
@@ -147,7 +147,7 @@ item HCWoodwheel
     {
         Weight          = 1.0,
         Type            = Normal,
-        DisplayName             = Wooden Wheel,
+        DisplayName     = Wooden Wheel,
         icon            = HCWoodwheel,
 		DisplayCategory	= CraftCarp,
     }
@@ -156,38 +156,38 @@ item HCStampmillwheel
     {
         Weight          = 2.0,
         Type            = Normal,
-        DisplayName             = Stamp Mill Wheel,
+        DisplayName     = Stamp Mill Wheel,
         icon            = HCStampmillwheel,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCWorkbench
     {
-    WeightReduction         = 0,
-    Weight              = 10,
-    Type                    = Container,
-    Capacity                = 50,
-        DisplayName             = Workbench,
+        WeightReduction = 0,
+        Weight          = 10,
+        Type            = Container,
+        Capacity        = 50,
+        DisplayName     = Workbench,
         icon            = HCWorkbench,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCTablewood
     {
-    Weight              = 5,
+        Weight          = 5,
         Type            = Normal,
-        DisplayName             = Wood Table,
+        DisplayName     = Wood Table,
         icon            = HCTablewood,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCCarpenterbench
     {
-    WeightReduction         = 0,
-    Weight              = 10,
-    Type                    = Container,
-    Capacity                = 50,
-        DisplayName             = Carpenter Bench,
+        WeightReduction = 0,
+        Weight          = 10,
+        Type            = Container,
+        Capacity        = 50,
+        DisplayName     = Carpenter Bench,
         icon            = HCCarpenterbench,
 		DisplayCategory	= CraftCarp,
     }
@@ -196,7 +196,7 @@ item HCSawbuck
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Sawbuck,
+        DisplayName     = Sawbuck,
         icon            = HCSawbuck,
 		DisplayCategory	= CraftCarp,
     }
@@ -205,7 +205,7 @@ item HCPlankbarrier
     {
         Weight          = 5,
         Type            = Normal,
-        DisplayName             = Plank Barrier,
+        DisplayName     = Plank Barrier,
         icon            = HCPlankbarrier,
 		DisplayCategory	= CraftCarp,
     }
@@ -214,7 +214,7 @@ item HCChurn
     {
         Weight          = 4,
         Type            = Normal,
-        DisplayName             = Churn,
+        DisplayName     = Churn,
         icon            = HCChurn,
 		DisplayCategory	= CraftCarp,
     }
@@ -223,7 +223,7 @@ item HCWoodenbarrel
     {
         Weight          = 4,
         Type            = Normal,
-        DisplayName             = Wooden Barrel,
+        DisplayName     = Wooden Barrel,
         icon            = HCWinebarrel,
 		DisplayCategory	= CraftCarp,
     }
@@ -231,130 +231,130 @@ item HCWoodenbarrel
 item HCVat
     {
         Weight          = 4,
-    CanStoreWater       = TRUE,
+        CanStoreWater   = TRUE,
         Type            = Normal,
-        DisplayName             = Wooden Vat,
-    ReplaceOnUseOn      = WaterSource-HCVatwater,
+        DisplayName     = Wooden Vat,
+        ReplaceOnUseOn  = WaterSource-HCVatwater,
         icon            = HCVat,
 		DisplayCategory	= CraftCarp,
-    RainFactor      = 1,
+        RainFactor      = 1,
     }
 
 item HCVatwater
     {
-    IsWaterSource       =   TRUE,
-    Weight          =   16,
-    CanStoreWater       =   TRUE,
-    Type            =   Drainable,
-    UseWhileEquipped    =   2.0,
-    UseDelta        =   0.003125,
-    DisplayName     =   Wooden Vat with Water,
-    ReplaceOnDeplete    =   HCVat,
-    ReplaceOnUseOn      =   WaterSource-HCVatwater,
-    Icon            =   HCVatwater,
-		DisplayCategory	= CraftCarp,
-    RainFactor      =   1,
+        IsWaterSource       = TRUE,
+        Weight              = 16,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.003125,
+        DisplayName         = Wooden Vat with Water,
+        ReplaceOnDeplete    = HCVat,
+        ReplaceOnUseOn      = WaterSource-HCVatwater,
+        icon                = HCVatwater,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
     }
 
 item HCWoodenbucket
     {
-    Weight          = 1,
-    CanStoreWater   = TRUE,
-    Type            = Normal,
-    DisplayName     = Wooden Bucket,
-    ReplaceOnUseOn  = WaterSource-HCWoodenbucketwater,
-    icon            = HCWoodenbucket,
-    RainFactor      = 1,
+        Weight          = 1,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Wooden Bucket,
+        ReplaceOnUseOn  = WaterSource-HCWoodenbucketwater,
+        icon            = HCWoodenbucket,
+        RainFactor      = 1,
 		DisplayCategory	= CraftCarp,
     }
 
 
 item HCWoodenbucketwater
     {
-    IsWaterSource       =   TRUE,
-    Weight              =   4,
-    CanStoreWater       =   TRUE,
-    Type                =   Drainable,
-    UseDelta            =   0.2,
-    UseWhileEquipped    =   true,
-    DisplayName         =   Wooden Bucket with Water,
-    ReplaceOnDeplete    =   HCWoodenbucket,
-    ReplaceOnUseOn      =   WaterSource-HCWoodenbucketwater,
-    Icon                =   HCWoodenbucketwater,
-    RainFactor          =   1,
-		DisplayCategory	= CraftCarp,
+        IsWaterSource       = TRUE,
+        Weight              = 4,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseDelta            = 0.2,
+        UseWhileEquipped    = true,
+        DisplayName         = Wooden Bucket with Water,
+        ReplaceOnDeplete    = HCWoodenbucket,
+        ReplaceOnUseOn      = WaterSource-HCWoodenbucketwater,
+        icon                = HCWoodenbucketwater,
+        RainFactor          = 1,
+		DisplayCategory	    = CraftCarp,
     }
 
 item HCWoodenring
     {
         Weight          = 0.5,
         Type            = Normal,
-        DisplayName             = Wooden Ring,
+        DisplayName     = Wooden Ring,
         icon            = HCWoodenring,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCWashtub
     {
-        Weight          = 1,
-    CanStoreWater       = TRUE,
-        Type            = Normal,
-        DisplayName             = Wooden Washtub,
-    ReplaceOnUseOn      = WaterSource-HCWashtubfull,
-        icon            = HCWashtub,
-		DisplayCategory	= CraftChem,
-    RainFactor      = 1,
+        Weight              = 1,
+        CanStoreWater       = TRUE,
+        Type                = Normal,
+        DisplayName         = Wooden Washtub,
+        ReplaceOnUseOn      = WaterSource-HCWashtubfull,
+        icon                = HCWashtub,
+		DisplayCategory	    = CraftChem,
+        RainFactor          = 1,
     }
 
 item HCWashtubfull
     {
-    IsWaterSource       =   TRUE,
-    Weight          =   4,
-    CanStoreWater       =   TRUE,
-    Type            =   Drainable,
-    UseWhileEquipped    =   2.0,
-    DisplayName     =   Wooden Washtub with Water,
-    ReplaceOnDeplete    =   HCWashtub,
-    ReplaceOnUseOn      =   WaterSource-HCWashtubfull,
-    Icon            =   HCWashtubfull,
-		DisplayCategory	= CraftChem,
-    RainFactor      =   1,
+        IsWaterSource       = TRUE,
+        Weight              = 4,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        DisplayName         = Wooden Washtub with Water,
+        ReplaceOnDeplete    = HCWashtub,
+        ReplaceOnUseOn      = WaterSource-HCWashtubfull,
+        icon                = HCWashtubfull,
+		DisplayCategory	    = CraftChem,
+        RainFactor          = 1,
     }
 
 item HCTrough
     {
         Weight          = 2,
-    CanStoreWater       = TRUE,
+        CanStoreWater   = TRUE,
         Type            = Normal,
-        DisplayName             = Wooden Trough,
-    ReplaceOnUseOn      = WaterSource-HCTroughfull,
+        DisplayName     = Wooden Trough,
+        ReplaceOnUseOn  = WaterSource-HCTroughfull,
         icon            = HCTrough,
 		DisplayCategory	= CraftCarp,
-    RainFactor      = 1,
+        RainFactor      = 1,
     }
 
 item HCTroughfull
     {
-    IsWaterSource       =   TRUE,
-    Weight          =   8,
-    CanStoreWater       =   TRUE,
-    Type            =   Drainable,
-    UseWhileEquipped    =   FALSE,
-    UseDelta        =   0.125,
-    DisplayName     =   Wooden Trough with Water,
-    ReplaceOnDeplete    =   HCTrough,
-    ReplaceOnUseOn      =   WaterSource-HCTroughfull,
-    Icon            =   HCTroughfull,
-		DisplayCategory	= CraftCarp,
-    RainFactor      =   1,
+        IsWaterSource       = TRUE,
+        Weight              = 8,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = FALSE,
+        UseDelta            = 0.125,
+        DisplayName         = Wooden Trough with Water,
+        ReplaceOnDeplete    = HCTrough,
+        ReplaceOnUseOn      = WaterSource-HCTroughfull,
+        icon                = HCTroughfull,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
     }
 
 item HCTroughvegoil
     {
-    Weight          =   8,
-        Type            =   Normal,
-    DisplayName     =   Wooden Trough with Vegetable Oil,
-    Icon            =   HCTroughvegoil,
+        Weight          = 8,
+        Type            = Normal,
+        DisplayName     = Wooden Trough with Vegetable Oil,
+        icon            = HCTroughvegoil,
 		DisplayCategory	= CraftCarp,
     
     }
@@ -363,7 +363,7 @@ item HCLumberstack
     {
         Weight          = 12.0,
         Type            = Normal,
-        DisplayName             = Lumber Stack,
+        DisplayName     = Lumber Stack,
         icon            = HCLumberstack,
 		DisplayCategory	= CraftCarp,
     }
@@ -372,7 +372,7 @@ item HCLumberbox
     {
         Weight          = 12.0,
         Type            = Normal,
-        DisplayName             = Pallet of Lumber,
+        DisplayName     = Pallet of Lumber,
         icon            = HCLumberbox,
 		DisplayCategory	= CraftCarp,
     }
@@ -381,7 +381,7 @@ item HCWoodenpallet
     {
         Weight          = 1.0,
         Type            = Normal,
-        DisplayName             = Wooden Pallet,
+        DisplayName     = Wooden Pallet,
         icon            = HCWoodenpallet,
 		DisplayCategory	= CraftCarp,
     }
@@ -390,7 +390,7 @@ item HCLogbox
     {
         Weight          = 12.0,
         Type            = Normal,
-        DisplayName             = Pallet of Logs,
+        DisplayName     = Pallet of Logs,
         icon            = HCLogbox,
 		DisplayCategory	= CraftCarp,
     }
@@ -399,28 +399,28 @@ item HCWoodwheel
     {
         Weight          = 1.0,
         Type            = Normal,
-        DisplayName             = Wooden Wheel,
+        DisplayName     = Wooden Wheel,
         icon            = HCWoodwheel,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCWoodenwheelbarrow
-   {
-    WeightReduction         = 100,
-    Weight              = 20,
-    Type                    = Container,
-    Capacity                = 200,
-    DisplayName             = Wooden Wheelbarrow,
-    Icon            = HCWoodenwheelbarrow,
-		DisplayCategory	= Container,
-    RequiresEquippedBothHands = true,
+    {
+        WeightReduction             = 100,
+        Weight                      = 20,
+        Type                        = Container,
+        Capacity                    = 200,
+        DisplayName                 = Wooden Wheelbarrow,
+        icon                        = HCWoodenwheelbarrow,
+		DisplayCategory	            = Container,
+        RequiresEquippedBothHands   = true,
     }
 
 item HCWoodshingles
     {
         Weight          = 1,
         Type            = Normal,
-        DisplayName             = Wood Shingles,
+        DisplayName     = Wood Shingles,
         icon            = HCWoodshingles,
 		DisplayCategory	= CraftCarp,
     }
@@ -429,7 +429,7 @@ item HCCoffin
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Empty Coffin,
+        DisplayName     = Empty Coffin,
         icon            = HCCoffin,
 		DisplayCategory	= CraftCarp,
     }
@@ -438,7 +438,7 @@ item HCCoffinfull
     {
         Weight          = 20,
         Type            = Normal,
-        DisplayName             = Full Coffin,
+        DisplayName     = Full Coffin,
         icon            = HCCoffin,
 		DisplayCategory	= CraftCarp,
     }
@@ -447,7 +447,7 @@ item HCWoodenladder
     {
         Weight          = 20,
         Type            = Normal,
-        DisplayName             = Wooden Ladder,
+        DisplayName     = Wooden Ladder,
         icon            = HCWoodenladder,
 		DisplayCategory	= CraftCarp,
     }
@@ -456,7 +456,7 @@ item HCSpinningwheel
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Spinning Wheel,
+        DisplayName     = Spinning Wheel,
         icon            = HCSpinningwheel,
 		DisplayCategory	= CraftCarp,
     }
@@ -465,7 +465,7 @@ item HCLoom
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Primitive Loom,
+        DisplayName     = Primitive Loom,
         icon            = HCLoom,
 		DisplayCategory	= CraftCarp,
     }
@@ -474,38 +474,38 @@ item HCLoomfloor
     {
         Weight          = 20,
         Type            = Normal,
-        DisplayName             = Floor Loom,
+        DisplayName     = Floor Loom,
         icon            = HCLoomfloor,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCTablelog
     {
-    Weight          = 10,
-    Type            = Normal,
-    DisplayName         = Log Table,
-    Icon            = HCTablelog,
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Log Table,
+        icon            = HCTablelog,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCHuntingblind
     {
-        WeightReduction         = 10,
+        WeightReduction = 10,
         Weight          = 10,
-        Type                    = Container,
-        Capacity                = 100,
-        DisplayName             = Hunting Blind,
+        Type            = Container,
+        Capacity        = 100,
+        DisplayName     = Hunting Blind,
         icon            = HCHuntingblind,
 		DisplayCategory	= SurHunt,
     }
 
 item HCHuntingblind2
     {
-        WeightReduction         = 10,
+        WeightReduction = 10,
         Weight          = 10000,
-        Type                    = Container,
-        Capacity                = 100,
-        DisplayName             = Hunting Blind,
+        Type            = Container,
+        Capacity        = 100,
+        DisplayName     = Hunting Blind,
         icon            = HCHuntingblind,
 		DisplayCategory	= SurHunt,
     }
@@ -515,7 +515,7 @@ item HCWindmill
     {
         Weight          = 15,
         Type            = Normal,
-        DisplayName             = Wooden Windmill,
+        DisplayName     = Wooden Windmill,
         icon            = HCWindmill,
 		DisplayCategory	= CraftCarp,
     }
@@ -524,7 +524,7 @@ item HCWindmillblade
     {
         Weight          = 1,
         Type            = Normal,
-        DisplayName             = Windmill Blade,
+        DisplayName     = Windmill Blade,
         icon            = HCWindmillblade,
 		DisplayCategory	= CraftCarp,
     }
@@ -532,66 +532,66 @@ item HCWindmillblade
 item HCWatertower
     {
         Weight          = 15,
-    CanStoreWater       = TRUE,
+        CanStoreWater   = TRUE,
         Type            = Normal,
-        DisplayName             = Water Tower,
-    ReplaceOnUseOn      = WaterSource-HCWatertowerfull,
+        DisplayName     = Water Tower,
+        ReplaceOnUseOn  = WaterSource-HCWatertowerfull,
         icon            = HCWatertower,
 		DisplayCategory	= CraftCarp,
-    RainFactor      = 0.01,
+        RainFactor      = 0.01,
     }
 
 
 item HCWatertowerfull
     {
-    IsWaterSource       =   TRUE,
-    Weight          =   15,
-    CanStoreWater       =   TRUE,
-    Type            =   Drainable,
-    UseWhileEquipped    =   2.0,
-    UseDelta        =   0.003125,
-    DisplayName     =   Water Tower with Water,
-    ReplaceOnDeplete    =   HCWatertower,
-    ReplaceOnUseOn      =   WaterSource-HCWatertowerfull,
-    Icon            =   HCWatertower,
-		DisplayCategory	= CraftCarp,
-    RainFactor      =   0.01,
+        IsWaterSource       = TRUE,
+        Weight              = 15,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.003125,
+        DisplayName         = Water Tower with Water,
+        ReplaceOnDeplete    = HCWatertower,
+        ReplaceOnUseOn      = WaterSource-HCWatertowerfull,
+        icon                = HCWatertower,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 0.01,
     }
 
 item HCWatertower2
     {
         Weight          = 15,
-    CanStoreWater       = TRUE,
+        CanStoreWater   = TRUE,
         Type            = Normal,
-        DisplayName             = Double Water Tower,
-    ReplaceOnUseOn      = WaterSource-HCWatertowerfull2,
+        DisplayName     = Double Water Tower,
+        ReplaceOnUseOn  = WaterSource-HCWatertowerfull2,
         icon            = HCWatertower2,
 		DisplayCategory	= CraftCarp,
-    RainFactor      = 0.01,
+        RainFactor      = 0.01,
     }
 
 
 item HCWatertowerfull2
     {
-    IsWaterSource       =   TRUE,
-    Weight          =   15,
-    CanStoreWater       =   TRUE,
-    Type            =   Drainable,
-    UseWhileEquipped    =   2.0,
-    UseDelta        =   0.0015625,
-    DisplayName     =   Double Water Tower with Water,
-    ReplaceOnDeplete    =   HCWatertower2,
-    ReplaceOnUseOn      =   WaterSource-HCWatertowerfull2,
-    Icon            =   HCWatertower2,
-		DisplayCategory	= CraftCarp,
-    RainFactor      =   0.01,
+        IsWaterSource       = TRUE,
+        Weight              = 15,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.0015625,
+        DisplayName         = Double Water Tower with Water,
+        ReplaceOnDeplete    = HCWatertower2,
+        ReplaceOnUseOn      = WaterSource-HCWatertowerfull2,
+        icon                = HCWatertower2,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 0.01,
     }
 
 item HCWaterpump
     {
         Weight          = 20,
         Type            = Normal,
-        DisplayName             = Water Pump,
+        DisplayName     = Water Pump,
         icon            = HCWaterpump,
 		DisplayCategory	= CraftCarp,
     }
@@ -600,7 +600,7 @@ item HCWaterpump2
     {
         Weight          = 10000,
         Type            = Normal,
-        DisplayName             = Water Pump,
+        DisplayName     = Water Pump,
         icon            = HCWaterpump,
 		DisplayCategory	= CraftCarp,
     }
@@ -610,7 +610,7 @@ item HCClothesline
     {
         Weight          = 6,
         Type            = Normal,
-        DisplayName             = Clothes Line,
+        DisplayName     = Clothes Line,
         icon            = HCClothesline,
 		DisplayCategory	= CraftCarp,
     }
@@ -619,7 +619,7 @@ item HCClothesline2
     {
         Weight          = 6,
         Type            = Normal,
-        DisplayName             = Double Clothes Line,
+        DisplayName     = Double Clothes Line,
         icon            = HCClothesline2,
 		DisplayCategory	= CraftCarp,
     }
@@ -627,62 +627,62 @@ item HCClothesline2
 item HCShower
     {
         Weight          = 10,
-    CanStoreWater       = TRUE,
+        CanStoreWater   = TRUE,
         Type            = Normal,
-        DisplayName             = Empty Makeshift Shower,
+        DisplayName     = Empty Makeshift Shower,
         icon            = HCShower,
-        ReplaceOnUseOn      = WaterSource-HCShowerfull,
+        ReplaceOnUseOn  = WaterSource-HCShowerfull,
 		DisplayCategory	= CraftCarp,
-    RainFactor      = 1,
+        RainFactor      = 1,
     }
 
 item HCShowerfull
     {
-    IsWaterSource       = TRUE,
-        Weight          = 14,
-    CanStoreWater       = TRUE,
-    Type            = Drainable,
-        DisplayName             = Makeshift Shower,
-    UseWhileEquipped    = 2.0,
-    UseDelta        = 0.25,
-    ReplaceOnDeplete    = HCShower,
-        icon            = HCShowerfull,
-		DisplayCategory	= CraftCarp,
-    RainFactor      = 1,
+        IsWaterSource       = TRUE,
+        Weight              = 14,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = Makeshift Shower,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.25,
+        ReplaceOnDeplete    = HCShower,
+        icon                = HCShowerfull,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
     }
 
 item HCShowersink
     {
         Weight          = 15,
-    CanStoreWater       = TRUE,
+        CanStoreWater   = TRUE,
         Type            = Normal,
-        DisplayName             = Empty Makeshift Shower and Sink,
+        DisplayName     = Empty Makeshift Shower and Sink,
         icon            = HCShowersink,
-        ReplaceOnUseOn      = WaterSource-HCShowersinkfull,
+        ReplaceOnUseOn  = WaterSource-HCShowersinkfull,
 		DisplayCategory	= CraftCarp,
-    RainFactor      = 1,
+        RainFactor      = 1,
     }
 
 item HCShowersinkfull
     {
-    IsWaterSource       = TRUE,
-        Weight          = 20,
-    CanStoreWater       = TRUE,
-        Type            = Drainable,
-        DisplayName             = Makeshift Shower and Sink,
-    UseWhileEquipped    = 2.0,
-    UseDelta        = 0.125,
-    ReplaceOnDeplete    = HCShowersink,
-        icon            = HCShowersinkfull,
-		DisplayCategory	= CraftCarp,
-    RainFactor      = 1,
+        IsWaterSource       = TRUE,
+        Weight              = 20,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = Makeshift Shower and Sink,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.125,
+        ReplaceOnDeplete    = HCShowersink,
+        icon                = HCShowersinkfull,
+		DisplayCategory	    = CraftCarp,
+        RainFactor          = 1,
     }
 
 item HCScarecrowstand
     {
         Weight          = 3,
         Type            = Normal,
-        DisplayName             = Scarecrow Stand,
+        DisplayName     = Scarecrow Stand,
         icon            = HCScarecrowstand,
 		DisplayCategory	= CraftCarp,
     
@@ -692,7 +692,7 @@ item HCScarecrow
     {
         Weight          = 4,
         Type            = Normal,
-        DisplayName             = Scarecrow,
+        DisplayName     = Scarecrow,
         icon            = HCScarecrow,
 		DisplayCategory	= CraftCarp,
     }
@@ -701,7 +701,7 @@ item HCScarecrow2
     {
         Weight          = 4,
         Type            = Normal,
-        DisplayName             = Scarecrow,
+        DisplayName     = Scarecrow,
         icon            = HCScarecrow2,
 		DisplayCategory	= CraftCarp,
     }
@@ -710,7 +710,7 @@ item HCScarezed
     {
         Weight          = 20,
         Type            = Normal,
-        DisplayName             = Corpse Scarecrow,
+        DisplayName     = Corpse Scarecrow,
         icon            = HCScarezed,
 		DisplayCategory	= CraftCarp,
     }
@@ -719,7 +719,7 @@ item HCScarezed2
     {
         Weight          = 20,
         Type            = Normal,
-        DisplayName             = Corpse Scarecrow,
+        DisplayName     = Corpse Scarecrow,
         icon            = HCScarezed2,
 		DisplayCategory	= CraftCarp,
     }
@@ -728,26 +728,26 @@ item HCHaytarget
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Archery Target,
+        DisplayName     = Archery Target,
         icon            = HCHaytarget,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCBirdcall
     {
-    Weight              =   0.1,
-    Type                =   Normal,
-    DisplayName             =   Bird Call,
-    Icon                =   HCBirdcall,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Bird Call,
+        icon            = HCBirdcall,
 		DisplayCategory	= SurHunt,
     }
 
 item HCDuckcall
     {
-    Weight              =   0.1,
-    Type                =   Normal,
-    DisplayName             =   Duck Call,
-    Icon                =   HCDuckcall,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Duck Call,
+        icon            = HCDuckcall,
 		DisplayCategory	= SurHunt,
     }
 
@@ -756,7 +756,7 @@ item HCWagonwheel
     {
         Weight          = 2.0,
         Type            = Normal,
-        DisplayName             = Wagon Wheel,
+        DisplayName     = Wagon Wheel,
         icon            = HCWagonwheel,
 		DisplayCategory	= CraftCarp,
     }
@@ -765,142 +765,146 @@ item HCYoke
     {
         Weight          = 4.0,
         Type            = Normal,
-        DisplayName             = Yoke,
+        DisplayName     = Yoke,
         icon            = HCYoke,
 		DisplayCategory	= CraftCarp,
     }
 
 
 item HCWagon
-   {
-    WeightReduction             =   100,
-    Weight                      =   20,
-    Type                        =   Container,
-    Capacity                    =   200,
-    DisplayName                 =   Wagon,
-    Icon                        =   HCWagon,
-	DisplayCategory				=	Container,
-   }
+    {
+        WeightReduction             = 100,
+        Weight                      = 20,
+        Type                        = Container,
+        Capacity                    = 200,
+	    RequiresEquippedBothHands 	= true,
+        DisplayName                 = Wagon,
+        icon                        = HCWagon,
+        DisplayCategory				= Container,
+    }
 
 item HCWagoncovered
-   {
-    WeightReduction             =   100,
-    Weight                      =   20,
-    Type                        =   Container,
-    Capacity                    =   300,
-    DisplayName                 =   Covered Wagon,
-    Icon                        =   HCWagoncovered,
-	DisplayCategory				=	Container,
+    {
+        WeightReduction             = 100,
+        Weight                      = 20,
+        Type                        = Container,
+        Capacity                    = 300,
+        RequiresEquippedBothHands 	= true,
+        DisplayName                 = Covered Wagon,
+        icon                        = HCWagoncovered,
+        DisplayCategory				= Container,
    }
 
 item HCWagonoxen
    {
-    WeightReduction             =   100,
-    Weight                      =   0,
-    Type                        =   Container,
-    Capacity                    =   300,
-    DisplayName                 =   Wagon with Oxen,
-    Icon                        =   HCWagonoxen,
-	DisplayCategory				=	Container,
+        WeightReduction             = 100,
+        Weight                      = 0,
+        Type                        = Container,
+        Capacity                    = 300,
+        RequiresEquippedBothHands 	= true,
+        DisplayName                 = Wagon with Oxen,
+        icon                        = HCWagonoxen,
+        DisplayCategory				= Container,
     }
 
 item HCWagoncoveredoxen
    {
-    WeightReduction             =   100,
-    Weight                      =   0,
-    Type                        =   Container,
-    Capacity                    =   300,
-    DisplayName                 =   Covered Wagon with Oxen,
-    Icon                        =   HCWagoncoveredoxen,
-	DisplayCategory				=	Container,
+        WeightReduction             = 100,
+        Weight                      = 0,
+        Type                        = Container,
+        Capacity                    = 300,
+        RequiresEquippedBothHands 	= true,
+        DisplayName                 = Covered Wagon with Oxen,
+        icon                        = HCWagoncoveredoxen,
+        DisplayCategory				= Container,
    }
 
 item HCIBC
     {
-    Weight          = 2,
-    CanStoreWater   = TRUE,
-    Type            = Normal,
-    DisplayName     = Empty IBC,
-    icon            = HCIBC,
-    ReplaceOnUseOn  = WaterSource-HCIBCfull,
-    RainFactor      = 0.2,
-	DisplayCategory	= WaterContainer,
+        Weight          = 2,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Empty IBC,
+        icon            = HCIBC,
+        ReplaceOnUseOn  = WaterSource-HCIBCfull,
+        RainFactor      = 0.2,
+        DisplayCategory	= WaterContainer,
     }
 
 item HCIBCfull
     {
-    IsWaterSource       = TRUE,
-    Weight              = 6,
-    CanStoreWater       = TRUE,
-    Type                = Drainable,
-    DisplayName         = IBC,
-    UseWhileEquipped    = 2.0,
-    UseDelta            = 0.0125,
-    ReplaceOnDeplete    = HCIBC,
-    icon                = HCIBC,
-    RainFactor      	= 0.2,
-	DisplayCategory		= WaterContainer,
+        IsWaterSource       = TRUE,
+        Weight              = 6,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = IBC,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.0125,
+        ReplaceOnDeplete    = HCIBC,
+        icon                = HCIBC,
+        RainFactor      	= 0.2,
+        DisplayCategory		= WaterContainer,
     }
     
 item HCIBCstorage
     {
-    Weight          = 3,
-    CanStoreWater   = TRUE,
-    Type            = Normal,
-    DisplayName     = Empty IBC Storage,
-    icon            = HCIBCtower,
-    ReplaceOnUseOn  = WaterSource-HCIBCstoragefull,
-    RainFactor      = 0.2,
-	DisplayCategory	= WaterContainer,
+        Weight          = 3,
+        CanStoreWater   = TRUE,
+        Type            = Normal,
+        DisplayName     = Empty IBC Storage,
+        icon            = HCIBCtower,
+        ReplaceOnUseOn  = WaterSource-HCIBCstoragefull,
+        RainFactor      = 0.2,
+        DisplayCategory	= WaterContainer,
     }
 
 item HCIBCstoragefull
     {
-    IsWaterSource       = TRUE,
-    Weight              = 7,
-    CanStoreWater       = TRUE,
-    Type                = Drainable,
-    DisplayName         = IBC Storage,
-    UseWhileEquipped    = 2.0,
-    UseDelta            = 0.0125,
-    ReplaceOnDeplete    = HCIBCstorage,
-    icon                = HCIBCtower,
-    RainFactor          = 0.2,
-	DisplayCategory		= WaterContainer,
+        IsWaterSource       = TRUE,
+        Weight              = 7,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = IBC Storage,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.0125,
+        ReplaceOnDeplete    = HCIBCstorage,
+        icon                = HCIBCtower,
+        RainFactor          = 0.2,
+        DisplayCategory		= WaterContainer,
     }   
     
 item HCIBCtower
     {
         Weight          = 6,
-    CanStoreWater       = TRUE,
+        CanStoreWater   = TRUE,
         Type            = Normal,
         DisplayName     = Empty IBC Tower,
         icon            = HCIBCtower2,
         ReplaceOnUseOn  = WaterSource-HCIBCtowerfull,
-	DisplayCategory		= WaterContainer,
-    RainFactor      = 0.2,
+        DisplayCategory	= WaterContainer,
+        RainFactor      = 0.2,
     }
 
 item HCIBCtowerfull
     {
-    IsWaterSource       = TRUE,
-        Weight          = 12,
-    CanStoreWater       = TRUE,
-        Type            = Drainable,
-        DisplayName             = IBC Tower,
-    UseWhileEquipped    = 2.0,
-    UseDelta        = 0.00625,
-    ReplaceOnDeplete    = HCIBCtower,
-        icon            = HCIBCtower2,
-	DisplayCategory		= WaterContainer,
-    RainFactor      = 0.2,
+        IsWaterSource       = TRUE,
+        Weight              = 12,
+        CanStoreWater       = TRUE,
+        Type                = Drainable,
+        DisplayName         = IBC Tower,
+        UseWhileEquipped    = 2.0,
+        UseDelta            = 0.00625,
+        ReplaceOnDeplete    = HCIBCtower,
+        icon                = HCIBCtower2,
+        DisplayCategory		= WaterContainer,
+        RainFactor          = 0.2,
     }
 
 item HCVendingstand
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Vending Stand,
+        DisplayName     = Vending Stand,
         icon            = HCVendingstand,
 		DisplayCategory	= CraftCarp,
     }
@@ -909,38 +913,38 @@ item HCVendingstand2
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Vending Stand,
+        DisplayName     = Vending Stand,
         icon            = HCVendingstand2,
 		DisplayCategory	= CraftCarp,
     }
 
 item HCFoldingsign
-        {
-            Weight      =   4,
-            Type        =   Literature,
-            DisplayName =   Folding Sign,
-            Icon        =   HCFoldingsign,
-            CanBeWrite      =       true,
-            PageToWrite     =       1,
+    {
+        Weight          = 4,
+        Type            = Literature,
+        DisplayName     = Folding Sign,
+        Icon            = HCFoldingsign,
+        CanBeWrite      = true,
+        PageToWrite     = 1,
 		DisplayCategory	= CraftCarp,
-        }
+    }
 
 item HCFoldingsignchalkboard
-        {
-            Weight      =   4,
-            Type        =   Literature,
-            DisplayName =   Folding Sign,
-            Icon        =   HCFoldingsignchalkboard,
-            CanBeWrite      =       true,
-            PageToWrite     =       1,
+    {
+        Weight          = 4,
+        Type            = Literature,
+        DisplayName     = Folding Sign,
+        Icon            = HCFoldingsignchalkboard,
+        CanBeWrite      = true,
+        PageToWrite     = 1,
 		DisplayCategory	= CraftCarp,
-        }
+    }
 
 item HCThresher
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Thresher,
+        DisplayName     = Thresher,
         icon            = HCThresher,
 		DisplayCategory	= CookRef,
     }
@@ -949,7 +953,7 @@ item HCThreshermech
     {
         Weight          = 10,
         Type            = Normal,
-        DisplayName             = Mechanical Thresher,
+        DisplayName     = Mechanical Thresher,
         icon            = HCThreshermech,
 		DisplayCategory	= CookRef,
     }
@@ -958,37 +962,37 @@ item HCThreshermech
 
 item HCPlankoil
     {
-        MaxRange            =   2,
-        WeaponSprite            =   WoodPlank,
-        MinAngle            =   0.2,
-        Type                =   Weapon,
-        MinimumSwingTime        =   4,
-        KnockBackOnNoDeath      =   FALSE,
-        SwingAmountBeforeImpact     =   0.02,
-        Categories          =   Improvised;Blunt,
-        ConditionLowerChanceOneIn   =   4,
-        Weight              =   3,
-        SplatNumber         =   0,
-        PushBackMod         =   0.3,
-        MaxDamage           =   0.6,
-        SubCategory         =   Swinging,
-        ConditionMax            =   10,
-        MaxHitCount         =   2,
-        DoorDamage          =   5,
-        SwingAnim           =   Bat,
-        WeaponWeight            =   3,
-        DisplayName         =   Oiled Plank,
-        MinRange            =   0.61,
-        SwingTime           =   4,
-        MinDamage           =   0.4,
-        KnockdownMod            =   2,
-        SplatBloodOnNoDeath     =   FALSE,
-        Icon                =   HCPlankoil,
-        RunAnim             =   Run_Weapon2,
-        IdleAnim            =   Idle_Weapon2,
-        BreakSound              =       BreakWoodItem,
-        TreeDamage              =       0,
-		DisplayCategory		= WepMelee,
+        MaxRange                    = 2,
+        WeaponSprite                = WoodPlank,
+        MinAngle                    = 0.2,
+        Type                        = Weapon,
+        MinimumSwingTime            = 4,
+        KnockBackOnNoDeath          = FALSE,
+        SwingAmountBeforeImpact     = 0.02,
+        Categories                  = Improvised;Blunt,
+        ConditionLowerChanceOneIn   = 4,
+        Weight                      = 3,
+        SplatNumber                 = 0,
+        PushBackMod                 = 0.3,
+        MaxDamage                   = 0.6,
+        SubCategory                 = Swinging,
+        ConditionMax                = 10,
+        MaxHitCount                 = 2,
+        DoorDamage                  = 5,
+        SwingAnim                   = Bat,
+        WeaponWeight                = 3,
+        DisplayName                 = Oiled Plank,
+        MinRange                    = 0.61,
+        SwingTime                   = 4,
+        MinDamage                   = 0.4,
+        KnockdownMod                = 2,
+        SplatBloodOnNoDeath         = FALSE,
+        Icon                        = HCPlankoil,
+        RunAnim                     = Run_Weapon2,
+        IdleAnim                    = Idle_Weapon2,
+        BreakSound                  = BreakWoodItem,
+        TreeDamage                  = 0,
+		DisplayCategory		        = WepMelee,
     }
 
 /************************RECIPES************************/
@@ -1004,7 +1008,7 @@ recipe Make Log Pile
 
 recipe Add Logs to Pile
     {
-    HCLogstack1=2,
+        HCLogstack1=2,
         CanBeDoneFromFloor:true,
         Result:HCLogstack2,
         Time:500,
@@ -1014,7 +1018,7 @@ recipe Add Logs to Pile
 recipe Add Logs to Pile
     {
         Log=5,
-    HCLogstack1,
+        HCLogstack1,
         CanBeDoneFromFloor:true,
         Result:HCLogstack2,
         Time:500,
@@ -1024,7 +1028,7 @@ recipe Add Logs to Pile
 recipe Add Logs to Pile
     {
         Log=5,
-    HCLogstack2,
+        HCLogstack2,
         CanBeDoneFromFloor:true,
         Result:HCLogstack3,
         Time:500,
@@ -1034,7 +1038,7 @@ recipe Add Logs to Pile
 recipe Add Logs to Pile
     {
         Log=5,
-    HCLogstack3,
+        HCLogstack3,
         CanBeDoneFromFloor:true,
         Result:HCLogstack4,
         Time:500,
@@ -1043,37 +1047,37 @@ recipe Add Logs to Pile
 
 recipe Remove Logs from Pile
     {
-    HCLogstack4,
+        HCLogstack4,
         CanBeDoneFromFloor:true,
         Result:HCLogstack3,
         Time:500,
         Category:Carpentry,
-    OnCreate:recipe_hclog5,
+        OnCreate:recipe_hclog5,
     }
 
 recipe Remove Logs from Pile
     {
-    HCLogstack3,
+        HCLogstack3,
         CanBeDoneFromFloor:true,
         Result:HCLogstack2,
         Time:500,
         Category:Carpentry,
-    OnCreate:recipe_hclog5,
+        OnCreate:recipe_hclog5,
     }
 
 recipe Remove Logs from Pile
     {
-    HCLogstack2,
+        HCLogstack2,
         CanBeDoneFromFloor:true,
         Result:HCLogstack1,
         Time:500,
         Category:Carpentry,
-    OnCreate:recipe_hclog5,
+        OnCreate:recipe_hclog5,
     }
 
 recipe Remove Logs from Stack
     {
-    HCLogstack1,
+        HCLogstack1,
         CanBeDoneFromFloor:true,
         Result:Log=5,
         Time:500,
@@ -1082,24 +1086,24 @@ recipe Remove Logs from Stack
 
 recipe Saw Logs
     {
-    Log,
-    HCSawstone,
-    CanBeDoneFromFloor:true,
-    Result:Plank=1,
-    Sound:PZ_Saw,
-    Time:1000,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        Log,
+        HCSawstone,
+        CanBeDoneFromFloor:true,
+        Result:Plank=1,
+        Sound:PZ_Saw,
+        Time:1000,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Sturdy Stick
     {
-    Plank,
-    HCSawstone,
-    Result:WoodenStick=2,
-    Sound:PZ_Saw,
-    Time:1000,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        Plank,
+        HCSawstone,
+        Result:WoodenStick=2,
+        Sound:PZ_Saw,
+        Time:1000,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wooden Tongs
@@ -1169,13 +1173,13 @@ recipe Make Wooden Ring
 
 recipe Make Workbench
     {
-    SkillRequired:Woodwork=4,
-    Plank=10,
-    Nails=10,
+        SkillRequired:Woodwork=4,
+        Plank=10,
+        Nails=10,
         WoodenStick=2,
         keep Hammer,
-    keep Saw/GardenSaw,
-    Result:HCWorkbench,
+        keep Saw/GardenSaw,
+        Result:HCWorkbench,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1184,15 +1188,15 @@ recipe Make Workbench
 
 recipe Make Carpenter Bench
     {
-    Plank=10,
-    Nails=10,
+        Plank=10,
+        Nails=10,
         WoodenStick=2,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-    keep Hammer,
-    keep Saw/GardenSaw,
-    keep HCMeasuringtape,
-    Result:HCCarpenterbench,
-    SkillRequired:Woodwork=4,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        keep Hammer,
+        keep Saw/GardenSaw,
+        keep HCMeasuringtape,
+        Result:HCCarpenterbench,
+        SkillRequired:Woodwork=4,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1201,14 +1205,14 @@ recipe Make Carpenter Bench
 
 recipe Make Sawbuck
     {
-    SkillRequired:Woodwork=4,
-    Log=6,
-    Plank=10,
-    Nails=10,
+        SkillRequired:Woodwork=4,
+        Log=6,
+        Plank=10,
+        Nails=10,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCSawbuck,
+        Result:HCSawbuck,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1217,12 +1221,12 @@ recipe Make Sawbuck
 
 recipe Make Plank Barrier
     {
-    SkillRequired:Woodwork=4,
-    Plank=8,
-    Nails=4,
+        SkillRequired:Woodwork=4,
+        Plank=8,
+        Nails=4,
         keep Hammer,
         CanBeDoneFromFloor:true,
-    Result:HCPlankbarrier,
+        Result:HCPlankbarrier,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1231,60 +1235,60 @@ recipe Make Plank Barrier
 
 recipe Make Wood Beam
     {
-    SkillRequired:Woodwork=2,
+        SkillRequired:Woodwork=2,
         Log/HCOakLog,
         keep Saw/GardenSaw,
-    keep HCSawbuck,
+        keep HCSawbuck,
         CanBeDoneFromFloor:true,
         Result:HCWoodbeam,
         Sound:PZ_Saw,
         Time:200,
-    OnCreate:recipe_hcsawdust,
+        OnCreate:recipe_hcsawdust,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Beam
     {
-    SkillRequired:Woodwork=2,
+        SkillRequired:Woodwork=2,
         Log/HCOakLog,
         keep HCSawlumber,
-    keep HCSawbuck,
+        keep HCSawbuck,
         CanBeDoneFromFloor:true,
         Result:HCWoodbeam=2,
         Sound:PZ_Saw,
         Time:200,
-    OnCreate:recipe_hcsawdust,
+        OnCreate:recipe_hcsawdust,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Sheet
     {
-    SkillRequired:Woodwork=2,
+        SkillRequired:Woodwork=2,
         Log/HCOakLog,
         keep Saw/GardenSaw,
-    keep HCSawbuck,
+        keep HCSawbuck,
         CanBeDoneFromFloor:true,
         Result:HCWoodsheet=2,
         Sound:PZ_Saw,
         Time:200,
-    OnCreate:recipe_hcsawdust,
+        OnCreate:recipe_hcsawdust,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Sheet
     {
-    SkillRequired:Woodwork=2,
+        SkillRequired:Woodwork=2,
         Log/HCOakLog,
         keep HCSawlumber,
-    keep HCSawbuck,
+        keep HCSawbuck,
         CanBeDoneFromFloor:true,
         Result:HCWoodsheet=4,
         Sound:PZ_Saw,
         Time:200,
-    OnCreate:recipe_hcsawdust,
+        OnCreate:recipe_hcsawdust,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
@@ -1293,12 +1297,12 @@ recipe Make Wood Block
     {
         Log/HCOakLog,
         keep Saw/GardenSaw,
-    keep HCSawbuck,
+        keep HCSawbuck,
         CanBeDoneFromFloor:true,
         Result:HCWoodblock=12,
         Sound:PZ_Saw,
         Time:200,
-    OnCreate:recipe_hcsawdust,
+        OnCreate:recipe_hcsawdust,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
@@ -1311,7 +1315,7 @@ recipe Make Wood Block
         Result:HCWoodblock=12,
         Sound:PZ_Saw,
         Time:200,
-    OnCreate:recipe_hcsawdust,
+        OnCreate:recipe_hcsawdust,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
@@ -1320,154 +1324,154 @@ recipe Make Wood Block
     {
         Log/HCOakLog,
         keep HCSawlumber,
-    keep HCSawbuck,
+        keep HCSawbuck,
         CanBeDoneFromFloor:true,
         Result:HCWoodblock=15,
         Sound:PZ_Saw,
         Time:200,
-    OnCreate:recipe_hcsawdust,
+        OnCreate:recipe_hcsawdust,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    Log/HCOakLog,
-    keep Saw/GardenSaw,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=4,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdust,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        Log/HCOakLog,
+        keep Saw/GardenSaw,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=4,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdust,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    LogStacks2,
-    keep Saw/GardenSaw,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=8,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdustRoap,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        LogStacks2,
+        keep Saw/GardenSaw,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=8,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdustRoap,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    LogStacks3,
-    keep Saw/GardenSaw,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=12,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdustRoap,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        LogStacks3,
+        keep Saw/GardenSaw,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=12,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdustRoap,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    LogStacks4,
-    keep Saw/GardenSaw,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=16,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdustRoap,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        LogStacks4,
+        keep Saw/GardenSaw,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=16,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdustRoap,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    Log/HCOakLog,
-    keep HCSawlumber,
-    CanBeDoneFromFloor:true,
-    Result:Plank=4,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdust,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        Log/HCOakLog,
+        keep HCSawlumber,
+        CanBeDoneFromFloor:true,
+        Result:Plank=4,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdust,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    Log/HCOakLog,
-    keep HCSawlumber,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=5,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdust,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        Log/HCOakLog,
+        keep HCSawlumber,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=5,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdust,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    LogStacks2,
-    keep HCSawlumber,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=10,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdustRoap,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        LogStacks2,
+        keep HCSawlumber,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=10,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdustRoap,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    LogStacks3,
-    keep HCSawlumber,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=15,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdustRoap,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        LogStacks3,
+        keep HCSawlumber,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=15,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdustRoap,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wood Planks
     {
-    LogStacks4,
-    keep HCSawlumber,
-    keep HCSawbuck,
-    CanBeDoneFromFloor:true,
-    Result:Plank=20,
-    Sound:PZ_Saw,
-    Time:200,
-    OnCreate:recipe_hcsawdustRoap,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        LogStacks4,
+        keep HCSawlumber,
+        keep HCSawbuck,
+        CanBeDoneFromFloor:true,
+        Result:Plank=20,
+        Sound:PZ_Saw,
+        Time:200,
+        OnCreate:recipe_hcsawdustRoap,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Churn
     {
-    WoodenStick,
-    HCWoodenring,
-    Plank=4,
-    Nails=4,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        WoodenStick,
+        HCWoodenring,
+        Plank=4,
+        Nails=4,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCChurn,
-    SkillRequired:Woodwork=6,
+        Result:HCChurn,
+        SkillRequired:Woodwork=6,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1476,15 +1480,15 @@ recipe Make Churn
 
 recipe Make Wooden Barrel
     {
-    HCMetalringiron=2,
-    Plank=4,
-    Nails=4,
+        HCMetalringiron=2,
+        Plank=4,
+        Nails=4,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWoodenbarrel,
-    SkillRequired:Woodwork=6,
+        Result:HCWoodenbarrel,
+        SkillRequired:Woodwork=6,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1493,14 +1497,14 @@ recipe Make Wooden Barrel
 
 recipe Make Wooden Washtub
     {
-    Plank=4,
-    Nails=4,
+        Plank=4,
+        Nails=4,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWashtub,
-    SkillRequired:Woodwork=6,
+        Result:HCWashtub,
+        SkillRequired:Woodwork=6,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1509,14 +1513,14 @@ recipe Make Wooden Washtub
 
 recipe Make Wooden Trough
     {
-    Plank=8,
-    Nails=8,
+        Plank=8,
+        Nails=8,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCTrough,
-    SkillRequired:Woodwork=7,
+        Result:HCTrough,
+        SkillRequired:Woodwork=7,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1525,16 +1529,16 @@ recipe Make Wooden Trough
 
 recipe Make Wooden Vat
     {
-    Plank=8,
-    Nails=8,
-    HCMetalringiron=4,
+        Plank=8,
+        Nails=8,
+        HCMetalringiron=4,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCVat,
-    SkillRequired:Woodwork=7,
-    Sound:PZ_Hammer,
+        Result:HCVat,
+        SkillRequired:Woodwork=7,
+        Sound:PZ_Hammer,
         Time:50,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
@@ -1542,16 +1546,16 @@ recipe Make Wooden Vat
 
 recipe Make Wooden Bucket
     {
-    Plank=2,
-    Nails=2,
-    HCWoodenring,
+        Plank=2,
+        Nails=2,
+        HCWoodenring,
         Rope,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
-    Result:HCWoodenbucket,
-    SkillRequired:Woodwork=1,
-    Sound:PZ_Hammer,
+        keep Saw/GardenSaw,
+        Result:HCWoodenbucket,
+        SkillRequired:Woodwork=1,
+        Sound:PZ_Hammer,
         Time:50,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
@@ -1559,62 +1563,62 @@ recipe Make Wooden Bucket
 
 recipe Make Wooden Tool Box
     {
-    SkillRequired:Woodwork=1,
-    Plank=2,
-    Nails=2,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-    keep Hammer,
-    keep Saw/GardenSaw,
-    Result:HCWoodentoolbox,
-    Sound:PZ_Hammer,
-    Time:50,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        SkillRequired:Woodwork=1,
+        Plank=2,
+        Nails=2,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Result:HCWoodentoolbox,
+        Sound:PZ_Hammer,
+        Time:50,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wooden Crate
     {
-    SkillRequired:Woodwork=1,
-    Plank=2,
-    Nails=2,
-    keep Hammer,
-    keep Saw/GardenSaw,
-    Result:HCWoodencrate,
-    Sound:PZ_Hammer,
-    Time:50,
-    Category:Carpentry,
-    OnGiveXP:HCNoExpGain,
+        SkillRequired:Woodwork=1,
+        Plank=2,
+        Nails=2,
+        keep Hammer,
+        keep Saw/GardenSaw,
+        Result:HCWoodencrate,
+        Sound:PZ_Hammer,
+        Time:50,
+        Category:Carpentry,
+        OnGiveXP:HCNoExpGain,
     }
 
 recipe Make Wardrobe
     {
-    SkillRequired:Woodwork=7,
-    HCLumberstack,
-    Nails=24,
-    HCWoodbeam=2,
-    Hinge=4,
-    Doorknob=2,
-    Drawer=2,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-    keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
-    CanBeDoneFromFloor:true,
-    Result:HCWardrobe,
-    Sound:PZ_Hammer,
-    Time:1000,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        SkillRequired:Woodwork=7,
+        HCLumberstack,
+        Nails=24,
+        HCWoodbeam=2,
+        Hinge=4,
+        Doorknob=2,
+        Drawer=2,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        keep Hammer,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
+        CanBeDoneFromFloor:true,
+        Result:HCWardrobe,
+        Sound:PZ_Hammer,
+        Time:1000,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Wooden Pallet
     {
-    SkillRequired:Woodwork=1,
-    HCWoodblock=4,
-    Plank=4,
-    Nails=4,
+        SkillRequired:Woodwork=1,
+        HCWoodblock=4,
+        Plank=4,
+        Nails=4,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
         Result:HCWoodenpallet,
         Sound:PZ_Hammer,
@@ -1642,14 +1646,14 @@ recipe Unpack Lumber Stack
         CanBeDoneFromFloor:true,
         Category:Carpentry,
         OnCreate:recipe_hcrope,
-    OnGiveXP:HCNoExpGain,
+        OnGiveXP:HCNoExpGain,
     }
 
 recipe Pack Pallet of Lumber
     {
         HCLumberstack=3,
         HCRopethick,
-    HCWoodenpallet,
+        HCWoodenpallet,
         Result:HCLumberbox,
         Time:20.0,
         CanBeDoneFromFloor:true,
@@ -1690,16 +1694,16 @@ recipe Unpack Pallet of Lumber
 
 recipe Make Wooden Wheel
     {
-    SkillRequired:Woodwork=7,
-    HCWoodenring,
-    Woodglue=6,
+        SkillRequired:Woodwork=7,
+        HCWoodenring,
+        Woodglue=6,
         WoodenStick=3,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWoodwheel,
+        Result:HCWoodwheel,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1708,16 +1712,16 @@ recipe Make Wooden Wheel
 
 recipe Make Wooden Wheel
     {
-    HCWoodenring,
-    HCWoodgluejar=6,
+        HCWoodenring,
+        HCWoodgluejar=6,
         WoodenStick=3,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWoodwheel,
-    SkillRequired:Woodwork=7,
+        Result:HCWoodwheel,
+        SkillRequired:Woodwork=7,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1726,15 +1730,15 @@ recipe Make Wooden Wheel
 
 recipe Make Stamp Mill Wheel
     {
-    Plank=4,
-    Nails=2,
-    HCWoodwheel=2,
+        Plank=4,
+        Nails=2,
+        HCWoodwheel=2,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCStampmillwheel,
-    SkillRequired:Woodwork=8,
+        Result:HCStampmillwheel,
+        SkillRequired:Woodwork=8,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1743,15 +1747,15 @@ recipe Make Stamp Mill Wheel
 
 recipe Make Wooden Wheelbarrow
     {
-    SkillRequired:Woodwork=7;Mechanics=2;,
-    Plank=4,
-    Nails=8,
-    HCWoodwheel,
+        SkillRequired:Woodwork=7;Mechanics=2;,
+        Plank=4,
+        Nails=8,
+        HCWoodwheel,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWoodenwheelbarrow,
+        Result:HCWoodenwheelbarrow,
         Sound:PZ_Hammer,
         Time:200,
         Category:Carpentry,
@@ -1760,11 +1764,11 @@ recipe Make Wooden Wheelbarrow
 
 recipe Make Wood Shingles
     {
-    Plank,
-    keep Saw/GardenSaw,
-    Result:HCWoodshingles=3,
-    SkillRequired:Woodwork=1,
-    Sound:PZ_Saw,
+        Plank,
+        keep Saw/GardenSaw,
+        Result:HCWoodshingles=3,
+        SkillRequired:Woodwork=1,
+        Sound:PZ_Saw,
         Time:50,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
@@ -1772,14 +1776,14 @@ recipe Make Wood Shingles
 
 recipe Make Coffin
     {
-    Plank=3,
-    Nails=3,
+        Plank=3,
+        Nails=3,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCCoffin,
-    SkillRequired:Woodwork=4,
+        Result:HCCoffin,
+        SkillRequired:Woodwork=4,
         Sound:PZ_Hammer,
         Time:50,
         Category:Carpentry,
@@ -1788,23 +1792,23 @@ recipe Make Coffin
 
 recipe Put Corpse in Coffin
     {
-    HCCoffin,
+        HCCoffin,
         CorpseMale/CorpseFemale,
-    Result:HCCoffinfull,
+        Result:HCCoffinfull,
         Time:15,
     }
 
 recipe Build Wooden Ladder
     {
-    HCWoodbeam=2,
-    Plank=6,
-    Nails=6,
+        HCWoodbeam=2,
+        Plank=6,
+        Nails=6,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWoodenladder,
-    SkillRequired:Woodwork=6,
+        Result:HCWoodenladder,
+        SkillRequired:Woodwork=6,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -1813,16 +1817,16 @@ recipe Build Wooden Ladder
 
 recipe Build Chicken Coop
     {
-    Plank=6,
-    HCWoodblock=4,
-    Nails=6,
-    HCStraw=20,
+        Plank=6,
+        HCWoodblock=4,
+        Nails=6,
+        HCStraw=20,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCCoop,
-    SkillRequired:Woodwork=7,
+        Result:HCCoop,
+        SkillRequired:Woodwork=7,
         Sound:PZ_Hammer,
         Time:500,
         Category:Carpentry,
@@ -1831,15 +1835,15 @@ recipe Build Chicken Coop
 
 recipe Make Spinning Wheel
     {
-    SkillRequired:Woodwork=6;Mechanics=2;,
-    Plank=5,
-    Nails=4,
-    HCWoodwheel,
+        SkillRequired:Woodwork=6;Mechanics=2;,
+        Plank=5,
+        Nails=4,
+        HCWoodwheel,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCSpinningwheel,
+        Result:HCSpinningwheel,
         Sound:PZ_Hammer,
         Time:400,
         Category:Carpentry,
@@ -1848,12 +1852,12 @@ recipe Make Spinning Wheel
 
 recipe Make Thresher
     {
-    SkillRequired:Woodwork=6,
-    TreeBranch=4,
-    Twigs=4,
-    HCRopethin=8,
+        SkillRequired:Woodwork=6,
+        TreeBranch=4,
+        Twigs=4,
+        HCRopethin=8,
         CanBeDoneFromFloor:true,
-    Result:HCThresher,
+        Result:HCThresher,
         Time:400,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
@@ -1861,19 +1865,19 @@ recipe Make Thresher
 
 recipe Build Mechanical Thresher
     {
-    SkillRequired:Woodwork=8;Mechanics=3;,
-    HCCrank/HCCrankiron,
-    HandScythe=6,
-    HCSteelrod=2,
-    HCGearsteel=8,
-    HCWoodbeam=4,
-    Plank=20,
-    Nails=18,
+        SkillRequired:Woodwork=8;Mechanics=3;,
+        HCCrank/HCCrankiron,
+        HandScythe=6,
+        HCSteelrod=2,
+        HCGearsteel=8,
+        HCWoodbeam=4,
+        Plank=20,
+        Nails=18,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCThreshermech,
+        Result:HCThreshermech,
         Sound:PZ_Hammer,
         NeedToBeLearn:true,
         Time:800,
@@ -1883,33 +1887,33 @@ recipe Build Mechanical Thresher
 
 recipe Make Loom
     {
-    SkillRequired:Woodwork=6;Mechanics=1;,
-    Plank=6,
-    Nails=4,
-    Rope=2,
-    keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
-    CanBeDoneFromFloor:true,
-    Result:HCLoom,
-    Sound:PZ_Hammer,
-    Time:400,
-    Category:Carpentry,
-    OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
+        SkillRequired:Woodwork=6;Mechanics=1;,
+        Plank=6,
+        Nails=4,
+        Rope=2,
+        keep Hammer,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
+        CanBeDoneFromFloor:true,
+        Result:HCLoom,
+        Sound:PZ_Hammer,
+        Time:400,
+        Category:Carpentry,
+        OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
     }
 
 recipe Upgrade Loom
     {
-    SkillRequired:Woodwork=8;Mechanics=2;,
-    HCLoom,
-    Plank=12,
-    Nails=10,
-    HCWoodbeam,
+        SkillRequired:Woodwork=8;Mechanics=2;,
+        HCLoom,
+        Plank=12,
+        Nails=10,
+        HCWoodbeam,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCLoomfloor,
+        Result:HCLoomfloor,
         Sound:PZ_Hammer,
         Time:1000,
         Category:Carpentry,
@@ -1918,14 +1922,14 @@ recipe Upgrade Loom
 
 recipe Make Wood Table
     {
-    SkillRequired:Woodwork=4,
-    Plank=5,
-    Nails=4,
+        SkillRequired:Woodwork=4,
+        Plank=5,
+        Nails=4,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCTablewood,
+        Result:HCTablewood,
         Sound:PZ_Hammer,
         Time:400,
         Category:Carpentry,
@@ -1934,13 +1938,13 @@ recipe Make Wood Table
 
 recipe Make Log Table
     {
-    Log=6,
-    Twine=12,
+        Log=6,
+        Twine=12,
         keep Hammer/HammerStone,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCTablelog,
-    SkillRequired:Woodwork=1,
+        Result:HCTablelog,
+        SkillRequired:Woodwork=1,
         Sound:PZ_Hammer,
         Time:500,
         Category:Carpentry,
@@ -1949,13 +1953,13 @@ recipe Make Log Table
 
 recipe Make Log Table
     {
-    Log=6,
-    Twine=12,
+        Log=6,
+        Twine=12,
         keep Hammer/HammerStone,
-    HCSawstone,
+        HCSawstone,
         CanBeDoneFromFloor:true,
-    Result:HCTablelog,
-    SkillRequired:Woodwork=1,
+        Result:HCTablelog,
+        SkillRequired:Woodwork=1,
         Sound:PZ_Hammer,
         Time:500,
         Category:Carpentry,
@@ -1964,17 +1968,17 @@ recipe Make Log Table
 
 recipe Build Rabbit Hutch
     {
-    HCLumberstack,
-    Nails=10,
-    Hinge=2,
-    HCChickenwire,
-    HCStraw=10,
+        HCLumberstack,
+        Nails=10,
+        Hinge=2,
+        HCChickenwire,
+        HCStraw=10,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCRabbithutch,
-    SkillRequired:Woodwork=7,
+        Result:HCRabbithutch,
+        SkillRequired:Woodwork=7,
         Sound:PZ_Hammer,
         Time:500,
         Category:Carpentry,
@@ -1983,15 +1987,15 @@ recipe Build Rabbit Hutch
 
 recipe Build Hunting Blind
     {
-    HCLogbox,
-    HCLumberbox,
-    HCWoodenladder,
-    Nails=100,
+        HCLogbox,
+        HCLumberbox,
+        HCWoodenladder,
+        Nails=100,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCHuntingblind,
-    SkillRequired:Woodwork=10,
+        Result:HCHuntingblind,
+        SkillRequired:Woodwork=10,
         Sound:PZ_Hammer,
         Time:1000,
         Category:Carpentry,
@@ -2009,18 +2013,18 @@ recipe Anchor Huntering Blind
 
 recipe Build Windmill
     {
-    SkillRequired:Woodwork=10;Mechanics=3;,
-    HCWindmillblade=4,
-    HCLumberstack,
-    Log=4,
-    Nails=32,
-    HCWoodblock,
-    HCSteelpipe,
+        SkillRequired:Woodwork=10;Mechanics=3;,
+        HCWindmillblade=4,
+        HCLumberstack,
+        Log=4,
+        Nails=32,
+        HCWoodblock,
+        HCSteelpipe,
         keep Hammer,
-    keep Saw/GardenSaw,
-    keep HCPipebender,
+        keep Saw/GardenSaw,
+        keep HCPipebender,
         CanBeDoneFromFloor:true,
-    Result:HCWindmill,
+        Result:HCWindmill,
         Sound:PZ_Hammer,
         Time:1000,
         Category:Carpentry,
@@ -2029,15 +2033,15 @@ recipe Build Windmill
 
 recipe Make Windmill Blade
     {
-    SkillRequired:Woodwork=10,
-    WoodenStick=6,
-    Plank=3,
-    HCWoodbeam,
-    Nails=4,
+        SkillRequired:Woodwork=10,
+        WoodenStick=6,
+        Plank=3,
+        HCWoodbeam,
+        Nails=4,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCWindmillblade,
+        Result:HCWindmillblade,
         Sound:PZ_Hammer,
         Time:1000,
         Category:Carpentry,
@@ -2046,20 +2050,20 @@ recipe Make Windmill Blade
 
 recipe Build Water Tower
     {
-    SkillRequired:Woodwork=10;Mechanics=3;,
-    HCWoodshingles=30,
-    HCVat,
-    HCLumberstack,
-    HCWoodbeam=8,
-    Nails=24,
-    HCSteelpipe=2,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        SkillRequired:Woodwork=10;Mechanics=3;,
+        HCWoodshingles=30,
+        HCVat,
+        HCLumberstack,
+        HCWoodbeam=8,
+        Nails=24,
+        HCSteelpipe=2,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
-    keep PipeWrench,
-    keep HCPipebender,
+        keep Saw/GardenSaw,
+        keep PipeWrench,
+        keep HCPipebender,
         CanBeDoneFromFloor:true,
-    Result:HCWatertower,
+        Result:HCWatertower,
         Sound:PZ_Hammer,
         NeedToBeLearn:true,
         Time:1000,
@@ -2069,17 +2073,17 @@ recipe Build Water Tower
 
 recipe Build Double Water Tower
     {
-    SkillRequired:Woodwork=10;Mechanics=3;,
-    HCWatertower,
-    HCVat,
-    Nails=4,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        SkillRequired:Woodwork=10;Mechanics=3;,
+        HCWatertower,
+        HCVat,
+        Nails=4,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
-    keep PipeWrench,
+        keep Saw/GardenSaw,
+        keep PipeWrench,
         CanBeDoneFromFloor:true,
-    Result:HCWatertower2,
-    SkillRequired:Woodwork=10,
+        Result:HCWatertower2,
+        SkillRequired:Woodwork=10,
         Sound:PZ_Hammer,
         NeedToBeLearn:true,
         Time:1000,
@@ -2089,16 +2093,16 @@ recipe Build Double Water Tower
 
 recipe Make Water Pump
     {
-    SkillRequired:Mechanics=3,
-    destroy HCWatertower2,
-    destroy HCWell,
-    destroy HCTrough,
-    HCWindmill,
-    HCSteelpipe=10,
-    keep PipeWrench,
-    keep HCPipebender,
+        SkillRequired:Mechanics=3,
+        destroy HCWatertower2,
+        destroy HCWell,
+        destroy HCTrough,
+        HCWindmill,
+        HCSteelpipe=10,
+        keep PipeWrench,
+        keep HCPipebender,
         CanBeDoneFromFloor:true,
-    Result:HCWaterpump,
+        Result:HCWaterpump,
         NeedToBeLearn:true,
         Time:1000,
         Category:Engineer,
@@ -2107,44 +2111,44 @@ recipe Make Water Pump
 
 recipe Anchor Water Pump
     {
-    HCWaterpump,
+        HCWaterpump,
         CanBeDoneFromFloor:true,
-    Result:HCWaterpump2,
+        Result:HCWaterpump2,
         Time:100,
         Category:Anchor,
     }
 
 recipe Fill Bucket
     {
-    HCWoodenbucket,
-    keep HCWaterpump/HCWaterpump2,
+        HCWoodenbucket,
+        keep HCWaterpump/HCWaterpump2,
         CanBeDoneFromFloor:true,
-    Result:HCWoodenbucketwater,
+        Result:HCWoodenbucketwater,
         Time:15,
         Category:Farming,
     }
 
 recipe Fill IBC Tower
     {
-    HCIBCtower,
-    keep HCWaterpump/HCWaterpump2,
-    CanBeDoneFromFloor:true,
-    Result:HCIBCtowerfull,
-    Time:15,
-    Category:Farming,
+        HCIBCtower,
+        keep HCWaterpump/HCWaterpump2,
+        CanBeDoneFromFloor:true,
+        Result:HCIBCtowerfull,
+        Time:15,
+        Category:Farming,
     }
 
 recipe Build Clothes Line
     {
-    Plank=4,
-    Nails=8,
-    Twine,
+        Plank=4,
+        Nails=8,
+        Twine,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCClothesline,
-    SkillRequired:Woodwork=4,
+        Result:HCClothesline,
+        SkillRequired:Woodwork=4,
         Sound:PZ_Hammer,
         Time:200,
         Category:Carpentry,
@@ -2153,10 +2157,10 @@ recipe Build Clothes Line
 
 recipe Build Double Clothes Line
     {
-    HCClothesline,
-    Twine,
+        HCClothesline,
+        Twine,
         CanBeDoneFromFloor:true,
-    Result:HCClothesline2,
+        Result:HCClothesline2,
         Time:15,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
@@ -2164,19 +2168,19 @@ recipe Build Double Clothes Line
 
 recipe Build Makeshift Shower
     {
-    SkillRequired:Woodwork=4;Mechanics=1;,
-    Plank=6,
-    HCLumberstack,
-    Nails=20,
-    Sheet=4,
-    Rope=4,
-    HCRopethick,
-    BucketEmpty,
+        SkillRequired:Woodwork=4;Mechanics=1;,
+        Plank=6,
+        HCLumberstack,
+        Nails=20,
+        Sheet=4,
+        Rope=4,
+        HCRopethick,
+        BucketEmpty,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCShower,
+        Result:HCShower,
         Sound:PZ_Hammer,
         Time:400,
         Category:Carpentry,
@@ -2185,16 +2189,16 @@ recipe Build Makeshift Shower
 
 recipe Add Sink
     {
-    SkillRequired:Woodwork=4;Mechanics=1;,
-    HCLumberstack,
-    Nails=12,
-    HCShower,
+        SkillRequired:Woodwork=4;Mechanics=1;,
+        HCLumberstack,
+        Nails=12,
+        HCShower,
         destroy BathTowel,
-    Soap2/HCSoap,
+        Soap2/HCSoap,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCShowersink,
+        Result:HCShowersink,
         Sound:PZ_Hammer,
         Time:400,
         Category:Carpentry,
@@ -2203,16 +2207,16 @@ recipe Add Sink
 
 recipe Add Sink
     {
-    SkillRequired:Woodwork=4;Mechanics=1;,
-    HCLumberstack,
-    Nails=12,
-    HCShower,
+        SkillRequired:Woodwork=4;Mechanics=1;,
+        HCLumberstack,
+        Nails=12,
+        HCShower,
         destroy BathTowel,
-    Soap2=20,
+        Soap2=20,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCShowersink,
+        Result:HCShowersink,
         Sound:PZ_Hammer,
         Time:400,
         Category:Carpentry,
@@ -2221,15 +2225,15 @@ recipe Add Sink
 
 recipe Build Scarecrow Stand
     {
-    Plank=2,
-    Nails=4,
-    Rope,
+        Plank=2,
+        Nails=4,
+        Rope,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCScarecrowstand,
-    SkillRequired:Woodwork=4,
+        Result:HCScarecrowstand,
+        SkillRequired:Woodwork=4,
         Sound:PZ_Hammer,
         Time:50,
         NeedToBeLearn:true,
@@ -2239,14 +2243,14 @@ recipe Build Scarecrow Stand
 
 recipe Attatch Scarecrow
     {
-    HCStraw=10,
-    HCStrawhat,
-    Shirt_Lumberjack,
-    Trousers_CamoUrban,
-    Rope=3,
-    HCScarecrowstand,
+        HCStraw=10,
+        HCStrawhat,
+        Shirt_Lumberjack,
+        Trousers_CamoUrban,
+        Rope=3,
+        HCScarecrowstand,
         CanBeDoneFromFloor:true,
-    Result:HCScarecrow,
+        Result:HCScarecrow,
         Time:50,
         NeedToBeLearn:true,
         Category:Farming,
@@ -2254,14 +2258,14 @@ recipe Attatch Scarecrow
 
 recipe Attatch Scarecrow
     {
-    HCStraw=10,
-    HCStrawhat,
-    Shirt_Lumberjack,
-    Trousers_CamoUrban,
-    Rope=3,
-    HCScarecrowstand,
+        HCStraw=10,
+        HCStrawhat,
+        Shirt_Lumberjack,
+        Trousers_CamoUrban,
+        Rope=3,
+        HCScarecrowstand,
         CanBeDoneFromFloor:true,
-    Result:HCScarecrow2,
+        Result:HCScarecrow2,
         Time:50,
         NeedToBeLearn:true,
         Category:Farming,
@@ -2269,13 +2273,13 @@ recipe Attatch Scarecrow
 
 recipe Attatch Corpse Scarecrow
     {
-    CorpseMale/CorpseFemale,
-    Shirt_Lumberjack,
-    Trousers_CamoUrban,
-    Rope=3,
-    HCScarecrowstand,
+        CorpseMale/CorpseFemale,
+        Shirt_Lumberjack,
+        Trousers_CamoUrban,
+        Rope=3,
+        HCScarecrowstand,
         CanBeDoneFromFloor:true,
-    Result:HCScarezed,
+        Result:HCScarezed,
         Time:50,
         NeedToBeLearn:true,
         Category:Farming,
@@ -2283,13 +2287,13 @@ recipe Attatch Corpse Scarecrow
 
 recipe Attatch Corpse Scarecrow
     {
-    CorpseMale/CorpseFemale,
-    Shirt_Lumberjack,
-    Trousers_CamoUrban,
-    Rope=3,
-    HCScarecrowstand,
+        CorpseMale/CorpseFemale,
+        Shirt_Lumberjack,
+        Trousers_CamoUrban,
+        Rope=3,
+        HCScarecrowstand,
         CanBeDoneFromFloor:true,
-    Result:HCScarezed2,
+        Result:HCScarezed2,
         Time:50,
         NeedToBeLearn:true,
         Category:Farming,
@@ -2298,16 +2302,16 @@ recipe Attatch Corpse Scarecrow
 recipe Build Archery Target
     {
         SheetPaper2,
-    Pencil/Pen/Crayons,
-    HCStrawbale,
-    Plank=4,
-    Nails=9,
+        Pencil/Pen/Crayons,
+        HCStrawbale,
+        Plank=4,
+        Nails=9,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCHaytarget,
-    SkillRequired:Woodwork=4,
+        Result:HCHaytarget,
+        SkillRequired:Woodwork=4,
         Sound:PZ_Hammer,
         Time:50,
         Category:Carpentry,
@@ -2317,7 +2321,7 @@ recipe Build Archery Target
 recipe Carve Wooden Bird Call
     {
         HCWoodblock,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep HuntingKnife/HCJackknife/FlintKnife,
         Result:HCBirdcall,
         Time:500,
@@ -2331,7 +2335,7 @@ recipe Carve Wooden Duck Call
     {
         SkillRequired:Woodwork=3,
         HCWoodblock,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep HuntingKnife/HCJackknife/FlintKnife,
         Result:HCDuckcall,
         Time:500,
@@ -2344,7 +2348,7 @@ recipe Carve Wooden Flute
     {
         SkillRequired:Woodwork=3,
         HCWoodblock,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep HuntingKnife/HCJackknife/FlintKnife,
         Result:HCFlutewood,
         Time:500,
@@ -2399,15 +2403,15 @@ recipe Carve Wooden Fork
 
 recipe Make Wagon Wheel
     {
-    HCWoodenring=2,
-    Woodglue=12,
+        HCWoodenring=2,
+        Woodglue=12,
         WoodenStick=6,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWagonwheel,
-    SkillRequired:Woodwork=10,
+        Result:HCWagonwheel,
+        SkillRequired:Woodwork=10,
         Sound:PZ_Hammer,
         Time:200,
         Category:Carpentry,
@@ -2416,15 +2420,15 @@ recipe Make Wagon Wheel
 
 recipe Make Wagon Wheel
     {
-    HCWoodenring=2,
-    HCWoodgluejar=12,
+        HCWoodenring=2,
+        HCWoodgluejar=12,
         WoodenStick=6,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCWagonwheel,
-    SkillRequired:Woodwork=10,
+        Result:HCWagonwheel,
+        SkillRequired:Woodwork=10,
         Sound:PZ_Hammer,
         Time:200,
         Category:Carpentry,
@@ -2433,16 +2437,16 @@ recipe Make Wagon Wheel
 
 recipe Make Yoke
     {
-    HCWoodbeam,
-    HCWoodenring=2,
-    TentPeg,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        HCWoodbeam,
+        HCWoodenring=2,
+        TentPeg,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCYoke,
-    SkillRequired:Woodwork=10,
+        Result:HCYoke,
+        SkillRequired:Woodwork=10,
         Sound:PZ_Hammer,
         Time:200,
         Category:Carpentry,
@@ -2451,17 +2455,17 @@ recipe Make Yoke
 
 recipe Build Wagon 
     {
-    SkillRequired:Woodwork=10;Mechanics=2;,
-    HCSteelpole=2,
-    HCLeafSpring=4,
-    HCPlankoil=36,
-    Nails=100,
-    HCWagonwheel=4,
-    HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        SkillRequired:Woodwork=10;Mechanics=2;,
+        HCSteelpole=2,
+        HCLeafSpring=4,
+        HCPlankoil=36,
+        Nails=100,
+        HCWagonwheel=4,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCWagon,
+        Result:HCWagon,
         Sound:PZ_Hammer,
         Time:250,
         Category:Carpentry,
@@ -2470,15 +2474,15 @@ recipe Build Wagon
 
 recipe Add Bonnet to Wagon 
     {
-    HCWagon,
-    Tarp=4,
+        HCWagon,
+        Tarp=4,
         WoodenStick=10,
-    Nails=10,
+        Nails=10,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCWagoncovered,
-    SkillRequired:Woodwork=10,
+        Result:HCWagoncovered,
+        SkillRequired:Woodwork=10,
         Sound:PZ_Hammer,
         Time:250,
         Category:Carpentry,
@@ -2487,28 +2491,28 @@ recipe Add Bonnet to Wagon
 
 recipe Add Oxen to Wagon
     {
-    HCWagon,
-    HCCowmale=2,
-    HCYoke,
+        HCWagon,
+        HCCowmale=2,
+        HCYoke,
         HCRopethick=2,
         CanBeDoneFromFloor:true,
-    Result:HCWagonoxen,
-    SkillRequired:Woodwork=10,
+        Result:HCWagonoxen,
+        SkillRequired:Woodwork=10,
         Time:250,
         Category:Carpentry,
     }
 
 recipe Add Bonnet to Wagon with Oxen
     {
-    HCWagonoxen,
-    Tarp=4,
+        HCWagonoxen,
+        Tarp=4,
         WoodenStick=10,
-    Nails=10,
+        Nails=10,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCWagoncoveredoxen,
-    SkillRequired:Woodwork=10,
+        Result:HCWagoncoveredoxen,
+        SkillRequired:Woodwork=10,
         Sound:PZ_Hammer,
         Time:250,
         Category:Carpentry,
@@ -2517,33 +2521,33 @@ recipe Add Bonnet to Wagon with Oxen
 
 recipe Add Oxen to Covered Wagon
     {
-    HCWagoncovered,
-    HCCowmale=2,
-    HCYoke,
+        HCWagoncovered,
+        HCCowmale=2,
+        HCYoke,
         HCRopethick=2,
         CanBeDoneFromFloor:true,
-    Result:HCWagoncoveredoxen,
-    SkillRequired:Woodwork=10,
+        Result:HCWagoncoveredoxen,
+        SkillRequired:Woodwork=10,
         Time:250,
         Category:Carpentry,
     }
 
 recipe Fill Trough with Vegetable Oil
     {
-    HCCookingoil=50,
+        HCCookingoil=50,
         HCTrough,
         CanBeDoneFromFloor:true,
-    Result:HCTroughvegoil,
+        Result:HCTroughvegoil,
         Time:250,
         Category:Carpentry,
     }
 
 recipe Fill Trough with Vegetable Oil
     {
-    HCWoodenbucketvegoil=5,
+        HCWoodenbucketvegoil=5,
         HCTrough,
         CanBeDoneFromFloor:true,
-    Result:HCTroughvegoil,
+        Result:HCTroughvegoil,
         Time:250,
         Category:Carpentry,
         OnCreate:recipe_hcwoodenbucket5,
@@ -2551,12 +2555,12 @@ recipe Fill Trough with Vegetable Oil
 
 recipe Soak Plank in Vegetable Oil
     {
-    SkillRequired:Woodwork=3,
-    HCWoodenbucketvegoil,
-    Plank,
+        SkillRequired:Woodwork=3,
+        HCWoodenbucketvegoil,
+        Plank,
         keep HCTroughvegoil,
         CanBeDoneFromFloor:true,
-    Result:HCPlankoil,
+        Result:HCPlankoil,
         Time:1000,
         Category:Carpentry,
         OnCreate:recipe_hcwoodenbucket,
@@ -2565,46 +2569,46 @@ recipe Soak Plank in Vegetable Oil
 
 recipe Assemble IBC Storage Supports
     {
-    SkillRequired:Woodwork=3,   
-    HCIBC,
-    Nails=12,
+        SkillRequired:Woodwork=3,   
+        HCIBC,
+        Nails=12,
         Plank=6,
-    keep Hammer,
+        keep Hammer,
         Result:HCIBCstorage,
         Time:800.0,
         Category:Carpentry, 
-    Sound:PZ_Hammer,
+        Sound:PZ_Hammer,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Upgrade IBC Storage
     {
-    SkillRequired:Woodwork=3,
-    HCIBC,
-    Nails=12,
+        SkillRequired:Woodwork=3,
+        HCIBC,
+        Nails=12,
         Plank=6,
-    HCIBCstorage,
-    keep Hammer,
+        HCIBCstorage,
+        keep Hammer,
         Result:HCIBCtower,
         Time:900.0,
-    CanBeDoneFromFloor:true,    
+        CanBeDoneFromFloor:true,    
         Category:Carpentry, 
-    Sound:PZ_Hammer,
+        Sound:PZ_Hammer,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Vending Stand
     {
-    HCWoodsheet=2,
-    HCWoodbeam,
-    Plank=8,
-    Nails=8,
+        HCWoodsheet=2,
+        HCWoodbeam,
+        Plank=8,
+        Nails=8,
         keep Hammer,
-    keep Saw/GardenSaw,
-    OnTest:HCNearCarpybench,
+        keep Saw/GardenSaw,
+        OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
-    Result:HCVendingstand,
-    SkillRequired:Woodwork=5,
+        Result:HCVendingstand,
+        SkillRequired:Woodwork=5,
         Sound:PZ_Hammer,
         Time:50,
         Category:Carpentry,
@@ -2613,15 +2617,15 @@ recipe Make Vending Stand
 
 recipe Upgrade Vending Stand
     {
-    HCVendingstand,
-    Plank=4,
-    Nails=2,
-    Tarp,
+        HCVendingstand,
+        Plank=4,
+        Nails=2,
+        Tarp,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCVendingstand2,
-    SkillRequired:Woodwork=5,
+        Result:HCVendingstand2,
+        SkillRequired:Woodwork=5,
         Sound:PZ_Hammer,
         Time:50,
         Category:Carpentry,
@@ -2630,17 +2634,17 @@ recipe Upgrade Vending Stand
 
 recipe Make Folding Sign
     {
-    SkillRequired:Woodwork=1,
+        SkillRequired:Woodwork=1,
         SheetPaper2,
-    Pencil/Pen/Crayons,
-    Hinge,
-    HCRopethin=2,
-    Plank=2,
-    Nails=2,
+        Pencil/Pen/Crayons,
+        Hinge,
+        HCRopethin=2,
+        Plank=2,
+        Nails=2,
         keep Hammer,
-    keep Saw/GardenSaw,
+        keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
-    Result:HCFoldingsign,
+        Result:HCFoldingsign,
         Sound:PZ_Hammer,
         Time:100,
         Category:Carpentry,
@@ -2650,38 +2654,38 @@ recipe Make Folding Sign
 
 recipe Make Chopsticks
     {
-    SkillRequired:Woodwork=6;Cooking=6;Mechanics=2;,
-    Plank=1,
-    keep Saw/GardenSaw,
-    CanBeDoneFromFloor:true,
-    Result:HCChopsticks=8,
-    Sound:PZ_Saw,
-    Time:100,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveTinyXP,
+        SkillRequired:Woodwork=6;Cooking=6;Mechanics=2;,
+        Plank=1,
+        keep Saw/GardenSaw,
+        CanBeDoneFromFloor:true,
+        Result:HCChopsticks=8,
+        Sound:PZ_Saw,
+        Time:100,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveTinyXP,
     }
 
 recipe Make Chopsticks
     {
-    SkillRequired:Woodwork=2;Cooking=3;,
-    TreeBranch,
-    keep Saw/GardenSaw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
-    Result:HCChopsticks=3,
-    Sound:PZ_Saw,
-    Time:100,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveXP,
+        SkillRequired:Woodwork=2;Cooking=3;,
+        TreeBranch,
+        keep Saw/GardenSaw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
+        Result:HCChopsticks=3,
+        Sound:PZ_Saw,
+        Time:100,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
 recipe Make Chopsticks
     {
-    Twigs,
-    keep Saw/GardenSaw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
-    Result:HCChopsticks=1,
-    Sound:PZ_Saw,
-    Time:30,
-    Category:Carpentry,
-    OnGiveXP:HCWoodwork_OnGiveTinyXP,
+        Twigs,
+        keep Saw/GardenSaw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
+        Result:HCChopsticks=1,
+        Sound:PZ_Saw,
+        Time:30,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveTinyXP,
     }
 
 
