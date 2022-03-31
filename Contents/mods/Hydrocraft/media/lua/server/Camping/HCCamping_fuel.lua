@@ -5,6 +5,7 @@
 require "Camping/camping_fuel";
 
 	-- Add Fuel for Campfire
+	campingFuelType["HCDeerpoop"] = 10.0/60.0
 	campingFuelType.HCCowpoop = 10.0/60.0
 	campingFuelType["HCCowpoop"] = 10.0/60.0
 	campingFuelType.HCWoodblock = 1.0
