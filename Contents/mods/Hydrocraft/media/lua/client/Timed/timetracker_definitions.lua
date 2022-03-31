@@ -13,6 +13,12 @@ if ItemTimeTrackerMod == nil then
 ItemTimeTrackerMod = {}; -- DONT delete this!
 end
 
+local STARVATION = true
+
+if(SandboxVars.Hydrocraft.AnimalStarvation ~= nil and SandboxVars.Hydrocraft.AnimalStarvation == 2) then
+	STARVATION = false
+end
+
 --Hamster
 --Without Food 2 Days
 
@@ -20,17 +26,21 @@ ItemTimeTrackerMod["HCHamstermale"] = {};
 ItemTimeTrackerMod["HCHamstermale"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCHamstermale"]["TurnInto"] = "Hydrocraft.HCHamstermalehungry";
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCHamstermalehungry"] = {};   
 ItemTimeTrackerMod["HCHamstermalehungry"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCHamstermalehungry"]["TurnInto"] = "Hydrocraft.HCHamsterdead";
+end
 
 ItemTimeTrackerMod["HCHamsterfemale"] = {};   
 ItemTimeTrackerMod["HCHamsterfemale"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCHamsterfemale"]["TurnInto"] = "Hydrocraft.HCHamsterfemalehungry";
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCHamsterfemalehungry"] = {};   
 ItemTimeTrackerMod["HCHamsterfemalehungry"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCHamsterfemalehungry"]["TurnInto"] = "Hydrocraft.HCHamsterdead";
+end
 
 --Rabbit
 --Without Food 2 Days
@@ -39,17 +49,21 @@ ItemTimeTrackerMod["HCRabbitmale"] = {};
 ItemTimeTrackerMod["HCRabbitmale"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCRabbitmale"]["TurnInto"] = "Hydrocraft.HCRabbitmalehungry";
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCRabbitmalehungry"] = {};   
 ItemTimeTrackerMod["HCRabbitmalehungry"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCRabbitmalehungry"]["TurnInto"] = "Base.DeadRabbit";
+end
 
 ItemTimeTrackerMod["HCRabbitfemale"] = {};   
 ItemTimeTrackerMod["HCRabbitfemale"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCRabbitfemale"]["TurnInto"] = "Hydrocraft.HCRabbitfemalehungry";
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCRabbitfemalehungry"] = {};   
 ItemTimeTrackerMod["HCRabbitfemalehungry"]["Life"] = 24.0;
 ItemTimeTrackerMod["HCRabbitfemalehungry"]["TurnInto"] = "Base.DeadRabbit";
+end
 
 ItemTimeTrackerMod["HCRabbithutchfull"] = {};   
 ItemTimeTrackerMod["HCRabbithutchfull"]["Life"] = 120.0;
@@ -71,18 +85,22 @@ ItemTimeTrackerMod["HCChickenmale"]["Life"] = 22.0;
 ItemTimeTrackerMod["HCChickenmale"]["TurnInto"] = "Hydrocraft.HCChickenmalehungry";
 ItemTimeTrackerMod["HCChickenmale"]["ChangeSound"] = "rooster"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCChickenmalehungry"] = {};   
 ItemTimeTrackerMod["HCChickenmalehungry"]["Life"] = 22.0;
 ItemTimeTrackerMod["HCChickenmalehungry"]["TurnInto"] = "Hydrocraft.HCChickendead";
+end
 
 ItemTimeTrackerMod["HCChickenfemale"] = {};   
 ItemTimeTrackerMod["HCChickenfemale"]["Life"] = 22.0;
 ItemTimeTrackerMod["HCChickenfemale"]["TurnInto"] = "Hydrocraft.HCChickenfemalehungry";
 ItemTimeTrackerMod["HCChickenfemale"]["ChangeSound"] = "bock"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCChickenfemalehungry"] = {};   
 ItemTimeTrackerMod["HCChickenfemalehungry"]["Life"] = 22.0;
 ItemTimeTrackerMod["HCChickenfemalehungry"]["TurnInto"] = "Hydrocraft.HCChickendead2";
+end
 
 ItemTimeTrackerMod["HCChickenmalebaby"] = {};   
 ItemTimeTrackerMod["HCChickenmalebaby"]["Life"] = 22.0;
@@ -116,18 +134,22 @@ ItemTimeTrackerMod["HCPigmale"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCPigmale"]["TurnInto"] = "Hydrocraft.HCPigmalehungry";
 ItemTimeTrackerMod["HCPigmale"]["ChangeSound"] = "oink"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCPigmalehungry"] = {};   
 ItemTimeTrackerMod["HCPigmalehungry"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCPigmalehungry"]["TurnInto"] = "Hydrocraft.HCPigdead";
+end
 
 ItemTimeTrackerMod["HCPigfemale"] = {};   
 ItemTimeTrackerMod["HCPigfemale"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCPigfemale"]["TurnInto"] = "Hydrocraft.HCPigfemalehungry";
 ItemTimeTrackerMod["HCPigfemale"]["ChangeSound"] = "oink"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCPigfemalehungry"] = {};   
 ItemTimeTrackerMod["HCPigfemalehungry"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCPigfemalehungry"]["TurnInto"] = "Hydrocraft.HCPigdead";
+end
 
 ItemTimeTrackerMod["HCPigmaletired"] = {};   
 ItemTimeTrackerMod["HCPigmaletired"]["Life"] = 22.0;
@@ -157,18 +179,22 @@ ItemTimeTrackerMod["HCSheepmale"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCSheepmale"]["TurnInto"] = "Hydrocraft.HCSheepmalehungry";
 ItemTimeTrackerMod["HCSheepmale"]["ChangeSound"] = "baa"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCSheepmalehungry"] = {};   
 ItemTimeTrackerMod["HCSheepmalehungry"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCSheepmalehungry"]["TurnInto"] = "Hydrocraft.HCSheepdead";
+end
 
 ItemTimeTrackerMod["HCSheepfemale"] = {};   
 ItemTimeTrackerMod["HCSheepfemale"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCSheepfemale"]["TurnInto"] = "Hydrocraft.HCSheepfemalehungry";
 ItemTimeTrackerMod["HCSheepfemale"]["ChangeSound"] = "baa"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCSheepfemalehungry"] = {};   
 ItemTimeTrackerMod["HCSheepfemalehungry"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCSheepfemalehungry"]["TurnInto"] = "Hydrocraft.HCSheepdead";
+end
 
 ItemTimeTrackerMod["HCSheepmaletired"] = {};   
 ItemTimeTrackerMod["HCSheepmaletired"]["Life"] = 22.0;
@@ -208,18 +234,22 @@ ItemTimeTrackerMod["HCGoatmale"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCGoatmale"]["TurnInto"] = "Hydrocraft.HCGoatmalehungry";
 ItemTimeTrackerMod["HCGoatmale"]["ChangeSound"] = "meeh"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCGoatmalehungry"] = {};   
 ItemTimeTrackerMod["HCGoatmalehungry"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCGoatmalehungry"]["TurnInto"] = "Hydrocraft.HCGoatdead";
+end
 
 ItemTimeTrackerMod["HCGoatfemale"] = {};   
 ItemTimeTrackerMod["HCGoatfemale"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCGoatfemale"]["TurnInto"] = "Hydrocraft.HCGoatfemalehungry";
 ItemTimeTrackerMod["HCGoatfemale"]["ChangeSound"] = "meeh"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCGoatfemalehungry"] = {};   
 ItemTimeTrackerMod["HCGoatfemalehungry"]["Life"] = 118.0;
 ItemTimeTrackerMod["HCGoatfemalehungry"]["TurnInto"] = "Hydrocraft.HCGoatdead2";
+end
 
 ItemTimeTrackerMod["HCGoatmaletired"] = {};   
 ItemTimeTrackerMod["HCGoatmaletired"]["Life"] = 22.0;
@@ -269,9 +299,11 @@ ItemTimeTrackerMod["HCCowmale"]["Life"] = 70.0;
 ItemTimeTrackerMod["HCCowmale"]["TurnInto"] = "Hydrocraft.HCCowmalehungry";
 ItemTimeTrackerMod["HCCowmale"]["ChangeSound"] = "moo2"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCCowmalehungry"] = {};   
 ItemTimeTrackerMod["HCCowmalehungry"]["Life"] = 70.0;
 ItemTimeTrackerMod["HCCowmalehungry"]["TurnInto"] = "Hydrocraft.HCCowdead";
+end
 
 ItemTimeTrackerMod["HCCowfemale"] = {};   
 ItemTimeTrackerMod["HCCowfemale"]["Life"] = 70.0;
@@ -320,18 +352,22 @@ ItemTimeTrackerMod["HCDonkeymale"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCDonkeymale"]["TurnInto"] = "Hydrocraft.HCDonkeymalehungry";
 ItemTimeTrackerMod["HCDonkeymale"]["ChangeSound"] = "heehaw"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCDonkeymalehungry"] = {};   
 ItemTimeTrackerMod["HCDonkeymalehungry"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCDonkeymalehungry"]["TurnInto"] = "Hydrocraft.HCDonkeydead";
+end
 
 ItemTimeTrackerMod["HCDonkeyfemale"] = {};   
 ItemTimeTrackerMod["HCDonkeyfemale"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCDonkeyfemale"]["TurnInto"] = "Hydrocraft.HCDonkeyfemalehungry";
 ItemTimeTrackerMod["HCDonkeyfemale"]["ChangeSound"] = "heehaw"; 
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCDonkeyfemalehungry"] = {};   
 ItemTimeTrackerMod["HCDonkeyfemalehungry"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCDonkeyfemalehungry"]["TurnInto"] = "Hydrocraft.HCDonkeydead";
+end
 
 ItemTimeTrackerMod["HCDonkeymaletired"] = {};   
 ItemTimeTrackerMod["HCDonkeymaletired"]["Life"] = 22.0;
@@ -361,18 +397,22 @@ ItemTimeTrackerMod["HCHorsemale"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCHorsemale"]["TurnInto"] = "Hydrocraft.HCHorsemalehungry";
 ItemTimeTrackerMod["HCHorsemale"]["ChangeSound"] = "neigh";
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCHorsemalehungry"] = {};   
 ItemTimeTrackerMod["HCHorsemalehungry"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCHorsemalehungry"]["TurnInto"] = "Hydrocraft.HCHorsedead";
+end
 
 ItemTimeTrackerMod["HCHorsefemale"] = {};   
 ItemTimeTrackerMod["HCHorsefemale"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCHorsefemale"]["TurnInto"] = "Hydrocraft.HCHorsefemalehungry";
 ItemTimeTrackerMod["HCHorsefemale"]["ChangeSound"] = "neigh";
 
+if(STARVATION) then
 ItemTimeTrackerMod["HCHorsefemalehungry"] = {};   
 ItemTimeTrackerMod["HCHorsefemalehungry"]["Life"] = 166.0;
 ItemTimeTrackerMod["HCHorsefemalehungry"]["TurnInto"] = "Hydrocraft.HCHorsedead";
+end
 
 ItemTimeTrackerMod["HCHorsemaletired"] = {};   
 ItemTimeTrackerMod["HCHorsemaletired"]["Life"] = 22.0;
