@@ -4,7 +4,7 @@ option Hydrocraft.SpawnHydrocraftGuns
 	type = boolean,
 	default = true,
 	page = Hydrocraft,
-	translation = Spawn_Hydrocraft_Guns,
+	translation = Hydrocraft_Spawn_Guns,
 }
 
 option Hydrocraft.SpawnBookCovers
@@ -12,15 +12,23 @@ option Hydrocraft.SpawnBookCovers
 	type = boolean,
 	default = true,
 	page = Hydrocraft,
-	translation = Spawn_Book_Covers,
+	translation = Hydrocraft_Spawn_Book_Covers,
 }
 
-option Hydrocraft.Test
+option Hydrocraft.BurnDamage
 {
 	type = enum,
+	numValues = 3,
 	default = 1,
-	numValues = 4,
-	valueTranslation = {how=1, does=2, this=3, work=4}
 	page = Hydrocraft,
-	translation = Test,
+	translation = Hydrocraft_Burn_Damage,
+}
+
+option Hydrocraft.AnimalStarvation
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+	page = Hydrocraft,
+	translation = Hydrocraft_Animal_Starvation,
 }
