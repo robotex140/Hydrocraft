@@ -381,7 +381,7 @@ recipe Harvest Wild Beehive
        NeedToBeLearn:true,
        Time:150.0,
        Category:Farming,
-       OnCreate:HCHoneycomb6,
+       OnCreate:HCHoneycomb12,
        OnGiveXP:HCCooking_OnGiveXP,
     }
 
