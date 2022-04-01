@@ -33,7 +33,7 @@ item HCBiogas
 recipe Build Biogas Collector
     {
     	SkillRequired:Farming=7,
-	HCPropanetankempty,
+	Base.PropaneTank,
 	HCWeldinghose,
 	HCFunnel/HCGlassfunnel,
     	Pipe=2,
@@ -49,7 +49,7 @@ recipe Build Biogas Collector
 recipe Make Biogas
     {
     keep HCBiogas,
-	HCPropanetankempty,
+	Base.PropaneTank,
 	HCCompost=100,
     CanBeDoneFromFloor:true,
     Result:PropaneTank,
@@ -62,7 +62,7 @@ recipe Make Biogas
 recipe Make Biogas
     {
     keep HCBiogas,
-    HCPropanetankempty,
+    Base.PropaneTank,
     CompostBag=20,
     CanBeDoneFromFloor:true,
     Result:PropaneTank,

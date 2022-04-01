@@ -894,7 +894,8 @@ module Base
         UseWorldItem = TRUE,
         ScaleWorldIcon = 2.0,
         WeightEmpty = 5.0,
-        ReplaceOnDeplete    =   Hydrocraft.HCPropanetankempty,
+		KeepOnDeplete =	TRUE,
+        /*ReplaceOnDeplete    =   Hydrocraft.HCPropanetankempty,*/
 		DisplayCategory          =   Fuel,
     }
 
