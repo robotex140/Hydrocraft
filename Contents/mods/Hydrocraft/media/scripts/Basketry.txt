@@ -41,17 +41,6 @@ module Hydrocraft
 		DisplayCategory		= Container,
     }
 
-    item HCBirchbarkcup
-    {
-        WeightReduction     = 10,
-        Weight              = 0.2,
-        Type                = Container,
-        Capacity            = 9,
-        DisplayName         = Birch Bark Cup,
-        Icon                = HCBirchbarkcup,
-		DisplayCategory		= Container,
-    }
-
 item HCBirchbarkcup
     {
         Weight    		= 0.2,
