@@ -146,6 +146,9 @@ local function generateHCBerryDefs()
 					Vegitation  = spawnTable.chance,
 					FarmLand    = spawnTable.chance,
 					Farm        = spawnTable.chance,
+					TrailerPark = 0,
+					TownZone    = 0,
+					Nav         = 0,
 				},
 				months = { 3, 4, 5, 6, 7, 8, 9, 10, 11 },
 				bonusMonths = { 5, 6, 7 },
@@ -192,15 +195,15 @@ local function generateHCMushroomDefs()
 				xp = 5,
 				rainChance = 15,
 				categories = { "Mushrooms" },
-				zones = { --edit, chance should vary.
-					Forest      = 10, --spawnTable.chance,
+				zones = {
+					Forest      = 10, 
 					DeepForest  = 15,
-					--Vegitation  = spawnTable.chance,
-					--FarmLand    = spawnTable.chance,
-					--Farm        = spawnTable.chance,
-					--TrailerPark = spawnTable.chance,
-					--TownZone    = spawnTable.chance,
-					--Nav         = spawnTable.chance,
+					Vegitation  = 0,
+					FarmLand    = 0,
+					Farm        = 0,
+					TrailerPark = 0,
+					TownZone    = 0,
+					Nav         = 0,
 				},
 				months = { 3, 4, 5, 6, 7, 8, 9, 10, 11 },
 				bonusMonths = { 8, 9, 10 },
@@ -225,6 +228,12 @@ local function generateWoodDefs()
 		zones = {
 			DeepForest  = 1,
 			Forest      = 1,
+			Vegitation  = 0,
+			FarmLand    = 0,
+			Farm        = 0,
+			TrailerPark = 0,
+			TownZone    = 0,
+			Nav         = 0,
 		},
 		months = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 },
 		bonusMonths = { 9, 10, 11 },
@@ -374,6 +383,12 @@ local function generateWoodDefs()
 		zones = {
 			DeepForest  = 1,
 			Forest      = 1,
+			Vegitation  = 0,
+			FarmLand    = 0,
+			Farm        = 0,
+			TrailerPark = 0,
+			TownZone    = 0,
+			Nav         = 0,
 		},
 	}
 	
@@ -391,6 +406,12 @@ local function generateClayDefs()
 		zones = {
 			DeepForest  = 2,
 			Forest      = 2,
+			Vegitation  = 0,
+			FarmLand    = 0,
+			Farm        = 0,
+			TrailerPark = 0,
+			TownZone    = 0,
+			Nav         = 0,
 		},
 		months = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 },
 	}
@@ -406,6 +427,12 @@ local function generateClayDefs()
 		zones = {
 			DeepForest  = 2,
 			Forest      = 2,
+			Vegitation  = 0,
+			FarmLand    = 0,
+			Farm        = 0,
+			TrailerPark = 0,
+			TownZone    = 0,
+			Nav         = 0,
 		},
 		months = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 },
 	}	
@@ -428,7 +455,7 @@ local function createHCCategories()
 			Farm            = 0,--30
 			TrailerPark     = 0,--15
 			TownZone        = 0,--15
-			--Nav             = 120,
+			Nav             = 0,
 		},
 		--spriteAffinities        = spriteAffinities.stones,
 		chanceToMoveIcon        = 0.0, --20.0
@@ -452,7 +479,7 @@ local function createHCCategories()
 			Farm            = 0,--30
 			TrailerPark     = 0,--15
 			TownZone        = 0,--15
-			--Nav             = 120,
+			Nav             = 0,
 		},
 		--spriteAffinities        = spriteAffinities.stones,
 		chanceToMoveIcon        = 0.0, --20.0
@@ -476,7 +503,7 @@ local function createHCCategories()
 			Farm            = 0,--30
 			TrailerPark     = 0,--15
 			TownZone        = 0,--15
-			--Nav             = 120,
+			Nav             = 0,
 		},
 		--spriteAffinities        = spriteAffinities.stones,
 		chanceToMoveIcon        = 0.0, --20.0
@@ -500,7 +527,7 @@ local function createHCCategories()
 			Farm            = 0,--30
 			TrailerPark     = 0,--15
 			TownZone        = 0,--15
-			--Nav             = 120,
+			Nav             = 0,
 		},
 		--spriteAffinities        = spriteAffinities.stones,
 		chanceToMoveIcon        = 0.0, --20.0
@@ -524,7 +551,7 @@ local function createHCCategories()
 			Farm            = 0,--30
 			TrailerPark     = 0,--15
 			TownZone        = 0,--15
-			--Nav             = 120,
+			Nav             = 0,
 		},
 		--spriteAffinities        = spriteAffinities.stones,
 		chanceToMoveIcon        = 0.0, --20.0
