@@ -47,9 +47,8 @@ end
 
 
 local function OnClientCommand(module, command, player, args)
-    print('Beehive OnClientCommand received command '..command)
-
     if module ~= 'Beehive' then return end
+	print('Beehive OnClientCommand received command '..command)
     if SBeehiveSystemCommands[command] then
         local argStr = ''
         for k,v in pairs(args) do argStr = argStr..' '..k..'='..v end
