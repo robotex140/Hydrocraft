@@ -2063,7 +2063,6 @@ recipe Make Clothespins
     	keep Tongs,
     	keep HCWorkgloves,
     	keep WeldingMask,
-    	keep HCWorkgloves,
     	keep HCRollingmillsmall,
     	CanBeDoneFromFloor:true,
         Result:HCClothespin=5,
