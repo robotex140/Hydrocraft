@@ -2055,7 +2055,7 @@ recipe Make Bag
         OnGiveXP:HCTailoring_OnGiveBitXP,
     }
     
-recipe Make HCClothespins
+recipe Make Clothespins
     {
     	HCSSpringSteelIngot,
 	    WoodenStick=5,
@@ -2067,8 +2067,6 @@ recipe Make HCClothespins
     	keep HCRollingmillsmall,
     	CanBeDoneFromFloor:true,
         Result:HCClothespin=5,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
         Time:600.0,
         Category:Tailoring,
         OnGiveXP:HCTailoring_OnGiveBitXP,
