@@ -620,7 +620,7 @@ item HCGinsengExtract
         Calories            = 0.1,
         ReplaceOnUse        = Hydrocraft.HCGlasstesttubecork,
         CustomEatSound      = DrinkingFromBottle,
-	    DisplayCategory     = Drug,
+	    DisplayCategory     = Drugs,
     }
 
 
@@ -640,7 +640,7 @@ item HCLemongrassExtract
         Calories            = 0.1,
         ReplaceOnUse        = Hydrocraft.HCGlasstesttubecork,
         CustomEatSound      = DrinkingFromBottle,
-	    DisplayCategory     = Drug,
+	    DisplayCategory     = Drugs,
     }
 
 

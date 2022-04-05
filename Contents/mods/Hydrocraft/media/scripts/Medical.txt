@@ -235,7 +235,7 @@ item HCSmellingsalts
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltscork,
 	CustomContextMenu 	= 	Sniff,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
 	}
 
 item HCSmellingsalts2	
@@ -250,7 +250,7 @@ item HCSmellingsalts2
 	DisplayName			=	Vial of Smelling Salts,
 	Icon				=	HCSmellingsaltsbung,
 	CustomContextMenu 	= 	Sniff,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
 	}
 
 item HCPillbox
@@ -274,7 +274,7 @@ item HCAdrenalin
 	CustomContextMenu 		= Drink,
 	CustomEatSound 			= DrinkingFromBottle,
 	ReplaceOnUse			= HCEyedropperbottle,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCAdrenalinbox
@@ -283,7 +283,7 @@ item HCAdrenalinbox
 	Type	                        = 	Normal,
 	DisplayName			= 	Box of Adrenalin,
 	Icon				= 	HCAdrenalinbox,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
 	}
 
 item HCAdrenalinbottle
@@ -293,7 +293,7 @@ item HCAdrenalinbottle
 	UseDelta 			= 0.2,
 	DisplayName 			= Bottle of Adrenalin,
 	Icon				= HCAdrenalinbottle,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCSyringeadrenalin
@@ -307,7 +307,7 @@ item HCSyringeadrenalin
         ReplaceOnUse	        	= HCSyringeempty,    
         Icon				= HCSyringeadrenalin,
 	CustomContextMenu 		= Inject,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCEthersheet
@@ -326,7 +326,7 @@ item HCEthersheet
     DisplayName         	= Ripped Sheet with Ether,
     icon 			        = HCEthersheet,
 	Alcoholic		        = TRUE,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCValeriantray
@@ -357,7 +357,7 @@ item HCAntideppills
     Type    		= Normal,
 	DisplayName		= Bottle of Anti-Depression Pills,
 	Icon	        = HCAntideppills,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCAntideppill
@@ -371,7 +371,7 @@ item HCAntideppill
 	DisplayName		    = Anti-Depression Pills,
 	Icon	        	= HCAntideppill,
 	Tooltip 		    = Tooltip_PillsAntidepressant,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCHawthornfruittray
@@ -382,7 +382,7 @@ item HCHawthornfruittray
     ReplaceOnUse   	 	= BakingTray,
 	DisplayName         = Tray with Hawthorn Fruit,
 	Icon	        	= HCHawthornfruittray,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCHawthornfruitdry
@@ -393,7 +393,7 @@ item HCHawthornfruitdry
     ReplaceOnUse    	= BakingTray,
 	DisplayName		    = Tray With Dry Hawthorn Fruit,
 	Icon	        	= HCHawthornfruittray,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCEphedrinebox
@@ -402,7 +402,7 @@ item HCEphedrinebox
     Type    	       	= Normal,
 	DisplayName		    = Box of Ephedrine,
 	Icon	        	= HCEphedrinebox,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCEphedrine
@@ -415,7 +415,7 @@ item HCEphedrine
 	Icon	        	= HCEphedrine,
     PainReduction 	    = 5,
 	FatigueChange		= -5,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCCaffeinebox
@@ -424,7 +424,7 @@ item HCCaffeinebox
     Type    		= Normal,
 	DisplayName		= Box of Caffeine Pills,
 	Icon	        = HCCaffeinebox,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCCaffeinepills
@@ -438,7 +438,7 @@ item HCCaffeinepills
 	FatigueChange		= -15,
 	UnhappyChange		= 5,
 	StressChange		= 5,
-		DisplayCategory	= Drug,
+		DisplayCategory	= Drugs,
     }
 
 item HCWillowbarktea
