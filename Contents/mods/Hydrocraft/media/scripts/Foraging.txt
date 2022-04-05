@@ -1293,7 +1293,7 @@ item HCStonearrowhead
         Type    		= 	Normal,
         DisplayName         	= 	Stone Arrowhead,
         icon 			= 	HCStonearrowhead,
-		DisplayCategory	=   SurFor,
+		DisplayCategory	=   CraftAmmo,
     }
 
     item HCTwigbundle
