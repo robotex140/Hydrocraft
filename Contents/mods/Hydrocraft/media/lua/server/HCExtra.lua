@@ -2876,14 +2876,10 @@ if (itemName ~= "HCHerbtable2" and itemName ~= "KitchenKnife") then
     	vegetableName = string.gsub(vegetableName, "Hydrocraft.", "");
     	if (itemName == vegetableName) then
     		print (vegetableName)
- 			HCAddManySameItem(props.seedName, props.seedCollect, player)
+ 			HCAddManySameItem(props.gatherSeed, props.seedCollect, player)
     	end
 	end
 
 end
 end 
 end
-
-
-
-
