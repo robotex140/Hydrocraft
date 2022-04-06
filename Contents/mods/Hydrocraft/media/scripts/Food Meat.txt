@@ -656,7 +656,7 @@ recipe Slice Amphibian
         Sound:SliceMeat,
         Time:50.0,
         Category:Cooking,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 
@@ -670,7 +670,7 @@ recipe Butcher Turtle
         Sound:SliceMeat,
         Time:50.0,
         Category:Cooking,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Butcher Turtle
@@ -683,7 +683,7 @@ recipe Butcher Turtle
         Sound:SliceMeat,
         Time:50.0,
         Category:Cooking,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Butcher Carcass
@@ -698,7 +698,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
     	Category:Hunting,
         OnCreate:recipe_hcchickenbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -713,7 +713,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
     	Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -728,7 +728,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -743,7 +743,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -758,7 +758,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -773,7 +773,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -788,7 +788,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -803,7 +803,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -818,7 +818,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsheepbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -833,7 +833,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsheepbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -848,7 +848,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcpigbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -863,7 +863,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hccowbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -878,7 +878,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hccowbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -893,7 +893,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcdonkeybutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -908,7 +908,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hchorsebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -923,7 +923,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -938,7 +938,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -953,7 +953,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -968,7 +968,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -983,7 +983,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -998,7 +998,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1013,7 +1013,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1028,7 +1028,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcduckbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1043,7 +1043,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcgoosebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1058,7 +1058,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcgoosebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1073,7 +1073,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1088,7 +1088,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallbirdbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1103,7 +1103,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcturkeybutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1117,7 +1117,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         OnCreate:CutAnimal_OnCreate,
         Category:Cooking,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Butcher Carcass
@@ -1132,7 +1132,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1147,7 +1147,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1162,7 +1162,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1177,7 +1177,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1192,7 +1192,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1207,7 +1207,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1222,7 +1222,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1237,7 +1237,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcsmallgamebutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1252,7 +1252,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcboarbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1267,7 +1267,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcdeerbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1282,7 +1282,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcdeerbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	} 
 
 recipe Butcher Carcass
@@ -1297,7 +1297,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcblackbearbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	} 
 
 recipe Butcher Carcass
@@ -1312,7 +1312,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hcbearbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1327,7 +1327,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hccougarbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1369,7 +1369,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hczedbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Remove Head
@@ -1383,7 +1383,7 @@ recipe Remove Head
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hczedhead,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Butcher Carcass
@@ -1398,7 +1398,7 @@ recipe Butcher Carcass
         NeedToBeLearn:true,
         Category:Hunting,
         OnCreate:recipe_hczedbutcher,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Prepare Turduckhen
@@ -1411,7 +1411,7 @@ recipe Prepare Turduckhen
         Result:HCTurduckhen,
         Time:200.0,
         Category:Cooking,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Christmas Ham 
@@ -1424,7 +1424,7 @@ recipe Make Christmas Ham
         NeedToBeLearn:true,
         Time:90.0,
         Category:Cooking,
-        OnGiveXP,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 		
 }
