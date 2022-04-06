@@ -1121,7 +1121,7 @@ recipe Reinforce Quarterstaff
     HCQuarterstaff,
     BarbedWire,
     LeatherStrips/HCBarkstrip,
-    Glue/Woodglue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+    Glue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/Woodglue/HCWoodgluejar,
     Result:HCQuarterstaffBarbedWire,
     Time:25.0,
     Category:Survivalist,
@@ -1132,7 +1132,7 @@ recipe Reinforce Quarterstaff
     {
     HCQuarterstaff,
     LeatherStrips/HCBarkstrip,
-    Glue/Woodglue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+    Glue/HCSuperglue/HCRubbercement/HCTar/HCHotgluegunfull/HCGluejar/Woodglue/HCWoodgluejar,
     Result:HCQuarterstaffGrip,
     Time:25.0,
     Category:Survivalist,

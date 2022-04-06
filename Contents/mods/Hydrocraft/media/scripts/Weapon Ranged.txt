@@ -588,7 +588,7 @@ recipe Make Arrow
     {
     HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCRedfeather/HCStripedfeather/HCBluejayfeather/HCDucttapefletching,
     HCStonearrowhead/HCBonearrowhead/HCMetalArrowhead,
-	Woodglue/Glue/HCTar/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+	Glue/HCTar/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/Woodglue/HCWoodgluejar,
     WoodenStick,
     NeedToBeLearn:true,
     Result:HCArrow,
