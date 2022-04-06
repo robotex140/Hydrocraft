@@ -36,10 +36,10 @@ local function HydrocraftButchering_ButcherBoar(animal, player)
 	inv:AddItems("Hydrocraft.HCBone", 4)
 	inv:AddItems("Hydrocraft.HCBoartusk", 2)
 
-	local porkChop1 = InventoryItemFactory:CreateItem("Base.PorkChop")
-	local porkChop2 = InventoryItemFactory:CreateItem("Base.PorkChop")
-	local porkChop3 = InventoryItemFactory:CreateItem("Base.PorkChop")
-	local porkChop4 = InventoryItemFactory:CreateItem("Base.PorkChop")
+	local porkChop1 = InventoryItemFactory.CreateItem("Base.PorkChop")
+	local porkChop2 = InventoryItemFactory.CreateItem("Base.PorkChop")
+	local porkChop3 = InventoryItemFactory.CreateItem("Base.PorkChop")
+	local porkChop4 = InventoryItemFactory.CreateItem("Base.PorkChop")
 
 	local age = animal:getAge()
 	local rotten = animal:isRotten()
@@ -61,8 +61,8 @@ local function HydrocraftButchering_ButcherBoar(animal, player)
 	inv:AddItem(porkChop3)
 	inv:AddItem(porkChop4)
 	
-	local bacon1 = InventoryItemFactory:CreateItem("Base.Bacon")
-	local bacon2 = InventoryItemFactory:CreateItem("Base.Bacon")
+	local bacon1 = InventoryItemFactory.CreateItem("Base.Bacon")
+	local bacon2 = InventoryItemFactory.CreateItem("Base.Bacon")
 
 	bacon1:setAge(age)
 	bacon1:setRotten(rotten)
@@ -73,8 +73,8 @@ local function HydrocraftButchering_ButcherBoar(animal, player)
 	inv:AddItem(bacon1)
 	inv:AddItem(bacon2)
 	
-	local freshHam1 = InventoryItemFactory:CreateItem("Hydrocraft.HCFreshham")
-	local freshHam2 = InventoryItemFactory:CreateItem("Hydrocraft.HCFreshham")
+	local freshHam1 = InventoryItemFactory.CreateItem("Hydrocraft.HCFreshham")
+	local freshHam2 = InventoryItemFactory.CreateItem("Hydrocraft.HCFreshham")
 
 	freshHam1:setAge(age)
 	freshHam1:setRotten(rotten)
@@ -107,7 +107,7 @@ local function HydrocraftButchering_ButcherDeer(animal, player, gender)
 	local rotten = animal:isRotten()
 	
 	for i=1, 10, 1 do
-		local v = InventoryItemFactory:CreateItem("Hydrocraft.HCVenison")
+		local v = InventoryItemFactory.CreateItem("Hydrocraft.HCVenison")
 		v:setAge(age)
 		v:setRotten(rotten)
 		inv:AddItem(v)
@@ -126,7 +126,7 @@ local function HydrocraftButchering_ButcherBear(animal, player)
 	local rotten = animal:isRotten()
 	
 	for i=1, 20, 1 do
-		local steak = InventoryItemFactory:CreateItem("Hydrocraft.HCBearsteak")
+		local steak = InventoryItemFactory.CreateItem("Hydrocraft.HCBearsteak")
 		steak:setAge(age)
 		steak:setRotten(rotten)
 		inv:AddItem(steak)
@@ -136,7 +136,7 @@ local function HydrocraftButchering_ButcherBear(animal, player)
 	
 end
 
-local function HydrocraftButchering_ButcherBlackBear(animal, person)
+local function HydrocraftButchering_ButcherBlackBear(animal, player)
 	local inv = player:getInventory()
 	inv:AddItem("Hydrocraft.HCHiderawbearblack")
 	inv:AddItems("Hydrocraft.HCIntestines", 4)
@@ -147,7 +147,7 @@ local function HydrocraftButchering_ButcherBlackBear(animal, person)
 	local rotten = animal:isRotten()
 	
 	for i=1, 16, 1 do
-		local steak = InventoryItemFactory:CreateItem("Hydrocraft.HCBearsteak")
+		local steak = InventoryItemFactory.CreateItem("Hydrocraft.HCBearsteak")
 		steak:setAge(age)
 		steak:setRotten(rotten)
 		inv:AddItem(steak)
@@ -155,7 +155,7 @@ local function HydrocraftButchering_ButcherBlackBear(animal, person)
 
 end
 
-local function HydrocraftButchering_ButcherCougar(animal, person)
+local function HydrocraftButchering_ButcherCougar(animal, player)
 	local inv = player:getInventory()
 	inv:AddItem("Hydrocraft.HCHiderawcougar")
 	inv:AddItems("Hydrocraft.HCIntestines", 3)
@@ -166,7 +166,7 @@ local function HydrocraftButchering_ButcherCougar(animal, person)
 	local rotten = animal:isRotten()
 	
 	for i=1, 8, 1 do
-		local steak = InventoryItemFactory:CreateItem("Hydrocraft.HCCougarsteak")
+		local steak = InventoryItemFactory.CreateItem("Hydrocraft.HCCougarsteak")
 		steak:setAge(age)
 		steak:setRotten(rotten)
 		inv:AddItem(steak)
@@ -186,7 +186,7 @@ local function HydrocraftButchering_ButcherSheep(animal, player)
 	local rotten = animal:isRotten()
 	
 	for i=1, 3, 1 do
-		local chop = InventoryItemFactory:CreateItem("Base.MuttonChop")
+		local chop = InventoryItemFactory.CreateItem("Base.MuttonChop")
 		chop:setAge(age)
 		chop:setRotten(rotten)
 		inv:AddItem(chop)
@@ -208,7 +208,7 @@ local function HydrocraftButchering_ButcherGoat(animal, player)
 	local rotten = animal:isRotten()
 	
 	for i=1, 3, 1 do
-		local chop = InventoryItemFactory:CreateItem("Base.MuttonChop")
+		local chop = InventoryItemFactory.CreateItem("Base.MuttonChop")
 		chop:setAge(age)
 		chop:setRotten(rotten)
 		inv:AddItem(chop)
@@ -227,21 +227,21 @@ local function HydrocraftButchering_ButcherPig(animal, player, gender)
 	local rotten = animal:isRotten()
 
 	for i=1, 4, 1 do
-		local chop = InventoryItemFactory:CreateItem("Base.PorkChop")
+		local chop = InventoryItemFactory.CreateItem("Base.PorkChop")
 		chop:setAge(age)
 		chop:setRotten(rotten)
 		inv:AddItem(chop)
 	end
 
 	for i=1, 2, 1 do
-		local bacon = InventoryItemFactory:CreateItem("farming.Bacon")
+		local bacon = InventoryItemFactory.CreateItem("farming.Bacon")
 		bacon:setAge(age)
 		bacon:setRotten(rotten)
 		inv:AddItem(bacon)
 	end
 
 	for i=1, 2, 1 do
-		local ham = InventoryItemFactory:CreateItem("Hydrocraft.HCFreshham")
+		local ham = InventoryItemFactory.CreateItem("Hydrocraft.HCFreshham")
 		ham:setAge(age)
 		ham:setRotten(rotten)
 		inv:AddItem(ham)
@@ -269,7 +269,7 @@ local function HydrocraftButchering_ButcherCow(animal, player, gender)
 	local rotten = animal:isRotten()
 	
 	for i=1, 10, 1 do
-		local steak = InventoryItemFactory:CreateItem("Base.Steak")
+		local steak = InventoryItemFactory.CreateItem("Base.Steak")
 		steak:setAge(age)
 		steak:setRotten(rotten)
 		inv:AddItem(steak)
@@ -291,7 +291,7 @@ local function HydrocraftButchering_ButcherDonkey(animal, player)
 	local rotten = animal:isRotten()
 	
 	for i=1, 8, 1 do
-		local steak = InventoryItemFactory:CreateItem("Hydrocraft.HCCheval")
+		local steak = InventoryItemFactory.CreateItem("Hydrocraft.HCCheval")
 		steak:setAge(age)
 		steak:setRotten(rotten)
 		inv:AddItem(steak)
@@ -313,7 +313,7 @@ local function HydrocraftButchering_ButcherHorse(animal, player)
 	local rotten = animal:isRotten()
 	
 	for i=1, 10, 1 do
-		local steak = InventoryItemFactory:CreateItem("Hydrocraft.HCCheval")
+		local steak = InventoryItemFactory.CreateItem("Hydrocraft.HCCheval")
 		steak:setAge(age)
 		steak:setRotten(rotten)
 		inv:AddItem(steak)
@@ -335,11 +335,11 @@ function HydrocraftButchering_ButcherLargeAnimal(items, result, player)
 	elseif(fullType == "Hydrocraft.HCDeerdead2") then
 		HydrocraftButchering_ButcherDeer(animal, player, FEMALE)
 	elseif(fullType == "Hydrocraft.HCBeardead") then
-		HydrocraftButchering_ButcherBear(animal, person)
+		HydrocraftButchering_ButcherBear(animal, player)
 	elseif(fullType == "Hydrocraft.HCBlackbeardead") then
-		HydrocraftButchering_ButcherBlackBear(animal, person)
+		HydrocraftButchering_ButcherBlackBear(animal, player)
 	elseif(fullType == "Hydrocraft.HCCougardead") then
-		HydrocraftButchering_ButcherCougar(animal, person)
+		HydrocraftButchering_ButcherCougar(animal, player)
 	elseif(fullType == "Hydrocraft.HCSheepdead") then
 		HydrocraftButchering_ButcherSheep(animal, player)
 	elseif(fullType == "Hydrocraft.HCGoatdead" or fullType == "Hydrocraft.HCGoatdead2") then
@@ -413,7 +413,7 @@ function HydrocraftButchering_ButcherSmallAnimal(items, result, player)
 	local fullType = animal:getFullType()
 
 	if(animal:getCategory() ~= "Food") then
-		animal = InventoryItemFactory:CreateItem("Base.PorkChop") --some generic meat, with an age / rotten value to copy., fullType already taken.
+		animal = InventoryItemFactory.CreateItem("Base.PorkChop") --some generic meat, with an age / rotten value to copy., fullType already taken.
 	end
 	
 	--some give generic items, like all the big animals
