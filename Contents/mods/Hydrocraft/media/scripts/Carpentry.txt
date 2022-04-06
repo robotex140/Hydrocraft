@@ -1199,6 +1199,7 @@ recipe Make Carpenter Bench
         SkillRequired:Woodwork=4,
         Sound:PZ_Hammer,
         Time:100,
+		OnCreate:DisplayInfoCarpentersBench,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
