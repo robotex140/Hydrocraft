@@ -15,6 +15,14 @@ option Hydrocraft.SpawnBookCovers
 	translation = Hydrocraft_Spawn_Book_Covers,
 }
 
+option Hydrocraft.SpawnCigaretteButts
+{
+	type = boolean,
+	default = true,
+	page = Hydrocraft,
+	translation = Hydrocraft_Spawn_Cigarette_Butts,
+}
+
 option Hydrocraft.BurnDamage
 {
 	type = enum,

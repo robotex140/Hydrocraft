@@ -63,8 +63,8 @@ item HCCigaretteslights
 		Icon				= HCCigaretteslights,
 		CustomContextMenu 		= Smoke,
 		CantBeFrozen			= TRUE,
-		OnEat				= OnEat_Cigarettes,
-		ReplaceOnUse			= Hydrocraft.HCCigarettebutt,
+		OnEat				= HCOnEat_Cigarettes,
+		/*ReplaceOnUse			= Hydrocraft.HCCigarettebutt,*/
 		StaticModel = Cigarette,
 		CustomEatSound = HC_LightUp,
 		DisplayCategory	= Drugs,
@@ -98,8 +98,8 @@ item HCCigarettesmenthol
 		Icon					= HCCigarettesmenthol,
 		CustomContextMenu 		= 	Smoke,
 		CantBeFrozen				= TRUE,
-		OnEat					= OnEat_Cigarettes,
-		ReplaceOnUse	= Hydrocraft.HCCigarettebutt,
+		OnEat					= HCOnEat_Cigarettes,
+		/*ReplaceOnUse	= Hydrocraft.HCCigarettebutt,*/
 		StaticModel = Cigarette,
 		CustomEatSound = HC_LightUp,
 		DisplayCategory	= Drugs,

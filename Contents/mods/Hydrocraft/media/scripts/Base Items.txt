@@ -974,8 +974,8 @@ module Base
 		Icon	=	IckySticks,
 		CustomContextMenu = Smoke,
 		CantBeFrozen = TRUE,
-		OnEat = OnEat_Cigarettes,
-		ReplaceOnUse = Hydrocraft.HCCigarettebutt,
+		OnEat = HCOnEat_Cigarettes,
+		/*ReplaceOnUse = Hydrocraft.HCCigarettebutt,*/
 		StaticModel = Cigarette,
 		EatType = Cigarettes,
 		CustomEatSound = HC_LightUp,

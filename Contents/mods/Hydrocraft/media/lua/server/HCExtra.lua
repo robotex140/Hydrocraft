@@ -2883,3 +2883,11 @@ if (itemName ~= "HCHerbtable2" and itemName ~= "KitchenKnife") then
 end
 end 
 end
+
+--calls vanilla code then adds a cigarette butt if desired
+function HCOnEat_Cigarettes(food, character, percent)
+	OnEat_Cigarettes(food, character, percent) --calls vanilla smoking code
+	if(SandboxVars.Hydrocraft.SpawnCigaretteButts == true) then
+		character:getInventory():AddItem("Hydrocraft.HCCigarettebutt")
+	end
+end
