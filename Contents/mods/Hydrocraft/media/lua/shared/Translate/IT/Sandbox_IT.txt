@@ -1,0 +1,27 @@
+Sandbox_IT = {
+	Sandbox_Hydrocraft = "Hydrocraft"
+
+	Sandbox_Hydrocraft_Spawn_Guns = "Generare cannoni Hydrocraft?"
+	
+	Sandbox_Hydrocraft_Spawn_Book_Covers = "Genera copertine di libri?"
+	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "Dare copertine di libri quando rimuovi la copertina di un libro? (Articolo inutile)"
+
+	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Mozziconi di sigaretta?"
+	
+	Sandbox_Hydrocraft_Burn_Damage = "Danno da ustione da forgiatura",
+	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Modifica il danno da ustione ricevuto quando si utilizza il forno, la fonderia, l'altoforno e il forno industriale."
+	Sandbox_Hydrocraft_Burn_Damage_option1 = "Completo (predefinito)"
+	Sandbox_Hydrocraft_Burn_Damage_option2 = "Metà"
+	Sandbox_Hydrocraft_Burn_Damage_option3 = "Nessuno"
+
+	Sandbox_Hydrocraft_Animal_Starvation = "La fame di animali",
+	Sandbox_Hydrocraft_Animal_Starvation_tooltip = "Gli animali della fattoria possono morire di fame?"
+	Sandbox_Hydrocraft_Animal_Starvation_option1 = "Sì (predefinito)"
+	Sandbox_Hydrocraft_Animal_Starvation_option2 = "No"
+
+	Sandbox_Hydrocraft_Zombie_Loot = "Livello bottino zombi",
+	Sandbox_Hydrocraft_Zombie_Loot_tooltip = Cambia la quantità di bottino sugli zombi morti. Non ha alcun impatto sul bottino vaniglia, solo il bottino 'extra' aggiunto da Hydrocraft (che include alcuni oggetti vaniglia)."
+	Sandbox_Hydrocraft_Zombie_Loot_option1 = "Normale (predefinito)"
+	Sandbox_Hydrocraft_Zombie_Loot_option2 = "Basso"
+	Sandbox_Hydrocraft_Zombie_Loot_option3 = "Molto Basso"	
+}
