@@ -310,7 +310,7 @@ recipe Create Large Glass Pane
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Conical Flask
     {
     HCGlassingot,
     Charcoal,
@@ -328,7 +328,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Buchner Flask
     {
     HCGlassingot,
     Charcoal,
@@ -346,7 +346,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Florence Flask
     {
     HCGlassingot,
     Charcoal,
@@ -364,7 +364,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Retort Flask
     {
     HCGlassingot,
     Charcoal,
@@ -382,7 +382,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Beaker
     {
     HCGlassingot,
     Charcoal,
@@ -400,7 +400,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Bong
     {
     HCGlassingot,
     Charcoal,
@@ -418,7 +418,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Empty Jar
     {
     HCGlassingot,
     Charcoal,
@@ -436,7 +436,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Empty Spice Jars
     {
     HCGlassingot,
     Charcoal,
@@ -455,7 +455,7 @@ recipe Create Glassware
     }
 
 
-recipe Create Glassware
+recipe Create Empty Glass Bottle
     {
     HCBrownpigment,
     HCGlassingot,
@@ -474,7 +474,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Empty Whiskey Bottle
     {
     HCGlassingot,
     Charcoal,
@@ -492,7 +492,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Jug
     {
     HCGlassingot,
     Charcoal,
@@ -511,7 +511,7 @@ recipe Create Glassware
     }
 
 
-recipe Create Glassware
+recipe Create Empty Wine Bottle
     {
     HCGlassingot,
     Charcoal,
@@ -529,7 +529,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Graduated Cylinder
     {
     HCGlassingot,
     Charcoal,
@@ -547,7 +547,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Test Tubes
     {
     HCGlassingot,
     Charcoal,
@@ -565,7 +565,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Large Glass Balloon
     {
     HCGlassingot,
     Charcoal,
@@ -583,7 +583,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Connector
     {
     HCGlassingot,
     Charcoal,
@@ -601,7 +601,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Pipe
     {
     HCGlassingot,
     Charcoal,
@@ -619,7 +619,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Elbow Pipe
     {
     HCGlassingot,
     Charcoal,
@@ -637,7 +637,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Cooler
     {
     HCGlassingot,
     Charcoal,
@@ -655,7 +655,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Glass Funnel
     {
     HCGlassingot,
     Charcoal,
@@ -673,7 +673,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Wine Glasses
     {
     HCGlassingot,
     Charcoal,
@@ -691,7 +691,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Beer Glasses
     {
     HCGlassingot,
     Charcoal,
@@ -709,7 +709,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Measuring Cup
     {
     HCGlassingot,
     Charcoal,
@@ -727,7 +727,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Eye Dropper
     {
     HCGlassingot,
     HCRubber,
@@ -746,7 +746,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Thermometer
     {
     HCGlassingot,
     HCCinnabar,
@@ -766,7 +766,7 @@ recipe Create Glassware
     }
 
 
-recipe Create Glassware
+recipe Create Empty Salt Shaker
     {
     HCGlassingot,
     Charcoal,
@@ -784,7 +784,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Petri Dishes
     {
     HCGlassingot,
     Charcoal,
@@ -803,7 +803,7 @@ recipe Create Glassware
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Create Glassware
+recipe Create Microscope Slides
     {
     HCGlassingot,
     Charcoal,
@@ -860,7 +860,7 @@ recipe Create Glass Marbles
 	
 		
 	
-recipe Create Glassware
+recipe Create Empty Ink Well
     {
 		HCGlassingot,
 		Charcoal,
