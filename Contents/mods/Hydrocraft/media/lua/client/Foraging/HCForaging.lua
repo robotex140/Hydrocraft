@@ -1,9 +1,9 @@
 
 local _searchEnabled = false
 local _player = nil
-local readMammalGuide = false
-local readFlowerGuide = false
-local readTreeGuide = false
+--local readMammalGuide = false
+--local readFlowerGuide = false
+--local readTreeGuide = false
 
 local FLOWERS = {
 	"Hydrocraft.HCBleedingheart", "Hydrocraft.HCTetterwort", "Hydrocraft.HCMazus", "Hydrocraft.HCCamellia", "Hydrocraft.HCMorningglory", "Hydrocraft.HCStrelitzia", "Hydrocraft.HCColumbine", "Hydrocraft.HCCinquefoils","Hydrocraft.HCChrysanthemum", "Hydrocraft.HCSunflower", "Hydrocraft.HCRhododendron", "Hydrocraft.HCCalily","Hydrocraft.HCMagnolia","Hydrocraft.HCCarnation", "Hydrocraft.HCBluedaisy", "Hydrocraft.HCAnemome", "Hydrocraft.HCDaffodil","Hydrocraft.HCTulip", "Hydrocraft.HCPansy", "Hydrocraft.HCDaisy", "Hydrocraft.HCIris", "Hydrocraft.HCWolfsbane","Hydrocraft.HCMandrake", "Hydrocraft.HCBelladonna", "Hydrocraft.HCValerian", "Hydrocraft.HCCamomile", "Hydrocraft.HCLavender","Hydrocraft.HCSpeedwell", "Hydrocraft.HCDogwood", "Hydrocraft.HCChicory", "Hydrocraft.HCKvann", "Hydrocraft.HCHolly","Hydrocraft.HCJutestems", "Hydrocraft.HCThistle", "Base.Violets", "Hydrocraft.HCRosebud", "Hydrocraft.HCFlaxflower", "Hydrocraft.HCFlax", "Hydrocraft.HCClover", "Hydrocraft.HCNettles", "Hydrocraft.HCBirchcatkin"
@@ -444,7 +444,7 @@ local function createHCCategories()
 		name = "Flowers",
 		typeCategory            = "Food", --?
 		identifyCategoryPerk    = "PlantScavenging",
-		identifyCategoryLevel   = 0,
+		identifyCategoryLevel   = 2,
 		categoryHidden          = false,
 		validFloors             = { "ANY" },
 		zoneChance              = {
@@ -468,7 +468,7 @@ local function createHCCategories()
 		name = "Nuts",
 		typeCategory            = "Food", --?
 		identifyCategoryPerk    = "PlantScavenging",
-		identifyCategoryLevel   = 0,
+		identifyCategoryLevel   = 3,
 		categoryHidden          = false,
 		validFloors             = { "ANY" },
 		zoneChance              = {
@@ -492,7 +492,7 @@ local function createHCCategories()
 		name = "Leaves",
 		typeCategory            = "Food", --?
 		identifyCategoryPerk    = "PlantScavenging",
-		identifyCategoryLevel   = 0,
+		identifyCategoryLevel   = 1,
 		categoryHidden          = false,
 		validFloors             = { "ANY" },
 		zoneChance              = {
@@ -515,8 +515,8 @@ local function createHCCategories()
 	local dungCatDef = { --1052
 		name = "Dung",
 		typeCategory            = "Food", --?
-		identifyCategoryPerk    = "PlantScavenging",
-		identifyCategoryLevel   = 0,
+		identifyCategoryPerk    = "Trapping",
+		identifyCategoryLevel   = 2,
 		categoryHidden          = false,
 		validFloors             = { "ANY" },
 		zoneChance              = {
@@ -672,19 +672,19 @@ local function onEnableSearchMode(player, isSearchMode)
 	_searchEnabled = true
 	_player = player
 
-	local books = _player:getAlreadyReadBook()
-	readMammalGuide = books:contains("Hydrocraft.HCBookmammalguide")
-	readFlowerGuide = books:contains("Hydrocraft.HCBookflowerguide")
-	readTreeGuide = books:contains("Hydrocraft.HCBooktreeguide")
+	--local books = _player:getAlreadyReadBook()
+	--readMammalGuide = books:contains("Hydrocraft.HCBookmammalguide")
+	--readFlowerGuide = books:contains("Hydrocraft.HCBookflowerguide")
+	--readTreeGuide = books:contains("Hydrocraft.HCBooktreeguide")
 	
 end
 
 local function onDisableSearchMode(player, isSearchMode)
 	searchEnabled = false
 	_player = nil
-	readMammalGuide = false
-	readFlowerGuide = false
-	readTreeGuide = false
+	--readMammalGuide = false
+	--readFlowerGuide = false
+	--readTreeGuide = false
 end
 
 local function randomFlower(zoneType)
@@ -764,7 +764,7 @@ local function EveryOneMinute()
 	local xp = false
 
 	local inv = _player:getInventory()
-	if(c == "Flowers" and readFlowerGuide) then
+	if(c == "Flowers") then --and readFlowerGuide
 		local flower = randomFlower(zoneType)
 		if(flower ~= nil) then
 			inv:AddItems(flower, ZombRand(4)+1)--1 to 4 flowers
@@ -776,7 +776,7 @@ local function EveryOneMinute()
 			inv:AddItem(dung)
 			xp = true
 		end
-	elseif(c == "Nuts" and (readTreeGuide or foragingLevel >= 4)) then
+	elseif(c == "Nuts") then --and (readTreeGuide or foragingLevel >= 4)
 		local nut = randomNut(zoneType)
 		if(nut ~= nil) then
 			inv:AddItems(nut, ZombRand(2)+1)--1 or 2 nuts
@@ -788,7 +788,7 @@ local function EveryOneMinute()
 			inv:AddItem(bark)
 			xp = true
 		end		
-	elseif(c == "Leaves" and (readTreeGuide or foragingLevel >= 3)) then
+	elseif(c == "Leaves") then --and (readTreeGuide or foragingLevel >= 3)
 		local leaf = randomLeaf(zoneType)
 		if(leaf ~= nil) then
 			inv:AddItems(leaf, ZombRand(3)+1)--1 to 3 leaves
@@ -798,6 +798,7 @@ local function EveryOneMinute()
 
 	if(xp == true) then
 		_player:getXp():AddXP(Perks.PlantScavenging, 2)
+		_player:Say("+1")
 		--_player:getStats():setFatigue(_player:getStats():getFatigue()+0.05)
 	end
 	
