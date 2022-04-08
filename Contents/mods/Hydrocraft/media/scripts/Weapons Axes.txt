@@ -83,6 +83,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
+		DamageMakeHole = TRUE,
         AttachmentType 					= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -123,6 +124,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 		= 	TRUE,
         BreakSound  		=   	BreakWoodItem,
         TreeDamage  		=   	30,
+		DamageMakeHole = TRUE,
         AttachmentType 		= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -163,6 +165,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	25,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -203,6 +206,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -244,6 +248,7 @@ item HCAxeheadblunt
         BreakSound  				=   	BreakWoodItem,
         TreeDamage  				=   	25,
         AttachmentType 				= Knife,
+		DamageMakeHole = TRUE,
         Tags 						= ChopTree;CutPlant,
 		DisplayCategory          =   WepMelee,
 	}
@@ -284,6 +289,7 @@ item HCAxeheadblunt
 		TwoHandWeapon 					= 	FALSE,
         BreakSound  					=   	BreakWoodItem,
         TreeDamage  					=   	25,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -324,6 +330,7 @@ item HCAxeheadblunt
 		TwoHandWeapon 					= 	FALSE,
         BreakSound  					=   	BreakWoodItem,
         TreeDamage  					=   	25,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -367,6 +374,7 @@ item HCAxeheadblunt
        	BreakSound  				=   BreakWoodItem,
         TreeDamage  				=   35,
 		RequiresEquippedBothHands 	= 	true,
+		DamageMakeHole = TRUE,
 		AttachmentType 				= 	BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -408,6 +416,7 @@ item HCAxeheadblunt
        		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	35,
 		RequiresEquippedBothHands 			= 	true,
+		DamageMakeHole = TRUE,
 		AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
