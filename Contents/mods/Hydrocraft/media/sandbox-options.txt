@@ -40,3 +40,12 @@ option Hydrocraft.AnimalStarvation
 	page = Hydrocraft,
 	translation = Hydrocraft_Animal_Starvation,
 }
+
+option Hydrocraft.ZombieLoot
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+	page = Hydrocraft,
+	translation = Hydrocraft_Zombie_Loot,
+}

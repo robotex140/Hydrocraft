@@ -5,17 +5,23 @@ Sandbox_EN = {
 	
 	Sandbox_Hydrocraft_Spawn_Book_Covers = "Spawn Book Covers?"
 	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "Give book covers when you remove the cover of a book? (Useless item)"
+
+	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Cigarette butts?"
 	
 	Sandbox_Hydrocraft_Burn_Damage = "Smithing Burn Damage",
 	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Changes the burn damage received when using the Kiln, Smelter, Blast Furnace and Industrial Furnace."
 	Sandbox_Hydrocraft_Burn_Damage_option1 = "Full (default)"
 	Sandbox_Hydrocraft_Burn_Damage_option2 = "Half"
-	Sandbox_Hydrocraft_Burn_Damage_option3 = "None
+	Sandbox_Hydrocraft_Burn_Damage_option3 = "None"
 
 	Sandbox_Hydrocraft_Animal_Starvation = "Animal Starvation",
 	Sandbox_Hydrocraft_Animal_Starvation_tooltip = "Do farm animals need to be fed?"
 	Sandbox_Hydrocraft_Animal_Starvation_option1 = "Yes (default)"
 	Sandbox_Hydrocraft_Animal_Starvation_option2 = "No"
 
-	
+	Sandbox_Hydrocraft_Zombie_Loot = "Zombie Loot Level",
+	Sandbox_Hydrocraft_Zombie_Loot_tooltip = "Changes the amount of loot on dead zombies.  It does not impact on vanilla loot, just the 'extra' loot added by Hydrocraft (which includes some vanilla items)."
+	Sandbox_Hydrocraft_Zombie_Loot_option1 = "Normal (default)"
+	Sandbox_Hydrocraft_Zombie_Loot_option2 = "Low"
+	Sandbox_Hydrocraft_Zombie_Loot_option3 = "Very Low"	
 }

@@ -1,7 +1,9 @@
 
 --Each time a zed dies, a random number of items will be placed on the corpse
 --the number of items will be picked at random from this list
-local ROLLS = { 1, 1, 2, 2, 2, 2, 2, 2, 3, 3 } 
+local ROLLS = { 1, 1, 2, 2, 2, 2, 2, 2, 3, 3 }
+local LOW_ROLLS = {0,0,0,0,0,0,1,1,1,1,1}
+local VERY_LOW_ROLLS = {0,0,0,0,0,0,0,0,0,1}
 
 local NOTHING = "$nothing$"
 local TOTAL = 0
@@ -25,7 +27,21 @@ end
 
 local function SpawnLootOnDeadZombie(zombie)
 	
-	local randomRolls = ROLLS[ZombRand(#(ROLLS)) + 1]
+	local rolls = ROLLS
+	if(SandboxVars.Hydrocraft.ZombieLoot ~= nil) then
+		if(SandboxVars.Hydrocraft.ZombieLoot == 1) then
+			rolls = ROLLS
+		elseif(SandboxVars.Hydrocraft.ZombieLoot == 2) then
+			rolls = LOW_ROLLS
+		elseif(SandboxVars.Hydrocraft.ZombieLoot == 3) then
+			rolls = VERY_LOW_ROLLS
+		else
+			print("Error: Unknown ZombieLoot value, defaulting to normal.  Value: ", SandboxVars.Hydrocraft.ZombieLoot)
+			rolls = ROLLS
+		end
+	end
+	
+	local randomRolls = rolls[ZombRand(#(rolls)) + 1]
 	--print("randomRolls = ", randomRolls)
 	
 	for i=1, randomRolls, 1 do
