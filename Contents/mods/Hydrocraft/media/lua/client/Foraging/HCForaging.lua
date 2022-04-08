@@ -758,9 +758,7 @@ local function EveryOneMinute()
 	--print("***************** ", c)
 
 	local foragingLevel = _player:getPerkLevel(Perks.PlantScavenging)
-	
-	_player:getStats():setFatigue(_player:getStats():getFatigue()+0.01)
-	
+		
 	if(ZombRand(10) > foragingLevel) then return end
 
 	local xp = false
@@ -800,6 +798,7 @@ local function EveryOneMinute()
 
 	if(xp == true) then
 		_player:getXp():AddXP(Perks.PlantScavenging, 2)
+		_player:getStats():setFatigue(_player:getStats():getFatigue()+0.05)
 	end
 	
 end
