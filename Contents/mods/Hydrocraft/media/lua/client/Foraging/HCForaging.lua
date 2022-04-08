@@ -798,7 +798,7 @@ local function EveryOneMinute()
 
 	if(xp == true) then
 		_player:getXp():AddXP(Perks.PlantScavenging, 2)
-		_player:getStats():setFatigue(_player:getStats():getFatigue()+0.05)
+		--_player:getStats():setFatigue(_player:getStats():getFatigue()+0.05)
 	end
 	
 end
