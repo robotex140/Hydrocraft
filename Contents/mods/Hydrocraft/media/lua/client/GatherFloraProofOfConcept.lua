@@ -145,7 +145,7 @@ local function onEnableSearchMode(player, isSearchMode)
 	
 end
 
-Events.onEnableSearchMode.Add(onEnableSearchMode)
+--Events.onEnableSearchMode.Add(onEnableSearchMode)
 
 local function onDisableSearchMode(player, isSearchMode)
 	searchEnabled = false
@@ -159,7 +159,7 @@ local function onDisableSearchMode(player, isSearchMode)
 	count = 0
 end
 
-Events.onDisableSearchMode.Add(onDisableSearchMode)
+--Events.onDisableSearchMode.Add(onDisableSearchMode)
 
 local function EveryOneMinute()
 
@@ -297,4 +297,4 @@ local function EveryOneMinute()
 
 end
 
-Events.EveryOneMinute.Add(EveryOneMinute)
+--Events.EveryOneMinute.Add(EveryOneMinute)
