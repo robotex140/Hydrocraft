@@ -1,2 +1,31 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+# Translation files are encoded differently per-language,
+# see https://github.com/TheIndieStone/ProjectZomboidTranslations/issues/155
+Contents/mods/Hydrocraft/media/lua/shared/Translate/AF/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/AR/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/CA/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/CH/*.txt text working-tree-encoding=big5 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/CN/*.txt text working-tree-encoding=utf-8 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/CS/*.txt text working-tree-encoding=cp1250 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/DA/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/DE/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/EE/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/EN/*.txt text working-tree-encoding=utf-8 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/ES/*.txt text working-tree-encoding=cp1250 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/FR/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/HU/*.txt text working-tree-encoding=cp1250 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/IT/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/JP/*.txt text working-tree-encoding=utf-8 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/KO/*.txt text working-tree-encoding=utf-16 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/NL/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/NO/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/PL/*.txt text working-tree-encoding=cp1250 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/PT/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/PTBR/*.txt text working-tree-encoding=cp1252 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/RU/*.txt text working-tree-encoding=cp1251 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/TH/*.txt text working-tree-encoding=utf-8 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/TR/*.txt text working-tree-encoding=cp1254 encoding=utf-8,
+Contents/mods/Hydrocraft/media/lua/shared/Translate/UA/*.txt text working-tree-encoding=cp1251 encoding=utf-8,
