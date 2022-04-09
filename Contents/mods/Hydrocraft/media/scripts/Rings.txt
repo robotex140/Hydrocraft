@@ -226,7 +226,7 @@ item HCRingsilverturquoise
 
 /************************RECIPES************************/	
 
-recipe Make Ring
+recipe Make Copper Ring
     {
     HCCopperingot,
     Charcoal,
@@ -244,7 +244,7 @@ recipe Make Ring
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Ring
+recipe Make Iron Ring
     {
     HCIroningot,
     Charcoal,
@@ -262,7 +262,7 @@ recipe Make Ring
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Ring
+recipe Make Steel Ring
     {
     HCSteelingot,
     Charcoal,
@@ -280,7 +280,7 @@ recipe Make Ring
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Ring
+recipe Make Silver Ring
     {
     HCSilveringot,
     Charcoal,
@@ -298,7 +298,7 @@ recipe Make Ring
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Jade
     {
     	HCJadecut,
 	HCRingsilver,
@@ -309,7 +309,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Quartz Crystal
     {
     	HCQuartzcut,
 	HCRingsilver,
@@ -320,7 +320,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Blue Quartz Crystal
     {
     	HCQuartzbluecut,
 	HCRingsilver,
@@ -331,7 +331,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Rose Quartz Crystal
     {
     	HCQuartzrosecut,
 	HCRingsilver,
@@ -342,7 +342,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Smokey Quartz Crystal
     {
     	HCQuartzsmokeycut,
 	HCRingsilver,
@@ -353,7 +353,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Citrine Quartz Crystal
     {
     	HCQuartzcitrinecut,
 	HCRingsilver,
@@ -364,7 +364,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Amethyst
     {
     	HCAmethystcut,
 	HCRingsilver,
@@ -375,7 +375,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Azurite
     {
     	HCAzuritecut,
 	HCRingsilver,
@@ -386,7 +386,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Diamond
     {
     	HCDiamondcut,
 	HCRingsilver,
@@ -397,7 +397,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Emerald
     {
     	HCEmeraldcut,
 	HCRingsilver,
@@ -408,7 +408,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Fire Agate
     {
     	HCFireagatecut,
 	HCRingsilver,
@@ -419,7 +419,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Garnet
     {
     	HCGarnetcut,
 	HCRingsilver,
@@ -430,7 +430,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Lapis Lazuli
     {
     	HCLapislazulicut,
 	HCRingsilver,
@@ -441,7 +441,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Malachite
     {
     	HCMalachitecut,
 	HCRingsilver,
@@ -452,7 +452,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Olivine
     {
     	HCOlivinecut,
 	HCRingsilver,
@@ -463,7 +463,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Rhodonite
     {
     	HCRhodonitecut,
 	HCRingsilver,
@@ -474,7 +474,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Ruby
     {
     	HCRubycut,
 	HCRingsilver,
@@ -485,7 +485,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Sapphire
     {
     	HCSapphirecut,
 	HCRingsilver,
@@ -496,7 +496,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Topaz
     {
     	HCTopazcut,
 	HCRingsilver,
@@ -507,7 +507,7 @@ recipe Set Gem in Ring
    	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Set Gem in Ring
+recipe Make Silver Ring with Turquoise
     {
     	HCTurquoisecut,
 	HCRingsilver,

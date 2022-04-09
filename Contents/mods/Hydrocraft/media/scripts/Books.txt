@@ -590,7 +590,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Jewelry Crafting Textbook,
 		Icon		=	HCBookjewelry,
-		TeachedRecipes  =   	Make Ring;Set Gem in Ring,
+		TeachedRecipes  =   	Make Copper Ring;Make Iron Ring;Make Steel Ring;Make Silver Ring;Make Silver Ring with Jade;Make Silver Ring with Quartz Crystal;Make Silver Ring with Blue Quartz Crystal;Make Silver Ring with Rose Quartz Crystal;Make Silver Ring with Smokey Quartz Crystal;Make Silver Ring with Citrine Quartz Crystal;Make Silver Ring with Amethyst;Make Silver Ring with Azurite;Make Silver Ring with Diamond;Make Silver Ring with Emerald;Make Silver Ring with Fire Agate;Make Silver Ring with Garnet;Make Silver Ring with Lapis Lazuli;Make Silver Ring with Malachite;Make Silver Ring with Olivine;Make Silver Ring with Rhodonite;Make Silver Ring with Ruby;Make Silver Ring with Sapphire;Make Silver Ring with Topaz;Make Silver Ring with Turquoise,
         	ReplaceOnUse    =   	HCBookjewelry,
 		DisplayCategory	=   LitR,
 	}
