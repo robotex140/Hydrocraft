@@ -937,7 +937,7 @@ recipe Make Circut Chip
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Small Electric Motor
+recipe Make Small Electromotor
     {
 	SkillRequired:Electricity=3,
 	HCTinboard=2,
@@ -957,7 +957,7 @@ recipe Make Small Electric Motor
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Electric Motor
+recipe Make Large Electromotor
     {
 	SkillRequired:Electricity=4,
 	HCTinboard=4,

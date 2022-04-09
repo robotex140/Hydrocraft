@@ -827,7 +827,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Electrical Engineering Textbook,
 		Icon		=	HCBookelectricity,
-		TeachedRecipes  =   	Upgrade To Steam Charger;Make Thermocouple;Make Electronics Workbench;Make Copper Cable;Make Coil;Make Solder;Make Circut Chip;Loot Electronic Parts;Make Lamp;Make Electric Motor;Make Small Electric Motor;Make Control Panel;Make Selfmade Heater,
+		TeachedRecipes  =   	Upgrade To Steam Charger;Make Thermocouple;Make Electronics Workbench;Make Copper Cable;Make Coil;Make Solder;Make Circut Chip;Loot Electronic Parts;Make Lamp;Make Large Electromotor;Make Small Electromotor;Make Control Panel;Make Selfmade Heater,
         	ReplaceOnUse    =   	HCBookelectrical,
 		DisplayCategory	=   LitR,
 	}
