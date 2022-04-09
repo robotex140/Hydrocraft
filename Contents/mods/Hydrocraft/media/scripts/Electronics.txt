@@ -977,7 +977,7 @@ recipe Make Large Electromotor
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Insert Battery
+recipe Insert Small Battery
     {
     	HCSoldergun,
     	HCBatterysmall,
@@ -986,7 +986,7 @@ recipe Insert Battery
     	Category:Electrical,
     }
 
-recipe Remove Battery
+recipe Remove Dead Small Battery
     {
     	HCSoldergundead,
     	Result:HCSoldergun,
