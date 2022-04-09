@@ -12,6 +12,7 @@ module Base
     TeachedRecipes          = Make Metal Walls;Make Metal Roof,
     ReplaceOnUse            = MetalworkMag1,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal1Ground,
     }
 
     item MetalworkMag2
@@ -23,6 +24,7 @@ module Base
     TeachedRecipes          = Make Metal Containers,
     ReplaceOnUse            = MetalworkMag2,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal2Ground,
     }
 
     item MetalworkMag3
@@ -34,6 +36,7 @@ module Base
     TeachedRecipes          = Make Metal Fences,
     ReplaceOnUse            = MetalworkMag3,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal4Ground,
     }
 
     item MetalworkMag4
@@ -45,6 +48,7 @@ module Base
     TeachedRecipes          = Make Metal Sheet,
     ReplaceOnUse            = MetalworkMag4,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal4Ground,
     }
 
     item SmithingMag1
@@ -56,6 +60,7 @@ module Base
     TeachedRecipes          = Make Ball Peen Hammer,
     ReplaceOnUse            = SmithingMag1,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
     item SmithingMag2
@@ -67,6 +72,7 @@ module Base
     TeachedRecipes          = Make Iron Tongs,
     ReplaceOnUse            = SmithingMag2,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
     item SmithingMag3
@@ -78,6 +84,7 @@ module Base
     TeachedRecipes          = Sheet Metal,
     ReplaceOnUse            = SmithingMag3,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
     item SmithingMag4
@@ -89,6 +96,7 @@ module Base
     TeachedRecipes          = Make Metal Drum,
     ReplaceOnUse            = SmithingMag4,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
 
@@ -117,6 +125,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Corned Beef,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcornedbeefempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenCornerBeef,
     }
 
     item CannedBologneseOpen
@@ -138,6 +147,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Bolognese,
 		ReplaceOnUse		=	Hydrocraft.HCTincan,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenBolognese,
     }
 
     item CannedCarrotsOpen
@@ -159,6 +169,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Carrots,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcarrotsempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenCarrots,
     }
 
     item CannedCornOpen
@@ -180,6 +191,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Corn,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcornempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenCorn,
     }
 
     item CannedMushroomSoupOpen
@@ -198,6 +210,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCCannedmushroomsoupempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenMushroom,
     }
 
     item CannedPeasOpen
@@ -219,6 +232,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Peas,
 		ReplaceOnUse		=	Hydrocraft.HCCannedpeasempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenPeas,
     }
 
     item CannedPotatoOpen
@@ -240,6 +254,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Potato,
 		ReplaceOnUse		=	Hydrocraft.HCCannedpotatoempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenPotatoes,
     }
 
     item CannedSardinesOpen
@@ -261,6 +276,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Sardines,
 		ReplaceOnUse		=	Hydrocraft.HCCannedsardinesempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CannedSardines_Open_Ground,
     }
 
     item CannedTomatoOpen
@@ -282,6 +298,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Tomato,
 		ReplaceOnUse		=	Hydrocraft.HCCannedtomatoempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenTomatoes,
     }
 
 	item OpenBeans
@@ -301,6 +318,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCBeansempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpen,
 	}
 
 	item TinnedSoupOpen
@@ -321,6 +339,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCTinnedsoupempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenSoup,
 	}
 
 	item TunaTinOpen
@@ -341,6 +360,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCTunatinempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = TinnedTuna_Open_Ground,
 	}
 
 	item DogfoodOpen
@@ -360,6 +380,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCDogfoodempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenDogFood,
 	}
 
     item CannedChiliOpen
@@ -381,6 +402,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Chili,
 		ReplaceOnUse		=	Hydrocraft.HCCannedchiliempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenChilli,
     }
 
     item CannedBologneseOpen
@@ -402,6 +424,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Bolognese,
 		ReplaceOnUse		=	Hydrocraft.HCCannedbologneseempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenBolognese,
     }
 
 	item Crisps
@@ -419,6 +442,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrispstrash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips,
 	}
 
 	item Crisps2
@@ -436,6 +460,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps2trash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips2,
 	}
 
 	item Crisps3
@@ -453,6 +478,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps3trash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips3,
 	}
 
 	item Crisps4
@@ -470,6 +496,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps4trash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips4,
 	}
 
     	item Salt
@@ -487,6 +514,7 @@ module Base
 		CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCSaltshakerempty,
 		DisplayCategory          =   FoodS,
+		WorldStaticModel = Salt,
 	}
 
 	item Chocolate
@@ -506,23 +534,25 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCChocolatetrash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chocolate,
 	}
 
     item MintCandy
-    	{
-        	Type			=	Food,
-        	DisplayName		=	Mint Candy,
-        	Icon			=	MintCandy,
-        	Weight			=	0.1,
-        	HungerChange 		=	-2,
-        	UnhappyChange	    	=	-10,
-        	Carbohydrates 		= 	15,
-        	Proteins 		= 	0,
-        	Lipids 			= 	0,
-        	Calories 		= 	60,
+	{
+		Type			=	Food,
+		DisplayName		=	Mint Candy,
+		Icon			=	MintCandy,
+		Weight			=	0.1,
+		HungerChange 		=	-2,
+		UnhappyChange	    	=	-10,
+		Carbohydrates 		= 	15,
+		Proteins 		= 	0,
+		Lipids 			= 	0,
+		Calories 		= 	60,
 		ReplaceOnUse	=	Hydrocraft.HCMintcandytrash,
 		DisplayCategory          =   FoodN,
-    	}
+		WorldStaticModel = MintCandy,
+	}
 
 	item PeanutButter
 	{
@@ -542,6 +572,7 @@ module Base
         Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCJar,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = PeanutButter,
 	}
 
     item Peanuts
@@ -559,6 +590,7 @@ module Base
         Calories = 161,
         CantBeFrozen = TRUE,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Peanuts,
     }
 
 
@@ -577,6 +609,7 @@ module Base
         Calories = 180,
         CantBeFrozen = TRUE,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = SunflowerSeeds,
     }
 
 	item Pop
@@ -599,6 +632,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPoptrash,
 		DisplayCategory          =   FoodB,
+		WorldStaticModel = PopCanDiet,
 	}
 
 	item Pop2
@@ -621,6 +655,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPop2trash,
 		DisplayCategory          =   FoodB,
+		WorldStaticModel = PopCanRed,
 	}
 
 	item Pop3
@@ -643,20 +678,22 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPop3trash,
 		DisplayCategory          =   FoodB,
+		WorldStaticModel = PopCanFizz,
 	}
 
 
 	item Vinegar
-    	{
-        	Type	            	=	Drainable,
-        	UseDelta	        =	0.1,
-        	UseWhileEquipped	=       FALSE,
-        	DisplayName		=	Vinegar,
-        	Icon			=	Vinegar,
-        	Weight			=	0.3,
+	{
+		Type	            	=	Drainable,
+		UseDelta	        =	0.1,
+		UseWhileEquipped	=       FALSE,
+		DisplayName		=	Vinegar,
+		Icon			=	Vinegar,
+		Weight			=	0.3,
 		ReplaceOnUse	=	Hydrocraft.HCVinegarempty,
 		DisplayCategory          =   Cooking,
-    	}
+		WorldStaticModel = Vinegar,
+	}
 
 
     item Mustard
@@ -677,6 +714,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCMustardempty,
 		DisplayCategory          =   FoodS,
+		WorldStaticModel = Mustard,
 	}
 
     item Ketchup
@@ -697,6 +735,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCKetchupempty,
 		DisplayCategory          =   FoodS,
+		WorldStaticModel = Ketchup,
 	}
 
 
@@ -720,6 +759,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCTVDinnerpackage,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = TVDinner_Ground,
 	}
 
 	item Icecream
@@ -741,6 +781,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCIcecreamempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = IceCream,
 	}
 
 	item IcecreamMelted
@@ -757,6 +798,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCIcecreamempty,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = IcecreamMelted,
 	}
 
 	item Milk
@@ -783,6 +825,7 @@ module Base
         StaticModel = MilkCarton,
 		ReplaceOnUse	=	Hydrocraft.HCMilkempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = Milk_Ground,
 	}
 
     item Tofu
@@ -803,26 +846,28 @@ module Base
         Packaged            = TRUE,
         ReplaceOnUse        = Hydrocraft.HCJar,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = Tofu,
     }
 
 
     item Yoghurt
-    	{
-        	Type			=	Food,
-       	 	DisplayName		=	Yogurt,
-        	Icon			=	Yoghurt,
-        	Weight			=	0.3,
-        	HungerChange 		=	-10,
-        	DaysFresh 		=	10,
-        	DaysTotallyRotten 	=	 15,
-        	Carbohydrates 		= 	1,
-        	Proteins 		= 	5,
-        	Lipids 			= 	1,
-        	Calories 		= 	30,
-        	Packaged 		= 	TRUE,
+	{
+		Type			=	Food,
+		DisplayName		=	Yogurt,
+		Icon			=	Yoghurt,
+		Weight			=	0.3,
+		HungerChange 		=	-10,
+		DaysFresh 		=	10,
+		DaysTotallyRotten 	=	 15,
+		Carbohydrates 		= 	1,
+		Proteins 		= 	5,
+		Lipids 			= 	1,
+		Calories 		= 	30,
+		Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCYoghurtempty,
 		DisplayCategory          =   FoodP,
-    	}
+		WorldStaticModel = Yogurt,
+	}
 
 
 
@@ -837,25 +882,27 @@ module Base
 		Icon             =	Flour,
 		ReplaceOnDeplete  =	Hydrocraft.HCFlourempty,
 		DisplayCategory          =   Cooking,
+		WorldStaticModel = Flour,
 	}
 
-    	item Rice
-    	{
-        	Weight			=	2,
-        	Type			=	Food,
-        	DisplayName		=	Rice,
-        	Icon			=	RiceRaw,
-        	HungerChange    	=   	-60,
-        	UnhappyChange   	=   	40,
-        	ThirstChange    	=   	60,
-        	Carbohydrates 		= 	648,
-        	Proteins 		= 	72,
-        	Lipids 			= 	0,
-        	Calories 		= 	2880,
-        	Packaged 		= 	TRUE,
+	item Rice
+	{
+		Weight			=	2,
+		Type			=	Food,
+		DisplayName		=	Rice,
+		Icon			=	RiceRaw,
+		HungerChange    	=   	-60,
+		UnhappyChange   	=   	40,
+		ThirstChange    	=   	60,
+		Carbohydrates 		= 	648,
+		Proteins 		= 	72,
+		Lipids 			= 	0,
+		Calories 		= 	2880,
+		Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCRiceempty,
 		DisplayCategory          =   Cooking,
-    	}
+		WorldStaticModel = Rice,
+	}
 
 	item Sugar
 	{
@@ -867,6 +914,7 @@ module Base
 		Icon			=	Sugar,
 		ReplaceOnUse	=	Hydrocraft.HCSugarempty,
 		DisplayCategory          =   Cooking,
+		WorldStaticModel = Sugar,
 	}
 
 /************************Misc************************/
@@ -977,6 +1025,7 @@ module Base
 		OnEat = HCOnEat_Cigarettes,
 		/*ReplaceOnUse = Hydrocraft.HCCigarettebutt,*/
 		StaticModel = Cigarette,
+		WorldStaticModel = CigarettePack_Ground,
 		EatType = Cigarettes,
 		CustomEatSound = HC_LightUp,
 		DisplayCategory          =   Drugs,
