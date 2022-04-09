@@ -951,7 +951,7 @@ recipe Make Metal Casing
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Metal Wheels
+recipe Make Iron Wheel
     {
         HCIronrod=2,
         HCMetalringiron,
@@ -965,7 +965,7 @@ recipe Make Metal Wheels
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Metal Wheels
+recipe Make Steel Wheel
     {
         HCSteelrod=2,
         HCMetalring,
@@ -979,7 +979,7 @@ recipe Make Metal Wheels
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Pulley
+recipe Make Iron Pulley
     {
 	SkillRequired:Mechanics=1,
         HCIroningot,
@@ -994,7 +994,7 @@ recipe Make Pulley
     	OnGiveXP:HCMechanicsWelding_OnGiveXP,
     }
 
-recipe Make Pulley
+recipe Make Steel Pulley
     {
 	SkillRequired:Mechanics=1,
         HCSteelingot,
@@ -1009,7 +1009,7 @@ recipe Make Pulley
     	OnGiveXP:HCMechanicsWelding_OnGiveXP,
     }
 
-recipe Make Pulley
+recipe Make Wood Pulley
     {
 	SkillRequired:Woodwork=7;Mechanics=1,
 	Woodglue/HCWoodgluejar,
@@ -1536,7 +1536,7 @@ recipe Make Macerator
     	OnGiveXP:HCEMW_OnGiveXP,
     }
 
-recipe Make Chain
+recipe Make Steel Chain
     {
         HCRingsteel=16,
         HCWeldingset,
