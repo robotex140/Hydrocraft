@@ -849,7 +849,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Battery Textbook,
 		Icon		=	HCBookbattery,
-		TeachedRecipes  =   	Recycle Battery;Recharge Battery;Make Battery Case;Make Battery,
+		TeachedRecipes  =   	Recycle Small Battery Case;Recycle Battery Case;Recycle Medium Battery Case;Recycle Large Battery Case;Recycle Huge Battery Case;Recharge Small Battery;Recharge Battery;Recharge 9 Volt Battery;Recharge Medium Battery;Recharge Large Battery;Recharge Huge Battery;Make Small Battery Cases;Make Battery Cases;Make Medium Battery Cases;Make Large Battery Case;Make Huge Battery Case;Make Small Batterys;Make Batterys;Make Medium Battery;Make Large Battery;Make Huge Battery;Make Medium Batterys,
         ReplaceOnUse    =   	HCBookbattery,
 		DisplayCategory	=   LitR,
 	}

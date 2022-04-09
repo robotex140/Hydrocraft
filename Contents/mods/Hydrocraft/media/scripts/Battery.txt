@@ -229,7 +229,7 @@ recipe Open Large Battery Package
 	Time:50.0,
 	}
 
-recipe Recycle Battery
+recipe Recycle Small Battery Case
     {
     HCBatterysmalldead,
     Result:HCBatterysmallcase,
@@ -239,7 +239,7 @@ recipe Recycle Battery
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Recycle Battery
+recipe Recycle Battery Case
     {
     HCBatterydead,
     Result:HCBatterycase,
@@ -249,7 +249,7 @@ recipe Recycle Battery
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Recycle Battery
+recipe Recycle Medium Battery Case
     {
     HCBatterymediumdead,
     Result:HCBatterymediumcase,
@@ -259,7 +259,7 @@ recipe Recycle Battery
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Recycle Battery
+recipe Recycle Large Battery Case
     {
     HCBatterylargedead,
     Result:HCBatterylargecase,
@@ -269,7 +269,7 @@ recipe Recycle Battery
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Recycle Battery
+recipe Recycle Huge Battery Case
     {
     HCBatteryhugedead,
     Result:HCBatteryhugecase,
@@ -279,7 +279,7 @@ recipe Recycle Battery
     OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Recharge Battery
+recipe Recharge Small Battery
     {
 	SkillRequired:Electricity=3,
     keep HCSteamCharger2, 
@@ -311,7 +311,7 @@ recipe Recharge Battery
     OnGiveXP:HCNoExpGain,
     }
 
-recipe Recharge Battery
+recipe Recharge 9 Volt Battery
     {
 	SkillRequired:Electricity=3,
     keep HCSteamCharger2, 
@@ -327,7 +327,7 @@ recipe Recharge Battery
     OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Recharge Battery
+recipe Recharge Medium Battery
     {
 	SkillRequired:Electricity=3,
     keep HCSteamCharger2, 
@@ -343,7 +343,7 @@ recipe Recharge Battery
     OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Recharge Battery
+recipe Recharge Large Battery
     {
 	SkillRequired:Electricity=3,
     keep HCSteamCharger2, 
@@ -359,7 +359,7 @@ recipe Recharge Battery
     OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Recharge Battery
+recipe Recharge Huge Battery
     {
 	SkillRequired:Electricity=3,
     keep HCSteamCharger2, 
@@ -375,7 +375,7 @@ recipe Recharge Battery
     OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery Case
+recipe Make Small Battery Cases
     {
         HCSteelboard,
         HCSoldergunpowered,
@@ -390,7 +390,7 @@ recipe Make Battery Case
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery Case
+recipe Make Battery Cases
     {
         HCSteelboard,
         HCSoldergunpowered,
@@ -405,7 +405,7 @@ recipe Make Battery Case
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery Case
+recipe Make Medium Battery Cases
     {
         HCSteelboard,
         HCSoldergunpowered,
@@ -420,7 +420,7 @@ recipe Make Battery Case
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery Case
+recipe Make Large Battery Case
     {
         HCSteelboard,
         HCSoldergunpowered,
@@ -435,7 +435,7 @@ recipe Make Battery Case
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery Case
+recipe Make Huge Battery Case
     {
         HCSteelsheet,
         HCSoldergunpowered,
@@ -450,7 +450,7 @@ recipe Make Battery Case
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Small Batterys
     {
 	SkillRequired:Electricity=1,
 	HCWirelead=4,
@@ -468,7 +468,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Batterys
     {
 	SkillRequired:Electricity=1,
 	HCWirelead=8,
@@ -486,7 +486,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Medium Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirelead=3,
@@ -504,7 +504,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Large Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirelead=4,
@@ -522,7 +522,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Huge Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirelead=5,
@@ -540,7 +540,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Small Batterys
     {
 	SkillRequired:Electricity=1,
 	HCWirezinc=4,
@@ -558,7 +558,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Batterys
     {
 	SkillRequired:Electricity=1,
 	HCWirezinc=8,
@@ -576,7 +576,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Medium Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirezinc=3,
@@ -594,7 +594,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Large Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirezinc=4,
@@ -612,7 +612,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Huge Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirezinc=5,
@@ -631,7 +631,7 @@ recipe Make Battery
     }
 
 
-recipe Make Battery
+recipe Make Small Batterys
     {
 	SkillRequired:Electricity=1,
 	HCWirealuminum=4,
@@ -649,7 +649,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Batterys
     {
 	SkillRequired:Electricity=1,
 	HCWirealuminum=8,
@@ -667,7 +667,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Medium Batterys
     {
 	SkillRequired:Electricity=1,
 	HCWirealuminum=3,
@@ -685,7 +685,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Large Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirealuminum=4,
@@ -703,7 +703,7 @@ recipe Make Battery
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Battery
+recipe Make Huge Battery
     {
 	SkillRequired:Electricity=1,
 	HCWirealuminum=5,
