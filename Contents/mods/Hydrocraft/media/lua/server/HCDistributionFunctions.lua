@@ -201,6 +201,10 @@ function insertItemListsInDistribution(location, container, itemDistList )
 --        print (">3>" ..  dump(Distributions[1][location][container]) )
 --        print (">4>" ..  dump(Distributions[1][location][container]["items"]) )
         local dist = Distributions[1][location][container]["items"]
+		if(dist == nil) then
+			print("Error: unknown distribution list " .. location .. " " .. container .. " - insert aborted.")
+			return
+		end
         for idx, itemDist in ipairs(itemDistList) do
                 for i=1,#itemDist do 
                         table.insert(dist, itemDist[i] ) 
