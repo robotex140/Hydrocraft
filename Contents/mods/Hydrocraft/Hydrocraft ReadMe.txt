@@ -53,7 +53,7 @@ Translations
 - French - By Klare, Darkweeeeeeeed, Kitsune Alias Nana
 - Italian - By Woldren
 - Korean - By DocJason
-- Russian - By Humort, KChernysh, Nebula, vSterlin
+- Russian - By Humort, KChernysh, Nebula, vSterlin, Lanceris
 - Spanish - By francogp, EUDOXIO, Raiben
 - Turkish - By DemirHerif
 
