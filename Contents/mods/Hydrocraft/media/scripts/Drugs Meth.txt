@@ -81,7 +81,7 @@ recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
         keep HCLabbig,
-        keep HCHazmat/HCImprovisedhazmat,
+        keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,
         HCMethylaminbarrelfull=20,
@@ -100,7 +100,7 @@ recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
         keep HCLabbig,
-        keep HCHazmat/HCImprovisedhazmat,
+        keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,
         HCMethylaminbarrelbluefull=20,
@@ -118,7 +118,7 @@ recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
         keep HCLabbig,
-        keep HCHazmat/HCImprovisedhazmat,
+        keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,
         HCMethylaminbarrelfull=20,
@@ -136,7 +136,7 @@ recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
         keep HCLabbig,
-        keep HCHazmat/HCImprovisedhazmat,
+        keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,
         HCMethylaminbarrelbluefull=20,

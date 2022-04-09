@@ -2203,7 +2203,7 @@ recipe Add Sulfuric Acid to Glass Balloon with Salt
     {
         HCGlassgassalt,
         HCBeakersulfuricacid,
-        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HCHazmat,
+        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HazmatSuit,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true, 
@@ -2219,7 +2219,7 @@ recipe Add Sulfuric Acid to Glass Balloon with Salt
 recipe Make Muriatic Acid
     {
         HCGlassgassaltsulfuric,
-        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HCHazmat,
+        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HazmatSuit,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true, 

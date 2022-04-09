@@ -1,10 +1,12 @@
 Tooltip_RU = {
 -- Item tooltip
-Tooltip_HCArmor = "Нажмите P (англ.), чтобы узнать какую броню вы носите.",	
-Tooltip_HCBluebarrelcorpse = "Будет превращаться в токсичные отходы.",
-Tooltip_HCFeedme = "Кормить, чтобы оставался в живых.",
-Tooltip_HCSleep = "Бросить на пол, чтобы использовать",
-Tooltip_food_Cooked = "Готовое",
-Tooltip_food_Frozen = "Мёрзлое",	
-Tooltip_item_Insulation = "Изоляция",
+Tooltip_HCArmor = "РќР°Р¶РјРёС‚Рµ P (Р°РЅРіР».), С‡С‚РѕР±С‹ СѓР·РЅР°С‚СЊ РєР°РєСѓСЋ Р±СЂРѕРЅСЋ РІС‹ РЅРѕСЃРёС‚Рµ.",	
+Tooltip_HCBluebarrelcorpse = "Р‘СѓРґРµС‚ РїСЂРµРІСЂР°С‰Р°С‚СЊСЃСЏ РІ С‚РѕРєСЃРёС‡РЅС‹Рµ РѕС‚С…РѕРґС‹.",
+Tooltip_HCFeedme = "РљРѕСЂРјРёС‚Рµ, С‡С‚РѕР±С‹ РѕСЃС‚Р°РІР°Р»СЃСЏ РІ Р¶РёРІС‹С….",
+Tooltip_HCSleep = "Р‘СЂРѕСЃСЊС‚Рµ РЅР° РїРѕР», С‡С‚РѕР±С‹ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ",
+Tooltip_food_Cooked = "Р“РѕС‚РѕРІРѕРµ",
+Tooltip_food_Frozen = "РњС‘СЂР·Р»РѕРµ",	
+Tooltip_item_Insulation = "РР·РѕР»СЏС†РёСЏ",
+	-- not used (?)
+	HCFarming_Tooltip_UseFruitAsSeed = "Р’ РєР°С‡РµСЃС‚РІРµ СЃРµРјСЏРЅ РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ С„СЂСѓРєС‚С‹.", 
 }

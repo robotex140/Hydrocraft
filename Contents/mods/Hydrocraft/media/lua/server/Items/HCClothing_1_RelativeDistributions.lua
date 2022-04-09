@@ -1,13 +1,6 @@
 ---------------------------------------------------------
 --- 2021-12-26 by lorgalis
 ---------------------------------------------------------
-function HChazmat(m)
-        retVal =
-        {
-                "Hydrocraft.HCHazmat",        m*1,
-        };
-        return retVal
-end
 function HCgasmask(m)
         retVal =
         {
