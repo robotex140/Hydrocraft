@@ -175,6 +175,10 @@ end
 function insertItemListsInProcDistribution(location, itemDistList )
         local debugfactor = 1;
         local table = ProceduralDistributions["list"][location].items
+		if(table == nil then
+			print("Error: unknown distribution location " .. location .. " - insert aborted.")
+			return
+		end
         local n = #table
         for idx, itemDist in ipairs(itemDistList) do
                 for i=1,#itemDist do 
