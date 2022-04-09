@@ -1237,7 +1237,11 @@ module Hydrocraft
 		Type		=	Literature,											
 		DisplayName	=	Welding Textbook,                                   
 		Icon		=	HCBookwelding,
-		TeachedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Cut Sheet Of Metal;Make Large Sheet Of Metal;Make Metal Pipe;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Metal Wheels;Make Pulley;Make Mine Cart;Make Chain;Make Large Metal Ring,
+		TeachedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Cut Small Copper Sheets;Cut Small Tin Sheets;Cut Small Bronze Sheets;Cut Small Iron Sheets;Cut Small Steel Sheet;Cut Small Lead Sheets;Cut Small Metal Sheets;Cut Small Titanium Sheets;Make Large Copper Sheet;Make Large Tin Sheet;Make Large Silver Sheet;Make Large Bronze Sheet;Make Large Iron Sheet;Make Large Lead Sheet;Make Large Steel Sheet;Make Large Aluminum Sheet;Make Large Titanium Sheet;Make Steel Pipe;Make Copper Pipe;
+
+		
+	
+		Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Metal Wheels;Make Pulley;Make Mine Cart;Make Chain;Make Large Metal Ring,
         ReplaceOnUse    =   	HCBookwelding,
 		DisplayCategory	=   LitR,
 	}
@@ -1270,7 +1274,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Industrial Mechanics Textbook,
 		Icon		=	HCBookindustrial,
-		TeachedRecipes  =   	Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Gears;Make Small Sheet Of Metal;Make Sheet Of Metal;Make Crank;Make Lever;Make Small Rolling Mill;Make Conveyor Belt;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct,
+		TeachedRecipes  =   	Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Gears;Make Small Copper Sheet;Make Small Tin Sheet;Make Small Bronze Sheet;Make Small Iron Sheet;Make Small Lead Sheet;Make Small Steel Sheet;Make Small Metal Sheet;Make Small Titanium Sheet;Make Copper Sheet;Make Tin Sheet;Make Silver Sheet;Make Bronze Sheet;Make Iron Sheet;Make Lead Sheet;Make Steel Sheet;Make Metal Sheet;Make Titanium Sheet;Make Large Copper Sheet;Make Large Tin Sheet;Make Large Silver Sheet;Make Large Bronze Sheet;Make Large Iron Sheet;Make Large Lead Sheet;Make Large Steel Sheet;Make Large Aluminum Sheet;Make Large Titanium Sheet;Make Steel Crank;Make Iron Crank;Make Lever;Make Small Rolling Mill;Make Conveyor Belt;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct,
         ReplaceOnUse    =   	HCBookindustrial,
 		DisplayCategory	=   LitR,
 	}
