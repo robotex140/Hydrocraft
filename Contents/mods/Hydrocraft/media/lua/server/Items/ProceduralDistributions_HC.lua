@@ -1515,7 +1515,7 @@ local medicalclinic_tools_items = {
         "Hydrocraft.HCRubberglove", 3,
         "Hydrocraft.HCBookmedical", 5,
         "Hydrocraft.HCGasmask", 2,
-        "Hydrocraft.HCHazmat", 0.2,
+        --"Hydrocraft.HCHazmat", 0.2,
         "Hydrocraft.HCPillbox", 5,
         "Hydrocraft.HCPetridish", 5,
         "Hydrocraft.HCCrutchaluminium", 1,
