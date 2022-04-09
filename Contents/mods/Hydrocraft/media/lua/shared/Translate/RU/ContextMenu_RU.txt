@@ -1,3 +1,6 @@
 ContextMenu_RU = {
 	ContextMenu_Sow_Trellis_Seed = "Посеять на шпалере",
+	ContextMenu_Sniff = "Вдохнуть",
+	ContextMenu_Inject = "Ввести",
+	ContextMenu_Build_Trellis = "Установить шпалеру",
 }
