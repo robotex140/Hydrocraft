@@ -829,7 +829,7 @@ recipe Make Copper Circuit Board
     }
 
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Copper Sheets
     {
         keep HCSawmetal,
     	HCCoppersheet,
@@ -840,7 +840,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Copper Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCCoppersheet,
@@ -851,7 +851,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Copper Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -865,7 +865,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
         keep HCSawmetal,
     	HCTinsheet,
@@ -876,7 +876,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCTinsheet,
@@ -887,7 +887,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -901,7 +901,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Bronze Sheets
     {
         keep HCSawmetal,
     	HCBronzesheet,
@@ -912,7 +912,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCBronzesheet,
@@ -923,7 +923,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Bronze Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -937,7 +937,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Iron Sheets
     {
         keep HCSawmetal,
     	HCIronsheet,
@@ -948,7 +948,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Iron Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCIronsheet,
@@ -959,7 +959,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Iron Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -973,7 +973,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Lead Sheets
     {
         keep HCSawmetal,
     	HCLeadsheet,
@@ -984,7 +984,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Lead Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCLeadsheet,
@@ -995,7 +995,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Lead Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1009,7 +1009,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Steel Sheet
     {
         keep HCSawmetal,
     	HCSteelsheet,
@@ -1020,7 +1020,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Steel Sheet
     {
         HCElectricmultitoolsawpowered,
     	HCSteelsheet,
@@ -1031,7 +1031,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Steel Sheet
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1045,7 +1045,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Metal Sheets
     {
         keep HCSawmetal,
     	SheetMetal,
@@ -1056,7 +1056,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Metal Sheets
     {
         HCElectricmultitoolsawpowered,
     	SheetMetal,
@@ -1067,7 +1067,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Metal Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1081,7 +1081,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Titanium Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1095,7 +1095,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Copper Sheet
 	{
 	HCCopperingot=2,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1109,7 +1109,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Tin Sheet
 	{
 	HCTiningot=2,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1123,7 +1123,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Bronze Sheet
 	{
 	HCBronzeingot=2,
     	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1137,7 +1137,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Iron Sheet
 	{
 	HCIroningot=2,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1151,7 +1151,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Lead Sheet
 	{
 	HCLeadingot=2,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1165,7 +1165,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Steel Sheet
 	{
 	HCSteelingot=2,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1179,7 +1179,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Metal Sheet
 	{
 	HCAluminumingot=2,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
