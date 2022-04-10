@@ -313,14 +313,44 @@ module Hydrocraft
   }
 }
 
-model HCAluminiumbat
-{
-  mesh = weapons/2handed/Baseballbat,
-  texture = weapons/HCAluminumBat,
-}
-model HCBoxcutter
-{
-  mesh = weapons/HCBoxcutter,
-  texture = weapons/HCBoxcutter,
-}
+  model HCAluminiumbat
+  {
+    mesh = weapons/2handed/Baseballbat,
+    texture = weapons/HCAluminumBat,
+  }
+	model HCBoxcutter
+	{
+		mesh = weapons/HCBoxcutter,
+		texture = weapons/HCBoxcutter,
+	}
+  model HCCigarettepacklights
+  {
+    mesh = WorldItems/CigarettePack,
+    texture = WorldItems/CigarettePackLight,
+    scale = 0.4,
+  }
+  model HCCigarettepackmenthol
+  {
+    mesh = WorldItems/CigarettePack,
+    texture = WorldItems/CigarettePackMenthol,
+    scale = 0.4,
+  }
+  model HCCigarettecarton
+  {
+    mesh = WorldItems/HCCigaretteCarton,
+    texture = WorldItems/HCCigaretteCarton,
+    scale = 0.4,
+  }
+  model HCCigarettecartonlights
+  {
+    mesh = WorldItems/HCCigaretteCarton,
+    texture = WorldItems/HCCigaretteCartonLights,
+    scale = 0.4,
+  }
+  model HCCigarettecartonmenthol
+  {
+    mesh = WorldItems/HCCigaretteCarton,
+    texture = WorldItems/HCCigaretteCartonMenthol,
+    scale = 0.4,
+  }
 }

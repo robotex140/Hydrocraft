@@ -15,6 +15,7 @@ item HCCigarettebutt
         DisplayName        	= Cigarette Butt,
         icon 				= HCCigarettebutt,
 		DisplayCategory		= Useless,
+		WorldStaticModel = Cigarette,
     }
 
 item HCCigarettecarton
@@ -24,6 +25,7 @@ item HCCigarettecarton
         DisplayName     	= Cigarette Carton,
         icon 			= HCCigarettecarton,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettecarton,
     }
 
 item HCCigarettepack
@@ -33,6 +35,7 @@ item HCCigarettepack
         DisplayName     	= Cigarette Pack,
         icon 			= HCCigarettepack,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = CigarettePack_Ground,
     }
 
 item HCCigarettecartonlights
@@ -42,6 +45,7 @@ item HCCigarettecartonlights
         DisplayName     	= Light Cigarette Carton,
         icon 			= HCCigarettecartonlights,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettecartonlights,
     }
 item HCCigarettepacklights
     {
@@ -50,6 +54,7 @@ item HCCigarettepacklights
         DisplayName     	= Light Cigarette Pack,
         icon 			= HCCigarettepacklights,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettepacklights,
     }
 item HCCigaretteslights
 	{
@@ -68,6 +73,7 @@ item HCCigaretteslights
 		StaticModel = Cigarette,
 		CustomEatSound = HC_LightUp,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = Cigarette,
 	}
 
 item HCCigarettecartonmenthol
@@ -77,6 +83,7 @@ item HCCigarettecartonmenthol
         DisplayName     	= Menthol Cigarette Carton,
         icon 			= HCCigarettecartonlights,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettecartonmenthol,
     }
 item HCCigarettepackmenthol
     {
@@ -85,6 +92,7 @@ item HCCigarettepackmenthol
         DisplayName     	= Menthol Cigarette Pack,
         icon 			= HCCigarettepackmenthol,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = Hydrocraft.HCCigarettepackmenthol,
     }
 item HCCigarettesmenthol
 	{
@@ -103,6 +111,7 @@ item HCCigarettesmenthol
 		StaticModel = Cigarette,
 		CustomEatSound = HC_LightUp,
 		DisplayCategory	= Drugs,
+		WorldStaticModel = Cigarette,
 }
 
 item HCTobaccoleaffresh

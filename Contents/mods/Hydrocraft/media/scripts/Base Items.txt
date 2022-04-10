@@ -1053,7 +1053,7 @@ module Base
 		OnEat = HCOnEat_Cigarettes,
 		/*ReplaceOnUse = Hydrocraft.HCCigarettebutt,*/
 		StaticModel = Cigarette,
-		WorldStaticModel = CigarettePack_Ground,
+		WorldStaticModel = Cigarette,
 		EatType = Cigarettes,
 		CustomEatSound = HC_LightUp,
 		DisplayCategory          =   Drugs,
