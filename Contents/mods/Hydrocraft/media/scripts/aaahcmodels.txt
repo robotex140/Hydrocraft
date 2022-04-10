@@ -4,6 +4,7 @@ module Hydrocraft
 {
   Base
 }
+/***************WEAPONS GUNS****************/
 	model HCAA12Shotgun
 {
   mesh = Weapons/HCAA12Shotgun,
@@ -20,6 +21,8 @@ module Hydrocraft
   {
     mesh = Weapons/HCUzi,
   }
+
+/**************WEAPONS MELEE**************/
 	model HCHomemadebattrimmer
 {
   mesh = Weapons/HCHomemadebattrimmer,
@@ -323,6 +326,18 @@ module Hydrocraft
 		mesh = weapons/HCBoxcutter,
 		texture = weapons/HCBoxcutter,
 	}
+  model HCHatchetiron
+  {
+    mesh = Weapons/1Handed/HandAxe,
+    texture = weapons/HCHatchetIron,
+  }
+  model HCHatchetsteel
+  {
+    mesh = Weapons/1Handed/HandAxe,
+    texture = weapons/HCHatchetIron,
+  }
+
+  /************DRUGS**********/
   model HCCigarettepacklights
   {
     mesh = WorldItems/CigarettePack,
