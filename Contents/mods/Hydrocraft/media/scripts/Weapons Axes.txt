@@ -217,7 +217,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite				=	HandAxe,
+		WeaponSprite				=	Hydrocraft.HCSurvivalaxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,

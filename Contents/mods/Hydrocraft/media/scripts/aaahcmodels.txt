@@ -4,7 +4,6 @@ module Hydrocraft
 {
   Base
 }
-/***************WEAPONS GUNS****************/
 	model HCAA12Shotgun
 {
   mesh = Weapons/HCAA12Shotgun,
@@ -21,8 +20,6 @@ module Hydrocraft
   {
     mesh = Weapons/HCUzi,
   }
-
-/**************WEAPONS MELEE**************/
 	model HCHomemadebattrimmer
 {
   mesh = Weapons/HCHomemadebattrimmer,
@@ -326,43 +323,52 @@ module Hydrocraft
 		mesh = weapons/HCBoxcutter,
 		texture = weapons/HCBoxcutter,
 	}
-  model HCHatchetiron
+	model HCHatchetiron
   {
     mesh = Weapons/1Handed/HandAxe,
     texture = weapons/HCHatchetIron,
   }
-  model HCHatchetsteel
+	model HCHatchetsteel
   {
     mesh = Weapons/1Handed/HandAxe,
     texture = weapons/HCHatchetIron,
   }
+	model HCSurvivalaxe
+	{
+		mesh = Weapons/HCSurvivalAxe,
+		texture = weapons/HCSurvivalAxe,
 
-  /************DRUGS**********/
-  model HCCigarettepacklights
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HCCigarettepacklights
   {
     mesh = WorldItems/CigarettePack,
     texture = WorldItems/CigarettePackLight,
     scale = 0.4,
   }
-  model HCCigarettepackmenthol
+	model HCCigarettepackmenthol
   {
     mesh = WorldItems/CigarettePack,
     texture = WorldItems/CigarettePackMenthol,
     scale = 0.4,
   }
-  model HCCigarettecarton
+	model HCCigarettecarton
   {
     mesh = WorldItems/HCCigaretteCarton,
     texture = WorldItems/HCCigaretteCarton,
     scale = 0.4,
   }
-  model HCCigarettecartonlights
+	model HCCigarettecartonlights
   {
     mesh = WorldItems/HCCigaretteCarton,
     texture = WorldItems/HCCigaretteCartonLights,
     scale = 0.4,
   }
-  model HCCigarettecartonmenthol
+	model HCCigarettecartonmenthol
   {
     mesh = WorldItems/HCCigaretteCarton,
     texture = WorldItems/HCCigaretteCartonMenthol,
