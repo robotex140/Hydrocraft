@@ -344,6 +344,50 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
+  model HCWarhammersteel
+  {
+    mesh = Weapons/2Handed/SledgeHammer02,
+    texture = weapons/HCWarhammerSteel,
+
+    attachment world
+		{
+			offset = 0.0000 0.2120 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+  model HCWarhammeriron
+  {
+    mesh = Weapons/2Handed/SledgeHammer,
+    texture = weapons/HCWarhammerIron,
+
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+  model HCWarhammerbronze
+  {
+    mesh = Weapons/2Handed/SledgeHammer,
+    texture = weapons/HCWarhammerBronze,
+
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+  model HCWarhammercopper
+  {
+    mesh = Weapons/2Handed/SledgeHammer,
+    texture = weapons/HCWarhammerCopper,
+
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
 	model HCCigarettepacklights
   {
     mesh = WorldItems/CigarettePack,

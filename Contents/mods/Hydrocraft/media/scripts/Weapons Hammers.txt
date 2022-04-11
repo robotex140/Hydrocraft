@@ -194,7 +194,7 @@ item HCSmithyhammercopper
 item HCWarhammersteel
 	{
 		MaxRange			=	1.9,
-		WeaponSprite			=	Sledgehammer,
+		WeaponSprite			=	Hydrocraft.HCWarhammersteel,
 		MinAngle			=	0.2,
 		Type				=	Weapon,
 		MinimumSwingTime		=	4,
@@ -234,7 +234,7 @@ item HCWarhammersteel
 item HCWarhammeriron
 	{
 		MaxRange			=	1.9,
-		WeaponSprite			=	Sledgehammer,
+		WeaponSprite			=	Hydrocraft.HCWarhammeriron,
 		MinAngle			=	0.2,
 		Type				=	Weapon,
 		MinimumSwingTime		=	4,
@@ -274,7 +274,7 @@ item HCWarhammeriron
 item HCWarhammerbronze
 	{
 		MaxRange			=	1.9,
-		WeaponSprite			=	Sledgehammer,
+		WeaponSprite			=	Hydrocraft.HCWarhammerbronze,
 		MinAngle			=	0.2,
 		Type				=	Weapon,
 		MinimumSwingTime		=	4,
@@ -314,7 +314,7 @@ item HCWarhammerbronze
 item HCWarhammercopper
 	{
 		MaxRange			=	1.9,
-		WeaponSprite			=	Sledgehammer,
+		WeaponSprite			=	Hydrocraft.HCWarhammercopper,
 		MinAngle			=	0.2,
 		Type				=	Weapon,
 		MinimumSwingTime		=	4,
