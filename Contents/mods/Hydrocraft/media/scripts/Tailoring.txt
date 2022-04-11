@@ -1563,7 +1563,7 @@ recipe Recycle Bag
 
 recipe Recycle Sack
     {
-        EmptySandbag/HCRiceempty,
+        SackOnions/SackCarrots/SackCabbages/SackPotatoes/EmptySandbag/HCRiceempty,
         keep HCTailoringbench2,
         Result:HCBurlapcloth=2,
         CanBeDoneFromFloor:true,
