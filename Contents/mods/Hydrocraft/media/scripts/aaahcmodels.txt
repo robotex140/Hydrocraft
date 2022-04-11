@@ -344,7 +344,7 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
-  model HCWarhammersteel
+	model HCWarhammersteel
   {
     mesh = Weapons/2Handed/SledgeHammer02,
     texture = weapons/HCWarhammerSteel,
@@ -355,7 +355,7 @@ module Hydrocraft
 			rotate = 0.0000 0.0000 0.0000,
 		}
   }
-  model HCWarhammeriron
+	model HCWarhammeriron
   {
     mesh = Weapons/2Handed/SledgeHammer,
     texture = weapons/HCWarhammerIron,
@@ -366,7 +366,7 @@ module Hydrocraft
 			rotate = 0.0000 0.0000 0.0000,
 		}
   }
-  model HCWarhammerbronze
+	model HCWarhammerbronze
   {
     mesh = Weapons/2Handed/SledgeHammer,
     texture = weapons/HCWarhammerBronze,
@@ -377,7 +377,7 @@ module Hydrocraft
 			rotate = 0.0000 0.0000 0.0000,
 		}
   }
-  model HCWarhammercopper
+	model HCWarhammercopper
   {
     mesh = Weapons/2Handed/SledgeHammer,
     texture = weapons/HCWarhammerCopper,
@@ -386,6 +386,61 @@ module Hydrocraft
 		{
 			offset = 0.0000 0.2970 0.0000,
 			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+  model HCSmithyhammercopper
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerCopper,
+
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+  }
+  model HCSmithyhammerbronze
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerBronze,
+
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+  }
+	model HCSmithyhammeriron
+	{
+		mesh = weapons/HCSmithyHammer,
+		texture = weapons/HCSmithyHammerIron,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+	}
+  model HCSmithyhammersteel
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerSteel,
+
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+  }
+  model HCSmithyhammertitanium
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerTitanium,
+
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
 		}
   }
 	model HCCigarettepacklights
