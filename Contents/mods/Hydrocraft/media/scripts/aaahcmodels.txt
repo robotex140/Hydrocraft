@@ -100,11 +100,64 @@ model HCWardog
     mesh = weapons/HCWardog,
     texture = weapons/HCWardog,
   }
-
-
-
-
-
-
-
+  model HCCannedapple
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedApple,
+  }
+  model HCCannedpear
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPear,
+  }
+  model HCCannedgreenbeans
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGreenBeans,
+  }
+  model HCCannedshrooms
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedShrooms,
+  }
+  model HCCannedpumpkin
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPumpkin,
+  }
+  model HCCannedspam
+  {
+    mesh = WorldItems/HCCannedSpam,
+    texture = WorldItems/HCCannedSpam,
+  }
+  model HCCannedappleopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedApple,
+  }
+  model HCCannedpearopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPear,
+  }
+  model HCCannedgreenbeansopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGreenBeans,
+  }
+  model HCCannedshroomsopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedShrooms,
+  }
+  model HCCannedpumpkinopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPumpkin,
+  }
+  model HCCannedspamopen
+  {
+    mesh = WorldItems/HCCannedSpam,
+    texture = WorldItems/HCCannedSpam,
+  }
 }

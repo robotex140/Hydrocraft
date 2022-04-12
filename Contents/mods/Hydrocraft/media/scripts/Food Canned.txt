@@ -30,6 +30,7 @@ item HCCannedapple
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedapple,
 	}
 
 item HCCannedpear
@@ -45,6 +46,7 @@ item HCCannedpear
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpear,
 	}
 
 item HCCannedpeach
@@ -60,6 +62,7 @@ item HCCannedpeach
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = CanClosedPeaches_Ground,
 	}
 
 item HCCannedgreenbeans
@@ -75,6 +78,7 @@ item HCCannedgreenbeans
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedgreenbeans,
 	}
 
 item HCCannedshrooms
@@ -90,6 +94,7 @@ item HCCannedshrooms
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedshrooms,
 	}
 
 item HCCannedpumpkin
@@ -105,6 +110,7 @@ item HCCannedpumpkin
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpumpkin,
 	}
 
 item HCCannedspam
@@ -120,6 +126,7 @@ item HCCannedspam
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedspam,
 	}
 
 item HCCannedcranberries
@@ -424,6 +431,7 @@ item HCCannedappleopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Apple,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedappleopen,
 	}
 
 item HCCannedpearopen
@@ -446,6 +454,7 @@ item HCCannedpearopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pear,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpearopen,
 	}
 
 item HCCannedpeachopen
@@ -468,6 +477,7 @@ item HCCannedpeachopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Peach,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = CanOpenPeaches_Ground,
 	}
 
 item HCCannedgreenbeansopen
@@ -490,6 +500,7 @@ item HCCannedgreenbeansopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Green Beans,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedgreenbeansopen,
 	}
 
 item HCCannedshroomsopen
@@ -512,6 +523,7 @@ item HCCannedshroomsopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Mushrooms,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedmushroomsopen,
 	}
 
 item HCCannedpumpkinopen
@@ -534,6 +546,7 @@ item HCCannedpumpkinopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pumpkin,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpumpkinopen,
 	}
 
 item HCCannedspamopen
@@ -556,6 +569,7 @@ item HCCannedspamopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Spam,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedspamopen,
 	}
 
 item HCCannedcranberriesopen
