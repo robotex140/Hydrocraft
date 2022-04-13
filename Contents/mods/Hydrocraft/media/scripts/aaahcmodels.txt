@@ -130,6 +130,91 @@ model HCWardog
     mesh = WorldItems/HCCannedSpam,
     texture = WorldItems/HCCannedSpam,
   }
+  model HCCannedcranberries
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedCranberries,
+  }
+  model HCCannedpineapple
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPineapple,
+  }
+  model HCCannedrefriedbeans
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedRefriedBeans,
+  }
+  model HCCanbangedup
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCanBangedUp,
+  }
+  model HCCannedcheesesauce
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedchickenbreast
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedfruitcocktail
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedmacncheese
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedgovermentbeef
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentBeef,
+  }
+  model HCCannedgovernmentbread
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentBread,
+  }
+  model HCCannedgovernmentchicken
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentChicken,
+  }
+  model HCCannedgovernmentpork
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentPork,
+  }
+  model HCCannedpiefillingapple
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPieFillingApple,
+  }
+  model HCCannedpiefillingblueberry
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPieFillingBlueberry,
+  }
+  model HCCannedpiefillingcherry
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPieFillingCherry,
+  }
+  model HCCannedravioli
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedRavioli,
+  }
+  model HCCannedspaghettirings
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedSpaghettiRings,
+  }
   model HCCannedappleopen
   {
     mesh = CanOpen,
@@ -159,5 +244,90 @@ model HCWardog
   {
     mesh = WorldItems/HCCannedSpam,
     texture = WorldItems/HCCannedSpam,
+  }
+  model HCCannedcranberriesopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedCranberries,
+  }
+  model HCCannedpineappleopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPineapple,
+  }
+  model HCCannedrefriedbeansopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedRefriedBeans,
+  }
+  model HCCanbangedupopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCanBangedUp,
+  }
+  model HCCannedcheesesauceopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedchickenbreastopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedfruitcocktailopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedmacncheeseopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+  model HCCannedgovermentbeefopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentBeef,
+  }
+  model HCCannedgovernmentbreadopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentBread,
+  }
+  model HCCannedgovernmentchickenopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentChicken,
+  }
+  model HCCannedgovernmentporkopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentPork,
+  }
+  model HCCannedpiefillingappleopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPieFillingApple,
+  }
+  model HCCannedpiefillingblueberryopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPieFillingBlueberry,
+  }
+  model HCCannedpiefillingcherryopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPieFillingCherry,
+  }
+  model HCCannedravioliopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedRavioli,
+  }
+  model HCCannedspaghettiringsopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedSpaghettiRings,
   }
 }
