@@ -311,8 +311,6 @@ module Hydrocraft
     mesh = CanOpen,
     texture = WorldItems/HCCannedSpaghettiRings,
   }
-}
-
   model HCAluminiumbat
   {
     mesh = weapons/2handed/Baseballbat,
