@@ -204,7 +204,7 @@ item HCCatsilverdead
 	DisplayCategory		= AnimalDead,
 	
 	}
-item HCCatwhitemale
+item HCCatwmale
 	{
 	Weight 				= 	1,
 	Type                = 	Container,
@@ -248,7 +248,7 @@ recipe Feed Cat
 	keep HCDogbowl,
 	Water,
 	HCCatfoodopen/TunaTinOpen/MeatPatty/HCSmallgamesteak/Smallanimalmeat/Smallbirdmeat/Chicken/HCDuckmeat/HCGoosemeat/HCTurkeymeat/FishFillet/Salmon,
-		keep HCCatmale/HCCatfemale/HCCatblackmale/HCCatblackfemale/HCCatbluemale/HCCatbluefemale/HCCatbluemale/HCCatbluefemale/HCCatbrownmale/HCCatbrownfemale/HCCatcreammale/HCCatcreamfemale/HCCatgingermale/HCCatgingerfemale/HCCatsilvermale/HCCatsilverfemale/Hydrocraft.HCCatwhitemale/HCCatwhitefemale,
+		keep HCCatmale/HCCatfemale/HCCatblackmale/HCCatblackfemale/HCCatbluemale/HCCatbluefemale/HCCatbluemale/HCCatbluefemale/HCCatbrownmale/HCCatbrownfemale/HCCatcreammale/HCCatcreamfemale/HCCatgingermale/HCCatgingerfemale/HCCatsilvermale/HCCatsilverfemale/HCCatwmale/HCCatwhitefemale,
 		CanBeDoneFromFloor:true,
 		Result:HCCatpoop,
 		Time:15.0,
@@ -314,7 +314,7 @@ recipe Kill Cat
 	}
 recipe Kill Cat
 	{
-	Hydrocraft.HCCatwhitemale/HCCatwhitefemale,
+	Hydrocraft.HCCatwmale/HCCatwhitefemale,
 		Result:HCCatwhitedead,
 		Time:15.0,
 		Category:Death,

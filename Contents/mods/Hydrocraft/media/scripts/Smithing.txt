@@ -829,7 +829,7 @@ recipe Make Copper Circuit Board
     }
 
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Copper Sheets
     {
         keep HCSawmetal,
     	HCCoppersheet,
@@ -840,7 +840,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Copper Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCCoppersheet,
@@ -851,7 +851,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Copper Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -865,7 +865,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
         keep HCSawmetal,
     	HCTinsheet,
@@ -876,7 +876,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCTinsheet,
@@ -887,7 +887,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -901,7 +901,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Bronze Sheets
     {
         keep HCSawmetal,
     	HCBronzesheet,
@@ -912,7 +912,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Tin Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCBronzesheet,
@@ -923,7 +923,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Bronze Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -937,7 +937,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Iron Sheets
     {
         keep HCSawmetal,
     	HCIronsheet,
@@ -948,7 +948,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Iron Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCIronsheet,
@@ -959,7 +959,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Iron Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -973,7 +973,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Lead Sheets
     {
         keep HCSawmetal,
     	HCLeadsheet,
@@ -984,7 +984,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Lead Sheets
     {
         HCElectricmultitoolsawpowered,
     	HCLeadsheet,
@@ -995,7 +995,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Lead Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1009,7 +1009,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Steel Sheet
     {
         keep HCSawmetal,
     	HCSteelsheet,
@@ -1020,7 +1020,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Steel Sheet
     {
         HCElectricmultitoolsawpowered,
     	HCSteelsheet,
@@ -1031,7 +1031,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Steel Sheet
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1045,7 +1045,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Metal Sheets
     {
         keep HCSawmetal,
     	SheetMetal,
@@ -1056,7 +1056,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Metal Sheets
     {
         HCElectricmultitoolsawpowered,
     	SheetMetal,
@@ -1067,7 +1067,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Metal Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1081,7 +1081,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Cut Sheet Of Metal
+recipe Cut Small Titanium Sheets
     {
     	keep WeldingMask,
     	keep HCWorkgloves,
@@ -1095,7 +1095,7 @@ recipe Cut Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Copper Sheet
 	{
 	HCCopperingot=2,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1109,7 +1109,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Tin Sheet
 	{
 	HCTiningot=2,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1123,7 +1123,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Bronze Sheet
 	{
 	HCBronzeingot=2,
     	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1137,7 +1137,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Iron Sheet
 	{
 	HCIroningot=2,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1151,7 +1151,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Lead Sheet
 	{
 	HCLeadingot=2,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1165,7 +1165,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Steel Sheet
 	{
 	HCSteelingot=2,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1179,7 +1179,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Metal Sheet
 	{
 	HCAluminumingot=2,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1193,7 +1193,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Small Sheet Of Metal
+recipe Make Small Titanium Sheet
 	{
 	HCTitaniumingot=2,
     	keep HCSmithyhammertitanium,
@@ -1207,7 +1207,7 @@ recipe Make Small Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Copper Sheet
 	{
 	HCCopperingot=4,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1221,7 +1221,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Tin Sheet
 	{
 	HCTiningot=4,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1235,7 +1235,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Silver Sheet
 	{
 	HCSilveringot=4,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1249,7 +1249,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Bronze Sheet
 	{
 	HCBronzeingot=4,
     	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1263,7 +1263,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Iron Sheet
 	{
 	HCIroningot=4,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1277,7 +1277,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Lead Sheet
 	{
 	HCLeadingot=4,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1291,7 +1291,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Steel Sheet
 	{
 	HCSteelingot=4,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1305,7 +1305,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Metal Sheet
 	{
 	HCAluminumingot=4,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1319,7 +1319,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Sheet Of Metal
+recipe Make Titanium Sheet
 	{
 	HCTitaniumingot=4,
     	keep HCSmithyhammertitanium,
@@ -1333,7 +1333,7 @@ recipe Make Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Copper Sheet
 	{
 	HCCopperingot=8,
     keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1347,7 +1347,7 @@ recipe Make Large Sheet Of Metal
     OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Tin Sheet
 	{
 	HCTiningot=8,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1361,7 +1361,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Silver Sheet
 	{
 	HCSilveringot=8,
     	keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1375,7 +1375,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Bronze Sheet
 	{
 	HCBronzeingot=8,
     	keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1389,7 +1389,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Iron Sheet
 	{
 	HCIroningot=8,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1403,7 +1403,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Lead Sheet
 	{
 	HCLeadingot=8,
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1417,7 +1417,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Steel Sheet
 	{
 	HCSteelingot=8,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1431,7 +1431,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Aluminum Sheet
 	{
 	HCAluminumingot=8,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1445,7 +1445,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Titanium Sheet
 	{
 	HCTitaniumingot=8,
     	keep HCSmithyhammertitanium,
@@ -1459,7 +1459,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Copper Sheet
     {
         HCCoppersheet=2,
         HCWeldingset,
@@ -1472,7 +1472,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Tin Sheet
     {
         HCTinsheet=2,
         HCWeldingset,
@@ -1485,7 +1485,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Silver Sheet
     {
         HCSilversheet=2,
         HCWeldingset,
@@ -1498,7 +1498,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Bronze Sheet
     {
         HCBronzesheet=2,
         HCWeldingset,
@@ -1511,7 +1511,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Iron Sheet
     {
         HCIronsheet=2,
         HCWeldingset,
@@ -1524,7 +1524,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Lead Sheet
     {
         HCLeadsheet=2,
         HCWeldingset,
@@ -1537,7 +1537,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Steel Sheet
     {
         HCSteelsheet=2,
         HCWeldingset,
@@ -1550,7 +1550,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Aluminum Sheet
     {
         SheetMetal=2,
         HCWeldingset,
@@ -1563,7 +1563,7 @@ recipe Make Large Sheet Of Metal
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
-recipe Make Large Sheet Of Metal
+recipe Make Large Titanium Sheet
     {
         HCTitaniumsheet=2,
         HCWeldingset,
@@ -1593,7 +1593,7 @@ recipe Make Steel Beam
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Metal Pipe
+recipe Make Steel Pipe
     {
         HCSteelsheetlarge,
         HCWeldingset,
@@ -1606,7 +1606,7 @@ recipe Make Metal Pipe
     	OnGiveXP:HCWelding_OnGiveXP,
     }
  
-recipe Make Metal Pipe
+recipe Make Copper Pipe
     {
         HCCoppersheetlarge,
         HCWeldingset,
@@ -1619,7 +1619,7 @@ recipe Make Metal Pipe
     	OnGiveXP:HCWelding_OnGiveXP,
     }
   
-recipe Make Crank
+recipe Make Steel Crank
 	{
 	   	HCSteelrod,
 	   	HCWoodblock,
@@ -1635,7 +1635,7 @@ recipe Make Crank
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Crank
+recipe Make Iron Crank
 	{
 	   	HCIronrod,
 	   	HCWoodblock,
@@ -1883,7 +1883,7 @@ recipe Make Steel Pole
     }
 
 
-recipe Make Large Metal Ring
+recipe Make Large Iron Ring
     {
     		HCIronrod,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1918,7 +1918,7 @@ recipe Make Leaf Spring
 
 
 
-recipe Make Large Metal Ring
+recipe Make Large Steel Ring
     {
     		HCSteelrod,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -1965,7 +1965,7 @@ recipe Make Iron Trowel
     	OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Iron Spade
+recipe Make Iron Shovel
 	{
 	   	HCIroningot=2,
     	WoodenStick,
@@ -2122,7 +2122,7 @@ recipe Make Sterling Silver Knife
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
-	   	Result:Hammer,
+	   	Result:HCSterlingsilverknife,
 	   	Time:150.0,
     		NeedToBeLearn:true,
        		Category:Smithing,
@@ -2138,7 +2138,7 @@ recipe Make Sterling Silver Fork
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
-	   	Result:Hammer,
+	   	Result:HCSterlingsilverfork,
 	   	Time:150.0,
     		NeedToBeLearn:true,
        		Category:Smithing,
@@ -2154,7 +2154,7 @@ recipe Make Sterling Silver Spoon
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
-	   	Result:Hammer,
+	   	Result:HCSterlingsilverspoon,
 	   	Time:150.0,
     		NeedToBeLearn:true,
        		Category:Smithing,
@@ -2364,7 +2364,7 @@ recipe Make Iron Hand Drill
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
 	
-	recipe Make Sheet Of Metal
+	recipe Make Steel Sheet
 	{
 		HCBrassingot=4,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
@@ -2378,7 +2378,7 @@ recipe Make Iron Hand Drill
     	OnGiveXP:HCWelding_OnGiveXP,
 	}	
 	
-recipe Pack Pallet of Metal Pipes
+recipe Pack Pallet of Aluminum Pipes
     {
     	MetalPipe=12,
     	HCRopethick,
@@ -2388,7 +2388,7 @@ recipe Pack Pallet of Metal Pipes
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Metal Pipes
+recipe Unpack Pallet of Aluminum Pipes
     {
     	HCMetalpipebox,
     	Result:MetalPipe=12,
@@ -2396,7 +2396,7 @@ recipe Unpack Pallet of Metal Pipes
     	OnCreate:recipe_hcpallet,
     }
 	
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Aluminum Ingots
     {
     	HCAluminumingot=32,
     	HCRopethick,
@@ -2406,7 +2406,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Aluminum Ingot
     {
     	HCAluminumingotbox,
     	Result:HCAluminumingot=32,
@@ -2414,7 +2414,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 	
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Brass Ingots
     {
     	HCBrassingot=32,
     	HCRopethick,
@@ -2424,7 +2424,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Brass Ingots
     {
     	HCBrassingotbox,
     	Result:HCBrassingot=32,
@@ -2432,7 +2432,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 		
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Concrete Ingots
     {
     	HCConcreteingot=32,
     	HCRopethick,
@@ -2442,7 +2442,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Concrete Ingots
     {
     	HCConcreteingotbox,
     	Result:HCConcreteingot=32,
@@ -2450,7 +2450,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Constantan Ingots
     {
     	HCConstantaningot=32,
     	HCRopethick,
@@ -2460,7 +2460,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Constantan Ingots
     {
     	HCConstantaningotbox,
     	Result:HCConstantaningot=32,
@@ -2468,7 +2468,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Copper Ingots
     {
     	HCCopperingot=32,
     	HCRopethick,
@@ -2478,7 +2478,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Copper Ingots
     {
     	HCCopperingotbox,
     	Result:HCCopperingot=32,
@@ -2486,7 +2486,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 		
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Electrum Ingots
     {
     	HCElectrumingot=32,
     	HCRopethick,
@@ -2496,7 +2496,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Electrum Ingots
     {
     	HCElectrumingotbox,
     	Result:HCElectrumingot=32,
@@ -2504,7 +2504,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Glass Ingots
     {
     	HCGlassingot=32,
     	HCRopethick,
@@ -2514,7 +2514,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Glass Ingots
     {
     	HCGlassingotbox,
     	Result:HCGlassingot=32,
@@ -2522,7 +2522,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Gold Ingots
     {
     	HCGoldingot=32,
     	HCRopethick,
@@ -2532,7 +2532,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Gold Ingots
     {
     	HCGoldingotbox,
     	Result:HCGoldingot=32,
@@ -2540,7 +2540,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Graphite Ingots
     {
     	HCGraphiteingot=32,
     	HCRopethick,
@@ -2550,7 +2550,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Graphite Ingots
     {
     	HCGraphiteingotbox,
     	Result:HCGraphiteingot=32,
@@ -2558,7 +2558,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Iron Ingots
     {
     	HCIroningot=32,
     	HCRopethick,
@@ -2568,7 +2568,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Iron Ingots
     {
     	HCIroningotbox,
     	Result:HCIroningot=32,
@@ -2576,7 +2576,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Lead Ingots
     {
     	HCLeadingot=32,
     	HCRopethick,
@@ -2586,7 +2586,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Lead Ingots
     {
     	HCLeadingotbox,
     	Result:HCLeadingot=32,
@@ -2594,7 +2594,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 						
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Magnetite Ingots
     {
     	HCMagnetiteingot=32,
     	HCRopethick,
@@ -2604,7 +2604,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Magnetite Ingots
     {
     	HCMagnetiteingotbox,
     	Result:HCMagnetiteingot=32,
@@ -2612,7 +2612,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 						
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Nickel Ingots
     {
     	HCNickelingot=32,
     	HCRopethick,
@@ -2622,7 +2622,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Nickel Ingots
     {
     	HCNickelingotbox,
     	Result:HCNickelingot=32,
@@ -2630,7 +2630,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 				
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Pewter Ingots
     {
     	HCPewteringot=32,
     	HCRopethick,
@@ -2640,7 +2640,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Pewter Ingots
     {
     	HCPewteringotbox,
     	Result:HCPewteringot=32,
@@ -2648,7 +2648,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 		
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Silver Ingots
     {
     	HCSilveringot=32,
     	HCRopethick,
@@ -2658,7 +2658,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Silver Ingots
     {
     	HCSilveringotbox,
     	Result:HCSilveringot=32,
@@ -2666,7 +2666,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Steel Ingots
     {
     	HCSteelingot=32,
     	HCRopethick,
@@ -2676,7 +2676,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Steel Ingots
     {
     	HCSteelingotbox,
     	Result:HCSteelingot=32,
@@ -2684,7 +2684,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Tin Ingots
     {
     	HCTiningot=32,
     	HCRopethick,
@@ -2694,7 +2694,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Tin Ingots
     {
     	HCTiningotbox,
     	Result:HCTiningot=32,
@@ -2702,7 +2702,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 			
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Titanium Ingots
     {
     	HCTitaniumingot=32,
     	HCRopethick,
@@ -2712,7 +2712,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Titanium Ingots
     {
     	HCTitaniumingotbox,
     	Result:HCTitaniumingot=32,
@@ -2720,7 +2720,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 					
-recipe Pack Pallet of Ingots
+recipe Pack Pallet of Zinc Ingots
     {
     	HCZincingot=32,
     	HCRopethick,
@@ -2730,7 +2730,7 @@ recipe Pack Pallet of Ingots
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Ingots
+recipe Unpack Pallet of Zinc Ingots
     {
     	HCZincingotbox,
     	Result:HCZincingot=32,
@@ -2738,7 +2738,7 @@ recipe Unpack Pallet of Ingots
     	OnCreate:recipe_hcpallet,
     }	
 					
-recipe Pack Pallet of Sheets
+recipe Pack Pallet of Copper Sheets
     {
     	HCCoppersheet=10,
     	HCRopethick,
@@ -2748,7 +2748,7 @@ recipe Pack Pallet of Sheets
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Sheets
+recipe Unpack Pallet of Copper Sheets
     {
     	HCCoppersheetbox,
     	Result:HCCoppersheet=10,
@@ -2756,7 +2756,7 @@ recipe Unpack Pallet of Sheets
     	OnCreate:recipe_hcpallet,
     }	
 
-recipe Pack Pallet of Sheets
+recipe Pack Pallet of Iron Sheets
     {
     	HCIronsheet=10,
     	HCRopethick,
@@ -2766,7 +2766,7 @@ recipe Pack Pallet of Sheets
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Sheets
+recipe Unpack Pallet of Iron Sheets
     {
     	HCIronsheetbox,
     	Result:HCIronsheet=10,
@@ -2774,7 +2774,7 @@ recipe Unpack Pallet of Sheets
     	OnCreate:recipe_hcpallet,
     }		
 	
-recipe Pack Pallet of Sheets
+recipe Pack Pallet of Rubber Sheets
     {
     	HCRubbersheet=10,
     	HCRopethick,
@@ -2784,7 +2784,7 @@ recipe Pack Pallet of Sheets
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Sheets
+recipe Unpack Pallet of Rubber Sheets
     {
     	HCRubbersheetbox,
     	Result:HCRubbersheet=10,
@@ -2792,7 +2792,7 @@ recipe Unpack Pallet of Sheets
     	OnCreate:recipe_hcpallet,
     }		
 		
-recipe Pack Pallet of Sheets
+recipe Pack Pallet of Steel Sheets
     {
     	HCSteelsheet=10,
     	HCRopethick,
@@ -2802,7 +2802,7 @@ recipe Pack Pallet of Sheets
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Sheets
+recipe Unpack Pallet of Steel Sheets
     {
     	HCSteelsheetbox,
     	Result:HCSteelsheet=10,
@@ -2810,7 +2810,7 @@ recipe Unpack Pallet of Sheets
     	OnCreate:recipe_hcpallet,
     }		
 			
-recipe Pack Pallet of Sheets
+recipe Pack Pallet of Tin Sheets
     {
     	HCTinsheet=10,
     	HCRopethick,
@@ -2820,7 +2820,7 @@ recipe Pack Pallet of Sheets
     	Time:20.0,
     }
 	
-recipe Unpack Pallet of Sheets
+recipe Unpack Pallet of Tin Sheets
     {
     	HCTinsheetbox,
     	Result:HCTinsheet=10,

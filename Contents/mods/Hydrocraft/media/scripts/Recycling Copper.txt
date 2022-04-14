@@ -168,4 +168,46 @@ recipe Recycle Copper
     }
 
 
+
+recipe Recycle Copper
+    {
+    SkillRequired:MetalWelding=1,
+    HCCircuitboardpieces=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter/HCSmelter2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCCopperingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+
+recipe Recycle Copper
+    {
+    SkillRequired:MetalWelding=1,
+    HCCircuitboardpieces=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    HCTongswood,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter/HCSmelter2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCCopperingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
 }
