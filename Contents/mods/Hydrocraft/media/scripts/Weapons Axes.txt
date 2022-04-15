@@ -743,3 +743,20 @@ recipe Make Iron Battleaxe
     }
 
 }
+
+module Base
+{
+	/*Overrides the vanilla recipe, to allow crafted axe handles to be used.*/
+    recipe Make Stone Axe
+    {
+        TreeBranch/HCAxehandle,
+        SharpedStone,
+        RippedSheets/Twine/RippedSheetsDirty,
+
+        Result:AxeStone,
+        Time:80.0,
+		NeedToBeLearn:false,
+        Category:Survivalist,
+		Override: true,
+    }	
+}
