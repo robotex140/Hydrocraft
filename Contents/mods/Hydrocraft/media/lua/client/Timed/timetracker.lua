@@ -8,7 +8,7 @@ function loadItem(item)
         item:getModData().Life = ItemTimeTrackerMod[item:getType()]["Life"];
         item:getModData().TurnInto = ItemTimeTrackerMod[item:getType()]["TurnInto"];
         item:getModData().StartTime = getGameTime():getWorldAgeHours();
-        
+        item:transmitModData()
         print("loadItem ",item:getType(),item:getModData().Life,item:getModData().TurnInto,item:getModData().StartTime)
         return true;
     else
@@ -23,16 +23,18 @@ function replaceItem(container,item)
 		if delta<0 then
 			--FIx server time error bug
 			item:getModData().StartTime = getGameTime():getWorldAgeHours();
+            item:transmitModData()
 			delta = (getGameTime():getWorldAgeHours() - item:getModData().StartTime)
 		end
 							
 		if(item:getModData().Life < delta) then
 								
-			if item:getModData().TurnInto~="" then
-				local temp = container:AddItem(item:getModData().TurnInto);							
-				if (temp) then loadItem(temp)					
-					dataCheck(item,temp)							
-					container:addItemOnServer(temp);  
+            if item:getModData().TurnInto~="" then
+                local temp = container:AddItem(item:getModData().TurnInto);							
+                if (temp) then loadItem(temp)					
+                    dataCheck(item,temp)
+                    container:addItemOnServer(temp);
+                    temp:transmitModData()  
 					--print("item:getModData().TurnInto",item:getModData().TurnInto) 
 				end      
 			end
@@ -45,18 +47,18 @@ function replaceItem(container,item)
 end
 
 function dataCheck(item,temp)
-	--Перенос инвентаря контейнера
+	--пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	if (item:getCategory() == "Container") and (temp:getCategory() == "Container") then
 		temp:getInventory():setItems(item:getInventory():getItems())
-		--Сохранение имен контейнеров - translation: 'Saving container names'
-		--Голодные животные к имени получают метку "голоден" - translation: Hungry animals get the "hungry" tag next to their name. 
+		--пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - translation: 'Saving container names'
+		--пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" - translation: Hungry animals get the "hungry" tag next to their name. 
 		if string.find(item:getModData().TurnInto,"hungry") then
 			temp:setName("hungry "..item:getName());
 		else
 			temp:setName(item:getName());
 		end
 	elseif (item:getCategory() == "Literature") and (temp:getCategory() == "Literature") then
-		--Перенос содержимого блокнота - translation: 'Transferring Notebook Contents '
+		--пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ - translation: 'Transferring Notebook Contents '
 		recipe_saveOldPages(item,temp,getPlayer())
 		--I have no idea what this is for, or if it is still necessary.
 	end
@@ -90,6 +92,7 @@ function WorldItemReplace(item,square)
 	if delta<0 then
 		--FIx server time error bug
 		item:getModData().StartTime = getGameTime():getWorldAgeHours();
+        item:transmitModData()
 		delta = (getGameTime():getWorldAgeHours() - item:getModData().StartTime)
 	end
 							
@@ -104,7 +107,8 @@ function WorldItemReplace(item,square)
 				loadItem(temp) 
 				dataCheck(item,temp)
 			end
-            temp = square:AddWorldInventoryItem(temp, 0.5, 0.5, 0, true);   
+            temp = square:AddWorldInventoryItem(temp, 0.5, 0.5, 0, true);
+            temp:transmitModData()
             --print("item:getModData().TurnInto",item:getModData().TurnInto)         
         end
                 
@@ -127,7 +131,7 @@ end
 
 function ItemCheck()
   
-    ContainerHandle(getPlayer():getInventory());--Весит NULL - translation: Weighs NULL
+    ContainerHandle(getPlayer():getInventory());--пїЅпїЅпїЅпїЅпїЅ NULL - translation: Weighs NULL
     
     local cell = getWorld():getCell();
     for x=(cell:getMinX()+10), (cell:getMaxX()-10) do
