@@ -873,7 +873,7 @@ item HCCardgame1
     item HCAluminiumbat
     {
         MaxRange    =   1.25,
-        WeaponSprite    =   BaseballBat,
+        WeaponSprite    =   Hydrocraft.HCAluminiumbat,
         MinAngle    =   0.75,
         Type    =   Weapon,
         MinimumSwingTime    =   3,

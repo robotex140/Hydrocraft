@@ -1,6 +1,6 @@
 PFGMenu ={};
 
-PFGMenu.typesTable = {"HCHanddolly","HCPallettruck","HCPushcart","HCWheelbarrow","HCWoodenwheelbarrow","HCToywagon"}
+PFGMenu.typesTable = {"HCHanddolly","HCPallettruck","HCPushcart","HCWheelbarrow","HCWoodenwheelbarrow","HCToywagon","HCWagoncovered", "HCWagoncoveredhorsefemale", "HCWagoncoveredhorsemale","HCWagoncoveredoxen","HCWagonhorsefemale", "HCWagonhorsemale", "HCWagonoxen"}
 
 PFGMenu.addWorldContext = function(player, context, worldobjects, test)	
 	local pzPlayer = getSpecificPlayer(player)

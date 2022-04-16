@@ -12,6 +12,7 @@ module Base
     TeachedRecipes          = Make Metal Walls;Make Metal Roof,
     ReplaceOnUse            = MetalworkMag1,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal1Ground,
     }
 
     item MetalworkMag2
@@ -23,6 +24,7 @@ module Base
     TeachedRecipes          = Make Metal Containers,
     ReplaceOnUse            = MetalworkMag2,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal2Ground,
     }
 
     item MetalworkMag3
@@ -34,6 +36,7 @@ module Base
     TeachedRecipes          = Make Metal Fences,
     ReplaceOnUse            = MetalworkMag3,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal4Ground,
     }
 
     item MetalworkMag4
@@ -45,6 +48,7 @@ module Base
     TeachedRecipes          = Make Metal Sheet,
     ReplaceOnUse            = MetalworkMag4,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineMetal4Ground,
     }
 
     item SmithingMag1
@@ -56,6 +60,7 @@ module Base
     TeachedRecipes          = Make Ball Peen Hammer,
     ReplaceOnUse            = SmithingMag1,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
     item SmithingMag2
@@ -67,6 +72,7 @@ module Base
     TeachedRecipes          = Make Iron Tongs,
     ReplaceOnUse            = SmithingMag2,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
     item SmithingMag3
@@ -78,6 +84,7 @@ module Base
     TeachedRecipes          = Sheet Metal,
     ReplaceOnUse            = SmithingMag3,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
     item SmithingMag4
@@ -89,6 +96,7 @@ module Base
     TeachedRecipes          = Make Metal Drum,
     ReplaceOnUse            = SmithingMag4,
 	DisplayCategory          =   LitR,
+	WorldStaticModel = MagazineGround,
     }
 
 
@@ -117,6 +125,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Corned Beef,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcornedbeefempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenCornerBeef,
     }
 
     item CannedBologneseOpen
@@ -138,6 +147,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Bolognese,
 		ReplaceOnUse		=	Hydrocraft.HCTincan,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenBolognese,
     }
 
     item CannedCarrotsOpen
@@ -159,6 +169,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Carrots,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcarrotsempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenCarrots,
     }
 
     item CannedCornOpen
@@ -180,6 +191,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Corn,
 		ReplaceOnUse		=	Hydrocraft.HCCannedcornempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenCorn,
     }
 
     item CannedMushroomSoupOpen
@@ -198,6 +210,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCCannedmushroomsoupempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenMushroom,
     }
 
     item CannedPeasOpen
@@ -219,6 +232,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Peas,
 		ReplaceOnUse		=	Hydrocraft.HCCannedpeasempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenPeas,
     }
 
     item CannedPotatoOpen
@@ -240,6 +254,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Potato,
 		ReplaceOnUse		=	Hydrocraft.HCCannedpotatoempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenPotatoes,
     }
 
     item CannedSardinesOpen
@@ -261,6 +276,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Sardines,
 		ReplaceOnUse		=	Hydrocraft.HCCannedsardinesempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CannedSardines_Open_Ground,
     }
 
     item CannedTomatoOpen
@@ -282,6 +298,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Tomato,
 		ReplaceOnUse		=	Hydrocraft.HCCannedtomatoempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenTomatoes,
     }
 
 	item OpenBeans
@@ -301,6 +318,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCBeansempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpen,
 	}
 
 	item TinnedSoupOpen
@@ -321,6 +339,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCTinnedsoupempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenSoup,
 	}
 
 	item TunaTinOpen
@@ -341,6 +360,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCTunatinempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = TinnedTuna_Open_Ground,
 	}
 
 	item DogfoodOpen
@@ -360,6 +380,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse		=	Hydrocraft.HCDogfoodempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenDogFood,
 	}
 
     item CannedChiliOpen
@@ -381,6 +402,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Chili,
 		ReplaceOnUse		=	Hydrocraft.HCCannedchiliempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenChilli,
     }
 
     item CannedBologneseOpen
@@ -402,6 +424,7 @@ module Base
         	EvolvedRecipeName 	= 	Canned Bolognese,
 		ReplaceOnUse		=	Hydrocraft.HCCannedbologneseempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = CanOpenBolognese,
     }
 
 	item Crisps
@@ -419,6 +442,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrispstrash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips,
 	}
 
 	item Crisps2
@@ -436,6 +460,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps2trash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips2,
 	}
 
 	item Crisps3
@@ -453,6 +478,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps3trash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips3,
 	}
 
 	item Crisps4
@@ -470,6 +496,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse		= 	Hydrocraft.HCCrisps4trash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chips4,
 	}
 
     	item Salt
@@ -487,6 +514,7 @@ module Base
 		CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCSaltshakerempty,
 		DisplayCategory          =   FoodS,
+		WorldStaticModel = Salt,
 	}
 
 	item Chocolate
@@ -506,23 +534,25 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCChocolatetrash,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Chocolate,
 	}
 
     item MintCandy
-    	{
-        	Type			=	Food,
-        	DisplayName		=	Mint Candy,
-        	Icon			=	MintCandy,
-        	Weight			=	0.1,
-        	HungerChange 		=	-2,
-        	UnhappyChange	    	=	-10,
-        	Carbohydrates 		= 	15,
-        	Proteins 		= 	0,
-        	Lipids 			= 	0,
-        	Calories 		= 	60,
+	{
+		Type			=	Food,
+		DisplayName		=	Mint Candy,
+		Icon			=	MintCandy,
+		Weight			=	0.1,
+		HungerChange 		=	-2,
+		UnhappyChange	    	=	-10,
+		Carbohydrates 		= 	15,
+		Proteins 		= 	0,
+		Lipids 			= 	0,
+		Calories 		= 	60,
 		ReplaceOnUse	=	Hydrocraft.HCMintcandytrash,
 		DisplayCategory          =   FoodN,
-    	}
+		WorldStaticModel = MintCandy,
+	}
 
 	item PeanutButter
 	{
@@ -542,6 +572,7 @@ module Base
         Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCJar,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = PeanutButter,
 	}
 
     item Peanuts
@@ -559,6 +590,7 @@ module Base
         Calories = 161,
         CantBeFrozen = TRUE,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = Peanuts,
     }
 
 
@@ -577,6 +609,7 @@ module Base
         Calories = 180,
         CantBeFrozen = TRUE,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = SunflowerSeeds,
     }
 
 	item Pop
@@ -599,6 +632,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPoptrash,
 		DisplayCategory          =   FoodB,
+		WorldStaticModel = PopCanDiet,
 	}
 
 	item Pop2
@@ -621,6 +655,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPop2trash,
 		DisplayCategory          =   FoodB,
+		WorldStaticModel = PopCanRed,
 	}
 
 	item Pop3
@@ -643,20 +678,22 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCPop3trash,
 		DisplayCategory          =   FoodB,
+		WorldStaticModel = PopCanFizz,
 	}
 
 
 	item Vinegar
-    	{
-        	Type	            	=	Drainable,
-        	UseDelta	        =	0.1,
-        	UseWhileEquipped	=       FALSE,
-        	DisplayName		=	Vinegar,
-        	Icon			=	Vinegar,
-        	Weight			=	0.3,
+	{
+		Type	            	=	Drainable,
+		UseDelta	        =	0.1,
+		UseWhileEquipped	=       FALSE,
+		DisplayName		=	Vinegar,
+		Icon			=	Vinegar,
+		Weight			=	0.3,
 		ReplaceOnUse	=	Hydrocraft.HCVinegarempty,
 		DisplayCategory          =   Cooking,
-    	}
+		WorldStaticModel = Vinegar,
+	}
 
 
     item Mustard
@@ -677,6 +714,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCMustardempty,
 		DisplayCategory          =   FoodS,
+		WorldStaticModel = Mustard,
 	}
 
     item Ketchup
@@ -697,6 +735,7 @@ module Base
         	CantBeFrozen 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCKetchupempty,
 		DisplayCategory          =   FoodS,
+		WorldStaticModel = Ketchup,
 	}
 
 
@@ -720,6 +759,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCTVDinnerpackage,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = TVDinner_Ground,
 	}
 
 	item Icecream
@@ -741,6 +781,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCIcecreamempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = IceCream,
 	}
 
 	item IcecreamMelted
@@ -757,6 +798,7 @@ module Base
         	Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCIcecreamempty,
 		DisplayCategory          =   FoodN,
+		WorldStaticModel = IcecreamMelted,
 	}
 
 	item Milk
@@ -783,6 +825,7 @@ module Base
         StaticModel = MilkCarton,
 		ReplaceOnUse	=	Hydrocraft.HCMilkempty,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = Milk_Ground,
 	}
 
     item Tofu
@@ -803,26 +846,28 @@ module Base
         Packaged            = TRUE,
         ReplaceOnUse        = Hydrocraft.HCJar,
 		DisplayCategory          =   FoodP,
+		WorldStaticModel = Tofu,
     }
 
 
     item Yoghurt
-    	{
-        	Type			=	Food,
-       	 	DisplayName		=	Yogurt,
-        	Icon			=	Yoghurt,
-        	Weight			=	0.3,
-        	HungerChange 		=	-10,
-        	DaysFresh 		=	10,
-        	DaysTotallyRotten 	=	 15,
-        	Carbohydrates 		= 	1,
-        	Proteins 		= 	5,
-        	Lipids 			= 	1,
-        	Calories 		= 	30,
-        	Packaged 		= 	TRUE,
+	{
+		Type			=	Food,
+		DisplayName		=	Yogurt,
+		Icon			=	Yoghurt,
+		Weight			=	0.3,
+		HungerChange 		=	-10,
+		DaysFresh 		=	10,
+		DaysTotallyRotten 	=	 15,
+		Carbohydrates 		= 	1,
+		Proteins 		= 	5,
+		Lipids 			= 	1,
+		Calories 		= 	30,
+		Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCYoghurtempty,
 		DisplayCategory          =   FoodP,
-    	}
+		WorldStaticModel = Yogurt,
+	}
 
 
 
@@ -837,25 +882,27 @@ module Base
 		Icon             =	Flour,
 		ReplaceOnDeplete  =	Hydrocraft.HCFlourempty,
 		DisplayCategory          =   Cooking,
+		WorldStaticModel = Flour,
 	}
 
-    	item Rice
-    	{
-        	Weight			=	2,
-        	Type			=	Food,
-        	DisplayName		=	Rice,
-        	Icon			=	RiceRaw,
-        	HungerChange    	=   	-60,
-        	UnhappyChange   	=   	40,
-        	ThirstChange    	=   	60,
-        	Carbohydrates 		= 	648,
-        	Proteins 		= 	72,
-        	Lipids 			= 	0,
-        	Calories 		= 	2880,
-        	Packaged 		= 	TRUE,
+	item Rice
+	{
+		Weight			=	2,
+		Type			=	Food,
+		DisplayName		=	Rice,
+		Icon			=	RiceRaw,
+		HungerChange    	=   	-60,
+		UnhappyChange   	=   	40,
+		ThirstChange    	=   	60,
+		Carbohydrates 		= 	648,
+		Proteins 		= 	72,
+		Lipids 			= 	0,
+		Calories 		= 	2880,
+		Packaged 		= 	TRUE,
 		ReplaceOnUse	=	Hydrocraft.HCRiceempty,
 		DisplayCategory          =   Cooking,
-    	}
+		WorldStaticModel = Rice,
+	}
 
 	item Sugar
 	{
@@ -867,351 +914,9 @@ module Base
 		Icon			=	Sugar,
 		ReplaceOnUse	=	Hydrocraft.HCSugarempty,
 		DisplayCategory          =   Cooking,
+		WorldStaticModel = Sugar,
 	}
 
-/************************Misc************************/
-
-	item Fertilizer
-    	{
-        	Type			=	Drainable,
-        	DisplayName		=	NPK Fertilizer,
-       		Icon			=	TZ_IndieStoneNPK,
-        	Weight			=	2.0,
-       		UseDelta		=	0.25,
-        	UseWhileEquipped	=	false,
-		ReplaceOnDeplete	=	EmptySandbag,
-		DisplayCategory          =   SurFarm,
-    	}
-
-    item PropaneTank
-    {
-        Weight  =   10.0,
-        Type    =   Drainable,
-        UseWhileEquipped    =   FALSE,
-        UseDelta    =   0.125,
-        DisplayName =   Propane Tank,
-        Icon    =   PropaneTank,
-        UseWorldItem = TRUE,
-        ScaleWorldIcon = 2.0,
-        WeightEmpty = 5.0,
-		KeepOnDeplete =	TRUE,
-        /*ReplaceOnDeplete    =   Hydrocraft.HCPropanetankempty,*/
-		DisplayCategory          =   Fuel,
-    }
-
-	item Lighter
-	{
-		LightDistance		=	2,
-		Weight			=	0.1,
-		Type			=	Drainable,
-		UseWhileEquipped	=	FALSE,
-		TorchCone		=	FALSE,
-		LightStrength		=	0.4,
-		DisplayName		=	Lighter,
-		ActivatedItem		=	TRUE,
-		Icon			=	Lighter,
-		ReplaceOnDeplete	=	Hydrocraft.HCLighterempty,
-		DisplayCategory          =   Fuel,
-	}
-
-	item Battery
-	{
-		Weight			=	0.6,
-		Type			=	Drainable,
-		UseDelta		=	0.00001,
-		UseWhileEquipped	=	FALSE,
-		DisplayName		=	Battery,
-		Icon			=	HCBattery,
-		ReplaceOnDeplete	=	Hydrocraft.HCBatterydead,
-		DisplayCategory          =   CraftElec,
-	}
-
-    	item Glue
-    	{
-        	Weight			=	0.1,
-        	Type			=	Drainable,
-        	UseDelta		=	0.2,
-        	UseWhileEquipped	=	FALSE,
-        	DisplayName		=	Glue,
-        	Icon			=	Glue,
-		ReplaceOnDeplete	=	Hydrocraft.HCGlueempty,
-		DisplayCategory          =   CraftCarp,
-    	}
-
-    	item Woodglue
-    	{
-        	Weight			=	0.1,
-        	Type	            	=	Drainable,
-       	 	UseDelta	        =	0.2,
-        	UseWhileEquipped	=	FALSE,
-        	DisplayName		=	Wood Glue,
-        	Icon			=	Woodglue,
-		ReplaceOnDeplete	=	Hydrocraft.HCWoodglueempty,
-		DisplayCategory          =   CraftCarp,
-    	}
-
-	item Scotchtape
-    	{
-        	Weight			=	0.1,
-        	Type			=	Drainable,
-        	UseDelta		=	0.25,
-        	DisplayName		=	Adhesive Tape,
-        	Icon			=	Scotchtape,
-		ReplaceOnDeplete	=	Hydrocraft.HCScotchtapeempty,
-		DisplayCategory          =   Craft,
-    	}
-
-
-	item Cigarettes
-	{
-		Count	=	20,
-		HungerChange	=	0,
-		Weight	=	0.005,
-		RequireInHandOrInventory	=	Lighter/Matches,
-		Type	=	Food,
-		DisplayName	=	Cigarettes,
-		StressChange	=	-5,
-		Icon	=	IckySticks,
-		CustomContextMenu = Smoke,
-		CantBeFrozen = TRUE,
-		OnEat = HCOnEat_Cigarettes,
-		/*ReplaceOnUse = Hydrocraft.HCCigarettebutt,*/
-		StaticModel = Cigarette,
-		EatType = Cigarettes,
-		CustomEatSound = HC_LightUp,
-		DisplayCategory          =   Drugs,
-	}
-
-/************************Paint Cans************************/
-
-	item PaintPink
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		   =	Pink Paint,
-		Icon			   =	Paint_Pink,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-  	item PaintRed
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped      =	FALSE,
-		UseDelta		   =	0.25,
-		DisplayName		   =	Red Paint,
-		Icon			   =	Paint_Red,
-		Tooltip 		    = 	Tooltip_Paint,
-        ReplaceOnDeplete 		= 	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintOrange
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		   =	0.25,
-		DisplayName		   =	Orange Paint,
-		Icon			   =	Paint_Orange,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintBrown
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		   =	0.25,
-		DisplayName		   =	Brown Paint,
-		Icon			   =	Paint_Brown,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-
-	item PaintLightBrown
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		   =	Light Brown Paint,
-		Icon			   =	Paint_LightBrown,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintYellow
-	{
-		Weight			 =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		 =	Yellow Paint,
-		Icon			   =	Paint_Yellow,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintGreen
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		   =	Green Paint,
-		Icon			   =	Paint_Green,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintTurquoise
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped      =	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		   =	Turquoise Paint,
-		Icon			    =	Paint_Turquoise,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintCyan
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta	 	   =	0.25,
-		DisplayName		   =	Cyan Paint,
-		Icon			   =	Paint_Cyan,
-		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintLightBlue
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped   =	FALSE,
-		UseDelta		   =	0.25,
-		DisplayName		   =	Light Blue Paint,
-		Icon			   =	Paint_LightBlue,
-		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintBlue
-	{
-		Weight			   =	5,
-		Type			   =	Drainable,
-		UseWhileEquipped   =	FALSE,
-		UseDelta		   =	0.25,
-		DisplayName		   =	Blue Paint,
-		Icon			   =	Paint_Blue,
-		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintPurple
-	{
-		Weight			    =	5,
-		Type			    =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		    =	Purple Paint,
-		Icon			    =	Paint_Purple,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintBlack
-    	{
-       	Weight			  =	5,
-        Type			  =	Drainable,
-        UseWhileEquipped  =	FALSE,
-        UseDelta		  =	0.25,
-        DisplayName		  =	Black Paint,
-       	Icon			  =	Paint_Black,
-        Tooltip 		  = Tooltip_Paint,
-        ReplaceOnDeplete  = Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-    	}
-
-	item PaintGrey
-	{
-		Weight			    =	5,
-		Type			    =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		    =	Grey Paint,
-		Icon			    =	Paint_Grey,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-
-	item PaintWhite
-	{
-		Weight			    =	5,
-		Type			    =	Drainable,
-		UseWhileEquipped	=	FALSE,
-		UseDelta		    =	0.25,
-		DisplayName		    =	White Paint,
-		Icon			    =	Paint_White,
-		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
-		DisplayCategory          =   Paint,
-	}
-	
-/************************METAL SHEETS************************/
-
-	item SmallSheetMetal
-    {
-        Weight	=	0.4,
-        Type	=	Normal,
-        DisplayName	=	Small Aluminum Sheet,
-        Icon	=	HCMetalboard,
-        MetalValue = 20,
-		DisplayCategory          =   CraftMetal,
-    }
-	
-	item SheetMetal
-    {
-        Weight	=	1.5,
-        Type	=	Normal,
-        DisplayName	=	Aluminum Sheet,
-        Icon	=	SheetMetal,
-        MetalValue = 80,
-		DisplayCategory          =   CraftMetal,
-    }
-
-/************************PIPES************************/
-
-	item Pipe
-    {
-        Weight	=	0.3,
-        Type	=	Normal,
-        DisplayName	=	PVC Pipe,
-        Icon	=	HCPVCpipe,
-		DisplayCategory          =   CraftMisc,
-    }
-	
-	item MetalPipe
-    {
-        Weight = 1,
-        Type = Normal,
-        DisplayName	= Aluminum Pipe,
-        Icon = MetalTube,
-        MetalValue = 30,
-		DisplayCategory          =   CraftMetal,
-    }
-	
-	/************************PIPES************************/
-	
 	item Coffee2
     {
         Weight				=	1,
@@ -1230,8 +935,376 @@ module Base
         Calories 			= 	2,
         Packaged 			= 	TRUE,
 		DisplayCategory          =   FoodB,
+		WorldStaticModel = Coffee,
+    }
+
+/************************Misc************************/
+
+	item Fertilizer
+    {
+		Type			=	Drainable,
+		DisplayName		=	NPK Fertilizer,
+		Icon			=	TZ_IndieStoneNPK,
+		Weight			=	2.0,
+		UseDelta		=	0.25,
+		UseWhileEquipped	=	false,
+		ReplaceOnDeplete	=	EmptySandbag,
+		DisplayCategory          =   SurFarm,
+		WorldStaticModel = Fertilizer_Ground,
+    }
+
+    item PropaneTank
+    {
+        Weight  =   10.0,
+        Type    =   Drainable,
+        UseWhileEquipped    =   FALSE,
+        UseDelta    =   0.125,
+        DisplayName =   Propane Tank,
+        Icon    =   PropaneTank,
+        UseWorldItem = TRUE,
+        ScaleWorldIcon = 2.0,
+        WeightEmpty = 5.0,
+		KeepOnDeplete =	TRUE,
+        /*ReplaceOnDeplete    =   Hydrocraft.HCPropanetankempty,*/
+		DisplayCategory          =   Fuel,
+		WorldStaticModel = PropaneTank,
+    }
+
+	item Lighter
+	{
+		LightDistance		=	2,
+		Weight			=	0.1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		TorchCone		=	FALSE,
+		LightStrength		=	0.4,
+		DisplayName		=	Lighter,
+		ActivatedItem		=	TRUE,
+		Icon			=	Lighter,
+		ReplaceOnDeplete	=	Hydrocraft.HCLighterempty,
+		DisplayCategory          =   Fuel,
+		WorldStaticModel = ZippoGround,
+	}
+
+	item Battery
+	{
+		Weight			=	0.6,
+		Type			=	Drainable,
+		UseDelta		=	0.00001,
+		UseWhileEquipped	=	FALSE,
+		DisplayName		=	Battery,
+		Icon			=	HCBattery,
+		ReplaceOnDeplete	=	Hydrocraft.HCBatterydead,
+		DisplayCategory          =   CraftElec,
+		WorldStaticModel = Battery,
+	}
+
+	item Glue
+	{
+		Weight			=	0.1,
+		Type			=	Drainable,
+		UseDelta		=	0.2,
+		UseWhileEquipped	=	FALSE,
+		DisplayName		=	Glue,
+		Icon			=	Glue,
+		ReplaceOnDeplete	=	Hydrocraft.HCGlueempty,
+		DisplayCategory          =   CraftCarp,
+		WorldStaticModel = Glue,
+	}
+
+	item Woodglue
+	{
+		Weight			=	0.1,
+		Type	            	=	Drainable,
+		UseDelta	        =	0.2,
+		UseWhileEquipped	=	FALSE,
+		DisplayName		=	Wood Glue,
+		Icon			=	Woodglue,
+		ReplaceOnDeplete	=	Hydrocraft.HCWoodglueempty,
+		DisplayCategory          =   CraftCarp,
+		WorldStaticModel = WoodGlue,
+	}
+
+	item Scotchtape
+	{
+		Weight			=	0.1,
+		Type			=	Drainable,
+		UseDelta		=	0.25,
+		DisplayName		=	Adhesive Tape,
+		Icon			=	Scotchtape,
+		ReplaceOnDeplete	=	Hydrocraft.HCScotchtapeempty,
+		DisplayCategory          =   Craft,
+		WorldStaticModel = Scotchtape,
+	}
+
+
+	item Cigarettes
+	{
+		Count	=	20,
+		HungerChange	=	0,
+		Weight	=	0.005,
+		RequireInHandOrInventory	=	Lighter/Matches,
+		Type	=	Food,
+		DisplayName	=	Cigarettes,
+		StressChange	=	-5,
+		Icon	=	IckySticks,
+		CustomContextMenu = Smoke,
+		CantBeFrozen = TRUE,
+		OnEat = HCOnEat_Cigarettes,
+		/*ReplaceOnUse = Hydrocraft.HCCigarettebutt,*/
+		StaticModel = Cigarette,
+		WorldStaticModel = Cigarette,
+		EatType = Cigarettes,
+		CustomEatSound = HC_LightUp,
+		DisplayCategory          =   Drugs,
+	}
+
+/************************Paint Cans************************/
+
+	item PaintPink
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		   =	Pink Paint,
+		Icon			   =	Paint_Pink,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinPink_Ground,
+	}
+
+  	item PaintRed
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped      =	FALSE,
+		UseDelta		   =	0.25,
+		DisplayName		   =	Red Paint,
+		Icon			   =	Paint_Red,
+		Tooltip 		    = 	Tooltip_Paint,
+        ReplaceOnDeplete 		= 	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinRed_Ground,
+	}
+
+	item PaintOrange
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		   =	0.25,
+		DisplayName		   =	Orange Paint,
+		Icon			   =	Paint_Orange,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinOrange_Ground,
+	}
+
+	item PaintBrown
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		   =	0.25,
+		DisplayName		   =	Brown Paint,
+		Icon			   =	Paint_Brown,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinBrown_Ground,
+	}
+
+
+	item PaintLightBrown
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		   =	Light Brown Paint,
+		Icon			   =	Paint_LightBrown,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinLightBrown_Ground,
+	}
+
+	item PaintYellow
+	{
+		Weight			 =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		 =	Yellow Paint,
+		Icon			   =	Paint_Yellow,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinYellow_Ground,
+	}
+
+	item PaintGreen
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		   =	Green Paint,
+		Icon			   =	Paint_Green,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinGreen_Ground,
+	}
+
+	item PaintTurquoise
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped      =	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		   =	Turquoise Paint,
+		Icon			    =	Paint_Turquoise,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinTurquoise_Ground,
+	}
+
+	item PaintCyan
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta	 	   =	0.25,
+		DisplayName		   =	Cyan Paint,
+		Icon			   =	Paint_Cyan,
+		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinCyan_Ground,
+	}
+
+	item PaintLightBlue
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped   =	FALSE,
+		UseDelta		   =	0.25,
+		DisplayName		   =	Light Blue Paint,
+		Icon			   =	Paint_LightBlue,
+		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinLightBlue_Ground,
+	}
+
+	item PaintBlue
+	{
+		Weight			   =	5,
+		Type			   =	Drainable,
+		UseWhileEquipped   =	FALSE,
+		UseDelta		   =	0.25,
+		DisplayName		   =	Blue Paint,
+		Icon			   =	Paint_Blue,
+		ReplaceOnDeplete   =	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinBlue_Ground,
+	}
+
+	item PaintPurple
+	{
+		Weight			    =	5,
+		Type			    =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		    =	Purple Paint,
+		Icon			    =	Paint_Purple,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinPurple_Ground,
+	}
+
+	item PaintBlack
+    {
+       	Weight			  =	5,
+        Type			  =	Drainable,
+        UseWhileEquipped  =	FALSE,
+        UseDelta		  =	0.25,
+        DisplayName		  =	Black Paint,
+       	Icon			  =	Paint_Black,
+        Tooltip 		  = Tooltip_Paint,
+        ReplaceOnDeplete  = Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinBlack_Ground,
+    }
+
+	item PaintGrey
+	{
+		Weight			    =	5,
+		Type			    =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		    =	Grey Paint,
+		Icon			    =	Paint_Grey,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinGrey_Ground,
+	}
+
+	item PaintWhite
+	{
+		Weight			    =	5,
+		Type			    =	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		    =	0.25,
+		DisplayName		    =	White Paint,
+		Icon			    =	Paint_White,
+		ReplaceOnDeplete	=	Hydrocraft.HCPaintcan,
+		DisplayCategory          =   Paint,
+		WorldStaticModel = PaintTinWhite_Ground,
+	}
+	
+/************************METAL SHEETS************************/
+
+	item SmallSheetMetal
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Small Aluminum Sheet,
+        Icon	=	HCMetalboard,
+        MetalValue = 20,
+		DisplayCategory          =   CraftMetal,
+		WorldStaticModel = MetalSheetSmall,
     }
 	
+	item SheetMetal
+    {
+        Weight	=	1.5,
+        Type	=	Normal,
+        DisplayName	=	Aluminum Sheet,
+        Icon	=	SheetMetal,
+        MetalValue = 80,
+		DisplayCategory          =   CraftMetal,
+		WorldStaticModel = MetalSheet,
+    }
+
+/************************PIPES************************/
+
+	item Pipe
+    {
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	PVC Pipe,
+        Icon	=	HCPVCpipe,
+		DisplayCategory          =   CraftMisc,
+		WorldStaticModel = PlasticPipe,
+    }
+	
+	item MetalPipe
+    {
+        Weight = 1,
+        Type = Normal,
+        DisplayName	= Aluminum Pipe,
+        Icon = MetalTube,
+        MetalValue = 30,
+		DisplayCategory          =   CraftMetal,
+		WorldStaticModel = LeadPipe,
+    }
 
 /************************Weapons/parts************************/
 
@@ -1874,6 +1947,7 @@ module Base
         Medical = TRUE,
         ReplaceOnUse    =   Hydrocraft.HCPillbox,
         DisplayCategory = Drugs,
+		WorldStaticModel = PillBottleGround,
     }
 
 

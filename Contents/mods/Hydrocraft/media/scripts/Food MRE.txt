@@ -581,7 +581,15 @@ recipe Unbox MREs
 		Result:HCMRE=8,
 		Time:15.0,
 		Category:Cooking,
-    }	
+    }
+
+recipe Box MREs
+	{
+		HCMRE=8,
+		Result:HCMREbox,
+		Time:15.0,
+		Category:Cooking,
+	}
 
 recipe Unpack Small Pallet of MREs
     {

@@ -1,8 +1,8 @@
 
 --Each time a zed dies, a random number of items will be placed on the corpse
 --the number of items will be picked at random from this list
-local ROLLS = { 1, 1, 2, 2, 2, 2, 2, 2, 3, 3 }
-local LOW_ROLLS = {0,0,0,0,0,0,1,1,1,1,1}
+local ROLLS = { 0, 1, 1, 1, 1, 1, 1, 1, 1, 2 }--avg 1 item per zombie
+local LOW_ROLLS = {0,0,0,0,0,1,1,1,1,1}
 local VERY_LOW_ROLLS = {0,0,0,0,0,0,0,0,0,1}
 
 local NOTHING = "$nothing$"

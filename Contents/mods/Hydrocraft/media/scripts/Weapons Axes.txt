@@ -217,7 +217,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite				=	HandAxe,
+		WeaponSprite				=	Hydrocraft.HCSurvivalaxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -259,7 +259,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	HandAxe,
+		WeaponSprite					=	Hydrocraft.HCHatchetsteel,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -300,7 +300,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	HandAxe,
+		WeaponSprite					=	Hydrocraft.HCHatchetiron,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -742,4 +742,21 @@ recipe Make Iron Battleaxe
 		Fixer : HCIroningot,
     }
 
+}
+
+module Base
+{
+	/*Overrides the vanilla recipe, to allow crafted axe handles to be used.*/
+    recipe Make Stone Axe
+    {
+        TreeBranch/HCAxehandle,
+        SharpedStone,
+        RippedSheets/Twine/RippedSheetsDirty,
+
+        Result:AxeStone,
+        Time:80.0,
+		NeedToBeLearn:false,
+        Category:Survivalist,
+		Override: true,
+    }	
 }

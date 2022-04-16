@@ -30,6 +30,7 @@ item HCCannedapple
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedapple,
 	}
 
 item HCCannedpear
@@ -45,6 +46,7 @@ item HCCannedpear
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpear,
 	}
 
 item HCCannedpeach
@@ -60,6 +62,7 @@ item HCCannedpeach
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = CanClosedPeaches_Ground,
 	}
 
 item HCCannedgreenbeans
@@ -75,6 +78,7 @@ item HCCannedgreenbeans
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedgreenbeans,
 	}
 
 item HCCannedshrooms
@@ -90,6 +94,7 @@ item HCCannedshrooms
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedshrooms,
 	}
 
 item HCCannedpumpkin
@@ -105,6 +110,7 @@ item HCCannedpumpkin
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpumpkin,
 	}
 
 item HCCannedspam
@@ -120,6 +126,7 @@ item HCCannedspam
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedspam,
 	}
 
 item HCCannedcranberries
@@ -135,6 +142,7 @@ item HCCannedcranberries
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedcranberries,
 	}
 
 item HCCannedpineapple
@@ -150,6 +158,7 @@ item HCCannedpineapple
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpineapple,
 	}
 
 item HCCannedrefriedbeans
@@ -165,6 +174,7 @@ item HCCannedrefriedbeans
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedrefriedbeans,
 	}
 
 item HCCannedcreamofchicken
@@ -180,6 +190,7 @@ item HCCannedcreamofchicken
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = CanClosedSoup,
     	}
 
 item HCCannedsoupclassic
@@ -194,6 +205,7 @@ item HCCannedsoupclassic
         DisplayName			=	Canned Soup Classic,
         Icon				=	HCCannedsoupclassic,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = CanClosedSoup,
     }
 item HCCanbangedup
 	{
@@ -208,6 +220,7 @@ item HCCanbangedup
         Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCanbangedup,
 	}
 
 item HCCannedcheesesauce
@@ -223,6 +236,7 @@ item HCCannedcheesesauce
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedcheesesauce,
 	}
 
 item HCCannedchickenbreast
@@ -238,6 +252,7 @@ item HCCannedchickenbreast
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedchickenbreast,
 	}
 
 item HCCannedfruitcocktail
@@ -253,6 +268,7 @@ item HCCannedfruitcocktail
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedfruitcocktail,
 	}
 
 item HCCannedgovermentbeef
@@ -268,6 +284,7 @@ item HCCannedgovermentbeef
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedgovermentbeef,
 	}
 
 item HCCannedgovermentbread
@@ -282,6 +299,7 @@ item HCCannedgovermentbread
     	Calories 			= 	195,
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
+	WorldStaticModel = Hydrocraft.HCCannedgovernmentbread,
 	}
 
 item HCCannedgovermentchicken
@@ -297,6 +315,7 @@ item HCCannedgovermentchicken
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedgovernmentchicken,
 	}
 
 item HCCannedgovermentpork
@@ -312,6 +331,7 @@ item HCCannedgovermentpork
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedgovernmentpork,
 	}
 
 item HCCannedmacncheese
@@ -327,6 +347,7 @@ item HCCannedmacncheese
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedmacncheese,
 	}
 
 item HCCannedpiefillingapple
@@ -342,6 +363,7 @@ item HCCannedpiefillingapple
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpiefillingapple,
 	}
 
 item HCCannedpiefillingcherry
@@ -357,6 +379,7 @@ item HCCannedpiefillingcherry
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpiefillingcherry,
 	}
 
 item HCCannedpiefillingblueberry
@@ -372,6 +395,7 @@ item HCCannedpiefillingblueberry
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedpiefillingblueberry,
 	}
 
 item HCCannedravioli
@@ -387,6 +411,7 @@ item HCCannedravioli
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedravioli,
 	}
 
 item HCCannedspaghettirings
@@ -402,6 +427,7 @@ item HCCannedspaghettirings
     	Packaged 			= 	TRUE,
 	CantBeFrozen			=	TRUE,
 	DisplayCategory          =   FoodC,
+	WorldStaticModel = Hydrocraft.HCCannedspaghettirings,
 	}
 
 item HCCannedappleopen
@@ -424,6 +450,7 @@ item HCCannedappleopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Apple,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedappleopen,
 	}
 
 item HCCannedpearopen
@@ -446,6 +473,7 @@ item HCCannedpearopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pear,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpearopen,
 	}
 
 item HCCannedpeachopen
@@ -468,6 +496,7 @@ item HCCannedpeachopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Peach,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = CanOpenPeaches_Ground,
 	}
 
 item HCCannedgreenbeansopen
@@ -490,6 +519,7 @@ item HCCannedgreenbeansopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Green Beans,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedgreenbeansopen,
 	}
 
 item HCCannedshroomsopen
@@ -512,6 +542,7 @@ item HCCannedshroomsopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Mushrooms,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedmushroomsopen,
 	}
 
 item HCCannedpumpkinopen
@@ -534,6 +565,7 @@ item HCCannedpumpkinopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Pumpkin,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpumpkinopen,
 	}
 
 item HCCannedspamopen
@@ -556,6 +588,7 @@ item HCCannedspamopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Spam,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedspamopen,
 	}
 
 item HCCannedcranberriesopen
@@ -578,6 +611,7 @@ item HCCannedcranberriesopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Cranberries,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedcranberriesopen,
 	}
 
 item HCCannedpineappleopen
@@ -600,6 +634,7 @@ item HCCannedpineappleopen
 	CantBeFrozen			=	TRUE,
     EvolvedRecipeName 		= 	Canned Pineapple,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpineappleopen,
 	}
 
 item HCCannedrefriedbeansopen
@@ -622,6 +657,7 @@ item HCCannedrefriedbeansopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Refried Beans,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedrefriedbeansopen,
 	}
 
 item HCCannedcreamofchickenopen
@@ -643,6 +679,7 @@ item HCCannedcreamofchickenopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Cream of Chicken,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = CanOpenSoup,
     	}
 
 item HCCannedsoupclassicopen
@@ -665,6 +702,7 @@ item HCCannedsoupclassicopen
 	ReplaceOnUse			=	HCCannedsoupclassicempty,
         EvolvedRecipeName 		= 	Canned Classic Soup,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = CanOpenSoup,
 	}
 
 item HCCanbangedupopen
@@ -688,6 +726,7 @@ item HCCanbangedupopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Shit,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCanbangedupopen,
 	}
 
 item HCCannedcheesesauceopen
@@ -711,6 +750,7 @@ item HCCannedcheesesauceopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Cheese,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedcheesesauceopen,
 	}
 
 item HCCannedchickenbreastopen
@@ -733,6 +773,7 @@ item HCCannedchickenbreastopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Chicken,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedchickenbreastopen,
 	}
 
 item HCCannedfruitcocktailopen
@@ -755,6 +796,7 @@ item HCCannedfruitcocktailopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedfruitcocktailopen,
 	}
 
 item HCCannedgovermentbeefopen
@@ -777,6 +819,7 @@ item HCCannedgovermentbeefopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedgovernmentbeefopen,
 	}
 
 item HCCannedgovermentbreadopen
@@ -799,6 +842,7 @@ item HCCannedgovermentbreadopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Bread,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedgovernmentbreadopen,
 	}
 
 item HCCannedgovermentchickenopen
@@ -821,6 +865,7 @@ item HCCannedgovermentchickenopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedgovermentchickenopen,
 	}
 
 item HCCannedgovermentporkopen
@@ -843,6 +888,7 @@ item HCCannedgovermentporkopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedgovernmentporkopen,
 	}
 
 item HCCannedmacncheeseopen
@@ -865,6 +911,7 @@ item HCCannedmacncheeseopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Pasta,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedmacncheeseopen,
 	}
 
 item HCCannedpiefillingappleopen
@@ -887,6 +934,7 @@ item HCCannedpiefillingappleopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpiefillingappleopen,
 	}
 
 item HCCannedpiefillingcherryopen
@@ -909,6 +957,7 @@ item HCCannedpiefillingcherryopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpiefillingcherryopen,
 	}
 
 item HCCannedpiefillingblueberryopen
@@ -931,6 +980,7 @@ item HCCannedpiefillingblueberryopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Fruit,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedpiefillingblueberryopen,
 	}
 
 item HCCannedravioliopen
@@ -953,6 +1003,7 @@ item HCCannedravioliopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Pasta,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedravioliopen,
 	}
 
 item HCCannedspaghettiringsopen
@@ -975,6 +1026,7 @@ item HCCannedspaghettiringsopen
 	CantBeFrozen			=	TRUE,
    	 EvolvedRecipeName 		= 	Canned Pasta,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Hydrocraft.HCCannedspaghettiringsopen,
 	}
 
 /************************RECIPES************************/
