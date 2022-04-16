@@ -1325,7 +1325,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Bicycle Repair Manual,
 		Icon		=	HCBookbicycle,
-		TeachedRecipes  =   	Repair Bicycle;Dismantle Bicycle;Attach Baskets to Bicycle,
+		TeachedRecipes  =   	Repair Bicycle;Dismantle Bicycle;Attach Baskets to Bicycle;Remove Baskets to Bicycle,
         	ReplaceOnUse    =   	HCBookbicycle,
 		DisplayCategory	=   LitR,
 	}
