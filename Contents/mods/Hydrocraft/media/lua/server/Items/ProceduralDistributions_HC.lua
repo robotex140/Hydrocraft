@@ -2915,16 +2915,24 @@ insertItemListsInProcDistribution( "CrateOfficeSupplies", {   Garageunits_Office
 -- police military
 -- **************
 
-local firearms_items = {
-        "Hydrocraft.HCUzi", 1,
-        "Hydrocraft.HCMagUZI", 1,
-        "Hydrocraft.HCUziSilencer", 0.5,
-        "Hydrocraft.HCAA12", 1,
-        "Hydrocraft.HCMagAA12", 1,
-        "Hydrocraft.HCShotgunSilencer", 0.5,
-};
-insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
-insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
+	local SPAWN_HC_GUNS = true
+	
+	if(SandboxVars.Hydrocraft.SpawnHydrocraftGuns ~= nil) then
+		SPAWN_HC_GUNS = SandboxVars.Hydrocraft.SpawnHydrocraftGuns
+	end
+	
+	if(SPAWN_HC_GUNS) then
+		local firearms_items = {
+				"Hydrocraft.HCUzi", 1,
+				"Hydrocraft.HCMagUZI", 1,
+				"Hydrocraft.HCUziSilencer", 0.5,
+				"Hydrocraft.HCAA12", 1,
+				"Hydrocraft.HCMagAA12", 1,
+				"Hydrocraft.HCShotgunSilencer", 0.5,
+		};
+		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
+		insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
+	end
 
 local fridge_items = {
         "Hydrocraft.HCUHTmilk", 0.8,
