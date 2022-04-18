@@ -362,7 +362,7 @@ item HCHeelerdead
 	Weight 				= 	5,
 	Type                		= 	Normal,
 	DisplayName 			= 	Dead Heeler,
-	Icon				=	HCHeelerdead
+	Icon				=	HCHeelerdead,
 		DisplayCategory	= AnimalDead,
 	}
 
