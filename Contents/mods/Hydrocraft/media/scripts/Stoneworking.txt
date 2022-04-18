@@ -150,7 +150,7 @@ item HCGrindstone
         Weight    		= 20,
         Type    		= Normal,
         DisplayName     = Grindstone,
-        icon 			= HCGrindstone
+        icon 			= HCGrindstone,
 		DisplayCategory	= CraftMas,
     } 
 
