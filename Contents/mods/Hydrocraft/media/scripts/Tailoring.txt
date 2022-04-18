@@ -714,6 +714,7 @@ item HCBathtoweldirty
 		DisplayCategory	= CraftTailor,
     }
 
+/* Removed, this is what caused zeds to be wearing wools socks.  I think that by re-using the ClothingItem from vanilla socks, the game was doing a reverse lookup, e.g. Socks_Ankle?  Ah, you mean these wools sock!
 
 item HCSocksWoolAnkle
     {
@@ -742,7 +743,7 @@ item HCSocksWoolLong
         weight          = 0.1,
 		DisplayCategory	= ClothN,
     }
-
+*/
 item HCSweaterWoolThick
     {
         Type            = Clothing,
@@ -1823,7 +1824,7 @@ recipe Knit Wool Socks
         keep KnittingNeedles/HCTailoringbench2,
         HCYarn=2,
         CanBeDoneFromFloor:true,   
-        Result:HCSocksWoolAnkle,
+        Result:Socks_Ankle,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
         Time:500,
@@ -1836,7 +1837,7 @@ recipe Knit Long Wool Socks
         keep KnittingNeedles/HCTailoringbench2,
         HCYarn=4,
         CanBeDoneFromFloor:true,  
-        Result:HCSocksWoolLong,
+        Result:Socks_Long,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
         Time:500,
