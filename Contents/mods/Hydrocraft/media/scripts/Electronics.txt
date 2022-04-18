@@ -1595,7 +1595,6 @@ recipe Make Computer Tower
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputer,
