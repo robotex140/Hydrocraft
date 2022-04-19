@@ -1547,6 +1547,16 @@ function recipe_unboxramenflat(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCCardboardflat", 0, player);
 end
 
+--pickling
+function recipe_hcsaltshaker(items,result,player)
+	player:getInventory():AddItem("Hydrocraft.HCSaltshakerempty");
+end
+
+function recipe_hcsaltshakerandbowls(items,result,player)
+	player:getInventory():AddItem("Hydrocraft.HCSaltshakerempty");
+	HCRecipeBowls(items, result, player)
+end
+
 --Kitchen Stuff (Item Returns)
 
 function recipe_hcnapkinholder(items, result, player)
