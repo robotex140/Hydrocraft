@@ -21,7 +21,7 @@ item HCHubcap
     {
         Weight    		= 1,
         Type    		= Normal,
-        DisplayName         	= Hubcap,
+        DisplayName     = Hubcap,
         icon 			= HCHubcap,
 		DisplayCategory = Junk,
     }
@@ -30,27 +30,27 @@ item HCAirfreshener
     {
         Weight    		= 0.1,
         Type    		= Normal,
-        DisplayName         	= Air Freshener,
+        DisplayName     = Air Freshener,
         icon 			= HCAirfreshener,
 		DisplayCategory = Useless,
     }
 
 item HCMotoroil
     {
-        Weight    		= 0.2,
-	Type			= Drainable,
-	UseWhileEquipped	= FALSE,
-	UseDelta		= 0.25,
-        DisplayName         	= Motor Oil,
-        icon 			= HCMotoroil,
-	DisplayCategory          =   CraftChem,
+        Weight    		    = 0.2,
+        Type			    = Drainable,
+        UseWhileEquipped    = FALSE,
+        UseDelta		    = 0.25,
+        DisplayName         = Motor Oil,
+        icon 			    = HCMotoroil,
+        DisplayCategory     = CraftChem,
     }
 
 item HCSparkplug
     {
         Weight    		= 0.2,
         Type    		= Normal,
-        DisplayName         	= Spark Plug,
+        DisplayName     = Spark Plug,
         icon 			= HCSparkplug,
 		DisplayCategory = Useless,
     }
@@ -77,7 +77,7 @@ item HCCamshaft
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Camshaft,
+        DisplayName     = Camshaft,
         icon 			= HCCamshaft,
 		DisplayCategory = Junk,
     }
@@ -86,7 +86,7 @@ item HCClutch
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Clutch,
+        DisplayName     = Clutch,
         icon 			= HCClutch,
 		DisplayCategory = Junk,
     }
@@ -95,7 +95,7 @@ item HCDrumbreak
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Drum Brake,
+        DisplayName     = Drum Brake,
         icon 			= HCDrumbreak,
 		DisplayCategory = Junk,
     }
@@ -104,7 +104,7 @@ item HCFanbelt
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Fan Belt,
+        DisplayName     = Fan Belt,
         icon 			= HCFanbelt,
 		DisplayCategory = Useless,
     }
@@ -113,7 +113,7 @@ item HCLicenceplate
     {
         Weight    		= 0.1,
         Type    		= Normal,
-        DisplayName         	= Licence Plate,
+        DisplayName     = Licence Plate,
         icon 			= HCLicenceplate,
 		DisplayCategory = Useless,
     }
@@ -122,7 +122,7 @@ item HCOilfilter
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Oil Filter,
+        DisplayName     = Oil Filter,
         icon 			= HCOilfilter,
 		DisplayCategory = Useless,
     }
@@ -131,7 +131,7 @@ item HCRadiator
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Radiator,
+        DisplayName     = Radiator,
         icon 			= HCRadiator,
 		DisplayCategory = Junk,
     }
@@ -140,7 +140,7 @@ item HCRotor
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Rotor,
+        DisplayName     = Rotor,
         icon 			= HCRotor,
 		DisplayCategory = Junk,
     }
@@ -149,56 +149,56 @@ item HCWiper
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Wiper,
+        DisplayName     = Wiper,
         icon 			= HCWiper,
 		DisplayCategory = Junk,
     }
 
 item HCStarterfluidempty
     {
-        Weight    		= 	0.1,
-	Type			= 	Normal,
-        DisplayName         	= 	Empty Starter Fluid,
-        icon 			= 	HCStarterfluid,
+        Weight    		= 0.1,
+        Type			= Normal,
+        DisplayName     = Empty Starter Fluid,
+        icon 			= HCStarterfluid,
 		DisplayCategory = Useless,
     }
 
 item HCStarterfluid
     {
-    Weight    		    = 	0.3,
-	Type			    = 	Drainable,
-	UseWhileEquipped	= 	FALSE,
-	UseDelta		    = 	0.25,
-    DisplayName     	= 	Starter Fluid,
-	ReplaceOnDeplete	=	HCStarterfluidempty,
-    icon 			    = 	HCStarterfluid,
-	DisplayCategory          =   CraftChem,
+        Weight    		    = 0.3,
+        Type			    = Drainable,
+        UseWhileEquipped	= FALSE,
+        UseDelta		    = 0.25,
+        DisplayName     	= Starter Fluid,
+        ReplaceOnDeplete	= HCStarterfluidempty,
+        Icon 			    = HCStarterfluid,
+        DisplayCategory     = CraftChem,
     }
 
 item HCCarbattery
     {
-        Weight    		        = 5,
-        Type    		        = Normal,
-	DisplayName			= Car Battery with Clamps,
-	Icon				= HCCarbattery,
-	DisplayCategory          =   CraftElec,
+        Weight    		    = 5,
+        Type    		    = Normal,
+        DisplayName			= Car Battery with Clamps,
+        Icon				= HCCarbattery,
+        DisplayCategory     = CraftElec,
     }
 
 item HCJeepLeft
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Jeep,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Jeep,
         icon 			= HCJeepLeft,
     }
 
 item HCJeepLeftDirty
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Jeep,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Jeep,
         icon 			= HCJeepLeftDirty,
 	
     }
@@ -206,9 +206,9 @@ item HCJeepLeftDirty
 item HCJeepRight
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Jeep,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Jeep,
         icon 			= HCJeepRight,
 	
     }
@@ -216,9 +216,9 @@ item HCJeepRight
 item HCJeepRightDirty
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Jeep,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Jeep,
         icon 			= HCJeepRightDirty,
 	
     }
@@ -226,27 +226,25 @@ item HCJeepRightDirty
 item HCTractorL
     {
         Weight    		= 50,
-	Type                	= Normal,
-        DisplayName         	= Tractor,
+        Type            = Normal,
+        DisplayName     = Tractor,
         icon 			= HCTractorL,
-	
     }
 
 item HCTractorR
     {
         Weight    		= 50,
-	Type                	= Normal,
-        DisplayName         	= Tractor,
+        Type            = Normal,
+        DisplayName     = Tractor,
         icon 			= HCTractorR,
-	
     }
 
 item HCCar1L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar1L,
 	
     }
@@ -254,9 +252,9 @@ item HCCar1L
 item HCCar1R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar1R,
 	
     }
@@ -264,9 +262,9 @@ item HCCar1R
 item HCCar2L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar2L,
 	
     }
@@ -274,9 +272,9 @@ item HCCar2L
 item HCCar2R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar2R,
 	
     }
@@ -284,9 +282,9 @@ item HCCar2R
 item HCCar3L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar3L,
 	
     }
@@ -294,9 +292,9 @@ item HCCar3L
 item HCCar3R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar3R,
 	
     }
@@ -304,9 +302,9 @@ item HCCar3R
 item HCCar4L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar4L,
 	
     }
@@ -314,9 +312,9 @@ item HCCar4L
 item HCCar4R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar4R,
 	
     }
@@ -324,9 +322,9 @@ item HCCar4R
 item HCCar5L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar5L,
 	
     }
@@ -334,9 +332,9 @@ item HCCar5L
 item HCCar5R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar5R,
 	
     }
@@ -344,9 +342,9 @@ item HCCar5R
 item HCCar6L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar6L,
 	
     }
@@ -354,9 +352,9 @@ item HCCar6L
 item HCCar6R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar6R,
 	
     }
@@ -364,9 +362,9 @@ item HCCar6R
 item HCCar7L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar7L,
 	
     }
@@ -374,9 +372,9 @@ item HCCar7L
 item HCCar7R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar7R,
 	
     }
@@ -384,9 +382,9 @@ item HCCar7R
 item HCCar8L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar8L,
 	
     }
@@ -394,9 +392,9 @@ item HCCar8L
 item HCCar8R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar8R,
 	
     }
@@ -404,9 +402,9 @@ item HCCar8R
 item HCCar9L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar9L,
 	
     }
@@ -414,9 +412,9 @@ item HCCar9L
 item HCCar9R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar9R,
 	
     }
@@ -424,9 +422,9 @@ item HCCar9R
 item HCCar10L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar10L,
 	
     }
@@ -434,9 +432,9 @@ item HCCar10L
 item HCCar10R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar10R,
 	
     }
@@ -444,9 +442,9 @@ item HCCar10R
 item HCCar11L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar11L,
 	
     }
@@ -454,9 +452,9 @@ item HCCar11L
 item HCCar11R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar11R,
 	
     }
@@ -464,9 +462,9 @@ item HCCar11R
 item HCCar12L
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar12L,
 	
     }
@@ -474,74 +472,74 @@ item HCCar12L
 item HCCar12R
     {
         Weight    		= 50,
-	Type                	= Container,
-	Capacity             	= 500,
-        DisplayName         	= Car,
+        Type            = Container,
+        Capacity        = 500,
+        DisplayName     = Car,
         icon 			= HCCar12R,
 	
     }
 
 item HCBicycle
 	{
-	WeightReduction         	= 75,
-	Weight             		= 3,
-	Type                		= Container,
-	Capacity             		= 4,
-	DisplayName             	= Bicycle,
-	Icon				= HCBicycle,
-	DisplayCategory          =   Container,
-	RequiresEquippedBothHands 	= true,
+        WeightReduction        	    = 75,
+        Weight             		    = 3,
+        Type                	    = Container,
+        Capacity             	    = 4,
+        DisplayName                 = Bicycle,
+        Icon				        = HCBicycle,
+        DisplayCategory             = Container,
+        RequiresEquippedBothHands 	= true,
 	}
 
 item HCBicycle2
 	{
-	WeightReduction         	= 75,
-	Weight             		= 5,
-	Type                		= Container,
-	Capacity             		= 32,
-	DisplayName             	= Bicycle with Baskets,
-	Icon				= HCBicycle2,
-	DisplayCategory          =   Container,
-	RequiresEquippedBothHands 	= true,
+        WeightReduction             = 75,
+        Weight             		    = 5,
+        Type                	    = Container,
+        Capacity             	    = 32,
+        DisplayName                 = Bicycle with Baskets,
+        Icon				        = HCBicycle2,
+        DisplayCategory             = Container,
+	    RequiresEquippedBothHands 	= true,
 	}
 
 item HCMotorcycle
 	{
-	WeightReduction         	= 75,
-	Weight             		= 20,
-	Type                		= Container,
-	Capacity             		= 4,
-	DisplayName             	= Motorcycle,
-	Icon				= HCMotorcycle,
-	DisplayCategory          =   Container,
-	RequiresEquippedBothHands 	= true,
+        WeightReduction         	= 75,
+        Weight             		    = 20,
+        Type                		= Container,
+        Capacity             		= 4,
+        DisplayName             	= Motorcycle,
+        Icon				        = HCMotorcycle,
+        DisplayCategory             = Container,
+        RequiresEquippedBothHands 	= true,
 	}
 
 item HCBicyclepump
     {
         Weight    		= 0.3,
         Type    		= Normal,
-        DisplayName         	= Bicycle Pump,
+        DisplayName     = Bicycle Pump,
         icon 			= HCBicyclepump,
-		DisplayCategory          =   CraftMisc,
+		DisplayCategory = CraftMisc,
     }
 
 item HCBicyclewheel
     {
         Weight    		= 0.5,
         Type    		= Normal,
-        DisplayName         	= Bicycle Wheel,
+        DisplayName     = Bicycle Wheel,
         icon 			= HCBicyclewheel,
-		DisplayCategory          =   CraftMisc,
+		DisplayCategory = CraftMisc,
     }
 
 /************************RECIPES************************/	
 
 recipe Attach Clamps to Car Battery
-   {
-	SkillRequired:Electricity=1,
-	destroy CarBattery1/CarBattery2/CarBattery3,
-	HCElectricclamp=2,  
+    {
+        SkillRequired:Electricity=1,
+        destroy CarBattery1/CarBattery2/CarBattery3,
+        HCElectricclamp=2,  
         Result:HCCarbattery,
         Time:50,
        	Category:Electrical,
@@ -549,15 +547,15 @@ recipe Attach Clamps to Car Battery
     }
 
 recipe Repair Bicycle
-   {
-	SkillRequired:Mechanics=1,  
-	HCJunkbicycle,
-	HCBicyclewheel,
-	DuctTape=4,
-	HCRubbercement=4,
+    {
+        SkillRequired:Mechanics=1,  
+        HCJunkbicycle,
+        HCBicyclewheel,
+        DuctTape=4,
+        HCRubbercement=4,
         keep Screwdriver,
-	keep HCPliers,
-	keep HCBicyclepump,
+        keep HCPliers,
+        keep HCBicyclepump,
         Result:HCBicycle,
         Time:500,
         NeedToBeLearn:true,
@@ -566,10 +564,10 @@ recipe Repair Bicycle
     }
 
 recipe Attach Baskets to Bicycle
-   {
-	HCStrawbasket=2,
-	Rope,  
-	HCBicycle,
+    {
+	    HCStrawbasket=2,
+	    Rope,  
+	    HCBicycle,
         Result:HCBicycle2,
         Time:50,
         NeedToBeLearn:true,
@@ -577,8 +575,8 @@ recipe Attach Baskets to Bicycle
     }
 
 recipe Remove Baskets to Bicycle
-   {
-	HCBicycle2,
+    {
+	    HCBicycle2,
         Result:HCBicycle,
         Time:50,
         NeedToBeLearn:true,
