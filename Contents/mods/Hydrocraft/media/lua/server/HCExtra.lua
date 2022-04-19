@@ -1547,6 +1547,16 @@ function recipe_unboxramenflat(items, result, player)
 	HCAddManySameItem("Hydrocraft.HCCardboardflat", 0, player);
 end
 
+--pickling
+function recipe_hcsaltshaker(items,result,player)
+	player:getInventory():AddItem("Hydrocraft.HCSaltshakerempty");
+end
+
+function recipe_hcsaltshakerandbowls(items,result,player)
+	player:getInventory():AddItem("Hydrocraft.HCSaltshakerempty");
+	HCRecipeBowls(items, result, player)
+end
+
 --Kitchen Stuff (Item Returns)
 
 function recipe_hcnapkinholder(items, result, player)
@@ -2352,7 +2362,7 @@ end
 
 --Random Gifts
 function HCRandomGiftGet(items, result, player)
-giftSet = {"Hydrocraft.HCBookanarchist", "Hydrocraft.HCBinoculars", "Hydrocraft.HCCamera",  "Hydrocraft.HCCalculator", "Hydrocraft.HCLaserpointer", "Base.Spiffo", "Hydrocraft.HCToyrobot", "Hydrocraft.HCToydrawing",  "Hydrocraft.HCDVDPlayer", "Base.Book", "Base.Whiskey", "Base.Wine", "Base.Wine2", "Base.FishingRod", "Base.Headphones",  "Base.Radio", "Base.DigitalWatch", "Hydrocraft.HCFlashlightoff","Hydrocraft.HCBookbedtime", "Hydrocraft.HCBookfairytale", "Hydrocraft.HCDogwhistle"};
+giftSet = {"Hydrocraft.HCBookanarchist", "Hydrocraft.HCBinoculars", "Hydrocraft.HCCamera",  "Hydrocraft.HCCalculator", "Hydrocraft.HCLaserpointer", "Base.Spiffo", "Hydrocraft.HCToyrobot", "Hydrocraft.HCToydrawing",  "Hydrocraft.HCDVDPlayer", "Base.Book", "Base.WhiskeyFull", "Base.Wine", "Base.Wine2", "Base.FishingRod", "Base.Headphones",  "Base.Radio", "Base.DigitalWatch", "Hydrocraft.HCFlashlightoff","Hydrocraft.HCBookbedtime", "Hydrocraft.HCBookfairytale", "Hydrocraft.HCDogwhistle"};
     gift = ZombRand(#giftSet) + 1;
     player:getInventory():AddItem(giftSet[gift]);
 end

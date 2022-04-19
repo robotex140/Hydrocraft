@@ -1,7 +1,7 @@
 version=1
 id=2778991696
 title=HydroCraft b41 Continued
-description=[h1]Latest Hydrocraft mod for b41[/h1]
+description=[h1]Latest Hydrocraft mod for b41 - for both MP & SP[/h1]
 description=
 description=[h1]recent update highlights 05-Apr-2022[/h1]
 description=[list]
@@ -16,11 +16,8 @@ description=
 description=There are 2 other main hydrocraft mods. One is the b40 version made by Hydromancerx and is no longer being updated. The other one is by David Hasihoff on steam. This was the [b]previous[/b] version of hydrocraft for b41, but is now no longer updated. I am now taking over with some help to continue fixing and improving Hydrocraft as a whole.
 description=
 description=
-description=If you need any help, feel free to come to this [url=https://discord.gg/YPTmpqacCE]discord[/url] to ask questions in the questions channel.
+description=If you need any help, feel free to come to this [url=https://discord.gg/hUMsjfApUt]discord[/url] to ask questions in the questions channel.
 description=
-description=We also now have a public [url=https://github.com/robotex140/Hydrocraft]github[/url] if you want to contribute or make bug reports and the like
-description=
-description=Workshop ID: 2778991696
-description=Mod ID: Hydrocraft
+description=We also now have a public [url=https://github.com/robotex140/Hydrocraft]github[/url] if you want to contribute or make bug reports and the like
 tags=Build 41;Building;Clothing/Armor;Food;Items;Literature;Multiplayer;Weapons
 visibility=public

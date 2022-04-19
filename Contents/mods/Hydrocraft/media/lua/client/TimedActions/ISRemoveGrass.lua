@@ -45,9 +45,9 @@ function ISRemoveGrass:perform()
 	sendClientCommand(self.character, 'object', 'removeGrass', args)
 
 	ISBaseTimedAction.perform(self)
-	if(ZombRand(4) == 0) then
-		self.character:getInventory():AddItem("Hydrocraft.HCGrass")
-	end
+	--if(ZombRand(4) == 0) then
+	self.character:getInventory():AddItem("Hydrocraft.HCGrass")
+	--end
 end
 
 function ISRemoveGrass:new(character, square)
