@@ -7,7 +7,9 @@ Sandbox_EN = {
 	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "Give book covers when you remove the cover of a book? (Useless item)"
 
 	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Cigarette butts?"
-	
+
+	Sandbox_Hydrocraft_Show_Damage_On_Hit = "Show Damage On Hit"
+
 	Sandbox_Hydrocraft_Burn_Damage = "Smithing Burn Damage",
 	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Changes the burn damage received when using the Kiln, Smelter, Blast Furnace and Industrial Furnace."
 	Sandbox_Hydrocraft_Burn_Damage_option1 = "Full (default)"

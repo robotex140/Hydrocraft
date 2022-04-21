@@ -23,6 +23,14 @@ option Hydrocraft.SpawnCigaretteButts
 	translation = Hydrocraft_Spawn_Cigarette_Butts,
 }
 
+option Hydrocraft.ShowDamage
+{
+	type = boolean,
+	default = false,
+	page = Hydrocraft,
+	translation = Hydrocraft_Show_Damage_On_Hit,
+}
+
 option Hydrocraft.BurnDamage
 {
 	type = enum,
