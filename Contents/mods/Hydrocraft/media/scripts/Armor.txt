@@ -665,14 +665,24 @@ item HCArmoriron
 
 
 item HCArmorbronze
-    	{
-        Weight    		= 10.0,
-        Type    		= Normal,
-        DisplayName         	= Bronze Armor,
-        icon 			= HCArmorbronze,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+    {
+		Type             = Clothing,
+		ClothingItem     = HCArmorbronze,
+		BodyLocation     = TorsoExtra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Bronze Armor,
+        Icon 			 = HCArmorbronze,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
 
 item HCArmorcopper
     	{
