@@ -81,237 +81,237 @@ module Hydrocraft
     mesh = weapons/HCWardog,
     texture = weapons/HCWardog,
   }
-  model HCCannedapple
+	model HCCannedapple
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedApple,
   }
-  model HCCannedpear
+	model HCCannedpear
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedPear,
   }
-  model HCCannedgreenbeans
+	model HCCannedgreenbeans
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGreenBeans,
   }
-  model HCCannedshrooms
+	model HCCannedshrooms
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedShrooms,
   }
-  model HCCannedpumpkin
+	model HCCannedpumpkin
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedPumpkin,
   }
-  model HCCannedspam
+	model HCCannedspam
   {
     mesh = WorldItems/HCCannedSpam,
     texture = WorldItems/HCCannedSpam,
   }
-  model HCCannedcranberries
+	model HCCannedcranberries
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedCranberries,
   }
-  model HCCannedpineapple
+	model HCCannedpineapple
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedPineapple,
   }
-  model HCCannedrefriedbeans
+	model HCCannedrefriedbeans
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedRefriedBeans,
   }
-  model HCCanbangedup
+	model HCCanbangedup
   {
     mesh = CanClosed,
     texture = WorldItems/HCCanBangedUp,
   }
-  model HCCannedcheesesauce
+	model HCCannedcheesesauce
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedchickenbreast
+	model HCCannedchickenbreast
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedfruitcocktail
+	model HCCannedfruitcocktail
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedmacncheese
+	model HCCannedmacncheese
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedgovermentbeef
+	model HCCannedgovermentbeef
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGovernmentBeef,
   }
-  model HCCannedgovernmentbread
+	model HCCannedgovernmentbread
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGovernmentBread,
   }
-  model HCCannedgovernmentchicken
+	model HCCannedgovernmentchicken
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGovernmentChicken,
   }
-  model HCCannedgovernmentpork
+	model HCCannedgovernmentpork
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedGovernmentPork,
   }
-  model HCCannedpiefillingapple
+	model HCCannedpiefillingapple
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedPieFillingApple,
   }
-  model HCCannedpiefillingblueberry
+	model HCCannedpiefillingblueberry
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedPieFillingBlueberry,
   }
-  model HCCannedpiefillingcherry
+	model HCCannedpiefillingcherry
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedPieFillingCherry,
   }
-  model HCCannedravioli
+	model HCCannedravioli
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedRavioli,
   }
-  model HCCannedspaghettirings
+	model HCCannedspaghettirings
   {
     mesh = CanClosed,
     texture = WorldItems/HCCannedSpaghettiRings,
   }
-  model HCCannedappleopen
+	model HCCannedappleopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedApple,
   }
-  model HCCannedpearopen
+	model HCCannedpearopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedPear,
   }
-  model HCCannedgreenbeansopen
+	model HCCannedgreenbeansopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGreenBeans,
   }
-  model HCCannedshroomsopen
+	model HCCannedshroomsopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedShrooms,
   }
-  model HCCannedpumpkinopen
+	model HCCannedpumpkinopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedPumpkin,
   }
-  model HCCannedspamopen
+	model HCCannedspamopen
   {
     mesh = WorldItems/HCCannedSpam,
     texture = WorldItems/HCCannedSpam,
   }
-  model HCCannedcranberriesopen
+	model HCCannedcranberriesopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedCranberries,
   }
-  model HCCannedpineappleopen
+	model HCCannedpineappleopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedPineapple,
   }
-  model HCCannedrefriedbeansopen
+	model HCCannedrefriedbeansopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedRefriedBeans,
   }
-  model HCCanbangedupopen
+	model HCCanbangedupopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCanBangedUp,
   }
-  model HCCannedcheesesauceopen
+	model HCCannedcheesesauceopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedchickenbreastopen
+	model HCCannedchickenbreastopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedfruitcocktailopen
+	model HCCannedfruitcocktailopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedmacncheeseopen
+	model HCCannedmacncheeseopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGeneric,
   }
-  model HCCannedgovermentbeefopen
+	model HCCannedgovermentbeefopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGovernmentBeef,
   }
-  model HCCannedgovernmentbreadopen
+	model HCCannedgovernmentbreadopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGovernmentBread,
   }
-  model HCCannedgovernmentchickenopen
+	model HCCannedgovernmentchickenopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGovernmentChicken,
   }
-  model HCCannedgovernmentporkopen
+	model HCCannedgovernmentporkopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGovernmentPork,
   }
-  model HCCannedpiefillingappleopen
+	model HCCannedpiefillingappleopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedPieFillingApple,
   }
-  model HCCannedpiefillingblueberryopen
+	model HCCannedpiefillingblueberryopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedPieFillingBlueberry,
   }
-  model HCCannedpiefillingcherryopen
+	model HCCannedpiefillingcherryopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedPieFillingCherry,
   }
-  model HCCannedravioliopen
+	model HCCannedravioliopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedRavioli,
   }
-  model HCCannedspaghettiringsopen
+	model HCCannedspaghettiringsopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedSpaghettiRings,
   }
-  model HCAluminiumbat
+	model HCAluminiumbat
   {
     mesh = weapons/2handed/Baseballbat,
     texture = weapons/HCAluminumBat,
@@ -386,7 +386,7 @@ module Hydrocraft
 			rotate = 0.0000 0.0000 0.0000,
 		}
   }
-  model HCSmithyhammercopper
+	model HCSmithyhammercopper
   {
     mesh = weapons/HCSmithyHammer,
     texture = weapons/HCSmithyHammerCopper,
@@ -397,7 +397,7 @@ module Hydrocraft
 			rotate = 180.0000 -90.0000 180.0000,
 		}
   }
-  model HCSmithyhammerbronze
+	model HCSmithyhammerbronze
   {
     mesh = weapons/HCSmithyHammer,
     texture = weapons/HCSmithyHammerBronze,
@@ -419,7 +419,7 @@ module Hydrocraft
 			rotate = 180.0000 -90.0000 180.0000,
 		}
 	}
-  model HCSmithyhammersteel
+	model HCSmithyhammersteel
   {
     mesh = weapons/HCSmithyHammer,
     texture = weapons/HCSmithyHammerSteel,
@@ -430,7 +430,7 @@ module Hydrocraft
 			rotate = 180.0000 -90.0000 180.0000,
 		}
   }
-  model HCSmithyhammertitanium
+	model HCSmithyhammertitanium
   {
     mesh = weapons/HCSmithyHammer,
     texture = weapons/HCSmithyHammerTitanium,
@@ -471,4 +471,48 @@ module Hydrocraft
     texture = WorldItems/HCCigaretteCartonMenthol,
     scale = 0.4,
   }
+	model HCScythecopper
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheCopper,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+  model HCScythebronze
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheBronze,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+  model HCScytheiron
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheIron,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+  model HCScythesteel
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheSteel,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
 }
