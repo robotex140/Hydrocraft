@@ -770,7 +770,7 @@ local function EveryOneMinute()
 			inv:AddItems(flower, ZombRand(4)+1)--1 to 4 flowers
 			xp = true
 		end
-	elseif(c == "Dung" and readMammalGuide) then
+	elseif(c == "Dung") then
 		local dung = randomDung(zoneType)
 		if(dung ~= nil) then
 			inv:AddItem(dung)
