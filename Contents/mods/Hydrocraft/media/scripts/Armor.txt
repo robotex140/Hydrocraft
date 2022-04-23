@@ -129,14 +129,24 @@ item HCHelmiron
     	}
 
 item HCHelmbronze
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Bronze Helmet,
-        icon 			= HCHelmbronze,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmbronze,
+		BodyLocation     = Hat,
+		DisplayName      = Bronze Helmet,
+		icon 			 = HCHelmbronze,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = WorldItems/HCHelmBronze,
+	}
 
 item HCHelmcopper
     	{

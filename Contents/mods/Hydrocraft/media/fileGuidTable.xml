@@ -5,6 +5,10 @@
 		<guid>47f9b272-9abc-4571-9c43-7caf320dfe38</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HCHelmbronze.xml</path>
+		<guid>970e9112-95b2-4dd4-9617-91cbcc0cfb14</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/HCFiresuit.xml</path>
 		<guid>6b9416a3-8075-43e4-8568-3720b15485dd</guid>
 	</files>
