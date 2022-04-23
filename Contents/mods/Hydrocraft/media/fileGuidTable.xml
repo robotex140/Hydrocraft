@@ -9,6 +9,10 @@
 		<guid>970e9112-95b2-4dd4-9617-91cbcc0cfb14</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HCLegarmorbronze.xml</path>
+		<guid>40a0109b-e118-4e67-8481-4da212ed5e6c</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/HCFiresuit.xml</path>
 		<guid>6b9416a3-8075-43e4-8568-3720b15485dd</guid>
 	</files>

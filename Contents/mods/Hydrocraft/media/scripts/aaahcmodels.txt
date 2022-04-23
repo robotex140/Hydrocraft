@@ -515,4 +515,8 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
+  model HCHelmbronze {
+    mesh = WorldItems/HCHelmBronze,
+    texture = WorldItems/HCHelmBronze,
+  }
 }

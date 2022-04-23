@@ -145,7 +145,7 @@ item HCHelmbronze
         ChanceToFall     = 0,
         Insulation       = 0.8,
         WindResistance   = 0.8,
-		WorldStaticModel = WorldItems/HCHelmBronze,
+		WorldStaticModel = Hydrocraft.HCHelmbronze,
 	}
 
 item HCHelmcopper
@@ -928,14 +928,22 @@ item HCLegarmoriron
     	}
 
 item HCLegarmorbronze
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Bronze Leg Guards,
-        icon 			= HCLegarmorbronze,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmorbronze,
+		BodyLocation            = Legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Bronze Leg Guards,
+		icon 			        = HCLegarmorbronze,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+	}
 
 item HCLegarmorcopper
     	{
