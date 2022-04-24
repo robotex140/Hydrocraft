@@ -119,14 +119,24 @@ item HCHelmsteel
     	}
 
 item HCHelmiron
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Iron Helmet,
-        icon 			= HCHelmiron,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmiron,
+		BodyLocation     = Hat,
+		DisplayName      = Iron Helmet,
+		icon 			 = HCHelmiron,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = Hydrocraft.HCHelmiron,
+	}
 
 item HCHelmbronze
 	{
@@ -664,14 +674,24 @@ item HCArmorsteel
 
 
 item HCArmoriron
-    	{
-        Weight    		= 10.0,
-        Type    		= Normal,
-        DisplayName         	= Iron Armor,
-        icon 			= HCArmoriron,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Type             = Clothing,
+		ClothingItem     = HCArmoriron,
+		BodyLocation     = TorsoExtra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Iron Armor,
+        Icon 			 = HCArmoriron,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
 
 
 item HCArmorbronze
@@ -918,14 +938,22 @@ item HCLegarmorsteel
     	}
 
 item HCLegarmoriron
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Iron Leg Guards,
-        icon 			= HCLegarmoriron,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+    {
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmoriron,
+		BodyLocation            = Legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Iron Leg Guards,
+		icon 			        = HCLegarmoriron,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+	}
 
 item HCLegarmorbronze
 	{

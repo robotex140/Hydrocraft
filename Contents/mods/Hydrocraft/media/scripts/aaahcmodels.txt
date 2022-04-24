@@ -519,6 +519,10 @@ module Hydrocraft
     mesh = WorldItems/HCHelmBronze,
     texture = WorldItems/HCHelmBronze,
   }
+  model HCHelmiron {
+    mesh = WorldItems/HCHelmIron,
+    texture = WorldItems/HCHelmIron,
+  }
 	model HCCrossbow
 	{
 		mesh = weapons/HCCrossbow,
