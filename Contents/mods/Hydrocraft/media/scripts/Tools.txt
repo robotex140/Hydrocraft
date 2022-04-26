@@ -1125,8 +1125,8 @@ recipe Unbox Bolts
 
 recipe Box Nuts
     {
-    HCBolt=100,
-    Result:HCBoltbox,
+    HCNut=100,
+    Result:HCNutbox,
     Time:15,
     }
 
