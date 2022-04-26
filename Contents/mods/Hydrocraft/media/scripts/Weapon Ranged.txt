@@ -268,13 +268,27 @@ item HCMetalArrowhead
 
 	item HCArrow
 	{
-		Count		=	1,
-		DisplayName	=	Arrows,
-		Icon		=	HCArrow,
-        	Type        	=    	Normal,
-        	DisplayCategory =    	Ammo,
-		Weight		=	0.05,
+        Count		=	1,
+        DisplayName	=	Arrows,
+        Icon		=	HCArrow,
+        Type = Normal,
+        DisplayCategory =    	Ammo,
+        Weight		=	0.05,
+        WorldStaticModel = Hydrocraft.HCArrow,
 	}
+
+    item HCArrowAttachment
+    {
+        Count		=	1,
+        DisplayName	=	Arrows,
+        Icon		=	HCArrow,
+        Type = WeaponPart,
+        DisplayCategory =    	Ammo,
+        Weight		=	0.05,
+        WorldStaticModel = Hydrocraft.HCArrowAttachment,
+        MountOn = Hydrocraft.HCLongbow,
+        PartType = Clip,
+    }
 
 
  item HCMagLongbow
@@ -468,7 +482,7 @@ item HCCrossbow
     {
         ImpactSound =   null,
         MaxRange    =   8,
-        WeaponSprite    =   Poolcue,
+        WeaponSprite    =   Hydrocraft.HCLongbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
         Type    =   Weapon,
@@ -525,12 +539,14 @@ item HCCrossbow
         EjectAmmoSound = M9EjectAmmo,
         RackSound = BulletOutVarmint,
         AmmoType = Hydrocraft.HCArrow,
-        WeaponReloadType = shotgun,
+        WeaponReloadType = Longbow,
 		RackAfterShoot = FALSE,
         JamGunChance = 0,
         AttachmentType = Rifle,
         MaxAmmo = 1,
 		DisplayCategory	= WepBow,
+        HaveChamber = FALSE,
+        ModelWeaponPart = Hydrocraft.HCArrowAttachment Hydrocraft.HCArrowAttachment mag mag,
     }
 
 

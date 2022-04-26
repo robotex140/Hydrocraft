@@ -482,7 +482,7 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
-  model HCScythebronze
+	model HCScythebronze
 	{
 		mesh = weapons/HCScythe,
 		texture = weapons/HCScytheBronze,
@@ -493,7 +493,7 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
-  model HCScytheiron
+	model HCScytheiron
 	{
 		mesh = weapons/HCScythe,
 		texture = weapons/HCScytheIron,
@@ -504,7 +504,7 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
-  model HCScythesteel
+	model HCScythesteel
 	{
 		mesh = weapons/HCScythe,
 		texture = weapons/HCScytheSteel,
@@ -514,5 +514,56 @@ module Hydrocraft
 			offset = 0.0000 0.0000 0.0000,
 			rotate = 0.0000 -90.0000 0.0000,
 		}
+	}
+	model HCLongbow
+	{
+		mesh = weapons/HCLongbow,
+		texture = weapons/HCLongbow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment mag
+		{
+			offset = 0.0000 -0.0020 0.0000,
+			rotate = -180.0000 0.0000 0.0000,
+		}
+
+		attachment rifle_back
+		{
+			offset = -0.0400 0.0000 0.0000,
+			rotate = 1.0000 15.0000 4.0000,
+		}
+	}
+	model HCLongbowDrawn
+  {
+    mesh = weapons/HCLongbowDrawn,
+    texture = weapons/HCLongbow,
+
+    attachment mag
+		{
+			offset = 0.0000 -0.0020 0.0000,
+			rotate = -180.0000 0.0000 0.0000,
+		}
+
+    attachment rifle_back
+		{
+			offset = -0.0400 0.0000 0.0000,
+			rotate = 1.0000 15.0000 4.0000,
+		}
+  }
+	model HCArrow
+	{
+		mesh = weapons/HCArrow,
+		texture = weapons/HCArrow,
+	}
+	model HCArrowAttachment
+	{
+		mesh = weapons/HCArrow,
+		texture = weapons/HCArrow,
+    scale = 0.01,
 	}
 }
