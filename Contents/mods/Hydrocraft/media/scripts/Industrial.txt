@@ -741,7 +741,7 @@ recipe Build Trip Hammer
 	SkillRequired:Woodwork=8;Mechanics=3;,
 	HCWoodbeam=2,
     Sledgehammer2,
-	HCAnvil2,
+	HCAnvil,
 	HCIroningot=2,
 	HCIronrod,
 	Rope,
