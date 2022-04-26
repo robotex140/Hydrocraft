@@ -1210,7 +1210,7 @@ recipe Make Sawbuck
         Log=6,
         Plank=10,
         Nails=10,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
         Result:HCSawbuck,
