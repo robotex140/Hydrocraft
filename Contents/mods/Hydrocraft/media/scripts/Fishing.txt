@@ -150,7 +150,7 @@ item HCFishhookaluminum
     {
         Type		=	Normal,
         DisplayName	=	Aluminum Fishhook,
-        Icon		=	HCFishhookaluminum,
+        Icon		=	HCFishhookaluminium,
         Weight		=	0.01,
 		DisplayCategory =   SurFish,
     }
