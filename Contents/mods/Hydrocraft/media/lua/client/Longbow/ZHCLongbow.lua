@@ -2,6 +2,23 @@ HydroLongbow = HydroLongbow or {};
 
 HydroLongbow.isAiming = false
 
+function HydroLongbow.setReloadSpeed(character)
+    local baseReloadSpeed = 1;
+    baseReloadSpeed = baseReloadSpeed + (character:getPerkLevel(Perks.Reloading) * 0.07);
+	baseReloadSpeed = baseReloadSpeed - (character:getMoodles():getMoodleLevel(MoodleType.Panic) * 0.05);
+
+    -- bonus for quiver
+    local quiver = character:getWornItem('Back')
+    if quiver and quiver:getClothingItemName() == 'HCQuiver' then
+        baseReloadSpeed = baseReloadSpeed * 1.5;
+    end
+    -- vehicles driver take bit longer to reload their weapon
+	if character:getVehicle() and character:getVehicle():getDriver() == character then
+		baseReloadSpeed = baseReloadSpeed * 0.8;
+	end
+    character:setVariable("ReloadSpeed", baseReloadSpeed * GameTime.getAnimSpeedFix());
+end
+
 function HydroLongbow.setLongbowSprite(player, item, spriteName)
     item:setWeaponSprite(spriteName)
     player:resetEquippedHandsModels()
@@ -30,18 +47,17 @@ end
 
 function HydroLongbow.OnPlayerUpdate(player)
     local item = player:getPrimaryHandItem();
-    if item and HydroLongbow.isHydroLongbow(item:getFullType()) then
-        -- We save when the player was last aiming to this module's isAiming var.
-        -- This way we only draw again once the player lets go of aim, then aims again
-        local isAiming = player:IsAiming()
-        local wasAiming = HydroLongbow.isAiming
-        if isAiming and not wasAiming then
-            HydroLongbow.isAiming = true
-            HydroLongbow.setLongbowSprite(player, item, 'Hydrocraft.HCLongbowDrawn')
-        elseif not isAiming and wasAiming then
-            HydroLongbow.isAiming = false
-            HydroLongbow.setLongbowSprite(player, item, 'Hydrocraft.HCLongbow')
-        end
+    if not item or not HydroLongbow.isHydroLongbow(item:getFullType()) then return; end
+    -- We save when the player was last aiming to this module's isAiming var.
+    -- This way we only draw again once the player lets go of aim, then aims again
+    local isAiming = player:IsAiming()
+    local wasAiming = HydroLongbow.isAiming
+    if isAiming and not wasAiming then
+        HydroLongbow.isAiming = true
+        HydroLongbow.setLongbowSprite(player, item, 'Hydrocraft.HCLongbowDrawn')
+    elseif not isAiming and wasAiming then
+        HydroLongbow.isAiming = false
+        HydroLongbow.setLongbowSprite(player, item, 'Hydrocraft.HCLongbow')
     end
 end
 
@@ -95,6 +111,25 @@ function ISUnloadBulletsFromFirearm:animEvent(event, parameter)
         end
     end
     original_animEvent(self, event, parameter)
+end
+
+-- Override base ISRackFirearm action to set the sprite when rack finishes
+local original_removeBullet = ISRackFirearm.removeBullet
+function ISRackFirearm:removeBullet()
+    if HydroLongbow.isHydroLongbow(self.gun:getFullType()) then
+        HydroLongbow.setArrow(self.gun, false)
+    end
+    original_removeBullet(self)
+end
+
+-- Override setReloadSpeed to give a bonus for wearing a quiver
+local original_setReloadSpeed = ISReloadWeaponAction.setReloadSpeed
+function ISReloadWeaponAction.setReloadSpeed(character, rack)
+    local item = character:getPrimaryHandItem()
+    if not item or not HydroLongbow.isHydroLongbow(item:getFullType()) then
+        return original_setReloadSpeed(character, rack)
+    end
+    HydroLongbow.setReloadSpeed(character)
 end
 
 Events.OnLoad.Add(HydroLongbow.OnLoad)

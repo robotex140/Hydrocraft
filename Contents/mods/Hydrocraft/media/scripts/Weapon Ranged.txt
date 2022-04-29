@@ -249,7 +249,7 @@ item HCShotgunSilencer
 	item HCXbowbolt
 	{
 		Count		=	1,
-		DisplayName	=	Crossbow Bolts,
+		DisplayName	=	Crossbow Bolt,
 		Icon		=	HCXbowbolt,
         	Type        	=    	Normal,
         	DisplayCategory =    	Ammo,
@@ -269,7 +269,7 @@ item HCMetalArrowhead
 	item HCArrow
 	{
         Count		=	1,
-        DisplayName	=	Arrows,
+        DisplayName	=	Arrow,
         Icon		=	HCArrow,
         Type = Normal,
         DisplayCategory =    	Ammo,
