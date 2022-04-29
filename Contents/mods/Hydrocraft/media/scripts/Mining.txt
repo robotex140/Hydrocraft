@@ -992,8 +992,8 @@ recipe Mine
 
 recipe Mine Iron
     {
-        keep HCIronMineB,
         keep Shovel/Shovel2/PickAxe,
+	keep HCIronMineB,
         CanBeDoneFromFloor:true,
         Result:HCIronore,
         NeedToBeLearn:true,
@@ -1004,8 +1004,8 @@ recipe Mine Iron
 
 recipe Mine Coal
     {
-        keep HCCoalMineB,
         keep Shovel/Shovel2/PickAxe,
+	keep HCCoalMineB,
         CanBeDoneFromFloor:true,
         Result:HCCoal,
         NeedToBeLearn:true,
