@@ -28,10 +28,25 @@ function HydroLongbow.isHydroLongbow(name)
     return name == 'Hydrocraft.HCLongbow'
 end
 
+function HydroLongbow.isHydroLongbowMag(name)
+    return name == 'Hydrocraft.HCLongbowMag'
+end
+
+-- Show/hide arrow on regular bow
 function HydroLongbow.setArrow(bow, show)
     if show then
         local arrow = InventoryItemFactory.CreateItem('Hydrocraft.HCArrowAttachment')
         bow:attachWeaponPart(arrow)
+    else
+        bow:detachWeaponPart(bow:getWeaponPart('Clip'))
+    end
+end
+
+-- Show/hide mag on bow w/ detachable mag
+function HydroLongbow.setMag(bow, show)
+    if show then
+        local mag = InventoryItemFactory.CreateItem('Hydrocraft.HCMagLongbow')
+        bow:attachWeaponPart(mag)
     else
         bow:detachWeaponPart(bow:getWeaponPart('Clip'))
     end
@@ -132,11 +147,28 @@ function ISReloadWeaponAction.setReloadSpeed(character, rack)
     HydroLongbow.setReloadSpeed(character)
 end
 
+local original_loadAmmo = ISInsertMagazine.loadAmmo
+function ISInsertMagazine:loadAmmo()
+    original_loadAmmo(self)
+    if HydroLongbow.isHydroLongbowMag(self.gun:getFullType()) then
+        HydroLongbow.setMag(self.gun, true)
+    end
+end
+
+local original_unloadAmmo = ISEjectMagazine.unloadAmmo
+function ISEjectMagazine:unloadAmmo()
+    original_unloadAmmo(self)
+    if HydroLongbow.isHydroLongbowMag(self.gun:getFullType()) then
+        HydroLongbow.setMag(self.gun, false)
+    end
+end
+
 -- Override AttackHook to get rid of the muzzle flash
 local original_attackHook = ISReloadWeaponAction.attackHook
 Hook.Attack.Remove(ISReloadWeaponAction.attackHook)
 ISReloadWeaponAction.attackHook = function(character, chargeDelta, weapon)
-    if not HydroLongbow.isHydroLongbow(weapon:getFullType()) then return original_attackHook(character, chargeDelta, weapon); end
+    local type = weapon:getFullType()
+    if not HydroLongbow.isHydroLongbow(type) and not HydroLongbow.isHydroLongbowMag(type) then return original_attackHook(character, chargeDelta, weapon); end
     ISTimedActionQueue.clear(character)
 	if character:isAttackStarted() then return; end
 	if instanceof(character, "IsoPlayer") and not character:isAuthorizeMeleeAction() then

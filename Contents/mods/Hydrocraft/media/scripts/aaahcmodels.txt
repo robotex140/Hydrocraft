@@ -583,4 +583,22 @@ module Hydrocraft
     mesh = WorldItems/clothing/HCQuiver_Ground,
     texture = clothing/HCQuiver,
   }
+	model HCMagLongbow
+	{
+		mesh = weapons/HCMagLongbow,
+		texture = weapons/HCMagLongbow,
+		scale = 0.01,
+
+		attachment world
+		{
+			offset = 0.0000 0.0020 -0.0010,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment mag
+		{
+			offset = 0.0000 0.0020 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
 }

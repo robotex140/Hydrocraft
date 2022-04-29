@@ -295,20 +295,22 @@ item HCMetalArrowhead
     {
         CanStack    =   FALSE,
         Weight  =   0.5,
-        Type    =   Normal,
+        Type    =   WeaponPart,
         DisplayName =   Longbow Magazine,
         Icon    =   HCMagLongbow,
         MaxAmmo = 8,
         AmmoType = Hydrocraft.HCArrow,
-        StaticModel = GunMagazine,
+        WorldStaticModel = Hydrocraft.HCMagLongbow,
 		DisplayCategory	= WepAmmoMag,
+        MountOn = Hydrocraft.HCLongbowMag,
+        PartType = Clip,
     }
 
     item HCLongbowMag
     {
         ImpactSound =   null,
         MaxRange    =   8,
-        WeaponSprite    =   Poolcue,
+        WeaponSprite    =   Hydrocraft.HCLongbowDrawn,
         SoundVolume =   40,
         MinAngle    =   0.95,
         Type    =   Weapon,
@@ -355,7 +357,7 @@ item HCMetalArrowhead
         RecoilDelay = 10,
         PiercingBullets = TRUE,
         SoundGain = 1.5,
-        ReloadTime = 15,
+        ReloadTime = 10,
         AimingTime = 20,
         RequiresEquippedBothHands = TRUE,
         BreakSound  =   BreakMetalItem,
@@ -366,12 +368,13 @@ item HCMetalArrowhead
         RackSound = HCBowReload,
         MagazineType = Hydrocraft.HCMagLongbow,
         AmmoType = Hydrocraft.HCArrow,
-        WeaponReloadType = boltaction,
+        WeaponReloadType = shotgun,
         RackAfterShoot = TRUE,
-        JamGunChance = 0,
+        JamGunChance = 2,
         AttachmentType = Rifle,
-        MaxAmmo = 15,
+        MaxAmmo = 8,
 		DisplayCategory	= WepBow,
+        ModelWeaponPart = Hydrocraft.HCMagLongbow Hydrocraft.HCMagLongbow mag mag,
     }
 
 
