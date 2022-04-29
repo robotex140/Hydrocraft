@@ -2088,7 +2088,7 @@ recipe Make Iron Tongs
     	keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
     	HCTongswood,
     	keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil2/HCAnvillead2,
+		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     	CanBeDoneFromFloor:true,
 	   	Result:Tongs,
 	   	Time:150.0,
