@@ -101,7 +101,7 @@ insertItemListsInProcDistribution( "PoliceDesk", {   desk_items  } );
 -- insertItemListsInProcDistribution( "GigamartTools", {   gigamart_tools_items  } );
 
 local gigamart_toys_items = {
-        "Hydrocraft.HCToywagon", 7,
+        "Hydrocraft.HCToywagon", 1,
         "Hydrocraft.HCSnowglobe", 0.2,
         "Hydrocraft.HCTelescopebox", 0.2,
         "Hydrocraft.HCStarchart", 0.5,

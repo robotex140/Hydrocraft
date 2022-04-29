@@ -788,6 +788,7 @@ item HCSilkUndiesWarm
         Icon            = Longjohns,
         Insulation      = 0.5,
         WindResistance  = 0.3,
+		FabricType		= Cotton, /*Allow repair & patches*/
 		DisplayCategory	= ClothN,
     }
 

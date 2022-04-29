@@ -53,6 +53,13 @@ local function WorldItemHandle(item,square)
 end
 
 function ItemCheck()
+
+	--disables the check if the game is running faster than speed 1
+	--reports of FPS drops, any interaction with an item will drop the speed anyway.
+	if UIManager.getSpeedControls():getCurrentGameSpeed() > 1 then
+		return
+	end
+
 	local player = getPlayer()
 	local px = player:getX()
 	local py = player:getY()
