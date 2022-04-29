@@ -298,7 +298,7 @@ item HCMetalArrowhead
         Type    =   Normal,
         DisplayName =   Longbow Magazine,
         Icon    =   HCMagLongbow,
-        MaxAmmo = 15,
+        MaxAmmo = 8,
         AmmoType = Hydrocraft.HCArrow,
         StaticModel = GunMagazine,
 		DisplayCategory	= WepAmmoMag,

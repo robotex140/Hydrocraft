@@ -132,7 +132,41 @@ function ISReloadWeaponAction.setReloadSpeed(character, rack)
     HydroLongbow.setReloadSpeed(character)
 end
 
+-- Override AttackHook to get rid of the muzzle flash
+local original_attackHook = ISReloadWeaponAction.attackHook
+Hook.Attack.Remove(ISReloadWeaponAction.attackHook)
+ISReloadWeaponAction.attackHook = function(character, chargeDelta, weapon)
+    if not HydroLongbow.isHydroLongbow(weapon:getFullType()) then return original_attackHook(character, chargeDelta, weapon); end
+    ISTimedActionQueue.clear(character)
+	if character:isAttackStarted() then return; end
+	if instanceof(character, "IsoPlayer") and not character:isAuthorizeMeleeAction() then
+		return;
+	end
+	if weapon:isRanged() and not character:isDoShove() then
+		if ISReloadWeaponAction.canShoot(weapon) then
+			character:playSound(weapon:getSwingSound());
+			local radius = weapon:getSoundRadius();
+			if isClient() then -- limit sound radius in MP
+				radius = radius / 2.2;
+			end
+			character:addWorldSoundUnlessInvisible(radius, weapon:getSoundVolume(), false);
+			character:DoAttack(0);
+		else
+			character:DoAttack(0);
+			character:setRangedWeaponEmpty(true);
+		end
+	else
+		ISTimedActionQueue.clear(character)
+		if(chargeDelta == nil) then
+			character:DoAttack(0);
+		else
+			character:DoAttack(chargeDelta);
+		end
+	end
+end
+
 Events.OnLoad.Add(HydroLongbow.OnLoad)
 Events.OnEquipPrimary.Add(HydroLongbow.OnEquipPrimary)
 Events.OnWeaponSwingHitPoint.Add(HydroLongbow.OnFire)
 Events.OnPlayerUpdate.Add(HydroLongbow.OnPlayerUpdate)
+Hook.Attack.Add(ISReloadWeaponAction.attackHook)
