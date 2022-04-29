@@ -113,6 +113,7 @@ item HCQuiver
     RunSpeedModifier = 1.00,
     CanHaveHoles = false,
     AttachmentReplacement = Bag,
+    Tooltip = Tooltip_item_BonusLongbowReload,
     ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
     ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
     WorldStaticModel = Hydrocraft.HCQuiver_Ground,
