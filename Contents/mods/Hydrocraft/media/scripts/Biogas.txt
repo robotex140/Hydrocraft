@@ -47,22 +47,22 @@ recipe Build Biogas Collector
     }
 
 recipe Make Biogas
-    {
+{
     keep HCBiogas,
-	destroy Base.PropaneTank,
-	HCCompost=100,
+    destroy HCPropanetankempty,
+    HCCompost=100,
     CanBeDoneFromFloor:true,
     Result:PropaneTank,
     NeedToBeLearn:true,
     Time:1000.0,
     Category:Farming,
     OnGiveXP:HCHunger_OnGiveXP,
-    }
+}
 
 recipe Make Biogas
-    {
+{
     keep HCBiogas,
-    destroy Base.PropaneTank,
+    destroy HCPropanetankempty,
     CompostBag=20,
     CanBeDoneFromFloor:true,
     Result:PropaneTank,
@@ -70,7 +70,7 @@ recipe Make Biogas
     Time:1000.0,
     Category:Farming,
     OnGiveXP:HCHunger_OnGiveXP,
-    }
+}
 
 recipe Make Biogas
     {
