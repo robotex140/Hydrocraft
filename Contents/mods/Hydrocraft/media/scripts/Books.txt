@@ -1136,7 +1136,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Leather Working Textbook,
 		Icon		=	HCBookleatherworking,
-		TeachedRecipes  =  Make Leather;Cut Leather;Make Hardened Leather;Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Bellows;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Seed Bag;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Leather Sand Bag;Stitch Boxing Gloves;Make Camo Leather;Stitch Green Camo Leather Jacket;Stitch Leather Pants;Stitch Hardened Leather Pants,
+		TeachedRecipes  =  Make Leather;Cut Leather;Make Hardened Leather;Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Bellows;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Seed Bag;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Leather Sand Bag;Stitch Boxing Gloves;Make Camo Leather;Stitch Green Camo Leather Jacket;Stitch Leather Pants;Stitch Hardened Leather Pants; Make Quiver,
         ReplaceOnUse    =   	HCBookleatherworking,
 		DisplayCategory	=   LitR,
 	}

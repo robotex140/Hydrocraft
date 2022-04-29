@@ -667,6 +667,20 @@ recipe Make Longbow
     OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
     }
 
+recipe Make Quiver
+{
+    SkillRequired:Tailoring=2,
+    keep HCTailoringbench2,
+    HCLeather=8,
+    Thread=8,
+    Result:HCQuiver,
+    NeedToBeLearn:true,
+    CanBeDoneFromFloor:true,
+    Time:50,
+    Category:Tailoring,
+    OnGiveXP:HCTailoring_OnGiveXP,
+}
+
 recipe Make Longbow Mag 
     {
     OnTest:HCNearCarpybench,
