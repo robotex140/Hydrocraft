@@ -2012,7 +2012,7 @@ recipe Build Hunting Blind
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-recipe Anchor Huntering Blind
+recipe Anchor Hunting Blind
     {
         HCHuntingblind,
         CanBeDoneFromFloor:true,
