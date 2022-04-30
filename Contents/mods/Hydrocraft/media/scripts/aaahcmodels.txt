@@ -520,28 +520,68 @@ module Hydrocraft
 		mesh = weapons/HCLongbow,
 		texture = weapons/HCLongbow,
 
-		attachment world
-		{
-			offset = 0.0000 0.0000 0.0000,
-			rotate = -90.0000 0.0000 0.0000,
-		}
-
-		attachment mag
+    attachment mag
 		{
 			offset = 0.0000 -0.0020 0.0000,
 			rotate = -180.0000 0.0000 0.0000,
 		}
 
-		attachment rifle_back
+    attachment rifle_back
 		{
 			offset = -0.0400 0.0000 0.0000,
 			rotate = 1.0000 15.0000 4.0000,
 		}
 
-		attachment rifle_back_bag
+    attachment rifle_back_bag
 		{
 			offset = -0.0480 -0.0680 -0.0480,
 			rotate = -109.0000 -89.0000 -93.0000,
+		}
+  }
+  model HCHelmcopper {
+    mesh = WorldItems/HCHelmBronze,
+    texture = WorldItems/HCHelmCopper,
+  }
+	model HCHelmbronze {
+    mesh = WorldItems/HCHelmBronze,
+    texture = WorldItems/HCHelmBronze,
+  }
+  model HCHelmiron {
+    mesh = WorldItems/HCHelmIron,
+    texture = WorldItems/HCHelmIron,
+  }
+	model HCCrossbow
+	{
+		mesh = weapons/HCCrossbow,
+		texture = weapons/HCCrossbow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment rifle_back
+		{
+			offset = 0.0000 0.0000 -0.0410,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+  model HCCrossbowEmpty
+	{
+		mesh = weapons/HCCrossbowEmpty,
+		texture = weapons/HCCrossbow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment rifle_back
+		{
+			offset = 0.0000 0.0000 -0.0410,
+			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
 	model HCLongbowDrawn

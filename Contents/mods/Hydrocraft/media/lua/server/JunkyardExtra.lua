@@ -358,7 +358,9 @@ function hcjunksearchlarge(items, result, player)
     elseif metal == 2 then
         player:getInventory():AddItem("Hydrocraft.HCIcechest");
     elseif metal == 1 then
-        player:getInventory():AddItem("Hydrocraft.HCPropanetankempty");
+		local tank = InventoryItemFactory.CreateItem("Base.PropaneTank")
+		tank:setUsedDelta(0.0)
+        player:getInventory():AddItem(tank);
     elseif metal == 0 then
         player:getInventory():AddItem("Base.EmptyPetrolCan");
     end

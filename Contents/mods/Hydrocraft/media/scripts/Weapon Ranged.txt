@@ -251,8 +251,8 @@ item HCShotgunSilencer
 		Count		=	1,
 		DisplayName	=	Crossbow Bolt,
 		Icon		=	HCXbowbolt,
-        	Type        	=    	Normal,
-        	DisplayCategory =    	Ammo,
+        Type        	=    	Normal,
+        DisplayCategory =    	Ammo,
 		Weight		=	0.05,
 	}
 
@@ -382,7 +382,7 @@ item HCCrossbow
     {
         ImpactSound =   null,
         MaxRange    =   7,
-        WeaponSprite    =   Poolcue,
+        WeaponSprite    =   Hydrocraft.HCCrossbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
         Type    =   Weapon,
@@ -439,7 +439,8 @@ item HCCrossbow
         EjectAmmoSound = HCBowReload,
         RackSound = HCBowReload,
         AmmoType = Hydrocraft.HCXbowbolt,
-        WeaponReloadType = shotgun,
+        WeaponReloadType = Crossbow,
+        haveChamber = FALSE,
         ModelWeaponPart = Hydrocraft.x2CrossbowScope CrossbowScope,
         ModelWeaponPart = Hydrocraft.x4CrossbowScope CrossbowScope,       
         RackAfterShoot = FALSE,

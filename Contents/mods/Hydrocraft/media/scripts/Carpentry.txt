@@ -53,6 +53,15 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
+item HCInfiniteLogpile
+{
+	Weight			= 9.0,
+	Type			= Normal,
+	DisplayName		= Log Pile,
+	icon			= HCLogstack1,
+	DisplayCategory	= CraftCarp,
+}
+
 item HCLogstack1
     {
         Weight          = 1000.0,
@@ -1210,7 +1219,7 @@ recipe Make Sawbuck
         Log=6,
         Plank=10,
         Nails=10,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
         keep Saw/GardenSaw,
         CanBeDoneFromFloor:true,
         Result:HCSawbuck,
@@ -2003,7 +2012,7 @@ recipe Build Hunting Blind
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-recipe Anchor Huntering Blind
+recipe Anchor Hunting Blind
     {
         HCHuntingblind,
         CanBeDoneFromFloor:true,
@@ -2689,5 +2698,42 @@ recipe Make Chopsticks
         OnGiveXP:HCWoodwork_OnGiveTinyXP,
     }
 
+	recipe Create Infinite Logpile
+	{
+		Log,
+		Result:HCInfiniteLogpile,
+		Time:1,
+		Category:Carpentry,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor:true,
+		IsHidden: true,
+	}
+
+	recipe Add Log
+	{
+		Log,
+		keep HCInfiniteLogpile,
+		Result:HCInfiniteLogpile,
+		RemoveResultItem:true,
+		Time:1,
+		OnCreate:HCAddLogToInfiniteLogpile,
+		Category:Carpentry,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor:true,
+		IsHidden: true,
+	}
+
+	recipe Remove Log
+	{
+		keep HCInfiniteLogpile,
+		Result: HCInfiniteLogpile,
+		RemoveResultItem:true,
+		Time: 1,
+		OnCreate:HCRemoveLogFromInfiniteLogpile,
+		Category:Carpentry,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		CanBeDoneFromFloor:true,
+		IsHidden: true,
+	}
 
 }
