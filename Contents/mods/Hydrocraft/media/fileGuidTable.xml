@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fileGuidTable>
 	<files>
+		<path>media/clothing/clothingItems/HCQuiver.xml</path>
+		<guid>a89952e4-3ce5-4229-bb75-1d71f4fdcc85</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/HCArmorcopper.xml</path>
 		<guid>263c0182-8763-457c-b3da-30972504f859</guid>
 	</files>
@@ -104,7 +108,7 @@
 		<path>media/clothing/clothingItems/HCPantsLeatherHard.xml</path>
 		<guid>7350705d-5fae-4329-ac92-d19da5ce1d63</guid>
 	</files>
-		<files>
+	<files>
 		<path>media/clothing/clothingItems/HCPantsLinenWired.xml</path>
 		<guid>ca5f73ef-cc6b-4736-8cce-9617a8b3a208</guid>
 	</files>

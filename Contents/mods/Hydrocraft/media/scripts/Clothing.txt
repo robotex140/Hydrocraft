@@ -85,6 +85,30 @@ item HCBootriot
 		DisplayCategory	= ClothP,
 	}
 
+item HCQuiver
+{
+    DisplayCategory = Bag,
+    Type = Container,
+    DisplayName = Leather Quiver,
+    ClothingItem = HCQuiver,
+    CanBeEquipped = Back,
+    WeightReduction	=	65,
+    Weight	=	1,
+    Capacity	=	6,
+    Icon	=	HCQuiver,
+    OpenSound   =   OpenBag,
+    CloseSound   =   CloseBag,
+    PutInSound   =   PutItemInBag,
+    BloodLocation = Bag,
+    RunSpeedModifier = 1.00,
+    CanHaveHoles = false,
+    AttachmentReplacement = Bag,
+    Tooltip = Tooltip_item_BonusLongbowReload,
+    ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+    ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+    WorldStaticModel = Hydrocraft.HCQuiver_Ground,
+}
+
 
 
 /************************RECIPES************************/
