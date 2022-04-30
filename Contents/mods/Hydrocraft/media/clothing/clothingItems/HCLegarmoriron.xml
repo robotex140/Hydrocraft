@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>clothing\HCGreaves</m_MaleModel>
+	<m_FemaleModel>clothing\HCGreaves</m_FemaleModel>
+	<m_GUID>d16be109-35ae-4d97-a027-7a59bf674fc0</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+    <m_MasksFolder>media/textures/clothing/Greaves/Masks</m_MasksFolder>
+	<textureChoices>clothing\HCLegArmorIron</textureChoices>
+</clothingItem>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="LoadDblBarrel.xml">
+	<m_Name>LoadCrossbow</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Crossbow</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>Hydrocraft.Crossbow</m_ParameterValue>
+	</m_Events>
+</animNode>

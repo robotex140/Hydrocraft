@@ -515,4 +515,50 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
+  model HCHelmcopper {
+    mesh = WorldItems/HCHelmBronze,
+    texture = WorldItems/HCHelmCopper,
+  }
+	model HCHelmbronze {
+    mesh = WorldItems/HCHelmBronze,
+    texture = WorldItems/HCHelmBronze,
+  }
+  model HCHelmiron {
+    mesh = WorldItems/HCHelmIron,
+    texture = WorldItems/HCHelmIron,
+  }
+	model HCCrossbow
+	{
+		mesh = weapons/HCCrossbow,
+		texture = weapons/HCCrossbow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment rifle_back
+		{
+			offset = 0.0000 0.0000 -0.0410,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+  model HCCrossbowEmpty
+	{
+		mesh = weapons/HCCrossbowEmpty,
+		texture = weapons/HCCrossbow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment rifle_back
+		{
+			offset = 0.0000 0.0000 -0.0410,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
 }
