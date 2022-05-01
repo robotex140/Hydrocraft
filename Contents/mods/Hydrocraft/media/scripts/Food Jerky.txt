@@ -67,21 +67,21 @@ item HCTastyjerky
 	}
 
 /************************RECIPES************************/
-    
+
 
 recipe Make Basic Marinade
 	{
-       		SkillRequired:Cooking=3,
+		SkillRequired:Cooking=3,
 		HCJar,
-		HCSoysauce,
+		Soysauce;1,
 		HCBBQsauce/HCBBQsaucebowl,
 		Salt;1,
 		Result:HCBasicmarinade,
 		NeedToBeLearn:true, 
 		Time:100,
-	   	Category:Cooking,
+		Category:Cooking,
 		OnCreate:HCRecipeBowls,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Tasty Marinade

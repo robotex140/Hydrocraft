@@ -576,7 +576,7 @@ insertItemListsInProcDistribution( "GigamartDryGoods", {   gigamart_dry_goods_ju
 local gigamart_sauce_items = {
         "Hydrocraft.HCCookingoil", 1,
         "Hydrocraft.HCGarlicpowder", 1,
-        "Hydrocraft.HCSoysauce", 1,
+        --"Hydrocraft.HCSoysauce", 1, --removed, Soy Sauce exists in vanilla now - no need to duplicate.
         "Hydrocraft.HCBBQsauce", 1,
         "Hydrocraft.HCHerbs", 1,
         "Hydrocraft.HCHotsauce", 1,
@@ -2939,7 +2939,7 @@ local fridge_items = {
         "Hydrocraft.HCPear", 0.8,
         "Hydrocraft.HCApricot", 0.8,
         "Hydrocraft.HCLime", 0.8,
-        "Hydrocraft.HCSoysauce", 0.8,
+        --"Hydrocraft.HCSoysauce", 0.8, --removed, Soy Sauce exists in vanilla now - no need to duplicate.
         "Hydrocraft.HCBBQsauce", 0.8,
         "Hydrocraft.HCLemonjuicebottle", 0.8,
         "Hydrocraft.HCLargetupfood", 0.8,
