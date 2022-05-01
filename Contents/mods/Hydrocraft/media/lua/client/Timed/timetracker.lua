@@ -16,7 +16,7 @@ end
 local function WorldItemReplace(item,square)
  
 	local delta = (getGameTime():getWorldAgeHours() - item:getModData().StartTime)
-	print("WorldItemReplace",item:getType(),"  Life:"..item:getModData().Life,"  GameTime:"..getGameTime():getWorldAgeHours(),"  StartTime:"..item:getModData().StartTime,"  Delta:"..delta)
+	print("WorldItemReplace",item:getType(),"  Life:", item:getModData().Life,"  GameTime:", getGameTime():getWorldAgeHours(),"  StartTime:",item:getModData().StartTime,"  Delta:", delta)
 			
 	if delta < 0 then
 		local oldDelta = delta
