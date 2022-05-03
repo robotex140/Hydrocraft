@@ -2936,7 +2936,7 @@ ItemValueTable["Hydrocraft.HCPlatinemovingsensor"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPlatinumore"] = 15.00 ;
 ItemValueTable["Hydrocraft.HCPliers"] = 2.00 ;
 ItemValueTable["Hydrocraft.HCPlum"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCPlunger"] = 0.00 ;
+
 ItemValueTable["Hydrocraft.HCPoison"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPoisondetergent"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPoisonempty"] = 0.00 ;

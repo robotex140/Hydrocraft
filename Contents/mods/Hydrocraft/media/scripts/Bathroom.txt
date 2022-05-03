@@ -511,14 +511,14 @@ item HCStylingfoam
 	DisplayCategory          =   Useless,
     }
 
-item HCPlunger
+/*item HCPlunger
     {
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= Plunger,
         icon 			= HCPlunger,
 	DisplayCategory          =   Useless,
-    }
+    }*/
 
 item HCToiletbrush
     {
