@@ -30,8 +30,8 @@ PFGMenu.addWorldContext = function(player, context, worldobjects, test)
 					closestCartDistance = distance
 				end
 			end
-
-		local selectOption = context:addOption("Push Cart",worldobjects,PFGMenu.equipCart,player,closestCart)
+		local label = "Grab " .. closestCart:getItem():getDisplayName()
+		local selectOption = context:addOption(label,worldobjects,PFGMenu.equipCart,player,closestCart)
 	end
 end
 --PFGMenu.addInventoryContext = function(player,context,inventoryObjects)
