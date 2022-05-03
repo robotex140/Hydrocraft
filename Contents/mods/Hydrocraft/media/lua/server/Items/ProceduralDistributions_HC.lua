@@ -2251,7 +2251,7 @@ insertItemListsInProcDistribution( "BakeryMisc", {   cafe_items  } );
 
 
 local books = {
-        "Hydrocraft.HCBook", 1,
+        "Base.Book", 1,
         "Hydrocraft.HCBookphone", 1,
         "Hydrocraft.HCBookalgebra", 1,
         "Hydrocraft.HCBookastronomy", 1,
