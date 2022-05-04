@@ -429,7 +429,7 @@ item HCAxeheadblunt
 recipe Craft Axe Handle
 	{
 	   	Plank,
-	   	keep Saw,
+	   	keep Saw/GardenSaw,
 	   	Result:HCAxehandle,
 	   	Time:150.0,
     		Category:Carpentry,
