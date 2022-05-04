@@ -147,13 +147,22 @@ item HCGlovebox
     } 
 
 item HCHearingaid
-    {
-        Weight    		= 0.03,
-        Type    		= Normal,
-        DisplayName         	= Hearing Aid,
-        icon 			= HCHearingaid,
+	{
+		Weight			= 0.03,
+		Type    		= Normal,
+		DisplayName		= Hearing Aid,
+		icon 			= HCHearingaid,
 		DisplayCategory	= Medical,
-    }
+	}
+
+item HCBrokenHearingaid
+	{
+		Weight			= 0.03,
+		Type			= Normal,
+		DisplayName		= Broken Hearing Aid,
+		icon 			= HCHearingaid,
+		DisplayCategory	= Medical,
+	}
 
 item HCGlasseye
     {
@@ -970,14 +979,23 @@ recipe Anchor Medical Lab
 
 
 recipe Wear Hearing Aid
-    {
-    	HCHearingaid,
-    	Result:HCHearingaid,
-    	Time:15,
-    	OnCreate:WearHAidRecipe,
-       	Category:Health,
-    }	
-    
+	{
+		HCHearingaid,
+		Result:HCHearingaid,
+		Time:15,
+		OnCreate:WearHAidRecipe,
+		Category:Health,
+	}	
+
+recipe Repair Hearing Aid
+	{
+		SkillRequired:Electricity=6,
+		HCBrokenHearingaid,
+		ElectronicsScrap,
+		Result:HCHearingaid,
+		Time:15,
+		Category:Health,
+	}
 
 recipe Take Blood from Yourself
     {
