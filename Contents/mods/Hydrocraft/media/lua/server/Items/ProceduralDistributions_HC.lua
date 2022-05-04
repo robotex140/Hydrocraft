@@ -1764,7 +1764,6 @@ local shed_items = {
         "Hydrocraft.HCSolder", 0.5,
         "Hydrocraft.HCSoldergun", 0.5,
         "Hydrocraft.HCMagazinefarming1", 0.5,
-        "Hydrocraft.HCSeedbag", 0.5,
         "Hydrocraft.HCResistorbox", 1,
         "Hydrocraft.HCSawmetal", 1,
         "Hydrocraft.HCIcesaw", 1,

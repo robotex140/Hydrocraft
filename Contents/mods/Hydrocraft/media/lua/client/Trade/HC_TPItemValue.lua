@@ -3419,7 +3419,6 @@ ItemValueTable["Hydrocraft.HCScythesteel"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSeabass"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSeaberry"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSealedletter"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCSeedbag"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSelfmadeheater"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSelfmadeplasticcase"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSelfmadesolarpanel"] = 0.00 ;

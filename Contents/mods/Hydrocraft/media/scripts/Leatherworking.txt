@@ -2335,19 +2335,6 @@ recipe Make Fine Leather Alice Pack
     OnGiveXP:HCTailoring_OnGiveManyXP,
     }
 
-recipe Make Seed Bag
-    {
-    HCLeatherfine,
-    keep HCTailoringbench2,
-    Thread,
-    Result:HCSeedbag,
-    CanBeDoneFromFloor:true,
-    NeedToBeLearn:true,
-    Time:200,
-    Category:Weaving,
-    OnGiveXP:HCTailoring_OnGiveXP,
-    }
-
 recipe Make Horse Saddle
 	{
     keep HCTailoringbench2,
