@@ -18,13 +18,14 @@ item HCResearchtable
 	
 	}
 
+/*Remove in future?*/
 item HCTabletskinanimal
     {
         Weight			=	0.5,
         Type			=	Literature,
         DisplayName		=	Skin Animal Tablet,
         Icon			=	HCClaytabletwritten,
-        TeachedRecipes 		=   	Skin Animal,
+        /*TeachedRecipes 		=   	Skin Animal,*/
         ReplaceOnUse    	=   	HCTabletskinanimal,
 		DisplayCategory	= LitR,
     }
@@ -156,22 +157,6 @@ recipe Research Drying Frame
     keep HCResearchtable,
     CanBeDoneFromFloor:true,
     Result:HCTabletDryingFrame,
-    Time:800,
-    Category:Research,
-    OnGiveXP:HCHunger_OnGiveXP,
-    } 
-
-
-recipe Research Skinning Animals
-    {
-    SkillRequired:Cooking=1,
-	HCClaytablet,
-	Twigs,
-    DeadRabbit,
-    keep FlintKnife,
-	keep HCResearchtable,
-    CanBeDoneFromFloor:true,
-   	Result:HCTabletskinanimal,
     Time:800,
     Category:Research,
     OnGiveXP:HCHunger_OnGiveXP,

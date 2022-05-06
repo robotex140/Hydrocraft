@@ -1125,7 +1125,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Hunting Textbook,
 		Icon		=	HCBookhunting,
-		TeachedRecipes  =   	Hunt Animals;Kill Animal;Skin Animal;Butcher Carcass;Make Drying Frame;Dry Fur;Dry Hide;Cut Dry Fur;Cut Hide Straps;Open Bear Trap;Set Bear Trap;Build Hunting Blind,
+		TeachedRecipes  =   	Hunt Animals;Kill Animal;Butcher Carcass;Make Drying Frame;Dry Fur;Dry Hide;Cut Dry Fur;Cut Hide Straps;Open Bear Trap;Set Bear Trap;Build Hunting Blind,
         	ReplaceOnUse    =   	HCBookhunting,
 		DisplayCategory	=   LitR,
 	}
