@@ -47,6 +47,7 @@ local function WorldItemHandle(item,square)
 	if(item:getModData().Life == nil) then
 		loadItem(item)
 	else
+		print("life = "  .. life)
 		WorldItemReplace(item,square)
 	end
 
@@ -61,13 +62,13 @@ function ItemCheck()
 	end
 
 	local player = getPlayer()
-	local px = player:getX()
-	local py = player:getY()
+	local px = math.floor( player:getX() + 0.5 )--rround to nearest int
+	local py = math.floor( player:getY() + 0.5 )
 	local pz = player:getZ()
 	local radius = 2
 	local cell = player:getCell()
 	for x = px-radius, px + radius do
-		for y = py-radius, px + radius do
+		for y = py-radius, py + radius do
 			local sq = cell:getGridSquare(x, y, pz)
 			if(sq ~= nil) then
 				local items = sq:getWorldObjects()
