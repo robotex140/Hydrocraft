@@ -3,11 +3,13 @@ id=2778991696
 title=HydroCraft b41 Continued
 description=[h1]Latest Hydrocraft mod for b41 - for both MP & SP[/h1]
 description=
-description=[h1]recent update highlights 05-Apr-2022[/h1]
+description=[h1]recent update highlights 08-May-2022[/h1]
 description=[list]
-description=[*]added sandbox options to customize experience. Longer list in changelogs
-description=[*] added new butchering system to reduce recipe count
-description=[*]integrated "push from ground" mod with permission from banana lumps
+description=[*] fixed timetracker bug, should be working now.
+description=[*] added 3d models for some metal armours so they are reenabled and longbow and crossbow thanks to trynaeat. 
+description=[*] added quiver, reduces reload time by 50% for longbow thanks to trynaeat. 
+description=[*] added infinite log piles to help store logs
+description=[*] and much more in the change logs
 description=[/list]
 description=
 description=
@@ -18,6 +20,9 @@ description=
 description=
 description=If you need any help, feel free to come to this [url=https://discord.gg/hUMsjfApUt]discord[/url] to ask questions in the questions channel.
 description=
-description=We also now have a public [url=https://github.com/robotex140/Hydrocraft]github[/url] if you want to contribute or make bug reports and the like
+description=We also now have a public [url=https://github.com/robotex140/Hydrocraft]github[/url] if you want to contribute or make bug reports and the like
+description=
+description=Workshop ID: 2778991696
+description=Mod ID: Hydrocraft
 tags=Build 41;Building;Clothing/Armor;Food;Items;Literature;Multiplayer;Weapons
 visibility=public
