@@ -436,7 +436,7 @@ module Hydrocraft
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
-		DisplayName			=	Tray with Chirstmas Cookies,
+		DisplayName			=	Tray with Christmas Cookies,
 		Icon				=	HCBakingtraycookiesraw,
 		ReplaceOnUse		=	BakingTray,
 		FoodType			=	NoExplicit,
@@ -480,7 +480,7 @@ module Hydrocraft
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
-		DisplayName			=	Tray with Frosted Chirstmas Cookies,
+		DisplayName			=	Tray with Frosted Christmas Cookies,
 		Icon				=	HCBakingtraycookiesraw,
 		ReplaceOnUse		=	BakingTray,
 		FoodType			=	NoExplicit,
@@ -736,7 +736,7 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-	recipe Remove Chirstmas Cookies from Tray 
+	recipe Remove Christmas Cookies from Tray 
 	{
 		HCChristmascookietray,
 		Result:HCChristmascookie=3,   
