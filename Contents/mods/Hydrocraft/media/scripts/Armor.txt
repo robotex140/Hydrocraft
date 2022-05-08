@@ -1253,7 +1253,7 @@ recipe Make Helmet
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Helmet
 	{
 	   	HCIroningot=2,
@@ -1295,7 +1295,7 @@ recipe Make Helmet
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+/*
 recipe Make Gauntlets
 	{
         	HCRingsteel=8,
@@ -1644,7 +1644,7 @@ recipe Make Armor
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Armor
 	{
 	   	HCIroningot=5,
@@ -1686,7 +1686,7 @@ recipe Make Armor
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+/*
 recipe Make Armor
 	{
 	   	HCLeatherhard=4,
@@ -1883,7 +1883,7 @@ recipe Make Leg Guards
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Leg Guards
 	{
 	   	HCIroningot=2,
@@ -1925,7 +1925,7 @@ recipe Make Leg Guards
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+/*
 recipe Make Leg Guards
 	{
 	   	HCBubblewrap=2,
