@@ -47,7 +47,7 @@ local function WorldItemHandle(item,square)
 	if(item:getModData().Life == nil) then
 		loadItem(item)
 	else
-		print("life = "  .. life)
+		print("life = ", item:getModData().Life)
 		WorldItemReplace(item,square)
 	end
 
