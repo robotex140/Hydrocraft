@@ -1083,8 +1083,8 @@ recipe Prepare Valerian
     {
 	SkillRequired:Doctor=4,
 	HCValerian,
-    keep [Recipe.GetItemTypes.SharpKnife],
 	BakingTray,
+    keep [Recipe.GetItemTypes.SharpKnife],
     NeedToBeLearn:true,
 	Result:HCValeriantray,
 	Time:100.0,
@@ -1141,8 +1141,8 @@ recipe Prepare Hawthorn Fruit
     {
 	SkillRequired:Doctor=4,
 	HCHawthornfruit,
-    keep [Recipe.GetItemTypes.SharpKnife],
 	BakingTray,
+    keep [Recipe.GetItemTypes.SharpKnife],
     NeedToBeLearn:true,
 	Result:HCHawthornfruittray,
 	Time:100.0,

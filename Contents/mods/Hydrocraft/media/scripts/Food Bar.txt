@@ -2439,7 +2439,7 @@ recipe Mix Margarita
 recipe Make Eggnog Pot
 	{
 		Milk,
-        Egg,
+        [Recipe.GetItemTypes.Egg],
         WhiskeyFull;5,
         Pot,
 		Result:HCEggnogpot,

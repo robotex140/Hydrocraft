@@ -1074,7 +1074,7 @@ recipe Make Sand
 
 recipe Make Plaster
     {
-    	keep HCSpatula/HCWoodenspatula,
+    	keep HCSpatula/HCWoodenspatula/Spatula,
     	HCGreyclay=2,
     	BucketEmpty,
     	Water,
@@ -1087,7 +1087,7 @@ recipe Make Plaster
 
 recipe Make Plaster
     {
-    	keep HCSpatula/HCWoodenspatula,
+    	keep HCSpatula/HCWoodenspatula/Spatula,
     	HCGypsumpowder=2,
     	BucketEmpty,
     	Water,

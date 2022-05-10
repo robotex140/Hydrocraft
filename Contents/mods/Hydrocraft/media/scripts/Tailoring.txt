@@ -813,9 +813,9 @@ recipe Make Tailor's Workbench
         HCWorkbench,
         HCSpinningwheel,
         HCBoneneedle,
-        [Recipe.GetItemTypes.Scissors],
         KnittingNeedles,
         HCMeasuringtape,
+        [Recipe.GetItemTypes.Scissors],
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
         Result:HCTailoringbench,
@@ -1778,9 +1778,9 @@ recipe Make Pillow
 
 recipe Make Rain Poncho
     {
-		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors]/HCTailoringbench2,
         Garbagebag=2,
         DuctTape=3,   
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors]/HCTailoringbench2,
         Result:PonchoGreen,
         CanBeDoneFromFloor:true,
         Time:200.0,

@@ -547,8 +547,8 @@ recipe Prepare Kneaded Cheese Curds
 recipe Prepare Cubed Cheese Curds
         {
         SkillRequired:Cooking=8,
-        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         HCCurdkneaded,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCCurdcubed,
         NeedToBeLearn:true,
         Time:50,
@@ -636,8 +636,8 @@ recipe Remove Cheese from Rack
 
 recipe Cut Cheese Wheel
         {
-                keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
                 HCCheddarwheelaged,
+                keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
                 Result:HCCheddar=6,
 		NeedToBeLearn:true,
                 Time:50,

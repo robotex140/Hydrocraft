@@ -149,9 +149,8 @@ item HCStakehard
 	recipe Craft Wooden Stake
 	{
 		Plank,
-		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
 		keep Saw,		
-		
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,		
 		SkillRequired:Woodwork=1,		
 		Result:HCStake=2,
 		Sound:PZ_Saw,

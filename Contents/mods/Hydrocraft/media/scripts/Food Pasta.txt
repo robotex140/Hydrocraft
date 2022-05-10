@@ -112,7 +112,7 @@ recipe Prepare Fresh Pasta
                 SkillRequired:Cooking=5,
 		Flour/HCRiceflour,
                 Water=1,
-		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+		[Recipe.GetItemTypes.Egg],
                 Salt;1,
                 keep RollingPin,
 		Result:HCFreshpasta,

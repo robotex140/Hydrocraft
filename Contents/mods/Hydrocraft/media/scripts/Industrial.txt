@@ -1606,7 +1606,7 @@ recipe Build Arc Furnace
     	keep HCWorkgloves,
     	HCSolder,
     	HCSoldergunpowered,
-	keep HCSpatula/HCWoodenspatula,
+	keep HCSpatula/HCWoodenspatula/Spatula,
 	keep BucketEmpty/HCWoodenbucket,
         NeedToBeLearn:true,
     	CanBeDoneFromFloor:true,

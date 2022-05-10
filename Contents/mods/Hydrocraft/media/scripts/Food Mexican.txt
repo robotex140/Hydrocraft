@@ -794,7 +794,7 @@ recipe Make Corn Tortilla
     SkillRequired:Cooking=2,
     Cornflour,
 	Water,
-	HCCookingoil,
+	HCCookingoil/OilVegetable/HCCookingoiljar,
 	keep Pan,
 	Result:HCTortillacorn,
     NeedToBeLearn:true,
@@ -867,7 +867,7 @@ recipe Make Taquito
 	{
        		SkillRequired:Cooking=2,
        		HCTortillacorn,
-		HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar,
 		MeatPatty/Chicken,
 		Pan,
 		Result:HCTaquito,
@@ -881,7 +881,7 @@ recipe Make Taco
 	{
        		SkillRequired:Cooking=2,
        		HCTortillacorn,
-		HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar,
 		MeatPatty/Chicken,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		Lettuce,
@@ -916,7 +916,7 @@ recipe Make Soft Taco
 	{
        		SkillRequired:Cooking=2,
        		HCTortillaflour,
-		HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar,
 		MeatPatty/Chicken,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		Lettuce,
@@ -951,7 +951,7 @@ recipe Make Fish Taco
 	{
        		SkillRequired:Cooking=4,
        		HCTortillacorn,
-		HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar,
 		FishFillet,
 		Cabbage/HCCabbagered/HCCabbagewhite,
 		HCSlicedtomato,
@@ -970,7 +970,7 @@ recipe Make Corned Beef Taco
 	{
 		SkillRequired:Cooking=4,
 		HCTortillacorn,
-		HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar,
 		CannedCornedBeefOpen,
 		Cabbage/HCCabbagered/HCCabbagewhite,
 		HCTacosaucebottle/HCTacosaucebowl,
@@ -988,7 +988,7 @@ recipe Make Enchilada
 	{
        		SkillRequired:Cooking=3,
        		HCTortillacorn=4,
-		HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		MeatPatty/Chicken,
 		HCTacosaucebottle/HCTacosaucebowl,

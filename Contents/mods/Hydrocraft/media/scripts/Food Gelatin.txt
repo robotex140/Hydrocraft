@@ -1848,8 +1848,8 @@ item HCJellostrawberrybowl
 
 recipe Cut Jello into Cubes
 	{		
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJelloapple1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJelloapplecubes=4,
 		Time:50.0,
 	   	Category:Cooking,
@@ -1858,8 +1858,8 @@ recipe Cut Jello into Cubes
 	
 recipe Cut Jello into Cubes
 	{
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJelloblueberry1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJelloblueberrycubes=4,
 		Time:50.0,
 	   	Category:Cooking,
@@ -1868,8 +1868,8 @@ recipe Cut Jello into Cubes
 	
 recipe Cut Jello into Cubes
 	{        
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJellocherry1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJellocherrycubes=4,
 		Time:50.0,
 	   	Category:Cooking,
@@ -1878,8 +1878,8 @@ recipe Cut Jello into Cubes
 	
 recipe Cut Jello into Cubes
 	{        
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJellolemon1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJellolemoncubes=4,
 		Time:50.0,
 	   	Category:Cooking,
@@ -1888,8 +1888,8 @@ recipe Cut Jello into Cubes
 	
 recipe Cut Jello into Cubes
 	{        
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJellolime1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJellolimecubes=4,
 		Time:50.0,
 	   	Category:Cooking,
@@ -1898,8 +1898,8 @@ recipe Cut Jello into Cubes
 	
 recipe Cut Jello into Cubes
 	{        
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJelloorange1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJelloorangecubes=4,
 		Time:50.0,
 	   	Category:Cooking,
@@ -1908,8 +1908,8 @@ recipe Cut Jello into Cubes
 
 recipe Cut Jello into Cubes
 	{        	
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJellostrawberry1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJellostrawberrycubes=4,
 		Time:50.0,
    		Category:Cooking,
@@ -1917,8 +1917,8 @@ recipe Cut Jello into Cubes
 
  recipe Cut Jello into Cubes
 	{        	
-		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		HCJellowatermelon1,
+		keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 		Result:HCJellowatermeloncubes=4,
 		Time:50.0,
    		Category:Cooking,

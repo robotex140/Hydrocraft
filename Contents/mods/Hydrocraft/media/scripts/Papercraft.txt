@@ -213,8 +213,8 @@ recipe Remove Paper Screen
 	recipe Make Quill
 	{
 		HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
-		keep [Recipe.GetItemTypes.SharpKnife],
 		keep HCPliers,
+		keep [Recipe.GetItemTypes.SharpKnife],
 		Result:HCQuill,
         Time:100,
         NeedToBeLearn:false,

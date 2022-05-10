@@ -119,7 +119,7 @@ recipe Make Methoxide
         HCMethanol,
         HCWoodenbucketlye,
 		HCWashtub,
-    	keep HCSpatula/HCWoodenspatula,
+    	keep HCSpatula/HCWoodenspatula/Spatula,
         keep HCLatexgloves/HCRubberglove,
 		keep HCSafetyglasses,
         Result:HCWashtubmethoxide,
@@ -134,7 +134,7 @@ recipe Make Raw Biodiesel
         {
         HCWashtubmethoxide,
         HCPotvegoilcooked,
-    	keep HCSpatula/HCWoodenspatula,
+    	keep HCSpatula/HCWoodenspatula/Spatula,
         keep HCLatexgloves/HCRubberglove,
 		keep HCSafetyglasses,
         Result:HCWashtubrawbiodiesel,
@@ -148,7 +148,7 @@ recipe Make Raw Biodiesel
 recipe Remove Glycerin
         {
                 HCWashtubrawbiodiesel,
-    		keep HCSpatula/HCWoodenspatula,
+    		keep HCSpatula/HCWoodenspatula/Spatula,
         	keep HCLatexgloves/HCRubberglove,
 		keep HCSafetyglasses,
                 Result:HCWashtubunwashedbiodiesel,

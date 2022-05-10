@@ -885,8 +885,8 @@ recipe Smoke Cheese
 
 recipe Cut Cheese Wheel
         {
-                keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
                 HCSmokedcheesewheel,
+                keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
                 Result:HCSmokedcheese=6,
     		NeedToBeLearn:true, 
                 Time:50,

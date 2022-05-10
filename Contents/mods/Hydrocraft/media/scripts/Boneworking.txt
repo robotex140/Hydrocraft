@@ -882,8 +882,8 @@ recipe Craft Bone Needle
 
 recipe Carve Knitting Needles
     {
-    keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     HCWishbone=2,
+    keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     Result:KnittingNeedles,
     Sound:PZ_Saw,
     NeedToBeLearn:true,
