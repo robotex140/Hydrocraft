@@ -56,7 +56,7 @@ recipe Make Bioplastic
 recipe Recycle Plastic Can
     {
     	HCPlasticcanempty,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     	Result:HCPlastic=5,
     	Time:50,
     	Category:Engineer,
@@ -66,7 +66,7 @@ recipe Recycle Plastic Can
 recipe Make Plastic Case
     {
     	Glue/HCGluejar,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
         HCPlastic=6,
     	Result:HCSelfmadeplasticcase,
     	Time:50,

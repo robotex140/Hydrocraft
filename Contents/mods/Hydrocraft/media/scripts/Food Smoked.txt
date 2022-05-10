@@ -492,7 +492,7 @@ recipe Make Smoker
 	Hinge=3,
 	HCManometer,
     	HCWeldingset,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
 	keep HCSawmetal,
 	keep HCPipebender,
@@ -885,7 +885,7 @@ recipe Smoke Cheese
 
 recipe Cut Cheese Wheel
         {
-                keep HuntingKnife/KitchenKnife/HCJackknife/HCSteakknife/FlintKnife,
+                keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
                 HCSmokedcheesewheel,
                 Result:HCSmokedcheese=6,
     		NeedToBeLearn:true, 

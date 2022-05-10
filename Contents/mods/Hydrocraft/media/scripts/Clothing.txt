@@ -131,7 +131,7 @@ recipe Make Improvised Gasmask
          HCSponge/Sponge,
          RubberBand=4,
          DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,
-         keep KitchenKnife/HuntingKnife/Scissors/Scalpel/HCJackknife/HCScalpelimprovised,
+         keep HCScalpelimprovised/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
          NeedToBeLearn:true,               
          Result:HCImprovisedgasmask,
 	 Time:300.0,

@@ -165,7 +165,7 @@ item HCPotnapalm
 recipe Make Soap Shards
     {
        	Soap2/HCSoap,
-       	keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+		keep [Recipe.GetItemTypes.SharpKnife],
        	Result:HCSoapshards,
        	Time:150.0,
        	Category:Chemistry,

@@ -1222,7 +1222,7 @@ recipe Stitch Hardened Leather Gloves
 recipe Make Helmet
 	{
 	   	BucketEmpty,
-    		keep HuntingKnife/HCCombatknife/HCJackknife/KitchenKnife/HCDaggersteel/HCDaggeriron/HCKnifesteel/HCKnifeiron,
+		keep [Recipe.GetItemTypes.SharpKnife],
 	   	Result:HCHelmbucket,
 	   	Time:15.0,
     		Category:Armor,

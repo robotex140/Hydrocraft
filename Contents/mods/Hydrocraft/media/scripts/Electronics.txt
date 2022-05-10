@@ -877,7 +877,7 @@ recipe Make Control Panel
 	HCSolder,
 	HCSoldergunpowered,
     HCWeldingset,
-    keep WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep HCWorkgloves,
 	keep HCElectornicsbench2,
     CanBeDoneFromFloor:true,
@@ -1118,7 +1118,7 @@ recipe Box Resistors
 
 recipe Recycle Colored Wire
     {
-       	keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+       	keep [Recipe.GetItemTypes.SharpKnife],
        	HCColoredwire,
        	Result:HCCablecopper,
        	Time:30.0,

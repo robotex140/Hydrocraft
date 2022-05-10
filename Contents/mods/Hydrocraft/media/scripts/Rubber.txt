@@ -156,7 +156,7 @@ recipe Make Rubber Sheet
     	{
     	HCRubbervulcanized=4,
     	keep Tongs,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
     	keep HCWorkgloves,
     	keep HCRollingmillsmall,
@@ -172,7 +172,7 @@ recipe Make Rubber Hose
     	{
     	HCRubbersheet,
     	keep HCWorkgloves,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
     	keep HCWorkgloves,
     	CanBeDoneFromFloor:true,
@@ -187,7 +187,7 @@ recipe Make Rubber Hose
     	{
     	HCRubbersheet,
     	keep HCWorkgloves,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
     	keep HCWorkgloves,
     	CanBeDoneFromFloor:true,
@@ -202,7 +202,7 @@ recipe Make Rubber Hose
     	{
     	HCRubbersheet=10,
     	keep HCWorkgloves,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
     	keep HCWorkgloves,
     	CanBeDoneFromFloor:true,

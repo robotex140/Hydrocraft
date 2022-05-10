@@ -318,7 +318,7 @@ recipe Clean Empty Liquid Soap Can
 recipe Recycle Liquid Soap Can
     {
     	HCDetergentempty,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     	Result:HCPlastic=5,
         OnCreate:recipe_hclabeldetergent,
     	Time:50,

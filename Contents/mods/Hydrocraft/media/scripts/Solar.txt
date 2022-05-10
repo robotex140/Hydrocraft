@@ -90,7 +90,7 @@ recipe Build Battery Array
     	SheetMetal=3,
     	HCCoppercablered=2,
     	HCCablecopper=2,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCWeldingset,
 	keep HCElectornicsbench2,

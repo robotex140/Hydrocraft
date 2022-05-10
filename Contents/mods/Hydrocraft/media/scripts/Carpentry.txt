@@ -1,48 +1,3 @@
-module Base
-{
-	recipe Make Two-Log Stack
-    {
-        Log=2,
-        [Recipe.GetItemTypes.CraftLogStack]=2,
-        Result:LogStacks2,
-        Time:60.0,
-        Category:Carpentry,
-        OnCreate:Recipe.OnCreate.CreateLogStack,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogAddToStack,
-        CanBeDoneFromFloor:true,
-        Override:true,
-    }
-
-    recipe Make Three-Log Stack
-    {
-        Log=3,
-        [Recipe.GetItemTypes.CraftLogStack]=2,
-        Result:LogStacks3,
-        Time:60.0,
-        OnCreate:Recipe.OnCreate.CreateLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogAddToStack,
-        CanBeDoneFromFloor:true,
-        Override:true,
-    }
-
-    recipe Make Four-Log Stack
-    {
-        Log=4,
-        [Recipe.GetItemTypes.CraftLogStack]=2,
-        Result:LogStacks4,
-        Time:60.0,
-        OnCreate:Recipe.OnCreate.CreateLogStack,
-        Category:Carpentry,
-        OnGiveXP:Recipe.OnGiveXP.None,
-        Sound:LogAddToStack,
-        CanBeDoneFromFloor:true,
-        Override:true,
-    }
-}
-
 module Hydrocraft
 {
     imports
@@ -1147,7 +1102,7 @@ recipe Make Wooden Tongs
 recipe Make Small Curved Shaft
     {
         TreeBranch,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCCurvedshaftsmall,
         Time:100,
         Category:Survivalist,
@@ -2341,7 +2296,7 @@ recipe Carve Wooden Bird Call
     {
         HCWoodblock,
         HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCBirdcall,
         Time:500,
         NeedToBeLearn:true,
@@ -2355,7 +2310,7 @@ recipe Carve Wooden Duck Call
         SkillRequired:Woodwork=3,
         HCWoodblock,
         HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCDuckcall,
         Time:500,
         NeedToBeLearn:true,
@@ -2368,7 +2323,7 @@ recipe Carve Wooden Flute
         SkillRequired:Woodwork=3,
         HCWoodblock,
         HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCFlutewood,
         Time:500,
         NeedToBeLearn:true,
@@ -2380,7 +2335,7 @@ recipe Carve Wooden Bowl
     {
         SkillRequired:Woodwork=3,
         HCWoodblock,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:Bowl,
         Time:500,
         Category:Carpentry,
@@ -2391,7 +2346,7 @@ recipe Carve Wooden Spatula
     {
         SkillRequired:Woodwork=3,
         HCWoodblock,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCWoodenspatula,
         Time:500,
         Category:Carpentry,
@@ -2402,7 +2357,7 @@ recipe Carve Wooden Spoon
     {
         SkillRequired:Woodwork=3,
         HCWoodblock,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCWoodenspoon,
         Time:500,
         Category:Carpentry,
@@ -2413,7 +2368,7 @@ recipe Carve Wooden Fork
     {
         SkillRequired:Woodwork=3,
         HCWoodblock,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCWoodenfork,
         Time:500,
         Category:Carpentry,
@@ -2688,7 +2643,7 @@ recipe Make Chopsticks
     {
         SkillRequired:Woodwork=2;Cooking=3;,
         TreeBranch,
-        keep Saw/GardenSaw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
+		keep Saw/GardenSaw/SharpedStone/[Recipe.GetItemTypes.SharpKnife],
         Result:HCChopsticks=3,
         Sound:PZ_Saw,
         Time:100,
@@ -2699,7 +2654,7 @@ recipe Make Chopsticks
 recipe Make Chopsticks
     {
         Twigs,
-        keep Saw/GardenSaw/HuntingKnife/KitchenKnife/SharpedStone/FlintKnife/MeatCleaver,
+		keep Saw/GardenSaw/SharpedStone/[Recipe.GetItemTypes.SharpKnife],
         Result:HCChopsticks=1,
         Sound:PZ_Saw,
         Time:30,

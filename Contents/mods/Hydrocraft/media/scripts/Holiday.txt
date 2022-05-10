@@ -308,6 +308,7 @@ module Hydrocraft
 		KnockdownMod			=	0,
 		SplatBloodOnNoDeath		=	TRUE,
 		Icon				=	HCPumpkinknife,
+        Tags = CutPlant;SharpKnife,
 		RunAnim				=	Run_Weapon2,
         	IdleAnim			=	Idle_Weapon2,
         	BreakSound  			=   	BreakMetalItem,

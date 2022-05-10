@@ -790,7 +790,7 @@ item HCFishoil
 
 recipe Slice Fillet
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout,
         	Result:FishFillet,
        	 	Sound:SliceMeat,
@@ -803,7 +803,7 @@ recipe Slice Fillet
 
 recipe Slice Fillet
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	HCHerring/HCBlowfish/HCBream/HCEel/HCMackerel/HCMackerelpike/HCRedsnapper/HCSeabass/HCSmelt/HCTuna/HCWrasse/HCAsp/HCBrill/HCBurbot/HCCarp/HCChub/HCGrayling/HCLavaret/HCPlaice/HCRoach/HCRuffe/HCSilverbream/HCTench/HCZander,
         	Result:FishFillet,
         	Sound:SliceMeat,
@@ -814,7 +814,7 @@ recipe Slice Fillet
 
 recipe Slice Fillet
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	HCSalmon,
         	Result:Salmon,
         	Sound:SliceMeat,
@@ -825,7 +825,7 @@ recipe Slice Fillet
 
 recipe Slice Frog
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Frog,
         	Result:FrogMeat,
         	Sound:SliceMeat,

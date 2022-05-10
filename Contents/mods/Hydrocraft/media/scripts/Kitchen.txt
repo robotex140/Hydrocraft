@@ -945,6 +945,7 @@ item HCJellomold1
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
 		DisplayCategory          =   Useless,
+		Tags = Fork,
 	}
 
 	item HCPlasticspoon
@@ -978,6 +979,7 @@ item HCJellomold1
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
 		DisplayCategory          =   Useless,
+		Tags = Spoon, 
 	}
 
 	item HCPlasticknife
@@ -1011,6 +1013,7 @@ item HCJellomold1
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
 		DisplayCategory          =   Useless,
+		Tags					= DullKnife,
 	}
 
 	item HCSpork
@@ -1084,6 +1087,7 @@ item HCJellomold1
         EnduranceMod 			= 	0.5,
         AttachmentType       = Knife,
 		DisplayCategory          =   WepMelee,
+		Tags = CutPlant;SharpKnife,
 	}
 	
 
@@ -1119,6 +1123,7 @@ item HCJellomold1
 		TreeDamage  =   0,
 		EnduranceMod = 0.5,
 		DisplayCategory          =   WepMelee,
+		Tags = Spoon, 
 	}
 
 	item HCWoodenfork
@@ -1152,6 +1157,7 @@ item HCJellomold1
 		TreeDamage  =   0,
 		EnduranceMod = 0.5,
 		DisplayCategory          =   WepMelee,
+		Tags = Fork,
 	}
 
 
@@ -1187,6 +1193,7 @@ item HCJellomold1
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
 		DisplayCategory          =   WepMelee,
+		Tags = Fork,
 	}
 
 	item HCSterlingsilverspoon
@@ -1220,6 +1227,7 @@ item HCJellomold1
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
 		DisplayCategory          =   WepMelee,
+		Tags = Spoon, 
 	}
 
 	item HCSterlingsilverknife
@@ -1253,6 +1261,7 @@ item HCJellomold1
 		TreeDamage  			=   	0,
 		EnduranceMod 			= 	0.5,
 		DisplayCategory          =   WepMelee,
+		Tags					= DullKnife,
 	}
 
 

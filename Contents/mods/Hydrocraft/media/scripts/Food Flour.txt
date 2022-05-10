@@ -738,7 +738,7 @@ recipe Open Bag of Burger Buns
 
 recipe Slice Bread
     {
-        	keep BreadKnife/KitchenKnife/ButterKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Bread/HCWholegrainbread,
         	Result:BreadSlices=3,
         	Sound:PZ_SliceBread,
@@ -773,7 +773,7 @@ recipe Make Bowl of Sweetened Gruel
 recipe Make Dry Ramen Noodles
 	{
 		keep RollingPin,
-		keep KitchenKnife/HuntingKnife/ButterKnife/FlintKnife,
+		keep [Recipe.GetItemTypes.SharpKnife],
 		Water=1,
 		Flour/HCRiceflour,
 		Result:Ramen,

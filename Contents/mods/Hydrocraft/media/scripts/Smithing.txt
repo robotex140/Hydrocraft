@@ -853,7 +853,7 @@ recipe Cut Small Copper Sheets
 
 recipe Cut Small Copper Sheets
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCCoppersheet,
     	HCWeldingset,
@@ -889,7 +889,7 @@ recipe Cut Small Tin Sheets
 
 recipe Cut Small Tin Sheets
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCTinsheet,
     	HCWeldingset,
@@ -925,7 +925,7 @@ recipe Cut Small Tin Sheets
 
 recipe Cut Small Bronze Sheets
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCBronzesheet,
     	HCWeldingset,
@@ -961,7 +961,7 @@ recipe Cut Small Iron Sheets
 
 recipe Cut Small Iron Sheets
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCIronsheet,
     	HCWeldingset,
@@ -997,7 +997,7 @@ recipe Cut Small Lead Sheets
 
 recipe Cut Small Lead Sheets
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCLeadsheet,
     	HCWeldingset,
@@ -1033,7 +1033,7 @@ recipe Cut Small Steel Sheet
 
 recipe Cut Small Steel Sheet
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCSteelsheet,
     	HCWeldingset,
@@ -1069,7 +1069,7 @@ recipe Cut Small Metal Sheets
 
 recipe Cut Small Metal Sheets
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCSteelsheet,
     	HCWeldingset,
@@ -1083,7 +1083,7 @@ recipe Cut Small Metal Sheets
 
 recipe Cut Small Titanium Sheets
     {
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	HCTitaniumsheet,
     	HCWeldingset,
@@ -1464,7 +1464,7 @@ recipe Make Large Copper Sheet
         HCCoppersheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCCoppersheetlarge,              
         Time:500.0,
@@ -1477,7 +1477,7 @@ recipe Make Large Tin Sheet
         HCTinsheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCTinsheetlarge,              
         Time:500.0,
@@ -1490,7 +1490,7 @@ recipe Make Large Silver Sheet
         HCSilversheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCSilversheetlarge,              
         Time:500.0,
@@ -1503,7 +1503,7 @@ recipe Make Large Bronze Sheet
         HCBronzesheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCBronzesheetlarge,              
         Time:500.0,
@@ -1516,7 +1516,7 @@ recipe Make Large Iron Sheet
         HCIronsheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCIronsheetlarge,              
         Time:500.0,
@@ -1529,7 +1529,7 @@ recipe Make Large Lead Sheet
         HCLeadsheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCLeadsheetlarge,              
         Time:500.0,
@@ -1542,7 +1542,7 @@ recipe Make Large Steel Sheet
         HCSteelsheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCSteelsheetlarge,              
         Time:500.0,
@@ -1555,7 +1555,7 @@ recipe Make Large Aluminum Sheet
         SheetMetal=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCLargesheetmetal,              
         Time:500.0,
@@ -1568,7 +1568,7 @@ recipe Make Large Titanium Sheet
         HCTitaniumsheet=2,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCTitaniumsheetlarge,              
         Time:500.0,
@@ -1598,7 +1598,7 @@ recipe Make Steel Pipe
         HCSteelsheetlarge,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCSteelpipe,              
         Time:500.0,
@@ -1611,7 +1611,7 @@ recipe Make Copper Pipe
         HCCoppersheetlarge,
         HCWeldingset,
         keep HCWorkgloves,   
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         NeedToBeLearn:true,           
 	Result:HCCopperpipe,              
         Time:500.0,
@@ -2338,7 +2338,7 @@ recipe Make Copper Cooling Rack
 	{
 		HCCopperpipe=6,
 		HCWeldingset,
-		keep WeldingMask,
+		keep [Recipe.GetItemTypes.WeldingMask],
 		keep HCWorkgloves/HCOvenmitts,
     		keep Hammer,
 		keep HCPipebender,

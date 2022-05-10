@@ -407,7 +407,7 @@ item HCPiecrust
 
 recipe Slice Pie
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	PieWholeRaw,
         	Result:Pie=5,
         	Time:20.0,
@@ -418,7 +418,7 @@ recipe Slice Pie
 
 recipe Slice Cake
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	CakeRaw,
         	Result:CakeSlice=5,
         	Time:20.0,

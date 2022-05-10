@@ -651,7 +651,7 @@ recipe Build Stamp Mill
 	HCSteelrod=5,
 	HCSteelingot=5,
     	HCWeldingset,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
 	keep Hammer,
         keep Saw,

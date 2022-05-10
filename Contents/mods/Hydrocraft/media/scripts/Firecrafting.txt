@@ -786,7 +786,7 @@ recipe Make Carbon Nanofiber
     	HCNanochains,
     	HCCoke,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	keep HCFurnace2,
     	CanBeDoneFromFloor:true,

@@ -379,7 +379,7 @@ item HCPlasticcanwater
 recipe Recycle Plastic Can
     {
     	HCPlasticcanempty,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     	Result:HCPlastic=5,
     	Time:50,
     	Category:Engineer,
@@ -389,7 +389,7 @@ recipe Recycle Plastic Can
 recipe Recycle Ammonia Can
     {
     	HCAmmoniacanempty,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
         OnCreate:recipe_hclabelammonia,
     	Result:HCPlastic=5,
     	Time:50,
@@ -413,7 +413,7 @@ recipe Clean Empty Ammonia Can
 recipe Recycle Hydrogen Peroxide Can
     {
     	HCh2o2canempty,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
         OnCreate:recipe_hclabelh2o2,
     	Result:HCPlastic=5,
     	Time:50,
@@ -437,7 +437,7 @@ recipe Clean Empty Liquid Soap Can
 recipe Recycle Sulfuric Acid Can
     {
     	HCSulfuricacidcanempty,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     	Result:HCPlastic=5,
         OnCreate:recipe_hclabelsulfuricacid,
     	Time:50,

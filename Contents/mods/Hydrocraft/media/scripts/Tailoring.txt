@@ -813,7 +813,7 @@ recipe Make Tailor's Workbench
         HCWorkbench,
         HCSpinningwheel,
         HCBoneneedle,
-        Scissors,
+        [Recipe.GetItemTypes.Scissors],
         KnittingNeedles,
         HCMeasuringtape,
         CanBeDoneFromFloor:true,
@@ -1356,7 +1356,7 @@ recipe Make Rope
 recipe Make Bark Strips
     {
         TreeBranch,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCBarkstrip=3,
         Time:15,
         Category:Tailoring,
@@ -1402,7 +1402,7 @@ recipe Make Thin Rope
 recipe Make Jute Fibers
     {
         HCJutestemsdry,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+		keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCJutefibers,
         Time:15,
         Category:Tailoring,
@@ -1778,7 +1778,7 @@ recipe Make Pillow
 
 recipe Make Rain Poncho
     {
-        keep Scissors/HCChildsafetyscissors/HCTailoringbench2/KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors]/HCTailoringbench2,
         Garbagebag=2,
         DuctTape=3,   
         Result:PonchoGreen,
@@ -2064,7 +2064,7 @@ recipe Make Clothespins
     	HCWeldingset,
     	keep Tongs,
     	keep HCWorkgloves,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCRollingmillsmall,
     	CanBeDoneFromFloor:true,
         Result:HCClothespin=5,

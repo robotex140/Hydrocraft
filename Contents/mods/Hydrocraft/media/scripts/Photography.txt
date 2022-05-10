@@ -104,7 +104,7 @@ recipe Make Photography Workbench
 	Newspaper=3,
 	HCClothespin=6,
 	HCRopethin,
-	Scissors,
+	[Recipe.GetItemTypes.Scissors],
 	HCBottleopener,
 	HCMeasuringcup,
 	/*Timer, removed, as this item no longer spawns in vanilla - may need a better solution*/

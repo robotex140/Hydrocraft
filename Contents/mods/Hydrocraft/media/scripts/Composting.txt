@@ -123,7 +123,7 @@ recipe Build Composter
         Screws,
 	HCMetalwheel,
     	HCWeldingset,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
         keep Screwdriver,
 	keep HCGardenbench,

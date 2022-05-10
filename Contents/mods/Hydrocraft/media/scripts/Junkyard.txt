@@ -437,7 +437,7 @@ recipe Upgrade To Large Junkyard
        	HCCablecopper=4,
        	keep Hammer,
     	keep HCWorkgloves/HCOvenmitts,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
     	keep HCWorkgloves,
        	CanBeDoneFromFloor:true,

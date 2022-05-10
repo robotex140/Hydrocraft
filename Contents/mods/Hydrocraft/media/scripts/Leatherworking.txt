@@ -1181,7 +1181,7 @@ item HCLeatherSandbag
 
 recipe Skin Corpse
     {
-	keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+	keep [Recipe.GetItemTypes.SharpKnife],
 	CorpseMale/CorpseFemale,
 	CanBeDoneFromFloor:true,
 	Result:HCZedmeat,

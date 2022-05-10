@@ -1197,7 +1197,7 @@ recipe Make Titanium Powder
 recipe Make Phosphorus Powder
     {
         OnTest:HCNearGrindstone,
-        keep KitchenKnife/Scalpel/HCJackknife,
+		keep [Recipe.GetItemTypes.SharpKnife],
         Matches=15,
         CanBeDoneFromFloor:true,
         Result:HCPhosphoruspowder,

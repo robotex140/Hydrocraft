@@ -649,7 +649,7 @@ item HCChristmashamcasserole
 
 recipe Slice Amphibian
     {
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Frog/HCToad/HCNewt/HCSalamander,
         Result:FrogMeat,
         CanBeDoneFromFloor:true,
@@ -663,7 +663,7 @@ recipe Slice Amphibian
 recipe Butcher Turtle
     {
         SkillRequired:Cooking=2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         HCPondturtle,
         Result:Smallanimalmeat,
         CanBeDoneFromFloor:true,
@@ -676,7 +676,7 @@ recipe Butcher Turtle
 recipe Butcher Turtle
     {
         SkillRequired:Cooking=2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         HCSnappingturtle,
         Result:Smallanimalmeat=2,
         CanBeDoneFromFloor:true,
@@ -690,7 +690,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
 		HCChickendead/HCChickendead2,
-		keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+		keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
     	Result:HCBrownfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -705,7 +705,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
 		HCDuckdead,
-		keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+		keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
     	Result:HCWhitefeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -720,7 +720,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
 	    HCPigeondead,
-	    keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+	    keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCWhitefeathers=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -735,7 +735,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCSparrowdead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=2,
         CanBeDoneFromFloor:true,    
         Sound:SliceMeat,
@@ -750,7 +750,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCCardinaldead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCRedfeather=2,
         CanBeDoneFromFloor:true,    
         Sound:SliceMeat,
@@ -765,7 +765,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCBluejaydead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBluejayfeather=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -780,7 +780,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCMagpiedead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCWhitefeathers=3,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -795,7 +795,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCCrowdead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBlackfeathers=4,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -915,7 +915,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCCootdead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBlackfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -930,7 +930,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCBlackduckdead/HCBlackduckdead2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBlackfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -945,7 +945,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCCanvasbackduckdead/HCCanvasbackduckdead2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -960,7 +960,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCMallarddead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -975,7 +975,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCPintailduckdead/HCPintailduckdead2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -990,7 +990,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCRedheadduckdead/HCRedheadduckdead2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1005,7 +1005,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCScaupduckdead/HCScaupduckdead2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1020,7 +1020,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCWoodduckdead/HCWoodduckdead2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=5,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1035,7 +1035,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCSnowgoosedead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCWhitefeathers=6,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1050,7 +1050,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCCanadiangoosedead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=6,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1065,7 +1065,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCQuaildead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1080,7 +1080,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCGrousedead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1095,7 +1095,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCTurkeydead,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBrownfeathers=12,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1108,7 +1108,7 @@ recipe Butcher Carcass
 
 recipe Butcher Carcass
     {
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         HCHamsterdead,
         Result:Smallanimalmeat,
         CanBeDoneFromFloor:true,
@@ -1124,7 +1124,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCNutriameat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBone=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1139,7 +1139,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCBeavermeat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBone=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1154,7 +1154,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCPorcupinemeat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBone=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1169,7 +1169,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCArmadillomeat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBone=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1184,7 +1184,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCFoxmeat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCFoxbones,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1199,7 +1199,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCRaccoonmeat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCRaccoonbones,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1214,7 +1214,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCOpossummeat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBone=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -1229,7 +1229,7 @@ recipe Butcher Carcass
 	{
         SkillRequired:Cooking=2,
         HCSkunkmeat,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:HCBone=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,

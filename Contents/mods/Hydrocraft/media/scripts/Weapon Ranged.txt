@@ -595,7 +595,7 @@ recipe Make Duct Tape Fletching
 
 recipe Make Bone Arrowhead
     {
-    keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+	keep [Recipe.GetItemTypes.SharpKnife],
     HCBone/HCZombiebones,
     Result:HCBonearrowhead,
     NeedToBeLearn:true,

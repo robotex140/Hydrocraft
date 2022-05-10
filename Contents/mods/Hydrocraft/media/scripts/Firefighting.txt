@@ -109,7 +109,7 @@ recipe Make Fireproof Suit
 	HCBorax=4,
 	HCWorkgloves,
 	HCBlacksmithapron,
-	WeldingMask,
+	[Recipe.GetItemTypes.WeldingMask],
 	Jacket_Fireman,
 	Trousers_Fireman,
 	Shoes_ArmyBootsDesert,

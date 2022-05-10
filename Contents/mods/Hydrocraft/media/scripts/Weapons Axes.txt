@@ -84,6 +84,7 @@ item HCAxeheadblunt
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
 		DamageMakeHole = TRUE,
+        Tags 						= ChopTree;CutPlant,
         AttachmentType 					= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -123,6 +124,7 @@ item HCAxeheadblunt
 		RunAnim				=	Run_Weapon2,
        	TwoHandWeapon 		= 	TRUE,
         BreakSound  		=   	BreakWoodItem,
+        Tags 						= ChopTree;CutPlant,
         TreeDamage  		=   	30,
 		DamageMakeHole = TRUE,
         AttachmentType 		= BigWeapon,
@@ -164,6 +166,7 @@ item HCAxeheadblunt
 		RunAnim				=	Run_Weapon2,
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
+        Tags 						= ChopTree;CutPlant,
         TreeDamage  			=   	25,
 		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
@@ -206,6 +209,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
+        Tags 						= ChopTree;CutPlant,
 		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
@@ -292,6 +296,7 @@ item HCAxeheadblunt
 		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
+        Tags 						= ChopTree;CutPlant,
 	}
 
 	item HCHatchetiron
@@ -333,6 +338,7 @@ item HCAxeheadblunt
 		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
+        Tags 						= ChopTree;CutPlant,
 	}
 
 

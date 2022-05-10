@@ -990,7 +990,7 @@ recipe Build Professional Lab
     HCBarrelmetalempty,
     SheetMetal=4,
     HCWeldingset,
-    keep WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep HCWorkgloves,
     keep Screwdriver,
     CanBeDoneFromFloor:true,

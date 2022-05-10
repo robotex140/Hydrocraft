@@ -57,7 +57,7 @@ module Hydrocraft
         ImpactSound	=	BladeHit,
 		HitSound	=	BladeHit,
 		AttachmentType = Knife,
-        Tags = CutPlant,
+        Tags = CutPlant;SharpKnife,
 		DisplayCategory	= WepMelee,
     }
 
