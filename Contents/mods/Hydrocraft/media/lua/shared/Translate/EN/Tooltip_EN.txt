@@ -5,4 +5,5 @@ Tooltip_EN = {
 	Tooltip_HCFeedme = "Feed to keep alive.",
 	Tooltip_HCSleep = "Drop on floor to use.",
 	HCFarming_Tooltip_UseFruitAsSeed = "Can use fruit as seed.",
+	Tooltip_item_BonusLongbowReload = "Grants +50% reload speed to the Longbow when worn.",
 }

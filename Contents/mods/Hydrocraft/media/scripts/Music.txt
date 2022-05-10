@@ -275,15 +275,6 @@ item HCClarinet
 	DisplayCategory	= 	Toy,
    }
 
-item HCSax
-    {
-	Weight			=	1.0,
-	Type			=	Normal,
-	DisplayName		=	Saxophone,
-	Icon			=	HCSax,
-	DisplayCategory	= 	Toy,
-   }
-
 item HCTrumpet
     {
 	Weight			=	1.0,
@@ -575,8 +566,9 @@ recipe Play Music
 
 recipe Play Music
     {
-    	HCSax,
-    	Result:HCSax,
+    	keep Saxophone,
+    	Result:Saxophone,
+		RemoveResultItem:true,
     	NeedToBeLearn:true,
     	Time:500,
     	OnCreate:HC_ToyStatModifier,

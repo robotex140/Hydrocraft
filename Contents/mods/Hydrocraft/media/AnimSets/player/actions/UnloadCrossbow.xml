@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="LoadCrossbow.xml">
+	<m_Name>UnloadCrossbow</m_Name>
+	<m_Conditions />
+	<m_Conditions />
+	<m_Conditions>
+		<m_Name>isUnloading</m_Name>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>unloadFinished</m_EventName>
+	</m_Events>
+	<m_Events>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+        <m_ParameterValue>Hydrocraft.HCCrossbowEmpty</m_ParameterValue>
+    </m_Events>
+	<m_Events>
+		<m_ParameterValue>ejectAmmoStart</m_ParameterValue>
+	</m_Events>
+</animNode>

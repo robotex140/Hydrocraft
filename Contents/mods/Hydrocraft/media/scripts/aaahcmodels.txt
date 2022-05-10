@@ -1,110 +1,644 @@
-module Hydrocraft {
-
-model HCAA12Shotgun
+module Hydrocraft
+{
+	imports
+{
+  Base
+}
+	model HCAA12Shotgun
 {
   mesh = Weapons/HCAA12Shotgun,
 }
-
-
-model HCShotgunSilencer
+	model HCShotgunSilencer
   {
     mesh = Weapons/HCShotgunSilencer,
   }
-
-
-model HCUziSilencer
+	model HCUziSilencer
   {
     mesh = Weapons/HCUziSilencer,
   }
-
-
-model HCUzi
+	model HCUzi
   {
     mesh = Weapons/HCUzi,
   }
-
-
-model HCHomemadebattrimmer
+	model HCHomemadebattrimmer
 {
   mesh = Weapons/HCHomemadebattrimmer,
 }
-
-model HCQuarterstaffGrip
+	model HCQuarterstaffGrip
 {
   mesh = Weapons/HCQuarterstaffGrip,
 }
-
-model HCQuarterstaff
+	model HCQuarterstaff
 {
   mesh = Weapons/HCQuarterStaff,
 }
-
-
-model HCQuarterstaffBarbedWire
+	model HCQuarterstaffBarbedWire
 {
   mesh = Weapons/HCQuarterstaffBarbedWire,
 }
-
-model HCSpikedmacesteel
+	model HCSpikedmacesteel
   {
     mesh = weapons/HCSpikedmacesteel,
     texture = weapons/HCSteelWeapons01,
   }
-
-model HCSpikedmaceCopper
+	model HCSpikedmaceCopper
   {
     mesh = weapons/HCSpikedmaceCopper,
     texture = weapons/HCBronzeCopperWeapons01,
   }
-
-model HCSpikedmaceBronce
+	model HCSpikedmaceBronce
   {
     mesh = weapons/HCSpikedmaceBronce,
     texture = weapons/HCBronzeCopperWeapons01,
   }
-
-model HCSpikedmaceSmall
+	model HCSpikedmaceSmall
   {
     mesh = weapons/HCSpikedmaceSmall,
     texture = weapons/HCBronzeCopperWeapons01,
   }
-
-model HCShortswordsteel
+	model HCShortswordsteel
   {
     mesh = weapons/HCShortswordsteel,
     texture = weapons/HCSteelWeapons01,
   }
-
-model HCConanSword
+	model HCConanSword
   {
     mesh = weapons/HCConanSword,
     texture = weapons/HCSteelWeapons01,
   }
-
-
-model HCSpearsteel
+	model HCSpearsteel
   {
     mesh = weapons/HCSpearsteel,
     texture = weapons/HCSteelWeapons01,
   }
-
-
-model HCSkullsplitter
+	model HCSkullsplitter
   {
     mesh = weapons/HCSkullsplitter,
     texture = weapons/HCSteelWeapons01,
   }
-
-model HCWardog
+	model HCWardog
   {
     mesh = weapons/HCWardog,
     texture = weapons/HCWardog,
   }
+	model HCCannedapple
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedApple,
+  }
+	model HCCannedpear
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPear,
+  }
+	model HCCannedgreenbeans
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGreenBeans,
+  }
+	model HCCannedshrooms
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedShrooms,
+  }
+	model HCCannedpumpkin
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPumpkin,
+  }
+	model HCCannedspam
+  {
+    mesh = WorldItems/HCCannedSpam,
+    texture = WorldItems/HCCannedSpam,
+  }
+	model HCCannedcranberries
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedCranberries,
+  }
+	model HCCannedpineapple
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPineapple,
+  }
+	model HCCannedrefriedbeans
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedRefriedBeans,
+  }
+	model HCCanbangedup
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCanBangedUp,
+  }
+	model HCCannedcheesesauce
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedchickenbreast
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedfruitcocktail
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedmacncheese
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedgovermentbeef
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentBeef,
+  }
+	model HCCannedgovernmentbread
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentBread,
+  }
+	model HCCannedgovernmentchicken
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentChicken,
+  }
+	model HCCannedgovernmentpork
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedGovernmentPork,
+  }
+	model HCCannedpiefillingapple
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPieFillingApple,
+  }
+	model HCCannedpiefillingblueberry
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPieFillingBlueberry,
+  }
+	model HCCannedpiefillingcherry
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedPieFillingCherry,
+  }
+	model HCCannedravioli
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedRavioli,
+  }
+	model HCCannedspaghettirings
+  {
+    mesh = CanClosed,
+    texture = WorldItems/HCCannedSpaghettiRings,
+  }
+	model HCCannedappleopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedApple,
+  }
+	model HCCannedpearopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPear,
+  }
+	model HCCannedgreenbeansopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGreenBeans,
+  }
+	model HCCannedshroomsopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedShrooms,
+  }
+	model HCCannedpumpkinopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPumpkin,
+  }
+	model HCCannedspamopen
+  {
+    mesh = WorldItems/HCCannedSpam,
+    texture = WorldItems/HCCannedSpam,
+  }
+	model HCCannedcranberriesopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedCranberries,
+  }
+	model HCCannedpineappleopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPineapple,
+  }
+	model HCCannedrefriedbeansopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedRefriedBeans,
+  }
+	model HCCanbangedupopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCanBangedUp,
+  }
+	model HCCannedcheesesauceopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedchickenbreastopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedfruitcocktailopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedmacncheeseopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGeneric,
+  }
+	model HCCannedgovermentbeefopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentBeef,
+  }
+	model HCCannedgovernmentbreadopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentBread,
+  }
+	model HCCannedgovernmentchickenopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentChicken,
+  }
+	model HCCannedgovernmentporkopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedGovernmentPork,
+  }
+	model HCCannedpiefillingappleopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPieFillingApple,
+  }
+	model HCCannedpiefillingblueberryopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPieFillingBlueberry,
+  }
+	model HCCannedpiefillingcherryopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedPieFillingCherry,
+  }
+	model HCCannedravioliopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedRavioli,
+  }
+	model HCCannedspaghettiringsopen
+  {
+    mesh = CanOpen,
+    texture = WorldItems/HCCannedSpaghettiRings,
+  }
+	model HCAluminiumbat
+  {
+    mesh = weapons/2handed/Baseballbat,
+    texture = weapons/HCAluminumBat,
+  }
+	model HCBoxcutter
+	{
+		mesh = weapons/HCBoxcutter,
+		texture = weapons/HCBoxcutter,
+	}
+	model HCHatchetiron
+  {
+    mesh = Weapons/1Handed/HandAxe,
+    texture = weapons/HCHatchetIron,
+  }
+	model HCHatchetsteel
+  {
+    mesh = Weapons/1Handed/HandAxe,
+    texture = weapons/HCHatchetIron,
+  }
+	model HCSurvivalaxe
+	{
+		mesh = Weapons/HCSurvivalAxe,
+		texture = weapons/HCSurvivalAxe,
 
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HCWarhammersteel
+  {
+    mesh = Weapons/2Handed/SledgeHammer02,
+    texture = weapons/HCWarhammerSteel,
 
+    attachment world
+		{
+			offset = 0.0000 0.2120 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+	model HCWarhammeriron
+  {
+    mesh = Weapons/2Handed/SledgeHammer,
+    texture = weapons/HCWarhammerIron,
 
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+	model HCWarhammerbronze
+  {
+    mesh = Weapons/2Handed/SledgeHammer,
+    texture = weapons/HCWarhammerBronze,
 
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+	model HCWarhammercopper
+  {
+    mesh = Weapons/2Handed/SledgeHammer,
+    texture = weapons/HCWarhammerCopper,
 
+		attachment world
+		{
+			offset = 0.0000 0.2970 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+  }
+	model HCSmithyhammercopper
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerCopper,
 
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+  }
+	model HCSmithyhammerbronze
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerBronze,
 
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+  }
+	model HCSmithyhammeriron
+	{
+		mesh = weapons/HCSmithyHammer,
+		texture = weapons/HCSmithyHammerIron,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+	}
+	model HCSmithyhammersteel
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerSteel,
+
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+  }
+	model HCSmithyhammertitanium
+  {
+    mesh = weapons/HCSmithyHammer,
+    texture = weapons/HCSmithyHammerTitanium,
+
+    attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 -90.0000 180.0000,
+		}
+  }
+	model HCCigarettepacklights
+  {
+    mesh = WorldItems/CigarettePack,
+    texture = WorldItems/CigarettePackLight,
+    scale = 0.4,
+  }
+	model HCCigarettepackmenthol
+  {
+    mesh = WorldItems/CigarettePack,
+    texture = WorldItems/CigarettePackMenthol,
+    scale = 0.4,
+  }
+	model HCCigarettecarton
+  {
+    mesh = WorldItems/HCCigaretteCarton,
+    texture = WorldItems/HCCigaretteCarton,
+    scale = 0.4,
+  }
+	model HCCigarettecartonlights
+  {
+    mesh = WorldItems/HCCigaretteCarton,
+    texture = WorldItems/HCCigaretteCartonLights,
+    scale = 0.4,
+  }
+	model HCCigarettecartonmenthol
+  {
+    mesh = WorldItems/HCCigaretteCarton,
+    texture = WorldItems/HCCigaretteCartonMenthol,
+    scale = 0.4,
+  }
+	model HCScythecopper
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheCopper,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HCScythebronze
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheBronze,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HCScytheiron
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheIron,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HCScythesteel
+	{
+		mesh = weapons/HCScythe,
+		texture = weapons/HCScytheSteel,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HCLongbow
+	{
+		mesh = weapons/HCLongbow,
+		texture = weapons/HCLongbow,
+
+    attachment mag
+		{
+			offset = 0.0000 -0.0020 0.0000,
+			rotate = -180.0000 0.0000 0.0000,
+		}
+
+    attachment rifle_back
+		{
+			offset = -0.0400 0.0000 0.0000,
+			rotate = 1.0000 15.0000 4.0000,
+		}
+
+    attachment rifle_back_bag
+		{
+			offset = -0.0480 -0.0680 -0.0480,
+			rotate = -109.0000 -89.0000 -93.0000,
+		}
+  }
+  model HCHelmcopper {
+    mesh = WorldItems/HCHelmBronze,
+    texture = WorldItems/HCHelmCopper,
+  }
+	model HCHelmbronze {
+    mesh = WorldItems/HCHelmBronze,
+    texture = WorldItems/HCHelmBronze,
+  }
+  model HCHelmiron {
+    mesh = WorldItems/HCHelmIron,
+    texture = WorldItems/HCHelmIron,
+  }
+	model HCCrossbow
+	{
+		mesh = weapons/HCCrossbow,
+		texture = weapons/HCCrossbow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment rifle_back
+		{
+			offset = 0.0000 0.0000 -0.0410,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+  model HCCrossbowEmpty
+	{
+		mesh = weapons/HCCrossbowEmpty,
+		texture = weapons/HCCrossbow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment rifle_back
+		{
+			offset = 0.0000 0.0000 -0.0410,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+	}
+	model HCLongbowDrawn
+  {
+    mesh = weapons/HCLongbowDrawn,
+    texture = weapons/HCLongbow,
+
+    attachment mag
+		{
+			offset = 0.0000 -0.0020 0.0000,
+			rotate = -180.0000 0.0000 0.0000,
+		}
+
+    attachment rifle_back
+		{
+			offset = -0.0400 0.0000 0.0000,
+			rotate = 1.0000 15.0000 4.0000,
+		}
+
+    attachment rifle_back_bag
+		{
+			offset = -0.0480 -0.0680 -0.0480,
+			rotate = -109.0000 -89.0000 -93.0000,
+		}
+  }
+	model HCArrow
+	{
+		mesh = weapons/HCArrow,
+		texture = weapons/HCArrow,
+	}
+	model HCArrowAttachment
+	{
+		mesh = weapons/HCArrow,
+		texture = weapons/HCArrow,
+    scale = 0.01,
+	}
+	model HCQuiver_Ground
+  {
+    mesh = WorldItems/clothing/HCQuiver_Ground,
+    texture = clothing/HCQuiver,
+  }
+	model HCMagLongbow
+	{
+		mesh = weapons/HCMagLongbow,
+		texture = weapons/HCMagLongbow,
+		scale = 0.01,
+
+		attachment world
+		{
+			offset = 0.0000 0.0020 -0.0010,
+			rotate = 0.0000 -90.0000 0.0000,
+		}
+
+		attachment mag
+		{
+			offset = 0.0000 0.0020 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
 }

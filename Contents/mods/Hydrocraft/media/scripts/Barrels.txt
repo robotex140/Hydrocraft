@@ -13,7 +13,7 @@ item HCBarrelmetalempty
         Weight    		= 4,
         Type	                = Container,
         Capacity	        = 27,
-        DisplayName     	= Empty Metal Barrel
+        DisplayName     	= Empty Metal Barrel,
 		DisplayCategory          =   Container,
         icon 			= HCBarrelmetal,
     } 
@@ -35,7 +35,7 @@ item HCBarrelmetalammonia
 	UseDelta		= 0.05,
     DisplayName     = Metal Barrel with Ammonia,
     icon 			= HCBarrelmetal,
-	ReplaceOnDeplete	= HCMetalbarrelempty,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
 	DisplayCategory	= CraftChem,
     } 
 
@@ -87,7 +87,7 @@ item HCBarrelmetalmethylamin
     Type    		    = Drainable,
     DisplayName         = Metal Barrel with Methylamin,
     icon 		     	= HCBarrelmetal,
-	ReplaceOnDeplete	= HCMetalbarrelempty,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
 	DisplayCategory	= CraftChem,
     } 
 
@@ -140,7 +140,7 @@ item HCBarrelmetalphenyl
 	UseDelta		    = 0.05,
     DisplayName         = Metal Barrel with Phenylacetic Acid,
     icon 			    = HCBarrelmetal,
-	ReplaceOnDeplete	= HCMetalbarrelempty,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
 	DisplayCategory	= CraftChem,
     } 
 
@@ -193,7 +193,7 @@ item HCBarrelmetalsulfuricacid
 	UseDelta		    = 0.05,
     DisplayName     	= Metal Barrel with Phenylacetic Acid,
     icon 			    = HCBarrelmetal,
-	ReplaceOnDeplete	= HCMetalbarrelempty,
+	ReplaceOnDeplete	= HCBarrelmetalempty,
 	DisplayCategory		= CraftChem,
     } 
 
@@ -265,7 +265,7 @@ item HCBarrelmetalgasoline
 	UseDelta		    = 0.05,
     DisplayName         = Metal Barrel with Gasoline,
     icon             	= HCBarrelmetal,
-    ReplaceOnDeplete    = HCMetalbarrelempty,
+    ReplaceOnDeplete    = HCBarrelmetalempty,
 	DisplayCategory		= CraftChem,
     }
 

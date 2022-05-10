@@ -5,11 +5,11 @@
 ---
 
 HCOntest_references = {
-    ['HCNearCarpybench'] = 'Requires Nearby Placed Carpentry Bench',
-    ['HCNearHerbatable'] = 'Requires Nearby Placed Herbalist table',
-    ['HCNearTarkiln'] = 'Requires Nearby Placed Tar Kiln',
-    ['HCNearKiln'] = 'Requires Nearby Placed Kiln',
-    ['HCNearGrindstone'] = 'Requires Nearby Placed Grindstone'}
+    ['HCNearCarpybench'] = 'Requires Nearby Built Carpentry Bench',
+    ['HCNearHerbatable'] = 'Requires Nearby Built Herbalist table',
+    ['HCNearTarkiln'] = 'Requires Nearby Built Tar Kiln',
+    ['HCNearKiln'] = 'Requires Nearby Built Kiln',
+    ['HCNearGrindstone'] = 'Requires Nearby Built Grindstone'}
 
 
 HCOntest_furni_references = {

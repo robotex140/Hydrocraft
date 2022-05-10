@@ -8,7 +8,7 @@ require "Items/ProceduralDistributions";
 require "HCDistributionFunctions";
 
 -- insertItemListsInProcDistribution( "MedicalStorageTools",    		{ HChazmat(1), HCgasmask(1), HCprotection(1)} );
-insertItemListsInProcDistribution( "MedicalStorageTools",    		{ HChazmat(5), HCgasmask(2), HCprotection(2)} );
+insertItemListsInProcDistribution( "MedicalStorageTools",    		{ HCgasmask(2), HCprotection(2)} );
 insertItemListsInProcDistribution( "CrateMetalwork",    			{              HCgasmask(5), HCprotection(1)} );
 insertItemListsInProcDistribution( "BathroomCounter",    			{              HCgasmask(1), HCprotection(1)} );
 insertItemListsInProcDistribution( "CampingStoreGear",    			{              HCgasmask(1), HCprotection(1)} );
@@ -20,7 +20,7 @@ insertItemListsInProcDistribution( "GardenStoreMisc",    			{                   
 insertItemListsInProcDistribution( "GigamartHousewares",    		{                            HCprotection(1)} );
 insertItemListsInProcDistribution( "FactoryLockers",    			{              HCgasmask(1),   HCprotection(1)} );
 insertItemListsInProcDistribution( "GardenStoreMisc",    			{              HCgasmask(0.3), HCprotection(0.5)} );
-insertItemListsInProcDistribution( "CrateTools",    				{ HChazmat(1), HCgasmask(2), HCprotection(2)} );
+insertItemListsInProcDistribution( "CrateTools",    				{ HCgasmask(2), HCprotection(2)} );
 
 
 

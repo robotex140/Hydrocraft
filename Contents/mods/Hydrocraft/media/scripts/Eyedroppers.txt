@@ -142,7 +142,7 @@ recipe Put Ammonia In Beaker
     {
     	HCEyedropperammonia,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerammoniahalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -154,7 +154,7 @@ recipe Put Ammonia In Beaker
     {
     	HCEyedropperammonia,
         HCBeakerammoniahalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerammonia,
         OnCreate:recipe_hcgeteyedropper,
@@ -166,7 +166,7 @@ recipe Remove Ammonia From Beaker
     {
     	HCEyedropper,
         HCBeakerammonia,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerammoniahalf,
         OnCreate:recipe_hcgeteyedropperammonia,
@@ -178,7 +178,7 @@ recipe Remove Ammonia From Beaker
     {
     	HCEyedropper,
         HCBeakerammoniahalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedropperammonia,
@@ -190,7 +190,7 @@ recipe Put Calciumchloride Solution In Beaker
     {
     	HCEyedroppercalciumchloridesolution,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakercalciumchloridesolutionhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -202,7 +202,7 @@ recipe Put Calciumchloride Solution In Beaker
     {
     	HCEyedroppercalciumchloridesolution,
         HCBeakercalciumchloridesolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakercalciumchloridesolution,
         OnCreate:recipe_hcgeteyedropper,
@@ -214,7 +214,7 @@ recipe Remove Calciumchloride Solution From Beaker
     {
     	HCEyedropper,
         HCBeakercalciumchloridesolution,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakercalciumchloridesolutionhalf,
         OnCreate:recipe_hcgeteyedroppercalciumchloride,
@@ -226,7 +226,7 @@ recipe Remove Calciumchloride Solution From Beaker
     {
     	HCEyedropper,
         HCBeakercalciumchloridesolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppercalciumchloride,
@@ -238,7 +238,7 @@ recipe Put H2O2 In Beaker
     {
     	HCEyedropperh2o2,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerh2o2half,
         OnCreate:recipe_hcgeteyedropper,
@@ -250,7 +250,7 @@ recipe Put H2O2 In Beaker
     {
     	HCEyedropperh2o2,
         HCBeakerh2o2half,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerh2o2,
         OnCreate:recipe_hcgeteyedropper,
@@ -262,7 +262,7 @@ recipe Remove H2O2 From Beaker
     {
     	HCEyedropper,
         HCBeakerh2o2,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerh2o2half,
         OnCreate:recipe_hcgeteyedropperh2o2,
@@ -274,7 +274,7 @@ recipe Remove H2O2 From Beaker
     {
     	HCEyedropper,
         HCBeakerh2o2half,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedropperh2o2,
@@ -286,7 +286,7 @@ recipe Put Mercuricoxide In Beaker
     {
     	HCEyedroppermercuricoxide,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermercuricoxidehalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -298,7 +298,7 @@ recipe Put Mercuricoxide In Beaker
     {
     	HCEyedroppermercuricoxide,
         HCBeakermercuricoxidehalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermercuricoxide,
         OnCreate:recipe_hcgeteyedropper,
@@ -310,7 +310,7 @@ recipe Remove Mercuricoxide From Beaker
     {
     	HCEyedropper,
         HCBeakermercuricoxide,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermercuricoxidehalf,
         OnCreate:recipe_hcgeteyedroppermercuricoxide,
@@ -322,7 +322,7 @@ recipe Remove Mercuricoxide From Beaker
     {
     	HCEyedropper,
         HCBeakermercuricoxidehalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppermercuricoxide,
@@ -334,7 +334,7 @@ recipe Put Methylamin In Beaker
     {
     	HCEyedroppermethylamin,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermethylaminhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -346,7 +346,7 @@ recipe Put Methylamin In Beaker
     {
     	HCEyedroppermethylamin,
         HCBeakermethylaminhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermethylamin,
         OnCreate:recipe_hcgeteyedropper,
@@ -358,7 +358,7 @@ recipe Remove Methylamin From Beaker
     {
     	HCEyedropper,
         HCBeakermethylamin,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermethylaminhalf,
         OnCreate:recipe_hcgeteyedroppermethylamin,
@@ -370,7 +370,7 @@ recipe Remove Methylamin From Beaker
     {
     	HCEyedropper,
         HCBeakermethylaminhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppermethylamin,
@@ -382,7 +382,7 @@ recipe Put Morphinhydrochlorid Solution In Beaker
     {
     	HCEyedroppermorphinhydrochloridsolution,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermorphinhydrochloridsolutionhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -394,7 +394,7 @@ recipe Put Morphinhydrochlorid Solution In Beaker
     {
     	HCEyedroppermorphinhydrochloridsolution,
         HCBeakermorphinhydrochloridsolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermorphinhydrochloridsolution,
         OnCreate:recipe_hcgeteyedropper,
@@ -406,7 +406,7 @@ recipe Remove Morphinhydrochlorid Solution From Beaker
     {
     	HCEyedropper,
         HCBeakermorphinhydrochloridsolution,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermorphinhydrochloridsolutionhalf,
         OnCreate:recipe_hcgeteyedroppermorphinhydrochloridsolution,
@@ -418,7 +418,7 @@ recipe Remove Morphinhydrochlorid Solution From Beaker
     {
     	HCEyedropper,
         HCBeakermorphinhydrochloridsolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppermorphinhydrochloridsolution,
@@ -430,7 +430,7 @@ recipe Put Muriatic Acid In Beaker
     {
     	HCEyedroppermuriaticacid,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermuriaticacidhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -442,7 +442,7 @@ recipe Put Muriatic Acid In Beaker
     {
     	HCEyedroppermuriaticacid,
         HCBeakermuriaticacidhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermuriaticacid,
         OnCreate:recipe_hcgeteyedropper,
@@ -454,7 +454,7 @@ recipe Remove Muriatic Acid From Beaker
     {
     	HCEyedropper,
         HCBeakermuriaticacid,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakermuriaticacidhalf,
         OnCreate:recipe_hcgeteyedroppermuriaticacid,
@@ -466,7 +466,7 @@ recipe Remove Muriatic Acid From Beaker
     {
     	HCEyedropper,
         HCBeakermuriaticacidhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppermuriaticacid,
@@ -478,7 +478,7 @@ recipe Put Phenylacetic Acid In Beaker
     {
     	HCEyedropperphenyl,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerphenylhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -490,7 +490,7 @@ recipe Put Phenylacetic Acid In Beaker
     {
     	HCEyedropperphenyl,
         HCBeakerphenylhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerphenyl,
         OnCreate:recipe_hcgeteyedropper,
@@ -502,7 +502,7 @@ recipe Remove Phenylacetic Acid From Beaker
     {
     	HCEyedropper,
         HCBeakerphenyl,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerphenylhalf,
         OnCreate:recipe_hcgeteyedropperphenyl,
@@ -514,7 +514,7 @@ recipe Remove Phenylacetic Acid From Beaker
     {
     	HCEyedropper,
         HCBeakerphenylhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedropperphenyl,
@@ -526,7 +526,7 @@ recipe Put Sodiumhydroxide Solution In Beaker
     {
     	HCEyedroppersodiumhydroxidesolution,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakersodiumhydroxidesolutionhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -538,7 +538,7 @@ recipe Put Sodiumhydroxide Solution In Beaker
     {
     	HCEyedroppersodiumhydroxidesolution,
         HCBeakersodiumhydroxidesolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakersodiumhydroxidesolution,
         OnCreate:recipe_hcgeteyedropper,
@@ -550,7 +550,7 @@ recipe Remove Sodiumhydroxide Solution From Beaker
     {
     	HCEyedropper,
         HCBeakersodiumhydroxidesolution,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakersodiumhydroxidesolutionhalf,
         OnCreate:recipe_hcgeteyedroppersodiumhydroxidesolution,
@@ -562,7 +562,7 @@ recipe Remove Sodiumhydroxide Solution From Beaker
     {
     	HCEyedropper,
         HCBeakersodiumhydroxidesolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppersodiumhydroxidesolution,
@@ -574,7 +574,7 @@ recipe Put Sulfuric Acid In Beaker
     {
     	HCEyedroppersulfuricacid,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakersulfuricacidhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -586,7 +586,7 @@ recipe Put Sulfuric Acid In Beaker
     {
     	HCEyedroppersulfuricacid,
         HCBeakersulfuricacidhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakersulfuricacid,
         OnCreate:recipe_hcgeteyedropper,
@@ -598,7 +598,7 @@ recipe Remove Sulfuric Acid From Beaker
     {
     	HCEyedropper,
         HCBeakersulfuricacid,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakersulfuricacidhalf,
         OnCreate:recipe_hcgeteyedroppersulfuricacid,
@@ -610,7 +610,7 @@ recipe Remove Sulfuric Acid From Beaker
     {
     	HCEyedropper,
         HCBeakersulfuricacidhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppersulfuricacid,
@@ -622,7 +622,7 @@ recipe Put Trona Solution In Beaker
     {
     	HCEyedroppertronasulution,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakertronasolutionhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -634,7 +634,7 @@ recipe Put Trona Solution In Beaker
     {
     	HCEyedroppertronasulution,
         HCBeakertronasolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakertronasolution,
         OnCreate:recipe_hcgeteyedropper,
@@ -646,7 +646,7 @@ recipe Remove Trona Solution From Beaker
     {
     	HCEyedropper,
         HCBeakertronasolution,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakertronasolutionhalf,
         OnCreate:recipe_hcgeteyedroppertronasulution,
@@ -658,7 +658,7 @@ recipe Remove Trona Solution From Beaker
     {
     	HCEyedropper,
         HCBeakertronasolutionhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedroppertronasulution,
@@ -670,7 +670,7 @@ recipe Put Water In Beaker
     {
     	HCEyedropperwater,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerwaterhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -682,7 +682,7 @@ recipe Put Water In Beaker
     {
     	HCEyedropperwater,
         HCBeakerwaterhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerwater,
         OnCreate:recipe_hcgeteyedropper,
@@ -694,7 +694,7 @@ recipe Remove Water From Beaker
     {
     	HCEyedropper,
         HCBeakerwater,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerwaterhalf,
         OnCreate:recipe_hcgeteyedropperwater,
@@ -706,7 +706,7 @@ recipe Remove Water From Beaker
     {
     	HCEyedropper,
         HCBeakerwaterhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedropperwater,
@@ -718,7 +718,7 @@ recipe Put Selfmade Ether In Beaker
     {
     	HCEyedropperether,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerselfmadeetherhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -730,7 +730,7 @@ recipe Put Selfmade Ether In Beaker
     {
     	HCEyedropperether,
         HCBeakerselfmadeetherhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerselfmadeether,
         OnCreate:recipe_hcgeteyedropper,
@@ -742,7 +742,7 @@ recipe Remove Selfmade Ether From Beaker
     {
     	HCEyedropper,
         HCBeakerselfmadeether,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerselfmadeetherhalf,
         OnCreate:recipe_hcgeteyedropperether,
@@ -754,7 +754,7 @@ recipe Remove Selfmade Ether From Beaker
     {
     	HCEyedropper,
         HCBeakerselfmadeetherhalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCGlassbeaker,
         OnCreate:recipe_hcgeteyedropperether,
@@ -766,7 +766,7 @@ recipe Seperate Ether
     {
     	HCEyedropper,
         HCWaterbottlestarterfluidmixed,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCEyedropperether,
     	Time:50,
@@ -777,7 +777,7 @@ recipe Put Ether in Beaker
     {
     	HCEyedropperether,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerselfmadeetherhalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -789,7 +789,7 @@ recipe Put Potassium Permanganate In Beaker
     {
     	HCEyedropperpotassiumpermanganate,
         HCGlassbeaker,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerpotassiumpermanganatehalf,
         OnCreate:recipe_hcgeteyedropper,
@@ -801,7 +801,7 @@ recipe Put Potassium Permanganate In Beaker
     {
     	HCEyedropperpotassiumpermanganate,
         HCBeakerpotassiumpermanganatehalf,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerpotassiumpermanganate,
         OnCreate:recipe_hcgeteyedropper,
@@ -813,7 +813,7 @@ recipe Remove Potassium Permanganate From Beaker
     {
     	HCEyedropper,
         HCBeakerpotassiumpermanganate,
-    	keep HCLab,
+    	keep HCLab2,
         CanBeDoneFromFloor:true,
     	Result:HCBeakerpotassiumpermanganatehalf,
         OnCreate:recipe_hcgeteyedropperpotassiumpermanganate,

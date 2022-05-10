@@ -107,7 +107,7 @@ recipe Make Photography Workbench
 	Scissors,
 	HCBottleopener,
 	HCMeasuringcup,
-	Timer,
+	/*Timer, removed, as this item no longer spawns in vanilla - may need a better solution*/
 	HCFlashlightbulbred,
 	HCFlashlightoff,	
 	HCPlasticbin,

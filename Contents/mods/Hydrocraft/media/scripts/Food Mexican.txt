@@ -968,20 +968,20 @@ recipe Make Fish Taco
 
 recipe Make Corned Beef Taco
 	{
-       		SkillRequired:Cooking=4,
-       		HCTortillacorn,
+		SkillRequired:Cooking=4,
+		HCTortillacorn,
 		HCCookingoil,
 		CannedCornedBeefOpen,
 		Cabbage/HCCabbagered/HCCabbagewhite,
 		HCTacosaucebottle/HCTacosaucebowl,
-		Base.MayonnaiseFull,
-		Pan,
+		farming.MayonnaiseFull;2,
+		keep Pan,
 		Result:HCTacocornedbeef,
-    		NeedToBeLearn:true,
+		NeedToBeLearn:true,
 		Time:100.0,
-	   	Category:Cooking,
+		Category:Cooking,
 		OnCreate:HCRecipeBowls,
-       		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Enchilada

@@ -489,6 +489,79 @@ fox.baits["Hydrocraft.HCCrayfish"] = 10;
 fox.baits["Hydrocraft.HCChickendead"] = 30;
 fox.baits["Hydrocraft.HCChickendead2"] = 30;
 
+
+local live_rabbit_male = {};
+live_rabbit_male.type = "live_rabbit_male";
+-- after how many hour the animal will start to destroy the cage/escape
+live_rabbit_male.strength = 24;
+-- item given to the player
+live_rabbit_male.item = "Hydrocraft.HCRabbitmale";
+-- hour this animal will be out and when you can catch it
+live_rabbit_male.minHour = 19;
+live_rabbit_male.maxHour = 5;
+-- min and max "size" (understand hunger reduction) of the animal
+live_rabbit_male.minSize = 30;
+live_rabbit_male.maxSize = 100;
+-- chance to get the animals per zone
+live_rabbit_male.zone = {};
+live_rabbit_male.zone["TownZone"] = 2;
+live_rabbit_male.zone["TrailerPark"] = 2;
+live_rabbit_male.zone["Vegitation"] = 10;
+live_rabbit_male.zone["Forest"] = 12;
+live_rabbit_male.zone["DeepForest"] = 15;
+-- chance to get animals for each trap
+live_rabbit_male.traps = {};
+live_rabbit_male.traps["Base.TrapCage"] = 40;
+-- chance to attract animal per bait
+live_rabbit_male.baits = {};
+live_rabbit_male.baits["Base.Carrots"] = 45;
+live_rabbit_male.baits["Base.Apple"] = 35;
+live_rabbit_male.baits["Base.Lettuce"] = 40;
+live_rabbit_male.baits["Base.BellPepper"] = 40;
+live_rabbit_male.baits["farming.Cabbage"] = 40;
+live_rabbit_male.baits["Base.Corn"] = 35;
+live_rabbit_male.baits["Base.Banana"] = 35;
+live_rabbit_male.baits["farming.Potato"] = 35;
+live_rabbit_male.baits["farming.Tomato"] = 35;
+live_rabbit_male.baits["Base.Peach"] = 35;
+live_rabbit_male.baits["Hydrocraft.HCGrass"] = 20;
+
+local live_rabbit_female = {};
+live_rabbit_female.type = "live_rabbit_female";
+-- after how many hour the animal will start to destroy the cage/escape
+live_rabbit_female.strength = 24;
+-- item given to the player
+live_rabbit_female.item = "Hydrocraft.HCRabbitfemale";
+-- hour this animal will be out and when you can catch it
+live_rabbit_female.minHour = 19;
+live_rabbit_female.maxHour = 5;
+-- min and max "size" (understand hunger reduction) of the animal
+live_rabbit_female.minSize = 30;
+live_rabbit_female.maxSize = 100;
+-- chance to get the animals per zone
+live_rabbit_female.zone = {};
+live_rabbit_female.zone["TownZone"] = 2;
+live_rabbit_female.zone["TrailerPark"] = 2;
+live_rabbit_female.zone["Vegitation"] = 10;
+live_rabbit_female.zone["Forest"] = 12;
+live_rabbit_female.zone["DeepForest"] = 15;
+-- chance to get animals for each trap
+live_rabbit_female.traps = {};
+live_rabbit_female.traps["Base.TrapCage"] = 40;
+-- chance to attract animal per bait
+live_rabbit_female.baits = {};
+live_rabbit_female.baits["Base.Carrots"] = 45;
+live_rabbit_female.baits["Base.Apple"] = 35;
+live_rabbit_female.baits["Base.Lettuce"] = 40;
+live_rabbit_female.baits["Base.BellPepper"] = 40;
+live_rabbit_female.baits["farming.Cabbage"] = 40;
+live_rabbit_female.baits["Base.Corn"] = 35;
+live_rabbit_female.baits["Base.Banana"] = 35;
+live_rabbit_female.baits["farming.Potato"] = 35;
+live_rabbit_female.baits["farming.Tomato"] = 35;
+live_rabbit_female.baits["Base.Peach"] = 35;
+live_rabbit_female.baits["Hydrocraft.HCGrass"] = 20;
+
 function getAnimal(Animals, aniString)
     local thisIsTheOne = -1;
     for x=1, #Animals do
@@ -533,3 +606,5 @@ table.insert(Animals, opossum);
 table.insert(Animals, skunk);
 table.insert(Animals, raccoon);
 table.insert(Animals, fox);
+table.insert(Animals, live_rabbit_male);
+table.insert(Animals, live_rabbit_female);

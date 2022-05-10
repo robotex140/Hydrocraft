@@ -937,7 +937,7 @@ recipe Make Circut Chip
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Small Electric Motor
+recipe Make Small Electromotor
     {
 	SkillRequired:Electricity=3,
 	HCTinboard=2,
@@ -957,7 +957,7 @@ recipe Make Small Electric Motor
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Make Electric Motor
+recipe Make Large Electromotor
     {
 	SkillRequired:Electricity=4,
 	HCTinboard=4,
@@ -977,7 +977,7 @@ recipe Make Electric Motor
        	OnGiveXP:HCElectricity_OnGiveXP,
     }
 
-recipe Insert Battery
+recipe Insert Small Battery
     {
     	HCSoldergun,
     	HCBatterysmall,
@@ -986,7 +986,7 @@ recipe Insert Battery
     	Category:Electrical,
     }
 
-recipe Remove Battery
+recipe Remove Dead Small Battery
     {
     	HCSoldergundead,
     	Result:HCSoldergun,
@@ -1595,7 +1595,6 @@ recipe Make Computer Tower
 	HCSoldergunpowered,
 	keep HCPliers,
 	keep Screwdriver,
-    	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,
 	Result:HCComputer,

@@ -1,0 +1,59 @@
+VERSION = 1,
+option Hydrocraft.SpawnHydrocraftGuns
+{
+	type = boolean,
+	default = true,
+	page = Hydrocraft,
+	translation = Hydrocraft_Spawn_Guns,
+}
+
+option Hydrocraft.SpawnBookCovers
+{
+	type = boolean,
+	default = true,
+	page = Hydrocraft,
+	translation = Hydrocraft_Spawn_Book_Covers,
+}
+
+option Hydrocraft.SpawnCigaretteButts
+{
+	type = boolean,
+	default = true,
+	page = Hydrocraft,
+	translation = Hydrocraft_Spawn_Cigarette_Butts,
+}
+
+option Hydrocraft.ShowDamage
+{
+	type = boolean,
+	default = false,
+	page = Hydrocraft,
+	translation = Hydrocraft_Show_Damage_On_Hit,
+}
+
+option Hydrocraft.BurnDamage
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+	page = Hydrocraft,
+	translation = Hydrocraft_Burn_Damage,
+}
+
+option Hydrocraft.AnimalStarvation
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+	page = Hydrocraft,
+	translation = Hydrocraft_Animal_Starvation,
+}
+
+option Hydrocraft.ZombieLoot
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+	page = Hydrocraft,
+	translation = Hydrocraft_Zombie_Loot,
+}

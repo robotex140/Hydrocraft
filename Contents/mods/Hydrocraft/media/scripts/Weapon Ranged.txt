@@ -249,10 +249,10 @@ item HCShotgunSilencer
 	item HCXbowbolt
 	{
 		Count		=	1,
-		DisplayName	=	Crossbow Bolts,
+		DisplayName	=	Crossbow Bolt,
 		Icon		=	HCXbowbolt,
-        	Type        	=    	Normal,
-        	DisplayCategory =    	Ammo,
+        Type        	=    	Normal,
+        DisplayCategory =    	Ammo,
 		Weight		=	0.05,
 	}
 
@@ -268,33 +268,49 @@ item HCMetalArrowhead
 
 	item HCArrow
 	{
-		Count		=	1,
-		DisplayName	=	Arrows,
-		Icon		=	HCArrow,
-        	Type        	=    	Normal,
-        	DisplayCategory =    	Ammo,
-		Weight		=	0.05,
+        Count		=	1,
+        DisplayName	=	Arrow,
+        Icon		=	HCArrow,
+        Type = Normal,
+        DisplayCategory =    	Ammo,
+        Weight		=	0.05,
+        WorldStaticModel = Hydrocraft.HCArrow,
 	}
+
+    item HCArrowAttachment
+    {
+        Count		=	1,
+        DisplayName	=	Arrows,
+        Icon		=	HCArrow,
+        Type = WeaponPart,
+        DisplayCategory =    	Ammo,
+        Weight		=	0.05,
+        WorldStaticModel = Hydrocraft.HCArrowAttachment,
+        MountOn = Hydrocraft.HCLongbow,
+        PartType = Clip,
+    }
 
 
  item HCMagLongbow
     {
         CanStack    =   FALSE,
         Weight  =   0.5,
-        Type    =   Normal,
+        Type    =   WeaponPart,
         DisplayName =   Longbow Magazine,
         Icon    =   HCMagLongbow,
-        MaxAmmo = 15,
+        MaxAmmo = 8,
         AmmoType = Hydrocraft.HCArrow,
-        StaticModel = GunMagazine,
+        WorldStaticModel = Hydrocraft.HCMagLongbow,
 		DisplayCategory	= WepAmmoMag,
+        MountOn = Hydrocraft.HCLongbowMag,
+        PartType = Clip,
     }
 
     item HCLongbowMag
     {
         ImpactSound =   null,
         MaxRange    =   8,
-        WeaponSprite    =   Poolcue,
+        WeaponSprite    =   Hydrocraft.HCLongbowDrawn,
         SoundVolume =   40,
         MinAngle    =   0.95,
         Type    =   Weapon,
@@ -318,7 +334,7 @@ item HCMetalArrowhead
         DoorDamage  =   1,
         UseEndurance    =   FALSE,
         SwingAnim   =   Rifle,
-        DisplayName =   Bow with Mag,
+        DisplayName =   Longbow with Mag,
         MinRange    =   0.61,
         SwingTime   =   1.5,
         MultipleHitConditionAffected    =   FALSE,
@@ -341,7 +357,7 @@ item HCMetalArrowhead
         RecoilDelay = 10,
         PiercingBullets = TRUE,
         SoundGain = 1.5,
-        ReloadTime = 15,
+        ReloadTime = 10,
         AimingTime = 20,
         RequiresEquippedBothHands = TRUE,
         BreakSound  =   BreakMetalItem,
@@ -352,12 +368,13 @@ item HCMetalArrowhead
         RackSound = HCBowReload,
         MagazineType = Hydrocraft.HCMagLongbow,
         AmmoType = Hydrocraft.HCArrow,
-        WeaponReloadType = boltaction,
+        WeaponReloadType = shotgun,
         RackAfterShoot = TRUE,
-        JamGunChance = 0,
+        JamGunChance = 2,
         AttachmentType = Rifle,
-        MaxAmmo = 15,
+        MaxAmmo = 8,
 		DisplayCategory	= WepBow,
+        ModelWeaponPart = Hydrocraft.HCMagLongbow Hydrocraft.HCMagLongbow mag mag,
     }
 
 
@@ -365,7 +382,7 @@ item HCCrossbow
     {
         ImpactSound =   null,
         MaxRange    =   7,
-        WeaponSprite    =   Poolcue,
+        WeaponSprite    =   Hydrocraft.HCCrossbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
         Type    =   Weapon,
@@ -422,7 +439,8 @@ item HCCrossbow
         EjectAmmoSound = HCBowReload,
         RackSound = HCBowReload,
         AmmoType = Hydrocraft.HCXbowbolt,
-        WeaponReloadType = shotgun,
+        WeaponReloadType = Crossbow,
+        haveChamber = FALSE,
         ModelWeaponPart = Hydrocraft.x2CrossbowScope CrossbowScope,
         ModelWeaponPart = Hydrocraft.x4CrossbowScope CrossbowScope,       
         RackAfterShoot = FALSE,
@@ -468,7 +486,7 @@ item HCCrossbow
     {
         ImpactSound =   null,
         MaxRange    =   8,
-        WeaponSprite    =   Poolcue,
+        WeaponSprite    =   Hydrocraft.HCLongbow,
         SoundVolume =   40,
         MinAngle    =   0.95,
         Type    =   Weapon,
@@ -492,7 +510,7 @@ item HCCrossbow
         DoorDamage  =   1,
         UseEndurance    =   FALSE,
         SwingAnim   =   Rifle,
-        DisplayName =   Long Bow,
+        DisplayName =   Longbow,
         MinRange    =   0.61,
         SwingTime   =   1.5,
         MultipleHitConditionAffected    =   FALSE,
@@ -525,12 +543,14 @@ item HCCrossbow
         EjectAmmoSound = M9EjectAmmo,
         RackSound = BulletOutVarmint,
         AmmoType = Hydrocraft.HCArrow,
-        WeaponReloadType = shotgun,
+        WeaponReloadType = Longbow,
 		RackAfterShoot = FALSE,
         JamGunChance = 0,
         AttachmentType = Rifle,
         MaxAmmo = 1,
 		DisplayCategory	= WepBow,
+        HaveChamber = FALSE,
+        ModelWeaponPart = Hydrocraft.HCArrowAttachment Hydrocraft.HCArrowAttachment mag mag,
     }
 
 
@@ -588,7 +608,7 @@ recipe Make Arrow
     {
     HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCRedfeather/HCStripedfeather/HCBluejayfeather/HCDucttapefletching,
     HCStonearrowhead/HCBonearrowhead/HCMetalArrowhead,
-	Woodglue/Glue/HCTar/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/HCWoodgluejar,
+	Glue/HCTar/HCRubbercement/HCSuperglue/HCHotgluegunfull/HCGluejar/Woodglue/HCWoodgluejar,
     WoodenStick,
     NeedToBeLearn:true,
     Result:HCArrow,
@@ -650,6 +670,20 @@ recipe Make Longbow
 	Sound:PZ_Saw,
     OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
     }
+
+recipe Make Quiver
+{
+    SkillRequired:Tailoring=2,
+    keep HCTailoringbench2,
+    HCLeather=8,
+    Thread=8,
+    Result:HCQuiver,
+    NeedToBeLearn:true,
+    CanBeDoneFromFloor:true,
+    Time:50,
+    Category:Tailoring,
+    OnGiveXP:HCTailoring_OnGiveXP,
+}
 
 recipe Make Longbow Mag 
     {

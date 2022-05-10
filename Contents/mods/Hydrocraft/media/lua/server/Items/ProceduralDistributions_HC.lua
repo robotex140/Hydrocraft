@@ -101,7 +101,7 @@ insertItemListsInProcDistribution( "PoliceDesk", {   desk_items  } );
 -- insertItemListsInProcDistribution( "GigamartTools", {   gigamart_tools_items  } );
 
 local gigamart_toys_items = {
-        "Hydrocraft.HCToywagon", 7,
+        "Hydrocraft.HCToywagon", 1,
         "Hydrocraft.HCSnowglobe", 0.2,
         "Hydrocraft.HCTelescopebox", 0.2,
         "Hydrocraft.HCStarchart", 0.5,
@@ -576,7 +576,7 @@ insertItemListsInProcDistribution( "GigamartDryGoods", {   gigamart_dry_goods_ju
 local gigamart_sauce_items = {
         "Hydrocraft.HCCookingoil", 1,
         "Hydrocraft.HCGarlicpowder", 1,
-        "Hydrocraft.HCSoysauce", 1,
+        --"Hydrocraft.HCSoysauce", 1, --removed, Soy Sauce exists in vanilla now - no need to duplicate.
         "Hydrocraft.HCBBQsauce", 1,
         "Hydrocraft.HCHerbs", 1,
         "Hydrocraft.HCHotsauce", 1,
@@ -903,7 +903,7 @@ local kitchen_canned_food_items = {
         "Hydrocraft.HCJarredgrapes", 4,
         "Hydrocraft.HCJarredberries", 4,
 };
-insertItemListsInProcDistribution( "KitchenCannedFood",  {  kitchen_canned_food_items}   );
+--insertItemListsInProcDistribution( "KitchenCannedFood",  {  kitchen_canned_food_items}   );
 
 -- KitchenDryFood
 local kitchen_dry_food_items = {
@@ -1340,7 +1340,7 @@ insertItemListsInProcDistribution( "PostOfficeBoxes", {   postoffice_boxes_items
 ---------------------------------
 local bathroom_counter_items = {
         "Hydrocraft.HCFloss", 0.2,
-        "Hydrocraft.HCPlunger", 0.2,
+        --"Hydrocraft.HCPlunger", 0.2, --removed, vanilla plunger exists, no need to duplicate.
         "Hydrocraft.HCHairgel", 0.2,
         "Hydrocraft.HCHairdryer", 0.2,
         "Hydrocraft.HCElectrictoothbrush", 0.5,
@@ -1515,7 +1515,7 @@ local medicalclinic_tools_items = {
         "Hydrocraft.HCRubberglove", 3,
         "Hydrocraft.HCBookmedical", 5,
         "Hydrocraft.HCGasmask", 2,
-        "Hydrocraft.HCHazmat", 0.2,
+        --"Hydrocraft.HCHazmat", 0.2,
         "Hydrocraft.HCPillbox", 5,
         "Hydrocraft.HCPetridish", 5,
         "Hydrocraft.HCCrutchaluminium", 1,
@@ -1764,7 +1764,6 @@ local shed_items = {
         "Hydrocraft.HCSolder", 0.5,
         "Hydrocraft.HCSoldergun", 0.5,
         "Hydrocraft.HCMagazinefarming1", 0.5,
-        "Hydrocraft.HCSeedbag", 0.5,
         "Hydrocraft.HCResistorbox", 1,
         "Hydrocraft.HCSawmetal", 1,
         "Hydrocraft.HCIcesaw", 1,
@@ -2251,7 +2250,7 @@ insertItemListsInProcDistribution( "BakeryMisc", {   cafe_items  } );
 
 
 local books = {
-        "Hydrocraft.HCBook", 1,
+        "Base.Book", 1,
         "Hydrocraft.HCBookphone", 1,
         "Hydrocraft.HCBookalgebra", 1,
         "Hydrocraft.HCBookastronomy", 1,
@@ -2915,23 +2914,31 @@ insertItemListsInProcDistribution( "CrateOfficeSupplies", {   Garageunits_Office
 -- police military
 -- **************
 
-local firearms_items = {
-        "Hydrocraft.HCUzi", 1,
-        "Hydrocraft.HCMagUZI", 1,
-        "Hydrocraft.HCUziSilencer", 0.5,
-        "Hydrocraft.HCAA12", 1,
-        "Hydrocraft.HCMagAA12", 1,
-        "Hydrocraft.HCShotgunSilencer", 0.5,
-};
-insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
-insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
+	local SPAWN_HC_GUNS = true
+	
+	if(SandboxVars.Hydrocraft.SpawnHydrocraftGuns ~= nil) then
+		SPAWN_HC_GUNS = SandboxVars.Hydrocraft.SpawnHydrocraftGuns
+	end
+	
+	if(SPAWN_HC_GUNS) then
+		local firearms_items = {
+				"Hydrocraft.HCUzi", 1,
+				"Hydrocraft.HCMagUZI", 1,
+				"Hydrocraft.HCUziSilencer", 0.5,
+				"Hydrocraft.HCAA12", 1,
+				"Hydrocraft.HCMagAA12", 1,
+				"Hydrocraft.HCShotgunSilencer", 0.5,
+		};
+		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
+		insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
+	end
 
 local fridge_items = {
         "Hydrocraft.HCUHTmilk", 0.8,
         "Hydrocraft.HCPear", 0.8,
         "Hydrocraft.HCApricot", 0.8,
         "Hydrocraft.HCLime", 0.8,
-        "Hydrocraft.HCSoysauce", 0.8,
+        --"Hydrocraft.HCSoysauce", 0.8, --removed, Soy Sauce exists in vanilla now - no need to duplicate.
         "Hydrocraft.HCBBQsauce", 0.8,
         "Hydrocraft.HCLemonjuicebottle", 0.8,
         "Hydrocraft.HCLargetupfood", 0.8,

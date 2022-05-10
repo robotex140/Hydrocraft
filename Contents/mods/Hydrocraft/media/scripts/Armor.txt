@@ -119,34 +119,64 @@ item HCHelmsteel
     	}
 
 item HCHelmiron
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Iron Helmet,
-        icon 			= HCHelmiron,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmiron,
+		BodyLocation     = Hat,
+		DisplayName      = Iron Helmet,
+		icon 			 = HCHelmiron,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = Hydrocraft.HCHelmiron,
+	}
 
 item HCHelmbronze
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Bronze Helmet,
-        icon 			= HCHelmbronze,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmbronze,
+		BodyLocation     = Hat,
+		DisplayName      = Bronze Helmet,
+		icon 			 = HCHelmbronze,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = Hydrocraft.HCHelmbronze,
+	}
 
 item HCHelmcopper
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Copper Helmet,
-        icon 			= HCHelmcopper,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+    {
+		Weight    		 = 2.0,
+		Type             = Clothing,
+		ClothingItem     = HCHelmcopper,
+		BodyLocation     = Hat,
+		DisplayName      = Copper Helmet,
+		icon 			 = HCHelmcopper,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		BloodLocation    = Head,
+		CanHaveHoles     = false,
+        BiteDefense      = 100,
+        ScratchDefense   = 100,
+        ChanceToFall     = 0,
+        Insulation       = 0.8,
+        WindResistance   = 0.8,
+		WorldStaticModel = Hydrocraft.HCHelmcopper,
+	}
 
 item HCHelmcookingpot
     	{
@@ -654,35 +684,65 @@ item HCArmorsteel
 
 
 item HCArmoriron
-    	{
-        Weight    		= 10.0,
-        Type    		= Normal,
-        DisplayName         	= Iron Armor,
-        icon 			= HCArmoriron,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Type             = Clothing,
+		ClothingItem     = HCArmoriron,
+		BodyLocation     = TorsoExtra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Iron Armor,
+        Icon 			 = HCArmoriron,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
 
 
 item HCArmorbronze
-    	{
-        Weight    		= 10.0,
-        Type    		= Normal,
-        DisplayName         	= Bronze Armor,
-        icon 			= HCArmorbronze,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+    {
+		Type             = Clothing,
+		ClothingItem     = HCArmorbronze,
+		BodyLocation     = TorsoExtra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Bronze Armor,
+        Icon 			 = HCArmorbronze,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
 
 item HCArmorcopper
-    	{
-        Weight    		= 10.0,
-        Type    		= Normal,
-        DisplayName         	= Copper Armor,
-        icon 			= HCArmorcopper,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+    {
+		Type             = Clothing,
+		ClothingItem     = HCArmorcopper,
+		BodyLocation     = TorsoExtra,
+		BloodLocation    = ShirtNoSleeves,
+        Weight    		 = 10.0,
+        DisplayName      = Copper Armor,
+        Icon 			 = HCArmorcopper,
+		Tooltip 		 = Tooltip_HCArmor,
+		DisplayCategory  = ClothP,
+		Insulation       = 0.3,
+        WindResistance   = 0.25,
+        BiteDefense      = 90,
+        ScratchDefense   = 90,
+        BulletDefense    = 50,
+		RunSpeedModifier = 0.75,
+        WorldStaticModel = BulletVest_Ground,
+    }
 
 item HCArmorstuddedleather
     	{
@@ -898,34 +958,58 @@ item HCLegarmorsteel
     	}
 
 item HCLegarmoriron
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Iron Leg Guards,
-        icon 			= HCLegarmoriron,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+    {
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmoriron,
+		BodyLocation            = Legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Iron Leg Guards,
+		icon 			        = HCLegarmoriron,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+	}
 
 item HCLegarmorbronze
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Bronze Leg Guards,
-        icon 			= HCLegarmorbronze,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmorbronze,
+		BodyLocation            = Legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Bronze Leg Guards,
+		icon 			        = HCLegarmorbronze,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+	}
 
 item HCLegarmorcopper
-    	{
-        Weight    		= 2.0,
-        Type    		= Normal,
-        DisplayName         	= Copper Leg Guards,
-        icon 			= HCLegarmorcopper,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
-    	}
+	{
+		Weight    		        = 2.0,
+		Type    		        = Clothing,
+		ClothingItem            = HCLegarmorcopper,
+		BodyLocation            = Legs1,
+		BloodLocation           = Trousers,
+		Insulation              = 0.3,
+        WindResistance          = 0.15,
+		DisplayName         	= Copper Leg Guards,
+		icon 			        = HCLegarmorcopper,
+		Tooltip 		        = Tooltip_HCArmor,
+		DisplayCategory         = ClothP,
+		BiteDefense             = 90,
+        ScratchDefense          = 90,
+        BulletDefense           = 50,
+	}
 
 item HCLegarmorstuddedleather
     	{
@@ -1169,7 +1253,7 @@ recipe Make Helmet
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Helmet
 	{
 	   	HCIroningot=2,
@@ -1211,7 +1295,7 @@ recipe Make Helmet
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+/*
 recipe Make Gauntlets
 	{
         	HCRingsteel=8,
@@ -1560,7 +1644,7 @@ recipe Make Armor
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Armor
 	{
 	   	HCIroningot=5,
@@ -1602,7 +1686,7 @@ recipe Make Armor
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+/*
 recipe Make Armor
 	{
 	   	HCLeatherhard=4,
@@ -1799,7 +1883,7 @@ recipe Make Leg Guards
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+*/
 recipe Make Leg Guards
 	{
 	   	HCIroningot=2,
@@ -1841,7 +1925,7 @@ recipe Make Leg Guards
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-
+/*
 recipe Make Leg Guards
 	{
 	   	HCBubblewrap=2,

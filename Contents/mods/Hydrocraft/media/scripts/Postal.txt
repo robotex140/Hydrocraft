@@ -193,7 +193,7 @@ item HCPostcard8
 item HCBoxcutter
 	{
 		MaxRange			=	0.9,
-		WeaponSprite			=	Knife,
+		WeaponSprite			=	Hydrocraft.HCBoxcutter,
 		MinAngle			=	0,
 		Type				=	Weapon,
 		MinimumSwingTime		=	2,

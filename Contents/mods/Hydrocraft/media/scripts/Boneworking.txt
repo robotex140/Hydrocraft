@@ -653,7 +653,7 @@ recipe Harvest Bones
     {
     keep HCBonesaw/Saw,
     HCZedbonesheadless,
-    Result:HCBone=4,
+    Result:HCZombiebones=4,
     NeedToBeLearn:true,
     Time:15,
     Category:Hunting,
@@ -664,7 +664,7 @@ recipe Harvest Bones
     {
     keep HCBonesaw/Saw,
     HCZedbones,
-    Result:HCBone=4,
+    Result:HCZombiebones=4,
     NeedToBeLearn:true,
     Time:15,
     Category:Hunting,

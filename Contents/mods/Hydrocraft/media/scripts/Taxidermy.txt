@@ -120,7 +120,7 @@ recipe Make Taxidermy Workbench
         HCBonesaw,
         Scalpel/HCScalpelimprovised,
         HCSewingpinbox,
-        HCPincushion,
+        /*HCPincushion, removed, as this item no longer spawns in vanilla - may need a better solution*/
         HCPliers,
         HCCardboardbox=2,
         HCBookanatomy,

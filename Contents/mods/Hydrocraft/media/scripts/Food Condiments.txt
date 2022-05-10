@@ -302,6 +302,7 @@ item HCParmesan
 	DisplayCategory	= 	FoodS,
 	}
 
+/*Item has been removed from spawns (as it now exists in Vanilla), may delete this in future*/
 item HCSoysauce
 	{
 	Weight 				= 	0.5,

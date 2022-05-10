@@ -251,7 +251,7 @@ item HCBlueprintskinanimal
         Type			=	Literature,
         DisplayName		=	Skinning Animals Research,
         Icon			=	HCBlueprint,
-        TeachedRecipes 	=   Skin Animal,
+        /*TeachedRecipes 	=   Skin Animal,*/
         ReplaceOnUse    =   HCBlueprintskinanimal,
 		DisplayCategory          =   LitR,
     }

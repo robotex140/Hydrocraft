@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="LoadDblBarrel.xml">
+	<m_Name>LoadLongbow</m_Name>
+	<m_Conditions />
+	<m_Conditions>
+		<m_StringValue>Longbow</m_StringValue>
+	</m_Conditions>
+	<m_Conditions />
+	<m_Events />
+	<m_Events />
+	<m_Events>
+		<m_ParameterValue>Hydrocraft.HCLongbow</m_ParameterValue>
+	</m_Events>
+</animNode>

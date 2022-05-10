@@ -10,17 +10,17 @@ module Hydrocraft
 
 item HCGunPowder
     {
-    Weight              =   1,
-    Type                =   Drainable,
-    UseDelta            =   0.1,
-    DisplayName         =   Jar of Gunpowder,
-    ReplaceOnDeplete    =   HCJar,
-    Icon                =   GunpowderJar,
-	DisplayCategory          =   CraftAmmo,
+        Weight              = 1,
+        Type                = Drainable,
+        UseDelta            = 0.1,
+        DisplayName         = Jar of Gunpowder,
+        ReplaceOnDeplete    = HCJar,
+        Icon                = GunpowderJar,
+	    DisplayCategory     = CraftAmmo,
     }
 
 
-    item HCCharcoalpowder
+item HCCharcoalpowder
     {
         Weight          = 0.1,
         Type            = Normal,
@@ -29,7 +29,7 @@ item HCGunPowder
 		DisplayCategory	= CraftChem,
     } 
 
-    item HCGraphitepowder
+item HCGraphitepowder
     {
         Weight          = 0.1,
         Type            = Normal,
@@ -38,7 +38,7 @@ item HCGunPowder
 		DisplayCategory	= CraftChem,
     } 
 
-    item HCSaltpowder
+item HCSaltpowder
     {
         Weight          = 0.1,
         Type            = Normal,
@@ -47,7 +47,7 @@ item HCGunPowder
 		DisplayCategory	= CookRef,
     } 
 
-    item HCSaltpeterpowder
+item HCSaltpeterpowder
     {
         Weight          = 0.1,
         Type            = Normal,
@@ -56,7 +56,7 @@ item HCGunPowder
 		DisplayCategory	= CookRef,
     }  
 
-    item HCSulphurpowder
+item HCSulphurpowder
     {
         Weight          = 0.1,
         Type            = Normal,
@@ -123,7 +123,7 @@ item HCSilverpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Silver Powder,
+        DisplayName     = Silver Powder,
         icon            = HCSilverpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -132,7 +132,7 @@ item HCGoldpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Gold Powder,
+        DisplayName     = Gold Powder,
         icon            = HCGoldpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -141,7 +141,7 @@ item HCAluminumpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Aluminum Powder,
+        DisplayName     = Aluminum Powder,
         icon            = HCAluminumpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -150,7 +150,7 @@ item HCZincpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Zinc Powder,
+        DisplayName     = Zinc Powder,
         icon            = HCZincpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -159,7 +159,7 @@ item HCNickelpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Nickel Powder,
+        DisplayName     = Nickel Powder,
         icon            = HCNickelpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -168,7 +168,7 @@ item HCCobaltpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Cobalt Powder,
+        DisplayName     = Cobalt Powder,
         icon            = HCCobaltpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -177,7 +177,7 @@ item HCChromepowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Chrome Powder,
+        DisplayName     = Chrome Powder,
         icon            = HCChromepowder,
 		DisplayCategory	= CraftMet,
     }
@@ -186,7 +186,7 @@ item HCTungstenpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Tungsten Powder,
+        DisplayName     = Tungsten Powder,
         icon            = HCTungstenpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -195,7 +195,7 @@ item HCTitaniumpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Titanium Powder,
+        DisplayName     = Titanium Powder,
         icon            = HCTitaniumpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -204,7 +204,7 @@ item HCPhosphoruspowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Phosphorus Powder,
+        DisplayName     = Phosphorus Powder,
         icon            = HCPhosphoruspowder,
 		DisplayCategory	= CraftChem,
     }
@@ -213,7 +213,7 @@ item HCLithiumpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Lithium Powder,
+        DisplayName     = Lithium Powder,
         icon            = HCLithiumpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -222,7 +222,7 @@ item HCChalkpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Chalk Powder,
+        DisplayName     = Chalk Powder,
         icon            = HCChalkpowder,
 		DisplayCategory	= CraftMas,
     }
@@ -231,7 +231,7 @@ item HCFeldsparpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Feldspar Powder,
+        DisplayName     = Feldspar Powder,
         icon            = HCFeldsparpowder,
 		DisplayCategory	= CraftMet,
     }
@@ -240,7 +240,7 @@ item HCAlbitepowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Albite Powder,
+        DisplayName     = Albite Powder,
         icon            = HCAlbitepowder,
 		DisplayCategory	= CraftMine,
     }
@@ -249,7 +249,7 @@ item HCObsidianpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Obsidian Powder,
+        DisplayName     = Obsidian Powder,
         icon            = HCObsidianpowder,
 		DisplayCategory	= CraftMine,
     }
@@ -258,7 +258,7 @@ item HCLapislazulipowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Lapis Lazuli Powder,
+        DisplayName     = Lapis Lazuli Powder,
         icon            = HCLapislazulipowder,
 		DisplayCategory	= CraftMine,
     }
@@ -267,7 +267,7 @@ item HCAzuritepowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Azurite Powder,
+        DisplayName     = Azurite Powder,
         icon            = HCAzuritepowder,
 		DisplayCategory	= CraftMine,
     }
@@ -276,7 +276,7 @@ item HCJadepowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Jade Powder,
+        DisplayName     = Jade Powder,
         icon            = HCJadepowder,
 		DisplayCategory	= CraftMine,
     }
@@ -285,35 +285,35 @@ item HCMalachitepowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Malachite Powder,
+        DisplayName     = Malachite Powder,
         icon            = HCMalachitepowder,
 		DisplayCategory	= CraftMet,
     }
 
 item HCMarblepowder
     {
-    Weight          = 0.1,
-    Type            = Normal,
-    DisplayName     = Marble Powder,
-    Icon            = HCMarblepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Marble Powder,
+        Icon            = HCMarblepowder,
 		DisplayCategory	= CraftMine,
     }
 
 item HCCalcitepowder
     {
-    Weight          = 0.1,
-    Type            = Normal,
-    DisplayName     = Calcite Powder,
-    Icon            = HCCalcitepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcite Powder,
+        Icon            = HCCalcitepowder,
 		DisplayCategory	= CraftMine,
     }
 
 item HCMagnesiumpowder
     {
-    Weight          = 0.1,
-    Type            = Normal,
-    DisplayName     = Magnesium Powder,
-    Icon            = HCMagnesiumpowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Magnesium Powder,
+        Icon            = HCMagnesiumpowder,
 		DisplayCategory	= CraftMet,
     }
 
@@ -321,7 +321,7 @@ item HCGypsumpowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Gypsum Powder,
+        DisplayName     = Gypsum Powder,
         icon            = HCGypsumpowder,
 		DisplayCategory	= CraftMine,
     } 
@@ -330,107 +330,107 @@ item HCDiatomitepowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Diatomite Powder,
+        DisplayName     = Diatomite Powder,
         icon            = HCDiatomitepowder,
 		DisplayCategory	= CraftMine,
     }
 
 item HCTronapowder
     {
-    Weight          = 0.1,
-    Type            = Normal,
-    DisplayName     = Trona Powder,
-    Icon            = HCTronapowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Trona Powder,
+        Icon            = HCTronapowder,
 		DisplayCategory	= CraftMine,
     }
 
 item HCSilveriodidepowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Silver Iodide Powder,
-    Icon            =   HCSilveriodidepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Silver Iodide Powder,
+        Icon            = HCSilveriodidepowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumhydroxidpowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Calcium Hydroxide Powder,
-    Icon            =   HCCalciumhydroxidpowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Hydroxide Powder,
+        Icon            = HCCalciumhydroxidpowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumoxidpowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Calcium Oxide Powder,
-    Icon            =   HCCalciumoxidpowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Oxide Powder,
+        Icon            = HCCalciumoxidpowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumcarbonatpowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Calcium Carbonate Powder,
-    Icon            =   HCCalciumcarbonatpowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Carbonate Powder,
+        Icon            = HCCalciumcarbonatpowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCCopperoxidepowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Copper Oxide Powder,
-    Icon            =   HCCopperoxidepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Copper Oxide Powder,
+        Icon            = HCCopperoxidepowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCCoppersulfatepowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Copper Sulfate Powder,
-    Icon            =   HCCoppersulfatepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Copper Sulfate Powder,
+        Icon            = HCCoppersulfatepowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCNickelsulfatepowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Nickel Sulfate Powder,
-    Icon            =   HCNickelsulfatepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Nickel Sulfate Powder,
+        Icon            = HCNickelsulfatepowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCSodiumcarbonatpowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Sodium Carbonate Powder,
-    Icon            =   HCSodiumcarbonatpowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Sodium Carbonate Powder,
+        Icon            = HCSodiumcarbonatpowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCSodiumhydroxidepowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Sodium Hydroxide Powder,
-    Icon            =   HCSodiumhydroxidepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Sodium Hydroxide Powder,
+        Icon            = HCSodiumhydroxidepowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCSodiumsulfatpowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Sodium Sulfate Powder,
-    Icon            =   HCSodiumsulfatpowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Sodium Sulfate Powder,
+        Icon            = HCSodiumsulfatpowder,
 		DisplayCategory	= CraftChem,
     }
 
@@ -438,17 +438,17 @@ item HCEphedrinepowder
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Ephedrine Powder,
+        DisplayName     = Ephedrine Powder,
         icon            = HCEphedrinepowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCCalciumchloridepowder
     {
-    Weight          =   0.1,
-    Type            =   Normal,
-    DisplayName     =   Calcium Chloride Powder,
-    Icon            =   HCCalciumchloridepowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Calcium Chloride Powder,
+        Icon            = HCCalciumchloridepowder,
 		DisplayCategory	= CraftChem,
     }
 
@@ -456,7 +456,7 @@ item HCThermite
     {
         Weight          = 0.1,
         Type            = Normal,
-        DisplayName             = Thermite,
+        DisplayName     = Thermite,
         icon            = HCThermite,
 		DisplayCategory	= CraftChem,
     }
@@ -468,7 +468,7 @@ item HCKAS
         icon            = HCKAS,
         DisplayName     = KAS 27 Fertilizer,
         UseDelta        = 0.25,
-        UseWhileEquipped    = false,
+        UseWhileEquipped= false,
 		DisplayCategory	= SurFarm,
     }
 
@@ -476,7 +476,7 @@ item HCAmmonalwet
     {
         Weight          = 2,
         Type            = Normal,
-        DisplayName             = Wet Ammonal Bag,
+        DisplayName     = Wet Ammonal Bag,
         icon            = HCAmmonalwet,
 		DisplayCategory	= CraftChem,
     }
@@ -485,7 +485,7 @@ item HCAmmonaltray
     {
         Weight          = 2,
         Type            = Normal,
-        DisplayName             = Ammonal Tray,
+        DisplayName     = Ammonal Tray,
         icon            = HCAmmonaltray,
 		DisplayCategory	= CraftChem,
     }
@@ -494,7 +494,7 @@ item HCAmmonaldry
     {
         Weight          = 2,
         Type            = Food,
-        DisplayName             = Dry Ammonal,
+        DisplayName     = Dry Ammonal,
         icon            = HCAmmonaldry,
 		DisplayCategory	= CraftChem,
     }
@@ -503,7 +503,7 @@ item HCAmmonal
     {
         Weight          = 2,
         Type            = Normal,
-        DisplayName             = Ammonal Bag,
+        DisplayName     = Ammonal Bag,
         icon            = HCAmmonal,
 		DisplayCategory	= CraftChem,
     }
@@ -512,147 +512,147 @@ item HCWoodenbucketlye
     {
         Weight          = 4,
         Type            = Normal,
-        DisplayName             = Wooden Bucket with Lye,
+        DisplayName     = Wooden Bucket with Lye,
         icon            = HCWoodenbucketlye,
 		DisplayCategory	= CraftChem,
     }
 
 item HCNitricacid
     {
-        Weight              = 1,
-        Type                = Normal,
-        DisplayName                 = Nitric Acid,
-        icon                = HCNitricacid,
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Nitric Acid,
+        icon            = HCNitricacid,
     }
 
 item HCGlycerin
     {
-        Weight              = 0.1,
-        Type                = Normal,
-        DisplayName                 = Glycerin,
-        icon                = HCGlycerin,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Glycerin,
+        icon            = HCGlycerin,
 		DisplayCategory	= CraftChem,
     }
 
 item HCChemicalbottlesodiumhydroxide
     {
-    Weight              =   0.5,
-    Type                =   Normal,
-    DisplayName         =   Chemical Plastic Bottle With Sodium Hydroxide,
-    Icon                =   HCChemicalbottlesodiumhydroxide,
+        Weight          = 0.5,
+        Type            = Normal,
+        DisplayName     = Chemical Plastic Bottle With Sodium Hydroxide,
+        Icon            = HCChemicalbottlesodiumhydroxide,
 		DisplayCategory	= CraftChem,
     }
 
 item HCAcidbathempty
     {
-    Weight          =   1,
-    Type            =   Normal,
-    DisplayName     =   Acid Bath Empty,
-    Icon            =   HCAcidbathempty,
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Acid Bath Empty,
+        Icon            = HCAcidbathempty,
 		DisplayCategory	= CraftChem,
     }
 
 item HCAcidbathmuriaticacid
     {
-    Weight          =   1.5,
-    Type            =   Normal,
-    DisplayName     =   Acid Bath Muriatic Acid,
-    Icon            =   HCAcidbathmuriaticacid,
+        Weight          = 1.5,
+        Type            = Normal,
+        DisplayName     = Acid Bath Muriatic Acid,
+        Icon            = HCAcidbathmuriaticacid,
 		DisplayCategory	= CraftChem,
     }
 
 item HCWaterbottlestarterfluid
     {
-    Weight          =   1,
-        Type            =   Normal,
-        DisplayName     =   Conical Flask With Starter Fluid and Water,
-    Icon            =   HCWaterbottlestarterfluid,
+        Weight          = 1,
+        Type            = Normal,
+        DisplayName     = Conical Flask With Starter Fluid and Water,
+        Icon            = HCWaterbottlestarterfluid,
 		DisplayCategory	= CraftChem,
     }
 
 item HCWaterbottlestarterfluidmixed
     {
-    Weight              =   1,
-    Type                =   Drainable,
-    UseWhileEquipped    =   FALSE,
-    UseDelta            =   0.1,
-    ReplaceOnDeplete    =   HCGlasswaterbottle,
-    DisplayName         =   Waterflask With Starter Fluid,
-    Icon                =   HCWaterbottlestarterfluid,
-		DisplayCategory	= CraftChem,
+        Weight              = 1,
+        Type                = Drainable,
+        UseWhileEquipped    = FALSE,
+        UseDelta            = 0.1,
+        ReplaceOnDeplete    = HCGlasswaterbottle,
+        DisplayName         = Waterflask With Starter Fluid,
+        Icon                = HCWaterbottlestarterfluid,
+		DisplayCategory	    = CraftChem,
     }
 
 item HCSolidfuelbox
     {
-        Weight              = 0.3,
-        Type                = Normal,
-        DisplayName                 = Box of Solid Fuel Cubes,
-        icon                = HCSolidfuelbox,
+        Weight          = 0.3,
+        Type            = Normal,
+        DisplayName     = Box of Solid Fuel Cubes,
+        icon            = HCSolidfuelbox,
 		DisplayCategory	= Fuel,
     }
 
 item HCSolidfuelcubes
     {
-        Weight              = 0.3,
-    Type                = Drainable,
-    UseDelta            = 0.125,
-        DisplayName                 = Solid Fuel Cubes,
-        icon                = HCSolidfuelcubes,
+        Weight          = 0.3,
+        Type            = Drainable,
+        UseDelta        = 0.125,
+        DisplayName     = Solid Fuel Cubes,
+        icon            = HCSolidfuelcubes,
 		DisplayCategory	= Fuel,
     }
 
 item HCSolidfuelcube
     {
-        Weight              = 0.1,
-        Type                = Normal,
-        DisplayName                 = Solid Fuel Cube,
-        icon                = HCSolidfuelcube,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Solid Fuel Cube,
+        icon            = HCSolidfuelcube,
 		DisplayCategory	= Fuel,
     }
 
 item HCHexapowder
     {
-        Weight              = 0.1,
-        Type                = Normal,
-        DisplayName                 = Hexamethylentetramin Powder,
-        icon                = HCHexapowder,
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Hexamethylentetramin Powder,
+        icon            = HCHexapowder,
 		DisplayCategory	= CraftChem,
     }
 
 item HCCitricacid
     {
-        Weight              = 0.2,
-    Type                = Drainable,
-    UseDelta            = 0.125,
-        DisplayName                 = Citric Acid,
-        icon                = HCCitricacid,
+        Weight          = 0.2,
+        Type            = Drainable,
+        UseDelta        = 0.125,
+        DisplayName     = Citric Acid,
+        icon            = HCCitricacid,
 		DisplayCategory	= CraftChem,
     }
 
 item HCGlassgastrap
     {
-    Weight          =   2,
-    Type            =   Normal,
-    DisplayName     =   Glass Baloon and Waterbeaker,
-    Icon            =   HCGlassgastrap,
+        Weight          = 2,
+        Type            = Normal,
+        DisplayName     = Glass Baloon and Waterbeaker,
+        Icon            = HCGlassgastrap,
 		DisplayCategory	= CraftChem,
     }
 
 item HCGlassgassalt
     {
-    Weight          =   2.1,
-    Type            =   Normal,
-    DisplayName     =   Glass Balloon and Waterbeaker with Salt,
-    Icon            =   HCGlassgassalt,
+        Weight          = 2.1,
+        Type            = Normal,
+        DisplayName     = Glass Balloon and Waterbeaker with Salt,
+        Icon            = HCGlassgassalt,
 		DisplayCategory	= CraftChem,
     }
 
 item HCGlassgassaltsulfuric
     {
-    Weight          =   2.2,
-    Type            =   Normal,
-    DisplayName     =   Glass Balloon and Waterbeaker with Salt and Sulfuric Acid,
-    Icon            =   HCGlassgassaltsulfuric,
+        Weight          = 2.2,
+        Type            = Normal,
+        DisplayName     = Glass Balloon and Waterbeaker with Salt and Sulfuric Acid,
+        Icon            = HCGlassgassaltsulfuric,
 		DisplayCategory	= CraftChem,
     }
 
@@ -660,45 +660,47 @@ item HCGlassgassaltsulfuric
 
 item HCHmtdcrystals
     {
-        MaxRange            =   1,
-        Type                =   Weapon,
-        MinimumSwingTime        =   1.5,
-        SwingAnim           =   Bat,
-        UseSelf             =   TRUE,
-        DisplayName         =   HMTD Crystals,
-        SwingTime           =   1.5,
-        SwingAmountBeforeImpact     =   0.1,
-        PhysicsObject           =   PipeBomb,
-        MinDamage           =   0,
-        Weight              =   0.1,
-        MaxDamage           =   0,
-        MaxHitCount         =   0,
-        Icon                =   HCHmtdcrystals,
-        ExplosionPower          =       40,
-        ExplosionRange          =       2,
-        ExplosionSound          =       SmallExplosion,
-		DisplayCategory	= WepBomb,
+        MaxRange                = 1,
+        Type                    = Weapon,
+        MinimumSwingTime        = 1.5,
+		SwingAnim	            = Throw,
+		WeaponSprite            = Molotov,
+        UseSelf                 = TRUE,
+        DisplayName             = HMTD Crystals,
+        SwingTime               = 1.5,
+        SwingAmountBeforeImpact = 0.1,
+        PhysicsObject           = PipeBomb,
+        MinDamage               = 0,
+        Weight                  = 0.1,
+        MaxDamage               = 0,
+        MaxHitCount             = 0,
+        Icon                    = HCHmtdcrystals,
+        ExplosionPower          = 40,
+        ExplosionRange          = 2,
+        ExplosionSound          = SmallExplosion,
+		DisplayCategory	        = WepBomb,
     }
 
 item HCGlasstubehmtd
     {
-        MaxRange            =   1,
-        Type                =   Weapon,
-        MinimumSwingTime        =   1.5,
-        SwingAnim           =   Bat,
-        UseSelf             =   TRUE,
-        DisplayName         =   Test Tube with HMTD Crystals,
-        SwingTime           =   1.5,
-        SwingAmountBeforeImpact     =   0.1,
-        PhysicsObject           =   PipeBomb,
-        MinDamage           =   0,
-        Weight              =   0.1,
-        MaxDamage           =   0,
-        MaxHitCount         =   0,
-        Icon                =   HCGlasstubehmtd,
-        ExplosionPower          =       40,
-        ExplosionRange          =       2,
-        ExplosionSound          =       SmallExplosion,
+        MaxRange                = 1,
+        Type                    = Weapon,
+        MinimumSwingTime        = 1.5,
+		SwingAnim	            = Throw,
+		WeaponSprite            = Molotov,
+        UseSelf                 = TRUE,
+        DisplayName             = Test Tube with HMTD Crystals,
+        SwingTime               = 1.5,
+        SwingAmountBeforeImpact = 0.1,
+        PhysicsObject           = PipeBomb,
+        MinDamage               = 0,
+        Weight                  = 0.1,
+        MaxDamage               = 0,
+        MaxHitCount             = 0,
+        Icon                    = HCGlasstubehmtd,
+        ExplosionPower          = 40,
+        ExplosionRange          = 2,
+        ExplosionSound          = SmallExplosion,
 		DisplayCategory	= WepBomb,
     }
 
@@ -707,851 +709,851 @@ item HCGlasstubehmtd
 
 recipe Make Chalk Powder
     {
-    OnTest:HCNearGrindstone,
-    HCChalk/HCChalkrock,
-    CanBeDoneFromFloor:true,
-    Result:HCChalkpowder,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCChalk/HCChalkrock,
+        CanBeDoneFromFloor:true,
+        Result:HCChalkpowder,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Chalk Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCChalk/HCChalkrock,
-    CanBeDoneFromFloor:true,
-    Result:HCChalkpowder=2,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCChalk/HCChalkrock,
+        CanBeDoneFromFloor:true,
+        Result:HCChalkpowder=2,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Charcoal Powder
     {
-    OnTest:HCNearGrindstone,
-    Charcoal,
-    CanBeDoneFromFloor:true,
-    Result:HCCharcoalpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        Charcoal,
+        CanBeDoneFromFloor:true,
+        Result:HCCharcoalpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Charcoal Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    Charcoal,
-    CanBeDoneFromFloor:true,
-    Result:HCCharcoalpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        Charcoal,
+        CanBeDoneFromFloor:true,
+        Result:HCCharcoalpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Graphite Powder
     {
-    OnTest:HCNearGrindstone,
-    HCGraphite,
-    CanBeDoneFromFloor:true,
-    Result:HCGraphitepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCGraphite,
+        CanBeDoneFromFloor:true,
+        Result:HCGraphitepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Graphite Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCGraphite,
-    CanBeDoneFromFloor:true,
-    Result:HCGraphitepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCGraphite,
+        CanBeDoneFromFloor:true,
+        Result:HCGraphitepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Saltpeter Powder
     {
-    OnTest:HCNearGrindstone,
-    HCSaltpeter,
-    CanBeDoneFromFloor:true,
-    Result:HCSaltpeterpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCSaltpeter,
+        CanBeDoneFromFloor:true,
+        Result:HCSaltpeterpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Saltpeter Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCSaltpeter,
-    CanBeDoneFromFloor:true,
-    Result:HCSaltpeterpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCSaltpeter,
+        CanBeDoneFromFloor:true,
+        Result:HCSaltpeterpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Sulphur Powder
     {
-    OnTest:HCNearGrindstone,
-    HCSulphur,
-    CanBeDoneFromFloor:true,
-    Result:HCSulphurpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCSulphur,
+        CanBeDoneFromFloor:true,
+        Result:HCSulphurpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Sulphur Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCSulphur,
-    CanBeDoneFromFloor:true,
-    Result:HCSulphurpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCSulphur,
+        CanBeDoneFromFloor:true,
+        Result:HCSulphurpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Copper Powder
     {
-    OnTest:HCNearGrindstone,
-    HCCopperore,
-    CanBeDoneFromFloor:true,
-    Result:HCCopperpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCCopperore,
+        CanBeDoneFromFloor:true,
+        Result:HCCopperpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Copper Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCCopperore,
-    CanBeDoneFromFloor:true,
-    Result:HCCopperpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCCopperore,
+        CanBeDoneFromFloor:true,
+        Result:HCCopperpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Tin Powder
     {
-    OnTest:HCNearGrindstone,
-    HCTinore,
-    CanBeDoneFromFloor:true,
-    Result:HCTinpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCTinore,
+        CanBeDoneFromFloor:true,
+        Result:HCTinpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OnGiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Tin Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCTinore,
-    CanBeDoneFromFloor:true,
-    Result:HCTinpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCTinore,
+        CanBeDoneFromFloor:true,
+        Result:HCTinpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Lead Powder
     {
-    OnTest:HCNearGrindstone,
-    HCLeadore,
-    CanBeDoneFromFloor:true,
-    Result:HCLeadpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCLeadore,
+        CanBeDoneFromFloor:true,
+        Result:HCLeadpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Lead Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCLeadore,
-    CanBeDoneFromFloor:true,
-    Result:HCLeadpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCLeadore,
+        CanBeDoneFromFloor:true,
+        Result:HCLeadpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Iron Powder
     {
-    OnTest:HCNearGrindstone,
-    HCIronore,
-    CanBeDoneFromFloor:true,
-    Result:HCIronpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCIronore,
+        CanBeDoneFromFloor:true,
+        Result:HCIronpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Iron Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCIronore,
-    CanBeDoneFromFloor:true,
-    Result:HCIronpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCIronore,
+        CanBeDoneFromFloor:true,
+        Result:HCIronpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Magnetite Powder
     {
-    OnTest:HCNearGrindstone,
-    HCMagnetite,
-    CanBeDoneFromFloor:true,
-    Result:HCMagnetitepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCMagnetite,
+        CanBeDoneFromFloor:true,
+        Result:HCMagnetitepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Magnetite Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCMagnetite,
-    CanBeDoneFromFloor:true,
-    Result:HCMagnetitepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCMagnetite,
+        CanBeDoneFromFloor:true,
+        Result:HCMagnetitepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Meteorite Powder
     {
-    OnTest:HCNearGrindstone,
-    HCMeteorite,
-    CanBeDoneFromFloor:true,
-    Result:HCMeteoritepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCMeteorite,
+        CanBeDoneFromFloor:true,
+        Result:HCMeteoritepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Meteorite Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCMeteorite,
-    CanBeDoneFromFloor:true,
-    Result:HCMeteoritepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCMeteorite,
+        CanBeDoneFromFloor:true,
+        Result:HCMeteoritepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Silver Powder
     {
-    OnTest:HCNearGrindstone,
-    HCSilverore,
-    CanBeDoneFromFloor:true,
-    Result:HCSilverpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCSilverore,
+        CanBeDoneFromFloor:true,
+        Result:HCSilverpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Silver Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCSilverore,
-    CanBeDoneFromFloor:true,
-    Result:HCSilverpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCSilverore,
+        CanBeDoneFromFloor:true,
+        Result:HCSilverpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Gold Powder
     {
-    OnTest:HCNearGrindstone,
-    HCGoldore,
-    CanBeDoneFromFloor:true,
-    Result:HCGoldpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCGoldore,
+        CanBeDoneFromFloor:true,
+        Result:HCGoldpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Gold Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCGoldore,
-    CanBeDoneFromFloor:true,
-    Result:HCGoldpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCGoldore,
+        CanBeDoneFromFloor:true,
+        Result:HCGoldpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Aluminum Powder
     {
-    OnTest:HCNearGrindstone,
-    HCBauxiteore,
-    CanBeDoneFromFloor:true,
-    Result:HCAluminumpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCBauxiteore,
+        CanBeDoneFromFloor:true,
+        Result:HCAluminumpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Aluminum Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCBauxiteore,
-    CanBeDoneFromFloor:true,
-    Result:HCAluminumpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCBauxiteore,
+        CanBeDoneFromFloor:true,
+        Result:HCAluminumpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Zinc Powder
     {
-    OnTest:HCNearGrindstone,
-    HCZincore,
-    CanBeDoneFromFloor:true,
-    Result:HCZincpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCZincore,
+        CanBeDoneFromFloor:true,
+        Result:HCZincpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Zinc Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCZincore,
-    CanBeDoneFromFloor:true,
-    Result:HCZincpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCZincore,
+        CanBeDoneFromFloor:true,
+        Result:HCZincpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Nickel Powder
     {
-    OnTest:HCNearGrindstone,
-    HCNickelore,
-    CanBeDoneFromFloor:true,
-    Result:HCNickelpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCNickelore,
+        CanBeDoneFromFloor:true,
+        Result:HCNickelpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Nickel Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCNickelore,
-    CanBeDoneFromFloor:true,
-    Result:HCNickelpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCNickelore,
+        CanBeDoneFromFloor:true,
+        Result:HCNickelpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Cobalt Powder
     {
-    OnTest:HCNearGrindstone,
-    HCCobaltore,
-    CanBeDoneFromFloor:true,
-    Result:HCCobaltpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCCobaltore,
+        CanBeDoneFromFloor:true,
+        Result:HCCobaltpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Cobalt Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCCobaltore,
-    CanBeDoneFromFloor:true,
-    Result:HCCobaltpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCCobaltore,
+        CanBeDoneFromFloor:true,
+        Result:HCCobaltpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Chrome Powder
     {
-    OnTest:HCNearGrindstone,
-    HCChromeore,
-    CanBeDoneFromFloor:true,
-    Result:HCChromepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCChromeore,
+        CanBeDoneFromFloor:true,
+        Result:HCChromepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Chrome Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCChromeore,
-    CanBeDoneFromFloor:true,
-    Result:HCChromepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCChromeore,
+        CanBeDoneFromFloor:true,
+        Result:HCChromepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Tungsten Powder
     {
-    OnTest:HCNearGrindstone,
-    HCTungstenore,
-    CanBeDoneFromFloor:true,
-    Result:HCTungstenpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCTungstenore,
+        CanBeDoneFromFloor:true,
+        Result:HCTungstenpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Tungsten Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCTungstenore,
-    CanBeDoneFromFloor:true,
-    Result:HCTungstenpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCTungstenore,
+        CanBeDoneFromFloor:true,
+        Result:HCTungstenpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 
 recipe Make Titanium Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCTitaniumore,
-    CanBeDoneFromFloor:true,
-    Result:HCTitaniumpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCTitaniumore,
+        CanBeDoneFromFloor:true,
+        Result:HCTitaniumpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Phosphorus Powder
     {
-    keep OnTest:HCNearGrindstone,
-    keep KitchenKnife/Scalpel/HCJackknife,
-    Matches=15,
-    CanBeDoneFromFloor:true,
-    Result:HCPhosphoruspowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        keep KitchenKnife/Scalpel/HCJackknife,
+        Matches=15,
+        CanBeDoneFromFloor:true,
+        Result:HCPhosphoruspowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Phosphorus Powder
     {
-    OnTest:HCNearGrindstone,
-    HCBerlinite/HCLapislazuli,
-    Result:HCPhosphoruspowder,
-    CanBeDoneFromFloor:true,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCBerlinite/HCLapislazuli,
+        Result:HCPhosphoruspowder,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Phosphorus Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCBerlinite/HCLapislazuli,
-    CanBeDoneFromFloor:true,
-    Result:HCPhosphoruspowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCBerlinite/HCLapislazuli,
+        CanBeDoneFromFloor:true,
+        Result:HCPhosphoruspowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Lithium Powder
     {
-    OnTest:HCNearGrindstone,
-    HCLithiumore,
-    Result:HCLithiumpowder,
-    CanBeDoneFromFloor:true,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        OnTest:HCNearGrindstone,
+        HCLithiumore,
+        Result:HCLithiumpowder,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Lithium Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCLithiumore,
-    CanBeDoneFromFloor:true,
-    Result:HCLithiumpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCWelding_OnGiveBitXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCLithiumore,
+        CanBeDoneFromFloor:true,
+        Result:HCLithiumpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCWelding_OnGiveBitXP,
     }
 
 recipe Make Lapis Lazuli Powder
     {
-    OnTest:HCNearGrindstone,
-    HCLapislazuli,
-    CanBeDoneFromFloor:true,
-    Result:HCLapislazulipowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCLapislazuli,
+        CanBeDoneFromFloor:true,
+        Result:HCLapislazulipowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Lapis Lazuli Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCLapislazuli,
-    CanBeDoneFromFloor:true,
-    Result:HCLapislazulipowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCLapislazuli,
+        CanBeDoneFromFloor:true,
+        Result:HCLapislazulipowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Azurite Powder
     {
-    OnTest:HCNearGrindstone,
-    HCAzurite,
-    CanBeDoneFromFloor:true,
-    Result:HCAzuritepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCAzurite,
+        CanBeDoneFromFloor:true,
+        Result:HCAzuritepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Azurite Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCAzurite,
-    CanBeDoneFromFloor:true,
-    Result:HCAzuritepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCAzurite,
+        CanBeDoneFromFloor:true,
+        Result:HCAzuritepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Jade Powder
     {
-    OnTest:HCNearGrindstone,
-    HCJade,
-    CanBeDoneFromFloor:true,
-    Result:HCJadepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCJade,
+        CanBeDoneFromFloor:true,
+        Result:HCJadepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Jade Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCJade,
-    CanBeDoneFromFloor:true,
-    Result:HCJadepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCJade,
+        CanBeDoneFromFloor:true,
+        Result:HCJadepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Malachite Powder
     {
-    OnTest:HCNearGrindstone,
-    HCMalachite,
-    CanBeDoneFromFloor:true,
-    Result:HCMalachitepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCMalachite,
+        CanBeDoneFromFloor:true,
+        Result:HCMalachitepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Malachite Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCMalachite,
-    CanBeDoneFromFloor:true,
-    Result:HCMalachitepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCMalachite,
+        CanBeDoneFromFloor:true,
+        Result:HCMalachitepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Marble Powder
     {
-    OnTest:HCNearGrindstone,
-    HCMarble,
-    CanBeDoneFromFloor:true,
-    Result:HCMarblepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCMarble,
+        CanBeDoneFromFloor:true,
+        Result:HCMarblepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Marble Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCMarble,
-    CanBeDoneFromFloor:true,
-    Result:HCMarblepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCMarble,
+        CanBeDoneFromFloor:true,
+        Result:HCMarblepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Albite Powder
     {
-    OnTest:HCNearGrindstone,
-    HCAlbite,
-    CanBeDoneFromFloor:true,
-    Result:HCAlbitepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCAlbite,
+        CanBeDoneFromFloor:true,
+        Result:HCAlbitepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Albite Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCAlbite,
-    CanBeDoneFromFloor:true,
-    Result:HCAlbitepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCAlbite,
+        CanBeDoneFromFloor:true,
+        Result:HCAlbitepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Feldspar Powder
     {
-    OnTest:HCNearGrindstone,
-    HCFeldspar,
-    CanBeDoneFromFloor:true,
-    Result:HCFeldsparpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCFeldspar,
+        CanBeDoneFromFloor:true,
+        Result:HCFeldsparpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Feldspar Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCFeldspar,
-    CanBeDoneFromFloor:true,
-    Result:HCFeldsparpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCFeldspar,
+        CanBeDoneFromFloor:true,
+        Result:HCFeldsparpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Gypsum Powder
     {
-    OnTest:HCNearGrindstone,
-    HCGypsum,
-    CanBeDoneFromFloor:true,
-    Result:HCGypsumpowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCGypsum,
+        CanBeDoneFromFloor:true,
+        Result:HCGypsumpowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Gypsum Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCGypsum,
-    CanBeDoneFromFloor:true,
-    Result:HCGypsumpowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCGypsum,
+        CanBeDoneFromFloor:true,
+        Result:HCGypsumpowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Diatomite Powder
     {
-    OnTest:HCNearGrindstone,
-    HCDiatomite,
-    CanBeDoneFromFloor:true,
-    Result:HCDiatomitepowder,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCDiatomite,
+        CanBeDoneFromFloor:true,
+        Result:HCDiatomitepowder,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Diatomite Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCDiatomite,
-    CanBeDoneFromFloor:true,
-    Result:HCDiatomitepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCDiatomite,
+        CanBeDoneFromFloor:true,
+        Result:HCDiatomitepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Trona Powder
     {
-    OnTest:HCNearGrindstone,
-    HCTrona,
-    CanBeDoneFromFloor:true,
-    Result:HCTronapowder,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        OnTest:HCNearGrindstone,
+        HCTrona,
+        CanBeDoneFromFloor:true,
+        Result:HCTronapowder,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Trona Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCTrona,
-    CanBeDoneFromFloor:true,
-    Result:HCTronapowder=2,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCTrona,
+        CanBeDoneFromFloor:true,
+        Result:HCTronapowder=2,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Thermite
     {
-    Aluminum/HCAluminumpowder,
-    HCToydrawing=2,
-    keep HCPliers,
-    Result:HCThermite,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        Aluminum/HCAluminumpowder,
+        HCToydrawing=2,
+        keep HCPliers,
+        Result:HCThermite,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Thermite
     {
-    Sparklers=10,
-    keep HCLab2,
-    CanBeDoneFromFloor:true,
-    Result:HCThermite,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        Sparklers=10,
+        keep HCLab2,
+        CanBeDoneFromFloor:true,
+        Result:HCThermite,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Thermite
     {
-    Sparklers=10,
-    keep HCMacerator,
-    PetrolCan,
-    CanBeDoneFromFloor:true,
-    Result:HCThermite=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        Sparklers=10,
+        keep HCMacerator,
+        PetrolCan,
+        CanBeDoneFromFloor:true,
+        Result:HCThermite=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Ammonal
     {
-         destroy HCKAS,
-         Water=10, 
-         keep Shovel,
-     keep HCBarrelmetalempty/HCBarrelblueempty/HCWoodenbarrel,
-         CanBeDoneFromFloor:true,
-     Result:HCAmmonalwet,
-         NeedToBeLearn:true,
-     Time:400.0,
-         Category:Chemistry,
-         OnCreate:hcammoniamaking,
+        destroy HCKAS,
+        Water=10, 
+        keep Shovel,
+        keep HCBarrelmetalempty/HCBarrelblueempty/HCWoodenbarrel,
+        CanBeDoneFromFloor:true,
+        Result:HCAmmonalwet,
+        NeedToBeLearn:true,
+        Time:400.0,
+        Category:Chemistry,
+        OnCreate:hcammoniamaking,
         OnGiveXP:HCCooking_OnGiveXP,
     }
 
@@ -1569,153 +1571,153 @@ recipe Dry Ammonal
 
 recipe Cook Ammonal
     {
-    HCAmmonaltray,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    Charcoal,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCAmmonaldry,
-    Time:1000,
-    NeedToBeLearn:true,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCAmmonaltray,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Charcoal,
+        OnTest:HCNearKiln,
+        CanBeDoneFromFloor:true,
+        Result:HCAmmonaldry,
+        Time:1000,
+        NeedToBeLearn:true,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 
 recipe Fill Ammonal in Bag
     {
-    HCAmmonaldry,
-    EmptySandbag,
-    NeedToBeLearn:true,
-    Result:HCAmmonal,
-    Time:100.0,
-    Category:Chemistry,
-    OnCreate:hcfillammoniarecipe,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCAmmonaldry,
+        EmptySandbag,
+        NeedToBeLearn:true,
+        Result:HCAmmonal,
+        Time:100.0,
+        Category:Chemistry,
+        OnCreate:hcfillammoniarecipe,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Ephedrin Powder
     {
-    keep HCLab/HCMedicallab,
-    HCEphedrine=15,
-    Result:HCEphedrinepowder,
-    CanBeDoneFromFloor:true,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCLab/HCMedicallab,
+        HCEphedrine=15,
+        Result:HCEphedrinepowder,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Ephedrin Powder
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCEphedrine=15,
-    CanBeDoneFromFloor:true,
-    Result:HCEphedrinepowder=2,
-    NeedToBeLearn:true,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCEphedrine=15,
+        CanBeDoneFromFloor:true,
+        Result:HCEphedrinepowder=2,
+        NeedToBeLearn:true,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Gunpowder
     {
-    HCSulphurpowder,
-    HCSaltpeterpowder,
-    HCCharcoalpowder,
-    HCJar,
-    keep HCLab2,
-    Result:HCGunPowder,
-    NeedToBeLearn:true,
-    CanBeDoneFromFloor:true,
-    Time:100,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCSulphurpowder,
+        HCSaltpeterpowder,
+        HCCharcoalpowder,
+        HCJar,
+        keep HCLab2,
+        Result:HCGunPowder,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 
 recipe Refill Gunpowder
     {
-    GunPowder=200,
-    HCJar,
-    keep HCLab2,
-    Result:HCGunPowder,
-    CanBeDoneFromFloor:true,
-    Time:100,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        GunPowder=200,
+        HCJar,
+        keep HCLab2,
+        Result:HCGunPowder,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 
 recipe Make 9mm Bullets
     {
-    keep HCFunnel,
-    HCGunPowder=10,
-    HCBulletcasings=1,
-    HCBullettips=1,
-    Result:Bullets9mmBox,
-    Time:100,
-    Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets9mmBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Make .223 Bullets
     {
-    keep HCFunnel,
-    HCGunPowder=10,
-    HCBulletcasings=1,
-    HCBullettips=1,
-    Result:223Box,
-    Time:100,
-    Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:223Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Make .308 Bullets
     {
-    keep HCFunnel,
-    HCGunPowder=10,
-    HCBulletcasings=1,
-    HCBullettips=1,
-    Result:308Box,
-    Time:100,
-    Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:308Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Make Shotgun Shells
     {
-    keep HCFunnel,
-    HCGunPowder=10,
-    HCBuckshot=24,
-    SheetPaper2=10,
-    Result:ShotgunShellsBox,
-    Time:100,
-    Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBuckshot=24,
+        SheetPaper2=10,
+        Result:ShotgunShellsBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:HCHunger_OnGiveXP,
     }
 
 recipe Make Bucket of Lye
     {
-    SkillRequired:Cooking=3,
-    destroy HCWoodenbucketwater,
-    HCCharcoalpowder=5,
-    Stone,
-    HCGrass/HCStraw,
-    Result:HCWoodenbucketlye,
-    Time:2000,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        SkillRequired:Cooking=3,
+        destroy HCWoodenbucketwater,
+        HCCharcoalpowder=5,
+        Stone,
+        HCGrass/HCStraw,
+        Result:HCWoodenbucketlye,
+        Time:2000,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Glycerin
     {
         HCTallow=4,
-    HCCheesecloth,
+        HCCheesecloth,
         Charcoal,
         Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    Water,
+        Water,
         keep HCClaycauldron/HCCauldroniron,
         CanBeDoneFromFloor:true,
         Result:HCGlycerin,
@@ -1727,45 +1729,45 @@ recipe Make Glycerin
 
 recipe Make Methylamin
     {   
-    HCBeakerammonia,
-    HCAlbitepowder/HCJadepowder,
-    HCMethanol,
-    HCBarrelblueempty,
-    keep HCLatexgloves/HCRubberglove,   
-    keep HCGasmask/HCImprovisedgasmask,
-    keep HCLab2,
-    CanBeDoneFromFloor:true, 
-    NeedToBeLearn:true,
-    Result:HCMethylaminbarrelbluefull,
-    Time:1000,
-    Category:Chemistry,
-    OnCreate:recipe_hcbeakerbottle,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCBeakerammonia,
+        HCAlbitepowder/HCJadepowder,
+        HCMethanol,
+        HCBarrelblueempty,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCMethylaminbarrelbluefull,
+        Time:1000,
+        Category:Chemistry,
+        OnCreate:recipe_hcbeakerbottle,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Methylamin
     {   
-    HCBeakerammonia,
-    HCAlbitepowder/HCJadepowder,
-    HCMethanol,
-    HCBarrelmetalempty,
-    keep HCLatexgloves/HCRubberglove,   
-    keep HCGasmask/HCImprovisedgasmask,
-    keep HCLab2,
-    CanBeDoneFromFloor:true, 
-    NeedToBeLearn:true,
-    Result:HCBarrelmetalmethylamin,
-    Time:1000,
-    Category:Chemistry,
-    OnCreate:recipe_hcbeakerbottle,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCBeakerammonia,
+        HCAlbitepowder/HCJadepowder,
+        HCMethanol,
+        HCBarrelmetalempty,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCBarrelmetalmethylamin,
+        Time:1000,
+        Category:Chemistry,
+        OnCreate:recipe_hcbeakerbottle,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Fill Chemical Bottle With Sodium Hydroxide Powder
     {
-    HCSodiumhydroxidepowder,
-    HCChemicalbottleempty,
-    keep HCSafetyglasses,
+        HCSodiumhydroxidepowder,
+        HCChemicalbottleempty,
+        keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
         keep HCFunnel/HCGlassfunnel,
         keep HCLab2,
@@ -1779,8 +1781,8 @@ recipe Fill Chemical Bottle With Sodium Hydroxide Powder
 
 recipe Heat Beaker of Water
     {
-    Water,
-    HCGlassbeaker,
+        Water,
+        HCGlassbeaker,
         keep HCFunnel/HCGlassfunnel,
         keep HCWorkgloves/HCOvenmitts,
         keep HCLab2,
@@ -1793,94 +1795,94 @@ recipe Heat Beaker of Water
 
 recipe Put Trona Powder In Hot Water
     {
-    HCTronapowder,
-    HCBeakerwaterhot,
-    keep HCFunnel/HCGlassfunnel,
-    keep HCWorkgloves,
-    keep HCLab2,
-    CanBeDoneFromFloor: true,
-    Result:             HCBeakertronasolution,
-    Time:               50,
-    Category:           Chemistry,
-    OnGiveXP:           HCCooking_OnGiveXP,
+        HCTronapowder,
+        HCBeakerwaterhot,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCWorkgloves,
+        keep HCLab2,
+        CanBeDoneFromFloor: true,
+        Result:             HCBeakertronasolution,
+        Time:               50,
+        Category:           Chemistry,
+        OngiveXP:           HCCooking_OnGiveXP,
     }
 
 recipe Extract Sodium Carbonate
     {
-    HCBeakertronasolution,
-    keep HCSafetyglasses,
-    keep HCLatexgloves/HCRubberglove,
-    keep HCLab2,
-    CanBeDoneFromFloor: true,
-    Result:             HCSodiumcarbonatpowder=2,
-    Time:               50,
-    OnCreate:           recipe_hcgetbeaker,
-    Category:           Chemistry,
-    OnGiveXP:           HCCooking_OnGiveXP,
+        HCBeakertronasolution,
+        keep HCSafetyglasses,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCLab2,
+        CanBeDoneFromFloor: true,
+        Result:             HCSodiumcarbonatpowder=2,
+        Time:               50,
+        OnCreate:           recipe_hcgetbeaker,
+        Category:           Chemistry,
+        OngiveXP:           HCCooking_OnGiveXP,
     }
 
 recipe Make Calcium Oxide
     {
-    HCChalkrock=2,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCCalciumoxidpowder=4,
-    Time:100,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCChalkrock=2,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        OnTest:HCNearKiln,
+        CanBeDoneFromFloor:true,
+        Result:HCCalciumoxidpowder=4,
+        Time:100,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Mix Calcium Oxide With Water
     {
-    HCBeakerwater,
-    HCGlassbeaker,
-    HCCalciumoxidpowder,
-    keep HCSafetyglasses,
-    keep HCLatexgloves/HCRubberglove,
-    keep HCLab2,
-    CanBeDoneFromFloor:true,
-    Result:HCBeakerwatercalciumoxid,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCBeakerwater,
+        HCGlassbeaker,
+        HCCalciumoxidpowder,
+        keep HCSafetyglasses,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCLab2,
+        CanBeDoneFromFloor:true,
+        Result:HCBeakerwatercalciumoxid,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Extract Calcium Hydroxide
     {
-    HCBeakerwatercalciumoxid,
-    keep HCSafetyglasses,
-    keep HCLatexgloves/HCRubberglove,
-    keep HCLab2,
-    CanBeDoneFromFloor:true,
-    Result:HCCalciumhydroxidpowder=2,
-    Time:50,
-    Category:Chemistry,
-    OnCreate:recipe_hcgetbeaker,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCBeakerwatercalciumoxid,
+        keep HCSafetyglasses,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCLab2,
+        CanBeDoneFromFloor:true,
+        Result:HCCalciumhydroxidpowder=2,
+        Time:50,
+        Category:Chemistry,
+        OnCreate:recipe_hcgetbeaker,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Sodium Hydroxide
     {
-    HCCalciumhydroxidpowder,
-    HCSodiumcarbonatpowder,
-    keep HCSafetyglasses,
-    keep HCLatexgloves/HCRubberglove,
-    keep HCLab2,
-    CanBeDoneFromFloor:true,
-    Result:HCSodiumhydroxidepowder,
-    Time:50,
-    Category:Chemistry,
-    OnCreate:recipe_hcgetcalciumcarbonate,
-    OnGiveXP:HCCooking_OnGiveXP,
+        HCCalciumhydroxidpowder,
+        HCSodiumcarbonatpowder,
+        keep HCSafetyglasses,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCLab2,
+        CanBeDoneFromFloor:true,
+        Result:HCSodiumhydroxidepowder,
+        Time:50,
+        Category:Chemistry,
+        OnCreate:recipe_hcgetcalciumcarbonate,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Make Sodium Hydroxide Solution
     {
         HCBeakerwater,
         HCSodiumhydroxidepowder=2,
-    keep HCSafetyglasses,
+        keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true,
@@ -1895,7 +1897,7 @@ recipe Make Calcium Chloride
     {
         HCBeakermuriaticacid,
         HCCalciumcarbonatpowder,
-    keep HCSafetyglasses,
+        keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true,
@@ -1910,7 +1912,7 @@ recipe Make Calcium Chloride Solution
     {
         HCBeakerwater,
         HCCalciumchloridepowder=2,
-    keep HCSafetyglasses,
+        keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true,
@@ -1940,8 +1942,8 @@ recipe Make Acid Bath
 
 recipe Fill Acid Bath With Muriatic Acid
     {
-    HCAcidbathempty,
-    HCBeakermuriaticacid,
+        HCAcidbathempty,
+        HCBeakermuriaticacid,
         keep HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true,
@@ -1954,8 +1956,8 @@ recipe Fill Acid Bath With Muriatic Acid
 
 recipe Fill Beaker With Muriatic Acid
     {
-    HCAcidbathmuriaticacid,
-    HCGlassbeaker,
+        HCAcidbathmuriaticacid,
+        HCGlassbeaker,
         keep HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true,
@@ -1992,8 +1994,8 @@ recipe Shake Starter Fluid in Conical Flask with Water
 
 recipe Make Beaker with Hydrogen Peroxide
     {   
-    HCHaircolorblond=5,
-    HCGlassbeaker,
+        HCHaircolorblond=5,
+        HCGlassbeaker,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
         keep HCLab2,
@@ -2024,45 +2026,45 @@ recipe Cool Beaker with Hydrogen Peroxide
 
 recipe Open Solid Fuel Box
     {
-    HCSolidfuelbox,
-    Result:HCSolidfuelcubes,
-    Time:50,
+        HCSolidfuelbox,
+        Result:HCSolidfuelcubes,
+        Time:50,
     }
 
 recipe Take Solid Fuel Cube 
     {
-    HCSolidfuelcubes,
-    Result:HCSolidfuelcube,
-    Time:50,
+        HCSolidfuelcubes,
+        Result:HCSolidfuelcube,
+        Time:50,
     }
 
 recipe Grind Solid Fuel Cube
     {
-    keep MortarPestle/HCLab2,
-    HCSolidfuelcube,
-    CanBeDoneFromFloor:true,
-    Result:HCHexapowder,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep MortarPestle/HCLab2,
+        HCSolidfuelcube,
+        CanBeDoneFromFloor:true,
+        Result:HCHexapowder,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Grind Solid Fuel Cube
     {
-    keep HCMacerator,
-    PetrolCan,
-    HCSolidfuelcube,
-    CanBeDoneFromFloor:true,
-    Result:HCHexapowder=2,
-    Time:50,
-    Category:Chemistry,
-    OnGiveXP:HCCooking_OnGiveXP,
+        keep HCMacerator,
+        PetrolCan,
+        HCSolidfuelcube,
+        CanBeDoneFromFloor:true,
+        Result:HCHexapowder=2,
+        Time:50,
+        Category:Chemistry,
+        OngiveXP:HCCooking_OnGiveXP,
     }
 
 recipe Add Hexamethylentetramin to Beaker with Hydrogen Peroxide
     {   
-    HCBeakerh2o2cooled,
-    HCHexapowder,
+        HCBeakerh2o2cooled,
+        HCHexapowder,
         keep HCThermometer,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
@@ -2094,8 +2096,8 @@ recipe Cool Beaker with Hydrogen Peroxide and Hexamethylentetramin
 
 recipe Add Citric Acid to Beaker with Hydrogen Peroxide and Hexamethylentetramin
     {   
-    HCBeakerh2o2hexacooled,
-    HCCitricacid,
+        HCBeakerh2o2hexacooled,
+        HCCitricacid,
         keep HCThermometer,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,
@@ -2203,7 +2205,7 @@ recipe Add Sulfuric Acid to Glass Balloon with Salt
     {
         HCGlassgassalt,
         HCBeakersulfuricacid,
-        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HCHazmat,
+        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HazmatSuit,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true, 
@@ -2219,7 +2221,7 @@ recipe Add Sulfuric Acid to Glass Balloon with Salt
 recipe Make Muriatic Acid
     {
         HCGlassgassaltsulfuric,
-        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HCHazmat,
+        keep HCGasmask/HCImprovisedgasmask/HCImprovisedhazmat/HazmatSuit,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true, 
@@ -2236,8 +2238,8 @@ recipe Make Muriatic Acid
 recipe Make Mercuric Oxide
     {
         HCGlassbeaker,
-    HCCinnabar,
-    keep HCSafetyglasses,
+        HCCinnabar,
+        keep HCSafetyglasses,
         keep HCLatexgloves/HCRubberglove,
         keep HCLab2,
         CanBeDoneFromFloor:true, 

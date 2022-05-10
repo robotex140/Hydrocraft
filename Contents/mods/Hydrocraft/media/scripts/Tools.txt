@@ -770,7 +770,7 @@ item HCScissorlift
 	item HCWrench
 	{
 		MaxRange			=	1.2,
-		WeaponSprite			=	Baseballbat,
+		WeaponSprite			=	Wrench,
 		MinAngle			=	0,
 		Type				=	Weapon,
 		MinimumSwingTime		=	3,
@@ -1125,8 +1125,8 @@ recipe Unbox Bolts
 
 recipe Box Nuts
     {
-    HCBolt=100,
-    Result:HCBoltbox,
+    HCNut=100,
+    Result:HCNutbox,
     Time:15,
     }
 

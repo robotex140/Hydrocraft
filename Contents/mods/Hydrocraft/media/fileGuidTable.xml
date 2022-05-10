@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fileGuidTable>
 	<files>
+		<path>media/clothing/clothingItems/HCQuiver.xml</path>
+		<guid>a89952e4-3ce5-4229-bb75-1d71f4fdcc85</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCArmorcopper.xml</path>
+		<guid>263c0182-8763-457c-b3da-30972504f859</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCArmorbronze.xml</path>
+		<guid>47f9b272-9abc-4571-9c43-7caf320dfe38</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCArmoriron.xml</path>
+		<guid>f234c718-63d0-4c77-afa2-7c8b65b3cc74</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCHelmcopper.xml</path>
+		<guid>bb667080-411c-4b0e-9790-69daf79d6ac2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCHelmbronze.xml</path>
+		<guid>970e9112-95b2-4dd4-9617-91cbcc0cfb14</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCHelmiron.xml</path>
+		<guid>e81d2370-df12-4a25-b6ed-a996dd0d0485</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCLegarmorcopper.xml</path>
+		<guid>870821bd-2a3b-4fdc-9e21-45a964bc558e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCLegarmorbronze.xml</path>
+		<guid>40a0109b-e118-4e67-8481-4da212ed5e6c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HCLegarmoriron.xml</path>
+		<guid>d16be109-35ae-4d97-a027-7a59bf674fc0</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/HCFiresuit.xml</path>
 		<guid>6b9416a3-8075-43e4-8568-3720b15485dd</guid>
 	</files>
@@ -68,7 +108,7 @@
 		<path>media/clothing/clothingItems/HCPantsLeatherHard.xml</path>
 		<guid>7350705d-5fae-4329-ac92-d19da5ce1d63</guid>
 	</files>
-		<files>
+	<files>
 		<path>media/clothing/clothingItems/HCPantsLinenWired.xml</path>
 		<guid>ca5f73ef-cc6b-4736-8cce-9617a8b3a208</guid>
 	</files>

@@ -84,7 +84,7 @@ function HCHuntSmallGame(items, result, player)
 	else
 		local actual = ZombRand(100);
 		if actual <= chance then
-			local animal = ZombRand(11);
+			local animal = ZombRand(12);
 			if animal == 0 then
 				player:getInventory():AddItem("Base.DeadRabbit");
 				local babys = ZombRand(2);

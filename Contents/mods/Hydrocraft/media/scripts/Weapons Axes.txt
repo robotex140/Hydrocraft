@@ -83,6 +83,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
+		DamageMakeHole = TRUE,
         AttachmentType 					= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -123,6 +124,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 		= 	TRUE,
         BreakSound  		=   	BreakWoodItem,
         TreeDamage  		=   	30,
+		DamageMakeHole = TRUE,
         AttachmentType 		= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -163,6 +165,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	25,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -203,6 +206,7 @@ item HCAxeheadblunt
        	TwoHandWeapon 			= 	TRUE,
         BreakSound  			=   	BreakWoodItem,
         TreeDamage  			=   	20,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -213,7 +217,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite				=	HandAxe,
+		WeaponSprite				=	Hydrocraft.HCSurvivalaxe,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -244,6 +248,7 @@ item HCAxeheadblunt
         BreakSound  				=   	BreakWoodItem,
         TreeDamage  				=   	25,
         AttachmentType 				= Knife,
+		DamageMakeHole = TRUE,
         Tags 						= ChopTree;CutPlant,
 		DisplayCategory          =   WepMelee,
 	}
@@ -254,7 +259,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	HandAxe,
+		WeaponSprite					=	Hydrocraft.HCHatchetsteel,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -284,6 +289,7 @@ item HCAxeheadblunt
 		TwoHandWeapon 					= 	FALSE,
         BreakSound  					=   	BreakWoodItem,
         TreeDamage  					=   	25,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -294,7 +300,7 @@ item HCAxeheadblunt
 		Type						=	Weapon,
 		SubCategory					=	Swinging,
 		Categories					=	Axe,
-		WeaponSprite					=	HandAxe,
+		WeaponSprite					=	Hydrocraft.HCHatchetiron,
 		SwingAnim					=	Bat,
 		RunAnim						=	Run_Weapon2,
 		IdleAnim					=	Idle_Weapon2,
@@ -324,6 +330,7 @@ item HCAxeheadblunt
 		TwoHandWeapon 					= 	FALSE,
         BreakSound  					=   	BreakWoodItem,
         TreeDamage  					=   	25,
+		DamageMakeHole = TRUE,
         AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -367,6 +374,7 @@ item HCAxeheadblunt
        	BreakSound  				=   BreakWoodItem,
         TreeDamage  				=   35,
 		RequiresEquippedBothHands 	= 	true,
+		DamageMakeHole = TRUE,
 		AttachmentType 				= 	BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -408,6 +416,7 @@ item HCAxeheadblunt
        		BreakSound  					=   	BreakWoodItem,
         	TreeDamage  					=   	35,
 		RequiresEquippedBothHands 			= 	true,
+		DamageMakeHole = TRUE,
 		AttachmentType 			= BigWeapon,
 		DisplayCategory          =   WepMelee,
 	}
@@ -420,7 +429,7 @@ item HCAxeheadblunt
 recipe Craft Axe Handle
 	{
 	   	Plank,
-	   	keep Saw,
+	   	keep Saw/GardenSaw,
 	   	Result:HCAxehandle,
 	   	Time:150.0,
     		Category:Carpentry,
@@ -733,4 +742,21 @@ recipe Make Iron Battleaxe
 		Fixer : HCIroningot,
     }
 
+}
+
+module Base
+{
+	/*Overrides the vanilla recipe, to allow crafted axe handles to be used.*/
+    recipe Make Stone Axe
+    {
+        TreeBranch/HCAxehandle,
+        SharpedStone,
+        RippedSheets/Twine/RippedSheetsDirty,
+
+        Result:AxeStone,
+        Time:80.0,
+		NeedToBeLearn:false,
+        Category:Survivalist,
+		Override: true,
+    }	
 }

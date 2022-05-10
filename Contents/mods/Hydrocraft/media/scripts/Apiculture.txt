@@ -239,16 +239,6 @@ item HCBeehive3bfull
     }
 		
 /************************RECIPES************************/
-  
-
-recipe Anchor Beehive
-    {
-    HCBeehive3,
-        CanBeDoneFromFloor:true,
-        Result:HCBeehive3b,
-        Time:100,
-        Category:Anchor,
-    }
 
 recipe Unanchor Beehive
     {
@@ -303,42 +293,6 @@ recipe Empty Bee Smoker
         Category:Farming,
     }
 
-
-recipe Feed Beehive
-    {
-        HCBeehive3,
-        keep HCBeekeeperhat,
-        keep HCWorkgloves,
-        HCBeesmokerfull,
-        HCPollen=12,
-        Result:HCBeekeeperhat,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-        Time:100.0,
-        Category:Farming,
-        RemoveResultItem:true,
-        OnCreate:recipe_hcfeedbeehive3,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Feed Beehive
-    {
-        HCBeehive3b,
-        keep HCBeekeeperhat,
-        keep HCWorkgloves,
-        HCBeesmokerfull,
-        HCPollen=12,
-        Result:HCBeekeeperhat,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-        Time:100.0,
-        Category:Farming,
-        Result:HCBeehive3bActive,
-        OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-
-
 recipe Harvest Honeycomb
     {
         HCBeehive3full,
@@ -381,7 +335,7 @@ recipe Harvest Wild Beehive
        NeedToBeLearn:true,
        Time:150.0,
        Category:Farming,
-       OnCreate:HCHoneycomb6,
+       OnCreate:HCHoneycomb12,
        OnGiveXP:HCCooking_OnGiveXP,
     }
 

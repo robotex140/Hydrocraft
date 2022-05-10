@@ -972,7 +972,7 @@ recipe Make Laboratory
 	HCRingstandclamp,
 	HCBunsenburner,
 	HCRubberhose,
-	HCPropanetankempty,
+	Base.PropaneTank,
 	HCPlasticbin2=3,
 	HCWorkbench,
     Result:HCLab,

@@ -5,6 +5,7 @@
 require "Camping/camping_fuel";
 
 	-- Add Fuel for Campfire
+	campingFuelType["HCDeerpoop"] = 10.0/60.0
 	campingFuelType.HCCowpoop = 10.0/60.0
 	campingFuelType["HCCowpoop"] = 10.0/60.0
 	campingFuelType.HCWoodblock = 1.0
@@ -52,6 +53,7 @@ require "Camping/camping_fuel";
 	campingFuelType.HC100dollarbill = 5.0/60.0
 	campingFuelType["HC100dollarbill"] = 5.0/60.0
 	campingFuelType["HCSawdust"] = 5.0/60.0	
+	campingFuelType["HCBookcover"] = 5.0/60.0
 	
 	-- Add Starter for Campfire
 	campingLightFireType.HCDeerpoop = 10.0/60.0
@@ -99,3 +101,4 @@ require "Camping/camping_fuel";
 	campingLightFireType.HC100dollarbill = 5.0/60.0
 	campingLightFireType["HC100dollarbill"] = 5.0/60.0
 	campingLightFireType["HCSawdust"] = 5.0/60.0	
+	campingLightFireType["HCBookcover"] = 5.0/60.0

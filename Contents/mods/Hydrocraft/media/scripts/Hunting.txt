@@ -116,14 +116,14 @@ item HCBluejaydead
 item HCMagpiedead
 	{
 	Weight 				= 	0.2,
-        Type				=	Food,
-        DangerousUncooked		=	TRUE,
-        DaysTotallyRotten		=	4,
-        DaysFresh			=	2,
-        FoodType    			=   	Game,
-	DisplayName 			= 	Dead Magpie,
-	Icon				=	HCMagpiedead
-	DisplayCategory          =   AnimalDead,
+	Type				=	Food,
+	DangerousUncooked	=	TRUE,
+	DaysTotallyRotten	=	4,
+	DaysFresh			=	2,
+	FoodType			=	Game,
+	DisplayName			= 	Dead Magpie,
+	Icon				=	HCMagpiedead,
+	DisplayCategory		=	AnimalDead,
 	}
 
 item HCCrowdead

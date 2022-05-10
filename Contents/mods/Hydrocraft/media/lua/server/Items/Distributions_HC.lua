@@ -751,17 +751,6 @@ SuburbsDistributions["HCShoebox"] = {
         fillRand = 0,
 };
 
--- Add items for Seed Bag
-SuburbsDistributions["HCSeedbag"] = {
-        rolls = 1,
-        items = {
-                "Hydrocraft.HCMysteryseedspacket", 50,
-                "Hydrocraft.HCMysteryseedspacket", 50,
-                "Hydrocraft.HCMysteryseedspacket", 50,
-        },
-        fillRand = 0,
-};
-
 -- Add items for Mail Bag
 SuburbsDistributions["HCMailbag"] = {
         rolls = 1,

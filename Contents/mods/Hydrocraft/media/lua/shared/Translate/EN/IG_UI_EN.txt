@@ -79,5 +79,10 @@ IGUI_EN = {
 	IGUI_ItemCat_WepPart = "Weapon - Part",
 	IGUI_ItemCat_WepRange = "Weapon - Ranged",
 	IGUI_ItemCat_WepShield = "Weapon - Shield",
+	IGUI_SearchMode_Categories_Flowers = "Flowers",
+	IGUI_SearchMode_Categories_Nuts = "Nuts",
+	IGUI_SearchMode_Categories_Leaves = "Leaves",
+	IGUI_SearchMode_Categories_Dung = "Dung",
+	IGUI_SearchMode_Categories_Bark = "Bark",
 	-- <End> Added Categories
 }

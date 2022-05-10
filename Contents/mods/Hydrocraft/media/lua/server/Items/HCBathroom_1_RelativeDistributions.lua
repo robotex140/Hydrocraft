@@ -35,7 +35,7 @@ function bathtools(m)
         {
                 "Hydrocraft.HCClothhamper",             m*1,
                 "Hydrocraft.HCBathroomscale",           m*1,
-                "Hydrocraft.HCPlunger",                 m*1,
+                --"Hydrocraft.HCPlunger",                 m*1, --removed, vanilla plunger exists, no need to duplicate.
         };
         return retVal
 end
