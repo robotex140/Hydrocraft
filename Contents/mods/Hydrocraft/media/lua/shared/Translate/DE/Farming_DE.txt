@@ -52,10 +52,10 @@ Farming_DE = {
 	Farming_Red_Cabbage = "Rotkohl",
 	Farming_Red_Corn = "Roter Mais",
 	Farming_Spinach = "Spinat",
-	Farming_Sweet_Potato = "SÃ¼ÃŸkartoffel",
+	Farming_Sweet_Potato = "Suesskartoffel",
 	Farming_Tea = "Tee",
 	Farming_Tobacco = "Tabak",
 	Farming_Tomatillo = "Tomatillo",
-	Farming_White_Cabbage = "WeiÃŸkohl",
-	Farming_White_Corn = "WeiÃŸer Mais",
+	Farming_White_Cabbage = "Weisskohl",
+	Farming_White_Corn = "Weisser Mais",
 }
