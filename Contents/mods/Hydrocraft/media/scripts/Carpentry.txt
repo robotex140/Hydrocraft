@@ -2720,7 +2720,7 @@ recipe Make Chopsticks
 
 	recipe Create Infinite Oak Logpile
 	{
-		Log,
+		HCOakLog,
 		Result:HCInfiniteLogpileOak,
 		Time:1,
 		Category:Carpentry,
