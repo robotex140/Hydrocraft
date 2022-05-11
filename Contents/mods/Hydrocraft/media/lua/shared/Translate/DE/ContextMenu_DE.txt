@@ -1,0 +1,6 @@
+ContextMenu_DE = {
+	ContextMenu_Sow_Trellis_Seed = "Unterstuetzte Rebsamen",
+	ContextMenu_Sniff = "Schnueffeln",
+	ContextMenu_Inject = "Injizieren",
+	ContextMenu_Build_Trellis = "Spalier einpflanzen",
+}
