@@ -18,14 +18,13 @@ Farming_DE = {
 	Farming_Flax = "Flachs",
 	Farming_Sunflower = "Sonnenblumen",
 	Farming_CoffeeBeans = "Kaffee-Bohnen",
-	Farming_SoyBeans = "Soja-Bohnen",	
-	Farming_Mulberries = "Maulbeeren",	
-	Farming_Candleberries = "Kandelbeeren",	
-	Farming_Lemontree = "Zitronenbaum"
+	Farming_SoyBeans = "Soja-Bohnen",
+	Farming_Mulberries = "Maulbeeren",
+	Farming_Candleberries = "Kandelbeeren",
+	Farming_Lemontree = "Zitronenbaum",
 	Farming_Fruitasseed ="Du kannst eine Frucht als Samen verwenden.",
 	Farming_Frozen ="Die Pflanze erfriert und bekommt kein Wasser",
 	Farming_PlantWithFruit ="Pflanze mit Frucht",
-
 
 	Farming_Tooltip_TrellisRequired = "Spalier erforderlich: ",
 	Farming_Artichoke = "Artischocke",
