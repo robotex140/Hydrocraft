@@ -25,6 +25,7 @@ Hydrocraft.doBuildMenus = function(_player, _context, _worldObjects)
 	Hydrocraft.BuildOptionGrindstone (player, HcSubMenu)
 	Hydrocraft.BuildOptionTarkiln (player, HcSubMenu)
 	Hydrocraft.BuildOptionCarpybench (player, HcSubMenu)
+	Hydrocraft.BuildOptionWaterPump(player, HcSubMenu)
 
 	HcMenuOption = context:addOption("Ranching", worldobjects);
 	HcSubMenu = ISContextMenu:getNew(context);
@@ -237,6 +238,16 @@ tooltip.description = "<RGB:1,1,1>The Tar Kiln"
 tooltip:setTexture("hcBuildingTarkiln_01_0")
 end
 
+Hydrocraft.BuildOptionWaterPump = function(player, HcSubMenu)
+	local option
+	local tooltip
+	option = HcSubMenu:addOption("Water Pump", nil, function() Hydrocraft.onBuildWaterPump(player) end);
+	tooltip = Hydrocraft.toolTipcheck(option)
+	tooltip:setName("Water Pump")
+	tooltip.description = "<RGB:1,1,1>Water Pump"
+	tooltip:setTexture("hcBuildingWaterPump_01_0")
+end
+
 
 -- *********************** BuildingFunctions ********************
 
@@ -386,6 +397,13 @@ wall.modData["xp:MetalWelding"] = 10;
 wall.noNeedHammer = true;
 wall.health = 10;
 getCell():setDrag(wall, player);
+end
+
+Hydrocraft.onBuildWaterPump = function(player)
+	local pump = WaterPump:new(player, "hcBuildingWaterPump_01_0", WaterPump.waterMax);
+	pump.modData["need:Hydrocraft.HCWaterpump"] = "1";
+	pump.player = player
+	getCell():setDrag(pump, player);
 end
 
 
