@@ -2905,3 +2905,34 @@ function HCOnEat_Cigarettes(food, character, percent)
 		character:getInventory():AddItem("Hydrocraft.HCCigarettebutt")
 	end
 end
+
+function HCOpenSealedLetter(items, result, player)
+	local list = {
+		"Hydrocraft.HCMagazinemetalworking1",
+		"Hydrocraft.HCMagazinemetalworking2",
+		"Hydrocraft.HCMagazinemetalworking3",
+		"Hydrocraft.HCMagazinemetalworking4",
+		"Hydrocraft.HCMagazinemetalworking5",
+		"Hydrocraft.HCMagazinemetalworking6",
+		"Hydrocraft.HCMagazinemetalworking7",
+		"Hydrocraft.HCAdultmagazine",
+		"Hydrocraft.HCAdultmagazine2",
+		"Hydrocraft.HCAdultmagazine3",
+		"Hydrocraft.HCAdultmagazine4",
+		"Hydrocraft.HCAdultmagazine5",
+		"Hydrocraft.HCAdultmagazine6",
+		"Base.HerbalistMag",
+		"Base.ElectronicsMag4", --How to Use Generators
+		"Base.HottieZ",
+		"Base.ComicBook",
+		"Base.MagazineCrossword1",
+		"Base.MagazineCrossword2",
+		"Base.MagazineCrossword3",
+		"Base.MagazineWordsearch1",
+		"Base.MagazineWordsearch2",
+		"Base.MagazineWordsearch3"
+	}
+	local magazine = list[ 1 + ZombRand( #list ) ]
+	local inv = player:getInventory();
+	inv:AddItem(magazine);
+end
