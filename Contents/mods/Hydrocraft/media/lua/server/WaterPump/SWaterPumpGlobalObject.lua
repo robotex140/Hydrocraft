@@ -15,7 +15,7 @@ end
 function SWaterPumpGlobalObject:initNew()
 	self.taintedWater = false
 	self.waterAmount = 0
-	self.waterMax = 9999
+	self.waterMax = WaterPump.waterMax
 end
 
 function SWaterPumpGlobalObject:stateFromIsoObject(isoObject)
@@ -30,10 +30,10 @@ end
 function SWaterPumpGlobalObject:stateToIsoObject(isoObject)
 	-- Sanity check
 	if not self.waterAmount then
-		self.waterAmount = 9999
+		self.waterAmount = WaterPump.waterMax
 	end
 	if not self.waterMax then
-		self.waterMax = 9999
+		self.waterMax = WaterPump.waterMax
 	end
 
 	isoObject:setTaintedWater(self.taintedWater)

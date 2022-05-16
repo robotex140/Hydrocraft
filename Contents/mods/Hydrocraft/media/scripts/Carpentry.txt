@@ -2128,15 +2128,6 @@ recipe Make Water Pump
         OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
     }
 
-recipe Anchor Water Pump
-    {
-        HCWaterpump,
-        CanBeDoneFromFloor:true,
-        Result:HCWaterpump2,
-        Time:100,
-        Category:Anchor,
-    }
-
 recipe Fill Bucket
     {
         HCWoodenbucket,

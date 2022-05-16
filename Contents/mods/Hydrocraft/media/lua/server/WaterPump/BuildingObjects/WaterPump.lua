@@ -5,7 +5,7 @@ require "BuildingObjects/ISBuildingObject"
 
 -- this class extend ISBuildingObject, it's a class to help you drag around/place an item in the world
 WaterPump = ISBuildingObject:derive("WaterPump");
-WaterPump.waterMax = 9999
+WaterPump.waterMax = 5000
 
 function WaterPump:create(x, y, z, north, sprite)
 	local cell = getWorld():getCell();
@@ -23,7 +23,6 @@ function WaterPump:create(x, y, z, north, sprite)
 	-- IsoObjects with 'waterAmount' 
     self.javaObject:getModData()["waterMax"] = self.waterMax;
     self.javaObject:getModData()["waterAmount"] = 0;
-    self.javaObject:setSpecialTooltip(true)
 	self.javaObject:transmitCompleteItemToServer();
 	-- OnObjectAdded event will create the SWaterPumpGlobalObject on the server.
 	-- This is only needed for singleplayer which doesn't trigger OnObjectAdded.
@@ -41,8 +40,6 @@ function WaterPump:new(player, sprite, waterMax)
 	-- here we're not gonna be able to rotate our building so we set that the south sprite = north sprite
 	o:setSprite(sprite);
 	o:setNorthSprite(sprite);
-    o:setEastSprite(sprite);
-    o:setSouthSprite(sprite);
 	o.name = "Water Pump";
     o.waterMax = waterMax;
 	o.player = player;
