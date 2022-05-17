@@ -116,7 +116,8 @@
 		<path>media/clothing/clothingItems/HCPantsLinenAlu.xml</path>
 		<guid>02db2538-9650-4579-80a3-36847d264f49</guid>
 	</files>
-
-
-	
+	<files>
+		<path>media/clothing/clothingItems/HCImprovisedbackpack.xml</path>
+		<guid>c7ee0dd7-778e-43ba-aab2-2f1fa3938eb9</guid>
+	</files>
 </fileGuidTable>
