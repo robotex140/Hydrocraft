@@ -73,26 +73,26 @@ item HCWishbone
     } 
 
 item HCBonemarrow
-    {
-        HungerChange			=	-30,
-        Weight    			= 	0.1,
-        Type				=	Food,
-        IsCookable			=	TRUE,
-        DangerousUncooked		=	TRUE,
-        DaysFresh			=	2,
-        DaysTotallyRotten		=	4,
-        MinutesToCook			=	10,
-        MinutesToBurn			=	20,
-        DisplayName         		= 	Bone Marrow,
-        icon 				= 	HCBonemarrow,
-        FoodType    			=   	Meat,
-        EvolvedRecipe 			= 	Soup:5;Stew:5;Pie:5;Stir fry:5;Sandwich:5|Cooked;Salad:5|Cooked;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
-	Carbohydrates 			= 	0,
-        Proteins 			= 	7,
-       	Lipids 				= 	84,
-        Calories 			= 	786,
-		DisplayCategory          =   FoodN,
-    } 
+	{
+		HungerChange		=	-15,
+		Weight				=	0.1,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysFresh			=	2,
+		DaysTotallyRotten	=	4,
+		MinutesToCook		=	10,
+		MinutesToBurn		=	20,
+		DisplayName			=	Bone Marrow,
+		icon 				=	HCBonemarrow,
+		FoodType			=	Meat,
+		EvolvedRecipe		=	Soup:5;Stew:5;Pie:5;Stir fry:5;Sandwich:5|Cooked;Salad:5|Cooked;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+		Carbohydrates		=	0,
+		Proteins			=	3,
+		Lipids				=	42,
+		Calories			=	393,
+		DisplayCategory		=	FoodP,
+	}
 
 item HCBoneash
     {
