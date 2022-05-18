@@ -63,15 +63,6 @@ item HCBone
 		DisplayCategory          =   CraftBone,
     } 
 
-item HCWishbone
-    {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Wishbone,
-        icon 			= HCWishbone,
-		DisplayCategory          =   CraftBone,
-    } 
-
 item HCBonemarrow
 	{
 		HungerChange		=	-15,
@@ -683,7 +674,7 @@ recipe Make Pile of Skulls
 recipe Make Bone Powder
     	{
     		OnTest:HCNearGrindstone,
-    		HCBone/HCZombiebones/HCWishbone/HCZedskull,
+    		HCBone/HCZombiebones/HCZedskull,
     		Result:HCBonepowder,
     		NeedToBeLearn:true,
             CanBeDoneFromFloor:true,
@@ -696,7 +687,7 @@ recipe Make Bone Powder
     	{
     		keep HCMacerator,
     		PetrolCan,
-    		HCBone/HCZombiebones/HCWishbone,
+    		HCBone/HCZombiebones,
     		CanBeDoneFromFloor:true,
     		Result:HCBonepowder=2,
     		NeedToBeLearn:true,
@@ -869,7 +860,7 @@ recipe Craft Bone Dice
 
 recipe Craft Bone Needle
 	{
-    		HCBone/HCZombiebones/HCWishbone,
+    		HCBone/HCZombiebones,
 		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,		
 		Result:HCBoneneedle,
 		Sound:PZ_Saw,
@@ -883,7 +874,7 @@ recipe Craft Bone Needle
 recipe Carve Knitting Needles
     {
     keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,
-    HCWishbone=2,
+    HCBone=2,
     Result:KnittingNeedles,
     Sound:PZ_Saw,
     NeedToBeLearn:true,
@@ -895,7 +886,7 @@ recipe Carve Knitting Needles
 
 recipe Craft Bone Fishhook
 	{
-    		HCBone/HCZombiebones/HCWishbone,
+    		HCBone/HCZombiebones,
 		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,		
 		Result:HCFishhookbone,
 		Sound:PZ_Saw,
@@ -916,7 +907,7 @@ recipe Roll Bone Dice
 
 recipe Make Bone Ash
     {
-    	HCBone/HCZombiebones/HCWishbone,
+    	HCBone/HCZombiebones,
     	Charcoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	OnTest:HCNearKiln,

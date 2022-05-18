@@ -255,7 +255,6 @@ recipe Research Stick Trap
 recipe Research Bone Needles
     {
     HCClaytablet,
-    HCWishbone=2,
     HCBone=2,
     keep HCResearchtable,
     CanBeDoneFromFloor:true,
