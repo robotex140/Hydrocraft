@@ -157,26 +157,33 @@ module Hydrocraft
 		DisplayCategory		=	FoodP,
 	}
 
+	/*No stats, these will be generated in Make Qwerty Fries (based on the potatoes used)*/
 	item HCFries
     {
-		HungerChange		=	-25,
-		Weight				=	0.2,
+		HungerChange		=	0,
+		Weight				=	1.7,
 		Type				=	Food,
-		UnhappyChange		=	-10,
+		UnhappyChange		=	0,
 		DisplayName			=	Homemade Fries,
 		DaysTotallyRotten	=	5,
-		DaysFresh 			= 	3,
+		DaysFresh 			= 	2,
 		Icon				=	Fries,
 		IsCookable			=	TRUE,
-		DangerousUncooked	=	TRUE,
+		DangerousUncooked	=	FALSE,
 		MinutesToCook		=	10,
 		MinutesToBurn		=	30,
-		FoodType    		=	NoExplicit,
-		Carbohydrates 		= 	74,
-		Proteins 			= 	7,
-		Lipids 				= 	28,
-		Calories 			= 	578,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	0,
+		Lipids 				= 	0,
+		Calories 			= 	0,
 		DisplayCategory		=	FoodP,
+		ReplaceOnUse		=	Base.RoastingPan,
+		Tags				=	RoastingPanFull; ServeInPaperBag,
+		UnhappyChange		=	20,
+		BadInMicrowave		=	true,
+		GoodHot				=	true,
+		RemoveUnhappinessWhenCooked = true,
 	}
 
 	item HCSpiffoscheesefries
@@ -386,18 +393,20 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
+	/*DO NOT RENAME - unless you also edit /media/lua/server/Food/Functions.lua*/
 	recipe Make French Fries
 	{
 		SkillRequired:Cooking=2,
-		keep Pot,
+		RoastingPan,
 		keep KitchenKnife,
 		keep HCPotatopeeler,
-		Potato/HCPotatogolden/HCPotatored,
-		HCCookingoil=2,
+		[Recipe.GetItemTypes.Potato]=2,
+		OilVegetable;1,
 		Result:HCFries,
 		Time:85.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Recipe.OnCreate.MakeHomemadeFries,
 	}
 
 	recipe Prepare Potato Flour

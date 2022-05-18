@@ -473,6 +473,11 @@ if scriptItem then
 	scriptItem:DoParam("ReplaceOnUse = Hydrocraft.HCCannedcornedbeefempty") --Vanilla is: ReplaceOnUse = TinCanEmpty
 end
 
+scriptItem = ScriptManager.instance:getItem("farming.Potato")
+if scriptItem then
+	scriptItem:DoParam("Tags = Potato")
+end
+
 --SmithingMag1, SmithingMag2, SmithingMag3, SmithingMag4
 --MetalworkMag1, MetalworkMag2, MetalworkMag3, MetalworkMag4
 
