@@ -476,7 +476,7 @@ item HCSmallgamesteak
 		Icon			    =	HCSmallgamesteak,
 		DaysFresh		    =	2,
 		MinutesToCook		=	50,
-        EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        EvolvedRecipe 		= 	Soup:15;Stew:15;Pie:15;Stir fry:15;Sandwich:10|Cooked;Salad:15|Cooked;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
         FoodType    		=   	Game,
 		Carbohydrates 		= 	0,
         Proteins 		    = 	44,
