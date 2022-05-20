@@ -677,7 +677,7 @@ module Hydrocraft
     {
         Type                    = Container,
         DisplayName             = Improvised Backpack,
-        ClothingItem            = Bag_SurvivorBag,
+        ClothingItem            = HCImprovisedbackpack,
         CanBeEquipped           = Back,
         WeightReduction         = 65,
         Weight                  = 0.7,
@@ -690,8 +690,8 @@ module Hydrocraft
         RunSpeedModifier        = 0.94,
         CanHaveHoles            = false,
         AttachmentReplacement   = Bag,
-        ReplaceInSecondHand     = Bag_ALICEpack_LHand holdingbagleft,
-        ReplaceInPrimaryHand    = Bag_ALICEpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Schoolbag_RHand holdingbagright,
 		DisplayCategory	= Container,
     }
 
