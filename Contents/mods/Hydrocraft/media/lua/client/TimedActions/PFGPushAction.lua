@@ -8,8 +8,8 @@ function PFGPushAction.isValid(args)
 		if args["character"]:getInventory():contains(tostring(v)) then
 			return false
 		end
-		end
-	 return true
+	end
+	return true
 end
 
 function PFGPushAction:waitToStart()

@@ -23,13 +23,13 @@ PFGMenu.addWorldContext = function(player, context, worldobjects, test)
 		end
 	end
 	if cartCount > 0 then
-			for i,v in ipairs(carts)do
-				local distance = PFGMenu.getDistance2D(v:getWorldPosX(),v:getWorldPosY(),pzPlayer:getSquare():getX(),pzPlayer:getSquare():getY())
-				if distance < closestCartDistance then 
-					closestCart = v
-					closestCartDistance = distance
-				end
+		for i,v in ipairs(carts)do
+			local distance = PFGMenu.getDistance2D(v:getWorldPosX(),v:getWorldPosY(),pzPlayer:getSquare():getX(),pzPlayer:getSquare():getY())
+			if distance < closestCartDistance then 
+				closestCart = v
+				closestCartDistance = distance
 			end
+		end
 		local label = "Grab " .. closestCart:getItem():getDisplayName()
 		local selectOption = context:addOption(label,worldobjects,PFGMenu.equipCart,player,closestCart)
 	end
