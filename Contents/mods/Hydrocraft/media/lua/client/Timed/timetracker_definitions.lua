@@ -880,6 +880,19 @@ ItemTimeTrackerMod["HCPottedorangetreeready"] = {};
 ItemTimeTrackerMod["HCPottedorangetreeready"]["Life"] = 48.0;
 ItemTimeTrackerMod["HCPottedorangetreeready"]["TurnInto"] = "Hydrocraft.HCPottedorangetree";
 
+--HCPottedappletree
+ItemTimeTrackerMod["HCPottedappletreesmall"] = {};
+ItemTimeTrackerMod["HCPottedappletreesmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedappletreesmall"]["TurnInto"] = "Hydrocraft.HCPottedappletree";
+
+ItemTimeTrackerMod["HCPottedappletree"] = {};
+ItemTimeTrackerMod["HCPottedappletree"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedappletree"]["TurnInto"] = "Hydrocraft.HCPottedappletreeready";
+
+ItemTimeTrackerMod["HCPottedappletreeready"] = {};
+ItemTimeTrackerMod["HCPottedappletreeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedappletreeready"]["TurnInto"] = "Hydrocraft.HCPottedappletree";
+
 
 --HCPottedpumpkin
 ItemTimeTrackerMod["HCPottedpumpkinsmall"] = {};

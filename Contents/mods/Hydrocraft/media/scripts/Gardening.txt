@@ -481,7 +481,7 @@ recipe Make Straw Hat
     {
         Weight      		= 25,
     	Type        		= Normal,
-	UseWhileEquipped	= FALSE,
+	    UseWhileEquipped	= FALSE,
         DisplayName 		= Potted Apple Tree,
         icon        		= HCPottedappletree,
 		DisplayCategory			=   SurFarm,
