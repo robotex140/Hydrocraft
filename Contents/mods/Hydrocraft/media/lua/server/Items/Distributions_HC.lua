@@ -491,11 +491,11 @@ local corn_items = {
         "Hydrocraft.HCRabbitmale", 1,
         "Hydrocraft.HCRabbitfemale", 1,
 }
-insertItemListsInDistribution( "all", "corn", { corn_items } );
--- Add items for Blackberry Bush
-insertItemListsInDistribution( "all", "fruitbusha", { corn_items } );
--- Add items for Blueberry Bush
-insertItemListsInDistribution( "all", "fruitbushb", { corn_items } );
+-- insertItemListsInDistribution( "all", "corn", { corn_items } );
+-- -- Add items for Blackberry Bush
+-- insertItemListsInDistribution( "all", "fruitbusha", { corn_items } );
+-- -- Add items for Blueberry Bush
+-- insertItemListsInDistribution( "all", "fruitbushb", { corn_items } );
 
 
 -- Add items for Camping Pack
