@@ -18,3 +18,11 @@ end
 function Recipe.GetItemTypes.ServeInPaperBag(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("ServeInPaperBag"))
 end
+
+function Recipe.GetItemTypes.Box12(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Box12"))
+end
+
+function Recipe.GetItemTypes.Box100(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Box100"))
+end

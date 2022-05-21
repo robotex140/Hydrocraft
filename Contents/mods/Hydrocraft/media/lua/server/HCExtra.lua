@@ -3,6 +3,9 @@ BoltsArrows = {};
 BoltsArrows.SBolts = {x=0, y=1, z=2};
 BoltsArrows.SArrows = {x=0, y=1, z=2};
 
+Recipe = Recipe or {}
+Recipe.OnCreate = Recipe.OnCreate or {}
+Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
 
 -- ***********************************************************
 -- **                    Hydromancerx                       **
@@ -2824,4 +2827,36 @@ function HCOpenSealedLetter(items, result, player)
 	local magazine = list[ 1 + ZombRand( #list ) ]
 	local inv = player:getInventory();
 	inv:AddItem(magazine);
+end
+
+function Recipe.OnCreate.Hydrocraft.BoxThings(items, result, player)
+
+	local item = items:get(0)
+	local count = items:size()
+	local weight = item:getActualWeight() * count * 0.80 --20% weight reduction
+	
+	result:setCustomWeight( true )
+	result:setWeight( weight )
+	result:setActualWeight( weight )
+	result:setDisplayCategory( item:getDisplayCategory() )-- not preserved on re-load, don't know why.
+	
+	result:setCustomName( true ) --required?
+	result:setName( "Box of " .. item:getName() .. " [" .. count .. "]" )
+	
+	local modData = result:getModData()
+	modData.StoredFullType = item:getFullType()
+	modData.StoredAmount = count
+
+end
+
+function Recipe.OnCreate.Hydrocraft.OpenBox(items, result, player)
+
+	local item = items:get(0)
+
+	local modData = item:getModData()
+	local ft = modData.StoredFullType
+	local count = modData.StoredAmount
+	
+	player:getInventory():AddItems( ft, count )
+
 end

@@ -478,6 +478,16 @@ if scriptItem then
 	scriptItem:DoParam("Tags = Potato")
 end
 
+scriptItem = ScriptManager.instance:getItem("Base.TreeBranch")
+if scriptItem then
+	scriptItem:DoParam("Tags = Box12")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.ElectronicsScrap")
+if scriptItem then
+	scriptItem:DoParam("Tags = Box100")
+end
+
 --SmithingMag1, SmithingMag2, SmithingMag3, SmithingMag4
 --MetalworkMag1, MetalworkMag2, MetalworkMag3, MetalworkMag4
 
