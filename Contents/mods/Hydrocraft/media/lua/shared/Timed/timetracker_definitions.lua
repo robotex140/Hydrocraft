@@ -8,11 +8,12 @@ TurnInto is the item that it will turn into after the amount of life time has ex
 Make sure each you have ItemTimeTrackerMod["ItemCodeNameHERE"] = {}; before the Life and TurnInto lines (see examples below)
  
 ]]
+-- Contributions from BongoBoi and trynaeat
 
 if ItemTimeTrackerMod == nil then
-ItemTimeTrackerMod = {}; -- DONT delete this!
+	ItemTimeTrackerMod = {}; -- DONT delete this!
 end
-
+	
 local STARVATION = true
 
 if(SandboxVars.Hydrocraft.AnimalStarvation ~= nil and SandboxVars.Hydrocraft.AnimalStarvation == 2) then
@@ -839,8 +840,6 @@ ItemTimeTrackerMod["HCJellochocolatepuddinghot"]["Life"] = 1.0;
 ItemTimeTrackerMod["HCJellochocolatepuddinghot"]["TurnInto"] = "Hydrocraft.HCJellochocolatepudding";
 
 --Plants ===========================================================================
---HCPottedwheat
-
 --HCPottedbananatree
 ItemTimeTrackerMod["HCPottedbananatreesmall"] = {};
 ItemTimeTrackerMod["HCPottedbananatreesmall"]["Life"] = 168.0;
@@ -879,19 +878,6 @@ ItemTimeTrackerMod["HCPottedorangetree"]["TurnInto"] = "Hydrocraft.HCPottedorang
 ItemTimeTrackerMod["HCPottedorangetreeready"] = {};
 ItemTimeTrackerMod["HCPottedorangetreeready"]["Life"] = 48.0;
 ItemTimeTrackerMod["HCPottedorangetreeready"]["TurnInto"] = "Hydrocraft.HCPottedorangetree";
-
---HCPottedappletree
-ItemTimeTrackerMod["HCPottedappletreesmall"] = {};
-ItemTimeTrackerMod["HCPottedappletreesmall"]["Life"] = 168.0;
-ItemTimeTrackerMod["HCPottedappletreesmall"]["TurnInto"] = "Hydrocraft.HCPottedappletree";
-
-ItemTimeTrackerMod["HCPottedappletree"] = {};
-ItemTimeTrackerMod["HCPottedappletree"]["Life"] = 168.0;
-ItemTimeTrackerMod["HCPottedappletree"]["TurnInto"] = "Hydrocraft.HCPottedappletreeready";
-
-ItemTimeTrackerMod["HCPottedappletreeready"] = {};
-ItemTimeTrackerMod["HCPottedappletreeready"]["Life"] = 48.0;
-ItemTimeTrackerMod["HCPottedappletreeready"]["TurnInto"] = "Hydrocraft.HCPottedappletree";
 
 
 --HCPottedpumpkin
@@ -1066,7 +1052,6 @@ ItemTimeTrackerMod["HCPottedoreganoready"] = {};
 ItemTimeTrackerMod["HCPottedoreganoready"]["Life"] = 48.0;
 ItemTimeTrackerMod["HCPottedoreganoready"]["TurnInto"] = "Hydrocraft.HCPottedoreganosmalldead";
 
-
 --HCPottedalfalfa
 ItemTimeTrackerMod["HCPottedalfalfasmall"] = {};
 ItemTimeTrackerMod["HCPottedalfalfasmall"]["Life"] = 72.0;
@@ -1080,3 +1065,912 @@ ItemTimeTrackerMod["HCPottedalfalfaready"] = {};
 ItemTimeTrackerMod["HCPottedalfalfaready"]["Life"] = 48.0;
 ItemTimeTrackerMod["HCPottedalfalfaready"]["TurnInto"] = "Hydrocraft.HCPottedalfalfadead";
 
+--HCPottedpotato
+ItemTimeTrackerMod["HCPottedpotatosmall"] = {};
+ItemTimeTrackerMod["HCPottedpotatosmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpotatosmall"]["TurnInto"] = "Hydrocraft.HCPottedpotato";
+
+ItemTimeTrackerMod["HCPottedpotato"] = {};
+ItemTimeTrackerMod["HCPottedpotato"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpotato"]["TurnInto"] = "Hydrocraft.";
+
+ItemTimeTrackerMod["HCPottedpotatoready"] = {};
+ItemTimeTrackerMod["HCPottedpotatoready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpotatoready"]["TurnInto"] = "Hydrocraft.HCPottedpotatodead";
+
+--HCPottedradish
+ItemTimeTrackerMod["HCPottedradishsmall"] = {};
+ItemTimeTrackerMod["HCPottedradishsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedradishsmall"]["TurnInto"] = "Hydrocraft.HCPottedradish";
+
+ItemTimeTrackerMod["HCPottedradish"] = {};
+ItemTimeTrackerMod["HCPottedradish"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedradish"]["TurnInto"] = "Hydrocraft.";
+
+ItemTimeTrackerMod["HCPottedradishready"] = {};
+ItemTimeTrackerMod["HCPottedradishready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedradishready"]["TurnInto"] = "Hydrocraft.HCPottedradishdead";
+
+--HCPottedpeanutplant
+ItemTimeTrackerMod["HCPottedpeanutplantsmall"] = {};
+ItemTimeTrackerMod["HCPottedpeanutplantsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpeanutplantsmall"]["TurnInto"] = "Hydrocraft.HCPottedpeanutplant";
+
+ItemTimeTrackerMod["HCPottedpeanutplant"] = {};
+ItemTimeTrackerMod["HCPottedpeanutplant"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpeanutplant"]["TurnInto"] = "Hydrocraft.HCPottedpeanutplantready";
+
+ItemTimeTrackerMod["HCPottedpeanutplantready"] = {};
+ItemTimeTrackerMod["HCPottedpeanutplantready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpeanutplantready"]["TurnInto"] = "Hydrocraft.HCPottedpeanutplantdead";
+
+--HCPottedappletree
+ItemTimeTrackerMod["HCPottedappletreesmall"] = {};
+ItemTimeTrackerMod["HCPottedappletreesmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedappletreesmall"]["TurnInto"] = "Hydrocraft.HCPottedappletree";
+
+ItemTimeTrackerMod["HCPottedappletree"] = {};
+ItemTimeTrackerMod["HCPottedappletree"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedappletree"]["TurnInto"] = "Hydrocraft.HCPottedappletreeready";
+
+ItemTimeTrackerMod["HCPottedappletreeready"] = {};
+ItemTimeTrackerMod["HCPottedappletreeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedappletreeready"]["TurnInto"] = "Hydrocraft.HCPottedappletree";
+
+--HCPottedcabbage
+ItemTimeTrackerMod["HCPottedcabbagesmall"] = {};
+ItemTimeTrackerMod["HCPottedcabbagesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcabbagesmall"]["TurnInto"] = "Hydrocraft.HCPottedcabbage";
+
+ItemTimeTrackerMod["HCPottedcabbage"] = {};
+ItemTimeTrackerMod["HCPottedcabbage"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcabbage"]["TurnInto"] = "Hydrocraft.HCPottedcabbageready";
+
+ItemTimeTrackerMod["HCPottedcabbageready"] = {};
+ItemTimeTrackerMod["HCPottedcabbageready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcabbageready"]["TurnInto"] = "Hydrocraft.HCPottedcabbagedead";
+
+--HCPottedavocadotree
+ItemTimeTrackerMod["HCPottedavocadotreesmall"] = {};
+ItemTimeTrackerMod["HCPottedavocadotreesmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedavocadotreesmall"]["TurnInto"] = "Hydrocraft.HCPottedavocadotree";
+
+ItemTimeTrackerMod["HCPottedavocadotree"] = {};
+ItemTimeTrackerMod["HCPottedavocadotree"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedavocadotree"]["TurnInto"] = "Hydrocraft.HCPottedavocadotreeready";
+
+ItemTimeTrackerMod["HCPottedavocadotreeready"] = {};
+ItemTimeTrackerMod["HCPottedavocadotreeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedavocadotreeready"]["TurnInto"] = "Hydrocraft.HCPottedavocadotree";
+
+--HCPottedleek
+ItemTimeTrackerMod["HCPottedleeksmall"] = {};
+ItemTimeTrackerMod["HCPottedleeksmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedleeksmall"]["TurnInto"] = "Hydrocraft.HCPottedleek";
+
+ItemTimeTrackerMod["HCPottedleek"] = {};
+ItemTimeTrackerMod["HCPottedleek"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedleek"]["TurnInto"] = "Hydrocraft.HCPottedleekready";
+
+ItemTimeTrackerMod["HCPottedleekready"] = {};
+ItemTimeTrackerMod["HCPottedleekready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedleekready"]["TurnInto"] = "Hydrocraft.HCPottedleekdead";
+
+--HCPottedapricot
+ItemTimeTrackerMod["HCPottedapricotsmall"] = {};
+ItemTimeTrackerMod["HCPottedapricotsmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedapricotsmall"]["TurnInto"] = "Hydrocraft.HCPottedapricot";
+
+ItemTimeTrackerMod["HCPottedapricot"] = {};
+ItemTimeTrackerMod["HCPottedapricot"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedapricot"]["TurnInto"] = "Hydrocraft.HCPottedapricotready";
+
+ItemTimeTrackerMod["HCPottedapricotready"] = {};
+ItemTimeTrackerMod["HCPottedapricotready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedapricotready"]["TurnInto"] = "Hydrocraft.HCPottedapricot";
+
+--HCPottedBellpeppergreen
+ItemTimeTrackerMod["HCPottedBellpeppergreensmall"] = {};
+ItemTimeTrackerMod["HCPottedBellpeppergreensmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBellpeppergreensmall"]["TurnInto"] = "Hydrocraft.HCPottedBellpeppergreen";
+
+ItemTimeTrackerMod["HCPottedBellpeppergreen"] = {};
+ItemTimeTrackerMod["HCPottedBellpeppergreen"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBellpeppergreen"]["TurnInto"] = "Hydrocraft.HCPottedBellpeppergreenready";
+
+ItemTimeTrackerMod["HCPottedBellpeppergreenready"] = {};
+ItemTimeTrackerMod["HCPottedBellpeppergreenready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedBellpeppergreenready"]["TurnInto"] = "Hydrocraft.HCPottedBellpeppergreendead";
+
+--HCPottedpeaplant
+ItemTimeTrackerMod["HCPottedpeaplantsmall"] = {};
+ItemTimeTrackerMod["HCPottedpeaplantsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpeaplantsmall"]["TurnInto"] = "Hydrocraft.HCPottedpeaplant";
+
+ItemTimeTrackerMod["HCPottedpeaplant"] = {};
+ItemTimeTrackerMod["HCPottedpeaplant"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpeaplant"]["TurnInto"] = "Hydrocraft.HCPottedpeaplantready";
+
+ItemTimeTrackerMod["HCPottedpeaplantready"] = {};
+ItemTimeTrackerMod["HCPottedpeaplantready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpeaplantready"]["TurnInto"] = "Hydrocraft.HCPottedpeaplantdead";
+
+--HCPottedblueberrybush
+ItemTimeTrackerMod["HCPottedblueberrybushsmall"] = {};
+ItemTimeTrackerMod["HCPottedblueberrybushsmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedblueberrybushsmall"]["TurnInto"] = "Hydrocraft.HCPottedblueberrybush";
+
+ItemTimeTrackerMod["HCPottedblueberrybush"] = {};
+ItemTimeTrackerMod["HCPottedblueberrybush"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedblueberrybush"]["TurnInto"] = "Hydrocraft.HCPottedblueberrybushready";
+
+ItemTimeTrackerMod["HCPottedblueberrybushready"] = {};
+ItemTimeTrackerMod["HCPottedblueberrybushready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedblueberrybushready"]["TurnInto"] = "Hydrocraft.HCPottedblueberrybush";
+
+--HCPottedpricklypearcactus
+ItemTimeTrackerMod["HCPottedpricklypearcactussmall"] = {};
+ItemTimeTrackerMod["HCPottedpricklypearcactussmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpricklypearcactussmall"]["TurnInto"] = "Hydrocraft.HCPottedpricklypearcactus";
+
+ItemTimeTrackerMod["HCPottedpricklypearcactus"] = {};
+ItemTimeTrackerMod["HCPottedpricklypearcactus"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpricklypearcactus"]["TurnInto"] = "Hydrocraft.HCPottedpricklypearcactusready";
+
+ItemTimeTrackerMod["HCPottedpricklypearcactusready"] = {};
+ItemTimeTrackerMod["HCPottedpricklypearcactusready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpricklypearcactusready"]["TurnInto"] = "Hydrocraft.HCPottedpricklypearcactusdead";
+
+--HCPottedPersimmon
+ItemTimeTrackerMod["HCPottedPersimmonsmall"] = {};
+ItemTimeTrackerMod["HCPottedPersimmonsmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedPersimmonsmall"]["TurnInto"] = "Hydrocraft.HCPottedPersimmon";
+
+ItemTimeTrackerMod["HCPottedPersimmon"] = {};
+ItemTimeTrackerMod["HCPottedPersimmon"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedPersimmon"]["TurnInto"] = "Hydrocraft.HCPottedPersimmonready";
+
+ItemTimeTrackerMod["HCPottedPersimmonready"] = {};
+ItemTimeTrackerMod["HCPottedPersimmonready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedPersimmonready"]["TurnInto"] = "Hydrocraft.HCPottedPersimmon";
+
+--HCPottedsweetpotato
+ItemTimeTrackerMod["HCPottedsweetpotatosmall"] = {};
+ItemTimeTrackerMod["HCPottedsweetpotatosmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedsweetpotatosmall"]["TurnInto"] = "Hydrocraft.HCPottedsweetpotato";
+
+ItemTimeTrackerMod["HCPottedsweetpotato"] = {};
+ItemTimeTrackerMod["HCPottedsweetpotato"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedsweetpotato"]["TurnInto"] = "Hydrocraft.HCPottedsweetpotatoready";
+
+ItemTimeTrackerMod["HCPottedsweetpotatoready"] = {};
+ItemTimeTrackerMod["HCPottedsweetpotatoready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedsweetpotatoready"]["TurnInto"] = "Hydrocraft.HCPottedsweetpotatodead";
+
+--HCPottedFig
+ItemTimeTrackerMod["HCPottedFigsmall"] = {};
+ItemTimeTrackerMod["HCPottedFigsmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedFigsmall"]["TurnInto"] = "Hydrocraft.HCPottedFig";
+
+ItemTimeTrackerMod["HCPottedFig"] = {};
+ItemTimeTrackerMod["HCPottedFig"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedFig"]["TurnInto"] = "Hydrocraft.HCPottedFigready";
+
+ItemTimeTrackerMod["HCPottedFigready"] = {};
+ItemTimeTrackerMod["HCPottedFigready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedFigready"]["TurnInto"] = "Hydrocraft.HCPottedFig";
+
+--HCPottedpumpkinwhite
+ItemTimeTrackerMod["HCPottedpumpkinwhitesmall"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinwhitesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkinwhitesmall"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinwhite";
+
+ItemTimeTrackerMod["HCPottedpumpkinwhite"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinwhite"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkinwhite"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinwhiteready";
+
+ItemTimeTrackerMod["HCPottedpumpkinwhiteready"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinwhiteready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpumpkinwhiteready"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinwhitedead";
+
+--HCPottedwatermelon
+ItemTimeTrackerMod["HCPottedwatermelonsmall"] = {};
+ItemTimeTrackerMod["HCPottedwatermelonsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedwatermelonsmall"]["TurnInto"] = "Hydrocraft.HCPottedwatermelon";
+
+ItemTimeTrackerMod["HCPottedwatermelon"] = {};
+ItemTimeTrackerMod["HCPottedwatermelon"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedwatermelon"]["TurnInto"] = "Hydrocraft.HCPottedwatermelonready";
+
+ItemTimeTrackerMod["HCPottedwatermelonready"] = {};
+ItemTimeTrackerMod["HCPottedwatermelonready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedwatermelonready"]["TurnInto"] = "Hydrocraft.HCPottedwatermelondead";
+
+--HCPottedportobello
+ItemTimeTrackerMod["HCPottedportobellosmall"] = {};
+ItemTimeTrackerMod["HCPottedportobellosmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedportobellosmall"]["TurnInto"] = "Hydrocraft.HCPottedportobello";
+
+ItemTimeTrackerMod["HCPottedportobello"] = {};
+ItemTimeTrackerMod["HCPottedportobello"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedportobello"]["TurnInto"] = "Hydrocraft.HCPottedportobelloready";
+
+ItemTimeTrackerMod["HCPottedportobelloready"] = {};
+ItemTimeTrackerMod["HCPottedportobelloready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedportobelloready"]["TurnInto"] = "Hydrocraft.HCPottedportobellodead";
+
+--HCPottedbamboo
+ItemTimeTrackerMod["HCPottedbamboosmall"] = {};
+ItemTimeTrackerMod["HCPottedbamboosmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedbamboosmall"]["TurnInto"] = "Hydrocraft.HCPottedbamboo";
+
+ItemTimeTrackerMod["HCPottedbamboo"] = {};
+ItemTimeTrackerMod["HCPottedbamboo"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedbamboo"]["TurnInto"] = "Hydrocraft.HCPottedbambooready";
+
+ItemTimeTrackerMod["HCPottedbambooready"] = {};
+ItemTimeTrackerMod["HCPottedbambooready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedbambooready"]["TurnInto"] = "Hydrocraft.HCPottedbamboodead";
+
+--HCPottedcornwhite
+ItemTimeTrackerMod["HCPottedcornwhitesmall"] = {};
+ItemTimeTrackerMod["HCPottedcornwhitesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornwhitesmall"]["TurnInto"] = "Hydrocraft.HCPottedcornwhite";
+
+ItemTimeTrackerMod["HCPottedcornwhite"] = {};
+ItemTimeTrackerMod["HCPottedcornwhite"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornwhite"]["TurnInto"] = "Hydrocraft.HCPottedcornwhiteready";
+
+ItemTimeTrackerMod["HCPottedcornwhiteready"] = {};
+ItemTimeTrackerMod["HCPottedcornwhiteready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcornwhiteready"]["TurnInto"] = "Hydrocraft.HCPottedcornwhitedead";
+
+--HCPottedBeetsugar
+ItemTimeTrackerMod["HCPottedBeetsugarsmall"] = {};
+ItemTimeTrackerMod["HCPottedBeetsugarsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBeetsugarsmall"]["TurnInto"] = "Hydrocraft.HCPottedBeetsugar";
+
+ItemTimeTrackerMod["HCPottedBeetsugar"] = {};
+ItemTimeTrackerMod["HCPottedBeetsugar"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBeetsugar"]["TurnInto"] = "Hydrocraft.HCPottedBeetsugarready";
+
+ItemTimeTrackerMod["HCPottedBeetsugarready"] = {};
+ItemTimeTrackerMod["HCPottedBeetsugarready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedBeetsugarready"]["TurnInto"] = "Hydrocraft.HCPottedBeetsugardead";
+
+--HCPottedpineapple
+ItemTimeTrackerMod["HCPottedpineapplesmall"] = {};
+ItemTimeTrackerMod["HCPottedpineapplesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpineapplesmall"]["TurnInto"] = "Hydrocraft.HCPottedpineapple";
+
+ItemTimeTrackerMod["HCPottedpineapple"] = {};
+ItemTimeTrackerMod["HCPottedpineapple"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpineapple"]["TurnInto"] = "Hydrocraft.HCPottedpineappleready";
+
+ItemTimeTrackerMod["HCPottedpineappleready"] = {};
+ItemTimeTrackerMod["HCPottedpineappleready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpineappleready"]["TurnInto"] = "Hydrocraft.HCPottedpineappledead";
+
+--HCPottedeggplant
+ItemTimeTrackerMod["HCPottedeggplantsmall"] = {};
+ItemTimeTrackerMod["HCPottedeggplantsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedeggplantsmall"]["TurnInto"] = "Hydrocraft.HCPottedeggplant";
+
+ItemTimeTrackerMod["HCPottedeggplant"] = {};
+ItemTimeTrackerMod["HCPottedeggplant"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedeggplant"]["TurnInto"] = "Hydrocraft.HCPottedeggplantready";
+
+ItemTimeTrackerMod["HCPottedeggplantready"] = {};
+ItemTimeTrackerMod["HCPottedeggplantready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedeggplantready"]["TurnInto"] = "Hydrocraft.HCPottedeggplantdead";
+
+--HCPottedasparagus
+ItemTimeTrackerMod["HCPottedasparagussmall"] = {};
+ItemTimeTrackerMod["HCPottedasparagussmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedasparagussmall"]["TurnInto"] = "Hydrocraft.HCPottedasparagus";
+
+ItemTimeTrackerMod["HCPottedasparagus"] = {};
+ItemTimeTrackerMod["HCPottedasparagus"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedasparagus"]["TurnInto"] = "Hydrocraft.HCPottedasparagusready";
+
+ItemTimeTrackerMod["HCPottedasparagusready"] = {};
+ItemTimeTrackerMod["HCPottedasparagusready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedasparagusready"]["TurnInto"] = "Hydrocraft.HCPottedasparagusdead";
+
+--HCPottedPotatogolden
+ItemTimeTrackerMod["HCPottedPotatogoldensmall"] = {};
+ItemTimeTrackerMod["HCPottedPotatogoldensmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedPotatogoldensmall"]["TurnInto"] = "Hydrocraft.HCPottedPotatogolden";
+
+ItemTimeTrackerMod["HCPottedPotatogolden"] = {};
+ItemTimeTrackerMod["HCPottedPotatogolden"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedPotatogolden"]["TurnInto"] = "Hydrocraft.HCPottedPotatogoldenready";
+
+ItemTimeTrackerMod["HCPottedPotatogoldenready"] = {};
+ItemTimeTrackerMod["HCPottedPotatogoldenready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedPotatogoldenready"]["TurnInto"] = "Hydrocraft.HCPottedPotatogoldendead";
+
+--HCPottedcucumber
+ItemTimeTrackerMod["HCPottedcucumbersmall"] = {};
+ItemTimeTrackerMod["HCPottedcucumbersmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcucumbersmall"]["TurnInto"] = "Hydrocraft.HCPottedcucumber";
+
+ItemTimeTrackerMod["HCPottedcucumber"] = {};
+ItemTimeTrackerMod["HCPottedcucumber"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcucumber"]["TurnInto"] = "Hydrocraft.HCPottedcucumberready";
+
+ItemTimeTrackerMod["HCPottedcucumberready"] = {};
+ItemTimeTrackerMod["HCPottedcucumberready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcucumberready"]["TurnInto"] = "Hydrocraft.HCPottedcucumberdead";
+
+--HCPottedonion
+ItemTimeTrackerMod["HCPottedonionsmall"] = {};
+ItemTimeTrackerMod["HCPottedonionsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedonionsmall"]["TurnInto"] = "Hydrocraft.HCPottedonion";
+
+ItemTimeTrackerMod["HCPottedonion"] = {};
+ItemTimeTrackerMod["HCPottedonion"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedonion"]["TurnInto"] = "Hydrocraft.HCPottedonionready";
+
+ItemTimeTrackerMod["HCPottedonionready"] = {};
+ItemTimeTrackerMod["HCPottedonionready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedonionready"]["TurnInto"] = "Hydrocraft.HCPottedoniondead";
+
+--HCPottedspinach
+ItemTimeTrackerMod["HCPottedspinachsmall"] = {};
+ItemTimeTrackerMod["HCPottedspinachsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedspinachsmall"]["TurnInto"] = "Hydrocraft.HCPottedspinach";
+
+ItemTimeTrackerMod["HCPottedspinach"] = {};
+ItemTimeTrackerMod["HCPottedspinach"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedspinach"]["TurnInto"] = "Hydrocraft.HCPottedspinachready";
+
+ItemTimeTrackerMod["HCPottedspinachready"] = {};
+ItemTimeTrackerMod["HCPottedspinachready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedspinachready"]["TurnInto"] = "Hydrocraft.HCPottedspinachdead";
+
+--HCPottedblackberrybush
+ItemTimeTrackerMod["HCPottedblackberrybushsmall"] = {};
+ItemTimeTrackerMod["HCPottedblackberrybushsmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedblackberrybushsmall"]["TurnInto"] = "Hydrocraft.HCPottedblackberrybush";
+
+ItemTimeTrackerMod["HCPottedblackberrybush"] = {};
+ItemTimeTrackerMod["HCPottedblackberrybush"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedblackberrybush"]["TurnInto"] = "Hydrocraft.HCPottedblackberrybushready";
+
+ItemTimeTrackerMod["HCPottedblackberrybushready"] = {};
+ItemTimeTrackerMod["HCPottedblackberrybushready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedblackberrybushready"]["TurnInto"] = "Hydrocraft.HCPottedblackberrybush";
+
+--HCPottedagaveblue
+ItemTimeTrackerMod["HCPottedagavebluesmall"] = {};
+ItemTimeTrackerMod["HCPottedagavebluesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedagavebluesmall"]["TurnInto"] = "Hydrocraft.HCPottedagaveblue";
+
+ItemTimeTrackerMod["HCPottedagaveblue"] = {};
+ItemTimeTrackerMod["HCPottedagaveblue"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedagaveblue"]["TurnInto"] = "Hydrocraft.HCPottedagaveblueready";
+
+ItemTimeTrackerMod["HCPottedagaveblueready"] = {};
+ItemTimeTrackerMod["HCPottedagaveblueready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedagaveblueready"]["TurnInto"] = "Hydrocraft.HCPottedagavebluedead";
+
+--HCPottedBellpepperyellow
+ItemTimeTrackerMod["HCPottedBellpepperyellowsmall"] = {};
+ItemTimeTrackerMod["HCPottedBellpepperyellowsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBellpepperyellowsmall"]["TurnInto"] = "Hydrocraft.HCPottedBellpepperyellow";
+
+ItemTimeTrackerMod["HCPottedBellpepperyellow"] = {};
+ItemTimeTrackerMod["HCPottedBellpepperyellow"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBellpepperyellow"]["TurnInto"] = "Hydrocraft.HCPottedBellpepperyellowready";
+
+ItemTimeTrackerMod["HCPottedBellpepperyellowready"] = {};
+ItemTimeTrackerMod["HCPottedBellpepperyellowready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedBellpepperyellowready"]["TurnInto"] = "Hydrocraft.HCPottedBellpepperyellowdead";
+
+--HCPottedBeans
+ItemTimeTrackerMod["HCPottedBeanssmall"] = {};
+ItemTimeTrackerMod["HCPottedBeanssmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBeanssmall"]["TurnInto"] = "Hydrocraft.HCPottedBeans";
+
+ItemTimeTrackerMod["HCPottedBeans"] = {};
+ItemTimeTrackerMod["HCPottedBeans"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedBeans"]["TurnInto"] = "Hydrocraft.HCPottedBeansready";
+
+ItemTimeTrackerMod["HCPottedBeansready"] = {};
+ItemTimeTrackerMod["HCPottedBeansready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedBeansready"]["TurnInto"] = "Hydrocraft.HCPottedBeansdead";
+
+--HCPottedoniongreen
+ItemTimeTrackerMod["HCPottedoniongreensmall"] = {};
+ItemTimeTrackerMod["HCPottedoniongreensmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedoniongreensmall"]["TurnInto"] = "Hydrocraft.HCPottedoniongreen";
+
+ItemTimeTrackerMod["HCPottedoniongreen"] = {};
+ItemTimeTrackerMod["HCPottedoniongreen"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedoniongreen"]["TurnInto"] = "Hydrocraft.HCPottedoniongreenready";
+
+ItemTimeTrackerMod["HCPottedoniongreenready"] = {};
+ItemTimeTrackerMod["HCPottedoniongreenready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedoniongreenready"]["TurnInto"] = "Hydrocraft.HCPottedoniongreendead";
+
+--HCPottedtomatilloplant
+ItemTimeTrackerMod["HCPottedtomatilloplantsmall"] = {};
+ItemTimeTrackerMod["HCPottedtomatilloplantsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedtomatilloplantsmall"]["TurnInto"] = "Hydrocraft.HCPottedtomatilloplant";
+
+ItemTimeTrackerMod["HCPottedtomatilloplant"] = {};
+ItemTimeTrackerMod["HCPottedtomatilloplant"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedtomatilloplant"]["TurnInto"] = "Hydrocraft.HCPottedtomatilloplantready";
+
+ItemTimeTrackerMod["HCPottedtomatilloplantready"] = {};
+ItemTimeTrackerMod["HCPottedtomatilloplantready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedtomatilloplantready"]["TurnInto"] = "Hydrocraft.HCPottedtomatilloplantdead";
+
+--HCPottedKiwi
+ItemTimeTrackerMod["HCPottedKiwismall"] = {};
+ItemTimeTrackerMod["HCPottedKiwismall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedKiwismall"]["TurnInto"] = "Hydrocraft.HCPottedKiwi";
+
+ItemTimeTrackerMod["HCPottedKiwi"] = {};
+ItemTimeTrackerMod["HCPottedKiwi"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedKiwi"]["TurnInto"] = "Hydrocraft.HCPottedKiwiready";
+
+ItemTimeTrackerMod["HCPottedKiwiready"] = {};
+ItemTimeTrackerMod["HCPottedKiwiready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedKiwiready"]["TurnInto"] = "Hydrocraft.HCPottedKiwi";
+
+--HCPottedpumpkingreen
+ItemTimeTrackerMod["HCPottedpumpkingreensmall"] = {};
+ItemTimeTrackerMod["HCPottedpumpkingreensmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkingreensmall"]["TurnInto"] = "Hydrocraft.HCPottedpumpkingreen";
+
+ItemTimeTrackerMod["HCPottedpumpkingreen"] = {};
+ItemTimeTrackerMod["HCPottedpumpkingreen"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkingreen"]["TurnInto"] = "Hydrocraft.HCPottedpumpkingreenready";
+
+ItemTimeTrackerMod["HCPottedpumpkingreenready"] = {};
+ItemTimeTrackerMod["HCPottedpumpkingreenready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpumpkingreenready"]["TurnInto"] = "Hydrocraft.HCPottedpumpkingreendead";
+
+--HCPottedstrawberrybush
+ItemTimeTrackerMod["HCPottedstrawberrybushsmall"] = {};
+ItemTimeTrackerMod["HCPottedstrawberrybushsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedstrawberrybushsmall"]["TurnInto"] = "Hydrocraft.HCPottedstrawberrybush";
+
+ItemTimeTrackerMod["HCPottedstrawberrybush"] = {};
+ItemTimeTrackerMod["HCPottedstrawberrybush"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedstrawberrybush"]["TurnInto"] = "Hydrocraft.HCPottedstrawberrybushready";
+
+ItemTimeTrackerMod["HCPottedstrawberrybushready"] = {};
+ItemTimeTrackerMod["HCPottedstrawberrybushready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedstrawberrybushready"]["TurnInto"] = "Hydrocraft.HCPottedstrawberrybushdead";
+
+--HCPottedshiitake
+ItemTimeTrackerMod["HCPottedshiitakesmall"] = {};
+ItemTimeTrackerMod["HCPottedshiitakesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedshiitakesmall"]["TurnInto"] = "Hydrocraft.HCPottedshiitake";
+
+ItemTimeTrackerMod["HCPottedshiitake"] = {};
+ItemTimeTrackerMod["HCPottedshiitake"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedshiitake"]["TurnInto"] = "Hydrocraft.HCPottedshiitakeready";
+
+ItemTimeTrackerMod["HCPottedshiitakeready"] = {};
+ItemTimeTrackerMod["HCPottedshiitakeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedshiitakeready"]["TurnInto"] = "Hydrocraft.HCPottedshiitakedead";
+
+--HCPottedGrapesgreenvine
+ItemTimeTrackerMod["HCPottedGrapesgreenvinesmall"] = {};
+ItemTimeTrackerMod["HCPottedGrapesgreenvinesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedGrapesgreenvinesmall"]["TurnInto"] = "Hydrocraft.HCPottedGrapesgreenvine";
+
+ItemTimeTrackerMod["HCPottedGrapesgreenvine"] = {};
+ItemTimeTrackerMod["HCPottedGrapesgreenvine"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedGrapesgreenvine"]["TurnInto"] = "Hydrocraft.HCPottedGrapesgreenvine";
+
+ItemTimeTrackerMod["HCPottedGrapesgreenvineready"] = {};
+ItemTimeTrackerMod["HCPottedGrapesgreenvineready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedGrapesgreenvineready"]["TurnInto"] = "Hydrocraft.HCPottedGrapesgreenvinedead";
+
+--HCPottedpumpkinbuskin
+ItemTimeTrackerMod["HCPottedpumpkinbuskinsmall"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinbuskinsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkinbuskinsmall"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinbuskin";
+
+ItemTimeTrackerMod["HCPottedpumpkinbuskin"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinbuskin"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkinbuskin"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinbuskinready";
+
+ItemTimeTrackerMod["HCPottedpumpkinbuskinready"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinbuskinready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpumpkinbuskinready"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinbuskindead";
+
+--HCPottedpeartree
+ItemTimeTrackerMod["HCPottedpeartreesmall"] = {};
+ItemTimeTrackerMod["HCPottedpeartreesmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedpeartreesmall"]["TurnInto"] = "Hydrocraft.HCPottedpeartree";
+
+ItemTimeTrackerMod["HCPottedpeartree"] = {};
+ItemTimeTrackerMod["HCPottedpeartree"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedpeartree"]["TurnInto"] = "Hydrocraft.HCPottedpeartreeready";
+
+ItemTimeTrackerMod["HCPottedpeartreeready"] = {};
+ItemTimeTrackerMod["HCPottedpeartreeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpeartreeready"]["TurnInto"] = "Hydrocraft.HCPottedpeartree";
+
+--HCPottedcornstalk
+ItemTimeTrackerMod["HCPottedcornstalksmall"] = {};
+ItemTimeTrackerMod["HCPottedcornstalksmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornstalksmall"]["TurnInto"] = "Hydrocraft.HCPottedcornstalk";
+
+ItemTimeTrackerMod["HCPottedcornstalk"] = {};
+ItemTimeTrackerMod["HCPottedcornstalk"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornstalk"]["TurnInto"] = "Hydrocraft.HCPottedcornstalkready";
+
+ItemTimeTrackerMod["HCPottedcornstalkready"] = {};
+ItemTimeTrackerMod["HCPottedcornstalkready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcornstalkready"]["TurnInto"] = "Hydrocraft.HCPottedcornstalkdead";
+
+--HCPottedbeets
+ItemTimeTrackerMod["HCPottedbeetssmall"] = {};
+ItemTimeTrackerMod["HCPottedbeetssmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedbeetssmall"]["TurnInto"] = "Hydrocraft.HCPottedbeets";
+
+ItemTimeTrackerMod["HCPottedbeets"] = {};
+ItemTimeTrackerMod["HCPottedbeets"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedbeets"]["TurnInto"] = "Hydrocraft.HCPottedbeetsready";
+
+ItemTimeTrackerMod["HCPottedbeetsready"] = {};
+ItemTimeTrackerMod["HCPottedbeetsready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedbeetsready"]["TurnInto"] = "Hydrocraft.HCPottedbeetsdead";
+
+--HCPottedJalapeno
+ItemTimeTrackerMod["HCPottedJalapenosmall"] = {};
+ItemTimeTrackerMod["HCPottedJalapenosmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedJalapenosmall"]["TurnInto"] = "Hydrocraft.HCPottedJalapeno";
+
+ItemTimeTrackerMod["HCPottedJalapeno"] = {};
+ItemTimeTrackerMod["HCPottedJalapeno"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedJalapeno"]["TurnInto"] = "Hydrocraft.HCPottedJalapenoready";
+
+ItemTimeTrackerMod["HCPottedJalapenoready"] = {};
+ItemTimeTrackerMod["HCPottedJalapenoready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedJalapenoready"]["TurnInto"] = "Hydrocraft.HCPottedJalapenodead";
+
+--HCPottedcornblue
+ItemTimeTrackerMod["HCPottedcornbluesmall"] = {};
+ItemTimeTrackerMod["HCPottedcornbluesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornbluesmall"]["TurnInto"] = "Hydrocraft.HCPottedcornblue";
+
+ItemTimeTrackerMod["HCPottedcornblue"] = {};
+ItemTimeTrackerMod["HCPottedcornblue"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornblue"]["TurnInto"] = "Hydrocraft.HCPottedcornblueready";
+
+ItemTimeTrackerMod["HCPottedcornblueready"] = {};
+ItemTimeTrackerMod["HCPottedcornblueready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcornblueready"]["TurnInto"] = "Hydrocraft.HCPottedcornbluedead";
+
+--HCPottedlettuce
+ItemTimeTrackerMod["HCPottedlettucesmall"] = {};
+ItemTimeTrackerMod["HCPottedlettucesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedlettucesmall"]["TurnInto"] = "Hydrocraft.HCPottedlettuce";
+
+ItemTimeTrackerMod["HCPottedlettuce"] = {};
+ItemTimeTrackerMod["HCPottedlettuce"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedlettuce"]["TurnInto"] = "Hydrocraft.HCPottedlettuceready";
+
+ItemTimeTrackerMod["HCPottedlettuceready"] = {};
+ItemTimeTrackerMod["HCPottedlettuceready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedlettuceready"]["TurnInto"] = "Hydrocraft.HCPottedlettucedead";
+
+--HCPottedcelery
+ItemTimeTrackerMod["HCPottedcelerysmall"] = {};
+ItemTimeTrackerMod["HCPottedcelerysmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcelerysmall"]["TurnInto"] = "Hydrocraft.HCPottedcelery";
+
+ItemTimeTrackerMod["HCPottedcelery"] = {};
+ItemTimeTrackerMod["HCPottedcelery"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcelery"]["TurnInto"] = "Hydrocraft.HCPottedceleryready";
+
+ItemTimeTrackerMod["HCPottedceleryready"] = {};
+ItemTimeTrackerMod["HCPottedceleryready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedceleryready"]["TurnInto"] = "Hydrocraft.HCPottedcelerydead";
+
+--HCPottedcactus
+ItemTimeTrackerMod["HCPottedcactussmall"] = {};
+ItemTimeTrackerMod["HCPottedcactussmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcactussmall"]["TurnInto"] = "Hydrocraft.HCPottedcactus";
+
+ItemTimeTrackerMod["HCPottedcactus"] = {};
+ItemTimeTrackerMod["HCPottedcactus"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcactus"]["TurnInto"] = "Hydrocraft.HCPottedcactusready";
+
+ItemTimeTrackerMod["HCPottedcactusready"] = {};
+ItemTimeTrackerMod["HCPottedcactusready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcactusready"]["TurnInto"] = "Hydrocraft.HCPottedcactusdead";
+
+--HCPottedCauliflower
+ItemTimeTrackerMod["HCPottedCauliflowersmall"] = {};
+ItemTimeTrackerMod["HCPottedCauliflowersmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedCauliflowersmall"]["TurnInto"] = "Hydrocraft.HCPottedCauliflower";
+
+ItemTimeTrackerMod["HCPottedCauliflower"] = {};
+ItemTimeTrackerMod["HCPottedCauliflower"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedCauliflower"]["TurnInto"] = "Hydrocraft.HCPottedCauliflowerready";
+
+ItemTimeTrackerMod["HCPottedCauliflowerready"] = {};
+ItemTimeTrackerMod["HCPottedCauliflowerready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedCauliflowerready"]["TurnInto"] = "Hydrocraft.HCPottedCauliflowerdead";
+
+--HCPottedgrapevine
+ItemTimeTrackerMod["HCPottedgrapevinesmall"] = {};
+ItemTimeTrackerMod["HCPottedgrapevinesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedgrapevinesmall"]["TurnInto"] = "Hydrocraft.HCPottedgrapevine";
+
+ItemTimeTrackerMod["HCPottedgrapevine"] = {};
+ItemTimeTrackerMod["HCPottedgrapevine"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedgrapevine"]["TurnInto"] = "Hydrocraft.HCPottedgrapevineready";
+
+ItemTimeTrackerMod["HCPottedgrapevineready"] = {};
+ItemTimeTrackerMod["HCPottedgrapevineready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedgrapevineready"]["TurnInto"] = "Hydrocraft.HCPottedgrapevinedead";
+
+--HCPottedchiligreen
+ItemTimeTrackerMod["HCPottedchiligreensmall"] = {};
+ItemTimeTrackerMod["HCPottedchiligreensmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedchiligreensmall"]["TurnInto"] = "Hydrocraft.HCPottedchiligreen";
+
+ItemTimeTrackerMod["HCPottedchiligreen"] = {};
+ItemTimeTrackerMod["HCPottedchiligreen"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedchiligreen"]["TurnInto"] = "Hydrocraft.HCPottedchiligreenready";
+
+ItemTimeTrackerMod["HCPottedchiligreenready"] = {};
+ItemTimeTrackerMod["HCPottedchiligreenready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedchiligreenready"]["TurnInto"] = "Hydrocraft.HCPottedchiligreendead";
+
+--HCPottedPlum
+ItemTimeTrackerMod["HCPottedPlumsmall"] = {};
+ItemTimeTrackerMod["HCPottedPlumsmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedPlumsmall"]["TurnInto"] = "Hydrocraft.HCPottedPlum";
+
+ItemTimeTrackerMod["HCPottedPlum"] = {};
+ItemTimeTrackerMod["HCPottedPlum"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedPlum"]["TurnInto"] = "Hydrocraft.HCPottedPlumready";
+
+ItemTimeTrackerMod["HCPottedPlumready"] = {};
+ItemTimeTrackerMod["HCPottedPlumready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedPlumready"]["TurnInto"] = "Hydrocraft.HCPottedPlum";
+
+--HCPottedjute
+ItemTimeTrackerMod["HCPottedjutesmall"] = {};
+ItemTimeTrackerMod["HCPottedjutesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedjutesmall"]["TurnInto"] = "Hydrocraft.HCPottedjute";
+
+ItemTimeTrackerMod["HCPottedjute"] = {};
+ItemTimeTrackerMod["HCPottedjute"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedjute"]["TurnInto"] = "Hydrocraft.HCPottedjuteready";
+
+ItemTimeTrackerMod["HCPottedjuteready"] = {};
+ItemTimeTrackerMod["HCPottedjuteready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedjuteready"]["TurnInto"] = "Hydrocraft.HCPottedjutedead";
+
+--HCPottedpeachtree
+ItemTimeTrackerMod["HCPottedpeachtreesmall"] = {};
+ItemTimeTrackerMod["HCPottedpeachtreesmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedpeachtreesmall"]["TurnInto"] = "Hydrocraft.HCPottedpeachtree";
+
+ItemTimeTrackerMod["HCPottedpeachtree"] = {};
+ItemTimeTrackerMod["HCPottedpeachtree"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedpeachtree"]["TurnInto"] = "Hydrocraft.HCPottedpeachtreeready";
+
+ItemTimeTrackerMod["HCPottedpeachtreeready"] = {};
+ItemTimeTrackerMod["HCPottedpeachtreeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpeachtreeready"]["TurnInto"] = "Hydrocraft.HCPottedpeachtree";
+
+--HCPottedcolewort
+ItemTimeTrackerMod["HCPottedcolewortsmall"] = {};
+ItemTimeTrackerMod["HCPottedcolewortsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcolewortsmall"]["TurnInto"] = "Hydrocraft.HCPottedcolewort";
+
+ItemTimeTrackerMod["HCPottedcolewort"] = {};
+ItemTimeTrackerMod["HCPottedcolewort"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcolewort"]["TurnInto"] = "Hydrocraft.HCPottedcolewortready";
+
+ItemTimeTrackerMod["HCPottedcolewortready"] = {};
+ItemTimeTrackerMod["HCPottedcolewortready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcolewortready"]["TurnInto"] = "Hydrocraft.HCPottedcolewortdead";
+
+--HCPottedDate
+ItemTimeTrackerMod["HCPottedDatesmall"] = {};
+ItemTimeTrackerMod["HCPottedDatesmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedDatesmall"]["TurnInto"] = "Hydrocraft.HCPottedDate";
+
+ItemTimeTrackerMod["HCPottedDate"] = {};
+ItemTimeTrackerMod["HCPottedDate"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedDate"]["TurnInto"] = "Hydrocraft.HCPottedDateready";
+
+ItemTimeTrackerMod["HCPottedDateready"] = {};
+ItemTimeTrackerMod["HCPottedDateready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedDateready"]["TurnInto"] = "Hydrocraft.HCPottedDate";
+
+--HCPottedpumpkinlarge
+ItemTimeTrackerMod["HCPottedpumpkinlargesmall"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinlargesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkinlargesmall"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinlarge";
+
+ItemTimeTrackerMod["HCPottedpumpkinlarge"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinlarge"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedpumpkinlarge"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinlargeready";
+
+ItemTimeTrackerMod["HCPottedpumpkinlargeready"] = {};
+ItemTimeTrackerMod["HCPottedpumpkinlargeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedpumpkinlargeready"]["TurnInto"] = "Hydrocraft.HCPottedpumpkinlargedead";
+
+--HCPottedcherrytree
+ItemTimeTrackerMod["HCPottedcherrytreesmall"] = {};
+ItemTimeTrackerMod["HCPottedcherrytreesmall"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedcherrytreesmall"]["TurnInto"] = "Hydrocraft.HCPottedcherrytree";
+
+ItemTimeTrackerMod["HCPottedcherrytree"] = {};
+ItemTimeTrackerMod["HCPottedcherrytree"]["Life"] = 168.0;
+ItemTimeTrackerMod["HCPottedcherrytree"]["TurnInto"] = "Hydrocraft.HCPottedcherrytreeready";
+
+ItemTimeTrackerMod["HCPottedcherrytreeready"] = {};
+ItemTimeTrackerMod["HCPottedcherrytreeready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcherrytreeready"]["TurnInto"] = "Hydrocraft.HCPottedcherrytree";
+
+--HCPottedbellpepper
+ItemTimeTrackerMod["HCPottedbellpeppersmall"] = {};
+ItemTimeTrackerMod["HCPottedbellpeppersmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedbellpeppersmall"]["TurnInto"] = "Hydrocraft.HCPottedbellpepper";
+
+ItemTimeTrackerMod["HCPottedbellpepper"] = {};
+ItemTimeTrackerMod["HCPottedbellpepper"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedbellpepper"]["TurnInto"] = "Hydrocraft.HCPottedbellpepperready";
+
+ItemTimeTrackerMod["HCPottedbellpepperready"] = {};
+ItemTimeTrackerMod["HCPottedbellpepperready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedbellpepperready"]["TurnInto"] = "Hydrocraft.HCPottedbellpepperdead";
+
+--HCPottedcarrots
+ItemTimeTrackerMod["HCPottedcarrotssmall"] = {};
+ItemTimeTrackerMod["HCPottedcarrotssmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcarrotssmall"]["TurnInto"] = "Hydrocraft.HCPottedcarrots";
+
+ItemTimeTrackerMod["HCPottedcarrots"] = {};
+ItemTimeTrackerMod["HCPottedcarrots"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcarrots"]["TurnInto"] = "Hydrocraft.HCPottedcarrotsready";
+
+ItemTimeTrackerMod["HCPottedcarrotsready"] = {};
+ItemTimeTrackerMod["HCPottedcarrotsready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcarrotsready"]["TurnInto"] = "Hydrocraft.HCPottedcarrotsdead";
+
+--HCPottedartichokes
+ItemTimeTrackerMod["HCPottedartichokessmall"] = {};
+ItemTimeTrackerMod["HCPottedartichokessmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedartichokessmall"]["TurnInto"] = "Hydrocraft.HCPottedartichokes";
+
+ItemTimeTrackerMod["HCPottedartichokes"] = {};
+ItemTimeTrackerMod["HCPottedartichokes"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedartichokes"]["TurnInto"] = "Hydrocraft.HCPottedartichokesready";
+
+ItemTimeTrackerMod["HCPottedartichokesready"] = {};
+ItemTimeTrackerMod["HCPottedartichokesready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedartichokesready"]["TurnInto"] = "Hydrocraft.HCPottedartichokesdead";
+
+--HCPottedwheat
+ItemTimeTrackerMod["HCPottedwheatsmall"] = {};
+ItemTimeTrackerMod["HCPottedwheatsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedwheatsmall"]["TurnInto"] = "Hydrocraft.HCPottedwheat";
+
+ItemTimeTrackerMod["HCPottedwheat"] = {};
+ItemTimeTrackerMod["HCPottedwheat"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedwheat"]["TurnInto"] = "Hydrocraft.HCPottedwheatready";
+
+ItemTimeTrackerMod["HCPottedwheatready"] = {};
+ItemTimeTrackerMod["HCPottedwheatready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedwheatready"]["TurnInto"] = "Hydrocraft.HCPottedwheatdead";
+
+--HCPottedcornred
+ItemTimeTrackerMod["HCPottedcornredsmall"] = {};
+ItemTimeTrackerMod["HCPottedcornredsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornredsmall"]["TurnInto"] = "Hydrocraft.HCPottedcornred";
+
+ItemTimeTrackerMod["HCPottedcornred"] = {};
+ItemTimeTrackerMod["HCPottedcornred"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedcornred"]["TurnInto"] = "Hydrocraft.HCPottedcornredready";
+
+ItemTimeTrackerMod["HCPottedcornredready"] = {};
+ItemTimeTrackerMod["HCPottedcornredready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedcornredready"]["TurnInto"] = "Hydrocraft.HCPottedcornreddead";
+
+--HCPottedSquashsummer
+ItemTimeTrackerMod["HCPottedSquashsummersmall"] = {};
+ItemTimeTrackerMod["HCPottedSquashsummersmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedSquashsummersmall"]["TurnInto"] = "Hydrocraft.HCPottedSquashsummer";
+
+ItemTimeTrackerMod["HCPottedSquashsummer"] = {};
+ItemTimeTrackerMod["HCPottedSquashsummer"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedSquashsummer"]["TurnInto"] = "Hydrocraft.HCPottedSquashsummerready";
+
+ItemTimeTrackerMod["HCPottedSquashsummerready"] = {};
+ItemTimeTrackerMod["HCPottedSquashsummerready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedSquashsummerready"]["TurnInto"] = "Hydrocraft.HCPottedSquashsummerdead";
+
+--HCPottedzucchini
+ItemTimeTrackerMod["HCPottedzucchinismall"] = {};
+ItemTimeTrackerMod["HCPottedzucchinismall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedzucchinismall"]["TurnInto"] = "Hydrocraft.HCPottedzucchini";
+
+ItemTimeTrackerMod["HCPottedzucchini"] = {};
+ItemTimeTrackerMod["HCPottedzucchini"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedzucchini"]["TurnInto"] = "Hydrocraft.HCPottedzucchiniready";
+
+ItemTimeTrackerMod["HCPottedzucchiniready"] = {};
+ItemTimeTrackerMod["HCPottedzucchiniready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedzucchiniready"]["TurnInto"] = "Hydrocraft.HCPottedzucchinidead";
+
+--HCPottedCabbagewhite
+ItemTimeTrackerMod["HCPottedCabbagewhitesmall"] = {};
+ItemTimeTrackerMod["HCPottedCabbagewhitesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedCabbagewhitesmall"]["TurnInto"] = "Hydrocraft.HCPottedCabbagewhite";
+
+ItemTimeTrackerMod["HCPottedCabbagewhite"] = {};
+ItemTimeTrackerMod["HCPottedCabbagewhite"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedCabbagewhite"]["TurnInto"] = "Hydrocraft.HCPottedCabbagewhiteready";
+
+ItemTimeTrackerMod["HCPottedCabbagewhiteready"] = {};
+ItemTimeTrackerMod["HCPottedCabbagewhiteready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedCabbagewhiteready"]["TurnInto"] = "Hydrocraft.HCPottedCabbagewhitedead";
+
+--HCPottedTomatocherry
+ItemTimeTrackerMod["HCPottedTomatocherrysmall"] = {};
+ItemTimeTrackerMod["HCPottedTomatocherrysmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedTomatocherrysmall"]["TurnInto"] = "Hydrocraft.HCPottedTomatocherry";
+
+ItemTimeTrackerMod["HCPottedTomatocherry"] = {};
+ItemTimeTrackerMod["HCPottedTomatocherry"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedTomatocherry"]["TurnInto"] = "Hydrocraft.HCPottedTomatocherryready";
+
+ItemTimeTrackerMod["HCPottedTomatocherryready"] = {};
+ItemTimeTrackerMod["HCPottedTomatocherryready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedTomatocherryready"]["TurnInto"] = "Hydrocraft.HCPottedTomatocherrydead";
+
+--HCPottedPotatored
+ItemTimeTrackerMod["HCPottedPotatoredsmall"] = {};
+ItemTimeTrackerMod["HCPottedPotatoredsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedPotatoredsmall"]["TurnInto"] = "Hydrocraft.HCPottedPotatored";
+
+ItemTimeTrackerMod["HCPottedPotatored"] = {};
+ItemTimeTrackerMod["HCPottedPotatored"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedPotatored"]["TurnInto"] = "Hydrocraft.HCPottedPotatoredready";
+
+ItemTimeTrackerMod["HCPottedPotatoredready"] = {};
+ItemTimeTrackerMod["HCPottedPotatoredready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedPotatoredready"]["TurnInto"] = "Hydrocraft.HCPottedPotatoreddead";
+
+--HCPottedCabbagered
+ItemTimeTrackerMod["HCPottedCabbageredsmall"] = {};
+ItemTimeTrackerMod["HCPottedCabbageredsmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedCabbageredsmall"]["TurnInto"] = "Hydrocraft.HCPottedCabbagered";
+
+ItemTimeTrackerMod["HCPottedCabbagered"] = {};
+ItemTimeTrackerMod["HCPottedCabbagered"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedCabbagered"]["TurnInto"] = "Hydrocraft.HCPottedCabbageredready";
+
+ItemTimeTrackerMod["HCPottedCabbageredready"] = {};
+ItemTimeTrackerMod["HCPottedCabbageredready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedCabbageredready"]["TurnInto"] = "Hydrocraft.HCPottedCabbagereddead";
+
+--HCPottedchinesecabbage
+ItemTimeTrackerMod["HCPottedchinesecabbagesmall"] = {};
+ItemTimeTrackerMod["HCPottedchinesecabbagesmall"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedchinesecabbagesmall"]["TurnInto"] = "Hydrocraft.HCPottedchinesecabbage";
+
+ItemTimeTrackerMod["HCPottedchinesecabbage"] = {};
+ItemTimeTrackerMod["HCPottedchinesecabbage"]["Life"] = 72.0;
+ItemTimeTrackerMod["HCPottedchinesecabbage"]["TurnInto"] = "Hydrocraft.HCPottedchinesecabbageready";
+
+ItemTimeTrackerMod["HCPottedchinesecabbageready"] = {};
+ItemTimeTrackerMod["HCPottedchinesecabbageready"]["Life"] = 48.0;
+ItemTimeTrackerMod["HCPottedchinesecabbageready"]["TurnInto"] = "Hydrocraft.HCPottedchinesecabbagedead";
