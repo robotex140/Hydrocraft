@@ -493,8 +493,95 @@ if scriptItem then
 	scriptItem:DoParam("Tags = Cereal")
 end
 
---SmithingMag1, SmithingMag2, SmithingMag3, SmithingMag4
---MetalworkMag1, MetalworkMag2, MetalworkMag3, MetalworkMag4
+scriptItem = ScriptManager.instance:getItem("Base.Bag_FannyPackFront")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 1")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_FannyPackBack")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 1")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_Schoolbag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 2")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_MoneyBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 2")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_WeaponBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 3")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_InmateEscapedBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 3")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_WorkerBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 3")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_DuffelBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 3")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_GolfBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 3")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_DuffelBagTINT")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 3")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_NormalHikingBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 3")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_BigHikingBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 4")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_SurvivorBag")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 4")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_ALICEpack")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 4")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.Bag_ALICEpack_Army")
+if scriptItem then
+	scriptItem:DoParam("Tags = NylonBag")
+	scriptItem:DoParam("NylonAmount = 4")
+end
 
 
 

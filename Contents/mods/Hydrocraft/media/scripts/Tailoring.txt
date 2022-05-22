@@ -1511,56 +1511,17 @@ recipe Make Thread
     }
 
 recipe Recycle Bag
-    {
-        Bag_FannyPackFront/Bag_FannyPackBack,
-        keep HCTailoringbench2,
-        Result:HCNyloncloth,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-        Time:200.0,
-        Category:Tailoring,
-        OnGiveXP:HCTailoring_OnGiveBitXP,
-    }
-
-recipe Recycle Bag
-    {
-        Bag_Schoolbag/Bag_MoneyBag,
-        keep HCTailoringbench2,
-        Result:HCNyloncloth=2,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-        Time:200.0,
-        Category:Tailoring,
-        OnCreate:recipe_recyclebag,
-        OnGiveXP:HCTailoring_OnGiveBitXP,
-    }
-
-recipe Recycle Bag
-    {
-        Bag_WeaponBag/HCGolfbag/Bag_InmateEscapedBag/Bag_WorkerBag/Bag_DuffelBag/Bag_GolfBag/Bag_DuffelBagTINT/Bag_NormalHikingBag/HCClimbingpack/HCCampingpack,
-        keep HCTailoringbench2,
-        Result:HCNyloncloth=3,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-        Time:200.0,
-        Category:Tailoring,
-        OnCreate:recipe_recyclebag,
-        OnGiveXP:HCTailoring_OnGiveBitXP,
-    }
-
-
-recipe Recycle Bag
-    {
-        Bag_BigHikingBag/Bag_SurvivorBag/Bag_ALICEpack/Bag_ALICEpack_Army,
-        keep HCTailoringbench2,
-        Result:HCNyloncloth=4,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-        Time:200.0,
-        Category:Tailoring,
-        OnCreate:recipe_recyclebag,
-        OnGiveXP:HCTailoring_OnGiveBitXP,
-    }
+	{
+		[Recipe.GetItemTypes.NylonBag],
+		keep HCTailoringbench2,
+		Result:HCZipper,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Time:200.0,
+		Category:Tailoring,
+		OnGiveXP:HCTailoring_OnGiveBitXP,
+		OnCreate:Recipe.OnCreate.Hydrocraft.RecycleBag,
+	}
 
 
 recipe Recycle Sack

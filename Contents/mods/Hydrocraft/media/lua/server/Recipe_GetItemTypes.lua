@@ -31,3 +31,7 @@ end
 function Recipe.GetItemTypes.Cereal(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Cereal"))
 end
+
+function Recipe.GetItemTypes.NylonBag(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("NylonBag"))
+end

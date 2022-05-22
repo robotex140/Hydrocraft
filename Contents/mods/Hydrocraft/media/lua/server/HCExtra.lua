@@ -479,10 +479,19 @@ function recipe_hcpillowcase(items, result, player)
 	inv:AddItem("Hydrocraft.HCPillowcase");
 end
 
-function recipe_recyclebag(items, result, player)
-	--HCEmptyContainerOnRecipe(items, result, player);
+function Recipe.OnCreate.Hydrocraft.RecycleBag(items, result, player)
+
+	local bag = items:get(0)
+	local nylonAmount = bag:getModData().NylonAmount
+
+	if nylonAmount == nil then
+		nylonAmount = 1
+		print( "Error: Missing Nylon Amount, defaulting to 1" )
+	end
+
 	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCZipper");
+	inv:AddItems("Hydrocraft.HCNyloncloth", nylonAmount);
+
 end
 
 --Container Stuff
