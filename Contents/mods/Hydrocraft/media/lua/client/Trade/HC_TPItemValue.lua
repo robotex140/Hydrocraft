@@ -3392,7 +3392,6 @@ ItemValueTable["Hydrocraft.HCSawbuck"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSawdust"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSawlumber"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSawmetal"] = 2.00 ;
-ItemValueTable["Hydrocraft.HCSawstone"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCScale"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCScalpel"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCScalpelimprovised"] = 0.00 ;
