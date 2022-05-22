@@ -26,3 +26,8 @@ end
 function Recipe.GetItemTypes.Box100(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box100"))
 end
+
+--Note: Recipe.GetItemTypes.Milk exists in Vanilla PZ
+function Recipe.GetItemTypes.Cereal(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Cereal"))
+end

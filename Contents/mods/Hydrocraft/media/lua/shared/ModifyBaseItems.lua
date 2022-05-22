@@ -488,6 +488,11 @@ if scriptItem then
 	scriptItem:DoParam("Tags = Box100")
 end
 
+scriptItem = ScriptManager.instance:getItem("Base.Cereal")
+if scriptItem then
+	scriptItem:DoParam("Tags = Cereal")
+end
+
 --SmithingMag1, SmithingMag2, SmithingMag3, SmithingMag4
 --MetalworkMag1, MetalworkMag2, MetalworkMag3, MetalworkMag4
 

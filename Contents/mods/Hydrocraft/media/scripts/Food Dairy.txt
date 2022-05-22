@@ -9,7 +9,7 @@ module Hydrocraft
 /************************ITEMS************************/
 
 item HCUHTmilk
-    {
+	{
 	Type				=	Food,
 	DisplayName			=	Package of UHT Milk,
 	Weight				=	1.0,
@@ -18,18 +18,19 @@ item HCUHTmilk
 	DaysTotallyRotten	=	500,
 	DaysFresh 			=	250,
 	Icon				=	HCUHTmilk,
-	FoodType    		=   NoExplicit,
+	FoodType			=	NoExplicit,
 	Carbohydrates 		= 	50,
-    Proteins 			= 	40,
-    Lipids 				= 	20,
-    Calories 			= 	460,
+	Proteins 			= 	40,
+	Lipids 				= 	20,
+	Calories 			= 	460,
 	CantBeFrozen 		= 	TRUE,
 	Packaged 			= 	TRUE,
-	DisplayCategory          =   FoodP,
-    }
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+	}
 
 item HCSoymilk
-    {
+	{
 	Type				=	Food,
 	DisplayName			=	Bottle of Soy Milk,
 	Weight				=	1.0,
@@ -38,21 +39,22 @@ item HCSoymilk
 	DaysTotallyRotten	=	30,
 	DaysFresh 			=	15,
 	Icon				=	WhiskeyFull,
-	FoodType    		=   NoExplicit,
+	FoodType			=	NoExplicit,
 	Carbohydrates 		= 	33,
-    Proteins 			= 	29,
-    Lipids 				= 	17,
-    Calories 			= 	410,
+	Proteins 			= 	29,
+	Lipids 				= 	17,
+	Calories 			= 	410,
 	StaticModel 		= 	WhiskeyBottle,
 	DangerousUncooked	=	TRUE,
 	IsCookable			= 	TRUE,
 	MinutesToCook		= 	20,
 	MinutesToBurn		= 	40,
-	CustomContextMenu   =   Drink,
-    CustomEatSound      =   DrinkingFromBottle,
+	CustomContextMenu	=	Drink,
+	CustomEatSound		=	DrinkingFromBottle,
 	ReplaceOnUse		=	WhiskeyEmpty,
-	DisplayCategory          =   FoodP,
-    }
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+	}
 
 
 item HCEvaporatedmilk
@@ -81,42 +83,44 @@ item HCEvaporatedmilkopen
 	ReplaceOnUse		=	HCEvaporatedmilkopenempty,
 	Icon				=	HCEvaporatedmilkopen,
 	DaysFresh			=	2,
-    EvolvedRecipe   	=   	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    		=   	NoExplicit,
-    Carbohydrates 		= 	136,
-    Proteins 			= 	1.6,
-    Lipids 				= 	3.2,
-    Calories 			= 	536,
-    Packaged 			= 	TRUE,
+	EvolvedRecipe		=	Soup:15;Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	FoodType			=	NoExplicit,
+	Carbohydrates		=	136,
+	Proteins 			=	1.6,
+	Lipids				=	3.2,
+	Calories			=	536,
+	Packaged			=	TRUE,
 	CantBeFrozen		=	TRUE,
-    EvolvedRecipeName 	= 	Creamy,
-	DisplayCategory          =   FoodC,
+	EvolvedRecipeName	=	Creamy,
+	DisplayCategory		=	FoodC,
+	Tags				=	Milk,
 	}
 
 item HCMilkjug
-    	{	
-	HungerChange			=	-20,
-	EvolvedRecipe 			= 	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	{	
+	HungerChange		=	-20,
+	EvolvedRecipe		=	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
 	Weight				=	2.0,
-	AlwaysWelcomeGift		=	true,
+	AlwaysWelcomeGift	=	true,
 	Type				=	Food,
-	ThirstChange			= 	-200,
+	ThirstChange		=	-200,
 	DisplayName			=	Milk Jug,
-	Icon				= 	HCMilkjug,
-    DaysFresh 			= 	4,
-    DaysTotallyRotten 		= 	7,
-	CustomContextMenu		=	Drink,
-	CustomEatSound			= 	DrinkingFromBottle,
-	Carbohydrates 			= 	26 ,
-	Proteins 			= 	16 ,
+	Icon				=	HCMilkjug,
+	DaysFresh 			=	4,
+	DaysTotallyRotten	=	7,
+	CustomContextMenu	=	Drink,
+	CustomEatSound		=	DrinkingFromBottle,
+	Carbohydrates		=	26 ,
+	Proteins 			=	16 ,
 	Lipids 				=	5 ,
-	Calories			= 	220 ,
-	Packaged 			= 	TRUE,
-    CantBeFrozen 			= 	TRUE,
-	ReplaceOnDeplete		=	Hydrocraft.HCMilkjugempty,
-	ReplaceOnUse			=	Hydrocraft.HCMilkjugempty,	
-	DisplayCategory          =   FoodP,
-    	}
+	Calories			=	220 ,
+	Packaged			=	TRUE,
+	CantBeFrozen		=	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCMilkjugempty,
+	ReplaceOnUse		=	Hydrocraft.HCMilkjugempty,	
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+	}
 
 item HCMilkjugwater
 	{
@@ -136,29 +140,30 @@ item HCMilkjugwater
 	}
 	
 item HCMilkjugchocolate
-    	{
-	HungerChange			=	-20,
-	EvolvedRecipe 			= 	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+	{
+	HungerChange		=	-20,
+	EvolvedRecipe		=	Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
 	Weight				=	2.0,
-	AlwaysWelcomeGift		=	true,
+	AlwaysWelcomeGift	=	true,
 	Type				=	Food,
-	ThirstChange			= 	-200,
+	ThirstChange		=	-200,
 	DisplayName			=	Chocolate Milk Jug,
-	Icon				= 	HCMilkjugchocolate,
-        DaysFresh 			= 	4,
-        DaysTotallyRotten 		= 	7,
-	CustomContextMenu		=	Drink,
-	CustomEatSound			= 	DrinkingFromBottle,
-	Carbohydrates 			= 	28 ,
-	Proteins 			= 	25 ,
-	Lipids 				=	25 ,
-	Calories			= 	259 ,
-	Packaged 			= 	TRUE,
-        CantBeFrozen 			= 	TRUE,
-	ReplaceOnDeplete		=	Hydrocraft.HCMilkjugchocolateempty,
-	ReplaceOnUse			=	Hydrocraft.HCMilkjugchocolateempty,	
-	DisplayCategory          =   FoodP,
-    	}
+	Icon				=	HCMilkjugchocolate,
+	DaysFresh			=	4,
+	DaysTotallyRotten	=	7,
+	CustomContextMenu	=	Drink,
+	CustomEatSound		=	DrinkingFromBottle,
+	Carbohydrates		=	28 ,
+	Proteins			=	25 ,
+	Lipids				=	25 ,
+	Calories			=	259 ,
+	Packaged			=	TRUE,
+	CantBeFrozen		=	TRUE,
+	ReplaceOnDeplete	=	Hydrocraft.HCMilkjugchocolateempty,
+	ReplaceOnUse		=	Hydrocraft.HCMilkjugchocolateempty,	
+	DisplayCategory		=	FoodP,
+	Tags				=	Milk,
+	}
 
 item HCMilkjugchocolatewater
 	{
