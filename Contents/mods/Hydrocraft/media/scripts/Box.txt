@@ -1,0 +1,40 @@
+
+module Hydrocraft
+{
+
+	item BoxOfThings
+	{
+		Weight				=	1,
+		Type				=	Normal,
+		DisplayName			=	Box of Things,
+		Icon				=	HCCardboardboxsealed,
+	}
+
+	recipe Store in a Box
+	{
+		[Recipe.GetItemTypes.Box12]=12,
+		Result:BoxOfThings,
+		Time:15,
+		OnCreate:Recipe.OnCreate.Hydrocraft.BoxThings,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Store in a Box
+	{
+		[Recipe.GetItemTypes.Box100]=100,
+		Result:BoxOfThings,
+		Time:15,
+		OnCreate:Recipe.OnCreate.Hydrocraft.BoxThings,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Open Box
+	{
+		BoxOfThings,
+		Result:BoxOfThings,
+		RemoveResultItem:true,
+		Time:15,
+		OnCreate:Recipe.OnCreate.Hydrocraft.OpenBox,
+	}
+
+}

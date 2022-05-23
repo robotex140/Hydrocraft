@@ -63,6 +63,8 @@ module Hydrocraft
         ReplaceInSecondHand = Bag_BigHikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_BigHikingBag_RHand holdingbagright,
 		DisplayCategory	= Container,
+		Tags			= NylonBag,
+		NylonAmount		= 3,
    }
 
     item HCClimbingpack
@@ -84,6 +86,8 @@ module Hydrocraft
         ReplaceInSecondHand = Bag_HikingBag_LHand holdingbagleft,
         ReplaceInPrimaryHand = Bag_HikingBag_RHand holdingbagright,
 		DisplayCategory	= Container,
+		Tags			= NylonBag,
+		NylonAmount		= 3,
   }
 
     item HCPrepperbag
@@ -377,17 +381,19 @@ module Hydrocraft
 		DisplayCategory	= Container,
     }
         
-    item HCGolfbag
-    {
-        WeightReduction     = 80,
-        Weight              = 2.0,
-        Type                = Container,
-        Capacity            = 15,
-        DisplayName         = Golf Bag,
-        Icon                = HCGolfbag,
-        CanBeEquipped       = Back,
+	item HCGolfbag
+	{
+		WeightReduction	= 80,
+		Weight			= 2.0,
+		Type			= Container,
+		Capacity		= 15,
+		DisplayName		= Golf Bag,
+		Icon			= HCGolfbag,
+		CanBeEquipped	= Back,
 		DisplayCategory	= Container,
-    }
+		Tags			= NylonBag,
+		NylonAmount		= 3,
+	}
 
     item HCCosmeticcase
     {
@@ -677,7 +683,7 @@ module Hydrocraft
     {
         Type                    = Container,
         DisplayName             = Improvised Backpack,
-        ClothingItem            = Bag_SurvivorBag,
+        ClothingItem            = HCImprovisedbackpack,
         CanBeEquipped           = Back,
         WeightReduction         = 65,
         Weight                  = 0.7,
@@ -690,8 +696,8 @@ module Hydrocraft
         RunSpeedModifier        = 0.94,
         CanHaveHoles            = false,
         AttachmentReplacement   = Bag,
-        ReplaceInSecondHand     = Bag_ALICEpack_LHand holdingbagleft,
-        ReplaceInPrimaryHand    = Bag_ALICEpack_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_Schoolbag_LHand holdingbagleft,
+        ReplaceInPrimaryHand = Bag_Schoolbag_RHand holdingbagright,
 		DisplayCategory	= Container,
     }
 

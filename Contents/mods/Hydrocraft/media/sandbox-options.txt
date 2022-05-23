@@ -31,6 +31,14 @@ option Hydrocraft.ShowDamage
 	translation = Hydrocraft_Show_Damage_On_Hit,
 }
 
+option Hydrocraft.LowConditionWeaponsOnZombies
+{
+	type = boolean,
+	default = false,
+	page = Hydrocraft,
+	translation = Hydrocraft_Low_Condition_Weapons_On_Zombies,
+}
+
 option Hydrocraft.BurnDamage
 {
 	type = enum,

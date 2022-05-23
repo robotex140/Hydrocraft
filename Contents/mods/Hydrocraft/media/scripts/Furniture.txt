@@ -58,16 +58,6 @@ item HCDryingmachine
 	DisplayCategory = Furniture,
 	}
 
-item HCTelevision
-	{
-	Type 			= Moveable,
-	Weight 			= 0.5,
-	WorldObjectSprite 	= appliances_television_01_5,
-	DisplayName		= Television,
-	Icon			= default,
-	DisplayCategory = Furniture,
-	}
-
 item HCPedestalmarble
 	{
 	Type 			= Moveable,

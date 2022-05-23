@@ -26,6 +26,18 @@ local function pickRandomItem()
 end
 
 local function SpawnLootOnDeadZombie(zombie)
+
+	local badWeapons = false
+	if SandboxVars.Hydrocraft.LowConditionWeaponsOnZombies ~= nil and SandboxVars.Hydrocraft.LowConditionWeaponsOnZombies == true then
+		badWeapons = true
+		local items = zombie:getInventory():getItems()
+		for i=0, items:size()-1 do
+			local item = items:get(i)
+			if item:IsWeapon() then
+				item:setCondition( 1 )
+			end
+		end
+	end
 	
 	local rolls = ROLLS
 	if(SandboxVars.Hydrocraft.ZombieLoot ~= nil) then
@@ -47,6 +59,9 @@ local function SpawnLootOnDeadZombie(zombie)
 	for i=1, randomRolls, 1 do
 		local item = pickRandomItem()--can be nil if dice roll is NOTHING
 		if(item ~= nil) then
+			if badWeapons and item:IsWeapon() then
+				item:setCondition( 1 )
+			end
 			zombie:getInventory():addItem(item)
 		end
 	end

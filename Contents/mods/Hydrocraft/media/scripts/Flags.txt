@@ -124,7 +124,7 @@ item HCFlaganarchist
     	{
 	Weight			=	0.5,
 	Type			=	Normal,
-	DisplayName		=	Archist Flag,
+	DisplayName		=	Anarchist Flag,
 	Icon			=	HCFlaganarchist,
 	DisplayCategory          =   Misc,
 	

@@ -176,13 +176,14 @@ local function generateHCMushroomDefs()
 			poisonDetectionLevel = 0,
 			spawnFuncs = { doWildFoodSpawn, doRandomAgeSpawn }, --doPoisonItemSpawn removed, as thse are not poisonous, doWildFoodSpawn, doRandomAgeSpawn removed as causing Exceptions
 			items = {
-				HCPortobello	 = "Hydrocraft.HCPortobello",
-				HCShiitake		 = "Hydrocraft.HCShiitake",
-				HCBlewitshroom	 = "Hydrocraft.HCBlewitshroom",
-				HCLobstershroom	 = "Hydrocraft.HCLobstershroom",
-				HCWitchshatshroom = "Hydrocraft.HCWitchshatshroom",
-				HCYellowmorelshroom = "Hydrocraft.HCYellowmorelshroom",
-				HCChantrelle	 = "Hydrocraft.HCChantrelle",
+				HCPortobello		=	"Hydrocraft.HCPortobello",
+				HCShiitake			=	"Hydrocraft.HCShiitake",
+				HCBlewitshroom		=	"Hydrocraft.HCBlewitshroom",
+				HCLobstershroom		=	"Hydrocraft.HCLobstershroom",
+				HCWitchshatshroom	=	"Hydrocraft.HCWitchshatshroom",
+				HCYellowmorelshroom	=	"Hydrocraft.HCYellowmorelshroom",
+				HCChantrelle		=	"Hydrocraft.HCChantrelle",
+				HCGarlic			=	"Hydrocraft.HCGarlic", --shoe-horned in, need to look into adding HC 'crop' items to farm land.
 			},
 		},
 	};

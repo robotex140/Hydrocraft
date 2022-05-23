@@ -60,5 +60,15 @@ module Hydrocraft
 	   Time:40.0,
 	   Category:Cooking,
 	}
+
+	recipe Empty Roasting Pan
+	{
+		[Recipe.GetItemTypes.RoastingPanFull],
+		Result:Base.RoastingPan,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:40.0,
+		Category:Cooking,
+		Sound:EmptyPan,
+	}
 	
 }

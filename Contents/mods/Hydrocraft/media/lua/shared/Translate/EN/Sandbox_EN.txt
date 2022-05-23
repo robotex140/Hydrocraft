@@ -10,6 +10,8 @@ Sandbox_EN = {
 
 	Sandbox_Hydrocraft_Show_Damage_On_Hit = "Show Damage On Hit"
 
+	Sandbox_Hydrocraft_Low_Condition_Weapons_On_Zombies = "Low Condition Weapons on Zombies
+
 	Sandbox_Hydrocraft_Burn_Damage = "Smithing Burn Damage",
 	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Changes the burn damage received when using the Kiln, Smelter, Blast Furnace and Industrial Furnace."
 	Sandbox_Hydrocraft_Burn_Damage_option1 = "Full (default)"

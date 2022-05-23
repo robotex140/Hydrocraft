@@ -1,3 +1,22 @@
+module Base
+{
+	/*DO NOT RENAME - unless you also edit /server/Food/Function.lua*/
+	/*DO NOT ADD EXTRA RECIPES WITH THE SAME NAME*/
+	/*DO NOT MOVE FROM MODULE Base*/
+	recipe Make Bowl of Cereal
+	{
+		Bowl,
+		[Recipe.GetItemTypes.Cereal];5,
+		[Recipe.GetItemTypes.Milk];2,
+		Result:CerealBowl,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking3,
+		OnCreate:Recipe.OnCreate.Make_Bowl_of_Cereal,
+		Override: true,/* needed to replace vanilla recipe! */
+	}	
+}
+
 module Hydrocraft
 {
     imports
@@ -22,6 +41,7 @@ item HCCereal2
 	Packaged 			= 	TRUE,
 	ReplaceOnDeplete	=	Hydrocraft.HCCereal2trash,
 	DisplayCategory		=	FoodN,
+	Tags				=	Cereal,
 	}
 	
 	item HCCereal3
@@ -38,29 +58,7 @@ item HCCereal2
 	Packaged 			= 	TRUE,
 	ReplaceOnDeplete	=	Hydrocraft.HCCereal3trash,
 	DisplayCategory		=	FoodN,
-	}
-
-/*Delete in future, just give vanilla bowl of cereal instead.*/
-item HCBowlofcereal
-	{
-	HungerChange			=	-20,
-	ThirstChange			=	-20,
-	UnhappyChange			=	-10,
-	Weight				=	0.2,
-	Type				=	Food,
-	DaysFresh 			= 	3,
-	DaysTotallyRotten		=	3,
-	DisplayName			=	Bowl of Cereal,
-	ReplaceOnUse			=	Bowl,
-	DaysFresh			=	1,
-	Icon				=	HCCerealbowl,	
-	FoodType    			=   	NoExplicit,
-	Carbohydrates 			= 	15,
-        Proteins 			= 	2,
-        Lipids 				= 	2,
-        Calories 			= 	255,
-	CantBeFrozen 			= 	TRUE,
-	DisplayCategory          =   FoodP,
+	Tags				=	Cereal,
 	}
 	
 item HCFriedegg
@@ -204,96 +202,6 @@ item HCHardboiledegg
 
 	
 /************************RECIPES************************/
-   
-	/*Vanilla has cereal + milk, HC adds two more milks, and two more cereals (HCCereal2, HCCereal3*/
-
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		Cereal;5,
-		HCUHTmilk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}
-
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		Cereal;5,
-		HCSoymilk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}
-
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		HCCereal2;5,
-		Milk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}
-	
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		HCCereal3;5,
-		Milk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}
-
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		HCCereal2;5,
-		HCSoymilk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}
-
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		HCCereal3;5,
-		HCSoymilk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}	
-
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		HCCereal2;5,
-		HCUHTmilk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}
-
-	recipe Make Bowl of Cereal
-	{
-		Bowl,
-		HCCereal3;5,
-		HCUHTmilk;2,
-		Result:CerealBowl,
-		Time:50.0,
-		Category:Cooking,
-		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-	}
 	
 recipe Fry Egg
 	{

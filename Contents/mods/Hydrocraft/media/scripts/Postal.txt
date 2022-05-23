@@ -28,13 +28,13 @@ item HCPostagestamp
     }
 
 item HCSealedletter
-    {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Sealed Letter,
-        icon 			= HCSealedletter,
-		DisplayCategory		=   Useless,
-    }
+	{
+		Weight			=	0.1,
+		Type			=	Normal,
+		DisplayName		=	Sealed Envelope,
+		icon			=	HCSealedletter,
+		DisplayCategory	=	Useless,
+	}
 
 item HCSealedletter2
     {
@@ -188,8 +188,6 @@ item HCPostcard8
 		DisplayCategory		=   Useless,
     	}
 
-/************************RECIPES************************/	
-
 item HCBoxcutter
 	{
 		MaxRange			=	0.9,
@@ -228,6 +226,18 @@ item HCBoxcutter
         	EnduranceMod 			= 	0.5,
 		DisplayCategory		=   WepMelee,
 	}
-    
+
+/************************RECIPES************************/	
+
+	recipe Open Envelope
+	{
+		HCSealedletter,
+		Result:Magazine,
+		RemoveResultItem:true,
+		Time:50.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		IsHidden: true,
+		OnCreate:HCOpenSealedLetter,
+	}
 
 }

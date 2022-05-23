@@ -1069,30 +1069,10 @@ recipe Saw Logs
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-recipe Make Sturdy Stick
-    {
-        Plank,
-        HCSawstone,
-        Result:WoodenStick=2,
-        Sound:PZ_Saw,
-        Time:1000,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
 recipe Make Wooden Tongs
     {
-        WoodenStick=2,
-        HCSawstone,
-        Result:HCTongswood,
-        Time:10,
-        Category:Carpentry,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-recipe Make Wooden Tongs
-    {
-        WoodenStick=2,
-        keep Saw/GardenSaw,
+        TreeBranch=2,
+		Twine,
         Result:HCTongswood,
         Time:10,
         Category:Carpentry,
@@ -1914,23 +1894,6 @@ recipe Make Log Table
     {
         Log=6,
         Twine=12,
-        keep Hammer/HammerStone,
-        keep Saw/GardenSaw,
-        CanBeDoneFromFloor:true,
-        Result:HCTablelog,
-        SkillRequired:Woodwork=1,
-        Sound:PZ_Hammer,
-        Time:500,
-        Category:Carpentry,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-recipe Make Log Table
-    {
-        Log=6,
-        Twine=12,
-        keep Hammer/HammerStone,
-        HCSawstone,
         CanBeDoneFromFloor:true,
         Result:HCTablelog,
         SkillRequired:Woodwork=1,
@@ -2081,15 +2044,6 @@ recipe Make Water Pump
         Time:1000,
         Category:Engineer,
         OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
-    }
-
-recipe Anchor Water Pump
-    {
-        HCWaterpump,
-        CanBeDoneFromFloor:true,
-        Result:HCWaterpump2,
-        Time:100,
-        Category:Anchor,
     }
 
 recipe Fill Bucket
@@ -2675,7 +2629,7 @@ recipe Make Chopsticks
 
 	recipe Create Infinite Oak Logpile
 	{
-		Log,
+		HCOakLog,
 		Result:HCInfiniteLogpileOak,
 		Time:1,
 		Category:Carpentry,

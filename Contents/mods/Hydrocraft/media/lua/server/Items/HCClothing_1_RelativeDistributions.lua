@@ -11,7 +11,7 @@ end
 function HCprotection(m)
         retVal =
         {
-                "Hydrocraft.HCGoogles",       m*1,
+                --"Hydrocraft.HCGoogles",       m*1, --item removed.
                 "Hydrocraft.HCRubberglove",   m*1,
         };
         return retVal

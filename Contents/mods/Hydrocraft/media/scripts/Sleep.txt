@@ -216,58 +216,19 @@ recipe Build Forest Bed
     } 
 
 recipe Build Forest Bed
-    {
+	{
 	SkillRequired:Woodwork=1,
 	Log=6,
 	Twine=12,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-    	keep Hammer/HammerStone,
-	keep Saw,
-    	CanBeDoneFromFloor:true,
-   	Result:HCForestbedsleepin,
-    	Sound:PZ_Hammer,
-    	Time:500,
-    	Category:Carpentry,
-   	OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-recipe Build Forest Bed
-    {
-	SkillRequired:Woodwork=1,
-	Log=6,
-	Twine=12,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCWillowbranch/HCAlderbough/HCElmbough/HCSprucebough/HCYewbough/HCPinebough/HCFirbough,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-	HCOakleaves/HCMapleleaf/HCFern/HCHickoryleaves/HCGrass/HCReeds/HCStraw,
-    	keep Hammer/HammerStone,
-	HCSawstone,
-    	CanBeDoneFromFloor:true,
-   	Result:HCForestbedsleepin,
-    	Sound:PZ_Hammer,
-    	Time:500,
-    	Category:Carpentry,
-   	OnGiveXP:HCWoodwork_OnGiveXP,
-    }
+	TreeBranch=6,
+	HCGrass=6,
+	CanBeDoneFromFloor:true,
+	Result:HCForestbedsleepin,
+	Sound:PZ_Hammer,
+	Time:500,
+	Category:Carpentry,
+	OnGiveXP:HCWoodwork_OnGiveXP,
+	}
 
 recipe Unpack Dome Tent
     {

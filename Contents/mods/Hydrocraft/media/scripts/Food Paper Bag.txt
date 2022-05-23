@@ -1,0 +1,62 @@
+module Hydrocraft
+{
+	imports
+	{
+		Base
+	}
+
+	/*No stats, these will be generated in Transfer to Paper Bag*/
+	item HCFoodInPaperBag
+	{
+		HungerChange		=	0,
+		Weight				=	0.4,
+		Type				=	Food,
+		UnhappyChange		=	0,
+		DisplayName			=	Bag of Food,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			= 	2,
+		Icon				=	Paperbag,
+		IsCookable			=	FALSE,
+		DangerousUncooked	=	FALSE,
+		FoodType    		=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	0,
+		Lipids 				= 	0,
+		Calories 			= 	0,
+		DisplayCategory		=	FoodP,
+		ReplaceOnUse		=	Base.PaperBag,
+		Tags				=	PaperBagFull,
+	}
+
+/*RECIPES*/
+
+	recipe Make Paper Bag
+	{
+		Base.SheetPaper2,
+		Result:Base.PaperBag,
+		Time:10,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		IsHidden: true,
+	}
+
+	recipe Serve in Paper Bag
+	{
+		[Recipe.GetItemTypes.ServeInPaperBag],
+		Base.PaperBag/Base.Paperbag_Spiffos/Base.Paperbag_Jays/Hydrocraft.HCPaperbag,
+		Result:HCFoodInPaperBag,
+		Time:85.0,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.TransferToPaperBag_GiveRoastingPan,
+	}
+
+	recipe Empty Paper Bag
+	{
+	   [Recipe.GetItemTypes.PaperBagFull],
+	   Result:Base.PaperBag, /*Only gives a vanilla paper bag, regardless of the paper bag used originally.*/
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	   Time:40.0,
+	   Category:Cooking,
+	}
+
+}

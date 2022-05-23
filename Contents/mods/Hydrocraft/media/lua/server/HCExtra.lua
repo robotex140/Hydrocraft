@@ -3,6 +3,9 @@ BoltsArrows = {};
 BoltsArrows.SBolts = {x=0, y=1, z=2};
 BoltsArrows.SArrows = {x=0, y=1, z=2};
 
+Recipe = Recipe or {}
+Recipe.OnCreate = Recipe.OnCreate or {}
+Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
 
 -- ***********************************************************
 -- **                    Hydromancerx                       **
@@ -476,10 +479,19 @@ function recipe_hcpillowcase(items, result, player)
 	inv:AddItem("Hydrocraft.HCPillowcase");
 end
 
-function recipe_recyclebag(items, result, player)
-	--HCEmptyContainerOnRecipe(items, result, player);
+function Recipe.OnCreate.Hydrocraft.RecycleBag(items, result, player)
+
+	local bag = items:get(0)
+	local nylonAmount = bag:getModData().NylonAmount
+
+	if nylonAmount == nil then
+		nylonAmount = 1
+		print( "Error: Missing Nylon Amount, defaulting to 1" )
+	end
+
 	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCZipper");
+	inv:AddItems("Hydrocraft.HCNyloncloth", nylonAmount);
+
 end
 
 --Container Stuff
@@ -1935,121 +1947,10 @@ end
 
 --Animal Butchering Stuff
 
-function recipe_hcchickenbutcher(items, result, player)
-	HCAddManySameItem("Base.Chicken", 0, player);
-	HCAddManySameItem("Hydrocraft.HCBone", 0, player);
-	HCAddManySameItem("Hydrocraft.HCWishbone", 0, player);	
-end 
-
-function recipe_hcsmallbirdbutcher(items, result, player)
-	HCAddManySameItem("Base.Smallbirdmeat", 0, player);
-	HCAddManySameItem("Hydrocraft.HCBone", 0, player);
-	HCAddManySameItem("Hydrocraft.HCWishbone", 0, player);
-end 
-
-function recipe_hcduckbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCDuckmeat", 0, player);
-	HCAddManySameItem("Hydrocraft.HCBone", 0, player);
-	HCAddManySameItem("Hydrocraft.HCWishbone", 0, player);	
-end 
-
-function recipe_hcgoosebutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGoosemeat", 0, player);
-	HCAddManySameItem("Hydrocraft.HCBone", 0, player);
-	HCAddManySameItem("Hydrocraft.HCWishbone", 0, player);	
-end 
-
-function recipe_hcturkeybutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCTurkeymeat", 0, player);
-	HCAddManySameItem("Hydrocraft.HCBone", 0, player);
-	HCAddManySameItem("Hydrocraft.HCWishbone", 0, player);	
-end 
-
-function recipe_hcpigbutcher(items, result, player)
-	HCAddManySameItem("Base.PorkChop", 3, player);
-	HCAddManySameItem("farming.Bacon", 1, player);
-	HCAddManySameItem("Hydrocraft.HCFreshham", 1, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 5, player);
-end 
-
-function recipe_hcsheepbutcher(items, result, player)
-	HCAddManySameItem("Base.MuttonChop", 2, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 1, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 2, player);	
-end 
-
-function recipe_hccowbutcher(items, result, player)
-	HCAddManySameItem("Base.Steak", 9, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 4, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 5, player);	
-end 
-
-function recipe_hcdonkeybutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCheval", 7, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 4, player);	
-end 
-
-function recipe_hchorsebutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCheval", 9, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 5, player);	
-end 
-
-function recipe_hcsmallgamebutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCSmallgamesteak", 3, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 1, player);
-end 
-
-function recipe_hcboarbutcher(items, result, player)
-	HCAddManySameItem("Base.PorkChop", 3, player);
-	HCAddManySameItem("Base.Bacon", 1, player);
-	HCAddManySameItem("Hydrocraft.HCFreshham", 1, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 4, player);	
-end 
-
-function recipe_hcdeerbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCVenison", 9, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 3, player);	
-end 
-
 function recipe_hcdeerantlers(items, result, player)
 	local inv = player:getInventory();
 	inv:AddItem("Hydrocraft.HCDeerantlers");
 end
-
-function recipe_hcbearbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCBearsteak", 19, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 5, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 5, player);	
-end 
-
-function recipe_hcblackbearbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCBearsteak", 15, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 4, player);	
-end 
-
-function recipe_hccougarbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCougarsteak", 7, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 2, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 1, player);	
-end 
-
-function recipe_hcdogbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCSmallgamesteak", 10, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 1, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 1, player);	
-end 
-
-function recipe_hccatbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCSmallgamesteak", 4, player);
-	HCAddManySameItem("Hydrocraft.HCIntestines", 1, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 1, player);	
-end 
 
 --Tree Cutting Stuff
 
@@ -2904,4 +2805,67 @@ function HCOnEat_Cigarettes(food, character, percent)
 	if(SandboxVars.Hydrocraft.SpawnCigaretteButts == true) then
 		character:getInventory():AddItem("Hydrocraft.HCCigarettebutt")
 	end
+end
+
+function HCOpenSealedLetter(items, result, player)
+	local list = {
+		"Hydrocraft.HCMagazinemetalworking1",
+		"Hydrocraft.HCMagazinemetalworking2",
+		"Hydrocraft.HCMagazinemetalworking3",
+		"Hydrocraft.HCMagazinemetalworking4",
+		"Hydrocraft.HCMagazinemetalworking5",
+		"Hydrocraft.HCMagazinemetalworking6",
+		"Hydrocraft.HCMagazinemetalworking7",
+		"Hydrocraft.HCAdultmagazine",
+		"Hydrocraft.HCAdultmagazine2",
+		"Hydrocraft.HCAdultmagazine3",
+		"Hydrocraft.HCAdultmagazine4",
+		"Hydrocraft.HCAdultmagazine5",
+		"Hydrocraft.HCAdultmagazine6",
+		"Base.HerbalistMag",
+		"Base.ElectronicsMag4", --How to Use Generators
+		"Base.HottieZ",
+		"Base.ComicBook",
+		"Base.MagazineCrossword1",
+		"Base.MagazineCrossword2",
+		"Base.MagazineCrossword3",
+		"Base.MagazineWordsearch1",
+		"Base.MagazineWordsearch2",
+		"Base.MagazineWordsearch3"
+	}
+	local magazine = list[ 1 + ZombRand( #list ) ]
+	local inv = player:getInventory();
+	inv:AddItem(magazine);
+end
+
+function Recipe.OnCreate.Hydrocraft.BoxThings(items, result, player)
+
+	local item = items:get(0)
+	local count = items:size()
+	local weight = item:getActualWeight() * count * 0.80 --20% weight reduction
+	
+	result:setCustomWeight( true )
+	result:setWeight( weight )
+	result:setActualWeight( weight )
+	result:setDisplayCategory( item:getDisplayCategory() )-- not preserved on re-load, don't know why.
+	
+	result:setCustomName( true ) --required?
+	result:setName( "Box of " .. item:getName() .. " [" .. count .. "]" )
+	
+	local modData = result:getModData()
+	modData.StoredFullType = item:getFullType()
+	modData.StoredAmount = count
+
+end
+
+function Recipe.OnCreate.Hydrocraft.OpenBox(items, result, player)
+
+	local item = items:get(0)
+
+	local modData = item:getModData()
+	local ft = modData.StoredFullType
+	local count = modData.StoredAmount
+	
+	player:getInventory():AddItems( ft, count )
+
 end

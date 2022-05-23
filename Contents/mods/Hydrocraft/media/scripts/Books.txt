@@ -1826,16 +1826,6 @@ module Hydrocraft
 		DisplayCategory	=   LitR,
 	}
 
-	item HCBookplastics
-	{
-		Weight		=	0.5,
-		Type		=	Literature,
-		DisplayName	=	Plastics Textbook,
-		Icon		=	HCBookplastics,
-        ReplaceOnUse    =   	HCBookplastics,
-		DisplayCategory	=   LitR,
-	}
-
 	item Nothing_Random_Book
 	{
 		Weight = 0,

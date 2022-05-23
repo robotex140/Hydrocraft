@@ -89,7 +89,7 @@ item HCFir6
 
 item HCFirstump
     {
-        Weight    		= 1000.0,
+        Weight    		= 5.0,
         Type   			= Normal,
         DisplayName         	= Fir Tree Stump,
         icon 			= HCFirstump,
@@ -159,7 +159,7 @@ item HCOak6
 
 item HCOakstump
     {
-        Weight    		= 1000.0,
+        Weight    		= 5.0,
         Type   			= Normal,
         DisplayName         	= Oak Tree Stump,
         icon 			= HCOakstump,
@@ -229,7 +229,7 @@ item HCBirch6
 
 item HCBirchstump
     {
-        Weight    		= 1000.0,
+        Weight    		= 5.0,
         Type   			= Normal,
         DisplayName         	= Birch Tree Stump,
         icon 			= HCBirchstump,

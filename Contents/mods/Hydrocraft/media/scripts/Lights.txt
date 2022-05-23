@@ -168,7 +168,9 @@ item HCLighterempty
 		Type			=	Normal,
 		DisplayName		=	Empty Lighter,
 		Icon			=	Lighter,
-		DisplayCategory          =   Fuel,
+		DisplayCategory	=	Fuel,
+		StaticModel		=	Zippo,
+		WorldStaticModel=	ZippoGround,
 	}
 
 item HCFlashlightoff
