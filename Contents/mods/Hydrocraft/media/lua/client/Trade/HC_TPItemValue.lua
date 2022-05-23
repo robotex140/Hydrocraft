@@ -1284,7 +1284,6 @@ ItemValueTable["Hydrocraft.HCDeerpoop"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCDentures"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCDeodorantspray"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCDeodorantstick"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCDeskbell"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCDetector"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCDetectordead"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCDetectorpowered"] = 0.00 ;
