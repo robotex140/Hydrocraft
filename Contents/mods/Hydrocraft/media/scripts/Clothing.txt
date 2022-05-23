@@ -17,16 +17,6 @@ item HCRubberglove
 		DisplayCategory	= ClothM,
     } 
 
-item HCGoogles
-    {
-        Weight    		= 0.2,
-        Type    		= Normal,
-        DisplayName     = Googles,
-        icon 			= HCGoogles,
-		DisplayCategory	= ClothM,
-    } 
-
-
 item HCGasmask
     {
         Weight    	        = 0.9,

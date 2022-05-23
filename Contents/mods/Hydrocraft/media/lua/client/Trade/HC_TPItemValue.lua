@@ -1810,7 +1810,7 @@ ItemValueTable["Hydrocraft.HCGoldingot"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCGoldore"] = 10.00 ;
 ItemValueTable["Hydrocraft.HCGoldpowder"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCGolfbag"] = 1.00 ;
-ItemValueTable["Hydrocraft.HCGoogles"] = 0.00 ;
+
 ItemValueTable["Hydrocraft.HCGooseberry"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCGooseegg"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCGoosemeat"] = 0.00 ;
