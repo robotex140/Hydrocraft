@@ -3806,7 +3806,6 @@ ItemValueTable["Hydrocraft.HCTelescope"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTelescopebox"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTelescopescope"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTelescopetripod"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCTelevision"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTench"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTennisballcontainer"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTennisballcontainerfull"] = 0.00 ;
