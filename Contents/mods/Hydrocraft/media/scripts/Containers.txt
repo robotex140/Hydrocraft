@@ -101,17 +101,21 @@ module Hydrocraft
 		DisplayCategory	= Container,
    }
 
-     item HCWheelbarrow
+   item HCWheelbarrow
    {
-	WeightReduction         	= 100,
-	Weight             		    = 20,
-	Type                		= Container,
-	Capacity             		= 200,
-	DisplayName             	= Wheelbarrow,
-	Icon				        = HCWheelbarrow,
-	RequiresEquippedBothHands 	= true,
-    TwoHandWeapon               = TRUE,
-		DisplayCategory	= Container,
+        WeightReduction         	= 100,
+        Weight             		    = 20,
+        Type                		= Container,
+        Capacity             		= 200,
+        DisplayName             	= Wheelbarrow,
+        Icon				        = HCWheelbarrow,
+        SurvivalGear			    = TRUE,
+		EquippedNoSprint 		    = FALSE,
+        RequiresEquippedBothHands 	= TRUE,
+        StaticModel                 = Hydrocraft.HCWheelbarrow,
+        WorldStaticModel            = Hydrocraft.HCWheelbarrow,
+        DisplayCategory	            = Container,
+        ReplaceInPrimaryHand 	    = Bag_Wheelbarrow_RHand holdingwheelbarrowright,
    }
 
 

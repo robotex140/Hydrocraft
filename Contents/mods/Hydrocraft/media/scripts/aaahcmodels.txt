@@ -538,7 +538,7 @@ module Hydrocraft
 			rotate = -109.0000 -89.0000 -93.0000,
 		}
   }
-  model HCHelmcopper {
+	model HCHelmcopper {
     mesh = WorldItems/HCHelmBronze,
     texture = WorldItems/HCHelmCopper,
   }
@@ -546,7 +546,7 @@ module Hydrocraft
     mesh = WorldItems/HCHelmBronze,
     texture = WorldItems/HCHelmBronze,
   }
-  model HCHelmiron {
+	model HCHelmiron {
     mesh = WorldItems/HCHelmIron,
     texture = WorldItems/HCHelmIron,
   }
@@ -567,7 +567,7 @@ module Hydrocraft
 			rotate = 0.0000 -90.0000 0.0000,
 		}
 	}
-  model HCCrossbowEmpty
+	model HCCrossbowEmpty
 	{
 		mesh = weapons/HCCrossbowEmpty,
 		texture = weapons/HCCrossbow,
@@ -639,6 +639,17 @@ module Hydrocraft
 		{
 			offset = 0.0000 0.0020 0.0000,
 			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model HCWheelbarrow
+	{
+		mesh = weapons/HCWheelbarrow,
+		texture = weapons/HCWheelbarrow,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 180.0000 0.0000,
 		}
 	}
 }
