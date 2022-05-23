@@ -183,7 +183,7 @@ item HCGlassbottlepotassiumpermanganate
 recipe Cut Off Bottle
     {
     	HCWaterbottleclean,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     	Result:HCWaterbottlecutoff,
     	Time:50,
     	Category:Engineer,
@@ -194,7 +194,7 @@ recipe Cut Off Bottle
 recipe Recycle Plastic Bottle
     {
         HCTrashbottle,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife/HCBoxcutter/Scissors/HCElectricmultitoolsawpowered,
+		keep HCBoxcutter/[Recipe.GetItemTypes.DullKnife]/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
         Result:HCPlastic=2,
         Time:50,
     	Category:Engineer,

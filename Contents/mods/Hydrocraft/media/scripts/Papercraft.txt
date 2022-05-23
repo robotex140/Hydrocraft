@@ -201,7 +201,7 @@ recipe Remove Paper Screen
     {
 	HCPaperscreendry,
 	keep HCRuler,
-	keep Scissors/HCBoxcutter/Scalpel/HCJackknife,
+	keep [Recipe.GetItemTypes.Scissors]/HCBoxcutter/Scalpel/HCJackknife,
    	Result:SheetPaper2,
     	Time:20,
     	Category:Papercraft,
@@ -213,8 +213,8 @@ recipe Remove Paper Screen
 	recipe Make Quill
 	{
 		HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/Scalpel/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron,
 		keep HCPliers,
+		keep [Recipe.GetItemTypes.SharpKnife],
 		Result:HCQuill,
         Time:100,
         NeedToBeLearn:false,

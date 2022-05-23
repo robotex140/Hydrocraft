@@ -1,27 +1,27 @@
 Sandbox_ES = {
 	Sandbox_Hydrocraft = "Hydrocraft"
 
-	Sandbox_Hydrocraft_Spawn_Guns = "¿Generar armas de Hydrocraft?"
-	
-	Sandbox_Hydrocraft_Spawn_Book_Covers = "¿Portadas de libros de Spawn?"
-	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "¿Dar portadas de libros cuando quitas la portada de un libro? (Artículo inútil)"
+	Sandbox_Hydrocraft_Spawn_Guns = "ÂżGenerar armas de Hydrocraft?"
 
-	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "¿Colillas de cigarro?"
-	
-	Sandbox_Hydrocraft_Burn_Damage = "Daño por quemadura de herrería",
-	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Cambia el daño por quemadura recibido al usar el horno, la fundición, el alto horno y el horno industrial."
+	Sandbox_Hydrocraft_Spawn_Book_Covers = "ÂżPortadas de libros de Spawn?"
+	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "ÂżDar portadas de libros cuando quitas la portada de un libro? (ArtĂ­culo inĂştil)"
+
+	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "ÂżColillas de cigarro?"
+
+	Sandbox_Hydrocraft_Burn_Damage = "DaĂ±o por quemadura de herrerĂ­a",
+	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Cambia el daĂ±o por quemadura recibido al usar el horno, la fundiciĂłn, el alto horno y el horno industrial."
 	Sandbox_Hydrocraft_Burn_Damage_option1 = "Completa (predeterminada)"
 	Sandbox_Hydrocraft_Burn_Damage_option2 = "Media"
 	Sandbox_Hydrocraft_Burn_Damage_option3 = "Ninguna"
 
 	Sandbox_Hydrocraft_Animal_Starvation = "Hambre de animales",
-	Sandbox_Hydrocraft_Animal_Starvation_tooltip = "¿Pueden los animales de granja morir de hambre?"
-	Sandbox_Hydrocraft_Animal_Starvation_option1 = "Sí (predeterminado)"
+	Sandbox_Hydrocraft_Animal_Starvation_tooltip = "ÂżPueden los animales de granja morir de hambre?"
+	Sandbox_Hydrocraft_Animal_Starvation_option1 = "SĂ­ (predeterminado)"
 	Sandbox_Hydrocraft_Animal_Starvation_option2 = "No"
 
-	Sandbox_Hydrocraft_Zombie_Loot = "Nivel de botín zombi",
-	Sandbox_Hydrocraft_Zombie_Loot_tooltip = "Cambia la cantidad de botín de los zombis muertos. No afecta el botín básico, solo el botín 'extra' agregado por Hydrocraft (que incluye algunos artículos básicos)."
+	Sandbox_Hydrocraft_Zombie_Loot = "Nivel de botĂ­n zombi",
+	Sandbox_Hydrocraft_Zombie_Loot_tooltip = "Cambia la cantidad de botĂ­n de los zombis muertos. No afecta el botĂ­n bĂˇsico, solo el botĂ­n 'extra' agregado por Hydrocraft (que incluye algunos artĂ­culos bĂˇsicos)."
 	Sandbox_Hydrocraft_Zombie_Loot_option1 = "Normal (predeterminada)"
 	Sandbox_Hydrocraft_Zombie_Loot_option2 = "Baja"
-	Sandbox_Hydrocraft_Zombie_Loot_option3 = "Muy Baja"	
+	Sandbox_Hydrocraft_Zombie_Loot_option3 = "Muy Baja"
 }

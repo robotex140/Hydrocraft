@@ -907,7 +907,7 @@ recipe Craft Corn Cob Pipe
     {
         HCCob,
         HCWoodblock,
-        keep HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCCorncobpipe,
         Time:500,
         SkillRequired:Woodwork=3,
@@ -1185,7 +1185,7 @@ recipe Cut Chili Pepper Stem
     {
         HCChilipepper,
         OnTest:HCNearHerbatable,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         Result:HCChilipepperstem,
         CanBeDoneFromFloor:true,
         Time:50.0,
@@ -1263,7 +1263,7 @@ recipe Extract Seed from Raw Rice
 recipe Shuck Corn
     {
         Corn,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         OnTest:HCNearHerbatable,
         Result:HCCornseeds=20,
         NeedToBeLearn:true,
@@ -1277,7 +1277,7 @@ recipe Shuck Corn
 recipe Shuck Corn
     {
         HCCornwhite,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         OnTest:HCNearHerbatable,
         Result:HCCornwhiteseeds=20,
         NeedToBeLearn:true,
@@ -1291,7 +1291,7 @@ recipe Shuck Corn
 recipe Shuck Corn
     {
         HCCornred,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         OnTest:HCNearHerbatable,
         Result:HCCornredseeds=20,
         NeedToBeLearn:true,
@@ -1305,7 +1305,7 @@ recipe Shuck Corn
 recipe Shuck Corn
     {
         HCCornblue,
-        keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         OnTest:HCNearHerbatable,
         Result:HCCornblueseeds=20,
         NeedToBeLearn:true,
@@ -1427,7 +1427,7 @@ recipe Make Super Glue
 recipe Gather Seeds
     {
         [Recipe.GetItemTypes.GatherSeeds],
-        keep KitchenKnife/HuntingKnife/HCCombatknife/HCJackknife,
+        keep [Recipe.GetItemTypes.SharpKnife],
         OnTest:HCNearHerbatable,
         CanBeDoneFromFloor:true,
         Result:KitchenKnife,

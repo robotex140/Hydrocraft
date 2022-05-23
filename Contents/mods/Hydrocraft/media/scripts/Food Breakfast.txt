@@ -206,8 +206,8 @@ item HCHardboiledegg
 recipe Fry Egg
 	{
 		keep Pan,
-		Egg,
-		Butter/HCCookingoil,
+		[Recipe.GetItemTypes.Egg],
+		Butter/HCCookingoil/OilVegetable/HCCookingoiljar,
 		Result:HCFriedegg,
 		Time:45.0,
     		NeedToBeLearn:true,
@@ -218,8 +218,8 @@ recipe Fry Egg
 recipe Make Scrambled Eggs
 	{
 		keep Pan,
-		keep HCSpatula/HCWoodenspatula,
-		Egg,
+		keep HCSpatula/HCWoodenspatula/Spatula,
+		[Recipe.GetItemTypes.Egg],
 		Result:HCScrambledegg,
 		Time:45.0,
     		NeedToBeLearn:true,
@@ -230,8 +230,8 @@ recipe Make Scrambled Eggs
 recipe Make Scrambled Eggs with Cheese
 	{
 		keep Pan,
-		keep HCSpatula/HCWoodenspatula,
-		Egg,
+		keep HCSpatula/HCWoodenspatula/Spatula,
+		[Recipe.GetItemTypes.Egg],
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		Result:HCScrambledeggcheese,
 		Time:45.0,
@@ -243,8 +243,8 @@ recipe Make Scrambled Eggs with Cheese
 recipe Make Omelet
 	{
 		keep Pan,
-		keep HCSpatula/HCWoodenspatula,
-		Egg,
+		keep HCSpatula/HCWoodenspatula/Spatula,
+		[Recipe.GetItemTypes.Egg],
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		Result:HCOmelet,
 		Time:45.0,
@@ -256,8 +256,8 @@ recipe Make Omelet
 recipe Make Vegetable Omelet
 	{
 		keep Pan,
-		keep HCSpatula/HCWoodenspatula,
-		Egg,
+		keep HCSpatula/HCWoodenspatula/Spatula,
+		[Recipe.GetItemTypes.Egg],
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		BellPepper/HCBellpepperyellow/HCBellpeppergreen/Broccoli/Leek/Eggplant/HCBunchofshrooms/HCSlicedonion/HCSlicedtomato/HCDriedtomatobag/HCCannedshrooms/HCSpinach/HCChiligreen/HCChilipepper,
 		Result:HCOmeletveg,
@@ -269,7 +269,7 @@ recipe Make Vegetable Omelet
 
 recipe Boil Egg
 	{
-		Egg,
+		[Recipe.GetItemTypes.Egg],
 		Water,
 		keep Pot,
 		Result:HCHardboiledegg,

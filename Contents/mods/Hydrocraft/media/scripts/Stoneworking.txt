@@ -640,7 +640,7 @@ recipe Build Stamp Mill
 	HCSteelrod=5,
 	HCSteelingot=5,
     	HCWeldingset,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
 	keep Hammer,
         keep Saw,
@@ -1063,7 +1063,7 @@ recipe Make Sand
 
 recipe Make Plaster
     {
-    	keep HCSpatula/HCWoodenspatula,
+    	keep HCSpatula/HCWoodenspatula/Spatula,
     	HCGreyclay=2,
     	BucketEmpty,
     	Water,
@@ -1076,7 +1076,7 @@ recipe Make Plaster
 
 recipe Make Plaster
     {
-    	keep HCSpatula/HCWoodenspatula,
+    	keep HCSpatula/HCWoodenspatula/Spatula,
     	HCGypsumpowder=2,
     	BucketEmpty,
     	Water,

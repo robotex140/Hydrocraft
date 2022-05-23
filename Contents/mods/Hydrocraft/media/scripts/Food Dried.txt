@@ -1353,12 +1353,12 @@ recipe Make Lime Juice
 
 	recipe Make Baking Tray With Chopped Fruit
 	{
-	    keep KitchenKnife/ButterKnife/HuntingKnife,
 	    Cherry=2,
         Orange=1,
         Apple=1,
         Banana=1,
 	    BakingTray,
+	    keep [Recipe.GetItemTypes.DullKnife]/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 	    Result:HCDriedfruittray,
     	NeedToBeLearn:true, 
 	    Time:90.0,

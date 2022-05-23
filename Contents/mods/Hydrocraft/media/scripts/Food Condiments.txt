@@ -1547,6 +1547,17 @@ recipe Make Bottles of Vegetable Oil
 	   	Category:Cooking,
     		OnCreate:recipe_hcgetwoodenbucket,
 	}
+	
+recipe Make Bottles of Classic Vegetable Oil
+ 	{
+		HCWoodenbucketvegoil,
+		HCWaterbottleclean=4,
+		keep HCFunnel/HCGlassfunnel,
+		Result:OilVegetable=4,
+		Time:50,
+	   	Category:Cooking,
+    		OnCreate:recipe_hcgetwoodenbucket,
+	}
 
 recipe Make Fish Oil
 	{
@@ -1567,10 +1578,10 @@ recipe Make Peanutbutter
 		Peanuts=4,
 		Salt;1,
 		Sugar,
-		HCCookingoil/HCCookingoiljar,
+		HCCookingoil/HCCookingoiljar/OilVegetable,
 		HCJar,
     	keep MortarPestle,
-		keep HCSpatula/HCWoodenspatula,	
+		keep HCSpatula/HCWoodenspatula/Spatula,	
 		Result:HCPeanutbutter,
 		Time:100,
 	   	Category:Cooking,
@@ -1583,10 +1594,10 @@ recipe Make Peanutbutter
 		Peanuts=4,
 		Salt;1,
 		Sugar,
-		HCCookingoil/HCCookingoiljar,
+		HCCookingoil/HCCookingoiljar/OilVegetable,
 		HCPeanutbutterjarempty,
     	keep MortarPestle,
-		keep HCSpatula/HCWoodenspatula,	
+		keep HCSpatula/HCWoodenspatula/Spatula,	
 		Result:PeanutButter,
 		Time:100,
 	   	Category:Cooking,

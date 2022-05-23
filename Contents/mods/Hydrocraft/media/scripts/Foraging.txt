@@ -1240,6 +1240,7 @@ item HCGooseegg
         DisplayName         	= 	Goose Egg,
         icon 			= 	HCGooseegg,
 		DisplayCategory	=   SurFor,
+		Tags			=	Egg,
     }
 
 item HCTurkeyegg
@@ -1249,6 +1250,7 @@ item HCTurkeyegg
         DisplayName         	= 	Turkey Egg,
         icon 			= 	HCTurkeyegg,
 		DisplayCategory	=   SurFor,
+		Tags			=	Egg,
     }
 
 item HCChickenegg
@@ -1258,6 +1260,7 @@ item HCChickenegg
         DisplayName         	= 	Chicken Egg,
         icon 			= 	HCChickenegg,
 		DisplayCategory	=   SurFor,
+		Tags			=	Egg,
     }
 
 item HCSparrowegg
@@ -1284,6 +1287,7 @@ item HCSparrowegg
         Calories 		= 	196,
         CantBeFrozen 		= 	TRUE,
 	DisplayCategory          =   FoodP,
+		Tags			=	Egg,
     }
 
 item HCBirdnest

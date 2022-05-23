@@ -1197,8 +1197,8 @@ recipe Make Titanium Powder
 recipe Make Phosphorus Powder
     {
         OnTest:HCNearGrindstone,
-        keep KitchenKnife/Scalpel/HCJackknife,
         Matches=15,
+		keep [Recipe.GetItemTypes.SharpKnife],
         CanBeDoneFromFloor:true,
         Result:HCPhosphoruspowder,
         NeedToBeLearn:true,
@@ -1994,7 +1994,7 @@ recipe Shake Starter Fluid in Conical Flask with Water
 
 recipe Make Beaker with Hydrogen Peroxide
     {   
-        HCHaircolorblond=5,
+        HCHaircolorblond=4,
         HCGlassbeaker,
         keep HCLatexgloves/HCRubberglove,   
         keep HCGasmask/HCImprovisedgasmask,

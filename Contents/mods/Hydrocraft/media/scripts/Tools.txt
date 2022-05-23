@@ -250,6 +250,7 @@ item HCChildsafetyscissors
         DisplayName         	= Child Safety Scissors,
         icon 			= HCChildsafetyscissors,
 		DisplayCategory	= Craft,
+		Tags			= Scissors,
     }
 
 item HCHotgluegun
@@ -1400,7 +1401,7 @@ recipe Craft Hand Powered Pump
     HCSteelpipe=2,
     HCCrank,
     HCWeldingset,
-    keep WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep HCSawmetal,
     keep HCWorkgloves,   
     Result:HCHandpump,

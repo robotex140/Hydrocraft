@@ -837,7 +837,7 @@ recipe Make Super Glue
 recipe Craft Bone Shiv
 	{
     		HCBone/HCZombiebones,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,		
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],		
 		Result:HCBoneshiv,
 		Sound:PZ_Saw,
     		NeedToBeLearn:true,
@@ -849,7 +849,7 @@ recipe Craft Bone Shiv
 recipe Craft Bone Dice
 	{
     		HCBone/HCZombiebones,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,		
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],		
 		Result:HCDicebone,
 		Sound:PZ_Saw,
     		NeedToBeLearn:true,
@@ -860,8 +860,9 @@ recipe Craft Bone Dice
 
 recipe Craft Bone Needle
 	{
-    		HCBone/HCZombiebones,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,		
+
+    HCBone/HCZombiebones/HCWishbone,
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
 		Result:HCBoneneedle,
 		Sound:PZ_Saw,
     	NeedToBeLearn:true,
@@ -873,8 +874,8 @@ recipe Craft Bone Needle
 
 recipe Carve Knitting Needles
     {
-    keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,
-    HCBone=2,
+    HCbone=2,
+    keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     Result:KnittingNeedles,
     Sound:PZ_Saw,
     NeedToBeLearn:true,
@@ -885,24 +886,24 @@ recipe Carve Knitting Needles
 
 
 recipe Craft Bone Fishhook
-	{
-    		HCBone/HCZombiebones,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,		
-		Result:HCFishhookbone,
-		Sound:PZ_Saw,
+    {
+        HCBone/HCZombiebones,
+		    keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
+		    Result:HCFishhookbone,
+		    Sound:PZ_Saw,
     		NeedToBeLearn:true,
-		Time:250.0,
+		    Time:250.0,
     		Category:Survivalist,
-   	 	OnGiveXP:HCHunger_OnGiveXP,
-	}
+   	 	  OnGiveXP:HCHunger_OnGiveXP,
+	  }
 
 recipe Roll Bone Dice
     {
-	HCDicebone,
-   	Result:HCDicebone,
-    	Time:15,
+	      HCDicebone,
+   	    Result:HCDicebone,
+    	  Time:15,
        	OnCreate:rprolld6,
-	Category:Leisure,
+	      Category:Leisure,
     }
 
 recipe Make Bone Ash
@@ -917,7 +918,7 @@ recipe Make Bone Ash
     	NeedToBeLearn:true,
     	Category:Firecraft,
     	OnCreate:getBurned,
-   	OnGiveXP:HCCooking_OnGiveXP,
+   	  OnGiveXP:HCCooking_OnGiveXP,
     }
 
 }

@@ -221,7 +221,7 @@ recipe Shoot Yourself in the Leg
 recipe Kill Yourself
     {
 	HCSuicidenote,
-    	keep HCDaggersteel/HCDaggeriron/HCBoneshiv/KitchenKnife/HuntingKnife/FlintKnife/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCCombatknife/BreadKnife/MeatCleaver/Katana,
+		keep HCBoneshiv/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 	Result:HCSuicidenote,
     	NeedToBeLearn:true,
 	OnCreate:HCKill,
@@ -233,7 +233,7 @@ recipe Kill Yourself
 recipe Stab Yourself
     {
 	HCSuicidenote,
-    	keep HCDaggersteel/HCDaggeriron/HCBoneshiv/KitchenKnife/HuntingKnife/FlintKnife/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCCombatknife/BreadKnife/MeatCleaver/Katana,
+		keep HCBoneshiv/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 	Result:HCSuicidenote,
     	NeedToBeLearn:true,
 	OnCreate:HCStab,
@@ -244,8 +244,8 @@ recipe Stab Yourself
 
 recipe Slit Your Wrist
     {
-	HCSuicidenote,
-    	keep HCDaggersteel/HCDaggeriron/HCBoxcutter/KitchenKnife/HuntingKnife/FlintKnife/HCKnifesteel/HCSteakknife/HCPumpkinknife/HCJackknife/HCKnifeiron/HCCombatknife/BreadKnife/MeatCleaver/Katana,
+	HCSuicidenote,		
+	keep HCBoxcutter/MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
 	Result:HCSuicidenote,
     	NeedToBeLearn:true,
 	CanBeDoneFromFloor:true,

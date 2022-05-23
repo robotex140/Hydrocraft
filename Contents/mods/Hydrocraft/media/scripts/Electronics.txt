@@ -877,7 +877,7 @@ recipe Make Control Panel
 	HCSolder,
 	HCSoldergunpowered,
     HCWeldingset,
-    keep WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep HCWorkgloves,
 	keep HCElectornicsbench2,
     CanBeDoneFromFloor:true,
@@ -1118,8 +1118,8 @@ recipe Box Resistors
 
 recipe Recycle Colored Wire
     {
-       	keep KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
        	HCColoredwire,
+       	keep [Recipe.GetItemTypes.SharpKnife],
        	Result:HCCablecopper,
        	Time:30.0,
        	OnCreate:recipe_hcrecyclecable,
@@ -1272,7 +1272,7 @@ recipe Make Circuit Print
 
 recipe Place Circuit Print On Circuit Board
     {
-    	HCCookingoil,
+    	HCCookingoil/OilVegetable/HCCookingoiljar,
         HCCircuitprint,
     	HCPlasticcanempty,
         HCCircuitboardcoppersidephotolacquer,

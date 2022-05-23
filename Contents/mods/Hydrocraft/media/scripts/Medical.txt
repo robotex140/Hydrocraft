@@ -230,6 +230,7 @@ item HCHomedisinfectant
         AlcoholPower        = 3,
         Tooltip			    = Tooltip_UseOnHealthPanel,
 		DisplayCategory	= Medical,
+		Tags				= Disinfectant,
     }
 
 item HCSmellingsalts	
@@ -793,6 +794,7 @@ item HCCottonballspp
     Weight			   = 0.1,
     AlcoholPower       = 3,
 		DisplayCategory	= Medical,
+		Tags			= Disinfectant,
     }
 
 item HCBandagepp
@@ -1081,8 +1083,8 @@ recipe Prepare Valerian
     {
 	SkillRequired:Doctor=4,
 	HCValerian,
-    keep KitchenKnife,
 	BakingTray,
+    keep [Recipe.GetItemTypes.SharpKnife],
     NeedToBeLearn:true,
 	Result:HCValeriantray,
 	Time:100.0,
@@ -1139,8 +1141,8 @@ recipe Prepare Hawthorn Fruit
     {
 	SkillRequired:Doctor=4,
 	HCHawthornfruit,
-    keep KitchenKnife,
 	BakingTray,
+    keep [Recipe.GetItemTypes.SharpKnife],
     NeedToBeLearn:true,
 	Result:HCHawthornfruittray,
 	Time:100.0,
@@ -1427,7 +1429,7 @@ recipe Craft Steam Pressure Pot
                 HCManometer,
                 HCWeldingset,
                 keep HCWorkgloves,   
-                keep WeldingMask,
+                keep [Recipe.GetItemTypes.WeldingMask],
                 NeedToBeLearn:true,     
 		Result:HCSteampot,
 		Time:500.0,

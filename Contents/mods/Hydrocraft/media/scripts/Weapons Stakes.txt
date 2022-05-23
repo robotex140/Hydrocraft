@@ -137,9 +137,7 @@ item HCStakehard
 	recipe Craft Crude Wooden Stake
 	{
 		TreeBranch,
-		keep KitchenKnife/ButterKnife/HuntingKnife/HCJackknife/HCSteakknife/BreadKnife/MeatCleaver/HCPumpkinknife/Scissors/Scalpel/SharpedStone/Base.Machete/HCCombatknife/Base.Katana/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/FlintKnife,
-		
-				
+		keep SharpedStone/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors]/MeatCleaver,	
 		Result:HCStakecrude,
 		Sound:PZ_Saw,
 		Time:250.0,
@@ -151,9 +149,8 @@ item HCStakehard
 	recipe Craft Wooden Stake
 	{
 		Plank,
-		keep KitchenKnife/HuntingKnife/HCJackknife/Base.Machete/HCCombatknife/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/Scalpel,
 		keep Saw,		
-		
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,		
 		SkillRequired:Woodwork=1,		
 		Result:HCStake=2,
 		Sound:PZ_Saw,

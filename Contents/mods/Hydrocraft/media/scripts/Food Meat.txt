@@ -649,8 +649,8 @@ item HCChristmashamcasserole
 
 recipe Slice Amphibian
     {
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
         Frog/HCToad/HCNewt/HCSalamander,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:FrogMeat,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -663,8 +663,8 @@ recipe Slice Amphibian
 recipe Butcher Turtle
     {
         SkillRequired:Cooking=2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
         HCPondturtle,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:Smallanimalmeat,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,
@@ -676,8 +676,8 @@ recipe Butcher Turtle
 recipe Butcher Turtle
     {
         SkillRequired:Cooking=2,
-        keep MeatCleaver/KitchenKnife/HuntingKnife/HCJackknife/FlintKnife,
         HCSnappingturtle,
+        keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         Result:Smallanimalmeat=2,
         CanBeDoneFromFloor:true,
         Sound:SliceMeat,

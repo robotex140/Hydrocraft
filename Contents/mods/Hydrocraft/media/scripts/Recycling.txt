@@ -153,8 +153,8 @@ recipe Recycle Wooden Crate
 
 recipe Recycle Pillow
     {
-    keep KitchenKnife/HuntingKnife/Scissors/Scalpel/HCJackknife/FlintKnife,
     Pillow,
+	keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     Result:HCWhitefeathers=10,
     Time:100,
     Category:Engineer,

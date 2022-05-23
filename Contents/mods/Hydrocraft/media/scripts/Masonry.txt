@@ -167,7 +167,7 @@ recipe Make Red Bricks
 
 recipe Make Refractory Brick
     {
-	keep HCSpatula/HCWoodenspatula,
+	keep HCSpatula/HCWoodenspatula/Spatula,
 	keep BucketEmpty/HCWoodenbucket,
 	HCGypsumpowder,
 	Sandbag,

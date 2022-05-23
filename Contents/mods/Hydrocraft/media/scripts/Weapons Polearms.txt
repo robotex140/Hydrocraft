@@ -878,9 +878,8 @@ module Hydrocraft
 
     recipe Create Spear
     {
-        Plank/TreeBranch,
-        keep HCCombatknife/ButterKnife/HCSteakknife/BreadKnife/Scissors/HCKnifesteel/HCKnifeiron/HCDaggersteel/HCDaggeriron/HCJackknife/HCSteakknife/HCSurvivalaxe/WoodAxe/Axe/HandAxe/HandScythe,
-
+		Plank/TreeBranch,
+		keep [Recipe.GetItemTypes.Scissors]/Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone/HandScythe,
         Result:SpearCrafted,
         Time:100.0,
         OnCreate:Recipe.OnCreate.CreateSpear,

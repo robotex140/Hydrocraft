@@ -606,7 +606,6 @@ recipe Prepare Stuffed Snail
 		Worm/Cricket/Grasshopper/Cockroach/HCBeetle/HCCaterpillar/HCBeetlegrub/HCCicada/HCPillbug/HCMolecricket,
 		HCBunchofshrooms,
 		Result:HCSnailcooked,
-       		NeedToBeLearn:true,
 		Time:50.0,
 		Category:Cooking,
    		OnGiveXP:HCCooking_OnGiveXP,

@@ -370,7 +370,7 @@ recipe Make Bee Smoker
         HCTincan=2,
         Bellows,
         HCWeldingset,
-        keep WeldingMask,
+        keep [Recipe.GetItemTypes.WeldingMask],
         keep HCWorkgloves,
         Result:HCBeesmokerempty,
         NeedToBeLearn:true,

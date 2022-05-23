@@ -153,8 +153,8 @@ recipe Cook Blue Meth
 recipe Fill Blue Meth in Bags
     {
         HCBluemethtray=1,
-        keep KitchenKnife/HCSpatula,
         HCZipperbag=5,
+        keep [Recipe.GetItemTypes.SharpKnife]/HCSpatula,
    	Result:HCBluemeth=5,
     	Time:500,
     	Category:Chemistry,

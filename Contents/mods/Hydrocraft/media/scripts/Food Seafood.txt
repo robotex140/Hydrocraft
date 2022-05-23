@@ -790,8 +790,8 @@ item HCFishoil
 
 recipe Slice Fillet
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
         	Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Result:FishFillet,
        	 	Sound:SliceMeat,
         	Time:50.0,
@@ -803,8 +803,8 @@ recipe Slice Fillet
 
 recipe Slice Fillet
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
-        	HCHerring/HCBlowfish/HCBream/HCEel/HCMackerel/HCMackerelpike/HCRedsnapper/HCSeabass/HCSmelt/HCTuna/HCWrasse/HCAsp/HCBrill/HCBurbot/HCCarp/HCChub/HCGrayling/HCLavaret/HCPlaice/HCRoach/HCRuffe/HCSilverbream/HCTench/HCZander,
+			HCHerring/HCBlowfish/HCBream/HCEel/HCMackerel/HCMackerelpike/HCRedsnapper/HCSeabass/HCSmelt/HCTuna/HCWrasse/HCAsp/HCBrill/HCBurbot/HCCarp/HCChub/HCGrayling/HCLavaret/HCPlaice/HCRoach/HCRuffe/HCSilverbream/HCTench/HCZander,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Result:FishFillet,
         	Sound:SliceMeat,
         	Time:50.0,
@@ -814,8 +814,8 @@ recipe Slice Fillet
 
 recipe Slice Fillet
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
         	HCSalmon,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Result:Salmon,
         	Sound:SliceMeat,
         	Time:50.0,
@@ -825,8 +825,8 @@ recipe Slice Fillet
 
 recipe Slice Frog
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
         	Frog,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Result:FrogMeat,
         	Sound:SliceMeat,
         	Time:50.0,
@@ -837,7 +837,7 @@ recipe Slice Frog
 recipe Prepare Fried Herring
 	{
 		keep Pan,
-		HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar,
 		HCHerring,	
 		Result:HCFriedherring,
 		Time:35.0,

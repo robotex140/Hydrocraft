@@ -104,7 +104,6 @@ recipe Make Photography Workbench
 	Newspaper=3,
 	HCClothespin=6,
 	HCRopethin,
-	Scissors,
 	HCBottleopener,
 	HCMeasuringcup,
 	/*Timer, removed, as this item no longer spawns in vanilla - may need a better solution*/
@@ -116,6 +115,7 @@ recipe Make Photography Workbench
 	Nails,
 	keep Hammer,
 	keep Saw,
+	[Recipe.GetItemTypes.Scissors],
         Result:HCPhotobench,
         CanBeDoneFromFloor:true,
         NeedToBeLearn:true,

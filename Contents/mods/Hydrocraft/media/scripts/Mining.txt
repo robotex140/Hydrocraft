@@ -661,7 +661,7 @@ recipe Upgrade Mine
     HCMinehole/HCMineholeB,
 	HCPunchingstand=2,
     HCWeldingset,
-    keep WeldingMask,
+    keep [Recipe.GetItemTypes.WeldingMask],
     keep HCWorkgloves,
     CanBeDoneFromFloor:true,
     Result:HCMinehole2,

@@ -294,8 +294,7 @@ recipe Cut Fir Tree
 
 recipe Cut Fir Tree
     {
-	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron
-    ,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCFir4,
     	Result:HCFirstump,
     	CanBeDoneFromFloor:true,
@@ -308,7 +307,7 @@ recipe Cut Fir Tree
 
 recipe Cut Fir Tree
     {
-	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCFir5,
     	Result:HCFirstump,
     	CanBeDoneFromFloor:true,
@@ -321,7 +320,7 @@ recipe Cut Fir Tree
 
 recipe Cut Fir Tree
     {
-	keep Axe/HCMakeshiftaxe/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCFir6,
     	Result:HCFirstump,
     	CanBeDoneFromFloor:true,
@@ -361,7 +360,7 @@ recipe Cut Oak Tree
 
 recipe Cut Oak Tree
     {
-	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCOak4,
     	Result:HCOakstump,
     	CanBeDoneFromFloor:true,
@@ -374,7 +373,7 @@ recipe Cut Oak Tree
 
 recipe Cut Oak Tree
     {
-	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCOak5,
     	Result:HCOakstump,
     	CanBeDoneFromFloor:true,
@@ -387,7 +386,7 @@ recipe Cut Oak Tree
 
 recipe Cut Oak Tree
     {
-	keep Axe/HCMakeshiftaxe/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCOak6,
     	Result:HCOakstump,
     	CanBeDoneFromFloor:true,
@@ -427,7 +426,7 @@ recipe Cut Birch Tree
 
 recipe Cut Birch Tree
     {
-	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCBirch4,
     	Result:HCBirchstump,
     	CanBeDoneFromFloor:true,
@@ -440,7 +439,7 @@ recipe Cut Birch Tree
 
 recipe Cut Birch Tree
     {
-	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCBirch5,
     	Result:HCBirchstump,
     	CanBeDoneFromFloor:true,
@@ -453,7 +452,7 @@ recipe Cut Birch Tree
 
 recipe Cut Birch Tree
     {
-	keep Axe/HCMakeshiftaxe/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron,
+	keep Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone,
 	HCBirch6,
     	Result:HCBirchstump,
     	CanBeDoneFromFloor:true,

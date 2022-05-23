@@ -286,13 +286,38 @@ recipe Make Lure
 	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
     	HCWoodblock,
 	HCHotgluegunfull/HCSuperglue,
-    	keep HuntingKnife/HCJackknife/FlintKnife,
 	keep HCPliers,
+    	keep [Recipe.GetItemTypes.SharpKnife],
    	Result:HCLurewoodfish,
     	Time:500,
     	NeedToBeLearn:true,
         Category:Fishing,
        	OnGiveXP:HCFishing_OnGiveXP,
+    }
+	
+	
+    recipe Fix Fishing Rod
+    {
+        FishingRodBreak,
+        Twine=2,
+        HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhookbone,
+
+        Result:FishingRodTwineLine,
+        Time:80.0,
+        Category:Fishing,
+        NeedToBeLearn:true,
+    }
+
+    recipe Fix Fishing Rod
+    {
+        FishingRodBreak,
+        FishingLine=2,
+        HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhookbone,
+
+        Result:FishingRod,
+        Time:80.0,
+        Category:Fishing,
+        NeedToBeLearn:true,
     }
 
 recipe Make Lure
@@ -303,8 +328,8 @@ recipe Make Lure
     	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
     	HCBlackfeathers/HCWhitefeathers/HCBrownfeathers/HCStripedfeather/HCBluejayfeather,
 	HCHotgluegunfull/HCSuperglue,
-    	keep HuntingKnife/HCJackknife/FlintKnife,
 	keep HCPliers,
+    	keep [Recipe.GetItemTypes.SharpKnife],
    	Result:HCLurefeatherfly,
     	Time:100,
     	NeedToBeLearn:true,

@@ -758,6 +758,43 @@ recipe Open Toiletpaper Pack
     Result:ToiletPaper=4,
     Time:15,
     }
+	
+
+recipe Unbox Box of Black Hair Color
+    { 
+		HCHaircolorblack=4,
+		Result:HairDyeBlack,
+		Time:15,
+    }
+
+recipe Unbox Box of Blonde Hair Color
+    { 
+		HCHaircolorblond=4,
+		Result:HairDyeBlonde,
+		Time:15,
+    }
+
+recipe Unbox Box of Brunette Hair Color
+    {
+		HCHaircolorbrunette=4,
+		Result:HairDyeLightBrown,
+		Time:15,
+    }
+
+recipe Unbox Box of Pink Hair Color
+    {
+		HCHaircolorpink=4,
+		Result:HairDyePink,
+		Time:15,
+    }
+
+recipe Unbox Box of Red Hair Color
+    {
+		HCHaircolorred=4,
+		Result:HairDyeRed,
+		Time:15,
+    }
+	
 
 recipe Disinfect Diaper
     {

@@ -738,8 +738,8 @@ recipe Open Bag of Burger Buns
 
 recipe Slice Bread
     {
-        	keep BreadKnife/KitchenKnife/ButterKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
         	Bread/HCWholegrainbread,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Result:BreadSlices=3,
         	Sound:PZ_SliceBread,
         	Time:40.0,
@@ -773,9 +773,9 @@ recipe Make Bowl of Sweetened Gruel
 recipe Make Dry Ramen Noodles
 	{
 		keep RollingPin,
-		keep KitchenKnife/HuntingKnife/ButterKnife/FlintKnife,
 		Water=1,
 		Flour/HCRiceflour,
+		keep [Recipe.GetItemTypes.SharpKnife],
 		Result:Ramen,
 		Time:150.0,
 	   	Category:Cooking,
@@ -789,7 +789,7 @@ recipe Make Homemade Pancake Batter
 		Water=1,
 		Flour/HCRiceflour,
 		Sugar=1,
-		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+		[Recipe.GetItemTypes.Egg],
 		Result:HCPancakebatter,
 		Time:30.0,
 		Category:Cooking,
@@ -1239,7 +1239,7 @@ recipe Make Pumpkin Bread Dough
        	Water=1,
         Flour/HCRiceflour,
 		HCPumpkinflesh,
-		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+		[Recipe.GetItemTypes.Egg],
        	Salt;1,
        	Sugar,
        	Yeast,
@@ -1283,7 +1283,7 @@ recipe Make Pumpkin Bread Dough
 		Milk,
 		Sugar,
 		Salt;1,
-		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+		[Recipe.GetItemTypes.Egg],
 		Result:HCCornbreadpan,
 		Time:50.0,
 		Category:Cooking,

@@ -194,6 +194,7 @@ item HCSpaceblanket
         EnduranceMod 			= 	0.5,
         AttachmentType      = Knife,
 		DisplayCategory          =   WepMelee,
+		Tags = CutPlant;SharpKnife,
 	}
 
     item HCPaddlewood

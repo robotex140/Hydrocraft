@@ -407,8 +407,8 @@ item HCPiecrust
 
 recipe Slice Pie
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
         	PieWholeRaw,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Result:Pie=5,
         	Time:20.0,
         	OnCreate:SlicePie_OnCreate,
@@ -418,8 +418,8 @@ recipe Slice Pie
 
 recipe Slice Cake
     {
-        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
         	CakeRaw,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
         	Result:CakeSlice=5,
         	Time:20.0,
         	OnCreate:SlicePie_OnCreate,
@@ -588,7 +588,7 @@ recipe Make Pie Crust
 	{
 		HCPiecrust,
 		Cheese/HCCheddar,
-		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
+		[Recipe.GetItemTypes.Egg],
 		Chicken/Steak/Onion/Broccoli/Tomato/Leek/Ham,
 		Result:HCQuichepan,
 		Time:125.0,

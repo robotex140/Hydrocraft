@@ -197,6 +197,7 @@ item TrellisKit
         BreakSound  			=   	BreakMetalItem,
         TreeDamage  			=   	10,
 		DisplayCategory			=   WepMelee,
+		Tags = CutPlant,
 	}
 
     item HCHedgecutter
@@ -235,6 +236,7 @@ item TrellisKit
         	TreeDamage  			=   	10,
         	EnduranceMod 			= 	0.5,
 		DisplayCategory			=   WepMelee,
+		Tags = CutPlant,
 	}
 
     item HCPruningsheers
@@ -273,6 +275,7 @@ item TrellisKit
         	TreeDamage  					=   	10,
         	EnduranceMod 					= 	0.5,
 		DisplayCategory			=   WepMelee,
+		Tags = CutPlant,
 	}
 
 

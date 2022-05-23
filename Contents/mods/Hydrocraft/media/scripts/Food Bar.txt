@@ -1481,6 +1481,7 @@ item HCDrinklongisland
         Calories 		= 	443,
         CantBeFrozen 		= 	TRUE,
 	DisplayCategory          =   FoodB,
+		Tags					= Disinfectant,
 	}
 
 item HCDrinkgimlet
@@ -1634,6 +1635,7 @@ item HCMezcalworm
         Lipids 			= 	1.32,
         Calories 		= 	20,
 	DisplayCategory          =   FoodB,
+		Tags					= Disinfectant,
 	}
 
 item HCDrinkmargarita
@@ -1824,6 +1826,7 @@ item HCAguaardiente
 	 Carbohydrates 		= 	537,
          Packaged 		= 	TRUE,
 	DisplayCategory          =   FoodB,
+		Tags					= Disinfectant,
     }
 
 item HCEggnogpot 
@@ -1924,6 +1927,7 @@ item HCColademonopot
 	Lipids 			= 	40,
 	Calories 		= 	1084,
 	DisplayCategory          =   FoodP,
+		Tags					= Disinfectant,
     }
 
 item HCColademonomug 
@@ -1974,6 +1978,7 @@ item HCWhiskeycolademonobottle
 	Lipids 			= 	20,
 	Calories 		= 	542,
 	DisplayCategory          =   FoodP,
+		Tags					= Disinfectant,
     }
 	
 /****BEER*SIX*PACKS*START****/
@@ -2434,7 +2439,7 @@ recipe Mix Margarita
 recipe Make Eggnog Pot
 	{
 		Milk,
-        Egg,
+        [Recipe.GetItemTypes.Egg],
         WhiskeyFull;5,
         Pot,
 		Result:HCEggnogpot,

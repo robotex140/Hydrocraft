@@ -245,7 +245,7 @@ recipe Light Oil Lamp
   	{
    	HCOillamp,
    	Matches/Lighter,
-	HCFishoil/HCCookingoil/HCCookingoiljar,
+	HCFishoil/HCCookingoil/OilVegetable/HCCookingoiljar,
    	Result:HCOillamplit,
 	Time:30.0,
     	Category:Firecraft,
@@ -255,7 +255,7 @@ recipe Light Oil Lamp
   	{
    	HCClayoillamp,
    	Matches/Lighter,
-	HCFishoil/HCCookingoil/HCCookingoiljar,
+	HCFishoil/HCCookingoil/OilVegetable/HCCookingoiljar,
    	Result:HCClayoillamplit,
 	Time:30.0,
     	Category:Firecraft,
@@ -786,7 +786,7 @@ recipe Make Carbon Nanofiber
     	HCNanochains,
     	HCCoke,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	keep WeldingMask,
+    	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	keep HCFurnace2,
     	CanBeDoneFromFloor:true,
