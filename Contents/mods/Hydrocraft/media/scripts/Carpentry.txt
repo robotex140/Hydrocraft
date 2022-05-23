@@ -1114,16 +1114,6 @@ recipe Saw Logs
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
-recipe Make Sturdy Stick
-    {
-        Plank,
-        HCSawstone,
-        Result:WoodenStick=2,
-        Sound:PZ_Saw,
-        Time:1000,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
 recipe Make Wooden Tongs
     {
         TreeBranch=2,
