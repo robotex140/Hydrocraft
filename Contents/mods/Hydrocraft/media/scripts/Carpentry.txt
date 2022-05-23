@@ -1949,23 +1949,6 @@ recipe Make Log Table
     {
         Log=6,
         Twine=12,
-        keep Hammer/HammerStone,
-        keep Saw/GardenSaw,
-        CanBeDoneFromFloor:true,
-        Result:HCTablelog,
-        SkillRequired:Woodwork=1,
-        Sound:PZ_Hammer,
-        Time:500,
-        Category:Carpentry,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-recipe Make Log Table
-    {
-        Log=6,
-        Twine=12,
-        keep Hammer/HammerStone,
-        HCSawstone,
         CanBeDoneFromFloor:true,
         Result:HCTablelog,
         SkillRequired:Woodwork=1,
