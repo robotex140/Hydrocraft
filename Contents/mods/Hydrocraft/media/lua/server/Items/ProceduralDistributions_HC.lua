@@ -2397,7 +2397,7 @@ local books = {
         "Hydrocraft.HCBookcryptozoology", 1,
         "Hydrocraft.HCBookpapermaking", 1,
         "Hydrocraft.HCBooktoys", 1,
-        "Hydrocraft.HCBookplastics", 1,
+        --"Hydrocraft.HCBookplastics", 1,--book removed.
         "Hydrocraft.HCCookbookbbq", 1,
         "Hydrocraft.HCCookbookbutcher", 1,
         "Hydrocraft.HCCookbookegg", 1,
