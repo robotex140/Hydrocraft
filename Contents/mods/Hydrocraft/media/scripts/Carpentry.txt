@@ -1126,18 +1126,8 @@ recipe Make Sturdy Stick
 
 recipe Make Wooden Tongs
     {
-        WoodenStick=2,
-        HCSawstone,
-        Result:HCTongswood,
-        Time:10,
-        Category:Carpentry,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-recipe Make Wooden Tongs
-    {
-        WoodenStick=2,
-        keep Saw/GardenSaw,
+        TreeBranch=2,
+		Twine,
         Result:HCTongswood,
         Time:10,
         Category:Carpentry,

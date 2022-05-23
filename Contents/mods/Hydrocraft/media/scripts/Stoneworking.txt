@@ -458,17 +458,6 @@ recipe Make Stone Saw
     	OnGiveXP:HCHunger_OnGiveXP,
     }
 
-recipe Make Stone Knife
-    {
-    	SharpedStone,
-	Twigs,
-	Twine,
-    	Result:FlintKnife,
-    	Time:15,
-        Category:Survivalist,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
-
 recipe Make Tombstone 
     {
     	Stone=10,
