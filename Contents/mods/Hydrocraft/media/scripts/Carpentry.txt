@@ -1102,10 +1102,32 @@ recipe Remove Logs from Stack
         Category:Carpentry,
     }
 
+recipe Saw Logs
+    {
+        Log,
+        HCSawstone,
+        CanBeDoneFromFloor:true,
+        Result:Plank=1,
+        Sound:PZ_Saw,
+        Time:1000,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Sturdy Stick
+    {
+        Plank,
+        HCSawstone,
+        Result:WoodenStick=2,
+        Sound:PZ_Saw,
+        Time:1000,
+        OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
 recipe Make Wooden Tongs
     {
-        TreeBranch=2,
-		Twine,
+        WoodenStick=2,
+        HCSawstone,
         Result:HCTongswood,
         Time:10,
         Category:Carpentry,
@@ -1129,6 +1151,18 @@ recipe Make Small Curved Shaft
         Result:HCCurvedshaftsmall,
         Time:100,
         Category:Survivalist,
+        OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Wood Block
+    {
+        Log,
+        HCSawstone,
+        CanBeDoneFromFloor:true,
+        Result:HCWoodblock=3,
+        Sound:PZ_Saw,
+        Time:1000,
+        Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }
 
@@ -1925,6 +1959,23 @@ recipe Make Log Table
     {
         Log=6,
         Twine=12,
+        keep Hammer/HammerStone,
+        keep Saw/GardenSaw,
+        CanBeDoneFromFloor:true,
+        Result:HCTablelog,
+        SkillRequired:Woodwork=1,
+        Sound:PZ_Hammer,
+        Time:500,
+        Category:Carpentry,
+        OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+recipe Make Log Table
+    {
+        Log=6,
+        Twine=12,
+        keep Hammer/HammerStone,
+        HCSawstone,
         CanBeDoneFromFloor:true,
         Result:HCTablelog,
         SkillRequired:Woodwork=1,

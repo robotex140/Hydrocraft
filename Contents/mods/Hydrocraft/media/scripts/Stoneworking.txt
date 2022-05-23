@@ -26,6 +26,16 @@ item HCMortar
 		DisplayCategory	= CraftMas,
     } 
 
+item HCSawstone
+    {
+        Weight    		= 0.5,
+	Type 			= Drainable,
+	UseDelta 		= 0.25,
+        DisplayName         	= Stone Saw,
+        icon 			= HCSawstone,
+		DisplayCategory	= Tool,
+    }
+
 item HCChisel
     {
         Weight    		= 0.5,
@@ -431,6 +441,29 @@ recipe Make Stone Arrowhead
     	keep Stone/HCChisel,
     	Result:HCStonearrowhead,
     	NeedToBeLearn:true,
+    	Time:15,
+        Category:Survivalist,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+
+recipe Make Stone Saw
+    {
+    	SharpedStone=3,
+	TreeBranch,
+	Twine,
+    	Result:HCSawstone,
+    	Time:15,
+        Category:Survivalist,
+    	OnGiveXP:HCHunger_OnGiveXP,
+    }
+
+recipe Make Stone Knife
+    {
+    	SharpedStone,
+	Twigs,
+	Twine,
+    	Result:FlintKnife,
     	Time:15,
         Category:Survivalist,
     	OnGiveXP:HCHunger_OnGiveXP,
