@@ -3111,7 +3111,7 @@ ItemValueTable["Hydrocraft.HCPotvegoilcooked"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPowercord"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPrawn"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPrepperbag"] = 5.00 ;
-ItemValueTable["Hydrocraft.HCPretzel"] = 0.00 ;
+
 ItemValueTable["Hydrocraft.HCPricklypearfruit"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPricklypearseeds"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCPricklypearseedspacket"] = 0.00 ;

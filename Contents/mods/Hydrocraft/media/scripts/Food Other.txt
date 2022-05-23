@@ -79,22 +79,6 @@ item HCCottoncandy
 	CantBeFrozen			=	TRUE,
 		DisplayCategory		= FoodN,
 	}
-
-item HCPretzel
-	{
-	HungerChange			=	-15,
-	Weight				=	0.1,
-	Type				=	Food,
-	UnhappyChange			=	-10,
-	DisplayName			=	Pretzel,
-	Icon				=	HCPretzel,
-	FoodType			=	NoExplicit,
-	Carbohydrates 			= 	80,
-        Proteins 			= 	10,
-        Lipids 				= 	2.9,
-        Calories 			= 	384,
-		DisplayCategory		= FoodN,
-	}
 		
 /************************RECIPES************************/
     
