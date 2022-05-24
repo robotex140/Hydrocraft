@@ -395,12 +395,12 @@ end
 
 local function CreateAgedMeat(animal, fullType, count, inv)
 
-	local age = animal:getAge()
+	--local age = animal:getAge()
 	local rotten = animal:isRotten()
 	
 	for i=1, count, 1 do
 		local meat = InventoryItemFactory.CreateItem(fullType)
-		meat:setAge(age)
+		--meat:setAge(age)
 		meat:setRotten(rotten)
 		inv:AddItem(meat)
 	end
