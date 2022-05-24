@@ -853,15 +853,17 @@ local kitchen_dishes_junk_items = {
         "Hydrocraft.HCJellomold1", 1,
         "Hydrocraft.HCSteakknife", 1,
         "Hydrocraft.HCPumpkinknife", 1,
+        "Hydrocraft.HCCoffeefilterdry", 1,
+        "Hydrocraft.HCCoffeefilterbox", 1,
 };
 insertItemListsInProcDistribution( "KitchenDishes", {   kitchen_dishes_junk_items  } );
 
 -- KitchenDishes Junk
-local kitchen_dishes_junk = {
-        "Hydrocraft.HCCoffeefilterdry", 1,
-        "Hydrocraft.HCCoffeefilterbox", 1,
-};
-insertJunkListsInProcDistribution( "KitchenDishes", {   kitchen_dishes_junk  } );
+--local kitchen_dishes_junk = {
+--        "Hydrocraft.HCCoffeefilterdry", 1,
+--        "Hydrocraft.HCCoffeefilterbox", 1,
+--};
+--insertJunkListsInProcDistribution( "KitchenDishes", {   kitchen_dishes_junk  } );
 
 -- KitchenPots
 local kitchen_pots_items = { 
