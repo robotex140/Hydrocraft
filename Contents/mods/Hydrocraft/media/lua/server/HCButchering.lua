@@ -387,7 +387,7 @@ local function HydrocraftButchering_GenericButcherMeat(animal, meatFullType)
 	meat:setCalories(animal:getCalories() * 0.75)
 	meat:setCarbohydrates(animal:getCarbohydrates() * 0.75)
 
-	meat:setAge(animal:getAge())
+	--meat:setAge(animal:getAge())
 	meat:setRotten(animal:isRotten())
 	
 	return meat	
