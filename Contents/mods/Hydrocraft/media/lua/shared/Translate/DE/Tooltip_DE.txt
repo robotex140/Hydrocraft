@@ -1,0 +1,14 @@
+Tooltip_DE = {
+-- Item tooltip
+	Tooltip_HCArmor = "Druecke P, um zu sehen, welche Ruestung du traegst.",
+	Tooltip_HCBluebarrelcorpse = "Wird sich zu giftigem Abfall entwickeln.",
+	Tooltip_HCFeedme = "Zum Ueberleben fuettern.",
+	Tooltip_HCSleep = "Zum Verwenden auf den Boden fallen lassen.",
+
+--	Tooltip_food_Cooked = "Gekocht",
+--	Tooltip_food_Frozen = "Gefroren",
+--	Tooltip_item_Insulation = "Isolierung",
+
+	HCFarming_Tooltip_UseFruitAsSeed = "Kann Fruechte als Samen verwenden.",
+	Tooltip_item_BonusLongbowReload = "Gewaehrt dem Langbogen beim Tragen +50% Nachladegeschwindigkeit.",
+}

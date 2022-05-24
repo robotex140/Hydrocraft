@@ -1,0 +1,29 @@
+Sandbox_DE = {
+	Sandbox_Hydrocraft = "Hydrocraft GER",
+
+	Sandbox_Hydrocraft_Spawn_Guns = "Hydrocraft-Gewehr spawnen?",
+	
+	Sandbox_Hydrocraft_Spawn_Book_Covers = "Buchcover spawnen?",
+	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "Bucheinbaende zurueckgewinnen, wenn man den Einband eines Buches entfernt? (Nutzloser Gegenstand)",
+
+	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Zigarettenstummel?",
+
+	Sandbox_Hydrocraft_Show_Damage_On_Hit = "Bei Treffer Schaden anzeigen",
+
+	Sandbox_Hydrocraft_Burn_Damage = "Schmieden Verbrennungsschaden",
+	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Beeinflusst den Verbrennungsschaden bei der Verwendung von Brennofen, Schmelzofen, Hochofen und Industrieofen.",
+	Sandbox_Hydrocraft_Burn_Damage_option1 = "Vollstaendig (Standard)",
+	Sandbox_Hydrocraft_Burn_Damage_option2 = "Halb",
+	Sandbox_Hydrocraft_Burn_Damage_option3 = "Keine",
+
+	Sandbox_Hydrocraft_Animal_Starvation = "Hungernde Tiere",
+	Sandbox_Hydrocraft_Animal_Starvation_tooltip = "Duerfen Nutztiere verhungern?",
+	Sandbox_Hydrocraft_Animal_Starvation_option1 = "Ja (Standard)",
+	Sandbox_Hydrocraft_Animal_Starvation_option2 = "Nein",
+
+	Sandbox_Hydrocraft_Zombie_Loot = "Zombie Beute Level",
+	Sandbox_Hydrocraft_Zombie_Loot_tooltip = "Aendert die Menge der Beute bei toten Zombies. Es hat keine Auswirkungen auf die klassische Beute, nur auf die "zusaetzliche" Beute, die durch Hydrocraft hinzugefuegt wird (die einige klassische Gegenstaende enthaelt).",
+	Sandbox_Hydrocraft_Zombie_Loot_option1 = "Normal (Standard)",
+	Sandbox_Hydrocraft_Zombie_Loot_option2 = "Niedrig",
+	Sandbox_Hydrocraft_Zombie_Loot_option3 = "Sehr niedrig",
+}

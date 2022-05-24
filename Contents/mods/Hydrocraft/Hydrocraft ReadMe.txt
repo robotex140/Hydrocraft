@@ -51,6 +51,7 @@ Included Parts from the following Mods
 Translations
 - Chinese - By Sky_Orc_Mm
 - French - By Klare, Darkweeeeeeeed, Kitsune Alias Nana
+- German - TheSoulrester
 - Italian - By Woldren
 - Korean - By DocJason
 - Russian - By Humort, KChernysh, Nebula, vSterlin, Lanceris
