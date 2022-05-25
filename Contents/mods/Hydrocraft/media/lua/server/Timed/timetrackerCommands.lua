@@ -10,11 +10,13 @@ end
 local function loadItem(item)
     local type = item:getType()
     local entry = ItemTimeTrackerMod[ type ]
-    item:getModData().Life = entry.Life
-    item:getModData().TurnInto = entry.TurnInto
-    item:getModData().StartTime = getGameTime():getWorldAgeHours()
+	if entry ~= nil then
+		item:getModData().Life = entry.Life
+		item:getModData().TurnInto = entry.TurnInto
+		item:getModData().StartTime = getGameTime():getWorldAgeHours()
 
-    noise("loadItem ",item:getType(),item:getModData().Life,item:getModData().TurnInto,item:getModData().StartTime)
+		noise("loadItem ",item:getType(),item:getModData().Life,item:getModData().TurnInto,item:getModData().StartTime)
+	end
 end
 
 local function worldItemReplace(item,square)
