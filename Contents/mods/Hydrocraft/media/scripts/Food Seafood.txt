@@ -822,17 +822,6 @@ recipe Slice Fillet
         	Category:Cooking,
     		OnGiveXP:HCCooking_OnGiveXP,
     }
-
-recipe Slice Frog
-    {
-        	Frog,
-        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
-        	Result:FrogMeat,
-        	Sound:SliceMeat,
-        	Time:50.0,
-        	Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
-    }
     
 recipe Prepare Fried Herring
 	{
