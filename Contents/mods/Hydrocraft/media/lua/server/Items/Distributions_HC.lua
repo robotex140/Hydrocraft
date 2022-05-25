@@ -165,7 +165,7 @@ local bin_items = {
         "Hydrocraft.HCBatterysmalldead", 0.03,
         "Hydrocraft.HCBatterymediumdead", 0.03,
         "Hydrocraft.HCBattery9voltdead", 0.03,
-        "Hydrocraft.HCCork", 0.1,
+        "Hydrocraft.HCCork", 1,
         "Hydrocraft.HCTrashsmall", 8,
         "Hydrocraft.HCTrashmedium", 4,
         "Hydrocraft.HCTrashlarge", 3,
