@@ -542,7 +542,7 @@ item HCCannedshroomsopen
 	CantBeFrozen			=	TRUE,
         EvolvedRecipeName 		= 	Canned Mushrooms,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedmushroomsopen,
+	WorldStaticModel = Hydrocraft.HCCannedshroomsopen,
 	}
 
 item HCCannedpumpkinopen
@@ -865,7 +865,7 @@ item HCCannedgovermentchickenopen
 	CantBeFrozen			=	TRUE,
     	EvolvedRecipeName 		= 	Canned Meat,
 	DisplayCategory          =   FoodP,
-	WorldStaticModel = Hydrocraft.HCCannedgovermentchickenopen,
+	WorldStaticModel = Hydrocraft.HCCannedgovernmentchickenopen,
 	}
 
 item HCCannedgovermentporkopen

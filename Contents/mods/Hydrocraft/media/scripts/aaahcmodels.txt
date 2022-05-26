@@ -266,7 +266,7 @@ module Hydrocraft
     mesh = CanOpen,
     texture = WorldItems/HCCannedGeneric,
   }
-	model HCCannedgovermentbeefopen
+	model HCCannedgovernmentbeefopen
   {
     mesh = CanOpen,
     texture = WorldItems/HCCannedGovernmentBeef,
