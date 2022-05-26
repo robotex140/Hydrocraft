@@ -874,7 +874,7 @@ recipe Craft Bone Needle
 
 recipe Carve Knitting Needles
     {
-    HCbone=2,
+    HCBone=2,
     keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
     Result:KnittingNeedles,
     Sound:PZ_Saw,
