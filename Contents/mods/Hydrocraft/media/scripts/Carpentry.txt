@@ -936,7 +936,7 @@ item HCThreshermech
 item HCPlankoil
     {
         MaxRange                    = 2,
-        WeaponSprite                = WoodPlank,
+        WeaponSprite                = Plank,
         MinAngle                    = 0.2,
         Type                        = Weapon,
         MinimumSwingTime            = 4,
