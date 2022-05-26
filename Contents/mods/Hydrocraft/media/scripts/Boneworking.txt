@@ -861,7 +861,7 @@ recipe Craft Bone Dice
 recipe Craft Bone Needle
 	{
 
-    HCBone/HCZombiebones/HCWishbone,
+    HCBone/HCZombiebones,
 		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
 		Result:HCBoneneedle,
 		Sound:PZ_Saw,
