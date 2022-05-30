@@ -826,12 +826,12 @@ recipe Slice Fillet
 recipe Prepare Fried Herring
 	{
 		keep Pan,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		HCHerring,	
 		Result:HCFriedherring,
 		Time:35.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+    	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 	recipe Prepare Boiled Crab

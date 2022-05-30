@@ -1070,12 +1070,29 @@ recipe Assemble Welding Torch
 
 recipe Replace Welding Gas Tank
     {
-    HCWeldingsetempty,
-    HCWeldingtank,
-    Result:HCWeldingset,
-    Time:15,
-    Category:Engineer,
-    OnCreate:recipe_hcemptyweldingtank,
+        HCWeldingsetempty,
+        HCWeldingtank,
+        Result:HCWeldingset,
+        Time:15,
+        Category:Engineer,
+        OnCreate:recipe_hcemptyweldingtank,
+    }
+
+recipe Empty Welding Torch
+    {
+        destroy HCWeldingset,
+        Result:HCWeldingsetempty,
+        Time:15,
+        Category:Engineer,
+    }
+
+recipe Disassemble Welding Set
+    {
+        destroy HCWeldingsetempty,
+        Result: HCWeldinghose,
+        time:15,
+        Category:Engineer,
+        OnCreate:recipe_hcdisassembleweldingtorch,
     }
 
 recipe Refill Hot Glue Gun

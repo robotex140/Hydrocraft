@@ -70,5 +70,14 @@ module Hydrocraft
 		Category:Cooking,
 		Sound:EmptyPan,
 	}
+
+	recipe Empty Sugar
+	{
+		destroy Sugar,
+		Result:HCSugarempty,
+		OnGiveXP:NoXP_OnGiveXP,
+		Time: 20.0,
+		Category:Cooking,
+	}
 	
 }

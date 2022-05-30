@@ -690,7 +690,7 @@ recipe Prepare Jam Pot
 	{
         	SkillRequired:Cooking=4,
 		destroy WaterPot,
-		Sugar,
+		Sugar;3,
 		HCLemonjuicebottle/HCLemonjuicebowl,
 		Result:HCJamstarter,
 		Time:90.0,

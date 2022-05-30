@@ -98,11 +98,11 @@ recipe Make Corn on the Cob
 	{
 		Pan,
 		Corn,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		Result:HCCornonthecob,
 		Time:85.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 			
 }

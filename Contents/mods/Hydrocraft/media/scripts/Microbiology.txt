@@ -179,7 +179,7 @@ recipe Label Agar Jar
 
 recipe Make Homemade Agar
     	{
-    	Sugar,
+    	Sugar;2,
         HCAgarempty,
         HCAlgaePowder=2,
         Water,

@@ -247,6 +247,11 @@ if scriptItem then
 	scriptItem:DoParam("ReplaceOnUse = Hydrocraft.HCSugarempty") --should this be ReplaceOnDeplete?
 end
 
+scriptItem = ScriptManager.instance:getItem("Base.OilVegetable")
+if scriptItem then
+	scriptItem:DoParam("ReplaceOnDeplete = Base.WaterBottleEmpty")
+end
+
 scriptItem = ScriptManager.instance:getItem("Base.Rice")
 if scriptItem then
 	scriptItem:DoParam("DisplayCategory = Cooking")

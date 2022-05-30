@@ -83,6 +83,8 @@ item HCCookingoil
 	DisplayName 			= 	Cooking Oil,
 	Icon 				= 	HCCookingoil,
 	DisplayCategory          =   Cooking,
+	ReplaceOnDeplete        =   WaterBottleEmpty,
+	WorldStaticModel    = OilVegetable_Ground,
 	}
 
 item HCCornsyrup
@@ -441,7 +443,7 @@ item HCCookingoiljar
 	{
 	Weight 					= 	1,
 	Type 					= 	Drainable,
-	UseDelta 				= 	0.25,
+	UseDelta 				= 	0.1,
 	DisplayName 			= 	Jar of Cooking Oil,
 	Icon 					= 	HCCookingoiljar,
 	ReplaceOnDeplete		=	HCJar,
@@ -1389,7 +1391,7 @@ recipe Make Homemade Ketchup
 	{
        	SkillRequired:Cooking=3,
 		HCTomatosaucebowl,
-		Sugar,
+		Sugar;1,
 		Vinegar,
 		HCKetchupempty,
 		keep HCWhisk,		
@@ -1577,7 +1579,7 @@ recipe Make Peanutbutter
        	skillRequired:Cooking=3,
 		Peanuts=4,
 		Salt;1,
-		Sugar,
+		Sugar;1,
 		HCCookingoil/HCCookingoiljar/OilVegetable,
 		HCJar,
     	keep MortarPestle,
@@ -1593,7 +1595,7 @@ recipe Make Peanutbutter
        	SkillRequired:Cooking=3,
 		Peanuts=4,
 		Salt;1,
-		Sugar,
+		Sugar;1,
 		HCCookingoil/HCCookingoiljar/OilVegetable,
 		HCPeanutbutterjarempty,
     	keep MortarPestle,

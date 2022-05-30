@@ -794,7 +794,7 @@ recipe Make Corn Tortilla
     SkillRequired:Cooking=2,
     Cornflour,
 	Water,
-	HCCookingoil/OilVegetable/HCCookingoiljar,
+	HCCookingoil/OilVegetable/HCCookingoiljar;1,
 	keep Pan,
 	Result:HCTortillacorn,
     NeedToBeLearn:true,
@@ -865,23 +865,23 @@ recipe Make Burrito Grande
 
 recipe Make Taquito
 	{
-       		SkillRequired:Cooking=2,
-       		HCTortillacorn,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+       	SkillRequired:Cooking=2,
+       	HCTortillacorn,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		MeatPatty/Chicken,
 		Pan,
 		Result:HCTaquito,
-    		NeedToBeLearn:true,
+    	NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Taco
 	{
-       		SkillRequired:Cooking=2,
-       		HCTortillacorn,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+       	SkillRequired:Cooking=2,
+       	HCTortillacorn,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		MeatPatty/Chicken,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		Lettuce,
@@ -890,11 +890,11 @@ recipe Make Taco
 		HCTacosaucebottle/HCTacosaucebowl,
 		Pan,
 		Result:HCTacocorn,
-    		NeedToBeLearn:true,
+    	NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
 		OnCreate:HCRecipeBowls,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Taco Grande
@@ -914,9 +914,9 @@ recipe Make Taco Grande
 
 recipe Make Soft Taco
 	{
-       		SkillRequired:Cooking=2,
-       		HCTortillaflour,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+       	SkillRequired:Cooking=2,
+       	HCTortillaflour,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		MeatPatty/Chicken,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		Lettuce,
@@ -925,11 +925,11 @@ recipe Make Soft Taco
 		HCTacosaucebottle/HCTacosaucebowl,
 		Pan,
 		Result:HCTacoflour,
-    		NeedToBeLearn:true,
+    	NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
 		OnCreate:HCRecipeBowls,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Soft Taco Grande
@@ -949,9 +949,9 @@ recipe Make Soft Taco Grande
 
 recipe Make Fish Taco
 	{
-       		SkillRequired:Cooking=4,
-       		HCTortillacorn,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+       	SkillRequired:Cooking=4,
+       	HCTortillacorn,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		FishFillet,
 		Cabbage/HCCabbagered/HCCabbagewhite,
 		HCSlicedtomato,
@@ -959,18 +959,18 @@ recipe Make Fish Taco
 		HCTacosaucebottle/HCTacosaucebowl,
 		Pan,
 		Result:HCTacofish,
-    		NeedToBeLearn:true,
+    	NeedToBeLearn:true,
 		Time:100.0,
 	   	Category:Cooking,
 		OnCreate:HCRecipeBowls,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Corned Beef Taco
 	{
 		SkillRequired:Cooking=4,
 		HCTortillacorn,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		CannedCornedBeefOpen,
 		Cabbage/HCCabbagered/HCCabbagewhite,
 		HCTacosaucebottle/HCTacosaucebowl,
@@ -986,20 +986,20 @@ recipe Make Corned Beef Taco
 
 recipe Make Enchilada
 	{
-       		SkillRequired:Cooking=3,
-       		HCTortillacorn=4,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+       	SkillRequired:Cooking=3,
+       	HCTortillacorn=4,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		MeatPatty/Chicken,
 		HCTacosaucebottle/HCTacosaucebowl,
 		HCSourcream,
 		RoastingPan,
 		Result:HCEnchilada,
-    		NeedToBeLearn:true,
+    	NeedToBeLearn:true,
 		Time:150.0,
 	   	Category:Cooking,
 		OnCreate:HCRecipeBowls,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Nachos

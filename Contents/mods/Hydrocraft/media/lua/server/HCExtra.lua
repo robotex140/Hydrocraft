@@ -413,6 +413,12 @@ function recipe_hcemptyweldingtank(items, result, player)
 	inv:AddItem("Hydrocraft.HCWeldingtankempty");
 end
 
+function recipe_hcdisassembleweldingtorch(items, result, player)
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCWeldingtankempty")
+	inv:AddItem("Base.BlowTorch")
+end
+
 --Medical Stuff
 
 function recipe_hcgetmedicalskeleton(items, result, player)
@@ -1663,10 +1669,7 @@ end
 
 function recipe_hcpotatopot3(items, result, player)
 	HCAddManySameItem("Base.Pot", 2, player);
-end 
-
-
-
+end
 
 function recipe_hclargetuplid(items, result, player)
 	local inv = player:getInventory();

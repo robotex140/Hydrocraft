@@ -2061,7 +2061,7 @@ recipe Make Bottle of Juice
 	{
 		SkillRequired:Cooking=2,
 		HCLemonjuicebowl/HCLemonjuicebottle,
-		Sugar,
+		Sugar;1,
 		Water=2,
 		destroy PopBottleEmpty,
 		Result:HCLemonade1,
@@ -2075,7 +2075,7 @@ recipe Make Bottle of Juice
 	{
        		SkillRequired:Cooking=2,
 		HCLemonjuicebowl/HCLemonjuicebottle,
-		Sugar,
+		Sugar;1,
 		Water=2,
 		destroy WaterBottleEmpty/WaterBottleFull,
 		Result:HCLemonade2,
