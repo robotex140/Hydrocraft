@@ -1,6 +1,11 @@
 
 Recipe = Recipe or {}
 Recipe.OnCreate = Recipe.OnCreate or {}
+Recipe.OnCanPerform = Recipe.OnCanPerform or {}
+Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
+Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
+
+local lastRecipe = nil
 
 local allRecipes = nil
 
@@ -17,12 +22,17 @@ local function getRecipe(recipeName)
 	return nil
 end
 
+function Recipe.OnCanPerform.Hydrocraft.RememberThisRecipe(recipe, player, item)
+	lastRecipe = recipe
+	return true
+end
+
 --[[
 IMPORTANT
 Only call is from OnCreate for 'simple' recipes, that is recipes that take whole food items and combine them into a new food.
 DO NOT call this if the recipes takes part of an item, e.g. "OilVegetable;1,", doing so will give wildly inflated food stats.
 ]]--
-function Recipe.OnCreate.Generic(items, result, player)
+function Recipe.OnCreate.Hydrocraft.CreateGenericFood(items, result, player)
 
 	local calories = 0
 	local carbs = 0
@@ -212,9 +222,20 @@ local function Recipe_OnCreate_ComplexBetter(items, result, recipeName)
 
 end
 
+function Recipe.OnCreate.Hydrocraft.CreateComplexFood(items, result, player)
+	if lastRecipe ~= nil then
+		local recipeName = lastRecipe:getName()
+		Recipe_OnCreate_ComplexBetter(items, result, recipeName)	
+	else
+		print("Exception: lastRecipe is nil in Recipe.OnCreate.CreateComplexFood")
+	end
+	lastRecipe = nil	
+end
+
+--[[
 function Recipe.OnCreate.Make_Bowl_of_Cereal(items, result, player)
 	Recipe_OnCreate_ComplexBetter(items, result, "Make Bowl of Cereal")
-end
+end]]--
 
 function Recipe.OnCreate.MakeHomemadeFries(items, result, player)
 	Recipe_OnCreate_ComplexBetter(items, result, "Make French Fries")

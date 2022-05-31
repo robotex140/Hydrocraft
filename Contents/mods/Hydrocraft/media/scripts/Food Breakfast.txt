@@ -12,7 +12,8 @@ module Base
 		Time:50.0,
 		Category:Cooking,
 		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-		OnCreate:Recipe.OnCreate.Make_Bowl_of_Cereal,
+		OnCanPerform:Recipe.OnCanPerform.Hydrocraft.RememberThisRecipe,
+		OnCreate: Recipe.OnCreate.Hydrocraft.CreateComplexFood,/*Recipe.OnCreate.Make_Bowl_of_Cereal,*/
 		Override: true,/* needed to replace vanilla recipe! */
 	}	
 }
