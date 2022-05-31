@@ -907,16 +907,4 @@ recipe Slice Buskin Pumpkin
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
-
-	recipe Make Bag of Sugar
-	{
-		SkillRequired:Cooking=3,
-    	HCBeetsugar=4,
-		HCSugarempty,
-    	Result:Sugar,
-    	Time:50,
-		Category:Cooking,
-    	OnGiveXP:HCCooking_OnGiveXP,
-	}
-	
 }

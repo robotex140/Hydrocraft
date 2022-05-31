@@ -1,0 +1,162 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+    }
+
+/************************ITEMS************************/
+
+    item HCPotBeets
+    {
+        Weight    		        = 6,
+        Type    		        = Food,
+        FoodType	            = NoExplicit,
+        DisplayName             = Pot with Sugar Beets,
+        Icon 			        = HCPotBeets,
+        UnhappyChange			= 35,
+		BoredomChange			= 35,
+        DaysFresh			    = 50,
+        DaysTotallyRotten		= 100,
+        IsCookable			    = TRUE,
+        DangerousUncooked		= FALSE,
+        MinutesToCook			= 40,
+        MinutesToBurn			= 60,
+        Carbohydrates 			= 820,
+        Proteins 			    = 3,
+        Lipids 				    = 0,
+        Calories 			    = 3040,
+		DisplayCategory	        = CookRef,
+        ReplaceOnUse            = Pot,
+        ReplaceOnCooked         = Hydrocraft.HCPotBeetsCooked,
+    }
+
+    item HCPotBeetsCooked
+    {
+        Weight    		        = 6,
+        Type    		        = Food,
+        FoodType	            = NoExplicit,
+        DisplayName             = Pot with Cooked Sugar Beets,
+        Icon 			        = HCPotBeets,
+        UnhappyChange			= 35,
+		BoredomChange			= 35,
+        DaysFresh			    = 50,
+        DaysTotallyRotten		= 100,
+        DangerousUncooked		= FALSE,
+        MinutesToCook			= 40,
+        MinutesToBurn			= 60,
+        Carbohydrates 			= 820,
+        Proteins 			    = 3,
+        Lipids 				    = 0,
+        Calories 			    = 3040,
+		DisplayCategory	        = CookRef,
+        ReplaceOnUse            = Pot,
+		DisplayCategory	        = CookRef,
+    }
+
+    item HCDryingSugar
+    {
+        HungerChange			=	-60,
+        Weight				    =	1,
+        Type				    =	Food,
+        FoodType			    =	NoExplicit,
+        DisplayName			    =	Drying Beet Sugar,
+        Icon				    =	HCDriedSugar,
+        DaysFresh			    =	50,
+        DaysTotallyRotten		=	100,
+        IsCookable			    =	TRUE,
+        DangerousUncooked		=	FALSE,
+        MinutesToCook			=	40,
+        MinutesToBurn			=	60,
+        Carbohydrates 			= 	820,
+        Proteins 			    = 	3,
+        Lipids 				    = 	0,
+        Calories 			    = 	3040,
+        ReplaceOnUse			=	BakingTray,
+        ReplaceOnCooked			= 	Hydrocraft.HCDriedSugar,
+        DisplayCategory         =   FoodP,
+    }
+
+    item HCDriedSugar
+	{
+        HungerChange			=	-60,
+        BoredomChange			=	-10,
+        UnhappyChange			=	-15,
+        Weight				    =	1,
+        Type				    =	Food,
+        FoodType			    =	NoExplicit,
+        ReplaceOnUse			=	BakingTray,
+        DisplayName			    =	Dried Sugar,
+        Icon				    =	HCDriedSugar,
+        Carbohydrates 			= 	820,
+        Proteins 			    = 	3,
+        Lipids 				    = 	0,
+        Calories 			    = 	3040,
+	    DisplayCategory         =   FoodN,
+	}
+
+    item HCSugarPowder
+    {
+        HungerChange		=	-60,
+        BoredomChange		=	-10,
+        UnhappyChange		=	-15,
+        Weight				=	0.1,
+        Type				=	Food,
+        FoodType			=	NoExplicit,
+        DisplayName			=	Sugar Powder,
+        Icon				=	HCSugarPowder,
+        Carbohydrates 		= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	    DisplayCategory     =   FoodN,
+    }
+
+
+/************************RECIPES************************/
+
+    recipe Prepare Pot of Beet Water
+    {
+        destroy WaterPot,
+        HCBeetsugar=16,
+        Result:HCPotBeets,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+    recipe Strain Beet Water
+    {
+        HCPotBeetsCooked,
+        BakingTray,
+        keep HCCheesecloth,
+        Result:HCDryingSugar,
+        Time: 20.0,
+        Category:Cooking,
+        OnGiveXP:HCCooking_OnGiveXP,
+        OnCreate:recipe_hcpot,
+    }
+
+    recipe Make Sugar Powder
+    {
+        SkillRequired:Cooking=3,
+    	keep MortarPestle,
+    	HCDriedSugar,
+    	Result:HCSugarPowder=4,
+    	Time:50,
+		Category:Cooking,
+    	OnCreate:recipe_hcbakingtray,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+    recipe Make Bag of Sugar
+	{
+		SkillRequired:Cooking=3,
+    	HCSugarPowder=4,
+		HCSugarempty,
+    	Result:Sugar,
+    	Time:20,
+		Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+}

@@ -40,9 +40,11 @@ end -- function
 
 --Randomized Seeds.
 function HCRandomseeds(items, result, player)
-    local seed = ZombRand(88);	
-    if seed == 87 then
-        player:getInventory():AddItem("Hydrocraft.HCOreganoseedspacket");  
+    local seed = ZombRand(89);	
+    if seed == 88 then
+    player:getInventory():AddItem("Hydrocraft.HCBeetsugarseedpacket");
+    elseif seed == 87 then
+    player:getInventory():AddItem("Hydrocraft.HCOreganoseedspacket");  
     elseif seed == 86 then
 		player:getInventory():AddItem("Hydrocraft.HCWheatseedpacket");	
     elseif seed == 85 then

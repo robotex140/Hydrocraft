@@ -6803,7 +6803,7 @@ recipe Harvest Crop
 recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        HCBeetsugar,
+        HCBeetsugar/HCBeetsugarseeds,
         HCPlanter,
         keep HandShovel,
         Result:HCPottedBeetsugarsmall,
