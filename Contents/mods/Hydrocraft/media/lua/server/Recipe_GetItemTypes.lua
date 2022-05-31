@@ -23,6 +23,14 @@ function Recipe.GetItemTypes.Box12(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box12"))
 end
 
+function Recipe.GetItemTypes.Box25(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Box25"))
+end
+
+function Recipe.GetItemTypes.Box50(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Box50"))
+end
+
 function Recipe.GetItemTypes.Box100(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box100"))
 end

@@ -21,6 +21,24 @@ module Hydrocraft
 
 	recipe Store in a Box
 	{
+		[Recipe.GetItemTypes.Box25]=25,
+		Result:BoxOfThings,
+		Time:15,
+		OnCreate:Recipe.OnCreate.Hydrocraft.BoxThings,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Store in a Box
+	{
+		[Recipe.GetItemTypes.Box50]=50,
+		Result:BoxOfThings,
+		Time:15,
+		OnCreate:Recipe.OnCreate.Hydrocraft.BoxThings,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Store in a Box
+	{
 		[Recipe.GetItemTypes.Box100]=100,
 		Result:BoxOfThings,
 		Time:15,
