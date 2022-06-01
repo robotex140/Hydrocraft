@@ -137,7 +137,7 @@ option = HcSubMenu:addOption("IBC Tower", nil, function() Hydrocraft.onBuildIBCT
 tooltip = Hydrocraft.toolTipcheck(option)
 tooltip:setName("Huge IBC Tower")
 tooltip.description = "<RGB:1,1,1>IBCtower"
-tooltip:setTexture("carpentry_02_52")
+tooltip:setTexture("hcBuildingIBCTower_01_0") --old image: "carpentry_02_52"
 end
 
 
