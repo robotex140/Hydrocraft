@@ -2916,25 +2916,6 @@ insertItemListsInProcDistribution( "CrateOfficeSupplies", {   Garageunits_Office
 -- police military
 -- **************
 
-	local SPAWN_HC_GUNS = true
-	
-	if(SandboxVars.Hydrocraft.SpawnHydrocraftGuns ~= nil) then
-		SPAWN_HC_GUNS = SandboxVars.Hydrocraft.SpawnHydrocraftGuns
-	end
-	
-	if(SPAWN_HC_GUNS) then
-		local firearms_items = {
-				"Hydrocraft.HCUzi", 1,
-				"Hydrocraft.HCMagUZI", 1,
-				"Hydrocraft.HCUziSilencer", 0.5,
-				"Hydrocraft.HCAA12", 1,
-				"Hydrocraft.HCMagAA12", 1,
-				"Hydrocraft.HCShotgunSilencer", 0.5,
-		};
-		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
-		insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
-	end
-
 local fridge_items = {
         "Hydrocraft.HCUHTmilk", 0.8,
         "Hydrocraft.HCPear", 0.8,
@@ -3273,3 +3254,36 @@ insertItemListsInProcDistribution( "CrateElectronics", { electrician_counter_ite
 
 print (">>alive");
 -- distributioncsv();
+
+--[[
+Note: Sandbox vars don't exist when loading a save, so they still have their default values
+To get around this we need to use the OnLoad event to check the sandbox value after the game has loaded.
+]]--
+local function OnLoadSpawnGuns()
+
+	local SPAWN_HC_GUNS = true
+	
+	if(SandboxVars.Hydrocraft.SpawnHydrocraftGuns ~= nil) then
+		SPAWN_HC_GUNS = SandboxVars.Hydrocraft.SpawnHydrocraftGuns
+		--print("********************* SandboxVars.Hydrocraft.SpawnHydrocraftGuns is - ", SandboxVars.Hydrocraft.SpawnHydrocraftGuns)
+	else
+		--print("********************* SandboxVars.Hydrocraft.SpawnHydrocraftGuns is NIL!")
+	end
+	
+	if(SPAWN_HC_GUNS) then
+		--print("********************* SPAWN_HC_GUNS is TRUE, guns will spawn in containers.")
+		local firearms_items = {
+				"Hydrocraft.HCUzi", 1,
+				"Hydrocraft.HCMagUZI", 1,
+				"Hydrocraft.HCUziSilencer", 0.5,
+				"Hydrocraft.HCAA12", 1,
+				"Hydrocraft.HCMagAA12", 1,
+				"Hydrocraft.HCShotgunSilencer", 0.5,
+		};
+		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
+		insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
+	end
+
+end
+
+Events.OnLoad.Add(OnLoadSpawnGuns)
