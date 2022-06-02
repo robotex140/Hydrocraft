@@ -43,3 +43,7 @@ end
 function Recipe.GetItemTypes.NylonBag(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("NylonBag"))
 end
+
+function Recipe.GetItemTypes.HuntingShotgun(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("HuntingShotgun"))
+end

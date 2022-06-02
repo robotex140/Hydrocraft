@@ -21,7 +21,7 @@ scriptItem = ScriptManager.instance:getItem("Base.Shotgun") --JS-2000 Shotgun
 if scriptItem then
 	scriptItem:DoParam("DisplayCategory = WepFire")
 	scriptItem:DoParam("ModelWeaponPart = HCShotgunSilencer gunlight,")
-	scriptItem:DoParam("Tags = Shotgun")
+	scriptItem:DoParam("Tags = HuntingShotgun")
 end
 
 scriptItem = ScriptManager.instance:getItem("Base.Revolver_Short")
@@ -72,17 +72,7 @@ end
 
 scriptItem = ScriptManager.instance:getItem("Base.DoubleBarrelShotgun") --Double Barrel Shotgun
 if scriptItem then
-	scriptItem:DoParam("Tags = Shotgun")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.DoubleBarrelShotgunSawnoff") --Sawn Off Double Barrel Shotgun
-if scriptItem then
-	scriptItem:DoParam("Tags = Shotgun")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.ShotgunSawnoff") --Sawn Off JS-2000 Shotgun
-if scriptItem then
-	scriptItem:DoParam("Tags = Shotgun")
+	scriptItem:DoParam("Tags = HuntingShotgun")
 end
 
 scriptItem = ScriptManager.instance:getItem("Base.AssaultRifle") --M16 Assault Rifle
