@@ -154,9 +154,13 @@ module Hydrocraft
 	Capacity             		= 170,
 	DisplayName             	= Hand Dolly,
 	Icon				        = HCHanddolly,
-	RequiresEquippedBothHands 	= true,
-    TwoHandWeapon               = TRUE,
-		DisplayCategory	= Container,
+	SurvivalGear			    = TRUE,
+    EquippedNoSprint 		    = FALSE,
+    RequiresEquippedBothHands 	= TRUE,
+    StaticModel                 = Hydrocraft.HCHanddolly,
+    WorldStaticModel            = Hydrocraft.HCHanddolly,
+	DisplayCategory	            = Container,
+    ReplaceInPrimaryHand 	    = Bag_Handdolly_RHand holdinghanddollyright,
    }
 
     item HCForklift

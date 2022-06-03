@@ -652,4 +652,15 @@ module Hydrocraft
 			rotate = 90.0000 180.0000 0.0000,
 		}
 	}
+	model HCHanddolly
+	{
+		mesh = weapons/HCHandDolly,
+		texture = weapons/HCHandDolly,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+	}
 }
