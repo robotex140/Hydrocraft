@@ -180,7 +180,6 @@ end
 scriptItem = ScriptManager.instance:getItem("Base.Coffee2")
 if scriptItem then
 	scriptItem:DoParam("DisplayCategory = FoodB")
-	scriptItem:DoParam("ReplaceOnDeplete = EmptySandbag")
 end
 
 scriptItem = ScriptManager.instance:getItem("Base.Sugar")
