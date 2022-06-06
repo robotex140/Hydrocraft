@@ -863,6 +863,7 @@ SuburbsDistributions["petshop"] = {
                         "Base.CatToy", 1,
                         "Base.DogChew", 1,
                         "Base.WaterDish", 1,
+						"Hydrocraft.HCCatnip", 1,
                         "Hydrocraft.HCCatlitter", 1,
                         "Hydrocraft.HCDogkibble", 1,
                         "Hydrocraft.HCCatfood", 1,
