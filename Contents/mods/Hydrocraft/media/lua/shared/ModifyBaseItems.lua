@@ -419,16 +419,6 @@ if scriptItem then
 	scriptItem:DoParam("Tags = Potato")
 end
 
-scriptItem = ScriptManager.instance:getItem("Base.TreeBranch")
-if scriptItem then
-	scriptItem:DoParam("Tags = Box12")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.ElectronicsScrap")
-if scriptItem then
-	scriptItem:DoParam("Tags = Box100")
-end
-
 scriptItem = ScriptManager.instance:getItem("Base.Cereal")
 if scriptItem then
 	scriptItem:DoParam("Tags = Cereal")
