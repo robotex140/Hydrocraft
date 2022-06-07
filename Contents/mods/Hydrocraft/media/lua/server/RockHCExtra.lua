@@ -264,7 +264,7 @@ for i=1,5,1 do
         end
     elseif chance <= darkLvl7+darkLvl8+darkLvl9+darkLvl10 then
         secondChance = ZombRand(5);
-        if secondChance == 0 then layer:getInventory():AddItem("Hydrocraft.HCIronore");
+        if secondChance == 0 then player:getInventory():AddItem("Hydrocraft.HCIronore");
         elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCLeadore");
 		elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCSaltpeter");
         elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCSulphur");
