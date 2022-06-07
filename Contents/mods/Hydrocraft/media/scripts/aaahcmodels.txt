@@ -663,4 +663,20 @@ module Hydrocraft
 			rotate = 90.0000 0.0000 0.0000,
 		}
 	}
+	model HCToywagon
+  {
+    mesh = weapons/HCToywagon,
+    texture = weapons/HCToywagon,
+  }
+	model HCToywagonfolded
+	{
+		mesh = weapons/HCToywagonfolded,
+		texture = weapons/HCToywagon,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+	}
 }

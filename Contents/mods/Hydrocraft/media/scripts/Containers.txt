@@ -191,13 +191,19 @@ module Hydrocraft
 
      item HCToywagon
    {
-	WeightReduction        		= 100,
-	Weight             		    = 5,
-	Type                		= Container,
-	Capacity             		= 150,
-	DisplayName             	= Toy Wagon,
-	Icon				        = HCToywagon,
-		DisplayCategory	= Container,
+    WeightReduction        		= 100,
+    Weight             		    = 5,
+    Type                		= Container,
+    Capacity             		= 150,
+    DisplayName             	= Toy Wagon,
+    Icon				        = HCToywagon,
+    SurvivalGear			    = TRUE,
+    EquippedNoSprint 		    = FALSE,
+    StaticModel                 = Hydrocraft.HCToywagon,
+    WorldStaticModel            = Hydrocraft.HCToywagonfolded,
+    DisplayCategory	            = Container,
+    ReplaceInPrimaryHand 	    = Bag_Toywagon_RHand holdingtoywagonright,
+    ReplaceInSecondHand         = Bag_Toywagon_LHand holdingtoywagonleft,
    }
 
     item HCPaperbag
