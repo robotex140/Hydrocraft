@@ -274,7 +274,7 @@ for i=1,5,1 do
         secondChance = ZombRand(6);
         if secondChance == 0 then player:getInventory():AddItem("Hydrocraft.HCCopperore");
         elseif secondChance == 1 then player:getInventory():AddItem("Hydrocraft.HCTinore");
-		elseif secondChance == 2 then layer:getInventory():AddItem("Hydrocraft.HCGypsum");
+		elseif secondChance == 2 then player:getInventory():AddItem("Hydrocraft.HCGypsum");
 		elseif secondChance == 3 then player:getInventory():AddItem("Hydrocraft.HCAzurite");
 		elseif secondChance == 4 then player:getInventory():AddItem("Hydrocraft.HCMalachite");
 		elseif secondChance == 5 then player:getInventory():AddItem("Hydrocraft.HCCobaltore");				
