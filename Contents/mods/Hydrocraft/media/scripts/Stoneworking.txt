@@ -549,7 +549,7 @@ recipe Construct Oil Press
     	Category:Stoneworking,
     	OnGiveXP:HCMechanics_OnGiveXP,
     }
-
+/* Removed, needless duplication - why would you use this chipped stone version of the above recipe...
 recipe Construct Oil Press
     {
     SkillRequired:Mechanics=1,
@@ -563,7 +563,7 @@ recipe Construct Oil Press
         Time:500,
         Category:Stoneworking,
         OnGiveXP:HCMechanics_OnGiveXP,
-    }
+    }*/
 
 
 
