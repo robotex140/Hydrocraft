@@ -20,6 +20,26 @@ if scriptItem then
 	scriptItem:DoParam("Tags = Box100")
 end
 
+scriptItem = ScriptManager.instance:getItem("Base.LeatherStrips")
+if scriptItem then
+	scriptItem:DoParam("Tags = Box100")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.LeatherStripsDirty")
+if scriptItem then
+	scriptItem:DoParam("Tags = Box100")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.DenimStrips")
+if scriptItem then
+	scriptItem:DoParam("Tags = Box100")
+end
+
+scriptItem = ScriptManager.instance:getItem("Base.DenimStripsDirty")
+if scriptItem then
+	scriptItem:DoParam("Tags = Box100")
+end
+
 scriptItem = ScriptManager.instance:getItem("Base.SheetRope")
 if scriptItem then
 	scriptItem:DoParam("Tags = Box25")
