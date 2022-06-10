@@ -1,3 +1,22 @@
+module Base
+{
+	/*Decalred in Base to override the vanilla recipe, adds all the HC fish*/
+	recipe Slice Fillet
+	{
+		keep [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+		Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout/HCHerring/HCBlowfish/HCBream/HCEel/HCMackerel/HCMackerelpike/HCRedsnapper/HCSeabass/HCSmelt/HCTuna/HCWrasse/HCAsp/HCBrill/HCBurbot/HCCarp/HCChub/HCGrayling/HCLavaret/HCPlaice/HCRoach/HCRuffe/HCSilverbream/HCTench/HCZander,
+		Result:FishFillet=2,
+		Sound:SliceMeat,
+		Time:50.0,
+		OnTest:Recipe.OnTest.CutFish,
+		OnCreate:Recipe.OnCreate.CutFish,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.Cooking10,
+		Override:true,
+	}
+
+}
+
 module Hydrocraft
 {
     imports
@@ -786,31 +805,6 @@ item HCFishoil
 	}
 		
 /************************RECIPES************************/
-
-
-recipe Slice Fillet
-    {
-        	Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout,
-        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
-        	Result:FishFillet,
-       	 	Sound:SliceMeat,
-        	Time:50.0,
-        	OnTest:CutFish_TestIsValid,
-        	OnCreate:CutFish_OnCreate,
-        	Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
-    }
-
-recipe Slice Fillet
-    {
-			HCHerring/HCBlowfish/HCBream/HCEel/HCMackerel/HCMackerelpike/HCRedsnapper/HCSeabass/HCSmelt/HCTuna/HCWrasse/HCAsp/HCBrill/HCBurbot/HCCarp/HCChub/HCGrayling/HCLavaret/HCPlaice/HCRoach/HCRuffe/HCSilverbream/HCTench/HCZander,
-        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
-        	Result:FishFillet,
-        	Sound:SliceMeat,
-        	Time:50.0,
-        	Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
-    }
 
 recipe Slice Fillet
     {
