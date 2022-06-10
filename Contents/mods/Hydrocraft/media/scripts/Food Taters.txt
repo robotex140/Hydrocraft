@@ -157,7 +157,7 @@ module Hydrocraft
 		DisplayCategory		=	FoodP,
 	}
 
-	/*No stats, these will be generated in Make Qwerty Fries (based on the potatoes used)*/
+	/*No stats, these will be generated in Make French Fries (based on the potatoes used)*/
 	item HCFries
     {
 		HungerChange		=	0,
@@ -184,6 +184,7 @@ module Hydrocraft
 		BadInMicrowave		=	true,
 		GoodHot				=	true,
 		RemoveUnhappinessWhenCooked = true,
+		Hydrocraft_RecipeName	= Make French Fries,
 	}
 
 	item HCSpiffoscheesefries
@@ -393,7 +394,7 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	/*DO NOT RENAME - unless you also edit /media/lua/server/Food/Functions.lua*/
+	/*DO NOT RENAME - unless you also edit the Hydrocraft_RecipeName in HCFries (above)*/
 	recipe Make French Fries
 	{
 		SkillRequired:Cooking=2,
@@ -406,7 +407,7 @@ module Hydrocraft
 		Time:85.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
-		OnCreate:Recipe.OnCreate.MakeHomemadeFries,
+		OnCreate:Recipe.OnCreate.Hydrocraft.MagicFoodRecipe,
 	}
 
 	recipe Prepare Potato Flour

@@ -1,11 +1,11 @@
 
 Recipe = Recipe or {}
+Recipe.OnTest = Recipe.OnTest or {}
 Recipe.OnCreate = Recipe.OnCreate or {}
 Recipe.OnCanPerform = Recipe.OnCanPerform or {}
+Recipe.OnTest.Hydrocraft = Recipe.OnTest.Hydrocraft or {}
 Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
 Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
-
-local lastRecipe = nil
 
 local allRecipes = nil
 
@@ -232,11 +232,23 @@ function Recipe.OnCreate.Hydrocraft.CreateComplexFood(items, result, player)
 	lastRecipe = nil	
 end
 
---[[
-function Recipe.OnCreate.Make_Bowl_of_Cereal(items, result, player)
-	Recipe_OnCreate_ComplexBetter(items, result, "Make Bowl of Cereal")
-end]]--
+function Recipe.OnTest.Hydrocraft.IsCooked(item)
+	if item:IsFood() then
+		if item:isCooked() then
+			return true
+		end
+		return false --food, but not cooked
+	end
+	return true
+end
 
-function Recipe.OnCreate.MakeHomemadeFries(items, result, player)
-	Recipe_OnCreate_ComplexBetter(items, result, "Make French Fries")
+function Recipe.OnCreate.Hydrocraft.MagicFoodRecipe(items, result, player)
+	local recipe = result:getModData()["Hydrocraft_RecipeName"]
+	print("Recipe: ", recipe)
+	if recipe == nil then
+		print("Recipe not found:", recipe, " - using generic function instead")
+		Recipe.OnCreate.Hydrocraft.Generic(items, result, player)
+	else
+		Recipe_OnCreate_ComplexBetter(items, result, recipe)
+	end
 end

@@ -43,6 +43,7 @@ module Hydrocraft
 	{
 		[Recipe.GetItemTypes.ServeInPaperBag],
 		Base.PaperBag/Base.Paperbag_Spiffos/Base.Paperbag_Jays/Hydrocraft.HCPaperbag,
+		OnTest: Recipe.OnTest.Hydrocraft.IsCooked,
 		Result:HCFoodInPaperBag,
 		Time:85.0,
 		Category:Cooking,
