@@ -21,12 +21,7 @@ local function OnLoad()
 	if(SandboxVars.Hydrocraft.AnimalStarvation ~= nil and SandboxVars.Hydrocraft.AnimalStarvation == 2) then
 		STARVATION = false
 	end
-end
-
-Events.OnLoad.Add(OnLoad)
-
-
-
+	
 --Hamster
 --Without Food 2 Days
 
@@ -1980,4 +1975,12 @@ ItemTimeTrackerMod["HCPottedchinesecabbage"]["TurnInto"] = "Hydrocraft.HCPottedc
 
 ItemTimeTrackerMod["HCPottedchinesecabbageready"] = {};
 ItemTimeTrackerMod["HCPottedchinesecabbageready"]["Life"] = 48.0;
-ItemTimeTrackerMod["HCPottedchinesecabbageready"]["TurnInto"] = "Hydrocraft.HCPottedchinesecabbagedead";
+ItemTimeTrackerMod["HCPottedchinesecabbageready"]["TurnInto"] = "Hydrocraft.HCPottedchinesecabbagedead";	
+	
+end
+
+Events.OnLoad.Add(OnLoad)
+
+
+
+
