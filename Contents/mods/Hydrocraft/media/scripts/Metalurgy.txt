@@ -1211,7 +1211,7 @@ recipe Make Tungsten Ingot
         keep [Recipe.GetItemTypes.WeldingMask],
     	keep Tongs,
     	keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
-	    keep HCFurnace,
+	    keep HCFurnace/HCFurnace2,
     	CanBeDoneFromFloor:true,
     	Result:HCTungsteningot,
     	NeedToBeLearn:true,
