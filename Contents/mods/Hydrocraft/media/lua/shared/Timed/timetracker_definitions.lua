@@ -16,9 +16,16 @@ end
 	
 local STARVATION = true
 
-if(SandboxVars.Hydrocraft.AnimalStarvation ~= nil and SandboxVars.Hydrocraft.AnimalStarvation == 2) then
-	STARVATION = false
+-- set STARVATION when the game loads.
+local function OnLoad()
+	if(SandboxVars.Hydrocraft.AnimalStarvation ~= nil and SandboxVars.Hydrocraft.AnimalStarvation == 2) then
+		STARVATION = false
+	end
 end
+
+Events.OnLoad.Add(OnLoad)
+
+
 
 --Hamster
 --Without Food 2 Days
