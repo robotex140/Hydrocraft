@@ -2869,3 +2869,12 @@ function Recipe.OnCreate.Hydrocraft.OpenBox(items, result, player)
 	player:getInventory():AddItems( ft, count )
 
 end
+
+--use to give the player the accurate number of pages from a book
+function Recipe.OnCreate.Hydrocraft.PullOutPages(items, result, player)
+	local book = items:get(0)
+	local pageCount = book:getNumberOfPages()
+	if pageCount > 0 then
+		player:getInventory():AddItems("Base.SheetPaper2", pageCount / 2)
+	end
+end

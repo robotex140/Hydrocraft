@@ -47,3 +47,15 @@ end
 function Recipe.GetItemTypes.HuntingShotgun(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("HuntingShotgun"))
 end
+
+function Recipe.GetItemTypes.BooksWithNumberOfPages(scriptItems)
+	local all = getScriptManager():getAllItems()
+	for i=0, all:size()-1 do
+		local item = all:get(i)
+		local pageCount = item:getNumberOfPages() --returns -1 for NA, or 220, 260, etc.
+
+		if pageCount > 0 then
+			scriptItems:add( item )
+		end
+	end
+end

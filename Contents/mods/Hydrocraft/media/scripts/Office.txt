@@ -486,6 +486,15 @@ recipe Erase Journal
 
 recipe Pull out Pages
     {
+    [Recipe.GetItemTypes.BooksWithNumberOfPages],
+    Result:SheetPaper2,
+	RemoveResultItem:true,
+	OnCreate:Recipe.OnCreate.Hydrocraft.PullOutPages,
+    Time:100,
+    }
+
+recipe Pull out Pages
+    {
     Book/HCBook,
     Result:SheetPaper2=100,
     Time:100,
