@@ -39,7 +39,12 @@ local function SpawnItem(x, y, z, itemName, containerType)
 						local item = InventoryItemFactory.CreateItem(itemName)
 						local itemWeight = item:getUnequippedWeight()
 						if(not container:contains(itemName) and itemWeight <= space) then
-							container:addItem(item)
+							local isClient = isClient()
+							if isClient == true then
+								container:addItemOnServer(item)
+							else
+								container:addItem(item)
+							end
 							return true
 						end
 
