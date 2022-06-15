@@ -514,7 +514,10 @@ if scriptItem then
 	scriptItem:DoParam("NylonAmount = 4")
 end
 
-
+scriptItem = ScriptManager.instance:getItem("Base.Rice")
+if scriptItem then
+	scriptItem:DoParam("ReplaceOnUse = Hydrocraft.HCRiceempty")
+end
 
 
 
