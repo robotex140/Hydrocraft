@@ -757,7 +757,7 @@ module Base
     {
         TreeBranch/HCAxehandle,
         SharpedStone,
-        RippedSheets/Twine/RippedSheetsDirty,
+        RippedSheets/Twine/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
 
         Result:AxeStone,
         Time:80.0,
