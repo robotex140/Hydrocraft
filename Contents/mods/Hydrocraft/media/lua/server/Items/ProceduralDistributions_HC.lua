@@ -1827,37 +1827,91 @@ insertItemListsInProcDistribution( "StoreShelfMechanics", {   fossoil_counter_it
 
 --  Magazine Rack
 local magazines_items = {
-        "Hydrocraft.HCAdultmagazine", 0.1,
-        "Hydrocraft.HCAdultmagazine2", 0.1,
-        "Hydrocraft.HCAdultmagazine3", 0.1,
-        "Hydrocraft.HCAdultmagazine4", 0.1,
-        "Hydrocraft.HCAdultmagazine5", 0.1,
-        "Hydrocraft.HCAdultmagazine6", 0.1,
-        "Hydrocraft.HCSportsmagazine", 1,
-        "Hydrocraft.HCSportsmagazine2", 1,
-        "Hydrocraft.HCMagazinemetalworking1", 1,
-        "Hydrocraft.HCMagazinemetalworking2", 1,
-        "Hydrocraft.HCMagazinemetalworking3", 1,
-        "Hydrocraft.HCMagazinemetalworking4", 1,
-        "Hydrocraft.HCMagazinemetalworking5", 1,
-        "Hydrocraft.HCMagazinemetalworking6", 1,
-        "Hydrocraft.HCMagazinemetalworking7", 1,
-        "Hydrocraft.HCMagazinefarming1", 1,
-        "Hydrocraft.HCMagazineelectronics01", 1,
-        "Hydrocraft.HCMagazineelectronics02", 1,
-        "Hydrocraft.HCMagazineelectronics03", 1,
-        "Hydrocraft.HCMagazinespopularmachines01", 1,
-        "Hydrocraft.HCPostcard1", 1,
-        "Hydrocraft.HCPostcard2", 1,
-        "Hydrocraft.HCPostcard3", 1,
-        "Hydrocraft.HCPostcard4", 1,
-        "Hydrocraft.HCPostcard5", 1,
-        "Hydrocraft.HCPostcard6", 1,
-        "Hydrocraft.HCPostcard7", 1,
-        "Hydrocraft.HCPostcard8", 1,
+	"Hydrocraft.HCAdultmagazine", 0.1,
+	"Hydrocraft.HCAdultmagazine2", 0.1,
+	"Hydrocraft.HCAdultmagazine3", 0.1,
+	"Hydrocraft.HCAdultmagazine4", 0.1,
+	"Hydrocraft.HCAdultmagazine5", 0.1,
+	"Hydrocraft.HCAdultmagazine6", 0.1,
+	"Hydrocraft.HCSportsmagazine", 1,
+	"Hydrocraft.HCSportsmagazine2", 1,
+	"Hydrocraft.HCMagazinemetalworking1", 1,
+	"Hydrocraft.HCMagazinemetalworking2", 1,
+	"Hydrocraft.HCMagazinemetalworking3", 1,
+	"Hydrocraft.HCMagazinemetalworking4", 1,
+	"Hydrocraft.HCMagazinemetalworking5", 1,
+	"Hydrocraft.HCMagazinemetalworking6", 1,
+	"Hydrocraft.HCMagazinemetalworking7", 1,
+	"Hydrocraft.HCMagazinefarming1", 1,
+	"Hydrocraft.HCMagazineelectronics01", 1,
+	"Hydrocraft.HCMagazineelectronics02", 1,
+	"Hydrocraft.HCMagazineelectronics03", 1,
+	"Hydrocraft.HCMagazinespopularmachines01", 1,
+	--"Hydrocraft.HCPostcard1", 1,
+	--"Hydrocraft.HCPostcard2", 1,
+	--"Hydrocraft.HCPostcard3", 1,
+	--"Hydrocraft.HCPostcard4", 1,
+	--"Hydrocraft.HCPostcard5", 1,
+	--"Hydrocraft.HCPostcard6", 1,
+	--"Hydrocraft.HCPostcard7", 1,
+	--"Hydrocraft.HCPostcard8", 1,
+		
+	"ComicBook", 8,
+	"ComicBook", 8,
+	"ComicBook", 8,
+	"ComicBook", 8,
+	"CookingMag1", 1,
+	"CookingMag2", 1,
+	"ElectronicsMag1", 1,
+	"ElectronicsMag2", 1,
+	"ElectronicsMag3", 1,
+	"ElectronicsMag4", 1,
+	"ElectronicsMag5", 1,
+	"EngineerMagazine1", 1,
+	"EngineerMagazine2", 1,
+	"FarmingMag1", 1,
+	"FishingMag1", 1,
+	"FishingMag2", 1,
+	"HerbalistMag", 1,
+	"HottieZ", 0.5,
+	"HuntingMag1", 1,
+	"HuntingMag2", 1,
+	"HuntingMag3", 1,
+	"Magazine", 20,
+	"Magazine", 20,
+	"Magazine", 10,
+	"Magazine", 10,
+	"MagazineCrossword1", 4,
+	"MagazineCrossword2", 4,
+	"MagazineCrossword3", 4,
+	"MagazineWordsearch1", 4,
+	"MagazineWordsearch2", 4,
+	"MagazineWordsearch3", 4,
+	"MechanicMag1", 1,
+	"MechanicMag2", 1,
+	"MechanicMag3", 1,
+	"MetalworkMag1", 1,
+	"MetalworkMag2", 1,
+	"MetalworkMag3", 1,
+	"MetalworkMag4", 1,	
+
 };
+
+--wipe the magazine loot lists, then re-fill.
+--wioing the Maps and Newspaper lists means there are more magazine racks we can use to put magazines on instead.
+--Crate and Mixed are also wiped as the above list incldes vanilla and HC magazibes, so we can use it for all 4.
+--Otherwise it would need splitting into 2, one for HC items to be added to Mixed racks, another with all items for the 
+--Maps and Nwespaper racks
+ProceduralDistributions["list"]["CrateMagazines"].items = {}
+ProceduralDistributions["list"]["MagazineRackMixed"].items = {}
+ProceduralDistributions["list"]["MagazineRackMaps"].items = {}
+ProceduralDistributions["list"]["MagazineRackNewspaper"].items = {}
+
 insertItemListsInProcDistribution( "CrateMagazines", {   magazines_items  } );
 insertItemListsInProcDistribution( "MagazineRackMixed", {   magazines_items  } );
+insertItemListsInProcDistribution( "MagazineRackMaps", {   magazines_items  } );
+insertItemListsInProcDistribution( "MagazineRackNewspaper", {   magazines_items  } );
+
 
 -- Add items for Fishing Storage Crates
 local fishing_store_gear_items = {
