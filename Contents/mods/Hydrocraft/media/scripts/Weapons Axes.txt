@@ -434,12 +434,13 @@ item HCAxeheadblunt
 
 recipe Craft Axe Handle
 	{
-	   	Plank,
-	   	keep Saw/GardenSaw,
-	   	Result:HCAxehandle,
-	   	Time:150.0,
-    		Category:Carpentry,
-    		OnGiveXP:HCWoodwork_OnGiveXP,
+		Plank,
+		keep Saw/GardenSaw,
+		Result:HCAxehandle,
+		Time:150.0,
+		Category:Carpentry,
+		OnGiveXP:HCWoodwork_OnGiveXP,
+		CanBeDoneFromFloor:true,
 	}
 
 recipe Remove Axe Head
