@@ -1343,7 +1343,7 @@ insertItemListsInProcDistribution( "PostOfficeBoxes", {   postoffice_boxes_items
 local bathroom_counter_items = {
         "Hydrocraft.HCFloss", 0.2,
         --"Hydrocraft.HCPlunger", 0.2, --removed, vanilla plunger exists, no need to duplicate.
-        "Hydrocraft.HCHairgel", 0.2,
+        --"Hydrocraft.HCHairgel", 0.2,
         "Hydrocraft.HCHairdryer", 0.2,
         "Hydrocraft.HCElectrictoothbrush", 0.5,
         "Hydrocraft.HCElectricrazor", 0.5,

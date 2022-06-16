@@ -23,7 +23,7 @@ function bathhair(m)
                 "Hydrocraft.HCHaircolorred",            m*1,
                 "Hydrocraft.HCHairconditioner",         m*1,
                 "Hydrocraft.HCHairdryer",               m*1,
-                "Hydrocraft.HCHairgel",                 m*1,
+                --"Hydrocraft.HCHairgel",                 m*1,
                 "Hydrocraft.HCStylingfoam",             m*1,
         };
         return retVal

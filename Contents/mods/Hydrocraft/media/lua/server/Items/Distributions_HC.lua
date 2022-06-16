@@ -689,7 +689,7 @@ SuburbsDistributions["HCCosmeticcase"] = {
                 "Hydrocraft.HCChapstick", 10,
                 "Hydrocraft.HCQtip", 10,
                 "Hydrocraft.HCQtipbox", 10,
-                "Hydrocraft.HCHairgel", 10,
+                --"Hydrocraft.HCHairgel", 10,
         },
         fillRand = 0,
 };
