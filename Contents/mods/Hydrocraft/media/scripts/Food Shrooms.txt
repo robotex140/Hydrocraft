@@ -170,7 +170,7 @@ item HCBunchofshrooms
 
 
 /************************RECIPES************************/
-
+/*
 recipe Make Bunch of Mushrooms
 	{
 		MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/HCPortobello/HCShiitake/HCBlewitshroom/HCLobstershroom/HCWitchshatshroom/HCYellowmorelshroom/HCChantrelle,
@@ -613,5 +613,5 @@ recipe Make Bunch of Mushrooms
 		Category:Cooking,
     		OnGiveXP:HCCooking_OnGiveXP,
 	}
-	
+*/
 }
