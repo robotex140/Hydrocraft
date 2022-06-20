@@ -1,0 +1,1889 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+	item HCBook
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-40,
+		DisplayName	=	Book,
+		StressChange	=	-40,
+		Icon		=	Book,
+		BoredomChange	=	-50,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookcover
+    	{
+        	Weight    	= 	0.01,
+        	Type    	= 	Normal,
+        	DisplayName     = 	Book Cover,
+        	icon 		= 	HCBookcover,
+		DisplayCategory	=   Useless,
+    	}
+
+	item HCBookmark
+    	{
+        	Weight    	= 	0.01,
+        	Type    	= 	Normal,
+        	DisplayName     = 	Bookmark,
+        	icon 		= 	HCBookmark,
+		DisplayCategory	=   Useless,
+    	}
+
+	item HCPassport
+    	{
+        	Weight		=	1,
+        	Type		=	Literature,
+        	DisplayName	=	Passport,
+        	Icon		=	HCPassport,
+        	CanBeWrite  	=   	true,
+        	PageToWrite 	=   	10,
+		DisplayCategory	=   LitW,
+    	}
+
+	item HCBookphone
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Phonebook,
+		Icon		=	HCBookphone,
+		BoredomChange	=	50,
+        	ReplaceOnUse    =   	HCBookphone,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookalgebra
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Algebra Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookalgebra,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookalgebra,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookastronomy
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Astronomy Textbook,
+		Icon		=	HCBookastronomy,
+		TeachedRecipes  =   	Assemble Telescope;Disassemble Telescope;Gaze Through Telescope;Build Star Chart Board;View Star Chart Board,
+        	ReplaceOnUse    =   	HCBookastronomy,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookalmanac
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Farmer's Almanac,
+		StressChange	=	-4,
+		Icon		=	HCBookalmanac,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookalmanac,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookamericanhistory
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	American History Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookamericanhistory,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookamericanhistory,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookanimalhusbandry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Animal Husbandry Textbook,
+		Icon		=	HCBookanimalhusbandry,
+		TeachedRecipes  =   	Breed Rabbits;Breed Pigs;Breed Sheep;Breed Goats;Breed Cows;Breed Donkeys;Breed Horses,
+        	ReplaceOnUse    =   	HCBookanimalhusbandry,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbedtime
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-14,
+		DisplayName	=	Bedtime Stories,
+		StressChange	=	-14,
+		Icon		=	HCBookbedtime,
+		BoredomChange	=	-15,
+        	ReplaceOnUse    =   	HCBookbedtime,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookcalculus
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Calculus Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookcalculus,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookcalculus,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookceltic
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Celtic Folklore,
+		Icon		=	HCBookceltic,
+		TeachedRecipes  =   	Make Rune Stone,
+        	ReplaceOnUse    =   	HCBookceltic,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookchemistry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Chemistry Textbook,
+		Icon		=	HCBookchemistry,
+		TeachedRecipes  =   	Use Centrifiuge;Use Electrolyzer;Make Saltpeter Powder;Make Salt Powder;Make Sulphur Powder;Make Meteorite Powder;Make Phosphorus Powder;Make Marble Powder;Make Diatomite Powder;Make Ephedrin Powder;Make Beaker of Ammonia;Make Albite Powder;Make Feldspar Powder;Make Methylamin;Add Salt to Glass Balloon;Add Sulfuric Acid to Glass Balloon with Salt;Make Muriatic Acid;Make Mercuric Oxide;Make Acid Bath;Make Beaker of Potassium Permanganate,
+        	ReplaceOnUse    =   	HCBookchemistry,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookboneworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Boneworking Textbook,
+		Icon		=	HCBookboneworking,
+		TeachedRecipes  =   	Carve Bone Buttons;Harvest Bones;Cut Open Bone;Make Bone Powder;Make Shell Powder;Dry Gelatin;Make Bone Ash;Make Gelatin;Make Glue;Make Wood Glue;Make Super Glue;Make Smelling Salts;Craft Bone Shiv;Craft Bone Dice;Craft Bone Needle;Craft Bone Fishhook,
+        ReplaceOnUse    =   	HCBookboneworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookdictionary
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Dictionary,
+		StressChange	=	-4,
+		Icon		=	HCBookdictionary,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookdictionary,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookencyclopedia
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Encyclopedia,
+		StressChange	=	-4,
+		Icon		=	HCBookencyclopedia,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookencyclopedia,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookenglish
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	English Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookenglish,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookenglish,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookentomology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Entomology Textbook,
+		Icon		=	HCBookentomology,
+		TeachedRecipes  =   	Catch Bugs;Make Bug Net;Assemble Ant Farm;Feed Ants;Feed Caterpillar,
+        	ReplaceOnUse    =   	HCBookentomology,
+		DisplayCategory	=   LitR,
+	}
+
+
+	item HCBookfairytale
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-14,
+		DisplayName	=	Fairytale Book,
+		StressChange	=	-14,
+		Icon		=	HCBookfairytale,
+		BoredomChange	=	-15,
+        	ReplaceOnUse    =   	HCBookfairytale,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookfrench
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	French Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookfrench,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookfrench,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookgenealogy
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Genealogy of Kentucky,
+		StressChange	=	-4,
+		Icon		=	HCBookgenealogy,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookgenealogy,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookgeometry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Geometry Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookgeometry,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookgeometry,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookgerman
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	German Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookgerman,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookgerman,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookitalian
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Italian Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookitalian,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookitalian,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookmath
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Basic Mathematics Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookmath,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookmath,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookmedical
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Medical Textbook,
+		Icon		=	HCBookmedical,
+		TeachedRecipes  =  Make Medical Lab;Make Crutch;Take Blood from Yourself;Research Injections;Soak in Potassium Permanganate,
+        ReplaceOnUse    =  HCBookmedical,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookmusic
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Music Textbook,
+		Icon		=	HCBookmusic,
+		TeachedRecipes  = Play Music;Read Music;Write Music;Carve Wooden Flute,
+        ReplaceOnUse    =   	HCBookmusic,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookpaleontology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Paleontology Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookpaleontology,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookpaleontology,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookpoetry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Book of Poetry,
+		StressChange	=	-4,
+		Icon		=	HCBookpoetry,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookpoetry,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookscrap
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Scrapbook,
+		StressChange	=	-4,
+		Icon		=	HCBookscrap,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookscrap,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookspanish
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Spanish Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookspanish,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookspanish,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookthesaurus
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Thesaurus,
+		StressChange	=	-4,
+		Icon		=	HCBookthesaurus,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookthesaurus,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBooktreeguide
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Tree Fieldguide,
+		Icon		=	HCBooktreeguide,
+		TeachedRecipes  =   	Plant Fir Cone;Plant Acorn;Plant Birch Catkin;Cut Fir Tree;Cut Oak Tree;Cut Birch Tree,
+        	ReplaceOnUse    =   	HCBooktreeguide,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookstrigonometry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Trigonometry Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBooktrigonometry,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookstrigonometry,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookvet
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Veterinary Medicine Textbook,
+		Icon		=	HCBookvet,
+		TeachedRecipes  =   	Heal Dog,
+        ReplaceOnUse    =   	HCBookvet,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookworldhistory
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	World History Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookworldhistory,
+		BoredomChange	=	-5,
+        ReplaceOnUse    =   	HCBookworldhistory,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookanatomy
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Anatomy Textbook,
+		Icon			=	HCBookanatomy,
+		TeachedRecipes  =   Harvest Bones;Remove Skull;Remove Head;Skin Corpse;Dissect Corpse;Clean Dissection Table,
+        ReplaceOnUse    =   HCBookanatomy,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookarthistory
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Art History Textbook,
+		Icon		=	HCBookarthistory,
+		TeachedRecipes  =   	Paint on Canvas;Dye Yarn,
+        	ReplaceOnUse    =   	HCBookarthistory,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbible
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Holy Bible,
+		StressChange	=	-4,
+		Icon		=	HCBookbible,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookbible,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookbirdgude
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Bird Fieldguide,
+		Icon		=	HCBookbirdgude,
+		TeachedRecipes  =   	Carve Wooden Bird Call;Carve Wooden Duck Call;Remove Eggs from Nest,
+        	ReplaceOnUse    =   	HCBookbirdgude,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbiology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Biology Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookbiology,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookbiology,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookcommunications
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Communications Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookcommunications,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookcommunications,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookeconomics
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Economics Textbook,
+		Icon		=	HCBookeconomics,
+		TeachedRecipes  =   	Make Coin Press;Press Coin,
+        	ReplaceOnUse    =   	HCBookeconomics,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookfishguide
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Fish Fieldguide,
+		Icon		=	HCBookfishguide,
+		TeachedRecipes  =   	Make Fishhooks;Make Fishing Kit;Repair Fishing Kit;Make Lure;Fish in Pond with Lure;Fish in Pond with Bait;Spear Fish in Pond,
+        	ReplaceOnUse    =   	HCBookfishguide,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookflowerguide
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Flower Fieldguide,
+		Icon		=	HCBookflowerguide,
+		TeachedRecipes  =   	Gather Flora,
+        	ReplaceOnUse    =   	HCBookflowerguide,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookgeology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Geology Textbook,
+		Icon		=	HCBookgeology,
+		TeachedRecipes  =   	Sift Dirt;Dig Mine;Upgrade Mine;Mine;Upgrade to Dark Mine;Upgrade Dark Mine;Add Steam Machine to Dark Mine;Make Mining Hat;Dig Quarry;Mine Iron;Mine Coal;Mine Stone,
+        	ReplaceOnUse    =   	HCBookgeology,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookgemcutting
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Gem Cutting Textbook,
+		Icon		=	HCBookgemcutting,
+		TeachedRecipes  =   	Make Gem Cutter Wheel;Cut Gem;Make Jade Powder;Make Malachite Powder;Make Obsidian Powder;Make Azurite Powder;Make Lapis Lazuli Powder,
+        	ReplaceOnUse    =   	HCBookgemcutting,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookjewelry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Jewelry Crafting Textbook,
+		Icon		=	HCBookjewelry,
+		TeachedRecipes  =   	Make Copper Ring;Make Iron Ring;Make Steel Ring;Make Silver Ring;Make Silver Ring with Jade;Make Silver Ring with Quartz Crystal;Make Silver Ring with Blue Quartz Crystal;Make Silver Ring with Rose Quartz Crystal;Make Silver Ring with Smokey Quartz Crystal;Make Silver Ring with Citrine Quartz Crystal;Make Silver Ring with Amethyst;Make Silver Ring with Azurite;Make Silver Ring with Diamond;Make Silver Ring with Emerald;Make Silver Ring with Fire Agate;Make Silver Ring with Garnet;Make Silver Ring with Lapis Lazuli;Make Silver Ring with Malachite;Make Silver Ring with Olivine;Make Silver Ring with Rhodonite;Make Silver Ring with Ruby;Make Silver Ring with Sapphire;Make Silver Ring with Topaz;Make Silver Ring with Turquoise,
+        	ReplaceOnUse    =   	HCBookjewelry,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookgreekmyths
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Greek Mythology,
+		StressChange	=	-4,
+		Icon		=	HCBookgreekmyths,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookgreekmyths,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookhealth
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Health Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookhealth,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookhealth,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBooklaw
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Law Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBooklaw,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBooklaw,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookliterature
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Literature Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookliterature,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookliterature,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookmammalguide
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Mammal Fieldguide,
+		Icon		=	HCBookmammalguide,
+		TeachedRecipes  =   	Gather Dung,
+        	ReplaceOnUse    =   	HCBookmammalguide,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooknorsemyths
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Norse Mythology,
+		StressChange	=	-4,
+		Icon		=	HCBooknorsemyths,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBooknorsemyths,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookoceanography
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Oceanography Textbook,
+		Icon		=	HCBookoceanography,
+        	TeachedRecipes  = 	Grow Spirulina in Tank;Harvest Spirulina;Dig Fish Pond;Fill Pond Hole with Cement;Fill Pond Hole with Water;Decorate Pond,
+        	ReplaceOnUse    =   	HCBookoceanography,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookphilosophy
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Philosophy Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookphilosophy,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookphilosophy,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookphysics
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Physics Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookphysics,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookphysics,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookpoliticalscience
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Political Science Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookpoliticalscience,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookpoliticalscience,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookreptileguide
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Reptile Fieldguide,
+		StressChange	=	-4,
+		Icon		=	HCBookreptileguide,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookreptileguide,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookrobotics
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Robotics Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookrobotics,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookrobotics,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookscience
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Science Textbook,
+		Icon		=	HCBookscience,
+        	TeachedRecipes  = 	Make Laboratory;Research Professional Lab,
+        	ReplaceOnUse    =   	HCBookscience,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooksociology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Sociology Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBooksociology,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBooksociology,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookworldatlas
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	World Atlas,
+		StressChange	=	-4,
+		Icon		=	HCBookworldatlas,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookworldatlas,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookamphibianguide
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Amphibian Fieldguide,
+		StressChange	=	-4,
+		Icon		=	HCBookamphibianguide,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookamphibianguide,
+		DisplayCategory	=   LitE,
+	}
+
+    	item HCBookapiculture
+    	{
+        	Weight		=	0.5,
+        	Type		=	Literature,
+        	DisplayName	=	Apiculture Textbook,
+        	Icon		=	HCBookapiculture,
+            TeachedRecipes  = Harvest Wild Beehive;Build Beehive;Fill Bee Smoker with Fuel;Feed Beehive;Harvest Honeycomb;Process Honeycomb;Make Bee Smoker;Make Beekeeper Hat;Prepare Cheese Cloth-Wrapped Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax,
+            ReplaceOnUse    =   	HCBookapiculture,
+		DisplayCategory	=   LitR,
+    	}
+    
+
+	item HCBookplumbing
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Plumbing Textbook,
+		Icon		=	HCBookplumbing,
+        	ReplaceOnUse    =   	HCBookplumbing,
+		TeachedRecipes  =   	Build Water Tower;Build Double Water Tower;Make Water Pump;Make Pipe Bender;Make Valve,
+		DisplayCategory	=   LitR,
+	}
+
+
+	item HCBookelectrical
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Electrical Engineering Textbook,
+		Icon		=	HCBookelectricity,
+		TeachedRecipes  =   	Upgrade To Steam Charger;Make Thermocouple;Make Electronics Workbench;Make Copper Cable;Make Coil;Make Solder;Make Circut Chip;Loot Electronic Parts;Make Lamp;Make Large Electromotor;Make Small Electromotor;Make Control Panel;Make Selfmade Heater,
+        	ReplaceOnUse    =   	HCBookelectrical,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookcomputerprograming
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Computer Programing Textbook,
+		Icon		=	HCBookcomputerprograming,
+		TeachedRecipes  =   	Make Desktop Computer;Write Computer Program,
+        	ReplaceOnUse    =   	HCBookcomputerprograming,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbattery
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Battery Textbook,
+		Icon		=	HCBookbattery,
+		TeachedRecipes  =   	Recycle Small Battery Case;Recycle Battery Case;Recycle Medium Battery Case;Recycle Large Battery Case;Recycle Huge Battery Case;Recharge Small Battery;Recharge Battery;Recharge 9 Volt Battery;Recharge Medium Battery;Recharge Large Battery;Recharge Huge Battery;Make Small Battery Cases;Make Battery Cases;Make Medium Battery Cases;Make Large Battery Case;Make Huge Battery Case;Make Small Batterys;Make Batterys;Make Medium Battery;Make Large Battery;Make Huge Battery;Make Medium Batterys,
+        ReplaceOnUse    =   	HCBookbattery,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookanthropology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Anthropology Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookanthropology,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookanthropology,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookarchery
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Archery Textbook,
+		Icon		=	HCBookarchery,
+		TeachedRecipes  =   	Make Longbow;Make Arrow;Make Crossbow;Make Bolt;Upgrade Longbow;Make Longbow Mag;Make Metal Arrowhead;Shoot Target,
+        	ReplaceOnUse    =   	HCBookarchery,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookpottery
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Pottery Textbook,
+		Icon		=	HCBookpottery,
+		TeachedRecipes  =   	Make Bone Clay;Make Kiln;Make Clay Pot;Make Clay Flowerpot;Make Clay Jar;Make Small Clay Jar;Make Clay Mug;Make Clay Teapot;Make Clay Cauldron;Make Clay Urn;Make Large Clay Urn;Make Clay Smoking Pipe;Make Clay Pipe;Make Ring Mold;Make Bar Mold;Make Nail Mold;Make Screw Mold;Make Fishhook Mold;Make Gear Mold;Make Bung Mold;Make Giant Magnet Mold;Make Bullet Casing Mold;Make Bullet Tip Mold;Make Anvil Mold;Make Buckshot Mold;Make Block Mold;Make Pipe Mold;Make Porcelain Teacup;Make Porcelain Saucer;Make Porcelain Teapot;Make Porcelain Plate;Make Porcelain Platter;Make Porcelain Vase;Make Spindle Head;Make Clay Oil Lamp;Make Bolt Mold;Make Arrow Head Mold;Make Ingot Mold;Make Huge Ingot Mold;Make Leaf Spring Mold,
+        ReplaceOnUse    =   	HCBookpottery,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookglassworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Glass Working Textbook,
+		Icon		=	HCBookglassworking,
+		TeachedRecipes  =   	Create Glass from Sand;Recycle Glass;Create Glass Pane;Create Large Glass Pane;Create Conical Flask;Create Glass Buchner Flask;Create Glass Florence Flask;Create Glass Retort Flask;Create Glass Beaker;Create Glass Bong;Create Empty Jar;Create Empty Spice Jars;Create Empty Glass Bottle;Create Empty Whiskey Bottle;Create Glass Jug;Create Empty Wine Bottle;Create Glass Graduated Cylinder;Create Glass Test Tubes;Create Large Glass Balloon;Create Glass Connector;Create Glass Pipe;Create Glass Elbow Pipe;Create Glass Cooler;Create Glass Funnel;Create Wine Glasses;Create Beer Glasses;Create Measuring Cup;Create Eye Dropper;Create Thermometer;Create Empty Salt Shaker;Create Petri Dishes;Create Microscope Slides;Create Glass Animal Eyes;Create Glass Marbles;Create Empty Ink Well,
+        ReplaceOnUse    =   	HCBookglassworking,
+		DisplayCategory	=   LitR,
+	}
+	item HCBookcopperworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Copper Working Textbook,
+		Icon		=	HCBookcopperworking,
+		TeachedRecipes  =   	Make Copper Ingot;Recycle Copper;Make Copper Rod;Make Copper Powder;Make Copper Circuit Board,
+        	ReplaceOnUse    =   	HCBookcopperworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooktinworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Tin Working Textbook,
+		Icon		=	HCBooktinworking,
+		TeachedRecipes  =   	Make Tin Ingot;Recycle Tin;Make Tin Rod;Make Tin Powder,
+        	ReplaceOnUse    =   	HCBooktinworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbronzeworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Bronze Working Textbook,
+		Icon		=	HCBookbronzeworking,
+		TeachedRecipes  =   	Make Bronze Ingot;Make Brass Ingot;Recycle Bronze;Recycle Brass;Make Bronze Rod;Make Bronze Candle Holder;Make Oil Lamp;Make Brass Bullet Casings;,
+        	ReplaceOnUse    =   	HCBookbronzeworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookalloys
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Alloys Textbook,
+		Icon		=	HCBookalloys,
+		TeachedRecipes  =   	Make Constantan Ingot;Make Pewter Ingot;Make Sterling Silver Ingot;Make Electrum Ingot;Make Rose Gold Ingot;Make White Gold Ingot;Make Invar Ingot;Make Nichrome Ingot;Make Kanthal Ingot;Make Constantan Ingot;Make Duralumin Ingot;Recycle Electrum;Make Invar Rod,
+        	ReplaceOnUse    =   	HCBookalloys,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookmetalurgy
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Metalurgy Textbook,
+		Icon		=	HCBookmetalurgy,
+		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Zinc Ingot;Make Chrome Ingot;Make Tungsten Ingot;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
+        	ReplaceOnUse    =   	HCBookmetalurgy,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookironworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Iron Working Textbook,
+		Icon		=	HCBookironworking,
+		TeachedRecipes  =   	Make Iron Ingot;Make Iron Ingots;Make Iron Anvil;Make Nails;Recycle Iron;Make Iron Rod;Make Iron Pole;Make Iron Cauldron;Make Iron Powder,
+        	ReplaceOnUse    =   	HCBookironworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookleadworking
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Lead Working Textbook,
+		Icon			=	HCBookleadworking,
+		TeachedRecipes  =   Make Lead Ingot;Recycle Lead;Make Lead Rod;Make Lead Buckshot;Make Lead Bullet Tips;Make Lead Anvil;Make Lead Powder,
+        ReplaceOnUse    =   HCBookleadworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooksteelworking
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Steel Working Textbook,
+		Icon			=	HCBooksteelworking,
+		TeachedRecipes  =   Make Steel Ingot;Make Steel Ingots;Recycle Steel;Recycle Spring Steel;Make Steel Rod;Make Leaf Spring;Make Clothespins,
+        ReplaceOnUse    =   HCBooksteelworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookcoalworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Coal Working Textbook,
+		Icon		=	HCBookcoalworking,
+		TeachedRecipes  =   	Make Charcoal Powder;Make Graphite Powder;Make Coke;Make Graphite Ingot;Make Graphite Rod;Make Tar Sticks;Distill Lighter Fluid;Distill Creosote Oil;Treat Wood Plank,
+        ReplaceOnUse    =   	HCBookcoalworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooksilverworking
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Silver Working Textbook,
+		Icon			=	HCBooksilverworking,
+		TeachedRecipes  =   Make Silver Ingot;Recycle Silver;Make Silver Powder,
+        ReplaceOnUse    =   HCBooksilverworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookgoldworking
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Gold Working Textbook,
+		Icon			=	HCBookgoldworking,
+		TeachedRecipes  =   Make Gold Ingot;Recycle Gold;Make Gold Powder,
+        ReplaceOnUse    =   HCBookgoldworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookaluminumworking
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Aluminum Working Textbook,
+		Icon			=	HCBookaluminumworking,
+		TeachedRecipes  =   Make Aluminum Ingot;Recycle Aluminum;Make Aluminum Tent Peg;Make Aluminum Powder;Make Aluminum Foil,
+        ReplaceOnUse    =   HCBookaluminumworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooktitaniumworking
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Titanium Working Textbook,
+		Icon			=	HCBooktitaniumworking,
+		TeachedRecipes  =   Make Titanium Ingot;Make Titanium Rod;Make Titanium Powder,
+        ReplaceOnUse    =   HCBooktitaniumworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooklithiumworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Lithium Working Textbook,
+		Icon		=	HCBooklithiumworking,
+		TeachedRecipes  =   	Make Lithium Ingot;Recycle Lithium;Make Lithium Powder,
+        	ReplaceOnUse    =   	HCBooklithiumworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookrubberworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Rubber Working Textbook,
+		Icon		=	HCBookrubberworking,
+		TeachedRecipes  =   	Make Rubber;Recycle Rubber;Make Vulcanized Rubber;Make Rubber Sheet;Make Rubber Hose;Make Rubber Bungs;Make Sap Catcher;Add Sap Catchers to Rubber Tree;Make Rubber Cement,
+        	ReplaceOnUse    =   	HCBookrubberworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookcandlemaking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Candle Making Textbook,
+		Icon		=	HCBookcandlemaking,
+		TeachedRecipes  =   	Make Wax Candle;Make Tallow Candle;Make Candleberry Wax;Recycle Wax;Prepare Cheese Cloth-wrapped Wax;Prepare Pot of Refined Wax;Process Refined Wax;Prepare Pot of Melted Refined Wax;Make Tallow,
+        	ReplaceOnUse    =   	HCBookcandlemaking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooksoapmaking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Soap Making Textbook,
+		Icon		=	HCBooksoapmaking,
+		TeachedRecipes  =   	Make Tallow;Make Homemade Soap,
+        	ReplaceOnUse    =   	HCBooksoapmaking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbasketry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Basketry Textbook,
+		Icon		=	HCBookbasketry,
+		TeachedRecipes  =   	Make Wicker Basket;Make Birch Bark Basket;Make Straw Basket;Make Fishing Basket;Weave Reed Mat;Dry Reed Mat;Make Netting,
+        	ReplaceOnUse    =   	HCBookbasketry,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookmasonry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Masonry Textbook,
+		Icon		=	HCBookmasonry,
+		TeachedRecipes  =   	Make Grey Bricks;Make Red Bricks;Make Mortar;Construct Brick Pillar;Make Smelter;Make Blast Furnace;Upgrade to Blast Furnace;Make Concrete Ingot;Make Concrete Powder;Make Concrete;Make Plaster;Make Plaster Powder;Make Gypsum Powder;Make Concrete Block;Make Hempcrete Block;Make Refractory Brick;Make Leadcrete Block,
+        	ReplaceOnUse    =   	HCBookmasonry,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookstoneworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Stoneworking Textbook,
+		Icon		=	HCBookstoneworking,
+		TeachedRecipes  =   	Make Gravel;Make Sand;Make Mortar;Construct Stone Pillar;Make Stone Anvil;Make Tombstone;Construct Tar Kiln;Construct Well;Construct Cellar;Make Stone Wheel;Construct Oil Press;Construct Grindstone;Make Stone Arrowhead;Build Stamp Mill;Upgrade Stamp Mill;Make Obelisk,
+        	ReplaceOnUse    =   	HCBookstoneworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookhunting
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Hunting Textbook,
+		Icon		=	HCBookhunting,
+		TeachedRecipes  =   	Hunt Animals;Kill Animal;Butcher Carcass;Make Drying Frame;Dry Fur;Dry Hide;Cut Dry Fur;Cut Hide Straps;Open Bear Trap;Set Bear Trap;Build Hunting Blind,
+        	ReplaceOnUse    =   	HCBookhunting,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookleatherworking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Leather Working Textbook,
+		Icon		=	HCBookleatherworking,
+		TeachedRecipes  =  Make Leather;Cut Leather;Make Hardened Leather;Make Fine Leather;Make Tannin;Make Milk of Lime;Make Limed Hide;Make Rose Tanning Oil;Make Waterflask;Make Bellows;Make Blacksmith Apron;Make Fine Leather Alice Pack;Make Horse Saddle;Make Horse Collar;Dry Skin;Make Belt;Stitch Leather Sand Bag;Stitch Boxing Gloves;Make Camo Leather;Stitch Green Camo Leather Jacket;Stitch Leather Pants;Stitch Hardened Leather Pants; Make Quiver,
+        ReplaceOnUse    =   	HCBookleatherworking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooktailoring
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Tailoring Textbook,
+		Icon		=	HCBooktailoring,
+		TeachedRecipes  =   	Stitch Linen Shirt;Make Netting;Make Spindle;Make Work Gloves;Stitch Linen Pants;Make Gym Towel;Make Bag;Recycle Bag;Recycle Sack;Stitch Garden Apron;Make Tailor's Workbench;Knit Wool Socks,
+        ReplaceOnUse    =   	HCBooktailoring,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookhatter
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Hatter Textbook,
+		Icon		=	HCBookhatter,
+		TeachedRecipes  =  Make Straw Hat,
+        ReplaceOnUse    =   	HCBookhatter,
+		DisplayCategory	=   LitR,
+	}
+
+
+	item HCBookcobbling
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Cobbling Textbook,
+		Icon		=	HCBookcobbling,
+		TeachedRecipes  =   	Make Leather Boots,
+        ReplaceOnUse    =   	HCBookcobbling,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookarmorcrafting
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Armor Crafting Textbook,
+		Icon			=	HCBookarmorcrafting,
+		TeachedRecipes  =   Reinforce Shirt;Reinforce Pants;Stitch Cow Fur Jacket;Stitch Hardened Leather Gloves;Make Leather Gloves;Make War Dog Armor;Make Spiked War Dog Armor;Attach Armor to Dog;Remove Armor from Wardog,
+        ReplaceOnUse    =   HCBookarmorcrafting,
+		DisplayCategory	=   LitR,
+	}
+
+    	item HCBookherbalism
+    	{
+        	Weight		=	0.5,
+        	Type		=	Literature,
+        	DisplayName	=	Herbalism Textbook,
+        	Icon		=	HCBookherbalism,
+        	TeachedRecipes  =  Harvest Flax;Add Herbal Medicine;Make Bunch of Berries;Dry Leaves;Dry Herbs;Dry Flower;Dry Spice;Dry Berry;Make Herbal Tea;Make Teabag;Grind Tobacco;Roll Cigar;Cure Hemp Bud;Soak Fresh Jute Stems;Dry Jute Stems;Make Mild Poison;Make Strong Poison;Extract Seed from Raw Rice;Thresh Rice;Shuck Corn;Harvest Pollen;Harvest Pollen Considered;Gather Seeds,
+        	ReplaceOnUse    =   	HCBookherbalism,
+		DisplayCategory	=   LitR,
+    	}
+
+	item HCBooksericulture
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Sericulture Textbook,
+		Icon		=	HCBooksericulture,
+		TeachedRecipes  =   	Breed Silkmoths;Feed Silkworm;Harvest Silk;Cook Empty Silk Cocoon,
+        	ReplaceOnUse    =   	HCBooksericulture,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookfungiguide
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Fungi Fieldguide,
+		Icon		=	HCBookfungiguide,
+		TeachedRecipes  =   	Make Bunch of Mushrooms,
+        	ReplaceOnUse    =   	HCBookfungiguide,
+		DisplayCategory	=   LitR,
+	}
+
+
+	item HCBookpharmacology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Pharmacology Textbook,
+		Icon		=	HCBookpharmacology,
+		TeachedRecipes  =   	Research Painkillers;Research Anti-Depression Medication;Research Antibiotics;Research Crystal Meth;Research Opium;Research Beta Blocker Medication,
+        	ReplaceOnUse    =   	HCBookpharmacology,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookwelding
+	{
+		Weight		=	0.5,
+		Type		=	Literature,											
+		DisplayName	=	Welding Textbook,                                   
+		Icon		=	HCBookwelding,
+		TeachedRecipes  =  Build Industrial Furnace;Upgrade to Industrial Furnace;Build Arc Furnace;Cut Small Copper Sheets;Cut Small Tin Sheets;Cut Small Bronze Sheets;Cut Small Iron Sheets;Cut Small Steel Sheet;Cut Small Lead Sheets;Cut Small Metal Sheets;Cut Small Titanium Sheets;Make Large Copper Sheet;Make Large Tin Sheet;Make Large Silver Sheet;Make Large Bronze Sheet;Make Large Iron Sheet;Make Large Lead Sheet;Make Large Steel Sheet;Make Large Aluminum Sheet;Make Large Titanium Sheet;Make Steel Pipe;Make Copper Pipe;Make Metal Barrel;Make Propane Tank;Make Metal Casing;Weld Flag Pole;Weld Punching Bag Stand;Weld Weight Bench;Repair Treadmill;Make Dissection Table;Make Iron Wheel;Make Steel Wheel;Make Iron Pulley;Make Steel Pulley;Make Wood Pulley;Make Mine Cart;Make Steel Chain;Make Large Iron Ring;Make Large Steel Ring,
+        ReplaceOnUse    =   	HCBookwelding,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookwire
+	{
+		Weight			=	0.5,
+		Type			=	Literature,
+		DisplayName		=	Wire Textbook,
+		Icon			=	HCBookwire,
+		TeachedRecipes  =   Make Welding Rods;Make Copper Wire;Make Lead Wire;Make Iron Wire;Make Steel Wire;Make Electrum Wire;Make Constantan Wire;Make Aluminum Wire;Make Zinc Wire;Make Thermocouple Wire;Make Constantan Heating Coil;Make Nichrome Heating Coil;Make Kanthal Heating Coil;Make Barbed Wire;Make Razor Wire,
+        ReplaceOnUse    =   HCBookwire,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookmagnets
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Magnets Textbook,
+		Icon		=	HCBookmagnets,
+		TeachedRecipes  =   	Make Magnetite Ingot;Make Giant Magnet;Search Junk with Giant Magnet;Make Magnetite Powder,
+        	ReplaceOnUse    =   	HCBookmagnets,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookindustrial
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Industrial Mechanics Textbook,
+		Icon		=	HCBookindustrial,
+		TeachedRecipes  =   Build Mechanical Thresher;Build Trip Hammer;Build Steam Boiler;Build Iron Furnace;Build Steam Engine;Build Steam Machine;Upgrade to Steam Hammer;Make Copper Gears;Make Tin Gears;Make Bronze Gears;Make Iron Gears;Make Invar Gears;Make Lead Gears;Make Steel Gears;Make Titanium Gears;Make Small Copper Sheet;Make Small Tin Sheet;Make Small Bronze Sheet;Make Small Iron Sheet;Make Small Lead Sheet;Make Small Steel Sheet;Make Small Metal Sheet;Make Small Titanium Sheet;Make Copper Sheet;Make Tin Sheet;Make Silver Sheet;Make Bronze Sheet;Make Iron Sheet;Make Lead Sheet;Make Steel Sheet;Make Metal Sheet;Make Titanium Sheet;Make Large Copper Sheet;Make Large Tin Sheet;Make Large Silver Sheet;Make Large Bronze Sheet;Make Large Iron Sheet;Make Large Lead Sheet;Make Large Steel Sheet;Make Large Aluminum Sheet;Make Large Titanium Sheet;Make Steel Crank;Make Iron Crank;Make Lever;Make Small Rolling Mill;Make Conveyor Belt;Make Electric Piston;Make Macerator;Make Industrial Press;Make Fan Blade;Make Duct Fan;Make Metal Duct,
+        ReplaceOnUse    =   	HCBookindustrial,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookgunsmithing
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Gunsmithing Textbook,
+		Icon		=	HCBookgunsmithing,
+		TeachedRecipes  =	Make Gunpowder;Make 9mm Bullets;Make .223 Bullets;Make .308 Bullets;Make Shotgun Shells,
+        ReplaceOnUse    =   	HCBookgunsmithing,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookrocketry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Rocketry Textbook,
+		Icon		=	HCBookrocketry,
+		TeachedRecipes  =   	Craft Rocket,
+        	ReplaceOnUse    =   	HCBookrocketry,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookjunk
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Appliance Repair Manual,
+		Icon		=	HCBookjunk,
+		TeachedRecipes  =   	Dismantle Fridge;Dismantle TV;Dismantle Washing Machine;Dismantle Drying Machine;Dismantle Microwave;Dismantle Tredmill;Fix Microwave;Fix Fridge;Fix Washing Machine;Fix Drying Machine;Make Copper Cooling Rack,
+        	ReplaceOnUse    =   	HCBookjunk,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookauto
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Auto Repair Manual,
+		Icon		=	HCBookauto,
+		TeachedRecipes  =   	Dismantle Auto Parts,
+        	ReplaceOnUse    =   	HCBookauto,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbicycle
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Bicycle Repair Manual,
+		Icon		=	HCBookbicycle,
+		TeachedRecipes  =   	Repair Bicycle;Dismantle Bicycle;Attach Baskets to Bicycle;Remove Baskets to Bicycle,
+        	ReplaceOnUse    =   	HCBookbicycle,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookanarchist
+    	{
+		Weight		= 	0.5,
+		Type		= 	Literature,
+		DisplayName	= 	Anarchist Cookbook,
+		Icon		= 	HCBookanarchist,
+		TeachedRecipes  = 	Add Private Notes to Anarchist Cookbook;Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Electric Clamp;Find Seeds;Make Crossbow Scope,
+        	ReplaceOnUse    = 	HCBookanarchist,
+		DisplayCategory	=   LitR,
+    	}
+
+	item HCBookanarchisthmtd
+    	{
+		Weight		= 	0.5,
+		Type		= 	Literature,
+		DisplayName	= 	Anarchist Cookbook with Private Note,
+		Icon		= 	HCBookanarchistpn01,
+		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Electric Clamp;Make Crossbow Scope,
+        	ReplaceOnUse    = 	HCBookanarchisthmtd,
+		DisplayCategory	=   LitR,
+    	}
+
+	item HCBookanarchistammonal
+    	{
+		Weight		= 	0.5,
+		Type		= 	Literature,
+		DisplayName	= 	Anarchist Cookbook with Private Note,
+		Icon		= 	HCBookanarchistpn01,
+		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Ammonal;Dry Ammonal;Cook Ammonal;Fill Ammonal in Bag;Make Electric Clamp;Make Crossbow Scope,
+        	ReplaceOnUse    = 	HCBookanarchistammonal,
+		DisplayCategory	=   LitR,
+    	}
+
+	item HCBookanarchistpn02
+    	{
+		Weight		= 	0.5,
+		Type		= 	Literature,
+		DisplayName	= 	Anarchist Cookbook,
+		Icon		= 	HCBookanarchistpn02,
+		TeachedRecipes  = 	Make Detonator Capsule Parts;Make Detonator Capsule;Make Detonator MK1;Make Detonator MK2;Make Detonator MK3;Make Chlorgas Grenade;Make Thermite Bomb;Make Improvised Gasmask;Make Detonator MK3 with HMTD;Upgrade Detonator MK1 To MK3 with HMTD;Upgrade Detonator MK2 To MK3 with HMTD;Upgrade Detonator MK3 To MK3 with HMTD;Make Ammonal;Dry Ammonal;Fill Ammonal in Bag;Make Ammonal Bomb;Make Electric Clamp,
+        	ReplaceOnUse    = 	HCBookanarchistpn02,
+		DisplayCategory	=   LitR,
+    	}
+
+	item HCBookrussian
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Russian Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookrussian,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookrussian,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookkorean
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Korean Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookkorean,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookkorean,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookjapanese
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Japanese Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookjapanese,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookjapanese,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookchinese
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Chinese Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookchinese,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookchinese,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookportuguise
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Portuguese Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookportuguise,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookportuguise,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookhindi
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Hindi Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookhindi,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookhindi,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookarabic
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Arabic Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookarabic,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookarabic,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookgreek
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Greek Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookgreek,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookgreek,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookfinnish
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Finnish Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookfinnish,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookfinnish,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookhebrew
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Hebrew Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookhebrew,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookhebrew,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookpolish
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Polish Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookpolish,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookpolish,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookzulu
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Zulu Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookzulu,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookzulu,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookegyptian
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Egyptian Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookegyptian,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookegyptian,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookczech
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Czech Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookczech,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookczech,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookdutch
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Dutch Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookdutch,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookdutch,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookkoran
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Koran,
+		StressChange	=	-4,
+		Icon		=	HCBookkoran,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookkoran,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBooktora
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Torah,
+		StressChange	=	-4,
+		Icon		=	HCBooktora,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBooktora,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBooklocksmithing
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Locksmithing Textbook,
+		Icon		=	HCBooklocksmithing,
+		TeachedRecipes  =   	Make Bronze Doorknob;Make Iron Hinge;Make Steel Padlock;Make Titanium Hinge;Make Metal Safe;Make Metal Combination Safe,
+        	ReplaceOnUse    =   	HCBooklocksmithing,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookmicrobiology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Microbiology Textbook,
+		Icon		=	HCBookmicrobiology,
+		TeachedRecipes  =   	Look Through Microscope;Prepare Petri Dish;Make Homemade Agar;Prepare Agar;Clean Petri Dish,
+        	ReplaceOnUse    =   	HCBookmicrobiology,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookgardening
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Gardening Textbook,
+		Icon		=	HCBookgardening,
+		TeachedRecipes  =   	Make Gardening Workbench;Plant Crop;Harvest Crop;Make Fertile Soil;Build Planter;Fill Clay Pot with Dirt;Build Scarecrow Stand;Attatch Scarecrow;Attatch Corpse Scarecrow;Make Mildew Cure;Make Flies Cure;Build Trellis Kit;Build Compost Bin;Make Compost;Fill Bag With Compost;Fill Bag With Rice Hull Charcoal;Build Composter,
+        	ReplaceOnUse    =   	HCBookgardening,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooksculpting
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Sculpting Textbook,
+		Icon		=	HCBooksculpting,
+		TeachedRecipes  =   	Make Marble Statue;Make Marble Pedestal;Carve Venus Figurine,
+        	ReplaceOnUse    =   	HCBooksculpting,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookastrology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Astrology Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookastrology,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookastrology,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookcalligraphy
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Calligraphy Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookcalligraphy,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookcalligraphy,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookarcheology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Archeology Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookarcheology,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookarcheology,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookradio
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Radio Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookradio,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookradio,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookecology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Ecology Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBookecology,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBookecology,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookorganicchemistry
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Organic Chemistry Textbook,
+		Icon		=	HCBookorganicchemistry,
+		TeachedRecipes  =   	Make Bioplastic;Build Biogas Collector;Make Biogas,
+        	ReplaceOnUse    =   	HCBookorganicchemistry,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooksailing
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Sailing Textbook,
+		StressChange	=	-4,
+		Icon		=	HCBooksailing,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCBooksailing,
+		DisplayCategory	=   LitE,
+	}
+
+	item HCBookexplosives
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Explosives Textbook,
+		Icon		=	HCBookexplosives,
+		TeachedRecipes  =   	Make Gunpowder;Make Thermite;Make Glycerin;Make Dynamite;Craft Propane Bomb Trap;Set Propane Bomb Trap,
+        	ReplaceOnUse    =   	HCBookexplosives,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookbiodiesel
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Biodiesel Textbook,
+		Icon		=	HCBookbiodiesel,
+		TeachedRecipes  =   	Cook Pot of Vegtable Oil;Make Methoxide;Make Raw Biodiesel;Remove Glycerin;Wash Biodiesel;Store Biodiesel;Add Gasoline to Biodiesel,
+        	ReplaceOnUse    =   	HCBookbiodiesel,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookdistillery
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Distillation Textbook,
+		Icon		=	HCBookdistillery,
+		TeachedRecipes  =   	Make Copper Cooler;Make Copper Mashpot;Build Distillery;Distill Fish Oil,
+        	ReplaceOnUse    =   	HCBookdistillery,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookphotography
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Photography Textbook,
+		Icon		=	HCBookphotography,
+		TeachedRecipes  =   	Make Photography Workbench,
+        	ReplaceOnUse    =   	HCBookphotography,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookmycology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Mycology Textbook,
+		Icon		=	HCBookmycology,
+		TeachedRecipes  =   	Examine Biowaste;Cultivate Penicillium;Cultivate Aspergillus;Cultivate Yeast;Cultivate Slime Mold;Extract Yeast,
+        	ReplaceOnUse    =   	HCBookmycology,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooktaxidermy
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Taxidermy Textbook,
+		Icon		=	HCBooktaxidermy,
+		TeachedRecipes  =   	Make Taxidermy Workbench;Create Glass Animal Eyes;Craft Small Animal Armature;Attach Straw to Small Animal Armature;Craft Medium Animal Armature;Attach Straw to Medium Animal Armature;Craft Taxidermy Mouse;Craft Taxidermy Rabbit,
+        	ReplaceOnUse    =   	HCBooktaxidermy,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookcryptozoology
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Cryptozoology Textbook,
+		Icon		=	HCBookcryptozoology,
+        	ReplaceOnUse    =   	HCBookcryptozoology,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBookpapermaking
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Paper Making Textbook,
+		Icon		=	HCBookpapermaking,
+		TeachedRecipes  =   	Make Rag Ball;Make Pulp;Make Netting;Make Paper Screen;Put Pulp onto Paper Screen;Dry Pulp;Remove Paper Screen,
+        	ReplaceOnUse    =   	HCBookpapermaking,
+		DisplayCategory	=   LitR,
+	}
+
+	item HCBooktoys
+	{
+		Weight		=	0.5,
+		Type		=	Literature,
+		DisplayName	=	Toy Making Textbook,
+		Icon		=	HCBooktoys,
+		TeachedRecipes  =  Build Toy Wagon;Carve Toy Horse;Make Straw Doll;Make Leather Ball;Create Glass Marbles,
+        	ReplaceOnUse    =   	HCBooktoys,
+		DisplayCategory	=   LitR,
+	}
+
+	item Nothing_Random_Book
+	{
+		Weight = 0,
+		Type = Normal,
+		DisplayName = Random Book,
+		Icon = Book,	
+	}	
+	
+/************************RECIPES************************/	
+
+recipe Remove Book Cover
+    {
+    Book/HCBook,
+    Result:Nothing_Random_Book,
+	RemoveResultItem:true,
+    Time:100,
+    OnCreate:HCRandombook,
+    }
+
+recipe Add Private Notes to Anarchist Cookbook
+    {
+	HCBlueprinthmtd,
+	HCBookanarchist,
+   	Result:HCBookanarchisthmtd,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Add Private Notes to Anarchist Cookbook
+    {
+	HCBlueprintammonal,
+	HCBookanarchist,
+   	Result:HCBookanarchistammonal,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Add Private Notes to Anarchist Cookbook
+    {
+	HCBlueprintammonal,
+	HCBookanarchisthmtd,
+   	Result:HCBookanarchistpn02,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Research,
+    }
+
+recipe Add Private Notes to Anarchist Cookbook
+    {
+	HCBlueprinthmtd,
+	HCBookanarchistammonal,
+   	Result:HCBookanarchistpn02,
+        NeedToBeLearn:true,
+    	Time:500,
+    	Category:Research,
+    }
+    
+
+}
