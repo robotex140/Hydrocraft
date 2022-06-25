@@ -85,20 +85,39 @@
 		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
 	</m_Transitions>
 	<m_SubStateBoneWeights>
-		<boneName>Bip01</boneName>
-		<weight>1.00</weight>
-	</m_SubStateBoneWeights>
-	<m_SubStateBoneWeights>
-		<boneName>Bip01</boneName>
-		<weight>1.00</weight>
-	</m_SubStateBoneWeights>
-	<m_SubStateBoneWeights>
 		<boneName>Bip01_L_Clavicle</boneName>
+		<weight>1.00</weight>
 	</m_SubStateBoneWeights>
 	<m_SubStateBoneWeights>
-		<boneName>Bip01_Prop1</boneName>
+		<boneName>Bip01_L_UpperArm</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_L_Forearm</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_L_Hand</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_L_Finger0</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_L_Finger1</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_L_Finger0Nub</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_L_Finger1Nub</boneName>
+		<weight>1.00</weight>
 	</m_SubStateBoneWeights>
 	<m_SubStateBoneWeights>
 		<boneName>Bip01_Prop2</boneName>
+		<weight>1.00</weight>
 	</m_SubStateBoneWeights>
 </animNode>
