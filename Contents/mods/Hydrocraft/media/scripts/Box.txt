@@ -10,7 +10,7 @@ module Hydrocraft
 		Icon				=	HCCardboardboxsealed,
 	}
 
-	recipe Store in a Box
+	recipe Store 12 in a Box
 	{
 		[Recipe.GetItemTypes.Box12]=12,
 		Result:BoxOfThings,
@@ -19,7 +19,7 @@ module Hydrocraft
 		CanBeDoneFromFloor:true,
 	}
 
-	recipe Store in a Box
+	recipe Store 25 in a Box
 	{
 		[Recipe.GetItemTypes.Box25]=25,
 		Result:BoxOfThings,
@@ -28,7 +28,7 @@ module Hydrocraft
 		CanBeDoneFromFloor:true,
 	}
 
-	recipe Store in a Box
+	recipe Store 50 in a Box
 	{
 		[Recipe.GetItemTypes.Box50]=50,
 		Result:BoxOfThings,
@@ -37,7 +37,7 @@ module Hydrocraft
 		CanBeDoneFromFloor:true,
 	}
 
-	recipe Store in a Box
+	recipe Store 100 in a Box
 	{
 		[Recipe.GetItemTypes.Box100]=100,
 		Result:BoxOfThings,
