@@ -934,6 +934,7 @@ function recipe_hcdismantlehanddolly(items, result, player)
     HCAddManySameItem("Hydrocraft.HCRubberscrap", 3, player);
 end
 
+--[[
 function recipe_hcdismantlepushcart(items, result, player)
     HCAddManySameItem("Base.MetalBar", 6, player);
     HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
@@ -941,11 +942,13 @@ function recipe_hcdismantlepushcart(items, result, player)
     HCAddManySameItem("Hydrocraft.HCPlasticscrap", 9, player);
     HCAddManySameItem("Hydrocraft.HCPlastic", 0, player);
 end
+--duplicate function removed, might be meant for another item (copy and paste error?)
+]]--
 
 function recipe_hcdismantlepushcart(items, result, player)
     HCAddManySameItem("Base.MetalBar", 3, player);
     HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
-    HCAddManySameItem("Hydrocraft.HCRubbercrap", 7, player);
+    HCAddManySameItem("Hydrocraft.HCRubberscrap", 7, player);
 end
 
 function recipe_hcdismantlebedsprings(items, result, player)
