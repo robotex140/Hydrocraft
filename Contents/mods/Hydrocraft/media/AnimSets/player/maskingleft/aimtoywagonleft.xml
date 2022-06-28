@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animNode>
-	<m_Name>walktoywagonleft</m_Name>
+	<m_Name>aimtoywagonleft</m_Name>
 	<m_AnimName>BobHC_Walk_Toywagon_L</m_AnimName>
 	<m_SpeedScale>1.00</m_SpeedScale>
 	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
@@ -29,29 +29,23 @@
 	<m_Conditions>
 		<m_Name>Aim</m_Name>
 		<m_Type>BOOL</m_Type>
-		<m_BoolValue>false</m_BoolValue>
+		<m_BoolValue>true</m_BoolValue>
 	</m_Conditions>
 	<m_Conditions>
 		<m_Name>sneaking</m_Name>
 		<m_Type>BOOL</m_Type>
 		<m_BoolValue>false</m_BoolValue>
 	</m_Conditions>
-	<m_Transitions>
+		<m_Transitions>
 		<m_Target>sprinttoywagonleft</m_Target>
 		<m_blendInTime>0.1</m_blendInTime>
 		<m_blendOutTime>0.2</m_blendOutTime>
 		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
 	</m_Transitions>
 	<m_Transitions>
-		<m_Target>aimtoywagonleft</m_Target>
+		<m_Target>holdingtoywagonleft</m_Target>
 		<m_blendInTime>0.1</m_blendInTime>
 		<m_blendOutTime>0.2</m_blendOutTime>
-		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
-	</m_Transitions>
-	<m_Transitions>
-		<m_Target>holdingtoywagonleft</m_Target>
-		<m_blendInTime>0.3</m_blendInTime>
-		<m_blendOutTime>0.3</m_blendOutTime>
 		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
 	</m_Transitions>
 	<m_Transitions>
@@ -80,6 +74,12 @@
 	</m_Transitions>
 	<m_Transitions>
 		<m_Target>walksneaktoywagonleft</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>walktoywagonleft</m_Target>
 		<m_blendInTime>0.1</m_blendInTime>
 		<m_blendOutTime>0.2</m_blendOutTime>
 		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
