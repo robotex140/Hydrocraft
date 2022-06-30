@@ -1012,6 +1012,7 @@ recipe Feed Dog
     	Category:Ranching,
     	OnCreate:HC_ToyStatModifier,
     	OnGiveXP:HCHunger_OnGiveXP,
+		OnTest:Hydrocraft.OnTest.FoodNotRotten,
     }
 
 recipe Attach Armor to Dog

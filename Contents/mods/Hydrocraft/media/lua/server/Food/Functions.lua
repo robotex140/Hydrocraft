@@ -7,6 +7,9 @@ Recipe.OnTest.Hydrocraft = Recipe.OnTest.Hydrocraft or {}
 Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
 Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
 
+Hydrocraft = Hydrocraft or {}
+Hydrocraft.OnTest = Hydrocraft.OnTest or {}
+
 local allRecipes = nil
 
 local function getRecipe(recipeName)
@@ -251,4 +254,12 @@ function Recipe.OnCreate.Hydrocraft.MagicFoodRecipe(items, result, player)
 	else
 		Recipe_OnCreate_ComplexBetter(items, result, recipe)
 	end
+end
+
+
+function Hydrocraft.OnTest.FoodNotRotten(item)
+	if item:IsFood() and item:IsRotten() then
+		return false
+	end
+	return true
 end
