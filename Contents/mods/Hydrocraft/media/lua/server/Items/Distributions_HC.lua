@@ -662,7 +662,8 @@ SuburbsDistributions["HCMedicalbox"] = {
         fillRand = 0,
 };
 
--- Add items for Golf Bag
+--[[
+-- Add items for Golf Bag --removed, gold bag is now vanilla, no need for a HC version.
 SuburbsDistributions["HCGolfbag"] = {
         rolls = 1,
         items = {
@@ -671,6 +672,7 @@ SuburbsDistributions["HCGolfbag"] = {
         },
         fillRand = 0,
 };
+]]--
 
 -- Add items for Cosmetic Case
 SuburbsDistributions["HCCosmeticcase"] = {

@@ -2044,7 +2044,7 @@ local garagestorage_items = {
         "Hydrocraft.HCAuger", 0.1,
         "Hydrocraft.HCLooper", 1,
         "Hydrocraft.HCElectrictape", 1,
-        "Hydrocraft.HCGolfbag", 1,
+        --"Hydrocraft.HCGolfbag", 1, --removed, exists in vanilla
         "Hydrocraft.HCSteelpipe", 1,
         "Hydrocraft.HCCopperpipe", 1,
         "Hydrocraft.HCHubcap", 1,
