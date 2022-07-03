@@ -404,28 +404,6 @@ item HCPiecrust
 	}
 
 /************************RECIPES************************/
-
-recipe Slice Pie
-    {
-        	PieWholeRaw,
-        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
-        	Result:Pie=5,
-        	Time:20.0,
-        	OnCreate:SlicePie_OnCreate,
-        	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-    }
-
-recipe Slice Cake
-    {
-        	CakeRaw,
-        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
-        	Result:CakeSlice=5,
-        	Time:20.0,
-        	OnCreate:SlicePie_OnCreate,
-        	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-    }
    
 recipe Make Pie Crust
 	{
