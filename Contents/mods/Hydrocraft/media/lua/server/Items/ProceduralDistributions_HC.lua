@@ -1902,10 +1902,12 @@ local magazines_items = {
 --Crate and Mixed are also wiped as the above list incldes vanilla and HC magazibes, so we can use it for all 4.
 --Otherwise it would need splitting into 2, one for HC items to be added to Mixed racks, another with all items for the 
 --Maps and Nwespaper racks
-ProceduralDistributions["list"]["CrateMagazines"].items = {}
-ProceduralDistributions["list"]["MagazineRackMixed"].items = {}
-ProceduralDistributions["list"]["MagazineRackMaps"].items = {}
-ProceduralDistributions["list"]["MagazineRackNewspaper"].items = {}
+--ProceduralDistributions["list"]["CrateMagazines"].items = {}
+--ProceduralDistributions["list"]["MagazineRackMixed"].items = {}
+--ProceduralDistributions["list"]["MagazineRackMaps"].items = {}
+--ProceduralDistributions["list"]["MagazineRackNewspaper"].items = {}
+
+--On second thoughts.. wiping these lists might break other mods...
 
 insertItemListsInProcDistribution( "CrateMagazines", {   magazines_items  } );
 insertItemListsInProcDistribution( "MagazineRackMixed", {   magazines_items  } );
