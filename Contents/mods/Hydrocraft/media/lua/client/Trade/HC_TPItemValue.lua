@@ -1097,7 +1097,7 @@ ItemValueTable["Hydrocraft.HCConcreteblock"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCConcreteingot"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCConstantanheatingcoil"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCConstantaningot"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCConveyorbelt"] = 0.00 ;
+
 ItemValueTable["Hydrocraft.HCCookbookbbq"] = 1.00 ;
 ItemValueTable["Hydrocraft.HCCookbookdried"] = 1.00 ;
 ItemValueTable["Hydrocraft.HCCookbookjerky"] = 1.00 ;

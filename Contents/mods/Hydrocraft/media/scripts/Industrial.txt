@@ -455,15 +455,6 @@ item HCMetalwheel
 		DisplayCategory          =   CraftInd,
     }
 
-item HCConveyorbelt
-    {
-        Weight    			= 20,
-        Type    			= Normal,
-        DisplayName         		= Conveyor Belt,
-        icon 				= HCConveyorbelt,
-		DisplayCategory          =   CraftInd,
-    }
-
 item HCPiston
     {
         Weight   		= 0.2,
@@ -1473,25 +1464,6 @@ recipe Make Selfmade Heater
     	Time:150,
     	Category:Engineer,
     	OnGiveXP:HCWelding_OnGiveXP,
-    }
-
-recipe Make Conveyor Belt
-    {
-	SkillRequired:Electricity=1;Mechanics=5;,
-        HCRubbersheet=6,
-	HCCablecopper=2,
-        HCElectromotor=2,
-	HCGearsteel=4,
-	HCSteelrod=2,
-        SheetMetal=4,
-        HCWeldingset,
-        keep [Recipe.GetItemTypes.WeldingMask],
-        keep HCWorkgloves,
-    	Result:HCConveyorbelt,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	Category:Engineer,
-    	OnGiveXP:HCEMW_OnGiveXP,
     }
 
 recipe Make Electric Piston
