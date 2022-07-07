@@ -104,7 +104,6 @@ local function OnLoadSpawnOnZeds()
 	LOOT["Hydrocraft.HCBinoculars"] = 0.05
 	LOOT["Hydrocraft.HCMeasuringtape"] = 0.05
 	--LOOT["Hydrocraft.HCCompass"] = 0.1
-	LOOT["Hydrocraft.HCCamera"] = 0.05
 	LOOT["Base.Torch"] = 0.1
 	LOOT["Hydrocraft.HCFlashlightoff"] = 0.25
 	LOOT["Hydrocraft.HCFlashlighton"] = 0.25

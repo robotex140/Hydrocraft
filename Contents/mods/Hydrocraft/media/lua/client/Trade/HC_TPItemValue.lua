@@ -729,7 +729,6 @@ ItemValueTable["Hydrocraft.HCCalciumchloridepowder"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCCalciumhydroxidpowder"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCCalciumoxidpowder"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCCalculator"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCCamera"] = 1.00 ;
 ItemValueTable["Hydrocraft.HCCamomile"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCCamomiledry"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCCamomileteaclaymug"] = 0.00 ;

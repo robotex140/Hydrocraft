@@ -83,7 +83,7 @@ end
 --Photo
 function recipe_hclootphoto(items, result, player)
     local gets = ZombRand(6);
-    local itemSet = {"Base.RoastingPan", "Hydrocraft.HCRubberglove", "Hydrocraft.HCFlashlightbulbred", "Hydrocraft.HCPhotolacquer", "Hydrocraft.HCPhotofixer", "Hydrocraft.HCPhotodevloper", "Hydrocraft.HCFilmroll", "Hydrocraft.HCFilmcanister", "Hydrocraft.HCCamera"};
+    local itemSet = {"Base.RoastingPan", "Hydrocraft.HCRubberglove", "Hydrocraft.HCFlashlightbulbred", "Hydrocraft.HCPhotolacquer", "Hydrocraft.HCPhotofixer", "Hydrocraft.HCPhotodevloper", "Hydrocraft.HCFilmroll", "Hydrocraft.HCFilmcanister"};
     player:getInventory():AddItem("Hydrocraft.HCBubblewrap");
     for x=0, gets do
         HCItemGet(player, itemSet);

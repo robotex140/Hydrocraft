@@ -154,7 +154,6 @@ local gigamart_toys_items = {
         "Hydrocraft.HCBugnet", 0.5,
         "Hydrocraft.HCWitchhat", 0.2,
         "Hydrocraft.HCPumpkinknife", 0.5,
-        "Hydrocraft.HCCamera", 0.5,
         "Hydrocraft.HCFilmcanister", 0.5,
         "Hydrocraft.HCFilmroll", 0.5,
         "Hydrocraft.HCMagnifyglass", 0.5,
@@ -256,7 +255,6 @@ local metalwork_crate_items = {
         "Hydrocraft.HCGlowstickred", 0.1,
         "Hydrocraft.HCGlowstickblue", 0.1,
         "Hydrocraft.HCGlowstickgreen", 0.1,
-        "Hydrocraft.HCCamera", 0.5,
         "Hydrocraft.HCFilmcanister", 1,
         "Hydrocraft.HCFilmroll", 1,
         "Hydrocraft.HCFuelcanister", 1,
@@ -1598,7 +1596,6 @@ insertItemListsInProcDistribution( "ServingTrayPizza", {   pizza_kitchen_serving
         -- Add items for Electronics Store
 local electronics_items = {
         "Hydrocraft.HCCalculator", 1,
-        "Hydrocraft.HCCamera", 1,
         "Hydrocraft.HCLaserpointer", 1,
         "Hydrocraft.HCDVD", 0.1,
         "Hydrocraft.HCDVDCase", 0.1,
@@ -2057,7 +2054,6 @@ local garagestorage_items = {
         "Hydrocraft.HCWeldingtank", 1,
         "Hydrocraft.HCCane", 1,
         "Hydrocraft.HCFlyswatter", 1,
-        "Hydrocraft.HCCamera", 1,
         "Hydrocraft.HCFilmcanister", 1,
         "Hydrocraft.HCFilmroll", 1,
         "Hydrocraft.HCFuelcanister", 1,
@@ -2914,7 +2910,6 @@ insertItemListsInProcDistribution( "CrateFarming", {   Garageunits_Tools_items  
 
 
 local Garageunits_Camping_items = {
-        "Hydrocraft.HCCamera", 1,
         "Hydrocraft.HCFilmcanister", 1,
         "Hydrocraft.HCFilmroll", 1,
         "Hydrocraft.HCPrepperbag", 1,

@@ -93,7 +93,6 @@ local zombie_items = {
         "Hydrocraft.HCBinoculars", 0.05,
         "Hydrocraft.HCMeasuringtape", 0.05,
         -- "Hydrocraft.HCCompass", 0.1,
-        "Hydrocraft.HCCamera", 0.05,
         "Base.Torch", 0.1,
         "Hydrocraft.HCFlashlightoff", 0.5,
         "Hydrocraft.HCManometer", 0.04,
