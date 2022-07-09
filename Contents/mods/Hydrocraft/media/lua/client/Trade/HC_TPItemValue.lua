@@ -3448,7 +3448,6 @@ ItemValueTable["Hydrocraft.HCShieldcopper"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCShieldiron"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCShieldriot"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCShieldsteel"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCShieldtrashcanlid"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCShieldwood"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCShiitake"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCShipinbottle"] = 0.00 ;
