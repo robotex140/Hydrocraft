@@ -105,17 +105,21 @@ module Hydrocraft
 		DisplayCategory	= Container,
    }
 
-     item HCWheelbarrow
+   item HCWheelbarrow
    {
-	WeightReduction         	= 100,
-	Weight             		    = 20,
-	Type                		= Container,
-	Capacity             		= 200,
-	DisplayName             	= Wheelbarrow,
-	Icon				        = HCWheelbarrow,
-	RequiresEquippedBothHands 	= true,
-    TwoHandWeapon               = TRUE,
-		DisplayCategory	= Container,
+        WeightReduction         	= 100,
+        Weight             		    = 20,
+        Type                		= Container,
+        Capacity             		= 200,
+        DisplayName             	= Wheelbarrow,
+        Icon				        = HCWheelbarrow,
+        SurvivalGear			    = TRUE,
+		EquippedNoSprint 		    = FALSE,
+        RequiresEquippedBothHands 	= TRUE,
+        StaticModel                 = Hydrocraft.HCWheelbarrow,
+        WorldStaticModel            = Hydrocraft.HCWheelbarrow,
+        DisplayCategory	            = Container,
+        ReplaceInPrimaryHand 	    = Bag_Wheelbarrow_RHand holdingwheelbarrowright,
    }
 
 
@@ -154,9 +158,13 @@ module Hydrocraft
 	Capacity             		= 170,
 	DisplayName             	= Hand Dolly,
 	Icon				        = HCHanddolly,
-	RequiresEquippedBothHands 	= true,
-    TwoHandWeapon               = TRUE,
-		DisplayCategory	= Container,
+	SurvivalGear			    = TRUE,
+    EquippedNoSprint 		    = FALSE,
+    RequiresEquippedBothHands 	= TRUE,
+    StaticModel                 = Hydrocraft.HCHanddolly,
+    WorldStaticModel            = Hydrocraft.HCHanddolly,
+	DisplayCategory	            = Container,
+    ReplaceInPrimaryHand 	    = Bag_Handdolly_RHand holdinghanddollyright,
    }
 
     item HCForklift
@@ -187,13 +195,19 @@ module Hydrocraft
 
      item HCToywagon
    {
-	WeightReduction        		= 100,
-	Weight             		    = 5,
-	Type                		= Container,
-	Capacity             		= 150,
-	DisplayName             	= Toy Wagon,
-	Icon				        = HCToywagon,
-		DisplayCategory	= Container,
+    WeightReduction        		= 100,
+    Weight             		    = 5,
+    Type                		= Container,
+    Capacity             		= 150,
+    DisplayName             	= Toy Wagon,
+    Icon				        = HCToywagon,
+    SurvivalGear			    = TRUE,
+    EquippedNoSprint 		    = FALSE,
+    StaticModel                 = Hydrocraft.HCToywagon,
+    WorldStaticModel            = Hydrocraft.HCToywagonfolded,
+    DisplayCategory	            = Container,
+    ReplaceInPrimaryHand 	    = Bag_Toywagon_RHand holdingtoywagonright,
+    ReplaceInSecondHand         = Bag_Toywagon_LHand holdingtoywagonleft,
    }
 
     item HCPaperbag

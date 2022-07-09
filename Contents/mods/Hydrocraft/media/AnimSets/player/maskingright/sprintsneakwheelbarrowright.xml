@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>sprintsneakwheelbarrowright</m_Name>
+	<m_AnimName>BobHC_WalkSneak_Wheelbarrow</m_AnimName>
+	<m_Priority>10</m_Priority>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SpeedScale>1.5</m_SpeedScale>
+	<m_BlendTime>0.50</m_BlendTime>
+	<!-- <m_Scalar>WalkInjury</m_Scalar> -->
+	<!-- <m_Scalar2>WalkSpeed</m_Scalar2> -->
+	<m_Conditions>
+		<m_Name>RightHandMask</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>holdingwheelbarrowright</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>ismoving</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isRunning</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isSprinting</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>Aim</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>sneaking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_2DBlends referenceID="1">
+		<m_AnimName>BobHC_WalkSneak_Wheelbarrow</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.5</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="2">
+		<m_AnimName>BobHC_WalkSneak_Wheelbarrow</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>1.5</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="3">
+		<m_AnimName>BobHC_WalkSneak_Wheelbarrow</m_AnimName>
+		<m_XPos>-1.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.5</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="4">
+		<m_AnimName>BobHC_WalkSneak_Wheelbarrow</m_AnimName>
+		<m_XPos>1.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.5</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="5">
+		<m_AnimName>BobHC_WalkSneak_Wheelbarrow</m_AnimName>
+		<m_XPos>-1.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>1.5</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="6">
+		<m_AnimName>BobHC_WalkSneak_Wheelbarrow</m_AnimName>
+		<m_XPos>1.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>1.5</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlendTri>
+		<node1>5</node1>
+		<node2>3</node2>
+		<node3>1</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>2</node1>
+		<node2>5</node2>
+		<node3>1</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>6</node1>
+		<node2>2</node2>
+		<node3>4</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>1</node1>
+		<node2>4</node2>
+		<node3>2</node3>
+	</m_2DBlendTri>
+	<m_Transitions>
+		<m_Target>sprintwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>aimwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>holdingwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>idlesneakwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>runsneakwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>runwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>strafewheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>walkwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_R_Clavicle</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop1</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop2</boneName>
+	</m_SubStateBoneWeights>
+</animNode>

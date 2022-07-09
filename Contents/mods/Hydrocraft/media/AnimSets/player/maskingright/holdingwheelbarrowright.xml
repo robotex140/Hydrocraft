@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>holdingwheelbarrowright</m_Name>
+	<m_AnimName>BobHC_Idle_Wheelbarrow</m_AnimName>
+	<m_Priority>10</m_Priority>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_speedScale>1.0</m_speedScale>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_Conditions>
+		<m_Name>RightHandMask</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>holdingwheelbarrowright</m_StringValue>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>aimwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+		<m_Transitions>
+		<m_Target>sprintwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>idlesneakwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>runsneakwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>runwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>strafewheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>walksneakwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>walkwheelbarrowright</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+		<!-- <m_SpeedScale>0.3</m_SpeedScale> -->
+	</m_Transitions>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_R_Clavicle</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop1</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop2</boneName>
+	</m_SubStateBoneWeights>
+</animNode>
