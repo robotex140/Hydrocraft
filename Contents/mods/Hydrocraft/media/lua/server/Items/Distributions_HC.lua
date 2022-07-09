@@ -71,6 +71,11 @@ insertTable(SuburbsDistributions["all"]["crate"].items, crate_items)
 -- Zombie Inventory Spawning --
 ------------------------------------
 
+local farmer_items = {
+	"Hydrocraft.HCMysteryseedspacket", 8, --same value as each of the vanilla seed packets
+}
+insertItemListsInDistribution( "all", "Outfit_Farmer", { farmer_items } );
+
 local zombie_items = {
         -- Money --
         "Hydrocraft.HCPenny", 1,
