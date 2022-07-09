@@ -138,7 +138,7 @@ local function OnLoadSpawnOnZeds()
 	LOOT["Hydrocraft.HCGum"] = 0.2
 	LOOT["Hydrocraft.HCGum2"] = 0.2
 	LOOT["Hydrocraft.HCGum3"] = 0.2
-	LOOT["Hydrocraft.HCMysteryseedspacket"] = 0.1
+	--LOOT["Hydrocraft.HCMysteryseedspacket"] = 0.1 --removed, these now spawn on farmer zeds using the vanilla spawn system.
 	LOOT["Hydrocraft.HCMRE"] = 0.2
 
 	-- Other --
