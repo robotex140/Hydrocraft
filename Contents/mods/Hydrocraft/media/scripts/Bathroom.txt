@@ -27,17 +27,6 @@ item HCFloss
 	DisplayCategory          =   Misc,
     }
 
-item HCHairgel
-    {
-        Weight    		= 0.2,
-	Type			= Drainable,
-	UseWhileEquipped	= FALSE,
-	UseDelta		= 0.25,
-        DisplayName         	= Hairgel,
-        icon 			= HCHairgel,
-	DisplayCategory          =   Useless,
-    }
-
 item HCHaircolorblack
     {
         Weight    		= 0.2,

@@ -1,6 +1,6 @@
 module Base
 {
-	/*DO NOT RENAME - unless you also edit /server/Food/Function.lua*/
+	/*DO NOT RENAME*/
 	/*DO NOT ADD EXTRA RECIPES WITH THE SAME NAME*/
 	/*DO NOT MOVE FROM MODULE Base*/
 	recipe Make Bowl of Cereal
@@ -12,7 +12,7 @@ module Base
 		Time:50.0,
 		Category:Cooking,
 		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-		OnCreate:Recipe.OnCreate.Make_Bowl_of_Cereal,
+		OnCreate: Recipe.OnCreate.Hydrocraft.MagicFoodRecipe,
 		Override: true,/* needed to replace vanilla recipe! */
 	}	
 }

@@ -867,15 +867,15 @@ recipe Harvest Silk
 
 recipe Cook Empty Silk Cocoon
     {
-        HCSilkcocoonempty,
+        HCSilkcocoonempty=10,
         Charcoal,
         Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
         Water,
         keep HCClaycauldron/HCCauldroniron,
         CanBeDoneFromFloor:true,
-        Result:HCSilkfiber,
+        Result:HCSilkfiber=10,
         NeedToBeLearn:true,
-        Time:700,
+        Time:5000,
         Category:Weaving,
         OnGiveXP:HCCooking_OnGiveXP,
     }

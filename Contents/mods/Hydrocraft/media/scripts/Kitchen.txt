@@ -144,7 +144,7 @@ item HCCoffeefilterdry
         Type    			= Normal,
         DisplayName         		= Dry Coffee Filter,
         icon 				= HCCoffeefilterdry,
-		DisplayCategory          =   Crafting,
+		DisplayCategory          =   Craft,
     }
 	
 	item HCCoffeefilterbox
@@ -153,7 +153,7 @@ item HCCoffeefilterdry
         Type    			= Normal,
         DisplayName         = Coffee Filter Box,
         icon 				= HCCoffeefilterbox,
-		DisplayCategory          =   Crafting,
+		DisplayCategory          =   Craft,
     }
 
 item HCCoffeefilterwet
@@ -162,7 +162,7 @@ item HCCoffeefilterwet
         Type    			= Normal,
         DisplayName         		= Wet Coffee Filter,
         icon 				= HCCoffeefilterwet,
-		DisplayCategory          =   Crafting,
+		DisplayCategory          =   Craft,
     }
 
 item HCCoffeefilterpapertowel
@@ -171,7 +171,7 @@ item HCCoffeefilterpapertowel
         Type    			= Normal,
         DisplayName         		= Drying Coffee Filter,
         icon 				= HCCoffeefilterpapertowel,
-		DisplayCategory          =   Crafting,
+		DisplayCategory          =   Craft,
     }
 
 item HCThermos
@@ -183,7 +183,7 @@ item HCThermos
 	ReplaceOnUseOn			= WaterSource-HCThermosfull,
         icon 				= HCThermos,
 	RainFactor 			= 1,
-		DisplayCategory          =   Crafting,
+		DisplayCategory          =   Craft,
     }
 
 item HCThermosfull
@@ -211,7 +211,7 @@ item HCAlestien
 	ReplaceOnUseOn		= WaterSource-HCAlestienfull,
         icon 			= HCAlestien,
 	RainFactor 		= 0.2,
-		DisplayCategory          =   Crafting,
+		DisplayCategory          =   Craft,
     }
 
 item HCAlestienfull
@@ -255,7 +255,7 @@ item HCBottleopener
         Type    			= Normal,
         DisplayName         		= Bottle Opener,
         icon 				= HCBottleopener,
-		DisplayCategory          =   Crafting,
+		DisplayCategory          =   Craft,
     }
 
 item HCCheesegrater

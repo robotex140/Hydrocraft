@@ -18,7 +18,7 @@ item HCCornonthecob
 	DaysFresh			=	5,
 	DaysTotallyRotten		=	8,
 	DisplayName			=	Corn On the Cob,
-	ReplaceOnUse			=	Pan,
+	/*ReplaceOnUse			=	Pan,*/
 	Icon				=	HCCorncob,
 	FoodType			=	Vegetables,
 	Carbohydrates 			= 	43.7,
@@ -81,28 +81,17 @@ item HCCottoncandy
 	}
 		
 /************************RECIPES************************/
-    
-		
-recipe Make Corn on the Cob
-	{
-		Pan,
-		Corn,
-		Butter;5,
-		Result:HCCornonthecob,
-		Time:85.0,
-	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-	}	
+
 
 recipe Make Corn on the Cob
 	{
-		Pan,
+		keep Pan,
 		Corn,
-		HCCookingoil/OilVegetable/HCCookingoiljar;1,
+		HCCookingoil/OilVegetable/HCCookingoiljar/Butter;1,
 		Result:HCCornonthecob,
 		Time:85.0,
-	   	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
 	}
-			
+
 }

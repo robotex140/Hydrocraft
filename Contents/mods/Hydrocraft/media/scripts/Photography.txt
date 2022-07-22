@@ -8,17 +8,6 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
-
-item HCCamera
-    {
-        Weight    		= 1,
-        Type    		= Normal,
-        DisplayName         	= Camera,
-        icon 			= HCCamera,
-		DisplayCategory		=   CraftMisc,
-    }
-
-
 item HCFilmcanister
     {
         Weight    		= 0.1,
@@ -93,7 +82,7 @@ item HCPhotobench
 
 recipe Make Photography Workbench
     {
-	HCCamera,
+	CameraExpensive,
 	HCFilmroll=2,
 	HCFilmcanister=3,
 	HCPhotodevloper,

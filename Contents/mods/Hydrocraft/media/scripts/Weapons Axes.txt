@@ -103,8 +103,8 @@ item HCAxeheadblunt
 		Weight				=	3,
 		SplatNumber			=	1,
 		PushBackMod			=	0.3,
-		MinDamage			=	1,
-		MaxDamage			=	2.5,
+		MinDamage			=	0.7,
+		MaxDamage			=	1.8,
 		SubCategory			=	Swinging,
 		ConditionMax			=	10,
 		MaxHitCount			=	2,
@@ -145,8 +145,8 @@ item HCAxeheadblunt
 		Weight				=	3,
 		SplatNumber			=	1,
 		PushBackMod			=	0.3,
-		MinDamage			=	1,
-		MaxDamage			=	2,
+		MinDamage			=	0.6,
+		MaxDamage			=	1.6,
 		SubCategory			=	Swinging,
 		ConditionMax			=	10,
 		MaxHitCount			=	2,
@@ -187,8 +187,8 @@ item HCAxeheadblunt
 		Weight				=	3,
 		SplatNumber			=	1,
 		PushBackMod			=	0.3,
-		MinDamage			=	1,
-		MaxDamage			=	2,
+		MinDamage			=	0.5,
+		MaxDamage			=	1.5,
 		SubCategory			=	Swinging,
 		ConditionMax			=	10,
 		MaxHitCount			=	2,
@@ -434,12 +434,13 @@ item HCAxeheadblunt
 
 recipe Craft Axe Handle
 	{
-	   	Plank,
-	   	keep Saw/GardenSaw,
-	   	Result:HCAxehandle,
-	   	Time:150.0,
-    		Category:Carpentry,
-    		OnGiveXP:HCWoodwork_OnGiveXP,
+		Plank,
+		keep Saw/GardenSaw,
+		Result:HCAxehandle,
+		Time:150.0,
+		Category:Carpentry,
+		OnGiveXP:HCWoodwork_OnGiveXP,
+		CanBeDoneFromFloor:true,
 	}
 
 recipe Remove Axe Head
@@ -757,7 +758,7 @@ module Base
     {
         TreeBranch/HCAxehandle,
         SharpedStone,
-        RippedSheets/Twine/RippedSheetsDirty,
+        RippedSheets/Twine/RippedSheetsDirty/DenimStrips/DenimStripsDirty,
 
         Result:AxeStone,
         Time:80.0,

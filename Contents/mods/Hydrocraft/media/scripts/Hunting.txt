@@ -542,21 +542,20 @@ item HCCanadiangoosefemale
 
 item HCCanadiangoosedead
 	{
-	Weight 				= 	0.4,
-    Type				=	Food,
-    DangerousUncooked	=	TRUE,
-    DaysTotallyRotten	=	4,
-    DaysFresh			=	2,
-    FoodType    		=   	Game,
-	Type 				= 	Normal,
+	Weight				=	0.4,
+	Type				=	Food,
+	DangerousUncooked	=	TRUE,
+	DaysTotallyRotten	=	4,
+	DaysFresh			=	2,
+	FoodType			=	Game,
 	DisplayName 		= 	Dead Canadian Goose,
 	Icon				=	HCCanadiangoosedead,
-	Carbohydrates		= 	10,
-    Proteins 			= 	87,
-    Lipids 				= 	39,
-    Calories 			= 	714,
-    HungerChange		=	-35,	
-	DisplayCategory          =   AnimalDead,
+	Carbohydrates		=	10,
+	Proteins			=	87,
+	Lipids				=	39,
+	Calories			=	714,
+	HungerChange		=	-35,	
+	DisplayCategory		=	AnimalDead,
 	}
 
 item HCQuailmale

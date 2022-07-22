@@ -6,64 +6,6 @@ if scriptItem then
 	--scriptItem:DoParam("DisplayCategory = Drugs")  --Vanilla: DisplayCategory = FirstAid, so don't change?
 end
 
-
-scriptItem = ScriptManager.instance:getItem("Base.IronSight")
-if scriptItem then
-	scriptItem:DoParam("MountOn = Hydrocraft.HCUzi; HuntingRifle; VarmintRifle; Pistol; Pistol2; Pistol3; Revolver; Revolver_Long; AssaultRifle; AssaultRifle2,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.GunLight")
-if scriptItem then
-	scriptItem:DoParam("MountOn = Hydrocraft.HCUzi;Pistol; Pistol2; Pistol3,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.RedDot")
-if scriptItem then
-	scriptItem:DoParam("MountOn = Hydrocraft.HCUzi;Pistol; Pistol2; Pistol3; Revolver; Revolver_Long; AssaultRifle; AssaultRifle2; HuntingRifle; VarmintRifle,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.Shotgun")
-if scriptItem then
-	scriptItem:DoParam("DisplayCategory = WepFire")
-	scriptItem:DoParam("ModelWeaponPart = HCShotgunSilencer gunlight,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.Revolver_Short")
-if scriptItem then
-	scriptItem:DoParam("DisplayCategory = WepFire")
-	scriptItem:DoParam("ModelWeaponPart = Hydrocraft.HCUziSilencer Hydrocraft.HCUziSilencer,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.Revolver_Long")
-if scriptItem then
-	scriptItem:DoParam("DisplayCategory = WepFire")
-	scriptItem:DoParam("ModelWeaponPart = Hydrocraft.HCUziSilencer Hydrocraft.HCUziSilencer,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.Revolver")
-if scriptItem then
-	scriptItem:DoParam("DisplayCategory = WepFire")
-	scriptItem:DoParam("ModelWeaponPart = Hydrocraft.HCUziSilencer Hydrocraft.HCUziSilencer,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.Pistol3")
-if scriptItem then
-	scriptItem:DoParam("DisplayCategory = WepFire")
-	scriptItem:DoParam("ModelWeaponPart = Hydrocraft.HCUziSilencer Hydrocraft.HCUziSilencer,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.Pistol2")
-if scriptItem then
-	scriptItem:DoParam("DisplayCategory = WepFire")
-	scriptItem:DoParam("ModelWeaponPart = Hydrocraft.HCUziSilencer Hydrocraft.HCUziSilencer,")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.Pistol")
-if scriptItem then
-	scriptItem:DoParam("DisplayCategory = WepFire")
-	scriptItem:DoParam("ModelWeaponPart = Hydrocraft.HCUziSilencer Hydrocraft.HCUziSilencer,")
-end
-
 scriptItem = ScriptManager.instance:getItem("Base.MetalPipe")
 if scriptItem then
 	--scriptItem:DoParam("DisplayName = Aluminum Pipe") --why are we declaring it to be aluminum?
@@ -238,7 +180,6 @@ end
 scriptItem = ScriptManager.instance:getItem("Base.Coffee2")
 if scriptItem then
 	scriptItem:DoParam("DisplayCategory = FoodB")
-	scriptItem:DoParam("ReplaceOnDeplete = EmptySandbag")
 end
 
 scriptItem = ScriptManager.instance:getItem("Base.Sugar")
@@ -483,16 +424,6 @@ if scriptItem then
 	scriptItem:DoParam("Tags = Potato")
 end
 
-scriptItem = ScriptManager.instance:getItem("Base.TreeBranch")
-if scriptItem then
-	scriptItem:DoParam("Tags = Box12")
-end
-
-scriptItem = ScriptManager.instance:getItem("Base.ElectronicsScrap")
-if scriptItem then
-	scriptItem:DoParam("Tags = Box100")
-end
-
 scriptItem = ScriptManager.instance:getItem("Base.Cereal")
 if scriptItem then
 	scriptItem:DoParam("Tags = Cereal")
@@ -587,7 +518,6 @@ if scriptItem then
 	scriptItem:DoParam("Tags = NylonBag")
 	scriptItem:DoParam("NylonAmount = 4")
 end
-
 
 
 

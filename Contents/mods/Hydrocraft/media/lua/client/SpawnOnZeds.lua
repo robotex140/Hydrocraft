@@ -104,7 +104,6 @@ local function OnLoadSpawnOnZeds()
 	LOOT["Hydrocraft.HCBinoculars"] = 0.05
 	LOOT["Hydrocraft.HCMeasuringtape"] = 0.05
 	--LOOT["Hydrocraft.HCCompass"] = 0.1
-	LOOT["Hydrocraft.HCCamera"] = 0.05
 	LOOT["Base.Torch"] = 0.1
 	LOOT["Hydrocraft.HCFlashlightoff"] = 0.25
 	LOOT["Hydrocraft.HCFlashlighton"] = 0.25
@@ -139,7 +138,7 @@ local function OnLoadSpawnOnZeds()
 	LOOT["Hydrocraft.HCGum"] = 0.2
 	LOOT["Hydrocraft.HCGum2"] = 0.2
 	LOOT["Hydrocraft.HCGum3"] = 0.2
-	LOOT["Hydrocraft.HCMysteryseedspacket"] = 0.1
+	--LOOT["Hydrocraft.HCMysteryseedspacket"] = 0.1 --removed, these now spawn on farmer zeds using the vanilla spawn system.
 	LOOT["Hydrocraft.HCMRE"] = 0.2
 
 	-- Other --

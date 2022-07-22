@@ -23,6 +23,14 @@ function Recipe.GetItemTypes.Box12(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box12"))
 end
 
+function Recipe.GetItemTypes.Box25(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Box25"))
+end
+
+function Recipe.GetItemTypes.Box50(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Box50"))
+end
+
 function Recipe.GetItemTypes.Box100(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Box100"))
 end
@@ -34,4 +42,20 @@ end
 
 function Recipe.GetItemTypes.NylonBag(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("NylonBag"))
+end
+
+function Recipe.GetItemTypes.HuntingShotgun(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("HuntingShotgun"))
+end
+
+function Recipe.GetItemTypes.BooksWithNumberOfPages(scriptItems)
+	local all = getScriptManager():getAllItems()
+	for i=0, all:size()-1 do
+		local item = all:get(i)
+		local pageCount = item:getNumberOfPages() --returns -1 for NA, or 220, 260, etc.
+
+		if pageCount > 0 then
+			scriptItems:add( item )
+		end
+	end
 end

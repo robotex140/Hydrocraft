@@ -463,6 +463,7 @@ item HCJellopacketwatermelon
 		Lipids 				= 	2,
 		Calories 			= 	156,
 		DisplayCategory		=   FoodP,
+		ReplaceOnUse = Bowl,
 	}
 	
 	item HCJelloblueberryprep
@@ -598,6 +599,7 @@ item HCJelloblueberrybowl
         Lipids 				= 	2,
         Calories 			= 	156,
 		DisplayCategory		=   FoodP,
+	ReplaceOnUse = Bowl,
 	}
 
 item HCJellocherryprep
@@ -733,6 +735,7 @@ item HCJellocherrybowl
         Lipids 				= 	2,
         Calories 			= 	156,
 		DisplayCategory		=   FoodP,
+	ReplaceOnUse = Bowl,
 	}	
 
 item HCJellolemonprep
@@ -868,6 +871,7 @@ item HCJellolemonbowl
         Lipids 				= 	2,
         Calories 			= 	156,
 		DisplayCategory		=   FoodP,
+	ReplaceOnUse = Bowl,
 	}
 	
 
@@ -1004,6 +1008,7 @@ item HCJelloorangebowl
         Lipids 				= 	2,
         Calories 			= 	156,
 		DisplayCategory		=   FoodP,
+	ReplaceOnUse = Bowl,
 	}
 	
 
@@ -1140,6 +1145,7 @@ item HCJellolimebowl
         Lipids 				= 	2,
         Calories 			= 	156,
 		DisplayCategory		=   FoodP,
+	ReplaceOnUse = Bowl,
 	}
 	
 
@@ -1276,6 +1282,7 @@ item HCJellowatermelonbowl
         Lipids 				= 	2,
         Calories 			= 	156,
 		DisplayCategory		=   FoodP,
+	ReplaceOnUse = Bowl,
 	}
 	
 
@@ -1395,23 +1402,24 @@ item HCJellostrawberrycubes
 
 item HCJellostrawberrybowl
 	{
-	HungerChange			=	-8,
-	ThirstChange			=	-14,
-	BoredomChange			=	-15,
-	UnhappyChange			=	-20,
-	Weight					=	0.5,
-	Type					=	Food,
-	DaysFresh				=      3,
-	DaysTotallyRotten		= 	   5,
-	DisplayName				=	Strawberry Jello Dessert,
-	Icon					=	HCJellostrawberrybowl,  
-	CustomContextMenu 		= 	Eat,
-	FoodType    			=   NoExplicit,
-	Carbohydrates 			= 	38,
-        Proteins 			= 	2,
-        Lipids 				= 	2,
-        Calories 			= 	156,
-		DisplayCategory		=   FoodP,
+	HungerChange		=	-8,
+	ThirstChange		=	-14,
+	BoredomChange		=	-15,
+	UnhappyChange		=	-20,
+	Weight				=	0.5,
+	Type				=	Food,
+	DaysFresh			=	3,
+	DaysTotallyRotten	=	5,
+	DisplayName			=	Strawberry Jello Dessert,
+	Icon				=	HCJellostrawberrybowl,
+	CustomContextMenu	=	Eat,
+	FoodType			=	NoExplicit,
+	Carbohydrates		=	38,
+	Proteins			=	2,
+	Lipids				=	2,
+	Calories			=	156,
+	DisplayCategory		=	FoodP,
+	ReplaceOnUse		=	Bowl,
 	}
 	
 /************************RECIPES************************/

@@ -19,7 +19,7 @@ module Hydrocraft
         Lipids 				= 	0,
         Calories 			= 	2880,
         Packaged 			= 	TRUE,
-	ReplaceOnDeplete		=	Hydrocraft.HCRiceempty,
+		ReplaceOnUse		=	Hydrocraft.HCRiceempty,
 		DisplayCategory		=	FoodN,
     }
 

@@ -31,20 +31,20 @@ item HCBiogas
 
 
 recipe Build Biogas Collector
-    {
-    	SkillRequired:Farming=7,
-	Base.PropaneTank,
-	HCWeldinghose,
-	HCFunnel/HCGlassfunnel,
-    	Pipe=2,
-    	HCBarrelblueempty,
-    	Worm=5,
-    	Result:HCBiogas,
-    	NeedToBeLearn:true,
-    	Time:250.0,
-        Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
-    }
+	{
+		SkillRequired:Farming=7,
+		destroy Base.PropaneTank,
+		HCWeldinghose,
+		HCFunnel/HCGlassfunnel,
+		Pipe=2,
+		HCBarrelblueempty,
+		Worm=5,
+		Result:HCBiogas,
+		NeedToBeLearn:true,
+		Time:250.0,
+		Category:Engineer,
+		OnGiveXP:HCHunger_OnGiveXP,
+	}
 
 recipe Make Biogas
     {

@@ -875,8 +875,8 @@ module Hydrocraft
 
 /************************RECIPES************************/	
 
-
-    recipe Create Spear
+/*Removed: the function Recipe.OnCreate.CreateSpear only reduces the condition of short blades, which meant that axes could be used repeatedly - feels like a big exploit.  Also, using scissors would be annpying, e.g. you carry them to cut clothes and then destory them making a spear.*/ 
+/*    recipe Create Spear
     {
 		Plank/TreeBranch,
 		keep [Recipe.GetItemTypes.Scissors]/Axe/HCMakeshiftaxe/HCMakeshiftaxeworn/HCMakeshiftaxeblunt/HCSurvivalaxe/HCHatchetsteel/HCHatchetiron/AxeStone/HandScythe,
@@ -886,7 +886,7 @@ module Hydrocraft
         Category:Survivalist,
         OnGiveXP:Recipe.OnGiveXP.WoodWork5,
     }
-
+*/
 
 recipe Make Steel Halberd
 	{

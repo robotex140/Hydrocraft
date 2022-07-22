@@ -1288,16 +1288,6 @@ recipe Play With
 
 recipe Play With
     {
-    HCCamera,
-    Result:HCCamera,
-    Time:500,
-    OnCreate:HC_ToyStatModifier,
-    Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
-    }
-
-recipe Play With
-    {
     HCCalculator,
     Result:HCCalculator,
     Time:500,

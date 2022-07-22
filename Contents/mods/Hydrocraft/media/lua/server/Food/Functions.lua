@@ -1,6 +1,14 @@
 
 Recipe = Recipe or {}
+Recipe.OnTest = Recipe.OnTest or {}
 Recipe.OnCreate = Recipe.OnCreate or {}
+Recipe.OnCanPerform = Recipe.OnCanPerform or {}
+Recipe.OnTest.Hydrocraft = Recipe.OnTest.Hydrocraft or {}
+Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
+Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
+
+Hydrocraft = Hydrocraft or {}
+Hydrocraft.OnTest = Hydrocraft.OnTest or {}
 
 local allRecipes = nil
 
@@ -17,12 +25,17 @@ local function getRecipe(recipeName)
 	return nil
 end
 
+function Recipe.OnCanPerform.Hydrocraft.RememberThisRecipe(recipe, player, item)
+	lastRecipe = recipe
+	return true
+end
+
 --[[
 IMPORTANT
 Only call is from OnCreate for 'simple' recipes, that is recipes that take whole food items and combine them into a new food.
 DO NOT call this if the recipes takes part of an item, e.g. "OilVegetable;1,", doing so will give wildly inflated food stats.
 ]]--
-function Recipe.OnCreate.Generic(items, result, player)
+function Recipe.OnCreate.Hydrocraft.CreateGenericFood(items, result, player)
 
 	local calories = 0
 	local carbs = 0
@@ -212,10 +225,41 @@ local function Recipe_OnCreate_ComplexBetter(items, result, recipeName)
 
 end
 
-function Recipe.OnCreate.Make_Bowl_of_Cereal(items, result, player)
-	Recipe_OnCreate_ComplexBetter(items, result, "Make Bowl of Cereal")
+function Recipe.OnCreate.Hydrocraft.CreateComplexFood(items, result, player)
+	if lastRecipe ~= nil then
+		local recipeName = lastRecipe:getName()
+		Recipe_OnCreate_ComplexBetter(items, result, recipeName)	
+	else
+		print("Exception: lastRecipe is nil in Recipe.OnCreate.CreateComplexFood")
+	end
+	lastRecipe = nil	
 end
 
-function Recipe.OnCreate.MakeHomemadeFries(items, result, player)
-	Recipe_OnCreate_ComplexBetter(items, result, "Make French Fries")
+function Recipe.OnTest.Hydrocraft.IsCooked(item)
+	if item:IsFood() then
+		if item:isCooked() then
+			return true
+		end
+		return false --food, but not cooked
+	end
+	return true
+end
+
+function Recipe.OnCreate.Hydrocraft.MagicFoodRecipe(items, result, player)
+	local recipe = result:getModData()["Hydrocraft_RecipeName"]
+	print("Recipe: ", recipe)
+	if recipe == nil then
+		print("Recipe not found:", recipe, " - using generic function instead")
+		Recipe.OnCreate.Hydrocraft.Generic(items, result, player)
+	else
+		Recipe_OnCreate_ComplexBetter(items, result, recipe)
+	end
+end
+
+
+function Hydrocraft.OnTest.FoodNotRotten(item)
+	if item:IsFood() and item:IsRotten() then
+		return false
+	end
+	return true
 end

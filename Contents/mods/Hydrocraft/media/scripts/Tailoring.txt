@@ -1652,7 +1652,7 @@ recipe Make Flour Sack
 
 recipe Make Rice Sack
     {
-        HCBurlapcloth,
+        HCBurlapcloth=2,
         keep HCTailoringbench2,
         Thread=2,
         Result:HCRiceempty,

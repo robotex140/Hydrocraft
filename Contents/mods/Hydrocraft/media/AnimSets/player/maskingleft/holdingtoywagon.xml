@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>holdingtoywagon</m_Name>
+	<m_AnimName>BobHC_Idle_Toywagon_Left</m_AnimName>
+	<m_Priority>9</m_Priority>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_speedScale>1.0</m_speedScale>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_Conditions>
+		<m_Name>HCToyWagonEquip</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>true</m_StringValue>
+	</m_Conditions>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+</animNode>

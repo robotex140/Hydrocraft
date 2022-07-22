@@ -489,7 +489,10 @@ fox.baits["Hydrocraft.HCCrayfish"] = 10;
 fox.baits["Hydrocraft.HCChickendead"] = 30;
 fox.baits["Hydrocraft.HCChickendead2"] = 30;
 
-
+--Code below removed, live rabbits don't work as they are not compatible with:
+--STrapGlobalObject:removeAnimal which requires they be of type Food
+--Could make new live rabbits that are food, but then you'd be able to eat (and cook?) them alive.
+--[[
 local live_rabbit_male = {};
 live_rabbit_male.type = "live_rabbit_male";
 -- after how many hour the animal will start to destroy the cage/escape
@@ -561,6 +564,7 @@ live_rabbit_female.baits["farming.Potato"] = 35;
 live_rabbit_female.baits["farming.Tomato"] = 35;
 live_rabbit_female.baits["Base.Peach"] = 35;
 live_rabbit_female.baits["Hydrocraft.HCGrass"] = 20;
+]]--
 
 function getAnimal(Animals, aniString)
     local thisIsTheOne = -1;

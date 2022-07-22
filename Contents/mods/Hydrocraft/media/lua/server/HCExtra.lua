@@ -940,6 +940,7 @@ function recipe_hcdismantlehanddolly(items, result, player)
     HCAddManySameItem("Hydrocraft.HCRubberscrap", 3, player);
 end
 
+--[[
 function recipe_hcdismantlepushcart(items, result, player)
     HCAddManySameItem("Base.MetalBar", 6, player);
     HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
@@ -947,11 +948,13 @@ function recipe_hcdismantlepushcart(items, result, player)
     HCAddManySameItem("Hydrocraft.HCPlasticscrap", 9, player);
     HCAddManySameItem("Hydrocraft.HCPlastic", 0, player);
 end
+--duplicate function removed, might be meant for another item (copy and paste error?)
+]]--
 
 function recipe_hcdismantlepushcart(items, result, player)
     HCAddManySameItem("Base.MetalBar", 3, player);
     HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
-    HCAddManySameItem("Hydrocraft.HCRubbercrap", 7, player);
+    HCAddManySameItem("Hydrocraft.HCRubberscrap", 7, player);
 end
 
 function recipe_hcdismantlebedsprings(items, result, player)
@@ -2266,7 +2269,7 @@ end
 
 --Random Gifts
 function HCRandomGiftGet(items, result, player)
-giftSet = {"Hydrocraft.HCBookanarchist", "Hydrocraft.HCBinoculars", "Hydrocraft.HCCamera",  "Hydrocraft.HCCalculator", "Hydrocraft.HCLaserpointer", "Base.Spiffo", "Hydrocraft.HCToyrobot", "Hydrocraft.HCToydrawing",  "Hydrocraft.HCDVDPlayer", "Base.Book", "Base.WhiskeyFull", "Base.Wine", "Base.Wine2", "Base.FishingRod", "Base.Headphones",  "Base.Radio", "Base.DigitalWatch", "Hydrocraft.HCFlashlightoff","Hydrocraft.HCBookbedtime", "Hydrocraft.HCBookfairytale", "Hydrocraft.HCDogwhistle"};
+giftSet = {"Hydrocraft.HCBookanarchist", "Hydrocraft.HCBinoculars", "Hydrocraft.HCCalculator", "Hydrocraft.HCLaserpointer", "Base.Spiffo", "Hydrocraft.HCToyrobot", "Hydrocraft.HCToydrawing",  "Hydrocraft.HCDVDPlayer", "Base.Book", "Base.WhiskeyFull", "Base.Wine", "Base.Wine2", "Base.FishingRod", "Base.Headphones",  "Base.Radio", "Base.DigitalWatch", "Hydrocraft.HCFlashlightoff","Hydrocraft.HCBookbedtime", "Hydrocraft.HCBookfairytale", "Hydrocraft.HCDogwhistle"};
     gift = ZombRand(#giftSet) + 1;
     player:getInventory():AddItem(giftSet[gift]);
 end
@@ -2871,4 +2874,13 @@ function Recipe.OnCreate.Hydrocraft.OpenBox(items, result, player)
 	
 	player:getInventory():AddItems( ft, count )
 
+end
+
+--use to give the player the accurate number of pages from a book
+function Recipe.OnCreate.Hydrocraft.PullOutPages(items, result, player)
+	local book = items:get(0)
+	local pageCount = book:getNumberOfPages()
+	if pageCount > 0 then
+		player:getInventory():AddItems("Base.SheetPaper2", pageCount / 2)
+	end
 end

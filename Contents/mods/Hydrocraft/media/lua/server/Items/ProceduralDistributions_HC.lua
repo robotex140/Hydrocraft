@@ -154,7 +154,6 @@ local gigamart_toys_items = {
         "Hydrocraft.HCBugnet", 0.5,
         "Hydrocraft.HCWitchhat", 0.2,
         "Hydrocraft.HCPumpkinknife", 0.5,
-        "Hydrocraft.HCCamera", 0.5,
         "Hydrocraft.HCFilmcanister", 0.5,
         "Hydrocraft.HCFilmroll", 0.5,
         "Hydrocraft.HCMagnifyglass", 0.5,
@@ -256,7 +255,6 @@ local metalwork_crate_items = {
         "Hydrocraft.HCGlowstickred", 0.1,
         "Hydrocraft.HCGlowstickblue", 0.1,
         "Hydrocraft.HCGlowstickgreen", 0.1,
-        "Hydrocraft.HCCamera", 0.5,
         "Hydrocraft.HCFilmcanister", 1,
         "Hydrocraft.HCFilmroll", 1,
         "Hydrocraft.HCFuelcanister", 1,
@@ -1343,7 +1341,7 @@ insertItemListsInProcDistribution( "PostOfficeBoxes", {   postoffice_boxes_items
 local bathroom_counter_items = {
         "Hydrocraft.HCFloss", 0.2,
         --"Hydrocraft.HCPlunger", 0.2, --removed, vanilla plunger exists, no need to duplicate.
-        "Hydrocraft.HCHairgel", 0.2,
+        --"Hydrocraft.HCHairgel", 0.2,
         "Hydrocraft.HCHairdryer", 0.2,
         "Hydrocraft.HCElectrictoothbrush", 0.5,
         "Hydrocraft.HCElectricrazor", 0.5,
@@ -1598,7 +1596,6 @@ insertItemListsInProcDistribution( "ServingTrayPizza", {   pizza_kitchen_serving
         -- Add items for Electronics Store
 local electronics_items = {
         "Hydrocraft.HCCalculator", 1,
-        "Hydrocraft.HCCamera", 1,
         "Hydrocraft.HCLaserpointer", 1,
         "Hydrocraft.HCDVD", 0.1,
         "Hydrocraft.HCDVDCase", 0.1,
@@ -1827,37 +1824,93 @@ insertItemListsInProcDistribution( "StoreShelfMechanics", {   fossoil_counter_it
 
 --  Magazine Rack
 local magazines_items = {
-        "Hydrocraft.HCAdultmagazine", 0.1,
-        "Hydrocraft.HCAdultmagazine2", 0.1,
-        "Hydrocraft.HCAdultmagazine3", 0.1,
-        "Hydrocraft.HCAdultmagazine4", 0.1,
-        "Hydrocraft.HCAdultmagazine5", 0.1,
-        "Hydrocraft.HCAdultmagazine6", 0.1,
-        "Hydrocraft.HCSportsmagazine", 1,
-        "Hydrocraft.HCSportsmagazine2", 1,
-        "Hydrocraft.HCMagazinemetalworking1", 1,
-        "Hydrocraft.HCMagazinemetalworking2", 1,
-        "Hydrocraft.HCMagazinemetalworking3", 1,
-        "Hydrocraft.HCMagazinemetalworking4", 1,
-        "Hydrocraft.HCMagazinemetalworking5", 1,
-        "Hydrocraft.HCMagazinemetalworking6", 1,
-        "Hydrocraft.HCMagazinemetalworking7", 1,
-        "Hydrocraft.HCMagazinefarming1", 1,
-        "Hydrocraft.HCMagazineelectronics01", 1,
-        "Hydrocraft.HCMagazineelectronics02", 1,
-        "Hydrocraft.HCMagazineelectronics03", 1,
-        "Hydrocraft.HCMagazinespopularmachines01", 1,
-        "Hydrocraft.HCPostcard1", 1,
-        "Hydrocraft.HCPostcard2", 1,
-        "Hydrocraft.HCPostcard3", 1,
-        "Hydrocraft.HCPostcard4", 1,
-        "Hydrocraft.HCPostcard5", 1,
-        "Hydrocraft.HCPostcard6", 1,
-        "Hydrocraft.HCPostcard7", 1,
-        "Hydrocraft.HCPostcard8", 1,
+	"Hydrocraft.HCAdultmagazine", 0.1,
+	"Hydrocraft.HCAdultmagazine2", 0.1,
+	"Hydrocraft.HCAdultmagazine3", 0.1,
+	"Hydrocraft.HCAdultmagazine4", 0.1,
+	"Hydrocraft.HCAdultmagazine5", 0.1,
+	"Hydrocraft.HCAdultmagazine6", 0.1,
+	"Hydrocraft.HCSportsmagazine", 1,
+	"Hydrocraft.HCSportsmagazine2", 1,
+	"Hydrocraft.HCMagazinemetalworking1", 1,
+	"Hydrocraft.HCMagazinemetalworking2", 1,
+	"Hydrocraft.HCMagazinemetalworking3", 1,
+	"Hydrocraft.HCMagazinemetalworking4", 1,
+	"Hydrocraft.HCMagazinemetalworking5", 1,
+	"Hydrocraft.HCMagazinemetalworking6", 1,
+	"Hydrocraft.HCMagazinemetalworking7", 1,
+	"Hydrocraft.HCMagazinefarming1", 1,
+	"Hydrocraft.HCMagazineelectronics01", 1,
+	"Hydrocraft.HCMagazineelectronics02", 1,
+	"Hydrocraft.HCMagazineelectronics03", 1,
+	"Hydrocraft.HCMagazinespopularmachines01", 1,
+	--"Hydrocraft.HCPostcard1", 1,
+	--"Hydrocraft.HCPostcard2", 1,
+	--"Hydrocraft.HCPostcard3", 1,
+	--"Hydrocraft.HCPostcard4", 1,
+	--"Hydrocraft.HCPostcard5", 1,
+	--"Hydrocraft.HCPostcard6", 1,
+	--"Hydrocraft.HCPostcard7", 1,
+	--"Hydrocraft.HCPostcard8", 1,
+		
+	--"ComicBook", 8,
+	--"ComicBook", 8,
+	--"ComicBook", 8,
+	--"ComicBook", 8,
+	"CookingMag1", 1,
+	"CookingMag2", 1,
+	"ElectronicsMag1", 1,
+	"ElectronicsMag2", 1,
+	"ElectronicsMag3", 1,
+	"ElectronicsMag4", 1,
+	"ElectronicsMag5", 1,
+	"EngineerMagazine1", 1,
+	"EngineerMagazine2", 1,
+	"FarmingMag1", 1,
+	"FishingMag1", 1,
+	"FishingMag2", 1,
+	"HerbalistMag", 1,
+	"HottieZ", 0.5,
+	"HuntingMag1", 1,
+	"HuntingMag2", 1,
+	"HuntingMag3", 1,
+	--"Magazine", 20,
+	--"Magazine", 20,
+	--"Magazine", 10,
+	--"Magazine", 10,
+	"MagazineCrossword1", 1,
+	"MagazineCrossword2", 1,
+	"MagazineCrossword3", 1,
+	"MagazineWordsearch1", 1,
+	"MagazineWordsearch2", 1,
+	"MagazineWordsearch3", 1,
+	"MechanicMag1", 1,
+	"MechanicMag2", 1,
+	"MechanicMag3", 1,
+	"MetalworkMag1", 1,
+	"MetalworkMag2", 1,
+	"MetalworkMag3", 1,
+	"MetalworkMag4", 1,	
+
 };
+
+--wipe the magazine loot lists, then re-fill.
+--wioing the Maps and Newspaper lists means there are more magazine racks we can use to put magazines on instead.
+--Crate and Mixed are also wiped as the above list incldes vanilla and HC magazibes, so we can use it for all 4.
+--Otherwise it would need splitting into 2, one for HC items to be added to Mixed racks, another with all items for the 
+--Maps and Nwespaper racks
+--ProceduralDistributions["list"]["CrateMagazines"].items = {}
+--ProceduralDistributions["list"]["MagazineRackMixed"].items = {}
+--ProceduralDistributions["list"]["MagazineRackMaps"].items = {}
+--ProceduralDistributions["list"]["MagazineRackNewspaper"].items = {}
+
+--On second thoughts.. wiping these lists might break other mods...
+
 insertItemListsInProcDistribution( "CrateMagazines", {   magazines_items  } );
 insertItemListsInProcDistribution( "MagazineRackMixed", {   magazines_items  } );
+insertItemListsInProcDistribution( "MagazineRackMaps", {   magazines_items  } );
+insertItemListsInProcDistribution( "MagazineRackNewspaper", {   magazines_items  } );
+
 
 -- Add items for Fishing Storage Crates
 local fishing_store_gear_items = {
@@ -1990,7 +2043,7 @@ local garagestorage_items = {
         "Hydrocraft.HCAuger", 0.1,
         "Hydrocraft.HCLooper", 1,
         "Hydrocraft.HCElectrictape", 1,
-        "Hydrocraft.HCGolfbag", 1,
+        --"Hydrocraft.HCGolfbag", 1, --removed, exists in vanilla
         "Hydrocraft.HCSteelpipe", 1,
         "Hydrocraft.HCCopperpipe", 1,
         "Hydrocraft.HCHubcap", 1,
@@ -2001,7 +2054,6 @@ local garagestorage_items = {
         "Hydrocraft.HCWeldingtank", 1,
         "Hydrocraft.HCCane", 1,
         "Hydrocraft.HCFlyswatter", 1,
-        "Hydrocraft.HCCamera", 1,
         "Hydrocraft.HCFilmcanister", 1,
         "Hydrocraft.HCFilmroll", 1,
         "Hydrocraft.HCFuelcanister", 1,
@@ -2858,7 +2910,6 @@ insertItemListsInProcDistribution( "CrateFarming", {   Garageunits_Tools_items  
 
 
 local Garageunits_Camping_items = {
-        "Hydrocraft.HCCamera", 1,
         "Hydrocraft.HCFilmcanister", 1,
         "Hydrocraft.HCFilmroll", 1,
         "Hydrocraft.HCPrepperbag", 1,
@@ -2915,25 +2966,6 @@ insertItemListsInProcDistribution( "CrateOfficeSupplies", {   Garageunits_Office
 -- **************
 -- police military
 -- **************
-
-	local SPAWN_HC_GUNS = true
-	
-	if(SandboxVars.Hydrocraft.SpawnHydrocraftGuns ~= nil) then
-		SPAWN_HC_GUNS = SandboxVars.Hydrocraft.SpawnHydrocraftGuns
-	end
-	
-	if(SPAWN_HC_GUNS) then
-		local firearms_items = {
-				"Hydrocraft.HCUzi", 1,
-				"Hydrocraft.HCMagUZI", 1,
-				"Hydrocraft.HCUziSilencer", 0.5,
-				"Hydrocraft.HCAA12", 1,
-				"Hydrocraft.HCMagAA12", 1,
-				"Hydrocraft.HCShotgunSilencer", 0.5,
-		};
-		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
-		insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
-	end
 
 local fridge_items = {
         "Hydrocraft.HCUHTmilk", 0.8,
@@ -3273,3 +3305,36 @@ insertItemListsInProcDistribution( "CrateElectronics", { electrician_counter_ite
 
 print (">>alive");
 -- distributioncsv();
+
+--[[
+Note: Sandbox vars don't exist when loading a save, so they still have their default values
+To get around this we need to use the OnLoad event to check the sandbox value after the game has loaded.
+]]--
+local function OnLoadSpawnGuns()
+
+	local SPAWN_HC_GUNS = true
+	
+	if(SandboxVars.Hydrocraft.SpawnHydrocraftGuns ~= nil) then
+		SPAWN_HC_GUNS = SandboxVars.Hydrocraft.SpawnHydrocraftGuns
+		--print("********************* SandboxVars.Hydrocraft.SpawnHydrocraftGuns is - ", SandboxVars.Hydrocraft.SpawnHydrocraftGuns)
+	else
+		--print("********************* SandboxVars.Hydrocraft.SpawnHydrocraftGuns is NIL!")
+	end
+	
+	if(SPAWN_HC_GUNS) then
+		--print("********************* SPAWN_HC_GUNS is TRUE, guns will spawn in containers.")
+		local firearms_items = {
+				"Hydrocraft.HCUzi", 1,
+				"Hydrocraft.HCMagUZI", 1,
+				"Hydrocraft.HCUziSilencer", 0.5,
+				"Hydrocraft.HCAA12", 1,
+				"Hydrocraft.HCMagAA12", 1,
+				"Hydrocraft.HCShotgunSilencer", 0.5,
+		};
+		insertItemListsInProcDistribution( "PoliceStorageGuns", {   firearms_items  } );
+		insertItemListsInProcDistribution( "ArmyStorageGuns", {   firearms_items  } );
+	end
+
+end
+
+Events.OnLoad.Add(OnLoadSpawnGuns)

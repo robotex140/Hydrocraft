@@ -437,25 +437,25 @@ item HCPotofcornmash
 
 item HCPotofcornmashcooked
 	{
-	HungerChange			=	-30,
+	HungerChange		=	-30,
 	Weight				=	0.3,
 	Type				=	Food,
 	DaysFresh			=	1,	
-	DaysTotallyRotten		=	1,
+	DaysTotallyRotten	=	1,
 	DisplayName			=	Pot of Heated Corn Mash,
 	Icon				=	PotFull,
-	ReplaceOnUse			=	Pot,
-	DisplayCategory          =   FoodP,
+	ReplaceOnUse		=	Pot,
+	DisplayCategory		=	FoodP,
 	}
 
 item HCBarrelcorn
 	{
-        Weight    		= 20,
-	Type 			= Normal,
-        DisplayName         	= Barrel of Corn Mash,
-        ReplaceOnDeplete        = Hydrocraft.HCWoodenbarrel,
-        icon 			= HCWinebarrel
-	DisplayCategory          =   CraftDist,
+	Weight				=	20,
+	Type				=	Normal,
+	DisplayName			=	Barrel of Corn Mash,
+	ReplaceOnDeplete	=	Hydrocraft.HCWoodenbarrel,
+	icon				=	HCWinebarrel,
+	DisplayCategory		=	CraftDist,
 	}
 
 

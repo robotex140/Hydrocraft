@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>sprintsneaktoywagon</m_Name>
+	<m_AnimName>BobHC_WalkSneak_Toywagon</m_AnimName>
+	<m_Priority>9</m_Priority>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SpeedScale>1.5</m_SpeedScale>
+	<m_BlendTime>0.50</m_BlendTime>
+	<!-- <m_Scalar>WalkInjury</m_Scalar> -->
+	<!-- <m_Scalar2>WalkSpeed</m_Scalar2> -->
+	<m_Conditions>
+		<m_Name>HCToyWagonEquip</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>true</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>ismoving</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isRunning</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isSprinting</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>Aim</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>false</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>sneaking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+    <m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+		<weight>1.00</weight>
+	</m_SubStateBoneWeights>
+</animNode>

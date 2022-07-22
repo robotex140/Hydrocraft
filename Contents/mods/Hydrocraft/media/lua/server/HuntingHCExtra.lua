@@ -4,6 +4,12 @@
 --Adapted for Hydrocraft by Yossitaru.
 ------HUNTING-----
 
+Recipe = Recipe or {}
+Recipe.OnCreate = Recipe.OnCreate or {}
+Recipe.OnCanPerform = Recipe.OnCanPerform or {}
+Recipe.OnCreate.Hydrocraft = Recipe.OnCreate.Hydrocraft or {}
+Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
+
 function countDogs(player)
 	 local inv = player:getInventory();
 	local dogsFullType = {"Hydrocraft.HCBeaglemale", "Hydrocraft.HCBeaglefemale", "Hydrocraft.HCBoxermale", "Hydrocraft.HCBoxerfemale", "Hydrocraft.HCDachshundmale", "Hydrocraft.HCDachshundfemale", "Hydrocraft.HCGermanshepherdmale", "Hydrocraft.HCGermanshepherdfemale", "Hydrocraft.HCGreatdanemale", "Hydrocraft.HCGreatdanefemale", "Hydrocraft.HCIrishsettermale", "Hydrocraft.HCIrishsetterfemale", "Hydrocraft.HCGoldenmale", "Hydrocraft.HCGoldenfemale", "Hydrocraft.HCLabradormale", "Hydrocraft.HCLabradorfemale", "Hydrocraft.HCShibainumale", "Hydrocraft.HCShibainufemale"};
@@ -412,4 +418,45 @@ function HCHuntWaterfowl(items, result, player)
 			HCSpeaking(player, 2);
 		end
 	end
+end
+
+--[[
+Usage:
+Use in OnCanPerform to check if the player is near water, e.g. for duck hunting
+Recipe must require HCBinoculars, just to reduce the need to run the same check on over ingredient (there's probably a better solution...)
+Recipe will then only be available if 5 or more tiles around the player are water, checks the 25 tiles centred on the player.
+]]--
+function Recipe.OnCanPerform.Hydrocraft.PlayerIsNearWater(recipe, player, item)
+	if item and item:getFullType() ~= "Hydrocraft.HCBinoculars" then
+		return true	
+	end
+
+	--following check only runs if item is Binoculars, no need to waste CPU running it on each item in the recipe.
+	local psq = player:getSquare()
+	local px = psq:getX()
+	local py = psq:getY()
+	local z = 0
+
+	local cell = getCell()
+
+	local waterCount = 0
+
+	for x = px-2,px+2 do
+		for y = py-2,py+2 do
+			local sq = cell:getGridSquare(x,y,z)		
+			local floor = sq:getFloor()
+			if floor ~= nil then
+				local id = floor:getSprite():getID()
+				if id >= 256000 and id <= 256007 then
+					waterCount = waterCount + 1
+				end
+			end
+		end 
+	end
+
+	if waterCount >= 5 then
+		return true
+	end
+	return false
+
 end

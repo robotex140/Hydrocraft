@@ -71,6 +71,11 @@ insertTable(SuburbsDistributions["all"]["crate"].items, crate_items)
 -- Zombie Inventory Spawning --
 ------------------------------------
 
+local farmer_items = {
+	"Hydrocraft.HCMysteryseedspacket", 8, --same value as each of the vanilla seed packets
+}
+insertItemListsInDistribution( "all", "Outfit_Farmer", { farmer_items } );
+
 local zombie_items = {
         -- Money --
         "Hydrocraft.HCPenny", 1,
@@ -93,7 +98,6 @@ local zombie_items = {
         "Hydrocraft.HCBinoculars", 0.05,
         "Hydrocraft.HCMeasuringtape", 0.05,
         -- "Hydrocraft.HCCompass", 0.1,
-        "Hydrocraft.HCCamera", 0.05,
         "Base.Torch", 0.1,
         "Hydrocraft.HCFlashlightoff", 0.5,
         "Hydrocraft.HCManometer", 0.04,
@@ -260,7 +264,6 @@ local bin_items = {
         "Hydrocraft.HCMustardempty", 0.1,
         "Hydrocraft.HCTVDinnerpackage", 0.1,
         "Hydrocraft.HCMintcandytrash", 0.1,
-        "Hydrocraft.HCShieldtrashcanlid", 0.1,
         "Hydrocraft.HCEyedropperbottle", 0.1,
         "Hydrocraft.HCNapkindirty", 0.5,
         "Hydrocraft.HCPlasticstraw", 0.1,
@@ -662,7 +665,8 @@ SuburbsDistributions["HCMedicalbox"] = {
         fillRand = 0,
 };
 
--- Add items for Golf Bag
+--[[
+-- Add items for Golf Bag --removed, gold bag is now vanilla, no need for a HC version.
 SuburbsDistributions["HCGolfbag"] = {
         rolls = 1,
         items = {
@@ -671,6 +675,7 @@ SuburbsDistributions["HCGolfbag"] = {
         },
         fillRand = 0,
 };
+]]--
 
 -- Add items for Cosmetic Case
 SuburbsDistributions["HCCosmeticcase"] = {
@@ -689,7 +694,7 @@ SuburbsDistributions["HCCosmeticcase"] = {
                 "Hydrocraft.HCChapstick", 10,
                 "Hydrocraft.HCQtip", 10,
                 "Hydrocraft.HCQtipbox", 10,
-                "Hydrocraft.HCHairgel", 10,
+                --"Hydrocraft.HCHairgel", 10,
         },
         fillRand = 0,
 };
@@ -863,6 +868,7 @@ SuburbsDistributions["petshop"] = {
                         "Base.CatToy", 1,
                         "Base.DogChew", 1,
                         "Base.WaterDish", 1,
+						"Hydrocraft.HCCatnip", 1,
                         "Hydrocraft.HCCatlitter", 1,
                         "Hydrocraft.HCDogkibble", 1,
                         "Hydrocraft.HCCatfood", 1,
