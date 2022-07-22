@@ -1461,6 +1461,24 @@ item HCFlaxseedseedpacket
 	Weight			= 	0.1,
 	}
 
+item HCBeetsugarseeds
+    {
+        Type			= Normal,
+	    DisplayName		= Sugar Beet Seeds,
+	    Icon			= HCBeetsugarseeds,
+		DisplayCategory	= SurFarm,
+	    Weight			= 0.009,
+    }
+
+item HCBeetsugarseedpacket
+    {
+        Type			=  Normal,
+	    DisplayName		= Sugar Beet Packet,
+	    Icon			= HCBeetsugarseedpacket,
+		DisplayCategory	= SurFarm,
+	    Weight			= 0.1,
+    }
+
 
 
 
@@ -2633,6 +2651,22 @@ recipe Open Packet of Spinach Seeds
         Time:20.0,
         Category:Farming,
 	}
+
+recipe Put Sugar Beet Seeds in Packet
+    {
+        HCBeetsugarseeds=50,
+        Result:HCBeetsugarseedpacket,
+        Time:10.0,
+        Category:Farming,
+    }
+
+recipe Open Packet of Sugar Beet Seeds
+    {
+        HCBeetsugarseedpacket,
+        Result:HCBeetsugarseeds=50,
+        Time:20.0,
+        Category:Farming,
+    }
 
  
 }

@@ -207,12 +207,12 @@ recipe Fry Egg
 	{
 		keep Pan,
 		[Recipe.GetItemTypes.Egg],
-		Butter/HCCookingoil/OilVegetable/HCCookingoiljar,
+		Butter/HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		Result:HCFriedegg,
 		Time:45.0,
-    		NeedToBeLearn:true,
+    	NeedToBeLearn:true,
 	   	Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Scrambled Eggs

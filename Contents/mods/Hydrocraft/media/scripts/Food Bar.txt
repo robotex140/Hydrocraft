@@ -2475,7 +2475,7 @@ recipe Make Eggnog Bottle
 recipe Make Monkey Tail Pot 
 	{
 	Milk,
-        Sugar=1, 
+        Sugar;1, 
         HCAguaardiente,
         Coffee2,            
         Pot,          

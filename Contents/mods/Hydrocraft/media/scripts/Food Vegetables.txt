@@ -907,6 +907,4 @@ recipe Slice Buskin Pumpkin
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
-
-	
 }

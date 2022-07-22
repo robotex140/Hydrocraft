@@ -1272,7 +1272,7 @@ recipe Make Circuit Print
 
 recipe Place Circuit Print On Circuit Board
     {
-    	HCCookingoil/OilVegetable/HCCookingoiljar,
+    	HCCookingoil/OilVegetable/HCCookingoiljar;1,
         HCCircuitprint,
     	HCPlasticcanempty,
         HCCircuitboardcoppersidephotolacquer,

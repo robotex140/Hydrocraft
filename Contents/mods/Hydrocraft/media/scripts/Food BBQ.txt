@@ -400,7 +400,7 @@ recipe Make BBQ Sauce
        		SkillRequired:Cooking=1,
 		Bowl,
 		Ketchup/HCKetchup,
-		Sugar,
+		Sugar;1,
 		keep HCWhisk,
 		Result:HCBBQsaucebowl,
     		NeedToBeLearn:true, 
@@ -538,13 +538,13 @@ recipe Grill Eggplant
 		keep BakingTray,
 		keep KitchenKnife,
 		Eggplant,
-		HCCookingoil/OilVegetable/HCCookingoiljar,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
 		Result:HCGrilledeggplant,
-    		NeedToBeLearn:true, 
+    	NeedToBeLearn:true, 
 		Time:55.0,
 	   	Category:Cooking,
 		OnCreate:HCRecipeBowls,
-       		OnGiveXP:HCCooking_OnGiveXP,
+       	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
 recipe Make Fried Frogs Legs

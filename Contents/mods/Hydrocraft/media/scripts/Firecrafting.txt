@@ -245,20 +245,20 @@ recipe Light Oil Lamp
   	{
    	HCOillamp,
    	Matches/Lighter,
-	HCFishoil/HCCookingoil/OilVegetable/HCCookingoiljar,
+	HCFishoil/HCCookingoil/OilVegetable/HCCookingoiljar;1,
    	Result:HCOillamplit,
 	Time:30.0,
-    	Category:Firecraft,
+    Category:Firecraft,
   	}
 
 recipe Light Oil Lamp
   	{
    	HCClayoillamp,
    	Matches/Lighter,
-	HCFishoil/HCCookingoil/OilVegetable/HCCookingoiljar,
+	HCFishoil/HCCookingoil/OilVegetable/HCCookingoiljar;1,
    	Result:HCClayoillamplit,
 	Time:30.0,
-    	Category:Firecraft,
+    Category:Firecraft,
   	}
 
 recipe Make Charcoal

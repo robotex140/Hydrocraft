@@ -543,7 +543,7 @@ module Hydrocraft
 		SkillRequired:Cooking=3,
 		Water = 2,
 		Flour/HCPotatoflour/HCRiceflour,		
-		Sugar,
+		Sugar;2,
 		Result:HCCookiedough,
 		Time:90.0,
 		Category:Cooking,
@@ -650,7 +650,7 @@ module Hydrocraft
 	{
 		keep Bowl/Spoon,
 		Water;5,
-		Sugar=1,
+		Sugar;2,
 		HCChristmascookie,	
 		Result:HCFrostedchristmascookietray, 
 		Time:90.0,
