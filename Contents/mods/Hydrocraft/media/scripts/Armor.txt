@@ -304,7 +304,7 @@ item HCGlovecopper
         Type    		= Normal,
         DisplayName         	= Bronze Gauntlets,
         icon 			= HCGlovebronze,
-	Tooltip 		= Tooltip_HCArmor,
+	    Tooltip 		= Tooltip_HCArmor,
 		DisplayCategory          =   ClothP,
     	}
 
@@ -314,7 +314,7 @@ item HCGlovestuddedleather
         Type    		= Normal,
         DisplayName         	= Studded Leather Gloves,
         icon 			= HCGlovestuddedleather,
-	Tooltip 		= Tooltip_HCArmor,
+	    Tooltip 		= Tooltip_HCArmor,
 		DisplayCategory          =   ClothP,
     	}
 
@@ -1365,7 +1365,7 @@ recipe Make Gauntlets
     		Category:Armor,
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
-*/
+
 
 recipe Make Studded Leather Gloves
     {
@@ -1379,6 +1379,7 @@ recipe Make Studded Leather Gloves
     		Category:Armor,
     		OnGiveXP:HCTailoring_OnGiveXP,
     }
+*/
 
 recipe Make Leather Gloves
     {
