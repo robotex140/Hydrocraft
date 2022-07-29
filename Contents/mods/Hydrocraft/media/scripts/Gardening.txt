@@ -7669,17 +7669,6 @@ recipe Plant Crop
 recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        HCHempseeds,
-        HCPlanter,
-        keep HandShovel,
-        Result:HCPottedhempsmall,
-        Time:300,
-    	NeedToBeLearn:true,
-		Category:Farming,
-    }
-recipe Plant Crop
-    {
-        SkillRequired:Farming=7,
         HCTobaccoseeds,
         HCPlanter,
         keep HandShovel,
