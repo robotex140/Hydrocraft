@@ -23,7 +23,7 @@ HcMenu._index = HcMenu
 	Hydrocraft.BuildOptionWaterPump(player, HcSubMenu)
 
 	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCKiln", "Kiln", "hcBuildingKiln_01_0")
-	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCSmelter", "Smelter", "hcBuildingSmelter_01_0")
+	--Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCSmelter", "Smelter", "hcBuildingSmelter_01_0")
 	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCHerbtable", "Herbalist Table", "hcBuildingHerbtable_01_0")
 	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCCellar", "Cellar", "hcBuildingCellar_01_0")
 	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCGrindstone", "Grindstone", "hcBuildingGrindstone_01_0")
