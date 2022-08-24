@@ -4,7 +4,7 @@ HcMenu = HcMenu or {};
 HcMenu._index = HcMenu
 
 
-Hydrocraft.doBuildMenus = function(_player, _context, _worldObjects)
+ Hydrocraft.doBuildMenus = function(_player, _context, _worldObjects)
 
 	local player = _player;
 	local context = _context;
@@ -14,119 +14,62 @@ Hydrocraft.doBuildMenus = function(_player, _context, _worldObjects)
 	context:addSubMenu(HcMenuOption, HcSubMenu);
 
 	Hydrocraft.BuildOptionGlassRoof(player, HcSubMenu)
-	Hydrocraft.BuildOptionSteelStairs (player, HcSubMenu)
+	Hydrocraft.BuildOptionMetalStairs (player, HcSubMenu)
 	Hydrocraft.BuildOptionGlassWall (player, HcSubMenu)
 	Hydrocraft.BuildOptionWallBrick (player, HcSubMenu)
 	Hydrocraft.BuildOptionWallBrickWin (player, HcSubMenu)
+	
 	Hydrocraft.BuildOptionIBCTower (player, HcSubMenu)
-	Hydrocraft.BuildOptionKiln (player, HcSubMenu)
-	Hydrocraft.BuildOptionHerbaltable (player, HcSubMenu)
-	Hydrocraft.BuildOptionCellar (player, HcSubMenu)
-	Hydrocraft.BuildOptionGrindstone (player, HcSubMenu)
-	Hydrocraft.BuildOptionTarkiln (player, HcSubMenu)
-	Hydrocraft.BuildOptionCarpybench (player, HcSubMenu)
 	Hydrocraft.BuildOptionWaterPump(player, HcSubMenu)
+
+	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCKiln", "Kiln", "hcBuildingKiln_01_0")
+	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCSmelter", "Smelter", "hcBuildingSmelter_01_0")
+	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCHerbtable", "Herbalist Table", "hcBuildingHerbtable_01_0")
+	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCCellar", "Cellar", "hcBuildingCellar_01_0")
+	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCGrindstone", "Grindstone", "hcBuildingGrindstone_01_0")
+	Hydrocraft.buildOptionSimpleStation (player, HcSubMenu, "Hydrocraft.HCTarkiln", "Tarkiln", "hcBuildingTarkiln_01_0")
+	
+	Hydrocraft.BuildOptionCarpybench (player, HcSubMenu)
 
 	HcMenuOption = context:addOption("Ranching", worldobjects);
 	HcSubMenu = ISContextMenu:getNew(context);
 
 
-	context:addSubMenu(HcMenuOption, HcSubMenu);
+	--context:addSubMenu(HcMenuOption, HcSubMenu);
 	Hydrocraft.RanchingOptionBeehive(player, HcSubMenu)
+    -- add beehive contect menu 
+	beehive = nil
+	for i,v in ipairs(worldobjects) do
+		if CBeehiveSystem.instance:isValidIsoObject(v) then
+			beehive = v
+		end
+	end
+
+	if beehive then
+		-- Hydrocraft.show_info(player, HcSubMenu, worldobjects, beehive)
+	end
 
 end
-
 
 
 Hydrocraft.RanchingOptionBeehive = function(player, HcSubMenu)
-	local option
-	local tooltip
-	option = HcSubMenu:addOption('Beehive', nil, function() Hydrocraft.onBuildBeehive(player)  end);
-	tooltip = Hydrocraft.toolTipcheck(option)
-	tooltip:setName("Beehive")
-	tooltip.description = "A Beehive for honey and wax"
-	local inv = getSpecificPlayer(player):getInventory()
-	local beehive_count = inv:getItemCount("Hydrocraft.HCBeehive3")
-	local rgb = ""
-	if beehive_count > 0 then rgb = "<RGB:1,1,1>"
-	else rgb = "<RGB:1,0,0>" end
-	tooltip.description = tooltip.description.."<LINE>"..rgb..string.format("%s: %i / 1", "Beehive", beehive_count)
-	tooltip:setTexture("hcBuildingBeehive_00_0")
+local option
+local tooltip
+option = HcSubMenu:addOption('Beehive', nil, function() Hydrocraft.onBuildBeehive(player)  end);
+tooltip = Hydrocraft.toolTipcheck(option)
+tooltip:setName("Beehive")
+tooltip.description = "<RGB:1,1,1>A Beehive for some Honey and Wax"
+tooltip:setTexture("hcBuildingBeehive_00_0")
 end
-
 
 Hydrocraft.onBuildBeehive = function(player)
 	local beehive = Beehive:new(player, "hcBuildingBeehive_00_0", Beehive.HoneyMax);
-	beehive.modData["need:Hydrocraft.HCBeehive3"] = "1";
-	-- beehive.modData["need:Base.Nails"] = "1";
+	--beehive.modData["need:Hydrocraft.HCBeehive"] = "1";
+	beehive.modData["need:Base.Nails"] = "1";
 	beehive.player = player
 	beehive.skipBuildAction = true
 	beehive.noNeedHammer = true;
 	getCell():setDrag(beehive, player);
-end
-
-
-
-Hydrocraft.BuildOptionSteelStairs  = function(player, HcSubMenu)
-local option
-local tooltip
-sprite = {}
-sprite.upToLeft01 = "fixtures_stairs_01_3"
-sprite.upToLeft02 = "fixtures_stairs_01_4"
-sprite.upToLeft03 = "fixtures_stairs_01_5"
-sprite.upToRight01 = "fixtures_stairs_01_11"
-sprite.upToRight02 = "fixtures_stairs_01_12"
-sprite.upToRight03 = "fixtures_stairs_01_13"
-sprite.pillar = "fixtures_stairs_01_14"
-sprite.pillarNorth = "fixtures_stairs_01_14"
-	
-option = HcSubMenu:addOption("Build Steel Stairs", nil, function() Hydrocraft.onBuildMetalStairs(sprite,player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Build Steel Stairs")
-tooltip.description = "<RGB:1,1,1>Welding Mask <LINE>Propane Torch <LINE>Steelpole: 2 <LINE> Steel Rod:6 <LINE> Steelsheet: 5"
-tooltip:setTexture(sprite.upToLeft01)
-end
-
-
-Hydrocraft.BuildOptionGlassRoof  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Glass roof", nil, function() Hydrocraft.onBuildGlassRoof(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Glass roof")
-tooltip.description = "<RGB:1,1,1>Welding Mask <LINE>Propane Torch <LINE> Steel Rod: 2 <LINE> Glass Pane: 1"
-tooltip:setTexture("roofs_02_55")
-end
-
-Hydrocraft.BuildOptionGlassWall  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Glass Wall", nil, function() Hydrocraft.onBuildGlassWall(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Glass roof")
-tooltip.description = "<RGB:1,1,1>Welding Mask <LINE>Propane Torch <LINE> Steel Rod: 3 <LINE> Large Glass Pane: 1"
-tooltip:setTexture("walls_commercial_01_97")
-end
-
-Hydrocraft.BuildOptionWallBrick  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Brick wall", nil, function() Hydrocraft.onBuildWallBrick(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Brick wall")
-tooltip.description = "<RGB:1,1,1>Mason Trowel<LINE> Mortar: 1 <LINE>Red Bricks:22  <LINE>Grey Bricks:18 <LINE>Stones: 20"
-tooltip:setTexture("walls_exterior_house_02_65")
-end
-
-
-Hydrocraft.BuildOptionWallBrickWin  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Brick wall with window", nil, function() Hydrocraft.onBuildWallBrickWin(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Brick wall with window")
-tooltip.description = "<RGB:1,1,1>Mason Trowel<LINE> Mortar: 1 <LINE>Red Bricks:18  <LINE>Grey Bricks:15 <LINE>Stones: 20"
-tooltip:setTexture("walls_exterior_house_02_73")
 end
 
 
@@ -137,30 +80,34 @@ option = HcSubMenu:addOption("IBC Tower", nil, function() Hydrocraft.onBuildIBCT
 tooltip = Hydrocraft.toolTipcheck(option)
 tooltip:setName("Huge IBC Tower")
 tooltip.description = "<RGB:1,1,1>IBCtower"
-tooltip:setTexture("hcBuildingIBCTower_01_0") --old image: "carpentry_02_52"
+tooltip:setTexture("carpentry_02_52")
 end
 
-
-
-Hydrocraft.BuildOptionKiln  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Kiln", nil, function() Hydrocraft.onBuildKiln(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Just a Kiln")
-tooltip.description = "<RGB:1,1,1>Kiln for Pottery"
-tooltip:setTexture("hcBuildingKiln_01_0")
+Hydrocraft.onBuildIBCTower = function(player)
+local barrel = RainCollectorBarrel:new(player, "hcBuildingIBCTower_01_0", 2000);
+	barrel.modData["need:Hydrocraft.HCIBCtower"] = "1";
+	barrel.player = player
+	getCell():setDrag(barrel, player);
 end
 
-Hydrocraft.onBuildKiln = function(player)
-local kiln = ISSimpleFurniture:new("Kiln", "hcBuildingKiln_01_0", "hcBuildingKiln_01_0");
-kiln.isContainer = true;
-kiln.canBeAlwaysPlaced = true;
-kiln.modData["need:Hydrocraft.HCKiln"] = "1";
-kiln.player = player
-getCell():setDrag(kiln, player);
+Hydrocraft.BuildOptionWaterPump = function(player, HcSubMenu)
+	local option
+	local tooltip
+	option = HcSubMenu:addOption("Water Pump", nil, function() Hydrocraft.onBuildWaterPump(player) end);
+	tooltip = Hydrocraft.toolTipcheck(option)
+	tooltip:setName("Water Pump")
+	tooltip.description = "<RGB:1,1,1>Water Pump"
+	tooltip:setTexture("hcBuildingWaterPump_01_0")
 end
 
+Hydrocraft.onBuildWaterPump = function(player)
+	local pump = WaterPump:new(player, "hcBuildingWaterPump_01_0", WaterPump.waterMax);
+	pump.modData["need:Hydrocraft.HCWaterpump"] = "1";
+	pump.player = player
+	getCell():setDrag(pump, player);
+end
+
+-- *********************** Stations ********************
 
 Hydrocraft.BuildOptionCarpybench  = function(player, HcSubMenu)
 local option
@@ -168,7 +115,7 @@ local tooltip
 option = HcSubMenu:addOption("Carpenters Workbench", nil, function() Hydrocraft.onBuildCarpybench(player) end);
 tooltip = Hydrocraft.toolTipcheck(option)
 tooltip:setName("Carpybench")
-tooltip.description = "<RGB:1,1,1>Carpenter's Workbench"
+tooltip.description = "<RGB:1,1,1>Carpenters Workbench"
 tooltip:setTexture("hcBuildingCarpBench_01_0")
 end
 
@@ -183,123 +130,42 @@ getCell():setDrag(carpybench, player);
 end
 
 
-Hydrocraft.BuildOptionHerbaltable  = function(player, HcSubMenu)
+Hydrocraft.buildOptionSimpleStation = function(player, HcSubMenu, id, name, sprite)
+	local _name = getText(name);
+	local option = HcSubMenu:addOption((getText("Place")..": " .. _name), nil, function() Hydrocraft.onBuildSimpleStation(player, id, _name, sprite) end);
+	local tooltip = Hydrocraft.toolTipcheck(option);
+	local playerInv = getSpecificPlayer(player):getInventory();
+	tooltip:setName(_name)
+	if playerInv:getItemCount(id) > 0 then
+		tooltip.description = "<RGB:0,1,0> " .. _name
+	else
+		tooltip.description = "<RGB:1,0,0> " .. _name
+	end
+	tooltip:setTexture(sprite)
+end
+
+Hydrocraft.onBuildSimpleStation = function(player, id, name, sprite)
+local station = ISSimpleFurniture:new(name, sprite, sprite)
+station.name = name;
+station.isContainer = true
+station.canBeAlwaysPlaced = true
+station.modData["need:"..id] = "1"
+station.player = player
+station.completionSound = "BuildWoodenStructureLarge";
+getCell():setDrag(station, player)
+end
+
+-- *********************** Obstacles ********************
+
+Hydrocraft.BuildOptionWallBrickWin  = function(player, HcSubMenu)
 local option
 local tooltip
-option = HcSubMenu:addOption("Herbal Table", nil, function() Hydrocraft.onBuildHerbaltable(player) end);
+option = HcSubMenu:addOption("Brick wall with window", nil, function() Hydrocraft.onBuildWallBrickWin(player) end);
 tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Herbal Table")
-tooltip.description = "<RGB:1,1,1>The Herbalist's Table"
-tooltip:setTexture("hcBuildingHerbtable_01_0")
+tooltip:setName("Brick wall with window")
+tooltip.description = "<RGB:1,1,1>Mason Trowel<LINE> Mortar: 1 <LINE>Red Bricks:18  <LINE>Grey Bricks:15 <LINE>Stones: 20"
+tooltip:setTexture("walls_exterior_house_02_73")
 end
-
-
-
-Hydrocraft.BuildOptionCellar  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Cellar", nil, function() Hydrocraft.onBuildCellar(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Cellar")
-tooltip.description = "<RGB:1,1,1>A Huge Cellar Storage"
-tooltip:setTexture("hcBuildingCellar_01_0")
-end
-
-Hydrocraft.onBuildCellar = function(player)
-local cellar = ISSimpleFurniture:new("Cellar", "hcBuildingCellar_01_0", "hcBuildingCellar_01_0");
-cellar.isContainer = true;
-cellar.modData["need:Hydrocraft.HCCellar"] = "1";
-cellar:setEastSprite("hcBuildingCellar_01_0");
-cellar:setSouthSprite("hcBuildingCellar_01_0");
-cellar:setNorthSprite ("hcBuildingCellar_01_0");
-cellar.player = player
-getCell():setDrag(cellar, player);
-end
-
-
-Hydrocraft.BuildOptionGrindstone  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Grindstone", nil, function() Hydrocraft.onBuildGrindstone(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Grindstone")
-tooltip.description = "<RGB:1,1,1>The Grindstone"
-tooltip:setTexture("hcBuildingGrindstone_01_0")
-end
-
-
-Hydrocraft.BuildOptionTarkiln  = function(player, HcSubMenu)
-local option
-local tooltip
-option = HcSubMenu:addOption("Tar Kiln", nil, function() Hydrocraft.onBuildTarkiln(player) end);
-tooltip = Hydrocraft.toolTipcheck(option)
-tooltip:setName("Grindstone")
-tooltip.description = "<RGB:1,1,1>The Tar Kiln"
-tooltip:setTexture("hcBuildingTarkiln_01_0")
-end
-
-Hydrocraft.BuildOptionWaterPump = function(player, HcSubMenu)
-	local option
-	local tooltip
-	option = HcSubMenu:addOption("Water Pump", nil, function() Hydrocraft.onBuildWaterPump(player) end);
-	tooltip = Hydrocraft.toolTipcheck(option)
-	tooltip:setName("Water Pump")
-	tooltip.description = "<RGB:1,1,1>Water Pump"
-	tooltip:setTexture("hcBuildingWaterPump_01_0")
-end
-
-
--- *********************** BuildingFunctions ********************
-
-
-Hydrocraft.onBuildTarkiln = function(player)
-local tarkiln = ISSimpleFurniture:new("Tarkiln", "hcBuildingTarkiln_01_0", "hcBuildingTarkiln_01_0");
-tarkiln.isContainer = true;
-tarkiln.canBeAlwaysPlaced = true;
-tarkiln.modData["need:Hydrocraft.HCTarkiln"] = "1";
-tarkiln:setEastSprite("hcBuildingTarkiln_01_0");
-tarkiln:setSouthSprite("hcBuildingTarkiln_01_0");
-tarkiln:setNorthSprite ("hcBuildingTarkiln_01_0");
-tarkiln.player = player
-getCell():setDrag(tarkiln, player);
-end
-
-
-Hydrocraft.onBuildGrindstone = function(player)
-local grindstone = ISSimpleFurniture:new("Grindstone", "hcBuildingGrindstone_01_0", "hcBuildingGrindstone_01_0");
-grindstone.isContainer = true;
-grindstone.canBeAlwaysPlaced = true;
-grindstone.modData["need:Hydrocraft.HCGrindstone"] = "1";
-grindstone:setEastSprite("hcBuildingGrindstone_01_0");
-grindstone:setSouthSprite("hcBuildingGrindstone_01_0");
-grindstone:setNorthSprite ("hcBuildingGrindstone_01_0");
-grindstone.player = player
-getCell():setDrag(grindstone, player);
-end
-
-
-Hydrocraft.onBuildHerbaltable = function(player)
-local herbtab = ISSimpleFurniture:new("Herbalist Table", "hcBuildingHerbtable_01_0", "hcBuildingHerbaltable_01_0");
-herbtab.isContainer = true;
-herbtab.canBeAlwaysPlaced = true;
-herbtab.modData["need:Hydrocraft.HCHerbtable"] = "1";
-herbtab:setEastSprite("hcBuildingHerbtable_01_0");
-herbtab:setSouthSprite("hcBuildingHerbtable_01_0");
-herbtab:setNorthSprite ("hcBuildingHerbtable_01_0");
-herbtab.player = player
-getCell():setDrag(herbtab, player);
-end
-
-
-
-
-Hydrocraft.onBuildIBCTower = function(player)
-local barrel = RainCollectorBarrel:new(player, "hcBuildingIBCTower_01_0", 2000);
-	barrel.modData["need:Hydrocraft.HCIBCtower"] = "1";
-	barrel.player = player
-	getCell():setDrag(barrel, player);
-end
-
 
 Hydrocraft.onBuildWallBrickWin = function(player)
 local wall = ISWoodenWall:new("walls_exterior_house_02_72","walls_exterior_house_02_73", nil);
@@ -320,6 +186,15 @@ getCell():setDrag(wall, player);
 end
 
 
+Hydrocraft.BuildOptionWallBrick  = function(player, HcSubMenu)
+local option
+local tooltip
+option = HcSubMenu:addOption("Brick wall", nil, function() Hydrocraft.onBuildWallBrick(player) end);
+tooltip = Hydrocraft.toolTipcheck(option)
+tooltip:setName("Brick wall")
+tooltip.description = "<RGB:1,1,1>Mason Trowel<LINE> Mortar: 1 <LINE>Red Bricks:22  <LINE>Grey Bricks:18 <LINE>Stones: 20"
+tooltip:setTexture("walls_exterior_house_02_65")
+end
 
 Hydrocraft.onBuildWallBrick = function(player)
 local wall = ISWoodenWall:new("walls_exterior_house_02_64","walls_exterior_house_02_65", nil);
@@ -338,6 +213,26 @@ wall.health = 700;
 getCell():setDrag(wall, player);
 end
 
+
+Hydrocraft.BuildOptionMetalStairs  = function(player, HcSubMenu)
+local option
+local tooltip
+sprite = {}
+sprite.upToLeft01 = "fixtures_stairs_01_3"
+sprite.upToLeft02 = "fixtures_stairs_01_4"
+sprite.upToLeft03 = "fixtures_stairs_01_5"
+sprite.upToRight01 = "fixtures_stairs_01_11"
+sprite.upToRight02 = "fixtures_stairs_01_12"
+sprite.upToRight03 = "fixtures_stairs_01_13"
+sprite.pillar = "fixtures_stairs_01_14"
+sprite.pillarNorth = "fixtures_stairs_01_14"
+	
+option = HcSubMenu:addOption("Build Steel Stairs", nil, function() Hydrocraft.onBuildMetalStairs(sprite,player) end);
+tooltip = Hydrocraft.toolTipcheck(option)
+tooltip:setName("Build Steel Stairs")
+tooltip.description = "<RGB:1,1,1>Welding Mask <LINE>Blow Torch <LINE>Steelpole: 2 <LINE> Steelrod:6 <LINE> Steelsheet: 5"
+tooltip:setTexture(sprite.upToLeft01)
+end
 
 Hydrocraft.onBuildMetalStairs = function(sprite,player)
 
@@ -360,6 +255,16 @@ getCell():setDrag(stairs, player);
 end
 
 
+Hydrocraft.BuildOptionGlassRoof  = function(player, HcSubMenu)
+local option
+local tooltip
+option = HcSubMenu:addOption("Glass roof", nil, function() Hydrocraft.onBuildGlassRoof(player) end);
+tooltip = Hydrocraft.toolTipcheck(option)
+tooltip:setName("Glass roof")
+tooltip.description = "<RGB:1,1,1>Welding Mask <LINE>Blow Torch <LINE> Steel Rod: 2 <LINE> Glass Pane: 1"
+tooltip:setTexture("roofs_02_55")
+end
+
 Hydrocraft.onBuildGlassRoof = function(player)
 local floor = ISWoodenFloor:new("roofs_02_55","roofs_02_55");
 floor.player = player
@@ -378,6 +283,16 @@ floor.health = 10;
 getCell():setDrag(floor, player);
 end
 
+
+Hydrocraft.BuildOptionGlassWall  = function(player, HcSubMenu)
+local option
+local tooltip
+option = HcSubMenu:addOption("Glass Wall", nil, function() Hydrocraft.onBuildGlassWall(player) end);
+tooltip = Hydrocraft.toolTipcheck(option)
+tooltip:setName("Glass roof")
+tooltip.description = "<RGB:1,1,1>Welding Mask <LINE>Blow Torch <LINE> Steel Rod: 3 <LINE> Large Glass Pane: 1"
+tooltip:setTexture("walls_commercial_01_97")
+end
 
 Hydrocraft.onBuildGlassWall = function(player)
 local wall = ISWoodenWall:new("walls_commercial_01_96","walls_commercial_01_97", nil);
@@ -399,14 +314,6 @@ wall.health = 10;
 getCell():setDrag(wall, player);
 end
 
-Hydrocraft.onBuildWaterPump = function(player)
-	local pump = WaterPump:new(player, "hcBuildingWaterPump_01_0", WaterPump.waterMax);
-	pump.modData["need:Hydrocraft.HCWaterpump"] = "1";
-	pump.player = player
-	getCell():setDrag(pump, player);
-end
-
-
 
 
 Hydrocraft.toolTipcheck = function(option)
@@ -418,9 +325,6 @@ Hydrocraft.toolTipcheck = function(option)
 
 	return _tooltip
 end
-
-
-
 
 local function func_Init()
 	Events.OnFillWorldObjectContextMenu.Add(Hydrocraft.doBuildMenus)

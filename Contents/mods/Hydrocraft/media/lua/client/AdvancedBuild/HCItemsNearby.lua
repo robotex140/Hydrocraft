@@ -1,52 +1,54 @@
 -- ***********************************************************
 -- **                    Hasis Furniture Finder                  **
 -- ***********************************************************
-
+HCItemsNearby = {}
 
 function HCNearHerbatable(player)
-return isFurnitureNearby (player,'Herbalist Table') 
+return HCItemsNearby.isFurnitureNearby ('Hydrocraft.HCHerbtable') 
 end 
 
 function HCNearTarkiln(player)
-return isFurnitureNearby (player,'Tarkiln') 
+return HCItemsNearby.isFurnitureNearby ('Hydrocraft.HCTarkiln') 
 end 
 
 function HCNearGrindstone(player)
-return isFurnitureNearby (player,'Grindstone') 
+return HCItemsNearby.isFurnitureNearby ('Hydrocraft.HCGrindstone') 
 end 
 
 function HCNearKiln(player)
-return isFurnitureNearby (player,'Kiln') 
+return HCItemsNearby.isFurnitureNearby ('Hydrocraft.HCKiln') 
+end 
+
+function HCNearSmelter(player)
+return HCItemsNearby.isFurnitureNearby ('Hydrocraft.HCSmelter') 
 end 
 
 function HCNearCarpybench(player)
-return isFurnitureNearby (player,'Carpybench') 
+return HCItemsNearby.isFurnitureNearby ('Hydrocraft.HCCarpenterbench') 
 end 
 
 
-function isFurnitureNearby (player,name) 
-	local px=math.floor(getPlayer():getX())
-	local py=math.floor(getPlayer():getY())
-	local pz=math.floor(getPlayer():getZ())
+function HCItemsNearby.isFurnitureNearby (fullID) 
+	local x=math.floor(getPlayer():getX())          
+	local y=math.floor(getPlayer():getY())
+	local z=math.floor(getPlayer():getZ())
 	local cell = nil
 	local objstack = nil
 	local objname = nil
 
-	for x = px-1,px+1 do
-		for y = py-1,py+1 do
-			cell = getCell():getGridSquare(x,y,pz)
-			if(cell ~= nil) then
-				objstack = cell:getObjects()
-				if objstack:size() > 1 then
-					for i = 0, objstack:size()-1 do
-						objname = objstack:get(i):getName()
-						if objname == name then
-							--print (objname)
-							return true
-						end
-					end
-				end
-			end
+	for x = x-1,x+1 do
+		for y = y-1,y+1 do
+			cell = getCell():getGridSquare(x,y,z)
+			objstack = cell:getObjects()
+			if objstack:size() > 1 then
+				for i = 0, objstack:size()-1 do
+  					modData = objstack:get(i):getModData()
+  					if modData["need:"..fullID] ~= nil then 
+  						--print (objstack:get(i):getName())
+  						return true
+  					end
+  				end 
+			end 
 		end 
 	end 
 
