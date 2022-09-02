@@ -419,6 +419,11 @@ function recipe_hcdisassembleweldingtorch(items, result, player)
 	inv:AddItem("Base.BlowTorch")
 end
 
+function recipe_hcbelt(items, result, player)
+	local inv = player:getInventory();
+	inv:AddItem("Base.Belt2");
+end 
+
 --Medical Stuff
 
 function recipe_hcgetmedicalskeleton(items, result, player)
