@@ -1101,7 +1101,7 @@ recipe Make Aluminum Ingots
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
     keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
-    Result:HCMagnetiteingot=4,
+    Result:HCAluminumingot=4,
     NeedToBeLearn:true,
     OnCreate:getBurned,
     Time:1000,
