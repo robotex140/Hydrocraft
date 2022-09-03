@@ -949,7 +949,6 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Metalurgy Textbook,
 		Icon		=	HCBookmetalurgy,
-recipe Make Tungsten Ingots
 		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Nickel Ingots;Make Zinc Ingot;Make Zinc Ingots;Make Chrome Ingot;Make Chrome Ingots;Make Tungsten Ingot;Make Tungsten Ingots;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
         	ReplaceOnUse    =   	HCBookmetalurgy,
 		DisplayCategory	=   LitR,
