@@ -603,6 +603,25 @@ recipe Make Copper Ingot
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Copper Ingots
+    {
+    SkillRequired:MetalWelding=1,
+    HCCopperpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCCopperingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }  
+
 recipe Make Tin Ingot
     {
     SkillRequired:MetalWelding=2,
@@ -640,6 +659,25 @@ recipe Make Tin Ingot
     OnCreate:getBurned,
     OnGiveXP:HCWelding_OnGiveXP,
     }
+
+recipe Make Tin Ingots
+    {
+    SkillRequired:MetalWelding=2,
+    HCTinpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCTiningot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }    
 
 recipe Make Bronze Ingot
     {
@@ -781,6 +819,24 @@ recipe Make Lead Ingot
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Lead Ingots
+    {
+    SkillRequired:MetalWelding=4,
+    HCLeadore/HCLeadpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCLeadingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
 
 recipe Make Pewter Ingot
     {
@@ -821,6 +877,25 @@ recipe Make Silver Ingot
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Silver Ingots
+    {
+    SkillRequired:MetalWelding=2,
+    HCSilverpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCSilveringot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
 recipe Make Sterling Silver Ingot
     {
     SkillRequired:MetalWelding=2,
@@ -857,6 +932,25 @@ recipe Make Gold Ingot
     Time:1000,
     Category:Smithing,
     OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Gold Ingots
+    {
+    SkillRequired:MetalWelding=3,
+    HCGoldpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGoldingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
@@ -957,6 +1051,25 @@ recipe Make Magnetite Ingot
     OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Magnetite Ingots
+    {
+    SkillRequired:MetalWelding=5,
+    HCMagnetitepowder=4,
+    HCCoke=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCMagnetiteingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
 recipe Make Aluminum Ingot
     {
     	SkillRequired:MetalWelding=6,
@@ -975,6 +1088,25 @@ recipe Make Aluminum Ingot
     	Category:Smithing,
     	OnCreate:getBurned,
     	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Aluminum Ingots
+    {
+    SkillRequired:MetalWelding=6,
+    HCAluminumpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCAluminumingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
     }
 
 recipe Make Duralumin Ingot
@@ -1017,6 +1149,25 @@ recipe Make Lithium Ingot
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Lithium Ingots
+    {
+    SkillRequired:MetalWelding=7,
+    HCLithiumpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCLithiumingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
 recipe Make Zinc Ingot
     {
     	SkillRequired:MetalWelding=7,
@@ -1035,6 +1186,25 @@ recipe Make Zinc Ingot
     	Category:Smithing,
     	OnCreate:getBurned,
     	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Zinc Ingots
+    {
+    SkillRequired:MetalWelding=7,
+    HCZincpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCZincingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
     }
 
 recipe Make Brass Ingot
@@ -1075,6 +1245,25 @@ recipe Make Nickel Ingot
     	Category:Smithing,
     	OnCreate:getBurned,
     	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Nickel Ingots
+    {
+    SkillRequired:MetalWelding=7,
+    HCNickelpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCNickelingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
     }
 
 recipe Make Constantan Ingot
@@ -1158,6 +1347,25 @@ recipe Make Chrome Ingot
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Chrome Ingots
+    {
+    SkillRequired:MetalWelding=8,
+    HCChromepowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCChromeingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
 recipe Make Nichrome Ingot
     {
     	SkillRequired:MetalWelding=8,
@@ -1221,6 +1429,25 @@ recipe Make Tungsten Ingot
     	OnGiveXP:HCWelding_OnGiveXP,
     }
 
+recipe Make Tungsten Ingots
+    {
+    SkillRequired:MetalWelding=8,
+    HCTungstenpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCTungsteningot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
 recipe Make Titanium Ingot
     {
     	SkillRequired:MetalWelding=8,
@@ -1239,6 +1466,26 @@ recipe Make Titanium Ingot
     	Category:Smithing,
     	OnCreate:getBurned,
     	OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Titanium Ingots
+    {
+    SkillRequired:MetalWelding=8,
+    HCTitaniumpowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep [Recipe.GetItemTypes.WeldingMask],
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCTitaniumingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
     }
 
 recipe Make Graphite Ingot
@@ -1262,6 +1509,25 @@ recipe Make Graphite Ingot
     }
 
 
+    recipe Make Graphite Ingots
+    {
+    SkillRequired:MetalWelding=8,
+    HCGraphitepowder=4,
+    Charcoal=1,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmoldHuge,
+    keep [Recipe.GetItemTypes.WeldingMask],
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCFurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGraphiteingot=4,
+    NeedToBeLearn:true,
+    OnCreate:getBurned,
+    Time:1000,
+    Category:Smithing,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
 
 recipe Make Nails
     {

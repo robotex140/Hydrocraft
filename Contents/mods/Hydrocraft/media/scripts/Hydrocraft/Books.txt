@@ -905,7 +905,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Copper Working Textbook,
 		Icon		=	HCBookcopperworking,
-		TeachedRecipes  =   	Make Copper Ingot;Recycle Copper;Make Copper Rod;Make Copper Powder;Make Copper Circuit Board,
+		TeachedRecipes  =   	Make Copper Ingot;Make Copper Ingots;Recycle Copper;Make Copper Rod;Make Copper Powder;Make Copper Circuit Board,
         	ReplaceOnUse    =   	HCBookcopperworking,
 		DisplayCategory	=   LitR,
 	}
@@ -916,7 +916,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Tin Working Textbook,
 		Icon		=	HCBooktinworking,
-		TeachedRecipes  =   	Make Tin Ingot;Recycle Tin;Make Tin Rod;Make Tin Powder,
+		TeachedRecipes  =   	Make Tin Ingot;Make Tin Ingots;Recycle Tin;Make Tin Rod;Make Tin Powder,
         	ReplaceOnUse    =   	HCBooktinworking,
 		DisplayCategory	=   LitR,
 	}
@@ -949,7 +949,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Metalurgy Textbook,
 		Icon		=	HCBookmetalurgy,
-		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Zinc Ingot;Make Chrome Ingot;Make Tungsten Ingot;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
+		TeachedRecipes  =   	Make Metal Bar;Make Nickel Ingot;Make Nickel Ingots;Make Zinc Ingot;Make Zinc Ingots;Make Chrome Ingot;Make Chrome Ingots;Make Tungsten Ingot;Make Tungsten Ingots;Recycle Zinc;Make Nickel Powder;Make Cobalt Powder;Make Zinc Powder;Make Chrome Powder;Make Tungsten Powder,
         	ReplaceOnUse    =   	HCBookmetalurgy,
 		DisplayCategory	=   LitR,
 	}
@@ -971,7 +971,7 @@ module Hydrocraft
 		Type			=	Literature,
 		DisplayName		=	Lead Working Textbook,
 		Icon			=	HCBookleadworking,
-		TeachedRecipes  =   Make Lead Ingot;Recycle Lead;Make Lead Rod;Make Lead Buckshot;Make Lead Bullet Tips;Make Lead Anvil;Make Lead Powder,
+		TeachedRecipes  =   Make Lead Ingot;Make Lead Ingots;Recycle Lead;Make Lead Rod;Make Lead Buckshot;Make Lead Bullet Tips;Make Lead Anvil;Make Lead Powder,
         ReplaceOnUse    =   HCBookleadworking,
 		DisplayCategory	=   LitR,
 	}
@@ -993,7 +993,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Coal Working Textbook,
 		Icon		=	HCBookcoalworking,
-		TeachedRecipes  =   	Make Charcoal Powder;Make Graphite Powder;Make Coke;Make Graphite Ingot;Make Graphite Rod;Make Tar Sticks;Distill Lighter Fluid;Distill Creosote Oil;Treat Wood Plank,
+		TeachedRecipes  =   	Make Charcoal Powder;Make Graphite Powder;Make Coke;Make Graphite Ingot;Make Graphite Ingots;Make Graphite Rod;Make Tar Sticks;Distill Lighter Fluid;Distill Creosote Oil;Treat Wood Plank,
         ReplaceOnUse    =   	HCBookcoalworking,
 		DisplayCategory	=   LitR,
 	}
@@ -1004,7 +1004,7 @@ module Hydrocraft
 		Type			=	Literature,
 		DisplayName		=	Silver Working Textbook,
 		Icon			=	HCBooksilverworking,
-		TeachedRecipes  =   Make Silver Ingot;Recycle Silver;Make Silver Powder,
+		TeachedRecipes  =   Make Silver Ingot;Make Silver Ingots;Recycle Silver;Make Silver Powder,
         ReplaceOnUse    =   HCBooksilverworking,
 		DisplayCategory	=   LitR,
 	}
@@ -1015,7 +1015,7 @@ module Hydrocraft
 		Type			=	Literature,
 		DisplayName		=	Gold Working Textbook,
 		Icon			=	HCBookgoldworking,
-		TeachedRecipes  =   Make Gold Ingot;Recycle Gold;Make Gold Powder,
+		TeachedRecipes  =   Make Gold Ingot;Make Gold Ingots;Recycle Gold;Make Gold Powder,
         ReplaceOnUse    =   HCBookgoldworking,
 		DisplayCategory	=   LitR,
 	}
@@ -1026,7 +1026,7 @@ module Hydrocraft
 		Type			=	Literature,
 		DisplayName		=	Aluminum Working Textbook,
 		Icon			=	HCBookaluminumworking,
-		TeachedRecipes  =   Make Aluminum Ingot;Recycle Aluminum;Make Aluminum Tent Peg;Make Aluminum Powder;Make Aluminum Foil,
+		TeachedRecipes  =   Make Aluminum Ingot;Make Aluminum Ingots;Recycle Aluminum;Make Aluminum Tent Peg;Make Aluminum Powder;Make Aluminum Foil,
         ReplaceOnUse    =   HCBookaluminumworking,
 		DisplayCategory	=   LitR,
 	}
@@ -1037,7 +1037,7 @@ module Hydrocraft
 		Type			=	Literature,
 		DisplayName		=	Titanium Working Textbook,
 		Icon			=	HCBooktitaniumworking,
-		TeachedRecipes  =   Make Titanium Ingot;Make Titanium Rod;Make Titanium Powder,
+		TeachedRecipes  =   Make Titanium Ingot;Make Titanium Ingots;Make Titanium Rod;Make Titanium Powder,
         ReplaceOnUse    =   HCBooktitaniumworking,
 		DisplayCategory	=   LitR,
 	}
@@ -1048,7 +1048,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Lithium Working Textbook,
 		Icon		=	HCBooklithiumworking,
-		TeachedRecipes  =   	Make Lithium Ingot;Recycle Lithium;Make Lithium Powder,
+		TeachedRecipes  =   	Make Lithium Ingot;Make Lithium Ingots;Recycle Lithium;Make Lithium Powder,
         	ReplaceOnUse    =   	HCBooklithiumworking,
 		DisplayCategory	=   LitR,
 	}
@@ -1259,7 +1259,7 @@ module Hydrocraft
 		Type		=	Literature,
 		DisplayName	=	Magnets Textbook,
 		Icon		=	HCBookmagnets,
-		TeachedRecipes  =   	Make Magnetite Ingot;Make Giant Magnet;Search Junk with Giant Magnet;Make Magnetite Powder,
+		TeachedRecipes  =   	Make Magnetite Ingot;Make Magnetite Ingots;Make Giant Magnet;Search Junk with Giant Magnet;Make Magnetite Powder,
         	ReplaceOnUse    =   	HCBookmagnets,
 		DisplayCategory	=   LitR,
 	}
