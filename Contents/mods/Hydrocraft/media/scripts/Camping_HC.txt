@@ -581,11 +581,21 @@ recipe Purify Water
 recipe Attatch Canteens
     	{
     	HCCanteen=2,
-	Belt2/Sling,
+	Belt2,
     	Result:HCStrappedcanteen,
     	Time:15,
 	Category:Health,
     	}
+
+recipe Detach Canteens
+    	{
+    	HCStrappedcanteen,
+    	Result:HCCanteen=2,
+    	Time:15,
+	Category:Health,
+    	OnCreate:recipe_hcbelt,
+    	}
+
 
 recipe Craft Wooden Paddle
 	{
