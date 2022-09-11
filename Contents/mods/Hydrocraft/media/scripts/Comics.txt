@@ -15,10 +15,12 @@ item HCComic1
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic1,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
-        BoredomChange	=	-30,
+        UnhappyChange	=	-12,
+        StressChange	=	-13,
+        BoredomChange	=	-25,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineOpenGround,
     }
 
 item HCComic2
@@ -27,10 +29,12 @@ item HCComic2
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic2,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
-        BoredomChange	=	-30,
+        UnhappyChange	=	-14,
+        StressChange	=	-15,
+        BoredomChange	=	-26,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineCrossword1_Ground,
     }
 
 item HCComic3
@@ -39,10 +43,12 @@ item HCComic3
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic3,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
-        BoredomChange	=	-30,
+        UnhappyChange	=	-16,
+        StressChange	=	-17,
+        BoredomChange	=	-27,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineCrossword2_Ground,
     }
 
 item HCComic4
@@ -51,10 +57,12 @@ item HCComic4
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic4,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
-        BoredomChange	=	-30,
+        UnhappyChange	=	-17,
+        StressChange	=	-18,
+        BoredomChange	=	-29,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineCrossword3_Ground,
     }
 
 item HCComic5
@@ -63,10 +71,12 @@ item HCComic5
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic5,
-        UnhappyChange	=	-20,
+        UnhappyChange	=	-19,
         StressChange	=	-20,
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineWordSearch1_Ground,
     }
 
 item HCComic6
@@ -75,10 +85,12 @@ item HCComic6
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic6,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
+        UnhappyChange	=	-21,
+        StressChange	=	-22,
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineWordSearch2_Ground,
     }
 
 item HCComic7
@@ -87,10 +99,12 @@ item HCComic7
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic7,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
+        UnhappyChange	=	-22,
+        StressChange	=	-23,
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineWordSearch3_Ground,
     }
 
 item HCComic8
@@ -99,10 +113,12 @@ item HCComic8
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic8,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
+        UnhappyChange	=	-23,
+        StressChange	=	-24,
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineWordSearch3_Ground,
     }
 
 item HCComic9
@@ -111,10 +127,12 @@ item HCComic9
         Type		=	Literature,
         DisplayName	=	Comic Book,
         Icon		=	HCComic9,
-        UnhappyChange	=	-20,
-        StressChange	=	-20,
+        UnhappyChange	=	-24,
+        StressChange	=	-24,
         BoredomChange	=	-30,
 		DisplayCategory	= LitE,
+        StaticModel = Magazine,
+WorldStaticModel = MagazineWordSearch3_Ground,
     }
 
 /************************RECIPES************************/	

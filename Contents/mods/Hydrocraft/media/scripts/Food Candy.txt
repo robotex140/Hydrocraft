@@ -34,6 +34,7 @@ item HCChocolatewhite
 	DisplayName			=	White Chocolate,
 	Icon				=	HCChocolatewhite,
 	FoodType			=	NoExplicit,
+	EvolvedRecipe = Cake:20;PieSweet:20;Bread:10;ConeIcecream:5,
 	Carbohydrates 		= 	118,
     Proteins 			= 	11.8,
     Lipids 				= 	64,
@@ -42,6 +43,7 @@ item HCChocolatewhite
 	Packaged			=	TRUE,
 	ReplaceOnUse		=	HCChocolatewhitetrash,
 	DisplayCategory          =   FoodN,
+	WorldStaticModel = Chocolate,
 	}
 
 item HCChocolatedark
@@ -53,6 +55,7 @@ item HCChocolatedark
 	DisplayName			=	Dark Chocolate,
 	Icon				=	HCChocolatedark,
 	FoodType			=	NoExplicit,
+	EvolvedRecipe = Cake:20;PieSweet:20;Bread:10;ConeIcecream:5,
 	Carbohydrates 			= 	92,
         Proteins 			= 	15.6,
         Lipids 				= 	86,
@@ -61,6 +64,7 @@ item HCChocolatedark
 	Packaged			=	TRUE,
 	ReplaceOnUse			=	HCChocolatedarktrash,
 	DisplayCategory          =   FoodN,
+	WorldStaticModel = Chocolate,
 	}
 	
 item HCTrailmix
@@ -82,7 +86,7 @@ item HCTrailmix
 	DisplayCategory          =   FoodN,
 	}
 	
-item HCEnergybar
+item HCEnergybar	
 	{
 	HungerChange			=	-35,
 	UnhappyChange			=	-10,
@@ -99,6 +103,7 @@ item HCEnergybar
 	CantBeFrozen 			= 	TRUE,
 	Packaged			=	TRUE,
 	DisplayCategory          =   FoodN,
+	WorldStaticModel = Chocolate,
 	}
 
 item HCGum
