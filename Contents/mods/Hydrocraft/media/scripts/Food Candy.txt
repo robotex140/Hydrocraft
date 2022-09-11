@@ -82,7 +82,7 @@ item HCTrailmix
 	DisplayCategory          =   FoodN,
 	}
 	
-item HCEnergybar	
+item HCEnergybar
 	{
 	HungerChange			=	-35,
 	UnhappyChange			=	-10,

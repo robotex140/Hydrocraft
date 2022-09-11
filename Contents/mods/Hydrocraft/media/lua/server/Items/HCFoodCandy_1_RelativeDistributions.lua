@@ -9,7 +9,7 @@ function HCfoodcandy(m)
 			"Hydrocraft.HCChocolatewhite",  m*1,
 			"Hydrocraft.HCChocolatedark",  m*1,
 			"Hydrocraft.HCTrailmix",  m*1,
-			"Hydrocraft.HCEnergybar	",  m*1,
+			"Hydrocraft.HCEnergybar",  m*1,
 			"Hydrocraft.HCGum",  m*1,
 -- "Hydrocraft.HCGumstick",  m*0,
 			"Hydrocraft.HCGum2",  m*1,

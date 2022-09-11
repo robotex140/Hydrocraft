@@ -18,7 +18,8 @@ function SFarmingSystem:initSystem()
 		'state', 'nbOfGrow', 'typeOfSeed', 'fertilizer', 'mildewLvl',
 		'aphidLvl', 'fliesLvl', 'waterLvl', 'waterNeeded', 'waterNeededMax',
 		'lastWaterHour', 'nextGrowing', 'hasSeed', 'hasVegetable',
-		'health', 'badCare', 'exterior', 'spriteName', 'objectName'})
+		'health', 'badCare', 'exterior', 'spriteName', 'objectName',
+		'greenhouse'})
 
 	self:convertOldModData()
 end
@@ -102,25 +103,29 @@ for i=1,self:getLuaObjectCount() do
 		maxWater = props.waterLvlMax
 
 
-waterbarrel=self:findbarrel(luaObject:getSquare())
-if waterbarrel ~= nil then 
-
-raingutter=self:findRainGutter(waterbarrel:getSquare())
+waterbarrel=self:findbarrel(luaObject.x, luaObject.y, luaObject.z)
+if waterbarrel ~= nil then
+	local raingutter=self:findRainGutter(waterbarrel.x, waterbarrel.y, waterbarrel.z)
 if raingutter then -- move water from raingutter to barrel
---print ("raingutter has:" .. raingutter:getWaterMax() .. "max and contains: ".. raingutter:getWaterAmount())
-
-needs=waterbarrel:getWaterMax() - waterbarrel:getWaterAmount()
-has=raingutter:getWaterAmount()
---print ("needs:".. needs .. "has:".. has)
-
-if needs >= has then 
-	raingutter:setWaterAmount(0)
-	waterbarrel:setWaterAmount(waterbarrel:getWaterAmount()+needs)
-else 
-	raingutter:setWaterAmount(raingutter:getWaterAmount()-needs)
-	waterbarrel:setWaterAmount(waterbarrel:getWaterMax())
-end
-
+	--print ("raingutter has:" .. raingutter:getWaterMax() .. "max and contains: ".. raingutter:getWaterAmount())
+	needs=waterbarrel.waterMax - waterbarrel.waterAmount
+	has=raingutter.waterAmount
+	--print ("needs:".. needs .. "has:".. has)
+	
+	if needs >= has then 
+		raingutter.waterAmount = 0
+		waterbarrel.waterAmount = (waterbarrel.waterAmount+needs)
+	else 
+		raingutter.waterAmount = raingutter.waterAmount-needs
+		waterbarrel.waterAmount = waterbarrel.waterMax
+	end
+	-- transmits changes to the world object
+	local isoObject = raingutter:getIsoObject()
+	if isoObject then -- object might have been destroyed
+		self:noise('added rain to barrel at '..raingutter.x..","..raingutter.y..","..raingutter.z..' waterAmount='..raingutter.waterAmount)
+		isoObject:setWaterAmount(raingutter.waterAmount)
+		isoObject:transmitModData()
+	end
 end -- move water from raingutter to barrel
 
 
@@ -128,10 +133,16 @@ end -- move water from raingutter to barrel
 
 if availableWater < maxWater then
 	waterNeeded = maxWater - availableWater 
-	if waterNeeded < waterbarrel:getWaterAmount() then
-	waterbarrel:setWaterAmount(waterbarrel:getWaterAmount()- (waterNeeded / 4))
-	availableWater=100
-	luaObject.waterLvl=100
+	if waterNeeded < waterbarrel.waterAmount then
+		waterbarrel.waterAmount = waterbarrel.waterAmount - (waterNeeded / 4)
+		availableWater=100
+		luaObject.waterLvl=100
+		-- transmits changes to the world object
+		local isoObject = waterbarrel:getIsoObject()
+		if isoObject then -- object might have been destroyed
+			isoObject:setWaterAmount(waterbarrel.waterAmount)
+			isoObject:transmitModData()
+		end
 	end
 end
 	--waterbarrel:setWaterAmount(300)
@@ -141,9 +152,10 @@ end
 		--print ("*******  Change Health for:" .. luaObject.typeOfSeed .. "  temp:" .. temperature .. "  Waterlevel:" .. availableWater)
 
 		if not luaObject.exterior then -- ***indoors***
-			if luaObject:getSquare() ~= nil then luaObject.hasWindow = self:checkWindowsAndGreenhouse( luaObject:getSquare() )
+			if luaObject:getSquare() ~= nil then 
+				self:checkWindowsAndGreenhouse(luaObject)
 			end
-			if luaObject.hasWindow then --indoors with greenhouse: no negative effects on weather
+			if luaObject.greenhouse then --indoors with greenhouse: no negative effects on weather
 				print (luaObject.typeOfSeed .. "plant is indoors with greenhouse")
 				luaObject.health = luaObject.health + (lightStrength*3) 
 			else 
@@ -202,45 +214,32 @@ end -- function
 
 
 
-function SFarmingSystem:findbarrel(sq)
-if sq then
-	local x=sq:getX()
-	local y=sq:getY()
-	local z=sq:getZ()
+function SFarmingSystem:findbarrel(x, y, z)
 	--print ("****************************find -A- barrel***************************".. x .. " ".. y .. " ".. z )
-	local objs = nil
 	local barrel = nil
 	for x = x-1,x+1 do
 		for y = y-1,y+1 do
-
-			aaa = getCell():getGridSquare(x,y,z)
-			if aaa ~= nil then
-				objs = aaa:getObjects()
-				if objs:size() > 1 then
-					for i = 0, objs:size()-1 do
-						barrel = objs:get(i)
-						--print (i .. ":" .. barrel:getWaterAmount())
-						if barrel:getWaterAmount() > 0 then return barrel
-						end -- has water
-					end -- tile loop
-				end -- obj size?
-			end
+			barrel = SRainBarrelSystem.instance:getLuaObjectAt(x, y, z)
+			if barrel then return barrel end
 		end -- loopy
 	end -- loopx
-end -- sq is valid?
-return nil
-end -- function 
+	return nil
+end -- function
 
-
-function SFarmingSystem:checkWindowsAndGreenhouse(sq)
+function SFarmingSystem:checkWindowsAndGreenhouse(luaObject)
+	local sq = luaObject:getSquare()
 	-- print ("check if windows and greenhouse..")
-	if sq == nil then 
+	if sq == nil then
+		if luaObject.greenhouse then
+			return true
+		end
 		return nil 
 	end
 	if self:checkRoof(sq) > 0 then
-		-- print ("It has a glass roof")
+		luaObject.greenhouse = true
 		return true
 	end
+	luaObject.greenhouse = false
 	return false
 end
 
@@ -267,31 +266,12 @@ end
 
 
 
-function SFarmingSystem:findRainGutter(sq)
-if sq then
-
-local x=sq:getX()
-local y=sq:getY()
-local z=sq:getZ()+1
-
-local objs = nil
-local barrel = nil
-sq = getCell():getGridSquare(x,y,z)
-if sq ~= nil then
---print ("****************************find -A- RainGutter***************************" .. x .. " ".. y .. " ".. z )
-
-	objs = sq:getObjects()
-	if objs:size() > 1 then
-		if objs:get(1):getSprite() then
-			barrel = objs:get(1)
-			if barrel:getWaterAmount() > 0 then return barrel
-			end
-		end 
-	end 
+function SFarmingSystem:findRainGutter(x, y, z)
+	local z=z+1
+	local barrel = SRainBarrelSystem.instance:getLuaObjectAt(x, y, z) 
+	if barrel then return barrel end
+	return nil
 end
-end 
-return nil
-end  
 
 
 
