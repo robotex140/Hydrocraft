@@ -74,13 +74,16 @@ item HCGratedcheddar
 		MinutesToBurn		=	70,
 		DaysTotallyRotten	=	8,
 		DaysFresh 			= 	5,
-		CustomContextMenu 	= 	Eat,
 		FoodType    		= 	NoExplicit,
 		Carbohydrates 		= 	21.2,
 		Proteins 			= 	1.2,
 		Lipids 				= 	4.8,
 		Calories 			= 	96,
 		DisplayCategory		=	FoodP,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	EatingSoup,
+		StaticModel 		= 	CookingPot,
+		WorldStaticModel 	= 	CookingPotSoup_Ground,
 	}
 	
 	item HCTomatosaucebowl
@@ -96,13 +99,16 @@ item HCGratedcheddar
 		MinutesToBurn		=	70,
 		DaysTotallyRotten	=	8,
 		DaysFresh 			= 	5,
-		CustomContextMenu 	= 	Eat,
 		FoodType    		=  	NoExplicit,
 		Carbohydrates 		= 	10.6,
 		Proteins 			= 	0.6,
 		Lipids 				= 	2.4,
 		Calories 			= 	48,
 		DisplayCategory		=	FoodP,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	EatingSoup,
+		StaticModel 		= 	Bowl,
+		WorldStaticModel 	= 	BowlSoup_Ground,
 	}
 
 
@@ -116,6 +122,7 @@ item HCGratedcheddar
 		Type				=	Food,
 		DisplayName			=	Boring Pizza,
 		IsCookable 			= 	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	45,
 		MinutesToBurn		=	70,
@@ -128,6 +135,7 @@ item HCGratedcheddar
 		Lipids 				= 	5.7,
 		Calories 			= 	384.5,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pizza,
 	}
 
 	item HCSimplepizza
@@ -139,6 +147,7 @@ item HCGratedcheddar
 		Type				=	Food,
 		DisplayName			=	Cheese Pizza,
 		IsCookable 			= 	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	45,
 		MinutesToBurn		=	70,
@@ -151,6 +160,7 @@ item HCGratedcheddar
 		Lipids 				= 	71.7,
 		Calories 			= 	786.5,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pizza,
 	}
 
 	item HCTastypizza
@@ -162,6 +172,7 @@ item HCGratedcheddar
 		Type				=	Food,		
 		DisplayName			=	Tasty Pizza,
 		IsCookable 			= 	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	45,
 		MinutesToBurn		=	70,
@@ -174,6 +185,7 @@ item HCGratedcheddar
 		Lipids 				= 	85.4,
 		Calories 			= 	1207.5,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pizza,
 	}
 
 item HCBoringpizzaslice
@@ -185,6 +197,7 @@ item HCBoringpizzaslice
 	BoredomChange			=	-5,
 	DisplayName			=	Slice of Boring Pizza,
 	IsCookable 			= 	TRUE,
+	BadInMicrowave 		= 	true,
 	DangerousUncooked	=	TRUE,
 	MinutesToCook		=	0,
 	MinutesToBurn		=	25,
@@ -197,6 +210,7 @@ item HCBoringpizzaslice
 		Lipids 				= 	1.4,
 		Calories 			= 	96.1,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PizzaSlice_Ground,
     }
 
 item HCSimplepizzaslice
@@ -208,6 +222,7 @@ item HCSimplepizzaslice
 	BoredomChange			=	-10,
 	DisplayName			=	Slice of Simple Pizza,
 	IsCookable 			= 	TRUE,
+	BadInMicrowave 		= 	true,
 	DangerousUncooked	=	TRUE,
 	MinutesToCook		=	0,
 	MinutesToBurn		=	25,
@@ -220,6 +235,7 @@ item HCSimplepizzaslice
         Lipids 				= 	17.9,
         Calories 			= 	196.6,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PizzaSlice_Ground,
 	}
 
 item HCTastypizzaslice
@@ -231,6 +247,7 @@ item HCTastypizzaslice
 	BoredomChange			=	-15,
 	DisplayName			=	Slice of Tasty Pizza,
 	IsCookable 			= 	TRUE,
+	BadInMicrowave 		= 	true,
 	DangerousUncooked	=	TRUE,
 	MinutesToCook		=	0,
 	MinutesToBurn		=	25,
@@ -243,6 +260,7 @@ item HCTastypizzaslice
         Lipids 				= 	21.35,
         Calories 			= 	301.9,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PizzaSlice_Ground,
 	}
 
 
