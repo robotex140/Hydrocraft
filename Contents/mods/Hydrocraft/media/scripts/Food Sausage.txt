@@ -10,10 +10,12 @@ module Hydrocraft
 
 item HCSausagefrog
     {
-        HungerChange			=	-30,
+        HungerChange			=	-25,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -23,21 +25,24 @@ item HCSausagefrog
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	EvolvedRecipe			= 	Stew:10;Stir fry:10;Sandwich:8;Salad:8;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:8;PastaPan:12,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
         Proteins 			= 	32,
         Lipids 				= 	2.6,
         Calories 			= 	220,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagebird
     {
-        HungerChange			=	-30,
+        HungerChange			=	-25,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -47,21 +52,24 @@ item HCSausagebird
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	EvolvedRecipe			= 	Stew:12;Stir fry:12;Sandwich:6;Salad:6;Roasted Vegetables:12;RicePot:12;RicePan:10;PastaPot:12;PastaPan:12,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
         Proteins 			= 	44,
         Lipids 				= 	2.6,
         Calories 			= 	268,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagechicken
     {
-        HungerChange			=	-30,
+        HungerChange			=	-27,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -71,21 +79,24 @@ item HCSausagechicken
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Meat,
+	EvolvedRecipe			= 	Stew:12;Stir fry:12;Sandwich:6;Salad:6;Roasted Vegetables:12;RicePot:12;RicePan:10;PastaPot:12;PastaPan:12,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	2.1,
        	Proteins 			= 	54,
        	Lipids 				= 	30,
         Calories 			= 	495,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausageduck
     {
-        HungerChange			=	-30,
+        HungerChange			=	-28,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -95,21 +106,24 @@ item HCSausageduck
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	EvolvedRecipe			= 	Stew:12;Stir fry:12;Sandwich:6;Salad:6;Roasted Vegetables:12;RicePot:12;RicePan:10;PastaPot:12;PastaPan:12,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	10,
         Proteins 			= 	69,
         Lipids 				= 	33,
         Calories 			= 	603,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagegoose
     {
-        HungerChange			=	-30,
+        HungerChange			=	-28,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -119,13 +133,14 @@ item HCSausagegoose
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	EvolvedRecipe			= 	Stew:13;Stir fry:13;Sandwich:8;Salad:8;Roasted Vegetables:14;RicePot:14;RicePan:11;PastaPot:12;PastaPan:12,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	10,
         Proteins 			= 	87,
         Lipids 				= 	39,
         Calories 			= 	714,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausageturkey
@@ -134,6 +149,8 @@ item HCSausageturkey
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -144,12 +161,13 @@ item HCSausageturkey
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	10.3,
       	Proteins 			= 	69,
       	Lipids 				= 	5.7,
       	Calories 			= 	336,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagevermin
@@ -158,6 +176,8 @@ item HCSausagevermin
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -168,20 +188,23 @@ item HCSausagevermin
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	88,
       	Lipids 				= 	5.2,
       	Calories 			= 	456,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagerabbit
     {
-        HungerChange			=	-30,
+        HungerChange			=	-25,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -191,13 +214,14 @@ item HCSausagerabbit
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	EvolvedRecipe			= 	Stew:10;Stir fry:10;Sandwich:6;Salad:8;Roasted Vegetables:10;RicePot:10;RicePan:11;PastaPot:11;PastaPan:11,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	88,
       	Lipids 				= 	5.2,
       	Calories 			= 	456,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagesmallgame
@@ -206,6 +230,8 @@ item HCSausagesmallgame
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -222,14 +248,17 @@ item HCSausagesmallgame
       	Lipids 				= 	5.2,
       	Calories 			= 	456,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagedeer
     {
-        HungerChange			=	-30,
+        HungerChange			=	-32,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -240,20 +269,23 @@ item HCSausagedeer
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	90,
       	Lipids 				= 	9.6,
       	Calories 			= 	474,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagebear
     {
-        HungerChange			=	-30,
+        HungerChange			=	-34,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -263,21 +295,24 @@ item HCSausagebear
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	EvolvedRecipe			= 	Stew:13;Stir fry:13;Sandwich:8;Salad:8;Roasted Vegetables:12;RicePot:12;RicePan:12;PastaPot:12;PastaPan:12,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	60,
       	Lipids 				= 	24.9,
       	Calories 			= 	483,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagecougar
     {
-        HungerChange			=	-30,
+        HungerChange			=	-34,
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -288,12 +323,13 @@ item HCSausagecougar
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Game,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	60,
       	Lipids 				= 	24.9,
       	Calories 			= 	483,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagemutton
@@ -302,6 +338,8 @@ item HCSausagemutton
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -312,12 +350,13 @@ item HCSausagemutton
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Meat,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0.3,
       	Proteins 			= 	99,
       	Lipids 				= 	33,
       	Calories 			= 	702,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagepork
@@ -326,6 +365,8 @@ item HCSausagepork
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -336,12 +377,13 @@ item HCSausagepork
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Meat,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	63,
       	Lipids 				= 	27,
       	Calories 			= 	450,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagebeef
@@ -350,6 +392,8 @@ item HCSausagebeef
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -359,13 +403,14 @@ item HCSausagebeef
         MinutesToCook			=	20,
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
-	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Meat,
+	EvolvedRecipe			= 	Stew:16;Stir fry:16;Sandwich:10;Salad:10;Roasted Vegetables:16;RicePot:16;RicePan:16;PastaPot:16;PastaPan:16,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	78.2,
       	Lipids 				= 	21.4,
       	Calories 			= 	525,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagecheval
@@ -374,6 +419,8 @@ item HCSausagecheval
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -384,12 +431,13 @@ item HCSausagecheval
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Meat,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	97,
       	Lipids 				= 	21,
       	Calories 			= 	603,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausageitalian
@@ -398,6 +446,8 @@ item HCSausageitalian
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -408,12 +458,13 @@ item HCSausageitalian
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Meat,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	63,
       	Lipids 				= 	27,
       	Calories 			= 	450,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 
 item HCSausagehot
@@ -422,6 +473,8 @@ item HCSausagehot
         Weight				=	0.3,
         Type				=	Food,
         IsCookable			=	TRUE,
+		BadCold 			= 	true,
+		GoodHot 			= 	true,
         DangerousUncooked		=	TRUE,
         DaysTotallyRotten		=	4,
         MinutesToBurn			=	70,
@@ -432,12 +485,13 @@ item HCSausagehot
 	BoredomChange			=	-10,
 	UnhappyChange			=	-10,
 	EvolvedRecipe			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
-	FoodType    			=   	Meat,
+	FoodType    			=   	Sausage,
 	Carbohydrates 			= 	0,
       	Proteins 			= 	63,
       	Lipids 				= 	27,
       	Calories 			= 	450,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Sausage_Ground,
     }
 	
 /************************RECIPES************************/
