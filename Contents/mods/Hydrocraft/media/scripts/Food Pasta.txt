@@ -60,7 +60,7 @@ item HCPastafettuccine
         Type				=	Food,
         DisplayName			=	Fettuccine Pasta,
         Icon				=	HCPastafettuccine,
-        HungerChange    		=   	-60,
+        HungerChange    		=   	-75,
         UnhappyChange   		=   	40,
         ThirstChange    		=   	60,
         Carbohydrates 			= 	656,
@@ -69,6 +69,7 @@ item HCPastafettuccine
         Calories 			= 	3360,
         Packaged 			= 	TRUE,
 		DisplayCategory		= FoodN,
+		WorldStaticModel 	= Pasta,
     	}
 
 item HCPastamacaroni
@@ -77,7 +78,7 @@ item HCPastamacaroni
         Type				=	Food,
         DisplayName			=	Macaroni Pasta,
         Icon				=	HCPastamacaroni,
-        HungerChange    		=   	-60,
+        HungerChange    		=   	-55,
         UnhappyChange   		=   	40,
         ThirstChange    		=   	60,
         Carbohydrates 			= 	656,
@@ -86,6 +87,7 @@ item HCPastamacaroni
         Calories 			= 	3360,
         Packaged 			= 	TRUE,
 		DisplayCategory		= FoodN,
+		WorldStaticModel 	= Pasta,
     	}
 
 item HCPastarotini
@@ -94,7 +96,7 @@ item HCPastarotini
         Type				=	Food,
         DisplayName			=	Rotini Pasta,
         Icon				=	HCPastarotini,
-        HungerChange    		=   	-60,
+        HungerChange    		=   	-50,
         UnhappyChange   		=   	40,
         ThirstChange    		=   	60,
         Carbohydrates 			= 	656,
@@ -103,6 +105,7 @@ item HCPastarotini
         Calories 			= 	3360,
         Packaged 			= 	TRUE,
 		DisplayCategory		= FoodN,
+		WorldStaticModel 	= Pasta,
     	}
 
 /************************RECIPES************************/
@@ -112,7 +115,7 @@ recipe Prepare Fresh Pasta
                 SkillRequired:Cooking=5,
 		Flour/HCRiceflour,
                 Water=1,
-		[Recipe.GetItemTypes.Egg],
+		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
                 Salt;1,
                 keep RollingPin,
 		Result:HCFreshpasta,
