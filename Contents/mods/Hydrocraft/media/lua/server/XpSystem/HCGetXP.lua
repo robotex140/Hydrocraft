@@ -176,3 +176,11 @@ end
 function HCTailoring_OnGiveManyXP(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Tailoring, 10);
 end
+
+function HCMaintenance_OnGiveXP(recipe, ingredients, result, player)
+    player:getXp():AddXP(Perks.Maintenance, 10);
+end
+
+function HCMaintenance_OnGiveManyXP(recipe, ingredients, result, player)
+    player:getXp():AddXP(Perks.Maintenance, 25);
+end
