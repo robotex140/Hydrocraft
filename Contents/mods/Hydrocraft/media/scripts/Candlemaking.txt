@@ -87,7 +87,7 @@ item HCMininghat
   {
   Weight    		      = 0.5,
   Type			          = Drainable,
-	UseDelta		        = 0.1,
+	UseDelta		        = 0.01,
 	ReplaceOnDeplete		= HCHardhat,
   DisplayName         = Candle Mining Hat,
   icon 			          = HCMininghat,
@@ -107,7 +107,7 @@ item HCMininghatlamppowered
     {
     Weight    		    = 0.5,
     Type			        = Drainable,
-	  UseDelta		      = 0.3,
+	  UseDelta		      = 0.05,
 	  ReplaceOnDeplete	= HCMininghatlampdead,
     DisplayName       = Flashlight Mining Hat with Power,
     icon 			        = HCMininghat2,
