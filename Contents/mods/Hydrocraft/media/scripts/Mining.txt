@@ -927,7 +927,7 @@ recipe Mine without light
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:400,
+    Time:1000,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -940,7 +940,7 @@ recipe Mine without light
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:200,
+    Time:800,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -984,7 +984,7 @@ recipe Mine without light
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:500,
+    Time:900,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -997,7 +997,7 @@ recipe Mine without light
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:250,
+    Time:750,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -1040,7 +1040,7 @@ recipe Mine
     OnGiveXP:HCPlantScavenging_OnGiveXP,
     }
 
-recipe Mine
+recipe Mine without light
     {
     Charcoal=1,
     Water=2,
@@ -1049,7 +1049,7 @@ recipe Mine
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:100,
+    Time:800,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -1064,7 +1064,7 @@ recipe Mine without light
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:25,
+    Time:650,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
