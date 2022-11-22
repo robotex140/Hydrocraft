@@ -35,6 +35,7 @@ item HCIcecreamsandwich
         ReplaceOnRotten 		= 	HCIcecreamsandwichmelted,
         Packaged 			= 	TRUE,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCIcecreamsandwichmelted
@@ -51,6 +52,7 @@ item HCIcecreamsandwichmelted
         Calories 			= 	237,
         Packaged 			= 	TRUE,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 item HCIcecreamsoft
@@ -71,6 +73,7 @@ item HCIcecreamsoft
         ReplaceOnRotten 		= 	HCIcecreamsoftmelted,
         Packaged 			=	TRUE,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCIcecreamsoftmelted
@@ -87,6 +90,7 @@ item HCIcecreamsoftmelted
         Calories 			= 	222,
         Packaged 			= 	TRUE,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 
@@ -109,6 +113,7 @@ item HCPopsicle1
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle1melted
@@ -126,6 +131,7 @@ item HCPopsicle1melted
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle2
@@ -147,6 +153,7 @@ item HCPopsicle2
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle2melted
@@ -164,6 +171,7 @@ item HCPopsicle2melted
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 
@@ -186,6 +194,7 @@ item HCPopsicle3
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle3melted
@@ -203,6 +212,7 @@ item HCPopsicle3melted
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle4
@@ -224,6 +234,7 @@ item HCPopsicle4
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle4melted
@@ -241,6 +252,7 @@ item HCPopsicle4melted
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle5
@@ -262,6 +274,7 @@ item HCPopsicle5
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle5melted
@@ -279,6 +292,7 @@ item HCPopsicle5melted
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle6
@@ -300,6 +314,7 @@ item HCPopsicle6
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle6melted
@@ -317,6 +332,7 @@ item HCPopsicle6melted
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle7
@@ -338,6 +354,7 @@ item HCPopsicle7
         Packaged 			=	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodP,
+		Tags = GoodFrozen,
 	}
 
 item HCPopsicle7melted
@@ -355,6 +372,7 @@ item HCPopsicle7melted
         Packaged 			= 	TRUE,
 	ReplaceOnUse			=	HCPopsiclestick,
 		DisplayCategory		=   FoodN,
+		Tags = GoodFrozen,
 	}
 
 
