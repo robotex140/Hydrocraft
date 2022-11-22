@@ -7470,7 +7470,7 @@ recipe Remove Crop
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
-        Carrots/Base.Base.CarrotSeed,
+        Carrots/farming.CarrotSeed,
         HCPlanter,
         keep HandShovel,
         Result:HCPottedcarrotssmall,
