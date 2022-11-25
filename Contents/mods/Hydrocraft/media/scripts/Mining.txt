@@ -823,6 +823,17 @@ recipe Dig Quarry
     	OnGiveXP:HCHunger_OnGiveXP,
     }
 
+recipe Dig Quarry
+    {
+        PickAxe,
+        CanBeDoneFromFloor:true,
+        Result:HCQuarrystone,
+        NeedToBeLearn:true,
+        Time:5000,
+        Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
 recipe Anchor Quarry
     {
     	HCQuarrystone,
