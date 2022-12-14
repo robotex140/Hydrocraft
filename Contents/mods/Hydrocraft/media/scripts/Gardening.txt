@@ -2819,7 +2819,67 @@ item HCPottedBeetsugarready
     DisplayName         = Potted Lemon Tree,
     icon                = HCPottedGeneric,
     }
-
+    item HCPottedlemontreesmall
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+	DisplayCategory		= SurFarm,
+        DisplayName 		= Small Potted Lemon Tree,
+        icon        		= HCPottedlemontreesmall,
+		
+    }
+    item HCPottedlemontreesmalldead
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+	DisplayCategory		= SurFarm,
+        DisplayName 		= Dead Small Potted Lemon Tree,
+        icon        		= HCPottedlemontreesmalldead,
+		
+    }
+    item HCPottedlemontreesmalldry
+    {
+        Weight      		= 5,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+	DisplayCategory		= SurFarm,
+        DisplayName 		= Dry Small Potted Lemon Tree,
+        icon        		= HCPottedlemontreesmall,
+		
+    }
+	
+    item HCPottedlemontreedry
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+	DisplayCategory		= SurFarm,
+        DisplayName 		= Dry Potted Lemon Tree,
+        icon        		= HCPottedlemontree,
+		
+    }
+    item HCPottedlemontreedead
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+	DisplayCategory		= SurFarm,
+        DisplayName 		= Dead Potted Lemon Tree,
+        icon        		= HCPottedlemontreedead,
+		
+    }
+    item HCPottedlemontreeready
+    {
+        Weight      		= 25,
+    	Type        		= Normal,
+	UseWhileEquipped	= FALSE,
+	DisplayCategory		= SurFarm,
+        DisplayName 		= Ready Potted Lemon Tree,
+        icon        		= HCPottedlemontreeready,
+		
+    }
 
 
     item HCPottedorangetreesmall
@@ -7289,7 +7349,13 @@ recipe Remove Crop
     Time:300,
     Category:Farming,
     }
-
+recipe Remove Crop
+	{    HCPottedlemontree/HCPottedlemontreesmall/HCPottedlemontreesmalldead/HCPottedlemontreesmalldry/HCPottedlemontreedry/HCPottedlemontreedead/HCPottedlemontreeready,
+    Result:HCPlanter,
+    CanBeDoneFromFloor:true,
+    Time:300,
+    Category:Farming,
+	}
 
 
  /* small pots */
@@ -7364,7 +7430,17 @@ recipe Remove Crop
     	NeedToBeLearn:true,
 		Category:Farming,
     }
-
+recipe Harvest Crop
+    {
+    HCPottedlemontreeready,
+    Result:HCPottedlemontree,
+    CanBeDoneFromFloor:true,
+    Time:1000.0,
+    NeedToBeLearn:true,
+    Category:Farming,
+    OnGiveXP:HCFarming_OnGiveXP,
+	OnCreate:recipe_NDPlantsHarvest,
+    }
     recipe Plant Crop
     {
         SkillRequired:Farming=7,
