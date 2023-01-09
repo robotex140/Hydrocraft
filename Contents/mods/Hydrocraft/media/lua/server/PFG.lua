@@ -65,5 +65,47 @@ end
 PFGMenu.getDistance2D = function(_x1, _y1, _x2, _y2)
 	return math.sqrt(math.abs(_x2 - _x1)^2 + math.abs(_y2 - _y1)^2);
 end
+
+
+-- Reifel edit scope: fix stuck inside trunk if too heavy
+PFGMenu.addInventoryContext = function(player,context,inventoryObjects)
+	local pzPlayer = getSpecificPlayer(player)
+	local playerInventory = pzPlayer:getInventory()
+	
+	local items = inventoryObjects
+	for i,v in pairs(items) do
+		if v.cat == "Container" then		
+			--dont show push inside player inventory
+			if playerInventory:contains(v.items[i]) then return end
+			
+			local itemClicked = v.items[i]:getItemContainer()	
+			
+			local type = itemClicked:getType()
+			for ti,tv in ipairs(PFGMenu.typesTable) do
+				if tv == type then 
+					local selectOption = context:addOption("Push Cart",v.items,PFGMenu.pushCart,player,v.items[i])
+				end
+			end
+		end
+	end
+	
+end
+
+PFGMenu.pushCart = function(worldobjects,player,item)
+	local pzPlayer = getSpecificPlayer(player)	
+	
+	--if on floor
+	if item:getWorldItem() then 
+		PFGMenu.equipCart(worldobjects,player,item:getWorldItem())	
+	else
+		--if inside trunk FIX BUG CANT GET BACK FROM TRUNK IF TOO HEAVY
+		ISTimedActionQueue.add(ISEquipHeavyItem:new(pzPlayer, item, 50))
+	end
+		
+end
+
+Events.OnPreFillInventoryObjectContextMenu.Add(PFGMenu.addInventoryContext)
+-- end Reifel edit scope
+
 Events.OnFillWorldObjectContextMenu.Add(PFGMenu.addWorldContext)
 --Events.OnPreFillInventoryObjectContextMenu.Add(PFGMenu.addInventoryContext)
