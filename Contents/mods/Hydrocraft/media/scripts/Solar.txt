@@ -271,6 +271,12 @@ recipe Unplug Solar Generator
         Category:Electrical,
         OnCreate:HCRemoveSolarGen,
     } 
-
+recipe Make Dead Solar Park
+    {
+        destroy HCSolarparkcharged,
+        Result:HCSolarpark,
+        Time:15,
+        Category:Electrical,
+    }
 }
 
