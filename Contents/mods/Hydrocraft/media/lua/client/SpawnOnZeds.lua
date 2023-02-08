@@ -95,12 +95,12 @@ local function OnLoadSpawnOnZeds()
 	-- Weapons/Tools --
 	LOOT["Base.Lighter"] = 1
 	LOOT["Base.Matches"] = 1
-	LOOT["Hydrocraft.HCSurvivalaxe"] = 0.06
+	--LOOT["Hydrocraft.HCSurvivalaxe"] = 0.06 --added to impaled weapons.
 	LOOT["Base.Hammer"] = 0.3
 	LOOT["Base.Saw"] = 0.3
 	LOOT["Hydrocraft.HCPliers"] = 0.05
 	LOOT["Base.TinOpener"] = 0.1
-	LOOT["Hydrocraft.HCJackknife"] = 0.05
+	--LOOT["Hydrocraft.HCJackknife"] = 0.05 --added to impaled weapons.
 	LOOT["Hydrocraft.HCBinoculars"] = 0.05
 	LOOT["Hydrocraft.HCMeasuringtape"] = 0.05
 	--LOOT["Hydrocraft.HCCompass"] = 0.1
@@ -143,7 +143,7 @@ local function OnLoadSpawnOnZeds()
 
 	-- Other --
 	LOOT["Hydrocraft.HCHousefly"] = 0.2
-	LOOT["Hydrocraft.HCMaggot"] = 0.2
+	--LOOT["Hydrocraft.HCMaggot"] = 0.2 --now vanilla item, so removed.
 	LOOT["Base.Cockroach"] = 0.25
 	LOOT["Base.Worm"] = 0.25
 	LOOT["Base.Book"] = 0.2
