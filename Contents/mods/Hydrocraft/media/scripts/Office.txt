@@ -38,11 +38,12 @@ item HCPenbox
 
 item HCStaples
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Staples,
-        icon 			= HCStaples,
-		DisplayCategory	= Craft,
+	    DisplayCategory  = Household,	
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Staples,
+        icon 			 = HCStaples,
+		WorldStaticModel = WorldItem-HCOffice_Staples,			
     }
 
 item HCStaplesbox
@@ -96,22 +97,24 @@ item HCStaplegunfull
 
 item HCPostit
     	{
+	    DisplayCategory = Household,		
         Weight			= 0.01,
         Type			= Literature,
         DisplayName		= Post-It Note,
         Icon			= HCPostit,
         CanBeWrite  		= true,
         PageToWrite 		= 1,
-		DisplayCategory	= LitW,
+		WorldStaticModel = WorldItem-HCOffice_StickyNote,	
     	}
 
 item HCPostitpad
     {
-        Weight    		= 0.3,
-        Type    		= Normal,
-        DisplayName         	= Pad of Post-It Notes,
-        icon 			= HCPostitpad,
-		DisplayCategory	= LitW,
+	    DisplayCategory  = Household,	
+        Weight    		 = 0.3,
+        Type    		 = Normal,
+        DisplayName      = Pad of Post-It Notes,
+        icon 			 = HCPostitpad,
+		WorldStaticModel = WorldItem-HCOffice_StickyNotePad,			
     }
 
 item HCRubberbandbox
@@ -197,11 +200,12 @@ item HCHighlighter
 
 item HCRuler
     {
+		DisplayCategory	= Household,	
         Weight    		= 0.1,
         Type    		= Normal,
-        DisplayName         	= Ruler,
+        DisplayName     = Ruler,
         icon 			= HCRuler,
-		DisplayCategory	= Misc,
+		WorldStaticModel = WorldItem-HCOffice_Ruler,			
     }
 
 item HCStapleremover
@@ -215,11 +219,12 @@ item HCStapleremover
 
 item HCTriangle
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Triangle,
-        icon 			= HCTriangle,
-		DisplayCategory	= Useless,
+		DisplayCategory	 = Household,	
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Triangle,
+        icon 			 = HCTriangle,
+		WorldStaticModel = WorldItem-HCOffice_Triangle,		
     }
 
 

@@ -27,9 +27,4 @@ item HCSignbiohazard
 	DisplayCategory          =   Useless,
   	}
 
-/************************RECIPES************************/	
-
-
-    
-
 }

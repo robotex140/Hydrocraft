@@ -26,6 +26,7 @@ item HCFloppy
         DisplayName         	= Floppy Disk,
         icon 			= HCFloppy,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDisk,			
     }
 
 item HCFloppyevosim
@@ -35,6 +36,7 @@ item HCFloppyevosim
         DisplayName         	= Floppy Disk with Evolution Simulator,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,			
     }
 
 item HCFloppygesture
@@ -44,6 +46,7 @@ item HCFloppygesture
         DisplayName         	= Floppy Disk with Gesture Recognition Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,			
     }
 
 item HCFloppyvoice
@@ -53,6 +56,7 @@ item HCFloppyvoice
         DisplayName         	= Floppy Disk with Voice Recognition Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,			
     }
 
 item HCFloppygraphics
@@ -62,6 +66,7 @@ item HCFloppygraphics
         DisplayName         	= Floppy Disk with Graphics Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,			
     }
 
 item HCFloppywriting
@@ -71,6 +76,7 @@ item HCFloppywriting
         DisplayName         	= Floppy Disk with Writing Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,			
     }
 
 item HCFloppyweb
@@ -80,6 +86,7 @@ item HCFloppyweb
         DisplayName         	= Floppy Disk with Web Browser Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,			
     }
 
 item HCFloppyaudio
@@ -89,6 +96,7 @@ item HCFloppyaudio
         DisplayName         	= Floppy Disk with Audio Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,			
     }
 
 item HCFloppyemail
@@ -98,6 +106,7 @@ item HCFloppyemail
         DisplayName         	= Floppy Disk with Email Software,
         icon 			= HCFloppyfull,
 		DisplayCategory = Misc,
+		WorldStaticModel = WorldItem-HCFloppyDiskFull,		
     }
 
 /************************RECIPES************************/	

@@ -1,0 +1,117 @@
+module Hydrocraft
+{
+	imports
+{
+  Base
+}
+
+	model HC_Maraca_AP
+    {
+		mesh = Weapons/1Handed/HC_Maracas_AP,
+		texture = weapons/1Handed/HC_Maracas,
+    }
+	
+	model HC_Umbrella_Open_Black
+    {
+		mesh = Weapons/2Handed/Umbrella_Open,
+		texture = weapons/2Handed/HC_Umbrella_Black,
+
+		attachment world
+		{
+			offset = 0.0000 0.2500 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+    }
+	model HC_Umbrella_Closed_Black
+	{
+		mesh = Weapons/2Handed/Umbrella_Closed,
+		texture = weapons/2Handed/HC_Umbrella_Black,
+
+		attachment world
+		{
+			offset = 0.0000 0.2700 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+
+	model WorldItem-HCFloppyDisk
+    {
+		mesh = WorldItems/WorldItem_HCFloppyDisk,
+		texture = Items/HC_FloppyDisk_Blue,
+    }
+	model WorldItem-HCFloppyDiskFull
+    {
+		mesh = WorldItems/WorldItem_HCFloppyDisk,
+		texture = Items/HC_FloppyDisk_Blue_Full,
+    }
+	model WorldItem-HCMoney_BlankCheck
+    {
+		mesh = WorldItems/WorldItem-HCMoney_BlankCheck,
+		texture = Items/Money_BlankCheck,
+    }	
+	model WorldItem-HCMoney_Penny
+    {
+		mesh = WorldItems/WorldItem-HCMoney_Penny,
+		texture = Items/Money_Penny,
+    }
+	model WorldItem-HCMoney_Nickel
+    {
+		mesh = WorldItems/WorldItem-HCMoney_Nickel,
+		texture = Items/Money_Nickel,
+    }
+	model WorldItem-HCMoney_Dime
+    {
+		mesh = WorldItems/WorldItem-HCMoney_Dime,
+		texture = Items/Money_Dime,
+    }
+	model WorldItem-HCMoney_Quarter
+    {
+		mesh = WorldItems/WorldItem-HCMoney_Quarter,
+		texture = Items/Money_Quarter,
+    }
+	model WorldItem-HCMoney_HalfDollarCoin
+    {
+		mesh = WorldItems/WorldItem-HCMoney_HalfDollarCoin,
+		texture = Items/Money_HalfDollar,
+    }
+	model WorldItem-HCMoney_DollarCoin
+    {
+		mesh = WorldItems/WorldItem-HCMoney_DollarCoin,
+		texture = Items/Money_Dollar,
+    }
+	model WorldItem-HCMoney_DollarBill
+    {
+		mesh = WorldItems/WorldItem-HCMoney_DollarBill,
+		texture = Items/Money_DollarBill,
+    }
+	model WorldItem-HCMoney_PokerChip
+    {
+		mesh = WorldItems/WorldItem-HCMoney_PokerChip,
+		texture = Items/Money_Pokerchip,
+    }
+	model WorldItem-HCOffice_Ruler
+    {
+		mesh = WorldItems/WorldItem-HCOffice_Ruler,
+		texture = Items/HC_Office_Ruler,
+    }	
+	model WorldItem-HCOffice_Staples
+    {
+		mesh = WorldItems/WorldItem-HCOffice_Staples,
+		texture = Items/Money_Quarter,
+    }
+	model WorldItem-HCOffice_StickyNote
+    {
+		mesh = WorldItems/WorldItem-HCOffice_StickyNote,
+		texture = Items/HC_Office_StickyNote,
+    }	
+	model WorldItem-HCOffice_StickyNotePad
+    {
+		mesh = WorldItems/WorldItem-HCOffice_StickyNotePad,
+		texture = Items/HC_Office_StickyNote,
+    }
+	model WorldItem-HCOffice_Triangle
+    {
+		mesh = WorldItems/WorldItem-HCOffice_TriangleRuler,
+		texture = Items/HC_Office_Triangle,
+    }	
+}

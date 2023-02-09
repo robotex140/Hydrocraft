@@ -11,53 +11,57 @@ module Hydrocraft
 
 item HCVHStape1
     {
+        DisplayCategory = Entertainment,	
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape1,
-		DisplayCategory	= LitV,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox2,	
     }
 
 item HCVHStape2
     {
+        DisplayCategory = Entertainment,	
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape2,
-		DisplayCategory	= LitV,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox,	
     }
 
 item HCVHStape3
     {
+        DisplayCategory = Entertainment,	
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape3,
-		DisplayCategory	= LitV,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox2,		
     }
 
 item HCVHStape4
     {
+        DisplayCategory = Entertainment,	
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape4,
-		DisplayCategory	= LitV,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox3,		
     }
 
 item HCVHStape5
     {
+        DisplayCategory = Entertainment,	
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= VHS Tape,
         icon 			= HCVHStape5,
-		DisplayCategory	= LitV,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox2,	
     }
-
-
-
-/************************RECIPES************************/	
-
-
 
 }
