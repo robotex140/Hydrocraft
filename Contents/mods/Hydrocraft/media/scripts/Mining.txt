@@ -633,7 +633,7 @@ recipe Dig Mine
     {
     HCAuger/HCQuarrystone/HCQuarrystone2,
     HCRopethick,
-    HCStake=3,
+    Base.Stake=3,
     HCWoodenladder,
     CanBeDoneFromFloor:true,
     Result:HCMinehole,
