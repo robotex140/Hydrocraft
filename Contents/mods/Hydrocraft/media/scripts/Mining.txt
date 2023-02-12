@@ -823,6 +823,17 @@ recipe Dig Quarry
     	OnGiveXP:HCHunger_OnGiveXP,
     }
 
+recipe Dig Quarry
+    {
+        PickAxe,
+        CanBeDoneFromFloor:true,
+        Result:HCQuarrystone,
+        NeedToBeLearn:true,
+        Time:5000,
+        Category:Stoneworking,
+        OnGiveXP:HCHunger_OnGiveXP,
+    }
+
 recipe Anchor Quarry
     {
     	HCQuarrystone,
@@ -869,7 +880,7 @@ recipe Mine
     CanBeDoneFromFloor:true,
     Result:HCDirt,
     NeedToBeLearn:true,
-    Time:300,
+    Time:100,
     Category:Stoneworking,
     OnCreate:HCMine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -882,7 +893,7 @@ recipe Mine
     CanBeDoneFromFloor:true,
     Result:HCDirt,
     NeedToBeLearn:true,
-    Time:150,
+    Time:10,
     Category:Stoneworking,
     OnCreate:HCMine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -900,7 +911,7 @@ recipe Mine
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:1000,
+    Time:300,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -914,7 +925,33 @@ recipe Mine
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:500,
+    Time:80,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine without light
+    {
+    keep HCDarkmineB,
+    keep Shovel/Shovel2/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine without light
+    {
+    keep HCDarkmineB,
+    HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:800,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -931,7 +968,7 @@ recipe Mine
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:750,
+    Time:250,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -945,7 +982,33 @@ recipe Mine
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:350,
+    Time:150,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine without light
+    {
+    keep HCDarkmine2B,
+    keep Shovel/Shovel2/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:900,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine without light
+    {
+    keep HCDarkmine2B,
+    HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:750,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -960,13 +1023,13 @@ recipe Mine
     {
     HCMininghat/HCMininghatlamppowered,
     Charcoal=1,
-    Water=10,
+    Water=2,
     keep HCDarkmine3B,
     keep Shovel/Shovel2/PickAxe,
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:500,
+    Time:50,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -976,13 +1039,43 @@ recipe Mine
     {
     HCMininghat/HCMininghatlamppowered,
     Charcoal=1,
-    Water=10,
+    Water=2,
     keep HCDarkmine3B,
     HCMiningdrillpowered/HCMiningchiselpowered,
     CanBeDoneFromFloor:true,
     Result:Stone,
     NeedToBeLearn:true,
-    Time:250,
+    Time:5,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine without light
+    {
+    Charcoal=1,
+    Water=2,
+    keep HCDarkmine3B,
+    keep Shovel/Shovel2/PickAxe,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:800,
+    Category:Stoneworking,
+    OnCreate:HCDarkmine,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Mine without light
+    {
+    Charcoal=1,
+    Water=2,
+    keep HCDarkmine3B,
+    HCMiningdrillpowered/HCMiningchiselpowered,
+    CanBeDoneFromFloor:true,
+    Result:Stone,
+    NeedToBeLearn:true,
+    Time:650,
     Category:Stoneworking,
     OnCreate:HCDarkmine,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
@@ -995,9 +1088,9 @@ recipe Mine Iron
         keep HCIronMineB,
         keep Shovel/Shovel2/PickAxe,
         CanBeDoneFromFloor:true,
-        Result:HCIronore,
+        Result:HCIronore=5,
         NeedToBeLearn:true,
-        Time:250,
+        Time:750,
         Category:Stoneworking,
         OnGiveXP:HCPlantScavenging_OnGiveXP,
     }
@@ -1007,9 +1100,9 @@ recipe Mine Coal
         keep HCCoalMineB,
         keep Shovel/Shovel2/PickAxe,
         CanBeDoneFromFloor:true,
-        Result:HCCoal,
+        Result:HCCoal=5,
         NeedToBeLearn:true,
-        Time:250,
+        Time:750,
         Category:Stoneworking,
         OnGiveXP:HCPlantScavenging_OnGiveXP,
     }
@@ -1049,10 +1142,10 @@ recipe Mine Stone
     keep HCQuarrystone2,
     keep PickAxe,
     CanBeDoneFromFloor:true,
-    Result:Stone,
+    Result:Stone=3,
     OnCreate:HCMineStone,        
     NeedToBeLearn:true,
-    Time:250,
+    Time:500,
     Category:Stoneworking,
     OnGiveXP:HCPlantScavenging_OnGiveXP,
     }

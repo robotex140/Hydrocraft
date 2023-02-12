@@ -791,7 +791,7 @@ recipe Unpack Pallet of Steel Pipes
 
 recipe Pack Pallet of Steel Pipes
     {
-    	HCSteelpipe=12,
+    	HCSteelpipe=48,
     	HCRopethick,
 	HCWoodenpallet,
     	CanBeDoneFromFloor:true,
@@ -2845,5 +2845,37 @@ recipe Unpack Pallet of Metal Bars
     	Time:20.0,
     	OnCreate:recipe_hcpallet,
     }
+
+recipe Smash Steel
+	{
+		SkillRequired:Metalworking=3,
+	   	HCSteelingot,
+    	keep HCSmithyhammertitanium,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	   	Result:HCIronpowder,
+	   	Time:200.0,
+    	NeedToBeLearn:true,
+       	Category:Smithing,
+    	OnGiveXP:HCMaintenance_OnGiveXP,
+	}
+
+recipe Make Colander
+	{
+		SkillRequired:Metalworking=4,
+	   	Wire=5,
+    	keep HCSmithyhammeriron,
+    	keep Tongs,
+    	keep HCWorkgloves/HCOvenmitts,
+		keep HCAnvil2/HCAnvillead2,
+    	CanBeDoneFromFloor:true,
+	   	Result:HCColander,
+	   	Time:1000.0,
+    	NeedToBeLearn:false,
+       	Category:Smithing,
+    	OnGiveXP:HCMaintenance_OnGiveManyXP,
+	}
 
 }

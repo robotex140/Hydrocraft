@@ -737,8 +737,8 @@ recipe Make Steel Sledgehammer
 
 recipe Make Titanium Smithy Hammer
 	{
-	SkillRequired:Maintenance=4,
-	HCTitaniumingot,
+	SkillRequired:Maintenance=3,
+	HCTitaniumingot=4,
     WoodenStick,
     keep HCSmithyhammersteel/HCSmithyhammertitanium,
     keep Tongs,

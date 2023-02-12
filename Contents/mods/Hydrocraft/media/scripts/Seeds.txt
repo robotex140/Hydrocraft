@@ -1501,7 +1501,7 @@ item HCBeetsugarseedpacket
 	{
         OnTest:HCNearHerbatable,
         keep HCSieve/HCFloursieve,
-		Popcorn/Cereal/HCHerbs,
+		Popcorn/Cereal/HCHerbs/HCDirt,
         CanBeDoneFromFloor:true,
         Time:200,
         Category:Farming,
