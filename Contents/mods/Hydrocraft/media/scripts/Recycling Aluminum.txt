@@ -26,7 +26,7 @@ item HCAluminumscrap
 recipe Recycle Aluminum
     {
     SkillRequired:MetalWelding=6,
-    TentPeg/HCAluminiumbat/HCWeldingtankempty/SheetMetal,
+    HCAluminiumbat/HCWeldingtankempty/SheetMetal,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
@@ -46,7 +46,7 @@ recipe Recycle Aluminum
 recipe Recycle Aluminum
     {
     SkillRequired:MetalWelding=6,
-    UnusableMetal=2,
+    UnusableMetal/TentPeg=2,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
