@@ -437,7 +437,7 @@ recipe Unpack Straw
 recipe Pile Straw
     {
     HCStraw=100,
-    keep HCPitchfork,
+    keep GardenFork,
     Result:HCHaystack,
     Time:15,
     Category:Farming,

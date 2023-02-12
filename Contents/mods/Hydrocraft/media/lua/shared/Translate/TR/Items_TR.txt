@@ -4165,7 +4165,6 @@ Items_TR = {
 	DisplayName_Omelet = "Omlet",
 	DisplayName_Persimmon = "Cennet Hurması",
 	DisplayName_Pipe_Bender = "Boru Bükücü",
-	DisplayName_Pitchfork = "Dirgen",
 	DisplayName_Plastic_Coffee_Spoon = "Plastik Kahve Kaşığı",
 	DisplayName_Plastic_Cup = "Plastik Bardak",
 	DisplayName_Plastic_Cup_with_Water = "Su Dolu Plastik Bardak",

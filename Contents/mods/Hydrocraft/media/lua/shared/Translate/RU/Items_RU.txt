@@ -4866,7 +4866,6 @@ Items_RU = {
 	DisplayName_Pike_Roe = "Икра щуки",
 	DisplayName_Pinata = "Пиньята",
 	DisplayName_Pipe_Bender = "Клещи для труб",
-	DisplayName_Pitchfork = "Вилы",
 	DisplayName_Pizza_Cookbook = "Поваренная книга: Пицца",
 	DisplayName_Plaice = "Камбала",
 	DisplayName_Plank_Barrier = "Барьер из досок",

@@ -1768,7 +1768,6 @@ local shed_items = {
         "Hydrocraft.HCBugsprayer", 1,
         "Hydrocraft.HCLawnmower", 1,
         "Hydrocraft.HCWireconcertina", 1,
-        "Hydrocraft.HCPitchfork", 1,
         "Hydrocraft.HCBirdfeeder", 1,
         "Hydrocraft.HCGardengloves", 1,
         "Hydrocraft.HCFile", 1,
