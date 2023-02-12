@@ -107,7 +107,6 @@ item HCGum
 	Type				=	Drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta    		=   0.20,
-    Type   				= 	Normal,
     DisplayName         = 	Pack of Chewing Gum,
     icon 				= 	HCGum,
 	ReplaceOnDeplete	=	HCGumtrash,
@@ -172,7 +171,7 @@ item HCGum3
 	UseDelta    		=   0.20,
     DisplayName         = 	Pack of Chewing Gum,
     icon 				= 	HCGum3,
-	ReplaceOnDeplete	= 	HCGum2trash,
+	ReplaceOnDeplete	= 	HCGum3trash,
 	DisplayCategory          =   FoodN,
     	}
 
