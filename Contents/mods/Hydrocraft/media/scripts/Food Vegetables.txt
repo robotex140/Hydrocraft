@@ -18,12 +18,13 @@ item HCBeans
 	Icon				=	HCBeans,
 	DaysFresh			=	7,
 	EvolvedRecipe 		=	Soup:10;Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
-	FoodType    		=	Vegetables,
+	FoodType    		=	Bean,
     Carbohydrates 		= 	21,
     Proteins 			= 	5.4,
     Lipids 				= 	0.6,
     Calories 			= 	93,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel 	= Peanuts,
    }
 
 
@@ -42,6 +43,7 @@ item HCCoffeeBeans
     Lipids 				= 	0.6,
     Calories 			= 	5,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel 	= 	Peanuts,
    }
 
 
@@ -62,6 +64,7 @@ item HCSoyBeans
     Calories 			= 	120,
     EvolvedRecipe 		=	Soup:10;Stew:10;Stir fry:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel 	= 	Peanuts,
    }
 
 
@@ -81,6 +84,8 @@ item HCSoyBeans
         Lipids 				= 		1.2,
         Calories 			=		243,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	Broccoli_Ground,
    }
 
    item HCSweetpotato
@@ -100,6 +105,8 @@ item HCSoyBeans
         Lipids 				= 		0.3,
         Calories 			=		258,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Red,
+		WorldStaticModel 	= 	Onion_Ground,
    }
 
    item HCChinesecabbage
@@ -119,6 +126,8 @@ item HCSoyBeans
         Lipids 				= 		0.6,
         Calories 			=		39,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green
+		WorldStaticModel 	= 	Lettuce_Ground,
     }
 
     item HCCucumber
@@ -139,6 +148,8 @@ item HCSoyBeans
         Calories 			=		45,
 	ReplaceOnUse			=		Hydrocraft.HCCucumberseeds,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green
+		WorldStaticModel 	= 	Broccoli_Ground,
     }
 
     item HCCauliflower
@@ -157,6 +168,8 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		75,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Green,
+		WorldStaticModel 	= 	Lettuce_Ground,
     }
 
     item HCBellpeppergreen
@@ -176,6 +189,8 @@ item HCSoyBeans
         Calories 			=		40,
 	ReplaceOnUse			=		Hydrocraft.HCBellpeppergreenseeds,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Green,
+		WorldStaticModel 	= 	BellPepper_Ground,
      }
 
     item HCBellpepperyellow
@@ -195,6 +210,8 @@ item HCSoyBeans
         Calories 			=		54,
 	ReplaceOnUse			=		Hydrocraft.HCBellpepperyellowseeds,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Yellow,
+		WorldStaticModel 	= 	BellPepper_Ground,
      }
 
      item HCOniongreen
@@ -213,6 +230,8 @@ item HCSoyBeans
         Lipids 				= 		0.4,
         Calories 			=		64,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Yellow,
+		WorldStaticModel 	= 	Leek_Ground,
      }
 
      item HCGarlic
@@ -231,6 +250,8 @@ item HCSoyBeans
         Lipids 				= 		1,
         Calories 			=		298,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Yellow,
+		WorldStaticModel 	= 	Onion_Ground,
      }
 
    item HCGinger
@@ -249,6 +270,8 @@ item HCSoyBeans
         Lipids 				= 		0.4,
         Calories 			=		160,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Orange,
+		WorldStaticModel 	= 	Onion_Ground,
    }
 
    item HCPumpkin
@@ -268,6 +291,7 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	DisplayCategory          =   FoodP,
+		WorldStaticModel 	= 	Pumpkin_Ground,
    }
 
    item HCPumpkinflesh
@@ -346,6 +370,7 @@ item HCSoyBeans
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkinlargeseeds,
 	DisplayCategory          =   FoodP,
+		WorldStaticModel 	= 	Pumpkin_Ground,
    }
 
    item HCPumpkinbuskin
@@ -366,6 +391,7 @@ item HCSoyBeans
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkinbuskinseeds,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel 		= 	CrackersGraham_Ground,
    }
 
     item HCCornred
@@ -384,6 +410,7 @@ item HCSoyBeans
         Lipids 				= 		2.4,
         Calories 			=		172,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Orange,
 	}
 
     item HCCornblue
@@ -402,6 +429,8 @@ item HCSoyBeans
         Lipids 				= 		2.4,
         Calories 			=		172,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	Zucchini_Ground,
 	}
 
     item HCCornwhite
@@ -420,6 +449,8 @@ item HCSoyBeans
         Lipids 				= 		2.4,
         Calories 			=		172,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Yellow,
+		WorldStaticModel 	= 	Corn_Ground,
 	}
 
     item HCCabbagered
@@ -476,6 +507,8 @@ item HCSoyBeans
         Lipids 				= 		0.3,
         Calories 			=		207,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Yellow,
+		WorldStaticModel 	= 	Peach_Ground,
 	}
 
     item HCPotatored
@@ -494,6 +527,8 @@ item HCSoyBeans
         Lipids 				= 		0.3,
         Calories 			=		210,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Red,
+		WorldStaticModel 	= 	Peach_Ground,
 	}
 
     item HCChilipepper
@@ -507,12 +542,15 @@ item HCSoyBeans
 	DaysTotallyRotten 		=	 	28,
         EvolvedRecipe       		=       	Soup:10;Stew:10;Stir fry:10;Sandwich:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
         FoodType    			=   		Vegetables,
+		Spice 					= 			true,
         Carbohydrates 			= 		17.6,
         Proteins 			= 		3.8,
         Lipids 				= 		0.8,
         Calories 			=		80,
 	ReplaceOnUse			=		Hydrocraft.HCChilipepperseeds,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Orange,
+		WorldStaticModel 	= 	 PepperJalapeno_Ground,
 	}
 
     item HCChilipeppercut
@@ -526,11 +564,15 @@ item HCSoyBeans
 	DaysTotallyRotten 		=	 	28,
         EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
         FoodType    			=   		Vegetables,
+		Spice 					= 			true,
         Carbohydrates 			= 		8.8,
         Proteins 			= 		1.9,
         Lipids 				= 		0.4,
         Calories 			=		40,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	PepperJalapeno_Ground,
+		
 	}
 
 item HCChiligreen
@@ -542,6 +584,7 @@ item HCChiligreen
 	DaysTotallyRotten 		=		28,
         EvolvedRecipe       		=       	Soup:10;Stew:10;Pie:10;Stir fry:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
         FoodType    			=   		Vegetables,
+		Spice 					= 			true,
 	DisplayName			=		Green Chili,
 	Icon	        		=		HCChiligreen,
 	CustomContextMenu 		= 		Eat,
@@ -551,6 +594,8 @@ item HCChiligreen
         Calories 			=		80,
 	ReplaceOnUse			=		Hydrocraft.HCChiligreenseeds,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	PepperHabanero_Ground,
 	}
 
 item HCTomatillo
@@ -571,6 +616,8 @@ item HCTomatillo
         Calories 			=		11,
 	ReplaceOnUse			=		Hydrocraft.HCTomatilloseeds,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	PepperHabanero_Ground,
 	}
 
    item HCColewort
@@ -589,6 +636,8 @@ item HCTomatillo
         Lipids 				= 		0.1,
         Calories 			=		3,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Green,
+		WorldStaticModel 	= 	Lettuce_Ground,
     }
 
    item HCArtichoke
@@ -607,6 +656,8 @@ item HCTomatillo
         Lipids 				= 		0.2,
         Calories 			=		60,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	Broccoli_Ground,
     }
 
    item HCSpirulinafresh
@@ -662,6 +713,7 @@ item HCTomatillo
         Lipids 				= 		0.2,
         Calories 			=		59,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Red,
    }
 
    item HCBasilleaf
@@ -675,12 +727,14 @@ item HCTomatillo
 	DaysFresh 			=		5,
 	DaysTotallyRotten 		=	 	10,
 	FoodType    			=   		Vegetables,
+	Spice 					= 			true,
 	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
         Carbohydrates 			= 		0.1,
         Proteins 			= 		0.2,
         Lipids 				= 		0,
         Calories 			=		1,
 	DisplayCategory          =   FoodP,
+		WorldStaticModel 	= 	Broccoli_Ground,
     }
 
    item HCOreganoleaf
@@ -718,6 +772,8 @@ item HCTomatillo
         Lipids 				= 		0,
         Calories 			=		3,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	Broccoli_Ground,
     }
 
     item HCJalapeno
@@ -729,6 +785,7 @@ item HCTomatillo
 	DaysTotallyRotten 		=		28,
         EvolvedRecipe       		=       	Soup:10;Stew:10;Pie:10;Stir fry:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
         FoodType    			=   		Vegetables,
+		Spice 			= 	true,
 	DisplayName			=		Jalapeno,
 	Icon	        		=		HCJalapeno,
 	CustomContextMenu 		= 		Eat,
@@ -737,6 +794,8 @@ item HCTomatillo
         Lipids 				= 		0.3,
         Calories 			=		26,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	PepperJalapeno_Ground,
 	}
 
     item HCSquashsummer
@@ -756,6 +815,7 @@ item HCTomatillo
         Lipids 				= 		0.4,
         Calories 			=		32,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Yellow,
     }
 
    item HCBeetsugar
@@ -775,6 +835,7 @@ item HCTomatillo
         Lipids 				= 		0,
         Calories 			=		35,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Yellow,
    }
 
    item HCCelery
@@ -793,6 +854,8 @@ item HCTomatillo
         Lipids 				= 		0.1,
         Calories 			=		6,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	Leek_Ground,
     }
 
    item HCTomatocherry
@@ -812,6 +875,8 @@ item HCTomatillo
         Lipids 				= 		1,
         Calories 			=		18,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	RoundFood_Red,
+	
 	}
 
    item HCSpinach
@@ -831,6 +896,8 @@ item HCTomatillo
         Lipids 				= 		0.1,
         Calories 			=		7,
 	DisplayCategory          =   FoodP,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	Leek_Ground,
     }
 
 /************************RECIPES************************/
@@ -907,4 +974,6 @@ recipe Slice Buskin Pumpkin
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
+
+	
 }

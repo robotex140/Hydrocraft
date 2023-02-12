@@ -45,6 +45,7 @@ item HCPiecrust
 		Icon				=	HCPieapple,
 		ReplaceOnUse		=	HCPiepan,
 		IsCookable			=	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
@@ -57,6 +58,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 
 	item HCPieapple
@@ -79,6 +81,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 	item HCPieblueberrypan
@@ -91,6 +94,7 @@ item HCPiecrust
 		Icon				=	HCPieblueberry,
 		ReplaceOnUse		=	HCPiepan,
 		IsCookable			=	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
@@ -103,6 +107,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 
 	item HCPieblueberry
@@ -125,6 +130,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 	item HCPiepeachpan
@@ -137,6 +143,7 @@ item HCPiecrust
 		Icon				=	HCPiepeach,
 		ReplaceOnUse		=	HCPiepan,
 		IsCookable			=	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
@@ -149,6 +156,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 
 	item HCPiepeach
@@ -171,6 +179,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 	item HCPiepearpan
@@ -195,6 +204,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 
 	item HCPiepear
@@ -217,6 +227,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 	item HCPiepumpkinpan
@@ -229,6 +240,7 @@ item HCPiecrust
 		Icon				=	HCPiepumpkin,
 		ReplaceOnUse		=	HCPiepan,
 		IsCookable			=	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
@@ -241,6 +253,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 
 	item HCPiepumpkin
@@ -263,6 +276,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 	item HCPiecherrypan
@@ -275,6 +289,7 @@ item HCPiecrust
 		Icon				=	HCPiecherry,
 		ReplaceOnUse		=	HCPiepan,
 		IsCookable			=	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
@@ -287,6 +302,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 
 	item HCPiecherry
@@ -309,6 +325,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 	item HCPieblackberrypan
@@ -321,6 +338,7 @@ item HCPiecrust
 		Icon				=	HCPieblackberry,
 		ReplaceOnUse		=	HCPiepan,
 		IsCookable			=	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	60,
@@ -333,6 +351,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 
 	item HCPieblackberry
@@ -355,6 +374,7 @@ item HCPiecrust
 		Lipids 				= 	78,
 		Calories 			= 	1662,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 	item HCQuichepan
@@ -368,6 +388,7 @@ item HCPiecrust
 		ReplaceOnUse		=	HCPiepan,
 		DaysFresh			=	5,
 		IsCookable			=	TRUE,
+		BadInMicrowave 		= 	true,
 		DangerousUncooked	=	TRUE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	50,
@@ -379,6 +400,7 @@ item HCPiecrust
 		Lipids 				= 	64,
 		Calories 			= 	1561,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	PiePreparation,
 	}
 	
 	item HCQuiche
@@ -401,9 +423,32 @@ item HCPiecrust
 		Lipids 				= 	64,
 		Calories 			= 	1561,
 		DisplayCategory		=	FoodP,
+		WorldStaticModel 	= 	Pie,
 	}
 
 /************************RECIPES************************/
+
+recipe Slice Pie
+    {
+        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	PieWholeRaw,
+        	Result:Pie=5,
+        	Time:20.0,
+        	OnCreate:SlicePie_OnCreate,
+        	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Slice Cake
+    {
+        	keep KitchenKnife/HuntingKnife/HCSteakknife/FlintKnife/HCKnifesteel/HCKnifeiron,
+        	CakeRaw,
+        	Result:CakeSlice=5,
+        	Time:20.0,
+        	OnCreate:SlicePie_OnCreate,
+        	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    }
    
 recipe Make Pie Crust
 	{
@@ -566,7 +611,7 @@ recipe Make Pie Crust
 	{
 		HCPiecrust,
 		Cheese/HCCheddar,
-		[Recipe.GetItemTypes.Egg],
+		Egg/WildEggs/HCGooseegg/HCTurkeyegg/HCSparrowegg,
 		Chicken/Steak/Onion/Broccoli/Tomato/Leek/Ham,
 		Result:HCQuichepan,
 		Time:125.0,

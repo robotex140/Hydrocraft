@@ -10,7 +10,7 @@ module Hydrocraft
 
 item HCPear
 	{
-		HungerChange		=	-15,
+		HungerChange		=	-14,
 		Weight			=	0.2,
 		Type			=	Food,
 		DaysTotallyRotten	=	8,
@@ -18,49 +18,61 @@ item HCPear
 		Icon			=	HCPear,
 		DaysFresh		=	5,
 		FoodType    		=  	Fruits,
-		EvolvedRecipe 		= 	Salad:8;Cake:8,
+		EvolvedRecipe 		= 	Cake:8;FruitSalad:5;Pancakes:5;Waffles:4;Muffin:4;PieSweet:8;Oatmeal:4,
         	Carbohydrates 		= 	30,
         	Proteins		= 	0.8,
         	Lipids 			= 	0.2,
         	Calories 		= 	114,
+			ThirstChange 	= 	-4,
 		ReplaceOnUse		=	Hydrocraft.HCPearseeds,
 		DisplayCategory		=   FoodP,
+		CustomEatSound 		= 	EatingFruit,
+		StaticModel 		= 	RoundFood_Peach,
+		WorldStaticModel 	= 	Pear_Ground,
 	}
 
 item HCLime
 	{
-		HungerChange		=	-15,
+		HungerChange		=	-10,
 		Weight			=	0.2,
 		Type			=	Food,
 		DaysTotallyRotten	=	9,
 		DisplayName		=	Lime,
 		Icon			=	HCLime,
 		DaysFresh		=	7,
-		EvolvedRecipe 		= 	Cake:8,
-		FoodType    		=   	Fruits,
+		EvolvedRecipe 	= 	Cake:5;HotDrink:2;HotDrinkRed:2;HotDrinkWhite:2;HotDrinkSpiffo:2;HotDrinkTea:3;FruitSalad:3;PieSweet:4;Stir fry Griddle Pan:3;Stir fry:3;Soup:8;Beverage:2;Beverage2:2;Beer:2;Beer2,
+		Spice 			= true,
+		FoodType    		=   	Citrus,
         	Carbohydrates 		= 	22,
         	Proteins		= 	1.4,
         	Lipids 			= 	0.4,
         	Calories 		= 	60,
 		DisplayCategory		=   FoodP,
+		StaticModel 		= 	RoundFood_Green,
+		CustomEatSound 		= 	EatingFruit,
+		WorldStaticModel 	= 	Lime_Ground,
+		Tags = HerbalTea,
 	}
 
 item HCGrapesgreen
     	{
-        	HungerChange		=	-15,
+        	HungerChange		=	-14,
         	Weight			=	0.2,
         	Type			=	Food,
         	DaysTotallyRotten	=	8,
         	DisplayName		=	Green Grapes,
         	Icon			=	HCGrapesgreen,
         	DaysFresh		=	5,
-        	EvolvedRecipe 		= 	Cake:8,
+        	EvolvedRecipe 		= 	Cake:8;FruitSalad:8;Pancakes:8;Waffles:8;Muffin:6;Salad:4,
         	FoodType    		=   	Fruits,
+			ThirstChange 		= 	-3,
         	Carbohydrates 		= 	34,
         	Proteins		= 	1.2,
         	Lipids 			= 	0.8,
         	Calories 		= 	134,
 		DisplayCategory		=   FoodP,
+		CustomEatSound 		= 	EatingFruit,
+		WorldStaticModel 	= 	Grapes_Ground,
     	}
 
 item HCBunchofberries
@@ -69,17 +81,20 @@ item HCBunchofberries
 	BoredomChange			=	-10,
 	Weight				=	0.4,
 	Type				=	Food,
-	UnhappyChange			=	-15,
+	UnhappyChange		=		-15,
 	DisplayName			=	Bunch of Berries,
 	Icon				=	HCBunchofberries,
 	DaysFresh			=	1,
 	DaysTotallyRotten		=	2,
-        FoodType    			=   	Fruits,
-        Carbohydrates 			= 	30.8,
+        FoodType    		=   Fruits,
+		ThirstChange 		= 	-3,
+        Carbohydrates 		= 	30.8,
         Proteins			= 	12,
         Lipids 				= 	1.2,
         Calories 			= 	240,
 		DisplayCategory		=   FoodP,
+		CustomEatSound = EatingFruit,
+		WorldStaticModel = Grapes_Ground,
 	}
 
 item HCCactusfruit
@@ -92,6 +107,7 @@ item HCCactusfruit
 	DaysTotallyRotten 		=	20,
 	DisplayName			=	Cactus Fruit,
 	Icon	        		=	HCCactusfruit,
+	EvolvedRecipe 			= 	FruitSalad:9;Salad:5,
 	CustomContextMenu 		= 	Eat,
 	FoodType			=	Fruits,
         Carbohydrates 			= 	27,
@@ -99,6 +115,9 @@ item HCCactusfruit
         Lipids 				= 	5,
         Calories 			= 	167,
 	ReplaceOnUse			=	Hydrocraft.HCCactusseeds,
+		CustomEatSound 		= 	EatingFruit,
+		StaticModel 		= 	CylinderFood_Green,
+		WorldStaticModel 	= 	Broccoli_Ground,
 		DisplayCategory		=   FoodP,
 	}
 
@@ -119,11 +138,14 @@ item HCPricklypearfruit
         Lipids 				= 	1,
         Calories 			= 	42,
 	ReplaceOnUse			=	Hydrocraft.HCPricklypearseeds,
+		CustomEatSound 		= 	EatingFruit,
+		StaticModel 		= 	RoundFood_Red,
+		WorldStaticModel 	= 	Peach_Ground,
 	}
 
 item HCApricot
 	{
-		HungerChange		=	-15,
+		HungerChange		=	-13,
 		Weight			=	0.2,
 		Type			=	Food,
 		DaysTotallyRotten	=	8,
@@ -131,18 +153,21 @@ item HCApricot
 		Icon			=	HCApricot,
 		DaysFresh		=	5,
 		FoodType    		=  	Fruits,
-		EvolvedRecipe 		= 	Salad:8;Cake:8,
+		EvolvedRecipe 		= 	Salad:8;Cake:8;FruitSalad:8;Pancakes:4;Waffles:4;Muffin:4;PieSweet:6;Oatmeal:3,
         	Carbohydrates 		= 	18,
         	Proteins		= 	2.3,
         	Lipids 			= 	0.6,
         	Calories 		= 	79,
-		ReplaceOnUse		=	Hydrocraft.HCApricotseeds,
+	ReplaceOnUse		=	Hydrocraft.HCApricotseeds,
 		DisplayCategory		=   FoodP,
+		CustomEatSound 		= 	EatingFruit,
+		StaticModel 		= 	RoundFood_Peach,
+		WorldStaticModel 	= 	Peach_Ground,
 	}
 
 item HCDates
 	{
-		HungerChange		=	-15,
+		HungerChange		=	-16,
 		Weight			=	0.2,
 		Type			=	Food,
 		DaysTotallyRotten	=	8,
@@ -156,11 +181,14 @@ item HCDates
         	Lipids 			= 	0,
         	Calories 		= 	66,
 		DisplayCategory		=   FoodP,
+		CustomEatSound 		= 	EatingFruit,
+		StaticModel 		= 	RoundFood_Peach,
+		WorldStaticModel 	= 	BerryGeneric4,
 	}
 
 item HCFigs
 	{
-		HungerChange		=	-15,
+		HungerChange		=	-16,
 		Weight			=	0.2,
 		Type			=	Food,
 		DaysTotallyRotten	=	8,
@@ -168,17 +196,19 @@ item HCFigs
 		Icon			=	HCFigs,
 		DaysFresh		=	5,
 		FoodType    		=  	Fruits,
-		EvolvedRecipe 		= 	Salad:8;Cake:8,
+		EvolvedRecipe 		= 	Salad:7;Cake:7;Pancakes:3;Waffles:3;Muffin:2;PieSweet:5;Oatmeal:4,
         	Carbohydrates 		= 	12,
         	Proteins		= 	0,
         	Lipids 			= 	0,
         	Calories 		= 	47,
 		DisplayCategory		=   FoodP,
+		CustomEatSound 		= 	EatingFruit,
+		WorldStaticModel 	= 	BerryGeneric5,
 	}
 
 item HCKiwi
 	{
-		HungerChange		=	-15,
+		HungerChange		=	-14,
 		Weight			=	0.2,
 		Type			=	Food,
 		DaysTotallyRotten	=	8,
@@ -186,17 +216,20 @@ item HCKiwi
 		Icon			=	HCKiwi,
 		DaysFresh		=	5,
 		FoodType    		=  	Fruits,
-		EvolvedRecipe 		= 	Salad:8;Cake:8,
+		EvolvedRecipe 		= 	Salad:6;Cake:6;FruitSalad:7;Muffin:2;PieSweet:6;Oatmeal:4,
         	Carbohydrates 		= 	21,
         	Proteins		= 	2,
         	Lipids 			= 	1,
         	Calories 		= 	85,
 		DisplayCategory		=   FoodP,
+		StaticModel 		= 	RoundFood_Green,
+		CustomEatSound 		= 	EatingFruit,
+		WorldStaticModel 	= 	BerryGeneric4,
 	}
 
 item HCPlum
 	{
-		HungerChange		=	-15,
+		HungerChange		=	-13,
 		Weight			=	0.2,
 		Type			=	Food,
 		DaysTotallyRotten	=	8,
@@ -204,12 +237,15 @@ item HCPlum
 		Icon			=	HCPlum,
 		DaysFresh		=	5,
 		FoodType    		=  	Fruits,
-		EvolvedRecipe 		= 	Salad:8;Cake:8,
+		EvolvedRecipe 		= 	Salad:6;Cake:6;FruitSalad:8;Muffin:3;PieSweet:4;Oatmeal:3,
         	Carbohydrates 		= 	16,
         	Proteins		= 	0,
         	Lipids 			= 	0,
         	Calories 		= 	70,
 		DisplayCategory		=   FoodP,
+		CustomEatSound 		= 	EatingFruit,
+		StaticModel 		= 	RoundFood_Red,
+		WorldStaticModel 	= 	Apple_Ground,
 	}
 
 item HCPersimmon
@@ -222,12 +258,15 @@ item HCPersimmon
 		Icon			=	HCPersimmon,
 		DaysFresh		=	5,
 		FoodType    		=  	Fruits,
-		EvolvedRecipe 		= 	Salad:8;Cake:8,
+		EvolvedRecipe 		= 	Salad:6;Cake:8;FruitSalad:10;Muffin:5;PieSweet:5;Oatmeal:4,
         	Carbohydrates 		= 	0,
         	Proteins		= 	0,
         	Lipids 			= 	0,
         	Calories 		= 	360,
 		DisplayCategory		=   FoodP,
+		CustomEatSound 		= 	EatingFruit,
+		StaticModel 		= 	RoundFood_Peach,
+		WorldStaticModel 	= 	Peach_Ground,
 	}
 
 /************************RECIPES************************/
