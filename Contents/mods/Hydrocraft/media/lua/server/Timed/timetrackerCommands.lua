@@ -79,4 +79,4 @@ local function OnClientCommand(module, command, player, args)
     end
 end
 
-Events.OnClientCommand.Add(OnClientCommand)
+--Events.OnClientCommand.Add(OnClientCommand)
