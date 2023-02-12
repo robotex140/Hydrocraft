@@ -107,10 +107,10 @@ function OnTestHasfourBerries(selectedBerry)
 	local books = player:getAlreadyReadBook()
 	local traits = player:getTraits()
 	
-	local hebalist = false
+	local herbalist = false
 	
 	if(books:contains("Base.HerbalistMag") or traits:contains("Herbalist")) then
-		hebalist = true
+		herbalist = true
 	end
 
 	local berryCount = 0
