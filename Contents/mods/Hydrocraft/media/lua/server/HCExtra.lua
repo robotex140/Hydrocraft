@@ -869,26 +869,29 @@ function recipe_hcdismantleteslamachine(items, result, player)
 	inv:AddItems("Base.SheetMetal", 2)
 end
 
-function recipe_hcdismantlecopymachine(items, result, player)  
-    HCAddManySameItem("Hydrocraft.HCLedblue", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedyellow,", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-    HCAddManySameItem("Hydrocraft.HCCablecopper,", 3, player);
-    HCAddManySameItem("Hydrocraft.HCElectromotor,", 0, player);
-    HCAddManySameItem("Hydrocraft.HCCircutchip,", 1, player);
-    HCAddManySameItem("Hydrocraft.HCPlasticscrap,", 29, player);
-    HCAddManySameItem("Hydrocraft.HCCoppercablered,", 0, player);
-    HCAddManySameItem("Hydrocraft.HCColoredwire,", 0, player);
-    HCAddManySameItem("Hydrocraft.HCTransistor", 1, player);
-    HCAddManySameItem("Hydrocraft.HCIREncoder", 0, player);
-	HCAddManySameItem("Hydrocraft.HCIREmitter", 0, player);
-	HCAddManySameItem("Hydrocraft.HCIRReceiver", 0, player);
-    HCAddManySameItem("Hydrocraft.HCReceiverIC", 0, player);
-    HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
-    HCAddManySameItem("Hydrocraft.HCCapacitor02", 1, player);
-    HCAddManySameItem("Hydrocraft.HCDiode", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLDR", 0, player);
+function recipe_hcdismantlecopymachine(items, result, player)
+	local inv = player:getInventory()
+    inv:AddItem("Hydrocraft.HCLedblue")
+    inv:AddItem("Hydrocraft.HCLedyellow")
+    inv:AddItem("Hydrocraft.HCLedred")
+    inv:AddItem("Hydrocraft.HCLedgreen")
+	inv:AddItem("Hydrocraft.HCElectromotor")
+    inv:AddItem("Hydrocraft.HCIREncoder")
+	inv:AddItem("Hydrocraft.HCIREmitter")
+	inv:AddItem("Hydrocraft.HCIRReceiver")
+    inv:AddItem("Hydrocraft.HCReceiverIC")
+	inv:AddItem("Hydrocraft.HCLDR")
+    inv:AddItem("Hydrocraft.HCCoppercablered")
+	inv:AddItem("Hydrocraft.HCColoredwire")
+	
+	inv:AddItems("Hydrocraft.HCCablecopper", 4)
+	inv:AddItems("Hydrocraft.HCCircutchip", 2)
+	inv:AddItems("Hydrocraft.HCPlasticscrap", 30)
+	inv:AddItems("Hydrocraft.HCTransistor", 2)
+	inv:AddItems("Hydrocraft.HCResistor", 2)
+	inv:AddItems("Hydrocraft.HCCapacitor02", 2)
+	inv:AddItems("Hydrocraft.HCDiode", 4)
+
 end
 
 function recipe_hcdismantlepallettruck(items, result, player)
@@ -998,12 +1001,13 @@ end
 -- Barrels
 
 function recipe_hcgetemptygasolinebarrel(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCGasolinebarrelempty");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCGasolinebarrelempty")
 end
 
 function recipe_hcgetpetrolcan(items, result, player)
-	HCAddManySameItem("Base.PetrolCan", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.PetrolCan")
 end 
 
 -- Explosives Stuff
