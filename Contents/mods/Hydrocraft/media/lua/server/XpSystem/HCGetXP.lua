@@ -7,11 +7,6 @@ function MakeEphedrin_OnGiveXP(recipe, ingredients, result, player)
 	-- player:getStats():setHunger(player:getStats():getHunger()+0.01)	
 end
 
-function BBBuildBatpack_OnGiveXP(recipe, ingredients, result, player)
-    player:getXp():AddXP(Perks.Electricity, 2);
-	-- player:getStats():setHunger(player:getStats():getHunger()+0.01)	
-end
-
 function Healdog_OnGiveXP(recipe, ingredients, result, player)
     player:getXp():AddXP(Perks.Doctor, 2);
 	-- player:getStats():setHunger(player:getStats():getHunger()+0.01)	
