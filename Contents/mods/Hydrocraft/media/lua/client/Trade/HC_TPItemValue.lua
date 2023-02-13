@@ -3675,7 +3675,6 @@ ItemValueTable["Hydrocraft.HCStuffedbellpepperyellowcooked"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCStylingfoam"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSugarcubes"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSugarempty"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCSuicidenote"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSuitcase"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSulfuricacidbarrelblueempty"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSulfuricacidbarrelbluefull"] = 0.00 ;
