@@ -1,10 +1,5 @@
 require "XpSystem/XpUpdate";
 
-function HCNoExpGain(recipe, ingredients, result, player)
-	-- Intentionally does nothing.
-	-- player:getStats():setHunger(player:getStats():getHunger()+0.01)		
-end
-
 function HCOneExpGain(recipe, ingredients, result, player)
 	player:getXp():AddXP(Perks.Woodwork, 1);
 	-- player:getStats():setHunger(player:getStats():getHunger()+0.01)		

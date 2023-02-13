@@ -242,7 +242,7 @@ recipe Make Bunch of Berries
 		Time:75.0,
 		Category:Cooking,
 		OnCreate:MakeBunchOfBerries,
-       	OnGiveXP:HCNoExpGain,
+       	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 	
 }

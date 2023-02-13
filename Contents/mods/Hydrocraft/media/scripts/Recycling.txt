@@ -148,7 +148,7 @@ recipe Recycle Wooden Crate
     	Result:Plank=2,
     	Time:100,
     	Category:Carpentry,
-	OnGiveXP:HCNoExpGain,
+	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Pillow

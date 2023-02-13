@@ -706,7 +706,7 @@ recipe Pour Out Milk
     Result:HCMilkempty,
     Time:10.0,
     Category:Cooking,
-    OnGiveXP:HCNoExpGain,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

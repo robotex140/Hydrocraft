@@ -1541,7 +1541,7 @@ recipe Make Wooden Crate
         Sound:PZ_Hammer,
         Time:50,
         Category:Carpentry,
-        OnGiveXP:HCNoExpGain,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Wardrobe
@@ -1589,7 +1589,7 @@ recipe Pack Lumber Stack
         Time:40.0,
         CanBeDoneFromFloor:true,
         Category:Carpentry,
-		OnGiveXP:HCNoExpGain,
+		OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Unpack Lumber Stack
@@ -1600,7 +1600,7 @@ recipe Unpack Lumber Stack
         CanBeDoneFromFloor:true,
         Category:Carpentry,
         OnCreate:recipe_hcrope,
-        OnGiveXP:HCNoExpGain,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Pack Pallet of Lumber

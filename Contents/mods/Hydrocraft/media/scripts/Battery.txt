@@ -308,7 +308,7 @@ recipe Recharge Battery
 	Result:Battery,
 	Time:100.0,
     Category:Electrical,
-    OnGiveXP:HCNoExpGain,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recharge 9 Volt Battery
