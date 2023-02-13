@@ -283,7 +283,7 @@ recipe Chip Stone
         Result:SharpedStone,
         Time:15,
         Category:Stoneworking,
-        OnGiveXP:HCNoXp_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 

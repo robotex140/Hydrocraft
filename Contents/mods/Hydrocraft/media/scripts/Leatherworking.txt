@@ -1189,7 +1189,7 @@ recipe Skin Corpse
 	Time:50,
     	Category:Hunting,
 	OnCreate:recipe_hcskinzed,
-    	OnGiveXP:HCNoXp_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Drying Frame

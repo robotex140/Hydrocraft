@@ -1685,7 +1685,7 @@ recipe Pour Out Spice Jar
 		Result:HCSpicejar,
 		Time:20,
 	   	Category:Cooking,
-       	OnGiveXP:HCNoXp_OnGiveXP,
+       	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 	

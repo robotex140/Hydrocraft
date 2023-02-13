@@ -164,7 +164,7 @@ recipe Alter Doorknob to Match Key
 	OnCreate:matchDoorknobtoKey,
     	Time:500.0,
     	Category:Locksmithing,
-    	OnGiveXP:HCNoXp_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Alter Key to Match Doorknob
@@ -177,7 +177,7 @@ recipe Alter Key to Match Doorknob
 	OnCreate:matchKeytoDoorknob,
     	Time:500.0,
     	Category:Locksmithing,
-    	OnGiveXP:HCNoXp_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 	
 recipe Lock Safe

@@ -174,7 +174,7 @@ recipe Label Agar Jar
         Result:HCAgarempty,
         Time:200,
         Category:Chemistry,
-        OnGiveXP:HCNoXp_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
         }
 
 recipe Make Homemade Agar

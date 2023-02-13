@@ -285,7 +285,7 @@ recipe Tape Hedgetrimmer Blade
 	   	Result:Machete,
 	   	Time:150.0,
        	Category:Survivalist,
-    	OnGiveXP:HCNoXp_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 
