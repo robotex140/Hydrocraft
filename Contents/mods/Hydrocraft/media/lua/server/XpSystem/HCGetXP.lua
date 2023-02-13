@@ -1,10 +1,5 @@
 require "XpSystem/XpUpdate";
 
-function HCOneExpGain(recipe, ingredients, result, player)
-	player:getXp():AddXP(Perks.Woodwork, 1);
-	-- player:getStats():setHunger(player:getStats():getHunger()+0.01)		
-end
-
 --Get XP Specific
 
 function MakeEphedrin_OnGiveXP(recipe, ingredients, result, player)
