@@ -895,86 +895,99 @@ function recipe_hcdismantlecopymachine(items, result, player)
 end
 
 function recipe_hcdismantlepallettruck(items, result, player)
-    HCAddManySameItem("Base.MetalBar", 3, player);
-    HCAddManySameItem("Hydrocraft.HCMetalwheel", 2, player);
-    HCAddManySameItem("Hydrocraft.HCRubberscrap", 5, player);
-    HCAddManySameItem("Hydrocraft.HCSteelsheet", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.MetalBar", 4)
+	inv:AddItems("Hydrocraft.HCMetalwheel", 3)
+	inv:AddItems("Hydrocraft.HCRubberscrap", 6)
+	inv:AddItems("Hydrocraft.HCSteelsheet", 2)
 end
 
 function recipe_hcdismantletoywagon(items, result, player)
-    HCAddManySameItem("Base.MetalBar", 3, player);
-    HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
-    HCAddManySameItem("Hydrocraft.HCRubberscrap", 7, player);
-    HCAddManySameItem("Hydrocraft.HCSteelsheet", 3, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.MetalBar", 4)
+	inv:AddItems("Hydrocraft.HCMetalwheel", 4)
+	inv:AddItems("Hydrocraft.HCRubberscrap", 8)
+	inv:AddItems("Hydrocraft.HCSteelsheet", 4)
 end
 
 function recipe_hcdismantlehanddolly(items, result, player)
-    HCAddManySameItem("Base.MetalBar", 9, player);
-    HCAddManySameItem("Hydrocraft.HCMetalwheel", 1, player);
-    HCAddManySameItem("Hydrocraft.HCRubberscrap", 3, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.MetalBar", 10)
+	inv:AddItems("Base.HCMetalwheel", 2)
+	inv:AddItems("Hydrocraft.HCRubberscrap", 4)
 end
 
 function recipe_hcdismantlepushcart(items, result, player)
-    HCAddManySameItem("Base.MetalBar", 3, player);
-    HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
-    HCAddManySameItem("Hydrocraft.HCRubberscrap", 7, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.MetalBar", 4)
+	inv:AddItems("Base.HCMetalwheel", 4)
+	inv:AddItems("Hydrocraft.HCRubberscrap", 8)
 end
 
 function recipe_hcdismantlebedsprings(items, result, player)
-    HCAddManySameItem("Base.MetalBar", 3, player);
-    HCAddManySameItem("Hydrocraft.HCAluminumscrap",19, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.MetalBar", 4)
+	inv:AddItems("Hydrocraft.HCAluminumscrap", 20)
 end
 
 function recipe_hcdismantleglovebox(items, result, player)
-    HCAddManySameItem("Base.Sheetmetal", 8, player);
-    HCAddManySameItem("Hydrocraft.HCPlasticscrap", 7, player);
-    HCAddManySameItem("Hydrocraft.HCRubberglove", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedred", 1, player);
-    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-    HCAddManySameItem("Hydrocraft.HCCablecopper,", 2, player);
-    HCAddManySameItem("Hydrocraft.HCCircutchip,", 1, player);
-    HCAddManySameItem("Hydrocraft.HCColoredwire,", 1, player);
-    HCAddManySameItem("Hydrocraft.HCTransistor", 1, player);
-    HCAddManySameItem("Hydrocraft.HCIREncoder", 0, player);
-	HCAddManySameItem("Hydrocraft.HCIREmitter", 0, player);
-	HCAddManySameItem("Hydrocraft.HCIRReceiver", 0, player);
-    HCAddManySameItem("Hydrocraft.HCReceiverIC", 0, player);
-    HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
-    HCAddManySameItem("Hydrocraft.HCCapacitor02", 1, player);
-    HCAddManySameItem("Hydrocraft.HCDiode", 1, player);
-	HCAddManySameItem("Hydrocraft.HCLDR", 0, player);
-    HCAddManySameItem("Base.SmallSheetMetal", 5, player);
-    HCAddManySameItem("Base.MetalPipe", 0, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.Sheetmetal", 9)
+	inv:AddItems("Hydrocraft.HCPlasticscrap", 8)
+	inv:AddItems("Hydrocraft.HCLedred", 2)
+	inv:AddItems("Hydrocraft.HCCablecopper", 3)
+	inv:AddItems("Hydrocraft.HCCircutchip", 2)
+	inv:AddItems("Hydrocraft.HCColoredwire", 2)
+	inv:AddItems("Hydrocraft.HCTransistor", 2)
+	inv:AddItems("Hydrocraft.HCResistor", 2)
+	inv:AddItems("Hydrocraft.HCCapacitor02", 2)
+	inv:AddItems("Hydrocraft.HCDiode", 2)
+	inv:AddItems("Base.SmallSheetMetal", 6)
+
+    inv:AddItem("Hydrocraft.HCRubberglove")
+    inv:AddItem("Hydrocraft.HCLedgreen")
+    inv:AddItem("Hydrocraft.HCIREncoder")
+	inv:AddItem("Hydrocraft.HCIREmitter")
+	inv:AddItem("Hydrocraft.HCIRReceiver")
+    inv:AddItem("Hydrocraft.HCReceiverIC")
+	inv:AddItem("Hydrocraft.HCLDR")
+    inv:AddItem("Base.MetalPipe")
 end
 
 function recipe_hcdismantlebrokenradiator(items, result, player)
-    HCAddManySameItem("Hydrocraft.HCBrassscrap", 3, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCBrassscrap", 4)
 end
 
 function recipe_hcdismantlelawnmower(items, result, player)
-    HCAddManySameItem("Hydrocraft.HCSawcircularblade", 0, player);
-    HCAddManySameItem("Hydrocraft.HCPlasticscrap", 5, player);
-    HCAddManySameItem("Base.EngineParts", 9, player);
-    HCAddManySameItem("Hydrocraft.HCCablecopper,", 0, player);
-    HCAddManySameItem("Base.MetalBar,", 7, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCPlasticscrap", 6)
+	inv:AddItems("Base.EngineParts", 10)
+	inv:AddItems("Base.MetalBar", 8)
+
+    inv:AddItem("Hydrocraft.HCSawcircularblade")
+    inv:AddItem("Hydrocraft.HCCablecopper,")
 end
 
 function recipe_hcdismantleprojector(items, result, player)
-    HCAddManySameItem("Hydrocraft.HCIREncoder", 0, player);
-	HCAddManySameItem("Hydrocraft.HCIREmitter", 0, player);
-    HCAddManySameItem("Hydrocraft.HCIRReceiver", 0, player);
-    HCAddManySameItem("Hydrocraft.HCElectromotor,", 0, player);
-    HCAddManySameItem("Hydrocraft.HCReceiverIC", 0, player);
-    HCAddManySameItem("Hydrocraft.HCCircutchip,", 1, player);
-    HCAddManySameItem("Hydrocraft.HCCablecopper,", 3, player);
-    HCAddManySameItem("Hydrocraft.HCCapacitor02", 1, player);
-    HCAddManySameItem("Hydrocraft.HCDiode", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLDR", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 2, player);
-    HCAddManySameItem("Base.MetalBar", 3, player);
-    HCAddManySameItem("Base.Sheetmetal", 11, player);
-    HCAddManySameItem("Base.SmallSheetMetal", 3, player);
-end
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCCircutchip", 2)
+	inv:AddItems("Hydrocraft.HCCablecopper", 4)
+	inv:AddItems("Hydrocraft.HCCapacitor02", 2)
+	inv:AddItems("Hydrocraft.HCDiode", 4)
+	inv:AddItems("Hydrocraft.HCLargesheetmetal", 3)
+    inv:AddItems("Base.MetalBar", 4)
+    inv:AddItems("Base.Sheetmetal", 12)
+    inv:AddItems("Base.SmallSheetMetal", 4)
+
+    inv:AddItem("Hydrocraft.HCIREncoder")
+	inv:AddItem("Hydrocraft.HCIREmitter")
+    inv:AddItem("Hydrocraft.HCIRReceiver")
+    inv:AddItem("Hydrocraft.HCElectromotor")
+    inv:AddItem("Hydrocraft.HCReceiverIC")
+	inv:AddItem("Hydrocraft.HCLDR")
+end	
+
 
 --Battery Stuff
 
@@ -1137,8 +1150,9 @@ function recipe_hcgetglassbaloon(items, result, player)
 end
 
 function recipe_hcgetbaloonandhose(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGlassbaloonconnector", 0, player);
-	HCAddManySameItem("Hydrocraft.HCRubberhose", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCGlassbaloonconnector")
+	inv:AddItem("Hydrocraft.HCRubberhose")
 end 
 
 function recipe_hcgetbeaker(items, result, player)
@@ -1173,12 +1187,14 @@ function recipe_hcringstand(items, result, player)
 end
 
 function recipe_hccentifugemarble(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCalcitepowder", 6, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCCalcitepowder", 7)
 end 
 
 function recipe_hcelectrolyzerobsidian(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCMagnesiumpowder", 0, player);
-	HCAddManySameItem("Hydrocraft.HCSiliconpowder", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCMagnesiumpowder")
+	inv:AddItems("Hydrocraft.HCSiliconpowder", 2)
 end 
 
 --Animal Stuff
@@ -1283,54 +1299,62 @@ function recipe_hccowmilk(items, result, player)
 end
 
 function recipe_hcdonkeybreeding(items, result, player)
-        local inv = player:getInventory();
-        inv:AddItem("Hydrocraft.HCDonkeymaletired");
-        inv:AddItem("Hydrocraft.HCDonkeyfemaletired");
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCDonkeymaletired");
+	inv:AddItem("Hydrocraft.HCDonkeyfemaletired");
 end
 
 function recipe_hchorsebreeding(items, result, player)
-        local inv = player:getInventory();
-        inv:AddItem("Hydrocraft.HCHorsemaletired");
-        inv:AddItem("Hydrocraft.HCHorsefemaletired");
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCHorsemaletired");
+	inv:AddItem("Hydrocraft.HCHorsefemaletired");
 end
 
 function recipe_hcchickencoop(items, result, player)
-        local inv = player:getInventory();
-        inv:AddItem("Hydrocraft.HCCooptired");
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCCooptired");
 end
 
 --Seeds Stuff
 
 function recipe_hcpumpkinseeds8(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCTPumpkinseeds", 7, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCPumpkinseeds", 8)
 end 
 
 function recipe_hcteaseeds2(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCTeaseeds", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCTeaseeds", 2)
 end 
 
 function recipe_hccottonseeds(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCottonseeds", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCCottonseeds")
 end 
 
 function recipe_hchempseeds2(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCHempseeds", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCHempseeds", 2)
 end 
 
 function recipe_hctobaccoseeds2(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCTobaccoseeds", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCTobaccoseeds", 2)
 end 
 
 function recipe_hcjuteseeds2(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCJuteseeds", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCJuteseeds", 2)
 end
 
 function recipe_hcmulberryleaves(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCMulberryleaf", 4, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCMulberryleaf", 5)
 end 
 
 function recipe_hcgrapeleaves(items, result, player)
-	HCAddManySameItem("Base.GrapeLeaves", 4, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.GrapeLeaves", 5)
 end 
 
 --Herbalism Stuff
@@ -1357,42 +1381,46 @@ function recipe_hcchaff(items, result, player)
 end
 
 function recipe_hcchaff2(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCChaff", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCChaff", 2)
 end 
 
 function recipe_hcchaffbran(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCChaff", 1, player);
-	HCAddManySameItem("Hydrocraft.HCBran", 1, player);	
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCChaff", 2)
+	inv:AddItems("Hydrocraft.HCBran", 2)
 end 
 
 
 function recipe_hcstraw(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCStraw", 5, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCStraw", 6)
 end 
 
 
 function recipe_hccob(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCob", 0, player);
-	HCAddManySameItem("Hydrocraft.HCHusk", 0, player);	
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCCob")
+	inv:AddItem("Hydrocraft.HCHusk")	
 end 
 
 --Open Cigarette Packs
 function recipe_opencigpack1(items, result, player)
-	HCAddManySameItem("Base.Cigarettes", 0, player);
+	player:getInventory():AddItem("Base.Cigarettes")
 end
 
 function recipe_opencigpack2(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCigaretteslights", 0, player);
+	player:getInventory():AddItem("Hydrocraft.HCCigaretteslights")
 end
 
 function recipe_opencigpack3(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCigarettesmenthol", 0, player);
+	player:getInventory():AddItem("Hydrocraft.HCCigarettesmenthol")
 end
 
 --Beekeeping Stuff
 
 function recipe_hcbeeswax(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCBeeswax", 3, player);
+	player:getInventory():AddItems("Hydrocraft.HCBeeswax", 4)
 end 
 
 function isWinter()
@@ -1457,17 +1485,17 @@ function recipe_hcbeehive3(items, result, player)
 end
 
 function HCHoneycomb12(items, result, player)
-	local inv = player:getInventory();
-	HCAddManySameItem("Hydrocraft.HCHoneycomb",12,player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCHoneycomb", 12)
 end
 
 --Cheese Stuff
 
 function recipe_Process_RWAX(items, result, player)
-        local inv = player:getInventory();
-        inv:AddItem("Hydrocraft.HCCheesecloth");
-        inv:AddItem("Base.Pot");
-        inv:AddItem("Base.Stone");
+	local inv = player:getInventory();
+	inv:AddItem("Hydrocraft.HCCheesecloth");
+	inv:AddItem("Base.Pot");
+	inv:AddItem("Base.Stone");
 end
 
 function recipe_hccheesetray(items, result, player)
@@ -1491,45 +1519,49 @@ end
 
 -- Methanol
 function recipe_getMethanol(items, result, player)
-	local inv = player:getInventory();
-	HCAddManySameItem("Hydrocraft.HCMethanol",4,player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCMethanol", 5)
 end
 
 
 --Seafood Stuff
 
 function recipe_hcgivemusselshell(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCMusselshell");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCMusselshell")
 end
 
 --Chicken Ramen
 function recipe_openchickenramen(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCRamenchickenflavor", 0, player);
-	HCAddManySameItem("Hydrocraft.HCRamenchickentrash", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCRamenchickenflavor")
+	inv:AddItem("Hydrocraft.HCRamenchickentrash")
 end
 
 --Beef Ramen
 function recipe_openbeeframen(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCRamenbeefflavor", 0, player);
-	HCAddManySameItem("Hydrocraft.HCRamenbeeftrash", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCRamenbeefflavor")
+	inv:AddItem("Hydrocraft.HCRamenbeeftrash")
 end
 
 --Shrimp Ramen
 function recipe_openshrimpramen(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCRamenshrimpflavor", 0, player);
-	HCAddManySameItem("Hydrocraft.HCRamenshrimptrash", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCRamenshrimpflavor")
+	inv:AddItem("Hydrocraft.HCRamenshrimptrash")
 end
 
 --Cheese Ramen
 function recipe_opencheeseramen(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCRamencheeseflavor", 0, player);
-	HCAddManySameItem("Hydrocraft.HCRamencheesetrash", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCRamencheeseflavor")
+	inv:AddItem("Hydrocraft.HCRamencheesetrash")
 end
 
 --Unbox Flat of Ramen
 function recipe_unboxramenflat(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCardboardflat", 0, player);
+	player:getInventory():AddItem("Hydrocraft.HCCardboardflat")
 end
 
 --pickling
@@ -1591,51 +1623,51 @@ function recipe_hcjar(items, result, player)
 end
 
 function recipe_hcjar(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCJar");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCJar")
 end
 
 function recipe_hcporcelainsaucer(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCPorcelainsaucer");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCPorcelainsaucer")
 end
 
 function recipe_hcjar5(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCJar", 4, player);
+	player:getInventory():AddItems("Hydrocraft.HCJar", 5)
 end 
 
 function recipe_hcfortune(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCFortune");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCFortune")
 end
 
 function recipe_hcjarlid(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Base.JarLid");
+	local inv = player:getInventory()
+	inv:AddItem("Base.JarLid")
 end
 
 function recipe_hcpizzastone(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCPizzastone");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCPizzastone")
 end
 
 function recipe_hcacornsoaked(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCAcornsoaked");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCAcornsoaked")
 end
 
 function recipe_hcsourdough(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCSourdoughstarterdepleted");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCSourdoughstarterdepleted")
 end
 
 function recipe_hcpot(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Base.Pot");
+	local inv = player:getInventory()
+	inv:AddItem("Base.Pot")
 end
 
 function recipe_hcpotatopot3(items, result, player)
-	HCAddManySameItem("Base.Pot", 2, player);
+	player:getInventory():AddItems("Base.Pot", 3)
 end
 
 function recipe_hclargetuplid(items, result, player)
@@ -1666,40 +1698,37 @@ function recipe_hcrope(items, result, player)
 end 
 
 function recipe_hcropethick(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCRopethick");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCRopethick")
 end 
 
 --Pack Animal Stuff
 
 function HCRemoveDogPack(items, result, player)
-	HCEmptyContainerOnRecipe(items, result, player);
-	HCAddManySameItem("Base.Rope", 0, player);
-	HCAddManySameItem("Base.Bag_SurvivorBag", 1, player);	
-	--AiweLeliaThamm Сохранение голода животного
-	--recipe_saveOldTimingState(items, result, player)
+	HCEmptyContainerOnRecipe(items, result, player)
+	local inv = player:getInventory()
+	inv:AddItem("Base.Rope")
+	inv:AddItems("Base.Bag_SurvivorBag", 2)
 end
 
 
 function HCRemoveDonkeyPack(items, result, player)
-	HCEmptyContainerOnRecipe(items, result, player);
-	HCAddManySameItem("Base.Rope", 0, player);
-	HCAddManySameItem("Hydrocraft.HCAlicepack3", 1, player);
-	--AiweLeliaThamm Сохранение голода животного
-	--recipe_saveOldTimingState(items, result, player)
+	HCEmptyContainerOnRecipe(items, result, player)
+	local inv = player:getInventory()
+	inv:AddItem("Base.Rope")
+	inv:AddItems("Hydrocraft.HCAlicepack3", 2)	
 end 
 
 function HCRemoveHorseSaddle(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCHorsesaddle", 0, player);
-	--AiweLeliaThamm Сохранение голода животного
-	--recipe_saveOldTimingState(items, result, player)
+	player:getInventory():AddItem("Hydrocraft.HCHorsesaddle")
 end 
 
 --Bike Stuff
 
 function HCRemoveBikeBaskets(items, result, player)
-	HCAddManySameItem("Base.Rope", 0, player);
-	HCAddManySameItem("Hydrocraft.HCStrawbasket", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Base.Rope")
+	inv:AddItems("Hydrocraft.HCStrawbasket", 2)
 end 
 
 --Telescope Stuff
