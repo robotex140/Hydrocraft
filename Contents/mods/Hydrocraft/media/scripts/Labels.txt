@@ -127,7 +127,7 @@ recipe Make Label
     	Result:HCLabelempty,
     	Time:500,
     	Category:Papercraft,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Ammonia
@@ -139,7 +139,7 @@ recipe Make Label For Ammonia
     	Result:HCLabelammonia,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Liquid Soap
@@ -150,7 +150,7 @@ recipe Make Label For Liquid Soap
     	Result:HCLabeldetergent,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Methylamin
@@ -162,7 +162,7 @@ recipe Make Label For Methylamin
     	Result:HCLabelmethylamin,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Hydrogen Peroxide
@@ -174,7 +174,7 @@ recipe Make Label For Hydrogen Peroxide
     	Result:HCLabelh2o2,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Phenylacetic Acid
@@ -186,7 +186,7 @@ recipe Make Label For Phenylacetic Acid
     	Result:HCLabelphenylaceticacid,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Insecticide
@@ -198,7 +198,7 @@ recipe Make Label For Insecticide
     	Result:HCLabelpoison,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Sulfuric Acid
@@ -210,7 +210,7 @@ recipe Make Label For Sulfuric Acid
     	Result:HCLabelsulfuricacid,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Homemade Ether
@@ -221,7 +221,7 @@ recipe Make Label For Homemade Ether
     	Result:HCLabelselfmadeether,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -233,7 +233,7 @@ recipe Make Label For Agar
         Result:HCLabelAgar,
         Time:250,
         Category:Chemistry,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -246,7 +246,7 @@ recipe Make Label For Gasoline
     	Result:HCLabelgasoline,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Label For Potassium Permanganate
@@ -257,7 +257,7 @@ recipe Make Label For Potassium Permanganate
     	Result:HCLabelpotassiumpermanganate,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Can With Ammonia Label
@@ -267,7 +267,7 @@ recipe Label Empty Can With Ammonia Label
     	Result:HCAmmoniacanempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Can With Ammonia Label
@@ -277,7 +277,7 @@ recipe Label Full Can With Ammonia Label
     	Result:HCAmmoniacanfull,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Metal Barrel With Ammonia Label
@@ -287,7 +287,7 @@ recipe Label Empty Metal Barrel With Ammonia Label
     	Result:HCAmmoniabarrelempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Ammonia Barrel With Ammonia Label
@@ -297,7 +297,7 @@ recipe Label Full Ammonia Barrel With Ammonia Label
     	Result:HCAmmoniabarrelfull,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Blue Barrel With Ammonia Label
@@ -307,7 +307,7 @@ recipe Label Empty Blue Barrel With Ammonia Label
     	Result:HCAmmoniabarrelblueempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Can With Liquid Soap Label
@@ -317,7 +317,7 @@ recipe Label Empty Can With Liquid Soap Label
     	Result:HCDetergentempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Can With Liquid Soap Label
@@ -327,7 +327,7 @@ recipe Label Full Can With Liquid Soap Label
     	Result:HCDetergent,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -338,7 +338,7 @@ recipe Label Empty Metal Barrel With Methylamin Label
     	Result:HCMethylaminbarrelempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Methylamin Barrel With Methylamin Label
@@ -348,7 +348,7 @@ recipe Label Full Methylamin Barrel With Methylamin Label
     	Result:HCMethylaminbarrelfull,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Blue Barrel With Methylamin Label
@@ -358,7 +358,7 @@ recipe Label Empty Blue Barrel With Methylamin Label
     	Result:HCMethylaminbarrelblueempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Can With Hydrogen Peroxide Label
@@ -368,7 +368,7 @@ recipe Label Empty Can With Hydrogen Peroxide Label
     	Result:HCh2o2canempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Can With Hydrogen Peroxide Label
@@ -378,7 +378,7 @@ recipe Label Full Can With Hydrogen Peroxide Label
     	Result:HCh2o2can,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Metal Barrel With Phenylacetic Acid Label
@@ -388,7 +388,7 @@ recipe Label Empty Metal Barrel With Phenylacetic Acid Label
     	Result:HCPhenylbarrelempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Metal Barrel With Phenylacetic Acid Label
@@ -398,7 +398,7 @@ recipe Label Full Metal Barrel With Phenylacetic Acid Label
     	Result:HCPhenylbarrelfull,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Blue Barrel With Phenylacetic Acid Label
@@ -408,7 +408,7 @@ recipe Label Empty Blue Barrel With Phenylacetic Acid Label
     	Result:HCPhenylbarrelblueempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Can With Insecticide Label
@@ -418,7 +418,7 @@ recipe Label Empty Can With Insecticide Label
     	Result:HCPoisonempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Can With Insecticide Label
@@ -428,7 +428,7 @@ recipe Label Full Can With Insecticide Label
     	Result:HCPoison,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Can With Sulfuric Acid Label
@@ -438,7 +438,7 @@ recipe Label Empty Can With Sulfuric Acid Label
     	Result:HCSulfuricacidcanempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Can With Sulfuric Acid Label
@@ -448,7 +448,7 @@ recipe Label Full Can With Sulfuric Acid Label
     	Result:HCSulfuricacidcan,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Metal Barrel With Sulfuric Acid Label
@@ -458,7 +458,7 @@ recipe Label Empty Metal Barrel With Sulfuric Acid Label
     	Result:HCSulfuricacidbarrelempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Metal Barrel With Sulfuric Acid Label
@@ -468,7 +468,7 @@ recipe Label Full Metal Barrel With Sulfuric Acid Label
     	Result:HCSulfuricacidbarrelfull,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Blue Barrel With Sulfuric Acid Label
@@ -478,7 +478,7 @@ recipe Label Empty Blue Barrel With Sulfuric Acid Label
     	Result:HCSulfuricacidbarrelblueempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Metal Barrel With Gasoline Label
@@ -488,7 +488,7 @@ recipe Label Empty Metal Barrel With Gasoline Label
     	Result:HCGasolinebarrelempty,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Full Gasoline Barrel With Gasoline Label
@@ -498,7 +498,7 @@ recipe Label Full Gasoline Barrel With Gasoline Label
     	Result:HCGasolinebarrelfull,
     	Time:15,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

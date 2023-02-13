@@ -383,7 +383,7 @@ recipe Recycle Plastic Can
     	Result:HCPlastic=5,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Ammonia Can
@@ -394,7 +394,7 @@ recipe Recycle Ammonia Can
     	Result:HCPlastic=5,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Clean Empty Ammonia Can
@@ -407,7 +407,7 @@ recipe Clean Empty Ammonia Can
         OnCreate:recipe_hclabelammonia,
     	Time:50,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Hydrogen Peroxide Can
@@ -418,7 +418,7 @@ recipe Recycle Hydrogen Peroxide Can
     	Result:HCPlastic=5,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Clean Empty Liquid Soap Can
@@ -431,7 +431,7 @@ recipe Clean Empty Liquid Soap Can
         OnCreate:recipe_hclabelh2o2,
     	Time:50,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Sulfuric Acid Can
@@ -442,7 +442,7 @@ recipe Recycle Sulfuric Acid Can
         OnCreate:recipe_hclabelsulfuricacid,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Clean Empty Liquid Soap Can
@@ -455,7 +455,7 @@ recipe Clean Empty Liquid Soap Can
         OnCreate:recipe_hclabelsulfuricacid,
     	Time:50,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

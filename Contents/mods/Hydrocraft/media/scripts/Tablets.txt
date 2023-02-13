@@ -145,7 +145,7 @@ recipe Make Primative Research Station
    	Result:HCResearchtable,
     	Time:500,
     	Category:Research,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 recipe Research Drying Frame
@@ -159,7 +159,7 @@ recipe Research Drying Frame
     Result:HCTabletDryingFrame,
     Time:800,
     Category:Research,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 
@@ -174,7 +174,7 @@ recipe Research Butcher Carcass
     Result:HCTabletButcherCarcass,
     Time:800,
     Category:Research,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 
@@ -188,7 +188,7 @@ recipe Research Bunch of Berries
    	Result:HCTabletberries,
     	Time:200,
     	Category:Research,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 recipe Research Bunch of Mushrooms
@@ -201,7 +201,7 @@ recipe Research Bunch of Mushrooms
    	Result:HCTabletshrooms,
     	Time:200,
     	Category:Research,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 recipe Research Birch Bark Basket
@@ -213,7 +213,7 @@ recipe Research Birch Bark Basket
    	Result:HCTabletbirchbarkbasket,
     	Time:400,
     	Category:Research,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 recipe Research Wicker Basket
@@ -225,7 +225,7 @@ recipe Research Wicker Basket
    	Result:HCTabletwickerbasket,
     	Time:400,
     	Category:Research,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 recipe Research Straw Basket
@@ -237,7 +237,7 @@ recipe Research Straw Basket
    	Result:HCTabletstrawbasket,
     	Time:400,
     	Category:Research,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Research Stick Trap
@@ -249,7 +249,7 @@ recipe Research Stick Trap
    	Result:HCTabletsticktrap,
     	Time:500,
     	Category:Research,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Research Bone Needles
@@ -261,7 +261,7 @@ recipe Research Bone Needles
     Result:HCTabletBoneNeedles,
     Time:500,
     Category:Research,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

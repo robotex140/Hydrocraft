@@ -512,7 +512,7 @@ recipe Make Aluminum Jar Lid
 	   	Result:JarLid=8,
 	   	Time:150.0,
        		Category:Smithing,
-       		OnGiveXP:HCHunger_OnGiveXP,
+       		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Prepare Jarred Watermelon 

@@ -81,7 +81,7 @@ recipe Make Wicker Basket
     NeedToBeLearn:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Birch Bark Basket
@@ -91,7 +91,7 @@ recipe Make Birch Bark Basket
     NeedToBeLearn:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Straw Basket
@@ -101,7 +101,7 @@ recipe Make Straw Basket
     NeedToBeLearn:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Fishing Basket
@@ -112,7 +112,7 @@ recipe Make Fishing Basket
     NeedToBeLearn:true,
     Time:15,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Birch Bark Cup
@@ -121,7 +121,7 @@ recipe Make Birch Bark Cup
     Result:HCBirchbarkcup,
     Time:15,
     Category:Survivalist,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 	
 }

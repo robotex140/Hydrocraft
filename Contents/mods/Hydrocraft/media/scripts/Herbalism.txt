@@ -836,7 +836,7 @@ recipe Breed Silkmoths
         NeedToBeLearn:true,
         Time:1000,
         Category:Ranching,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Feed Silkworm
@@ -849,7 +849,7 @@ recipe Feed Silkworm
         NeedToBeLearn:true,
         Time:100,
         Category:Ranching,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Harvest Silk

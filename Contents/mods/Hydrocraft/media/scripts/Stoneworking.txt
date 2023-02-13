@@ -307,7 +307,7 @@ recipe Construct Cellar
     	NeedToBeLearn:true,
     	Time:10000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Construct Cellar
@@ -330,7 +330,7 @@ recipe Construct Cellar
     NeedToBeLearn:true,
     Time:10000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -345,7 +345,7 @@ recipe Construct Tar Kiln
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Construct Tar Kiln
@@ -359,7 +359,7 @@ recipe Construct Tar Kiln
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Construct Tar Kiln
@@ -373,7 +373,7 @@ recipe Construct Tar Kiln
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -443,7 +443,7 @@ recipe Make Stone Arrowhead
     	NeedToBeLearn:true,
     	Time:15,
         Category:Survivalist,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -455,7 +455,7 @@ recipe Make Stone Saw
     	Result:HCSawstone,
     	Time:15,
         Category:Survivalist,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Tombstone 
@@ -466,7 +466,7 @@ recipe Make Tombstone
         NeedToBeLearn:true,
     	Time:5000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Tombstone 
@@ -477,7 +477,7 @@ recipe Make Tombstone
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Grave
@@ -488,7 +488,7 @@ recipe Make Grave
     	Result:HCGrave,
     	Time:50,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Rune Stone
@@ -499,7 +499,7 @@ recipe Make Rune Stone
     	NeedToBeLearn:true,
     	Time:5000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Rune Stone
@@ -510,7 +510,7 @@ recipe Make Rune Stone
     	NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Obelisk
@@ -521,7 +521,7 @@ recipe Make Obelisk
     	NeedToBeLearn:true,
     	Time:10000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Obelisk
@@ -532,7 +532,7 @@ recipe Make Obelisk
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Construct Oil Press
@@ -603,7 +603,7 @@ recipe Make Stone Wheel
     	NeedToBeLearn:true,
     	Time:1500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Construct Grindstone
@@ -614,7 +614,7 @@ recipe Construct Grindstone
     	NeedToBeLearn:true,
     	Time:400,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Construct Grindstone
@@ -625,7 +625,7 @@ recipe Construct Grindstone
     	NeedToBeLearn:true,
     	Time:400,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Build Stamp Mill
@@ -710,7 +710,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:4000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -722,7 +722,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
         Time:4000,
         Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -734,7 +734,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:2000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -748,7 +748,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -761,7 +761,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -773,7 +773,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -787,7 +787,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -801,7 +801,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
         Time:500,
         Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -813,7 +813,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:4000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -825,7 +825,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
         Time:4000,
         Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -837,7 +837,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:2000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -849,7 +849,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
         Time:2000,
         Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -863,7 +863,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -876,7 +876,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -888,7 +888,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gravel
@@ -902,7 +902,7 @@ recipe Make Gravel
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -914,7 +914,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:4000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -926,7 +926,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:2000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -940,7 +940,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -953,7 +953,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -965,7 +965,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -979,7 +979,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -991,7 +991,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:4000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -1003,7 +1003,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:2000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -1017,7 +1017,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -1030,7 +1030,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -1042,7 +1042,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sand
@@ -1056,7 +1056,7 @@ recipe Make Sand
         NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1071,7 +1071,7 @@ recipe Make Plaster
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Plaster
@@ -1084,7 +1084,7 @@ recipe Make Plaster
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Plaster Powder
@@ -1098,7 +1098,7 @@ recipe Make Plaster Powder
         NeedToBeLearn:true,
         Time:300,
         Category:Masonry,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1111,7 +1111,7 @@ recipe Make Concrete Powder
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Concrete
@@ -1123,7 +1123,7 @@ recipe Make Concrete
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Mortar
@@ -1137,7 +1137,7 @@ recipe Make Mortar
     NeedToBeLearn:true,
     Time:50,
     Category:Masonry,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Mortar
@@ -1151,7 +1151,7 @@ recipe Make Mortar
     NeedToBeLearn:true,
     Time:50,
     Category:Masonry,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1174,7 +1174,7 @@ recipe Make Stone Anvil
     	NeedToBeLearn:true,
     	Time:5000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Stone Anvil
@@ -1185,7 +1185,7 @@ recipe Make Stone Anvil
     	NeedToBeLearn:true,
     	Time:500,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Destroy Stone Anvil
@@ -1196,7 +1196,7 @@ recipe Destroy Stone Anvil
         Time:200,
         CanBeDoneFromFloor:true,
         Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Carve Venus Figurine
@@ -1207,7 +1207,7 @@ recipe Carve Venus Figurine
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 	
 	recipe Empty Wooden Bucket with Gravel

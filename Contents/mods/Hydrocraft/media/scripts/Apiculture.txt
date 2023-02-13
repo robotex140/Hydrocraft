@@ -281,7 +281,7 @@ recipe Fill Bee Smoker with Fuel
         NeedToBeLearn:true,
         Time:50.0,
         Category:Farming,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -376,7 +376,7 @@ recipe Make Bee Smoker
         NeedToBeLearn:true,
         Time:150.0,
         Category:Farming,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Beekeeper Hat

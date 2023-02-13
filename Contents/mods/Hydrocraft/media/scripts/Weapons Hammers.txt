@@ -1117,7 +1117,7 @@ recipe Make Stone Flail
 	   	Result:HCFlailstone,
 	   	Time:50.0,
     		Category:Survivalist,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 /************************FIXING************************/

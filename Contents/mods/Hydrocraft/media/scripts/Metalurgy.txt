@@ -438,7 +438,7 @@ recipe Make Smelter
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Smelter
@@ -451,7 +451,7 @@ recipe Make Smelter
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Smelter
@@ -473,7 +473,7 @@ recipe Make Bellows
     	NeedToBeLearn:true,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Blast Furnace
@@ -498,7 +498,7 @@ recipe Make Blast Furnace
     	Time:2000,
     	SkillRequired:Woodwork=4,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Blast Furnace
@@ -523,7 +523,7 @@ recipe Make Blast Furnace
     	Time:2000,
     	SkillRequired:Woodwork=4,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -550,7 +550,7 @@ recipe Upgrade to Blast Furnace
         Time:2000,
         SkillRequired:Woodwork=4,
         Category:Masonry,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

@@ -235,7 +235,7 @@ recipe Make Canvas
     Sound:PZ_Hammer,
     Time:200,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Extract White Pigment
@@ -636,7 +636,7 @@ recipe Paint on Canvas
     	Time:3000,
     	NeedToBeLearn:true,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Paint on Canvas
@@ -654,7 +654,7 @@ recipe Paint on Canvas
     	Time:3000,
     	NeedToBeLearn:true,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Paint on Canvas
@@ -672,7 +672,7 @@ recipe Paint on Canvas
     	Time:3000,
     	NeedToBeLearn:true,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Paint on Canvas
@@ -690,7 +690,7 @@ recipe Paint on Canvas
     	Time:3000,
     	NeedToBeLearn:true,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Paint on Canvas
@@ -708,7 +708,7 @@ recipe Paint on Canvas
     	Time:3000,
     	NeedToBeLearn:true,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

@@ -135,7 +135,7 @@ recipe Make Rag Ball
     	Time:20,
     	NeedToBeLearn:true,
     	Category:Papercraft,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Pulp
@@ -147,7 +147,7 @@ recipe Make Pulp
     	Time:2000,
     	NeedToBeLearn:true,
     	Category:Papercraft,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Netting
@@ -173,7 +173,7 @@ recipe Make Paper Screen
     Time:200,
     NeedToBeLearn:true,
     Category:Papercraft,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Put Pulp onto Paper Screen
@@ -184,7 +184,7 @@ recipe Put Pulp onto Paper Screen
     	Time:2000,
     	NeedToBeLearn:true,
     	Category:Papercraft,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Dry Pulp
@@ -194,7 +194,7 @@ recipe Dry Pulp
     	Time:2000,
     	NeedToBeLearn:true,
     	Category:Papercraft,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Remove Paper Screen
@@ -207,7 +207,7 @@ recipe Remove Paper Screen
     	Category:Papercraft,
     	NeedToBeLearn:true,
     	OnCreate:recipe_hcpaperscreen,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 	
 	recipe Make Quill

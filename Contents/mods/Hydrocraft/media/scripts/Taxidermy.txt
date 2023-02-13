@@ -134,7 +134,7 @@ recipe Make Taxidermy Workbench
         Time:400,
     	Sound:PZ_Hammer,
 	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
     
 recipe Craft Small Animal Armature
@@ -148,7 +148,7 @@ recipe Craft Small Animal Armature
     	NeedToBeLearn:true,
     	Time:150,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Attach Straw to Small Animal Armature
@@ -162,7 +162,7 @@ recipe Attach Straw to Small Animal Armature
     	NeedToBeLearn:true,
     	Time:150,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Taxidermy Mouse
@@ -179,7 +179,7 @@ recipe Craft Taxidermy Mouse
     	NeedToBeLearn:true,
     	Time:300,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Medium Animal Armature
@@ -193,7 +193,7 @@ recipe Craft Medium Animal Armature
     	NeedToBeLearn:true,
     	Time:150,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Attach Straw to Medium Animal Armature
@@ -207,7 +207,7 @@ recipe Attach Straw to Medium Animal Armature
     	NeedToBeLearn:true,
     	Time:150,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Taxidermy Rabbit
@@ -224,7 +224,7 @@ recipe Craft Taxidermy Rabbit
     	NeedToBeLearn:true,
     	Time:300,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Taxidermy Jackalope
@@ -237,7 +237,7 @@ recipe Craft Taxidermy Jackalope
     	NeedToBeLearn:true,
     	Time:200,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Small Animal Armature
@@ -250,7 +250,7 @@ recipe Craft Small Animal Armature
     	NeedToBeLearn:true,
     	Time:200,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Small Animal Armature
@@ -263,7 +263,7 @@ recipe Craft Small Animal Armature
     	NeedToBeLearn:true,
     	Time:200,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Medium Animal Armature
@@ -276,7 +276,7 @@ recipe Craft Medium Animal Armature
     	NeedToBeLearn:true,
     	Time:200,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Medium Animal Armature
@@ -289,7 +289,7 @@ recipe Craft Medium Animal Armature
     	NeedToBeLearn:true,
     	Time:200,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Taxidermy Mouse
@@ -306,7 +306,7 @@ recipe Craft Taxidermy Mouse
     	NeedToBeLearn:true,
     	Time:300,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Craft Taxidermy Rabbit
@@ -323,7 +323,7 @@ recipe Craft Taxidermy Rabbit
     	NeedToBeLearn:true,
     	Time:300,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

@@ -124,7 +124,7 @@ recipe Make Sap Catcher
         Time:15,
     	NeedToBeLearn:true,
 	Category:Farming,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     	}
 
 recipe Add Sap Catchers to Rubber Tree
@@ -135,7 +135,7 @@ recipe Add Sap Catchers to Rubber Tree
         Time:15,
     	NeedToBeLearn:true,
 	Category:Farming,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     	}
 
 recipe Harvest Crop

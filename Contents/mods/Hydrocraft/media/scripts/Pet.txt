@@ -320,7 +320,7 @@ recipe Put Head in Fish Tank
 	Result:HCZedtank,
 		Time:15,
 		Category:Leisure,
-		OnGiveXP:HCHunger_OnGiveXP,
+		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 recipe Feed Head
 	{
@@ -330,7 +330,7 @@ recipe Feed Head
 		OnCreate:HC_ToyStatModifier,
 		Time:15.0,
 		Category:Leisure,
-		OnGiveXP:HCHunger_OnGiveXP,
+		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 recipe Open Cat Food
 	{

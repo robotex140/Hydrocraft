@@ -1049,7 +1049,7 @@ recipe Make Obsdian Spear
 	   	Result:HCSpearobsidian,
 	   	Time:100.0,
     		Category:Survivalist,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Stone Spear
@@ -1062,7 +1062,7 @@ recipe Make Stone Spear
 	   	Result:HCSpearstone,
 	   	Time:50.0,
     	Category:Survivalist,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Quarterstaff
@@ -1071,7 +1071,7 @@ recipe Make Quarterstaff
 	   	Result:HCQuarterstaff,
 	   	Time:25.0,
     	Category:Survivalist,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Reinforce Quarterstaff
@@ -1083,7 +1083,7 @@ recipe Reinforce Quarterstaff
     Result:HCQuarterstaffBarbedWire,
     Time:25.0,
     Category:Survivalist,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Reinforce Quarterstaff
@@ -1094,7 +1094,7 @@ recipe Reinforce Quarterstaff
     Result:HCQuarterstaffGrip,
     Time:25.0,
     Category:Survivalist,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Steel Trident

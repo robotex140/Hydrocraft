@@ -111,7 +111,7 @@ recipe Make Photography Workbench
         Time:400,
     	Sound:PZ_Hammer,
 	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
     
 

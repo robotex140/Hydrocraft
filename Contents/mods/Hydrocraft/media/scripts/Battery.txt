@@ -236,7 +236,7 @@ recipe Recycle Small Battery Case
     NeedToBeLearn:true,
     Time:100,
     Category:Electrical,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Battery Case
@@ -246,7 +246,7 @@ recipe Recycle Battery Case
     NeedToBeLearn:true,
     Time:100,
     Category:Electrical,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Medium Battery Case
@@ -256,7 +256,7 @@ recipe Recycle Medium Battery Case
     NeedToBeLearn:true,
     Time:100,
     Category:Electrical,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Large Battery Case
@@ -266,7 +266,7 @@ recipe Recycle Large Battery Case
     NeedToBeLearn:true,
     Time:100,
     Category:Electrical,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Huge Battery Case
@@ -276,7 +276,7 @@ recipe Recycle Huge Battery Case
     NeedToBeLearn:true,
     Time:100,
     Category:Electrical,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recharge Small Battery

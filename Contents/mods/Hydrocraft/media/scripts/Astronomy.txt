@@ -96,7 +96,7 @@ recipe Assemble Telescope
         NeedToBeLearn:true,
     	Time:100,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Disassemble Telescope
@@ -109,7 +109,7 @@ recipe Disassemble Telescope
     	Time:100,
     	Category:Leisure,
     	OnCreate:recipe_hctelescopetripod,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Gaze Through Telescope
@@ -122,7 +122,7 @@ recipe Gaze Through Telescope
     	Time:1000,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Build Star Chart Board
@@ -142,7 +142,7 @@ recipe Build Star Chart Board
     	Sound:PZ_Hammer,
     	Time:100,
     	Category:Carpentry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe View Star Chart Board
@@ -155,7 +155,7 @@ recipe View Star Chart Board
     	Time:1000,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

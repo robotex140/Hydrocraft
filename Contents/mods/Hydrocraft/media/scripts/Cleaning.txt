@@ -260,7 +260,7 @@ recipe Wash Towel
     	Result:BathTowelWet,
     	Time:1000,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Wash Towel in Wash Tub
@@ -274,7 +274,7 @@ recipe Wash Towel in Wash Tub
     	Result:BathTowelWet,
     	Time:100,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 	/*
@@ -289,7 +289,7 @@ recipe Wash Clothing
        	OnCreate:WashClothing_OnCreate,
        	RemoveResultItem:true,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Wash Clothing in Wash Tub
@@ -307,7 +307,7 @@ recipe Wash Clothing in Wash Tub
        	OnCreate:WashClothing_OnCreate,
        	RemoveResultItem:true,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Wash Shoes
@@ -321,7 +321,7 @@ recipe Wash Shoes
        	OnCreate:WashClothing_OnCreate,
        	RemoveResultItem:true,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Wash Shoes in Wash Tub
@@ -338,7 +338,7 @@ recipe Wash Shoes in Wash Tub
        	OnCreate:WashClothing_OnCreate,
        	RemoveResultItem:true,
     	Category:Weaving,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 	
 	*/

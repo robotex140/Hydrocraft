@@ -330,7 +330,7 @@ recipe Make Christmas Tree
 	Sound:PZ_Hammer,
     Time:50,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Decorate Christmas Tree
@@ -342,7 +342,7 @@ recipe Decorate Christmas Tree
    	Result:HCXmastree2,
     	Time:50,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Decorate Christmas Tree
@@ -358,7 +358,7 @@ recipe Decorate Christmas Tree
    	Result:HCXmastree3,
     	Time:50,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Decorate Christmas Tree
@@ -370,7 +370,7 @@ recipe Decorate Christmas Tree
    	Result:HCXmastree4,
     	Time:50,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -381,7 +381,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Open Gift
@@ -466,7 +466,7 @@ recipe Put Head on Pike
 		Result:HCPikehead,
 		Time:50.0,
     		Category:Survivalist,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 }

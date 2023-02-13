@@ -138,7 +138,7 @@ item HCToothbrushshiv
 		Result:HCScalpelimprovised,
 		Time:100.0,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 	recipe Craft Razor Gloves
@@ -151,7 +151,7 @@ item HCToothbrushshiv
 		Result:HCRazorgloves,
 		Time:100.0,
        		Category:Engineer,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}	
 
 	recipe Craft Toothbrush Shiv
@@ -162,7 +162,7 @@ item HCToothbrushshiv
 		Sound:PZ_Saw,
 		Time:250.0,
     		Category:Engineer,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 

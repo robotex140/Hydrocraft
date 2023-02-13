@@ -434,7 +434,7 @@ recipe Rechnarge Dynamo Flashlight
     	Result:HCDynamoflashlightoff,
     	Time:100,
     	Category:Electrical,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Lamp Shade
@@ -444,7 +444,7 @@ recipe Make Lamp Shade
     	Result:HCLampshade,
     	Time:100,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Open Florescent Light Bulb Box

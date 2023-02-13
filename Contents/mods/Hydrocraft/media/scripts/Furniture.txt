@@ -274,7 +274,7 @@ recipe Make Marble Pedestal
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Marble Statue
@@ -285,7 +285,7 @@ recipe Make Marble Statue
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Marble Statue
@@ -296,7 +296,7 @@ recipe Make Marble Statue
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Marble Statue
@@ -307,7 +307,7 @@ recipe Make Marble Statue
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Marble Statue
@@ -318,7 +318,7 @@ recipe Make Marble Statue
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Marble Statue
@@ -329,7 +329,7 @@ recipe Make Marble Statue
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Marble Statue
@@ -340,7 +340,7 @@ recipe Make Marble Statue
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Lamp

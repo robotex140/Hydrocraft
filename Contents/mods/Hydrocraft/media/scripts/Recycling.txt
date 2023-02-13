@@ -118,7 +118,7 @@ recipe Make Chicken Wire
    	Result:HCChickenwire,
     	Time:50,
     	Category:Smithing,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Shred Useless Circuit Board
@@ -159,7 +159,7 @@ recipe Recycle Pillow
     Time:100,
     Category:Engineer,
     OnCreate:recipe_hcpillowcase,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Feather Duster
@@ -169,7 +169,7 @@ recipe Recycle Feather Duster
     Time:100,
     Category:Engineer,
     OnCreate:recipe_hcwoodenstick,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

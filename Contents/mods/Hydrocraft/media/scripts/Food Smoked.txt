@@ -501,7 +501,7 @@ recipe Make Smoker
         Result:HCSmoker,
         Time:1000,
 	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Smoker

@@ -60,7 +60,7 @@ recipe Recycle Plastic Can
     	Result:HCPlastic=5,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Plastic Case
@@ -71,7 +71,7 @@ recipe Make Plastic Case
     	Result:HCSelfmadeplasticcase,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

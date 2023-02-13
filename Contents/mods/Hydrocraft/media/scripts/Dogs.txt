@@ -998,7 +998,7 @@ recipe Search for Stray Dogs
     	Time:50.0,
     	Category:Ranching,
     	OnCreate:HCDogCall,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Feed Dog
@@ -1011,7 +1011,7 @@ recipe Feed Dog
     	Time:15.0,
     	Category:Ranching,
     	OnCreate:HC_ToyStatModifier,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
 		OnTest:Hydrocraft.OnTest.FoodNotRotten,
     }
 

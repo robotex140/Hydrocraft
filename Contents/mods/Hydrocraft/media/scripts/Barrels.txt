@@ -301,7 +301,7 @@ recipe Clean Empty Metal Barrel
     	Result:HCBarrelmetalempty,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Clean Empty Blue Barrel
@@ -314,7 +314,7 @@ recipe Clean Empty Blue Barrel
     	Result:HCBarrelblueempty,
     	Time:250,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Metal Barrel With Ammonia

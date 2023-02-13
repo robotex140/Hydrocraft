@@ -312,7 +312,7 @@ recipe Clean Empty Liquid Soap Can
     	Result:HCPlasticcanempty,
         OnCreate:recipe_hclabeldetergent,
     	Time:50,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Liquid Soap Can
@@ -323,7 +323,7 @@ recipe Recycle Liquid Soap Can
         OnCreate:recipe_hclabeldetergent,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Soap Can With Ammonia

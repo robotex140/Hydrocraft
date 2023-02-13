@@ -135,7 +135,7 @@ recipe Make Mining Hat
     NeedToBeLearn:true,
 	  Time:50.0,
     Category:Firecraft,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
   	}
 
 recipe Make Mining Hat
@@ -148,7 +148,7 @@ recipe Make Mining Hat
     NeedToBeLearn:true,
 	  Time:50.0,
     Category:Firecraft,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
   	}
 
 recipe Put Candle in Candle Holder
@@ -158,7 +158,7 @@ recipe Put Candle in Candle Holder
    	Result:HCCandleholder2,
 	  Time:30.0,
     Category:Firecraft,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
   	}
     
 recipe Light Candle

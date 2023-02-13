@@ -844,7 +844,7 @@ recipe Bury Trash
     keep HandShovel,
     Result:HCWorkgloves,
     Time:2000,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }	
 
 recipe Bury Trash
@@ -854,7 +854,7 @@ recipe Bury Trash
     keep Shovel,
     Result:HCWorkgloves,
     Time:1000,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }	
 
 recipe Bury Trash
@@ -864,7 +864,7 @@ recipe Bury Trash
     keep Base.PickAxe,
     Result:HCWorkgloves,
     Time:500,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Bury Trash
@@ -874,7 +874,7 @@ recipe Bury Trash
     HCMiningdrillpowered,
     Result:HCWorkgloves,
     Time:250,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Unpack Stack of Cardboard Boxes
@@ -904,7 +904,7 @@ recipe Craft Improvised Backpack using Sturdy Sticks
 	Result:HCImprovisedbackpack,
 	Time:300.0,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Craft Improvised Handbag using Planks
@@ -926,7 +926,7 @@ recipe Craft Improvised Handbag using Sturdy Sticks
 	Result:HCImprovisedhandbag,
 	Time:200.0,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Craft Bindle using Planks
@@ -946,7 +946,7 @@ recipe Craft Bindle using Sturdy Sticks
 	Result:HCBindle,
 	Time:200.0,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Craft Shoulder Pole using Planks
@@ -968,7 +968,7 @@ recipe Craft Shoulder Pole using Sturdy Sticks
 	Result:HCShoulderpole,
 	Time:250.0,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 }

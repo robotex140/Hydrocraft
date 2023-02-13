@@ -190,7 +190,7 @@ recipe Clean Glass Bong
     Result:HCBongempty,
     Time:50,
     Category:Chemistry,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Put Bud in Acrylic Bong

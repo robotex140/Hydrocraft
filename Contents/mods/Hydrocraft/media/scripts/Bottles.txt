@@ -188,7 +188,7 @@ recipe Cut Off Bottle
     	Time:50,
     	Category:Engineer,
         OnCreate:recipe_hcgetplastic,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Plastic Bottle
@@ -198,7 +198,7 @@ recipe Recycle Plastic Bottle
         Result:HCPlastic=2,
         Time:50,
     	Category:Engineer,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     } 
 
 recipe Clean Bottle
@@ -210,7 +210,7 @@ recipe Clean Bottle
     	Result:HCWaterbottleclean,
     	Time:50,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Clean Bottle
@@ -222,7 +222,7 @@ recipe Clean Bottle
     	Result:HCWaterbottleclean,
     	Time:50,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Clean Empty Glass Bottle
@@ -234,7 +234,7 @@ recipe Clean Empty Glass Bottle
     	Result:HCGlassbottleempty,
     	Time:50,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Label Empty Bottle With Ammonia Label
@@ -244,7 +244,7 @@ recipe Label Empty Bottle With Ammonia Label
     	Result:HCGlassbottleammoniaempty,
     	Time:15,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Ammonia Bottle With Ammonia
@@ -267,7 +267,7 @@ recipe Label Empty Bottle With Methylamin Label
     	Result:HCGlassbottlemethylaminempty,
     	Time:15,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Methylamin Bottle With Methylamin
@@ -290,7 +290,7 @@ recipe Label Empty Bottle With Hydrogen Peroxide Label
     	Result:HCGlassbottleh2o2empty,
     	Time:15,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Hydrogen Peroxide Bottle With Hydrogen Peroxide
@@ -313,7 +313,7 @@ recipe Label Empty Bottle With Phenylacetic Acid Label
     	Result:HCGlassbottlephenylempty,
     	Time:15,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Phenylacetic Acid Bottle With Phenylacetic Acid
@@ -337,7 +337,7 @@ recipe Label Empty Bottle With Sulfuric Acid Label
     	Result:HCGlassbottlesulfuricacidempty,
     	Time:15,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Sulfuric Acid Bottle With Sulfuric Acid
@@ -360,7 +360,7 @@ recipe Label Empty Bottle With Homemade Ether Label
     	Result:HCGlassbottleselfmadeetherempty,
     	Time:15,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Selfmade Ether Bottle With Homemade Ether
@@ -383,7 +383,7 @@ recipe Label Empty Bottle With Potassium Permanganate Label
     	Result:HCGlassbottlepotassiumpermanganateempty,
     	Time:15,
     	Category:Chemistry,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Empty Potassium Permanganate Bottle With Potassium Permanganate

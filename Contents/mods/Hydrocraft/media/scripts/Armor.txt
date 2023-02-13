@@ -1226,7 +1226,7 @@ recipe Make Helmet
 	   	Result:HCHelmbucket,
 	   	Time:15.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Helmet
@@ -1237,7 +1237,7 @@ recipe Make Helmet
 	   	Result:HCHelmcookingpot,
 	   	Time:15.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Helmet
@@ -1551,7 +1551,7 @@ recipe Make Arm Guards
 	   	Result:HCArmarmorbone,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Arm Guards
@@ -1564,7 +1564,7 @@ recipe Make Arm Guards
     		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Arm Guards
@@ -1577,7 +1577,7 @@ recipe Make Arm Guards
 		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Arm Guards
@@ -1590,7 +1590,7 @@ recipe Make Arm Guards
 		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 
@@ -1601,7 +1601,7 @@ recipe Make Arm Guards
 	   	Result:HCArmarmorbubblewrap,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Armor
@@ -1751,7 +1751,7 @@ recipe Make Armor
 	   	Result:HCArmorhide,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Armor
@@ -1778,7 +1778,7 @@ recipe Make Armor
 	   	Result:HCArmorbone,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Armor
@@ -1791,7 +1791,7 @@ recipe Make Armor
     		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Armor
@@ -1804,7 +1804,7 @@ recipe Make Armor
 		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Armor
@@ -1818,7 +1818,7 @@ recipe Make Armor
 		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Armor
@@ -1830,7 +1830,7 @@ recipe Make Armor
 	   	Result:HCArmorphonebooks,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Armor
@@ -1840,7 +1840,7 @@ recipe Make Armor
 	   	Result:HCArmorbubblewrap,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Leg Guards
@@ -1934,7 +1934,7 @@ recipe Make Leg Guards
 	   	Result:HCLegarmorbubblewrap,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Leg Guards
@@ -2025,7 +2025,7 @@ recipe Make Leg Guards
 	   	Result:HCLegarmorbone,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Leg Guards
@@ -2038,7 +2038,7 @@ recipe Make Leg Guards
 		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Leg Guards
@@ -2051,7 +2051,7 @@ recipe Make Leg Guards
 		Sound:PZ_Saw,
 	   	Time:150.0,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Greaves
@@ -2161,7 +2161,7 @@ recipe Make Shield
 	   	Time:150.0,
     		Sound:PZ_Hammer,
     		Category:Armor,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 */
 }

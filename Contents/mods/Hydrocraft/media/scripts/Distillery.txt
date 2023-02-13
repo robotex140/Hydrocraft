@@ -477,7 +477,7 @@ recipe Make Copper Cooler
 		NeedToBeLearn:true,
 		Time:500.0,
 		Category:Engineer,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Copper Mashpot
@@ -491,7 +491,7 @@ recipe Make Copper Mashpot
 		NeedToBeLearn:true,
 		Time:500.0,
 		Category:Engineer,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Build Distillery
@@ -517,7 +517,7 @@ recipe Build Distillery
 		NeedToBeLearn:true,
 		Time:1000.0,
 		Category:Engineer,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 

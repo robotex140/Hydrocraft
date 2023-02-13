@@ -493,7 +493,7 @@ recipe Make Coin Press
     		NeedToBeLearn:true,
 	   	Time:150.0,
        		Category:Engineer,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Open Wallet
@@ -555,7 +555,7 @@ recipe Play Slot Machine
     	Category:Leisure,
     	OnCreate:recipe_hcslotmachine,
 	RemoveResultItem:true,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Roulette Table

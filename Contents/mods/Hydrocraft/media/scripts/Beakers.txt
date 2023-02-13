@@ -423,7 +423,7 @@ recipe Make Beaker of Ammonia
         Result:HCBeakerammonia,
         Time:1000,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Beaker of Ammonia
@@ -438,7 +438,7 @@ recipe Make Beaker of Ammonia
         Result:HCBeakerammonia,
         Time:1000,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Beaker of Copper Sulfate Solution
@@ -453,7 +453,7 @@ recipe Make Beaker of Copper Sulfate Solution
         Result:HCBeakercoppersulfatesolution,
         Time:1000,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 	
 recipe Make Beaker of Nickel Sulfate Solution
@@ -468,7 +468,7 @@ recipe Make Beaker of Nickel Sulfate Solution
         Result:HCBeakernickelsulfatesolution,
         Time:1000,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 	
 recipe Make Beaker of Nitric Acid
@@ -483,7 +483,7 @@ recipe Make Beaker of Nitric Acid
         Result:HCBeakernitricacid,
         Time:1000,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Beaker With Muriatic Acid

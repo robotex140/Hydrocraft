@@ -328,7 +328,7 @@ recipe Make Small Junkyard
        	Result:HCJunkyardsmallempty,
        	Time:500,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Small Junkyard
@@ -339,7 +339,7 @@ recipe Fill Small Junkyard
        	Result:HCJunkyardsmallfull,
        	Time:1000,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Search Junk
@@ -352,7 +352,7 @@ recipe Search Junk
        	Time:100,
        	Category:Engineer,
        	OnCreate:hcjunksearchsmall,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Upgrade To Medium Junkyard
@@ -366,7 +366,7 @@ recipe Upgrade To Medium Junkyard
        	Result:HCJunkyardmediumempty,
        	Time:750,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Medium Junkyard
@@ -378,7 +378,7 @@ recipe Fill Medium Junkyard
        	Result:HCJunkyardmediumfull,
        	Time:2000,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Search Junk
@@ -391,7 +391,7 @@ recipe Search Junk
        	Time:100,
        	Category:Engineer,
        	OnCreate:hcjunksearchsmall,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Search Junk
@@ -404,7 +404,7 @@ recipe Search Junk
        	Time:200,
        	Category:Engineer,
        	OnCreate:hcjunksearchmedium,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -444,7 +444,7 @@ recipe Upgrade To Large Junkyard
        	Result:HCJunkyardlargeempty,
        	Time:1000,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Fill Large Junkyard
@@ -457,7 +457,7 @@ recipe Fill Large Junkyard
       	Result:HCJunkyardlargefull,
        	Time:3000,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -483,7 +483,7 @@ recipe Search Junk
        	Time:100,
        	Category:Engineer,
        	OnCreate:hcjunksearchsmall,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Search Junk
@@ -496,7 +496,7 @@ recipe Search Junk
        	Time:200,
        	Category:Engineer,
        	OnCreate:hcjunksearchmedium,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Search Junk
@@ -509,7 +509,7 @@ recipe Search Junk
        	Time:300,
        	Category:Engineer,
        	OnCreate:hcjunksearchlarge,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Search Junk with Giant Magnet
@@ -523,7 +523,7 @@ recipe Search Junk with Giant Magnet
        	Time:500,
        	Category:Engineer,
        	OnCreate:hcjunksearchmagnet,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Sled

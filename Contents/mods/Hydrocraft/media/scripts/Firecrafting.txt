@@ -229,7 +229,7 @@ recipe Make Torch
 	Result:HCTorch,              
 	Time:200.0,
     	Category:Survivalist,
-       	OnGiveXP:HCHunger_OnGiveXP,
+       	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Light Torch

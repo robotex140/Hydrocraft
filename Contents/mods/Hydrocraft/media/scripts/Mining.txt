@@ -640,7 +640,7 @@ recipe Dig Mine
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -668,7 +668,7 @@ recipe Upgrade Mine
     NeedToBeLearn:true,
     Time:500,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Mine
@@ -694,7 +694,7 @@ recipe Expand Mine to Iron Mine
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Mine
@@ -720,7 +720,7 @@ recipe Expand Mine to Coal Mine
     NeedToBeLearn:true,
     Time:1000,
     Category:Stoneworking,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Mine
@@ -749,7 +749,7 @@ recipe Upgrade to Dark Mine
     	NeedToBeLearn:true,
     	Time:2000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Dark Mine
@@ -820,7 +820,7 @@ recipe Dig Quarry
     	NeedToBeLearn:true,
     	Time:1000,
     	Category:Stoneworking,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Anchor Quarry

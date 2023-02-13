@@ -146,7 +146,7 @@ recipe Make Grey Bricks
     Time:100,
     Category:Masonry,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Red Bricks
@@ -161,7 +161,7 @@ recipe Make Red Bricks
     Time:100,
     Category:Masonry,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -177,7 +177,7 @@ recipe Make Refractory Brick
     	NeedToBeLearn:true,
     	Time:100,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -199,7 +199,7 @@ recipe Make Concrete Ingot
     	Time:100,
     	Category:Masonry,
     	OnCreate:getBurned,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -212,7 +212,7 @@ recipe Make Concrete Block
     	NeedToBeLearn:true,
     	Time:100,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Hempcrete Block
@@ -225,7 +225,7 @@ recipe Make Hempcrete Block
     	NeedToBeLearn:true,
     	Time:100,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Leadcrete Block
@@ -238,7 +238,7 @@ recipe Make Leadcrete Block
     	NeedToBeLearn:true,
     	Time:100,
     	Category:Masonry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

@@ -1023,7 +1023,7 @@ recipe Make Straw Doll
     Result:HCToydollstraw,
     Time:200,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }   
 
 recipe Box Crayons
@@ -1102,7 +1102,7 @@ recipe Play Chess
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Golf
@@ -1114,7 +1114,7 @@ recipe Play Golf
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Baseball
@@ -1127,7 +1127,7 @@ recipe Play Baseball
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Softball
@@ -1140,7 +1140,7 @@ recipe Play Softball
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Pool
@@ -1153,7 +1153,7 @@ recipe Play Pool
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Wiffle Ball
@@ -1165,7 +1165,7 @@ recipe Play Wiffle Ball
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Tennis
@@ -1177,7 +1177,7 @@ recipe Play Tennis
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Bowling
@@ -1189,7 +1189,7 @@ recipe Play Bowling
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Jacks
@@ -1201,7 +1201,7 @@ recipe Play Jacks
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe View Sterioscope
@@ -1213,7 +1213,7 @@ recipe View Sterioscope
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1223,7 +1223,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1233,7 +1233,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1243,7 +1243,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1253,7 +1253,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1263,7 +1263,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1273,7 +1273,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1283,7 +1283,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1293,7 +1293,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1303,7 +1303,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1314,7 +1314,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1325,7 +1325,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1336,7 +1336,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1347,7 +1347,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1358,7 +1358,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1369,7 +1369,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1380,7 +1380,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1391,7 +1391,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1402,7 +1402,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1413,7 +1413,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1424,7 +1424,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1435,7 +1435,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1446,7 +1446,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1457,7 +1457,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1468,7 +1468,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1479,7 +1479,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1490,7 +1490,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1501,7 +1501,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1512,7 +1512,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1523,7 +1523,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1534,7 +1534,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1546,7 +1546,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1557,7 +1557,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1568,7 +1568,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1579,7 +1579,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1590,7 +1590,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1601,7 +1601,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1612,7 +1612,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1623,7 +1623,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1634,7 +1634,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1645,7 +1645,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1656,7 +1656,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1667,7 +1667,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1677,7 +1677,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1687,7 +1687,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1706,7 +1706,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1716,7 +1716,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1726,7 +1726,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1736,7 +1736,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1746,7 +1746,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1756,7 +1756,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1766,7 +1766,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1776,7 +1776,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1786,7 +1786,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1796,7 +1796,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1806,7 +1806,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1816,7 +1816,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1826,7 +1826,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1836,7 +1836,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1846,7 +1846,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1856,7 +1856,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1866,7 +1866,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1876,7 +1876,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1886,7 +1886,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1896,7 +1896,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1906,7 +1906,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1916,7 +1916,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1926,7 +1926,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Pinata
@@ -1942,7 +1942,7 @@ recipe Make Pinata
 	Result:HCPinata,
 	Time:200.0,
 	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Break Pinata
@@ -1953,7 +1953,7 @@ recipe Break Pinata
 	Time:200.0,
 	OnCreate:HCPinataBreak,
 	Category:Leisure,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Ask Magic 8 Ball a Question
@@ -1963,7 +1963,7 @@ recipe Ask Magic 8 Ball a Question
     Time:15,
     OnCreate:HCEightBall,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1973,7 +1973,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1984,7 +1984,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -1994,7 +1994,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2004,7 +2004,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2014,7 +2014,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2024,7 +2024,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2034,7 +2034,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2044,7 +2044,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2054,7 +2054,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2064,7 +2064,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2075,7 +2075,7 @@ recipe Play With
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
     RemoveResultItem:true,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2086,7 +2086,7 @@ recipe Play With
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
     RemoveResultItem:true,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -2097,7 +2097,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2107,7 +2107,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2117,7 +2117,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2127,7 +2127,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2137,7 +2137,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -2147,7 +2147,7 @@ recipe Play With
     Time:500,
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -2169,7 +2169,7 @@ recipe Build Toy Wagon
     Time:1000,
     SkillRequired:Mechanics=2;MetalWelding=2;Maintenance=2;Woodwork=5,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

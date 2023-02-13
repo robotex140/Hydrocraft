@@ -1037,7 +1037,7 @@ recipe Make Flint Tipped Bow Drill
     Result:HCBowdrillflint,
     Time:100,
     Category:Survivalist,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Insert Battery
@@ -1424,7 +1424,7 @@ recipe Craft Hand Powered Pump
     Result:HCHandpump,
     Time:500,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

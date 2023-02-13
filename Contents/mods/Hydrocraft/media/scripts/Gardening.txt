@@ -371,7 +371,7 @@ recipe Disassemble Hedge Trimmer
     		Result:HCHedgetrimmerblade,
     		Time:15,
     		Category:Engineer,
-       		OnGiveXP:HCHunger_OnGiveXP,
+       		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Disassemble Hedge Cutter
@@ -381,7 +381,7 @@ recipe Disassemble Hedge Cutter
     		Result:HCHedgecutterblade=2,
     		Time:15,
     		Category:Engineer,
-       		OnGiveXP:HCHunger_OnGiveXP,
+       		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Flatten Trowel
@@ -422,7 +422,7 @@ recipe Pack Straw
     Result:HCStrawbale,
     Time:15,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Unpack Straw
@@ -431,7 +431,7 @@ recipe Unpack Straw
     Result:HCStraw=10,
     Time:15,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Pile Straw
@@ -441,7 +441,7 @@ recipe Pile Straw
     Result:HCHaystack,
     Time:15,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Unpile Straw
@@ -450,7 +450,7 @@ recipe Unpile Straw
     Result:HCStraw=100,
     Time:15,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Straw Hat
@@ -460,7 +460,7 @@ recipe Make Straw Hat
     Time:15,
     NeedToBeLearn:true,
     Category:Weaving,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

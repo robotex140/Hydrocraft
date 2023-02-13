@@ -212,7 +212,7 @@ recipe Make Napalm Bomb MK1
        	Result:HCNapalmbombmk1,
        	Time:50.0,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Napalm Bomb MK2
@@ -223,7 +223,7 @@ recipe Make Napalm Bomb MK2
        	Result:HCNapalmbombmk2off,
        	Time:50.0,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Turn Napalm Bomb MK2 On
@@ -250,7 +250,7 @@ recipe Make Napalm Bomb MK3
        	Result:HCNapalmbombmk3off,
        	Time:50.0,
        	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Turn Napalm Bomb MK3 On

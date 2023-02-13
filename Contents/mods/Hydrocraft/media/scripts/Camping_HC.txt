@@ -607,7 +607,7 @@ recipe Craft Wooden Paddle
 	Result:HCPaddlewood,
 	Time:500.0,
     	Category:Carpentry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 	
 }

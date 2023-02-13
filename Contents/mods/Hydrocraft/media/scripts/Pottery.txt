@@ -674,7 +674,7 @@ recipe Make Bone Clay
     NeedToBeLearn:true,
     Time:100,
     Category:Pottery,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Kiln
@@ -684,7 +684,7 @@ recipe Make Kiln
     NeedToBeLearn:true,
     Time:100,
     Category:Pottery,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Kiln
@@ -694,7 +694,7 @@ recipe Make Kiln
     NeedToBeLearn:true,
     Time:100,
     Category:Pottery,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Pot
@@ -709,7 +709,7 @@ recipe Make Clay Pot
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Pot
@@ -724,7 +724,7 @@ recipe Make Clay Pot
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Flowerpot
@@ -739,7 +739,7 @@ recipe Make Clay Flowerpot
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Flowerpot
@@ -754,7 +754,7 @@ recipe Make Clay Flowerpot
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Jar
@@ -769,7 +769,7 @@ recipe Make Clay Jar
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Jar
@@ -784,7 +784,7 @@ recipe Make Clay Jar
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Small Clay Jar
@@ -799,7 +799,7 @@ recipe Make Small Clay Jar
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Small Clay Jar
@@ -814,7 +814,7 @@ recipe Make Small Clay Jar
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Mug
@@ -829,7 +829,7 @@ recipe Make Clay Mug
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Mug
@@ -844,7 +844,7 @@ recipe Make Clay Mug
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Teapot
@@ -859,7 +859,7 @@ recipe Make Clay Teapot
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Teapot
@@ -874,7 +874,7 @@ recipe Make Clay Teapot
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Cauldron
@@ -891,7 +891,7 @@ recipe Make Clay Cauldron
     	Time:100,
     	Category:Pottery,
     	OnCreate:getBurned,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Cauldron
@@ -908,7 +908,7 @@ recipe Make Clay Cauldron
     	Time:100,
     	Category:Pottery,
     	OnCreate:getBurned,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Urn
@@ -923,7 +923,7 @@ recipe Make Clay Urn
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Urn
@@ -938,7 +938,7 @@ recipe Make Clay Urn
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Large Clay Urn
@@ -953,7 +953,7 @@ recipe Make Large Clay Urn
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Large Clay Urn
@@ -968,7 +968,7 @@ recipe Make Large Clay Urn
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Smoking Pipe
@@ -983,7 +983,7 @@ recipe Make Clay Smoking Pipe
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Smoking Pipe
@@ -998,7 +998,7 @@ recipe Make Clay Smoking Pipe
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Pipe
@@ -1013,7 +1013,7 @@ recipe Make Clay Pipe
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Pipe
@@ -1028,7 +1028,7 @@ recipe Make Clay Pipe
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Ingot Mold
@@ -1043,7 +1043,7 @@ recipe Make Ingot Mold
     Time:200,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Ingot Mold
@@ -1058,7 +1058,7 @@ recipe Make Ingot Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Huge Ingot Mold
@@ -1074,7 +1074,7 @@ recipe Make Huge Ingot Mold
     Time:200,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1091,7 +1091,7 @@ recipe Make Leaf Spring Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1107,7 +1107,7 @@ recipe Make Bolt Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1123,7 +1123,7 @@ recipe Make Arrow Head Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Ring Mold
@@ -1138,7 +1138,7 @@ recipe Make Ring Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Fishhook Mold
@@ -1153,7 +1153,7 @@ recipe Make Fishhook Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Nail Mold
@@ -1168,7 +1168,7 @@ recipe Make Nail Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Screw Mold
@@ -1183,7 +1183,7 @@ recipe Make Screw Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gear Mold
@@ -1198,7 +1198,7 @@ recipe Make Gear Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Bung Mold
@@ -1213,7 +1213,7 @@ recipe Make Bung Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Anvil Mold
@@ -1229,7 +1229,7 @@ recipe Make Anvil Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Giant Magnet Mold
@@ -1245,7 +1245,7 @@ recipe Make Giant Magnet Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Bullet Casing Mold
@@ -1260,7 +1260,7 @@ recipe Make Bullet Casing Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Bullet Tip Mold
@@ -1275,7 +1275,7 @@ recipe Make Bullet Tip Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Buckshot Mold
@@ -1290,7 +1290,7 @@ recipe Make Buckshot Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Block Mold
@@ -1305,7 +1305,7 @@ recipe Make Block Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 	recipe Make Pipe Mold
@@ -1320,7 +1320,7 @@ recipe Make Block Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Bar Mold
@@ -1335,7 +1335,7 @@ recipe Make Bar Mold
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Tablet
@@ -1344,7 +1344,7 @@ recipe Make Clay Tablet
     Result:HCClaytablet,
     Time:100,
     Category:Pottery,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Stack Porcelain Plates
@@ -1405,7 +1405,7 @@ recipe Make Porcelain Teacup
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Porcelain Saucer
@@ -1422,7 +1422,7 @@ recipe Make Porcelain Saucer
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Porcelain Teapot
@@ -1439,7 +1439,7 @@ recipe Make Porcelain Teapot
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Porcelain Plate
@@ -1456,7 +1456,7 @@ recipe Make Porcelain Plate
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Porcelain Platter
@@ -1473,7 +1473,7 @@ recipe Make Porcelain Platter
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Porcelain Bowl
@@ -1490,7 +1490,7 @@ recipe Make Porcelain Bowl
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Porcelain Vase
@@ -1507,7 +1507,7 @@ recipe Make Porcelain Vase
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Spindle Head
@@ -1522,7 +1522,7 @@ recipe Make Spindle Head
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Spindle Head
@@ -1537,7 +1537,7 @@ recipe Make Spindle Head
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Oil Lamp
@@ -1552,7 +1552,7 @@ recipe Make Clay Oil Lamp
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Clay Oil Lamp
@@ -1567,7 +1567,7 @@ recipe Make Clay Oil Lamp
     Time:100,
     Category:Pottery,
     OnCreate:getBurned,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

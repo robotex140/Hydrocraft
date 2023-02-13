@@ -374,7 +374,7 @@ recipe Read Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Read Music
@@ -386,7 +386,7 @@ recipe Read Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Read Music
@@ -398,7 +398,7 @@ recipe Read Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Write Music
@@ -410,7 +410,7 @@ recipe Write Music
     	NeedToBeLearn:true,
     	Time:500,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Write Music
@@ -422,7 +422,7 @@ recipe Write Music
     	NeedToBeLearn:true,
     	Time:500,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Put CD in Case
@@ -451,7 +451,7 @@ recipe Play Music
     	Time:1000,
     	OnCreate:HC_ToyStatModifier,
    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     	}
 
 recipe Play Music
@@ -462,7 +462,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -473,7 +473,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -484,7 +484,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -495,7 +495,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -506,7 +506,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -517,7 +517,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -528,7 +528,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -539,7 +539,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -550,7 +550,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -561,7 +561,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -573,7 +573,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -584,7 +584,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -595,7 +595,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -608,7 +608,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -619,7 +619,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play Music
@@ -629,7 +629,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     	}
 
 recipe Play Music
@@ -639,7 +639,7 @@ recipe Play Music
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
    	Category:Leisure,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     	}
 
 }

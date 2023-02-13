@@ -99,7 +99,7 @@ recipe Hang Leather Sand Bag on Stand
     HCPunchingstand,
         Result:HCPunchingbag,
         Time:60.0,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }   
     
 recipe Exercise hard with Punching Bag
@@ -200,7 +200,7 @@ recipe Repair Treadmill
     Result:HCTredmill,
     Time:400,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Add Generator to Treadmill

@@ -832,7 +832,7 @@ recipe Anchor Tailor's Workbench
         Result:HCTailoringbench2,
         Time:200,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -880,7 +880,7 @@ recipe Make Rope
         Result:Rope,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Rope
@@ -889,7 +889,7 @@ recipe Make Rope
         Result:Rope=3,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thick Rope
@@ -898,7 +898,7 @@ recipe Make Thick Rope
         Result:HCRopethick,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Cotton Gin
@@ -914,7 +914,7 @@ recipe Make Cotton Gin
 	    Result:HCCottongin,
 	    Time:500.0,
         Category:Engineer,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Process Cotton
@@ -950,7 +950,7 @@ recipe Make Cotton Cloth
         Time:1000,
         Category:Tailoring,
         OnCreate:recipe_hcspindle3,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Cotton Cloth
@@ -962,7 +962,7 @@ recipe Make Cotton Cloth
         Time:500,
         Category:Tailoring,
         OnCreate:recipe_hcspindle3,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gym Towel
@@ -975,7 +975,7 @@ recipe Make Gym Towel
         Time:1000,
         Category:Tailoring,
         OnCreate:recipe_hcspindle6,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Gym Towel
@@ -988,7 +988,7 @@ recipe Make Gym Towel
         Time:500,
         Category:Tailoring,
         OnCreate:recipe_hcspindle6,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Linen Thread
@@ -1088,7 +1088,7 @@ recipe Dye Yarn
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Dye Yarn
@@ -1105,7 +1105,7 @@ recipe Dye Yarn
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Dye Yarn
@@ -1121,7 +1121,7 @@ recipe Dye Yarn
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Dye Yarn
@@ -1137,7 +1137,7 @@ recipe Dye Yarn
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Dye Yarn
@@ -1153,7 +1153,7 @@ recipe Dye Yarn
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Dye Yarn
@@ -1170,7 +1170,7 @@ recipe Dye Yarn
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Dye Yarn
@@ -1186,7 +1186,7 @@ recipe Dye Yarn
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Wool Cloth
@@ -1272,7 +1272,7 @@ recipe Make Sheet Rope
         Result:SheetRope,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }	
 
 recipe Make Ripped Sheets
@@ -1282,7 +1282,7 @@ recipe Make Ripped Sheets
         Sound:PZ_ClothesRipping,
         Time:100.0,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 */
 
@@ -1292,7 +1292,7 @@ recipe Make Thin Rope
         Result:HCRopethin,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thin Rope
@@ -1302,7 +1302,7 @@ recipe Make Thin Rope
         Time:15,
         Category:Tailoring,
         OnCreate:recipe_hcspindle3,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thin Rope
@@ -1312,7 +1312,7 @@ recipe Make Thin Rope
         Time:15,
         Category:Tailoring,
         OnCreate:recipe_hcspindle3,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }	
 
 recipe Make Thin Rope
@@ -1322,7 +1322,7 @@ recipe Make Thin Rope
         Time:15,
         Category:Tailoring,
         OnCreate:recipe_hcspindle3,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }	
 
 recipe Make Thin Rope
@@ -1332,7 +1332,7 @@ recipe Make Thin Rope
         Time:15,
         Category:Tailoring,
         OnCreate:recipe_hcspindle3,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }	
 
 recipe Make Thin Rope
@@ -1341,7 +1341,7 @@ recipe Make Thin Rope
         Result:HCRopethin=3,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Rope
@@ -1350,7 +1350,7 @@ recipe Make Rope
         Result:Rope,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Bark Strips
@@ -1360,7 +1360,7 @@ recipe Make Bark Strips
         Result:HCBarkstrip=3,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thin Rope
@@ -1369,7 +1369,7 @@ recipe Make Thin Rope
         Result:HCRopethin,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thin Rope
@@ -1378,7 +1378,7 @@ recipe Make Thin Rope
         Result:HCRopethin,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thin Rope
@@ -1387,7 +1387,7 @@ recipe Make Thin Rope
         Result:HCRopethin,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thin Rope
@@ -1396,7 +1396,7 @@ recipe Make Thin Rope
         Result:HCRopethin,
         Time:15,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Jute Fibers
@@ -1452,7 +1452,7 @@ recipe Dry Reed Mat
         NeedToBeLearn:true,
         Time:1000,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Thread
@@ -1533,7 +1533,7 @@ recipe Recycle Sack
         NeedToBeLearn:true,
         Time:200.0,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 
@@ -1546,7 +1546,7 @@ recipe Recycle Sack
         NeedToBeLearn:true,
         Time:200.0,
         Category:Tailoring,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Box Clothespins
@@ -1604,7 +1604,7 @@ recipe Hang Clothes
         Result:HCClotheslinefull,
         Time:50,
         Category:Weaving,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Hang Clothes
@@ -1621,7 +1621,7 @@ recipe Hang Clothes
         Result:HCClotheslinefull2,
         Time:100,
         Category:Weaving,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 */
 

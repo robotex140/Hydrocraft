@@ -1659,7 +1659,7 @@ recipe Make 9mm Bullets
         Result:Bullets9mmBox,
         Time:100,
         Category:Engineer,
-        OngiveXP:HCHunger_OnGiveXP,
+        OngiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make .223 Bullets
@@ -1671,7 +1671,7 @@ recipe Make .223 Bullets
         Result:223Box,
         Time:100,
         Category:Engineer,
-        OngiveXP:HCHunger_OnGiveXP,
+        OngiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make .308 Bullets
@@ -1683,7 +1683,7 @@ recipe Make .308 Bullets
         Result:308Box,
         Time:100,
         Category:Engineer,
-        OngiveXP:HCHunger_OnGiveXP,
+        OngiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Shotgun Shells
@@ -1695,7 +1695,7 @@ recipe Make Shotgun Shells
         Result:ShotgunShellsBox,
         Time:100,
         Category:Engineer,
-        OngiveXP:HCHunger_OnGiveXP,
+        OngiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Bucket of Lye

@@ -208,7 +208,7 @@ recipe Break Bottle
        	Time:15,
 	OnCreate:recipe_hcbreakbottle,
 	Category:Survivalist,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Break Bottle
@@ -219,7 +219,7 @@ recipe Break Bottle
        	Time:15,
 	OnCreate:recipe_hcbreakbottle,
 	Category:Survivalist,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
     }
     
 recipe Make Iron Blowpipe
@@ -233,7 +233,7 @@ recipe Make Iron Blowpipe
 	Result:HCIronblowpipe,
 	Time:150.0,
     	Category:Engineer,
-        OnGiveXP:HCHunger_OnGiveXP,
+        OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 

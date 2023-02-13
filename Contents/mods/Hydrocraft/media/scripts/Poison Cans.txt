@@ -73,7 +73,7 @@ recipe Clean Empty Insecticide Can
         OnCreate:recipe_hclabelpoison,
     	Time:50,
     	Category:Chemistry,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Recycle Insecticide Can
@@ -84,7 +84,7 @@ recipe Recycle Insecticide Can
         OnCreate:recipe_hclabelpoison,
     	Time:50,
     	Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

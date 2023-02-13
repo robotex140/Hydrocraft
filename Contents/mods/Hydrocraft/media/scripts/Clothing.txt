@@ -126,7 +126,7 @@ recipe Make Improvised Gasmask
          Result:HCImprovisedgasmask,
 	 Time:300.0,
          Category:Engineer,
-    	OnGiveXP:HCHunger_OnGiveXP,
+    	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

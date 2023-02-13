@@ -43,7 +43,7 @@ recipe Build Biogas Collector
 		NeedToBeLearn:true,
 		Time:250.0,
 		Category:Engineer,
-		OnGiveXP:HCHunger_OnGiveXP,
+		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Make Biogas
@@ -56,7 +56,7 @@ recipe Make Biogas
     NeedToBeLearn:true,
     Time:1000.0,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Biogas
@@ -69,7 +69,7 @@ recipe Make Biogas
     NeedToBeLearn:true,
     Time:1000.0,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Biogas
@@ -82,7 +82,7 @@ recipe Make Biogas
     NeedToBeLearn:true,
     Time:1000.0,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Make Biogas
@@ -95,7 +95,7 @@ recipe Make Biogas
     NeedToBeLearn:true,
     Time:1000.0,
     Category:Farming,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 

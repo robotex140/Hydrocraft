@@ -539,7 +539,7 @@ recipe Make Bug Net
     	NeedToBeLearn:true,
     	Time:500,
     	Category:Survivalist,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Put Bug in Jar
@@ -549,7 +549,7 @@ recipe Put Bug in Jar
     	Result:HCJarfireflies,
     	Time:15,
     	Category:Leisure,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Put Bug in Jar
@@ -559,7 +559,7 @@ recipe Put Bug in Jar
     	Result:HCBugjar,
     	Time:15,
     	Category:Leisure,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Play With
@@ -569,7 +569,7 @@ recipe Play With
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
     	Category:Leisure,
-   	OnGiveXP:HCHunger_OnGiveXP,
+   	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Catch Bugs
@@ -631,7 +631,7 @@ recipe Feed Caterpillar
     NeedToBeLearn:true,
     Time:1000,
     Category:Ranching,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Feed Caterpillar
@@ -644,7 +644,7 @@ recipe Feed Caterpillar
     NeedToBeLearn:true,
     Time:1000,
     Category:Ranching,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Assemble Ant Farm
@@ -656,7 +656,7 @@ recipe Assemble Ant Farm
     NeedToBeLearn:true,
     Time:200,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Assemble Ant Farm
@@ -668,7 +668,7 @@ recipe Assemble Ant Farm
     NeedToBeLearn:true,
     Time:200,
     Category:Leisure,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Watch Ants
@@ -679,7 +679,7 @@ recipe Watch Ants
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
     RemoveResultItem:true,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Watch Ants
@@ -690,7 +690,7 @@ recipe Watch Ants
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
     RemoveResultItem:true,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Feed Ants
@@ -703,7 +703,7 @@ recipe Feed Ants
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
     RemoveResultItem:true,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Feed Ants
@@ -716,7 +716,7 @@ recipe Feed Ants
     OnCreate:HC_ToyStatModifier,
     Category:Leisure,
     RemoveResultItem:true,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

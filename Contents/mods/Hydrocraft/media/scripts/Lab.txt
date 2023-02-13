@@ -980,7 +980,7 @@ recipe Make Laboratory
     NeedToBeLearn:true,
     Time:400,
     Category:Chemistry,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 recipe Build Professional Lab
@@ -998,7 +998,7 @@ recipe Build Professional Lab
    	Result:HCLabbig,
     Time:5000,
     Category:Engineer,
-    OnGiveXP:HCHunger_OnGiveXP,
+    OnGiveXP:Recipe.OnGiveXP.None,
     }
 
 }

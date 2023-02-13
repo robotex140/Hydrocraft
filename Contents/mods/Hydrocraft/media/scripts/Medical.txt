@@ -1434,7 +1434,7 @@ recipe Craft Steam Pressure Pot
 		Result:HCSteampot,
 		Time:500.0,
 		Category:Engineer,
-    		OnGiveXP:HCHunger_OnGiveXP,
+    		OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe  Add Herbal Medicine
