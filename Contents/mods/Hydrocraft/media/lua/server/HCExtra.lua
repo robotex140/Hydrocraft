@@ -194,15 +194,18 @@ end
 -- Trash
 
 function recipe_hcget8trashbottle(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCTrashbottle", 7, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCTrashbottle", 8)
 end 
 
 function recipe_hcget12trashbottle(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCTrashbottle", 11, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCTrashbottle", 12)
 end 
 
 function recipe_hcget2emptymilk(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCUHTmilkempty", 2, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCUHTmilkempty", 2)
 end 
 
 -- Label
@@ -245,15 +248,18 @@ end
 -- Get Buckets Beakers Cans
 
 function recipe_hcget1beaker(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGlassbeaker", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCGlassbeaker")
 end 
 
 function recipe_hcget2beakers(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGlassbeaker", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCGlassbeaker", 2)
 end 
 
 function recipe_hcget4beakers(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGlassbeaker", 3, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCGlassbeaker", 4)
 end 
 
 function recipe_hcgetwoodenbucket(items, result, player)
@@ -292,27 +298,33 @@ function recipe_hcgetemptysulfuriccan(items, result, player)
 end
 
 function recipe_hcget3plasticcans(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCPlasticcanempty", 2, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCPlasticcanempty", 3)
 end 
 
 function recipe_hcget3ammoniacans(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCAmmoniacanempty", 2, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCAmmoniacanempty", 3)
 end 
 
 function recipe_hcget3detergentcans(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCDetergentempty", 2, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCDetergentempty", 3)
 end 
 
 function recipe_hcget3poisoncans(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCPoisonempty", 2, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCPoisonempty", 3)
 end 
 
 function recipe_hcget3sulfuricacidcans(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCSulfuricacidcanempty", 2, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCSulfuricacidcanempty", 3)
 end 
 
 function recipe_hcgeteyedropper(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCEyedropper", 2, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCEyedropper")
 end 
 
 -- Get Barrels
@@ -365,7 +377,8 @@ end
 --Carpentry Stuff
 
 function recipe_hclog5(items, result, player)
-	HCAddManySameItem("Base.Log", 4, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.Log", 5)
 end 
 
 function recipe_hcwoodenstick(items, result, player)
@@ -379,16 +392,17 @@ function recipe_hcsawdust(items, result, player)
 end
 
 function recipe_hcsawdustRoap(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCSawdust");
-	HCAddManySameItem("Base.Rope", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCSawdust")
+	inv:AddItems("Base.Rope", 2) --TODO log stack could be using sheet rope, which this function is ignoring.
 end
 
 
 
 function recipe_hcpallet(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCRopethick", 0, player);
-	HCAddManySameItem("Hydrocraft.HCWoodenpallet", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCRopethick")
+	inv:AddItem("Hydrocraft.HCWoodenpallet")
 end 
 
 --Tool Stuff
@@ -427,28 +441,21 @@ end
 --Medical Stuff
 
 function recipe_hcgetmedicalskeleton(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCMedicalskeletonparts", 0, player);
-	HCAddManySameItem("Hydrocraft.HCMedicalskeletonholderparts", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCMedicalskeletonparts"")
+	inv:AddItem("Hydrocraft.HCMedicalskeletonholderparts")
 end 
 
 function recipe_hcgetpetridish(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCPetridish");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCPetridish")
 end
 
 function recipe_hcmicroscopefunghi(items, result, player)
-    local microbe = ZombRand(5);
-    if microbe == 4 then
-       player:getInventory():AddItem("Hydrocraft.HCPetripenecilinumzoom");  
-	elseif microbe == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCPetriaspergilluszoom");  
-	elseif microbe == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCPetriyeastzoom");	   
-	elseif microbe == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCPetrididymiumzoom");
-    elseif microbe == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCPetrinothingzoom");      
-    end
+	local temp = {"Hydrocraft.HCPetripenecilinumzoom", "Hydrocraft.HCPetriaspergilluszoom", "Hydrocraft.HCPetriyeastzoom", "Hydrocraft.HCPetrididymiumzoom", "Hydrocraft.HCPetrinothingzoom"}
+
+    local index = ZombRand(#temp) + 1
+	inv:AddItem(temp[index])
 end
 
 
@@ -458,7 +465,7 @@ function HCInjectyourself(items, result, player)
 end
 
 --Homemade Beta Blockers
- function HCBetaBlocker(items, result, player)
+function HCBetaBlocker(items, result, player)
 	local player = getPlayer(); 
 	local stats = player:getStats();
 	stats:setPanic(stats:getPanic() - 10);
@@ -473,11 +480,11 @@ end
 --Sewing Stuff
 
 function recipe_hcspindle3(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCSpindle", 2, player);
+	player:getInventory():AddItems("Hydrocraft.HCSpindle", 3)
 end 
 
 function recipe_hcspindle6(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCSpindle", 5, player);
+	player:getInventory():AddItems("Hydrocraft.HCSpindle", 6)
 end 
 
 function recipe_hcpincushion(items, result, player)
@@ -533,8 +540,9 @@ function recipe_hcwashtub(items, result, player)
 end
 
 function recipe_hcwoodenbucketbottle(items, result, player)
-	HCAddManySameItem("Base.WhiskeyEmpty", 0, player);
-	HCAddManySameItem("Hydrocraft.HCWoodenbucket", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Base.WhiskeyEmpty")
+	inv:AddItem("Hydrocraft.HCWoodenbucket")
 end 
 
 function recipe_hcwoodenbucket(items, result, player)
@@ -544,15 +552,17 @@ end
 
 function recipe_hcwoodenbucket2(items, result, player)
 	local inv = player:getInventory();
-	inv:AddItems("Hydrocraft.HCWoodenbucket",2);
+	inv:AddItems("Hydrocraft.HCWoodenbucket", 2);
 end
 
 function recipe_hcwoodenbucket4(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCWoodenbucket", 3, player);
+	local inv = player:getInventory();
+	inv:AddItems("Hydrocraft.HCWoodenbucket", 4);
 end 
 
 function recipe_hcwoodenbucket5(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCWoodenbucket", 4, player);
+	local inv = player:getInventory();
+	inv:AddItems("Hydrocraft.HCWoodenbucket", 5);
 end 
 
 function recipe_hcwoodenbarrel(items, result, player)
@@ -563,108 +573,63 @@ end
 --Electric  Stuff
 
 function recipe_hcsolarpark(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCSolarpark");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCSolarpark")
 end
 
 function recipe_hcelectronics(items, result, player)
-    local pup = ZombRand(5);
-    if pup == 4 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicpartsbroken");  
-	elseif pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCLedyellow");  
-	elseif pup == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCLedgreen");	   
-	elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCLedred");
-    elseif pup == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCCablecopper");      
-    end
+	local temp = {"Hydrocraft.HCElectronicpartsbroken", "Hydrocraft.HCLedyellow", "Hydrocraft.HCLedgreen", "Hydrocraft.HCLedred", "Hydrocraft.HCCablecopper"}
+    local index = ZombRand(#temp) + 1
+	local inv = player:getInventory()
+	inv:AddItem(temp[index]);
 end
 
 function recipe_hcheaterwire(items, result, player)
-    local pup = ZombRand(5);
-    if pup == 4 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicpartsbroken");  
-	elseif pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCWireconstantan");  
-	elseif pup == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCLedyellow");	   
-	elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCLedgreen");
-    elseif pup == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCLedred");      
-    end
+	local temp = {"Hydrocraft.HCElectronicpartsbroken", "Hydrocraft.HCWireconstantan", "Hydrocraft.HCLedyellow", "Hydrocraft.HCLedgreen", "Hydrocraft.HCLedred"}
+    local index = ZombRand(#temp) + 1
+	local inv = player:getInventory()
+	inv:AddItem(temp[index])
 end
 
 function recipe_hcelectromotorsmall(items, result, player)
-    local pup = ZombRand(5);
-    if pup == 4 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicpartsbroken");  
-	elseif pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCElectromotorsmall");  
-	elseif pup == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCLedyellow");	   
-	elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCLedgreen");
-    elseif pup == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCLedred");      
-    end
+	local temp = {"Hydrocraft.HCElectronicpartsbroken", "Hydrocraft.HCElectromotorsmall", "Hydrocraft.HCLedyellow", "Hydrocraft.HCLedgreen", "Hydrocraft.HCLedred"}
+    local index = ZombRand(#temp) + 1
+	local inv = player:getInventory()
+	inv:AddItem(temp[index])
 end
 
 function recipe_hcelectronics02(items, result, player)
-    local pup = ZombRand(25);
-    if pup == 24 then
-       player:getInventory():AddItem("Hydrocraft.HCCircutchip");  
-	elseif pup == 23 then
-       player:getInventory():AddItem("Hydrocraft.HCCeramicoscillator");  
-	elseif pup == 22 then
-       player:getInventory():AddItem("Hydrocraft.HCIREncoder");  
-	elseif pup == 21 then
-       player:getInventory():AddItem("Hydrocraft.HCIRDecoder");  
-	elseif pup == 20 then
-       player:getInventory():AddItem("Hydrocraft.HCDiode");	   
-	elseif pup == 19 then
-       player:getInventory():AddItem("Hydrocraft.HCFuse");
-	elseif pup == 18 then
-       player:getInventory():AddItem("Hydrocraft.HCGlowlamp");	   
-	elseif pup == 17 then
-       player:getInventory():AddItem("Hydrocraft.HCInduktor");
-        elseif pup == 16 then
-       player:getInventory():AddItem("Hydrocraft.HCIREmitter");  
-	elseif pup == 15 then
-       player:getInventory():AddItem("Hydrocraft.HCIRReceiver");	   
-	elseif pup == 14 then
-       player:getInventory():AddItem("Hydrocraft.HCLDR");
-	elseif pup == 13 then
-       player:getInventory():AddItem("Hydrocraft.HCPoti");	   
-	elseif pup == 12 then
-       player:getInventory():AddItem("Hydrocraft.HCReceiverIC");  
-	elseif pup == 11 then
-       player:getInventory():AddItem("Hydrocraft.HCTransistor");	   
-	elseif pup == 10 then
-       player:getInventory():AddItem("Hydrocraft.HCTerminalstrip");
-	elseif pup == 9 then
-       player:getInventory():AddItem("Hydrocraft.HCResistor");	   
-	elseif pup == 8 then
-       player:getInventory():AddItem("Hydrocraft.HCLedblue");
-        elseif pup == 7 then
-       player:getInventory():AddItem("Hydrocraft.HCLedyellow");  
-	elseif pup == 6 then
-       player:getInventory():AddItem("Hydrocraft.HCCapacitor02");	   
-	elseif pup == 5 then
-       player:getInventory():AddItem("Hydrocraft.HCCapacitor01");
-	elseif pup == 4 then
-       player:getInventory():AddItem("Hydrocraft.HCLedgreen");	   
-	elseif pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCLedred");
-        elseif pup == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCCoppercablestriped");	   
-	elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCCoppercablered");
-        elseif pup == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCCablecopper");      
-    end
+	local temp = {
+		"Hydrocraft.HCCircutchip",
+		"Hydrocraft.HCCeramicoscillator",
+		"Hydrocraft.HCIREncoder",
+		"Hydrocraft.HCIRDecoder",
+		"Hydrocraft.HCDiode",
+		"Hydrocraft.HCFuse",
+		"Hydrocraft.HCGlowlamp",
+		"Hydrocraft.HCInduktor",
+		"Hydrocraft.HCIREmitter",
+		"Hydrocraft.HCIRReceiver",
+		"Hydrocraft.HCLDR",
+		"Hydrocraft.HCPoti",
+		"Hydrocraft.HCReceiverIC",
+		"Hydrocraft.HCTransistor",
+		"Hydrocraft.HCTerminalstrip",
+		"Hydrocraft.HCResistor",
+		"Hydrocraft.HCLedblue",
+		"Hydrocraft.HCLedyellow",
+		"Hydrocraft.HCCapacitor02",
+		"Hydrocraft.HCCapacitor01",
+		"Hydrocraft.HCLedgreen",
+		"Hydrocraft.HCLedred",
+		"Hydrocraft.HCCoppercablestriped",
+		"Hydrocraft.HCCoppercablered",
+		"Hydrocraft.HCCablecopper"
+	}
+    local index = ZombRand(#temp) + 1
+	local inv = player:getInventory()
+	inv:AddItem(temp[index])
+
 end
 
 function recipe_hclightbulb(items, result, player)
@@ -705,202 +670,203 @@ end
 
 
 function recipe_hcwashingmachine(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCElectromotor", 0, player);
-	HCAddManySameItem("Base.SheetMetal", 1, player);
-	HCAddManySameItem("Hydrocraft.HCWashingmachinepump", 0, player);
-	HCAddManySameItem("Hydrocraft.HCTerminalstrip", 4, player);
-	HCAddManySameItem("Hydrocraft.HCColoredwire", 1, player);
-	HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-	HCAddManySameItem("Hydrocraft.HCCablecopper", 0, player);
-	HCAddManySameItem("Hydrocraft.HCElectronicpartsbroken", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCElectromotor")
+	inv:AddItems("Hydrocraft.SheetMetal", 2)
+	inv:AddItem("Hydrocraft.HCWashingmachinepump")
+	inv:AddItems("Hydrocraft.HCTerminalstrip", 5)
+	inv:AddItems("Hydrocraft.HCColoredwire", 2)
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCLedgreen")
+	inv:AddItem("Hydrocraft.HCCablecopper")
+	inv:AddItems("Hydrocraft.HCElectronicpartsbroken", 2)
 end 
 
 function recipe_hcfridge(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCElectromotor", 0, player);
-	HCAddManySameItem("Base.SheetMetal", 0, player);
-	HCAddManySameItem("Hydrocraft.HCTerminalstrip", 4, player);
-	HCAddManySameItem("Hydrocraft.HCColoredwire", 1, player);
-	HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-	HCAddManySameItem("Hydrocraft.HCCablecopper", 0, player);
-	HCAddManySameItem("Hydrocraft.HCElectronicpartsbroken", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCElectromotor")
+	inv:AddItem("Hydrocraft.SheetMetal")
+	inv:AddItems("Hydrocraft.HCTerminalstrip", 5)
+	inv:AddItems("Hydrocraft.HCColoredwire", 2)
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCLedgreen")
+	inv:AddItem("Hydrocraft.HCCablecopper")
+	inv:AddItems("Hydrocraft.HCElectronicpartsbroken", 2)
 end 
 
 function recipe_hclargevac(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCElectromotor", 0, player);
-	HCAddManySameItem("Hydrocraft.HCSteelpipe", 0, player);
-	HCAddManySameItem("Hydrocraft.HCSwitch", 0, player);
-	HCAddManySameItem("Hydrocraft.HCTerminalstrip", 4, player);
-	HCAddManySameItem("Hydrocraft.HCColoredwire", 1, player);
-	HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-	HCAddManySameItem("Hydrocraft.HCCablecopper", 0, player);
-	HCAddManySameItem("Hydrocraft.HCElectronicpartsbroken", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCElectromotor")
+	inv:AddItem("Hydrocraft.HCSteelpipe")
+	inv:AddItem("Hydrocraft.HCSwitch")
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCLedgreen")
+	inv:AddItem("Hydrocraft.HCCablecopper")
+	inv:AddItems("Hydrocraft.HCTerminalstrip", 5)
+	inv:AddItems("Hydrocraft.HCColoredwire", 2)
+	inv:AddItems("Hydrocraft.HCElectronicpartsbroken", 2)
 end 
 
 
 function recipe_hcDismEguitar(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCSwitch", 0, player);
-	HCAddManySameItem("Hydrocraft.HCColoredwire", 1, player);
-	HCAddManySameItem("Base.ElectronicsScrap", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCSwitch")
+	inv:AddItems("Hydrocraft.HCColoredwire", 2)
+	inv:AddItems("Hydrocraft.ElectronicsScrap", 2)
 end 
 
-
-
-
 function recipe_hcbike1(items, result, player)
-	HCAddManySameItem("Base.Pipe", 3, player);
-	HCAddManySameItem("Hydrocraft.HCBicyclewheel", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCBicyclewheel")
+	inv:AddItems("Base.Pipe", 4)
 end 
 
 function recipe_hcbike2(items, result, player)
-	HCAddManySameItem("Base.Pipe", 3, player);
-	HCAddManySameItem("Hydrocraft.HCBicyclewheel", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.Pipe", 4)
+	inv:AddItems("Base.HCBicyclewheel", 2)
 end 
 
 function recipe_hcelectronicparts(items, result, player)
-    local pup = ZombRand(5);
-    if pup == 4 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicparts04");  
-	elseif pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicparts03");  
-	elseif pup == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicparts02");	   
-	elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicparts01");
-    elseif pup == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCElectronicpartsbroken");      
-    end
+	local temp = {"Hydrocraft.HCElectronicparts04", "Hydrocraft.HCElectronicparts03", "Hydrocraft.HCElectronicparts02", "Hydrocraft.HCElectronicparts01", "Hydrocraft.HCElectronicpartsbroken"}
+
+    local index = ZombRand(#temp) + 1
+	player:getInventory():AddItem(temp[index]);
+
 end
 
 function recipe_hcsortparts01(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCapacitor02", 1, player);
-	HCAddManySameItem("Hydrocraft.HCPoti", 0, player);
-	HCAddManySameItem("Hydrocraft.HCTransistor", 1, player);
-	HCAddManySameItem("Hydrocraft.HCReceiverIC", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-	HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCCapacitor02", 2)
+	inv:AddItem("Hydrocraft.HCPoti")
+	inv:AddItems("Hydrocraft.HCTransistor", 2)
+	inv:AddItem("Hydrocraft.HCReceiverIC")
+	inv:AddItem("Hydrocraft.HCLedgreen")
+	inv:AddItems("Hydrocraft.HCResistor", 2)
 end 
 
 function recipe_hcsortparts02(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCeramicoscillator", 0, player);
-	HCAddManySameItem("Hydrocraft.HCCapacitor01", 0, player);
-	HCAddManySameItem("Hydrocraft.HCCapacitor02", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedblue", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedyellow", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-	HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCResistor", 2)
+	inv:AddItem("Hydrocraft.HCCeramicoscillator")
+	inv:AddItem("Hydrocraft.HCCapacitor01")
+	inv:AddItem("Hydrocraft.HCCapacitor02")
+	inv:AddItem("Hydrocraft.HCLedblue")
+	inv:AddItem("Hydrocraft.HCLedyellow")
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCLedgreen")
 end 
 
 function recipe_hcsortparts03(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCapacitor02", 0, player);
-	HCAddManySameItem("Hydrocraft.HCDiode", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLDR", 0, player);
-	HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-	HCAddManySameItem("Hydrocraft.HCTransistor", 0, player);
-	HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCCapacitor02")
+	inv:AddItem("Hydrocraft.HCLDR")
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCTransistor")
+	inv:AddItems("Hydrocraft.HCDiode", 4)
+	inv:AddItems("Hydrocraft.HCResistor", 2)
 end 
 
 function recipe_hcsortparts04(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCapacitor02", 0, player);
-	HCAddManySameItem("Hydrocraft.HCDiode", 2, player);
-	HCAddManySameItem("Hydrocraft.HCIREncoder", 0, player);
-	HCAddManySameItem("Hydrocraft.HCIREmitter", 0, player);
-	HCAddManySameItem("Hydrocraft.HCIRReceiver", 0, player);
-	HCAddManySameItem("Hydrocraft.HCResistor", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCCapacitor02")
+	inv:AddItem("Hydrocraft.HCIREncoder")
+	inv:AddItem("Hydrocraft.HCIREmitter")
+	inv:AddItem("Hydrocraft.HCIRReceiver")
+	inv:AddItems("Hydrocraft.HCDiode", 3)
+	inv:AddItems("Hydrocraft.HCResistor", 2)
 end 
 
 function recipe_hccabletangle(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCWirecopper", 1, player);
-	HCAddManySameItem("Hydrocraft.HCCoppercablestriped", 0, player);
-	HCAddManySameItem("Hydrocraft.HCCoppercablered", 1, player);
-	HCAddManySameItem("Hydrocraft.HCCablecopper", 1, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCCoppercablestriped")
+	inv:AddItems("Hydrocraft.HCWirecopper", 2)
+	inv:AddItems("Hydrocraft.HCCoppercablered", 2)
+	inv:AddItems("Hydrocraft.HCCablecopper", 2)
 end 
 
 function recipe_hcrecyclecable(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCCoppercablestriped", 0, player);
-	HCAddManySameItem("Hydrocraft.HCCoppercablered", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCCoppercablestriped")
+	inv:AddItem("Hydrocraft.HCCoppercablered")
 end 
 
 function recipe_hcdismantleengineparts(items, result, player)
-    local parts = ZombRand(5);
-    if parts == 4 then
-       player:getInventory():AddItem("Hydrocraft.HCFanbelt");  
-	elseif parts == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCClutch");  
-	elseif parts == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCCamshaft");	   
-	elseif parts == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCAirfilter");
-    elseif parts == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCSparkplug");      
-    end
+	local temp = {"Hydrocraft.HCFanbelt", "Hydrocraft.HCClutch", "Hydrocraft.HCCamshaft", "Hydrocraft.HCAirfilter", "Hydrocraft.HCSparkplug"}
+    local index = ZombRand(#temp) + 1
+	player:getInventory():AddItem(temp[index])
 end
 
 function recipe_hcdismantlebreaks(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCBreakpads");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCBreakpads")
 end
 
 function recipe_hcreturngen(items, result, player)
-    HCAddManySameItem("Base.Generator", 0, player);
-    HCAddManySameItem("Hydrocraft.HCPowercord", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Base.Generator")
+	inv:AddItem("Hydrocraft.HCPowercord")
 end
 
 function recipe_hcdismantlemetal(items, result, player)
-    HCAddManySameItem("Base.SheetMetal", 10, player);
-    HCAddManySameItem("Hydrocraft.HCMetalwheeliron", 3, player);
-    HCAddManySameItem("Base.SmallSheetMetal", 1, player);
+	local inv = player:getInventory()
+	inv:AddItems("Base.SheetMetal", 11)
+	inv:AddItems("Hydrocraft.HCMetalwheeliron", 4)
+	inv:AddItems("Base.SmallSheetMetal", 2)
 end
 
-function recipe_hcdismantleforklift(items, result, player)  
-    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 1, player);
-    HCAddManySameItem("Hydrocraft.HCSteelsheetlarge", 1, player);
-    HCAddManySameItem("Hydrocraft.HCCablecopper,", 1, player);
-    HCAddManySameItem("Hydrocraft.HCLedblue", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-    HCAddManySameItem("Base.SheetMetal", 11, player);
-    HCAddManySameItem("Base.ElectronicsScrap", 19, player);
-    HCAddManySameItem("Base.NormalCarSeat1", 0, player);
-    HCAddManySameItem("Base.MetalBar", 23, player);
-    HCAddManySameItem("Base.EngineParts", 9, player);
-    HCAddManySameItem("Base.MetalPipe", 0, player);
-    HCAddManySameItem("Base.CarBattery1", 0, player);
-    HCAddManySameItem("Base.LightBulbOrange", 0, player);
-    HCAddManySameItem("Base.Mirror", 1, player);
+function recipe_hcdismantleforklift(items, result, player)
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCLargesheetmetal", 2)
+	inv:AddItems("Hydrocraft.HCSteelsheetlarge", 2)
+	inv:AddItems("Hydrocraft.HCCablecopper", 2)
+	inv:AddItems("Base.SheetMetal", 12)
+	inv:AddItems("Base.ElectronicsScrap", 20)
+	inv:AddItems("Base.MetalBar", 24)
+	inv:AddItems("Base.EngineParts", 10)
+	inv:AddItems("Base.Mirror", 2)
+
+	inv:AddItem("Hydrocraft.HCLedblue")
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCLedgreen")
+	inv:AddItem("Base.NormalCarSeat1")
+	inv:AddItem("Base.MetalPipe")
+	inv:AddItem("Base.CarBattery1")
+	inv:AddItem("Base.LightBulbOrange")
 end
 
-function recipe_hcdismantlescissorlift(items, result, player)  
-    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 5, player);
-    HCAddManySameItem("Hydrocraft.HCCablecopper,", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedyellow", 0, player);
-    HCAddManySameItem("Base.SheetMetal", 3, player);
-    HCAddManySameItem("Base.ElectronicsScrap", 19, player);
-    HCAddManySameItem("Base.MetalBar", 54, player);
-    HCAddManySameItem("Base.EngineParts", 9, player);
-    HCAddManySameItem("Base.MetalPipe", 0, player);
-    HCAddManySameItem("Base.CarBattery1", 0, player);
-    HCAddManySameItem("Base.RemoteCraftedV3", 0, player);
+function recipe_hcdismantlescissorlift(items, result, player)
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCLargesheetmetal", 6)
+	inv:AddItems("Base.SheetMetal", 4)
+	inv:AddItems("Base.ElectronicsScrap", 20)
+	inv:AddItems("Base.MetalBar", 55)
+	inv:AddItems("Base.EngineParts", 10)
+
+	inv:AddItem("Hydrocraft.HCCablecopper")
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCLedgreen")
+	inv:AddItem("Hydrocraft.HCLedyellow")
+	inv:AddItem("Base.MetalPipe")
+	inv:AddItem("Base.CarBattery1")
+	inv:AddItem("Base.RemoteCraftedV3")
 end
 
-function recipe_hcdismantleteslamachine(items, result, player)  
-    HCAddManySameItem("Hydrocraft.HCAluminumscrap", 1, player);
-    HCAddManySameItem("Hydrocraft.HCRubberbelt", 3, player);
-    HCAddManySameItem("Hydrocraft.HCPully", 3, player);
-    HCAddManySameItem("Hydrocraft.HCLargesheetmetal", 4, player);
-    HCAddManySameItem("Hydrocraft.HCLever", 1, player);
-    HCAddManySameItem("Hydrocraft.HCConstantanheatingcoil", 7, player);
-    HCAddManySameItem("Hydrocraft.HCCopperpipe", 1, player);
-    HCAddManySameItem("Hydrocraft.HCCablecopper,", 3, player);
-    HCAddManySameItem("Hydrocraft.HCLedred", 0, player);
-    HCAddManySameItem("Hydrocraft.HCLedgreen", 0, player);
-    HCAddManySameItem("Base.SmallSheetMetal", 11, player);
-    HCAddManySameItem("Base.SheetMetal", 1, player);
+function recipe_hcdismantleteslamachine(items, result, player)
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCLedred")
+	inv:AddItem("Hydrocraft.HCLedgreen")
+	
+	inv:AddItems("Hydrocraft.HCAluminumscrap", 2)
+	inv:AddItems("Hydrocraft.HCRubberbelt", 4)
+	inv:AddItems("Hydrocraft.HCPully", 4)
+	inv:AddItems("Hydrocraft.HCLargesheetmetal", 5)
+	inv:AddItems("Hydrocraft.HCLever", 2)
+	inv:AddItems("Hydrocraft.HCConstantanheatingcoil", 8)
+	inv:AddItems("Hydrocraft.HCCopperpipe", 2)
+	inv:AddItems("Hydrocraft.HCCablecopper", 4)
+	inv:AddItems("Base.SmallSheetMetal", 12)
+	inv:AddItems("Base.SheetMetal", 2)
 end
 
 function recipe_hcdismantlecopymachine(items, result, player)  
@@ -944,17 +910,6 @@ function recipe_hcdismantlehanddolly(items, result, player)
     HCAddManySameItem("Hydrocraft.HCMetalwheel", 1, player);
     HCAddManySameItem("Hydrocraft.HCRubberscrap", 3, player);
 end
-
---[[
-function recipe_hcdismantlepushcart(items, result, player)
-    HCAddManySameItem("Base.MetalBar", 6, player);
-    HCAddManySameItem("Hydrocraft.HCMetalwheel", 3, player);
-    HCAddManySameItem("Hydrocraft.HCAluminumscrap",11, player);
-    HCAddManySameItem("Hydrocraft.HCPlasticscrap", 9, player);
-    HCAddManySameItem("Hydrocraft.HCPlastic", 0, player);
-end
---duplicate function removed, might be meant for another item (copy and paste error?)
-]]--
 
 function recipe_hcdismantlepushcart(items, result, player)
     HCAddManySameItem("Base.MetalBar", 3, player);
