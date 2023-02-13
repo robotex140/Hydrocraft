@@ -638,24 +638,6 @@ recipe Make Iron Battleaxe
 		Fixer : HCHotgluegunfull=2,
 	}
 
-	fixing Fix Lumber Axe
-   {
-	   	Require : HCLumberaxe,
-		Fixer : Woodglue=2; Woodwork=2,
-       	Fixer : DuctTape=2,
-       	Fixer : Glue=2,
-		Fixer : Hydrocraft.HCWoodgluejar=2; Woodwork=2,
-		Fixer : Hydrocraft.HCGluejar=2,
-       	Fixer : Scotchtape=4,
-		Fixer : HCMaskingtape=2,
-		Fixer : HCPackingtape=2,
-		Fixer : HCElectrictape=2,
-		Fixer : HCRubbercement=2,
-		Fixer : HCSuperglue,
-		Fixer : HCHotgluegunfull=2,
-    }
-
-
 	fixing Fix Sawblade Axe
    {
 	   	Require : HCSawbladeaxe,
