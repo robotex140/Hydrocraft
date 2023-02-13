@@ -435,7 +435,7 @@ item HCAxeheadblunt
 recipe Craft Axe Handle
 	{
 		Plank,
-		keep Saw/GardenSaw,
+		keep [Recipe.GetItemTypes.Saw],
 		Result:HCAxehandle,
 		Time:150.0,
 		Category:Carpentry,

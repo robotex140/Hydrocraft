@@ -1979,7 +1979,7 @@ module Hydrocraft
 	recipe Craft Baseball Bat
 	{
 		SkillRequired:Woodwork=8,
-		keep Saw/GardenSaw,
+		keep [Recipe.GetItemTypes.Saw],
 		keep Hammer,
 		keep Screwdriver,
 		Log/HCOakLog,

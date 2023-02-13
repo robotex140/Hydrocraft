@@ -658,7 +658,7 @@ recipe Make Herbalist Table
 	    HCClayjarsmall=2,
 	    HCTablewood,
         keep Hammer,
-	    keep Saw/GardenSaw,
+	    keep [Recipe.GetItemTypes.Saw],
 	    OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,
     	Result:HCHerbtable,
