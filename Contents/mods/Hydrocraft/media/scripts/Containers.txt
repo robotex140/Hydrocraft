@@ -530,17 +530,6 @@ module Hydrocraft
 		DisplayCategory	= Container,
     }
 
-    item HCWardrobe
-    {
-        WeightReduction     = 10,
-        Weight              = 10,
-        Type                = Container,
-        Capacity            = 100,
-        DisplayName         = Wardrobe,
-        Icon                = HCWardrobe,
-		DisplayCategory	= Container,
-    }
-
     item HCPlasticbin
     {
         WeightReduction     = 60,

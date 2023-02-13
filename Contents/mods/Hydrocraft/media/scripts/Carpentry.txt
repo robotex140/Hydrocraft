@@ -1544,27 +1544,6 @@ recipe Make Wooden Crate
         OnGiveXP:Recipe.OnGiveXP.None,
     }
 
-recipe Make Wardrobe
-    {
-        SkillRequired:Woodwork=7,
-        HCLumberstack,
-        Nails=24,
-        HCWoodbeam=2,
-        Hinge=4,
-        Doorknob=2,
-        Drawer=2,
-        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-        keep Hammer,
-        keep [Recipe.GetItemTypes.Saw],
-        OnTest:HCNearCarpybench,
-        CanBeDoneFromFloor:true,
-        Result:HCWardrobe,
-        Sound:PZ_Hammer,
-        Time:1000,
-        Category:Carpentry,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
 recipe Make Wooden Pallet
     {
         SkillRequired:Woodwork=1,
