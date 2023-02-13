@@ -1648,26 +1648,8 @@ recipe Unpack Pallet of Lumber
 
 recipe Make Wooden Wheel
     {
-        SkillRequired:Woodwork=7,
         HCWoodenring,
-        Woodglue=6,
-        WoodenStick=3,
-        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
-        keep Hammer,
-        keep [Recipe.GetItemTypes.Saw],
-        OnTest:HCNearCarpybench,
-        CanBeDoneFromFloor:true,
-        Result:HCWoodwheel,
-        Sound:PZ_Hammer,
-        Time:100,
-        Category:Carpentry,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-recipe Make Wooden Wheel
-    {
-        HCWoodenring,
-        HCWoodgluejar=6,
+        HCWoodgluejar/Woodglue=6,
         WoodenStick=3,
         HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
         keep Hammer,
