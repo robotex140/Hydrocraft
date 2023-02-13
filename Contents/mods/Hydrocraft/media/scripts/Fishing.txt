@@ -369,10 +369,7 @@ recipe Make Lure
 recipe Make Lure
     {
 	SkillRequired:Fishing=3,
-	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
-	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
-	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
-	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium,
+	Paperclip/HCFishhookbone/HCFishhookcopper/HCFishhooktin/HCFishhookbronze/HCFishhookiron/HCFishhooksteel/HCFishhookaluminum/HCFishhooktitanium=4,
     	WoodenStick/Twigs,
 	HCGrass/HCStraw/HCPlantfibers,
 	HCHotgluegunfull/HCSuperglue,
