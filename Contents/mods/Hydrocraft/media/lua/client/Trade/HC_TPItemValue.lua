@@ -3564,7 +3564,6 @@ ItemValueTable["Hydrocraft.HCSolidfuelbox"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSolidfuelcube"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSolidfuelcubes"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSombrero"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCSoupbouillon"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSourcream"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSourdoughstarter"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCSourdoughstarterdepleted"] = 0.00 ;
