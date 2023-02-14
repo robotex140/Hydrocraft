@@ -1528,34 +1528,6 @@ function recipe_hcgivemusselshell(items, result, player)
 	inv:AddItem("Hydrocraft.HCMusselshell")
 end
 
---Chicken Ramen
-function recipe_openchickenramen(items, result, player)
-	local inv = player:getInventory()
-	inv:AddItem("Hydrocraft.HCRamenchickenflavor")
-	inv:AddItem("Hydrocraft.HCRamenchickentrash")
-end
-
---Beef Ramen
-function recipe_openbeeframen(items, result, player)
-	local inv = player:getInventory()
-	inv:AddItem("Hydrocraft.HCRamenbeefflavor")
-	inv:AddItem("Hydrocraft.HCRamenbeeftrash")
-end
-
---Shrimp Ramen
-function recipe_openshrimpramen(items, result, player)
-	local inv = player:getInventory()
-	inv:AddItem("Hydrocraft.HCRamenshrimpflavor")
-	inv:AddItem("Hydrocraft.HCRamenshrimptrash")
-end
-
---Cheese Ramen
-function recipe_opencheeseramen(items, result, player)
-	local inv = player:getInventory()
-	inv:AddItem("Hydrocraft.HCRamencheeseflavor")
-	inv:AddItem("Hydrocraft.HCRamencheesetrash")
-end
-
 --Unbox Flat of Ramen
 function recipe_unboxramenflat(items, result, player)
 	player:getInventory():AddItem("Hydrocraft.HCCardboardflat")
