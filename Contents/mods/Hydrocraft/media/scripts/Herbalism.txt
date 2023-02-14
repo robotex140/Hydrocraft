@@ -1424,7 +1424,7 @@ recipe Make Super Glue
     	OnGiveXP:HCCooking_OnGiveXP,
    	}
 
-recipe Gather Seeds
+recipe Gather Seeds /*DO NOT reorder the ingredients in this recipe, needed for HCgatherSeeds */
     {
         [Recipe.GetItemTypes.GatherSeeds],
         keep [Recipe.GetItemTypes.SharpKnife],

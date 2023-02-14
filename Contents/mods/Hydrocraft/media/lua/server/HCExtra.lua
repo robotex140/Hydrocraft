@@ -1,7 +1,4 @@
 --Initializations.
-BoltsArrows = {};
-BoltsArrows.SBolts = {x=0, y=1, z=2};
-BoltsArrows.SArrows = {x=0, y=1, z=2};
 
 Recipe = Recipe or {}
 Recipe.OnCreate = Recipe.OnCreate or {}
@@ -2348,118 +2345,100 @@ end
 
 --Randomized Baby Pigs.
 function getPigBaby(items, result, player)
-    weightCount = ZombRand(3);
-    count = 0;
-    mcount = 0;
-    if weightCount == 0 then
-        count = 1;
-    elseif weightCount <= 1  then
-        count = 2;
-    elseif weightCount <= 2 then
-        count = 3;
-    end
-	--Randomize gender.
-    for x=0, count-1 do
-        gender = ZombRand(2);
-        if gender == 0 then
-            mcount = mcount + 1;
-        end
-    end
-	--Add males to inventory, if any.
-    if mcount > 0 then
-        HCAddManySameItem("Hydrocraft.HCPigmalebaby", mcount-1, player);
-    end
-	--Add females to inventory, if any.
-    if mcount < count then
-        HCAddManySameItem("Hydrocraft.HCPigfemalebaby", (count-mcount)-1, player);
-    end;
-	
-		player:getInventory():AddItem("Hydrocraft.HCPigmaletired");
+	local pigletCount = ZombRand(3) + 1
+	local maleCount = ZombRand(pigletCount)
+	local femaleCount = pigletCount - maleCount
+	local inv = player:getInventory()
+	if maleCount > 0 then
+		inv:AddItems("Hydrocraft.HCPigmalebaby", maleCount)
+	end
+	if femaleCount > 0 then
+		inv:AddItems("Hydrocraft.HCPigfemalebaby", femaleCount)
+	end
+	inv:AddItem("Hydrocraft.HCPigmaletired") --female is returned via result of recipe.
 end
 
 --Randomized Sheep.
 function getSheep(items, result, player)
- if ( player:isOutside() == false ) then
-player:Say("I cannot find sheep indoors!");
-player:getInventory():AddItem("Hydrocraft.HCSheeppoopferal");
-player:getInventory():AddItem("Base.Rope");
-else
-    sheep = ZombRand(4);
-    if sheep == 3 then
-        player:getInventory():AddItem("Hydrocraft.HCSheepmale");
-    elseif sheep == 2 then
-        player:getInventory():AddItem("Hydrocraft.HCSheepfemale");
-    end
-end
+	if ( player:isOutside() == false ) then
+		player:Say("I cannot find sheep indoors!") --TODO: translate this.
+		player:getInventory():AddItem("Hydrocraft.HCSheeppoopferal")
+		player:getInventory():AddItem("Base.Rope")
+	else
+		sheep = ZombRand(4);
+		if sheep == 3 then
+			player:getInventory():AddItem("Hydrocraft.HCSheepmale")
+		elseif sheep == 2 then
+			player:getInventory():AddItem("Hydrocraft.HCSheepfemale")
+		end
+	end
 end
 
 --Randomized Baby Sheep.
-function getSheepBaby(items, result, player)	
-		local sheep = ZombRand(1,2);
-		if sheep == 1 then
-			player:getInventory():AddItem("Hydrocraft.HCSheepmalebaby");
-		elseif sheep == 0 then
-			player:getInventory():AddItem("Hydrocraft.HCSheepfemalebaby");
-		end;
-		
-		player:getInventory():AddItem("Hydrocraft.HCSheepmaletired");
+function getSheepBaby(items, result, player)
+	local inv = player:getInventory()
+	if ZombRand(2) == 0 then
+		inv:AddItem("Hydrocraft.HCSheepmalebaby")
+	else
+		inv:AddItem("Hydrocraft.HCSheepfemalebaby")
+	end	
+	inv:AddItem("Hydrocraft.HCSheepmaletired")
 end
 
 --Randomized Goat.
 function getGoat(items, result, player)
- if ( player:isOutside() == false ) then
-player:Say("I cannot find anything indoors!");
-player:getInventory():AddItem("Hydrocraft.HCGoatpoopferal");
-player:getInventory():AddItem("Base.Rope");
-else
-    sheep = ZombRand(4);
-    if sheep == 3 then
-        player:getInventory():AddItem("Hydrocraft.HCGoatmale");
-    elseif sheep == 2 then
-        player:getInventory():AddItem("Hydrocraft.HCGoatfemale");
-    end
-end
+	local inv = player:getInventory()
+	if player:isOutside() then
+		local r = ZombRand(4);
+		if r == 0 then
+			inv:AddItem("Hydrocraft.HCGoatmale");
+		elseif r == 1 then
+			inv:AddItem("Hydrocraft.HCGoatfemale");
+		end
+	else
+		player:Say("I cannot find anything indoors!");
+		inv:AddItem("Hydrocraft.HCGoatpoopferal");
+		inv:AddItem("Base.Rope");
+	end
 end
 
 --Randomized Baby Goat.
-function getGoatBaby(items, result, player)	
-		local goat = ZombRand(2);
-		if goat == 1 then
-			player:getInventory():AddItem("Hydrocraft.HCGoatmalebaby");
-		elseif goat == 0 then
-			player:getInventory():AddItem("Hydrocraft.HCGoatfemalebaby");
-		end;
-		
-		player:getInventory():AddItem("Hydrocraft.HCGoatmaletired");
+function getGoatBaby(items, result, player)
+	local inv = player:getInventory()
+	if ZombRand(2) == 0 then
+		inv:AddItem("Hydrocraft.HCGoatmalebaby")
+	else
+		inv:AddItem("Hydrocraft.HCGoatfemalebaby")
+	end
+	inv:AddItem("Hydrocraft.HCGoatmaletired")
 end
 
 --Randomized Cow.
 function getCow(items, result, player)
- if ( player:isOutside() == false ) then
-player:Say("I cannot find anything indoors!");
-player:getInventory():AddItem("Hydrocraft.HCCowpoopferal");
-player:getInventory():AddItem("Base.Rope");
-else
-    cow = ZombRand(4);
-    if cow == 3 then
-        player:getInventory():AddItem("Hydrocraft.HCCowmale");
-    elseif cow == 2 then
-        player:getInventory():AddItem("Hydrocraft.HCCowfemale");
-    end
-end
+	local inv = player:getInventory()
+	if player:isOutside() then
+		local r = ZombRand(4)
+		if r == 0 then
+			inv:AddItem("Hydrocraft.HCCowmale")
+		elseif r == 1 then
+			inv:AddItem("Hydrocraft.HCCowfemale")
+		end
+	else
+		player:Say("I cannot find anything indoors!")
+		inv:AddItem("Hydrocraft.HCCowpoopferal")
+		inv:AddItem("Base.Rope")
+	end
 end
 
 --Randomized Baby Cow.
-function getCowBaby(items, result, player)	
-		local cow = ZombRand(2);
-		if cow == 1 then
-			player:getInventory():AddItem("Hydrocraft.HCCowmalebaby");
-		elseif cow == 0 then
-			player:getInventory():AddItem("Hydrocraft.HCCowfemalebaby");
-		end;
-		
-		player:getInventory():AddItem("Hydrocraft.HCCowmaletired");
-		
+function getCowBaby(items, result, player)
+	local inv = player:getInventory()
+	if ZombRand(2) == 0 then
+		inv:AddItem("Hydrocraft.HCCowmalebaby")
+	else
+		inv:AddItem("Hydrocraft.HCCowfemalebaby")
+	end
+	player:getInventory():AddItem("Hydrocraft.HCCowmaletired")		
 end
 
 --Randomized Donkey.
@@ -2520,111 +2499,26 @@ end
 
 --Randomized Silk Moth.
 function getSilkmoth(items, result, player)
-    silkmoth = ZombRand(4);
-    if silkmoth == 3 then
+	local r = ZombRand(4)
+    if r == 0 then
         player:getInventory():AddItem("Hydrocraft.HCSilkmothmale");
-    elseif silkmoth == 2 then
+    elseif r == 1 then
         player:getInventory():AddItem("Hydrocraft.HCSilkmothfemale");
     end
 end
 
 --Randomized Baby Rabbits.
 function HCRabbitGet(items, result, player)
-    weightCount = ZombRand(56);
-    count = 0;
-    mcount = 0;
-    if weightCount == 0 then
-        count = 1;
-    elseif weightCount <= 2  then
-        count = 2;
-    elseif weightCount <= 5 then
-        count = 3;
-    elseif weightCount <= 9 then
-        count = 4;
-    elseif weightCount <= 14 then
-        count = 5;
-    elseif weightCount <= 20 then
-        count = 6;
-    elseif weightCount <= 27 then
-        count = 7;
-    elseif weightCount <= 34 then
-        count = 8;
-    elseif weightCount <= 40 then
-        count = 9;
-    elseif weightCount <= 45 then
-        count = 10;
-    elseif weightCount <= 49 then
-        count = 11;
-    elseif weightCount <= 52 then
-        count = 12;
-    elseif weightCount <= 54 then
-        count = 13;
-    elseif weightCount == 55 then
-        count = 14;
-    end
-	--Randomize gender.
-    for x=0, count-1 do
-        gender = ZombRand(2);
-        if gender == 0 then
-            mcount = mcount + 1;
-        end
-    end
-	--Add males to inventory, if any.
-    if mcount > 0 then
-        HCAddManySameItem("Hydrocraft.HCRabbitmale", mcount-1, player);
-    end
-	--Add females to inventory, if any.
-    if mcount < count then
-        HCAddManySameItem("Hydrocraft.HCRabbitfemale", (count-mcount)-1, player);
-    end
-end
-
---Dig With Shoe
-function hcdigshoe(items, result, player)
-    local digshoe = ZombRand(8);
-    if digshoe == 7 then
-        player:getInventory():AddItem("Hydrocraft.HCGrass");
-    elseif digshoe == 6 then		
-        player:getInventory():AddItem("Base.Twigs");
-    elseif digshoe == 5 then	
-        player:getInventory():AddItem("Hydrocraft.HCDirt");
-    elseif digshoe == 4 then
-        player:getInventory():AddItem("Hydrocraft.HCGreyclay");
-    elseif digshoe == 3 then
-       player:getInventory():AddItem("Base.Stone");
-    elseif digshoe == 2 then
-        player:getInventory():AddItem("Base.SharpedStone");
-    elseif digshoe == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCZombiebones");   
-    elseif digshoe == 0 then
-       player:getInventory():AddItem("Base.Worm");      
-    end
-end
-
---Arrows and Bolts in Corpses
-function BoltsArrows.arrowBoltHit(wielder, char, weapon)
-    w = weapon:getType();
-    i = char:getInventory();
-    add = false;
-    
-	--80% chance of recovery.
-    if ZombRand(10) > 1 then
-        add = true;
-    end
-    --Initialize bolt count.
-    if BoltsArrows.SBolts[i] == nil then
-        BoltsArrows.SBolts[i] = 0;
-    end
-    --Initialize arrow count.
-    if BoltsArrows.SArrows[i] == nil then
-        BoltsArrows.SArrows = 0;
-    end
-    --Count recovered bolts and arrows.
-    if w == "HCCrossbow" and add then
-        BoltsArrows.SBolts[i] = BoltsArrows.SBolts[i] + 1;
-    elseif w == "HCLongbow" and add then
-        BoltsArrows.SArrows[i] = BoltsArrows.SArrows[i] + 1;
-    end
+	local rabbitCount = ZombRand(3) + 1
+	local maleCount = ZombRand(rabbitCount)
+	local femaleCount = rabbitCount - maleCount
+	local inv = player:getInventory()
+	if maleCount > 0 then
+		inv:AddItems("Hydrocraft.HCRabbitmale", maleCount)
+	end
+	if femaleCount > 0 then
+		inv:AddItems("Hydrocraft.HCRabbitfemale", femaleCount)
+	end
 end
 
 
@@ -2686,27 +2580,25 @@ end -- loop crops
 end -- function 
  
 
-function HCgatherSeeds(items, resultItem, player)
-for i=0, items:size()-1 do
-local itemName = items:get(i):getType()
-print( itemName )
-if (itemName ~= "HCHerbtable2" and itemName ~= "KitchenKnife") then
-	for typeOfSeed,props in pairs(farming_vegetableconf.props) do
-    	local vegetableName = string.gsub(props.vegetableName, "Base.", ""); 
-    	vegetableName = string.gsub(vegetableName, "farming.", ""); 
-    	vegetableName = string.gsub(vegetableName, "Hydrocraft.", "");
-    	if (itemName == vegetableName) then
-    		print (vegetableName)
-			if props.gatherSeed ~= nil then
-				HCAddManySameItem(props.gatherSeed, props.seedCollect, player)
-			else
-				HCAddManySameItem(props.seedName, props.seedCollect, player)
-			end
-    	end
-	end
+function HCgatherSeeds(items, resultItem, player) --0 = thing with seeds, 1=knife
+	local inv = player:getInventory()
+	
+	local itemName = items:get(0):getType()
+	--print( itemName )
 
-end
-end 
+	for typeOfSeed,props in pairs(farming_vegetableconf.props) do
+		local vegetableName = string.gsub(props.vegetableName, "Base.", "")
+		vegetableName = string.gsub(vegetableName, "farming.", "");
+		vegetableName = string.gsub(vegetableName, "Hydrocraft.", "")
+		if (itemName == vegetableName) then
+			--print (vegetableName)
+			if props.gatherSeed ~= nil then
+				inv:AddItems(props.gatherSeed, props.seedCollect)
+			else
+				inv:AddItems(props.seedName, props.seedCollect)
+			end
+		end
+	end
 end
 
 --calls vanilla code then adds a cigarette butt if desired
@@ -2734,7 +2626,7 @@ function HCOpenSealedLetter(items, result, player)
 		"Hydrocraft.HCAdultmagazine6",
 		"Base.HerbalistMag",
 		"Base.ElectronicsMag4", --How to Use Generators
-		"Base.HottieZ",
+		"Base.HottieZ", --TODO: remove vanilla mags? They're already very common.
 		"Base.ComicBook",
 		"Base.MagazineCrossword1",
 		"Base.MagazineCrossword2",
