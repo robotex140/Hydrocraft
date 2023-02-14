@@ -439,7 +439,7 @@ end
 
 function recipe_hcgetmedicalskeleton(items, result, player)
 	local inv = player:getInventory()
-	inv:AddItem("Hydrocraft.HCMedicalskeletonparts"")
+	inv:AddItem("Hydrocraft.HCMedicalskeletonparts")
 	inv:AddItem("Hydrocraft.HCMedicalskeletonholderparts")
 end 
 
