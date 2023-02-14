@@ -1739,48 +1739,53 @@ function recipe_hctelescopetripod(items, result, player)
 end 
 
 function recipe_hcopentelescope(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCTelescopescope", 0, player);
-	HCAddManySameItem("Hydrocraft.HCTelescopetripod", 0, player);
-	HCAddManySameItem("Hydrocraft.HCBubblewrap", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCTelescopescope")
+	inv:AddItem("Hydrocraft.HCTelescopetripod")
+	inv:AddItem("Hydrocraft.HCBubblewrap")
 end
 
 --Zombie Stuff
 
 function recipe_hcskinzed(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCZedskin");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCZedskin")
 end 
 
 function recipe_hcdissectzed(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCZedbrain", 0, player);
-	HCAddManySameItem("Hydrocraft.HCZedheart", 0, player);
-	HCAddManySameItem("Hydrocraft.HCZedlung", 1, player);
-	HCAddManySameItem("Hydrocraft.HCZedkidney", 1, player);
-	HCAddManySameItem("Hydrocraft.HCZedliver", 0, player);	
-	HCAddManySameItem("Hydrocraft.HCZedpancreas", 0, player);
-	HCAddManySameItem("Hydrocraft.HCZedintestines", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 1, player);	
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCZedbrain")
+	inv:AddItem("Hydrocraft.HCZedheart")
+	inv:AddItem("Hydrocraft.HCZedliver")	
+	inv:AddItem("Hydrocraft.HCZedpancreas")	
+	
+	inv:AddItems("Hydrocraft.HCZedlung", 2)
+	inv:AddItems("Hydrocraft.HCZedkidney", 2)
+	inv:AddItems("Hydrocraft.HCZedintestines", 4)
+	inv:AddItems("Hydrocraft.HCLard", 2)	
 	player:getXp():AddXP(Perks.Doctor, 10)	
 end 
 
 function recipe_hcremovezed(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCZedmeat", 0, player);
-	HCAddManySameItem("Hydrocraft.HCZedskin", 0, player);
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCZedmeat")
+	inv:AddItem("Hydrocraft.HCZedskin")
 end 
 
 function recipe_hczedskull(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCZedskull");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCZedskull")
 end 
 
 function recipe_hczedhead(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCZedhead");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCZedhead")
 end 
 
 function recipe_hczedbutcher(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCZedsteak", 3, player);
-	HCAddManySameItem("Hydrocraft.HCLard", 1, player);	
+	local inv = player:getInventory()
+	inv:AddItems("Hydrocraft.HCZedsteak", 4)
+	inv:AddItems("Hydrocraft.HCLard", 2)
 end 
 
 --Animal Skinning Stuff
@@ -1906,42 +1911,42 @@ function recipe_hcskinbull(items, result, player)
 end 
 
 function recipe_hcskindonkey(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCHiderawdonkey");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCHiderawdonkey")
 end 
 
 function recipe_hcskinhorse(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCHiderawhorse");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCHiderawhorse")
 end 
 
 function recipe_hcskinanimal(items, result, player)
-	local inv = player:getInventory();
-	inv:AddItem("Hydrocraft.HCAnimalfur");
+	local inv = player:getInventory()
+	inv:AddItem("Hydrocraft.HCAnimalfur")
 end 
 
 function recipe_hcskinanimal2(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCAnimalfur", 1, player);
+	player:getInventory():AddItems("Hydrocraft.HCAnimalfur", 2)
 end 
 
 function recipe_hcskinanimal4(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCAnimalfur", 3, player);
+	player:getInventory():AddItems("Hydrocraft.HCAnimalfur", 4)
 end 
 
 function recipe_hcskinanimal6(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCAnimalfur", 5, player);
+	player:getInventory():AddItems("Hydrocraft.HCAnimalfur", 6)
 end 
 
 function recipe_hcskinanimal8(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCAnimalfur", 7, player);
+	player:getInventory():AddItems("Hydrocraft.HCAnimalfur", 8)
 end 
 
 function recipe_hcboartusks(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCBoartusk", 1, player);
+	player:getInventory():AddItems("Hydrocraft.HCBoartusk", 2)
 end 
 
 function recipe_hcgoathorn(items, result, player)
-	HCAddManySameItem("Hydrocraft.HCGoathorn", 1, player);
+	player:getInventory():AddItems("Hydrocraft.HCGoathorn", 2)
 end 
 
 --Animal Butchering Stuff
@@ -2078,63 +2083,30 @@ function hcextractassrecipe(items, result, player)
 end
 
 function hcmedicanti_a(items, result, player)
-    local inv = player:getInventory();
-    inv:AddItem("Hydrocraft.HCPetridish");
-    inv:AddItem("Hydrocraft.HCPetridish");
+    local inv = player:getInventory()
+    inv:AddItems("Hydrocraft.HCPetridish", 2)
 end
 
 function hcantidish(items, result, player)
-    local inv = player:getInventory();
-    inv:AddItem("Hydromancerx.HCPetridish");
+    local inv = player:getInventory()
+    inv:AddItem("Hydromancerx.HCPetridish")
 end
 
 function hcbluemethrecipe(items, result, player)
-    local inv = player:getInventory();
-    inv:AddItem("Base.BakingTray");
+    local inv = player:getInventory()
+    inv:AddItem("Base.BakingTray")
 end
 
 function hcmeth(items, result, player)
-    local inv = player:getInventory();
-    inv:AddItem("Hydrocraft.HCEmptybarrelblue");
-    inv:AddItem("Hydrocraft.HCEmptybarrelmetal");
-end
-
---Skinning functions. HCFurClothes.lua was redundant.
-function HCSkinRabbit(items, result, player)
-    local anim = nil;
-    for i=0,items:size() - 1 do
-        if instanceof(items:get(i), "Food") then
-            anim = items:get(i);
-            break;
-        end
-    end
-    if anim then
-        result:setBaseHunger(anim:getBaseHunger() + 0.02);
-        result:setHungChange(anim:getBaseHunger() + 0.02);
-		getPlayer():getInventory():AddItem("FurClothes.HCAnimalfur");
-		getPlayer():getInventory():AddItem("FurClothes.HCAnimalfur");
-    end
-end
-
-function HCSkinSquirrel(items, result, player)
-    local anim = nil;
-    for i=0,items:size() - 1 do
-        if instanceof(items:get(i), "Food") then
-            anim = items:get(i);
-            break;
-        end
-    end
-    if anim then
-        result:setBaseHunger(anim:getBaseHunger() + 0.02);
-        result:setHungChange(anim:getBaseHunger() + 0.02);
-		getPlayer():getInventory():AddItem("FurClothes.AnimalFur");
-    end
+    local inv = player:getInventory()
+    inv:AddItem("Hydrocraft.HCEmptybarrelblue")
+    inv:AddItem("Hydrocraft.HCEmptybarrelmetal")
 end
 
 --Pinata Code
 
 function HCPinataBreak(items, result, player)
-    HCAddManySameItem("Hydrocraft.HCCandymixed", 0, player);
+	player:getInventory():AddItem("Hydrocraft.HCCandymixed")
     HCDoStats(player, 20, 20);
 end
 
@@ -2218,24 +2190,20 @@ end
 
 --Cookie Jar random cookies.
 function HCJarCookies(items, result, player)
-	local cookie = ZombRand(6);
-	local count = ZombRand(10);
-	if cookie == 0 then
-		HCAddManySameItem("Hydrocraft.HCHomemadecookie", count+1, player);
-	elseif cookie == 1 then
-		HCAddManySameItem("Hydrocraft.HCChipcookie", count+1, player);
-	elseif cookie == 2 then
-		HCAddManySameItem("Hydrocraft.HCCookiewhite", count+1, player);
-	elseif cookie == 3 then
-		HCAddManySameItem("Hydrocraft.HCCookiepeanutbutter", count+1, player);
-	elseif cookie == 4 then
-		HCAddManySameItem("Hydrocraft.HCChocolatecookie", count+1, player);
-	elseif cookie == 5 then
-		HCAddManySameItem("Hydrocraft.HCChocolatecookie", count+1, player);
-	end
+	local cookies = {
+		"Hydrocraft.HCHomemadecookie",
+		"Hydrocraft.HCChipcookie",
+		"Hydrocraft.HCCookiewhite",
+		"Hydrocraft.HCCookiepeanutbutter",
+		"Hydrocraft.HCChocolatecookie",
+		"Hydrocraft.HCChocolatecookie"
+	}
+	local cookie = cookies[ZombRand(#cookies) + 1]
+	local count = ZombRand(10)+1
+	player:getInventory():AddItems(cookie, count)
 end
 
---Simple loop for lots of the same item.
+--Simple loop for lots of the same item. --DO NOT CALL THIS FUNCTION.
 function HCAddManySameItem(item, count, player)
 	for x=0, count do
 		player:getInventory():AddItem(item);
@@ -2250,13 +2218,13 @@ end
 function HCRecipeBowls(items, result, player)
     bowls = 0;
     for x=0, items:size()-1 do
-        print(items:get(x):getType());
+        print(items:get(x):getType()); --TODO: add 'BowlOfFood' tag?
             if items:get(x):getType() == "HCTacosaucebowl" or items:get(x):getType() == "HCGuacamolebowl" or items:get(x):getType() == "HCSalsabowl" or items:get(x):getType() == "HCNachobowl" or items:get(x):getType() == "HCSpicypaste" or items:get(x):getType() == "HCTomatosaucebowl" or items:get(x):getType() == "HCLemonjuicebowl" or items:get(x):getType() == "HCBBQsaucebowl" then
                     bowls = bowls + 1;
             end
     end
     if bowls > 0 then
-        HCAddManySameItem("Base.Bowl", bowls-1, player);
+		player:getInventory():AddItems("Base.Bowl", bowls)
     end
 end
 
@@ -2269,153 +2237,96 @@ end
 
 --Randomized Eggs.
 function HCRandomegg(items, result, player)
-    local pup = ZombRand(4);
-    if pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCSparrowegg");  
-	elseif pup == 2 then
-       player:getInventory():AddItem("Hydrocraft.HCChickenegg");	   
-	elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCGooseegg");
-    elseif pup == 0 then
-       player:getInventory():AddItem("Base.WildEggs");      
-    end
+	local eggs = {
+		"Hydrocraft.HCSparrowegg",
+		"Hydrocraft.HCChickenegg",
+		"Hydrocraft.HCGooseegg",
+		"Base.WildEggs"
+	}
+	local egg = eggs[ ZombRand(#eggs)+1 ]
+	player:getInventory():AddItem(egg)
 end
 
 --Randomized Dogs. 
 function HCDogCall(items, result, player)
-    local pup = ZombRand(36);
-    if pup == 35 then
-        player:getInventory():AddItem("Hydrocraft.HCGoldenfemale");
-    elseif pup == 34 then	
-        player:getInventory():AddItem("Hydrocraft.HCGoldenmale");
-    elseif pup == 33 then	
-        player:getInventory():AddItem("Hydrocraft.HCBeaglefemale");
-    elseif pup == 32 then
-        player:getInventory():AddItem("Hydrocraft.HCBeaglemale");
-    elseif pup == 31 then
-        player:getInventory():AddItem("Hydrocraft.HCIrishsetterfemale");
-    elseif pup == 30 then
-        player:getInventory():AddItem("Hydrocraft.HCIrishsettermale");
-    elseif pup == 29 then
-        player:getInventory():AddItem("Hydrocraft.HCDachshundfemale");
-    elseif pup == 28 then
-        player:getInventory():AddItem("Hydrocraft.HCDachshundmale");
-    elseif pup == 27 then	
-        player:getInventory():AddItem("Hydrocraft.HCBordercolliemale");
-    elseif pup == 26 then
-        player:getInventory():AddItem("Hydrocraft.HCBordercolliefemale");
-    elseif pup == 25 then
-        player:getInventory():AddItem("Hydrocraft.HCBoxermale");
-    elseif pup == 24 then
-        player:getInventory():AddItem("Hydrocraft.HCBoxerfemale");
-    elseif pup == 23 then
-        player:getInventory():AddItem("Hydrocraft.HCColliemale");
-    elseif pup == 22 then
-        player:getInventory():AddItem("Hydrocraft.HCColliefemale");
-    elseif pup == 21 then
-        player:getInventory():AddItem("Hydrocraft.HCCorgimale");
-    elseif pup == 20 then
-        player:getInventory():AddItem("Hydrocraft.HCCorgifemale");
-    elseif pup == 19 then
-        player:getInventory():AddItem("Hydrocraft.HCDobermanmale");
-    elseif pup == 18 then
-        player:getInventory():AddItem("Hydrocraft.HCDobermanfemale");
-    elseif pup == 17 then
-        player:getInventory():AddItem("Hydrocraft.HCGreatdanemale");
-    elseif pup == 16 then
-       player:getInventory():AddItem("Hydrocraft.HCGreatdanefemale");
-    elseif pup == 15 then
-        player:getInventory():AddItem("Hydrocraft.HCGermanshepherdmale");
-    elseif pup == 14 then
-        player:getInventory():AddItem("Hydrocraft.HCGermanshepherdfemale");
-    elseif pup == 13 then
-        player:getInventory():AddItem("Hydrocraft.HCHeelermale");
-    elseif pup == 12 then
-        player:getInventory():AddItem("Hydrocraft.HCHeelerfemale");
-    elseif pup == 11 then
-        player:getInventory():AddItem("Hydrocraft.HCHuskymale");
-    elseif pup == 10 then
-        player:getInventory():AddItem("Hydrocraft.HCHuskyfemale");
-    elseif pup == 9 then
-        player:getInventory():AddItem("Hydrocraft.HCLabradormale");
-    elseif pup == 8 then
-        player:getInventory():AddItem("Hydrocraft.HCLabradorfemale");
-    elseif pup == 7 then
-        player:getInventory():AddItem("Hydrocraft.HCRottweilermale");
-    elseif pup == 6 then
-        player:getInventory():AddItem("Hydrocraft.HCRottweilerfemale");
-    elseif pup == 5 then
-        player:getInventory():AddItem("Hydrocraft.HCShibainumale");
-    elseif pup == 4 then
-        player:getInventory():AddItem("Hydrocraft.HCShibainufemale");
-    elseif pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCPitbullmale");
-    elseif pup == 2 then
-        player:getInventory():AddItem("Hydrocraft.HCPitbullfemale");
-    elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCBernesemale");   
-    elseif pup == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCBernesefemale");      
-    end
+	local dogs = {
+		"Hydrocraft.HCGoldenfemale",
+		"Hydrocraft.HCGoldenmale",
+		"Hydrocraft.HCBeaglefemale",
+		"Hydrocraft.HCBeaglemale",
+		"Hydrocraft.HCIrishsetterfemale",
+		"Hydrocraft.HCIrishsettermale",
+		"Hydrocraft.HCDachshundfemale",
+		"Hydrocraft.HCDachshundmale",
+		"Hydrocraft.HCBordercolliemale",
+		"Hydrocraft.HCBordercolliefemale",
+		"Hydrocraft.HCBoxermale",
+		"Hydrocraft.HCBoxerfemale",
+		"Hydrocraft.HCColliemale",
+		"Hydrocraft.HCColliefemale",
+		"Hydrocraft.HCCorgimale",
+		"Hydrocraft.HCCorgifemale",
+		"Hydrocraft.HCDobermanmale",
+		"Hydrocraft.HCDobermanfemale",
+		"Hydrocraft.HCGreatdanemale",
+		"Hydrocraft.HCGreatdanefemale",
+		"Hydrocraft.HCGermanshepherdmale",
+		"Hydrocraft.HCGermanshepherdfemale",
+		"Hydrocraft.HCHeelermale",
+		"Hydrocraft.HCHeelerfemale",
+		"Hydrocraft.HCHuskymale",
+		"Hydrocraft.HCHuskyfemale",
+		"Hydrocraft.HCLabradormale",
+		"Hydrocraft.HCLabradorfemale",
+		"Hydrocraft.HCRottweilermale",
+		"Hydrocraft.HCRottweilerfemale",
+		"Hydrocraft.HCShibainumale",
+		"Hydrocraft.HCShibainufemale",
+		"Hydrocraft.HCPitbullmale",
+		"Hydrocraft.HCPitbullfemale",
+		"Hydrocraft.HCBernesemale",
+		"Hydrocraft.HCBernesefemale"
+	}
+
+    local dog = dogs[ZombRand(#dogs) + 1];
+	player:getInventory():AddItem(dog)
+
 end
 
 --Randomized Cats. 
 function HCCatCall(items, result, player)
-    local pup = ZombRand(16);
-    if pup == 15 then
-        player:getInventory():AddItem("Hydrocraft.HCCatwhitemale");
-    elseif pup == 14 then
-        player:getInventory():AddItem("Hydrocraft.HCCatwhitefemale");
-    elseif pup == 13 then
-        player:getInventory():AddItem("Hydrocraft.HCCatsilvermale");
-    elseif pup == 12 then
-        player:getInventory():AddItem("Hydrocraft.HCCatsilverfemale");
-    elseif pup == 11 then
-        player:getInventory():AddItem("Hydrocraft.HCCatgingermale");
-    elseif pup == 10 then
-        player:getInventory():AddItem("Hydrocraft.HCCatgingerfemale");
-    elseif pup == 9 then
-        player:getInventory():AddItem("Hydrocraft.HCCatcreammale");
-    elseif pup == 8 then
-        player:getInventory():AddItem("Hydrocraft.HCCatcreamfemale");
-    elseif pup == 7 then
-        player:getInventory():AddItem("Hydrocraft.HCCatbrownmale");
-    elseif pup == 6 then
-        player:getInventory():AddItem("Hydrocraft.HCCatbrownfemale");
-    elseif pup == 5 then
-        player:getInventory():AddItem("Hydrocraft.HCCatbluemale");
-    elseif pup == 4 then
-        player:getInventory():AddItem("Hydrocraft.HCCatbluefemale");
-    elseif pup == 3 then
-       player:getInventory():AddItem("Hydrocraft.HCCatblackmale");
-    elseif pup == 2 then
-        player:getInventory():AddItem("Hydrocraft.HCCatblackfemale");
-    elseif pup == 1 then
-       player:getInventory():AddItem("Hydrocraft.HCCatmale");   
-    elseif pup == 0 then
-       player:getInventory():AddItem("Hydrocraft.HCCatfemale");      
-    end
-end
+	local cats = {
+		"Hydrocraft.HCCatwmale",
+		"Hydrocraft.HCCatwhitefemale",
+		"Hydrocraft.HCCatsilvermale",
+		"Hydrocraft.HCCatsilverfemale",
+		"Hydrocraft.HCCatgingermale",
+		"Hydrocraft.HCCatgingerfemale",
+		"Hydrocraft.HCCatcreammale",
+		"Hydrocraft.HCCatcreamfemale",
+		"Hydrocraft.HCCatbrownmale",
+		"Hydrocraft.HCCatbrownfemale",
+		"Hydrocraft.HCCatbluemale",
+		"Hydrocraft.HCCatbluefemale",
+		"Hydrocraft.HCCatblackmale",
+		"Hydrocraft.HCCatblackfemale",
+		"Hydrocraft.HCCatmale",
+		"Hydrocraft.HCCatfemale"
+	}
+	local cat = cats[ ZombRand(#cats)+1 ]
+	player:getInventory():AddItem(cat)
 
---Randomized Deer.
-function getDeer(items, result, player)
-    deer = ZombRand(4);
-    if deer == 3 then
-        player:getInventory():AddItem("Hydrocraft.HCDeermale");
-    elseif deer == 2 then
-        player:getInventory():AddItem("Hydrocraft.HCDeerfemale");
-    end
 end
 
 --Randomized Chicken.
 function getChicken(items, result, player)
-    chicken = ZombRand(3);
+    chicken = ZombRand(3)
     if chicken == 2 then
-        player:getInventory():AddItem("Hydrocraft.HCChickenmalebaby");
+        player:getInventory():AddItem("Hydrocraft.HCChickenmalebaby")
     elseif chicken == 1 then
-        player:getInventory():AddItem("Hydrocraft.HCChickenfemalebaby");
+        player:getInventory():AddItem("Hydrocraft.HCChickenfemalebaby")
     elseif chicken == 0 then
-        player:getInventory():AddItem("Base.Egg");		
+        player:getInventory():AddItem("Base.Egg")	
     end
 end
 
