@@ -11,11 +11,12 @@ module Hydrocraft
 
 item HCCinematicket
 	{
-	Weight			=	0.01,
-        Type			=	Normal,
-        DisplayName		=	Cinema Ticket,
-	Icon			=	HCCinematicket,
-	DisplayCategory          =   Useless,
+		DisplayCategory          =   Household,	
+		Weight					 =	 0.01,
+        Type			 		 =	 Normal,
+        DisplayName				 =	 Cinema Ticket,
+		Icon					 =	 HCCinematicket,
+		WorldStaticModel 		 = 	 WorldItem-HCCinemaTicket,
 	}
 
 item HCMovieroll

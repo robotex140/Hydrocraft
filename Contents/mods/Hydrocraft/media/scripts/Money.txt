@@ -166,21 +166,22 @@ item HCCoinpress
 
 item HCCoincopper
     {
-		DisplayCategory 	= Money,
-        Weight    		= 0.04,
-        Type    		= Normal,
-        DisplayName         	= Copper Coin,
-        icon 			= HCCoincopper,
-
+		DisplayCategory  = Money,
+        Weight    		 = 0.04,
+        Type    		 = Normal,
+        DisplayName      = Copper Coin,
+        icon 			 = HCCoincopper,
+		WorldStaticModel = WorldItem-HCMoney_CopperCoin,
     }
 
 item HCCoinsilver
     {
-        Weight    		= 0.04,
-        Type    		= Normal,
-        DisplayName     = Silver Coin,
-        icon 			= HCCoinsilver,
-
+		DisplayCategory 	= Money,		
+        Weight    		 	= 0.04,
+        Type    		 	= Normal,
+        DisplayName      	= Silver Coin,
+        icon 			 	= HCCoinsilver,
+		WorldStaticModel 	= WorldItem-HCMoney_SilverCoin,
     }
 
 item HCCoingold
@@ -190,7 +191,7 @@ item HCCoingold
         Type    			= Normal,
         DisplayName         = Gold Coin,
         icon 				= HCCoingold,
-
+		WorldStaticModel 	= WorldItem-HCMoney_GoldCoin,
 	
     }
 
@@ -220,8 +221,9 @@ item HCWallet
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_01,
+			WorldStaticModel 		= 	Wallet,
     	}
 
 item HCWallet2
@@ -230,8 +232,9 @@ item HCWallet2
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_02,
+			WorldStaticModel 		= 	Wallet2,
     	}
 
 item HCWallet3
@@ -240,8 +243,9 @@ item HCWallet3
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_03,
+			WorldStaticModel 		= 	Wallet3,
     	}
 
 item HCWallet4
@@ -250,8 +254,9 @@ item HCWallet4
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_04,
+			WorldStaticModel 		= 	Wallet4,			
     	} 
 
 item HCSlotmachine

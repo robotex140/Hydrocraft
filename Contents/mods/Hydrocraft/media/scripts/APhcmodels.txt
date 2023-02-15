@@ -33,7 +33,11 @@ module Hydrocraft
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
-
+	model WorldItem-HCCinemaTicket
+    {
+		mesh = WorldItems/WorldItem_HCMovieTicket,
+		texture = Items/HC_Movie_CinemaTicket,
+    }
 	model WorldItem-HCFloppyDisk
     {
 		mesh = WorldItems/WorldItem_HCFloppyDisk,
@@ -49,30 +53,15 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem-HCMoney_BlankCheck,
 		texture = Items/Money_BlankCheck,
     }	
-	model WorldItem-HCMoney_Penny
+	model WorldItem-HCMoney_CopperCoin
     {
-		mesh = WorldItems/WorldItem-HCMoney_Penny,
-		texture = Items/Money_Penny,
-    }
-	model WorldItem-HCMoney_Nickel
-    {
-		mesh = WorldItems/WorldItem-HCMoney_Nickel,
-		texture = Items/Money_Nickel,
-    }
+		mesh = WorldItems/WorldItem-HCMoney_CopperCoin,
+		texture = Items/Money_CopperCoin,
+    }	
 	model WorldItem-HCMoney_Dime
     {
 		mesh = WorldItems/WorldItem-HCMoney_Dime,
 		texture = Items/Money_Dime,
-    }
-	model WorldItem-HCMoney_Quarter
-    {
-		mesh = WorldItems/WorldItem-HCMoney_Quarter,
-		texture = Items/Money_Quarter,
-    }
-	model WorldItem-HCMoney_HalfDollarCoin
-    {
-		mesh = WorldItems/WorldItem-HCMoney_HalfDollarCoin,
-		texture = Items/Money_HalfDollar,
     }
 	model WorldItem-HCMoney_DollarCoin
     {
@@ -83,12 +72,42 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem-HCMoney_DollarBill,
 		texture = Items/Money_DollarBill,
+    }	
+	model WorldItem-HCMoney_GoldCoin
+    {
+		mesh = WorldItems/WorldItem-HCMoney_GoldCoin,
+		texture = Items/Money_GoldCoin,
+    }	
+	model WorldItem-HCMoney_HalfDollarCoin
+    {
+		mesh = WorldItems/WorldItem-HCMoney_HalfDollarCoin,
+		texture = Items/Money_HalfDollar,
+    }	
+	model WorldItem-HCMoney_Nickel
+    {
+		mesh = WorldItems/WorldItem-HCMoney_Nickel,
+		texture = Items/Money_Nickel,
+    }	
+	model WorldItem-HCMoney_Quarter
+    {
+		mesh = WorldItems/WorldItem-HCMoney_Quarter,
+		texture = Items/Money_Quarter,
     }
+	model WorldItem-HCMoney_Penny
+    {
+		mesh = WorldItems/WorldItem-HCMoney_Penny,
+		texture = Items/Money_Penny,
+    }	
 	model WorldItem-HCMoney_PokerChip
     {
 		mesh = WorldItems/WorldItem-HCMoney_PokerChip,
 		texture = Items/Money_Pokerchip,
     }
+	model WorldItem-HCMoney_SilverCoin
+    {
+		mesh = WorldItems/WorldItem-HCMoney_SilverCoin,
+		texture = Items/Money_SilverCoin,
+    }	
 	model WorldItem-HCOffice_Ruler
     {
 		mesh = WorldItems/WorldItem-HCOffice_Ruler,

@@ -1,0 +1,19 @@
+module Base
+{
+
+   model HCBlueprintOpen
+  {
+    mesh = WorldItems/HCBlueprintOpen,
+    texture = WorldItems/HCBlueprintOpen,
+  }
+   model HCBlueprintClosed
+  {
+    mesh = WorldItems/HCBlueprintClosed,
+    texture = WorldItems/HCBlueprintClosed,
+  }
+   model HCSteelspring
+  {
+    mesh = WorldItems/HCSteelspring,
+    texture = WorldItems/HCSteelspring,
+  }
+}
