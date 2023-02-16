@@ -232,6 +232,7 @@ recipe Open Cigarette Carton
 		HCCigarettecarton,
 	   	Result:HCCigarettepack=10,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Open Cigarette Pack
@@ -241,6 +242,7 @@ recipe Open Cigarette Pack
 		OnCreate:recipe_opencigpack1,
 		RemoveResultItem:true,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Pack Cigarettes
@@ -248,6 +250,7 @@ recipe Pack Cigarettes
 		Cigarettes=20,
 	   	Result:HCCigarettepack=1,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 	
 recipe Pack Into Carton
@@ -255,6 +258,7 @@ recipe Pack Into Carton
 		HCCigarettepack=10,
 	   	Result:HCCigarettecarton=1,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Open Cigarette Carton
@@ -262,6 +266,7 @@ recipe Open Cigarette Carton
 		HCCigarettecartonlights,
 	   	Result:HCCigarettepacklights=10,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Open Cigarette Pack
@@ -271,6 +276,7 @@ recipe Open Cigarette Pack
 		OnCreate:recipe_opencigpack2,
 		RemoveResultItem:true,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Pack Cigarettes
@@ -278,6 +284,7 @@ recipe Pack Cigarettes
 		HCCigaretteslights=20,
 	   	Result:HCCigarettepacklights=1,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 	
 recipe Pack Into Carton
@@ -285,6 +292,7 @@ recipe Pack Into Carton
 		HCCigarettepacklights=10,
 	   	Result:HCCigarettecartonlights=1,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Open Cigarette Carton
@@ -292,6 +300,7 @@ recipe Open Cigarette Carton
 		HCCigarettecartonmenthol,
 	   	Result:HCCigarettepackmenthol=10,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Open Cigarette Pack
@@ -301,6 +310,7 @@ recipe Open Cigarette Pack
 		OnCreate:recipe_opencigpack3,
 		RemoveResultItem:true,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Pack Cigarettes
@@ -308,6 +318,7 @@ recipe Pack Cigarettes
 		HCCigarettesmenthol=20,
 	   	Result:HCCigarettepackmenthol=1,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 	
 recipe Pack Into Carton
@@ -315,6 +326,7 @@ recipe Pack Into Carton
 		HCCigarettepackmenthol=10,
 	   	Result:HCCigarettecartonmenthol=1,
 	   	Time:50.0,
+	   	OnGiveXP:Recipe.OnGiveXP.None,
 	}
 
 recipe Dry Leaves
