@@ -1,6 +1,7 @@
 module Base
 {
 
+  /************************ Blueprint ************************/
    model HCBlueprintOpen
   {
     mesh = WorldItems/HCBlueprintOpen,
@@ -9,11 +10,310 @@ module Base
    model HCBlueprintClosed
   {
     mesh = WorldItems/HCBlueprintClosed,
-    texture = WorldItems/HCBlueprintClosed,
+    texture = WorldItems/HCBlueprintOpen,
   }
-   model HCSteelspring
+  /************************ Comics ************************/
+  model HCComic1_Ground
   {
-    mesh = WorldItems/HCSteelspring,
-    texture = WorldItems/HCSteelspring,
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic1Ground,
   }
+  model HCComic2_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic2Ground,
+  }
+  model HCComic3_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic3Ground,
+  }
+  model HCComic4_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic4Ground,
+  }
+  model HCComic5_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic5Ground,
+  }
+  model HCComic6_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic6Ground,
+  }
+  model HCComic7_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic7Ground,
+  }
+  model HCComic8_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic8Ground,
+  }
+  model HCComic9_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/HCComic9Ground,
+  }
+  model HCComic1_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic1Ground,
+  }
+  model HCComic2_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic2Ground,
+  }
+  model HCComic3_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic3Ground,
+  }
+  model HCComic4_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic4Ground,
+  }
+  model HCComic5_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic5Ground,
+  }
+  model HCComic6_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic6Ground,
+  }
+  model HCComic7_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic7Ground,
+  }
+  model HCComic8_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic8Ground,
+  }
+  model HCComic9_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/HCComic9Ground,
+  }
+  /************************ Magazines ************************/
+  model Adult1_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/00_Adult_Mag,
+  }
+  model Adult2_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/01_Adult_Mag,
+  }
+  model Adult3_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/02_Adult_Mag,
+  }
+  model Adult4_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/03_Adult_Mag,
+  }
+  model Adult5_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/04_Adult_Mag,
+  }
+  model Adult6_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/05_Adult_Mag,
+  }
+  model Adult1_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/00_Adult_Mag,
+  }
+  model Adult2_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/01_Adult_Mag,
+  }
+  model Adult3_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/02_Adult_Mag,
+  }
+  model Adult4_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/03_Adult_Mag,
+  }
+  model Adult5_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/04_Adult_Mag,
+  }
+  model Adult6_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/05_Adult_Mag,
+  }
+  model MagMetalWorking1_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/00_MetalWorking,
+  }
+  model MagMetalWorking2_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/01_MetalWorking,
+  }
+  model MagMetalWorking3_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/02_MetalWorking,
+  }
+  model MagMetalWorking4_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/03_MetalWorking,
+  }
+  model MagMetalWorking5_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/04_MetalWorking,
+  }
+  model MagMetalWorking6_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/05_MetalWorking,
+  }
+  model MagMetalWorking7_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/06_MetalWorking,
+  }
+  model MagMetalWorking1_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/00_MetalWorking,
+  }
+  model MagMetalWorking2_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/01_MetalWorking,
+  }
+  model MagMetalWorking3_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/02_MetalWorking,
+  }
+  model MagMetalWorking4_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/03_MetalWorking,
+  }
+  model MagMetalWorking5_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/04_MetalWorking,
+  }
+  model MagMetalWorking6_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/05_MetalWorking,
+  }
+  model MagMetalWorking7_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/06_MetalWorking,
+  }
+  model MagElectronics1_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/00_Electrician_Mag,
+  }
+  model MagElectronics2_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/01_Electrician_Mag,
+  }
+  model MagElectronics3_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/02_Electrician_Mag,
+  }
+  model MagElectronics1_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/00_Electrician_Mag,
+  }
+  model MagElectronics2_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/01_Electrician_Mag,
+  }
+  model MagElectronics3_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/02_Electrician_Mag,
+  }
+  model MagPopularElectronics_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/03_Electrician_Mag,
+  }
+  model MagPopularElectronics_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/03_Electrician_Mag,
+  }
+  model MagAgriculture_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/01_Farming,
+  }
+  model MagAgriculture_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/01_Farming,
+  }
+  model Magxmas_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/00_xmas_Mag,
+  }
+  model Magxmas_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/00_xmas_Mag,
+  }
+  model MagSports1_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/00_MotorSport_Mag,
+  }
+  model MagSports2_Ground
+  {
+    mesh = WorldItems/HCComicGround,
+    texture = WorldItems/01_MotorSport_Mag,
+  }
+  model MagSports1_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/00_MotorSport_Mag,
+  }
+  model MagSports2_Open
+  {
+    mesh = WorldItems/HCComic,
+    texture = WorldItems/01_MotorSport_Mag,
+  }
+}
+ 
 }

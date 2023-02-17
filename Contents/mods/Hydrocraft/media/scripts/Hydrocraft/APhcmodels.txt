@@ -146,11 +146,6 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCMotorOil,
 		texture = Items/HC_MotorOil,
-    }
-	model WorldItem-HCPoliceBadge
-    {
-		mesh = WorldItems/WorldItem_HCPoliceBadge,
-		texture = Items/HC_PoliceBadge,
     }	
 	model WorldItem-HCRoadFlare
     {
@@ -181,11 +176,5 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem-HCOffice_TriangleRuler,
 		texture = Items/HC_Office_Triangle,
-    }
-	model WorldItem-HCSoap
-	{
-		mesh = WorldItems/Soap,
-		texture = Items/HC_Soap,
-		scale = 0.6,
-	}		
+    }	
 }

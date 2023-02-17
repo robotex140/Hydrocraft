@@ -20,11 +20,12 @@ item HCHandcuffs
 
 item HCPolicebadge
 	{
-	Weight			=	0.3,
-        Type			=	Normal,
-        DisplayName		=	Police Badge,
-	Icon			=	HCPolicebadge,
-		DisplayCategory		=   Useless,
+		DisplayCategory		=   Household,	
+        Type				=	Normal,
+        DisplayName			=	Police Badge,
+		Icon				=	HCPolicebadge,
+		Weight				=	0.2,		
+		WorldStaticModel	= 	WorldItem-HCPoliceBadge,		
 	}
 
 
