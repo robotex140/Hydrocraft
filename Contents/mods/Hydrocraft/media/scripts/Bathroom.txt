@@ -151,24 +151,6 @@ item HCElectricrazordead
 	DisplayCategory          =   Misc,
     }
 
-item HCQtip
-    {
-        Weight    		=    0.1,
-        Type    		=    Normal,
-        DisplayName    		=    Cotton Swab,
-        Icon    		=    HCQtip.png,
-	DisplayCategory          =   Useless,
-    }
-
-item HCQtipbox
-    {
-        Weight    		=    0.3,
-        Type    		=    Normal,
-        DisplayName    		=    Box of Cotton Swabs,
-        Icon    		=    HCQtipbox.png,
-	DisplayCategory          =   Useless,
-    }
-
 item HCWashclothwet
     {
 	Type			=	Normal,
@@ -676,21 +658,7 @@ item HCStraightrazor
 
 
 /************************RECIPES************************/
-    
 
-recipe Box Cotton Swabs
-    {
-    HCQtip=100,
-    Result:HCQtipbox,
-    Time:15,
-    }
-
-recipe Unbox Cotton Swabs
-    {
-    HCQtipbox,
-    Result:HCQtip=100,
-    Time:15,
-    }
 
 recipe Pack Diapers
     {

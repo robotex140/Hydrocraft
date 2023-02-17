@@ -1211,7 +1211,6 @@ insertJunkListsInProcDistribution( "Bakery", {   bakery_junk  } );
 --------------------------------
 
 local store_shelf_medical_items = {
---         "Hydrocraft.HCQtipbox", 0.01,
         "Hydrocraft.HCGauze", 0.2,
         "Hydrocraft.HCThermometer", 1,
 --         "Hydrocraft.HCChapstick", 0.01,
@@ -1326,8 +1325,6 @@ local bathroom_counter_items = {
         "Hydrocraft.HCElectricrazor", 0.5,
         "Hydrocraft.HCClothespin", 1,
         "Hydrocraft.HCClothespinbox", 0.2,
-        "Hydrocraft.HCQtipbox", 0.2,
-        "Hydrocraft.HCQtip", 0.2,
         "Hydrocraft.HCGauze", 1,
         "Hydrocraft.HCWashcloth", 0.2,
         "Hydrocraft.HCChapstick", 0.2,
@@ -1420,7 +1417,6 @@ insertItemListsInProcDistribution( "PostOfficeSupplies", {   postoffice_supplies
 local medicalclinic_tools_items = {
         "Hydrocraft.HCMedicalbag", 5,
         "Hydrocraft.HCMedicalbox", 5,
---         "Hydrocraft.HCQtipbox", 0.01,
         "Hydrocraft.HCGauze", 5,
         "Hydrocraft.HCLatexgloves", 5,
         "Hydrocraft.HCStethoscope", 5,
@@ -1477,7 +1473,6 @@ local medicalclinic_tools_items = {
 
         "Hydrocraft.HCMedicalbag", 5,
         "Hydrocraft.HCMedicalbox", 5,
---         "Hydrocraft.HCQtipbox", 0.01,
         "Hydrocraft.HCGauze", 5,
         "Hydrocraft.HCLatexgloves", 5,
         "Hydrocraft.HCStethoscope", 5,

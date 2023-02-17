@@ -105,8 +105,6 @@ function bathunassign(m)
                 "Hydrocraft.HCNailclipper",             m*1,
                 "Hydrocraft.HCNailpolishremover",       m*1,
                 "Hydrocraft.HCPumice",                  m*1,
-                "Hydrocraft.HCQtip",                    m*1,
-                "Hydrocraft.HCQtipbox",                 m*1,
                 "Hydrocraft.HCSanitizingjar",           m*1,
                 "Hydrocraft.HCShampoo",                 m*1,
                 "Hydrocraft.HCSponge",                  m*1,
