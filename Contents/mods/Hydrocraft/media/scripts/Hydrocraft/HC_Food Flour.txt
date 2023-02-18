@@ -1,0 +1,1398 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCRiceflour
+	{
+		Weight			=	1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Rice Flour,
+		Icon			=	HCRiceflour,
+		ReplaceOnDeplete	=	Hydrocraft.HCFlourempty,
+		DisplayCategory		=   Cooking,
+	}
+
+item HCWholemealflour
+	{
+		Weight			=	1,
+		Type			=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta		=	0.25,
+		DisplayName		=	Wholemeal Flour,
+		Icon			=	HCRiceflour,
+		ReplaceOnDeplete	=	Hydrocraft.HCFlourempty,
+		DisplayCategory		=   Cooking,
+	}
+
+
+item HCWheatBundle
+	{
+		Weight				=	1,
+		Type				=	Normal,
+		DisplayName			=	Wheat Bundle,
+		Icon				=	HCWheatBundle,
+		DisplayCategory		=   Cooking,
+	}
+
+
+item HCGruelbowl
+	{
+		HungerChange		=	-25,
+		Type			=	Food,
+		DisplayName		=	Bowl of Gruel,
+		Weight			=	0.6,
+		DaysTotallyRotten	=	3,
+		UnhappyChange		=	10,
+		BoredomChange		=	10,
+		Icon			=	BowlFull,
+		ReplaceOnUse		=	Bowl,
+		DaysFresh		=	1,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	76,
+        Proteins 		= 	10,
+        Lipids 			= 	1,
+        Calories 		= 	364,
+		DisplayCategory		=   FoodP,
+	}
+	
+item HCGruelbowlsweet
+	{
+		HungerChange		=	-30,
+		Type			=	Food,
+		DisplayName		=	Bowl of Sweetened Gruel,
+		Weight			=	0.6,
+		DaysTotallyRotten	=	3,
+		Icon			=	BowlFull,
+		ReplaceOnUse		=	Bowl,
+		DaysFresh		=	1,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	126,
+        	Proteins 		= 	10,
+        	Lipids 			= 	1,
+        	Calories 		= 	558,
+		DisplayCategory		=   FoodP,
+	}
+	
+	item HCPancakebatter
+    {
+		HungerChange		=	-30,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	10,
+		BoredomChange		=	10,
+		DisplayName			=	Homemade Pancake Batter,
+		DaysTotallyRotten	=	5,
+		DaysFresh 			= 	3,
+		Icon				=	HCCupcakebatter,
+		IsCookable			=	FALSE,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	66,
+		Proteins 			= 	14.7,
+		Lipids 				= 	22.5,
+		Calories 			= 	525,
+		DisplayCategory		=   FoodP,
+    }
+
+	item HCPancakeshomemade
+	{		
+		HungerChange		=	-30,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		DisplayName			=	Homemade Pancake,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	12,
+		MinutesToBurn		=	17,
+		Icon				=	Pancakes,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	66,
+		Proteins 			= 	14.7,
+		Lipids 				= 	22.5,
+		Calories 			= 	525,
+		DisplayCategory		=   FoodP,
+	}
+	
+	item HCPancakeshomemadepan
+	{
+		HungerChange		=	-30,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	12,
+		MinutesToBurn		=	17,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		ReplaceOnUse		=	Pan,
+		DisplayName			=	Baking Pan with Homemade Pancake,
+		Icon				=	Pancakes,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	66,
+		Proteins 			= 	14.7,
+		Lipids 				= 	22.5,
+		Calories 			= 	525,
+		DisplayCategory		=   FoodP,
+	}
+
+item HCSourdoughstarter
+    {
+	Weight				=	0.1,
+	Type				=	Drainable,
+	UseWhileEquipped		=	FALSE,
+	UseDelta			=	0.25,
+	DisplayName			=	Sourdough Starter,
+    ReplaceOnDeplete	= 	HCJar,
+	Icon				=	HCSourdoughstarter,
+		DisplayCategory		=   CookRef,
+    }
+
+item HCAcornsoaked
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.05,
+        Type    		=    	Food,
+        UnhappyChange        	=    	10,
+        DaysTotallyRotten	=	365,
+        DaysFresh 		= 	300,
+        DisplayName         	= 	Soaked Acorn,
+        Icon 			= 	HCAcornsoaked,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	8,
+        Proteins 		= 	2.5,
+        Lipids 			= 	9,
+        Calories 		= 	67,
+		DisplayCategory		=   FoodP,
+     }
+
+
+
+
+    item HCWholegrainbread
+    {
+        Type				=			Food,
+        DisplayName			=		    Whole Grain Bread,
+        Icon				=			Dough,
+        Weight				=			0.3,
+        HungerChange 		=		-25,
+        UnhappyChange	    =	    5,
+        ThirstChange		=		15,
+        BoredomChange		=		15,
+        RemoveNegativeEffectOnCooked    =   TRUE,
+        IsCookable	=	TRUE,
+        DaysTotallyRotten	=	12,
+        MinutesToBurn	=	50,
+        MinutesToCook	=	20,
+        Carbohydrates = 99,
+        Proteins = 17.7,
+        Lipids = 6.66,
+        Calories = 532,
+        DaysFresh	=	6,
+		DisplayCategory		=   FoodP,
+    }
+
+
+item HCPumpkinbreaddough
+	{
+	Type				=	Food,
+	DisplayName			=	Pumpkin Bread Dough,
+	Icon				=	HCPumpkinbreaddough,
+	Weight				=	0.3,
+        DaysTotallyRotten		=	5,
+        DaysFresh 			= 	3,
+	HungerChange			=	-35,
+	UnhappyChange			=	10,
+	BoredomChange			=	10,
+	FoodType    			=   NoExplicit,
+	Carbohydrates 			= 	120.5,
+        Proteins 			= 	9.5,
+        Lipids 				= 	30,
+        Calories 			= 	785,
+		DisplayCategory		=   FoodP,
+	}
+
+	item HCPumpkinbread
+	{
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Pumpkin Bread,
+		Icon				=	HCPumpkinbreadBaked,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	120.5,
+		Proteins 			= 	9.5,
+		Lipids 				= 	30,
+		Calories 			= 	785,
+		DisplayCategory		=   FoodP,
+	}
+	
+	item HCPumpkinbreadpan
+	{
+		HungerChange		=	-35,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bread Pan with Pumkpin Bread,
+		Icon				=	HCPumpkinbread,
+		ReplaceOnUse		=	HCBreadpan,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	120.5,
+		Proteins 			= 	9.5,
+		Lipids 				= 	30,
+		Calories 			= 	785,
+		DisplayCategory		=   FoodP,
+	}
+
+	item HCRaisinbread
+	{
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Raisin Bread,
+		Icon				=	HCRaisinbread,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	156,
+		Proteins 			= 	0,
+		Lipids 				= 	15,
+		Calories 			= 	858,
+		DisplayCategory		=   FoodP,
+	}
+	
+	item HCRaisinbreadpan
+	{
+		HungerChange		=	-35,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bread Pan with Raisin Bread,
+		Icon				=	HCPumpkinbread,
+		ReplaceOnUse		=	HCBreadpan,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	156,
+		Proteins 			= 	0,
+		Lipids 				= 	15,
+		Calories 			= 	858,
+		DisplayCategory		=   FoodP,
+	}	
+
+	item HCCornbread
+	{
+		HungerChange		=	-35,
+		Weight				=	0.3,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Cornbread,
+		Icon				=	HCCornbread,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	162,
+		Proteins 			= 	21,
+		Lipids 				= 	30,
+		Calories 			= 	856,
+		DisplayCategory		=   FoodP,
+	}
+	
+	item HCCornbreadpan
+	{
+		HungerChange		=	-35,
+		Weight				=	0.56,
+		Type				=	Food,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	60,
+		DisplayName			=	Bread Pan with Cornbread,
+		Icon				=	HCPumpkinbread,
+		ReplaceOnUse		=	HCBreadpan,
+		DaysTotallyRotten	=	15,
+		DaysFresh 			= 	10,
+		FoodType			=	NoExplicit,
+		Carbohydrates 		= 	162,
+		Proteins 			= 	21,
+		Lipids 				= 	30,
+		Calories 			= 	856,
+		DisplayCategory		=   FoodP,
+	}	
+
+	item HCGritspot
+	{
+		HungerChange			=	-40,
+		Weight				=	1.4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DangerousUncooked		=	TRUE,
+		UnhappyChange			=	-10,
+		BoredomChange			=	-10,
+		MinutesToCook			=	30,
+		MinutesToBurn			=	50,
+		DaysFresh			=	3,	
+		DaysTotallyRotten		=	6,
+		DisplayName			=	Pot of Grits,
+		Icon				=	PotFull,
+		ReplaceOnUse			=	Pot,
+		FoodType    			=   	NoExplicit,
+		Carbohydrates 			= 	308,
+		Proteins 			= 	40,
+		Lipids 				= 	7.2,
+		Calories 			= 	1388, 
+		DisplayCategory		=   FoodP,
+	}
+
+	item HCGritsbowl
+	{
+		HungerChange		=	-25,
+		UnhappyChange		=	-10,
+		BoredomChange		=	-10,
+		Weight				=	0.6,
+		Type				=	Food,
+		DisplayName			=	Bowl of Grits,
+		ReplaceOnUse		=	Bowl,
+		Icon				=	HCGritsbowl,
+		IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysTotallyRotten	=	3,
+		DaysFresh 			= 	6,
+		CustomContextMenu 	= 	Eat,
+		FoodType    		=   	NoExplicit,
+		Carbohydrates 		= 	77,
+		Proteins 			= 	10,
+		Lipids 				= 	1.8,
+		Calories 			= 	347, 
+		DisplayCategory		=   FoodP,
+	}
+
+	item HCGritscheesypot
+	{
+		HungerChange		=	-50,
+		Weight				=	1.4,
+		Type				=	Food,
+		IsCookable			=	TRUE,
+		DangerousUncooked	=	TRUE,
+		UnhappyChange		=	-15,
+		BoredomChange		=	-15,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+		DaysFresh			=	3,	
+		DaysTotallyRotten	=	6,
+		DisplayName			=	Pot of Cheesy Grits,
+		Icon				=	PotFull,
+		ReplaceOnUse		=	Pot,
+		FoodType    		=   NoExplicit,
+		Carbohydrates 		= 	309.3,
+		Proteins 			= 	65,
+		Lipids 				= 	73.2,
+		Calories 			= 	1500,   
+		DisplayCategory		=   FoodP,
+	}
+
+	item HCGritscheesybowl
+	{
+	HungerChange			=	-30,
+	UnhappyChange		=	-15,
+	BoredomChange		=	-15,
+	Weight				=	0.6,
+	Type				=	Food,
+	DisplayName			=	Bowl of Cheesy Grits,
+	IsCookable			=	TRUE,
+		MinutesToCook		=	30,
+		MinutesToBurn		=	50,
+	ReplaceOnUse			=	Bowl,
+	Icon				=	HCGritscheesybowl,
+	DaysTotallyRotten		=	3,
+	DaysFresh 			= 	6,
+	CustomContextMenu 		= 	Eat,
+	FoodType    			=   	NoExplicit,
+	Carbohydrates 			= 	77.3,
+        Proteins 			= 	16.1,
+        Lipids 				= 	18.3,
+        Calories 			= 	375, 
+		DisplayCategory		=   FoodP,
+	}
+
+item HCEnglishmuffinbaked
+	{
+	HungerChange		=	-80,
+	Weight				=	0.5,
+	Type				=	Food,
+    DaysTotallyRotten	=	15,
+    DaysFresh 			= 	10,
+	UnhappyChange		=	-10,
+	BoredomChange		=	-10,
+	DisplayName			=	Baked English Muffin,
+	Icon				=	HCEnglishmuffin,
+	ReplaceOnUse		=	BakingTray,
+	FoodType    		=   NoExplicit,
+	Carbohydrates 		= 	13,
+    Proteins 			= 	2.2,
+    Lipids 				= 	0.5,
+    Calories 			= 	67,
+		DisplayCategory		=   FoodP,
+	}
+
+item HCCroissantbaked
+    {
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	Baked Croissant,
+    Icon				=	HCCroissant,
+	ReplaceOnUse			=	BakingTray,
+	FoodType    			=   	NoExplicit,
+    Carbohydrates 			= 	36,
+    Proteins 			= 	3,
+    Lipids 				= 	5,
+    Calories 			= 	201,
+		DisplayCategory		=   FoodP,
+    }
+
+item HCGarlicbreadbaked
+    {
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	Baked Garlic Bread,
+    Icon				=	HCGarlicbread,
+	ReplaceOnUse			=	BakingTray,
+	FoodType    			=   	NoExplicit,
+    Carbohydrates 			= 	25,
+    Proteins 			= 	4.9,
+    Lipids 				= 	10,
+    Calories 			= 	206,
+		DisplayCategory		=   FoodP,
+    }
+
+item HCFrenchtoast
+    {
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	French Toast,
+    Icon				=	HCFrenchtoast,
+	FoodType    			=   	NoExplicit,
+    Carbohydrates 			= 	16,
+    Proteins 			= 	5,
+    Lipids 				= 	7,
+    Calories 			= 	149,
+		DisplayCategory		=   FoodP,
+    }
+
+item HCFlatbread
+    {
+    HungerChange			=	-15,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	Flatbread,
+    Icon				=	HCFlatbread,
+	FoodType    			=   	NoExplicit,
+	EvolvedRecipe 			= 	Soup:10;Stew:10;Stir fry:10;Salad:10;Roasted Vegetables:10,
+	Carbohydrates 			= 	35,
+    Proteins 			= 	7,
+    Lipids 				= 	8,
+    Calories 			= 	240,
+		DisplayCategory		=   FoodP,
+    }
+
+item HCBaquette
+    {
+    HungerChange			=	-40,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	20,
+    DaysFresh 			= 	14,
+    UnhappyChange			=	-10,
+	BoredomChange			=	-10,
+    DisplayName			=	Baguette,
+    Icon				=	HCBaquette,
+	FoodType    			=  	Bread,
+	EvolvedRecipe 			= 	Soup:10;Stew:10;Stir fry:10;Salad:10;Roasted Vegetables:10,
+	Carbohydrates 			= 	460,
+    Proteins 			= 	62,
+    Lipids 				= 	21,
+    Calories 			= 	3678,
+		DisplayCategory		=   FoodP,
+    }
+
+item HCBisket
+    {
+    HungerChange			=	-10,
+    Weight				=	0.2,
+    Type				=	Food,
+    DaysTotallyRotten		=	5,
+    DaysFresh 			= 	3,
+    UnhappyChange			=	-5,
+	BoredomChange			=	-5,
+    DisplayName			=	Biscuit,
+    Icon				=	HCBisket,
+	FoodType    			=  	Bread,
+	EvolvedRecipe 			= 	Soup:10;Stew:10;Stir fry:10;Salad:10;Roasted Vegetables:10,
+	Carbohydrates 			= 	2,
+    Proteins 			= 	10,
+    Lipids 				= 	2,
+    Calories 			= 	59,
+		DisplayCategory		=   FoodP,
+    }
+
+item HCBreadloafbag
+	{	
+	
+	HungerChange		= -60,
+	Weight			= 0.6,
+	Type			= Food,
+	DaysTotallyRotten	= 9,
+	DisplayName		= Bagged Wheat Bread Loaf,
+	Icon			= HCBreadloafbag,
+	DaysFresh		= 6,
+	EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+	FoodType    		= NoExplicit,
+    Carbohydrates 		= 198,
+    Proteins 		= 35.4,
+    Lipids 			= 13.32,
+    Calories 		= 1064,
+    Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+	}
+	
+item HCBreadwheatloafbag
+	{	
+	
+	HungerChange		= -60,
+	Weight			= 0.6,
+	Type			= Food,
+	DaysTotallyRotten	= 9,
+	DisplayName		= Bagged Wheat Bread Loaf,
+	Icon			= HCBreadwheatloafbag,
+	DaysFresh		= 6,
+	EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+	FoodType    		= NoExplicit,
+    Carbohydrates 		= 198,
+    Proteins 		= 35.4,
+    Lipids 			= 13.32,
+    Calories 		= 1064,
+    Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+	}
+	
+item HCBreadwheat
+	
+	{	
+	
+		HungerChange		= -30,
+		Weight			= 0.3,
+		Type			= Food,
+		DaysTotallyRotten	= 6,
+		DisplayName		= Wheat Bread,
+		Icon			= HCBreadwheat,
+		DaysFresh		= 3,
+		EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 99,
+        	Proteins 		= 17.7,
+        	Lipids 			= 6.66,
+        	Calories 		= 532,
+        	Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+	}
+
+item HCBreadwheatslices
+	{	
+	
+		HungerChange		= -10,
+		Weight			= 0.1,
+		Type			= Food,
+		DaysTotallyRotten	= 6,
+		DisplayName		= Wheat Bread,
+		Icon			= HCBreadwheatslices,
+		DaysFresh		= 3,
+		EvolvedRecipe 		= Soup:5;Stew:5;Salad:5,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 33,
+        	Proteins 		= 5.9,
+        	Lipids 			= 2.22,
+        	Calories 		= 177,
+        	Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+	}
+
+item HCBurgerbunbag
+	{	
+		Weight			= 0.6,
+		Type			= Food,
+		DaysTotallyRotten	= 9,
+		DisplayName		= Bag of Burger Buns,
+		Icon			= HCBurgerbunbag,
+		DaysFresh		= 6,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 33,
+        	Proteins 		= 5.9,
+        	Lipids 			= 2.22,
+        	Calories 		= 177,
+        	Packaged 		= TRUE,
+		DisplayCategory		=   FoodP,
+
+	}
+
+item HCBurgerbun
+	{	
+		HungerChange		= -10,
+		Weight			= 0.1,
+		Type			= Food,
+		DaysTotallyRotten	= 6,
+		DisplayName		= Burger Bun,
+		Icon			= HCBurgerbun,
+		DaysFresh		= 3,
+		EvolvedRecipe 		= Soup:5;Stew:5;Salad:5;Burger:10,
+		FoodType    		= NoExplicit,
+        	Carbohydrates 		= 33,
+        	Proteins 		= 5.9,
+        	Lipids 			= 2.22,
+        	Calories 		= 177,
+        	Packaged 		= FALSE,
+		DisplayCategory		=   FoodP,
+	}
+
+/************************RECIPES************************/
+
+
+recipe Feed The Birds
+	{
+		HCEnglishmuffinbaked/HCCroissantbaked/HCGarlicbreadbaked,
+		Result:BakingTray,
+		Time:100,
+		Category:Hunting,
+		OnCreate:HCFeedTheBirds,
+	}
+
+recipe Open Bag of Burger Buns
+	{
+		HCBurgerbunbag,
+		Result:HCBurgerbun=8,
+		Time:25.0,
+		Category:Cooking,
+	}
+
+recipe Slice Bread
+    {
+        	Bread/HCWholegrainbread,
+        	keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
+        	Result:BreadSlices=3,
+        	Sound:PZ_SliceBread,
+        	Time:40.0,
+        	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+    }
+  
+recipe Make Bowl of Gruel
+	{
+		Bowl,
+       		Water=2,
+       		Flour/HCRiceflour,
+       		Result:HCGruelbowl,
+       		Time:30.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Make Bowl of Sweetened Gruel
+	{
+		Bowl,
+       		Water=2,
+       		Flour/HCRiceflour,
+		Sugar;1,
+       		Result:HCGruelbowlsweet,
+       		Time:30.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Make Dry Ramen Noodles
+	{
+		keep RollingPin,
+		Water=1,
+		Flour/HCRiceflour,
+		keep [Recipe.GetItemTypes.SharpKnife],
+		Result:Ramen,
+		Time:150.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Make Homemade Pancake Batter
+	{
+		keep Bowl,
+		keep HCWhisk/HCEggbeater,
+		Water=1,
+		Flour/HCRiceflour,
+		Sugar;1,
+		[Recipe.GetItemTypes.Egg],
+		Result:HCPancakebatter,
+		Time:30.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Homemade Pancakes
+	{
+		keep HCIcecreamscoop/HCLadle,
+		HCPancakebatter,
+		Pan,
+		Result:HCPancakeshomemadepan,
+		Time:30.0,
+		Category:Cooking,
+		OnCreate:recipe_hcbowl,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Sourdough Starter
+       {
+       		SkillRequired:Cooking=5,
+      	 	Flour/HCRiceflour,
+       		Water,
+       		Sugar;2,
+       		Yeast=4,
+       		destroy HCJar,
+       		Result:HCSourdoughstarter,
+    		NeedToBeLearn:true,
+       		Time: 75.0,
+       		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Make Sourdough Starter
+       {
+       		SkillRequired:Cooking=5,
+      	 	Flour/HCRiceflour,
+       		Water,
+       		Sugar;2,
+       		HCSourdoughstarter,
+       		destroy HCJar,
+       		Result:HCSourdoughstarter,
+    		NeedToBeLearn:true,
+       		Time: 75.0,
+       		Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+       }
+
+recipe Dry Yeast
+    {
+    SkillRequired:Cooking=5,
+    HCSourdoughstarter,
+    OnTest:HCNearHerbatable,
+    CanBeDoneFromFloor:true,
+    Result:Yeast,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Acorn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCAcornsoaked=24,
+		HCFlourempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Flour, 
+       	Time:2000,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }	
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornseeds=20,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:2000,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornredseeds=20,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:2000,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornblueseeds=20,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:2000,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornwhiteseeds=20,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:2000,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Rice Flour
+    {
+       	SkillRequired:Cooking=5,
+       	Rice=30,
+		HCFlourempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRiceflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Wholemeal flour
+    {
+       	SkillRequired:Cooking=4,
+       	HCWheat=20,
+		HCFlourempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:HCWholemealflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Grind Rice Flour
+    {
+       	SkillRequired:Cooking=5,
+       	HCRicebrown=5,
+		HCFlourempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRiceflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Acorn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCAcornsoaked=24,
+		HCFlourempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Flour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }	
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	Corn=5,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornred=5,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornblue=5,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornwhite=5,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Rice Flour
+    {
+       	SkillRequired:Cooking=5,
+       	Rice=2,
+		HCFlourempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRiceflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Rice Flour
+    {
+       	SkillRequired:Cooking=5,
+       	HCRicebrown=2,
+		HCFlourempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRiceflour, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Acorn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCAcornsoaked=24,
+		HCFlourempty=2,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:Flour=2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }	
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	Corn=5,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour=2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornred=5,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour=2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornblue=5,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour=2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Corn Flour
+     {
+       	SkillRequired:Cooking=5,
+       	HCCornwhite=5,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:Cornflour=2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+     }
+
+recipe Grind Rice Flour
+    {
+       	SkillRequired:Cooking=5,
+       	Rice=2,
+		HCFlourempty=2,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRiceflour=2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Rice Flour
+    {
+       	SkillRequired:Cooking=5,
+       	HCRicebrown=2,
+		HCFlourempty=2,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRiceflour=2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Rice with Chaff
+    {
+       	SkillRequired:Cooking=5,
+       	HCChaffrice=2,
+		HCRiceempty,
+       	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRicebrown, 
+       	Time:600,
+    	OnCreate:recipe_hcchaff,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Rice with Chaff
+    {
+       	SkillRequired:Cooking=5,
+       	HCChaffrice=2,
+		HCRiceempty=2,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:HCRicebrown=2,
+    	OnCreate:recipe_hcchaff2, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Rice with Chaff
+    {
+       	SkillRequired:Cooking=5,
+       	HCChaffrice=2,
+		HCRiceempty=2,
+    	keep HCMacerator,
+    	PetrolCan,
+    	CanBeDoneFromFloor:true,
+       	Result:Rice=2,
+    	OnCreate:recipe_hcchaffbran, 
+       	Time:600,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Make Whole Wheat Dough
+    {
+       keep RollingPin,
+       Water=1,
+       HCWholemealflour=1,
+       Salt;1,
+       Yeast,
+       Result:HCWholegrainbread,
+       NeedToBeLearn:true,
+       Time:50.0,
+       Category:Cooking,
+       OnGiveXP:Give10CookingXP,
+    }
+
+
+recipe Thresh Wheat Bundle
+    {
+    	HCWheatBundle,
+    	keep HCCurvedshaftsmall,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWheat=5,
+        CanBeDoneFromFloor:true,
+    	Time:500,
+    	OnCreate:recipe_hcstraw,
+    	Category:Farming,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Thresh Wheat Bundle
+    {
+    	HCWheatBundle,
+    	keep HCThresher,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWheat=10,
+        CanBeDoneFromFloor:true,
+    	Time:250,
+    	OnCreate:recipe_hcstraw,
+    	Category:Farming,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Thresh Wheat Bundle
+    {
+    	HCWheatBundle,
+    	keep HCThreshermech,
+    	CanBeDoneFromFloor:true,
+    	Result:HCWheat=15,
+    	Time:100,
+    	OnCreate:recipe_hcstraw,
+    	Category:Farming,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+
+recipe Make Pumpkin Bread Dough
+    {
+		SkillRequired:Cooking=5,
+       	Water=1,
+        Flour/HCRiceflour,
+		HCPumpkinflesh,
+		[Recipe.GetItemTypes.Egg],
+       	Salt;1,
+       	Sugar;2,
+       	Yeast,
+       	keep RollingPin,
+       	Result:HCPumpkinbreaddough,
+       	NeedToBeLearn:true,
+       	Time:50.0,
+       	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+	recipe Prepare Pumpkin Bread
+    {
+		SkillRequired:Cooking=5,
+		HCBreadpan,
+		HCPumpkinbreaddough,
+		Result:HCPumpkinbreadpan,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+	recipe Prepare Raisin Bread
+    {
+		SkillRequired:Cooking=5,
+		HCBreadpan,
+		HCDriedrasinsbag,
+		BreadDough,
+		Result:HCRaisinbreadpan,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+	recipe Prepare Cornbread
+    {
+		SkillRequired:Cooking=5,
+		HCBreadpan,
+		Cornflour,
+		Butter,
+		Milk,
+		Sugar;1,
+		Salt;1,
+		[Recipe.GetItemTypes.Egg],
+		Result:HCCornbreadpan,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Pot of Grits
+	{
+		SkillRequired:Cooking=1,
+		destroy WaterPot,
+		Cornflour,
+		Butter,
+		Salt;1,	
+		Result:HCGritspot,
+		Time:75.0,
+		Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+	recipe Fill Grits into Bowls
+	{
+		Bowl=4,
+		HCGritspot,
+		Result:HCGritsbowl=4,
+		Time:50.0,
+		Category:Cooking,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Pot of Cheesy Grits
+	{
+		SkillRequired:Cooking=2,
+		destroy WaterPot,
+		HCGratedcheese/HCGratedcheddar/Processedcheese,
+		Cornflour,
+		Butter,
+		Salt;1,	
+		Result:HCGritscheesypot,
+		Time:75.0,
+		Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+	recipe Fill Cheesy Grits into Bowls
+	{
+		Bowl=4,
+		HCGritscheesypot,
+		Result:HCGritscheesybowl=4,
+		Time:50.0,
+		Category:Cooking,
+		OnCreate:recipe_hcpot,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Flatbread
+	{
+       	SkillRequired:Cooking=2,
+       	Flour/HCRiceflour,
+		Water,
+		keep Pan,
+		Result:HCFlatbread,
+    	NeedToBeLearn:true,
+		Time:75.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Homemade Pancake from Pan
+	{
+		HCPancakeshomemadepan,
+		Result:HCPancakeshomemade,   
+		Time:60.0,
+		Category:Cooking,
+		OnTest:RemovePancakeFromPan_CheckIfCooked,
+		OnCreate:recipe_hcbakingpan,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Pumpkin Bread from Pan
+	{
+		HCPumpkinbreadpan,
+		Result:HCPumpkinbread,   
+		Time:60.0,
+		Category:Cooking,
+		OnTest:RemovePumpkinBread_CheckIfCooked,
+		OnCreate:recipe_hcbreadpan,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Raisin Bread from Pan
+	{
+		HCRaisinbreadpan,
+		Result:HCRaisinbread,   
+		Time:60.0,
+		Category:Cooking,
+		OnTest:RemoveRaisinBread_CheckIfCooked,
+		OnCreate:recipe_hcbreadpan,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Remove Corn Bread from Pan
+	{
+		HCCornbreadpan,
+		Result:HCCornbread,   
+		Time:60.0,
+		Category:Cooking,
+		OnTest:RemoveCornBread_CheckIfCooked,
+		OnCreate:recipe_hcbreadpan,
+		OnGiveXP:HCCooking_OnGiveXP,
+	}
+}

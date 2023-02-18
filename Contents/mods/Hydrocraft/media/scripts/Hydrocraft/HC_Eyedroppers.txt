@@ -1,0 +1,824 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCEyedropperammonia
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Ammonia,
+        icon 			= 	HCEyedropperammonia,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppercalciumchloridesolution
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Calciumchloride Solution,
+        icon 			= 	HCEyedroppercalciumchloridesolution,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedropperh2o2
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With H2O2,
+        icon 			= 	HCEyedropperh2o2,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppermercuricoxide
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Mercuricoxide,
+        icon 			= 	HCEyedroppermercuricoxide,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppermethylamin
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Methylamin,
+        icon 			= 	HCEyedroppermethylamin,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppermorphinhydrochloridsolution
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Morphinhydrochlorid Solution,
+        icon 			= 	HCEyedroppermorphinhydrochloridsolution,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppermuriaticacid
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Muriatic Acid,
+        icon 			= 	HCEyedroppermuriaticacid,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedropperpotassiumpermanganate
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Potassium Permanganate,
+        icon 			= 	HCEyedropperpotassiumpermanganate,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedropperphenyl
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Phenylacetic Acid,
+        icon 			= 	HCEyedropperphenyl,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppersodiumhydroxidesolution
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Sodiumhydroxide Solution,
+        icon 			= 	HCEyedroppersodiumhydroxidesolution,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppersulfuricacid
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Sulfuric Acid,
+        icon 			= 	HCEyedroppersulfuricacid,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedroppertronasulution
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Trona Solution,
+        icon 			= 	HCEyedroppertronasulution,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedropperwater
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Water,
+        icon 			= 	HCEyedropperwater,
+	DisplayCategory			= CraftChem,
+    }
+
+item HCEyedropperether
+    {
+        Weight    		= 	0.1,
+	Type			= 	Normal,
+        DisplayName         	= 	Eyedropper With Ether,
+        icon 			= 	HCEyedropperether,
+	DisplayCategory			= CraftChem,
+    }
+
+/************************RECIPES************************/	
+
+
+recipe Put Ammonia In Beaker
+    {
+    	HCEyedropperammonia,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerammoniahalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Ammonia In Beaker
+    {
+    	HCEyedropperammonia,
+        HCBeakerammoniahalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerammonia,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Ammonia From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerammonia,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerammoniahalf,
+        OnCreate:recipe_hcgeteyedropperammonia,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Ammonia From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerammoniahalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedropperammonia,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Calciumchloride Solution In Beaker
+    {
+    	HCEyedroppercalciumchloridesolution,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakercalciumchloridesolutionhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Calciumchloride Solution In Beaker
+    {
+    	HCEyedroppercalciumchloridesolution,
+        HCBeakercalciumchloridesolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakercalciumchloridesolution,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Calciumchloride Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakercalciumchloridesolution,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakercalciumchloridesolutionhalf,
+        OnCreate:recipe_hcgeteyedroppercalciumchloride,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Calciumchloride Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakercalciumchloridesolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppercalciumchloride,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put H2O2 In Beaker
+    {
+    	HCEyedropperh2o2,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerh2o2half,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put H2O2 In Beaker
+    {
+    	HCEyedropperh2o2,
+        HCBeakerh2o2half,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerh2o2,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove H2O2 From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerh2o2,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerh2o2half,
+        OnCreate:recipe_hcgeteyedropperh2o2,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove H2O2 From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerh2o2half,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedropperh2o2,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Mercuricoxide In Beaker
+    {
+    	HCEyedroppermercuricoxide,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermercuricoxidehalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Mercuricoxide In Beaker
+    {
+    	HCEyedroppermercuricoxide,
+        HCBeakermercuricoxidehalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermercuricoxide,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Mercuricoxide From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermercuricoxide,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermercuricoxidehalf,
+        OnCreate:recipe_hcgeteyedroppermercuricoxide,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Mercuricoxide From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermercuricoxidehalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppermercuricoxide,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Methylamin In Beaker
+    {
+    	HCEyedroppermethylamin,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermethylaminhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Methylamin In Beaker
+    {
+    	HCEyedroppermethylamin,
+        HCBeakermethylaminhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermethylamin,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Methylamin From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermethylamin,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermethylaminhalf,
+        OnCreate:recipe_hcgeteyedroppermethylamin,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Methylamin From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermethylaminhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppermethylamin,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Morphinhydrochlorid Solution In Beaker
+    {
+    	HCEyedroppermorphinhydrochloridsolution,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermorphinhydrochloridsolutionhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Morphinhydrochlorid Solution In Beaker
+    {
+    	HCEyedroppermorphinhydrochloridsolution,
+        HCBeakermorphinhydrochloridsolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermorphinhydrochloridsolution,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Morphinhydrochlorid Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermorphinhydrochloridsolution,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermorphinhydrochloridsolutionhalf,
+        OnCreate:recipe_hcgeteyedroppermorphinhydrochloridsolution,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Morphinhydrochlorid Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermorphinhydrochloridsolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppermorphinhydrochloridsolution,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Muriatic Acid In Beaker
+    {
+    	HCEyedroppermuriaticacid,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermuriaticacidhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Muriatic Acid In Beaker
+    {
+    	HCEyedroppermuriaticacid,
+        HCBeakermuriaticacidhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermuriaticacid,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Muriatic Acid From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermuriaticacid,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermuriaticacidhalf,
+        OnCreate:recipe_hcgeteyedroppermuriaticacid,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Muriatic Acid From Beaker
+    {
+    	HCEyedropper,
+        HCBeakermuriaticacidhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppermuriaticacid,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Phenylacetic Acid In Beaker
+    {
+    	HCEyedropperphenyl,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerphenylhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Phenylacetic Acid In Beaker
+    {
+    	HCEyedropperphenyl,
+        HCBeakerphenylhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerphenyl,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Phenylacetic Acid From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerphenyl,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerphenylhalf,
+        OnCreate:recipe_hcgeteyedropperphenyl,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Phenylacetic Acid From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerphenylhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedropperphenyl,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Sodiumhydroxide Solution In Beaker
+    {
+    	HCEyedroppersodiumhydroxidesolution,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakersodiumhydroxidesolutionhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Sodiumhydroxide Solution In Beaker
+    {
+    	HCEyedroppersodiumhydroxidesolution,
+        HCBeakersodiumhydroxidesolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakersodiumhydroxidesolution,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Sodiumhydroxide Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakersodiumhydroxidesolution,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakersodiumhydroxidesolutionhalf,
+        OnCreate:recipe_hcgeteyedroppersodiumhydroxidesolution,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Sodiumhydroxide Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakersodiumhydroxidesolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppersodiumhydroxidesolution,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Sulfuric Acid In Beaker
+    {
+    	HCEyedroppersulfuricacid,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakersulfuricacidhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Sulfuric Acid In Beaker
+    {
+    	HCEyedroppersulfuricacid,
+        HCBeakersulfuricacidhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakersulfuricacid,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Sulfuric Acid From Beaker
+    {
+    	HCEyedropper,
+        HCBeakersulfuricacid,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakersulfuricacidhalf,
+        OnCreate:recipe_hcgeteyedroppersulfuricacid,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Sulfuric Acid From Beaker
+    {
+    	HCEyedropper,
+        HCBeakersulfuricacidhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppersulfuricacid,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Trona Solution In Beaker
+    {
+    	HCEyedroppertronasulution,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakertronasolutionhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Trona Solution In Beaker
+    {
+    	HCEyedroppertronasulution,
+        HCBeakertronasolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakertronasolution,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Trona Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakertronasolution,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakertronasolutionhalf,
+        OnCreate:recipe_hcgeteyedroppertronasulution,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Trona Solution From Beaker
+    {
+    	HCEyedropper,
+        HCBeakertronasolutionhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedroppertronasulution,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Water In Beaker
+    {
+    	HCEyedropperwater,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerwaterhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Water In Beaker
+    {
+    	HCEyedropperwater,
+        HCBeakerwaterhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerwater,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Water From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerwater,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerwaterhalf,
+        OnCreate:recipe_hcgeteyedropperwater,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Water From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerwaterhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedropperwater,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Selfmade Ether In Beaker
+    {
+    	HCEyedropperether,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerselfmadeetherhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Selfmade Ether In Beaker
+    {
+    	HCEyedropperether,
+        HCBeakerselfmadeetherhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerselfmadeether,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Selfmade Ether From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerselfmadeether,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerselfmadeetherhalf,
+        OnCreate:recipe_hcgeteyedropperether,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Selfmade Ether From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerselfmadeetherhalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCGlassbeaker,
+        OnCreate:recipe_hcgeteyedropperether,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Seperate Ether
+    {
+    	HCEyedropper,
+        HCWaterbottlestarterfluidmixed,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCEyedropperether,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Ether in Beaker
+    {
+    	HCEyedropperether,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerselfmadeetherhalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Potassium Permanganate In Beaker
+    {
+    	HCEyedropperpotassiumpermanganate,
+        HCGlassbeaker,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerpotassiumpermanganatehalf,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Put Potassium Permanganate In Beaker
+    {
+    	HCEyedropperpotassiumpermanganate,
+        HCBeakerpotassiumpermanganatehalf,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerpotassiumpermanganate,
+        OnCreate:recipe_hcgeteyedropper,
+    	Time:50,
+    	Category:Health,
+    }
+
+recipe Remove Potassium Permanganate From Beaker
+    {
+    	HCEyedropper,
+        HCBeakerpotassiumpermanganate,
+    	keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakerpotassiumpermanganatehalf,
+        OnCreate:recipe_hcgeteyedropperpotassiumpermanganate,
+    	Time:50,
+    	Category:Health,
+    }
+
+}

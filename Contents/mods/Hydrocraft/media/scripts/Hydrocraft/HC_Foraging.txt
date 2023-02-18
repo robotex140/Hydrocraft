@@ -1,0 +1,1423 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCCrabapple
+	{
+	HungerChange		=	-15,
+	Weight			=	0.2,
+	Type			=	Food,
+	DaysTotallyRotten	=	8,
+	DisplayName		=	Crabapple,
+	Icon			=	HCCrabapple,
+	DaysFresh		=	5,
+	EvolvedRecipe 		= 	Cake:8;FruitSalad:8,
+	FoodType    		=   	Fruits,
+	ThirstChange		=	-7,
+        Carbohydrates 		= 	25.13,
+        Proteins 		= 	0.47,
+        Lipids 			= 	0.31,
+        Calories 		= 	95,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCWildcarrot
+	{
+	HungerChange		=	-8,
+	Weight			=	0.2,
+	Type			=	Food,
+	DaysTotallyRotten	=	8,
+	DisplayName		=	Wild Carrot,
+	Icon			=	HCWildcarrot,
+	DaysFresh		=	6,
+	EvolvedRecipe 		= 	Soup:8;Stew:8;Pie:8;Stir fry:8;Sandwich:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8,
+	FoodType    		=   	Vegetables,
+	ThirstChange		=	-4,
+        Carbohydrates 		= 	5.84,
+        Proteins 		= 	0.57,
+        Lipids 			= 	0.15,
+        Calories 		= 	25,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCCandleberry
+    {
+        HungerChange        	=    	-10,
+	ThirstChange		=	-5,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Candleberry,
+        icon 			= 	HCCandleberry,
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCHuckleberry
+    {
+        HungerChange        	=    	-10,
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Huckleberry,
+        icon 			= 	HCHuckleberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCCranberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Cranberry,
+        icon 			= 	HCCranberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCSeaberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Seaberry,
+        icon 			= 	HCSeaberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCBlackcurrant
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Black Currant,
+        icon 			= 	HCBlackcurrant,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCRedcurrant
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Red Currant,
+        icon 			= 	HCRedcurrant,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCArrowwoodberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Arrowwood Berry,
+        icon 			= 	HCArrowwoodberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCRaspberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Raspberry,
+        icon 			= 	HCRaspberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCElderberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Elderberry,
+        icon 			= 	HCElderberry,
+	IsCookable		=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	10,
+	MinutesToBurn		=	20,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCHolly
+    {
+	HungerChange		=	-10,
+	Weight			=	0.1,
+	Type			=	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+	DisplayName		=	Holly,
+	Icon			=	HCHolly,
+        Poison 			= 	true,
+        PoisonDetectionLevel 	= 	1,
+        PoisonPower 		= 	5,
+        UseForPoison 		= 	1,
+	UnhappyChange		=	50,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCBlackthornberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Blackthorn Berry,
+        icon 			= 	HCBlackthornberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCCrampbarkberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Cramp Bark Berry,
+        icon 			= 	HCCrampbarkberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCCrowberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Crowberry,
+        icon 			= 	HCCrowberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCGooseberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Gooseberry,
+        icon 			= 	HCGooseberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCHawthornfruit 
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Hawthorn Fruit,
+        icon 			= 	HCHawthornfruit,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCJuniperberry
+    {
+	Weight			=	0.1,
+	Type			=	Normal,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+	DisplayName		=	Juniper Berry,
+	Icon			=	HCJuniperberry,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCSumacberry
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+		EvolvedRecipe = Cake:10;FruitSalad:10;Pancakes:10;Waffles:10;Muffin:10,
+        DisplayName         	= 	Sumac Berry,
+        Icon 			= 	HCSumacberry,
+	ThirstChange		=	-5,  
+	FoodType    		=   	Fruits,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCGrass
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.02,
+        Type    		=    	Food,
+        UnhappyChange        	=    	20,
+        DisplayName         	= 	Grass,
+        icon 			= 	HCGrass,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodN,
+    }
+
+item HCFlax
+    {
+        Weight    		= 	0.02,
+        Type    		= 	Normal,
+        DisplayName         	= 	Flax,
+        icon 			= 	HCFlax,
+	DisplayCategory          =   CraftTailor,
+    }
+
+item HCReeds
+    {
+        Weight    		= 	0.02,
+        Type    		= 	Normal,
+        DisplayName         	= 	Reeds,
+        icon 			= 	HCReeds,
+	DisplayCategory          =   SurFor,
+    }
+
+item HCDuckweed
+    {
+        Weight    		= 	0.02,
+        Type    		= 	Normal,
+        DisplayName         	= 	Duckweed,
+        icon 			= 	HCDuckweed,
+	DisplayCategory          =   SurFor,
+    }
+
+item HCMandrake
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Mandrake Root,
+        icon 			= 	HCMandrake,
+	DisplayCategory          =   SurFor,
+    }
+
+item HCMilkweedroot
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Milkweed Root,
+        icon 			= 	HCMilkweedroot,
+	DisplayCategory          =   SurFor,
+    }
+
+item HCLotusroot
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.02,
+        Type    		=    	Food,
+        UnhappyChange        	=    	20,
+        DisplayName         	= 	Lotus Root,
+        icon 			= 	HCLotusroot,
+	FoodType    		=	Vegetables,
+	EvolvedRecipe       	=       Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	Carbohydrates 		= 	14,
+        Proteins 		= 	1.4,
+        Lipids 			= 	0.1,
+        Calories 		= 	59,
+	DisplayCategory          =   FoodN,
+    }
+
+item HCClover
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	DaysTotallyRotten	=	10,
+        DaysFresh		=	6,
+        DisplayName         	= 	Clover,
+        icon 			= 	HCClover,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	4,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCLotusleaf
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Lotus Leaf,
+        icon 			= 	HCLotusleaf,
+	DisplayCategory          =   SurFor,
+    }
+
+item HCWaterlilyleaf
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Water Lily Leaf,
+        icon 			= 	HCWaterlilyleaf,
+	DisplayCategory          =   SurFor,
+    }
+
+item HCHyacinthleaf
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Water Hyacinth Leaf,
+        icon 			= 	HCHyacinthleaf,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCNettles
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Nettles,
+        icon 			= 	HCNettles,
+		DisplayCategory	=   Medical,
+    }
+
+item HCThistle
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Thistle,
+        icon 			= 	HCThistle,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCAlfalfa
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Alfalfa,
+        icon 			= 	HCAlfalfa,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBelladonna
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Belladonna,
+        icon 			= 	HCBelladonna,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCCatnip
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Catnip,
+        icon 			= 	HCCatnip,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCSoapgrass
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Soap Grass,
+        icon 			= 	HCSoapgrass,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCChicory
+   {
+	Type				=		Food,
+	DisplayName			=		Chicory,
+	Icon				=		HCChicory,
+	Weight				=		0.01,
+	HungerChange 			=		-5,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		0.4,
+        Proteins 			= 		0.3,
+        Lipids 				= 		0.1,
+        Calories 			=		3,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCKvann
+   {
+	Type				=		Food,
+	DisplayName			=		Kvann,
+	Icon				=		HCKvann,
+	Weight				=		0.01,
+	HungerChange 			=		-5,
+	DaysFresh 			=		5,
+	DaysTotallyRotten 		=	 	10,
+	FoodType    			=   		Vegetables,
+	EvolvedRecipe       		=       	Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+        Carbohydrates 			= 		0.4,
+        Proteins 			= 		0.3,
+        Lipids 				= 		0.1,
+        Calories 			=		3,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCWolfsbane
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Wolfsbane,
+        icon 			= 	HCWolfsbane,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCValerian
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Valerian,
+        icon 			= 	HCValerian,
+		DisplayCategory	=   SurFor,
+    } 
+
+item HCRosebud
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Rosebud,
+        icon 			= 	HCRosebud,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCSunflower
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Sunflower,
+        icon 			= 	HCSunflower,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCCamomile
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Camomile,
+        icon 			= 	HCCamomile,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCLavender
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Lavender,
+        icon 			= 	HCLavender,
+		DisplayCategory	=   Medical,
+    }
+
+item HCFlaxflower
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Flax Flower,
+        icon 			= 	HCFlaxflower,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCDaisy
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Daisy,
+        icon 			= 	HCDaisy,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCIris
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Iris,
+        icon 			= 	HCIris,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCSkullcap
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Skullcap,
+        icon 			= 	HCSkullcap,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBluebell
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bluebell,
+        icon 			= 	HCBluebell,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCLotusflower
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Lotus Flower,
+        icon 			= 	HCLotusflower,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCHyacinthflower
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Water Hyacinth Flower,
+        icon 			= 	HCHyacinthflower,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCWaterlilyflower
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Water Lily Flower,
+        icon 			= 	HCWaterlilyflower,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCVenusflytrap
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Venus Flytrap,
+        icon 			= 	HCVenusflytrap,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCAnemome
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Anemone,
+        icon 			= 	HCAnemome,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCCamellia
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Camellia,
+        icon 			= 	HCCamellia,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCRhododendron
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Rhododendron,
+        icon 			= 	HCRhododendron,
+    }
+
+item HCDaffodil
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Daffodil,
+        icon 			= 	HCDaffodil,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCTulip
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Tulip,
+        icon 			= 	HCTulip,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCMorningglory
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Morning Glory,
+        icon 			= 	HCMorningglory,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCCalily
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Calily,
+        icon 			= 	HCCalily,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBleedingheart
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bleeding Heart,
+        icon 			= 	HCBleedingheart,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCPansy
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Pansy,
+        icon 			= 	HCPansy,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCTetterwort
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Tetterwort,
+        icon 			= 	HCTetterwort,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCDogwood
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Dogwood,
+        icon 			= 	HCDogwood,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCMagnolia
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Magnolia,
+        icon 			= 	HCMagnolia,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCSpeedwell
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Speedwell,
+        icon 			= 	HCSpeedwell,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCColumbine
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Columbine,
+        icon 			= 	HCColumbine,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCCinquefoils
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Cinquefoils,
+        icon 			= 	HCCinquefoils,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCStrelitzia
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Strelitzia,
+        icon 			= 	HCStrelitzia,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCMazus
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Mazus,
+        icon 			= 	HCMazus,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCCarnation
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Carnation,
+        icon 			= 	HCCarnation,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCChrysanthemum
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Chrysanthemum,
+        icon 			= 	HCChrysanthemum,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBluedaisy
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Blue Daisy,
+        icon 			= 	HCBluedaisy,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBark
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.05,
+        Type    		=    	Food,
+        UnhappyChange        	=    	20,
+        DisplayName         	= 	Bark,
+        icon 			= 	HCBark,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodN,
+    }
+
+item HCBirchbark
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.03,
+        Type    		=    	Food,
+        UnhappyChange        	=    	20,
+        DisplayName         	= 	Birch Bark,
+        icon 			= 	HCBirchbark,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	5,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	70,
+	CantBeFrozen		=	TRUE,
+	DisplayCategory          =   FoodN,
+    }
+
+item HCWillowbark
+    {
+        Weight    		= 	0.05,
+        Type    		= 	Normal,
+        DisplayName         	= 	Willow Bark,
+        icon 			= 	HCWillowbark,
+		DisplayCategory	=   SurFor,
+    } 
+
+item HCAcorn
+    { 
+        Weight    		= 	0.05,
+        Type    		=    	Normal,
+        DisplayName         	= 	Acorn,
+        icon 			= 	HCAcorn,
+		DisplayCategory	=   SurFor,
+     }
+
+item HCBirchcatkin
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Birch Catkin,
+        icon 			= 	HCBirchcatkin,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBeechnut
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	IsCookable		=	TRUE,
+	DangerousUncooked	=	FALSE,
+	MinutesToCook		=	10,
+	MinutesToBurn		=	30,
+	DaysTotallyRotten	=	10,
+	DaysFresh 		= 	5,
+        DisplayName         	= 	Beech Nut,
+        icon 			= 	HCBeechnut,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	34,
+        Proteins 		= 	6.2,
+        Lipids 			= 	50,
+        Calories 		= 	576,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCFircone
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Fir Cone,
+        icon 			= 	HCFircone,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCPinenuts
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	IsCookable		=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	10,
+	MinutesToBurn		=	30,
+	DaysTotallyRotten	=	10,
+	DaysFresh 		= 	5,
+        DisplayName         	= 	Pinenuts,
+        icon 			= 	HCPinenuts,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	13,
+        Proteins 		= 	14,
+        Lipids 			= 	68,
+        Calories 		= 	673,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCChestnut
+    {
+        Weight    		= 	0.2,
+        Type    		= 	Normal,
+        DisplayName         	= 	Chestnut,
+        icon 			= 	HCChestnut,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCChestnut2
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	IsCookable		=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	10,
+	MinutesToBurn		=	30,
+	DaysTotallyRotten	=	10,
+	DaysFresh 		= 	5,
+        DisplayName         	= 	Peeled Chestnut,
+        icon 			= 	HCChestnut2,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	52,
+        Proteins 		= 	4.5,
+        Lipids 			= 	1.2,
+        Calories 		= 	239,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCHickorynuts
+    {
+        Weight    		= 	0.2,
+        Type    		= 	Normal,
+        DisplayName         	= 	Hickory Nuts,
+        icon 			= 	HCHickorynuts,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCHickorynuts2
+    {
+        HungerChange        	=    	-10,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+	IsCookable		=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	10,
+	MinutesToBurn		=	20,
+	DaysTotallyRotten	=	10,
+	DaysFresh 		= 	5,
+        DisplayName         	= 	Peeled Hickory Nuts,
+        icon 			= 	HCHickorynuts2,
+	FoodType    		=   	NoExplicit,
+	Carbohydrates 		= 	18,
+        Proteins 		= 	13,
+        Lipids 			= 	64,
+        Calories 		= 	657,
+	DisplayCategory          =   FoodP,
+    }
+
+item HCHickoryleaves
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Hickory Leaves,
+        icon 			= 	HCHickoryleaves,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCOakleaves
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Oak Leaves,
+        icon 			= 	HCOakleaves,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCMapleleaf
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Maple Leaf,
+        icon 			= 	HCMapleleaf,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCFern
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Fern Leaves,
+        icon 			= 	HCFern,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCFiddleheadfern
+    {
+        HungerChange        	=    	-5,    
+        Weight    		= 	0.1,
+        Type    		=    	Food,
+        DisplayName         	= 	Fiddlehead Fern,
+        icon 			= 	HCFiddleheadfern,
+	FoodType    		=	Vegetables,
+	EvolvedRecipe       	=       Soup:5;Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	Carbohydrates 		= 	6,
+        Proteins 		= 	4.6,
+        Lipids 			= 	0.4,
+        Calories 		= 	34,
+	DisplayCategory          =   FoodN,
+    }
+
+item HCWillowbranch
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Willow Branch,
+        icon 			= 	HCWillowbranch,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCAlderbough
+    {
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+        DisplayName         	= 	Alder Bough,
+        icon 			= 	HCAlderbough,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCElmbough
+    {
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+        DisplayName         	= 	Elm Bough,
+        icon 			= 	HCElmbough,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCSprucebough
+    {
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+        DisplayName         	= 	Spruce Bough,
+        icon 			= 	HCSprucebough,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCYewbough
+    {
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+        DisplayName         	= 	Yew Bough,
+        icon 			= 	HCYewbough,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCPinebough
+    {
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+        DisplayName         	= 	Pine Bough,
+        icon 			= 	HCPinebough,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCFirbough
+    {
+        Weight    		= 	0.3,
+        Type    		= 	Normal,
+        DisplayName         	= 	Fir Bough,
+        icon 			= 	HCFirbough,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBlackfeathers
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Black Feather,
+        icon 			= 	HCBlackfeathers,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCWhitefeathers
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	White Feather,
+        icon 			= 	HCWhitefeathers,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBrownfeathers
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Brown Feather,
+        icon 			= 	HCBrownfeathers,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCStripedfeather
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Striped Feather,
+        icon 			= 	HCStripedfeather,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBluejayfeather
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Blue Jay Feather,
+        icon 			= 	HCBluejayfeather,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCRedfeather
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Red Feather,
+        icon 			= 	HCRedfeather,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCGooseegg
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Goose Egg,
+        icon 			= 	HCGooseegg,
+		DisplayCategory	=   SurFor,
+		Tags			=	Egg,
+    }
+
+item HCTurkeyegg
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Turkey Egg,
+        icon 			= 	HCTurkeyegg,
+		DisplayCategory	=   SurFor,
+		Tags			=	Egg,
+    }
+
+item HCChickenegg
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Chicken Egg,
+        icon 			= 	HCChickenegg,
+		DisplayCategory	=   SurFor,
+		Tags			=	Egg,
+    }
+
+item HCSparrowegg
+    {
+        HungerChange		=	-10,
+        Weight			=	0.1,
+        Type			=	Food,
+        DisplayName		=	Sparrow Eggs,
+        Icon			=	HCSparrowegg,
+        IsCookable		=	TRUE,
+        MinutesToBurn		=	30,
+        MinutesToCook		=	10,
+        DangerousUncooked	=	TRUE,
+        DaysFresh		=	14,
+        DaysTotallyRotten	=	21,
+        EvolvedRecipe 		= 	Stir fry:10;Sandwich:10|Cooked;Burger:10;Salad:10|Cooked;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        FoodType 		= 	Egg,
+        MinutesToBurn		=	30,
+        MinutesToCook		=	10,
+        DangerousUncooked	=	TRUE,
+        Carbohydrates 		= 	0.8,
+        Proteins 		= 	14,
+        Lipids 			= 	15,
+        Calories 		= 	196,
+        CantBeFrozen 		= 	TRUE,
+	DisplayCategory          =   FoodP,
+		Tags			=	Egg,
+    }
+
+item HCBirdnest
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bird Nest,
+        icon 			= 	HCBirdnest,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCBirdnesteggs
+    {
+        Weight    		= 	0.1,
+        Type    		= 	Normal,
+        DisplayName         	= 	Bird Nest with Eggs,
+        icon 			= 	HCBirdnesteggs,
+		DisplayCategory	=   SurFor,
+    }
+
+item HCStonearrowhead
+    {
+        Weight    		= 	0.01,
+        Type    		= 	Normal,
+        DisplayName         	= 	Stone Arrowhead,
+        icon 			= 	HCStonearrowhead,
+		DisplayCategory	=   CraftAmmo,
+    }
+
+    item HCTwigbundle
+	{
+		Weight		=	0.3,
+		Type		=	Normal,
+		DisplayName	=	Bundle of Twigs,
+		Icon		=	HCTwigbundle,
+		DisplayCategory	=   CraftCarp,
+	}
+
+/************************RECIPES************************/
+
+recipe Crack Nuts
+    {
+    keep HCNutcracker/Hammer/HammerStone,
+    HCHickorynuts,
+    Result:HCHickorynuts2,
+    Time:15,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Crack Nuts
+    {
+    keep HCNutcracker/Hammer/HammerStone,
+    HCChestnut,
+    Result:HCChestnut2,
+    Time:15,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Extract Pinenuts
+    {
+    HCFircone,
+    Result:HCPinenuts,
+    Time:500,
+    Category:Cooking,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Gather Flora
+    {
+    keep HCBookflowerguide,
+    keep HCBookfungiguide,
+    keep HCBooktreeguide,
+    Result:HCBooktreeguide,
+    Time:350,
+    NeedToBeLearn:true,
+    Category:Survivalist,
+    OnCreate:HCFloraGather,
+    RemoveResultItem:true,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Gather Dung
+    {
+    keep HCBookmammalguide,
+    Result:HCCowpoop,
+    Time:350,
+    NeedToBeLearn:true,
+    Category:Survivalist,
+    OnCreate:HCDungGather,
+    RemoveResultItem:true,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+recipe Remove Eggs from Nest
+    {
+    HCBirdnesteggs,
+    Result:HCBirdnest,
+    Time:15,
+    NeedToBeLearn:true,
+    Category:Survivalist,
+    OnCreate:HCRandomegg,
+    }
+
+recipe Bundle Twigs
+    {
+    Twigs=10,
+    HCRopethin,
+    Result:HCTwigbundle,
+    Time:15,
+    Category:Survivalist,
+    }
+
+recipe Unbundle Twigs
+    {
+    HCTwigbundle,
+    Result:Twigs=10,
+    Time:15,
+    Category:Survivalist,
+    OnCreate:recipe_hcropethin,
+    }
+
+recipe Make Branch
+    {
+    HCAlderbough/HCElmbough/HCFirbough/HCPinebough/HCSprucebough/HCWillowbranch/HCYewbough,
+    Result:TreeBranch,
+    Time:15,
+    Category:Survivalist,
+    OnGiveXP:HCPlantScavenging_OnGiveXP,
+    }
+
+}

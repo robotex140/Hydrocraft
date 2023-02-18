@@ -1,0 +1,40 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCRingsteel
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Steel Ring,
+        icon 			= HCRingsteel,
+		DisplayCategory	= CraftGem,
+    } 
+
+/************************RECIPES************************/	
+
+recipe Make Steel Ring
+    {
+    HCSteelingot,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCRingmold,
+    keep Tongs,
+    keep HCWorkgloves/HCOvenmitts,
+    keep HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCRingsteel=4,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+}

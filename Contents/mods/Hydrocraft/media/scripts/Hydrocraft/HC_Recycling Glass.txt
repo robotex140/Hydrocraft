@@ -1,0 +1,162 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************RECIPES************************/
+
+recipe Recycle Glass
+    {
+    WhiskeyEmpty=3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Glass
+    {
+    WineEmpty=3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Glass
+    {
+    WineEmpty2=3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Glass
+    {
+    EmptyJar=5,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+
+recipe Recycle Glass
+    {
+    HCFishtank,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+recipe Recycle Glass
+    {
+    LightBulb=10,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+
+
+recipe Recycle Glass
+    {
+    FrontWindow1/FrontWindow2/FrontWindow3/RearWindow1/RearWindow2/RearWindow3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Recycle Glass
+    {
+    Windshield1/Windshield2/Windshield3/RearWindshield1/RearWindshield2/RearWindshield3,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold=2,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCGlassingot=2,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Glassworking,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+	
+
+
+}

@@ -1,0 +1,95 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCLard
+    {
+		DisplayCategory = Food,	
+		DisplayName = Lard,
+		Type = Food,
+		Weight = 0.3,
+		EvolvedRecipe = Sandwich:2;Sandwich Baguette:2;Stir fry Griddle Pan:4;Stir fry:4;Roasted Vegetables:4;PastaPot:4;PastaPan:4;Taco:2;Burrito:2;Toast:2;Soup:4;Stew:4,
+		FoodType = NoExplicit,
+        icon 			= HCLard,
+		Spice = true,
+		Packaged = TRUE,
+		HungerChange = -24,
+		UnhappyChange = 30,
+		Calories = 4095,
+		Carbohydrates = 0,
+		Lipids = 454,
+		Proteins = 0,
+		WorldStaticModel = Lard_Ground,
+		Tags = BakingFat,		
+    }   
+
+item HCTallow
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Tallow,
+        icon 			= HCTallow,
+		DisplayCategory	= CraftChem,
+    }   
+
+item HCSoap
+    {
+        Weight    		= 0.1,
+        Type	            	= Drainable,
+        UseDelta	        = 0.05,
+        UseWhileEquipped	= FALSE,
+        DisplayName         	= Homemade Soap,
+        icon 			= HCSoap,
+        cantBeConsolided    	= TRUE,
+		DisplayCategory	= Cleaning,
+		WorldStaticModel = WorldItem-HCSoap,		
+    }   
+
+/************************RECIPES************************/
+    
+
+recipe Make Tallow
+    {
+    	HCLard=4,
+        HCCheesecloth,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	    Water,
+    	keep HCClaycauldron/HCCauldroniron,
+    	CanBeDoneFromFloor:true,
+    	Result:HCTallow,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Chemistry,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Homemade Soap
+    {
+    	HCTallow=4,
+	HCBorax,
+	HCWoodenbucketlye,
+	HCCheesecloth,
+	keep HCSafetyglasses,
+	keep HCRubberglove,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	Water,
+    	keep HCClaycauldron/HCCauldroniron,
+    	CanBeDoneFromFloor:true,
+    	Result:HCSoap,
+    	NeedToBeLearn:true,
+    	Time:500,
+    	Category:Chemistry,
+    	OnCreate:recipe_hcwoodenbucket,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

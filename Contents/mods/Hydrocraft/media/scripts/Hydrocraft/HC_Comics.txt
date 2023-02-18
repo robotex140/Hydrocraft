@@ -1,0 +1,143 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCComic1
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic1,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic1_Open,
+        WorldStaticModel = HCComic1_Ground,
+    }
+
+item HCComic2
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic2,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic2_Open,
+        WorldStaticModel = HCComic2_Ground,
+    }
+
+item HCComic3
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic3,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic3_Open,
+        WorldStaticModel = HCComic3_Ground,
+    }
+
+item HCComic4
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic4,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic4_Open,
+        WorldStaticModel = HCComic4_Ground,
+    }
+
+item HCComic5
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic5,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic5_Open,
+        WorldStaticModel = HCComic5_Ground,
+    }
+
+item HCComic6
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic6,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic6_Open,
+        WorldStaticModel = HCComic6_Ground,
+    }
+
+item HCComic7
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic7,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic7_Open,
+        WorldStaticModel = HCComic7_Ground,
+    }
+
+item HCComic8
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic8,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic8_Open,
+        WorldStaticModel = HCComic8_Ground,
+    }
+
+item HCComic9
+   {
+        Weight		=	0.1,
+        Type		=	Literature,
+        DisplayName	=	Comic Book,
+        Icon		=	HCComic9,
+        UnhappyChange	=	-20,
+        StressChange	=	-20,
+        BoredomChange	=	-30,
+		DisplayCategory	= LitE,
+        StaticModel = HCComic9_Open,
+        WorldStaticModel = HCComic9_Ground,
+    }
+
+/************************RECIPES************************/	
+
+
+    
+
+}

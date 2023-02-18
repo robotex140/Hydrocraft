@@ -1,0 +1,219 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCHempbudfresh
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Fresh Hemp Bud,
+        icon 			= HCHempbudfresh,
+		DisplayCategory	= SurFarm,
+    }  
+
+item HCHempbudcured
+    {
+        Weight    		= 0.01,
+        Type    		= Normal,
+        DisplayName         	= Cured Hemp Bud,
+        icon 			= HCHempbudcured,
+		DisplayCategory	= SurFarm,
+    } 
+
+item HCBongempty
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Glass Bong,
+        icon 			= HCBongempty,
+		DisplayCategory	= Drugs,
+    }
+
+item HCBongfull
+    {
+	HungerChange			=	15,
+	Weight				=	0.5,
+	RequireInHandOrInventory	=	Lighter,
+	Type				=	Food,
+	DisplayName			=	Glass Bong with Hemp,
+	StressChange			=	-30,
+	UnhappyChange			=	-30,
+	ReplaceOnUse			=	HCBongdirty,
+	Icon				=	HCBongfull,
+	Alcoholic			=	TRUE,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_bong_hemp,
+		DisplayCategory	= Drugs,
+    }
+
+item HCBongdirty
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Dirty Glass Bong,
+        icon 			= HCBongdirty,
+		DisplayCategory	= Drugs,
+    }
+
+item HCBongacrylicempty
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Acrylic Bong,
+        icon 			= HCBongacrylicempty,
+		DisplayCategory	= Drugs,
+    }
+
+item HCBongacrylicfull
+    {
+	HungerChange			=	15,
+	Weight				=	0.4,
+	RequireInHandOrInventory	=	Lighter,
+	Type				=	Food,
+	DisplayName			=	Acrylic Bong with Hemp,
+	StressChange			=	-30,
+	UnhappyChange			=	-30,
+	ReplaceOnUse			=	HCBongacrylicdirty,
+	Icon				=	HCBongacrylicfull,
+	Alcoholic			=	TRUE,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+    }
+
+item HCBongacrylicdirty
+    {
+        Weight    		= 0.3,
+        Type    		= Normal,
+        DisplayName         	= Dirty Acrylic Bong,
+        icon 			= HCBongacrylicdirty,
+		DisplayCategory	= Drugs,
+    }
+
+item HCPipehemp
+    {
+	HungerChange			=	10,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	DisplayName			=	Clay Pipe with Hemp,
+	StressChange			=	-25,
+	UnhappyChange			=	-25,
+	ReplaceOnUse			=	HCClaypipesmoking,
+	Icon				=	HCClaypipesmoking,
+	Alcoholic			=	TRUE,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+    }
+
+item HCCorncobpipehemp
+    {
+	HungerChange			=	10,
+	Weight				=	0.1,
+	RequireInHandOrInventory	=	Lighter/Matches,
+	Type				=	Food,
+	DisplayName			=	Corn Cob Pipe with Hemp,
+	StressChange			=	-25,
+	UnhappyChange			=	-25,
+	ReplaceOnUse			=	HCCorncobpipe,
+	Icon				=	HCCorncobpipe,
+	Alcoholic			=	TRUE,
+	CustomContextMenu 		= 	Smoke,
+	CantBeFrozen 			= 	TRUE, 
+	CustomEatSound = HC_LightUp,
+		DisplayCategory	= Drugs,
+    }
+
+
+/************************RECIPES************************/
+
+recipe Cure Hemp Bud
+    {
+    HCHempbudfresh,
+    OnTest:HCNearHerbatable,
+    CanBeDoneFromFloor:true,
+    Result:HCHempbudcured,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Chemistry,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Bud in Pipe
+    {
+    HCHempbudcured,
+    HCClaypipesmoking,
+    Result:HCPipehemp,
+    Time:15,
+    Category:Chemistry,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Bud in Pipe
+    {
+    HCHempbudcured,
+    HCCorncobpipe,
+    Result:HCCorncobpipehemp,
+    Time:15,
+    Category:Chemistry,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Put Bud in Glass Bong
+    {
+    HCHempbudcured,
+    Water,
+    HCBongempty,
+    Result:HCBongfull,
+    Time:15,
+    Category:Chemistry,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Clean Glass Bong
+    {
+    HCBongdirty,
+    keep Sponge/HCLoofah/HCSponge/RippedSheets,
+    Water,
+    Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
+    Result:HCBongempty,
+    Time:50,
+    Category:Chemistry,
+    OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Put Bud in Acrylic Bong
+    {
+    HCHempbudcured,
+    Water,
+    HCBongacrylicempty,
+    Result:HCBongacrylicfull,
+    Time:15,
+    Category:Chemistry,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Clean Acrylic Bong
+    {
+    HCBongacrylicdirty,
+    keep Sponge/HCLoofah/HCSponge/RippedSheets,
+    Water,
+    Soap2/Bleach/HCHandsoap/HCShampoo/HCSoap/CleaningLiquid2,
+    Result:HCBongacrylicempty,
+    Time:50,
+    Category:Chemistry,
+    OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+}

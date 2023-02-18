@@ -1,0 +1,133 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCRubberglove
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Rubber Gloves,
+        icon 			= HCRubberglove,
+		DisplayCategory	= ClothM,
+    } 
+
+item HCGasmask
+    {
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	    = Gasmask,
+        Icon    	        = HCGasmask,
+		DisplayCategory		= ClothM,
+    }
+
+item HCImprovisedgasmask
+    {
+        Weight    	        = 0.9,
+        Type    	        = Normal,
+        DisplayName    	    = Improvised Gasmask,
+        Icon    	        = HCImprovisedgasmask,
+		DisplayCategory		= ClothM,
+    }
+
+item HCImprovisedhazmat
+    {
+        Weight    	        = 1.3,
+        Type    	        = Normal,
+        DisplayName    	    = Improvised Hazmat Suit,
+        Icon    	        = HCImprovisedhazmat,
+		DisplayCategory		= ClothM,
+    }
+
+
+
+item HCBootcombat
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Combat Boots,
+		Icon		=	HCBootcombat,
+		ConditionLowerChanceOneIn = 90000,
+        ConditionMax	=	10,
+        Insulation  	=  	1.0,
+		DisplayCategory	= ClothP,
+	}
+
+
+item HCBootriot
+	{
+		BodyLocation	=	Shoes,
+		Type		=	Clothing,
+		Temperature	=	4,
+		SpriteName	=	Shoes1,
+		DisplayName	=	Riot Boots,
+		Icon		=	HCBootriot,
+		ConditionLowerChanceOneIn = 90000,
+        ConditionMax	=	10,
+        Insulation  	=  	1.0,
+		DisplayCategory	= ClothP,
+	}
+
+item HCQuiver
+{
+    DisplayCategory = Bag,
+    Type = Container,
+    DisplayName = Leather Quiver,
+    ClothingItem = HCQuiver,
+    CanBeEquipped = Back,
+    WeightReduction	=	65,
+    Weight	=	1,
+    Capacity	=	6,
+    Icon	=	HCQuiver,
+    OpenSound   =   OpenBag,
+    CloseSound   =   CloseBag,
+    PutInSound   =   PutItemInBag,
+    BloodLocation = Bag,
+    RunSpeedModifier = 1.00,
+    CanHaveHoles = false,
+    AttachmentReplacement = Bag,
+    Tooltip = Tooltip_item_BonusLongbowReload,
+    ReplaceInSecondHand = Bag_ALICEpack_LHand holdingbagleft,
+    ReplaceInPrimaryHand = Bag_ALICEpack_RHand holdingbagright,
+    WorldStaticModel = Hydrocraft.HCQuiver_Ground,
+}
+
+
+
+/************************RECIPES************************/
+    
+
+recipe Wear Glasses
+    {
+    	Glasses,
+    	Result:Glasses,
+    	Time:15,
+    	OnCreate:WearGlassesRecipe,
+       	Category:Health,
+    }	
+
+
+recipe Make Improvised Gasmask
+    {             
+         HCWaterbottlecutoff,
+         Glue/HCSuperglue/HCRubbercement/HCHotgluegunfull/HCGluejar,
+         HCSponge/Sponge,
+         RubberBand=4,
+         DuctTape/Scotchtape/HCMaskingtape/HCPackingtape/HCElectrictape,
+         keep HCScalpelimprovised/[Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors],
+         NeedToBeLearn:true,               
+         Result:HCImprovisedgasmask,
+	 Time:300.0,
+         Category:Engineer,
+    	OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+
+}

@@ -1,0 +1,712 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, farming
+    }
+
+/************************ITEMS************************/
+
+
+	item HCFitnessdrink
+	{
+		HungerChange		=	-10,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		ThirstChange		=	-30,
+		EnduranceChange		=	0,
+        FatigueChange		=	0,
+		DisplayName		=	Fitness Drink,
+		Icon			=	HCCanteen,
+		Carbohydrates 		= 	30,
+        Proteins 		= 	40,
+        Lipids 			= 	0,
+        Calories 		= 	300,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		ReplaceOnUse		=	HCCanteen,
+		DisplayCategory		=   FoodB,
+	}
+
+
+	item HCEnergydrink
+	{
+		HungerChange		=	-10,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		ThirstChange		=	-30,
+		EnduranceChange		=	10,
+        FatigueChange		=	-15,
+		DisplayName		=	Energy Drink,
+		Icon			=	HCEnergydrink,
+		Carbohydrates 		= 	30,
+        Proteins 		= 	20,
+        Lipids 			= 	0,
+        Calories 		= 	300,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		ReplaceOnUse		=	Hydrocraft.HCEnergydrinktrash,
+		DisplayCategory		=   FoodB,
+	}
+
+	item HCEnergydrink2
+	{
+		HungerChange		=	-10,
+		Weight			=	0.3,
+		AlwaysWelcomeGift	=	TRUE,
+		Type			=	Food,
+		ThirstChange		=	-30,
+		EnduranceChange		=	10,
+		FatigueChange		=	-15,
+		DisplayName		=	Energy Drink,
+		Icon			=	HCEnergydrink2,
+		Carbohydrates 		= 	30,
+        Proteins 		= 	20,
+        Lipids 			= 	0,
+        Calories 		= 	300,
+        Packaged 		= 	TRUE,
+        CantBeFrozen 		= 	TRUE,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		ReplaceOnUse		= 	Hydrocraft.HCEnergydrink2trash,
+		DisplayCategory		=   FoodB,
+	}
+	
+		
+	item HCApplecider
+	{
+		HungerChange		=	-15,
+		Weight			=	0.8,
+		Type			=	Food,
+		UnhappyChange		=	-10,
+		ThirstChange		=	-85,
+		DisplayName		=	Apple Cider,
+		ReplaceOnUse		=	HCGlassjug,
+		Icon			=	HCApplecider,
+		CustomContextMenu 	= 	Drink,
+		CustomEatSound 		= 	DrinkingFromBottle,
+		FoodType		=	NoExplicit,
+       	Carbohydrates 		= 	35.4,
+        Proteins 		= 	0,
+        Lipids 			= 	0,
+        Calories 		= 	336,
+        CantBeFrozen 		= 	TRUE,
+		Packaged		=	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCCoffeelarge
+    {
+        Weight				=	2,
+        Type				=	Food,
+        HungerChange    	=   -60,
+        UnhappyChange   	=   40,
+        ThirstChange    	=   100,
+        FatigueChange		=	-50,
+        DisplayName			=	Large Can of Coffee,
+        Icon				=	HCCoffeelarge,
+        EvolvedRecipe   	=   HotDrink:5,
+        FoodType    		=   Coffee,
+        Carbohydrates 		= 	0,
+        Proteins 			= 	1,
+        Lipids 				= 	0,
+        Calories 			= 	2,
+        Packaged 			= 	TRUE,
+        ReplaceOnUse		=	Hydrocraft.HCJar,
+		DisplayCategory		=   FoodB,
+    }
+
+
+	item HCCoffeeRoasted
+    {
+        Weight	=	5,
+        Type	=	Drainable,
+        UseDelta	=	0.2,
+        DisplayName	=	Sack of roasted Coffee,
+        Icon	=	Sandbag,
+		ReplaceOnDeplete	=	EmptySandbag,
+		DisplayCategory		=   CookRef,
+    }
+
+
+	item HCCoco
+	{
+		Weight				=	1,
+		Type				=	Drainable,
+		UseWhileEquipped	=	FALSE,
+		UseDelta			=	0.2,
+		DisplayName			=	Cocoa Powder,
+		Icon				=	HCCoco,
+		DisplayCategory		=   CookRef,
+	}
+	
+	item HCCococup
+	{
+		HungerChange			=	-20,
+		UnhappyChange			=	-10,
+		StressChange			=	-10,
+		Weight				=	0.5,
+		Type				=	Food,
+		ThirstChange			=	-50,
+		DisplayName			=	Cup of Hot Chocolate,
+		ReplaceOnUse			=	Mugl,
+		Icon				=	HCCococup,
+		CustomContextMenu 		= 	Drink,
+		FoodType			=	NoExplicit,
+        Carbohydrates 			= 	225,
+        Proteins 			= 	9,
+        Lipids 				= 	45,
+        Calories 			= 	1200,
+        CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+
+	item HCCococup2
+	{
+		HungerChange			=	-20,
+		UnhappyChange			=	-10,
+		StressChange			=	-10,
+		Weight				=	0.5,
+		Type				=	Food,
+		ThirstChange			=	-50,
+		DisplayName			=	Cup of Hot Chocolate,
+		ReplaceOnUse			=	HCClaymug,
+		Icon				=	HCHotcuppa,
+		CustomContextMenu 		= 	Drink,
+		FoodType			=	NoExplicit,
+        Carbohydrates 			= 	225,
+        Proteins 			= 	9,
+        Lipids 				= 	45,
+        Calories 			= 	1200,
+        CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCCoffeeblack
+	{
+		HungerChange			=	-10,
+		FatigueChange			=	-15,
+		UnhappyChange			=	-5,
+		StressChange			=	-10,
+		Weight				=	0.5,
+		Type				=	Food,
+		ThirstChange			=	-50,
+		DisplayName			=	Cup of Black Coffee,
+		IsCookable				=	TRUE,
+		MinutesToCook			=	5,
+		MinutesToBurn			=	20,
+		ReplaceOnUse			=	Mugl,
+		Icon				=	HCCoffeecup,
+		CustomContextMenu 		= 	Drink,
+		FoodType			=	NoExplicit,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	0.3,
+        Lipids 				= 	0,
+        Calories 			= 	3,
+        CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCCoffeeblacksugar
+	{
+		HungerChange			=	-10,
+		FatigueChange			=	-17,
+		UnhappyChange			=	-8,
+		StressChange			=	-14,
+		Weight					=	0.5,
+		Type					=	Food,
+		ThirstChange			=	-50,
+		DisplayName				=	Cup of Coffee with Sugar,
+		IsCookable				=	TRUE,
+		MinutesToCook			=	5,
+		MinutesToBurn			=	20,
+		ReplaceOnUse			=	Mugl,
+		Icon					=	HCCoffeecup,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+        Carbohydrates 		= 	0,
+        Proteins 			= 	0.3,
+        Lipids 				= 	0,
+        Calories 			= 	3,
+        CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+		
+	item HCCoffeeblacksugarmilk
+	{
+		HungerChange			=	-10,
+		FatigueChange			=	-20,
+		UnhappyChange			=	-12,
+		StressChange			=	-18,
+		Weight					=	0.5,
+		Type					=	Food,
+		ThirstChange			=	-50,
+		DisplayName				=	Cup of Coffee with Sugar and Milk,
+		IsCookable				=	TRUE,
+		MinutesToCook			=	5,
+		MinutesToBurn			=	20,
+		ReplaceOnUse			=	Mugl,
+		Icon					=	HCCoffeewithmilk,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+        Carbohydrates 		= 	0,
+        Proteins 			= 	0.3,
+        Lipids 				= 	0,
+        Calories 			= 	3,
+        CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCCoffeeblack2
+	{
+		HungerChange			=	-10,
+		FatigueChange			=	-15,
+		UnhappyChange			=	-5,
+		StressChange			=	-10,
+		Weight				=	0.5,
+		Type				=	Food,
+		ThirstChange			=	-50,
+		DisplayName			=	Cup of Black Coffee,
+		IsCookable				=	TRUE,
+		MinutesToCook			=	5,
+		MinutesToBurn			=	20,
+		ReplaceOnUse			=	HCClaymug,
+		Icon				=	HCHotcuppa,
+		CustomContextMenu 		= 	Drink,
+		FoodType			=	NoExplicit,
+        Carbohydrates 			= 	0,
+        Proteins 			= 	0.3,
+        Lipids 				= 	0,
+        Calories 			= 	3,
+        CantBeFrozen 			= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCCoffeeblack2sugar
+	{
+		HungerChange			=	-10,
+		FatigueChange			=	-17,
+		UnhappyChange			=	-8,
+		StressChange			=	-14,
+		Weight					=	0.5,
+		Type					=	Food,
+		ThirstChange			=	-50,
+		DisplayName				=	Cup of Coffee with Sugar,
+		IsCookable				=	TRUE,
+		MinutesToCook			=	5,
+		MinutesToBurn			=	20,
+		ReplaceOnUse			=	HCClaymug,
+		Icon					=	HCHotcuppa,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+        Carbohydrates 		= 	0,
+        Proteins 			= 	0.3,
+        Lipids 				= 	0,
+        Calories 			= 	3,
+        CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCCoffeeblack2sugarmilk
+	{
+		HungerChange			=	-10,
+		FatigueChange			=	-20,
+		UnhappyChange			=	-12,
+		StressChange			=	-18,
+		Weight					=	0.5,
+		Type					=	Food,
+		ThirstChange			=	-50,
+		DisplayName				=	Cup of Coffee with Sugar and Milk,
+		IsCookable				=	TRUE,
+		MinutesToCook			=	5,
+		MinutesToBurn			=	20,
+		ReplaceOnUse			=	HCClaymug,
+		Icon					=	HCCoffeewithmilk2,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+        Carbohydrates 		= 	0,
+        Proteins 			= 	0.3,
+        Lipids 				= 	0,
+        Calories 			= 	3,
+        CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}	
+
+	item HCKettlecoffee
+	{
+		HungerChange			=	-20,
+		FatigueChange			=	-60,
+		UnhappyChange			=	-10,
+		StressChange			=	-10,
+		Weight					=	2,
+		Type					=	Food,
+		ThirstChange			=	-200,
+		DangerousUncooked		=	TRUE,
+		DisplayName				=	Kettle of Black Coffee,
+		ReplaceOnUse			=	Kettle,
+		IsCookable				=	TRUE,
+		MinutesToCook			=	15,
+		MinutesToBurn			=	120,
+		Icon					=	Kettle,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+        Carbohydrates 		= 	0,
+        Proteins 			= 	1.5,
+        Lipids 				= 	0,
+        Calories 			= 	10,
+        CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCThermoscoffee
+	{
+		HungerChange			=	-25,
+		FatigueChange			=	-40,
+		UnhappyChange			=	-5,
+		StressChange			=	-10,
+		Weight					=	2,
+		Type					=	Food,
+		ThirstChange			=	-100,
+		DisplayName				=	Thermos of Black Coffee,
+		ReplaceOnUse			=	HCThermos,
+		Icon					=	HCThermos,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	1.5,
+		Lipids 				= 	0,
+		Calories 			= 	10,
+		CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCThermoscoffeesugar
+	{
+		HungerChange			=	-25,
+		FatigueChange			=	-42,
+		UnhappyChange			=	-8,
+		StressChange			=	-14,
+		Weight					=	2,
+		Type					=	Food,
+		ThirstChange			=	-100,
+		DisplayName				=	Thermos of Coffee with Sugar,
+		ReplaceOnUse			=	HCThermos,
+		Icon					=	HCThermos,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	1.5,
+		Lipids 				= 	0,
+		Calories 			= 	10,
+		CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+	item HCThermoscoffeesugarmilk
+	{
+		HungerChange			=	-25,
+		FatigueChange			=	-45,
+		UnhappyChange			=	-12,
+		StressChange			=	-18,
+		Weight					=	2,
+		Type					=	Food,
+		ThirstChange			=	-100,
+		DisplayName				=	Thermos of Coffee with Sugar and Milk,
+		ReplaceOnUse			=	HCThermos,
+		Icon					=	HCThermos,
+		CustomContextMenu 		= 	Drink,
+		FoodType				=	NoExplicit,
+		Carbohydrates 		= 	0,
+		Proteins 			= 	1.5,
+		Lipids 				= 	0,
+		Calories 			= 	10,
+		CantBeFrozen 		= 	TRUE,
+		DisplayCategory		=   FoodB,
+	}
+	
+/************************RECIPES************************/
+
+
+recipe Roast Coffee
+    {
+    	EmptySandbag,
+    	HCCoffeeBeans=60,
+    	Charcoal,
+    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	keep HCWorkgloves,
+    	OnTest:HCNearKiln,
+    	keep RoastingPan,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCoffeeRoasted,
+    	Time:300,
+    	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Coffee
+    {
+    	HCCoffeeRoasted,
+    	HCJar,
+    	OnTest:HCNearGrindstone,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCoffeelarge,
+    	Time:150,
+    	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Grind Coffee
+    {
+    	HCCoffeeRoasted=2,
+    	HCJar,
+    	keep MortarPestle,
+    	CanBeDoneFromFloor:true,
+    	Result:HCCoffeelarge,
+    	Time:400,
+    	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+	recipe Mix Fitness Drink
+	{
+		SkillRequired:Cooking=2,
+		destroy HCCanteen,
+		Banana=2,
+		HCBunchofberries,
+		HCSpirulinafresh=5,
+		HCBlenderpowered,
+		Result:HCFitnessdrink,
+		Time:70.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Brew Black Coffee
+	{
+		destroy HCClaymugfull,
+		Coffee2;6,
+		Result:HCCoffeeblack2,
+		Time:70.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Brew Black Coffee
+	{
+		destroy WaterMug,
+		Coffee2;6,
+		Result:HCCoffeeblack,
+		Time:70.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Prepare Black Coffee Kettle
+	{
+		destroy FullKettle,
+		HCCoffeefilterdry,
+		Coffee2;10,
+		Result:HCKettlecoffee,
+		Time:75.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+	recipe Prepare Black Coffee Kettle
+	{
+		destroy FullKettle,
+		HCCoffeefilterdry,
+		HCCoffeelarge;10,
+		Result:HCKettlecoffee,
+		Time:75.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Pour Black Coffee into Mug
+	{
+		Mugl,
+		HCKettlecoffee;5,
+		Result:HCCoffeeblack,
+		Time:15.0,
+		OnTest:BlackCoffeeKettle_CheckIfCooked,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Pour Black Coffee into Mug
+	{
+		HCClaymug,
+		HCKettlecoffee;5,
+		Result:HCCoffeeblack2,
+		OnTest:BlackCoffeeKettle_CheckIfCooked,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Pour Black Coffee into Thermos
+	{
+		HCThermos,
+		HCKettlecoffee;10,
+		Result:HCThermoscoffee,
+		OnTest:BlackCoffeeKettle_CheckIfCooked,
+		Time:25,
+		Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	
+	}	
+		
+	recipe Add Sugar From Bag
+	{
+		HCCoffeeblack,
+		Sugar;0.5,
+		Result:HCCoffeeblacksugar,
+		OnTest:CoffeeBlack_CheckIfCooked,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Sugar From Bag
+	{
+		HCCoffeeblack2,
+		Sugar;0.5,
+		Result:HCCoffeeblack2sugar,
+		OnTest:CoffeeBlack2_CheckIfCooked,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Sugar From Bag
+	{
+		HCThermoscoffee,
+		Sugar;1,
+		Result:HCThermoscoffeesugar,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Sugar Cubes
+	{
+		HCCoffeeblack,
+		HCSugarcubes;1,
+		Result:HCCoffeeblacksugar,
+		OnTest:CoffeeBlack_CheckIfCooked,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Sugar Cubes
+	{
+		HCCoffeeblack2,
+		HCSugarcubes;1,
+		Result:HCCoffeeblack2sugar,
+		OnTest:CoffeeBlack2_CheckIfCooked,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Sugar Cubes
+	{
+		HCThermoscoffee,
+		HCSugarcubes;2,
+		Result:HCThermoscoffeesugar,
+		Time:15.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Add Milk From Carton
+	{
+		HCCoffeeblacksugar,
+		Milk;1,
+		Result:HCCoffeeblacksugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Carton
+	{
+		HCCoffeeblack2sugar,
+		Milk;1,
+		Result:HCCoffeeblack2sugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Carton
+	{
+		HCThermoscoffeesugar,
+		Milk;2,
+		Result:HCThermoscoffeesugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Add Milk From Jug
+	{
+		HCCoffeeblacksugar,
+		HCMilkjug;1,
+		Result:HCCoffeeblacksugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Jug
+	{
+		HCCoffeeblack2sugar,
+		HCMilkjug;1,
+		Result:HCCoffeeblack2sugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+	
+	recipe Add Milk From Jug
+	{
+		HCThermoscoffeesugar,
+		HCMilkjug;2,
+		Result:HCThermoscoffeesugarmilk,
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Make Cup of Hot Chocolate
+	{
+		Mugl,
+		Milk/HCUHTmilk/HCSoymilk,
+		HCCoco,
+		Result:HCCococup,
+		Time:70.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,	  
+	}
+
+	recipe Make Cup of Hot Chocolate
+	{
+		HCClaymug,
+		Milk/HCUHTmilk/HCSoymilk,
+		HCCoco,
+		Result:HCCococup2,
+		Time:70.0,
+	   	Category:Cooking,
+		OnGiveXP:HCCooking_OnGiveXP,	  
+	}	
+
+}

@@ -1,0 +1,2037 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCTailoringbench
+    {
+        Weight          = 10,
+        Type            = Normal,
+        DisplayName     = Tailor's Workbench,
+        icon            = HCTailoringbench,
+		DisplayCategory	= CraftTailor,
+    
+    }
+
+item HCTailoringbench2
+    {
+        Weight          = 1000,
+        Type            = Container,
+        Capacity        = 100,
+        WeightReduction = 0,
+        DisplayName     = Tailor's Workbench,
+        icon            = HCTailoringbench,
+		DisplayCategory	= CraftTailor,
+    }
+
+
+item HCSpindle
+    {
+        Weight    	    = 0.1,
+        Type    	    = Normal,
+        DisplayName    	= Spindle,
+        Icon    	    = HCSpindle,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCSpindlehead
+    {
+        Weight    	    = 0.1,
+        Type    	    = Normal,
+        DisplayName    	= Spindle Head,
+        Icon    	    = HCSpindlehead,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCRopethin
+    {
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Thin Rope,
+        Icon    	    = HCRopethin,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCRopethick
+    {
+        Weight    	    = 0.9,
+        Type    	    = Normal,
+        DisplayName    	= Thick Rope,
+        Icon    	    = HCRopethick,
+		DisplayCategory	= Craft,
+    }
+
+item HCBarkstrip
+    {
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Bark Strip,
+        Icon    	    = HCBarkstrip,
+		DisplayCategory	= Craft,
+    }
+
+item HCStraw
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Straw,
+        icon 			= HCStraw,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCStrawbale
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     = Bale of Straw,
+        icon 			= HCStrawbale,
+		DisplayCategory	= CraftTailor,
+	
+    }
+
+item HCHaystack
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     = Haystack,
+        icon 			= HCHaystack,
+		DisplayCategory	= CraftTailor,
+	
+    }
+
+item HCStrawhat
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Straw Hat,
+        icon 			= HCStrawhat,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCJutestems
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Fresh Jute Stems,
+        icon 			= HCJutestems,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCJutestemswet
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Wet Jute Stems,
+        icon 			= HCJutestemswet,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCJutestemsdry
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dry Jute Stems,
+        icon 			= HCJutestemsdry,
+		DisplayCategory	= CraftTailor,
+    }
+
+
+item HCJutefibers
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Jute Fibers,
+        icon 			= HCJutefibers,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCBurlapcloth
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName     = Burlap Cloth,
+        icon 			= HCBurlapcloth,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCCottonraw
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Raw Cotton,
+        icon 			= HCCottonraw,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCCottongin
+    {
+        Weight    		= 2.0,
+        Type    		= Normal,
+        DisplayName     = Cotton Gin,
+        icon 			= HCCottongin,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCCotton
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Cotton,
+        icon 			= HCCotton,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCCottonthread
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Cotton Thread,
+        icon 			= HCCottonthread,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCCottoncloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Cotton Cloth,
+        icon 			= HCCottoncloth,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCPlantfibers
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Plant Fibers,
+        icon 			= HCPlantfibers,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCLinenthread
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Linen Thread,
+        icon 			= HCLinenthread,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCLinencloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Linen Cloth,
+        icon 			= HCLinencloth,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCWool
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Wool,
+        icon 			= HCWool,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarn
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Yarn,
+        icon 			= HCYarn,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarnpurple
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Purple Yarn,
+        icon 			= HCYarnpurple,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarnblue
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Blue Yarn,
+        icon 			= HCYarnblue,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarngreen
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Green Yarn,
+        icon 			= HCYarngreen,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarnyellow
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Yellow Yarn,
+        icon 			= HCYarnyellow,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarnorange
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Orange Yarn,
+        icon 			= HCYarnorange,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarnred
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Red Yarn,
+        icon 			= HCYarnred,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCYarnblack
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Black Yarn,
+        icon 			= HCYarnblack,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCWoolcloth
+    {
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Wool Cloth,
+        Icon    	    = HCWoolcloth.png,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCCloth
+    {
+        Weight    	    = 0.2,
+        Type    	    = Normal,
+        DisplayName    	= Cloth,
+        Icon    	    = HCCloth.png,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCSilkfiber
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Silk Filament,
+        icon 			= HCSilkfiber,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCSilkthread
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Silk Thread,
+        icon 			= HCSilkthread,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCSilkcloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Silk Cloth,
+        icon 			= HCSilkcloth,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCReedmat
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Reed Mat,
+        icon 			= HCReedmat,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCReedmatdry
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Dried Reed Mat,
+        icon 			= HCReedmatdry,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCNyloncloth
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Nylon Cloth,
+        icon 			= HCNyloncloth,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCZipper
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName     = Zipper,
+        icon 			= HCZipper,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCSafetypin
+    {
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Safety Pin,
+        icon            = HCSafetypin,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCSewingpin
+    {
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Sewing Pin,
+        icon            = HCSewingpin,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCSewingpinbox
+    {
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Box of Sewing Pins,
+        icon            = HCSewingpinbox,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCPincushion
+    {
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Pin Cushion,
+        icon            = HCPincushion,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCPincushionfull
+    {
+        Weight          = 0.01,
+        Type            = Normal,
+        DisplayName     = Pin Cushion with Pins,
+        icon            = HCPincushionfull,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCThimble
+    {
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Thimble,
+        icon            = HCThimble,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCPlastichanger
+    {
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Plastic Hanger,
+        icon            = HCPlastichanger,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCWirehanger
+    {
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Wire Hanger,
+        icon            = HCWirehanger,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCWoodhanger
+    {
+        Weight          = 0.1,
+        Type            = Normal,
+        DisplayName     = Wood Hanger,
+        icon            = HCWoodhanger,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCMittens
+    {
+        Weight          = 0.25,
+        Type            = Normal,
+        DisplayName     = Mittens,
+        icon            = HCMittens,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCHydroshirt
+    {
+        Type            = Clothing,
+        DisplayName     = Hydro's Shirt,
+        ClothingItem    = HCHydroshirt,
+        BodyLocation    = Shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 1,
+        WaterResistance = 1,
+        BiteDefense     = 50,
+        ScratchDefense  = 50,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+
+
+
+item HCLinenshirt
+    {
+        Type            = Clothing,
+        DisplayName     = Linen Shirt,
+        ClothingItem    = HCShirtLinen,
+        BodyLocation    = Shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        BiteDefense     = 10,
+        ScratchDefense  = 20,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+
+item HCLinenshirtWired
+    {
+        Type            = Clothing,
+        DisplayName     = Reinforced Linen Shirt,
+        ClothingItem    = HCShirtLinenWired,
+        BodyLocation    = Shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+        BiteDefense     = 30,
+        ScratchDefense  = 50,
+        weight          = 4,
+		DisplayCategory	= ClothP,
+    }
+
+item HCLinenshirtAlu
+    {
+        Type            = Clothing,
+        DisplayName     = Armored Linen Shirt,
+        ClothingItem    = HCShirtLinenAlu,
+        BodyLocation    = Shirt,
+        Icon            = ShirtGeneric,
+        BloodLocation   = ShirtLongSleeves,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+        BiteDefense     = 20,
+        ScratchDefense  = 30,
+        weight          = 2,
+		DisplayCategory	= ClothP,
+    }
+
+item HCLinenpants
+    {
+        Type            = Clothing,
+        DisplayName     = Linen Pants,
+        ClothingItem    = HCPantsLinen,
+        BodyLocation    = Pants,
+        Icon            = TrousersGeneric,
+        BloodLocation   = Trousers,
+        ScratchDefense  = 10,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+
+
+item HCLinenpantsAlu
+    {
+        Type            = Clothing,
+        DisplayName     = Armored Linen Pants,
+        ClothingItem    = HCPantsLinenAlu,
+        BodyLocation    = Pants,
+        Icon            = TrousersGeneric,
+        BloodLocation   = Trousers,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+        BiteDefense     = 20,
+        ScratchDefense  = 30,
+        weight          = 2,
+		DisplayCategory	= ClothP,
+    }
+
+
+item HCLinenpantsWired
+    {
+        Type            = Clothing,
+        DisplayName     = Reinforced Linen Pants,
+        ClothingItem    = HCPantsLinenWired,
+        BodyLocation    = Pants,
+        Icon            = TrousersGeneric,
+        BloodLocation   = Trousers,
+        BiteDefense     = 30,
+        ScratchDefense  = 50,
+        weight          = 4,
+        Insulation      = 0.25,
+        WindResistance  = 0.15,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+
+
+
+/* *** not working atm *** 
+item HCSilkshirt
+    {
+        Palettes                    = Shirt_White,
+        BodyLocation                = Top,
+        PalettesStart               = Shirt_,
+        Type                        = Clothing,
+        Temperature                 = 6,
+        SpriteName                  = Shirt,
+        DisplayName                 = Silk Shirt,
+        icon                        = HCSilkshirt,
+        ConditionLowerChanceOneIn   = 15,
+        ConditionMax                = 7,
+        Insulation                  = 0.65,
+    }
+    
+item HCSilkpants
+    {
+        Palettes                    = Trousers_White,
+        BodyLocation                = Bottoms,
+        PalettesStart               = Trousers_,
+        Type                        = Clothing,
+        Temperature                 = 8,
+        SpriteName                  = Trousers,
+        DisplayName                 = Silk Pants,
+        icon                        = HCSilkpants,
+        ConditionLowerChanceOneIn   = 15,
+        ConditionMax                = 7,
+        Insulation                  = 0.65,
+    }
+
+item HCWoolshirt
+    {
+        Palettes                    = Shirt_White,
+        BodyLocation                = Top,
+        PalettesStart               = Shirt_,
+        Type                        = Clothing,
+        Temperature                 = 15,
+        SpriteName                  = Shirt,
+        DisplayName                 = Wool Shirt,
+        icon                        = HCSilkshirt,
+        ConditionLowerChanceOneIn   = 7,
+        ConditionMax                = 5,
+        Insulation                  = 1.0,
+    }
+    
+item HCWoolpants
+    {
+        Palettes                    = Trousers_White,
+        BodyLocation                = Bottoms,
+        PalettesStart               = Trousers_,
+        Type                        = Clothing,
+        Temperature                 = 15,
+        SpriteName                  = Trousers,
+        DisplayName                 = Wool Pants,
+        icon                        = HCWoolpants,
+        ConditionLowerChanceOneIn   = 7,
+        ConditionMax                = 5,
+        Insulation                  = 1.0,
+    }
+
+*/
+
+
+item HCClothespin
+    {
+        Weight          = 0.2,
+        Type            = Normal,
+        DisplayName     = Clothespin,
+        icon            = HCClothespin.png,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCClothespinbox
+    {
+        Weight          = 0.6,
+        Type            = Normal,
+        DisplayName     = Box of Clothespins,
+        icon            = HCClothespinbox.png,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCClotheslinefull
+    {
+        Weight          = 6,
+        Type            = Normal,
+        DisplayName     = Clothes Line with Clothes,
+        icon            = HCClotheslinefull,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCClotheslinefull2
+    {
+        Weight          = 6,
+        Type            = Normal,
+        DisplayName     = Double Clothes Line with Clothes,
+        icon            = HCClotheslinefull2,
+		DisplayCategory	= CraftTailor,
+    }
+
+item HCBathtoweldirty
+    {
+        Weight          = 0.3,
+        Type            = Normal,
+        DisplayName     = Dirty Bath Towel,
+        icon            = HCBathtoweldirty,
+		DisplayCategory	= CraftTailor,
+    }
+
+/* Removed, this is what caused zeds to be wearing wools socks.  I think that by re-using the ClothingItem from vanilla socks, the game was doing a reverse lookup, e.g. Socks_Ankle?  Ah, you mean these wools sock!
+
+item HCSocksWoolAnkle
+    {
+        Type            = Clothing,
+        DisplayName     = Wool Socks,
+        ClothingItem    = Socks_Ankle,
+        BodyLocation    = Socks,
+        Icon            = SocksAnkleWhite,
+        BloodLocation   = Shoes,
+        Insulation      = 0.15,
+        WindResistance  = 0.1,
+        weight          = 0.1,
+		DisplayCategory	= ClothN,
+    }
+
+item HCSocksWoolLong
+    {
+        Type            = Clothing,
+        DisplayName     = Long Wool Socks,
+        ClothingItem    = Socks_Long,
+        BodyLocation    = Socks,
+        Icon            = SocksWhite,
+        BloodLocation   = Shoes,
+        Insulation      = 0.55,
+        WindResistance  = 0.65,
+        weight          = 0.1,
+		DisplayCategory	= ClothN,
+    }
+*/
+item HCSweaterWoolThick
+    {
+        Type            = Clothing,
+        DisplayName     = Thick Wool Sweater,
+        ClothingItem    = HCSweaterWool,
+        BodyLocation    = Sweater,
+        BloodLocation   = Jumper,
+        Icon            = SweaterTurtleneckWhite,
+        ScratchDefense  = 10,
+        Insulation      = 0.9,
+        WindResistance  = 0.5,
+        WaterResistance = 0.5,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+
+item HCSweaterWool
+    {
+        Type            = Clothing,
+        DisplayName     = Wool Sweater,
+        ClothingItem    = HCSweaterWool,
+        BodyLocation    = Sweater,
+        BloodLocation   = Jumper,
+        Icon            = SweaterTurtleneckWhite,
+        ScratchDefense  = 10,
+        Insulation      = 0.5,
+        WindResistance  = 0.5,
+        WaterResistance = 0.5,
+        FabricType      = Cotton,
+		DisplayCategory	= ClothP,
+    }
+
+
+
+item HCSilkUndiesWarm
+    {
+        Type            = Clothing,
+        DisplayName     = Long Silk Undies,
+        ClothingItem    = LongJohns,
+        BodyLocation    = Torso1Legs1,
+        BloodLocation   = Trousers;ShirtLongSleeves,
+        Icon            = Longjohns,
+        Insulation      = 0.5,
+        WindResistance  = 0.3,
+		FabricType		= Cotton, /*Allow repair & patches*/
+		DisplayCategory	= ClothN,
+    }
+
+item HCBoneButton
+    {
+        Type = Normal,
+        Weight          = 0.05,
+        DisplayName     = Bone Button,
+        Icon            = HCBoneButton,
+		DisplayCategory	= CraftTailor,
+    }
+
+
+/************************RECIPES************************/
+
+
+
+recipe Make Tailor's Workbench
+    {
+        SkillRequired:Tailoring=1,
+        Notebook=3,
+        HCWorkbench,
+        HCSpinningwheel,
+        HCBoneneedle,
+        KnittingNeedles,
+        HCMeasuringtape,
+        [Recipe.GetItemTypes.Scissors],
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCTailoringbench,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveManyXP,
+    }
+
+
+recipe Anchor Tailor's Workbench
+    {
+        HCTailoringbench,
+        CanBeDoneFromFloor:true,
+        Result:HCTailoringbench2,
+        Time:200,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+
+recipe Make Spindle
+    {
+        WoodenStick,
+        HCSpindlehead,
+        Result:HCSpindle,
+        NeedToBeLearn:true,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+    
+recipe Make Thread
+    {
+        HCFloss=3,
+        Result:Thread,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Twine
+    {
+        HCGrass=3,
+        Result:Twine,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Twine
+    {
+        HCStraw=3,
+        Result:Twine,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Rope
+    {
+        SheetRope=3,
+        Result:Rope,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Rope
+    {
+        HCRopethick,
+        Result:Rope=3,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thick Rope
+    {
+        Rope=3,
+        Result:HCRopethick,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Cotton Gin
+    {
+        HCCrank/HCCrankiron,
+        HCSteelrod=2,
+	    BarbedWire=4,
+	    HCGeariron=8,
+	    HCRopethin,
+	    Comb=6,
+	    HCHotgluegunfull/HCSuperglue,
+	    HCWoodencrate,
+	    Result:HCCottongin,
+	    Time:500.0,
+        Category:Engineer,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Process Cotton
+    {
+        HCCottonraw,
+        keep HCCottongin,
+        Result:HCCotton,
+        CanBeDoneFromFloor:true,
+        Time:15,
+        Category:Tailoring,
+        OnCreate:recipe_hccottonseeds,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Cotton Thread
+    {
+        HCCotton=3,
+        HCSpindle,
+        keep HCSpinningwheel/HCTailoringbench2,
+        Result:HCCottonthread,
+        CanBeDoneFromFloor:true,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Cotton Cloth
+    {
+        HCCottonthread=3,
+        keep HCLoom,
+        Result:HCCottoncloth,
+        CanBeDoneFromFloor:true,
+        Time:1000,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Cotton Cloth
+    {
+        HCCottonthread=3,
+        keep HCLoomfloor,
+        Result:HCCottoncloth,
+        CanBeDoneFromFloor:true,
+        Time:500,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Gym Towel
+    {
+        HCCottonthread=6,
+        keep HCLoom,
+        Result:HCGymtowel,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Gym Towel
+    {
+        HCCottonthread=6,
+        keep HCLoomfloor,
+        Result:HCGymtowel,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Linen Thread
+    {
+        HCPlantfibers=3,
+        HCSpindle,
+        keep HCSpinningwheel/HCTailoringbench2,
+        Result:HCLinenthread,
+        CanBeDoneFromFloor:true,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Linen Thread
+    {
+        HCFlax=3,
+        HCSpindle,
+        keep HCSpinningwheel/HCTailoringbench2,
+        Result:HCLinenthread,
+        CanBeDoneFromFloor:true,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Linen Cloth
+    {
+        HCLinenthread=3,
+        keep HCLoom,
+        Result:HCLinencloth,
+        CanBeDoneFromFloor:true,
+        Time:1000,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Linen Cloth
+    {
+        HCLinenthread=3,
+        keep HCLoomfloor,
+        Result:HCLinencloth,
+        CanBeDoneFromFloor:true,
+        Time:500,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Cheese Cloth
+    {
+        HCLinenthread=3,
+        keep HCLoom,
+        Result:HCCheesecloth,
+        CanBeDoneFromFloor:true,
+        Time:1000,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Cheese Cloth
+    {
+        HCLinenthread=3,
+        keep HCLoomfloor,
+        Result:HCCheesecloth,
+        CanBeDoneFromFloor:true,
+        Time:500,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Yarn
+    {
+        HCWool=3,
+        keep HCSpindle,
+        keep HCSpinningwheel/HCTailoringbench2,
+        Result:HCYarn,
+        CanBeDoneFromFloor:true,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Dye Yarn
+    {
+        HCYarn,
+        HCCharcoalpowder=2,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Water,
+        keep HCClaycauldron/HCCauldroniron,
+        Result:HCYarnblack,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Dye Yarn
+    {
+        HCYarn,
+        HCRedpigment,
+        HCBluepigment,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Water,
+        keep HCClaycauldron/HCCauldroniron,
+        Result:HCYarnpurple,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Dye Yarn
+    {
+        HCYarn,
+        HCBluepigment=2,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Water,
+        keep HCClaycauldron/HCCauldroniron,
+        Result:HCYarnblue,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Dye Yarn
+    {
+        HCYarn,
+        HCGreenpigment=2,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Water,
+        keep HCClaycauldron/HCCauldroniron,
+        Result:HCYarngreen,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Dye Yarn
+    {
+        HCYarn,
+        HCYellowpigment=2,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Water,
+        keep HCClaycauldron/HCCauldroniron,
+        Result:HCYarnyellow,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Dye Yarn
+    {
+        HCYarn,
+        HCRedpigment,
+        HCYellowpigment,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Water,
+        keep HCClaycauldron/HCCauldroniron,
+        Result:HCYarnorange,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Dye Yarn
+    {
+        HCYarn,
+        HCRedpigment=2,
+        Charcoal,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Water,
+        keep HCClaycauldron/HCCauldroniron,
+        Result:HCYarnred,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Wool Cloth
+    {
+        HCYarn=3,
+        keep HCLoom,
+        Result:HCWoolcloth,
+        CanBeDoneFromFloor:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Wool Cloth
+    {
+        HCYarn=3,
+        keep HCLoomfloor,
+        Result:HCWoolcloth,
+        CanBeDoneFromFloor:true,
+        Time:500,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Silk Thread
+    {
+        HCSilkfiber=3,
+        HCSpindle,
+        keep HCSpinningwheel/HCTailoringbench2,
+        Result:HCSilkthread,
+        CanBeDoneFromFloor:true,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Silk Cloth
+    {
+        HCSilkthread=3,
+        keep HCLoom,
+        Result:HCSilkcloth,
+        CanBeDoneFromFloor:true,
+        Time:1000,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Silk Cloth
+    {
+        HCSilkthread=3,
+        keep HCLoomfloor,
+        Result:HCSilkcloth,
+        CanBeDoneFromFloor:true,
+        Time:500,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+
+recipe Make Long Silk Undies
+    {
+        SkillRequired:Tailoring=2,
+        HCSilkcloth=8,
+        keep HCTailoringbench2,
+        HCSilkthread=3,
+        Result:HCSilkUndiesWarm,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Weaving,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:HCTailoring_OnGiveManyXP,
+    }
+
+
+
+/*
+recipe Make Sheet Rope
+    {
+        HCCottoncloth/HCLinencloth/HCWoolcloth/HCSilkcloth/HCWoolshirt/HCWoolpants/HCSilkshirt/HCSilkpants/HCLinenshirt/HCLinenpants,
+        Result:SheetRope,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }	
+
+recipe Make Ripped Sheets
+    {
+        HCCottoncloth/HCLinencloth/HCWoolcloth/HCSilkcloth/HCWoolshirt/HCWoolpants/HCSilkshirt/HCSilkpants/HCLinenshirt/HCLinenpants,
+        Result:RippedSheets=8,
+        Sound:PZ_ClothesRipping,
+        Time:100.0,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+*/
+
+recipe Make Thin Rope
+    {
+        HCHidestrap=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thin Rope
+    {
+        HCCottonthread=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thin Rope
+    {
+        HCLinenthread=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }	
+
+recipe Make Thin Rope
+    {
+        HCYarn=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }	
+
+recipe Make Thin Rope
+    {
+        HCSilkthread=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnCreate:recipe_hcspindle3,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }	
+
+recipe Make Thin Rope
+    {
+        Rope,
+        Result:HCRopethin=3,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Rope
+    {
+        HCRopethin=3,
+        Result:Rope,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Bark Strips
+    {
+        TreeBranch,
+        keep [Recipe.GetItemTypes.SharpKnife],
+        Result:HCBarkstrip=3,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thin Rope
+    {
+        HCBarkstrip=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thin Rope
+    {
+    LeatherStrips=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thin Rope
+    {
+        HCLeatherstriphard=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thin Rope
+    {
+        HCLeatherstripfine=3,
+        Result:HCRopethin,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Jute Fibers
+    {
+        HCJutestemsdry,
+		keep [Recipe.GetItemTypes.SharpKnife],
+        Result:HCJutefibers,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Burlap Cloth
+    {
+        HCJutefibers=3,
+        keep HCLoom,
+        Result:HCBurlapcloth,
+        CanBeDoneFromFloor:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Burlap Cloth
+    {
+        HCJutefibers=3,
+        keep HCLoomfloor,
+        Result:HCBurlapcloth,
+        CanBeDoneFromFloor:true,
+        Time:500,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Weave Reed Mat
+    {
+        HCReeds=3,
+        keep HCTailoringbench2,
+        Result:HCReedmat,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Dry Reed Mat
+    {
+        HCReedmat,
+        keep HCDryingframe,
+        CanBeDoneFromFloor:true,
+        Result:HCReedmatdry,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Thread
+    {
+        HCSilkfiber=3,
+        keep HCSpinningwheel/HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Result:Thread,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Thread
+    {
+        HCCotton=3,
+        keep HCSpinningwheel/HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Result:Thread,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Thread
+    {
+        HCPlantfibers=3,
+        keep HCSpinningwheel/HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Result:Thread,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Thread
+    {
+        HCFlax=3,
+        keep HCSpinningwheel/HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Result:Thread,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Make Thread
+    {
+        HCWool=3,
+        keep HCSpinningwheel/HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Result:Thread,
+        Time:15,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+recipe Recycle Bag
+	{
+		[Recipe.GetItemTypes.NylonBag],
+		keep HCTailoringbench2,
+		Result:HCZipper,
+		CanBeDoneFromFloor:true,
+		NeedToBeLearn:true,
+		Time:200.0,
+		Category:Tailoring,
+		OnGiveXP:HCTailoring_OnGiveBitXP,
+		OnCreate:Recipe.OnCreate.Hydrocraft.RecycleBag,
+	}
+
+
+recipe Recycle Sack
+    {
+        SackOnions/SackCarrots/SackCabbages/SackPotatoes/EmptySandbag/HCRiceempty,
+        keep HCTailoringbench2,
+        Result:HCBurlapcloth=2,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+
+recipe Recycle Sack
+    {
+        HCFlourempty,
+        keep HCTailoringbench2,
+        Result:HCBurlapcloth,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Tailoring,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Box Clothespins
+    {
+        HCClothespin=20,
+        Result:HCClothespinbox,
+        Time:15,
+    }
+
+recipe Unbox Clothespins
+    {
+        HCClothespinbox,
+        Result:HCClothespin=20,
+        Time:15,
+    }
+
+recipe Box Sewing Pins
+    {
+        HCSewingpin=100,
+        Result:HCSewingpinbox,
+        Time:15,
+    }
+
+recipe Unbox Clothespins
+    {
+        HCSewingpinbox,
+        Result:HCSewingpin=100,
+        Time:15,
+    }
+
+recipe Put Pins in Pin Cushion
+    {
+        HCSewingpin=8,
+        HCPincushion,
+        Result:HCPincushionfull,
+        Time:50,
+    }
+
+recipe Remove Pins from Pin Cushion
+    {
+        HCPincushionfull,
+        Result:HCSewingpin=8,
+        Time:50,
+        OnCreate:recipe_hcpincushion,
+    }
+/*
+recipe Hang Clothes
+    {
+        HCClothespin=6,
+        Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
+        Base.Vest,
+        Trousers,
+        HCClothesline,
+        CanBeDoneFromFloor:true,
+        Result:HCClotheslinefull,
+        Time:50,
+        Category:Weaving,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Hang Clothes
+    {
+        HCClothespin=12,
+        Underwear1/Underwear2/HCBriefs/HCBriefs2/HCBriefs3/HCBriefs4/HCBriefs5/HCBriefs6/HCBriefs7/HCPanties/HCPanties2/HCPanties3/HCPanties4/HCPanties5,
+        Base.Vest,
+        Trousers,
+        Base.Socks/Base.Socks2,
+        destroy BathTowel/BathTowelWet,
+        Sheet,
+        HCClothesline2,
+        CanBeDoneFromFloor:true,
+        Result:HCClotheslinefull2,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+*/
+
+
+recipe Make Burlap Sack
+    {
+        HCBurlapcloth=2,
+        keep HCTailoringbench2,
+        Thread=4,
+        Result:EmptySandbag,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Flour Sack
+    {
+        HCBurlapcloth,
+        keep HCTailoringbench2,
+        Thread=2,
+        Result:HCFlourempty,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Rice Sack
+    {
+        HCBurlapcloth=2,
+        keep HCTailoringbench2,
+        Thread=2,
+        Result:HCRiceempty,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+        Sheet=2,
+        keep HCTailoringbench2,
+        Thread=4,
+        Result:HCPillowcase,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+        HCLinencloth=2,
+        keep HCTailoringbench2,
+        Thread=4,
+        Result:HCPillowcase,
+        CanBeDoneFromFloor:true,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+        HCWoolcloth=2,
+        keep HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Thread=4,
+        Result:HCPillowcase,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Pillow Case
+    {
+        HCSilkcloth=2,
+        keep HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Thread=4,
+        Result:HCPillowcase,
+        Time:100,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Pillow
+    {
+        HCWhitefeathers=10,
+        HCPillowcase,
+        keep HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Thread=1,
+        Result:Pillow,
+        Time:25,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Make Pillow
+    {
+        HCBrownfeathers=10,
+        HCPillowcase,
+        keep HCTailoringbench2,
+        CanBeDoneFromFloor:true,
+        Thread=1,
+        Result:Pillow,
+        Time:25,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+
+recipe Make Rain Poncho
+    {
+        Garbagebag=2,
+        DuctTape=3,   
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.Scissors]/HCTailoringbench2,
+        Result:PonchoGreen,
+        CanBeDoneFromFloor:true,
+        Time:200.0,
+        Category:Survivalist,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+
+
+
+
+recipe Stitch Garden Apron
+    {
+        keep HCTailoringbench2,
+        HCLinencloth=8,
+        Thread=4,   
+        Result:HCGardenapron,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveManyXP,
+    }
+
+
+
+recipe Stitch Linen Pants
+    {
+        keep HCTailoringbench2,
+        HCLinencloth=9,
+        Thread=6,   
+        Result:HCLinenpants,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:400,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+
+recipe Knit Wool Socks
+    {
+        keep KnittingNeedles/HCTailoringbench2,
+        HCYarn=2,
+        CanBeDoneFromFloor:true,   
+        Result:Socks_Ankle,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Knit Long Wool Socks
+    {
+        keep KnittingNeedles/HCTailoringbench2,
+        HCYarn=4,
+        CanBeDoneFromFloor:true,  
+        Result:Socks_Long,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Knit Wool Sweater
+    {
+        keep KnittingNeedles/HCTailoringbench2,
+        HCYarn=8,
+        CanBeDoneFromFloor:true,  
+        Result:HCSweaterWool,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Knit Thick Wool Sweater
+    {
+        keep KnittingNeedles/HCTailoringbench2,
+        HCYarn=12,
+        CanBeDoneFromFloor:true,  
+        Result:HCSweaterWoolThick,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Knit Balaclava
+    {
+        keep KnittingNeedles/HCTailoringbench2,
+        HCYarn=4,
+        CanBeDoneFromFloor:true,  
+        Result:Hat_BalaclavaFull,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Knit Scarf
+    {
+        keep KnittingNeedles/HCTailoringbench2,
+        HCYarn=4,
+        CanBeDoneFromFloor:true,  
+        Result:Scarf_White,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:500,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+
+   
+recipe Stitch Linen Shirt
+    {
+        SkillRequired:Tailoring=2,
+        keep HCTailoringbench2,
+        HCLinencloth=6,
+        Thread=8,
+        HCBoneButton=4,
+        Result:HCLinenshirt,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:420.0,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Reinforce Shirt
+    {
+        SkillRequired:Tailoring=3,
+        keep HCTailoringbench2,
+        HCLinenshirt,
+        Wire=10,
+        keep Hammer,
+        keep HCPliers,
+        Result:HCLinenshirtWired,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Reinforce Shirt
+    {
+        SkillRequired:Tailoring=3,
+        keep HCTailoringbench2,
+        HCLinenshirt,
+        HCRopethin=5,
+        SmallSheetMetal=2,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        keep Hammer,
+        keep HCSawmetal,
+        Result:HCLinenshirtAlu,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Reinforce Pants
+    {
+        SkillRequired:Tailoring=3,
+        keep HCTailoringbench2,
+        HCLinenpants,
+        Wire=10,
+        keep Hammer,
+        keep HCPliers,
+        Result:HCLinenpantsWired,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Reinforce Pants
+    {
+        SkillRequired:Tailoring=3,
+        keep HCTailoringbench2,
+        HCLinenpants,
+        HCRopethin=5,
+        SmallSheetMetal=2,
+        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+        keep Hammer,
+        keep HCSawmetal,
+        Result:HCLinenpantsAlu,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+
+
+/*
+
+
+recipe Stitch Silk Shirt
+    {
+        keep Needle,
+        keep HCTailoringbench2,
+        Thread=8,   
+        Result:HCSilkshirt,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:420.0,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+
+recipe Stitch Silk Pants
+    {
+        keep HCTailoringbench2,
+        HCSilkcloth=9,
+        Thread=6,   
+        Result:HCSilkpants,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:420.0,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+recipe Stitch Wool Shirt
+    {
+        keep HCTailoringbench2,
+        HCWoolcloth=12,
+        Thread=8,   
+        Result:HCWoolshirt,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:420.0,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+    
+recipe Stitch Wool Pants
+    {
+        keep HCTailoringbench2,
+        HCWoolcloth=9,
+        Thread=6,   
+        Result:HCWoolpants,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:420.0,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveXP,
+    }
+
+*/
+
+recipe Make Bag
+    {
+        HCNyloncloth=20,
+        HCZipper=5,
+        Thread=2,
+        keep HCTailoringbench2,
+        Result:Bag_SurvivorBag,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:1000.0,
+        Category:Weaving,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+    
+recipe Make Clothespins
+    {
+    	HCSSpringSteelIngot,
+	    WoodenStick=5,
+    	HCWeldingset,
+    	keep Tongs,
+    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.WeldingMask],
+    	keep HCRollingmillsmall,
+    	CanBeDoneFromFloor:true,
+        Result:HCClothespin=5,
+        Time:600.0,
+        Category:Tailoring,
+        OnGiveXP:HCTailoring_OnGiveBitXP,
+    }
+	
+}

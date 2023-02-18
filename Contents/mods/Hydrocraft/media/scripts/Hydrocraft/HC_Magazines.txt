@@ -1,0 +1,300 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+	item HCAdultmagazine
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine,
+		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
+		StaticModel = Adult1_Open,
+        WorldStaticModel = Adult1_Ground,
+	}
+
+	item HCAdultmagazine2
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine2,
+		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
+		StaticModel = Adult2_Open,
+        WorldStaticModel = Adult2_Ground,
+	}
+
+	item HCAdultmagazine3
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine3,
+		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
+		StaticModel = Adult3_Open,
+        WorldStaticModel = Adult3_Ground,
+	}
+
+	item HCAdultmagazine4
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine4,
+		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
+		StaticModel = Adult4_Open,
+        WorldStaticModel = Adult4_Ground,
+	}
+
+	item HCAdultmagazine5
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine5,
+		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
+		StaticModel = Adult5_Open,
+        WorldStaticModel = Adult5_Ground,
+	}
+
+	item HCAdultmagazine6
+	{
+		Weight		=	0.2,
+		Type		=	Literature,
+		UnhappyChange	=	-100,
+		DisplayName	=	Adult Magazine,
+		StressChange	=	-100,
+		Icon		=	HCAdultmagazine6,
+		BoredomChange	=	-100,
+		DisplayCategory =   LitE,
+		StaticModel = Adult6_Open,
+        WorldStaticModel = Adult6_Ground,
+	}
+
+	item HCMagazinemetalworking1
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Metalworking Monthly - Sheets,
+		Icon			= HCMagazinemetalworking1,
+		TeachedRecipes  = Make Small Sheet Of Metal;Make Sheet Of Metal;Make Large Sheet Of Metal,
+        ReplaceOnUse    = HCMagazinemetalworking1,
+		DisplayCategory = LitR,
+		StaticModel = MagMetalWorking1_Open,
+        WorldStaticModel = MagMetalWorking1_Ground,
+	}
+
+	item HCMagazinemetalworking2
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Metalworking Monthly - Pipes,
+		Icon			= HCMagazinemetalworking2,
+		TeachedRecipes  = Make Metal Pipe,                                         
+        ReplaceOnUse    = HCMagazinemetalworking2,
+		DisplayCategory = LitR,
+		StaticModel = MagMetalWorking2_Open,
+        WorldStaticModel = MagMetalWorking2_Ground,
+	}
+
+	item HCMagazinemetalworking3
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Metalworking Monthly - steelworkers,
+		Icon			= HCMagazinemetalworking3,
+		TeachedRecipes  = Make Steel Beam;Make Steel Pole,
+        ReplaceOnUse    = HCMagazinemetalworking3,
+		DisplayCategory = LitR,
+		StaticModel = MagMetalWorking3_Open,
+        WorldStaticModel = MagMetalWorking3_Ground,
+	}
+
+	item HCMagazinemetalworking4
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Metalworking Monthly - Silverware,
+		Icon			= HCMagazinemetalworking4,
+		TeachedRecipes  = Make Sterling Silver Knife;Make Sterling Silver Fork;Make Sterling Silver Spoon,
+        ReplaceOnUse    = HCMagazinemetalworking4,
+		DisplayCategory = LitR,
+		StaticModel = MagMetalWorking4_Open,
+        WorldStaticModel = MagMetalWorking4_Ground,
+	}
+
+	item HCMagazinemetalworking5
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Metalworking Monthly - Tools,
+		Icon			= HCMagazinemetalworking5,
+		TeachedRecipes  = Craft Pickaxe;Make Steel Hammer;Make Steel Saw;Make Lumber Saw;Make Iron Hand Drill;Make Steel Saw;Make Steel Hammer;Make Screws;Make Gigli Saw Handle,
+        ReplaceOnUse    = HCMagazinemetalworking5,
+		DisplayCategory = LitR,
+		StaticModel = MagMetalWorking5_Open,
+        WorldStaticModel = MagMetalWorking5_Ground,
+	}
+
+	item HCMagazinemetalworking6
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Metalworking Monthly - Gears,
+		Icon			= HCMagazinemetalworking6,
+		TeachedRecipes  = Make Gears,
+        ReplaceOnUse    = HCMagazinemetalworking6,
+		DisplayCategory = LitR,
+		StaticModel = MagMetalWorking6_Open,
+        WorldStaticModel = MagMetalWorking6_Ground,
+	}
+
+	item HCMagazinemetalworking7
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Metalworking Monthly - Agri Tools,
+		Icon			= HCMagazinemetalworking7,
+		TeachedRecipes  = Make Iron Trowel;Make Steel Shears;Make Iron Spade;Make Steel Rake;Make Steel Pruning Shears,
+        ReplaceOnUse    = HCMagazinemetalworking7,
+		DisplayCategory = LitR,
+		StaticModel = MagMetalWorking7_Open,
+        WorldStaticModel = MagMetalWorking7_Ground,
+	}
+
+	item HCMagazinefarming1
+	{
+		Weight			= 0.1,
+		Type			= Literature,
+		DisplayName		= Better Shelters and Farms,
+		Icon			= HCMagazinefarming1,
+		TeachedRecipes  = Build Trellis Kit,
+        ReplaceOnUse    = HCMagazinefarming1,
+		DisplayCategory = LitR,
+		StaticModel = MagAgriculture_Open,
+        WorldStaticModel = MagAgriculture_Ground,
+	}
+
+	item HCMagazineelectronics01
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Backyard Electronics Vol 1,
+		Icon		=	HCMagazineelectronics01,
+		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make Moving Sensor;Put Sensor In Case,
+        	ReplaceOnUse    =   	HCMagazineelectronics01,
+		DisplayCategory = LitR,
+		StaticModel = MagElectronics1_Open,
+        WorldStaticModel = MagElectronics1_Ground,
+	}
+
+	item HCMagazineelectronics02
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Backyard Electronics Vol 2,
+		Icon		=	HCMagazineelectronics02,
+		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Remote;Put Remote In Case,
+        	ReplaceOnUse    =   	HCMagazineelectronics02,
+		DisplayCategory = LitR,
+		StaticModel = MagElectronics2_Open,
+        WorldStaticModel = MagElectronics2_Ground,
+	}
+
+	item HCMagazineelectronics03
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Backyard Electronics Vol 3,
+		Icon		=	HCMagazineelectronics03,
+		TeachedRecipes  =   	Loot Electronic Parts;Loot Electronics Scrap;Make IR Receiver;Put Receiver In Case,
+        	ReplaceOnUse    =   	HCMagazineelectronics03,
+		DisplayCategory = LitR,
+		StaticModel = MagElectronics3_Open,
+        WorldStaticModel = MagElectronics3_Ground,
+	}
+
+	item HCMagazinespopularmachines01
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		DisplayName	=	Popular Machines Vol 1,
+		Icon		=	HCMagazinespopularmachines01,
+		TeachedRecipes  =   	Build Battery Array;Build Selfmade Solar Panel;Build Solar Park;Recharge Battery,
+        	ReplaceOnUse    =   	HCMagazinespopularmachines01,
+		DisplayCategory = LitR,
+		StaticModel = MagPopularElectronics_Open,
+        WorldStaticModel = MagPopularElectronics_Ground,
+	}
+
+    	item HCMagazinexmas
+    	{
+	    Weight		=	0.1,
+	    Type		=	Literature,
+	    DisplayName		=	Old Christmas Magazine,
+	    Icon		=	HCMagazinexmas,
+	    TeachedRecipes  	=   	Make Fruit Cake Batter;Make Christmas Cookies;Make Frosted Christmas Cookies;Make Eggnog Pot;Make Monkey Tail Pot;Make Christmas Ham,
+	    ReplaceOnUse    	=   	HCMagazinexmas,
+		DisplayCategory = LitR,
+		StaticModel = Magxmas_Open,
+        WorldStaticModel = Magxmas_Ground,
+    	}
+
+	item HCSportsmagazine
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Sports Magazine,
+		StressChange	=	-4,
+		Icon		=	HCSportsmagazine,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCSportsmagazine,
+		DisplayCategory = LitE,
+		StaticModel = MagSports1_Open,
+        WorldStaticModel = MagSports1_Ground,
+	}
+
+	item HCSportsmagazine2
+	{
+		Weight		=	0.1,
+		Type		=	Literature,
+		UnhappyChange	=	-4,
+		DisplayName	=	Sports Magazine,
+		StressChange	=	-4,
+		Icon		=	HCSportsmagazine2,
+		BoredomChange	=	-5,
+        	ReplaceOnUse    =   	HCSportsmagazine2,
+		DisplayCategory = LitE,
+		StaticModel = MagSports2_Open,
+        WorldStaticModel = MagSports2_Ground,
+	}
+
+/************************RECIPES************************/	
+
+
+    
+
+}

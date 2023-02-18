@@ -1,0 +1,67 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCVHStape1
+    {
+        DisplayCategory = Entertainment,	
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape1,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox2,	
+    }
+
+item HCVHStape2
+    {
+        DisplayCategory = Entertainment,	
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape2,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox,	
+    }
+
+item HCVHStape3
+    {
+        DisplayCategory = Entertainment,	
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape3,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox2,		
+    }
+
+item HCVHStape4
+    {
+        DisplayCategory = Entertainment,	
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape4,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox3,		
+    }
+
+item HCVHStape5
+    {
+        DisplayCategory = Entertainment,	
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= VHS Tape,
+        icon 			= HCVHStape5,
+        MediaCategory       = Retail-VHS,
+        WorldStaticModel = VHSBox2,	
+    }
+
+}

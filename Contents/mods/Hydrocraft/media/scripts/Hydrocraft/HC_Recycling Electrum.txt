@@ -1,0 +1,30 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************RECIPES************************/
+
+recipe Recycle Electrum
+    {
+    SkillRequired:MetalWelding=3,
+    ElectricWire=5,
+    Charcoal,
+    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    HCIngotmold,
+    keep Tongs,
+    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
+    CanBeDoneFromFloor:true,
+    Result:HCElectrumingot,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+}

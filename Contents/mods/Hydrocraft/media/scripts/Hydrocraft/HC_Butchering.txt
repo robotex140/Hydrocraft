@@ -1,0 +1,89 @@
+module Base
+{
+	recipe Butcher Bird
+	{
+		SkillRequired:Cooking=2,
+		HCChickendead/HCChickendead2/HCTurkeydead/HCPigeondead/HCQuaildead/HCGrousedead/HCCrowdead/HCMagpiedead/HCBluejaydead/HCCardinaldead/HCSparrowdead/DeadBird/HCDuckdead/HCCootdead/HCBlackduckdead/HCBlackduckdead2/HCCanvasbackduckdead/HCCanvasbackduckdead2/HCMallarddead/HCPintailduckdead/HCPintailduckdead2/HCRedheadduckdead/HCRedheadduckdead2/HCScaupduckdead/HCScaupduckdead2/HCWoodduckdead/HCWoodduckdead2/HCSnowgoosedead/HCCanadiangoosedead,
+		keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife]/Machete,
+    	Result:Nothing_Bird_Meat,
+		CanBeDoneFromFloor:true,
+		Sound:SliceMeat,
+		Time:100.0,
+		NeedToBeLearn:false,
+		Category:Hunting,
+		RemoveResultItem:true,
+    	OnCreate:HydrocraftButchering_ButcherBird,
+		OnGiveXP:HydrocraftButchering_NoXP,
+		Override: true,/* needed to replace vanilla recipe! */
+	}
+	
+	recipe Butcher Small Animal
+	{
+		SkillRequired:Cooking=2,
+		DeadRabbit/DeadSquirrel/HCMuskratdead/HCGroundhogdead/HCNutriadead/HCBeaverdead/HCPorcupinedead/HCArmadillodead/HCFoxdead/HCOpossumdead/HCSkunkdead/HCRaccoondead/HCBeagledead/HCBernesedead/HCBordercolliedead/HCBoxerdead/HCColliedead/HCCorgidead/HCDachshunddead/HCDobermandead/HCGermanshepherddead/HCGreatdanedead/HCGoldendead/HCHeelerdead/HCHuskydead/HCIrishsetterdead/HCLabradordead/HCPitbulldead/HCRottweilerdead/HCShibainudead/HCCatdead/HCCatblackdead/HCCatbluedead/HCCatbrowndead/HCCatcreamdead/HCCatgingerdead/HCCatsilverdead/HCCatwhitedead/DeadMouse/DeadRat/HCPondturtle/HCSnappingturtle,
+		keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife]/Machete,
+    	Result:Nothing_Small_Meat,
+		CanBeDoneFromFloor:true,
+		Sound:SliceMeat,
+		Time:100.0,
+		NeedToBeLearn:false,
+		Category:Hunting,
+		RemoveResultItem:true,
+    	OnCreate:HydrocraftButchering_ButcherSmallAnimal,
+		OnGiveXP:HydrocraftButchering_NoXP,
+		Override: true,/* needed to replace vanilla recipe! */
+	}
+
+    recipe Butcher Rabbit
+    {
+        Result:Nothing_Small_Meat,
+		RemoveResultItem:true,
+        Sound:PZ_FoodSwoosh,
+        Time:50.0,
+        Category:Cooking,
+		Override: true,/* needed to replace vanilla recipe! */
+		IsHidden: true,
+    }
+	
+}
+
+module Hydrocraft {
+
+	item Nothing_Small_Meat {
+		Weight = 0,
+		Type = Normal,
+		DisplayName = Nothing,
+		Icon = Smallanimalmeat,
+	}
+
+	item Nothing_Large_Meat {
+		Weight = 0,
+		Type = Normal,
+		DisplayName = Nothing,
+		Icon = HCBearsteak,
+	}	
+
+	item Nothing_Bird_Meat {
+		Weight = 0,
+		Type = Normal,
+		DisplayName = Nothing,
+		Icon = Smallbirdmeat,
+	}
+
+	recipe Butcher Large Animal
+	{
+		SkillRequired:Cooking=3,
+		HCBoardead/HCDeerdead/HCDeerdead2/HCBeardead/HCBlackbeardead/HCCougardead/HCSheepdead/HCGoatdead/HCGoatdead2/HCPigdead/HCCowdead/HCCowdead2/HCDonkeydead/HCHorsedead,
+		keep MeatCleaver,
+    	Result:Nothing_Large_Meat,
+		CanBeDoneFromFloor:true,
+		Sound:SliceMeat,
+		Time:100.0,
+		NeedToBeLearn:false,
+		Category:Hunting,
+		RemoveResultItem:true,
+    	OnCreate:HydrocraftButchering_ButcherLargeAnimal,
+		OnGiveXP:HydrocraftButchering_NoXP,
+	}
+	
+}

@@ -1,0 +1,620 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCMeatCubes 
+	{
+    HungerChange		= -5,
+    Weight				= 0.1,
+    Type				= Food,
+    IsCookable			= TRUE,
+    DangerousUncooked	= TRUE,
+    DaysTotallyRotten	= 4,
+    MinutesToBurn		= 20,
+    DisplayName			= Meat Cubes,
+    Icon				= MeatPatty,
+    DaysFresh			= 2,
+    MinutesToCook		= 10,
+    FoodType    		= Meat,
+    Carbohydrates 		= 0,
+    Proteins 			= 7,
+    Lipids 				= 10,
+    Calories 			= 95,
+    BadInMicrowave 		= true,
+    GoodHot 			= true,
+    BadCold 			= false,
+	EvolvedRecipe 		= Stew:5;Stir fry:5;Sandwich:5;Salad:5;Roasted Vegetables:5;RicePot:5;RicePan:5;PastaPot:5;PastaPan:5,
+	DisplayCategory          =   FoodP,
+    }
+
+
+item HCBBQsaucebowl
+	{
+	HungerChange		=	-20,
+	Weight				=	1,
+	Type				=	Food,
+	DisplayName			=	Bowl of BBQ Sauce,
+	ReplaceOnUse		=	Bowl,
+	Icon				=	HCBBQsaucebowl,
+	DaysTotallyRotten	=	8,
+	DaysFresh 			= 	5,
+	ReplaceOnUse		=	Bowl,
+	CustomContextMenu 	= 	Eat,
+	Spice   			=   	true,
+	EvolvedRecipe 		= 	Sandwich:2;Burger:2,
+	Carbohydrates 		= 	58,
+        Proteins 		= 	4,
+        Lipids 			= 	3,
+        Calories 		= 	210,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCBBQsteak
+	{
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Steak,
+	Icon				=	HCBBQsteak,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	78.2,
+        Lipids 				= 	21.4,
+        Calories 			= 	525,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+	
+item HCBBQsalmon
+	{
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Salmon,
+	Icon				=	HCBBQsalmon,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Fish,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	63.1,
+        Lipids 				= 	13.3,
+        Calories 			= 	381,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+	
+item HCBBQchicken
+	{
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Chicken,
+	Icon				=	HCBBQchicken,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Meat,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	84.1,
+        Lipids 				= 	10.9,
+        Calories 			= 	432,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCBBQsmallbird
+	{
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	FoodType    			=   	Game,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Small Bird,
+	Icon				=	HCBBQsmallbird,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	Carbohydrates 			= 	5,
+        Proteins 			= 	34,
+        Lipids 				= 	16.2,
+        Calories 			= 	286,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCBBQduck
+	{
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Duck,
+	Icon				=	HCBBQduck,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	69,
+        Lipids 				= 	33,
+        Calories 			= 	603,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCBBQgoose
+	{
+	HungerChange			=	-35,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Goose,
+	Icon				=	HCBBQgoose,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10,
+        Proteins 			= 	87,
+        Lipids 				= 	39,
+        Calories 			= 	714,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCBBQturkey
+	{
+	HungerChange			=	-30,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Turkey,
+	Icon				=	HCBBQturkey,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	10.3,
+        Proteins 			= 	69,
+        Lipids 				= 	5.7,
+        Calories 			= 	336,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+	
+item HCBBQrat
+	{
+	HungerChange			=	-20,
+	UnhappyChange			=	-5,
+	Weight				=	0.1,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Rat,
+	Icon				=	HCBBQrat,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Game,
+	Carbohydrates 			= 	5,
+        Proteins 			= 	45,
+        Lipids 				= 	12.6,
+        Calories 			= 	309,
+        EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCBBQshroom
+	{
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	BBQ Mushroom,
+	Icon				=	HCBBQmushroom,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Vegetables,
+	Carbohydrates 			= 	23.2,
+        Proteins 			= 	9.9,
+        Lipids 				= 	1.8,
+        Calories 			= 	210,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCShroomstick
+	{
+	HungerChange			=	-20,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.8,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	Mushrooms on a Stick,
+	Icon				=	HCMushroomstick,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Vegetables,
+	Carbohydrates 			= 	23.2,
+        Proteins 			= 	9.9,
+        Lipids 				= 	1.8,
+        Calories 			= 	210,
+	DisplayCategory          =   FoodP,
+	}
+	
+item HCGrilledeggplant
+	{
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.3,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	Grilled Eggplant,
+	Icon				=	HCGrilledeggplant,
+	DaysFresh			=	3,
+	DaysTotallyRotten		=	7,
+	FoodType    			=   	Vegetables,
+	DisplayCategory          =   FoodP,
+	Carbohydrates 			= 	26.1,
+        Proteins 			= 	2.4,
+        Lipids 				= 	5,
+        Calories 			= 	150,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	}
+
+item HCFriedfroglegs
+	{
+	HungerChange			=	-15,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.2,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	TRUE,
+	MinutesToCook			=	30,
+	MinutesToBurn			=	70,
+	DisplayName			=	Fried Frog Legs,
+	Icon				=	HCFriedfroglegs,
+	DaysFresh			=	4,
+	DaysTotallyRotten		=	8,
+	FoodType    			=   	Meat,
+	DisplayCategory          =   FoodP,
+	Carbohydrates 			= 	0,
+    Proteins 			= 	32,
+    Lipids 				= 	2.6,
+    Calories 			= 	160,
+	EvolvedRecipe 			= 	Stew:15;Stir fry:15;Sandwich:10;Salad:10;Roasted Vegetables:15;RicePot:15;RicePan:15;PastaPot:15;PastaPan:15,
+	}
+
+
+item HCShishkebab
+	{
+	HungerChange		=	-20,
+	BoredomChange		=	-10,
+	UnhappyChange		=	-15,
+	Weight				=	0.5,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	30,
+	MinutesToBurn		=	70,
+	DisplayName			=	Shish Kebab,
+	Icon				=	HCShishkebab,
+	DaysFresh			=	3,
+	DaysTotallyRotten	=	7,
+	Carbohydrates 		= 	18.4,
+    Proteins 			= 	21.6,
+    Lipids 				= 	9.8,
+    Calories 			= 	230,
+	DisplayCategory          =   FoodP,
+	}
+
+item HCTastySandwich
+	{
+	DisplayName			=	Tasty Sandwich,
+	Type				=	Food,
+	IsCookable			=	TRUE,
+	DangerousUncooked	=	TRUE,
+	MinutesToCook		=	30,
+	MinutesToBurn		=	70,
+	HungerChange		=	-65,
+	BoredomChange		=	-20,
+	UnhappyChange		=	-25,
+	Carbohydrates 		= 	30,
+    Proteins 			= 	60,
+    Lipids 				= 	30,
+    Calories 			= 	550,
+	Weight				=	0.8,
+	Type				=	Food,
+	DaysTotallyRotten	=	6,
+	DisplayName			=	Tasty Sandwich,
+ 	Icon				=	Sandwich,
+	DaysFresh			=	3,
+	StaticModel 		= 	Sandwich,
+	DisplayCategory          =   FoodP,
+	}
+
+
+
+
+
+/************************RECIPES************************/
+
+recipe Make BBQ Sauce
+	{
+       		SkillRequired:Cooking=1,
+		Bowl,
+		Ketchup/HCKetchup,
+		Sugar;1,
+		keep HCWhisk,
+		Result:HCBBQsaucebowl,
+    		NeedToBeLearn:true, 
+		Time:75.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+
+recipe Barbecue Meat
+	{
+       	SkillRequired:Cooking=1,
+		keep Pan,
+		Steak,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQsteak,
+    	NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Barbecue Meat
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		Salmon,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQsalmon,
+    		NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Barbecue Meat
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		Chicken,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQchicken,
+    		NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Barbecue Meat
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		HCDuckmeat,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQduck,
+    		NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Barbecue Meat
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		HCGoosemeat,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQgoose,
+    		NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Barbecue Meat
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		HCTurkeymeat,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQturkey,
+    		NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Barbecue Meat
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		DeadRat,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQrat,
+    		NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Barbecue Mushrooms
+	{
+       		SkillRequired:Cooking=1,
+		keep Pan,
+		HCBunchofshrooms,
+		HCBBQsauce/HCBBQsaucebowl,
+		Result:HCBBQshroom,
+    		NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Mushrooms on a Stick
+	{
+		HCChopsticks,
+		HCBunchofshrooms,
+		Result:HCShroomstick,
+    		NeedToBeLearn:true, 
+		Time:15.0,
+	   	Category:Cooking,
+       		OnGiveXP:HCCooking_OnGiveXP,
+	}
+	
+recipe Grill Eggplant
+	{
+		keep BakingTray,
+		keep KitchenKnife,
+		Eggplant,
+		HCCookingoil/OilVegetable/HCCookingoiljar;1,
+		Result:HCGrilledeggplant,
+    	NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+recipe Make Fried Frogs Legs
+	{
+       	SkillRequired:Cooking=1,
+		keep Pan,
+		FrogMeat,
+		Salt;1,
+		Pepper,
+		[Recipe.GetItemTypes.Egg],
+		Flour/HCRiceflour,
+		HCLemonjuicebowl/HCLemonjuicebottle/HCPopbottlelemonjuice/HCWaterbottlelemonjuice/HCRemouladelemonjuice/HCMayonnaiselemonjuice/HCWhiskeylemonjuice,
+		Result:HCFriedfroglegs,
+    	NeedToBeLearn:true, 
+		Time:55.0,
+	   	Category:Cooking,
+		OnCreate:HCRecipeBowls,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+
+recipe Cut Meat Cubes
+	{
+    	SkillRequired:Cooking=4,
+    	NeedToBeLearn:true, 
+		keep KitchenKnife,
+		FishFillet/Salmon/HCHerring/HCCrab/Steak/HCCougarsteak/MuttonChop/PorkChop/HCFreshham/Ham/Chicken/HCBearsteak/HCVenison/HCCheval/HCSmallgamesteak/Rabbitmeat/Smallanimalmeat/Smallbirdmeat/HCDuckmeat/HCGoosemeat/HCTurkeymeat/FrogMeat,
+		RemoveResultItem:true,
+		Result:HCMeatCubes,
+		CanBeDoneFromFloor:true,
+		Time:40,
+	   	Category:Cooking,
+		OnCreate:HCCutMeatCubes,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+
+
+recipe Make Shish Kebab
+	{
+		HCChopsticks,
+    	HCMeatCubes=5,
+    	Onion,
+    	Cabbage/Lettuce/BellPepper/HCBellpeppergreen/HCBellpepperyellow/Eggplant/HCOniongreen/HCGarlic/Broccoli/Carrots/Potato/HCPotatogolden/HCPotatored/Zucchini/Tomato,
+    	keep KitchenKnife,
+		Result:HCShishkebab=2,
+		CanBeDoneFromFloor:true,
+    	NeedToBeLearn:true, 
+		Time:15.0,
+	   	Category:Cooking,
+       	OnGiveXP:HCCooking_OnGiveXP,
+	}
+ 
+
+recipe Make Big Tasty Sandwiches
+	{
+	HCWholegrainbread,
+	MeatPatty=2,
+	HCSlicedtomato = 8,
+	HCSlicedonion = 8,
+	Butter,
+	HCOreganoleaf=4,
+	keep KitchenKnife,
+	Result:HCTastySandwich=4,
+    NeedToBeLearn:true,
+    Time:15.0,
+	Category:Cooking,
+	OnGiveXP:HCCooking_OnGiveXP,
+	}
+
+
+
+}

@@ -1,0 +1,243 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+
+item HCEnvelope
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Envelope,
+        icon 			= HCEnvelope,
+		DisplayCategory		=   Useless,
+    }
+
+item HCPostagestamp
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Postage Stamp,
+        icon 			= HCPostagestamp,
+		DisplayCategory		=   Useless,
+    }
+
+item HCSealedletter
+	{
+		Weight			=	0.1,
+		Type			=	Normal,
+		DisplayName		=	Sealed Envelope,
+		icon			=	HCSealedletter,
+		DisplayCategory	=	Useless,
+	}
+
+item HCSealedletter2
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter2,
+		DisplayCategory		=   Useless,
+    }
+
+item HCSealedletter3
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter3,
+		DisplayCategory		=   Useless,
+    }
+
+item HCSealedletter4
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter4,
+		DisplayCategory		=   Useless,
+    }
+
+item HCSealedletter5
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter5,
+		DisplayCategory		=   Useless,
+    }
+
+
+item HCSealedletter6
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter6,
+		DisplayCategory		=   Useless,
+    }
+
+item HCSealedletter7
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Sealed Letter,
+        icon 			= HCSealedletter7,
+		DisplayCategory		=   Useless,
+    }
+
+item HCBubblewrap
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Bubble Wrap,
+        icon 			= HCBubblewrap,
+		DisplayCategory		=   Toy,
+    }
+
+item HCPostcard1
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard1,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCPostcard2
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard2,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCPostcard3
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard3,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCPostcard4
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard4,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCPostcard5
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard5,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCPostcard6
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard6,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCPostcard7
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard7,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCPostcard8
+    	{
+        Weight			=	0.1,
+        Type			=	Literature,
+        DisplayName		=	Postcard,
+        Icon			=	HCPostcard8,
+        CanBeWrite  		=   	true,
+        PageToWrite 		=   	1,
+		DisplayCategory		=   Useless,
+    	}
+
+item HCBoxcutter
+	{
+		MaxRange			=	0.9,
+		WeaponSprite			=	Hydrocraft.HCBoxcutter,
+		MinAngle			=	0,
+		Type				=	Weapon,
+		MinimumSwingTime		=	2,
+		KnockBackOnNoDeath		=	FALSE,
+		SwingAmountBeforeImpact		=	0.02,
+		Categories			=	Blade,
+		ConditionLowerChanceOneIn	=	2,
+		Weight				=	0.3,
+		SplatNumber			=	0,
+		PushBackMod			=	0.3,
+		MaxDamage			=	0.5,
+		SubCategory			=	Stab,
+		AimingMod			=	0.8,
+		ConditionMax			=	10,
+		MaxHitCount			=	1,
+		IsAimedHandWeapon		=	TRUE,
+		DoorDamage			=	1,
+		SwingAnim			=	Stab,
+		WeaponWeight			=	1.5,
+		DisplayName			=	Box Cutter,
+		MinRange			=	0.61,
+		CloseKillMove 			= 	Jaw_Stab,
+		SwingTime			=	2,
+		MinDamage			=	0.3,
+		KnockdownMod			=	0,
+		SplatBloodOnNoDeath		=	TRUE,
+		Icon				=	HCBoxcutter,
+		RunAnim				=	Run_Weapon2,
+        	IdleAnim			=	Idle_Weapon2,
+       	 	BreakSound  			=   	BreakMetalItem,
+        	TreeDamage  			=   	1,
+        	EnduranceMod 			= 	0.5,
+		DisplayCategory		=   WepMelee,
+	}
+
+/************************RECIPES************************/	
+
+	recipe Open Envelope
+	{
+		HCSealedletter,
+		Result:Magazine,
+		RemoveResultItem:true,
+		Time:50.0,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		IsHidden: true,
+		OnCreate:HCOpenSealedLetter,
+	}
+
+}

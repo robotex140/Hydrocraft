@@ -1,0 +1,450 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+item HCHoneybee
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Honeybee,
+	Icon				=	HCHoneybee,
+	DisplayCategory          =   SurApi,
+	}
+
+item HCQueenbee
+	{
+	Weight 				= 	0.1,
+	Type 				= 	Normal,
+	DisplayName 			= 	Queen Honeybee,
+	Icon				=	HCQueenbee,
+	DisplayCategory          =   SurApi,
+	}
+
+item HCBeekeeperhat
+	{
+	Weight 				= 	0.2,
+	Type 				= 	Normal,
+	DisplayName 			= 	Beekeeper Hat,
+	Icon				=	HCBeekeeperhat,
+	DisplayCategory          =   SurApi,
+	}
+
+item HCBeesmokerempty
+	{
+	Weight 				= 	0.5,
+	Type 				= 	Normal,
+	DisplayName 			= 	Empty Bee Smoker,
+	Icon				=	HCBeesmoker,
+	DisplayCategory          =   SurApi,
+	}
+
+item HCBeesmokerfull
+	{
+	Weight 				= 	0.5,
+	Type				=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta			=	0.25,
+	DisplayName 		= 	Bee Smoker,
+	ReplaceOnDeplete	=	HCBeesmokerempty,
+	Icon				=	HCBeesmoker,
+	DisplayCategory          =   SurApi,
+	}
+
+item HCHoney
+	{
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	UnhappyChange			=	-15,
+	DisplayName			=	Honey,
+	Icon				=	HCHoney,
+	BoredomChange			=	-10,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	Packaged 			= 	TRUE,	
+	DisplayCategory          =   FoodN,
+	}
+
+item HCJarhoney
+	{
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	UnhappyChange			=	-15,
+	DisplayName			=	Jar of Honey,
+	Icon				=	HCJarhoney,
+	ReplaceOnUse			=	HCJar,
+	BoredomChange			=	-10,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
+	}
+
+item HCDryinghoney
+	{
+	HungerChange			=	-60,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	DisplayName			=	Drying Honey,
+	Icon				=	HCDriedhoney,
+	DaysFresh			=	50,
+	DaysTotallyRotten		=	100,
+	IsCookable			=	TRUE,
+	DangerousUncooked		=	FALSE,
+	MinutesToCook			=	40,
+	MinutesToBurn			=	60,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	ReplaceOnUse			=	BakingTray,
+	ReplaceOnCooked			= 	Hydrocraft.HCDriedhoney,
+	DisplayCategory          =   FoodP,
+	}	
+
+item HCDriedhoney
+	{
+	HungerChange			=	-60,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	ReplaceOnUse			=	BakingTray,
+	DisplayName			=	Dried Honey,
+	Icon				=	HCDriedhoney,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
+	}
+
+item HCHoneypowder
+	{
+	HungerChange			=	-60,
+	BoredomChange			=	-10,
+	UnhappyChange			=	-15,
+	Weight				=	0.1,
+	Type				=	Food,
+	FoodType			=	NoExplicit,
+	DisplayName			=	Honey Powder,
+	Icon				=	HCHoneypowder,
+	Carbohydrates 			= 	820,
+        Proteins 			= 	3,
+        Lipids 				= 	0,
+        Calories 			= 	3040,
+	DisplayCategory          =   FoodN,
+	}
+
+
+item HCWoodenbuckethoney
+    {
+        Weight    			= 4,
+        Type    			= Normal,
+        DisplayName         		= Wooden Bucket with Honey,
+        icon 				= HCWoodenbuckethoney,
+		DisplayCategory          =   SurApi,
+    }
+
+
+item HCHoneycomb
+	{
+	Weight 				= 0.3,
+	Type 				= Normal,
+	DisplayName 			= Honeycomb,
+	Icon				= HCHoneycomb,
+	DisplayCategory          =   SurApi,
+	}
+
+
+item HCBeehive
+	{
+	Weight 				= 3,
+	Type 				= Normal,
+	DisplayName 			= Wild Beehive,
+	Icon				= HCBeehive,
+	DisplayCategory          =   SurApi,
+	}
+
+item HCBeehive3
+    {
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Inactive Beehive,
+        Icon            		= HCBeehive3,
+		DisplayCategory          =   SurApi,
+        
+    }
+
+item HCBeehive3b
+    {
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Inactive Beehive (Stage 3),
+        Icon                    = HCBeehive3
+		DisplayCategory          =   SurApi,
+    }
+
+
+
+item HCBeehive3Active
+    {
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Beehive (Stage 3),
+        Icon            		= HCBeehive3Active,
+		DisplayCategory          =   SurApi,
+    }
+
+item HCBeehive3bActive
+    {
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Beehive Anchored,
+        Icon                    = HCBeehive3Active,
+		DisplayCategory          =   SurApi,
+    }
+
+
+item HCBeehive3full
+    {
+        Weight          		= 12,
+        Type            		= Normal,
+        DisplayName     		= Beehive with Honey (Stage 3),
+        Icon            		= HCBeehive3full,
+		DisplayCategory          =   SurApi,
+    }
+
+
+item HCBeehive3bfull
+    {
+        Weight                  = 1000,
+        Type                    = Normal,
+        DisplayName             = Beehive with Honey (Stage 3),
+        Icon                    = HCBeehive3full,
+		DisplayCategory          =   SurApi,
+    }
+		
+/************************RECIPES************************/
+
+recipe Unanchor Beehive
+    {
+        HCBeehive3b,
+        CanBeDoneFromFloor:true,
+        Result:HCBeehive3,
+        Time:100,
+        Category:Anchor,
+    }
+
+
+recipe Build Beehive
+    {
+	   SkillRequired:Woodwork=6,
+       Screws=10,
+       Plank=5,
+	   Nails=10,
+       HCWoodshingles=4,
+       HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
+	   HCBeehive,
+       keep Hammer,
+       keep [Recipe.GetItemTypes.Saw],
+	   OnTest:HCNearCarpybench,
+       CanBeDoneFromFloor:true,
+       Result:HCBeehive3,
+       NeedToBeLearn:true,
+       Time:250.0,
+       Category:Carpentry,
+       Sound:PZ_Hammer,
+       OnGiveXP:HCWoodwork_OnGiveXP,
+    }
+
+
+recipe Fill Bee Smoker with Fuel
+    {
+        HCBeesmokerempty,
+        SheetPaper2/HCGrass/HCBark/HCBirchbark/HCOakleaves/HCWillowbranch/HCPinebough/HCFirbough,
+        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        Result:HCBeesmokerfull,
+        NeedToBeLearn:true,
+        Time:50.0,
+        Category:Farming,
+        OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+
+recipe Empty Bee Smoker
+    {
+        destroy HCBeesmokerfull,
+        Result:HCBeesmokerempty,
+        Time:15,
+        Category:Farming,
+    }
+
+recipe Harvest Honeycomb
+    {
+        HCBeehive3full,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCHoneycomb=12,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Farming,
+        OnCreate:recipe_hcbeehive3,
+        OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+recipe Harvest Honeycomb
+    {
+        HCBeehive3bfull,
+        keep HCBeekeeperhat,
+        keep HCWorkgloves,
+        HCBeesmokerfull,
+        CanBeDoneFromFloor:true,
+        Result:HCBeehive3b,
+        NeedToBeLearn:true,
+        Time:200.0,
+        Category:Farming,
+        OnCreate:HCHoneycomb12,
+        OnGiveXP:HCFarming_OnGiveXP,
+    }
+
+
+recipe Harvest Wild Beehive
+    {
+       HCBeehive,
+       keep HCBeekeeperhat,
+       keep HCWorkgloves,
+       HCBeesmokerfull,
+       OnTest:HCNearHerbatable,
+       Result:HCHoneybee,
+       NeedToBeLearn:true,
+       Time:150.0,
+       Category:Farming,
+       OnCreate:HCHoneycomb12,
+       OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Process Honeycomb
+    {
+       HCWoodenbucket,
+	   HCHoneycomb=4,
+       Result:HCWoodenbuckethoney,
+       NeedToBeLearn:true,
+       Time:50.0,
+	   Category:Cooking,
+       OnCreate:recipe_hcbeeswax,
+       OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+
+recipe Jar Honey
+    {
+        SkillRequired:Cooking=4,
+        HCJar=4,
+        HCWoodenbuckethoney,
+        Result:HCJarhoney=4,
+        Time:50.0,
+        Category:Cooking,
+        OnCreate:recipe_hcwoodenbucket,
+        OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Bee Smoker
+	{
+        HCTincan=2,
+        Bellows,
+        HCWeldingset,
+        keep [Recipe.GetItemTypes.WeldingMask],
+        keep HCWorkgloves,
+        Result:HCBeesmokerempty,
+        NeedToBeLearn:true,
+        Time:150.0,
+        Category:Farming,
+        OnGiveXP:Recipe.OnGiveXP.None,
+	}
+
+recipe Make Beekeeper Hat
+	{
+	   	HCStrawhat,
+	   	HCLeather,
+	   	HCNetting=3,
+	   	keep HCTailoringbench2,
+	   	Thread,
+	   	Result:HCBeekeeperhat,
+        CanBeDoneFromFloor:true,
+       	NeedToBeLearn:true,
+	   	Time:150.0,
+    	Category:Farming,
+    	OnGiveXP:HCTailoring_OnGiveXP,
+	}
+
+recipe Dry Honey
+	{
+        SkillRequired:Cooking=3,
+		BakingTray,
+		HCHoney,
+		Result:HCDryinghoney,
+		Time:75.0,
+	   	Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Dry Honey
+	{
+        SkillRequired:Cooking=3,
+		BakingTray,
+		HCJarhoney,
+		Result:HCDryinghoney,
+		Time:75.0,
+	   	Category:Cooking,
+		OnCreate:recipe_hcjar,
+    	OnGiveXP:HCCooking_OnGiveXP,
+	}	
+
+recipe Make Honey Powder
+    {
+        SkillRequired:Cooking=3,
+    	keep MortarPestle,
+    	HCDriedhoney,
+    	Result:HCHoneypowder,
+    	Time:50,
+		Category:Cooking,
+    	OnCreate:recipe_hcbakingtray,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+recipe Make Bag of Sugar
+    {
+        SkillRequired:Cooking=3,
+    	HCHoneypowder=4,
+		HCSugarempty,
+    	Result:Sugar,
+    	Time:50,
+		Category:Cooking,
+    	OnGiveXP:HCCooking_OnGiveXP,
+    }
+
+	recipe Empty Wooden Bucket with Honey
+    {
+		destroy HCWoodenbuckethoney,
+		Result:HCWoodenbucket,
+		Time:50,
+		Category:Farming,
+    }
+}

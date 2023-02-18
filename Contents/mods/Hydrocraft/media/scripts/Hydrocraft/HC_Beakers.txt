@@ -1,0 +1,721 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCBeakerwater
+    	{
+	IsWaterSource		=	TRUE,
+	Weight			=	1,
+	CanStoreWater		=	TRUE,
+	Type			=	Drainable,
+	UseWhileEquipped	=	FALSE,
+	UseDelta		=	0.07,
+	DisplayName		=	Beaker With Water,
+	ReplaceOnDeplete	=	HCGlassbeaker,
+	ReplaceOnUseOn		=	WaterSource-HCBeakerwater,
+	Icon			=	HCBeakerwater,
+	IsCookable		=	TRUE,
+	RainFactor 		= 	1,
+	DisplayCategory	=   CraftChem,
+    	}
+
+item HCBeakerwaterhot
+	{
+	Weight				=	1,
+	Type			        =	Normal,
+	DisplayName			=	Beaker With Hot Water,
+	Icon				=	HCBeakerwaterhot,
+	DisplayCategory	=   CraftChem,
+	}
+
+item HCBeakerammonia
+    {
+        Weight    		= 0.5,
+        Type    		= Normal,
+        DisplayName         	= Beaker with Ammonia,
+        icon 			= HCBeakerammonia,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakertronasolution
+	{
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Beaker With Trona Solution,
+	Icon			=	HCBeakertronasolution,
+	DisplayCategory	=   CraftChem,
+	}
+
+item HCBeakerwatercalciumoxid
+	{
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Beaker With Calcium Oxide And Water,
+	Icon			=	HCBeakerwatercalciumoxid,
+	DisplayCategory	=   CraftChem,
+	}
+
+item HCBeakermuriaticacid
+	{
+	Weight			=	1,
+	Type			=	Normal,
+	DisplayName		=	Beaker With Muriatic Acid,
+	Icon			=	HCBeakermuriaticacid,
+	DisplayCategory	=   CraftChem,
+	}
+
+item HCBeakersodiumhydroxidesolution
+	{
+	Weight				=	1,
+	Type			        =	Normal,
+	DisplayName			=	Sodium Hydroxide Soultion,
+	Icon				=	HCBeakersodiumhydroxidesolution,
+	DisplayCategory	=   CraftChem,
+	}
+
+item HCBeakercalciumchloridesolution
+	{
+	Weight				=	1,
+	Type			        =	Normal,
+	DisplayName			=	Calcium Chloride Soultion,
+	Icon				=	HCBeakercalciumchloridesolution,
+	DisplayCategory	=   CraftChem,
+	}
+
+item HCBeakermethylamin
+    {
+        Weight            		=    1,
+        Type            		=    Normal,
+        DisplayName        		=    Beaker With Methylamin,
+        Icon            		=    HCBeakermethylamin,
+		DisplayCategory	=   CraftChem,
+    }
+
+ 
+item HCBeakersulfuricacid
+    {
+        Weight            		=    1,
+        Type            		=    Normal,
+        DisplayName        		=    Beaker With Sulfuric Acid,
+        Icon            		=    HCBeakersulfuricacid,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerphenyl
+    {
+        Weight            		=    1,
+        Type            		=    Normal,
+        DisplayName        		=    Beaker With Phenylacetic Acid,
+        Icon            		=    HCBeakerphenyl,
+	DisplayCategory	=   CraftChem,
+    } 
+
+item HCBeakerh2o2
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Hydrogen Peroxide,
+        icon 				= HCBeakerh2o2,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerh2o2cooled
+    {
+        Weight    			= 0.5,
+        Type    			= Normal,
+        DisplayName         		= Cold Beaker With Hydrogen Peroxide,
+        icon 				= HCBeakerh2o2cooled,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerh2o2hexa
+    {
+        Weight    			= 0.6,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin,
+        icon 				= HCBeakerh2o2hexa,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerh2o2hexacooled
+    {
+        Weight    			= 0.6,
+        Type    			= Normal,
+        DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin,
+        icon 				= HCBeakerh2o2hexacooled,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerh2o2hexacitricacid
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
+        icon 				= HCBeakerh2o2hexa,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerh2o2hexacitricacidcooled
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Cold Beaker With Hydrogen Peroxide and Hexamethylentetramin and Citric Acid,
+        icon 				= HCBeakerh2o2hexacitricacidcooled,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerhmtd
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With HMTD Foam,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakercoppersulfatesolution
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Coppersulfate solution,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakernickelsulfatesolution
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Nickel Sulfate solution,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakernitricacid
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Nitric Acid,
+        icon 				= HCBeakerhmtd,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakermercuricoxide
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Mercuric Oxide,
+        icon 				= HCBeakermercuricoxide,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerpotassiumpermanganate
+    {
+        Weight    			= 0.8,
+        Type    			= Normal,
+        DisplayName         		= Beaker With Potassium Permanganate,
+        icon 				= HCBeakerpotassiumpermanganate,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerammoniahalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Ammonia,
+	ReplaceOnDeplete	=	HCBeakerammonia,
+        icon 			= 	HCBeakerammoniahalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakercalciumchloridesolutionhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Calciumchloride Solution,
+	ReplaceOnDeplete	=	HCBeakercalciumchloridesolution,
+        icon 			= 	HCBeakercalciumchloridesolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerh2o2half
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With H2O2,
+	ReplaceOnDeplete	=	HCBeakerh2o2,
+        icon 			= 	HCBeakerh2o2half,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakermercuricoxidehalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Mercuricoxide,
+	ReplaceOnDeplete	=	HCBeakermercuricoxide,
+        icon 			= 	HCBeakermercuricoxidehalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakermethylaminhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Methylamin,
+	ReplaceOnDeplete	=	HCBeakermethylamin,
+        icon 			= 	HCBeakermethylaminhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakermorphinhydrochloridsolutionhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Morphinhydrochlorid Solution,
+	ReplaceOnDeplete	=	HCBeakermorphinhydrochloridsolution,
+        icon 			= 	HCBeakermorphinhydrochloridsolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakermuriaticacidhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Muriatic Acid,
+	ReplaceOnDeplete	=	HCBeakermuriaticacid,
+        icon 			= 	HCBeakermuriaticacidhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerphenylhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Phenylacetic Acid,
+	ReplaceOnDeplete	=	HCBeakerphenyl,
+        icon 			= 	HCBeakerphenylhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerselfmadeether
+    {
+        Weight    		= 	1,
+	Type			= 	Normal,
+        DisplayName         	= 	Beaker With Ether,
+        icon 			= 	HCBeakerselfmadeether,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakersodiumhydroxidesolutionhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Sodiumhydroxide Solution,
+	ReplaceOnDeplete	=	HCBeakersodiumhydroxidesolution,
+        icon 			= 	HCBeakersodiumhydroxidesolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakersulfuricacidhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Sulfuric Acid,
+	ReplaceOnDeplete	=	HCBeakersulfuricacid,
+        icon 			= 	HCBeakersulfuricacidhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakertronasolutionhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Trona Solution,
+	ReplaceOnDeplete	=	HCBeakertronasolution,
+        icon 			= 	HCBeakertronasolutionhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerwaterhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Water,
+	ReplaceOnDeplete	=	HCBeakerwater,
+        icon 			= 	HCBeakerwaterhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerselfmadeetherhalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Ether,
+	ReplaceOnDeplete	=	HCBeakerselfmadeether,
+        icon 			= 	HCBeakerselfmadeetherhalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+item HCBeakerpotassiumpermanganatehalf
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.2,
+        DisplayName         	= 	Beaker With Potassium Permanganate,
+	ReplaceOnDeplete	=	HCBeakerpotassiumpermanganate,
+        icon 			= 	HCBeakerpotassiumpermanganatehalf,
+	DisplayCategory	=   CraftChem,
+    }
+
+/************************RECIPES************************/
+
+recipe Empty Beaker
+    {   
+	HCBeakerwaterhot/HCBeakerammonia/HCBeakertronasolution/HCBeakerwatercalciumoxid/HCBeakermuriaticacid/HCBeakersodiumhydroxidesolution/HCBeakercalciumchloridesolution/HCBeakermethylamin/HCBeakersulfuricacid/HCBeakerphenyl/HCBeakerh2o2/HCBeakerh2o2cooled/HCBeakerh2o2hexa/HCBeakerh2o2hexacooled/HCBeakerh2o2hexacitricacid/HCBeakerh2o2hexacitricacidcooled/HCBeakerhmtd/HCBeakercoppersulfatesolution/HCBeakernickelsulfatesolution/HCBeakernickelsulfatesolution/HCBeakernitricacid/HCBeakermercuricoxide/HCBeakermorphinhydrochlorid/HCBeakermorphinhydrochloridsolution02/HCBeakeragar/HCBeakerselfmadeether/HCBeakerpotassiumpermanganate/HCBeakerpotassiumpermanganatehalf,
+        Result:HCGlassbeaker,
+        Time:15,
+    	Category:Chemistry,
+    }
+
+recipe Make Beaker of Ammonia
+    {   
+	HCWindowcleaner=5,
+	HCGlassbeaker,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCBeakerammonia,
+        Time:1000,
+    	Category:Chemistry,
+    	OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Beaker of Ammonia
+    {   
+	HCAmmonia,
+	HCGlassbeaker,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCBeakerammonia,
+        Time:1000,
+    	Category:Chemistry,
+    	OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Make Beaker of Copper Sulfate Solution
+    {   
+	HCCoppersulfatepowder,
+	HCGlassbeaker,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCBeakercoppersulfatesolution,
+        Time:1000,
+    	Category:Chemistry,
+    	OnGiveXP:Recipe.OnGiveXP.None,
+    }
+	
+recipe Make Beaker of Nickel Sulfate Solution
+    {   
+	HCNickelsulfatepowder,
+	HCGlassbeaker,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCBeakernickelsulfatesolution,
+        Time:1000,
+    	Category:Chemistry,
+    	OnGiveXP:Recipe.OnGiveXP.None,
+    }
+	
+recipe Make Beaker of Nitric Acid
+    {   
+	HCNitricacid,
+	HCGlassbeaker,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCBeakernitricacid,
+        Time:1000,
+    	Category:Chemistry,
+    	OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Fill Beaker With Muriatic Acid
+    {
+    	HCGlassbeaker,
+	keep HCSafetyglasses,
+        keep HCLatexgloves/HCRubberglove,
+    	HCPlasticcanmuriaticacid,
+        keep HCLab2,
+        CanBeDoneFromFloor:true,
+    	Result:HCBeakermuriaticacid,
+    	Time:50,
+        OnCreate:recipe_hcgetplasticcan,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Phenylacetic Acid
+    {
+    	HCGlassbottlephenyl,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	keep HCFunnel/HCGlassfunnel,
+    	Result:HCBeakerphenyl,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Phenylacetic Acid
+    {
+    	HCBarrelmetalphenyl,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakerphenyl,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Phenylacetic Acid
+    {
+    	HCPhenylbarrelfull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakerphenyl,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Phenylacetic Acid
+    {
+    	HCPhenylbarrelbluefull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakerphenyl,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Methylamin
+    {
+    	HCGlassbottlemethylamin,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	keep HCFunnel/HCGlassfunnel,
+    	Result:HCBeakermethylamin,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Methylamin
+    {
+    	HCBarrelmetalmethylamin,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakermethylamin,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Methylamin
+    {
+    	HCMethylaminbarrelfull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakermethylamin,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Methylamin
+    {
+    	HCMethylaminbarrelbluefull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakermethylamin,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Ammonia
+    {
+    	HCGlassbottleammonia,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	keep HCFunnel/HCGlassfunnel,
+    	Result:HCBeakerammonia,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Ammonia
+    {
+    	HCBarrelmetalammonia,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakerammonia,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Ammonia
+    {
+    	HCAmmoniabarrelfull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakerammonia,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Ammonia
+    {
+    	HCAmmoniabarrelbluefull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakerammonia,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Sulfuric Acid
+    {
+    	HCGlassbottlesulfuricacid,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+    	keep HCFunnel/HCGlassfunnel,
+    	Result:HCBeakersulfuricacid,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Sulfuric Acid
+    {
+    	HCBarrelmetalsulfuricacid,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakersulfuricacid,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Sulfuric Acid
+    {
+    	HCSulfuricacidbarrelfull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakersulfuricacid,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Fill Beaker With Sulfuric Acid
+    {
+    	HCSulfuricacidbarrelbluefull,
+        keep HCRubberglove,
+        keep HCSafetyglasses,
+        keep HCHandpump,
+        keep HCRubberhose,
+    	Result:HCBeakersulfuricacid,
+        CanBeDoneFromFloor:true,
+    	Time:50,
+    	Category:Chemistry,
+    }
+
+recipe Make Beaker of Potassium Permanganate
+    {   
+	HCGlassbottlepotassiumpermanganate,
+	HCGlassbeaker,
+        keep HCLatexgloves/HCRubberglove,   
+        keep HCGasmask/HCImprovisedgasmask,
+        keep HCLab2,
+        CanBeDoneFromFloor:true, 
+        NeedToBeLearn:true,
+        Result:HCBeakerpotassiumpermanganate,
+        Time:1000,
+    	Category:Chemistry,
+    }
+
+}

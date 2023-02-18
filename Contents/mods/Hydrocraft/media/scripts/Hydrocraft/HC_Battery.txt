@@ -1,0 +1,724 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base, Radio
+
+    }
+
+/************************ITEMS************************/
+
+item HCBatterysmall
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName		= Small Battery,
+        icon 			= HCBatterysmall,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterysmallpack
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName		= Small Battery Package,
+        icon 			= HCBatterysmallpack,
+		DisplayCategory	= CraftElec,
+    }
+
+item HCBatterysmalldead
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName		= Dead Small Battery,
+        icon 			= HCBatterysmalldead,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterysmallcase
+    {
+        Weight    		= 0.4,
+        Type    		= Normal,
+        DisplayName         	= Small Battery Case,
+        icon 			= HCBatterysmallcase,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterysixpack
+    {
+        Weight    		= 1,
+        Type    		= Normal,
+        DisplayName     	= Battery Package,
+        icon 			= HCBatterysixpack,
+		DisplayCategory	= CraftElec,
+    }
+
+item HCBatterydead
+    {
+        Weight    		= 0.6,
+        Type    		= Normal,
+        DisplayName         	= Dead Battery,
+        icon 			= HCBatterydead,
+		DisplayCategory	= CraftElec,
+    }
+
+item HCBatterycase
+    {
+        Weight    		= 0.6,
+        Type    		= Normal,
+        DisplayName         	= Battery Case,
+        icon 			= HCBatterycase,
+		DisplayCategory	= CraftElec,
+    }
+
+item HCBatterypackmedium
+    {
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName     	= Pack of Medium Batteries,
+        icon 			= HCBatterypackmedium,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterymedium
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Medium Battery,
+        icon 			= HCBatterymedium,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterymediumdead
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Dead Medium Battery,
+        icon 			= HCBatterymediumdead,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterymediumcase
+    {
+        Weight    		= 0.8,
+        Type    		= Normal,
+        DisplayName         	= Medium Battery Case,
+        icon 			= HCBatterymediumcase,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterylarge
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Large Battery,
+        icon 			= HCBatterylarge,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterylargedead
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Dead Large Battery,
+        icon 			= HCBatterylargedead,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterypacklarge
+    {
+        Weight    		= 1.6,
+        Type    		= Normal,
+        DisplayName     	= Pack of Large Batteries,
+        icon 			= HCBatterypacklarge,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatterylargecase
+    {
+        Weight    		= 1.0,
+        Type    		= Normal,
+        DisplayName         	= Large Battery Case,
+        icon 			= HCBatterylargecase,
+		DisplayCategory	= CraftElec,
+    } 
+
+
+item HCBatteryhuge
+    {
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName         	= Huge Battery,
+        icon 			= HCBatteryhuge,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatteryhugedead
+    {
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName         	= Dead Huge Battery,
+        icon 			= HCBatteryhugedead,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBatteryhugecase
+    {
+        Weight    		= 1.2,
+        Type    		= Normal,
+        DisplayName         	= Huge Battery Case,
+        icon 			= HCBatteryhugecase,
+		DisplayCategory	= CraftElec,
+    }
+
+item HCBattery9volt
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= 9 Volt Battery,
+        icon 			= HCBattery9volt,
+		DisplayCategory	= CraftElec,
+    } 
+
+item HCBattery9voltdead
+    {
+        Weight    		= 0.7,
+        Type    		= Normal,
+        DisplayName         	= Dead 9 Volt Battery,
+        icon 			= HCBattery9volt,
+		DisplayCategory	= CraftElec,
+    } 
+
+
+/************************RECIPES************************/
+    
+
+recipe Make Dead Battery
+    {
+        destroy Battery,
+        Result:HCBatterydead,
+        Time:15,
+        Category:Electrical,
+    }
+
+recipe Open Small Battery Package
+	{
+	HCBatterysmallpack,
+	Result:HCBatterysmall=8,
+	Time:50.0,
+	}
+
+recipe Open Battery Package
+	{
+	HCBatterysixpack,
+	Result:Battery=6,
+	Time:50.0,
+	}
+
+recipe Open Medium Battery Package
+	{
+	HCBatterypackmedium,
+	   Result:HCBatterymedium=4,
+	   Time:50.0,
+	}
+
+recipe Open Large Battery Package
+	{
+	HCBatterypacklarge,
+	Result:HCBatterylarge=2,
+	Time:50.0,
+	}
+
+recipe Recycle Small Battery Case
+    {
+    HCBatterysmalldead,
+    Result:HCBatterysmallcase,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Electrical,
+    OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Recycle Battery Case
+    {
+    HCBatterydead,
+    Result:HCBatterycase,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Electrical,
+    OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Recycle Medium Battery Case
+    {
+    HCBatterymediumdead,
+    Result:HCBatterymediumcase,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Electrical,
+    OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Recycle Large Battery Case
+    {
+    HCBatterylargedead,
+    Result:HCBatterylargecase,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Electrical,
+    OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Recycle Huge Battery Case
+    {
+    HCBatteryhugedead,
+    Result:HCBatteryhugecase,
+    NeedToBeLearn:true,
+    Time:100,
+    Category:Electrical,
+    OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Recharge Small Battery
+    {
+	SkillRequired:Electricity=3,
+    keep HCSteamCharger2, 
+    HCBatterysmalldead,
+    Charcoal=1,
+    Water=1,
+    CanBeDoneFromFloor:true,
+    keep HCCablecopper,
+    NeedToBeLearn:true,
+	Result:HCBatterysmall,
+	Time:100.0,
+    Category:Electrical,
+    OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Battery
+    {
+	SkillRequired:Electricity=3,
+    keep HCSteamCharger2, 
+    HCBatterydead,
+    Charcoal=1,
+    Water=1,
+    keep HCCablecopper,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+	Result:Battery,
+	Time:100.0,
+    Category:Electrical,
+    OnGiveXP:Recipe.OnGiveXP.None,
+    }
+
+recipe Recharge 9 Volt Battery
+    {
+	SkillRequired:Electricity=3,
+    keep HCSteamCharger2, 
+    HCBattery9voltdead,
+    Charcoal=1,
+    Water=1,
+    keep HCCablecopper,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+	Result:HCBattery9volt,
+	Time:200.0,
+    Category:Electrical,
+    OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Medium Battery
+    {
+	SkillRequired:Electricity=3,
+    keep HCSteamCharger2, 
+    HCBatterymediumdead,
+    Charcoal=2,
+    Water=2,
+    keep HCCablecopper,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+	Result:HCBatterymedium,
+	Time:200.0,
+    Category:Electrical,
+    OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Large Battery
+    {
+	SkillRequired:Electricity=3,
+    keep HCSteamCharger2, 
+    HCBatterylargedead,
+    Charcoal=3,
+    Water=3,
+    keep HCCablecopper,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+	Result:HCBatterylarge,
+	Time:200.0,
+    Category:Electrical,
+    OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Recharge Huge Battery
+    {
+	SkillRequired:Electricity=3,
+    keep HCSteamCharger2, 
+    HCBatteryhugedead,
+    Charcoal=4,
+    Water=4,
+    keep HCCablecopper,
+    CanBeDoneFromFloor:true,
+    NeedToBeLearn:true,
+	Result:HCBatteryhuge,
+	Time:400.0,
+    Category:Electrical,
+    OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Small Battery Cases
+    {
+        HCSteelboard,
+        HCSoldergunpowered,
+        HCSolder,
+        keep HCWorkgloves,
+    	keep HCElectornicsbench2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterysmallcase=4,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Battery Cases
+    {
+        HCSteelboard,
+        HCSoldergunpowered,
+        HCSolder,
+        keep HCWorkgloves,
+    	keep HCElectornicsbench2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterycase=3,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Medium Battery Cases
+    {
+        HCSteelboard,
+        HCSoldergunpowered,
+        HCSolder,
+        keep HCWorkgloves,
+    	keep HCElectornicsbench2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterymediumcase=2,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Large Battery Case
+    {
+        HCSteelboard,
+        HCSoldergunpowered,
+        HCSolder,
+        keep HCWorkgloves,
+    	keep HCElectornicsbench2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterylargecase,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Huge Battery Case
+    {
+        HCSteelsheet,
+        HCSoldergunpowered,
+        HCSolder,
+        keep HCWorkgloves,
+    	keep HCElectornicsbench2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatteryhugecase,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Small Batterys
+    {
+	SkillRequired:Electricity=1,
+	HCWirelead=4,
+	HCBeakersulfuricacid,
+        HCBatterysmallcase=4,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterysmall=4,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget1beaker,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Batterys
+    {
+	SkillRequired:Electricity=1,
+	HCWirelead=8,
+	HCBeakersulfuricacid,
+        HCBatterycase=2,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:Battery=2,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget1beaker,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Medium Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirelead=3,
+	HCBeakersulfuricacid,
+        HCBatterymediumcase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterymedium,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget1beaker,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Large Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirelead=4,
+	HCBeakersulfuricacid=2,
+        HCBatterylargecase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterylarge,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget2beakers,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Huge Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirelead=5,
+	HCBeakersulfuricacid=4,
+        HCBatteryhugecase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatteryhuge,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget4beakers,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Small Batterys
+    {
+	SkillRequired:Electricity=1,
+	HCWirezinc=4,
+	HCBeakermercuricoxide,
+        HCBatterysmallcase=4,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterysmall=4,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget1beaker,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Batterys
+    {
+	SkillRequired:Electricity=1,
+	HCWirezinc=8,
+	HCBeakermercuricoxide,
+        HCBatterycase=2,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:Battery=2,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget1beaker,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Medium Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirezinc=3,
+	HCBeakermercuricoxide,
+        HCBatterymediumcase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterymedium,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget1beaker,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Large Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirezinc=4,
+	HCBeakermercuricoxide=2,
+        HCBatterylargecase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterylarge,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget2beakers,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Huge Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirezinc=5,
+	HCBeakermercuricoxide=4,
+        HCBatteryhugecase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatteryhuge,
+        Time:500,
+        Category:Electrical,
+        OnCreate:recipe_hcget4beakers,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+
+recipe Make Small Batterys
+    {
+	SkillRequired:Electricity=1,
+	HCWirealuminum=4,
+	HCSulphurpowder,
+	HCSaltpowder,
+        HCBatterysmallcase=4,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterysmall=4,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Batterys
+    {
+	SkillRequired:Electricity=1,
+	HCWirealuminum=8,
+	HCSulphurpowder,
+	HCSaltpowder,
+        HCBatterycase=2,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:Battery=2,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Medium Batterys
+    {
+	SkillRequired:Electricity=1,
+	HCWirealuminum=3,
+	HCSulphurpowder,
+	HCSaltpowder,
+        HCBatterymediumcase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterymedium,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Large Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirealuminum=4,
+	HCSulphurpowder=2,
+	HCSaltpowder=2,
+        HCBatterylargecase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatterylarge,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+recipe Make Huge Battery
+    {
+	SkillRequired:Electricity=1,
+	HCWirealuminum=5,
+	HCSulphurpowder=4,
+	HCSaltpowder=4,
+        HCBatteryhugecase,
+        keep HCLatexgloves/HCRubberglove,
+        keep HCFunnel/HCGlassfunnel,
+        keep HCLab2,
+       	CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Result:HCBatteryhuge,
+        Time:500,
+        Category:Electrical,
+       	OnGiveXP:HCElectricity_OnGiveXP,
+    }
+
+}

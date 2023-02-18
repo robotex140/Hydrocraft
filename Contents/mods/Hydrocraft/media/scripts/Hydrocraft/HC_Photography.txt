@@ -1,0 +1,118 @@
+module Hydrocraft
+{
+    imports
+    {
+        Base
+
+    }
+
+/************************ITEMS************************/
+
+item HCFilmcanister
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Film Canister,
+        icon 			= HCFilmcanister,
+		DisplayCategory		=   CraftMisc,
+    }
+
+
+item HCFilmroll
+    {
+        Weight    		= 0.1,
+        Type    		= Normal,
+        DisplayName         	= Roll of Film,
+        icon 			= HCFilmroll,
+		DisplayCategory		=   CraftMisc,
+    }
+
+item HCPhotodevloper
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Film Devloper,
+        icon 			= HCPhotodevloper,
+		DisplayCategory		=   CraftMisc,
+    }
+
+item HCPhotofixer
+    {
+        Weight    		= 0.2,
+        Type    		= Normal,
+        DisplayName         	= Film Fixer,
+        icon 			= HCPhotofixer,
+		DisplayCategory		=   CraftMisc,
+    }
+
+item HCPhotolacquer
+    {
+        Weight    		= 	0.3,
+	Type			= 	Drainable,
+	UseWhileEquipped	= 	FALSE,
+	UseDelta		= 	0.25,
+        DisplayName         	= 	Photo Lacquer,
+        icon 			= 	HCPhotolacquer,
+		DisplayCategory		=   CraftMisc,
+    }
+
+item HCFlashlightbulbred
+    {
+        Weight			=	0.1,
+        Type			=	Normal,
+        DisplayName		=	Red Flashlight Bulb,
+        Icon			=	HCFlashlightbulbred,
+		DisplayCategory		=   CraftMisc,
+    }
+
+item HCPhotobench
+    {
+	WeightReduction         = 0,
+	Weight             	= 10,
+	Type                	= Container,
+	Capacity             	= 50,
+        DisplayName         	= Photography Workbench,
+        icon 			= HCPhotobench,
+		DisplayCategory		=   CraftMisc,
+	
+    }
+
+
+/************************RECIPES************************/	
+
+recipe Make Photography Workbench
+    {
+	CameraExpensive,
+	HCFilmroll=2,
+	HCFilmcanister=3,
+	HCPhotodevloper,
+	HCPhotofixer,
+	Vinegar,
+	HCRubberglove,
+	RoastingPan,
+	Newspaper=3,
+	HCClothespin=6,
+	HCRopethin,
+	HCBottleopener,
+	HCMeasuringcup,
+	/*Timer, removed, as this item no longer spawns in vanilla - may need a better solution*/
+	HCFlashlightbulbred,
+	HCFlashlightoff,	
+	HCPlasticbin,
+	HCWorkbench,
+	WoodenStick,
+	Nails,
+	keep Hammer,
+	keep Saw,
+	[Recipe.GetItemTypes.Scissors],
+        Result:HCPhotobench,
+        CanBeDoneFromFloor:true,
+        NeedToBeLearn:true,
+        Time:400,
+    	Sound:PZ_Hammer,
+	Category:Engineer,
+    	OnGiveXP:Recipe.OnGiveXP.None,
+    }
+    
+
+}
