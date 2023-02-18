@@ -30,15 +30,6 @@ item HCDriverslicense
 		WorldStaticModel = WorldItem-HCDriversLicense,
     }
 
-item HCHubcap
-    {
-        Weight    		= 1,
-        Type    		= Normal,
-        DisplayName     = Hubcap,
-        icon 			= HCHubcap,
-		DisplayCategory = Junk,
-    }
-
 item HCMotoroil
     {
         Weight    		    = 0.2,

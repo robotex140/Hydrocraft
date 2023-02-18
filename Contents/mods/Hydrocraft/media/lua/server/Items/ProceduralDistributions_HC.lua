@@ -2018,7 +2018,6 @@ local garagestorage_items = {
         --"Hydrocraft.HCGolfbag", 1, --removed, exists in vanilla
         "Hydrocraft.HCSteelpipe", 1,
         "Hydrocraft.HCCopperpipe", 1,
-        "Hydrocraft.HCHubcap", 1,
         "Hydrocraft.HCGardenhose", 1,
         "Hydrocraft.HCHedgecutter", 1,
         "Hydrocraft.HCHedgetrimmer", 1,
@@ -2144,7 +2143,6 @@ insertItemListsInProcDistribution( "GarageTools", {   garagestorage_items  } );
 local mechanic_metalshelves_items = {
         "Hydrocraft.HCManometer", 0.2,
         "Hydrocraft.HCAirfreshener", 0.2,
-        "Hydrocraft.HCHubcap", 0.2,
         "Hydrocraft.HCMotoroil", 1,
         "Hydrocraft.HCSparkplug", 1,
         "Hydrocraft.HCMetalsheetbox", 1,

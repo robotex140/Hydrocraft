@@ -11,7 +11,7 @@ module Hydrocraft
 recipe Recycle Iron
     {
     SkillRequired:MetalWelding=4,
-    Pan/Kettle/RoastingPan/Pot/HCHubcap/GardeningSprayEmpty/WateredCan/Shovel/HCWok/HCSpikedmaceiron/HCSpikedflailiron/HCTridentiron/HCDrumbreak/HCBattleaxeiron/HCWarhammeriron/HCHalberdiron,
+    Pan/Kettle/RoastingPan/Pot/GardeningSprayEmpty/WateredCan/Shovel/HCWok/HCSpikedmaceiron/HCSpikedflailiron/HCTridentiron/HCDrumbreak/HCBattleaxeiron/HCWarhammeriron/HCHalberdiron,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
