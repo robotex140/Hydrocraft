@@ -1628,7 +1628,6 @@ local electronics_items = {
         "Hydrocraft.HCFloppyaudio", 1,
         "Hydrocraft.HCFloppyemail", 1,
         "Hydrocraft.HCElectricaltapepack", 1,
-        "Hydrocraft.HCFlorescentlightbox", 1,
         "Hydrocraft.HCPCgame1", 1,
         "Hydrocraft.HCPCgame2", 1,
         "Hydrocraft.HCPCgame3", 1,
@@ -1764,9 +1763,6 @@ local shed_items = {
         "Hydrocraft.HCGardengloves", 1,
         "Hydrocraft.HCFile", 1,
 
-
-        "Hydrocraft.HCFlorescentlightbox", 1,
-        "Hydrocraft.HCFlorescentlightbulb", 1,
 };
 insertItemListsInProcDistribution( "CrateTools", {   shed_items  } );
 insertItemListsInProcDistribution( "GarageTools", {   shed_items  } );
@@ -2134,8 +2130,6 @@ local garagestorage_items = {
         "Hydrocraft.HCBicyclepump", 0.5,
         "Hydrocraft.HCBicyclewheel", 0.5,
         "Hydrocraft.HCMagazinexmas", 1,
-        "Hydrocraft.HCFlorescentlightbox", 0.1,
-        "Hydrocraft.HCFlorescentlightbulb", 0.1,
 }
 insertItemListsInProcDistribution( "GarageTools", {   garagestorage_items  } );
 
@@ -3247,8 +3241,6 @@ local electrician_counter_items = {
         "Hydrocraft.HCMagazineelectronics03", 1,
         "Hydrocraft.HCResistorbox", 1,
         "Hydrocraft.HCMagazinespopularmachines01", 1,
-        "Hydrocraft.HCFlorescentlightbox", 1,
-        "Hydrocraft.HCFlorescentlightbulb", 1,
 }
 insertItemListsInProcDistribution( "CrateElectronics", { electrician_counter_items } );
 

@@ -292,25 +292,6 @@ item HCDynamoflashlighton
 		DisplayCategory          =   LightSource,
 	}
 
-item HCFlorescentlightbox
-    {
-        Weight    		= 2,
-        Type    		= Normal,
-        DisplayName     = Florescent Light Tube Box,
-        icon 			= HCFlorescentlightbox,
-		DisplayCategory          =   Misc,
-    }
-
-	
-item HCFlorescentlightbulb
-    {
-        Weight    		= 1,
-        Type    		= Normal,
-        DisplayName     = Florescent Light Tube,
-        icon 			= HCFlorescentlightbulb,
-		DisplayCategory          =   Misc,
-    }
-
 /************************RECIPES************************/
     
 recipe Ignite Road Flare
@@ -458,12 +439,5 @@ recipe Make Lamp Shade
     	Category:Engineer,
     	OnGiveXP:Recipe.OnGiveXP.None,
     }
-
-recipe Open Florescent Light Bulb Box
-	{
-	HCFlorescentlightbox,
-	Result:HCFlorescentlightbulb=2,
-	Time:50.0,
-	}
 	
 }
