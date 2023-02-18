@@ -129,15 +129,6 @@ item HCNapkinholderfull
 		DisplayCategory          =   Misc,
     }
 
-item HCPlasticstraw
-    {
-        Weight        			=   0.01,
-        Type          			=   Normal,
-        DisplayName    			=   Plastic Straw,
-        Icon    			=   HCPlasticstraw,
-		DisplayCategory          =   Useless,
-    }
-
 item HCCoffeefilterdry
     {
         Weight    			= 0.1,

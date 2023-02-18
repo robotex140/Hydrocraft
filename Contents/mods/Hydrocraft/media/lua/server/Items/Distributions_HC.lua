@@ -266,7 +266,6 @@ local bin_items = {
         "Hydrocraft.HCMintcandytrash", 0.1,
         "Hydrocraft.HCEyedropperbottle", 0.1,
         "Hydrocraft.HCNapkindirty", 0.5,
-        "Hydrocraft.HCPlasticstraw", 0.1,
         "Hydrocraft.HCGlassjug", 0.1,
         "Hydrocraft.HCGlassshards", 0.1,
         "Hydrocraft.HCRustyshards", 0.1,
