@@ -10,11 +10,14 @@
 
 item HCLavalamp
     {
-        Weight    		=    	1,
-        Type    		=    	Normal,
-        DisplayName    		=    	Lava Lamp,
-        Icon    		=    	HCLavalamp,
-		DisplayCategory          =   LightSource,
+        Weight    				 =    	1,
+        Type    				 =    	Normal,
+        DisplayName    			 =    	Lava Lamp,
+        Icon    				 =    	HCLavalamp,
+		DisplayCategory          =   	LightSource,
+		StaticModel 			 = 	  	HC_LavaLamp,
+		AttachmentType  		 = 		FlashlightBig,
+		WorldStaticModel 		 = 	  	WorldItem-HC_LavaLamp,		
     }
 
 item HCLampshade
@@ -28,15 +31,21 @@ item HCLampshade
 
 item HCRoadflare
     {
-        Weight    		=    1,
-        Type    		=    Normal,
-        DisplayName    		=    Road Flare,
-        Icon   		 	=    HCRoadflare,
-		DisplayCategory          =   LightSource,
+		DisplayCategory          =    LightSource,
+        Type    				 =    Normal,		
+        Weight    				 =    1,
+        DisplayName    			 =    Road Flare,
+        Icon   		 			 =    HCRoadflare,
+        primaryAnimMask 		 = 	  HoldingUmbrellaRight,
+        secondaryAnimMask 		 = 	  HoldingUmbrellaLeft,		
+        StaticModel 			 = 	  HC_RoadFlare_AP,
+	    AttachmentType 			 = 	  Hammer,		
+		WorldStaticModel 		 = 	  WorldItem-HCRoadFlare,			
     }
 
 item HCRoadflareon
 	{
+		DisplayCategory          =   LightSource,	
 		LightDistance	=	5,
 		Weight		=	1,
 		DisappearOnUse	=	TRUE,
@@ -47,7 +56,10 @@ item HCRoadflareon
 		DisplayName	=	Road Flare,
 		ActivatedItem	=	TRUE,
 		Icon		=	HCRoadflareon,
-		DisplayCategory          =   LightSource,
+        primaryAnimMask 		 = 	  HoldingUmbrellaRight,
+        secondaryAnimMask 		 = 	  HoldingUmbrellaLeft,		
+        StaticModel 			 = 	  HC_RoadFlare_AP,	
+		WorldStaticModel = WorldItem-HCRoadFlare,		
 	}
 
 item HCLaserpointer
@@ -62,26 +74,26 @@ item HCLaserpointer
 
 item HCLaserpointeron
 	{
+		DisplayCategory          =   LightSource,	
+		Type					 =	 Drainable,	
+		DisplayName				 =	 Laser Pointer,		
+		Icon					 =	 HCLaserpointeron,	
+		Weight					 =	 0.5,		
 		LightDistance	=	30,
-		Weight	=	0.5,
 		DisappearOnUse	=	FALSE,
-		Type	=	Drainable,
 		TorchCone	=	TRUE,
 		UseDelta	=	0.0009,
-		LightStrength	=	0.2,
-		DisplayName	=	Laser Pointer,
-		ActivatedItem	=	TRUE,
-		Icon	=	HCLaserpointeron,
-		DisplayCategory          =   LightSource,
+		LightStrength			 =	0.2,
+		ActivatedItem			 =	TRUE,
 	}
 
 item HCGlowstickred
     {
-        Weight    =    0.2,
-        Type    =    Normal,
-        DisplayName    =    Red Glowstick,
-        Icon    =    HCGlowstickred,
-		DisplayCategory          =   LightSource,
+		DisplayCategory          =   LightSource,	
+        Weight    				 =    0.2,
+        Type    				 =    Normal,
+        DisplayName    			 =    Red Glowstick,
+        Icon    				 =    HCGlowstickred,
     }
 
 

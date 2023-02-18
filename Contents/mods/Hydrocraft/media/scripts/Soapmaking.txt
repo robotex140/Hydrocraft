@@ -11,11 +11,23 @@ module Hydrocraft
 
 item HCLard
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Lard,
+		DisplayCategory = Food,	
+		DisplayName = Lard,
+		Type = Food,
+		Weight = 0.3,
+		EvolvedRecipe = Sandwich:2;Sandwich Baguette:2;Stir fry Griddle Pan:4;Stir fry:4;Roasted Vegetables:4;PastaPot:4;PastaPan:4;Taco:2;Burrito:2;Toast:2;Soup:4;Stew:4,
+		FoodType = NoExplicit,
         icon 			= HCLard,
-		DisplayCategory	= CraftChem,
+		Spice = true,
+		Packaged = TRUE,
+		HungerChange = -24,
+		UnhappyChange = 30,
+		Calories = 4095,
+		Carbohydrates = 0,
+		Lipids = 454,
+		Proteins = 0,
+		WorldStaticModel = Lard_Ground,
+		Tags = BakingFat,		
     }   
 
 item HCTallow
@@ -37,6 +49,7 @@ item HCSoap
         icon 			= HCSoap,
         cantBeConsolided    	= TRUE,
 		DisplayCategory	= Cleaning,
+		WorldStaticModel = WorldItem-HCSoap,		
     }   
 
 /************************RECIPES************************/

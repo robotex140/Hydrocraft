@@ -145,15 +145,6 @@ item HCHarmonica
 		DisplayCategory	= Toy,
    }
 
-item HCViolin
-    {
-	Weight			=	0.5,
-	Type			=	Normal,
-	DisplayName		=	Violin,
-	Icon			=	HCViolin,
-	DisplayCategory	= 	Toy,
-   }
-
 item HCHarp
     {
 	Weight			=	1.0,
@@ -172,14 +163,46 @@ item HCUkulele
 	DisplayCategory	= 	Toy,
    }
 
-item HCBanjo
+item Banjo
     {
-	Weight			=	1.0,
-	Type			=	Normal,
-	DisplayName		=	Banjo,
-	Icon			=	HCBanjo,
-	DisplayCategory	= 	Toy,
-   }
+        DisplayCategory = Instrument,
+        MaxRange	=	1.25,
+        WeaponSprite	=	Banjo,
+        MinAngle	=	0.75,
+        Type	=	Weapon,
+        MinimumSwingTime	=	4,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	SmallBlunt,
+        ConditionLowerChanceOneIn	=	2,
+        Weight	=	3,
+        SplatNumber	=	1,
+        PushBackMod	=	0.3,
+        SubCategory	=	Swinging,
+        ConditionMax	=	3,
+        MaxHitCount	=	3,
+        DoorDamage	=	5,
+        SwingAnim	=	Bat,
+        DisplayName	=	Banjo,
+        MinRange	=	0.61,
+        SwingTime	=	4,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	Banjo,
+        BreakSound  =   BanjoBreak,
+        DoorHitSound = BanjoHit,
+		HitSound = BanjoHit,
+		HitFloorSound = BanjoHit,
+		SwingSound = BanjoSwing,
+        TreeDamage  =   0,
+        CriticalChance	=	5,
+        CritDmgMultiplier = 2,
+        MinDamage	=	0.3,
+        MaxDamage	=	0.6,
+        BaseSpeed = 1.1,
+        TwoHandWeapon = TRUE,
+        AttachmentType = Guitar,
+    }
 
 item HCGuitar
     {
@@ -227,33 +250,12 @@ item HCAmp
 	DisplayCategory	= 	CraftElec,
    }
 
-item HCGuitarcase
-    {
-        WeightReduction     	= 	60,
-        Weight              	= 	1.0,
-        Type                	= 	Container,
-        Capacity            	= 	10,
-        DisplayName         	= 	Guitar Case,
-        Icon                	= 	HCGuitarcase,
-	DisplayCategory	= 	Container,
-	
-    }
-
 item HCKazoo
     {
 	Weight			=	0.1,
 	Type			=	Normal,
 	DisplayName		=	Kazoo,
 	Icon			=	HCKazoo,
-	DisplayCategory	= 	Toy,
-   }
-
-item HCFlute
-    {
-	Weight			=	0.5,
-	Type			=	Normal,
-	DisplayName		=	Flute,
-	Icon			=	HCFlute,
 	DisplayCategory	= 	Toy,
    }
 
@@ -275,30 +277,12 @@ item HCClarinet
 	DisplayCategory	= 	Toy,
    }
 
-item HCTrumpet
-    {
-	Weight			=	1.0,
-	Type			=	Normal,
-	DisplayName		=	Trumpet,
-	Icon			=	HCTrumpet,
-	DisplayCategory	= 	Toy,
-   }
-
 item HCTrombone
     {
 	Weight			=	1.5,
 	Type			=	Normal,
 	DisplayName		=	Trombone,
 	Icon			=	HCTrombone,
-	DisplayCategory	= 	Toy,
-   }
-
-item HCDrumsticks
-    {
-	Weight			=	0.2,
-	Type			=	Normal,
-	DisplayName		=	Drum Sticks,
-	Icon			=	HCDrumsticks,
 	DisplayCategory	= 	Toy,
    }
 
@@ -323,11 +307,40 @@ item HCDrum
 
 item HCMaracas
     	{
-	Weight			=	0.5,
-	Type			=	Normal,
-	DisplayName		=	Maracas,
-	Icon			=	HCMaracas,
-	DisplayCategory	= 	Toy,
+	    DisplayCategory = Instrument,
+		SubCategory	=	Swinging,		
+		Type		=	Weapon,		
+		DisplayName	=	Maraca,	
+		Weight	=	0.5,		
+		WeaponSprite	=	Hydrocraft.HC_Maraca_AP,
+		Icon	=	HCMaracas,		
+		MaxRange	=	0.9,		
+		MinAngle	=	0.65,
+		MinimumSwingTime	=	4,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Improvised;SmallBlunt,
+		ConditionLowerChanceOneIn	=	1,
+		SplatNumber	=	1,
+		PushBackMod	=	0.3,
+		ConditionMax	=	1,
+		MaxHitCount	=	2,
+		DoorDamage	=	0,
+		SwingAnim	=	Bat,
+		MinRange	=	0.61,
+		SwingTime	=	4,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	FALSE,
+        TreeDamage  =   0,
+        CriticalChance	=	0,
+        MinDamage	=	0.1,
+        MaxDamage	=	0.2,
+        BaseSpeed = 1.3,		
+        BreakSound  =   DrumstickBreak,
+        DoorHitSound = DrumstickHit,
+		HitSound = DrumstickHit,
+		HitFloorSound = DrumstickHit,
+		SwingSound = DrumstickSwing,
   	}
 
 item HCCowbell

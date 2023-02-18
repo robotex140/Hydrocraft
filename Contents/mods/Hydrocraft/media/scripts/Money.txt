@@ -10,179 +10,199 @@ module Hydrocraft
 
 item HCPenny
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.02,
         Type    		= Normal,
         DisplayName         	= Penny,
         icon 			= HCPenny,
-	DisplayCategory 	= Money,
+        WorldStaticModel = WorldItem-HCMoney_Penny,
     }
 
 item HCNickel
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.03,
         Type    		= Normal,
         DisplayName         	= Nickel,
         icon 			= HCNickel,
-	DisplayCategory 	= Money,
+		WorldStaticModel = WorldItem-HCMoney_Nickel,
     }
 
 item HCDime
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.01,
         Type    		= Normal,
         DisplayName         	= Dime,
         icon 			= HCDime,
-	DisplayCategory 	= Money,
+		WorldStaticModel = WorldItem-HCMoney_Dime,
     }
 
 item HCQuarter
     {
-        Weight    		= 0.04,
-        Type    		= Normal,
-        DisplayName         	= Quarter,
-        icon 			= HCQuarter,
-	DisplayCategory 	= Money,
+		DisplayCategory  = Money,
+        Weight    		 = 0.04,
+        Type    		 = Normal,
+        DisplayName      = Quarter,
+        icon 			 = HCQuarter,
+		WorldStaticModel = WorldItem-HCMoney_Quarter,
     }
 
 item HCHalfdollar
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.05,
         Type   			= Normal,
         DisplayName         	= Half Dollar,
         icon 			= HCHalfdollar,
-	DisplayCategory 	= Money,
+		WorldStaticModel = WorldItem-HCMoney_HalfDollarCoin,
     }
 
 item HCDollar
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.04,
         Type    		= Normal,
         DisplayName         	= Dollar,
         icon 			= HCDollar,
-	DisplayCategory 	= Money,
+		WorldStaticModel = WorldItem-HCMoney_DollarCoin,
     }
 
 item HC1dollarbill
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.01,
         Type    		= Normal,
         DisplayName         	= 1 Dollar Bill,
         icon 			= HC1dollarbill,
-	DisplayCategory 	= Money,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
     }
 
 
 item HC2dollarbill
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.01,
         Type    		= Normal,
         DisplayName         	= 2 Dollar Bill,
-        icon 			= HC2dollarbill,
-	DisplayCategory 	= Money,
+        icon 			 = HC2dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
     }
 
 
 item HC5dollarbill
     {
+		DisplayCategory 	= Money,
         Weight    		= 0.01,
         Type    		= Normal,
         DisplayName         	= 5 Dollar Bill,
-        icon 			= HC5dollarbill,
-	DisplayCategory 	= Money,
+        icon 			 = HC5dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
     }
 
 
 item HC10dollarbill
     {
-        Weight    		= 0.01,
-        Type    		= Normal,
+		DisplayCategory 	= Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
         DisplayName         	= 10 Dollar Bill,
-        icon 			= HC10dollarbill,
-	DisplayCategory 	= Money,
+        icon 			 = HC10dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,
     }
 
 
 item HC20dollarbill
     {
-        Weight    		= 0.01,
-        Type    		= Normal,
-        DisplayName         	= 20 Dollar Bill,
-        icon 			= HC20dollarbill,
-	DisplayCategory 	= Money,
+		DisplayCategory  = Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = 20 Dollar Bill,
+        icon 			 = HC20dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,	
     }
 
 
 item HC50dollarbill
     {
-        Weight    		= 0.01,
-        Type    		= Normal,
-        DisplayName         	= 50 Dollar Bill,
-        icon 			= HC50dollarbill,
-	DisplayCategory 	= Money,
+		DisplayCategory  = Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = 50 Dollar Bill,
+        icon 			 = HC50dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,	
     }
 
 
 item HC100dollarbill
     {
-        Weight    		= 0.01,
-        Type    		= Normal,
-        DisplayName         	= 100 Dollar Bill,
-        icon 			= HC100dollarbill,
-	DisplayCategory 	= Money,
+		DisplayCategory  = Money,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = 100 Dollar Bill,
+        icon 			 = HC100dollarbill,
+		WorldStaticModel = WorldItem-HCMoney_DollarBill,	
     }
 
 item HCCheque
     {
+		DisplayCategory = Money,
         Weight    		= 0.01,
         Type    		= Normal,
-        DisplayName         	= Blank Cheque,
+        DisplayName     = Blank Cheque,
         icon 			= HCCheque,
-	DisplayCategory 	= Money,
+		WorldStaticModel = WorldItem-HCMoney_BlankCheck,	
     }
 
 item HCCoinpress
     {
+		DisplayCategory	= CraftInd,
         Weight    		= 20,
         Type    		= Normal,
-        DisplayName         	= Coin Press,
+        DisplayName     = Coin Press,
         icon 			= HCCoinpress,
-		DisplayCategory		= CraftInd,
+		
     }
 
 item HCCoincopper
     {
-        Weight    		= 0.04,
-        Type    		= Normal,
-        DisplayName         	= Copper Coin,
-        icon 			= HCCoincopper,
-	DisplayCategory 	= Money,
+		DisplayCategory  = Money,
+        Weight    		 = 0.04,
+        Type    		 = Normal,
+        DisplayName      = Copper Coin,
+        icon 			 = HCCoincopper,
+		WorldStaticModel = WorldItem-HCMoney_CopperCoin,
     }
 
 item HCCoinsilver
     {
-        Weight    		= 0.04,
-        Type    		= Normal,
-        DisplayName         	= Silver Coin,
-        icon 			= HCCoinsilver,
-	DisplayCategory 	= Money,
+		DisplayCategory 	= Money,		
+        Weight    		 	= 0.04,
+        Type    		 	= Normal,
+        DisplayName      	= Silver Coin,
+        icon 			 	= HCCoinsilver,
+		WorldStaticModel 	= WorldItem-HCMoney_SilverCoin,
     }
 
 item HCCoingold
     {
-        Weight    		= 0.04,
-        Type    		= Normal,
-        DisplayName         	= Gold Coin,
-        icon 			= HCCoingold,
-	DisplayCategory 	= Money,
+		DisplayCategory 	= Money,	
+        Weight    			= 0.04,
+        Type    			= Normal,
+        DisplayName         = Gold Coin,
+        icon 				= HCCoingold,
+		WorldStaticModel 	= WorldItem-HCMoney_GoldCoin,
+	
     }
 
 item HCPiggybank
-    {
+    {	
+		DisplayCategory		= Misc,
         Weight    		= 0.4,
         Type    		= Normal,
         DisplayName         	= Piggy Bank,
         icon 			= HCPiggybank,
-		DisplayCategory		= Misc,
+		
     }
 
 item HCPiggybankopen
@@ -201,8 +221,9 @@ item HCWallet
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_01,
+			WorldStaticModel 		= 	Wallet,
     	}
 
 item HCWallet2
@@ -211,8 +232,9 @@ item HCWallet2
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_02,
+			WorldStaticModel 		= 	Wallet2,
     	}
 
 item HCWallet3
@@ -221,8 +243,9 @@ item HCWallet3
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_03,
+			WorldStaticModel 		= 	Wallet3,
     	}
 
 item HCWallet4
@@ -231,8 +254,9 @@ item HCWallet4
         	Weight              	= 	0.2,
         	Type                	= 	Container,
         	Capacity            	= 	2,
-        	DisplayName        	= 	Wallet,
+        	DisplayName        		= 	Wallet,
         	Icon                	= 	Wallet_04,
+			WorldStaticModel 		= 	Wallet4,			
     	} 
 
 item HCSlotmachine
@@ -255,28 +279,32 @@ item HCSlotmachine2
 
 item HCPokerchip
     {
-        Weight    		= 0.01,
-        Type    		= Normal,
-        DisplayName         	= Poker Chip,
-        icon 			= HCPokerchip,
+		DisplayCategory 	= Money,
+        Weight    			= 0.01,
+        Type    			= Normal,
+        DisplayName        	= Poker Chip,
+        icon 				= HCPokerchip,
+		WorldStaticModel 	= WorldItem-HCMoney_PokerChip,		
     }
 
 item HCRoulette
 	{
-	Weight			=	10.0,
+		
+		Weight			=	10.0,
         Type			=	Normal,
         DisplayName		=	Roulette Table,
-	Icon			=	HCRoulette,
+		Icon			=	HCRoulette,
 	
 	}
 
 item HCRoulette2
     {
+		
         Weight    		= 	10000,
         Type    		=	Normal,
         DisplayName         	= 	Roulette Table,
         icon 			= 	HCRoulette,
-	
+		
     }
 
 

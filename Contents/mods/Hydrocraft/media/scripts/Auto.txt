@@ -8,13 +8,26 @@ module Hydrocraft
 
 /************************ITEMS************************/
 
+item HCAirfreshener
+    {
+		DisplayCategory  = Household,	
+        Weight    		 = 0.05,
+        Type    		 = Normal,
+        DisplayName      = Air Freshener,
+        icon 			 = HCAirfreshener,
+		AttachmentType 	 = 	Hammer,	
+		StaticModel 	 = 	  WorldItem-HCAirFreshener,		
+		WorldStaticModel = WorldItem-HCAirFreshener,		
+    }
+
 item HCDriverslicense
     {
-        Weight			= 0.1,
-        Type			= Normal,
-        DisplayName		= Drivers License,
-        Icon			= HCDriverslicense,
-		DisplayCategory = Useless,
+        Weight			 = 0.05,
+        Type			 = Normal,
+        DisplayName		 = Drivers License,
+        Icon			 = HCDriverslicense,
+		DisplayCategory  = Household,
+		WorldStaticModel = WorldItem-HCDriversLicense,
     }
 
 item HCHubcap
@@ -26,15 +39,6 @@ item HCHubcap
 		DisplayCategory = Junk,
     }
 
-item HCAirfreshener
-    {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName     = Air Freshener,
-        icon 			= HCAirfreshener,
-		DisplayCategory = Useless,
-    }
-
 item HCMotoroil
     {
         Weight    		    = 0.2,
@@ -44,6 +48,7 @@ item HCMotoroil
         DisplayName         = Motor Oil,
         icon 			    = HCMotoroil,
         DisplayCategory     = CraftChem,
+		WorldStaticModel 	= WorldItem-HCMotorOil,		
     }
 
 item HCSparkplug
@@ -111,11 +116,14 @@ item HCFanbelt
 
 item HCLicenceplate
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName     = Licence Plate,
-        icon 			= HCLicenceplate,
-		DisplayCategory = Useless,
+		DisplayCategory  = Household,	
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Licence Plate,
+        icon 			 = HCLicenceplate,
+		AttachmentType 	 = Hammer,	
+		StaticModel 	 = HC_LicencePlate,			
+		WorldStaticModel = WorldItem-HCLicensePlate,		
     }
 
 item HCOilfilter
