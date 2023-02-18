@@ -720,25 +720,6 @@ item HCTomatillo
 	DisplayCategory          =   FoodP,
     }
 
-    item HCJalapeno
-	{
-	Type	        		=		Food,
-	HungerChange	        	=		-10,
-	Weight	        		=		0.2,
-	DaysFresh 			=		14,
-	DaysTotallyRotten 		=		28,
-        EvolvedRecipe       		=       	Soup:10;Stew:10;Pie:10;Stir fry:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
-        FoodType    			=   		Vegetables,
-	DisplayName			=		Jalapeno,
-	Icon	        		=		HCJalapeno,
-	CustomContextMenu 		= 		Eat,
-        Carbohydrates 			= 		6.0,
-        Proteins 			= 		0.8,
-        Lipids 				= 		0.3,
-        Calories 			=		26,
-	DisplayCategory          =   FoodP,
-	}
-
     item HCSquashsummer
     {
         Type				=		Food,

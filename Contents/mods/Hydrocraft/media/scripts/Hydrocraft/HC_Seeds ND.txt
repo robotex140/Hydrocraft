@@ -77,38 +77,6 @@ recipe  Open Packet of Squashsummer Seeds
 	}
 /*-----------------------------------------------------*/
 
-item HCJalapenoseeds
-	{
-	    Type			= Normal,
-	    DisplayName		= Jalapeno Seeds,
-	    Icon			= HCChiligreenseeds,
-	    Weight			= 0.009,
-		DisplayCategory	= SurFarm,
-	}
-
-item HCJalapenoseedspacket
-	{
-	    Type			= Normal,
-	    DisplayName		= Jalapeno Packet,
-	    Icon			= HCChiligreenseedspacket,
-	    Weight			= 0.1,
-		DisplayCategory	= SurFarm,
-	}
-recipe  Put Jalapeno Seeds in Packet
-    {
-        HCJalapenoseeds=50,
-        Result:HCJalapenoseedspacket,
-        Time:10.0,
-        Category:Farming,
-    }
-
-recipe  Open Packet of Jalapeno Seeds
-	{
-        HCJalapenoseedspacket,
-        Result:HCJalapenoseeds=50,
-        Time:20.0,
-        Category:Farming,
-	}
 /*-----------------------------------------------------*/
 item HCCauliflowerseeds
     {

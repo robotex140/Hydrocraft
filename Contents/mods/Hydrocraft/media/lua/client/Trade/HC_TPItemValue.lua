@@ -2152,7 +2152,6 @@ ItemValueTable["Hydrocraft.HCJackolanternwhiteon"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCJade"] = 17.00 ;
 ItemValueTable["Hydrocraft.HCJadecut"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCJadepowder"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCJalapeno"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCJamapple"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCJamapplecooked"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCJamapplepot"] = 0.00 ;

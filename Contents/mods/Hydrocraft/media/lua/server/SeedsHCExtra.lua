@@ -37,7 +37,7 @@ end -- function
 
 
 
-
+--TODO: rewrite this, stick all these in a table, remove massive if statement.
 --Randomized Seeds.
 function HCRandomseeds(items, result, player)
     local seed = ZombRand(89);	
@@ -64,7 +64,7 @@ function HCRandomseeds(items, result, player)
     elseif seed == 78 then
 		player:getInventory():AddItem("Hydrocraft.HCCauliflowerseedspacket");	
     elseif seed == 77 then
-		player:getInventory():AddItem("Hydrocraft.HCJalapenoseedspacket");	
+		--player:getInventory():AddItem("Hydrocraft.HCJalapenoseedspacket");	
     elseif seed == 76 then
 		player:getInventory():AddItem("Hydrocraft.HCSquashsummerseedspacket");	
     elseif seed == 75 then

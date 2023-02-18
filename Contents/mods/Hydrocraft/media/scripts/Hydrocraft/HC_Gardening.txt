@@ -7246,28 +7246,8 @@ recipe Harvest Crop
 
 
 
-recipe Plant Crop
-    {
-        SkillRequired:Farming=7,
-        HCJalapenoseeds,
-        HCPlanter,
-        keep HandShovel,
-        Result:HCPottedJalapenosmall,
-        Time:300,
-        NeedToBeLearn:true,
-        Category:Farming,
-    }
-recipe Harvest Crop
-    {
-        HCPottedJalapenoready,
-        Result:HCPlanter,
-        CanBeDoneFromFloor:true,
-        Time:1000.0,
-        NeedToBeLearn:true,
-        Category:Farming,
-        OnGiveXP:HCFarming_OnGiveXP,
-        OnCreate:recipe_NDPlantsHarvest,
-    }
+
+
 
 recipe Plant Crop
     {
