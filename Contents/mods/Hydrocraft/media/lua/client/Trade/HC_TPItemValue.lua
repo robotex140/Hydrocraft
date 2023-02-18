@@ -2622,7 +2622,6 @@ ItemValueTable["Hydrocraft.HCNachojar"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCNachos"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCNachosgrande"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCNailclip"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCNailclipper"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCNailgun"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCNailgunammo"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCNailgunammobox"] = 6.00 ;

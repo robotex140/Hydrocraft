@@ -411,15 +411,6 @@ item HCMouthwash2
 	DisplayCategory          =   FoodB,
 }
 
-item HCNailclipper
-    {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Nail Clipper,
-        icon 			= HCNailclipper,
-	DisplayCategory          =   Junk,
-    }
-
 item HCPumice
     {
         Weight    		= 0.1,

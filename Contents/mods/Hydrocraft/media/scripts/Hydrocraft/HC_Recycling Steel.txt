@@ -1119,27 +1119,6 @@ recipe Recycle Steel
     }
 
 
-
-
-recipe Recycle Steel
-    {
-    SkillRequired:MetalWelding=5,
-    HCNailclipper=5,
-    HCCoke,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    HCIngotmold,
-    keep Tongs,
-    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
-    keep HCFurnace2/HCBlastfurnace2,
-    CanBeDoneFromFloor:true,
-    Result:HCSteelingot,
-    NeedToBeLearn:true,
-    Time:1000,
-    Category:Smithing,
-    OnCreate:getBurned,
-    OnGiveXP:HCWelding_OnGiveXP,
-    }
-
 recipe Recycle Steel
     {
     SkillRequired:MetalWelding=5,
