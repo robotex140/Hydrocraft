@@ -25,7 +25,7 @@ recipe Make Steel Ring
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCRingmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
     keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,

@@ -118,7 +118,7 @@ recipe Make Steel Spring
         HCSteelingot,
         Charcoal,
 	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-        keep Tongs,
+        [Recipe.GetItemTypes.BlacksmithTongs],
         keep Hammer,
         keep HCWorkgloves/HCOvenmitts,
         keep HCSmelter2/HCFurnace2/HCBlastfurnace2,

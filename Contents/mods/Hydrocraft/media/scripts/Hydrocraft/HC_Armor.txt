@@ -1244,7 +1244,7 @@ recipe Make Helmet
 	{
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1258,7 +1258,7 @@ recipe Make Helmet
 	{
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1272,7 +1272,7 @@ recipe Make Helmet
 	{
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1286,7 +1286,7 @@ recipe Make Helmet
 	{
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1300,7 +1300,7 @@ recipe Make Gauntlets
 	{
         	HCRingsteel=8,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1314,7 +1314,7 @@ recipe Make Gauntlets
 	{
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1328,7 +1328,7 @@ recipe Make Gauntlets
 	{
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1342,7 +1342,7 @@ recipe Make Gauntlets
 	{
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1356,7 +1356,7 @@ recipe Make Gauntlets
 	{
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1411,7 +1411,7 @@ recipe Make Arm Guards
 	{
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1425,7 +1425,7 @@ recipe Make Arm Guards
 	{
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1439,7 +1439,7 @@ recipe Make Arm Guards
 	{
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1453,7 +1453,7 @@ recipe Make Arm Guards
 	{
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1608,7 +1608,7 @@ recipe Make Armor
 	{
         	HCRingsteel=16,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1622,7 +1622,7 @@ recipe Make Armor
 	{
 	   	HCSteelingot=4,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1636,7 +1636,7 @@ recipe Make Armor
 	{
 	   	HCSteelingot=5,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1650,7 +1650,7 @@ recipe Make Armor
 	{
 	   	HCIroningot=5,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1664,7 +1664,7 @@ recipe Make Armor
 	{
 	   	HCBronzeingot=5,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1678,7 +1678,7 @@ recipe Make Armor
 	{
 	   	HCCopperingot=5,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1847,7 +1847,7 @@ recipe Make Leg Guards
 	{
         	HCRingsteel=16,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1861,7 +1861,7 @@ recipe Make Leg Guards
 	{
 	   	HCSteelingot=4,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1875,7 +1875,7 @@ recipe Make Leg Guards
 	{
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1889,7 +1889,7 @@ recipe Make Leg Guards
 	{
 	   	HCIroningot=2,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1903,7 +1903,7 @@ recipe Make Leg Guards
 	{
 	   	HCBronzeingot=2,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1917,7 +1917,7 @@ recipe Make Leg Guards
 	{
 	   	HCCopperingot=2,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -2058,7 +2058,7 @@ recipe Make Greaves
 	{
 	   	HCSteelingot=2,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -2099,7 +2099,7 @@ recipe Make Shield
 	{
 	   	HCSteelingot=4,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -2113,7 +2113,7 @@ recipe Make Shield
 	{
 	   	HCIroningot=4,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -2127,7 +2127,7 @@ recipe Make Shield
 	{
 	   	HCBronzeingot=4,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -2141,7 +2141,7 @@ recipe Make Shield
 	{
 	   	HCCopperingot=4,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,

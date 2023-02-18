@@ -413,7 +413,7 @@ recipe Make Gem Cutter Wheel
 	SkillRequired:Woodwork=8;Mechanics=2;,
 	HCMagnifyglass,
 	HCSilkcloth,
-	Tongs,
+	[Recipe.GetItemTypes.BlacksmithTongs],
 	Rope,
 	HCGearsteel,
 	Plank=5,

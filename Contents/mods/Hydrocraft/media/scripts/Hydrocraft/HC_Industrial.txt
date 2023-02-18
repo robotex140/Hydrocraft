@@ -492,7 +492,7 @@ recipe Make Copper Gears
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCGearmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -510,7 +510,7 @@ recipe Make Tin Gears
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCGearmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -528,7 +528,7 @@ recipe Make Bronze Gears
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCGearmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -546,7 +546,7 @@ recipe Make Iron Gears
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCGearmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -564,7 +564,7 @@ recipe Make Invar Gears
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCGearmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -582,7 +582,7 @@ recipe Make Lead Gears
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCGearmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -600,7 +600,7 @@ recipe Make Steel Gears
     HCCoke,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCGearmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -619,7 +619,7 @@ recipe Make Titanium Gears
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	HCGearmold,
         keep [Recipe.GetItemTypes.WeldingMask],
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     	CanBeDoneFromFloor:true,
@@ -1078,7 +1078,7 @@ recipe Make Giant Magnet
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	HCGiantmagnetmold,
         keep [Recipe.GetItemTypes.WeldingMask],
-        keep Tongs,
+        [Recipe.GetItemTypes.BlacksmithTongs],
         keep HCWorkgloves,
 	    keep HCFurnace2,
         NeedToBeLearn:true,
@@ -1098,7 +1098,7 @@ recipe Make Small Rolling Mill
 	HCSteelingot,
 	HCIroningot=4,
     	keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
 	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
     	CanBeDoneFromFloor:true,
@@ -1114,7 +1114,7 @@ recipe Make Welding Rods
         {
         HCIroningot,
         HCSteelingot,
-        keep Tongs,
+        [Recipe.GetItemTypes.BlacksmithTongs],
         keep HCWorkgloves,
         keep [Recipe.GetItemTypes.WeldingMask],
         HCWeldingset,
@@ -1132,7 +1132,7 @@ recipe Make Welding Rods
 recipe Make Copper Wire
     	{
     	HCCopperingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1149,7 +1149,7 @@ recipe Make Copper Wire
 recipe Make Electrum Wire
     	{
     	HCElectrumingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1166,7 +1166,7 @@ recipe Make Electrum Wire
 recipe Make Lead Wire
     	{
     	HCLeadingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1184,7 +1184,7 @@ recipe Make Lead Wire
 recipe Make Iron Wire
     	{
     	HCIroningot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1201,7 +1201,7 @@ recipe Make Iron Wire
 recipe Make Steel Wire
     	{
     	HCSteelingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1218,7 +1218,7 @@ recipe Make Steel Wire
 recipe Make Zinc Wire
     	{
     	HCZincingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1235,7 +1235,7 @@ recipe Make Zinc Wire
 recipe Make Aluminum Wire
     	{
     	HCAluminumingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1252,7 +1252,7 @@ recipe Make Aluminum Wire
 recipe Make Aluminum Foil
     	{
     	HCAluminumingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1269,7 +1269,7 @@ recipe Make Aluminum Foil
 recipe Make Constantan Wire
     	{
     	HCConstantaningot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1313,7 +1313,7 @@ recipe Make Razor Wire
 recipe Make Constantan Heating Coil
     	{
     	HCConstantaningot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1329,7 +1329,7 @@ recipe Make Constantan Heating Coil
 recipe Make Nichrome Heating Coil
     	{
     	HCNichromeingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1345,7 +1345,7 @@ recipe Make Nichrome Heating Coil
 recipe Make Kanthal Heating Coil
     	{
     	HCKanthalingot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1362,7 +1362,7 @@ recipe Make Thermocouple Wire
     	{
     	HCWireconstantan=5,
     	HCWirecopper=5,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1422,7 +1422,7 @@ recipe Make Copper Cable
 recipe Make Solder
     	{
     	HCPewteringot,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
@@ -1439,7 +1439,7 @@ recipe Make Gigli Saw Handle
  	{
  	HCSteelingot,
      	keep HCSmithyhammersteel/HCSmithyhammertitanium,
-     	keep Tongs,
+     	[Recipe.GetItemTypes.BlacksmithTongs],
      	keep HCWorkgloves/HCOvenmitts,
  	keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
      	NeedToBeLearn:true,

@@ -84,7 +84,7 @@ recipe Make Vulcanized Rubber
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
     keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -103,7 +103,7 @@ recipe Make Rubber
 
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
@@ -155,7 +155,7 @@ recipe Harvest Crop
 recipe Make Rubber Sheet
     	{
     	HCRubbervulcanized=4,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
     	keep HCWorkgloves,
@@ -221,7 +221,7 @@ recipe Make Rubber Bungs
 
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	HCIngotmold,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
     	keep HCSmelter/HCSmelter2,
     	CanBeDoneFromFloor:true,

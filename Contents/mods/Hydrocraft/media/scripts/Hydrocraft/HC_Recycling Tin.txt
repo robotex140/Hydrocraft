@@ -18,7 +18,7 @@ recipe Recycle Tin
 
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     HCIngotmold,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,

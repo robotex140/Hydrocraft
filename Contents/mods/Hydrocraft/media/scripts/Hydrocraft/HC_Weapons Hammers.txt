@@ -725,7 +725,7 @@ recipe Make Steel Sledgehammer
 		HCSteelingot=4,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
@@ -741,7 +741,7 @@ recipe Make Titanium Smithy Hammer
 	HCTitaniumingot,
     WoodenStick,
     keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
 	keep HCAnvil2/HCAnvillead2,
     CanBeDoneFromFloor:true,
@@ -757,7 +757,7 @@ recipe Make Steel Smithy Hammer
 	HCSteelingot,
     WoodenStick,
     keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
 	keep HCAnvil2/HCAnvillead2,
     CanBeDoneFromFloor:true,
@@ -773,23 +773,7 @@ recipe Make Iron Smithy Hammer
 	HCIroningot,
     WoodenStick,
     keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    keep Tongs,
-    keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
-    CanBeDoneFromFloor:true,
-	Result:HCSmithyhammeriron,
-	Time:150.0,
-    Category:Smithing,
-    OnGiveXP:HCWelding_OnGiveXP,
-	}
-
-recipe Make Iron Smithy Hammer
-	{
-	SkillRequired:Maintenance=2,
-	HCIroningot,
-    WoodenStick,
-    keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    HCTongswood,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
 	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     CanBeDoneFromFloor:true,
@@ -805,7 +789,7 @@ recipe Make Bronze Smithy Hammer
 		  	HCBronzeingot,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -815,21 +799,6 @@ recipe Make Bronze Smithy Hammer
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Bronze Smithy Hammer
-	{
-	SkillRequired:Maintenance=2,
-	HCBronzeingot,
-    WoodenStick,
-    keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    HCTongswood,
-    keep HCWorkgloves/HCOvenmitts,
-	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
-    CanBeDoneFromFloor:true,
-	Result:HCSmithyhammerbronze,
-	Time:150.0,
-    Category:Smithing,
-    OnGiveXP:HCWelding_OnGiveXP,
-	}
 
 recipe Make Copper Smithy Hammer
 	{
@@ -837,7 +806,7 @@ recipe Make Copper Smithy Hammer
 	HCCopperingot,
     WoodenStick,
     keep Hammer/HammerStone/HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
 	keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     CanBeDoneFromFloor:true,
@@ -847,21 +816,6 @@ recipe Make Copper Smithy Hammer
     OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Copper Smithy Hammer
-	{
-	SkillRequired:Maintenance=2,
-		  	HCCopperingot,
-    		WoodenStick,
-    		keep Hammer/HammerStone/HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		HCTongswood,
-    		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
-    		CanBeDoneFromFloor:true,
-	   	Result:HCSmithyhammercopper,
-	   	Time:150.0,
-       		Category:Smithing,
-    		OnGiveXP:HCWelding_OnGiveXP,
-	}
 
 recipe Make Steel War Hammer
 	{
@@ -869,7 +823,7 @@ recipe Make Steel War Hammer
 		HCSteelingot=3,
     		WoodenStick,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
@@ -885,7 +839,7 @@ recipe Make Iron War Hammer
 		HCIroningot=3,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
@@ -901,7 +855,7 @@ recipe Make Bronze War Hammer
 		HCBronzeingot=3,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -918,7 +872,7 @@ recipe Make Copper War Hammer
 		HCCopperingot=3,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -928,21 +882,6 @@ recipe Make Copper War Hammer
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Copper War Hammer
-	{
-	SkillRequired:Maintenance=5,
-		HCCopperingot=3,
-    		WoodenStick,
-    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		HCTongswood,
-    		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
-    		CanBeDoneFromFloor:true,
-	   	Result:HCWarhammercopper,
-	   	Time:150.0,
-       		Category:Smithing,
-    		OnGiveXP:HCWelding_OnGiveXP,
-	}
 
 recipe Make Steel Spiked Mace
 	{
@@ -950,7 +889,7 @@ recipe Make Steel Spiked Mace
 		HCSteelingot=2,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
@@ -966,7 +905,7 @@ recipe Make Iron Spiked Mace
 		HCIroningot=2,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
@@ -982,7 +921,7 @@ recipe Make Bronze Spiked Mace
 		HCBronzeingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -992,21 +931,6 @@ recipe Make Bronze Spiked Mace
     		OnGiveXP:HCWelding_OnGiveXP,
 	}
 
-recipe Make Bronze Spiked Mace
-	{
-	SkillRequired:Maintenance=4,
-		HCBronzeingot=2,
-    		WoodenStick,
-    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		HCTongswood,
-    		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
-    		CanBeDoneFromFloor:true,
-	   	Result:HCSpikedmacebronze,
-	   	Time:150.0,
-       		Category:Smithing,
-    		OnGiveXP:HCWelding_OnGiveXP,
-	}
 
 recipe Make Copper Spiked Mace
 	{
@@ -1014,23 +938,7 @@ recipe Make Copper Spiked Mace
 		HCCopperingot=2,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
-    		keep HCWorkgloves/HCOvenmitts,
-		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
-    		CanBeDoneFromFloor:true,
-	   	Result:HCSpikedmacecopper,
-	   	Time:150.0,
-       		Category:Smithing,
-    		OnGiveXP:HCWelding_OnGiveXP,
-	}
-
-recipe Make Copper Spiked Mace
-	{
-	SkillRequired:Maintenance=4,
-		HCCopperingot=2,
-    		WoodenStick,
-    		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		HCTongswood,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1047,7 +955,7 @@ recipe Make Steel Spiked Flail
 		HCChain,
     		WoodenStick,
     		keep HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
@@ -1064,7 +972,7 @@ recipe Make Iron Spiked Flail
 		HCChain,
     		WoodenStick,
     		keep HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
@@ -1081,7 +989,7 @@ recipe Make Bronze Spiked Flail
 		HCChain,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,
@@ -1098,7 +1006,7 @@ recipe Make Copper Spiked Flail
 		HCChain,
     		WoodenStick,
     		keep HCSmithyhammercopper/HCSmithyhammerbronze/HCSmithyhammeriron/HCSmithyhammersteel/HCSmithyhammertitanium,
-    		keep Tongs,
+    		[Recipe.GetItemTypes.BlacksmithTongs],
     		keep HCWorkgloves/HCOvenmitts,
 		keep HCAnvil2/HCAnvillead2/HCAnvilstone2,
     		CanBeDoneFromFloor:true,

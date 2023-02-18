@@ -3833,7 +3833,6 @@ ItemValueTable["Hydrocraft.HCTomatocherry"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTomatosaucebowl"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTomatosaucepot"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTombstone"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCTongs"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCTonguedepressor"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCToolbox"] = 5.00 ;
 ItemValueTable["Hydrocraft.HCToothbrushshiv"] = 0.00 ;

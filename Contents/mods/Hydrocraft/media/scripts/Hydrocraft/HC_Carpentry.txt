@@ -98,15 +98,6 @@ item HCCurvedshaftsmall
 		DisplayCategory	= CraftCarp,
     }
 
-item HCTongswood
-    {
-        Weight          = 0.2,
-        Type            = Normal,
-        DisplayName     = Wooden Tongs,
-        icon            = HCTongswood,
-		DisplayCategory	= CraftMet,
-    }
-
 item HCWoodblock
     {
         Weight          = 1.0,
@@ -1074,16 +1065,6 @@ recipe Saw Logs
         Result:Plank=1,
         Sound:PZ_Saw,
         Time:1000,
-        Category:Carpentry,
-        OnGiveXP:HCWoodwork_OnGiveXP,
-    }
-
-recipe Make Wooden Tongs
-    {
-        TreeBranch=2,
-		Twine,
-        Result:HCTongswood,
-        Time:10,
         Category:Carpentry,
         OnGiveXP:HCWoodwork_OnGiveXP,
     }

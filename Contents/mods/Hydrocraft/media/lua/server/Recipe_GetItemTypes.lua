@@ -2,6 +2,11 @@
 --These will exist, but just in case
 Recipe = Recipe or {}
 Recipe.GetItemTypes = Recipe.GetItemTypes or {}
+--TODO: rename to Hydrocraft.GetItemTypes, to make it clearer which are vanilla and which are HC?
+
+function Recipe.GetItemTypes.BlacksmithTongs(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("BlacksmithTongs"))
+end
 
 function Recipe.GetItemTypes.Potato(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Potato"))

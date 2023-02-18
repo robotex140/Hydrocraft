@@ -621,7 +621,7 @@ recipe Make Arrow
 recipe Make Bolt
     {
     HCAluminumingot,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCFurnace2/HCBlastfurnace2,
     HCBowBoltMold,
@@ -638,7 +638,7 @@ recipe Make Bolt
 recipe Make Metal Arrowhead
     {
     HCIroningot/HCBronzeingot/HCSteelingot,
-    keep Tongs,
+    [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     HCArrowheadMold,

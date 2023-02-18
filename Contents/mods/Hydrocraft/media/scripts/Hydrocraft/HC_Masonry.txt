@@ -190,7 +190,7 @@ recipe Make Concrete Ingot
     	Charcoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	HCIngotmold,
-    	keep Tongs/HCTongswood,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,

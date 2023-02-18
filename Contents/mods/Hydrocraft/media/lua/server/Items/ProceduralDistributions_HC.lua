@@ -2471,7 +2471,6 @@ local tools_Metalwork_items = {
         "Hydrocraft.HCPipebender", 1,
         "Hydrocraft.HCGlasscutter", 1,
         "Hydrocraft.HCHandpump", 1,
-        "Base.Tongs", 1,
         "Hydrocraft.HCFile", 1,
         "Hydrocraft.HCSteelpipe", 1,
         "Hydrocraft.HCCopperpipe", 1,

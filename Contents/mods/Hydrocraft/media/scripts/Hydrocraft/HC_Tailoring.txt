@@ -2023,7 +2023,7 @@ recipe Make Clothespins
     	HCSSpringSteelIngot,
 	    WoodenStick=5,
     	HCWeldingset,
-    	keep Tongs,
+    	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCRollingmillsmall,

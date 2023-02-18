@@ -430,7 +430,6 @@ local all_items = {
         "Hydrocraft.HCMagazineelectronics03", 0.1,
         "Hydrocraft.HCSolidfuelbox", 0.03,
         "Hydrocraft.HCWireconcertina", 0.1,
-        "Base.Tongs", 0.1,
         "Hydrocraft.HCFile", 0.1,
 }
 insertItemListsInDistribution( "all", "metal_shelves", { all_items } );
