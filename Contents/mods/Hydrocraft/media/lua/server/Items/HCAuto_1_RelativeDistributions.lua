@@ -12,7 +12,6 @@ function car(m)
                 "Hydrocraft.HCClutch",                  m*1,
                 "Hydrocraft.HCDrumbreak",               m*1,
                 "Hydrocraft.HCFanbelt",                 m*1,
-                "Hydrocraft.HCHubcap",                  m*1,
                 "Hydrocraft.HCMotoroil",                m*1,
                 "Hydrocraft.HCOilfilter",               m*1,
                 "Hydrocraft.HCRadiator",                m*1,

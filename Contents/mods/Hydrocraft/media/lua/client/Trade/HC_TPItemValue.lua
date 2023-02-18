@@ -2092,7 +2092,6 @@ ItemValueTable["Hydrocraft.HCHotgluestickbox"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCHotsauce"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCHousefly"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCHousespider"] = 0.00 ;
-ItemValueTable["Hydrocraft.HCHubcap"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCHuckleberry"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCHuskyfemale"] = 0.00 ;
 ItemValueTable["Hydrocraft.HCHuskyfemalepack"] = 0.00 ;
