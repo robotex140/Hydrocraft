@@ -2279,21 +2279,7 @@ recipe Mix Mai Tai
 	keep HCCocktailshaker/Spoon,
 	HCDrinkglassshortrum,
 	HCLimemixer;2,
-	Sugar;1,
-	HCTriplesec;1,
-	Result:HCDrinkmaitai,
-	NeedToBeLearn:true,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Mix Mai Tai
-	{
-	keep HCCocktailshaker/Spoon,
-	HCDrinkglassshortrum,
-	HCLimemixer;2,
-	HCSugarcubes;2,
+	[Recipe.GetItemTypes.Sugar];1
 	HCTriplesec;1,
 	Result:HCDrinkmaitai,
 	NeedToBeLearn:true,
