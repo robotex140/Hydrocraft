@@ -2173,21 +2173,7 @@ recipe Mix Old Fashioned
 		keep HCCocktailshaker/Spoon,
 		HCDrinkglassshortwhiskey,
 		HCBitters;1,
-		Sugar;1,
-		HCSlicedorange,
-		Result 		: HCDrinkoldfashioned,
-		NeedToBeLearn:true,
-		Time 		: 50.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-    }
-	
-	recipe Mix Old Fashioned
-	{	
-		keep HCCocktailshaker/Spoon,
-		HCDrinkglassshortwhiskey,
-		HCBitters;1,
-		HCSugarcubes;2,
+		[Recipe.GetItemTypes.Sugar];1
 		HCSlicedorange,
 		Result 		: HCDrinkoldfashioned,
 		NeedToBeLearn:true,
@@ -2227,7 +2213,7 @@ recipe Mix Daquiri
 	keep HCCocktailshaker/Spoon,
 	HCDrinkcocktailglassrum,
 	HCLimemixer;2,
-	Sugar;1,
+	[Recipe.GetItemTypes.Sugar];1
 	HCSlicedlime,
 	Result:HCDrinkdaquiri,
 	NeedToBeLearn:true,
@@ -2236,19 +2222,6 @@ recipe Mix Daquiri
        	OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Mix Daquiri
-	{
-	keep HCCocktailshaker/Spoon,
-	HCDrinkcocktailglassrum,
-	HCLimemixer;2,
-	HCSugarcubes;2,
-	HCSlicedlime,
-	Result:HCDrinkdaquiri,
-	NeedToBeLearn:true,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
 recipe Mix Bloody Mary
 	{
 	keep HCCocktailshaker/Spoon,
