@@ -226,6 +226,14 @@ function Hydrocraft.OnCreate.BakePotato(items, result, player)
 	Recipe_OnCreate_ComplexBetter(items, result, "Bake Potato")
 end
 
+function Hydrocraft.OnCreate.MakeFrenchFries(items, result, player)
+	Recipe_OnCreate_ComplexBetter(items, result, "Make French Fries")
+end
+
+function Hydrocraft.OnCreate.MakeBowlofCereal(items, result, player)
+	Recipe_OnCreate_ComplexBetter(items, result, "Make Bowl of Cereal")
+end
+
 function Recipe.OnCreate.Hydrocraft.CreateComplexFood(items, result, player)
 	if lastRecipe ~= nil then
 		local recipeName = lastRecipe:getName()
@@ -244,18 +252,6 @@ function Recipe.OnTest.Hydrocraft.IsCooked(item)
 		return false --food, but not cooked
 	end
 	return true
-end
-
---TODO: remove, but take out of recipes first (only 2)
-function Recipe.OnCreate.Hydrocraft.MagicFoodRecipe(items, result, player)
-	local recipe = result:getModData()["Hydrocraft_RecipeName"]
-	print("Recipe: ", recipe)
-	if recipe == nil then
-		print("Recipe not found:", recipe, " - using generic function instead")
-		Recipe.OnCreate.Hydrocraft.Generic(items, result, player)
-	else
-		Recipe_OnCreate_ComplexBetter(items, result, recipe)
-	end
 end
 
 

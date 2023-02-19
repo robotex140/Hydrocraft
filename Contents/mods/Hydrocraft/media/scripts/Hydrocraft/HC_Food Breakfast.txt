@@ -6,13 +6,13 @@ module Base
 	recipe Make Bowl of Cereal
 	{
 		Bowl,
-		[Recipe.GetItemTypes.Cereal];5,
-		[Recipe.GetItemTypes.Milk];2,
+		[Recipe.GetItemTypes.Cereal];5, /*Hydrocraft function*/
+		[Recipe.GetItemTypes.Milk];2, /*Vanilla function*/
 		Result:CerealBowl,
 		Time:50.0,
 		Category:Cooking,
 		OnGiveXP:Recipe.OnGiveXP.Cooking3,
-		OnCreate: Recipe.OnCreate.Hydrocraft.MagicFoodRecipe,
+		OnCreate: Hydrocraft.OnCreate.MakeBowlofCereal,
 		Override: true,/* needed to replace vanilla recipe! */
 	}	
 }

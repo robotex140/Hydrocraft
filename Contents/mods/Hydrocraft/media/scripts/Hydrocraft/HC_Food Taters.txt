@@ -184,7 +184,6 @@ module Hydrocraft
 		BadInMicrowave		=	true,
 		GoodHot				=	true,
 		RemoveUnhappinessWhenCooked = true,
-		Hydrocraft_RecipeName	= Make French Fries,
 	}
 
 	item HCSpiffoscheesefries
@@ -397,7 +396,7 @@ module Hydrocraft
 		Time:85.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
-		OnCreate:Recipe.OnCreate.Hydrocraft.MagicFoodRecipe,
+		OnCreate:Hydrocraft.OnCreate.MakeFrenchFries,
 	}
 
 	recipe Prepare Potato Flour
