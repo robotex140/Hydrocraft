@@ -20,6 +20,7 @@ local function insertTable(t1, t2)
         end
 end
 
+--TODO: put this list in alphabetical order.
 local crate_items = {
         "Hydrocraft.HCDogwhistle", 1,
         "Hydrocraft.HCAuger", 0.5,
@@ -64,6 +65,7 @@ local crate_items = {
         "Hydrocraft.HCDrillhead", 1.1,
         "Hydrocraft.HCGrinderhead", 1.1,
         "Hydrocraft.HCChiselhead", 0.03,
+		"Hydrocraft.HCMeasuringtape", 2
 }
 insertTable(SuburbsDistributions["all"]["crate"].items, crate_items)
 
@@ -75,6 +77,38 @@ local farmer_items = {
 	"Hydrocraft.HCMysteryseedspacket", 8, --same value as each of the vanilla seed packets
 }
 insertItemListsInDistribution( "all", "Outfit_Farmer", { farmer_items } );
+
+
+local mres = {
+	"Hydrocraft.HCMRE", 10,
+}
+insertItemListsInDistributionSafely( "all", "Outfit_ArmyCamoDesert", { mres } )
+insertItemListsInDistributionSafely( "all", "Outfit_ArmyCamoGreen", { mres } )
+insertItemListsInDistributionSafely( "all", "Outfit_Ghillie", { mres } )
+insertItemListsInDistributionSafely( "all", "Outfit_Survivalist", { mres } )
+insertItemListsInDistributionSafely( "all", "Outfit_Survivalist02", { mres } )
+insertItemListsInDistributionSafely( "all", "Outfit_Survivalist03", { mres } )
+
+local binoculars = {
+	"Hydrocraft.HCBinoculars", 50
+}
+insertItemListsInDistributionSafely( "all", "Outfit_Hunter", { binoculars } )
+
+local tools = {
+	"Hydrocraft.HCPliers", 25,
+	"Hydrocraft.HCMeasuringtape", 25,
+	"Hydrocraft.HCManometer", 25,
+	"Hydrocraft.HCFile", 25
+}
+insertItemListsInDistributionSafely( "all", "Outfit_ConstructionWorker", { tools } )
+insertItemListsInDistributionSafely( "all", "Outfit_Foreman", { tools } )
+
+local calculator = {
+	"Hydrocraft.HCCalculator", 25
+}
+insertItemListsInDistributionSafely( "all", "Outfit_OfficeWorker", { calculator } )
+insertItemListsInDistributionSafely( "all", "Outfit_OfficeWorkerSkirt", { calculator } )
+
 
 local zombie_items = {
         -- Money --

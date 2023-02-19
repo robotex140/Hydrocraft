@@ -93,11 +93,11 @@ local function OnLoadSpawnOnZeds()
 	end
 
 	-- Weapons/Tools --
-	LOOT["Base.Lighter"] = 1
-	LOOT["Base.Matches"] = 1
+	--LOOT["Base.Lighter"] = 1
+	--LOOT["Base.Matches"] = 1
 	--LOOT["Hydrocraft.HCSurvivalaxe"] = 0.06 --added to impaled weapons.
-	LOOT["Base.Hammer"] = 0.3
-	LOOT["Base.Saw"] = 0.3
+	--LOOT["Base.Hammer"] = 0.3
+	--LOOT["Base.Saw"] = 0.3
 	LOOT["Hydrocraft.HCPliers"] = 0.05
 	LOOT["Base.TinOpener"] = 0.1
 	--LOOT["Hydrocraft.HCJackknife"] = 0.05 --added to impaled weapons.
@@ -124,7 +124,7 @@ local function OnLoadSpawnOnZeds()
 	end
 
 	-- Clothes --
-	LOOT["Hydrocraft.HCWorkgloves"] = 0.2
+	--LOOT["Hydrocraft.HCWorkgloves"] = 0.2
 	--LOOT["Hydrocraft.HCDentures"] = 0.2
 	--LOOT["Hydrocraft.HCEyepatch"] = 0.2
 	LOOT["Hydrocraft.HCBrokenHearingaid"] = 0.2
@@ -139,7 +139,7 @@ local function OnLoadSpawnOnZeds()
 	LOOT["Hydrocraft.HCGum2"] = 0.2
 	LOOT["Hydrocraft.HCGum3"] = 0.2
 	--LOOT["Hydrocraft.HCMysteryseedspacket"] = 0.1 --removed, these now spawn on farmer zeds using the vanilla spawn system.
-	LOOT["Hydrocraft.HCMRE"] = 0.2
+	--LOOT["Hydrocraft.HCMRE"] = 0.2
 
 	-- Other --
 	LOOT["Hydrocraft.HCHousefly"] = 0.2
@@ -149,7 +149,7 @@ local function OnLoadSpawnOnZeds()
 	LOOT["Base.Book"] = 0.2
 	LOOT["Base.WaterBottleEmpty"] = 0.3
 	LOOT["Base.BandageDirty"] = 0.2
-	LOOT["Base.Headphones"] = 0.2
+	--LOOT["Base.Headphones"] = 0.2
 
 	local total = 0
 	for k, v in pairs(LOOT) do

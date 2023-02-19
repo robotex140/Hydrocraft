@@ -216,6 +216,20 @@ function insertItemListsInDistribution(location, container, itemDistList )
         end
 end
 
+--Safer version of the above
+--Checks all of the loot table exists, so at fails safely if the loot table doesn't exist.
+function insertItemListsInDistributionSafely(location, container, itemDistList )
+	if Distributions and Distributions[1] and Distributions[1][location] and Distributions[1][location][container] and Distributions[1][location][container]["items"] then
+		for idx, itemDist in ipairs(itemDistList) do
+			for i=1,#itemDist do 
+				table.insert(dist, itemDist[i] )
+			end
+		end
+	else
+		print("Error, cannot find: Distributions[1][" .. location .. "][" .. container .. "] - insert failed.")
+	end
+end
+
 -------------------------------------------------------------------
 -- Method for modifying number of rolls in distribution to accomodate
 -- the item increase in HC.
