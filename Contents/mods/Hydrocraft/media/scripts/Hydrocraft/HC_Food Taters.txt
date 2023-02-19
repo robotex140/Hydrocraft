@@ -15,7 +15,7 @@ module Hydrocraft
 		Weight				=	0.3,
 		Type				=	Food,
 		IsCookable			=	TRUE,
-		DangerousUncooked	=	TRUE,
+		DangerousUncooked	=	FALSE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	70,
 		DisplayName			=	Baked Potato,
@@ -248,23 +248,13 @@ module Hydrocraft
 	recipe Bake Potato
 	{
 		keep BakingTray,
-		Potato/HCPotatogolden/HCPotatored,
-		Butter;5,
+		[Recipe.GetItemTypes.Potato],
+		HCCookingoil/OilVegetable/HCCookingoiljar/Butter;1,
 		Result:HCBakedpotato,
 		Time:55.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-	recipe Bake Potato
-	{
-		keep BakingTray,
-		Potato/HCPotatogolden/HCPotatored,
-		HCCookingoil/OilVegetable/HCCookingoiljar;1,
-		Result:HCBakedpotato,
-		Time:55.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate: Hydrocraft.OnCreate.BakePotato,
 	}
   
 	recipe Make Hashbrowns

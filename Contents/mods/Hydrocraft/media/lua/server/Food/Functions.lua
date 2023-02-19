@@ -9,6 +9,7 @@ Recipe.OnCanPerform.Hydrocraft = Recipe.OnCanPerform.Hydrocraft or {}
 
 Hydrocraft = Hydrocraft or {}
 Hydrocraft.OnTest = Hydrocraft.OnTest or {}
+Hydrocraft.OnCreate = Hydrocraft.OnCreate or {}
 
 local allRecipes = nil
 
@@ -25,17 +26,13 @@ local function getRecipe(recipeName)
 	return nil
 end
 
-function Recipe.OnCanPerform.Hydrocraft.RememberThisRecipe(recipe, player, item)
-	lastRecipe = recipe
-	return true
-end
-
 --[[
 IMPORTANT
 Only call is from OnCreate for 'simple' recipes, that is recipes that take whole food items and combine them into a new food.
-DO NOT call this if the recipes takes part of an item, e.g. "OilVegetable;1,", doing so will give wildly inflated food stats.
+DO NOT call this if the recipes takes part of an item, e.g. "OilVegetable;1", doing so will give wildly inflated food stats.
 ]]--
-function Recipe.OnCreate.Hydrocraft.CreateGenericFood(items, result, player)
+
+function Hydrocraft.OnCreate.GenericFood(items, result, player)
 
 	local calories = 0
 	local carbs = 0
@@ -121,7 +118,7 @@ function Recipe.OnCreate.TransferToPaperBag_GiveRoastingPan(items, result, playe
 	Recipe_OnCreate_TransferToPaperBag(items, result, player, "Base.RoastingPan")
 end
 
---What to do with frying pans? They have a condition which would be lost using this technique...
+--TODO: What to do with frying pans? They have a condition which would be lost using this technique...
 
 
 
@@ -184,7 +181,7 @@ local function Recipe_OnCreate_ComplexBetter(items, result, recipeName)
 		
 		local item = items:get( itemIndex ) --full item
 		
-		print( "partialUseAmount = ", partialUseAmount )
+		--print( "partialUseAmount = ", partialUseAmount )
 		if partialUseAmount > 0 then --must be food
 			local dummyItem = createDummyItem( item:getFullType(), partialUseAmount )
 			--print( "Dummy Item created: ", item:getFullType(), partialUseAmount )
@@ -225,10 +222,14 @@ local function Recipe_OnCreate_ComplexBetter(items, result, recipeName)
 
 end
 
+function Hydrocraft.OnCreate.BakePotato(items, result, player)
+	Recipe_OnCreate_ComplexBetter(items, result, "Bake Potato")
+end
+
 function Recipe.OnCreate.Hydrocraft.CreateComplexFood(items, result, player)
 	if lastRecipe ~= nil then
 		local recipeName = lastRecipe:getName()
-		Recipe_OnCreate_ComplexBetter(items, result, recipeName)	
+			
 	else
 		print("Exception: lastRecipe is nil in Recipe.OnCreate.CreateComplexFood")
 	end
@@ -245,6 +246,7 @@ function Recipe.OnTest.Hydrocraft.IsCooked(item)
 	return true
 end
 
+--TODO: remove, but take out of recipes first (only 2)
 function Recipe.OnCreate.Hydrocraft.MagicFoodRecipe(items, result, player)
 	local recipe = result:getModData()["Hydrocraft_RecipeName"]
 	print("Recipe: ", recipe)
