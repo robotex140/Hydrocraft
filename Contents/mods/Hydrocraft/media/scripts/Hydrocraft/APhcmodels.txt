@@ -5,6 +5,11 @@ module Hydrocraft
   Base
 }
 
+	model HC_Magnet_AP
+    {
+		mesh = Weapons/1Handed/HC_Magnet,
+		texture = Items/HC_Magnet,
+    }
 	model HC_Maraca_AP
     {
 		mesh = Weapons/1Handed/HC_Maracas_AP,
@@ -47,16 +52,27 @@ module Hydrocraft
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
+	
 	model WorldItem-HCAirFreshener
     {
 		mesh = WorldItems/WorldItem_HCAirFreshener,
 		texture = Items/HC_AirFreshener,
     }	
+	model WorldItem-HCBiohazardSign
+    {
+		mesh = WorldItems/WorldItem_HCKeepOutSign,
+		texture = Items/HC_BioHazardtSign,
+    }
 	model WorldItem-HCCinemaTicket
     {
 		mesh = WorldItems/WorldItem_HCMovieTicket,
 		texture = Items/HC_Movie_CinemaTicket,
-    }
+    }			
+	model WorldItem-HCDeflatedBalloon
+    {
+		mesh = WorldItems/WorldItem_HCDeflatedBalloon,
+		texture = Items/HC_BalloonTeal,
+    }	
 	model WorldItem-HCDriversLicense
     {
 		mesh = WorldItems/WorldItem_HCDriversLicense,
@@ -67,20 +83,45 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem_HCFloppyDisk,
 		texture = Items/HC_FloppyDisk_Blue,
     }
+	model WorldItem-HCFunnel
+    {
+		mesh = WorldItems/WorldItem_HCFunnel,
+		texture = Items/HC_BlueFunnel,
+    }	
+	model WorldItem-HCGlasses3D
+    {
+		mesh = WorldItems/WorldItem_HCGlasses_3D,
+		texture = Clothing/Glasses/HC_3DGlasses,
+    }	
 	model WorldItem-HCFloppyDiskFull
     {
 		mesh = WorldItems/WorldItem_HCFloppyDisk,
 		texture = Items/HC_FloppyDisk_Blue_Full,
     }
+	model WorldItem-HCHeliumTank
+    {
+		mesh = WorldItems/WorldItem_HCHeliumTank,
+		texture = Items/HC_HeliumTank,
+    }	
 	model WorldItem-HC_LavaLamp
     {
 		mesh = WorldItems/WorldItem_HCLavaLamp,
 		texture = Items/HC_LavaLamp,
+    }
+	model WorldItem-HCKeepOutSign
+    {
+		mesh = WorldItems/WorldItem_HCKeepOutSign,
+		texture = Items/HC_KeepoutSign,
     }	
 	model WorldItem-HCLicensePlate
     {
 		mesh = WorldItems/WorldItem_HCLicensePlate,
 		texture = Items/HC_LicencePlate,
+    }
+	model WorldItem-HCMagnet
+    {
+		mesh = WorldItems/WorldItem_HCMagnet,
+		texture = Items/HC_Magnet,
     }	
 	model WorldItem-HCMoney_BlankCheck
     {
@@ -127,6 +168,11 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem-HCMoney_Quarter,
 		texture = Items/Money_Quarter,
     }
+	model WorldItem-HCOxygenTank
+    {
+		mesh = WorldItems/WorldItem_HCHeliumTank,
+		texture = Items/HC_OxygenTank,
+    }	
 	model WorldItem-HCMoney_Penny
     {
 		mesh = WorldItems/WorldItem-HCMoney_Penny,
@@ -146,11 +192,22 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCMotorOil,
 		texture = Items/HC_MotorOil,
-    }	
-	model WorldItem-HCRoadFlare
+    }
+	model WorldItem-HCOvenMitt
+	{
+        mesh = WorldItems/OvenMitt,
+		texture = Items/HC_OvenMitt,
+        scale = 0.4,	
+	}
+	model WorldItem-HCPumpkinGreen
     {
-		mesh = WorldItems/WorldItem_HCRoadFlare,
-		texture = Items/HC_RoadFlare,
+		mesh = WorldItems/WorldItem_SmallPumpkin,
+		texture = Items/HC_PumpkinGreen,
+    }	
+	model WorldItem-HCPumpkinWhite
+    {
+		mesh = WorldItems/WorldItem_SmallPumpkin,
+		texture = Items/HC_PumpkinWhite,
     }		
 	model WorldItem-HCOffice_Ruler
     {
@@ -176,5 +233,21 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem-HCOffice_TriangleRuler,
 		texture = Items/HC_Office_Triangle,
+    }
+	model WorldItem-HCSoap
+	{
+		mesh = WorldItems/Soap,
+		texture = Items/HC_Soap,
+		scale = 0.6,
+	}
+	model WorldItem-HCTallow
+    {
+		mesh = WorldItems/WorldItem_HCTallow,
+		texture = Items/HC_Tallow,
+    }
+	model WorldItem-HCWeldingTank
+    {
+		mesh = WorldItems/WorldItem_HCWeldingTank,
+		texture = Items/HC_WeldingTank,
     }	
 }

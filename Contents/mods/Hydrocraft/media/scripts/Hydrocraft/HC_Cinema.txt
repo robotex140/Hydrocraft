@@ -37,22 +37,18 @@ item HCFilmcan
 	DisplayCategory          =   CraftMisc,
 	}
 
-item HCProjector
-	{
-	Weight			=	5.0,
-        Type			=	Normal,
-        DisplayName		=	Movie Projector,
-	Icon			=	HCProjector,
-	DisplayCategory          =   CraftElec,
-	}
-
 item HC3Dglasses
 	{
-	Weight			=	0.1,
-        Type			=	Normal,
-        DisplayName		=	3D Glasses,
-	Icon			=	HC3Dglasses,
-	DisplayCategory          =   Useless,
+	DisplayCategory          =   Accessory,	
+    Type					 =	 Clothing,
+    DisplayName				 =	 3D Glasses,
+	ClothingItem 			 = 	 Glasses_3Dglasses,	
+	BodyLocation 			 = 	 Eyes,	
+	Icon					 =	 HC3Dglasses,
+	Weight					 =	 0.05,	
+	ChanceToFall			 = 	 50,	
+	Cosmetic 				 = 	 TRUE,	
+	WorldStaticModel 		 = 	 WorldItem-HCGlasses3D,	
 	}
 
 /************************RECIPES************************/

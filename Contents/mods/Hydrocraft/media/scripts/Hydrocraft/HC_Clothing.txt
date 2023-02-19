@@ -44,37 +44,6 @@ item HCImprovisedhazmat
 		DisplayCategory		= ClothM,
     }
 
-
-
-item HCBootcombat
-	{
-		BodyLocation	=	Shoes,
-		Type		=	Clothing,
-		Temperature	=	4,
-		SpriteName	=	Shoes1,
-		DisplayName	=	Combat Boots,
-		Icon		=	HCBootcombat,
-		ConditionLowerChanceOneIn = 90000,
-        ConditionMax	=	10,
-        Insulation  	=  	1.0,
-		DisplayCategory	= ClothP,
-	}
-
-
-item HCBootriot
-	{
-		BodyLocation	=	Shoes,
-		Type		=	Clothing,
-		Temperature	=	4,
-		SpriteName	=	Shoes1,
-		DisplayName	=	Riot Boots,
-		Icon		=	HCBootriot,
-		ConditionLowerChanceOneIn = 90000,
-        ConditionMax	=	10,
-        Insulation  	=  	1.0,
-		DisplayCategory	= ClothP,
-	}
-
 item HCQuiver
 {
     DisplayCategory = Bag,

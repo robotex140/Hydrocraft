@@ -46,7 +46,7 @@ item HCDrillhand
 	UseDelta		=	0.125,
 	DisplayName		=	Hand Drill,
 	Icon			=	HCDrillhand,
-		DisplayCategory	= Tool,
+	DisplayCategory	= 	Tool,
     }
 
 item HCDrillcordless
@@ -80,11 +80,12 @@ item HCDrillcordlessdead
 
 item HCFunnel
     {
-        Weight			= 0.2,
-        Type    		= Normal,
-        DisplayName         	= Funnel,
-        icon 			= HCFunnel,
-		DisplayCategory	= Tool,
+		DisplayCategory	 = Tool,	
+		DisplayName      = Funnel,		
+        Type    		 = Normal,
+		Weight			 = 0.2,		
+        icon 			 = HCFunnel,
+		WorldStaticModel = WorldItem-HCFunnel,			
     }
 
 item HCMasontrowel
@@ -148,6 +149,7 @@ item HCWeldingtank
         DisplayName         	= Welding Gas Tank,
         icon 			= HCWeldingtank,
 		DisplayCategory	= CraftMetal,
+        WorldStaticModel = WorldItem-HCWeldingTank,		
     }
 
 item HCWeldingtankempty
@@ -157,6 +159,7 @@ item HCWeldingtankempty
         DisplayName         	= Empty Welding Gas Tank,
         icon 			= HCWeldingtank,
 		DisplayCategory	= CraftMetal,
+        WorldStaticModel = WorldItem-HCWeldingTank,			
     }
 
 item HCWeldingsetempty
@@ -166,6 +169,7 @@ item HCWeldingsetempty
         DisplayName         	= Welding Torch and Empty Gas Tank,
         icon 			= HCWeldingsetempty,
 		DisplayCategory	= CraftMetal,
+	
     }
 
 item HCWeldingset
@@ -186,7 +190,7 @@ item HCWeldingsetempty
         Type    		= Normal,
         DisplayName         	= Welding Torch and Empty Gas Tank,
         icon 			= HCWeldingsetempty,
-		DisplayCategory	= CraftMetal,
+		DisplayCategory	= CraftMetal,	
     }
 
 item HCBackscratcher

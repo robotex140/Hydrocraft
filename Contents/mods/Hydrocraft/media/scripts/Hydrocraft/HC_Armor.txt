@@ -202,17 +202,30 @@ item HCHelmbucket
 /************************Gloves************************/
 
 item HCOvenmitts
-    	{
-        Weight    		= 0.25,
-        Type    		= Normal,
-        DisplayName         	= Oven Mitts,
-        icon 			= HCOvenmitts,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothN,
-    	}
+    {
+        DisplayCategory 		= Accessory,
+		Type 					= Clothing,	
+        DisplayName         	= Oven Mitts,		
+		ClothingItem 			= HC_OvenMitts,
+		BodyLocation 			= Hands,
+		BloodLocation 			= Hands,		
+        Weight    				= 0.1,
+        Icon 					= HCOvenmitts,		
+		ScratchDefense 			= 10,
+        CombatSpeedModifier 	= 0.90,		
+        BiteDefense 			= 10,
+        Weight 					= 0.1,
+        Insulation 				= 1.0,
+        WindResistance 			= 1.0,
+        FabricType 				= Cotton,
+        WorldStaticModel 		= WorldItem-HCOvenMitt,
+		Tooltip 				= Tooltip_HCArmor,	
+	}		
+ 
 
 item HCWorkgloves
     {
+		DisplayCategory = Accessory,
         Type = Clothing,
         DisplayName = Work Gloves,
         ClothingItem = Gloves_LeatherGloves,
@@ -225,7 +238,7 @@ item HCWorkgloves
         Insulation = 0.75,
         WindResistance = 0.75,
         FabricType = Leather,
-		DisplayCategory          =   ClothP,
+        WorldStaticModel = Gloves_Ground,		
     }
 
 item HCGardengloves

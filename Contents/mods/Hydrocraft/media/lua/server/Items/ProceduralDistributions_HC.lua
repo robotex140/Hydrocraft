@@ -1181,7 +1181,7 @@ local bakery_items = {
         "Hydrocraft.HCPiepumpkin", 1,
         "Hydrocraft.HCPiecherry", 1,
         "Hydrocraft.HCPieblackberry", 1,
-        "Hydrocraft.HCBaquette", 1,
+
         "Hydrocraft.HCBisket", 1,
         "Hydrocraft.HCBreadloafbag", 1,
         "Hydrocraft.HCBurgerbunbag", 1,

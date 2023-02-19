@@ -70,6 +70,7 @@ item UmbrellaOpen
         DoorHitSound = UmbrellaHit,
         HitSound	=	UmbrellaHit,
         SwingSound = UmbrellaSwing,
+		AttachmentType = Umbrella,		
     }
 
 

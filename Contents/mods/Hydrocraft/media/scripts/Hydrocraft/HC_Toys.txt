@@ -248,13 +248,14 @@ item HCTennisballcontainer
 
 item HCEmptyballoon
     {
-        Weight    		= 0.1,
-	CanStoreWater		= TRUE,
-        Type    		= Normal,
-        DisplayName         	= Empty Balloon,
-	ReplaceOnUseOn		= WaterSource-HCWaterballoon,
+		DisplayCategory		= Toy,	
+        Type    			= Normal,
+		DisplayName         	= Empty Balloon,		
+        Weight    			= 0.1,
+		CanStoreWater		= TRUE,
+		ReplaceOnUseOn		= WaterSource-HCWaterballoon,
         icon 			= HCEmptyballoon,
-			DisplayCategory	= Toy,
+        WorldStaticModel = WorldItem-HCDeflatedBalloon,					
     }
 
 item HCWaterballoon
@@ -910,15 +911,6 @@ item HCCardgame1
         AttachmentType = Shovel,
 			DisplayCategory	= WepMelee,
     }
-
-
-
-
-
-
-
-
-
 
 	item HCWifflebat
 	{

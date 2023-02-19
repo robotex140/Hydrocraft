@@ -312,7 +312,7 @@ recipe Wash Clothing in Wash Tub
 
 recipe Wash Shoes
     {
-       	keep Shoes/HCRollerskates/HCFlipflops/HCBoots/HCBootcombat/HCBootconstruction/HCBootriot/HCBootcord/HCCleats/HCMexicanpointyshoes/HCLeatherboots,
+       	keep Shoes/HCRollerskates/HCFlipflops/HCBootconstruction/HCBootcord/HCCleats/HCMexicanpointyshoes/HCLeatherboots,
        	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
        	Water=3,
        	Result:Shoes,
@@ -327,7 +327,7 @@ recipe Wash Shoes
 recipe Wash Shoes in Wash Tub
     {
     	keep HCWashtubfull,
-       	keep Shoes/HCRollerskates/HCFlipflops/HCBoots/HCBootcombat/HCBootconstruction/HCBootriot/HCBootcord/HCCleats/HCMexicanpointyshoes/HCLeatherboots,
+       	keep Shoes/HCRollerskates/HCFlipflops/HCBootconstruction/HCBootcord/HCCleats/HCMexicanpointyshoes/HCLeatherboots,
        	Soap2/HCSoap/HCCleanerall/HCCleanerfabric/HCFabricsoftener/HCHandsoap/HCShampoo,
        	Water=3,
 	keep Sponge/HCLoofah/HCSponge/HCWashboard,

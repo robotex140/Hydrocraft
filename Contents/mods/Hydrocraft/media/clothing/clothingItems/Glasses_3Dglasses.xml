@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Glasses_3D.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Glasses_3D.FBX</m_FemaleModel>
+	<m_GUID>3ec845f8-516c-462f-b8d9-86b6002e2722</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>	
+	<textureChoices>clothing\Glasses\HC_3DGlasses</textureChoices>
+</clothingItem>

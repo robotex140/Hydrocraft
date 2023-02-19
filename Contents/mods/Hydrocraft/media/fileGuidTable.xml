@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fileGuidTable>
 	<files>
+		<path>media/clothing/clothingItems/Glasses_3Dglasses.xml</path>
+		<guid>3ec845f8-516c-462f-b8d9-86b6002e2722</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HC_OvenMitts.xml</path>
+		<guid>fddc6a50-5d8b-4319-b494-f67728fcab87</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/HCQuiver.xml</path>
 		<guid>a89952e4-3ce5-4229-bb75-1d71f4fdcc85</guid>
 	</files>

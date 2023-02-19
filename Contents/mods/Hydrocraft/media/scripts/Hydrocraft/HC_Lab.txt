@@ -10,11 +10,14 @@ module Hydrocraft
 
 item HCMagnet
 	{
-	Weight			=	0.1,
+	DisplayCategory          =   CraftChem,	
+	Weight			=	0.2,
 	Type			=	Normal,
 	DisplayName		=	Magnet,
 	Icon			=	HCMagnet,
-		DisplayCategory          =   CraftChem,
+	AttachmentType  = 	Hammer,
+	StaticModel      =  HC_Magnet_AP,
+    WorldStaticModel =  WorldItem-HCMagnet,		
 	}
 
 item HCChemicalbottleempty
@@ -532,11 +535,12 @@ item HCHydrogentankempty
 
 item HCHeliumtank
     {
-        Weight    		= 4,
+        Weight    		= 4.0026,
         Type    		= Normal,
         DisplayName         	= Helium Tank,
         icon 			= HCHeliumtank,
 		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHeliumTank,			
     }
 
 item HCHeliumtankempty
@@ -546,6 +550,7 @@ item HCHeliumtankempty
         DisplayName         	= Empty Helium Tank,
         icon 			= HCHeliumtank,
 		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHeliumTank,				
     }
 
 item HCOxygentank
@@ -555,6 +560,7 @@ item HCOxygentank
         DisplayName         	= Oxygen Tank,
         icon 			= HCOxygentank,
 		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCOxygenTank,
     }
 
 item HCOxygentankempty
@@ -564,6 +570,7 @@ item HCOxygentankempty
         DisplayName         	= Empty Oxygen Tank,
         icon 			= HCOxygentank,
 		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCOxygenTank,		
     }
 
 item HCHclgastank

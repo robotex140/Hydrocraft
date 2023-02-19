@@ -14,7 +14,8 @@ item HCRingsteel
         Type    		= Normal,
         DisplayName         	= Steel Ring,
         icon 			= HCRingsteel,
-		DisplayCategory	= CraftGem,
+	DisplayCategory	= CraftGem,
+        WorldStaticModel = Ring_Silver_Ground,
     } 
 
 /************************RECIPES************************/	

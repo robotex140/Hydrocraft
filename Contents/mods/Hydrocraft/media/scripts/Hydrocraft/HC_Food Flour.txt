@@ -558,26 +558,6 @@ item HCFlatbread
 		DisplayCategory		=   FoodP,
     }
 
-item HCBaquette
-    {
-    HungerChange			=	-40,
-    Weight				=	0.2,
-    Type				=	Food,
-    DaysTotallyRotten		=	20,
-    DaysFresh 			= 	14,
-    UnhappyChange			=	-10,
-	BoredomChange			=	-10,
-    DisplayName			=	Baguette,
-    Icon				=	HCBaquette,
-	FoodType    			=  	Bread,
-	EvolvedRecipe 			= 	Soup:10;Stew:10;Stir fry:10;Salad:10;Roasted Vegetables:10,
-	Carbohydrates 			= 	460,
-    Proteins 			= 	62,
-    Lipids 				= 	21,
-    Calories 			= 	3678,
-		DisplayCategory		=   FoodP,
-    }
-
 item HCBisket
     {
     HungerChange			=	-10,
