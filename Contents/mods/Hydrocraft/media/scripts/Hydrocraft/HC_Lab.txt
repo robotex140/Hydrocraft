@@ -934,7 +934,7 @@ recipe Make Test Tube Rack
 	Nails,
 	HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
     keep Hammer,
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
 	OnTest:HCNearCarpybench,
     CanBeDoneFromFloor:true,
    	Result:HCTesttuberack,

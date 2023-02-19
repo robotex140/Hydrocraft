@@ -1776,7 +1776,7 @@ module Hydrocraft
 
 	recipe Craft Crude Bat
 	{
-		keep Saw,
+		keep [Recipe.GetItemTypes.Saw],
 		Plank=3,
 		Woodglue/HCWoodgluejar/Glue/HCGluejar,
 		Twine/DuctTape,
@@ -1876,7 +1876,7 @@ module Hydrocraft
 
 	recipe Craft Homemade Bat
 	{
-		keep Saw,
+		keep [Recipe.GetItemTypes.Saw],
 		Plank=3,
 		Woodglue/HCWoodgluejar,
 		Woodglue/HCWoodgluejar,
@@ -2078,7 +2078,7 @@ module Hydrocraft
 
 	recipe Craft Crude Club
 	{
-		keep Saw,
+		keep [Recipe.GetItemTypes.Saw],
 		Plank=2,
 		Woodglue/HCWoodgluejar/Glue/HCGluejar,
 		Twine/DuctTape,
@@ -2175,7 +2175,7 @@ module Hydrocraft
 	recipe Craft Homemade Club
 	{
 		SkillRequired:Woodwork=4,
-		keep Saw,
+		keep [Recipe.GetItemTypes.Saw],
 		Plank=2,
 		Woodglue/HCWoodgluejar,
 		Woodglue/HCWoodgluejar,
@@ -2273,7 +2273,7 @@ module Hydrocraft
 	recipe Craft Club
 	{
 		SkillRequired:Woodwork=8,
-		keep Saw,
+		keep [Recipe.GetItemTypes.Saw],
 		keep Hammer,
 		keep Screwdriver,
 		Log,

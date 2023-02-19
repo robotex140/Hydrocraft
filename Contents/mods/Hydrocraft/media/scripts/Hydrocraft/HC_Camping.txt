@@ -599,7 +599,7 @@ recipe Detach Canteens
 
 recipe Craft Wooden Paddle
 	{
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
 	Plank=3,
 	Woodglue=3,
 	DuctTape=2,	

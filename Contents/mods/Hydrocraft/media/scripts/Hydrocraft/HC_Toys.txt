@@ -997,7 +997,7 @@ recipe Carve Toy Horse
     Screws=4,
     HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
     keep Hammer,
-    keep Saw,
+    keep [Recipe.GetItemTypes.Saw],
     keep Screwdriver,
 	keep [Recipe.GetItemTypes.SharpKnife],
     NeedToBeLearn:true,

@@ -198,7 +198,7 @@ recipe Make Wooden Windows
     	Nails=4,
 	HCGlasspane,
     	keep Hammer,
-    	keep Saw,
+    	keep [Recipe.GetItemTypes.Saw],
     	Sound:PZ_Hammer,
         Result:HCWindowswood,
    	Time:500,

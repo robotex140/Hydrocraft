@@ -325,7 +325,7 @@ recipe Make Christmas Tree
 	Plank=2,
 	Nails,
     keep Hammer,
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
    	Result:HCXmastree,
 	Sound:PZ_Hammer,
     Time:50,

@@ -134,7 +134,7 @@ recipe Shred Useless Circuit Board
 recipe Shred Useless Circuit Board
     {
     	HCCircuitboarduseless=3,
-        keep Saw,
+        keep [Recipe.GetItemTypes.Saw],
     	Result:HCCircuitboardpieces,
     	Time:100,
        	Category:Electrical,

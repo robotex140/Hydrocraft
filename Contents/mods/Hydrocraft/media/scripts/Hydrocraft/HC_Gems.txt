@@ -421,7 +421,7 @@ recipe Make Gem Cutter Wheel
 	HCWoodbeam,
 	HCStonewheel,
     	keep Hammer,
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
 	OnTest:HCNearCarpybench,
     	CanBeDoneFromFloor:true,
    	Result:HCGemcutter,

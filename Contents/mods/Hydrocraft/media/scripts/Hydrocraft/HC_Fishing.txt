@@ -441,7 +441,7 @@ recipe Decorate Pond
 	HCLumberstack,
 	Nails=10,
     	keep Hammer,
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
     	CanBeDoneFromFloor:true,
     	Result:HCPond2,
     	Time:1000,

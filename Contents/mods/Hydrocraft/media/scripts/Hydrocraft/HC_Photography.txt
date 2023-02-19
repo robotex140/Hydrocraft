@@ -103,7 +103,7 @@ recipe Make Photography Workbench
 	WoodenStick,
 	Nails,
 	keep Hammer,
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
 	[Recipe.GetItemTypes.Scissors],
         Result:HCPhotobench,
         CanBeDoneFromFloor:true,

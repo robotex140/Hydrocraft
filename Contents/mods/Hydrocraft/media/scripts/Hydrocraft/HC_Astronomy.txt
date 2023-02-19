@@ -134,7 +134,7 @@ recipe Build Star Chart Board
 	HCWoodbeam,
 	HCWoodsheet,
     	keep Hammer,
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
 	OnTest:HCNearCarpybench,
     	CanBeDoneFromFloor:true,
    	Result:HCStarchartboard,

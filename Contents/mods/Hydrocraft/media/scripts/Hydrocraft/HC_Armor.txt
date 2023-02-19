@@ -1571,7 +1571,7 @@ recipe Make Arm Guards
 	{
 	   	HCBamboo=2,
 		Rope,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorbamboo,
     		Sound:PZ_Saw,
@@ -1584,7 +1584,7 @@ recipe Make Arm Guards
 	{
 	   	Log,
 		Rope,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmorlog,
 		Sound:PZ_Saw,
@@ -1597,7 +1597,7 @@ recipe Make Arm Guards
 	{
 	   	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
 		Rope,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmarmortire,
 		Sound:PZ_Saw,
@@ -1798,7 +1798,7 @@ recipe Make Armor
 	{
 	   	HCBamboo=4,
 		Rope=2,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorbamboo,
     		Sound:PZ_Saw,
@@ -1811,7 +1811,7 @@ recipe Make Armor
 	{
 	   	Log=2,
 		Rope=2,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmorlog,
 		Sound:PZ_Saw,
@@ -1825,7 +1825,7 @@ recipe Make Armor
 	   	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
 		OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
 		Rope=2,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCArmortire,
 		Sound:PZ_Saw,
@@ -2045,7 +2045,7 @@ recipe Make Leg Guards
 	{
 	   	Log,
 		Rope,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmorlog,
 		Sound:PZ_Saw,
@@ -2058,7 +2058,7 @@ recipe Make Leg Guards
 	{
 	   	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
 		Rope,
-    		keep Saw,
+    		keep [Recipe.GetItemTypes.Saw],
     		CanBeDoneFromFloor:true,
 	   	Result:HCLegarmortire,
 		Sound:PZ_Saw,
@@ -2169,7 +2169,7 @@ recipe Make Shield
 		Plank=4,
 		Nails=4,
     		keep Hammer,
-		keep Saw,
+		keep [Recipe.GetItemTypes.Saw],
 	   	Result:HCShieldwood,
 	   	Time:150.0,
     		Sound:PZ_Hammer,

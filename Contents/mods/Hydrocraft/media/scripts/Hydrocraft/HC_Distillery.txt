@@ -508,7 +508,7 @@ recipe Build Distillery
 		keep [Recipe.GetItemTypes.WeldingMask],
 		keep HCWorkgloves/HCOvenmitts,
     		keep Hammer,
-		keep Saw,
+		keep [Recipe.GetItemTypes.Saw],
 		keep HCPipebender,
     		CanBeDoneFromFloor:true,
 		Result:HCDistillery,

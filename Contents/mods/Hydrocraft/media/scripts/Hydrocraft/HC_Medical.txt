@@ -1301,7 +1301,7 @@ recipe Make Crutch
 	Nails=2,
     	WoodenStick=3,
     	keep Hammer,
-	keep Saw,
+	keep [Recipe.GetItemTypes.Saw],
         NeedToBeLearn:true,
 	Result:HCCrutchmakeshift,
 	Time:50.0,

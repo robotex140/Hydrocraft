@@ -446,7 +446,7 @@ recipe Craft Axe Handle
 recipe Remove Axe Head
 	{
 	   	Axe,
-	   	keep Saw,
+	   	keep [Recipe.GetItemTypes.Saw],
 	   	Result:HCAxehead,
 	   	Time:150.0,
        		Category:Smithing,
@@ -468,7 +468,7 @@ recipe Craft Makeshift Axe
 recipe Remove Axe Head
 	{
 	   	HCMakeshiftaxe,
-	   	keep Saw,
+	   	keep [Recipe.GetItemTypes.Saw],
 	   	Result:HCAxeheadworn,
 	   	Time:150.0,
        		Category:Smithing,
@@ -490,7 +490,7 @@ recipe Craft Makeshift Axe
 recipe Remove Axe Head
 	{
 	   	HCMakeshiftaxeworn,
-	   	keep Saw,
+	   	keep [Recipe.GetItemTypes.Saw],
 	   	Result:HCAxeheadblunt,
 	   	Time:150.0,
        	Category:Smithing,

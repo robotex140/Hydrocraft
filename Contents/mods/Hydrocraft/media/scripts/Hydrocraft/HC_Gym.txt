@@ -148,7 +148,7 @@ recipe Weld Weight Bench
     keep [Recipe.GetItemTypes.WeldingMask],
     keep HCWorkgloves,
     keep Hammer,
-    keep Saw,
+    keep [Recipe.GetItemTypes.Saw],
     CanBeDoneFromFloor:true,
     Result:HCWeights,
     Sound:PZ_Hammer,
