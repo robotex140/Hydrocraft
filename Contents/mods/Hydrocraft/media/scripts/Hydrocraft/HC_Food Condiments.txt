@@ -366,10 +366,18 @@ item HCKetchup
 item HCSugarcubes
 	{
 	Weight 				= 	0.1,
-	Type 				= 	Drainable,
+	Type 				= 	Food,
 	DisplayName 			= 	Sugar Cubes,
-	UseDelta 			= 	0.2,
 	Icon 				= 	HCSugarcubes,
+	EvolvedRecipe = HotDrink:1;HotDrinkRed:1;HotDrinkWhite:1;HotDrinkSpiffo:1;HotDrinkTea:1;Toast:1;Oatmeal:1;Beverage:1;Beverage2:1,
+	Spice = true,
+	HungerChange = -8,
+	Calories = 100,
+	Carbohydrates = 30,
+	Lipids = 0,
+	Proteins = 0,
+	Tags = Sugar,
+	FoodType = Sugar,
 	DisplayCategory	= 	FoodS,
 	}
 

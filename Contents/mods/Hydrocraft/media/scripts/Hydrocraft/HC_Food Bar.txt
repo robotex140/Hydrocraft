@@ -2266,20 +2266,7 @@ recipe Mix Whiskey Sour
 	keep HCCocktailshaker/Spoon,
 	HCDrinkglassshortwhiskey,
 	HCLemonmixer;2,
-	Sugar;1,
-	Result:HCDrinkwhiskeysour,
-	NeedToBeLearn:true,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Mix Whiskey Sour
-	{
-	keep HCCocktailshaker/Spoon,
-	HCDrinkglassshortwhiskey,
-	HCLemonmixer;2,
-	HCSugarcubes;2,
+	[Recipe.GetItemTypes.Sugar];1,
 	Result:HCDrinkwhiskeysour,
 	NeedToBeLearn:true,
 	Time:50.0,
@@ -2722,19 +2709,7 @@ recipe Pack Beer
 		WhiskeyEmpty,
 		Salt;2,
 		Pepper;2,
-		HCHotsauce;2,
-		HCPopbottletomatojuice/HCWaterbottletomatojuice/HCRemouladetomatojuice/HCMayonnaisetomatojuice/HCWhiskeytomatojuice/HCClingmugtomatojuice,
-		Result 		: HCBloodymarymixer,
-		Time 		: 50.0,
-		Category:Cooking,
-	}
-	
-	recipe Make Bloody Mary Mixer
-	{	
-		WhiskeyEmpty,
-		Salt;2,
-		Pepper;2,
-		HCSriracha;2,
+		HCHotsauce/HCSriracha;2,
 		HCPopbottletomatojuice/HCWaterbottletomatojuice/HCRemouladetomatojuice/HCMayonnaisetomatojuice/HCWhiskeytomatojuice/HCClingmugtomatojuice,
 		Result 		: HCBloodymarymixer,
 		Time 		: 50.0,
