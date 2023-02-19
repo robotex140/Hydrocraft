@@ -2307,20 +2307,7 @@ recipe Mix Tom Collins
 	keep HCCocktailshaker/Spoon,
 	HCDrinkglasstallgin,
 	HCLemonmixer;2,
-	Sugar;1,
-	Result:HCDrinktomcollins,
-	NeedToBeLearn:true,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Mix Tom Collins
-	{
-	keep HCCocktailshaker/Spoon,
-	HCDrinkglasstallgin,
-	HCLemonmixer;2,
-	HCSugarcubes;2,
+	[Recipe.GetItemTypes.Sugar];1
 	Result:HCDrinktomcollins,
 	NeedToBeLearn:true,
 	Time:50.0,
@@ -2336,23 +2323,7 @@ recipe Mix Long Island Iced Tea
 	HCLemonmixer;2,
 	HCLimemixer;2,
 	HCTriplesec;1,
-	Sugar;1,
-	Result:HCDrinklongisland,
-	NeedToBeLearn:true,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Mix Long Island Iced Tea
-	{
-	keep HCCocktailshaker/Spoon,
-	HCDrinkglasstallvodka,
-	HCRum1;2,
-	HCLemonmixer;2,
-	HCLimemixer;2,
-	HCTriplesec;1,
-	HCSugarcubes;2,
+	[Recipe.GetItemTypes.Sugar];1
 	Result:HCDrinklongisland,
 	NeedToBeLearn:true,
 	Time:50.0,
@@ -2365,20 +2336,7 @@ recipe Mix Gimlet
 	keep HCCocktailshaker/Spoon,
 	HCDrinkcocktailglassgin,
 	HCLimemixer;2,
-	Sugar;1,
-	Result:HCDrinkgimlet,
-	NeedToBeLearn:true,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Mix Gimlet
-	{
-	keep HCCocktailshaker/Spoon,
-	HCDrinkcocktailglassgin,
-	HCLimemixer;2,
-	HCSugarcubes;2,
+	[Recipe.GetItemTypes.Sugar];1
 	Result:HCDrinkgimlet,
 	NeedToBeLearn:true,
 	Time:50.0,
@@ -2393,22 +2351,7 @@ recipe Mix Planter's Punch
 	HCDrinkglassshortrum,
 	HCBitters;1,
 	HCLemonmixer;2,
-	Sugar;1,
-	Result:HCDrinkplanterspunch,
-	NeedToBeLearn:true,
-	Time:50.0,
-	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Mix Planter's Punch
-	{
-	keep HCCocktailshaker/Spoon,
-	HCGlassshortempty,
-	HCDrinkglassshortrum,
-	HCBitters;1,
-	HCLemonmixer;2,
-	HCSugarcubes;2,
+	[Recipe.GetItemTypes.Sugar];1
 	Result:HCDrinkplanterspunch,
 	NeedToBeLearn:true,
 	Time:50.0,
