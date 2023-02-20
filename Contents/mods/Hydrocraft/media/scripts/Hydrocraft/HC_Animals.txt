@@ -1146,26 +1146,27 @@ item HCHorsepoopferal
     }
 
 item HCWoodenbucketmilk
-    {
-        HungerChange	    = -40,
-        Weight    			= 4.0,
-        Type    			= Food,
-        ThirstChange    	= -100,
-        DisplayName    		= Wooden Bucket with Milk,
-        Icon    			= HCWoodenbucketmilk,
-        DaysFresh           = 4,
-        DaysTotallyRotten   = 7,
-        CustomContextMenu   = Drink,
-        CustomEatSound      = DrinkingFromBottle,
-        FoodType    		= NoExplicit,
-        Carbohydrates 		= 52,
-        Proteins 			= 32,
-        Lipids 				= 10,
-        Calories 			= 440,
-        CantBeFrozen 		= TRUE,
-        ReplaceOnUse 		= HCWoodenbucket,
-		DisplayCategory          =   Cooking,
-    }
+	{
+		HungerChange		= -40,
+		Weight				= 4.0,
+		Type				= Food,
+		ThirstChange		= -100,
+		DisplayName			= Wooden Bucket with Milk,
+		Icon				= HCWoodenbucketmilk,
+		DaysFresh			= 4,
+		DaysTotallyRotten	= 7,
+		CustomContextMenu	= Drink,
+		CustomEatSound		= DrinkingFromBottle,
+		FoodType			= NoExplicit,
+		Carbohydrates		= 52,
+		Proteins			= 32,
+		Lipids				= 10,
+		Calories			= 440,
+		CantBeFrozen		= TRUE,
+		ReplaceOnUse		= HCWoodenbucket,
+		DisplayCategory		= Cooking,
+		Tags				= Milk,
+	}
 
 /**Container**/
 
