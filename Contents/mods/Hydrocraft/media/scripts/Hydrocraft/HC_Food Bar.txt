@@ -2173,7 +2173,7 @@ recipe Mix Old Fashioned
 		keep HCCocktailshaker/Spoon,
 		HCDrinkglassshortwhiskey,
 		HCBitters;1,
-		[Recipe.GetItemTypes.Sugar];1
+		[Recipe.GetItemTypes.Sugar];1,
 		HCSlicedorange,
 		Result 		: HCDrinkoldfashioned,
 		NeedToBeLearn:true,
@@ -2213,7 +2213,7 @@ recipe Mix Daquiri
 	keep HCCocktailshaker/Spoon,
 	HCDrinkcocktailglassrum,
 	HCLimemixer;2,
-	[Recipe.GetItemTypes.Sugar];1
+	[Recipe.GetItemTypes.Sugar];1,
 	HCSlicedlime,
 	Result:HCDrinkdaquiri,
 	NeedToBeLearn:true,
@@ -2252,7 +2252,7 @@ recipe Mix Mai Tai
 	keep HCCocktailshaker/Spoon,
 	HCDrinkglassshortrum,
 	HCLimemixer;2,
-	[Recipe.GetItemTypes.Sugar];1
+	[Recipe.GetItemTypes.Sugar];1,
 	HCTriplesec;1,
 	Result:HCDrinkmaitai,
 	NeedToBeLearn:true,
@@ -2280,7 +2280,7 @@ recipe Mix Tom Collins
 	keep HCCocktailshaker/Spoon,
 	HCDrinkglasstallgin,
 	HCLemonmixer;2,
-	[Recipe.GetItemTypes.Sugar];1
+	[Recipe.GetItemTypes.Sugar];1,
 	Result:HCDrinktomcollins,
 	NeedToBeLearn:true,
 	Time:50.0,
@@ -2296,7 +2296,7 @@ recipe Mix Long Island Iced Tea
 	HCLemonmixer;2,
 	HCLimemixer;2,
 	HCTriplesec;1,
-	[Recipe.GetItemTypes.Sugar];1
+	[Recipe.GetItemTypes.Sugar];1,
 	Result:HCDrinklongisland,
 	NeedToBeLearn:true,
 	Time:50.0,
@@ -2309,7 +2309,7 @@ recipe Mix Gimlet
 	keep HCCocktailshaker/Spoon,
 	HCDrinkcocktailglassgin,
 	HCLimemixer;2,
-	[Recipe.GetItemTypes.Sugar];1
+	[Recipe.GetItemTypes.Sugar];1,
 	Result:HCDrinkgimlet,
 	NeedToBeLearn:true,
 	Time:50.0,
@@ -2324,7 +2324,7 @@ recipe Mix Planter's Punch
 	HCDrinkglassshortrum,
 	HCBitters;1,
 	HCLemonmixer;2,
-	[Recipe.GetItemTypes.Sugar];1
+	[Recipe.GetItemTypes.Sugar];1,
 	Result:HCDrinkplanterspunch,
 	NeedToBeLearn:true,
 	Time:50.0,
