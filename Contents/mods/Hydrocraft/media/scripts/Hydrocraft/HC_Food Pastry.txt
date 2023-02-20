@@ -361,7 +361,7 @@ recipe Make Frosting
 	{
 	   	SkillRequired:Cooking=3,
 		Butter,
-		Milk,
+		[Recipe.GetItemTypes.Milk];5,
 	   	Sugar;2,
 		Bowl,
 		keep HCSpatula/HCWoodenspatula/Spatula,
@@ -393,7 +393,7 @@ recipe Make Fruit Cake Batter
 	    	HCDriedfruit=2,
 	    	[Recipe.GetItemTypes.Egg],
 	    	Yeast,
-	    	Milk,
+	    	[Recipe.GetItemTypes.Milk];5,
             	Bowl,
 	    	Result:HCFruitcakebatter,
 	    	NeedToBeLearn:true,

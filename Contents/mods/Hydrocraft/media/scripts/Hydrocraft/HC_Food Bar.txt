@@ -2371,7 +2371,7 @@ recipe Mix Margarita
 
 recipe Make Eggnog Pot
 	{
-		Milk,
+		[Recipe.GetItemTypes.Milk];10,
         [Recipe.GetItemTypes.Egg],
         WhiskeyFull;5,
         Pot,
@@ -2407,7 +2407,7 @@ recipe Make Eggnog Bottle
 
 recipe Make Monkey Tail Pot 
 	{
-	Milk,
+		[Recipe.GetItemTypes.Milk];10,
         Sugar=1, 
         HCAguaardiente,
         Coffee2,            

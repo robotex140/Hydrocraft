@@ -761,7 +761,7 @@ recipe Make Nacho Cheese
 	{
        	SkillRequired:Cooking=2,
        	Flour/HCRiceflour,
-       	Milk,
+       	[Recipe.GetItemTypes.Milk];5,
        	Butter,
 		HCGratedcheese/HCGratedcheddar/Processedcheese,
 		keep Bowl,

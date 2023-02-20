@@ -291,7 +291,7 @@ recipe Cook with Rice Cooker
 		destroy WaterPot,
 		Rice/HCRicebrown,
 		Sugar;1,
-		Milk/HCUHTmilk/HCSoymilk,
+		[Recipe.GetItemTypes.Milk];10,
 		Result:HCRicepuddingpot,
 		Time:95.0,
 		Category:Cooking,

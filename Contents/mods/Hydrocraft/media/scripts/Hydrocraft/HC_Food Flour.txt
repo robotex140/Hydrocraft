@@ -1260,7 +1260,7 @@ recipe Make Pumpkin Bread Dough
 		HCBreadpan,
 		Cornflour,
 		Butter,
-		Milk,
+		[Recipe.GetItemTypes.Milk];10,
 		Sugar;1,
 		Salt;1,
 		[Recipe.GetItemTypes.Egg],
