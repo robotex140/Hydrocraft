@@ -29,6 +29,7 @@ function getBurned(items, result, player)
 
 			if itemType == "HCWorkgloves"				then bodyProtection[1]=15;bodyProtection[2]=15;
 			elseif itemType == "HCGlovesHardLeather"	then bodyProtection[1]=20;bodyProtection[2]=20;
+			elseif itemType == "HCOvenmitts"			then bodyProtection[1]=25;bodyProtection[2]=25;
 			elseif itemType == "Jacket_Fireman"			then bodyProtection[3]=10;bodyProtection[4]=10;bodyProtection[5]=bodyProtection[5]+10;
 			elseif itemType == "HCBlacksmithapron"		then bodyProtection[5]=bodyProtection[5]+15;
 			elseif itemType == "Hat_Fireman" 			then bodyProtection[6]=bodyProtection[6]+10;
