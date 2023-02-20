@@ -498,7 +498,7 @@ recipe Make Smoker
 	keep HCPipebender,
         NeedToBeLearn:true,
     	CanBeDoneFromFloor:true,
-        Result:HCSmoker,
+        Result:HCSmokerfull,
         Time:1000,
 	Category:Engineer,
     	OnGiveXP:Recipe.OnGiveXP.None,
@@ -512,19 +512,7 @@ recipe Anchor Smoker
     Time:100,
     Category:Anchor,
     }
-   
-recipe Fill Smoker
-    {
-    	HCSmoker,
-    	Charcoal=8,
-	CanBeDoneFromFloor:true,
-        Result:HCSmokerfull,
-    	NeedToBeLearn:true, 
-        Time:500,
-	CanBeDoneFromFloor:true,
-    	Category:Engineer,
-    	OnGiveXP:HCCooking_OnGiveXP,
-    }
+  
 
 recipe Smoke Meat
     {
