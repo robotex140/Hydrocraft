@@ -109,13 +109,14 @@ item HCStrappedcanteenfull
 
 item HCMagnesiumstriker
 	{
-	Weight			=	0.3,
-	Type			=	Drainable,
-	UseDelta		=	0.00001,
-	UseWhileEquipped	=	FALSE,
-	DisplayName		=	Magnesium Striker,
-	Icon			=	HCMagnesiumstriker,
-		DisplayCategory          =   LightSource,
+		Weight			=	0.3,
+		Type			=	Drainable,
+		UseDelta		=	0.00001,
+		UseWhileEquipped	=	FALSE,
+		DisplayName		=	Magnesium Striker,
+		Icon			=	HCMagnesiumstriker,
+		DisplayCategory	=   LightSource,
+		Tags = StartFire,
 	}
 
 item HCPurifyingtablets

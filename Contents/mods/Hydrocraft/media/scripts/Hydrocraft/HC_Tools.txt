@@ -18,15 +18,16 @@ item HCBowdrillbow
     }
 
 item HCBowdrill
-    {
-	Weight			=	0.2,
-	Type			=	Drainable,
-	UseDelta		=	0.25,
-	DisplayName		=	Fire Bow Drill,
-	ReplaceOnDeplete	=	HCBowdrillbow,
-	Icon			=	HCBowdrill,
+	{
+		Weight			=	0.2,
+		Type			=	Drainable,
+		UseDelta		=	0.25,
+		DisplayName		=	Fire Bow Drill,
+		ReplaceOnDeplete	=	HCBowdrillbow,
+		Icon			=	HCBowdrill,
 		DisplayCategory	= Tool,
-    }
+		Tags = StartFire,
+	}
 
 item HCBowdrillflint
     {
