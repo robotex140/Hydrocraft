@@ -10,11 +10,12 @@ module Hydrocraft
 
 item HCMagic8ball
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Magic 8 Ball,
-        icon 			= HCMagic8ball,
-			DisplayCategory	= Toy,
+		DisplayCategory	 = Toy,	
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Magic 8 Ball,
+        icon 			 = HCMagic8ball,
+        WorldStaticModel = WorldItem-HCMagic8ball,			
     }
 
 item HCPacifier
@@ -250,12 +251,12 @@ item HCEmptyballoon
     {
 		DisplayCategory		= Toy,	
         Type    			= Normal,
-		DisplayName         	= Empty Balloon,		
+		DisplayName         = Empty Balloon,		
         Weight    			= 0.1,
 		CanStoreWater		= TRUE,
 		ReplaceOnUseOn		= WaterSource-HCWaterballoon,
-        icon 			= HCEmptyballoon,
-        WorldStaticModel = WorldItem-HCDeflatedBalloon,					
+        icon 				= HCEmptyballoon,
+        WorldStaticModel 	= WorldItem-HCDeflatedBalloon,					
     }
 
 item HCWaterballoon

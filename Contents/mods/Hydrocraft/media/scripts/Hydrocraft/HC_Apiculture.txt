@@ -172,11 +172,12 @@ item HCHoneycomb
 
 item HCBeehive
 	{
-	Weight 				= 3,
-	Type 				= Normal,
-	DisplayName 			= Wild Beehive,
-	Icon				= HCBeehive,
-	DisplayCategory          =   SurApi,
+	Weight 			 = 3,
+	Type 			 = Normal,
+	DisplayName 	 = Wild Beehive,
+	Icon			 = HCBeehive,
+	DisplayCategory  = SurApi,
+	WorldStaticModel = WorldItem-HCBeehive,		
 	}
 
 item HCBeehive3

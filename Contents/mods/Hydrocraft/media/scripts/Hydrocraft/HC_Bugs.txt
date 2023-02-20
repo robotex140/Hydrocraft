@@ -501,29 +501,32 @@ item HCSlugcooked
 
 item HCAntfarm
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Empty Ant Farm,
-        icon 			= HCAntfarm,
-		DisplayCategory	=   SurBug,
+		DisplayCategory	 = Household,
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Empty Ant Farm,
+        icon 			 = HCAntfarm,
+		WorldStaticModel = WorldItem-HCAntFarmEmpty,			
     }
 
 item HCAntfarmblack
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Black Ant Farm,
-        icon 			= HCAntfarm2,
-		DisplayCategory	=   SurBug,
+		DisplayCategory	 = SurBug,
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Black Ant Farm,
+        icon 			 = HCAntfarm2,
+		WorldStaticModel = WorldItem-HCAntFarmFull,		
     }
 
 item HCAntfarmred
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Red Ant Farm,
-        icon 			= HCAntfarm2,
-		DisplayCategory	=   SurBug,
+		DisplayCategory	 =   SurBug,
+        Weight    		 = 0.1,
+        Type    		 = Normal,
+        DisplayName      = Red Ant Farm,
+        icon 			 = HCAntfarm2,
+		WorldStaticModel = WorldItem-HCAntFarmFull,				
     }
 
 /************************RECIPES************************/

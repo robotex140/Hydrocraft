@@ -89,9 +89,6 @@ insertItemListsInProcDistribution( "ClassroomDesk", {   desk_items  } );
 insertItemListsInProcDistribution( "OfficeDesk", {   desk_items  } );
 insertItemListsInProcDistribution( "PoliceDesk", {   desk_items  } );
 
-
-
-
 -- local gigamart_tools_items = {
 --         "Hydrocraft.HCAuger", 15,
 --         "Hydrocraft.HCBatterysmall", 0.01,
@@ -1317,8 +1314,6 @@ insertItemListsInProcDistribution( "PostOfficeBoxes", {   postoffice_boxes_items
 ---------------------------------
 local bathroom_counter_items = {
         "Hydrocraft.HCFloss", 0.2,
-        --"Hydrocraft.HCPlunger", 0.2, --removed, vanilla plunger exists, no need to duplicate.
-        --"Hydrocraft.HCHairgel", 0.2,
         "Hydrocraft.HCHairdryer", 0.2,
         "Hydrocraft.HCElectrictoothbrush", 0.5,
         "Hydrocraft.HCElectricrazor", 0.5,
@@ -1444,7 +1439,7 @@ local medicalclinic_tools_items = {
         "Hydrocraft.HCPetridish", 5,
         "Hydrocraft.HCCrutch", 0.25,
         "Hydrocraft.HCCrutchaluminium", 2,
---        "Hydrocraft.HCOxygentank", 5,
+        "Hydrocraft.HCOxygentank", 5,
         "Hydrocraft.HCEphedrinebox", 5,
         "Hydrocraft.HCCaffeinebox", 2,
         "Hydrocraft.HCCoughsyrup", 5,
@@ -1762,6 +1757,8 @@ local shed_items = {
         "Hydrocraft.HCBirdfeeder", 1,
         "Hydrocraft.HCGardengloves", 1,
         "Hydrocraft.HCFile", 1,
+        "Hydrocraft.HCSignbiohazard", 1,
+        "Hydrocraft.HCSignkeepout", 1,
 
 };
 insertItemListsInProcDistribution( "CrateTools", {   shed_items  } );
@@ -1979,8 +1976,7 @@ local icecreamkitchen_freezer_items = {
 local theatrestorage_crate_items = {
 --         "Hydrocraft.HCMovieroll", 0.01,
 --         "Hydrocraft.HCFilmcan", 0.01,
---         "Hydrocraft.HCProjector", 0.01,
---         "Hydrocraft.HC3Dglasses", 0.01,
+         "Hydrocraft.HC3Dglasses", 0.01,
 }
 insertItemListsInProcDistribution( "TheatrePopcorn", {   theatrestorage_crate_items  } );
 insertItemListsInProcDistribution( "TheatreSnacks", {   theatrestorage_crate_items  } );
@@ -2011,7 +2007,6 @@ local garagestorage_items = {
         "Hydrocraft.HCAuger", 0.1,
         "Hydrocraft.HCLooper", 1,
         "Hydrocraft.HCElectrictape", 1,
-        --"Hydrocraft.HCGolfbag", 1, --removed, exists in vanilla
         "Hydrocraft.HCSteelpipe", 1,
         "Hydrocraft.HCCopperpipe", 1,
         "Hydrocraft.HCGardenhose", 1,
@@ -2796,7 +2791,9 @@ local Garageunits_RandomJunk_items = {
         "Hydrocraft.HCBoxphoto", 5,
         "Hydrocraft.HCPlasticbin", 5,
         "Hydrocraft.HCPlasticbin2", 5,
-        "Hydrocraft.HCBalloonbox", 1
+        "Hydrocraft.HCBalloonbox", 1,
+		"Hydrocraft.HCSignbiohazard", 1,
+        "Hydrocraft.HCSignkeepout", 1,
 };
 insertItemListsInProcDistribution( "CrateRandomJunk", {   Garageunits_RandomJunk_items  } );
 

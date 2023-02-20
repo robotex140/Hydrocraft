@@ -522,6 +522,7 @@ item HCHydrogentank
         DisplayName         	= Hydrogen Tank,
         icon 			= HCHydrogentank,
 		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHydrogenTank,		
     }
 
 item HCHydrogentankempty

@@ -58,7 +58,8 @@ item HCRoadflareon
 		Icon		=	HCRoadflareon,
         primaryAnimMask 		 = 	  HoldingUmbrellaRight,
         secondaryAnimMask 		 = 	  HoldingUmbrellaLeft,		
-        StaticModel 			 = 	  HC_RoadFlare_AP,	
+        StaticModel 			 = 	  HC_RoadFlare_AP,
+	    AttachmentType 			 = 	  Hammer,			
 		WorldStaticModel = WorldItem-HCRoadFlare,		
 	}
 

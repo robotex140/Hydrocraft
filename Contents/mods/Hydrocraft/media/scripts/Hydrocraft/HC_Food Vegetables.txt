@@ -269,6 +269,7 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	DisplayCategory          =   FoodP,
+	WorldStaticModel = Pumpkin_Ground,	
    }
 
    item HCPumpkinflesh
@@ -291,6 +292,7 @@ item HCSoyBeans
 
    item HCPumpkingreen
    {
+	DisplayCategory          =   FoodP,   
 	Type				=		Food,
 	DisplayName			=		Green Pumpkin,
 	Icon				=		HCPumpkingreen,
@@ -306,11 +308,12 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkingreenseeds,
-	DisplayCategory          =   FoodP,
+	WorldStaticModel = WorldItem-HCPumpkinGreen,	
    }
 
    item HCPumpkinwhite
    {
+    DisplayCategory          =   FoodP,
 	Type				=		Food,
 	DisplayName			=		White Pumpkin,
 	Icon				=		HCPumpkinwhite,
@@ -326,7 +329,7 @@ item HCSoyBeans
         Lipids 				= 		0.9,
         Calories 			=		234,
 	ReplaceOnUse			=		Hydrocraft.HCPumpkinwhiteseeds,
-	DisplayCategory          =   FoodP,
+	WorldStaticModel = WorldItem-HCPumpkinWhite,		
    }
 
    item HCPumpkinlarge
@@ -723,6 +726,29 @@ item HCTomatillo
 	DisplayCategory          =   FoodP,
     }
 
+<<<<<<< Updated upstream
+=======
+    item HCJalapeno
+	{
+	Type	        		=		Food,
+	HungerChange	        	=		-10,
+	Weight	        		=		0.2,
+	DaysFresh 			=		14,
+	DaysTotallyRotten 		=		28,
+        EvolvedRecipe       		=       	Soup:10;Stew:10;Pie:10;Stir fry:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10,
+        FoodType    			=   		Vegetables,
+	DisplayName			=		Jalapeno,
+	Icon	        		=		HCJalapeno,
+	CustomContextMenu 		= 		Eat,
+        Carbohydrates 			= 		6.0,
+        Proteins 			= 		0.8,
+        Lipids 				= 		0.3,
+        Calories 			=		26,
+	DisplayCategory          =   FoodP,
+		WorldStaticModel = PepperJalapeno_Ground,	
+	}
+
+>>>>>>> Stashed changes
     item HCSquashsummer
     {
         Type				=		Food,
