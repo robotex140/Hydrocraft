@@ -111,6 +111,21 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem_HCFloppyDisk,
 		texture = Items/HC_FloppyDisk_Blue_Full,
     }
+	model WorldItem-HCFishTank_Empty
+    {
+		mesh = WorldItems/WorldItem_HCFishTank_Empty,
+		texture = Items/HC_FishTank,
+    }
+	model WorldItem-HCFishTank_Full
+    {
+		mesh = WorldItems/WorldItem_HCFishTank_Full,
+		texture = Items/HC_FishTank,
+    }
+	model WorldItem-HCFishTank_Head
+    {
+		mesh = WorldItems/WorldItem_HCFishTank_Head,
+		texture = Items/HC_FishTankHead,
+    }	
 	model WorldItem-HCHeliumTank
     {
 		mesh = WorldItems/WorldItem_HCHeliumTank,

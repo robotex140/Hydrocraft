@@ -60,12 +60,21 @@ item HCHockeymask
 
 item HCHelmmotorcycle
 	{
-	Weight    		= 1.7,
-	Type    		= Normal,
-	DisplayName		= Motorcycle Helmet,
-	Icon			= HCHelmmotorcycle,
-	Tooltip 		= Tooltip_HCArmor,
-		DisplayCategory          =   ClothP,
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Motorcycle Helmet,
+		ClothingItem = HC_Helmetmotorcycle,
+		BodyLocation = FullHat,
+		Icon = HCHelmetmotorcycle,
+		BloodLocation = FullHelmet,
+		CanHaveHoles = false,
+		CombatSpeedModifier = 0.95,
+		BiteDefense = 100,
+        ScratchDefense = 100,
+        ChanceToFall = 0,
+        Insulation = 1.0,
+        WindResistance  = 1.0,
+		Tooltip 		= Tooltip_HCArmor,		
 	}
 
 item HCHelmkevlar

@@ -28,6 +28,8 @@ item HCTabletskinanimal
         /*TeachedRecipes 		=   	Skin Animal,*/
         ReplaceOnUse    	=   	HCTabletskinanimal,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 item HCTabletButcherCarcass
@@ -39,6 +41,8 @@ item HCTabletButcherCarcass
         TeachedRecipes      =  Butcher Carcass,
         ReplaceOnUse        =  HCTabletButcherCarcass,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 
@@ -51,6 +55,8 @@ item HCTabletberries
         TeachedRecipes 		=  Make Bunch of Berries,
         ReplaceOnUse    	=  HCTabletberries,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 item HCTabletshrooms
@@ -62,6 +68,8 @@ item HCTabletshrooms
         TeachedRecipes 		=   	Make Bunch of Mushrooms,
         ReplaceOnUse    	=   	HCTabletshrooms,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 item HCTabletbirchbarkbasket
@@ -73,6 +81,8 @@ item HCTabletbirchbarkbasket
         TeachedRecipes 		=   	Make Birch Bark Basket,
         ReplaceOnUse    	=   	HCTabletbirchbarkbasket,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 item HCTabletwickerbasket
@@ -84,6 +94,8 @@ item HCTabletwickerbasket
         TeachedRecipes 		=   	Make Wicker Basket,
         ReplaceOnUse    	=   	HCTabletwickerbasket,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 item HCTabletstrawbasket
@@ -95,6 +107,8 @@ item HCTabletstrawbasket
         TeachedRecipes 		=   	Make Straw Basket,
         ReplaceOnUse    	=   	HCTabletstrawbasket,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 item HCTabletsticktrap
@@ -106,6 +120,8 @@ item HCTabletsticktrap
         TeachedRecipes 		=   	Make Stick Trap,
         ReplaceOnUse    	=   	HCTabletsticktrap,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 
@@ -118,6 +134,8 @@ item HCTabletBoneNeedles
         TeachedRecipes      = Carve Knitting Needles;Craft Bone Needle,
         ReplaceOnUse        =  HCTabletBoneNeedles,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 item HCTabletDryingFrame
@@ -129,6 +147,8 @@ item HCTabletDryingFrame
         TeachedRecipes  = Make Drying Frame;Dry Hide,
         ReplaceOnUse    = HCTabletDryingFrame,
 		DisplayCategory	= LitR,
+        StaticModel	 = HCClaytabletwrittenOpen,
+		WorldStaticModel = HCClaytabletwritten,
     }
 
 

@@ -5,6 +5,10 @@
 		<guid>3ec845f8-516c-462f-b8d9-86b6002e2722</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/HC_Helmetmotorcycle.xml</path>
+		<guid>a1038da7-9eb5-4d2c-bcc6-92598fb31068</guid>
+	</files>	
+	<files>
 		<path>media/clothing/clothingItems/HC_OvenMitts.xml</path>
 		<guid>fddc6a50-5d8b-4319-b494-f67728fcab87</guid>
 	</files>

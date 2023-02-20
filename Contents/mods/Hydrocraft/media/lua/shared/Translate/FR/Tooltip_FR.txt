@@ -1,8 +1,10 @@
 Tooltip_FR = {
+------- Translated by Xianah -------
 	-- Item tooltip
-	Tooltip_HCArmor = "Appuyez sur P pour voir la liste des armures port�es",	
-	Tooltip_HCBluebarrelcorpse = "Cela va se transformer en d�chet toxiques",
-	Tooltip_HCFeedme = "A nourrir pour garder en vie",
-	Tooltip_HCSleep = "A poser sur le sol pour l'utiliser",
-
+	Tooltip_HCArmor = "Appuyez sur P pour voir la liste des armures portées",
+	Tooltip_HCBluebarrelcorpse = "Cela va se transformer en déchet toxiques.",
+	Tooltip_HCFeedme = "A nourrir pour garder en vie.",
+	Tooltip_HCSleep = "A poser sur le sol pour l'utiliser.",
+	HCFarming_Tooltip_UseFruitAsSeed = "Un fruit peut être utilisé en guise de graine.",
+	Tooltip_item_BonusLongbowReload = "Permet de recharger 50% plus rapiquement l'Arc long si équipé.",
 }

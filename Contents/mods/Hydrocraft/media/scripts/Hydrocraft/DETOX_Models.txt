@@ -1,6 +1,5 @@
 module Base
 {
-
   /************************ Blueprint ************************/
    model HCBlueprintOpen
   {
@@ -314,6 +313,472 @@ module Base
     mesh = WorldItems/HCComic,
     texture = WorldItems/01_MotorSport_Mag,
   }
-}
- 
+  /************************ Box ************************/
+  model BoxOfThings
+  {
+    mesh = WorldItems/BoxofThings,
+    texture = WorldItems/00_TextureBoxofthing,
+  }
+  /************************ Cook books & Tablets ************************/
+  model HCClaytabletwritten
+  {
+    mesh = WorldItems/HCClaytabletwritten,
+    texture = WorldItems/HCClaytabletwritten,
+  }
+  model HCClaytabletwrittenOpen
+  {
+    mesh = WorldItems/HCClaytabletwrittenOpen,
+    texture = WorldItems/HCClaytabletwritten,
+  }
+  model HCCookbook
+  {
+    mesh = WorldItems/HCCookBookGround,
+    texture = WorldItems/00_HCCookbook,
+  }
+  model HCCookbookOpen
+  {
+    mesh = WorldItems/HCCookbookOpen,
+    texture = WorldItems/00_HCCookbook,
+  }
+  /************************ Books ************************/
+  model HCBookmarked
+  {
+    mesh = WorldItems/HCBookmarked,
+    texture = WorldItems/00_Book_HCbookmark,
+  }
+  model HCBookend
+  {
+    mesh = WorldItems/HCBookend,
+    texture = WorldItems/00_Book_HCBookend_Texture,
+  }
+  model HCBookcover
+  {
+    mesh = WorldItems/HCBookcover,
+    texture = WorldItems/00_BookCover_Texture,
+  }
+  model HCBookPassport
+  {
+    mesh = WorldItems/HCBookPassport,
+    texture = WorldItems/00_Book_HCPassport_Texture,
+  }
+  model HCBookanarchistGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookanarchist_Texture,
+  }
+  model HCBookanarchistOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookanarchist_Texture,
+  }
+  model HCBookrocketryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookRockerty_Texture,
+  }
+  model HCBookrocketryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookRockerty_Texture,
+  }
+  model HCBookjunkGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookjunk_Texture,
+  }
+  model HCBookjunkOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookjunk_Texture,
+  }
+  model HCBookfishguideGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookfishing_Texture,
+  }
+  model HCBookfishguideOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookfishing_Texture,
+  }
+  model HCBookportuguiseGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookportuguise_Texture,
+  }
+  model HCBookportuguiseOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookportuguise_Texture,
+  }
+  model HCBookmammalguideGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookmammalguide_Texture,
+  }
+  model HCBookmammalguideOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookmammalguide_Texture,
+  }
+  model HCBooktailoringGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBooktailoring_Texture,
+  }
+  model HCBooktailoringOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBooktailoring_Texture,
+  }
+  model HCBookdistilleryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookdistillery_Texture,
+  }
+  model HCBookdistilleryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookdistillery_Texture,
+  }
+  model HCBookreptileguideGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookreptileguide_Texture,
+  }
+  model HCBookreptileguideOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookreptileguide_Texture,
+  }
+  model HCBookgardeningGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookgardening_Texture,
+  }
+  model HCBookgardeningOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookgardening_Texture,
+  }
+  model HCBookarcheryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookarchery_Texture,
+  }
+  model HCBookarcheryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookarchery_Texture,
+  }
+  model HCBookgeologyGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookgeology_Texture,
+  }
+  model HCBookgeologyOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookgeology_Texture,
+  }
+  model HCBookphoneGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookphone_Texture,
+  }
+  model HCBookphoneOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookphone_Texture,
+  }
+  model HCBookalgebraGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookalgebra_Texture,
+  }
+  model HCBookalgebraOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookalgebra_Texture,
+  }
+  model HCBookastronomyGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookastronomy_Texture,
+  }
+  model HCBookastronomyOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookastronomy_Texture,
+  }
+  model HCBookalmanacGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookalmanac_Texture,
+  }
+  model HCBookalmanacOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookalmanac_Texture,
+  }
+  model HCBookamericanhistoryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookamericanhistory_Texture,
+  }
+  model HCBookamericanhistoryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookamericanhistory_Texture,
+  }
+  model HCBookanimalhusbandryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookanimalhusbandry_Texture,
+  }
+  model HCBookanimalhusbandryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookanimalhusbandry_Texture,
+  }
+  model HCBookbedtimeGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookbedtime_Texture,
+  }
+  model HCBookbedtimeOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookbedtime_Texture,
+  }
+  model HCBookcalculusGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookcalculus_Texture,
+  }
+  model HCBookcalculusOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookcalculus_Texture,
+  }
+  model HCBookcelticGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookceltic_Texture,
+  }
+  model HCBookcelticOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookceltic_Texture,
+  }
+  model HCBookchemistryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookchemistry_Texture,
+  }
+  model HCBookchemistryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookchemistry_Texture,
+  }
+  model HCBookboneworkingGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookboneworking_Texture,
+  }
+  model HCBookboneworkingOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookboneworking_Texture,
+  }
+  model HCBookdictionaryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookdictionary_Texture,
+  }
+  model HCBookdictionaryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookdictionary_Texture,
+  }
+  model HCBookencyclopediaGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookencyclopedia_Texture,
+  }
+  model HCBookencyclopediaOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookencyclopedia_Texture,
+  }
+  model HCBookenglishGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookenglish_Texture,
+  }
+  model HCBookenglishOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookenglish_Texture,
+  }
+  model HCBookentomologyGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookentomology_Texture,
+  }
+  model HCBookentomologyOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookentomology_Texture,
+  }
+  model HCBookfairytaleGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookfairytale_Texture,
+  }
+  model HCBookfairytaleOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookfairytale_Texture,
+  }
+  model HCBookfrenchGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookfrench_Texture,
+  }
+  model HCBookfrenchOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookfrench_Texture,
+  }
+  model HCBookgenealogyGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookgenealogy_Texture,
+  }
+  model HCBookgenealogyOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookgenealogy_Texture,
+  }
+  model HCBookgeometryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookgeometry_Texture,
+  }
+  model HCBookgeometryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookgeometry_Texture,
+  }
+  model HCBookgermanGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookgerman_Texture,
+  }
+  model HCBookgermanOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookgerman_Texture,
+  }
+  model HCBookitalianGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookitalian_Texture,
+  }
+  model HCBookitalianOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookitalian_Texture,
+  }
+  model HCBookmathGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookmath_Texture,
+  }
+  model HCBookmathOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookmath_Texture,
+  }
+  model HCBookmedicalGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookmedical_Texture,
+  }
+  model HCBookmedicalOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookmedical_Texture,
+  }
+  model HCBookmusicGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookmusic_Texture,
+  }
+  model HCBookmusicOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookmusic_Texture,
+  }
+  model HCBookpaleontologyGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookpaleontology_Texture,
+  }
+  model HCBookpaleontologyOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookpaleontology_Texture,
+  }
+  model HCBookpoetryGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookpoetry_Texture,
+  }
+  model HCBookpoetryOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookpoetry_Texture,
+  }
+  model HCBookscrapGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookscrap_Texture,
+  }
+  model HCBookscrapOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookscrap_Texture,
+  }
+  model HCBookspanishGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookspanish_Texture,
+  }
+  model HCBookspanishOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookspanish_Texture,
+  }
+  model HCBookthesaurusGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBookthesaurus_Texture,
+  }
+  model HCBookthesaurusOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBookthesaurus_Texture,
+  }
+  model HCBooktreeguideGround
+  {
+    mesh = WorldItems/HCBookground,
+    texture = WorldItems/00_Book_HCBooktreeguide_Texture,
+  }
+  model HCBooktreeguideOpen
+  {
+    mesh = WorldItems/HCBookOpen,
+    texture = WorldItems/00_Book_HCBooktreeguide_Texture,
+  }
 }

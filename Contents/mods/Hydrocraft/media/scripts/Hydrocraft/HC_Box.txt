@@ -8,6 +8,8 @@ module Hydrocraft
 		Type				=	Normal,
 		DisplayName			=	Box of Things,
 		Icon				=	HCCardboardboxsealed,
+		StaticModel	 = BoxOfThings,
+        WorldStaticModel = BoxOfThings,
 	}
 
 	recipe Store 12 in a Box

@@ -155,12 +155,14 @@ item HCBinderclip
 
 item HCBookend
     {
-        Weight    		= 0.2,
-        Type    		= Normal,
-        DisplayName         	= Bookend,
-        icon 			= HCBookend,
-		DisplayCategory	= Useless,
-    }
+        DisplayCategory     = Household,	
+        Weight              = 0.2,
+        Type             	= Normal,
+        DisplayName         = Bookend,
+        icon             	= HCBookend,
+        StaticModel     	= HCBookmarked,
+        WorldStaticModel 	= HCBookmarked,
+    } 
 
 item HCClipboard
     {

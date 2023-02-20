@@ -219,40 +219,42 @@ item HCFishbowlfull
 	}
 item HCFishtank
 	{
-	Weight    			= 	2,
-	CanStoreWater		= 	TRUE,
-	Type    			= 	Normal,
+	DisplayCategory		=   AnimalMisc,
 	DisplayName         = 	Fish Tank,
-	ReplaceOnUseOn		= 	WaterSource-HCFishtankfull,
+	Type    			= 	Normal,
+	Weight    			= 	2,
 	icon 				= 	HCFishtank,
+	CanStoreWater		= 	TRUE,
+	ReplaceOnUseOn		= 	WaterSource-HCFishtankfull,
 	RainFactor 			= 	1,
-		DisplayCategory		=   AnimalMisc,
+	WorldStaticModel 	=	WorldItem-HCFishTank_Empty,		
 	}
 
 item HCFishtankfull
 	{
+	DisplayCategory		=   AnimalMisc,
+	DisplayName			=	Fish Tank with Water,
+	Type				=	Drainable,
+	Icon				=	HCFishtankfull,
 	IsWaterSource		=	TRUE,
 	Weight				=	6,
 	CanStoreWater		=	TRUE,
-	Type				=	Drainable,
 	UseWhileEquipped	=	FALSE,
 	UseDelta			=	0.0125,
-	DisplayName			=	Fish Tank with Water,
 	ReplaceOnDeplete	=	HCFishtank,
 	ReplaceOnUseOn		=	WaterSource-HCFishtankfull,
-	Icon				=	HCFishtankfull,
 	RainFactor 			= 	1,
-		DisplayCategory		=   AnimalMisc,
+	WorldStaticModel 	=	WorldItem-HCFishTank_Full,	
 	}
 
 item HCZedtank
 	{
-	Weight			=	7,
-	Type			=	Normal,
-	DisplayName		=	Fish Tank with Head,
-	Icon			=	HCZedtank,
-		DisplayCategory		=   AnimalMisc,
-	
+	DisplayCategory		=   AnimalMisc,
+	Type				=	Normal,
+	DisplayName			=	Fish Tank with Head,
+	Icon				=	HCZedtank,
+	Weight				=	7,	
+	WorldStaticModel 	=	WorldItem-HCFishTank_Head,	
 	}
 item HCCatlitter
 	{

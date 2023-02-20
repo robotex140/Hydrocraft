@@ -60,6 +60,8 @@ item HCBlueprintducttapefletching
         TeachedRecipes 		=   	Make Duct Tape Fletching,
         ReplaceOnUse    	=   	HCBlueprintducttapefletching,
 		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
     }
 
 item HCBlueprintbonearrowhead
@@ -85,6 +87,8 @@ item HCBlueprintfishingrod
         TeachedRecipes 		=   	Make Fishing Rod;Fix Fishing Rod,
         ReplaceOnUse    	=   	HCBlueprintfishingrod,
 		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
     }
 
 item HCBlueprintfishingnet
@@ -109,6 +113,8 @@ item HCBlueprinttrapcrate
         TeachedRecipes 		=   	Make Wooden Cage Trap,
         ReplaceOnUse    	=   	HCBlueprinttrapcrate,
 		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
     }
 
 item HCBlueprinttrapstick
@@ -159,6 +165,8 @@ item HCBlueprinttrapcage
         TeachedRecipes 		=   	Make Cage Trap,
         ReplaceOnUse    	=   	HCBlueprinttrapcage,
 		DisplayCategory          =   LitR,
+        StaticModel = HCBlueprintOpen,
+        WorldStaticModel = HCBlueprintClosed,
     }
 
 item HCBlueprintmousetrap
@@ -579,8 +587,8 @@ item HCCookbookMethanol
         TeachedRecipes  =   Prepare Barrel of Lemon Mash;Distill Methanol,
         ReplaceOnUse    =   HCCookbookMethanol,
 		DisplayCategory          =   LitR,
-		StaticModel = HCBlueprintOpen,
-        WorldStaticModel = HCBlueprintClosed,
+		StaticModel	 = Book,
+		WorldStaticModel = HCCookbook,
     }
 
 item HCknittingTextBook
@@ -592,8 +600,8 @@ item HCknittingTextBook
         TeachedRecipes  =   Knit Long Wool Socks;Knit Scarf;Knit Balaclava;Knit Wool Sweater;Knit Thick Wool Sweater,
         ReplaceOnUse    =   HCknittingTextBook,
 		DisplayCategory          =   LitR,
-		StaticModel = HCBlueprintOpen,
-        WorldStaticModel = HCBlueprintClosed,
+		StaticModel	 = Book,
+		WorldStaticModel = HCCookbook,
     }
 
 
@@ -606,8 +614,8 @@ item HCSilkworkingTextbook
         TeachedRecipes  =   Make Long Silk Undies,
         ReplaceOnUse    =   HCSilkworkingTextbook,
 		DisplayCategory          =   LitR,
-		StaticModel = HCBlueprintOpen,
-        WorldStaticModel = HCBlueprintClosed,
+		StaticModel	 = Book,
+		WorldStaticModel = HCCookbook,
     }
 
 

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\m_crashhelmetfull</m_MaleModel>
+	<m_FemaleModel>static\clothes\f_crashhelmetfull</m_FemaleModel>
+	<m_GUID>a1038da7-9eb5-4d2c-bcc6-92598fb31068</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>nohairnobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothing\Hats\MotorcycleHelmetGreen</textureChoices>	
+</clothingItem>

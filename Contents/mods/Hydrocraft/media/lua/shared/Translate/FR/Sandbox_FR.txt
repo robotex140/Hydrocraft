@@ -1,27 +1,24 @@
 Sandbox_FR = {
-	Sandbox_Hydrocraft = "Hydrocraft"
-
-	Sandbox_Hydrocraft_Spawn_Guns = "Faire apparaître des canons Hydrocraft ?"
-	
-	Sandbox_Hydrocraft_Spawn_Book_Covers = "Produire des couvertures de livre ?"
-	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "Donner des couvertures de livre lorsque vous enlevez la couverture d'un livre ? (Article inutile)"
-
-	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Mégots de cigarettes?"
-	
-	Sandbox_Hydrocraft_Burn_Damage = "Dégâts de brûlure de forge",
-	Sandbox_Hydrocraft_Burn_Damage_tooltip = "Modifie les dégâts de brûlure subis lors de l'utilisation du four, de la fonderie, du haut fourneau et du four industriel."
-	Sandbox_Hydrocraft_Burn_Damage_option1 = "Complet (par défaut)"
-	Sandbox_Hydrocraft_Burn_Damage_option2 = "Demie"
-	Sandbox_Hydrocraft_Burn_Damage_option3 = "Aucune"
-
-	Sandbox_Hydrocraft_Animal_Starvation = "Famine animale",
-	Sandbox_Hydrocraft_Animal_Starvation_tooltip = "Les animaux de la ferme peuvent-ils mourir de faim ?"
-	Sandbox_Hydrocraft_Animal_Starvation_option1 = "Oui (par défaut)"
-	Sandbox_Hydrocraft_Animal_Starvation_option2 = "Non"
-
-	Sandbox_Hydrocraft_Zombie_Loot = "Niveau de butin zombie",
-	Sandbox_Hydrocraft_Zombie_Loot_tooltip = "Modifie la quantité de butin sur les zombies morts. Cela n'a pas d'impact sur le butin vanille, juste le butin "supplémentaire" ajouté par Hydrocraft (qui comprend des objets vanille)."
-	Sandbox_Hydrocraft_Zombie_Loot_option1 = "Normale (par défaut)"
-	Sandbox_Hydrocraft_Zombie_Loot_option2 = "Meugler"
-	Sandbox_Hydrocraft_Zombie_Loot_option3 = "Très Lent"	
+------- Translated by Xianah -------
+Sandbox_Hydrocraft = "Hydrocraft",
+Sandbox_Hydrocraft_Spawn_Guns = "Faire apparaître les armes à feu Hydrocraft ?",
+Sandbox_Hydrocraft_Spawn_Book_Covers = "Faire apparaître les couvertures de livre ?",
+Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "Fait appraître des couvertures de livres lorsque vous les enlevez de ceux-ci.",
+Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Produire des mégots de cigarettes ?",
+Sandbox_Hydrocraft_Show_Damage_On_Hit = "Afficher les dégâts",
+Sandbox_Hydrocraft_Low_Condition_Weapons_On_Zombies = "Armes en mauvais état sur les Zombies",
+Sandbox_Hydrocraft_Burn_Damage = "Dégâts de brûlure liés à la forge",
+Sandbox_Hydrocraft_Burn_Damage_tooltip = "Modifie les dégâts de brûlure subis lors de l'utilisation du four, de la fonderie, du haut fourneau et du four industriel.",
+Sandbox_Hydrocraft_Burn_Damage_option1 = "Maximal (par défaut)",
+Sandbox_Hydrocraft_Burn_Damage_option2 = "Réduit de moitié",
+Sandbox_Hydrocraft_Burn_Damage_option3 = "Aucun",
+Sandbox_Hydrocraft_Animal_Starvation = "Famine animale",
+Sandbox_Hydrocraft_Animal_Starvation_tooltip = "Détermine si les animaux peuvent mourir de faim.",
+Sandbox_Hydrocraft_Animal_Starvation_option1 = "Oui (par défaut)",
+Sandbox_Hydrocraft_Animal_Starvation_option2 = "Non",
+Sandbox_Hydrocraft_Zombie_Loot = "Quantité de butin des zombies",
+Sandbox_Hydrocraft_Zombie_Loot_tooltip = "Modifie la quantité de butin sur les zombies morts. Cela n'a pas d'impact sur le butin Vanilla, juste le butin supplémentaire ajouté par Hydrocraft (qui comprend des objets Vanilla).",
+Sandbox_Hydrocraft_Zombie_Loot_option1 = "Normale (par défaut)",
+Sandbox_Hydrocraft_Zombie_Loot_option2 = "Basse",
+Sandbox_Hydrocraft_Zombie_Loot_option3 = "Très basse",
 }
