@@ -220,6 +220,7 @@ end
 --Checks all of the loot table exists, so at fails safely if the loot table doesn't exist.
 function insertItemListsInDistributionSafely(location, container, itemDistList )
 	if Distributions and Distributions[1] and Distributions[1][location] and Distributions[1][location][container] and Distributions[1][location][container]["items"] then
+		local dist = Distributions[1][location][container]["items"]
 		for idx, itemDist in ipairs(itemDistList) do
 			for i=1,#itemDist do 
 				table.insert(dist, itemDist[i] )
