@@ -13,49 +13,49 @@ local HCWoodFish = {};
 HCWoodFish.item = "HCLurewoodfish";
 HCWoodFish.plastic = true;
 HCWoodFish.chanceOfBreak = 1;
-Fishing.lure["HCWoodfish"] = HCWoodFish;
+Fishing.lure["HCLurewoodfish"] = HCWoodFish;
 HCAddLure("HCLurewoodfish");
 
 local HCFeatherFly = {};
 HCFeatherFly.item = "HCLurefeatherfly";
 HCFeatherFly.plastic = true;
 HCFeatherFly.chanceOfBreak = 1;
-Fishing.lure["HCFeatherFly"] = HCFeatherFly;
+Fishing.lure["HCLurefeatherfly"] = HCFeatherFly;
 HCAddLure("HCLurefeatherfly");
 
 local HCPinecone = {};
 HCPinecone.item = "HCLurepinecone";
 HCPinecone.plastic = true;
 HCPinecone.chanceOfBreak = 1;
-Fishing.lure["HCPinecone"] = HCPinecone;
+Fishing.lure["HCLurepinecone"] = HCPinecone;
 HCAddLure("HCLurepinecone");
 
 local HCBirchbark = {};
 HCBirchbark.item = "HCLurebirchbark";
 HCBirchbark.plastic = true;
 HCBirchbark.chanceOfBreak = 1;
-Fishing.lure["HCBirchbark"] = HCBirchbark;
+Fishing.lure["HCLurebirchbark"] = HCBirchbark;
 HCAddLure("HCLurebirchbark");
 
 local HCStick = {};
 HCStick.item = "HCLurestick";
 HCStick.plastic = true;
 HCStick.chanceOfBreak = 1;
-Fishing.lure["HCStick"] = HCStick;
+Fishing.lure["HCLurestick"] = HCStick;
 HCAddLure("HCLurestick");
 
 local HCGarland = {};
 HCGarland.item = "HCLuregarland";
 HCGarland.plastic = true;
 HCGarland.chanceOfBreak = 1;
-Fishing.lure["HCGarland"] = HCGarland;
+Fishing.lure["HCLuregarland"] = HCGarland;
 HCAddLure("HCLuregarland");
 
 local HCIntestine = {};
 HCIntestine.item = "HCIntestines";
 HCIntestine.plastic = false;
 HCIntestine.chanceOfBreak = 15;
-Fishing.lure["HCIntestine"] = HCIntestine;
+Fishing.lure["HCIntestines"] = HCIntestine;
 HCAddLure("HCIntestines");
 
 local HCLeech = {};
