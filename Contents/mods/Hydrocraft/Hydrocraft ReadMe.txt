@@ -4,7 +4,7 @@ Credits
 
 Coders - arrukus, BrokenMnemonic, Daantje, DemolitionDerby, Flamester, Hydromancerx, IanSchot, JackMods, Man_In_The_Purple_Hat, Minnigin, MisterInSayne, New Wise Man, UngratefulDead, Yossitaru, YuriNikolai, Hasilein, Hugo_Qwerty, Robotex140, The Semen Demon, BananaLumps, Reifel
 
-Artists - Atoxwarrior, Batura, billwa, Crowborn, Cyrrent Eiledoll, DeadlyStr1ke, Filthy Mollie, fluffe9911, Fuji, Hydromancerx, IanSchot, Kaltag, Kittysong, Leliana, Man_In_The_Purple_Hat, Minnigin, New Wise Man, Nitengal, ORMtnMan, Rampage132003, Rhodix, Scyoni, Sparrow, StalkerCZ, Svarog, UngratefulDead, WolfeClaw, YuriNikolai, Zombadger, Trynaeat
+Artists - Atoxwarrior, Batura, billwa, Crowborn, Cyrrent Eiledoll, DeadlyStr1ke, Filthy Mollie, fluffe9911, Fuji, Hydromancerx, IanSchot, Kaltag, Kittysong, Leliana, Man_In_The_Purple_Hat, Minnigin, New Wise Man, Nitengal, ORMtnMan, Rampage132003, Rhodix, Scyoni, Sparrow, StalkerCZ, Svarog, UngratefulDead, WolfeClaw, YuriNikolai, Zombadger, Trynaeat, Dモイロㄨ, AuthenticPeach
 
 Included Parts from the following Mods
 - Advanced Trading Post Mod By Nolan
