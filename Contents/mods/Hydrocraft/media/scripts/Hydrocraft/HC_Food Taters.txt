@@ -243,7 +243,8 @@ module Hydrocraft
 	}
 
 /************************RECIPES************************/
-  
+
+	/*DO NOT RENAME - unless you also edit the code in the Lua function in OnCreate*/
 	recipe Bake Potato
 	{
 		keep BakingTray,
@@ -253,37 +254,42 @@ module Hydrocraft
 		Time:55.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
-		OnCreate: Hydrocraft.OnCreate.BakePotato,
+		OnCreate:Hydrocraft.OnCreate.BakePotato,
 	}
-  
+
+	/*Note: if you edit this recipe to add partial ingredients, e.g. OilVegetable;1 then a custon OnCreate function will be required.  -Hugo.*/
 	recipe Make Hashbrowns
 	{
 		SkillRequired:Cooking=2,
 		keep Pan,
 		keep HCCheesegrater,
 		keep HCPotatopeeler,
-		Potato/HCPotatogolden/HCPotatored,
+		[Recipe.GetItemTypes.Potato],
 		Result:HCHashbrowns,
 		Time:50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Hydrocraft.OnCreate.GenericFood,
 	}	
 
+	/*DO NOT RENAME - unless you also edit the code in the Lua function in OnCreate*/
 	recipe Make Potato Pancakes
 	{
 		SkillRequired:Cooking=2,
 		keep Pan,
-		Butter/HCCookingoil,
+		HCCookingoil/OilVegetable/HCCookingoiljar/Butter;1,
 		HCMashedpotatosplain,
 		Result:HCPotatopancakes,
 		Time:50.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Hydrocraft.OnCreate.MakePotatoPancakes,
 	}
 
-	recipe Make Plain Mashed Potatos
+	/*DO NOT RENAME - unless you also edit the code in the Lua function in OnCreate*/
+	recipe Make Plain Mashed Potatoes
 	{
-		Potato=2,
+		[Recipe.GetItemTypes.Potato]=2,
 		keep HCPotatopeeler,
 		Pot,
 		Water=2,
@@ -292,39 +298,14 @@ module Hydrocraft
 		Time:75.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Hydrocraft.OnCreate.MakePlainMashedPotatoes,
 	}
 
-	recipe Make Plain Mashed Potatos
-	{
-		HCPotatogolden=2,
-		keep HCPotatopeeler,
-		Pot,
-		Water=2,
-		keep HCPotatomasher,
-		Result:HCMashedpotatosplain,
-		Time:75.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-
-	recipe Make Plain Mashed Potatos
-	{
-		HCPotatored=2,
-		keep HCPotatopeeler,
-		Pot,
-		Water=2,
-		keep HCPotatomasher,
-		Result:HCMashedpotatosplain,
-		Time:75.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-	recipe Make Creamy Mashed Potatos
+	/*DO NOT RENAME - unless you also edit the code in the Lua function in OnCreate*/
+	recipe Make Creamy Mashed Potatoes
 	{
 		SkillRequired:Cooking=1,
-		Potato=2,
+		[Recipe.GetItemTypes.Potato]=2,
 		keep HCPotatopeeler,
 		Pot,
 		Butter/HCCookingoil/OilVegetable/HCCookingoiljar;1,
@@ -333,35 +314,8 @@ module Hydrocraft
 		Time:75.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Hydrocraft.OnCreate.MakeCreamyMashedPotatoes,
 	}	
-
-	recipe Make Creamy Mashed Potatos
-	{
-		SkillRequired:Cooking=1,
-		HCPotatogolden=2,
-		keep HCPotatopeeler,
-		Pot,
-		Butter/HCCookingoil/OilVegetable/HCCookingoiljar;1,
-		keep HCPotatomasher,
-		Result:HCMashedpotatoscreamy,
-		Time:75.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}	
-
-	recipe Make Creamy Mashed Potatos
-	{
-		SkillRequired:Cooking=1,
-		HCPotatored=2,
-		keep HCPotatopeeler,
-		Pot,
-		Butter/HCCookingoil/OilVegetable/HCCookingoiljar;1,
-		keep HCPotatomasher,
-		Result:HCMashedpotatoscreamy,
-		Time:75.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}
 		
 	recipe Make Bowl of Plain Mashed Potatos
 	{
@@ -383,7 +337,7 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-	/*DO NOT RENAME - unless you also edit the Hydrocraft_RecipeName in HCFries (above)*/
+	/*DO NOT RENAME - unless you also edit the code in the Lua function Hydrocraft.OnCreate.MakeFrenchFries*/
 	recipe Make French Fries
 	{
 		SkillRequired:Cooking=2,
