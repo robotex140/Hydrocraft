@@ -76,6 +76,11 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem_HCKeepOutSign,
 		texture = Items/HC_BioHazardtSign,
     }
+	model WorldItem-HCBowlingball
+    {
+		mesh = WorldItems/WorldItem_HCBowlingball,
+		texture = Items/HC_Bowlingball,
+    }	
 	model WorldItem-HCCinemaTicket
     {
 		mesh = WorldItems/WorldItem_HCMovieTicket,
@@ -267,6 +272,11 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem-HCOffice_StickyNotePad,
 		texture = Items/HC_Office_StickyNote,
     }
+	model WorldItem-HCOffice_Thumbtack
+    {
+		mesh = WorldItems/WorldItem-HC_Thumbtack,
+		texture = Items/HC_Thumbtack,
+    }	
 	model WorldItem-HCOffice_Triangle
     {
 		mesh = WorldItems/WorldItem-HCOffice_TriangleRuler,

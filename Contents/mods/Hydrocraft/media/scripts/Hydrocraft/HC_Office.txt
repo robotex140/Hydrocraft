@@ -184,11 +184,12 @@ item HCWhiteout
 
 item HCThumbtack
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Thumbtack,
-        icon 			= HCThumbtack,
-		DisplayCategory	= Misc,
+		DisplayCategory	 = Household,
+        Type    		 = Normal,		
+        Weight    		 = 0.05,
+        DisplayName      = Thumbtack,
+        icon 			 = HCThumbtack,
+		WorldStaticModel = WorldItem-HCOffice_Thumbtack,		
     }
 
 item HCHighlighter

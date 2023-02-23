@@ -204,11 +204,12 @@ item HCWiffleball
 
 item HCBowlingball
     {
-	Weight			=	14,
+	DisplayCategory	= Sports,
 	Type			=	Normal,
-	DisplayName		=	Bowling Ball,
+	DisplayName		=	Bowling Ball,	
+	Weight			=	14,
 	Icon			=	HCBowlingball,
-			DisplayCategory	= Toy,
+	WorldStaticModel = WorldItem-HCBowlingball,	
    }
 
 item HCBowlingpin
