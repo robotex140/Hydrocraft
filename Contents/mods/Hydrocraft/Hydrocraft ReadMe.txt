@@ -50,7 +50,7 @@ Included Parts from the following Mods
 
 Translations
 - Chinese - By Sky_Orc_Mm
-- French - By Klare, Darkweeeeeeeed, Kitsune Alias Nana
+- French - By Klare, Darkweeeeeeeed, Kitsune Alias Nana, Xianah
 - German - TheSoulrester
 - Italian - By Woldren
 - Korean - By DocJason
