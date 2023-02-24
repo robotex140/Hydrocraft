@@ -545,7 +545,7 @@ recipe Anchor Smelter
 recipe Make Bellows
     {
     	HCClaypipe,
-    	destroy HCTongswood,
+    	destroy HCWoodenTongs,
     	HCWaterflask,
     	Result:Bellows,
     	NeedToBeLearn:true,
