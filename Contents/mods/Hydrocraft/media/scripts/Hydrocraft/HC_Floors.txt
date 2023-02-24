@@ -119,7 +119,7 @@ recipe Make new Floor
     {
     SkillRequired:Woodwork=3,
     Nails,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     keep [Recipe.GetItemTypes.Saw],
     Result:HCNewfloor,
     Sound:PZ_Hammer,
@@ -136,7 +136,7 @@ recipe Make Finewood Floor
 	SkillRequired:Woodwork=3,
     	HCPlankoil,
 	Nails,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
     	Result:HCFinewoodfloor,
     	Sound:PZ_Hammer,

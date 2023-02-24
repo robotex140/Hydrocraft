@@ -144,7 +144,7 @@ recipe Shred Useless Circuit Board
 recipe Recycle Wooden Crate
     {
     	HCWoodencrate,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
     	Result:Plank=2,
     	Time:100,
     	Category:Carpentry,

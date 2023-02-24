@@ -98,7 +98,7 @@ recipe Fill Bag With Rice Hull Charcoal
 recipe Build Compost Bin
     {
     	SkillRequired:Woodwork=5;Farming=5;,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
     	Nails=2,
     	Plank=2,
     	Worm=5,

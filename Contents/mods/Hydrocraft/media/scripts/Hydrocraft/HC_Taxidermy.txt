@@ -126,7 +126,7 @@ recipe Make Taxidermy Workbench
         HCBookanatomy,
         HCBookmammalguide,
 	Nails,
-	keep Hammer,
+	keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
         Result:HCTaxidermyworkbench,
         CanBeDoneFromFloor:true,

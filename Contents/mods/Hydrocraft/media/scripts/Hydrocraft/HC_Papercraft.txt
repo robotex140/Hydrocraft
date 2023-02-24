@@ -165,7 +165,7 @@ recipe Make Paper Screen
 	HCNetting,
     WoodenStick=4,
 	Nails=2,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
 	OnTest:HCNearCarpybench,
     CanBeDoneFromFloor:true,
    	Result:HCPaperscreen,

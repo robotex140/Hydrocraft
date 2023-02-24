@@ -322,7 +322,7 @@ item HCWaterheater
 recipe Make Small Junkyard
     {
        	keep Shovel/Shovel2,
-       	keep Hammer,
+       	keep [Recipe.GetItemTypes.Hammer],
        	Nails=3,
        	Plank=3,
        	Result:HCJunkyardsmallempty,
@@ -361,7 +361,7 @@ recipe Upgrade To Medium Junkyard
        	keep Shovel/Shovel2,
        	HCSteelrod=3,
        	HCChickenwire=8,
-       	keep Hammer,
+       	keep [Recipe.GetItemTypes.Hammer],
        	CanBeDoneFromFloor:true,
        	Result:HCJunkyardmediumempty,
        	Time:750,
@@ -435,7 +435,7 @@ recipe Upgrade To Large Junkyard
        	HCChain,
        	HCMagnetgiant,
        	HCCablecopper=4,
-       	keep Hammer,
+       	keep [Recipe.GetItemTypes.Hammer],
     	keep HCWorkgloves/HCOvenmitts,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,

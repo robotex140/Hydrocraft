@@ -197,7 +197,7 @@ recipe Make Wooden Windows
     	Plank=4,
     	Nails=4,
 	HCGlasspane,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
     	keep [Recipe.GetItemTypes.Saw],
     	Sound:PZ_Hammer,
         Result:HCWindowswood,

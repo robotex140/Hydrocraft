@@ -657,7 +657,7 @@ recipe Make Herbalist Table
         MortarPestle,
 	    HCClayjarsmall=2,
 	    HCTablewood,
-        keep Hammer,
+        keep [Recipe.GetItemTypes.Hammer],
 	    keep [Recipe.GetItemTypes.Saw],
 	    OnTest:HCNearCarpybench,
         CanBeDoneFromFloor:true,

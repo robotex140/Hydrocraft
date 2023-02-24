@@ -2177,7 +2177,7 @@ recipe Make Shield
 	{
 		Plank=4,
 		Nails=4,
-    		keep Hammer,
+    		keep [Recipe.GetItemTypes.Hammer],
 		keep [Recipe.GetItemTypes.Saw],
 	   	Result:HCShieldwood,
 	   	Time:150.0,

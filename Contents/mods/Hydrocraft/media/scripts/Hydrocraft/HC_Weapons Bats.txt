@@ -1792,7 +1792,7 @@ module Hydrocraft
 	{
 	   HCHomemadebatcrude,
 	   Nails,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 	   Result:HCHomemadebatcrudenails,
 	   Time:150.0,
    	   Category:Carpentry,
@@ -1804,7 +1804,7 @@ module Hydrocraft
 	{
 	   HCHomemadebatcrude,
 	   BarbedWire,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadebatcrudebarbedwire,
 	   Time:150.0,
@@ -1817,7 +1817,7 @@ module Hydrocraft
 	{
 	   HCHomemadebatcrude,
 	   Screws=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadebatcrudescrews,
 	   Time:150.0,
@@ -1830,7 +1830,7 @@ module Hydrocraft
 	{
 	   HCHomemadebatcrude,
 	   camping.TentPeg=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadebatcrudetentpegs,
 	   Time:150.0,
@@ -1894,7 +1894,7 @@ module Hydrocraft
 	{
 	   HCHomemadebat,
 	   Nails,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadebatnails,
 	   Time:150.0,
@@ -1906,7 +1906,7 @@ module Hydrocraft
 	{
 	   HCHomemadebat,
 	   BarbedWire,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadebatbarbedwire,
 	   Time:150.0,
@@ -1918,7 +1918,7 @@ module Hydrocraft
 	{
 	   HCHomemadebat,
 	   Screws=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadebatscrews,
 	   Time:150.0,
@@ -1930,7 +1930,7 @@ module Hydrocraft
 	{
 	   HCHomemadebat,
 	   camping.TentPeg=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadebattentpegs,
 	   Time:150.0,
@@ -1980,7 +1980,7 @@ module Hydrocraft
 	{
 		SkillRequired:Woodwork=8,
 		keep [Recipe.GetItemTypes.Saw],
-		keep Hammer,
+		keep [Recipe.GetItemTypes.Hammer],
 		keep Screwdriver,
 		Log/HCOakLog,
 		Result:BaseballBat,
@@ -1993,7 +1993,7 @@ module Hydrocraft
 	{
 	   BaseballBat,
 	   BarbedWire,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCBaseballbatbarbedwire,
 	   Sound:PZ_Hammer,
@@ -2006,7 +2006,7 @@ module Hydrocraft
 	{
 	   BaseballBat,
 	   Screws=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCBaseballbatscrews,
 	   Sound:PZ_Hammer,
@@ -2019,7 +2019,7 @@ module Hydrocraft
 	{
 	   BaseballBat,
 	   camping.TentPeg=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCBaseballbattentpegs,
 	   Sound:PZ_Hammer,
@@ -2093,7 +2093,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclubcrude,
 	   Nails,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 	   Result:HCHomemadeclubcrudenails,
 	   Time:150.0,
    	   Category:Carpentry,
@@ -2104,7 +2104,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclubcrude,
 	   BarbedWire,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadeclubcrudebarbedwire,
 	   Time:150.0,
@@ -2116,7 +2116,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclubcrude,
 	   Screws=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadeclubcrudescrews,
 	   Time:150.0,
@@ -2128,7 +2128,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclubcrude,
 	   camping.TentPeg=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadeclubcrudetentpegs,
 	   Time:150.0,
@@ -2190,7 +2190,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclub,
 	   Nails,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadeclubnails,
 	   Time:150.0,
@@ -2202,7 +2202,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclub,
 	   BarbedWire,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadeclubbarbedwire,
 	   Time:150.0,
@@ -2214,7 +2214,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclub,
 	   Screws=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadeclubscrews,
 	   Time:150.0,
@@ -2226,7 +2226,7 @@ module Hydrocraft
 	{
 	   HCHomemadeclub,
 	   camping.TentPeg=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCHomemadeclubtentpegs,
 	   Time:150.0,
@@ -2274,7 +2274,7 @@ module Hydrocraft
 	{
 		SkillRequired:Woodwork=8,
 		keep [Recipe.GetItemTypes.Saw],
-		keep Hammer,
+		keep [Recipe.GetItemTypes.Hammer],
 		keep Screwdriver,
 		Log,
 		Result:HCMasterclub,
@@ -2287,7 +2287,7 @@ module Hydrocraft
 	{
 	   HCMasterclub,
 	   Nails,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCMasterclubnails,
 	   Time:150.0,
@@ -2299,7 +2299,7 @@ module Hydrocraft
 	{
 	   HCMasterclub,
 	   BarbedWire,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCMasterclubbarbedwire,
 	   Time:150.0,
@@ -2311,7 +2311,7 @@ module Hydrocraft
 	{
 	   HCMasterclub,
 	   Screws=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCMasterclubscrews,
 	   Time:150.0,
@@ -2323,7 +2323,7 @@ module Hydrocraft
 	{
 	   HCMasterclub,
 	   camping.TentPeg=10,
-	   keep Hammer,
+	   keep [Recipe.GetItemTypes.Hammer],
 
 	   Result:HCMasterclubtentpegs,
 	   Time:150.0,

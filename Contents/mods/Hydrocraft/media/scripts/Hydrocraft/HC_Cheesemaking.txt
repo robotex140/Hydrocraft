@@ -356,7 +356,7 @@ recipe Make Cheese Tray
     	Plank,
     	Nails,
     	keep [Recipe.GetItemTypes.Saw],
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
     	Result:HCCheesetray,
     	SkillRequired:Woodwork=1,
     	Sound:PZ_Hammer,
@@ -369,7 +369,7 @@ recipe Make Cheese Rack
     {
 	Plank=6,
 	Nails=4,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
 	OnTest:HCNearCarpybench,
     	CanBeDoneFromFloor:true,

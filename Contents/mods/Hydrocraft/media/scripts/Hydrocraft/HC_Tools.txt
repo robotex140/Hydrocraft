@@ -1219,7 +1219,7 @@ recipe Make Nail Gun Ammo (100)
 
 recipe Revert Nail Gun Ammo (100)
 {
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     HCNailgunammobox,
     Result:NailsBox,
     Time:1500,

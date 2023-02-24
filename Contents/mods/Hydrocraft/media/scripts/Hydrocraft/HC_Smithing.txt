@@ -2376,7 +2376,7 @@ recipe Make Copper Cooling Rack
 		HCWeldingset,
 		keep [Recipe.GetItemTypes.WeldingMask],
 		keep HCWorkgloves/HCOvenmitts,
-    		keep Hammer,
+    		keep [Recipe.GetItemTypes.Hammer],
 		keep HCPipebender,
 		Result:HCPipefridge,
 		NeedToBeLearn:true,

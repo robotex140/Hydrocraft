@@ -1300,7 +1300,7 @@ recipe Make Crutch
 	Twine,
 	Nails=2,
     	WoodenStick=3,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
         NeedToBeLearn:true,
 	Result:HCCrutchmakeshift,

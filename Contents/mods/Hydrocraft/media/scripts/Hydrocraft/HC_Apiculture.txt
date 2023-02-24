@@ -260,7 +260,7 @@ recipe Build Beehive
        HCWoodshingles=4,
        HCBowdrillflint/HCDrillhand/HCDrillcordlesspowered/HCElectricmultitooldrillpowered,
 	   HCBeehive,
-       keep Hammer,
+       keep [Recipe.GetItemTypes.Hammer],
        keep [Recipe.GetItemTypes.Saw],
 	   OnTest:HCNearCarpybench,
        CanBeDoneFromFloor:true,

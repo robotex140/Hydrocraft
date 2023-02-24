@@ -263,7 +263,7 @@ recipe Attempt to Crack Safe Open
 	keep MetalSafeComboClosed/MetalSafeClosed,
 	keep HCStethoscope,
 	keep Crowbar,
-	keep Hammer,
+	keep [Recipe.GetItemTypes.Hammer],
 	keep Screwdriver,
 	HCElectricmultitooldrillpowered,
         HCWeldingset,

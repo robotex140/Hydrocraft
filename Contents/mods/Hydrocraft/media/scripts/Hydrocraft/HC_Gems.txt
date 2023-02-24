@@ -420,7 +420,7 @@ recipe Make Gem Cutter Wheel
 	Nails=8,
 	HCWoodbeam,
 	HCStonewheel,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
 	OnTest:HCNearCarpybench,
     	CanBeDoneFromFloor:true,

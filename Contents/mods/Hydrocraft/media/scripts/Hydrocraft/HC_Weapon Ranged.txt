@@ -689,7 +689,7 @@ recipe Make Quiver
 recipe Make Longbow Mag 
     {
     OnTest:HCNearCarpybench,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     keep [Recipe.GetItemTypes.Saw],
     keep Screwdriver,
     keep HCMeasuringtape,
@@ -710,7 +710,7 @@ recipe Make Longbow Mag
 recipe Upgrade Longbow 
     {
     OnTest:HCNearCarpybench,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
     keep [Recipe.GetItemTypes.Saw],
     keep Screwdriver,
     keep HCMeasuringtape,

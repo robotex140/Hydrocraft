@@ -440,7 +440,7 @@ recipe Decorate Pond
     	Stone=20,
 	HCLumberstack,
 	Nails=10,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
     	CanBeDoneFromFloor:true,
     	Result:HCPond2,

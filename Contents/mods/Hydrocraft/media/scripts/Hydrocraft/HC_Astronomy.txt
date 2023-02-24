@@ -133,7 +133,7 @@ recipe Build Star Chart Board
 	Plank=2,
 	HCWoodbeam,
 	HCWoodsheet,
-    	keep Hammer,
+    	keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
 	OnTest:HCNearCarpybench,
     	CanBeDoneFromFloor:true,

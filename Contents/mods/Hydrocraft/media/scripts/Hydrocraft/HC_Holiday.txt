@@ -324,7 +324,7 @@ recipe Make Christmas Tree
 	Log=2,
 	Plank=2,
 	Nails,
-    keep Hammer,
+    keep [Recipe.GetItemTypes.Hammer],
 	keep [Recipe.GetItemTypes.Saw],
    	Result:HCXmastree,
 	Sound:PZ_Hammer,
