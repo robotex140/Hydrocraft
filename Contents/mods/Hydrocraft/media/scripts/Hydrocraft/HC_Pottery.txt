@@ -1321,22 +1321,7 @@ recipe Make Porcelain Vase
 
 recipe Make Spindle Head
     {
-    HCGreyclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCSpindlehead,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Spindle Head
-    {
-    HCRedclay,
+    HCGreyclay/HCRedclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1351,22 +1336,7 @@ recipe Make Spindle Head
 
 recipe Make Clay Oil Lamp
     {
-    HCGreyclay=4,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClayoillamp,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Oil Lamp
-    {
-    HCRedclay=4,
+    HCGreyclay/HCRedclay=4,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
