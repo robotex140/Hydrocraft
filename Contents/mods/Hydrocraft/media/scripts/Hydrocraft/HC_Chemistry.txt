@@ -1572,7 +1572,7 @@ recipe Dry Ammonal
 recipe Cook Ammonal
     {
         HCAmmonaltray,
-        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        [Recipe.GetItemTypes.StartFire],
         Charcoal,
         OnTest:HCNearKiln,
         CanBeDoneFromFloor:true,
@@ -1716,7 +1716,7 @@ recipe Make Glycerin
         HCTallow=4,
         HCCheesecloth,
         Charcoal,
-        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        [Recipe.GetItemTypes.StartFire],
         Water,
         keep HCClaycauldron/HCCauldroniron,
         CanBeDoneFromFloor:true,
@@ -1825,7 +1825,7 @@ recipe Make Calcium Oxide
     {
         HCChalkrock=2,
         Charcoal,
-        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        [Recipe.GetItemTypes.StartFire],
         OnTest:HCNearKiln,
         CanBeDoneFromFloor:true,
         Result:HCCalciumoxidpowder=4,

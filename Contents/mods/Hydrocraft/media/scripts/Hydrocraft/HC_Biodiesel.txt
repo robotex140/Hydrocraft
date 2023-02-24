@@ -102,7 +102,7 @@ recipe Cook Pot of Vegtable Oil
         {
                 HCPotvegoil,
                 Charcoal,
-                Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+                [Recipe.GetItemTypes.StartFire],
     		keep HCWorkgloves/HCOvenmitts,
                 OnTest:HCNearKiln,
                 CanBeDoneFromFloor:true,

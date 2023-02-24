@@ -24,7 +24,7 @@ recipe Make Steel Ring
     {
     HCSteelingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCRingmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,

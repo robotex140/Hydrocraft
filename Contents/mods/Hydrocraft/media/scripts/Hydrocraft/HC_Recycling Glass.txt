@@ -12,7 +12,7 @@ recipe Recycle Glass
     {
     WhiskeyEmpty=3,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -30,7 +30,7 @@ recipe Recycle Glass
     {
     WineEmpty=3,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -48,7 +48,7 @@ recipe Recycle Glass
     {
     WineEmpty2=3,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -66,7 +66,7 @@ recipe Recycle Glass
     {
     EmptyJar=5,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -86,7 +86,7 @@ recipe Recycle Glass
     {
     HCFishtank,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -105,7 +105,7 @@ recipe Recycle Glass
     {
     LightBulb=10,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -125,7 +125,7 @@ recipe Recycle Glass
     {
     FrontWindow1/FrontWindow2/FrontWindow3/RearWindow1/RearWindow2/RearWindow3,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -143,7 +143,7 @@ recipe Recycle Glass
     {
     Windshield1/Windshield2/Windshield3/RearWindshield1/RearWindshield2/RearWindshield3,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold=2,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,

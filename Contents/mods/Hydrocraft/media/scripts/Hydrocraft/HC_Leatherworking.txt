@@ -1845,7 +1845,7 @@ recipe Make Camo Leather
     {
     keep HCClaycauldron/HCCauldroniron,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCLeather,
     HCGreenpigment=4,
     Vinegar=2,
@@ -1878,7 +1878,7 @@ recipe Make Hardened Leather
     {
     keep HCClaycauldron/HCCauldroniron,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCLeather=3,
     HCBeeswax=2,
     Water,
@@ -1894,7 +1894,7 @@ recipe Make Hardened Leather
     {
     keep HCClaycauldron/HCCauldroniron,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCLeather=3,
     HCCandleberrywax=2,
     Result:HCLeatherhard,

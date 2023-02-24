@@ -241,7 +241,7 @@ recipe Create Glass from Sand
     {
     Sandbag,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold=2,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -259,7 +259,7 @@ recipe Create Glass from Sand
     {
     HCWoodenbucketsand,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold=2,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -278,7 +278,7 @@ recipe Create Glass Pane
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -296,7 +296,7 @@ recipe Create Large Glass Pane
     {
     HCGlassingot=2,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -314,7 +314,7 @@ recipe Create Conical Flask
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -332,7 +332,7 @@ recipe Create Glass Buchner Flask
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -350,7 +350,7 @@ recipe Create Glass Florence Flask
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -368,7 +368,7 @@ recipe Create Glass Retort Flask
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -386,7 +386,7 @@ recipe Create Glass Beaker
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -404,7 +404,7 @@ recipe Create Glass Bong
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -422,7 +422,7 @@ recipe Create Empty Jar
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -440,7 +440,7 @@ recipe Create Empty Spice Jars
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -460,7 +460,7 @@ recipe Create Empty Glass Bottle
     HCBrownpigment,
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -478,7 +478,7 @@ recipe Create Empty Whiskey Bottle
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -496,7 +496,7 @@ recipe Create Glass Jug
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -515,7 +515,7 @@ recipe Create Empty Wine Bottle
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -533,7 +533,7 @@ recipe Create Glass Graduated Cylinder
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -551,7 +551,7 @@ recipe Create Glass Test Tubes
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -569,7 +569,7 @@ recipe Create Large Glass Balloon
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -587,7 +587,7 @@ recipe Create Glass Connector
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -605,7 +605,7 @@ recipe Create Glass Pipe
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -623,7 +623,7 @@ recipe Create Glass Elbow Pipe
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -641,7 +641,7 @@ recipe Create Glass Cooler
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -659,7 +659,7 @@ recipe Create Glass Funnel
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -677,7 +677,7 @@ recipe Create Wine Glasses
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -695,7 +695,7 @@ recipe Create Beer Glasses
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -713,7 +713,7 @@ recipe Create Measuring Cup
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -732,7 +732,7 @@ recipe Create Eye Dropper
     HCGlassingot,
     HCRubber,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -751,7 +751,7 @@ recipe Create Thermometer
     HCGlassingot,
     HCCinnabar,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -770,7 +770,7 @@ recipe Create Empty Salt Shaker
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -788,7 +788,7 @@ recipe Create Petri Dishes
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCGlasscutter,
     keep HCIronblowpipe,
@@ -807,7 +807,7 @@ recipe Create Microscope Slides
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCGlasscutter,
     keep HCIronblowpipe,
@@ -826,7 +826,7 @@ recipe Create Glass Animal Eyes
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -844,7 +844,7 @@ recipe Create Glass Marbles
     {
     HCGlassingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCIronblowpipe,
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -864,7 +864,7 @@ recipe Create Empty Ink Well
     {
 		HCGlassingot,
 		Charcoal,
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		[Recipe.GetItemTypes.StartFire],
 		[Recipe.GetItemTypes.BlacksmithTongs],
 		keep HCIronblowpipe,
 		keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,

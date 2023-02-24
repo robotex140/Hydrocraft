@@ -490,7 +490,7 @@ recipe Make Copper Gears
     {
     HCCopperingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCGearmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
@@ -508,7 +508,7 @@ recipe Make Tin Gears
     {
     HCTiningot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCGearmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
@@ -526,7 +526,7 @@ recipe Make Bronze Gears
     {
     HCBronzeingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCGearmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
@@ -544,7 +544,7 @@ recipe Make Iron Gears
     {
     HCIroningot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCGearmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
@@ -562,7 +562,7 @@ recipe Make Invar Gears
     {
     HCInvaringot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCGearmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
@@ -580,7 +580,7 @@ recipe Make Lead Gears
     {
     HCLeadingot,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCGearmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
@@ -598,7 +598,7 @@ recipe Make Steel Gears
     {
     HCSteelingot,
     HCCoke,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCGearmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves,
@@ -616,7 +616,7 @@ recipe Make Titanium Gears
     {
     	HCTitaniumingot,
     	HCCoke,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	HCGearmold,
         keep [Recipe.GetItemTypes.WeldingMask],
     	[Recipe.GetItemTypes.BlacksmithTongs],
@@ -1075,7 +1075,7 @@ recipe Make Giant Magnet
         HCChain=3,
         HCMagnetiteingot=10,
     	Charcoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	HCGiantmagnetmold,
         keep [Recipe.GetItemTypes.WeldingMask],
         [Recipe.GetItemTypes.BlacksmithTongs],

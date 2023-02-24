@@ -25,7 +25,7 @@ recipe Recycle Rubber
     {
     OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -44,7 +44,7 @@ recipe Recycle Rubber
     {
     HCRubberball/Basketball,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -63,7 +63,7 @@ recipe Recycle Rubber
     {
     HCBalloonbox=3,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
@@ -83,7 +83,7 @@ recipe Recycle Rubber
     {
     HCGardenhose,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold=3,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,

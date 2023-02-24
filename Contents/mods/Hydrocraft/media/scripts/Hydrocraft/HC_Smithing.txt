@@ -1579,7 +1579,7 @@ recipe Make Large Titanium Sheet
 recipe Make Steel Beam
 	{
 	HCSteelrod=3,
-	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	[Recipe.GetItemTypes.StartFire],
 	Charcoal,
 
 	Water,
@@ -1837,7 +1837,7 @@ recipe Make Iron Pole
 recipe Make Iron Pole
     {
     HCIronrod=2,
-	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	[Recipe.GetItemTypes.StartFire],
 	Charcoal,
     Water,
 	keep HCSteamhammer2,
@@ -1854,7 +1854,7 @@ recipe Make Iron Pole
 recipe Make Steel Pole
     {
     	HCSteelrod=2,
-		Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+		[Recipe.GetItemTypes.StartFire],
 		Charcoal,
 		Water,
 		keep HCSteamhammer2,

@@ -264,7 +264,7 @@ recipe Light Oil Lamp
 recipe Make Charcoal
     {
     	Log,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -277,7 +277,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	Plank=3,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -290,7 +290,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	PercedWood=3,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -303,7 +303,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCWoodblock=9,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -316,7 +316,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
 	UnusableWood=12,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -328,7 +328,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	WoodenStick=24,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -341,7 +341,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	TreeBranch=4,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -355,7 +355,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	Twigs=16,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -368,7 +368,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCTarsticks=4,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -383,7 +383,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCFirbough=4,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -396,7 +396,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCWillowbranch=4,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -409,7 +409,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCPinebough=4,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -423,7 +423,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCFircone=4,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -436,7 +436,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCBark=16,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -449,7 +449,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCBirchbark=16,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -463,7 +463,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	HCCoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -476,7 +476,7 @@ recipe Make Charcoal
 recipe Make Charcoal
     {
     	CorpseMale/CorpseFemale,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:Charcoal,
@@ -490,7 +490,7 @@ recipe Make Charcoal
 recipe Make Momigalite
     {
     	HCChaff=12,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:HCMomigalite,
@@ -503,7 +503,7 @@ recipe Make Momigalite
 recipe Make Rice Hull Charcoal
     {
     	HCChaff,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:HCKuntan,
@@ -554,7 +554,7 @@ recipe Make Tar
     {
 	HCBirchbark=6,
     HCWoodenbucket,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
 	OnTest:HCNearTarkiln,
     CanBeDoneFromFloor:true, 
     Result:HCWoodenbuckettar,
@@ -567,7 +567,7 @@ recipe Make Tar
     {
 	HCBark=9,
     	HCWoodenbucket,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
 	OnTest:HCNearTarkiln,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
@@ -580,7 +580,7 @@ recipe Make Tar
     {
 	HCSawdust=60,
     	HCWoodenbucket,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
 	OnTest:HCNearTarkiln,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
@@ -593,7 +593,7 @@ recipe Make Tar
     {
 	HCPinebough=6,
     	HCWoodenbucket,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
 	OnTest:HCNearTarkiln,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
@@ -606,7 +606,7 @@ recipe Make Tar
     {
 	HCFirbough=6,
     	HCWoodenbucket,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
 	OnTest:HCNearTarkiln,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
@@ -619,7 +619,7 @@ recipe Make Tar
     {
 	TreeBranch=9,
     	HCWoodenbucket,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
 	OnTest:HCNearTarkiln,
     	CanBeDoneFromFloor:true, 
     	Result:HCWoodenbuckettar,
@@ -632,7 +632,7 @@ recipe Make Tar
     {
     Twigs=22,
         HCWoodenbucket,
-        Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+        [Recipe.GetItemTypes.StartFire],
     OnTest:HCNearTarkiln,
         CanBeDoneFromFloor:true, 
         Result:HCWoodenbuckettar,
@@ -660,7 +660,7 @@ recipe Distill Lighter Fluid
        	SkillRequired:Cooking=6,
 	HCWoodenbuckettar=2,
 	Charcoal,
-	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	[Recipe.GetItemTypes.StartFire],
 	keep HCDistillery2,
     	CanBeDoneFromFloor:true,
 	Result:HCLighterfluid,
@@ -676,7 +676,7 @@ recipe Distill Fish Oil
        	SkillRequired:Cooking=6,
 	HCWoodenbucketfishoil=4,
 	Charcoal,
-	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	[Recipe.GetItemTypes.StartFire],
 	HCJar,
 	keep HCDistillery2,
     	CanBeDoneFromFloor:true,
@@ -691,7 +691,7 @@ recipe Distill Fish Oil
 recipe Make Coke
     {
     	HCCoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:HCCoke,
@@ -708,7 +708,7 @@ recipe Distill Creosote Oil
 	HCCoke=4,
 	HCWoodenbucket,
 	Charcoal,
-	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+	[Recipe.GetItemTypes.StartFire],
 	keep HCDistillery2,
     	CanBeDoneFromFloor:true,
 	Result:HCWoodenbucketcreosote,
@@ -737,7 +737,7 @@ recipe Make Carbon Powder
     {
     	HCCharcoalpowder,
    	    Charcoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:HCCarbonpowder,
@@ -752,7 +752,7 @@ recipe Make Carbon Nanorings
     {
     	HCCarbonpowder,
     	Charcoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	keep HCWorkgloves,
     	keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     	CanBeDoneFromFloor:true,
@@ -768,7 +768,7 @@ recipe Make Carbon Nanochains
     {
     	HCNanorings,
     	HCCoke,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	keep HCWorkgloves/HCOvenmitts,
     	keep HCFurnace2/HCBlastfurnace2,
     	CanBeDoneFromFloor:true,
@@ -785,7 +785,7 @@ recipe Make Carbon Nanofiber
     {
     	HCNanochains,
     	HCCoke,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCWorkgloves,
     	keep HCFurnace2,

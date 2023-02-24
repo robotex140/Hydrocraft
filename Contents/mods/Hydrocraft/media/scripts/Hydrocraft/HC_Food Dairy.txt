@@ -715,7 +715,7 @@ recipe Heat Milk
     	HCWoodenbucketmilk,
     	keep HCClaycauldron/HCCauldroniron,
     	Charcoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	Time:100.0,
     	Category:Cooking,
     	Result:HCWoodenbucketheatedmilk,

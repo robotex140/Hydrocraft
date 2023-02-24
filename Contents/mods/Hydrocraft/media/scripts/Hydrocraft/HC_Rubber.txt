@@ -82,7 +82,7 @@ recipe Make Vulcanized Rubber
     HCRubber,
     HCSulphurpowder,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
@@ -101,7 +101,7 @@ recipe Make Rubber
     HCWoodenbucketrubber=4,
     Charcoal,
 
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCOvenmitts,
@@ -219,7 +219,7 @@ recipe Make Rubber Bungs
 	HCBungmold,
     	Charcoal,
 
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	HCIngotmold,
     	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCOvenmitts,

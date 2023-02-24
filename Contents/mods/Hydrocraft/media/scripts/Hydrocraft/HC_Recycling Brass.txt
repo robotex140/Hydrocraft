@@ -21,7 +21,7 @@ recipe Recycle Brass
     	SkillRequired:MetalWelding=7,
     	HCBrasssheet,
     	Charcoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	HCIngotmold,
     	[Recipe.GetItemTypes.BlacksmithTongs],
     	keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,

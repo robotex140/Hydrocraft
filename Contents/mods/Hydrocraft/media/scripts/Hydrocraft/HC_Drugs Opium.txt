@@ -266,7 +266,7 @@ recipe Knead Raw Opium
 recipe Cook Raw Opium
     {
     HCRawopium,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     Charcoal,
     OnTest:HCNearKiln,
     CanBeDoneFromFloor:true,

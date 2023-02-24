@@ -430,7 +430,7 @@ recipe Lite Jack-O-Lantern
     	{
     	HCJackolantern,
 	Candle,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	Result:HCJackolanternon,
     	Time:15,
     	Category:Leisure,
@@ -441,7 +441,7 @@ recipe Lite Jack-O-Lantern
     	{
     	HCJackolanternwhite,
 	Candle,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	Result:HCJackolanternwhiteon,
     	Time:15,
     	Category:Leisure,
@@ -452,7 +452,7 @@ recipe Lite Jack-O-Lantern
     	{
     	HCJackolanterngreen,
 	Candle,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	Result:HCJackolanterngreenon,
     	Time:15,
     	Category:Leisure,

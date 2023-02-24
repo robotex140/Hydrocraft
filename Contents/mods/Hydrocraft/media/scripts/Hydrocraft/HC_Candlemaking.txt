@@ -164,7 +164,7 @@ recipe Put Candle in Candle Holder
 recipe Light Candle
   	{
    	Candle,
-   	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	[Recipe.GetItemTypes.StartFire],
    	Result:CandleLit,
 	  Time:30.0,
     Category:Firecraft,
@@ -173,7 +173,7 @@ recipe Light Candle
 recipe Light Candle
   	{
    	HCCandletallow,
-   	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	[Recipe.GetItemTypes.StartFire],
    	Result:HCCandletallowlit,
 	  Time:30.0,
     Category:Firecraft,
@@ -182,7 +182,7 @@ recipe Light Candle
 recipe Light Candle
   	{
    	   	HCCandleholder2,
-   	   	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+   	   	[Recipe.GetItemTypes.StartFire],
    		Result:HCCandleholder3,
 		Time:30.0,
     		Category:Firecraft,
@@ -194,7 +194,7 @@ recipe Make Candleberry Wax
     keep HCClaycauldron/HCCauldroniron,
     Charcoal,
     Water,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCCandleberryseeds=5,
     Result:HCCandleberrywax,
     CanBeDoneFromFloor:true,

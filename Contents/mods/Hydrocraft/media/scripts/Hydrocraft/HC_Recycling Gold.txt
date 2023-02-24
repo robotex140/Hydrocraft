@@ -14,7 +14,7 @@ recipe Recycle Gold
     SkillRequired:MetalWelding=3,
     Locket=2,
     Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
     keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,

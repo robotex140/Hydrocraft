@@ -438,7 +438,7 @@ recipe Roast Coffee
     	EmptySandbag,
     	HCCoffeeBeans=60,
     	Charcoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
+    	[Recipe.GetItemTypes.StartFire],
     	keep HCWorkgloves,
     	OnTest:HCNearKiln,
     	keep RoastingPan,
