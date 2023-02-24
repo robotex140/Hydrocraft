@@ -679,17 +679,7 @@ recipe Make Bone Clay
 
 recipe Make Kiln
     {
-    HCGreyclay=50,
-    Result:HCKiln,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Kiln
-    {
-    HCRedclay=50,
+    HCGreyclay/HCRedclay=50,
     Result:HCKiln,
     NeedToBeLearn:true,
     Time:100,
@@ -699,22 +689,7 @@ recipe Make Kiln
 
 recipe Make Clay Pot
     {
-    HCGreyclay=5,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClaypot,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Pot
-    {
-    HCRedclay=5,
+    HCGreyclay/HCRedclay=5,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -729,22 +704,7 @@ recipe Make Clay Pot
 
 recipe Make Clay Flowerpot
     {
-    HCGreyclay=6,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClayflowerpot,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Flowerpot
-    {
-    HCRedclay=6,
+    HCGreyclay/HCRedclay=6,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -759,22 +719,7 @@ recipe Make Clay Flowerpot
 
 recipe Make Clay Jar
     {
-    HCGreyclay=6,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClayjar,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Jar
-    {
-    HCRedclay=6,
+    HCGreyclay/HCRedclay=6,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -789,22 +734,7 @@ recipe Make Clay Jar
 
 recipe Make Small Clay Jar
     {
-    HCGreyclay=3,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClayjarsmall,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Small Clay Jar
-    {
-    HCRedclay=3,
+    HCGreyclay/HCRedclay=3,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -819,22 +749,7 @@ recipe Make Small Clay Jar
 
 recipe Make Clay Mug
     {
-    HCGreyclay=2,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClaymug,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Mug
-    {
-    HCRedclay=2,
+    HCGreyclay/HCRedclay=2,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -849,22 +764,7 @@ recipe Make Clay Mug
 
 recipe Make Clay Teapot
     {
-    HCGreyclay=4,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClayteapot,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Teapot
-    {
-    HCRedclay=4,
+    HCGreyclay/HCRedclay=4,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -881,7 +781,7 @@ recipe Make Clay Cauldron
     {
 	CampfireKit,
 	Stone=4,
-    	HCGreyclay=10,
+    	HCGreyclay/HCRedclay=10,
     	Charcoal,
     	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     	OnTest:HCNearKiln,
@@ -894,41 +794,10 @@ recipe Make Clay Cauldron
     	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
-recipe Make Clay Cauldron
-    {
-	CampfireKit,
-    	Stone=4,
-    	HCRedclay=10,
-    	Charcoal,
-    	Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    	OnTest:HCNearKiln,
-    	CanBeDoneFromFloor:true,
-    	Result:HCClaycauldron,
-    	NeedToBeLearn:true,
-    	Time:100,
-    	Category:Pottery,
-    	OnCreate:getBurned,
-    	OnGiveXP:Recipe.OnGiveXP.None,
-    }
 
 recipe Make Clay Urn
     {
-    HCGreyclay=10,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClayurn,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Urn
-    {
-    HCRedclay=10,
+    HCGreyclay/HCRedclay=10,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -943,22 +812,7 @@ recipe Make Clay Urn
 
 recipe Make Large Clay Urn
     {
-    HCGreyclay=20,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClayurnlarge,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Large Clay Urn
-    {
-    HCRedclay=20,
+    HCGreyclay/HCRedclay=20,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -973,22 +827,7 @@ recipe Make Large Clay Urn
 
 recipe Make Clay Smoking Pipe
     {
-    HCGreyclay=2,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClaypipesmoking,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Smoking Pipe
-    {
-    HCRedclay=2,
+    HCGreyclay/HCRedclay=2,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1003,22 +842,7 @@ recipe Make Clay Smoking Pipe
 
 recipe Make Clay Pipe
     {
-    HCGreyclay=8,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCClaypipe,
-    NeedToBeLearn:true,
-    Time:100,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Clay Pipe
-    {
-    HCRedclay=8,
+    HCGreyclay/HCRedclay=8,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1033,7 +857,7 @@ recipe Make Clay Pipe
 
 recipe Make Ingot Mold
     {
-    HCRedclay,
+    HCRedclay/HCGreyclay,
     Charcoal,
     Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
     OnTest:HCNearKiln,
@@ -1041,21 +865,6 @@ recipe Make Ingot Mold
     Result:HCIngotmold,
     NeedToBeLearn:true,
     Time:200,
-    Category:Pottery,
-    OnCreate:getBurned,
-    OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make Ingot Mold
-    {
-    HCGreyclay,
-    Charcoal,
-    Lighter/Matches/PercedWood/HCMagnesiumstriker/HCBowdrill,
-    OnTest:HCNearKiln,
-    CanBeDoneFromFloor:true,
-    Result:HCIngotmold,
-    NeedToBeLearn:true,
-    Time:100,
     Category:Pottery,
     OnCreate:getBurned,
     OnGiveXP:Recipe.OnGiveXP.None,
