@@ -1017,6 +1017,7 @@ item HCHamsterpoop
         DisplayName         	= Hamster Poop,
         icon 			= HCHamsterpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCRabbitpoop
@@ -1026,6 +1027,7 @@ item HCRabbitpoop
         DisplayName         	= Rabbit Poop,
         icon 			= HCRabbitpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCChickenpoop
@@ -1035,6 +1037,7 @@ item HCChickenpoop
         DisplayName         	= Chicken Poop,
         icon 			= HCChickenpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCSheeppoop
@@ -1044,6 +1047,7 @@ item HCSheeppoop
         DisplayName         	= Sheep Poop,
         icon 			= HCSheeppoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCSheeppoopferal
@@ -1053,6 +1057,7 @@ item HCSheeppoopferal
         DisplayName         	= Feral Sheep Poop,
         icon 			= HCSheeppoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCGoatpoop
@@ -1062,6 +1067,7 @@ item HCGoatpoop
         DisplayName         	= Goat Poop,
         icon 			= HCGoatpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCGoatpoopferal
@@ -1071,6 +1077,7 @@ item HCGoatpoopferal
         DisplayName         	= Feral Goat Poop,
         icon 			= HCGoatpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCPigpoop
@@ -1080,6 +1087,7 @@ item HCPigpoop
         DisplayName         	= Pig Poop,
         icon 			= HCPigpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCPigpoopferal
@@ -1089,6 +1097,7 @@ item HCPigpoopferal
         DisplayName         	= Feral Pig Poop,
         icon 			= HCPigpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCCowpoop
@@ -1098,6 +1107,7 @@ item HCCowpoop
         DisplayName         	= Cow Poop,
         icon 			= HCCowpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCCowpoopferal
@@ -1107,6 +1117,7 @@ item HCCowpoopferal
         DisplayName         	= Feral Cow Poop,
         icon 			= HCCowpoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCDonkeypoop
@@ -1116,6 +1127,7 @@ item HCDonkeypoop
         DisplayName         	= Donkey Poop,
         icon 			= HCDonkeypoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCDonkeypoopferal
@@ -1125,6 +1137,7 @@ item HCDonkeypoopferal
         DisplayName         	= Feral Donkey Poop,
         icon 			= HCDonkeypoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCHorsepoop
@@ -1134,6 +1147,7 @@ item HCHorsepoop
         DisplayName         	= Horse Poop,
         icon 			= HCHorsepoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCHorsepoopferal
@@ -1143,6 +1157,7 @@ item HCHorsepoopferal
         DisplayName         	= Feral Horse Poop,
         icon 			= HCHorsepoop,
 		DisplayCategory          =   AnimalPoop,
+		Tags = Shit,
     }
 
 item HCWoodenbucketmilk

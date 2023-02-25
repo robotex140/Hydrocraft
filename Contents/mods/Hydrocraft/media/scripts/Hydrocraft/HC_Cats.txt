@@ -12,6 +12,7 @@ item HCCatpoop
 		DisplayName         	= Cat Poop,
 		icon 			= HCCatpoop,
 		DisplayCategory	= AnimalPoop,
+		Tags = Shit,
 	}
 item HCCatmale
 	{

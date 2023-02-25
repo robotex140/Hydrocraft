@@ -16,6 +16,7 @@ item HCDogpoop
         DisplayName         	= Dog Poop,
         icon 			= HCDogpoop,
 		DisplayCategory	= AnimalPoop,
+		Tags = Shit,
     }
 
 item HCBeaglemale

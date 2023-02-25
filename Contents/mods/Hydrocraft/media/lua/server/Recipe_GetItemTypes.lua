@@ -74,3 +74,17 @@ function Recipe.GetItemTypes.BooksWithNumberOfPages(scriptItems)
 		end
 	end
 end
+
+function Recipe.GetItemTypes.FoodThatCanRot(scriptItems)
+	local all = getScriptManager():getAllItems()
+	for i=0, all:size()-1 do
+		local item = all:get(i)
+		if item:getTypeString() == "Food" and item:getDaysTotallyRotten() > 0 then
+			scriptItems:add( item )
+		end
+	end
+end
+
+function Recipe.GetItemTypes.Shit(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("Shit"))
+end
