@@ -19,7 +19,7 @@ recipe Recycle Tin
     [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
-    keep [Recipe.GetItemTypes.LeatherGloves]/HCGlovesHardLeather/HCFiresuit,
+    keep [Recipe.GetItemTypes.LeatherGloves]/HCFiresuit,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCTiningot,
