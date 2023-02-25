@@ -263,3 +263,21 @@ function Hydrocraft.OnTest.FoodNotRotten(item)
 	end
 	return true
 end
+
+--Code based on vanilla: Recipe.OnCreate.SlicePie
+local function CutIntoPieces(item, result, count)
+	result:setBaseHunger(item:getBaseHunger() / count);
+	result:setHungChange(item:getHungChange() / count);
+	result:setThirstChange(item:getThirstChangeUnmodified() / count)
+	result:setBoredomChange(item:getBoredomChangeUnmodified() / count)
+	result:setUnhappyChange(item:getUnhappyChangeUnmodified() / count)
+	result:setCalories(item:getCalories() / count)
+	result:setCarbohydrates(item:getCarbohydrates() / count)
+	result:setLipids(item:getLipids() / count)
+	result:setProteins(item:getProteins() / count)
+end
+
+function Hydrocraft.OnCreate.CutIntoEightPieces(items, result, player)
+	local food = items:get(0)
+	CutIntoPieces(food, result, 8)
+end
