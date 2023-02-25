@@ -472,6 +472,7 @@ recipe Cut Cheese Wheel
     	Time:15,
 	Category:Cooking,
     	OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Hydrocraft.OnCreate.CutIntoEightPieces,
     }
 
 recipe Prepare Cheese Cloth-Wrapped Wax
