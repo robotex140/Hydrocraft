@@ -33,6 +33,19 @@ local function WeedFarmloadItem(item)
     end
 end
 
+local function dataCheck(item, temp)
+
+    if (item:getCategory() == "Container") and (temp:getCategory() == "Container") then
+        temp:getInventory():setItems(item:getInventory():getItems())
+
+        if string.find(item:getModData().TurnInto, "hungry") then
+            temp:setName("hungry " .. item:getName());
+        else
+            temp:setName(item:getName());
+        end
+    end
+end
+
 local function WeedFarmreplaceItem(container, item)
 
 	--If starvation is disabled in the sandbox, don't kill hungry animals
@@ -114,19 +127,6 @@ local function WeedFarmreplaceItem(container, item)
             container:DoRemoveItem(item);
             container:removeItemOnServer(item);
             -- print("replaceItem",item:getType(),item:getModData().TurnInto,item:getModData().Life,getGameTime():getWorldAgeHours(),item:getModData().StartTime,delta)
-        end
-    end
-end
-
-local function dataCheck(item, temp)
-
-    if (item:getCategory() == "Container") and (temp:getCategory() == "Container") then
-        temp:getInventory():setItems(item:getInventory():getItems())
-
-        if string.find(item:getModData().TurnInto, "hungry") then
-            temp:setName("hungry " .. item:getName());
-        else
-            temp:setName(item:getName());
         end
     end
 end
