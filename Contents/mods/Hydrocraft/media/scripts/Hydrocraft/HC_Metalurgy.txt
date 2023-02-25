@@ -1791,7 +1791,7 @@ recipe Make Fishhooks
 		HCPipemold,
 		[Recipe.GetItemTypes.BlacksmithTongs],
 		keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
-		keep HCBlastfurnace2,
+		keep HCBlastfurnace2/HCFurnace2,
 		CanBeDoneFromFloor:true,
 		Result:HCSteelpipe,
 		NeedToBeLearn:true,
