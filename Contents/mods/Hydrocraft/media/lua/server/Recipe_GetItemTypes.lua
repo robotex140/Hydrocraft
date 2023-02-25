@@ -4,6 +4,16 @@ Recipe = Recipe or {}
 Recipe.GetItemTypes = Recipe.GetItemTypes or {}
 --TODO: rename to Hydrocraft.GetItemTypes, to make it clearer which are vanilla and which are HC?
 
+function Recipe.GetItemTypes.LeatherGloves(scriptItems)
+	local all = getScriptManager():getAllItems()
+	for i=0, all:size()-1 do
+		local item = all:get(i)
+		if item:getTypeString() == "Clothing" and item:getBodyLocation() == "Hands" and item:getFabricType() == "Leather" then
+			scriptItems:add(item)
+		end
+	end
+end
+
 function Recipe.GetItemTypes.BlacksmithTongs(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("BlacksmithTongs"))
 end
