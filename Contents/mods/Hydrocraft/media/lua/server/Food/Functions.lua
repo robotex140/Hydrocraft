@@ -281,3 +281,8 @@ function Hydrocraft.OnCreate.CutIntoEightPieces(items, result, player)
 	local food = items:get(0)
 	CutIntoPieces(food, result, 8)
 end
+
+function Hydrocraft.OnCreate.CutIntoSixPieces(items, result, player)
+	local food = items:get(0)
+	CutIntoPieces(food, result, 6)
+end

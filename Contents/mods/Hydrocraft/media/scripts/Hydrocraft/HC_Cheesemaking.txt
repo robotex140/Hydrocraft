@@ -641,15 +641,16 @@ recipe Remove Cheese from Rack
     }
 
 recipe Cut Cheese Wheel
-        {
-                HCCheddarwheelaged,
-                keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
-                Result:HCCheddar=6,
+	{
+		HCCheddarwheelaged,
+		keep MeatCleaver/[Recipe.GetItemTypes.SharpKnife],
+		Result:HCCheddar=6,
 		NeedToBeLearn:true,
-                Time:50,
-                Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
-        }
+		Time:50,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Hydrocraft.OnCreate.CutIntoSixPieces,
+	}
 
 recipe Make Cream Cheese Culture
     {
