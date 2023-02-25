@@ -847,43 +847,7 @@ recipe Grind Acorn Flour
 recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
-       	HCCornseeds=20,
-       	OnTest:HCNearGrindstone,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour, 
-       	Time:2000,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornredseeds=20,
-       	OnTest:HCNearGrindstone,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour, 
-       	Time:2000,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornblueseeds=20,
-       	OnTest:HCNearGrindstone,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour, 
-       	Time:2000,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornwhiteseeds=20,
+       	HCCornseeds/HCCornredseeds/HCCornblueseeds/HCCornwhiteseeds=20,
        	OnTest:HCNearGrindstone,
     	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
@@ -948,43 +912,7 @@ recipe Grind Acorn Flour
 recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
-       	Corn=5,
-       	OnTest:HCNearGrindstone,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornred=5,
-       	OnTest:HCNearGrindstone,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornblue=5,
-       	OnTest:HCNearGrindstone,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornwhite=5,
+       	Corn/HCCornred/HCCornblue/HCCornwhite=5,
        	OnTest:HCNearGrindstone,
     	CanBeDoneFromFloor:true,
        	Result:Cornflour, 
@@ -996,20 +924,7 @@ recipe Grind Corn Flour
 recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
-       	Rice=2,
-		HCFlourempty,
-       	OnTest:HCNearGrindstone,
-    	CanBeDoneFromFloor:true,
-       	Result:HCRiceflour, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-    }
-
-recipe Grind Rice Flour
-    {
-       	SkillRequired:Cooking=5,
-       	HCRicebrown=2,
+       	Rice/HCRicebrown=2,
 		HCFlourempty,
        	OnTest:HCNearGrindstone,
     	CanBeDoneFromFloor:true,
@@ -1036,46 +951,7 @@ recipe Grind Acorn Flour
 recipe Grind Corn Flour
      {
        	SkillRequired:Cooking=5,
-       	Corn=5,
-    	keep HCMacerator,
-    	PetrolCan,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour=2, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornred=5,
-    	keep HCMacerator,
-    	PetrolCan,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour=2, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornblue=5,
-    	keep HCMacerator,
-    	PetrolCan,
-    	CanBeDoneFromFloor:true,
-       	Result:Cornflour=2, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-     }
-
-recipe Grind Corn Flour
-     {
-       	SkillRequired:Cooking=5,
-       	HCCornwhite=5,
+       	Corn/HCCornred/HCCornblue/HCCornwhite=5,
     	keep HCMacerator,
     	PetrolCan,
     	CanBeDoneFromFloor:true,
@@ -1088,21 +964,7 @@ recipe Grind Corn Flour
 recipe Grind Rice Flour
     {
        	SkillRequired:Cooking=5,
-       	Rice=2,
-		HCFlourempty=2,
-    	keep HCMacerator,
-    	PetrolCan,
-    	CanBeDoneFromFloor:true,
-       	Result:HCRiceflour=2, 
-       	Time:600,
-       	Category:Cooking,
-       	OnGiveXP:HCCooking_OnGiveXP,
-    }
-
-recipe Grind Rice Flour
-    {
-       	SkillRequired:Cooking=5,
-       	HCRicebrown=2,
+       	Rice/HCRicebrown=2,
 		HCFlourempty=2,
     	keep HCMacerator,
     	PetrolCan,
