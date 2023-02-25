@@ -439,7 +439,7 @@ recipe Roast Coffee
     	HCCoffeeBeans=60,
     	Charcoal,
     	[Recipe.GetItemTypes.StartFire],
-    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.LeatherGloves],
     	OnTest:HCNearKiln,
     	keep RoastingPan,
     	CanBeDoneFromFloor:true,

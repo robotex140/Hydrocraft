@@ -878,7 +878,7 @@ recipe Make Control Panel
 	HCSoldergunpowered,
     HCWeldingset,
     keep [Recipe.GetItemTypes.WeldingMask],
-    keep HCWorkgloves,
+    keep [Recipe.GetItemTypes.LeatherGloves],
 	keep HCElectornicsbench2,
     CanBeDoneFromFloor:true,
     NeedToBeLearn:true,

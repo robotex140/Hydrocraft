@@ -493,7 +493,7 @@ recipe Make Smoker
 	HCManometer,
     	HCWeldingset,
     	keep [Recipe.GetItemTypes.WeldingMask],
-    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.LeatherGloves],
 	keep HCSawmetal,
 	keep HCPipebender,
         NeedToBeLearn:true,

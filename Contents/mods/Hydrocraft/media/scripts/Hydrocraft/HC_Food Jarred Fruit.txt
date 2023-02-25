@@ -506,7 +506,7 @@ recipe Make Aluminum Jar Lid
 	   	HCAluminumingot,
     		keep HCSmithyhammersteel/HCSmithyhammertitanium,
     		[Recipe.GetItemTypes.BlacksmithTongs],
-    		keep HCWorkgloves/HCOvenmitts,
+    		keep [Recipe.GetItemTypes.LeatherGloves]/HCOvenmitts,
 		keep HCAnvil/HCAnvillead/HCAnvil2/HCAnvillead2,
     		CanBeDoneFromFloor:true,
 	   	Result:JarLid=8,

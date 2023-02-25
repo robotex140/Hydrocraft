@@ -2024,7 +2024,7 @@ recipe Make Clothespins
 	    WoodenStick=5,
     	HCWeldingset,
     	[Recipe.GetItemTypes.BlacksmithTongs],
-    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.LeatherGloves],
     	keep [Recipe.GetItemTypes.WeldingMask],
     	keep HCRollingmillsmall,
     	CanBeDoneFromFloor:true,

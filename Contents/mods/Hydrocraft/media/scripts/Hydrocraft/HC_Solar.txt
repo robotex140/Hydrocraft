@@ -91,7 +91,7 @@ recipe Build Battery Array
     	HCCoppercablered=2,
     	HCCablecopper=2,
     	keep [Recipe.GetItemTypes.WeldingMask],
-    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.LeatherGloves],
     	HCWeldingset,
 	keep HCElectornicsbench2,
         CanBeDoneFromFloor:true,

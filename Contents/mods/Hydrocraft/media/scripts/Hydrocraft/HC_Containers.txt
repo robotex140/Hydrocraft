@@ -826,6 +826,7 @@ recipe Take Garbage Bag From Box
 	Time:10,
     }
 
+/*TODO: fix these, it looks like they will repair damaged gloves.*/
 recipe Bury Trash
     {
     destroy Garbagebag,

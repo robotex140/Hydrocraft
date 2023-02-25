@@ -298,7 +298,7 @@ recipe Harvest Honeycomb
     {
         HCBeehive3full,
         keep HCBeekeeperhat,
-        keep HCWorkgloves,
+        keep [Recipe.GetItemTypes.LeatherGloves],
         HCBeesmokerfull,
         CanBeDoneFromFloor:true,
         Result:HCHoneycomb=12,
@@ -313,7 +313,7 @@ recipe Harvest Honeycomb
     {
         HCBeehive3bfull,
         keep HCBeekeeperhat,
-        keep HCWorkgloves,
+        keep [Recipe.GetItemTypes.LeatherGloves],
         HCBeesmokerfull,
         CanBeDoneFromFloor:true,
         Result:HCBeehive3b,
@@ -329,7 +329,7 @@ recipe Harvest Wild Beehive
     {
        HCBeehive,
        keep HCBeekeeperhat,
-       keep HCWorkgloves,
+       keep [Recipe.GetItemTypes.LeatherGloves],
        HCBeesmokerfull,
        OnTest:HCNearHerbatable,
        Result:HCHoneybee,
@@ -372,7 +372,7 @@ recipe Make Bee Smoker
         Bellows,
         HCWeldingset,
         keep [Recipe.GetItemTypes.WeldingMask],
-        keep HCWorkgloves,
+        keep [Recipe.GetItemTypes.LeatherGloves],
         Result:HCBeesmokerempty,
         NeedToBeLearn:true,
         Time:150.0,

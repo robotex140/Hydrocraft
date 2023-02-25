@@ -622,7 +622,7 @@ recipe Make Bolt
     {
     HCAluminumingot,
     [Recipe.GetItemTypes.BlacksmithTongs],
-    keep HCWorkgloves,
+    keep [Recipe.GetItemTypes.LeatherGloves],
     keep HCFurnace2/HCBlastfurnace2,
     HCBowBoltMold,
     CanBeDoneFromFloor:true,
@@ -639,7 +639,7 @@ recipe Make Metal Arrowhead
     {
     HCIroningot/HCBronzeingot/HCSteelingot,
     [Recipe.GetItemTypes.BlacksmithTongs],
-    keep HCWorkgloves,
+    keep [Recipe.GetItemTypes.LeatherGloves],
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     HCArrowheadMold,
     CanBeDoneFromFloor:true,

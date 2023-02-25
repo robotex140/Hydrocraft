@@ -290,7 +290,7 @@ recipe Make Gardening Workbench
 	HCClayflowerpot=3,
 	HCMysteryseedspacket=3,
 	HCDirt,
-	HCWorkgloves/HCGardengloves,
+	[Recipe.GetItemTypes.LeatherGloves]/HCGardengloves,
 	HCGardenapron,
 	HandShovel,
 	HCPruningsheers,

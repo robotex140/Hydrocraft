@@ -27,7 +27,7 @@ recipe Make Steel Ring
     [Recipe.GetItemTypes.StartFire],
     HCRingmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
-    keep HCWorkgloves/HCOvenmitts,
+    keep [Recipe.GetItemTypes.LeatherGloves]/HCOvenmitts,
     keep HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCRingsteel=4,

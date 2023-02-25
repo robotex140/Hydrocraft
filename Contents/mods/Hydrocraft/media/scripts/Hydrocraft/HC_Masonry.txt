@@ -191,7 +191,7 @@ recipe Make Concrete Ingot
     	[Recipe.GetItemTypes.StartFire],
     	HCIngotmold,
     	[Recipe.GetItemTypes.BlacksmithTongs],
-    	keep HCWorkgloves/HCOvenmitts,
+    	keep [Recipe.GetItemTypes.LeatherGloves]/HCOvenmitts,
     	OnTest:HCNearKiln,
     	CanBeDoneFromFloor:true,
     	Result:HCConcreteingot,

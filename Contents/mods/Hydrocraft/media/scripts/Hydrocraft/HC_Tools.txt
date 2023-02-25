@@ -1425,7 +1425,7 @@ recipe Craft Hand Powered Pump
     HCWeldingset,
     keep [Recipe.GetItemTypes.WeldingMask],
     keep HCSawmetal,
-    keep HCWorkgloves,   
+    keep [Recipe.GetItemTypes.LeatherGloves],   
     Result:HCHandpump,
     Time:500,
     Category:Engineer,

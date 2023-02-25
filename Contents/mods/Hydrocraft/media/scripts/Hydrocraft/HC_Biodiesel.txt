@@ -103,7 +103,7 @@ recipe Cook Pot of Vegtable Oil
                 HCPotvegoil,
                 Charcoal,
                 [Recipe.GetItemTypes.StartFire],
-    		keep HCWorkgloves/HCOvenmitts,
+    		keep [Recipe.GetItemTypes.LeatherGloves]/HCOvenmitts,
                 OnTest:HCNearKiln,
                 CanBeDoneFromFloor:true,
                 Result:HCPotvegoilcooked,

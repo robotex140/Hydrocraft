@@ -88,7 +88,7 @@ recipe Make Fireproof Suit
 	SkillRequired:Tailoring=4,
 	Aluminum=20,
 	HCBorax=4,
-	HCWorkgloves,
+	[Recipe.GetItemTypes.LeatherGloves],
 	HCBlacksmithapron,
 	[Recipe.GetItemTypes.WeldingMask],
 	Jacket_Fireman,

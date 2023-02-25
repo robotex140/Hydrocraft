@@ -346,7 +346,7 @@ recipe Search Junk
     {
        	keep HCJunkyardsmallfull,
        	HCTrashsmall,
-	keep HCWorkgloves, 
+	keep [Recipe.GetItemTypes.LeatherGloves], 
        	Result:Garbagebag,
        	CanBeDoneFromFloor:true,
        	Time:100,
@@ -385,7 +385,7 @@ recipe Search Junk
     {
        	keep HCJunkyardmediumfull,
        	HCTrashsmall,
-	keep HCWorkgloves, 
+	keep [Recipe.GetItemTypes.LeatherGloves], 
        	Result:Garbagebag,
        	CanBeDoneFromFloor:true,
        	Time:100,
@@ -398,7 +398,7 @@ recipe Search Junk
     {
        	keep HCJunkyardmediumfull,
        	HCTrashmedium,
-	keep HCWorkgloves, 
+	keep [Recipe.GetItemTypes.LeatherGloves], 
        	Result:HCCardboardbox,
        	CanBeDoneFromFloor:true,
        	Time:200,
@@ -411,7 +411,7 @@ recipe Search Junk
 recipe Scrap car parts
  {
   keep HCJunkyardmediumfull/HCJunkyardlargefull2,
-  keep HCWorkgloves, 
+  keep [Recipe.GetItemTypes.LeatherGloves], 
   keep Sledgehammer2/Sledgehammer,
   FrontCarDoor1/FrontCarDoor2/FrontCarDoor3/RearCarDoor1/RearCarDoor2/RearCarDoor3/RearCarDoorDouble1/EngineDoor1/EngineDoor2/EngineDoor3/TrunkDoor1/TrunkDoor2/TrunkDoor3/OldCarMuffler1/NormalCarMuffler1/ModernCarMuffler1/OldCarMuffler2/NormalCarMuffler2/ModernCarMuffler2/OldCarMuffler3/NormalCarMuffler3/ModernCarMuffler3/SmallGasTank1/SmallGasTank2/SmallGasTank3/NormalGasTank1/NormalGasTank2/NormalGasTank3/BigGasTank1/BigGasTank2/BigGasTank3/ModernBrake1/ModernBrake2/ModernBrake3/OldBrake1/NormalBrake2/NormalBrake3/NormalBrake1/NormalBrake2/NormalBrake3/NormalSuspension1/NormalSuspension2/NormalSuspension3/ModernSuspension1/ModernSuspension2/ModernSuspension3,
   Result:ScrapMetal,
@@ -436,10 +436,10 @@ recipe Upgrade To Large Junkyard
        	HCMagnetgiant,
        	HCCablecopper=4,
        	keep [Recipe.GetItemTypes.Hammer],
-    	keep HCWorkgloves/HCOvenmitts,
+    	keep [Recipe.GetItemTypes.LeatherGloves]/HCOvenmitts,
     	keep [Recipe.GetItemTypes.WeldingMask],
     	HCWeldingset,
-    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.LeatherGloves],
        	CanBeDoneFromFloor:true,
        	Result:HCJunkyardlargeempty,
        	Time:1000,
@@ -477,7 +477,7 @@ recipe Search Junk
     {
        	keep HCJunkyardlargefull2,
        	HCTrashsmall,
-	keep HCWorkgloves, 
+	keep [Recipe.GetItemTypes.LeatherGloves], 
        	Result:Garbagebag,
        	CanBeDoneFromFloor:true,
        	Time:100,
@@ -490,7 +490,7 @@ recipe Search Junk
     {
        	keep HCJunkyardlargefull2,
        	HCTrashmedium,
-	keep HCWorkgloves, 
+	keep [Recipe.GetItemTypes.LeatherGloves], 
        	Result:HCCardboardbox,
        	CanBeDoneFromFloor:true,
        	Time:200,
@@ -503,7 +503,7 @@ recipe Search Junk
     {
        	keep HCJunkyardlargefull2,
 	HCTrashlarge,
-	keep HCWorkgloves, 
+	keep [Recipe.GetItemTypes.LeatherGloves], 
        	Result:HCCardboardbox,
        	CanBeDoneFromFloor:true,
        	Time:300,
@@ -560,7 +560,7 @@ recipe Remove Battery
 recipe Search For Metal
 	{
 	HCDetectorpowered,
-	keep HCWorkgloves,              
+	keep [Recipe.GetItemTypes.LeatherGloves],              
 	Result:HCDetector,              
 	Time:500.0,
   Category:Engineer,

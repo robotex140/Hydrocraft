@@ -17,7 +17,7 @@ recipe Recycle Gold
     [Recipe.GetItemTypes.StartFire],
     HCIngotmold,
     [Recipe.GetItemTypes.BlacksmithTongs],
-    keep HCWorkgloves/HCGlovesHardLeather/HCFiresuit,
+    keep [Recipe.GetItemTypes.LeatherGloves]/HCGlovesHardLeather/HCFiresuit,
     keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
     CanBeDoneFromFloor:true,
     Result:HCGoldingot,

@@ -120,7 +120,7 @@ recipe Make Steel Spring
 	[Recipe.GetItemTypes.StartFire],
         [Recipe.GetItemTypes.BlacksmithTongs],
         keep [Recipe.GetItemTypes.Hammer],
-        keep HCWorkgloves/HCOvenmitts,
+        keep [Recipe.GetItemTypes.LeatherGloves]/HCOvenmitts,
         keep HCSmelter2/HCFurnace2/HCBlastfurnace2,
         CanBeDoneFromFloor:true,
         Result:HCSteelspring=4,

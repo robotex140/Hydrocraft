@@ -326,7 +326,7 @@ recipe Weld Flag Pole
 	OldTire1/OldTire2/OldTire3/NormalTire1/NormalTire2/NormalTire3/ModernTire1/ModernTire2/ModernTire3,
     	HCWeldingset,
     	keep [Recipe.GetItemTypes.WeldingMask],
-    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.LeatherGloves],
     	Result:HCFlagpole,
     	Time:200.0,
         Category:Welding,

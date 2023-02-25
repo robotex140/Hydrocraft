@@ -124,7 +124,7 @@ recipe Build Composter
 	HCMetalwheel,
     	HCWeldingset,
     	keep [Recipe.GetItemTypes.WeldingMask],
-    	keep HCWorkgloves,
+    	keep [Recipe.GetItemTypes.LeatherGloves],
         keep Screwdriver,
 	keep HCGardenbench,
     	Result:HCComposter,

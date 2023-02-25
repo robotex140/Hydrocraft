@@ -1428,7 +1428,7 @@ recipe Craft Steam Pressure Pot
                 SheetMetal,
                 HCManometer,
                 HCWeldingset,
-                keep HCWorkgloves,   
+                keep [Recipe.GetItemTypes.LeatherGloves],   
                 keep [Recipe.GetItemTypes.WeldingMask],
                 NeedToBeLearn:true,     
 		Result:HCSteampot,
