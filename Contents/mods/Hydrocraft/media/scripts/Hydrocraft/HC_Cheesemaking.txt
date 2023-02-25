@@ -138,6 +138,7 @@ item HCCheesewheel
         Lipids 			= 	324,
         Calories 		= 	4272,
 		DisplayCategory	= FoodP,
+		Tags = Cheese,
 	}
 
 item HCCheesecloth
@@ -231,6 +232,7 @@ item HCCheddarwheelunaged
         Lipids 			= 	396,
         Calories 		= 	4824,
 		DisplayCategory	= FoodP,
+		Tags = Cheese,
 	}
 
 item HCCheddarwheelwaxed
@@ -248,6 +250,7 @@ item HCCheddarwheelwaxed
         Lipids 			= 	396,
         Calories 		= 	4824,
 		DisplayCategory	= FoodP,
+		Tags = Cheese,
 	}
 
 item HCCheddarwheelaged
@@ -265,6 +268,7 @@ item HCCheddarwheelaged
         Lipids 			= 	396,
         Calories 		= 	4824,
 		DisplayCategory	= FoodP,
+		Tags = Cheese,
 	}
 
 item HCCheddar
@@ -285,6 +289,7 @@ item HCCheddar
         Calories 		= 	402,
         EvolvedRecipe           =       Burger:6;Salad:6;Sandwich:6,
 		DisplayCategory	= FoodP,
+		Tags = Cheese,
 	}
 
 item HCCreamcheeseculture
