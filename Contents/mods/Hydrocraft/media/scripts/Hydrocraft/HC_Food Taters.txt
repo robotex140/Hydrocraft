@@ -79,7 +79,7 @@ module Hydrocraft
 		Weight				=	0.3,
 		Type				=	Food,
 		IsCookable			=	TRUE,
-		DangerousUncooked	=	TRUE,
+		DangerousUncooked	=	FALSE,
 		MinutesToCook		=	30,
 		MinutesToBurn		=	50,
 		DaysFresh			=	3,	
@@ -316,25 +316,28 @@ module Hydrocraft
 		OnGiveXP:HCCooking_OnGiveXP,
 		OnCreate:Hydrocraft.OnCreate.MakeCreamyMashedPotatoes,
 	}	
-		
+
+	/*TODO: check if these give the pot back.  They do not*/
 	recipe Make Bowl of Plain Mashed Potatos
 	{
-		Bowl=2,
 		HCMashedpotatosplain,
+		Bowl=2,
 		Result:HCMashedpotatosplainbowl=2,
 		Time:35.0,
 		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Hydrocraft.OnCreate.CutIntoTwoPieces,
 	}		
 
 	recipe Make Bowl of Creamy Mashed Potatos
 	{
-		Bowl=2,
 		HCMashedpotatoscreamy,
+		Bowl=2,
 		Result:HCMashedpotatoscreamybowl=2,
 		Time:35.0,
 		Category:Cooking,
 		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Hydrocraft.OnCreate.CutIntoTwoPieces,
 	}
 
 	/*DO NOT RENAME - unless you also edit the code in the Lua function Hydrocraft.OnCreate.MakeFrenchFries*/
@@ -358,33 +361,7 @@ module Hydrocraft
 		SkillRequired:Cooking=2,
 		keep HCPotatomasher,
 		destroy BakingTray,
-		Potato=2,
-		keep HCPotatopeeler,
-		Result:HCPotatomush,
-		Time:75.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-	recipe Prepare Potato Flour
-	{
-		SkillRequired:Cooking=2,
-		keep HCPotatomasher,
-		destroy BakingTray,
-		HCPotatogolden=2,
-		keep HCPotatopeeler,
-		Result:HCPotatomush,
-		Time:75.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}
-
-recipe Prepare Potato Flour
-	{
-		SkillRequired:Cooking=2,
-		keep HCPotatomasher,
-		destroy BakingTray,
-		HCPotatored=2,
+		[Recipe.GetItemTypes.Potato]=2,
 		keep HCPotatopeeler,
 		Result:HCPotatomush,
 		Time:75.0,

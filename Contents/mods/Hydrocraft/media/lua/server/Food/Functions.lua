@@ -280,9 +280,26 @@ end
 function Hydrocraft.OnCreate.CutIntoEightPieces(items, result, player)
 	local food = items:get(0)
 	CutIntoPieces(food, result, 8)
+	local rou = food:getReplaceOnUseFullType()
+	if rou and rou ~= '' then
+		player:getInventory():AddItem(InventoryItemFactory.CreateItem(rou))
+	end
 end
 
 function Hydrocraft.OnCreate.CutIntoSixPieces(items, result, player)
 	local food = items:get(0)
 	CutIntoPieces(food, result, 6)
+	local rou = food:getReplaceOnUseFullType()
+	if rou and rou ~= '' then
+		player:getInventory():AddItem(InventoryItemFactory.CreateItem(rou))
+	end
+end
+
+function Hydrocraft.OnCreate.CutIntoTwoPieces(items, result, player)
+	local food = items:get(0)
+	CutIntoPieces(food, result, 2)
+	local rou = food:getReplaceOnUseFullType()
+	if rou and rou ~= '' then
+		player:getInventory():AddItem(InventoryItemFactory.CreateItem(rou))
+	end
 end
