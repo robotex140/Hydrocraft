@@ -227,7 +227,7 @@ function insertItemListsInDistributionSafely(location, container, itemDistList )
 			end
 		end
 	else
-		print("Error, cannot find: Distributions[1][" .. location .. "][" .. container .. "] - insert failed.")
+		print("Error, cannot find: Distributions[1][" .. location .. "][" .. container .. "] - insertItemListsInDistributionSafely failed.")
 	end
 end
 
@@ -236,7 +236,11 @@ end
 -- the item increase in HC.
 -------------------------------------------------------------------
 function setDistributionRolls(location, container, rolls )
-   Distributions[1][location][container]["rolls"] = rolls
+	if Distributions and Distributions[1] and Distributions[1][location] and Distributions[1][location][container] and Distributions[1][location][container]["rolls"] then
+		Distributions[1][location][container]["rolls"] = rolls
+	else
+		print("Error: cannot find: Distributions[1][" .. location .. "][" .. container .. "] - setDistributionRolls failed.")
+	end
 end
 
 -- -------------------------------------------------------------------
@@ -259,14 +263,18 @@ end
 -- with junk
 -------------------------------------------------------------------
 function insertJunkListsInProcDistribution(location, itemDistList )
-        local table = ProceduralDistributions["list"][location].junk.items
-        local n = #table
-        for idx, itemDist in ipairs(itemDistList) do
-                for i=1,#itemDist do 
-                        n=n+1
-                        table[n] = itemDist[i]
-                end
-        end
+	if ProceduralDistributions and ProceduralDistributions["list"] and ProceduralDistributions["list"][location] and ProceduralDistributions["list"][location].junk and ProceduralDistributions["list"][location].junk.items then
+		local table = ProceduralDistributions["list"][location].junk.items
+		local n = #table
+		for idx, itemDist in ipairs(itemDistList) do
+			for i=1,#itemDist do 
+				n=n+1
+				table[n] = itemDist[i]
+			end
+		end		
+	else
+		print("Error: cannot find: ProceduralDistributions[list][" .. location .. "][junk[items] - insertJunkListsInProcDistribution failed.")
+	end
 end
 
 
@@ -277,14 +285,23 @@ end
 -- 2. Add container to Procdural Distribution Table
 -------------------------------------------------------------------
 function createProcDistributionContainer(zone, type, newName )
--- 1.
+	if Distributions and Distributions[1] and Distributions[1][zone] and Distributions[1][zone][type] and Distributions[1][zone][type].procList then
+		-- 1.
         local dist = Distributions[1][zone][type].procList
---        table.insert(dist, {name=newName, min=0, max=1, weightChance=10000} );      
-        table.insert(dist, {name=newName, min=0, max=1, weightChance=40 } );      
---        print (dump(dist) )
--- 2.
+		-- table.insert(dist, {name=newName, min=0, max=1, weightChance=10000} );      
+        table.insert(dist, {name=newName, min=0, max=1, weightChance=40 } )
+	else
+		print("Error: cannot find: Distributions[1][" .. zone .. "][" .. type .. "] - createProcDistributionContainer failed.")
+	end
+
+	if ProceduralDistributions and ProceduralDistributions["list"] then
+		-- print (dump(dist) )
+		-- 2.
         local proc = ProceduralDistributions["list"]
         proc[newName] = { rolls = 4, items = {} }
+	else
+		print("Error: cannot find: ProceduralDistributions['list'] - createProcDistributionContainer failed.")
+	end
 end
 
 
