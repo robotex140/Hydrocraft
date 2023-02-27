@@ -480,17 +480,6 @@ recipe Play Music
 
 recipe Play Music
     {
-    	HCViolin,
-    	Result:HCViolin,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	OnCreate:HC_ToyStatModifier,
-   	Category:Leisure,
-    	OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Play Music
-    {
     	HCHarp,
     	Result:HCHarp,
     	NeedToBeLearn:true,
@@ -513,17 +502,6 @@ recipe Play Music
 
 recipe Play Music
     {
-    	HCBanjo,
-    	Result:HCBanjo,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	OnCreate:HC_ToyStatModifier,
-   	Category:Leisure,
-    	OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Play Music
-    {
     	HCGuitar,
     	Result:HCGuitar,
     	NeedToBeLearn:true,
@@ -537,17 +515,6 @@ recipe Play Music
     {
     	HCKazoo,
     	Result:HCKazoo,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	OnCreate:HC_ToyStatModifier,
-    	Category:Leisure,
-    	OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Play Music
-    {
-    	HCFlute,
-    	Result:HCFlute,
     	NeedToBeLearn:true,
     	Time:500,
     	OnCreate:HC_ToyStatModifier,
@@ -582,17 +549,6 @@ recipe Play Music
     	keep Saxophone,
     	Result:Saxophone,
 		RemoveResultItem:true,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	OnCreate:HC_ToyStatModifier,
-    	Category:Leisure,
-    	OnGiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Play Music
-    {
-    	HCTrumpet,
-    	Result:HCTrumpet,
     	NeedToBeLearn:true,
     	Time:500,
     	OnCreate:HC_ToyStatModifier,

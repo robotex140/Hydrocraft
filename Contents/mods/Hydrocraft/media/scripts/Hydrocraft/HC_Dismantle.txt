@@ -748,19 +748,6 @@ recipe Dismantle
 	   SkillRequired:Electricity=2,
 	   OnGiveXP:HCElectricity_OnGiveXP,
     }
-	
-recipe Dismantle     
-    {
-       HCProjector,  
-	   keep Screwdriver,
-	   keep HCPliers,
-       Result:HCMetalwheeliron,
-       Time:3000.0,
-	   OnCreate:recipe_hcdismantleprojector,
-       Category:Welding,
-	   SkillRequired:Electricity=4,
-	   OnGiveXP:HCElectricity_OnGiveXP,
-    }
 
 recipe Dismantle Fridge
 	{   
