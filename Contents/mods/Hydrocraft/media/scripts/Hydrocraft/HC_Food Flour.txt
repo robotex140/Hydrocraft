@@ -803,21 +803,6 @@ recipe Make Sourdough Starter
        		OnGiveXP:HCCooking_OnGiveXP,
        }
 
-recipe Make Sourdough Starter
-       {
-       		SkillRequired:Cooking=5,
-      	 	Flour/HCRiceflour,
-       		Water,
-       		Sugar;2,
-       		HCSourdoughstarter,
-       		destroy HCJar,
-       		Result:HCSourdoughstarter,
-    		NeedToBeLearn:true,
-       		Time: 75.0,
-       		Category:Cooking,
-       		OnGiveXP:HCCooking_OnGiveXP,
-       }
-
 recipe Dry Yeast
     {
     SkillRequired:Cooking=5,
