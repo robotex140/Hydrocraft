@@ -9,6 +9,16 @@ require "Farming/farming_vegetableconf"
 
 local function noise(message) SFarmingSystem.instance:noise(message) end
 
+--Function added by Hugo, copied from vanilla MOFarming.lua
+--Called in NewPlant already, but function didn't exist, looks like someone just forgot to copy it over.
+local function removeExistingLuaObject(square)
+	local luaObject = SFarmingSystem.instance:getLuaObjectOnSquare(square)
+	if luaObject then
+		noise('removing luaObject at same location as newly-loaded isoObject')
+		SFarmingSystem.instance:removeLuaObject(luaObject)
+	end
+end
+
 local function NewPlant(isoObject, typeOfSeed)
 	local square = isoObject:getSquare()
 	removeExistingLuaObject(square)
