@@ -144,12 +144,13 @@ item HCTesttubebox
     } 
 
 item HCCork
-    {
-        Weight    		= 0.01,
-        Type    		= Normal,
-        DisplayName         	= Cork,
-        icon 			= HCCork,
-		DisplayCategory          =   CraftChem,
+    {	
+		DisplayCategory  =   CraftChem,
+        Weight    		 = 0.01,
+        Type    		 = Normal,
+        DisplayName      = Cork,
+        icon 			 = HCCork,
+		WorldStaticModel =  WorldItem-HCCork,			
     } 
 
 item HCCorkbox
@@ -532,6 +533,7 @@ item HCHydrogentankempty
         DisplayName         	= Empty Hydrogen Tank,
         icon 			= HCHydrogentank,
 		DisplayCategory          =   CraftChem,
+        WorldStaticModel = WorldItem-HCHydrogenTank,		
     }
 
 item HCHeliumtank
@@ -581,6 +583,7 @@ item HCHclgastank
         DisplayName             = Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
 		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCHCLTank,		
     }
 
 item HCHclgastankempty
@@ -590,6 +593,7 @@ item HCHclgastankempty
         DisplayName             = Empty Hydrogen Chloride Tank,
         icon             	= HCHclgastank,
 		DisplayCategory          =   CraftChem,
+		WorldStaticModel = WorldItem-HCHCLTank,		
     } 
 
 item HCTankfridge

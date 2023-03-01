@@ -85,7 +85,12 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCMovieTicket,
 		texture = Items/HC_Movie_CinemaTicket,
-    }			
+    }
+	model WorldItem-HCCork
+    {
+		mesh = WorldItems/WorldItem_Cork,
+		texture = Items/HC_Cork,
+    }	
 	model WorldItem-HCDeflatedBalloon
     {
 		mesh = WorldItems/WorldItem_HCDeflatedBalloon,
