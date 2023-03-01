@@ -135,6 +135,11 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCFishTank_Head,
 		texture = Items/HC_FishTankHead,
+    }
+	model WorldItem-HCHCLTank
+    {
+		mesh = WorldItems/WorldItem_HCHeliumTank,
+		texture = Items/HC_HCLTank,
     }	
 	model WorldItem-HCHeliumTank
     {
