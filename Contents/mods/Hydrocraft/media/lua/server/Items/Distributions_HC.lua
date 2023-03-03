@@ -4,6 +4,12 @@ HCSprites = {}
 
 SuburbsDistributions = SuburbsDistributions or {}
 
+local funtion insertInto(table1, table2)
+	for k,v in pairs table2 do
+		table.insert(table1, v)
+	end
+end
+
 --Ensures exisance of graphics.
 HCSprites.getSprites = function()
         getTexture("media/textures/Object_HCStonepillar.png");
@@ -76,7 +82,10 @@ insertTable(SuburbsDistributions["all"]["crate"].items, crate_items)
 local farmer_items = {
 	"Hydrocraft.HCMysteryseedspacket", 8, --same value as each of the vanilla seed packets
 }
-insertItemListsInDistribution( "all", "Outfit_Farmer", { farmer_items } );
+insertInto( SuburbsDistributions["all"]["Outfit_Farmer"]["items"], farmer_items )
+--This should fix the bug with Britas, if so the change can be made to all inserts.
+
+--insertItemListsInDistribution( "all", "Outfit_Farmer", { farmer_items } );
 
 
 local mres = {
