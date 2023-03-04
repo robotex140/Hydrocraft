@@ -91,17 +91,19 @@ insertInto( SuburbsDistributions["all"]["Outfit_Farmer"]["items"], farmer_items 
 local mres = {
 	"Hydrocraft.HCMRE", 10,
 }
-insertItemListsInDistributionSafely( "all", "Outfit_ArmyCamoDesert", { mres } )
-insertItemListsInDistributionSafely( "all", "Outfit_ArmyCamoGreen", { mres } )
-insertItemListsInDistributionSafely( "all", "Outfit_Ghillie", { mres } )
-insertItemListsInDistributionSafely( "all", "Outfit_Survivalist", { mres } )
-insertItemListsInDistributionSafely( "all", "Outfit_Survivalist02", { mres } )
-insertItemListsInDistributionSafely( "all", "Outfit_Survivalist03", { mres } )
+insertInto( SuburbsDistributions["all"]["Outfit_ArmyCamoDesert"]["items"], mres )
+insertInto( SuburbsDistributions["all"]["Outfit_ArmyCamoGreen"]["items"], mres )
+insertInto( SuburbsDistributions["all"]["Outfit_Ghillie"]["items"], mres )
+insertInto( SuburbsDistributions["all"]["Outfit_Survivalist"]["items"], mres )
+insertInto( SuburbsDistributions["all"]["Outfit_Survivalist02"]["items"], mres )
+insertInto( SuburbsDistributions["all"]["Outfit_Survivalist03"]["items"], mres )
+
+
 
 local binoculars = {
 	"Hydrocraft.HCBinoculars", 50
 }
-insertItemListsInDistributionSafely( "all", "Outfit_Hunter", { binoculars } )
+insertInto( SuburbsDistributions["all"]["Outfit_Hunter"]["items"], binoculars )
 
 local tools = {
 	"Hydrocraft.HCPliers", 25,
@@ -109,14 +111,15 @@ local tools = {
 	"Hydrocraft.HCManometer", 25,
 	"Hydrocraft.HCFile", 25
 }
-insertItemListsInDistributionSafely( "all", "Outfit_ConstructionWorker", { tools } )
-insertItemListsInDistributionSafely( "all", "Outfit_Foreman", { tools } )
+insertInto( SuburbsDistributions["all"]["Outfit_ConstructionWorker"]["items"], tools )
+insertInto( SuburbsDistributions["all"]["Outfit_Foreman"]["items"], tools )
+
 
 local calculator = {
 	"Hydrocraft.HCCalculator", 25
 }
-insertItemListsInDistributionSafely( "all", "Outfit_OfficeWorker", { calculator } )
-insertItemListsInDistributionSafely( "all", "Outfit_OfficeWorkerSkirt", { calculator } )
+insertInto( SuburbsDistributions["all"]["Outfit_OfficeWorker"]["items"], calculator )
+insertInto( SuburbsDistributions["all"]["Outfit_OfficeWorkerSkirt"]["items"], calculator )
 
 
 local zombie_items = {
