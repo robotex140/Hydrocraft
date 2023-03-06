@@ -203,20 +203,21 @@ item HCBabyfoodsquash
 
 item HCBabyfoodsweerpotato
 	{
-	HungerChange			=	-6,
-	Weight				=	0.5,
-	Type				=	Food,
-	UnhappyChange			=	-8,
-	DisplayName			=	Baby Food (Sweet Potatoes),
-	Icon				=	HCBabyfood7,
-	ReplaceOnUse			=	HCBabyfoodjar,
-	BoredomChange			=	-6,
-	FoodType    			=   	Vegetables,
+		DisplayCategory          =   FoodN,
+		Type				=	Food,
+		DisplayName			=	Baby Food (Sweet Potatoes),
+		Weight				=	0.5,
+		UnhappyChange			=	-8,
+		HungerChange			=	-6,
+		Icon				=	HCBabyfood7,
+		ReplaceOnUse			=	HCBabyfoodjar,
+		BoredomChange			=	-6,
+		FoodType    			=   	Vegetables,
         Carbohydrates 			= 	23.04,
         Proteins			= 	1.97,
         Lipids 				= 	0.17,
         Calories 			= 	99,
-	DisplayCategory          =   FoodN,
+		WorldStaticModel = WorldItem-HCBabyFood,		
 	}
 
 /************************MEAT************************/

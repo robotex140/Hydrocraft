@@ -251,11 +251,12 @@ item HCFolder
 
 item HCFolder2
     {
+		DisplayCategory	= Household,	
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= Folder,
         icon 			= HCFolder2,
-		DisplayCategory	= Useless,
+		WorldStaticModel = WorldItem-HCFolder2,		
     }
 
 item HCManilaenvelope
