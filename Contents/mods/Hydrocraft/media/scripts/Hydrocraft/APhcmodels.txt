@@ -235,11 +235,6 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem-HCMoney_Quarter,
 		texture = Items/Money_Quarter,
-    }
-	model WorldItem-HCOxygenTank
-    {
-		mesh = WorldItems/WorldItem_HCHeliumTank,
-		texture = Items/HC_OxygenTank,
     }	
 	model WorldItem-HCMoney_Penny
     {
@@ -267,6 +262,11 @@ module Hydrocraft
 		texture = Items/HC_OvenMitt,
         scale = 0.4,	
 	}
+	model WorldItem-HCOxygenTank
+    {
+		mesh = WorldItems/WorldItem_HCHeliumTank,
+		texture = Items/HC_OxygenTank,
+    }	
 	model WorldItem-HCPumpkinGreen
     {
 		mesh = WorldItems/WorldItem_SmallPumpkin,
@@ -327,5 +327,10 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCWeldingTank,
 		texture = Items/HC_WeldingTank,
+    }
+	model WorldItem-HCWhiteout
+    {
+		mesh = WorldItems/WorldItem_HCWhiteout,
+		texture = Items/HC_Office_Whiteout,
     }	
 }

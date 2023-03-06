@@ -175,11 +175,12 @@ item HCClipboard
 
 item HCWhiteout
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
+		DisplayCategory	 = Household,
+        Type    		 = Normal,	
         DisplayName         	= Whiteout,
         icon 			= HCWhiteout,
-		DisplayCategory	= Useless,
+        Weight    		= 0.1,
+		WorldStaticModel = WorldItem-HCWhiteout,		
     }
 
 item HCThumbtack
