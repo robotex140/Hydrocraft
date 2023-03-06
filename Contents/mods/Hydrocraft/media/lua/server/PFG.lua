@@ -74,18 +74,20 @@ PFGMenu.addInventoryContext = function(player,context,inventoryObjects)
 	
 	local items = inventoryObjects
 	for i,v in pairs(items) do
-		if v.cat == "Container" then		
-			--dont show push inside player inventory
-			if playerInventory:contains(v.items[i]) then return end
-			
-			local itemClicked = v.items[i]:getItemContainer()	
-			
+		if v.cat == "Container" then        
+		    --dont show push inside player inventory
+		    if playerInventory:contains(v.items[i]) then return end
+
+		    if v.items[i] then                
+			local itemClicked = v.items[i]:getItemContainer()
+
 			local type = itemClicked:getType()
 			for ti,tv in ipairs(PFGMenu.typesTable) do
-				if tv == type then 
-					local selectOption = context:addOption("Push Cart",v.items,PFGMenu.pushCart,player,v.items[i])
-				end
+			    if tv == type then 
+				local selectOption = context:addOption("Push Cart",v.items,PFGMenu.pushCart,player,v.items[i])
+			    end
 			end
+		    end
 		end
 	end
 	
