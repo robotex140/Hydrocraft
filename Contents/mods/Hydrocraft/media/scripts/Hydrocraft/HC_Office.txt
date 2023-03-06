@@ -242,11 +242,12 @@ item HCStamp
 
 item HCFolder
     {
+		DisplayCategory	= Household,
+		Type    		= Normal,
+        DisplayName         	= Folder,	
         Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Folder,
         icon 			= HCFolder,
-		DisplayCategory	= Useless,
+		WorldStaticModel = WorldItem-HCFolder2,			
     }
 
 item HCFolder2
@@ -256,7 +257,7 @@ item HCFolder2
         Type    		= Normal,
         DisplayName         	= Folder,
         icon 			= HCFolder2,
-		WorldStaticModel = WorldItem-HCFolder2,		
+	
     }
 
 item HCManilaenvelope
