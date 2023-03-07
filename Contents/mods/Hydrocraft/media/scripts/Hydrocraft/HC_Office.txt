@@ -175,11 +175,12 @@ item HCClipboard
 
 item HCWhiteout
     {
-        Weight    		= 0.1,
-        Type    		= Normal,
+		DisplayCategory	 = Household,
+        Type    		 = Normal,	
         DisplayName         	= Whiteout,
         icon 			= HCWhiteout,
-		DisplayCategory	= Useless,
+        Weight    		= 0.1,
+		WorldStaticModel = WorldItem-HCWhiteout,		
     }
 
 item HCThumbtack
@@ -242,20 +243,22 @@ item HCStamp
 
 item HCFolder
     {
+		DisplayCategory	= Household,
+		Type    		= Normal,
+        DisplayName         	= Folder,	
         Weight    		= 0.1,
-        Type    		= Normal,
-        DisplayName         	= Folder,
         icon 			= HCFolder,
-		DisplayCategory	= Useless,
+		WorldStaticModel = WorldItem-HCFolder2,			
     }
 
 item HCFolder2
     {
+		DisplayCategory	= Household,	
         Weight    		= 0.1,
         Type    		= Normal,
         DisplayName         	= Folder,
         icon 			= HCFolder2,
-		DisplayCategory	= Useless,
+	
     }
 
 item HCManilaenvelope

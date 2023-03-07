@@ -65,7 +65,17 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCAntFarm,
 		texture = Items/HC_AntFarmFull,
-    }		
+    }
+	model WorldItem-HCAuger
+    {
+		mesh = WorldItems/WorldItem_HCAuger,
+		texture = Items/HC_Auger,
+    }	
+	model WorldItem-HCBabyFood
+    {
+		mesh = WorldItems/WorldItem_HCBabyFood,
+		texture = Items/HC_BabyFood_SweetPotato,
+    }	
 	model WorldItem-HCBeehive
     {
 		mesh = WorldItems/WorldItem_HCBeehive,
@@ -136,6 +146,11 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem_HCFishTank_Head,
 		texture = Items/HC_FishTankHead,
     }
+	model WorldItem-HCFolder2
+    {
+		mesh = WorldItems/WorldItem_HCFolder2,
+		texture = Items/HC_FileCabinetFolder,
+    }	
 	model WorldItem-HCHCLTank
     {
 		mesh = WorldItems/WorldItem_HCHeliumTank,
@@ -220,11 +235,6 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem-HCMoney_Quarter,
 		texture = Items/Money_Quarter,
-    }
-	model WorldItem-HCOxygenTank
-    {
-		mesh = WorldItems/WorldItem_HCHeliumTank,
-		texture = Items/HC_OxygenTank,
     }	
 	model WorldItem-HCMoney_Penny
     {
@@ -252,6 +262,11 @@ module Hydrocraft
 		texture = Items/HC_OvenMitt,
         scale = 0.4,	
 	}
+	model WorldItem-HCOxygenTank
+    {
+		mesh = WorldItems/WorldItem_HCHeliumTank,
+		texture = Items/HC_OxygenTank,
+    }	
 	model WorldItem-HCPumpkinGreen
     {
 		mesh = WorldItems/WorldItem_SmallPumpkin,
@@ -312,5 +327,10 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCWeldingTank,
 		texture = Items/HC_WeldingTank,
+    }
+	model WorldItem-HCWhiteout
+    {
+		mesh = WorldItems/WorldItem_HCWhiteout,
+		texture = Items/HC_Office_Whiteout,
     }	
 }

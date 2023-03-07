@@ -127,11 +127,12 @@ item HCGlasscutter
 
 item HCAuger
     {
-        Weight    		= 25,
-        Type    		= Normal,
-        DisplayName         	= Auger,
-        icon 			= HCAuger,
-		DisplayCategory	= Tool,
+		DisplayCategory	 = Tool,
+		Type    		 = Normal,
+		DisplayName      = Auger,
+        Weight    		 = 25,      
+        icon 			 = HCAuger,	
+		WorldStaticModel = WorldItem-HCAuger,			
     }
 
 item HCWeldinghose
