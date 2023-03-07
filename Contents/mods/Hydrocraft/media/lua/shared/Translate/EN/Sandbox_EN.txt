@@ -6,7 +6,8 @@ Sandbox_EN = {
 	Sandbox_Hydrocraft_Spawn_Book_Covers = "Spawn Book Covers?"
 	Sandbox_Hydrocraft_Spawn_Book_Covers_tooltip = "Give book covers when you remove the cover of a book? (Useless item)"
 
-	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Spawn HC Cigarette Butts after a cig is smoked?"
+	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Spawn Cigarette Butts?"
+	Sandbox_Hydrocraft_Spawn_Cigarette_Butts = "Spawn HC cigarette butts after smoking?"
 
 	Sandbox_Hydrocraft_Spawn_Tobacco = "Spawn Hydrocraft Tobacco?"
 	Sandbox_Hydrocraft_Spawn_Tobacco_tooltip = "Spawn HC cigars and cigarettes in containers?"
