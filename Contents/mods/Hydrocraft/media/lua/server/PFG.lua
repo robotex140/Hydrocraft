@@ -78,7 +78,7 @@ PFGMenu.addInventoryContext = function(player,context,inventoryObjects)
 		    --dont show push inside player inventory
 		    if playerInventory:contains(v.items[i]) then return end
 
-		    if v.items[i] then                
+		    if i and v and v.items and v.items[i] and v.items[i].getItemContainer then                
 			local itemClicked = v.items[i]:getItemContainer()
 
 			local type = itemClicked:getType()
