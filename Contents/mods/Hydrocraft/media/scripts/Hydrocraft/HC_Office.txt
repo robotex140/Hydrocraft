@@ -20,20 +20,22 @@ item HCPencilsharpener
 
 item HCPencilbox
     {
-        Weight    		= 0.3,
-        Type    		= Normal,
-        DisplayName         	= Box of Pencils,
-        icon 			= HCPencilbox,
-		DisplayCategory	= LitW,
+		DisplayCategory	 = Household,
+		Type    		 = Normal,
+		DisplayName      = Box of Pencils,
+        Weight    		 = 0.3,
+        icon 			 = HCPencilbox,
+		WorldStaticModel = WorldItem-HCPencilbox,			
     }
 
 item HCPenbox
     {
-        Weight    		= 0.3,
-        Type    		= Normal,
-        DisplayName         	= Box of Pens,
-        icon 			= HCPenbox,
-		DisplayCategory	= LitW,
+		DisplayCategory	 = Household,
+		Type    		 = Normal,
+		DisplayName      = Box of Pens,
+        Weight    		 = 0.3,
+        icon 			 = HCPenbox,		
+		WorldStaticModel = WorldItem-HCPenbox,		
     }
 
 item HCStaples

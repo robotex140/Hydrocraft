@@ -10,38 +10,42 @@ module Hydrocraft
 
 item HCAxehandle
     {
-        Weight			= 1,
-        Type    		= Normal,
-        DisplayName         	= Axe Handle,
-        icon 			= HCAxehandle,
-		DisplayCategory	= CraftCarp,
+		DisplayCategory	 = CraftCarp,	
+		Type    		 = Normal,
+		DisplayName      = Axe Handle,
+        Weight			 = 1,
+        icon 			 = HCAxehandle,
+		WorldStaticModel = WorldItem-HCAxehandle,
     }
 
 item HCAxehead
     {
-        Weight			= 2,
-        Type    		= Normal,
-        DisplayName         	= Axe Head,
-        icon 			= HCAxehead,
-		DisplayCategory	= CraftMet,
+		DisplayCategory	 = CraftMet,	
+		Type    		 = Normal,
+		DisplayName      = Axe Head,			
+        Weight			 = 2,
+        icon 			 = HCAxehead,
+		WorldStaticModel = WorldItem-HCAxeHead,		
     }
 
 item HCAxeheadworn
     {
-        Weight			= 2,
-        Type    		= Normal,
-        DisplayName         	= Worn Axe Head,
-        icon 			= HCAxehead,
-		DisplayCategory	= CraftMet,
+		DisplayCategory	 = CraftMet,
+		Type    		 = Normal,
+        Weight			 = 2,
+        DisplayName      = Worn Axe Head,
+        icon 			 = HCAxehead,
+		WorldStaticModel = WorldItem-HCAxeHead,			
     }
 
 item HCAxeheadblunt
     {
-        Weight			= 2,
-        Type    		= Normal,
-        DisplayName         	= Blunt Axe Head,
-        icon 			= HCAxehead,
-		DisplayCategory	= CraftMet,
+        Weight			 = 2,
+        Type    		 = Normal,
+        DisplayName      = Blunt Axe Head,
+        icon 			 = HCAxehead,
+		DisplayCategory	 = CraftMet,
+		WorldStaticModel = WorldItem-HCAxeHead,			
     }
 
 /************************WEAPONS************************/

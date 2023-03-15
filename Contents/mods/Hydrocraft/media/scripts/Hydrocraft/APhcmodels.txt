@@ -70,6 +70,16 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCAuger,
 		texture = Items/HC_Auger,
+    }
+	model WorldItem-HCAxehandle
+    {
+		mesh = WorldItems/WorldItem_HCAxehandle,
+		texture = weapons/2handed/FireAxe,
+    }
+	model WorldItem-HCAxeHead
+    {
+		mesh = WorldItems/WorldItem_HCAxeHead,
+		texture = weapons/2handed/FireAxe,
     }	
 	model WorldItem-HCBabyFood
     {
@@ -266,12 +276,22 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCHeliumTank,
 		texture = Items/HC_OxygenTank,
+    }
+	model WorldItem-HCPencilbox
+    {
+		mesh = WorldItems/WorldItem_HCPencilBox,
+		texture = Items/HC_Office_Pencilbox,
+    }
+	model WorldItem-HCPenbox
+    {
+		mesh = WorldItems/WorldItem_HCPencilBox,
+		texture = Items/HC_Office_Penbox,
     }	
 	model WorldItem-HCPumpkinGreen
     {
 		mesh = WorldItems/WorldItem_SmallPumpkin,
 		texture = Items/HC_PumpkinGreen,
-    }	
+    }
 	model WorldItem-HCPumpkinWhite
     {
 		mesh = WorldItems/WorldItem_SmallPumpkin,
