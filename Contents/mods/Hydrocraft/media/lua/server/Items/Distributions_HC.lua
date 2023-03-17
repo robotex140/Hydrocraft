@@ -346,7 +346,8 @@ local bin_items = {
         "Hydrocraft.HCCereal2trash", 0.1,
         "Hydrocraft.HCCereal3trash", 0.1,
 }
-insertItemListsInDistribution( "all", "bin", { bin_items } );
+--insertItemListsInDistribution( "all", "bin", { bin_items } );
+insertInto( SuburbsDistributions["all"]["bin"]["items"], bin_items )
 
 
 ---------------------------------
@@ -372,7 +373,8 @@ local post_box_items = {
         "Hydrocraft.HCSportsmagazine", 1,
         "Hydrocraft.HCSportsmagazine2", 1,
 }
-insertItemListsInDistribution( "all", "postbox", { post_box_items } );
+--insertItemListsInDistribution( "all", "postbox", { post_box_items } );
+insertInto( SuburbsDistributions["all"]["postbox"]["items"], post_box_items )
 
 ---------------------------------------
 -- "All" Category Inventory Spawning --
@@ -478,7 +480,8 @@ local all_items = {
         "Hydrocraft.HCWireconcertina", 0.1,
         "Hydrocraft.HCFile", 0.1,
 }
-insertItemListsInDistribution( "all", "metal_shelves", { all_items } );
+--insertItemListsInDistribution( "all", "metal_shelves", { all_items } );
+insertInto( SuburbsDistributions["all"]["metal_shelves"]["items"], all_items )
 
 -- Add items for Vending Snack Machine
 local vendingsnack_items = {
@@ -507,7 +510,9 @@ local vendingsnack_items = {
         "Hydrocraft.HCCookiesmintbag", 1,
         "Hydrocraft.HCCookiesbrowniebag", 1,
 }
-insertItemListsInDistribution( "all", "vendingsnack", { vendingsnack_items } );
+--insertItemListsInDistribution( "all", "vendingsnack", { vendingsnack_items } );
+insertInto( SuburbsDistributions["all"]["vendingsnack"]["items"], vendingsnack_items )
+
 -- Add items for Vending Pop Machine
 local vendingpop_items = {
         "Hydrocraft.HCPop4", 1,
@@ -528,7 +533,8 @@ local vendingpop_items = {
         "Hydrocraft.HCWaterbottlegrapejuice", 1,
         "Hydrocraft.HCWaterbottleorangejuice", 1,
 }
-insertItemListsInDistribution( "all", "vendingpop", { vendingpop_items } );
+--insertItemListsInDistribution( "all", "vendingpop", { vendingpop_items } );
+insertInto( SuburbsDistributions["all"]["vendingpop"]["items"], vendingpop_items )
 
 
 -- Add items for Corn
