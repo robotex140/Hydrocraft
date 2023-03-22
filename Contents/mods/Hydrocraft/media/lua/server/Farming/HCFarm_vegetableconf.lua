@@ -1,7 +1,7 @@
 
 
 
-farming_vegetableconf.icons = {}
+--farming_vegetableconf.icons = {}
 farming_vegetableconf.icons["Carrots"] = "Item_Carrots";
 farming_vegetableconf.icons["Broccoli"] = "Item_Broccoli";
 farming_vegetableconf.icons["Radishes"] = "Item_TZ_LRRadish";
@@ -26,7 +26,7 @@ farming_vegetableconf.icons["Lemontree"] = "Item_Lemon"
 
 
 
-farming_vegetableconf.props = {};
+--farming_vegetableconf.props = {};
 
 
 -- Carrots (12 to 16 weeks to grow)
@@ -569,7 +569,7 @@ farming_vegetableconf.props["Lemontree"].numberOfVegetables2 = 0;
 
 
 
-farming_vegetableconf.sprite = {}
+--farming_vegetableconf.sprite = {}
 farming_vegetableconf.sprite["Carrots"] = {
 "vegetation_farming_01_32",
 "vegetation_farming_01_33",
