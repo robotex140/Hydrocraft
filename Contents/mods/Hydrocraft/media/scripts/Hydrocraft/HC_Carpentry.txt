@@ -2567,56 +2567,6 @@ recipe Make Chopsticks
         OnGiveXP:HCWoodwork_OnGiveTinyXP,
     }
 
-	recipe Create Infinite Logpile
-	{
-		Log,
-		Result:HCInfiniteLogpile,
-		Time:1,
-		Category:Carpentry,
-		OnGiveXP:Recipe.OnGiveXP.None,
-		CanBeDoneFromFloor:true,
-		IsHidden: true,
-	}
-
-	recipe Create Infinite Oak Logpile
-	{
-		HCOakLog,
-		Result:HCInfiniteLogpileOak,
-		Time:1,
-		Category:Carpentry,
-		OnGiveXP:Recipe.OnGiveXP.None,
-		CanBeDoneFromFloor:true,
-		IsHidden: true,
-	}
-
-	recipe Add Log
-	{
-		Log,
-		keep HCInfiniteLogpile,
-		Result:HCInfiniteLogpile,
-		RemoveResultItem:true,
-		Time:1,
-		OnCreate:HCAddLogToInfiniteLogpile,
-		Category:Carpentry,
-		OnGiveXP:Recipe.OnGiveXP.None,
-		CanBeDoneFromFloor:true,
-		IsHidden: true,
-	}
-
-	recipe Add Oak Log
-	{
-		HCOakLog,
-		keep HCInfiniteLogpileOak,
-		Result:HCInfiniteLogpileOak,
-		RemoveResultItem:true,
-		Time:1,
-		OnCreate:HCAddLogToInfiniteLogpileOak,
-		Category:Carpentry,
-		OnGiveXP:Recipe.OnGiveXP.None,
-		CanBeDoneFromFloor:true,
-		IsHidden: true,
-	}
-
 	recipe Remove Log
 	{
 		keep HCInfiniteLogpile,
