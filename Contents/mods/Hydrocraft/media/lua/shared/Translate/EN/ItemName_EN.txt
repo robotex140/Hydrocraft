@@ -1,0 +1,25 @@
+ItemName_EN = {
+
+	ItemName_Hydrocraft.BoxOfThings =  "Box of Things",
+	ItemName_Hydrocraft.HCBugnet =  "Bug Net",
+	ItemName_Hydrocraft.HCBugjar =  "Bug Jar",
+	ItemName_Hydrocraft.HCGlowstickblue =  "Blue Glowstick",
+	ItemName_Hydrocraft.HCGlowstickblueon =  "Blue Glowstick (ON)",
+	ItemName_Hydrocraft.HCGlowstickgreen =  "Green Glowstick",
+	ItemName_Hydrocraft.HCGlowstickgreenon =  "Green Glowstick (ON)",
+	ItemName_Hydrocraft.HCGlowstickred =  "Red Glowstick",
+	ItemName_Hydrocraft.HCGlowstickredon =  "Red Glowstick (ON)",
+	
+	ItemName_Hydrocraft.HCJarfireflies =  "Bug Jar",
+	
+	ItemName_Hydrocraft.HCLampshade =  "Lamp Shade",
+	ItemName_Hydrocraft.HCLavalamp =  "Lava Lamp",
+	ItemName_Hydrocraft.HCLaserpointer =  "Laser Pointer",
+	ItemName_Hydrocraft.HCLaserpointeron =  "Laser Pointer (ON)",
+	ItemName_Hydrocraft.HCLighterempty =  "Empty Lighter",
+	ItemName_Hydrocraft.HCLighterfluid =  "Lighter Fluid",
+	ItemName_Hydrocraft.HCRoadflare =  "Road Flare",
+	ItemName_Hydrocraft.HCRoadflareon =  "Road Flare (ON)",
+	
+	
+}

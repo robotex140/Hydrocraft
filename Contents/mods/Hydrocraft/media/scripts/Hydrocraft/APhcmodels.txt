@@ -4,6 +4,21 @@ module Hydrocraft
 {
   Base
 }
+	model HC_GlowstickBlueAZ
+	{
+		mesh = Weapons/1Handed/HC_AZGlowstick,
+		texture = Items/GlowstickBlue,
+	}
+	model HC_GlowstickGreenAZ
+	{
+		mesh = Weapons/1Handed/HC_AZGlowstick,
+		texture = Items/GlowstickGreen,
+	}
+	model HC_GlowstickRedAZ
+	{
+		mesh = Weapons/1Handed/HC_AZGlowstick,
+		texture = Items/GlowstickRed,
+	}	
 	model HC_Magnet_AP
     {
 		mesh = Weapons/1Handed/HC_Magnet,
@@ -106,6 +121,11 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem_HCMovieTicket,
 		texture = Items/HC_Movie_CinemaTicket,
     }
+	model WorldItem-HCCoffeeFilter
+    {
+		mesh = WorldItems/WorldItem_HCCoffeeFilter,
+		texture = Items/HC_CoffeeFilter,
+    }	
 	model WorldItem-HCCork
     {
 		mesh = WorldItems/WorldItem_Cork,
@@ -116,10 +136,20 @@ module Hydrocraft
 		mesh = WorldItems/WorldItem_HCDeflatedBalloon,
 		texture = Items/HC_BalloonTeal,
     }	
+	model WorldItem-HCDogbiscuit
+    {
+		mesh = WorldItems/WorldItem_HCDogBiscuit,
+		texture = Items/HC_DogBiscuit,
+    }	
 	model WorldItem-HCDriversLicense
     {
 		mesh = WorldItems/WorldItem_HCDriversLicense,
 		texture = Items/HC_DriversLicense,
+    }
+	model WorldItem-HCFile
+    {
+		mesh = WorldItems/WorldItem_HCFile,
+		texture = Items/HC_File,
     }	
 	model WorldItem-HCFloppyDisk
     {
@@ -160,6 +190,26 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCFolder2,
 		texture = Items/HC_FileCabinetFolder,
+    }
+	model WorldItem-GlowstickRedAZ
+	{
+		mesh =  WorldItems/WorldItem_AZGlowstick,
+		texture = Items/GlowstickRed,
+	}
+	model WorldItem-GlowstickBlueAZ
+	{
+		mesh =  WorldItems/WorldItem_AZGlowstick,
+		texture = Items/GlowstickBlue,
+	}
+	model WorldItem-GlowstickGreenAZ
+	{
+		mesh =  WorldItems/WorldItem_AZGlowstick,
+		texture = Items/GlowstickGreen,
+	}	
+	model WorldItem-HCHairDryer
+    {
+		mesh = WorldItems/WorldItem_HCHairdryer,
+		texture = Items/HC_HairDryer,
     }	
 	model WorldItem-HCHCLTank
     {
@@ -185,6 +235,11 @@ module Hydrocraft
     {
 		mesh = WorldItems/WorldItem_HCKeepOutSign,
 		texture = Items/HC_KeepoutSign,
+    }	
+	model WorldItem-HCLampshade
+    {
+		mesh = WorldItems/WorldItem_HCLampshade,
+		texture = Items/HC_LampShade,
     }	
 	model WorldItem-HCLicensePlate
     {

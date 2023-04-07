@@ -130,12 +130,13 @@ item HCNapkinholderfull
     }
 
 item HCCoffeefilterdry
-    {
-        Weight    			= 0.1,
-        Type    			= Normal,
-        DisplayName         		= Dry Coffee Filter,
+    {	
+		DisplayCategory     = Craft,
+		Type    			= Normal,
+		DisplayName         = Dry Coffee Filter,
+        Weight    			= 0.05, 
         icon 				= HCCoffeefilterdry,
-		DisplayCategory          =   Craft,
+		WorldStaticModel 	= WorldItem-HCCoffeeFilter,
     }
 	
 	item HCCoffeefilterbox

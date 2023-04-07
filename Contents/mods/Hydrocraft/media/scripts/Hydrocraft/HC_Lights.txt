@@ -22,11 +22,12 @@ item HCLavalamp
 
 item HCLampshade
     {
-        Weight    		=    	0.1,
-        Type    		=	Normal,
-        DisplayName    		=    	Lamp Shade,
-        Icon    		=    	HCLampshade,
-		DisplayCategory          =   Misc,
+        Weight    				 =    	0.1,
+        Type    				 =		Normal,
+        DisplayName    			 =    	Lamp Shade,
+        Icon    				 =    	HCLampshade,
+		DisplayCategory          =   	Misc,
+		WorldStaticModel 		 = 	  	WorldItem-HCLampshade,		
     }
 
 item HCRoadflare
@@ -54,22 +55,22 @@ item HCRoadflareon
 		UseDelta	=	0.003,
 		LightStrength	=	0.4,
 		DisplayName	=	Road Flare,
-		ActivatedItem	=	TRUE,
-		Icon		=	HCRoadflareon,
+		ActivatedItem			 =	  TRUE,
+		Icon					 =	  HCRoadflareon,
         primaryAnimMask 		 = 	  HoldingUmbrellaRight,
         secondaryAnimMask 		 = 	  HoldingUmbrellaLeft,		
         StaticModel 			 = 	  HC_RoadFlare_AP,
 	    AttachmentType 			 = 	  Hammer,			
-		WorldStaticModel = WorldItem-HCRoadFlare,		
+		WorldStaticModel 		 = 	  WorldItem-HCRoadFlare,		
 	}
 
 item HCLaserpointer
     {
-        Weight    =    0.5,
-        Type    =    Normal,
-        DisplayName    =    Laser Pointer,
-        Icon    =    HCLaserpointer,
-		DisplayCategory          =   LightSource,
+        Weight   				 =    0.5,
+        Type    				 =    Normal,
+        DisplayName   			 =    Laser Pointer,
+        Icon    				 =    HCLaserpointer,
+		DisplayCategory          =    LightSource,
     }
 
 
@@ -80,111 +81,141 @@ item HCLaserpointeron
 		DisplayName				 =	 Laser Pointer,		
 		Icon					 =	 HCLaserpointeron,	
 		Weight					 =	 0.5,		
-		LightDistance	=	30,
-		DisappearOnUse	=	FALSE,
-		TorchCone	=	TRUE,
-		UseDelta	=	0.0009,
-		LightStrength			 =	0.2,
-		ActivatedItem			 =	TRUE,
+		LightDistance			 =	 30,
+		DisappearOnUse			 =	 FALSE,
+		TorchCone				 =	 TRUE,
+		UseDelta				 =	 0.0009,
+		LightStrength			 =	 0.2,
+		ActivatedItem			 =	 TRUE,
 	}
 
 item HCGlowstickred
     {
-		DisplayCategory          =   LightSource,	
-        Weight    				 =    0.2,
-        Type    				 =    Normal,
-        DisplayName    			 =    Red Glowstick,
-        Icon    				 =    HCGlowstickred,
+		DisplayCategory         =   LightSource,
+		Type					=   Normal,
+		DisplayName    			=   Red Glowstick,
+        Weight    				=   0.2,
+        Icon    				=   HCGlowstickred,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+		StaticModel 			= 	HC_GlowstickRedAZ,
+		AttachmentType 			= 	Hammer,			
+		WorldStaticModel 		= 	WorldItem-GlowstickRedAZ,
     }
 
 
 item HCGlowstickredon
 	{
-		LightDistance	=	3,
-		Weight	=	0.2,
-		DisappearOnUse	=	FALSE,
-		Type	=	Drainable,
-		TorchCone	=	TRUE,
-		UseDelta	=	0.003,
-		LightStrength	=	0.4,
-		DisplayName	=	Red Glowstick,
-		ActivatedItem	=	TRUE,
-		Icon	=	HCGlowstickredon,
-		DisplayCategory          =   LightSource,
+		DisplayCategory          =  LightSource,
+		Type					 =	Drainable,
+		DisplayName				 =	Red Glowstick,
+		Icon					 =	HCGlowstickredon,
+		Weight					 =	0.2,
+		LightDistance			=	3,
+		DisappearOnUse			=	FALSE,
+		UseWhileUnequipped  	=   TRUE,		
+		UseDelta				=	0.002,
+		LightStrength			=	0.4,
+		ActivatedItem			=	TRUE,		
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+		StaticModel 			= 	HC_GlowstickRedAZ,
+		AttachmentType 			= 	Hammer,	
+		WorldStaticModel 		= 	WorldItem-GlowstickRedAZ,	
 	}
 
 item HCGlowstickblue
     {
-        Weight    =    0.2,
-        Type    =    Normal,
-        DisplayName    =    Blue Glowstick,
-        Icon    =    HCGlowstickblue,
-		DisplayCategory          =   LightSource,
+		DisplayCategory         =   LightSource,
+		Type    				=   Normal,
+		DisplayName    			=   Blue Glowstick,
+        Weight    				=   0.2,
+        Icon    				=   HCGlowstickblue,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+		StaticModel 			= 	HC_GlowstickBlueAZ,
+		AttachmentType 			= 	Hammer,			
+		WorldStaticModel 		= 	WorldItem-GlowstickBlueAZ,		
     }
 
 
 item HCGlowstickblueon
 	{
-		LightDistance	=	3,
-		Weight	=	0.2,
-		DisappearOnUse	=	FALSE,
-		Type	=	Drainable,
-		TorchCone	=	TRUE,
-		UseDelta	=	0.003,
-		LightStrength	=	0.4,
-		DisplayName	=	Blue Glowstick,
-		ActivatedItem	=	TRUE,
-		Icon	=	HCGlowstickblueon,
-		DisplayCategory          =   LightSource,
+		DisplayCategory         =   LightSource,
+		Type					=	Drainable,
+		DisplayName				=	Blue Glowstick,	
+		Icon					=	HCGlowstickblueon,
+		Weight					=	0.2,
+		LightDistance			=	3,
+		DisappearOnUse			=	FALSE,
+		UseWhileUnequipped  	=   TRUE,		
+		UseDelta				=	0.002,
+		LightStrength			=	0.4,
+		ActivatedItem			=	TRUE,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+		StaticModel 			= 	HC_GlowstickBlueAZ,
+		AttachmentType 			= 	Hammer,	
+		WorldStaticModel 		= 	WorldItem-GlowstickBlueAZ,	
 	}
 
 item HCGlowstickgreen
     {
-        Weight    =    0.2,
-        Type    =    Normal,
-        DisplayName    =    Green Glowstick,
-        Icon    =    HCGlowstickgreen,
-		DisplayCategory          =   LightSource,
+		DisplayCategory         =   LightSource,
+		Type    				=   Normal,
+		DisplayName    			=   Green Glowstick,
+        Weight    				=   0.2,
+        Icon    				=   HCGlowstickgreen,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+		StaticModel 			= 	HC_GlowstickGreenAZ,
+		AttachmentType 			= 	Hammer,	
+		WorldStaticModel 		= 	WorldItem-GlowstickGreenAZ,		
     }
 
 
 item HCGlowstickgreenon
 	{
-		LightDistance	=	3,
-		Weight	=	0.2,
-		DisappearOnUse	=	FALSE,
-		Type	=	Drainable,
-		TorchCone	=	TRUE,
-		UseDelta	=	0.003,
-		LightStrength	=	0.4,
-		DisplayName	=	Green Glowstick,
-		ActivatedItem	=	TRUE,
-		Icon	=	HCGlowstickgreenon,
-		DisplayCategory          =   LightSource,
+		DisplayCategory         =   LightSource,
+		Type    				=   Normal,
+		DisplayName    			=   Green Glowstick,
+        Weight    				=   0.2,
+		Icon					=	HCGlowstickgreenon,
+		LightDistance			=	3,
+		DisappearOnUse			=	FALSE,
+		UseWhileUnequipped  	=   TRUE,		
+		UseDelta				=	0.002,
+		LightStrength			=	0.4,
+		ActivatedItem			=	TRUE,
+        primaryAnimMask 		= 	HoldingUmbrellaRight,
+        secondaryAnimMask 		= 	HoldingUmbrellaLeft,
+		StaticModel 			= 	HC_GlowstickGreenAZ,
+		AttachmentType 			= 	Hammer,	
+		WorldStaticModel 		= 	WorldItem-GlowstickGreenAZ,		
 	}
-
-
-item HCLighterfluid
-    {
-        	Weight    		= 	0.2,
-		Type			= 	Drainable,
-		UseWhileEquipped	= 	FALSE,
-		UseDelta		= 	0.25,
-        	DisplayName         	= 	Lighter Fluid,
-        	icon 			= 	HCLighterfluid,
-		DisplayCategory          =   Fuel,
-    }
 
 item HCLighterempty
 	{
-		Weight			=	0.1,
-		Type			=	Normal,
-		DisplayName		=	Empty Lighter,
-		Icon			=	Lighter,
-		DisplayCategory	=	Fuel,
-		StaticModel		=	Zippo,
-		WorldStaticModel=	ZippoGround,
+		Weight			 =	0.05,
+		Type			 =	Normal,
+		DisplayName		 =	Empty Lighter,
+		Icon			 =	Lighter,
+		DisplayCategory	 =	Fuel,
+		StaticModel		 =	Zippo,
+		WorldStaticModel =	ZippoGround,
 	}
+	
+item HCLighterfluid
+    {
+		DisplayCategory     =   Fuel,
+		Type				= 	Drainable,
+		DisplayName         = 	Lighter Fluid,
+        Weight    			= 	0.2,
+		icon 				= 	HCLighterfluid,
+		UseWhileEquipped	= 	FALSE,
+		UseDelta			= 	0.25,
+       
+    }
 
 item HCFlashlightoff
     {
@@ -300,6 +331,7 @@ recipe Ignite Road Flare
     HCRoadflare,
     Result:HCRoadflareon,
     Time:15,
+	StopOnWalk:false,
     }
 
 recipe Turn on Laser Pointer
@@ -307,6 +339,7 @@ recipe Turn on Laser Pointer
     HCLaserpointer,
     Result:HCLaserpointeron,
     Time:15,
+	StopOnWalk:false,
     }
 
 recipe Shake Red Glowstick
@@ -314,6 +347,7 @@ recipe Shake Red Glowstick
     HCGlowstickred,
     Result:HCGlowstickredon,
     Time:15,
+	StopOnWalk:false,
     }	
 
 recipe Shake Blue Glowstick
@@ -321,6 +355,7 @@ recipe Shake Blue Glowstick
     HCGlowstickblue,
     Result:HCGlowstickblueon,
     Time:15,
+	StopOnWalk:false,
     }	
 
 recipe Shake Green Glowstick
@@ -328,6 +363,7 @@ recipe Shake Green Glowstick
     HCGlowstickgreen,
     Result:HCGlowstickgreenon,
     Time:15,
+	StopOnWalk:false,
     }	
 
 recipe Insert Battery

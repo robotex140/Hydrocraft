@@ -24,6 +24,7 @@ item HCFile
         DisplayName =   Metal File,
         Icon    =   HCFile,
 		DisplayCategory          =   CraftInd,
+		WorldStaticModel = WorldItem-HCFile,
     }
 
 item HCKillerRivet

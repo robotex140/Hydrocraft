@@ -83,12 +83,15 @@ item HCHaircolorred
     }
 
 item HCHairdryer
-    {
-        Weight    		= 1,
-        Type    		= Normal,
-        DisplayName         	= Hairdryer,
-        icon 			= HCHairdryer,
-		DisplayCategory = CraftElec,
+    {	
+		DisplayCategory  = CraftElec,
+        Weight    		 = 1,
+        Type    		 = Normal,
+        DisplayName      = Hairdryer,
+        icon 			 = HCHairdryer,	
+		AttachmentType  = 	Screwdriver,
+		StaticModel      =  WorldItem-HCHairDryer,		
+		WorldStaticModel = WorldItem-HCHairDryer,
     }
 
 item HCElectrictoothbrush
@@ -477,7 +480,6 @@ item HCStylingfoam
     {
         Weight    		= 0.1,
         Type    		= Normal,
-        DisplayName         	= Plunger,
         icon 			= HCPlunger,
 	DisplayCategory          =   Useless,
     }*/

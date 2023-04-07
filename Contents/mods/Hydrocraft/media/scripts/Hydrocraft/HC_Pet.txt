@@ -151,11 +151,12 @@ item HCDogbowl
 	}
 item HCDogbiscuit
 	{
-		Weight    		= 0.1,
-		Type    		= Normal,
+		DisplayCategory			= AnimalMisc,
+		Type    				= Normal,
 		DisplayName         	= Dog Biscuit,
-		icon 			= HCDogbiscuit,
-		DisplayCategory		=   AnimalMisc,
+		Weight    				= 0.1,
+		icon 					= HCDogbiscuit,
+		WorldStaticModel 		= WorldItem-HCDogbiscuit,			
 	}
 item HCDogkibble
 	{
