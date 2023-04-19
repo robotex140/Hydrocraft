@@ -196,6 +196,11 @@ item HCSpaceblanket
         AttachmentType      = Knife,
 		DisplayCategory          =   WepMelee,
 		Tags = CutPlant;SharpKnife,
+        HitFloorSound	=	KitchenKnifeHit,
+        ImpactSound	=	KitchenKnifeHit,
+        DoorHitSound = KitchenKnifeHit,
+		HitSound	=	KitchenKnifeHit,
+		SwingSound = KitchenKnifeSwing,
 	}
 
     item HCPaddlewood
