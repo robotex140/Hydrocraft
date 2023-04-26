@@ -309,17 +309,19 @@ recipe Cook with Rice Cooker
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 
-recipe Make Risotto
+	/*Note: if you edit this recipe to add partial ingredients, e.g. OilVegetable;1 then a custon OnCreate function will be required.  -Hugo.*/
+	recipe Make Risotto
 	{
-       		SkillRequired:Cooking=5,
-	    	destroy Pan,
+		SkillRequired:Cooking=5,
+		destroy Pan,
 		Water=2,
 		Rice/HCRicebrown,
 		Broccoli/HCBunchofshrooms/Egg/Carrots/HCPeapod,
 		Result:HCRisotto,
 		Time:90.0,
 		Category:Cooking,
-    		OnGiveXP:HCCooking_OnGiveXP,
+		OnGiveXP:HCCooking_OnGiveXP,
+		OnCreate:Hydrocraft.OnCreate.GenericFood,
 	}	
 	
 }
