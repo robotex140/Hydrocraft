@@ -1,26 +1,28 @@
 version=1
 id=2778991696
 title=HydroCraft b41 Continued
-description=[url=https://forms.gle/55hCSS6X811cCZ8m8] [h1][b] PLEASE PARTICIPATE IN THIS POLL TO IMPROVE THE MOD!  [/b][/h1] [/url]
-description=[h1]Latest Hydrocraft mod for b41 - for both MP & SP[/h1]
-description=[h1]recent update highlights 23-Feb-2023[/h1]
-description=[list]
-description=[*] Big update of models by AuthenticPeach and Detox. Thanks alot
-description=[*] Timetracker should now be fixed for MP
-description=[*] push from ground also now works in cars, so containers dont get stuck in seats
-description=[*] and much more in the change logs
-description=[/list]
-description=
-description=Hydrocraft is a mod based around crafting and filling in the empty world of zomboid with more stuff. It is inspired by survival crafting games like Haven and Hearth. This mod is currently the latest and the one that is being updated.
-description=
-description=There are 2 other main hydrocraft mods. One is the b40 version made by Hydromancerx and is no longer being updated. The other one is by David Hasihoff on steam. This was the [b]previous[/b] version of hydrocraft for b41, but is now no longer updated. I am now taking over with some help to continue fixing and improving Hydrocraft as a whole.
-description=
-description=
-description=If you need any help, feel free to come to this [url=https://discord.gg/hUMsjfApUt]discord[/url] to ask questions in the questions channel.
-description=
-description=We also now have a public [url=https://github.com/robotex140/Hydrocraft]github[/url] if you want to contribute or make bug reports and the like
-description=
-description=Workshop ID: 2778991696
+description=[url=https://forms.gle/55hCSS6X811cCZ8m8] [h1][b] PLEASE PARTICIPATE IN THIS POLL TO IMPROVE THE MOD!  [/b][/h1] [/url]
+description=[h1]Latest Hydrocraft mod for b41 - for both MP & SP[/h1]
+description=[h1]recent update highlights 7-May-2023[/h1]
+description=[list]
+description=[*] More models by AuthenticPeach. Thanks alot
+description=[*] more food recipes are nutrient accurate
+description=[*] bellows issues fixed
+description=[*] Problems caused by mods deleting distributions fixed
+description=[*] Cork spawns heavily increased in bins
+description=[*] And more in the change logs
+description=[/list]
+description=
+description=Hydrocraft is a mod based around crafting and filling in the empty world of zomboid with more stuff. It is inspired by survival crafting games like Haven and Hearth. This mod is currently the latest and the one that is being updated.
+description=
+description=There are 2 other main hydrocraft mods. One is the b40 version made by Hydromancerx and is no longer being updated. The other one is by David Hasihoff on steam. This was the [b]previous[/b] version of hydrocraft for b41, but is now no longer updated. I am now taking over with some help to continue fixing and improving Hydrocraft as a whole.
+description=
+description=
+description=If you need any help, feel free to come to this [url=https://discord.gg/hUMsjfApUt]discord[/url] to ask questions in the questions channel.
+description=
+description=We also now have a public [url=https://github.com/robotex140/Hydrocraft]github[/url] if you want to contribute or make bug reports and the like
+description=
+description=Workshop ID: 2778991696
 description=Mod ID: Hydrocraft
 tags=Build 41;Building;Clothing/Armor;Food;Items;Literature;Multiplayer;Weapons
 visibility=public
