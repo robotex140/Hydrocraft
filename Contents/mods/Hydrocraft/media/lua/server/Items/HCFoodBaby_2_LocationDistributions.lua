@@ -19,6 +19,8 @@ insertItemListsInProcDistribution( "KitchenRandom",  	  			{ HCbabyfood(1),     
 insertItemListsInProcDistribution( "CrateCannedFood",    			{ HCbabyfood(2),                           } );
 insertItemListsInProcDistribution( "KitchenDryFood",    			{ HCbabyfood(1),                           } );
 
-insertItemListsInDistribution( "all", "bin", { HCbabyfoodtrash(1) } );
+--Removed, was causing an error because of Britas deleting loot tables.
+--All this did was add empty baby food jars to bins
+--insertItemListsInDistribution( "all", "bin", { HCbabyfoodtrash(1) } );
 
 
