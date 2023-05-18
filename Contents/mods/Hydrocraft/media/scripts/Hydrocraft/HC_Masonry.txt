@@ -205,7 +205,7 @@ recipe Make Concrete Ingot
 
 recipe Make Concrete Block
     {
-	HCWoodenbucketconcrete,
+	[Recipe.GetItemTypes.BucketConcrete],
     	HCBlockmold,
     	CanBeDoneFromFloor:true,
     	Result:HCConcreteblock,
@@ -218,7 +218,7 @@ recipe Make Concrete Block
 recipe Make Hempcrete Block
     {
 	HCPlantfibers=3,
-	HCWoodenbucketconcrete,
+	[Recipe.GetItemTypes.BucketConcrete],
     	HCBlockmold,
     	CanBeDoneFromFloor:true,
     	Result:HCHempcreteblock,
@@ -231,7 +231,7 @@ recipe Make Hempcrete Block
 recipe Make Leadcrete Block
     {
 	HCLeadpowder=3,
-	HCWoodenbucketconcrete,
+	[Recipe.GetItemTypes.BucketConcrete],
     	HCBlockmold,
     	CanBeDoneFromFloor:true,
     	Result:HCLeadcreteblock,

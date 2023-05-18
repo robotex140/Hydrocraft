@@ -409,7 +409,7 @@ recipe Dig Fish Pond
 recipe Fill Pond Hole with Cement
     {
 	HCPondholedirt,
-    	HCWoodenbucketconcrete=8,
+    	[Recipe.GetItemTypes.BucketConcrete]=8,
     	keep HCMasontrowel,
     	CanBeDoneFromFloor:true,
     	Result:HCPondholecement,

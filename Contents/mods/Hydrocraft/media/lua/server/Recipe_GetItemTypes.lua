@@ -88,3 +88,7 @@ end
 function Recipe.GetItemTypes.Shit(scriptItems)
 	scriptItems:addAll(getScriptManager():getItemsTag("Shit"))
 end
+
+function Recipe.GetItemTypes.BucketConcrete(scriptItems)
+	scriptItems:addAll(getScriptManager():getItemsTag("BucketConcrete"))
+end
