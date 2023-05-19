@@ -12,6 +12,7 @@ description=[*] Problems caused by mods deleting distributions fixed
 description=[*] Cork spawns heavily increased in bins
 description=[*] And more in the change logs
 description=[/list]
+description=[h1] hotfix 19-may-2023 to fix items spawning on zombies added by hydrocraft[/h1]
 description=
 description=Hydrocraft is a mod based around crafting and filling in the empty world of zomboid with more stuff. It is inspired by survival crafting games like Haven and Hearth. This mod is currently the latest and the one that is being updated.
 description=
