@@ -519,7 +519,10 @@ if scriptItem then
 	scriptItem:DoParam("NylonAmount = 4")
 end
 
-
+scriptItem = ScriptManager.instance:getItem("Base.BucketConcreteFull")
+if scriptItem then
+	scriptItem:DoParam("Tags = BucketConcrete")
+end
 
 
 

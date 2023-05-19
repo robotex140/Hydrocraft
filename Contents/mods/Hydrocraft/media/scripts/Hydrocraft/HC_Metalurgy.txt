@@ -509,7 +509,7 @@ item HCCannonball
 recipe Make Smelter
     {
     	HCRedbrick=50,
-    	HCWoodenbucketconcrete=4,
+    	[Recipe.GetItemTypes.BucketConcrete]=4,
     	keep HCMasontrowel,
     	CanBeDoneFromFloor:true,
     	Result:HCSmelter,
@@ -557,7 +557,7 @@ recipe Make Bellows
 recipe Make Blast Furnace
     {
     	HCRedbrickbox,
-    	HCWoodenbucketconcrete=8,
+    	[Recipe.GetItemTypes.BucketConcrete]=8,
     	HCRopethick,
     	HCPully/HCPullyiron/HCPullywood,
     	Bellows,
@@ -609,7 +609,7 @@ recipe Upgrade to Blast Furnace
     {
         HCRedbrick=50,
         HCSmelter/HCSmelter2,
-        HCWoodenbucketconcrete=8,
+	   [Recipe.GetItemTypes.BucketConcrete]=8,
         HCRopethick,
         HCPully/HCPullyiron/HCPullywood,
         Bellows,
