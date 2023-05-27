@@ -121,7 +121,7 @@ function OnTestHasfourBerries(selectedBerry)
 			--print(" ** poison power=", x:getPoisonPower())
 			if(herbalist) then
 				if(x:getPoisonPower() == 0) then --else: don't count the poisonous berry.
-					berryCount = berrycount + 1
+					berryCount = berryCount + 1
 				end
 			else
 				berryCount = berryCount + 1

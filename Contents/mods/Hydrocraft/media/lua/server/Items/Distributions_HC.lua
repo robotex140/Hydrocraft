@@ -4,7 +4,7 @@ HCSprites = {}
 
 SuburbsDistributions = SuburbsDistributions or {}
 
-local funtion insertInto(table1, table2)
+local function insertInto(table1, table2)
 	for k,v in pairs(table2) do
 		table.insert(table1, v)
 	end

@@ -225,8 +225,9 @@ item HCWoodenbucketconcrete
 	DisplayName		=	Wooden Bucket with Concrete,
 	ReplaceOnDeplete	=	HCWoodenbucket,
 	Icon			=	HCWoodenbucketconcrete,
-		DisplayCategory	= CraftMas,
-	
+	DisplayCategory	= CraftMas,
+	Tags 			= 	BucketConcrete,
+		
 	}
 
 item HCCellar
@@ -291,7 +292,7 @@ recipe Construct Cellar
     {
     	HCMinehole,
 	HCStonepilebox=4,
-    	HCWoodenbucketconcrete=4,
+    	[Recipe.GetItemTypes.BucketConcrete]=4,
 	HCWoodbeam=4,
 	HCLumberstack,
 	HCSteelrod,
@@ -338,7 +339,7 @@ recipe Construct Tar Kiln
     {
     HCWoodenbucket,
     Stone=50,
-    HCWoodenbucketconcrete=4,
+    [Recipe.GetItemTypes.BucketConcrete]=4,
     keep HCMasontrowel,
     CanBeDoneFromFloor:true,
     Result:HCTarkiln,
@@ -352,7 +353,7 @@ recipe Construct Tar Kiln
     {
     HCWoodenbucket,
     SharpedStone=75,
-    HCWoodenbucketconcrete=4,
+    [Recipe.GetItemTypes.BucketConcrete]=4,
     keep HCMasontrowel,
     CanBeDoneFromFloor:true,
     Result:HCTarkiln,
@@ -383,7 +384,7 @@ recipe Construct Well
     	HCWoodenbucket,
 	HCCrank/HCCrankiron,
     	HCStonepilebox=3,
-    	HCWoodenbucketconcrete=8,
+    	[Recipe.GetItemTypes.BucketConcrete]=8,
     	Plank=3,
     	HCRopethick,
     	HCMinehole,
@@ -541,7 +542,7 @@ recipe Construct Oil Press
     	Stone=25,
     	Log=2,
     	HCStonewheel=2,
-    	HCWoodenbucketconcrete=4,
+    	[Recipe.GetItemTypes.BucketConcrete]=4,
     	CanBeDoneFromFloor:true,
     	Result:HCOilpress,
     	NeedToBeLearn:true,
@@ -609,7 +610,7 @@ recipe Make Stone Wheel
 recipe Construct Grindstone
     {
     	Stone=20,
-    	HCWoodenbucketconcrete=4,
+    	[Recipe.GetItemTypes.BucketConcrete]=4,
     	Result:HCGrindstone,
     	NeedToBeLearn:true,
     	Time:400,
@@ -635,7 +636,7 @@ recipe Build Stamp Mill
         Screws=16,
 	HCWoodbeam=2,
     	Plank=4,
-    	HCWoodenbucketconcrete=4,
+    	[Recipe.GetItemTypes.BucketConcrete]=4,
         SheetMetal=2,
 	HCSteelrod=5,
 	HCSteelingot=5,
