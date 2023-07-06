@@ -567,18 +567,6 @@ recipe Play Music
     	OnGiveXP:Recipe.OnGiveXP.None,
     }
 
-recipe Play Music
-    {
-	keep Base.Drumstick,
-    	keep HCDrumkit,
-    	CanBeDoneFromFloor:true,
-    	Result:HCDrumsticks,
-    	NeedToBeLearn:true,
-    	Time:500,
-    	OnCreate:HC_ToyStatModifier,
-    	Category:Leisure,
-    	OnGiveXP:Recipe.OnGiveXP.None,
-    }
 
 recipe Play Music
     {
