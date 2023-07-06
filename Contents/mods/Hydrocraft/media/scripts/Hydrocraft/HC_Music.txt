@@ -569,7 +569,7 @@ recipe Play Music
 
 recipe Play Music
     {
-	HCDrumsticks,
+	keep Base.Drumstick,
     	keep HCDrumkit,
     	CanBeDoneFromFloor:true,
     	Result:HCDrumsticks,
