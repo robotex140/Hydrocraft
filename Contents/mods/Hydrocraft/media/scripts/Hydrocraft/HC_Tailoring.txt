@@ -1006,7 +1006,7 @@ recipe Make Linen Thread
 recipe Make Linen Thread
     {
         HCFlax=3,
-        HCSpindle,
+        keep HCSpindle,
         keep HCSpinningwheel/HCTailoringbench2,
         Result:HCLinenthread,
         CanBeDoneFromFloor:true,
