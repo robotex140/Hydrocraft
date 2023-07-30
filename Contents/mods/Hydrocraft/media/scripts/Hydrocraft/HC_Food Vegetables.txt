@@ -748,7 +748,7 @@ item HCTomatillo
 		WorldStaticModel = PepperJalapeno_Ground,	
 	}
 
->>>>>>> Stashed changes
+/*>>>>>>> Stashed changes Why is this here?  It wasn't in comments, so was breaking things.*/
     item HCSquashsummer
     {
         Type				=		Food,

@@ -261,29 +261,6 @@ recipe Cook with Rice Cooker
 		OnGiveXP:HCCooking_OnGiveXP,
 	}
 	
-		recipe Make Pot of Chili
-	{
-		SkillRequired:Cooking=1,
-		HCRiceandbeanspot,
-		Onion/HCOniongreen,
-		Pepper/HCBellpeppergreen/HCBellpepperyellow,
-		Steak/BeefJerky/HCSimplejerky/HCTastyjerky,
-		Result:HCChilipot,
-		Time:95.0,
-		Category:Cooking,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}	
-	
-	recipe Fill Chili into Bowls
-	{
-		Bowl=4,
-		HCChilipot,
-		Result:HCChilibowl=4,
-		Time:50.0,
-		Category:Cooking,
-		OnCreate:recipe_hcpot,
-		OnGiveXP:HCCooking_OnGiveXP,
-	}
 	
 		recipe Make Pot of Rice Pudding
 	{
