@@ -1649,7 +1649,6 @@ recipe Refill Gunpowder
         OngiveXP:HCCooking_OnGiveXP,
     }
 
-
 recipe Make 9mm Bullets
     {
         keep HCFunnel,
@@ -1661,20 +1660,8 @@ recipe Make 9mm Bullets
         Category:Engineer,
         OngiveXP:Recipe.OnGiveXP.None,
     }
-
-recipe Make .223 Bullets
-    {
-        keep HCFunnel,
-        HCGunPowder=10,
-        HCBulletcasings=1,
-        HCBullettips=1,
-        Result:223Box,
-        Time:100,
-        Category:Engineer,
-        OngiveXP:Recipe.OnGiveXP.None,
-    }
-
-recipe Make .308 Bullets
+	
+recipe Make 308-WIN Bullets
     {
         keep HCFunnel,
         HCGunPowder=10,
@@ -1685,7 +1672,223 @@ recipe Make .308 Bullets
         Category:Engineer,
         OngiveXP:Recipe.OnGiveXP.None,
     }
+	
+recipe Make 22-LR Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets22Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	
+recipe Make 5.7x28mm Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets57Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 380-ACP Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets380Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	
+recipe Make 38-SPC Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets38Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	
+recipe Make 357-MAG Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets357Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	
+recipe Make 45-ACP Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets45Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 45-LC Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets45LCBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make .44-MAG Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets44Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 45-70 GOV Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets4570Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
 
+recipe Make 50 MAG Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:Bullets50MAGBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 223-REM Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:223Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 5.56x45mm Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:556Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 5.45x39mm Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:545x39Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 7.62x39mm Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:762x39Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 7.62x51mm-NATO Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:762x51Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 7.62x54mm-R Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:762x54rBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 30-06 SPRG Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:3006Box,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+		
+recipe Make 50-BMG Bullets
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:50BMGBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	
 recipe Make Shotgun Shells
     {
         keep HCFunnel,
@@ -1693,6 +1896,54 @@ recipe Make Shotgun Shells
         HCBuckshot=24,
         SheetPaper2=10,
         Result:ShotgunShellsBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+    	
+recipe Make 410g Shotgun Shells
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:410gShotgunShellsBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	    	
+recipe Make 20g Shotgun Shells
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:20gShotgunShellsBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	    	
+recipe Make 10g Shotgun Shells
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:10gShotgunShellsBox,
+        Time:100,
+        Category:Engineer,
+        OngiveXP:Recipe.OnGiveXP.None,
+    }
+	    	
+recipe Make 4g Shotgun Shells
+    {
+        keep HCFunnel,
+        HCGunPowder=10,
+        HCBulletcasings=1,
+        HCBullettips=1,
+        Result:4gShotgunShellsBox,
         Time:100,
         Category:Engineer,
         OngiveXP:Recipe.OnGiveXP.None,
