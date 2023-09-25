@@ -44,10 +44,10 @@ function MakeBunchOfBerries(items, result, player)
 	local books = player:getAlreadyReadBook()
 	local traits = player:getTraits()
 	
-	local hebalist = false
+	local herbalist = false
 	
 	if(books:contains("Base.HerbalistMag") or traits:contains("Herbalist")) then
-		hebalist = true
+		herbalist = true
 	end
 
 	local berries = { }
