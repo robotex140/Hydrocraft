@@ -618,6 +618,40 @@ recipe Make Arrow
     OnGiveXP:HCWoodwork_OnGiveTinyXP,
     }
 
+recipe Make BearX Bolt
+    {
+    HCAluminumingot,
+    [Recipe.GetItemTypes.BlacksmithTongs],
+    keep [Recipe.GetItemTypes.LeatherGloves],
+    keep HCFurnace2/HCBlastfurnace2,
+    HCBowBoltMold,
+    CanBeDoneFromFloor:true,
+    Result:Bolt_Bear=5,
+    Time:30,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
+recipe Make Fiberglass Arrow
+    {
+    HCFiberglass,
+    [Recipe.GetItemTypes.BlacksmithTongs],
+    keep [Recipe.GetItemTypes.LeatherGloves],
+    keep HCFurnace2/HCBlastfurnace2,
+    HCBowBoltMold,
+    CanBeDoneFromFloor:true,
+    Result:Arrow_Fiberglass=5,
+    Time:30,
+    NeedToBeLearn:true,
+    Time:1000,
+    Category:Smithing,
+    OnCreate:getBurned,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
+
 recipe Make Bolt
     {
     HCAluminumingot,
@@ -752,7 +786,17 @@ recipe Make Crossbow
     OnGiveXP:HCMechanicsWoodwork_OnGiveXP,
     }
 
-
+recipe Make Water Ammo NOT WORKING
+    {
+	Water,
+    CanBeDoneFromFloor:true,
+    Result:WaterAmmo=1,
+    Time:30,
+    NeedToBeLearn:false,
+    Time:250,
+    Category:Engineer,
+    OnGiveXP:HCWelding_OnGiveXP,
+    }
 
 /************************FIXING************************/
 
