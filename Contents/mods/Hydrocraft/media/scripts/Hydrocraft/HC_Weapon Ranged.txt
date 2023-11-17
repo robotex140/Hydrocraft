@@ -21,7 +21,7 @@ module Hydrocraft
         	DisplayName    	=    	Bone Arrowhead,
         	Icon        	=    	HCBonearrowhead,
         	Type        	=    	Normal,
-        	Weight        	=    	0.1,
+        	Weight        	=    	0.01,
 			DisplayCategory	=		CraftAmmo,
     	}
 
