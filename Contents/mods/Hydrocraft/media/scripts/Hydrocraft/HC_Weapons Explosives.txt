@@ -786,7 +786,7 @@ recipe Make Dynamite
        	HCSawdust=3,
        	HCMotoroil,
        	GunPowder=3, 
-	keep HCLab/HCLabbig,
+        keep HCLab2/HCLabbig2,
        	CanBeDoneFromFloor:true,
        	NeedToBeLearn:true,
        	Result:HCDynamite=3,

@@ -721,7 +721,7 @@ recipe Make Chalk Powder
 recipe Make Chalk Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCChalk/HCChalkrock,
         CanBeDoneFromFloor:true,
         Result:HCChalkpowder=2,
@@ -745,7 +745,7 @@ recipe Make Charcoal Powder
 recipe Make Charcoal Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         Charcoal,
         CanBeDoneFromFloor:true,
         Result:HCCharcoalpowder=2,
@@ -770,7 +770,7 @@ recipe Make Graphite Powder
 recipe Make Graphite Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCGraphite,
         CanBeDoneFromFloor:true,
         Result:HCGraphitepowder=2,
@@ -795,7 +795,7 @@ recipe Make Saltpeter Powder
 recipe Make Saltpeter Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCSaltpeter,
         CanBeDoneFromFloor:true,
         Result:HCSaltpeterpowder=2,
@@ -820,7 +820,7 @@ recipe Make Sulphur Powder
 recipe Make Sulphur Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCSulphur,
         CanBeDoneFromFloor:true,
         Result:HCSulphurpowder=2,
@@ -845,7 +845,7 @@ recipe Make Copper Powder
 recipe Make Copper Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCCopperore,
         CanBeDoneFromFloor:true,
         Result:HCCopperpowder=2,
@@ -870,7 +870,7 @@ recipe Make Tin Powder
 recipe Make Tin Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCTinore,
         CanBeDoneFromFloor:true,
         Result:HCTinpowder=2,
@@ -895,7 +895,7 @@ recipe Make Lead Powder
 recipe Make Lead Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCLeadore,
         CanBeDoneFromFloor:true,
         Result:HCLeadpowder=2,
@@ -920,7 +920,7 @@ recipe Make Iron Powder
 recipe Make Iron Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCIronore,
         CanBeDoneFromFloor:true,
         Result:HCIronpowder=2,
@@ -945,7 +945,7 @@ recipe Make Magnetite Powder
 recipe Make Magnetite Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCMagnetite,
         CanBeDoneFromFloor:true,
         Result:HCMagnetitepowder=2,
@@ -970,7 +970,7 @@ recipe Make Meteorite Powder
 recipe Make Meteorite Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCMeteorite,
         CanBeDoneFromFloor:true,
         Result:HCMeteoritepowder=2,
@@ -995,7 +995,7 @@ recipe Make Silver Powder
 recipe Make Silver Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCSilverore,
         CanBeDoneFromFloor:true,
         Result:HCSilverpowder=2,
@@ -1020,7 +1020,7 @@ recipe Make Gold Powder
 recipe Make Gold Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCGoldore,
         CanBeDoneFromFloor:true,
         Result:HCGoldpowder=2,
@@ -1045,7 +1045,7 @@ recipe Make Aluminum Powder
 recipe Make Aluminum Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCBauxiteore,
         CanBeDoneFromFloor:true,
         Result:HCAluminumpowder=2,
@@ -1070,7 +1070,7 @@ recipe Make Zinc Powder
 recipe Make Zinc Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCZincore,
         CanBeDoneFromFloor:true,
         Result:HCZincpowder=2,
@@ -1095,7 +1095,7 @@ recipe Make Nickel Powder
 recipe Make Nickel Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCNickelore,
         CanBeDoneFromFloor:true,
         Result:HCNickelpowder=2,
@@ -1120,7 +1120,7 @@ recipe Make Cobalt Powder
 recipe Make Cobalt Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCCobaltore,
         CanBeDoneFromFloor:true,
         Result:HCCobaltpowder=2,
@@ -1145,7 +1145,7 @@ recipe Make Chrome Powder
 recipe Make Chrome Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCChromeore,
         CanBeDoneFromFloor:true,
         Result:HCChromepowder=2,
@@ -1170,7 +1170,7 @@ recipe Make Tungsten Powder
 recipe Make Tungsten Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCTungstenore,
         CanBeDoneFromFloor:true,
         Result:HCTungstenpowder=2,
@@ -1184,7 +1184,7 @@ recipe Make Tungsten Powder
 recipe Make Titanium Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCTitaniumore,
         CanBeDoneFromFloor:true,
         Result:HCTitaniumpowder=2,
@@ -1222,7 +1222,7 @@ recipe Make Phosphorus Powder
 recipe Make Phosphorus Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCBerlinite/HCLapislazuli,
         CanBeDoneFromFloor:true,
         Result:HCPhosphoruspowder=2,
@@ -1247,7 +1247,7 @@ recipe Make Lithium Powder
 recipe Make Lithium Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCLithiumore,
         CanBeDoneFromFloor:true,
         Result:HCLithiumpowder=2,
@@ -1272,7 +1272,7 @@ recipe Make Lapis Lazuli Powder
 recipe Make Lapis Lazuli Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCLapislazuli,
         CanBeDoneFromFloor:true,
         Result:HCLapislazulipowder=2,
@@ -1297,7 +1297,7 @@ recipe Make Azurite Powder
 recipe Make Azurite Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCAzurite,
         CanBeDoneFromFloor:true,
         Result:HCAzuritepowder=2,
@@ -1322,7 +1322,7 @@ recipe Make Jade Powder
 recipe Make Jade Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCJade,
         CanBeDoneFromFloor:true,
         Result:HCJadepowder=2,
@@ -1347,7 +1347,7 @@ recipe Make Malachite Powder
 recipe Make Malachite Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCMalachite,
         CanBeDoneFromFloor:true,
         Result:HCMalachitepowder=2,
@@ -1372,7 +1372,7 @@ recipe Make Marble Powder
 recipe Make Marble Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCMarble,
         CanBeDoneFromFloor:true,
         Result:HCMarblepowder=2,
@@ -1397,7 +1397,7 @@ recipe Make Albite Powder
 recipe Make Albite Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCAlbite,
         CanBeDoneFromFloor:true,
         Result:HCAlbitepowder=2,
@@ -1422,7 +1422,7 @@ recipe Make Feldspar Powder
 recipe Make Feldspar Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCFeldspar,
         CanBeDoneFromFloor:true,
         Result:HCFeldsparpowder=2,
@@ -1447,7 +1447,7 @@ recipe Make Gypsum Powder
 recipe Make Gypsum Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCGypsum,
         CanBeDoneFromFloor:true,
         Result:HCGypsumpowder=2,
@@ -1472,7 +1472,7 @@ recipe Make Diatomite Powder
 recipe Make Diatomite Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCDiatomite,
         CanBeDoneFromFloor:true,
         Result:HCDiatomitepowder=2,
@@ -1496,7 +1496,7 @@ recipe Make Trona Powder
 recipe Make Trona Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCTrona,
         CanBeDoneFromFloor:true,
         Result:HCTronapowder=2,
@@ -1533,7 +1533,7 @@ recipe Make Thermite
     {
         Sparklers=10,
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         CanBeDoneFromFloor:true,
         Result:HCThermite=2,
         NeedToBeLearn:true,
@@ -1598,7 +1598,7 @@ recipe Fill Ammonal in Bag
 
 recipe Make Ephedrin Powder
     {
-        keep HCLab/HCMedicallab,
+        keep HCLab2/HCMedicallab2,
         HCEphedrine=15,
         Result:HCEphedrinepowder,
         CanBeDoneFromFloor:true,
@@ -1611,7 +1611,7 @@ recipe Make Ephedrin Powder
 recipe Make Ephedrin Powder
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCEphedrine=15,
         CanBeDoneFromFloor:true,
         Result:HCEphedrinepowder=2,
@@ -2052,7 +2052,7 @@ recipe Grind Solid Fuel Cube
 recipe Grind Solid Fuel Cube
     {
         keep HCMacerator,
-        PetrolCan,
+        [Recipe.GetItemTypes.Petrol],
         HCSolidfuelcube,
         CanBeDoneFromFloor:true,
         Result:HCHexapowder=2,

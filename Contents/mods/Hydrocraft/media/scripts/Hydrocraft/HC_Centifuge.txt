@@ -81,7 +81,7 @@ recipe Use Centrifiuge
 recipe Use Electrolyzer
     {
     	keep HCElectrolyzer,
-    	PetrolCan,
+    	[Recipe.GetItemTypes.Petrol],
     	HCObsidianpowder=12,
     	NeedToBeLearn:true,
     	Result:HCIronpowder,

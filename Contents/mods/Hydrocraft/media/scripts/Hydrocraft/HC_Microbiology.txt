@@ -222,6 +222,7 @@ recipe Examine Biowaste
         keep HCMedicallab2,
     	HCPetribiowaste,
     	Result:HCLatexgloves,
+        RemoveResultItem:true,
         CanBeDoneFromFloor:true,
     	Time:250,
     	NeedToBeLearn:true,

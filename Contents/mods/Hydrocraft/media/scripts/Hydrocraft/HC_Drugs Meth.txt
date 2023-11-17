@@ -80,7 +80,7 @@ recipe Make Homemade Crystal Meth
 recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
-        keep HCLabbig,
+        keep HCLabbig2,
         keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,
@@ -99,7 +99,7 @@ recipe Cook Blue Meth
 recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
-        keep HCLabbig,
+        keep HCLabbig2,
         keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,
@@ -117,7 +117,7 @@ recipe Cook Blue Meth
 recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
-        keep HCLabbig,
+        keep HCLabbig2,
         keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,
@@ -135,7 +135,7 @@ recipe Cook Blue Meth
 recipe Cook Blue Meth
     {
        	SkillRequired:Doctor=6,
-        keep HCLabbig,
+        keep HCLabbig2,
         keep HazmatSuit/HCImprovisedhazmat,
         BakingTray=5,
         HCAluminumpowder=5,

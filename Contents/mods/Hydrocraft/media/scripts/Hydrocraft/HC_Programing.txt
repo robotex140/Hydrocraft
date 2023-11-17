@@ -133,7 +133,7 @@ recipe Make Desktop Computer
 recipe Write Computer Program
     {
 	SkillRequired:Electricity=5,
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCFloppy,
 	keep HCBookbiology,
 	keep HCBookmicrobiology,
@@ -151,7 +151,7 @@ recipe Write Computer Program
 recipe Write Computer Program
     {
 	SkillRequired:Electricity=6,
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCFloppy,
 	keep HCFloppygraphics,
 	keep HCBookcalculus,
@@ -171,7 +171,7 @@ recipe Write Computer Program
 recipe Write Computer Program
     {
 	SkillRequired:Electricity=6,
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCFloppy,
 	keep HCFloppyaudio,
 	keep HCBookcalculus,
@@ -190,7 +190,7 @@ recipe Write Computer Program
 
 recipe Play Computer Game
     {
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCPCgame1,
 	keep HCComputerdesktop,
         CanBeDoneFromFloor:true,
@@ -202,7 +202,7 @@ recipe Play Computer Game
 
 recipe Play Computer Game
     {
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCPCgame2,
 	keep HCComputerdesktop,
         CanBeDoneFromFloor:true,
@@ -215,7 +215,7 @@ recipe Play Computer Game
 
 recipe Play Computer Game
     {
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCPCgame3,
 	keep HCComputerdesktop,
         CanBeDoneFromFloor:true,
@@ -228,7 +228,7 @@ recipe Play Computer Game
 
 recipe Play Computer Game
     {
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCPCgame4,
 	keep HCComputerdesktop,
         CanBeDoneFromFloor:true,
@@ -241,7 +241,7 @@ recipe Play Computer Game
 
 recipe Play Computer Game
     {
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCPCgame5,
 	keep HCComputerdesktop,
         CanBeDoneFromFloor:true,
@@ -254,7 +254,7 @@ recipe Play Computer Game
 
 recipe Play Computer Game
     {
-	PetrolCan,
+	[Recipe.GetItemTypes.Petrol],
 	HCPCgame6,
 	keep HCComputerdesktop,
         CanBeDoneFromFloor:true,
