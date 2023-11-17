@@ -956,7 +956,7 @@ recipe Research Blue Meth
     SkillRequired:Doctor=4,
 	Notebook,
 	Pencil/Pen,
-    keep HCLabbig,
+    keep HCLabbig2,
     keep HCBookchemistry,
 	keep HCBookpharmacology,
 	keep HCBookaluminumworking,

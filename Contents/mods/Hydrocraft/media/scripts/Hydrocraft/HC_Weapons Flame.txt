@@ -185,7 +185,7 @@ recipe Make Pot With Soap
 recipe Make Napalm
     {
        	HCPotmoltensoap,
-       	PetrolCan=2,
+       	[Recipe.GetItemTypes.Petrol]=2,
        	Result:HCPotnapalm,
        	Time:40.0,
        	Category:Chemistry,

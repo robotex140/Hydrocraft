@@ -686,7 +686,7 @@ recipe Make Bone Powder
 recipe Make Bone Powder
     	{
     		keep HCMacerator,
-    		PetrolCan,
+    		[Recipe.GetItemTypes.Petrol],
     		HCBone/HCZombiebones,
     		CanBeDoneFromFloor:true,
     		Result:HCBonepowder=2,
@@ -710,7 +710,7 @@ recipe Make Shell Powder
 recipe Make Shell Powder
     	{
     		keep HCMacerator,
-    		PetrolCan,
+    		[Recipe.GetItemTypes.Petrol],
     		HCMusselshell,
     		CanBeDoneFromFloor:true,
     		Result:HCShellpowder=2,

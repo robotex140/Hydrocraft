@@ -700,9 +700,9 @@ recipe Anchor Laboratory
 
 recipe Anchor Professional Lab
     {
-    HCLabbig2,
+    HCLabbig,
     CanBeDoneFromFloor:true,
-    Result:HCLabbig,
+    Result:HCLabbig2,
     Time:100,
     Category:Anchor,
     }

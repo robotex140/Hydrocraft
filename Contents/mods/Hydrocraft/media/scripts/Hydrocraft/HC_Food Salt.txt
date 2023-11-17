@@ -429,7 +429,7 @@ recipe Make Salt Powder
 recipe Make Salt Powder
     {
     keep HCMacerator,
-    PetrolCan,
+    [Recipe.GetItemTypes.Petrol],
     HCRocksalt,
     CanBeDoneFromFloor:true,
     Result:HCSaltpowder=10,

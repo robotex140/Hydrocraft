@@ -356,7 +356,7 @@ recipe Grind Tobacco
 recipe Grind Tobacco
     {
     	keep HCMacerator,
-    	PetrolCan,
+    	[Recipe.GetItemTypes.Petrol],
    	HCTobaccoleafdry,
     	CanBeDoneFromFloor:true,
     	Result:HCTobacco=2,

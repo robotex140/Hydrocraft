@@ -833,7 +833,7 @@ recipe Seal Biowaste
 
 recipe Fill Empty Metal Barrel With Gasoline
     {
-    	PetrolCan=20,
+    	[Recipe.GetItemTypes.Petrol]=20,
         HCBarrelmetalempty,
         keep HCFunnel/HCGlassfunnel,
         Result:HCBarrelmetalgasoline,
@@ -854,7 +854,7 @@ recipe Fill Empty Metal Barrel With Gasoline
 
 recipe Fill Empty Gasoline Barrel With Gasoline
     {
-    	PetrolCan=20,
+    	[Recipe.GetItemTypes.Petrol]=20,
         HCGasolinebarrelempty,
         keep HCFunnel/HCGlassfunnel,
         Result:HCGasolinebarrelfull,
