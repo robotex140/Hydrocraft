@@ -479,7 +479,7 @@ recipe Grind Coffee
 		SkillRequired:Cooking=2,
 		destroy HCCanteen,
 		Banana=2,
-		HCBunchofberries,
+		HCPopbottlestrawberryjuice,
 		HCSpirulinafresh=5,
 		HCBlenderpowered,
 		Result:HCFitnessdrink,
