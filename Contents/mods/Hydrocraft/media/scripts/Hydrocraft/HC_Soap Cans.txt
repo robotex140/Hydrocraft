@@ -499,27 +499,6 @@ recipe Fill Empty Soap Can With Hydrogen Peroxide
     	Category:Chemistry,
     }
 
-recipe Fill Empty Soap Can With Honey
-    {
-    	destroy HCWoodenbuckethoney,
-    	HCDetergentempty,
-        keep HCFunnel/HCGlassfunnel,
-    	Result:HCDetergenthoney,
-    	Time:50,
-        OnCreate:recipe_hcgetwoodenbucket,
-	Category:Cooking,
-    }
-
-
-recipe Fill Empty Soap Can With Honey
-    {
-    	HCPlasticcanhoney=4,
-    	HCDetergentempty,
-        keep HCFunnel/HCGlassfunnel,
-    	Result:HCDetergenthoney,
-    	Time:50,
-	Category:Cooking,
-    }
 
 recipe Fill Empty Soap Can With Milk Of Lime
     {
