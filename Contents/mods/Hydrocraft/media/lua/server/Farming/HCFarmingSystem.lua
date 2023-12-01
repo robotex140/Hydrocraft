@@ -54,6 +54,9 @@ function SFarmingSystem:harvest(luaObject, player)
 	if player then
 		player:sendObjectChange('addItemOfType', { type = props.vegetableName, count = numberOfVeg })
 	end
+	if props.vegetableName2 ~= "" then
+		player:sendObjectChange('addItemOfType', { type = props.vegetableName2, count = numberOfVeg })
+	end
 
 	if luaObject.hasSeed and player then
 		player:sendObjectChange('addItemOfType', { type = props.seedName, count = (props.seedPerVeg * numberOfVeg) })

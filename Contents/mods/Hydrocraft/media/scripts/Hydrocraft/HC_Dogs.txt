@@ -1050,21 +1050,21 @@ recipe Attach Armor to Dog
     }
 
 recipe Remove Armor from Wardog
-    {
-	HCPitbullmalewar/HCPitbullmalewarSpiked,
-    Result:HCPitbullmaleinjured,
-    Time:50.0,
-    NeedToBeLearn:true,
-    Category:Ranching,
-    }
+   {
+		HCPitbullmalewar/HCPitbullmalewarSpiked,
+   	Result:HCPitbullmaleinjured,
+   	Time:50.0,
+   	NeedToBeLearn:true,
+   	Category:Ranching,
+   }
 
 recipe Remove Armor from Wardog
     {
-	HCPitbullfemalewar,
-    Result:HCPitbullfemaleinjured,
-    Time:50.0,
-    NeedToBeLearn:true,
-    Category:Ranching,
+		HCPitbullfemalewar,
+   	Result:HCPitbullfemaleinjured,
+   	Time:50.0,
+   	NeedToBeLearn:true,
+   	Category:Ranching,
     }
 
 recipe Attach Armor to Dog
@@ -1348,59 +1348,57 @@ recipe Remove Armor from Wardog
 
 recipe Heal Dog
     {
-	SkillRequired:Doctor=1,
-        HCPitbullmaleinjured,
-	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
-	Pills,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-	Result:HCPitbullmale,
-	Time:500.0,
-	Category:Health,
-        OnGiveXP:Healdog_OnGiveXP,
+		SkillRequired:Doctor=1,
+	   HCPitbullmaleinjured,
+		Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,Pills,
+	   CanBeDoneFromFloor:true,
+	   NeedToBeLearn:true,
+		Result:HCPitbullmale,
+		Time:500.0,
+		Category:Health,
+	   OnGiveXP:Healdog_OnGiveXP,
     }
 
 recipe Heal Dog
     {
-	SkillRequired:Doctor=1,
-    HCPitbullfemaleinjured,
-	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
-	Pills,
-    CanBeDoneFromFloor:true,
-    NeedToBeLearn:true,
-	Result:HCPitbullfemale,
-	Time:500.0,
-	Category:Health,
-    OnGiveXP:Healdog_OnGiveXP,
+		SkillRequired:Doctor=1,
+	   HCPitbullfemaleinjured,
+		Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,Pills,
+	   CanBeDoneFromFloor:true,
+	   NeedToBeLearn:true,
+		Result:HCPitbullfemale,
+		Time:500.0,
+		Category:Health,
+	   OnGiveXP:Healdog_OnGiveXP,
     }
 
 recipe Heal Dog
-    {
-	SkillRequired:Doctor=1,
-        HCDobermanmaleinjured,
-	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
-	Pills,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-	Result:HCDobermanmale,
-	Time:500.0,
-	Category:Health,
-        OnGiveXP:Healdog_OnGiveXP,
-    }
+   {
+		SkillRequired:Doctor=1,
+	   HCDobermanmaleinjured,
+		Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,Pills,
+	   CanBeDoneFromFloor:true,
+	   NeedToBeLearn:true,
+		Result:HCDobermanmale,
+		Time:500.0,
+		Category:Health,
+	   OnGiveXP:Healdog_OnGiveXP,
+   }
 
 recipe Heal Dog
     {
-	SkillRequired:Doctor=1,
-        HCDobermanfemaleinjured,
-	Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,
-	Pills,
-        CanBeDoneFromFloor:true,
-        NeedToBeLearn:true,
-	Result:HCDobermanfemale,
-	Time:500.0,
-	Category:Health,
-        OnGiveXP:Healdog_OnGiveXP,
+		SkillRequired:Doctor=1,
+   	HCDobermanfemaleinjured,
+		Bandaid/AlcoholBandage/HCDiaperAlcohol/AlcoholRippedSheets/HCMenstrualpadAlcohol,Pills,
+   	CanBeDoneFromFloor:true,
+   	NeedToBeLearn:true,
+		Result:HCDobermanfemale,
+		Time:500.0,
+		Category:Health,
+   	OnGiveXP:Healdog_OnGiveXP,
     }
+
+
 
 
 /************************FIXING************************/
@@ -1408,17 +1406,9 @@ recipe Heal Dog
 
 fixing Provide first aid to Wardog
     {
-        Require : HCPitbullmalewar;HCPitbullfemalewar;HCDobermanmalewar;HCDobermanfemalewar,
+        Require : HCPitbullmalewar;HCPitbullfemalewar;HCDobermanmalewar;HCDobermanfemalewar;HCDobermanmalewarSpiked;HCPitbullmalewarSpiked,
         GlobalItem : Bandage,
         Fixer : Pills,
         ConditionModifier : 0.4,
-    }
-
-
-
-
-
-
-
-				
+    }				
 }

@@ -791,10 +791,10 @@ recipe Make Homemade Pancakes
 recipe Make Sourdough Starter
        {
        		SkillRequired:Cooking=5,
-      	 	Flour/HCRiceflour,
+      	 	Flour/HCRiceflour/HCWholemealflour,
        		Water,
-       		Sugar;2,
-       		Yeast=4,
+       		Sugar;1,
+       		Yeast=1,
        		destroy HCJar,
        		Result:HCSourdoughstarter,
     		NeedToBeLearn:true,

@@ -150,16 +150,6 @@ item HCHoneypowder
 	}
 
 
-item HCWoodenbuckethoney
-    {
-        Weight    			= 4,
-        Type    			= Normal,
-        DisplayName         		= Wooden Bucket with Honey,
-        icon 				= HCWoodenbuckethoney,
-		DisplayCategory          =   SurApi,
-    }
-
-
 item HCHoneycomb
 	{
 	Weight 				= 0.3,
@@ -343,9 +333,9 @@ recipe Harvest Wild Beehive
 
 recipe Process Honeycomb
     {
-       HCWoodenbucket,
+       HCJar,
 	   HCHoneycomb=4,
-       Result:HCWoodenbuckethoney,
+       Result:HCJarhoney,
        NeedToBeLearn:true,
        Time:50.0,
 	   Category:Cooking,
@@ -353,18 +343,6 @@ recipe Process Honeycomb
        OnGiveXP:HCCooking_OnGiveXP,
     }
 
-
-recipe Jar Honey
-    {
-        SkillRequired:Cooking=4,
-        HCJar=4,
-        HCWoodenbuckethoney,
-        Result:HCJarhoney=4,
-        Time:50.0,
-        Category:Cooking,
-        OnCreate:recipe_hcwoodenbucket,
-        OnGiveXP:HCCooking_OnGiveXP,
-    }
 
 recipe Make Bee Smoker
 	{
@@ -441,11 +419,4 @@ recipe Make Bag of Sugar
     	OnGiveXP:HCCooking_OnGiveXP,
     }
 
-	recipe Empty Wooden Bucket with Honey
-    {
-		destroy HCWoodenbuckethoney,
-		Result:HCWoodenbucket,
-		Time:50,
-		Category:Farming,
-    }
 }
